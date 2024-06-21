@@ -41,6 +41,20 @@
       "error": null
     }
   ],
+  "48e6b8e1d297e7024685e899687bd36f332e60f4a1f43b09bc78e11c331b998a": [
+    {
+      "repository": "https://github.com/dubrowgn/micro-timer.git",
+      "apk_url": "https://github.com/dubrowgn/micro-timer/releases/download/v1.9/micro-timer-1.9.apk",
+      "appid": "dubrowgn.microtimer",
+      "version_code": 9,
+      "version_name": "1.9",
+      "tag": "v1.9",
+      "commit": "9d05e0cbddb737706377311e27560e6e6905d2cb",
+      "timestamp": 1718930839,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f648f21bc0ea9c98c0da4a1f4eb03295ff03c6704405f9ea2383922eda2cdcfe": [
     {
       "repository": "https://github.com/plateaukao/quickrotate.git",
@@ -54,4 +68,19 @@
       "reproducible": true,
       "error": null
     }
+  ],
+  "57443b3cdc44ed7c0f2a2754312c920315493855c8bd6ed0f333b9d04af72148": [
+    {
+      "repository": "https://github.com/danielyrovas/linklater.git",
+      "apk_url": "https://github.com/danielyrovas/linklater/releases/download/0.1.11/linklater-release.apk",
+      "appid": "org.yrovas.linklater",
+      "version_code": 12,
+      "version_name": "0.1.11",
+      "tag": "0.1.11",
+      "commit": "5d77d9373f704118e96ece4aaa22aa020f93da0e",
+      "timestamp": 1718931051,
+      "reproducible": true,
+      "error": null
+    }
+  ]
 }
