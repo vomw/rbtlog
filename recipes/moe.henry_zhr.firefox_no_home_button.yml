@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Henry-ZHR/firefox_no_home_button.git
 updates: releases
+notes:
+  - needs the commit hash to be updated from source APK
 versions:
   - tag: v5
     apks:
