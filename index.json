@@ -97,6 +97,20 @@
       "error": null
     }
   ],
+  "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.2/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 42,
+      "version_name": "1.5.2",
+      "tag": "1.5.2",
+      "commit": "bec313c08148deb02fe7b05a69ec1ed218aacca1",
+      "timestamp": 1718992061,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpvryo23s7/outputs:/outputs', '--volume', '/tmp/tmpvryo23s7/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/nuclearfog/Apollo-Music.git', '--env', 'APP_TAG=1.5.2', '--env', 'APP_COMMIT=bec313c08148deb02fe7b05a69ec1ed218aacca1', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "57443b3cdc44ed7c0f2a2754312c920315493855c8bd6ed0f333b9d04af72148": [
     {
       "repository": "https://github.com/danielyrovas/linklater.git",
