@@ -1,0 +1,42 @@
+---
+repository: https://github.com/99keshav99/CaptureSposed.git
+updates: releases
+versions:
+  - tag: 1.0.5
+    apks:
+      - apk_pattern: CaptureSposed-.*\.apk
+        apk_url: https://github.com/99keshav99/CaptureSposed/releases/download/1.0.5/CaptureSposed-1.0.5.apk
+        build:
+          - sed -i -e '/maven.pkg.github.com/d' libxposed/api/api/build.gradle.kts libxposed/service/service/build.gradle.kts libxposed/service/interface/build.gradle.kts
+          - pushd libxposed/api
+          - ../../gradlew publishToMavenLocal
+          - popd
+          - pushd libxposed/service
+          - ../../gradlew publishToMavenLocal
+          - popd
+          - ./gradlew assembleRelease
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - git clone -b v0.2.7 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-newlines "$OUT" 'META-INF/services/*'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - openjdk-17-jdk-headless
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
