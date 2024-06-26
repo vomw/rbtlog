@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: '1.2'
     apks:
-      - apk_pattern: WeatherShortcut-release\.apk
+      - apk_pattern: WeatherShortcut-release-.*\.apk
         apk_url: https://github.com/Kaiserdragon2/WeatherShortcut/releases/download/1.2/WeatherShortcut-release-1.2.apk
         build:
           - chmod +x gradlew
