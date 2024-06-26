@@ -727,6 +727,20 @@
       "error": null
     }
   ],
+  "674c018adc5b437d1f3eaa2ddecb73ef1ebd4e839062fa1e0dc963570abf48e8": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.4/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 44,
+      "version_name": "1.5.4",
+      "tag": "1.5.4",
+      "commit": "f7d3a8622b99ebf796c151aa016c9ea4f97e8f0b",
+      "timestamp": 1719430620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57443b3cdc44ed7c0f2a2754312c920315493855c8bd6ed0f333b9d04af72148": [
     {
       "repository": "https://github.com/danielyrovas/linklater.git",
@@ -737,6 +751,20 @@
       "tag": "0.1.11",
       "commit": "5d77d9373f704118e96ece4aaa22aa020f93da0e",
       "timestamp": 1718931051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f129a1782cc822d8da919edadc6368c241e61ce76166fd66739a9bd2eca3073a": [
+    {
+      "repository": "https://github.com/danielyrovas/linklater.git",
+      "apk_url": "https://github.com/danielyrovas/linklater/releases/download/1.14/linklater-release.apk",
+      "appid": "org.yrovas.linklater",
+      "version_code": 15,
+      "version_name": "1.14",
+      "tag": "1.14",
+      "commit": "ad66f8e3311397db4ce8d1030df41dfb9d70b640",
+      "timestamp": 1719430871,
       "reproducible": true,
       "error": null
     }
