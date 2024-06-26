@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: v4.0
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: pill_time.*\.apk
         apk_url: https://github.com/cliambrown/PillTime/releases/download/v4.0/app-release.apk
         build:
           - git reset --soft 33877e53f2b5cfd4286369ab6b90bff8d31dee57
