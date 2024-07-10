@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/jocmp/capyreader.git
-updates: releases
+updates: manual
+notes:
+  - packageName changed to com.capyreader.app, dropping the suffix
 versions:
   - tag: 2024.07.1003
     apks:
