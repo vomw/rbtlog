@@ -13,6 +13,20 @@
       "error": null
     }
   ],
+  "44f74092ea6c238fb216556535208672b86731cc439ca1752372c2d18b3ba0e6": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v1.49_beta/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 149,
+      "version_name": "1.49_beta",
+      "tag": "v1.49_beta",
+      "commit": "86cee87bf5ffbb253b4ea245dcb0d30af9ef61d4",
+      "timestamp": 1720567983,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -205,6 +219,20 @@
       "tag": "0.0.4",
       "commit": "288bbd56a4c848b5a6b71d391f71ef8dc720300a",
       "timestamp": 1720424955,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6128077545e75ebec2115c32ac8a6dd25a3d747a264128e50d2239ee2a267c95": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.0.5/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 5,
+      "version_name": "0.0.5",
+      "tag": "0.0.5",
+      "commit": "ab55c85b773dc85bb636aefb4c1b9fbeb1eb1f86",
+      "timestamp": 1720568322,
       "reproducible": true,
       "error": null
     }
@@ -485,6 +513,20 @@
       "tag": "0.7.0",
       "commit": "f006fb501566844d085fad879003097c10e7451d",
       "timestamp": 1720442438,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "25f3bd410ad6ffe5f8b899f65d44a7dbfdd9a4354e85e288147fe1f41bbd9b95": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/0.8.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 3,
+      "version_name": "0.8.0",
+      "tag": "0.8.0",
+      "commit": "95d3183f8b7953cf0fde0ae5ec41e6ef28643bb6",
+      "timestamp": 1720569134,
       "reproducible": true,
       "error": null
     }
