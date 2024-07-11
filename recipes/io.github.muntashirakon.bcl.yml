@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: v1.1.0-bcl
     apks:
-      - apk_pattern: BCL-.*\.apk
+      - apk_pattern: BCL_.*\.apk
         apk_url: https://github.com/MuntashirAkon/BatteryChargeLimiter/releases/download/v1.1.0-bcl/BCL_v1.1.0.apk
         build:
           - git reset --soft 932fedb2b41b6b112d32e73f552e8f8a72580595
