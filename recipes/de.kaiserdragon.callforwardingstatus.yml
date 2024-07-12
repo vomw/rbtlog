@@ -1,0 +1,35 @@
+---
+repository: https://github.com/Kaiserdragon2/CallForwarding.git
+updates: releases
+versions:
+  - tag: v1.8
+    apks:
+      - apk_pattern: CallForwardingStatus-.*\.apk
+        apk_url: https://github.com/Kaiserdragon2/CallForwarding/releases/download/v1.8/CallForwardingStatus-v1.8.apk
+        build:
+          - git reset --soft 96146c03562e0cc0f96fa3593667210b639a9dc8
+          - wget -q -O /tmp/gradle-8.7-bin.zip -- https://services.gradle.org/distributions/gradle-8.7-bin.zip
+          - sha256sum -c <<< '544c35d6bd849ae8a5ed0bcea39ba677dc40f49df7d1835561582da2009b961d  /tmp/gradle-8.7-bin.zip'
+          - unzip -q -d /opt /tmp/gradle-8.7-bin.zip
+          - export PATH="${PATH}:/opt/gradle-8.7/bin"
+          - gradle assembleRelease
+          - mv app/build/outputs/apk/release/CallForwardingStatus-*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
