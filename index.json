@@ -181,6 +181,20 @@
       "error": null
     }
   ],
+  "648873f3ea50f481be5a6e33b056d0c66830118b677aab037323175d65caa22b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1006/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1006,
+      "version_name": "2024.07.1006",
+      "tag": "2024.07.1006",
+      "commit": "e14d5543235516ed373fdff415b55664ec8d0081",
+      "timestamp": 1720869899,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -303,6 +317,20 @@
       "tag": "0.0.6",
       "commit": "31b53289b4ae2d341f2c5dc505eab3ba1f8cfc75",
       "timestamp": 1720734350,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "950f08c5e9e914eee4779cfaed0048f59ff6f29548d7b94dffa5140874e4ddca": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.2.0/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 9,
+      "version_name": "0.2.0",
+      "tag": "0.2.0",
+      "commit": "78c9fb7e5d2e8369053d94dfa7c2d847bb450edd",
+      "timestamp": 1720871610,
       "reproducible": true,
       "error": null
     }
@@ -696,6 +724,20 @@
       "commit": "8f0d2df859f2bd7730634856f535beaa77ee93c2",
       "timestamp": 1720734622,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "ed5f3da48860f17aa9ff4462500eb926f35277284bfdc99b7334ef432a33e26d": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.0.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "ea1c4c94fd75b87740ccd175f8216f94d8253968",
+      "timestamp": 1720872025,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -1259,6 +1301,20 @@
       "error": null
     }
   ],
+  "0c233c845839884fb272b182bfff9e51246d079627f31584f88d7422aae198e8": [
+    {
+      "repository": "https://github.com/Arian04/android-hid-client.git",
+      "apk_url": "https://github.com/Arian04/android-hid-client/releases/download/v2.3.0/android-hid-client-v2.3.0.apk",
+      "appid": "me.arianb.usb_hid_client",
+      "version_code": 230,
+      "version_name": "v2.3.0",
+      "tag": "v2.3.0",
+      "commit": "be4c5fb69cc5646ecfe6edbd7afc3effc63fcbf6",
+      "timestamp": 1720872729,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -1269,6 +1325,20 @@
       "tag": "2.8.9",
       "commit": "e14145724bfab484109b2c112c8c49b78b057beb",
       "timestamp": 1719014902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3f505340dc26eaaeef698d486ee48e03e9cbf91d1e46f4eac59fa60b51e6c53d": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/2.9.0/me.rosuh.easywatermark-v2.9.0.20900.-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 20900,
+      "version_name": "2.9.0",
+      "tag": "2.9.0",
+      "commit": "6e03bc45efb7118b0cc5e4ac4cea5158468c109b",
+      "timestamp": 1720873824,
       "reproducible": true,
       "error": null
     }
@@ -1297,6 +1367,20 @@
       "tag": "v2.1.0",
       "commit": "e5cfcbe76f1fb9d90ea7d7bdced1b43db79013bf",
       "timestamp": 1719475967,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73200fda4d07fff4ca44c74651814858bf9636e3523f76948171d9a8e2247158": [
+    {
+      "repository": "https://github.com/nanihadesuka/NovelDokusha.git",
+      "apk_url": "https://github.com/nanihadesuka/NovelDokusha/releases/download/v2.1.2/NovelDokusha_v2.1.2_foss.apk",
+      "appid": "my.noveldokusha",
+      "version_code": 16,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "e6ae5a752378bc3e32ec36cd50ff1e93a1987c4f",
+      "timestamp": 1720874283,
       "reproducible": true,
       "error": null
     }
@@ -1395,6 +1479,20 @@
       "tag": "1.5.4",
       "commit": "f7d3a8622b99ebf796c151aa016c9ea4f97e8f0b",
       "timestamp": 1719430620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ada5d254f7536ea9eec99ce2aae109cb93b1be693ed8d45792350500646bc2e1": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.7/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 47,
+      "version_name": "1.5.7",
+      "tag": "1.5.7",
+      "commit": "bbd765361bde2a506c340b031363033ad8dbe825",
+      "timestamp": 1720875079,
       "reproducible": true,
       "error": null
     }
