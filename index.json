@@ -195,6 +195,20 @@
       "error": null
     }
   ],
+  "8dd3f6a1ab058e24aae2fe39a2997e787492f78eb30330ae1dbc429c489855b8": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1008/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1008,
+      "version_name": "2024.07.1008",
+      "tag": "2024.07.1008",
+      "commit": "0a5e091ffe1a56bacd928380125e1743cc51a911",
+      "timestamp": 1721026422,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -205,6 +219,20 @@
       "tag": "v4.0",
       "commit": "f1ca63d87a3ecb41dda9216375c3360195fe8187",
       "timestamp": 1719280341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbd13bf40944c3053450a192ece0875cd57754f7a7a3e568e790484a20e827ca": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v5.0/pill_time_v5.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 5,
+      "version_name": "5.0",
+      "tag": "v5.0",
+      "commit": "09a35466aaf1e343bdf3ee5799bffed61598dd20",
+      "timestamp": 1721027227,
       "reproducible": true,
       "error": null
     }
@@ -331,6 +359,20 @@
       "tag": "0.2.0",
       "commit": "78c9fb7e5d2e8369053d94dfa7c2d847bb450edd",
       "timestamp": 1720871610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7b56657a50c97840fae29ef78d8451d26a5cf8d6e5b070707d3687d6da0cac98": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.2.1/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 10,
+      "version_name": "0.2.1",
+      "tag": "0.2.1",
+      "commit": "9ebe0e1e73326489194243fd83710510b426246b",
+      "timestamp": 1721027423,
       "reproducible": true,
       "error": null
     }
@@ -713,6 +755,20 @@
       "error": null
     }
   ],
+  "582302dc4fe0ad64f0e6cf2cc6e89ec1113a893a6a5a7f7391aaba44cd3e6a3f": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.2.0/xed-editor-v2.2.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 23,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "bcaa77b42c704131594b97d3310ad0cf170e484d",
+      "timestamp": 1721027728,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -780,6 +836,20 @@
       "commit": "ea1c4c94fd75b87740ccd175f8216f94d8253968",
       "timestamp": 1720872025,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "ce662264e0d78a05d372ac87eefef8a3a3965e975236a3ab589dd6955a0b6454": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.1.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "bf6e134b82921f91347a18017247e830b0c053c0",
+      "timestamp": 1721029711,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -1007,6 +1077,20 @@
       "error": null
     }
   ],
+  "1ca02f05fb1967f18d35acbb4d559ba249722a2347602b5a31689da6a6b7bcfe": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.10.0/RecurringExpenseTracker_0.10.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 22,
+      "version_name": "0.10.0",
+      "tag": "v0.10.0",
+      "commit": "7739147178f39ba98e7ff2b1f6f7fca4d4f0f094",
+      "timestamp": 1721030039,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -1031,6 +1115,20 @@
       "tag": "v1.8",
       "commit": "4fcd21a34089153965e2cb6fd53328298cb536a2",
       "timestamp": 1720824086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe101780e62987ff9965fe048d992bd74268d9c47d6aa5c77023e0643f09aa50": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/CallForwarding.git",
+      "apk_url": "https://github.com/Kaiserdragon2/CallForwarding/releases/download/v1.9/CallForwardingStatus-v1.9.apk",
+      "appid": "de.kaiserdragon.callforwardingstatus",
+      "version_code": 7,
+      "version_name": "1.9",
+      "tag": "v1.9",
+      "commit": "aa1fe0d7b85038fcb21702d75546ae4dd6066976",
+      "timestamp": 1721030934,
       "reproducible": true,
       "error": null
     }
@@ -1301,6 +1399,20 @@
       "error": null
     }
   ],
+  "42035950f7cd099db3691650e71780d1bcae82a5f5f14691d8b704c8f12aa328": [
+    {
+      "repository": "https://github.com/MuntashirAkon/CaptivePortalController.git",
+      "apk_url": "https://github.com/MuntashirAkon/CaptivePortalController/releases/download/v1.1.0/CaptivePortalController_v1.1.0.apk",
+      "appid": "io.github.muntashirakon.captiveportalcontroller",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "a749d29527e43fe64d1f31f5bfb60ff9c5c5295d",
+      "timestamp": 1721053551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8eb65a9ed9babbb2effc3d1051bee70f836a3d08ee0a66716ce3d91d9aeeac5d": [
     {
       "repository": "https://github.com/Tommy-Geenexus/usb-dongle-control.git",
@@ -1423,6 +1535,20 @@
       "tag": "2.9.0",
       "commit": "6e03bc45efb7118b0cc5e4ac4cea5158468c109b",
       "timestamp": 1720873824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "85b8fc6e48cbf52b2b33d1ef42d959d21076077bdd684da746c4eec4e2f65680": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/2.9.2/EasyWatermark-2.9.2-20902-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 20902,
+      "version_name": "2.9.2",
+      "tag": "2.9.2",
+      "commit": "3a9fa63d547671d2989c42efaba0d2dbcbd4c624",
+      "timestamp": 1721034693,
       "reproducible": true,
       "error": null
     }
@@ -1591,6 +1717,20 @@
       "tag": "1.5.7",
       "commit": "bbd765361bde2a506c340b031363033ad8dbe825",
       "timestamp": 1720875079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e6d81481f55e35dab76205163fee2579d479ab77f2c95628278e47e73b5859c": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.8/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 48,
+      "version_name": "1.5.8",
+      "tag": "1.5.8",
+      "commit": "283dd88bab56e62c35f86799d060a04411a38de4",
+      "timestamp": 1721035440,
       "reproducible": true,
       "error": null
     }
