@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: Beta-v1.9.2
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: monocles_browser_.*\.apk
         apk_url: https://codeberg.org/monocles/monocles_browser/releases/download/Beta-v1.9.2/monocles_browser_1.9.2.apk
         build:
           - wget -q -O /tmp/gradle-8.6-bin.zip -- https://services.gradle.org/distributions/gradle-8.6-bin.zip

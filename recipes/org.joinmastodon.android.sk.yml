@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.1.6+fork.110
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: megalodon-fdroid\.apk
         apk_url: https://github.com/sk22/megalodon/releases/download/v2.1.6%2Bfork.110/megalodon-fdroid.apk
         build:
           - chmod +x gradlew
