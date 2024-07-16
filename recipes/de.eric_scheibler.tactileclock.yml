@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.3.0
     apks:
-      - apk_pattern: TactileClock:.*\.apk
+      - apk_pattern: TactileClock.*\.apk
         apk_url: https://github.com/scheibler/TactileClock/releases/download/v2.3.0/TactileClock_v2.3.0.apk
         build:
           - chmod +x gradlew
