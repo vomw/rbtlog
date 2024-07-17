@@ -251,6 +251,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp8dekx7bw/outputs:/outputs', '--volume', '/tmp/tmp8dekx7bw/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Lennoard/SysctlGUI.git', '--env', 'APP_TAG=2.2.2', '--env', 'APP_COMMIT=c4bd3e2f3e6c96580feed7025cf88fcf7fcce1a2', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "d4727b3ea705c10740b924634596fa72805d6dc96b77c08e5c341b0755fc8a6b": [
+    {
+      "repository": "https://github.com/Lennoard/SysctlGUI.git",
+      "apk_url": "https://github.com/Lennoard/SysctlGUI/releases/download/2.2.3/sysctlgui-v2.2.3.apk",
+      "appid": "com.androidvip.sysctlgui",
+      "version_code": 17,
+      "version_name": "2.2.3",
+      "tag": "2.2.3",
+      "commit": "d5a6788d9871d4770da4cfc7ba39af524d6b012c",
+      "timestamp": 1721234564,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpcdp6sqvu/outputs:/outputs', '--volume', '/tmp/tmpcdp6sqvu/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Lennoard/SysctlGUI.git', '--env', 'APP_TAG=2.2.3', '--env', 'APP_COMMIT=d5a6788d9871d4770da4cfc7ba39af524d6b012c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -471,6 +485,20 @@
       "tag": "v2.6.0",
       "commit": "6f00f1bf3b277005fecaf2f0cb68b70d9ed65423",
       "timestamp": 1721166751,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5eb9ee808254d940b6cc839479cc9cc8735d510ae982605f5a76d9f2dbb01869": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v2.6.1/easter_eggs_2.6.1_43-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 43,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "a8935e0be4bac694fb87334f39c2b6ddc22e4e9f",
+      "timestamp": 1721234942,
       "reproducible": true,
       "error": null
     }
@@ -1035,6 +1063,20 @@
       "error": null
     }
   ],
+  "7291270805a5ba43e662d62924013e3488228dc736604c79d6267c210317b0f3": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.2.1/xed-editor-v2.2.1.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 24,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "e775b226d42c4de2adf8fdd6e676966cb26c9962",
+      "timestamp": 1721237432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -1116,6 +1158,20 @@
       "commit": "bf6e134b82921f91347a18017247e830b0c053c0",
       "timestamp": 1721029711,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "341b2617f95a64a90d15a6ddb1f7328f3aee3d7f490b9d0b18081876189e0080": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.2.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "0104afea086c0015611afe5e6e6d50a0b372d7c6",
+      "timestamp": 1721237701,
+      "reproducible": true,
       "error": null
     }
   ],
