@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.0-alpha20
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: KernelFlasher-.*\.apk
         apk_url: https://github.com/capntrips/KernelFlasher/releases/download/v1.0.0-alpha20/KernelFlasher-v1.0.0-alpha20.apk
         build:
           - chmod +x gradlew
