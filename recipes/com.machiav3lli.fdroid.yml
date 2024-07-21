@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 1.0.5
     apks:
-      - apk_pattern: Neo_Store_.*_\.apk
+      - apk_pattern: Neo_Store_.*_release\.apk
         apk_url: https://github.com/NeoApplications/Neo-Store/releases/download/1.0.5/Neo_Store_105_release.apk
         build:
           - chmod +x gradlew
