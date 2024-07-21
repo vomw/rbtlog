@@ -433,6 +433,20 @@
       "error": null
     }
   ],
+  "c92d18f43e06d25814b3408adb1467ab3e4ee362dd86ce783ed0ba0a1b2516e1": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1012/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1012,
+      "version_name": "2024.07.1012",
+      "tag": "2024.07.1012",
+      "commit": "fcc07e265339cb974df047d5a137d76edbd5aaaf",
+      "timestamp": 1721572827,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -653,6 +667,20 @@
       "tag": "0.2.2",
       "commit": "7aeb205b4e80b943e97768884ebf5ec49abf5fd5",
       "timestamp": 1721336080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c563d35e4d2c266c539f2be276a52d669afc0d49a02556d952805e544fec6ff3": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.3.0/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 12,
+      "version_name": "0.3.0",
+      "tag": "0.3.0",
+      "commit": "c4baa66de119e93bea78400ceaddef0f763687cf",
+      "timestamp": 1721573415,
       "reproducible": true,
       "error": null
     }
@@ -2025,6 +2053,20 @@
       "tag": "v1.4.0",
       "commit": "00ce880a77c65c8cd04598ece7e3bda480b2bb40",
       "timestamp": 1721473341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce": [
+    {
+      "repository": "https://github.com/whew-inc/FakeGApps.git",
+      "apk_url": "https://github.com/whew-inc/FakeGApps/releases/download/5.0/app-release.apk",
+      "appid": "inc.whew.android.fakegapps",
+      "version_code": 10,
+      "version_name": "5",
+      "tag": "5.0",
+      "commit": "09debf692cb9bb26d3a937de50ebdc25c2fa1531",
+      "timestamp": 1721599900,
       "reproducible": true,
       "error": null
     }
