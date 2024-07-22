@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: Android
     apks:
-      - apk_pattern: ELFReader-,*\.apk
+      - apk_pattern: ELFReader-.*\.apk
         apk_url: https://github.com/MasterGamesMG/ELFReader/releases/download/Android/ELFReader-v1.apk
         build:
           - chmod +x gradlew
