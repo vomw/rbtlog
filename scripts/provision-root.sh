@@ -5,6 +5,9 @@ set -xeuo pipefail
 
 export DEBIAN_FRONTEND=noninteractive
 
+[[ -n "${HTTP_PROXY:-}" ]]  && echo "Acquire::http::Proxy \"$HTTP_PROXY\";" >> /etc/apt/apt.conf
+[[ -n "${HTTPS_PROXY:-}" ]] && echo "Acquire::https::Proxy \"$HTTPS_PROXY\";" >> /etc/apt/apt.conf
+
 apt-get update
 apt-get upgrade -y
 
