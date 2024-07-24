@@ -475,6 +475,20 @@
       "error": null
     }
   ],
+  "0bf4ddac6fe128524d9bfda59cfaa28fba204c9dd3100bc92c7cd63d8bf8202b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1014/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1014,
+      "version_name": "2024.07.1014",
+      "tag": "2024.07.1014",
+      "commit": "30a25b0036fa7fc6c1c6224d1e40bdabdcf865e3",
+      "timestamp": 1721841989,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1115,6 +1129,20 @@
       "tag": "v1.3.1",
       "commit": "1606ce2bc6c7dd1ff43d5dcaa05bc72f0e4ff3b0",
       "timestamp": 1721477973,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "80ea3d97df18d1f2759a3c8b16521f3e8106afa8bcae91aee83ea3d47c02a9a7": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v1.4.0/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768579,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "2dc13e488c5c439c41705d004c227a6650c34d44",
+      "timestamp": 1721842280,
       "reproducible": true,
       "error": null
     }

@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 1.0.0
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: clock.*-release\.apk
         apk_url: https://github.com/FossifyOrg/Clock/releases/download/1.0.0/clock-1-foss-release.apk
         build:
           - chmod +x gradlew
