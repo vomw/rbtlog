@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: v1.6.3
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: paperize-.*\.apk
         apk_url: https://github.com/Anthonyy232/Paperize/releases/download/v1.6.3/paperize-v1.6.3.apk
         build:
           - chmod +x gradlew

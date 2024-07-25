@@ -1343,6 +1343,20 @@
       "error": null
     }
   ],
+  "ecad55c258b9a28935d74e2cc0db6a49462faed2c6d6495394ea286cf394c1d1": [
+    {
+      "repository": "https://github.com/stud0709/OneMoreSecret.git",
+      "apk_url": "https://github.com/stud0709/OneMoreSecret/releases/download/v0.32-alpha/app-foss-release.apk",
+      "appid": "com.onemoresecret",
+      "version_code": 32,
+      "version_name": "0.32-alpha",
+      "tag": "v0.32-alpha",
+      "commit": "d3c6e874c500830852e256a82d7995272936f2d8",
+      "timestamp": 1721926923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6d5de420b3247c3ab31df2977b92153497ca9303e9b8f200914bb3a6cdb5cdfb": [
     {
       "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
@@ -1648,6 +1662,20 @@
       "commit": "67717a5efe58a977d1b1be89322819026fde38b7",
       "timestamp": 1721497163,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "11c64924949d1eefa46713ffd5af51b264b5490f5d54fad9da2d73f4052d2d11": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.5.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 10,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "eef4944bbd471d456365a254236abf38bc3b34ab",
+      "timestamp": 1721927135,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -2278,6 +2306,20 @@
       "commit": "322864880f589860c0689fcdc02e316767756ff1",
       "timestamp": 1720643608,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "55dee4e2ccd01850c754b03cab62be073e2d68f93e93b1b1ab45df45682bc4d6": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.1-rc0/eu.darken.sdmse-v1.2.1-rc0-10201000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10201000,
+      "version_name": "1.2.1-rc0",
+      "tag": "v1.2.1-rc0",
+      "commit": "2d78469663be4b8b9c514ea09591c7c4ed6d6698",
+      "timestamp": 1721927179,
+      "reproducible": false,
       "error": null
     }
   ],
