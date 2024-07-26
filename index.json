@@ -349,6 +349,20 @@
       "error": null
     }
   ],
+  "df330269a2181393d312630571f7916dbd1757804214226146ca85b1d4ef6e55": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v1.6.4/paperize-v1.6.4.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 29,
+      "version_name": "1.6.4",
+      "tag": "v1.6.4",
+      "commit": "edfc942a6d42594ff76d3213302d75ef47e53ca9",
+      "timestamp": 1722005448,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -513,6 +527,20 @@
       "tag": "2024.07.1014",
       "commit": "30a25b0036fa7fc6c1c6224d1e40bdabdcf865e3",
       "timestamp": 1721841989,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ace56497f7a2e295d3904662022f5e753f656989b2b2fb07cf598aa3a6cab190": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1015/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1015,
+      "version_name": "2024.07.1015",
+      "tag": "2024.07.1015",
+      "commit": "8c827f9f4be7021ee31096c8c1f031f41cd85435",
+      "timestamp": 1722005944,
       "reproducible": true,
       "error": null
     }
@@ -1087,6 +1115,20 @@
       "tag": "1.13",
       "commit": "bb9cf6ace5e0d1bfa45277c3c87eb0e69a8c76bd",
       "timestamp": 1719418611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f32f04da7db3f7f628f63afd27e8dd604b1c1c89efdebf5e877a13af31040fbf": [
+    {
+      "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
+      "apk_url": "https://github.com/KamWithK/AnkiconnectAndroid/releases/download/1.14/ankiconnect_android_1_14.apk",
+      "appid": "com.kamwithk.ankiconnectandroid",
+      "version_code": 13,
+      "version_name": "1.13",
+      "tag": "1.14",
+      "commit": "a075592ab0b33a2ec3b849e6ac0483e1833f7c32",
+      "timestamp": 1722005967,
       "reproducible": true,
       "error": null
     }
