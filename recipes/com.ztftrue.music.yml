@@ -10,7 +10,6 @@ versions:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
@@ -39,7 +38,6 @@ versions:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
@@ -68,7 +66,6 @@ versions:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
