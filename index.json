@@ -1581,6 +1581,20 @@
       "error": null
     }
   ],
+  "d0c46d79a9e48eddbf665de5b028fcb65ba6aeedf12324f1be4faaeba20b7468": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.5.0/xed-editor-v2.5.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 29,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "56ed301969c4e5dc938c64db6b4db0026e29edaa",
+      "timestamp": 1722086731,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "b89c828ee4c0c5fdec74e6417bd8347366c4a0d63c84f9133bc925b2238fdbb2": [
     {
       "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
@@ -3061,6 +3075,20 @@
       "tag": "1.5.8",
       "commit": "283dd88bab56e62c35f86799d060a04411a38de4",
       "timestamp": 1721035440,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7fcc16c20abe78c777bb64bec2b0119f5fbba9dc02c6f4d486e42ade719346eb": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.9/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 49,
+      "version_name": "1.5.9",
+      "tag": "1.5.9",
+      "commit": "06d6230a5b9a0af93ac5b1564b852db38eae85cd",
+      "timestamp": 1722086757,
       "reproducible": true,
       "error": null
     }
