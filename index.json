@@ -559,6 +559,20 @@
       "error": null
     }
   ],
+  "6022544b4c1531ffc4e0deca972e2168775bc37197197de27c787c8cae48ca87": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1016/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1016,
+      "version_name": "2024.07.1016",
+      "tag": "2024.07.1016",
+      "commit": "69241f3fa2d4400420976629a3ba1609c2c7f75d",
+      "timestamp": 1722184790,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -877,6 +891,20 @@
       "tag": "v2.0.0",
       "commit": "034cf37e1c14454dc72ebd856341f18e0162e792",
       "timestamp": 1720879204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9338688a9992324817ff9435cde309a6e3d3f3398ab02edfd4355ff53efe2620": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.0.1/logfox-v2.0.1.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 61,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "dc5074e59639e07645b50cdc83857842e516e3c2",
+      "timestamp": 1722185757,
       "reproducible": true,
       "error": null
     }
@@ -1889,6 +1917,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "ff982be672cd264a84dcf350e7610c49230a17b3e1212df59d742cd16d7a6af4": [
+    {
+      "repository": "https://github.com/thatsmanmeet/Tasky.git",
+      "apk_url": "https://github.com/thatsmanmeet/Tasky/releases/download/v3.0.1/app-release.apk",
+      "appid": "com.thatsmanmeet.taskyapp",
+      "version_code": 28,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "437a94c52420934a5e469551c0a2cabb8c7bc373",
+      "timestamp": 1722186530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7385ca1cca2defdcb763d4f3fe7c15699760e6102758b9f941357ba066e214f6": [
     {
       "repository": "https://github.com/neoblackxt/AnyWebView.git",
@@ -2697,6 +2739,20 @@
       "tag": "3.2.0",
       "commit": "4171f559eb7ccd7baff825dbe9a1ba4d555e1053",
       "timestamp": 1721861837,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "412c99f165897c1601c2c9f873821378381b8a662055dec2234feeca0c557aea": [
+    {
+      "repository": "https://github.com/nfdz/Cryptool.git",
+      "apk_url": "https://github.com/nfdz/Cryptool/releases/download/3.2.1/CryptoolApp-release.apk",
+      "appid": "io.github.nfdz.cryptool",
+      "version_code": 21,
+      "version_name": "3.2.1",
+      "tag": "3.2.1",
+      "commit": "7b3698b3f861fc6a28f315ff3550e96b688ee6eb",
+      "timestamp": 1722186558,
       "reproducible": true,
       "error": null
     }
