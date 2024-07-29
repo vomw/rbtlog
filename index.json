@@ -573,6 +573,20 @@
       "error": null
     }
   ],
+  "2eec2df110fb80d71c34a3a67e3bb276a8e375631cd6fb9f35b121c6491ee4f4": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1017-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1017,
+      "version_name": "2024.07.1017-dev",
+      "tag": "2024.07.1017-dev",
+      "commit": "7bec7294f97871ed8e8b760053505d5b3e233e54",
+      "timestamp": 1722269449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2995,6 +3009,20 @@
       "error": null
     }
   ],
+  "aa12068c67981bf3254a1b0cc54cce5a9370b1c3d51fd5939d7a63dbc0205f57": [
+    {
+      "repository": "https://github.com/cmeng-git/xmail.git",
+      "apk_url": "https://github.com/cmeng-git/xmail/releases/download/5.1.1/XryptoMail-release.apk",
+      "appid": "org.atalk.xryptomail",
+      "version_code": 19110,
+      "version_name": "5.1.1",
+      "tag": "5.1.1",
+      "commit": "45c73c0211e51a083fe8dd8736166035affb9ddd",
+      "timestamp": 1722269859,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "65c950b7a4e3120b125e8fec5c50d6ca9c640cc7722b07952faa73ab2a91e506": [
     {
       "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
@@ -3201,6 +3229,20 @@
       "tag": "v1.3.0",
       "commit": "25c7cbb4013f66d1fef240ac8e8811057b77399f",
       "timestamp": 1720733524,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c47e0e7a28b672e00432ced95b92af2560a8b16b2a6aa41dc7c5b07f3b298cbc": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.0.0/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 7,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "bf30e65ed6103b2071a3eae07cf50bfc3b801d3e",
+      "timestamp": 1722269902,
       "reproducible": true,
       "error": null
     }
