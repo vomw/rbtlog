@@ -853,6 +853,20 @@
       "error": null
     }
   ],
+  "284bab131b9fbb953f66555aa0be1b853fa64eaf958ac7b45208b78b10c79fcd": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.3.2/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 14,
+      "version_name": "0.3.2",
+      "tag": "0.3.2",
+      "commit": "b17ea97a008a077aa6981aac0582454dba116661",
+      "timestamp": 1722360979,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -1689,6 +1703,20 @@
       "tag": "v0.4.1",
       "commit": "6769af151790cb73049b79208ce9d74f9155aef0",
       "timestamp": 1722076252,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b807139db3e5649dd5715621c3ae988db3acb462372a27d5edcadde1453b7e92": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.4.2/bazarnote.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 4,
+      "version_name": "0.4.1",
+      "tag": "v0.4.2",
+      "commit": "e4bd88711f83a93c0cc336d55098c7414c2ec6f0",
+      "timestamp": 1722361252,
       "reproducible": true,
       "error": null
     }
