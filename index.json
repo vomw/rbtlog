@@ -125,6 +125,20 @@
       "error": null
     }
   ],
+  "9ddd325ea58c8d10fe9dfbc409eb6c615adfa82608cd76fb7008fcf35bfba78e": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/8/biz.binarysolutions.healthybatterycharging-2.0.6-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 8,
+      "version_name": "2.0.6",
+      "tag": "8",
+      "commit": "7a3af21a10db96872c419c5ef56cf1a14d1ec7ec",
+      "timestamp": 1722444812,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5a05791ad481c22af69088b9cd1d89e38206d0d9d56e9d54beb0ea1730516811": [
     {
       "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
@@ -583,6 +597,20 @@
       "tag": "2024.07.1017-dev",
       "commit": "7bec7294f97871ed8e8b760053505d5b3e233e54",
       "timestamp": 1722269449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d827b632ac8ad970c8ffbbdc60a7ea441751eac6c39bcef8d637e733cd36b924": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.07.1019/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1019,
+      "version_name": "2024.07.1019",
+      "tag": "2024.07.1019",
+      "commit": "f0e2f1acaa942d39a4bb5deb0892616e478aa90a",
+      "timestamp": 1722445044,
       "reproducible": true,
       "error": null
     }
@@ -1620,6 +1648,20 @@
       "commit": "44ea0f0ad794fb86ba1d2ad8a773786f9a6a63a6",
       "timestamp": 1721671266,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "f4290661929978f1b8d54bfc2f8e58f39bc161f7c5672d951460ffe6b8d61a04": [
+    {
+      "repository": "https://github.com/puutaro/CommandClick.git",
+      "apk_url": "https://github.com/puutaro/CommandClick/releases/download/v1.1.15/CommandClick-1.3.18-release.apk",
+      "appid": "com.puutaro.commandclick",
+      "version_code": 79,
+      "version_name": "1.3.18",
+      "tag": "v1.1.15",
+      "commit": "b2e062164d87e647038720b78c651e0755da5e0a",
+      "timestamp": 1722445432,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -3369,6 +3411,20 @@
       "tag": "1.5.9",
       "commit": "06d6230a5b9a0af93ac5b1564b852db38eae85cd",
       "timestamp": 1722086757,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c701a25cbfdf2b9c6fd89a5c1cfca4480d92bc76d41086e21464f359fbf6a5e": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.10/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 50,
+      "version_name": "1.5.10",
+      "tag": "1.5.10",
+      "commit": "2087c98db5e6f57340725bb52a00475c956cf331",
+      "timestamp": 1722445969,
       "reproducible": true,
       "error": null
     }
