@@ -629,6 +629,20 @@
       "error": null
     }
   ],
+  "7c3de8b5075e04230d9885dc102f4f1700ff66c2fbdd858bef2f29b12d4a3dbc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1020/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1020,
+      "version_name": "2024.08.1020",
+      "tag": "2024.08.1020",
+      "commit": "71643d5ccfd3d7ab345ae6562d79460ab4b0652c",
+      "timestamp": 1722530871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1679,6 +1693,20 @@
       "error": null
     }
   ],
+  "ff6f91ce80f8e6904cf25a5e88193e2392f2883277ef8db562a6b095a138c1f8": [
+    {
+      "repository": "https://github.com/puutaro/CommandClick.git",
+      "apk_url": "https://github.com/puutaro/CommandClick/releases/download/v1.3.18/CommandClick-1.3.19-release.apk",
+      "appid": "com.puutaro.commandclick",
+      "version_code": 80,
+      "version_name": "1.3.19",
+      "tag": "v1.3.18",
+      "commit": "6e5631290ce6b9cafb0c87e7e4a2ceb33572b524",
+      "timestamp": 1722532803,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -2113,6 +2141,20 @@
       "error": null
     }
   ],
+  "8121ccf752c6275c0a6e930585b03fd31c8a1209eee071db6ba82ced90dfbe94": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.2.1/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30201,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "53b379166eeec2ab2bd746d270eb683336c6aa96",
+      "timestamp": 1722531269,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -2292,6 +2334,20 @@
       "commit": "92854d1eb4809eebf129e03e23ebd865227b2cfb",
       "timestamp": 1721757757,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "cba6f1131326bed9b46a04dbde0f58d45af95ac38689e24e98f59af6c3f2f082": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.0/RecurringExpenseTracker_0.12.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 24,
+      "version_name": "0.12.0",
+      "tag": "v0.12.0",
+      "commit": "858b735728bc09326e595dd39725cf63ea0f9d8b",
+      "timestamp": 1722531451,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -2897,6 +2953,20 @@
       "error": null
     }
   ],
+  "764fba769a4074e6af9ee70a1ae087ffb1bea7cb13f8c2d3bb754dc83bdd10cd": [
+    {
+      "repository": "https://github.com/nfdz/Cryptool.git",
+      "apk_url": "https://github.com/nfdz/Cryptool/releases/download/3.2.2/CryptoolApp-release.apk",
+      "appid": "io.github.nfdz.cryptool",
+      "version_code": 22,
+      "version_name": "3.2.2",
+      "tag": "3.2.2",
+      "commit": "fc8b47d79a7926c84d7895ea509de38b9992b4bc",
+      "timestamp": 1722532831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8eb65a9ed9babbb2effc3d1051bee70f836a3d08ee0a66716ce3d91d9aeeac5d": [
     {
       "repository": "https://github.com/Tommy-Geenexus/usb-dongle-control.git",
@@ -3089,6 +3159,20 @@
       "tag": "v2.1.2",
       "commit": "e6ae5a752378bc3e32ec36cd50ff1e93a1987c4f",
       "timestamp": 1720874283,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "373fc73d388d831327a77b1dc2e53736523a9c3511e96d7c4883c68ed9d26008": [
+    {
+      "repository": "https://github.com/nanihadesuka/NovelDokusha.git",
+      "apk_url": "https://github.com/nanihadesuka/NovelDokusha/releases/download/v2.1.3/NovelDokusha_v2.1.3_foss.apk",
+      "appid": "my.noveldokusha",
+      "version_code": 17,
+      "version_name": "2.1.3",
+      "tag": "v2.1.3",
+      "commit": "f508651fc9dacfc195675bbf42f79b8d40f281b6",
+      "timestamp": 1722532089,
       "reproducible": true,
       "error": null
     }
