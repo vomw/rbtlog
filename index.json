@@ -97,6 +97,20 @@
       "error": null
     }
   ],
+  "93d454a3e4f00f8371a3083c0483402c698c7b2311ecc3bbcc4f1a7d7ec4dcce": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v1.51_beta/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 151,
+      "version_name": "1.51_beta",
+      "tag": "v1.51_beta",
+      "commit": "0af67d48f62e9cfcffab6840fec6d70e23938ab5",
+      "timestamp": 1722614447,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -947,6 +961,20 @@
       "tag": "3.3.4",
       "commit": "10b77b57de0ca31d4d88e1d50d7ba730b6c1d131",
       "timestamp": 1722107360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9bc244e6449a73d569eaca2b02d014b81d0e49775e0ef94ce70a2765a2718995": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.3.5/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 99,
+      "version_name": "3.3.5",
+      "tag": "3.3.5",
+      "commit": "490e4ab4ffa2295fc6c50872d9ea7e95a3d38f32",
+      "timestamp": 1722614809,
       "reproducible": true,
       "error": null
     }
@@ -2687,6 +2715,20 @@
       "error": null
     }
   ],
+  "25ae3fdfcaf5b4a84a6179dd83b3b533288a44446fbf26a4e661aea9d966337b": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.2-rc0/eu.darken.sdmse-v1.2.2-rc0-10202000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10202000,
+      "version_name": "1.2.2-rc0",
+      "tag": "v1.2.2-rc0",
+      "commit": "2215a0eb864316d1e70f23945911cb62d2077ed5",
+      "timestamp": 1722615173,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -2795,6 +2837,20 @@
       "tag": "v5.39.84",
       "commit": "28459761058029ba51d7de93abd83cd42e7406ee",
       "timestamp": 1720698761,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f16f814be4022c60f8cb9923e67d0d1b40b76b07e345f7b67a6520a016ae266": [
+    {
+      "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
+      "apk_url": "https://github.com/IAEA-NDS/IsotopeBrowser/releases/download/v5.42.85/Nuclides_x.V155_5.42.85.apk",
+      "appid": "iaea.nds.nuclides",
+      "version_code": 155,
+      "version_name": "5.42.85",
+      "tag": "v5.42.85",
+      "commit": "fedb770c6025ec6aeb3b634b094e4bd0236b1c4a",
+      "timestamp": 1722617270,
       "reproducible": true,
       "error": null
     }
@@ -3275,6 +3331,20 @@
       "error": null
     }
   ],
+  "0e0ca9c3444e920fb0ec00884f9db20277e4f70c2e1338c7088f485cf6b2ac12": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.2/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 132,
+      "version_name": "3.4.2",
+      "tag": "3.4.2",
+      "commit": "148d813d275da0a487d867a9545e146428f77a16",
+      "timestamp": 1722617453,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -3635,6 +3705,20 @@
       "tag": "v3.1.0",
       "commit": "ec8f6ee7184728157fbb5b4fb904dd8f619b61a4",
       "timestamp": 1719215999,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5efe0a57d9a9ee9468f67437910de1d318d1d39481906ba3c403fad1b0eff8d9": [
+    {
+      "repository": "https://github.com/VishnuSanal/Quotes.git",
+      "apk_url": "https://github.com/VishnuSanal/Quotes/releases/download/v3.1.1/quotes-status-creator-v3.1.1.apk",
+      "appid": "phone.vishnu.quotes",
+      "version_code": 64,
+      "version_name": "v3.1.1",
+      "tag": "v3.1.1",
+      "commit": "5124f09c9b88d630a24dbb3182b40f068cc47d63",
+      "timestamp": 1722617491,
       "reproducible": true,
       "error": null
     }

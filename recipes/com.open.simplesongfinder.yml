@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.17
     apks:
-      - apk_pattern: scc-.*\.apk
+      - apk_pattern: s-.*\.apk
         apk_url: https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.17/scc-1.0.17.apk
         build:
           - sed -r '/storeFile file/d' -i app/build.gradle
