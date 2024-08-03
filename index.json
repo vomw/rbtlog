@@ -1413,6 +1413,20 @@
       "error": null
     }
   ],
+  "d640053b5341101bc46e867741107fc723a20e0f36d2b83625d1b305861fbdf6": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.4.7/Arru-2.4.7.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 36,
+      "version_name": "2.4.7",
+      "tag": "v2.4.7",
+      "commit": "345d7b547b1ef230abe914c1a99753edce21a9dd",
+      "timestamp": 1722716314,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "555567eb46305cdcad0c4d9feae152cb44a05aa8dffd23de97cf3f3f01ae68f1": [
     {
       "repository": "https://github.com/Kwasow/Musekit.git",
@@ -1647,6 +1661,20 @@
       "tag": "v1.0.17",
       "commit": "ee9a5f7a7056fcc4b4195d461b48b2d179cc0cd5",
       "timestamp": 1721926123,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0016d988cc5888ce10ff37f8cbadc5065eb274aada30387c0a891ded39c9c1c8": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.18/ssc-1.0.18.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 18,
+      "version_name": "1.0.18",
+      "tag": "v1.0.18",
+      "commit": "43a516c8956db3579b1f96b73b83c835ea9bf635",
+      "timestamp": 1722716717,
       "reproducible": true,
       "error": null
     }
@@ -3243,6 +3271,20 @@
       "tag": "v5",
       "commit": "5cb64aea87a2d3a911a314bf0aeaaad886e8eb47",
       "timestamp": 1718974629,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5a9449767d6cc6f49eb46f0c91fd680a523fd533cdd9fc62244c60e1882318e": [
+    {
+      "repository": "https://github.com/Henry-ZHR/firefox_no_home_button.git",
+      "apk_url": "https://github.com/Henry-ZHR/firefox_no_home_button/releases/download/v6/app-release.apk",
+      "appid": "moe.henry_zhr.firefox_no_home_button",
+      "version_code": 6,
+      "version_name": "6",
+      "tag": "v6",
+      "commit": "0ad2af9fc124d2ff6be3c504be8a7f4938417eeb",
+      "timestamp": 1722716914,
       "reproducible": true,
       "error": null
     }
