@@ -671,6 +671,20 @@
       "error": null
     }
   ],
+  "580705cedf7cd800e32e9d416351fe8dda4e1ab6aca0cff3306cf5c33b2d3212": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1021-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1021,
+      "version_name": "2024.08.1021-dev",
+      "tag": "2024.08.1021-dev",
+      "commit": "d165aee405f3a2818980be8302fb3445bd9c7565",
+      "timestamp": 1722698564,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -3359,6 +3373,20 @@
       "error": null
     }
   ],
+  "e6de8a1d518a7bd07487bfaa1ba74eb76bcbb2d8395bdfe5681b722e2f1060b9": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.3/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 133,
+      "version_name": "3.4.3",
+      "tag": "3.4.3",
+      "commit": "fae306b4235ad559e49c2202d77a3ce085b7aabb",
+      "timestamp": 1722698914,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -3649,6 +3677,20 @@
       "tag": "v2.0.0",
       "commit": "bf30e65ed6103b2071a3eae07cf50bfc3b801d3e",
       "timestamp": 1722269902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "968a56c438ad68593c1304f517254f43ab5a9c82b437f625e1762145a89994d3": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.0.1/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 8,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "9615b27a9dc88e7443ba8292d2677958b3c74b4b",
+      "timestamp": 1722699084,
       "reproducible": true,
       "error": null
     }

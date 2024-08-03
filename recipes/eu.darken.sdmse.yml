@@ -2,7 +2,7 @@
 repository: https://github.com/d4rken-org/sdmaid-se.git
 updates: releases
 notes:
-  - 'FIXME: v1.2.2 not RB due to baseline.prof'
+  - 'FIXME: v1.2.2 not RB due to baseline.prof – seems to be a "flaky build", see https://github.com/d4rken-org/sdmaid-se/issues/1232#issuecomment-2258213434'
 versions:
   - tag: v1.1.2-rc0
     apks:
