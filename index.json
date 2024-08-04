@@ -685,6 +685,20 @@
       "error": null
     }
   ],
+  "ff9a40550b4a9a5370ba9daa67303926501567f09b19f6e51c327d81364af382": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1022-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1022,
+      "version_name": "2024.08.1022-dev",
+      "tag": "2024.08.1022-dev",
+      "commit": "2b4628da515b675b6fb3f62c7e8b278b26762017",
+      "timestamp": 1722787957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -3859,6 +3873,20 @@
       "tag": "v3.1.1",
       "commit": "5124f09c9b88d630a24dbb3182b40f068cc47d63",
       "timestamp": 1722617491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6105fe17f0d2a829c0771a9f8e56108e5b6ac1a2b34cc001a993622858f71781": [
+    {
+      "repository": "https://github.com/VishnuSanal/Quotes.git",
+      "apk_url": "https://github.com/VishnuSanal/Quotes/releases/download/v3.1.2/quotes-status-creator-v3.1.2.apk",
+      "appid": "phone.vishnu.quotes",
+      "version_code": 65,
+      "version_name": "v3.1.2",
+      "tag": "v3.1.2",
+      "commit": "eea02fc5d061fdabeae9ea828d08944e43b5952d",
+      "timestamp": 1722785385,
       "reproducible": true,
       "error": null
     }

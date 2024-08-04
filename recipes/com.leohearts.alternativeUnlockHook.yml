@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/leohearts/AlternativeUnlockXposed.git
 updates: releases
+notes:
+  - 'FIXME: 1.1v2 needed soft-reset due to embedded commit hash, author is informed'
 versions:
   - tag: 1.1v2
     apks:
