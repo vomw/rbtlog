@@ -1,0 +1,33 @@
+---
+repository: https://github.com/mirfatif/MyLocation.git
+updates: releases
+notes:
+  - build timeout (20 min), seems to hang for~ever~ about 15min right after starting the gradle daemon
+versions:
+  - tag: v1.06
+    apks:
+      - apk_pattern: MyLocation.*\.apk
+        apk_url: https://github.com/mirfatif/MyLocation/releases/download/v1.06/MyLocation_v1.06.apk
+        build:
+          - sed -r 's/if (\(\!names\.contains\('"'"'fdroid'"'"'\)) (..) \!names\.contains\('"'"'foss'"'"'\)\).+/if (\1 \&\& !names.contains('"'"'self'"'"')) \2 !names.contains('"'"'foss'"'"')) {/' -i app/build.gradle
+          - ./gradlew --info assembleSelfFossRelease
+          - mv app/build/outputs/apk/selfFoss/release/app-self-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
