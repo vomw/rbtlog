@@ -699,6 +699,20 @@
       "error": null
     }
   ],
+  "52b3052cae6738749f57fd797a3d0896560f31e10e16ef99855ee12b9dbd8d50": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1023-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1023,
+      "version_name": "2024.08.1023-dev",
+      "tag": "2024.08.1023-dev",
+      "commit": "31eb4fd3d3df8c4c99926c3785b8ca3dec63998b",
+      "timestamp": 1722876250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2127,6 +2141,20 @@
       "error": null
     }
   ],
+  "225bc0ec0219d24c0bf578fa275e81868956c971b58a43b22fa13b5d8bf1088e": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.6.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 11,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "01b3e27864cdb72f184058dd6d9f22051444c83f",
+      "timestamp": 1722876633,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0ceac9604b65b02a4fe96326add4a6205058932942926c46d8b378d84569364e": [
     {
       "repository": "https://github.com/Smooth-E/monet-color-previewer.git",
@@ -2375,6 +2403,20 @@
       "tag": "v0.5.3",
       "commit": "2dd6d84963126db4d7def2d224a70f561e6932fc",
       "timestamp": 1720958929,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d6b63d3771df49fd4694ff78d0351e23903d20aa92e5c4d1612cf6ef4cc5f060": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.4/InnerTune_v0.5.4_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 20,
+      "version_name": "0.5.4",
+      "tag": "v0.5.4",
+      "commit": "72de5d4f352c99fb4e9a5da67c2a69810bcedf0f",
+      "timestamp": 1722877555,
       "reproducible": true,
       "error": null
     }
@@ -3471,6 +3513,20 @@
       "error": null
     }
   ],
+  "f007c8d22e5288463f958d33d06ad86e5ebe728351f97132ee5bbbb5ba8921e0": [
+    {
+      "repository": "https://github.com/cmeng-git/xmail.git",
+      "apk_url": "https://github.com/cmeng-git/xmail/releases/download/5.1.2/XryptoMail-release.apk",
+      "appid": "org.atalk.xryptomail",
+      "version_code": 19120,
+      "version_name": "5.1.2",
+      "tag": "5.1.2",
+      "commit": "a56bdd30cac62d7aaa985ab9a7de5f1181d0e771",
+      "timestamp": 1722877988,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "65c950b7a4e3120b125e8fec5c50d6ca9c640cc7722b07952faa73ab2a91e506": [
     {
       "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
@@ -3775,6 +3831,20 @@
       "tag": "1.5.10",
       "commit": "2087c98db5e6f57340725bb52a00475c956cf331",
       "timestamp": 1722445969,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "36a9f8ed3cc9e2594e2df318e783a4c2a02c76866d2ad4ceeb18bfbf00a881d9": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.11/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 51,
+      "version_name": "1.5.11",
+      "tag": "1.5.11",
+      "commit": "c0fbb8aec774d81d9c7576001b89d166b33e62b9",
+      "timestamp": 1722878559,
       "reproducible": true,
       "error": null
     }

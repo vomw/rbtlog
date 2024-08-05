@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/mirfatif/MyLocation.git
 updates: releases
-notes:
-  - build timeout (20 min), seems to hang for~ever~ about 15min right after starting the gradle daemon
 versions:
   - tag: v1.06
     apks:
