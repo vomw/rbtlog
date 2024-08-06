@@ -811,6 +811,20 @@
       "error": null
     }
   ],
+  "4c1857a5c0d5f4d3121a033a0502c778efd68c1a2d7b014bdbfa471aaa0ca508": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.6.0/bura-1.6.0.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 14,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "fe07070c52c70b1725a515880a92b88991f34106",
+      "timestamp": 1722965585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f2b9e9351cf7b043069ebe0115f92382cc23fed8e1a7e0b82b04db6c6e646ee2": [
     {
       "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
@@ -1017,6 +1031,20 @@
       "tag": "3.3.5",
       "commit": "490e4ab4ffa2295fc6c50872d9ea7e95a3d38f32",
       "timestamp": 1722614809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "36e40e55f141c5593cd858f364b0d4473a1e09227c04f4b810d0ee02070fcd6b": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.3.6/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 100,
+      "version_name": "3.3.6",
+      "tag": "3.3.6",
+      "commit": "5325033d696103604ad2c32288c5e5a1d1a62094",
+      "timestamp": 1722963988,
       "reproducible": true,
       "error": null
     }
@@ -1787,6 +1815,20 @@
       "tag": "v1.0.18",
       "commit": "43a516c8956db3579b1f96b73b83c835ea9bf635",
       "timestamp": 1722716717,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dc8c3a7027388e5b74ed13eea29ae3e5ff35b0a76b6861d20aae616af9b34e27": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.19/ssc-1.0.19.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 19,
+      "version_name": "1.0.19",
+      "tag": "v1.0.19",
+      "commit": "39ea8fb146ac1d739edce0af165fdf298cd2433a",
+      "timestamp": 1722964312,
       "reproducible": true,
       "error": null
     }
@@ -2585,6 +2627,20 @@
       "tag": "v0.12.0",
       "commit": "858b735728bc09326e595dd39725cf63ea0f9d8b",
       "timestamp": 1722531451,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "2daa315b55218048f754e259d03850c23ea51fd1c7300487eb98fa5f151d401e": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.1/RecurringExpenseTracker_0.12.1.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 25,
+      "version_name": "0.12.1",
+      "tag": "v0.12.1",
+      "commit": "8755b89053db63c0d1c7e7b873a5a53987880100",
+      "timestamp": 1722964485,
       "reproducible": false,
       "error": null
     }
@@ -3611,6 +3667,20 @@
       "error": null
     }
   ],
+  "33bfcb9708f3da3abd71cfcd28e7fe2f68ed06869a37919ffa36851ed2431395": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.4/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 134,
+      "version_name": "3.4.4",
+      "tag": "3.4.4",
+      "commit": "9e6ff378ffa4534cb836cec054216c5206cb74e0",
+      "timestamp": 1722964809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -4139,6 +4209,20 @@
       "tag": "v1.0.0",
       "commit": "a32766a33f830c299454e27181672194cc1b2453",
       "timestamp": 1722879943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2154a9855fd9f678d49ead47487e9b040c289a2a40a37146a09f911d4e60ff17": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.0.1/tranquilstopwatch-2.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 1,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "54e8c066c72c875bc1293470375f596de1bc5be0",
+      "timestamp": 1722966405,
       "reproducible": true,
       "error": null
     }
