@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'FIXME: embedded commit hash mismatch for 1.0.0 (manually adjusted)'
   - 'FIXME: embedded commit hash mismatch for 1.0 (manually adjusted)'
+  - 'FIXME: currently (since v1.1.2) builds multiple APKs though we only need one of them'
 versions:
   - tag: 1.0.0
     apks:
