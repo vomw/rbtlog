@@ -755,6 +755,20 @@
       "error": null
     }
   ],
+  "d0d47efc6059e58ab940e8e4e27b99e4ac8338a60c933d86d6d8ea5e66373d01": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1027/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1027,
+      "version_name": "2024.08.1027",
+      "tag": "2024.08.1027",
+      "commit": "c426cd8b7cc2315fc0cfd02ebd9ffcb48bd359a4",
+      "timestamp": 1723223592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -923,6 +937,20 @@
       "error": null
     }
   ],
+  "3e73f4d00fe1d7d3308cc84169348c3946f58c504c947e36546ee565a56d33ee": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v2.6.3/easter_eggs_2.6.3_46-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 46,
+      "version_name": "2.6.3",
+      "tag": "v2.6.3",
+      "commit": "99a538a886352fd1afcc799e0b81f6c6a95202f3",
+      "timestamp": 1723223980,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -1087,6 +1115,20 @@
       "tag": "3.3.6",
       "commit": "5325033d696103604ad2c32288c5e5a1d1a62094",
       "timestamp": 1722963988,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd11331396b5d5f3ff0db75fe0b7e6958ffc4b7de5f2514cdad196680bb40ff6": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.0/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 101,
+      "version_name": "3.4.0",
+      "tag": "3.4.0",
+      "commit": "79f2b9af00fcff1f39a93d3c1aefb5939cfe3c6e",
+      "timestamp": 1723224436,
       "reproducible": true,
       "error": null
     }
