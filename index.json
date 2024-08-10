@@ -2197,6 +2197,20 @@
       "error": null
     }
   ],
+  "d3fda8ae3c5db6470f06889693a4d1ea716be3154ab4979c62c6f4f0c552e33b": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.5.0/Bazarnote.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 5,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "857d3b52e50ae317a7df7d006f11a3936d7df1e9",
+      "timestamp": 1723307529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -2629,6 +2643,20 @@
       "timestamp": 1722877555,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "fecaf939f1fb4a38f966e3e3f7251cd87c276dd77c444556f4b9af9161fb284e": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.5/InnerTune_v0.5.5_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 21,
+      "version_name": "0.5.5",
+      "tag": "v0.5.5",
+      "commit": "2c424b497aaeeb132a6c8db67acfb6c3f116e7f0",
+      "timestamp": 1723307689,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
@@ -3132,6 +3160,20 @@
       "commit": "2215a0eb864316d1e70f23945911cb62d2077ed5",
       "timestamp": 1722615173,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "e668fae3aceb6c0fc9b9108c875d72e79cc1b2db92cd058dfa3628b6228f82b5": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.3-rc0/eu.darken.sdmse-v1.2.3-rc0-10203000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10203000,
+      "version_name": "1.2.3-rc0",
+      "tag": "v1.2.3-rc0",
+      "commit": "3ec4c6e2e79c4a30846190e35d74b8851a752997",
+      "timestamp": 1723309950,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -4267,6 +4309,20 @@
       "timestamp": 1722196220,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "9857bc4dfe2cbd401014472181343f74095f0dd6069e9c7fc7c1515b0826e1d0": [
+    {
+      "repository": "https://github.com/zelenyhleb/tortoise.git",
+      "apk_url": "https://github.com/zelenyhleb/tortoise/releases/download/v0.5.2/tortoise.apk",
+      "appid": "ru.krivocraft.tortoise",
+      "version_code": 24,
+      "version_name": "0.5.2",
+      "tag": "v0.5.2",
+      "commit": "e8d00c569e14f797c2f2915e9fe3e3682d8e8013",
+      "timestamp": 1723310061,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp0fni4m15/outputs:/outputs', '--volume', '/tmp/tmp0fni4m15/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/zelenyhleb/tortoise.git', '--env', 'APP_TAG=v0.5.2', '--env', 'APP_COMMIT=e8d00c569e14f797c2f2915e9fe3e3682d8e8013', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
   "e3fd246943b75267feb6330393cc62c924a2639cb7dffe901cca347a52ec288b": [
