@@ -3,6 +3,7 @@ repository: https://codeberg.org/rootminusone8004/Bazarnote.git
 updates: releases
 notes:
   - 'FIXME: v0.4.2 was not built from the tag, needed manual adjustment of the commit'
+  - starting with v0.5.1, gradle is automatically evaluated based on their gradle-wrapper.properties
 versions:
   - tag: v0.4.1
     apks:
@@ -74,6 +75,42 @@ versions:
           - sha256sum -c <<< 'd725d707bfabd4dfdc958c624003b3c80accc03f7037b5122c4b1d0ef15cecab  /tmp/gradle-8.9-bin.zip'
           - unzip -q -d /opt /tmp/gradle-8.9-bin.zip
           - export PATH="${PATH}:/opt/gradle-8.9/bin"
+          - gradle assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v0.5.1
+    apks:
+      - apk_pattern: (?i:bazarnote)\.apk
+        apk_url: https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.5.1/Bazarnote.apk
+        build:
+          - GRADLE_PROP=gradle/wrapper/gradle-wrapper.properties
+          - GRADLE_URL=$(grep "distributionUrl=" ${GRADLE_PROP} | awk -F= '{print $2}')
+          - GRADLE_URL=${GRADLE_URL/\\:/:}
+          - GRADLE_FILE=$(basename $GRADLE_URL)
+          - GRADLE_BASE=$(echo $GRADLE_FILE | sed -r 's/\-(bin|all)\.zip//')
+          - GRADLE_SHA=$(grep "distributionSha256Sum=" ${GRADLE_PROP} | awk -F= '{print $2}')
+          - wget -q -O /tmp/${GRADLE_FILE} -- ${GRADLE_URL}
+          - sha256sum -c <<< "$GRADLE_SHA  /tmp/${GRADLE_FILE}"
+          - unzip -q -d /opt /tmp/${GRADLE_FILE}
+          - export PATH="${PATH}:/opt/${GRADLE_BASE}/bin"
           - gradle assembleRelease
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build

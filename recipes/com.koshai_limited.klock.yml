@@ -1,10 +1,12 @@
 ---
 repository: https://codeberg.org/rootminusone8004/Klock.git
 updates: releases
+notes:
+  - 'FIXME: v1.1.3 had only gradle-wrapper.properties but no bin, injected proper gradle'
 versions:
   - tag: v1.1.3
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: Klock_.*\.apk
         apk_url: https://codeberg.org/rootminusone8004/Klock/releases/download/v1.1.3/Klock_1.1.3.apk
         build:
           - wget -q -O /tmp/gradle-8.9-bin.zip -- https://services.gradle.org/distributions/gradle-8.9-bin.zip
@@ -12,7 +14,6 @@ versions:
           - unzip -q -d /opt /tmp/gradle-8.9-bin.zip
           - export PATH="${PATH}:/opt/gradle-8.9/bin"
           - gradle assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
