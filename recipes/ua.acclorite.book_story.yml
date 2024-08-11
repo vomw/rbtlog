@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Acclorite/book-story.git
 updates: releases
+notes:
+  - 'FIXME: v1.1.1 needed soft-reset to embedded commit hash'
 versions:
   - tag: v1.1.1
     apks:
