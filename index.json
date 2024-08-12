@@ -2351,6 +2351,20 @@
       "error": null
     }
   ],
+  "2173140d70dc49454a26fcb07d94ec8c0bfe1a5016fcfed3b4f50b928348d3b8": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.5.2/Bazarnote_7.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 7,
+      "version_name": "0.5.2",
+      "tag": "v0.5.2",
+      "commit": "5ea95b82a6b640bd528f6f28e2e64b4bd65e5bba",
+      "timestamp": 1723480267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -2795,6 +2809,20 @@
       "tag": "v0.5.5",
       "commit": "2c424b497aaeeb132a6c8db67acfb6c3f116e7f0",
       "timestamp": 1723307689,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "00b8112fa790952b051b3a6fce3f22e416b926c98b0742795320249c43bc0dd8": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.6/InnerTune_v0.5.6_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 22,
+      "version_name": "0.5.6",
+      "tag": "v0.5.6",
+      "commit": "42496b8bd2500ed11edfd3091eea98254d198aa7",
+      "timestamp": 1723480419,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
@@ -4283,6 +4311,20 @@
       "error": null
     }
   ],
+  "35dfde261e00c556d2a82c6f954bcbfca24228540fa68c79957b6bd96948da64": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.12/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 52,
+      "version_name": "1.5.12",
+      "tag": "1.5.12",
+      "commit": "7e7a1984b1f775b1046e1528ebab072a97b457e2",
+      "timestamp": 1723480870,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2f521821dd8dfb8f565370341f986bb52b4e841f3e6b260eb4da8c13788807ea": [
     {
       "repository": "https://gitlab.com/Dacid99/pockettracker.git",
@@ -4349,6 +4391,20 @@
       "tag": "v4.3",
       "commit": "dbb151b8573dc38d1973cf4cf895ce3f1e4945af",
       "timestamp": 1723394485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "79f7ae87761162b493e514b63ad895be8234e4251d96c4a79db2106d32d2e68f": [
+    {
+      "repository": "https://github.com/traccar/traccar-manager-android.git",
+      "apk_url": "https://github.com/traccar/traccar-manager-android/releases/download/v4.4/app-regular-release.apk",
+      "appid": "org.traccar.manager",
+      "version_code": 40,
+      "version_name": "4.4",
+      "tag": "v4.4",
+      "commit": "f3c11da732c2cad2be572fc3f73d8bf2842dce47",
+      "timestamp": 1723481024,
       "reproducible": true,
       "error": null
     }
