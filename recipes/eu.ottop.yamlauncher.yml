@@ -1,6 +1,6 @@
 ---
 repository: https://codeberg.org/ottoptj/yamlauncher.git
-updates: releases
+updates: tags:v.*
 notes:
   - 'FIXME: v0.5 needed manual adjustment to the embedded commit'
 versions:
