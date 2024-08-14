@@ -825,6 +825,20 @@
       "error": null
     }
   ],
+  "014e38fbc766887e1ab3c030ff4ba2bc8ea38acdfb237161903aad17e4512f8b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1030/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1030,
+      "version_name": "2024.08.1030",
+      "tag": "2024.08.1030",
+      "commit": "ccedaacb984bfa5049c0598bbb977ef99ef29923",
+      "timestamp": 1723653716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1763,6 +1777,20 @@
       "error": null
     }
   ],
+  "359cef3c211f1eb6261d6002d19f5170d062c4f59892787afee580b43aa1083b": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.4.8/Arru-2.4.8.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 37,
+      "version_name": "2.4.8",
+      "tag": "v2.4.8",
+      "commit": "d60393ec7bf880fb1930fd2fa41c57518302932f",
+      "timestamp": 1723655615,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "555567eb46305cdcad0c4d9feae152cb44a05aa8dffd23de97cf3f3f01ae68f1": [
     {
       "repository": "https://github.com/Kwasow/Musekit.git",
@@ -2407,6 +2435,20 @@
       "error": null
     }
   ],
+  "06e59f4c5ba5fc03fc57151c47c2542a311612029734454e51ef2afd0cc1b00e": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.5.3/Bazarnote_8.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 8,
+      "version_name": "0.5.3",
+      "tag": "v0.5.3",
+      "commit": "ec4912209d092a8314ffb160fe492d0cafcc6e26",
+      "timestamp": 1723654724,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -2572,6 +2614,20 @@
       "commit": "01b3e27864cdb72f184058dd6d9f22051444c83f",
       "timestamp": 1722876633,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6b0aa769918a89cc25abda5378e6aa0953f13b5be03d7be45042c97d42a31e1": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/1.7.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 12,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "c7730b30616f545317c388c20f7b9d3758c39c0d",
+      "timestamp": 1723654860,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -4139,6 +4195,20 @@
       "tag": "3.4.4",
       "commit": "9e6ff378ffa4534cb836cec054216c5206cb74e0",
       "timestamp": 1722964809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "edd80e4dc8488b0d2be89efeda7a9bc71320f86d0e4f891226c1f5e6c3e55b1f": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.5/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 135,
+      "version_name": "3.4.5",
+      "tag": "3.4.5",
+      "commit": "943bbf9b1d15e70a8c5707d674e9e77086871ee3",
+      "timestamp": 1723655132,
       "reproducible": true,
       "error": null
     }
