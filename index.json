@@ -1203,6 +1203,20 @@
       "error": null
     }
   ],
+  "271f23f50c1ae22bebcd9916585de47c0f800d36175ebfb1a0bba91f76bf681a": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.1/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 102,
+      "version_name": "3.4.1",
+      "tag": "3.4.1",
+      "commit": "08f1c8d6f7a78ffeeec1573daa72b198b1b509da",
+      "timestamp": 1723734204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -1413,6 +1427,20 @@
       "error": null
     }
   ],
+  "13fe0997eee8306fcd1e912945b47cc2af4e5a26988d7b0389d3044f8db47ca5": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.13.1/com.fibelatti.photowidget-v1.13.1-1130100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1130100,
+      "version_name": "1.13.1",
+      "tag": "v1.13.1",
+      "commit": "c0dbe73242433c4defa69f8175a75e9fcebde188",
+      "timestamp": 1723734862,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -1423,6 +1451,20 @@
       "tag": "v3.1",
       "commit": "7b60db071ce44370d26e39626cbabb565ae195a0",
       "timestamp": 1723675628,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3415653ef1e2931645ebc84708ea76b679889f74a2cc670a4d0c8b5da5b8ee6d": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.1.1/com.fibelatti.pinboard-v3.1.1-3010100-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3010100,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "34bb5fc922a42d6a839daee57de57ff9b39d8c3e",
+      "timestamp": 1723735211,
       "reproducible": true,
       "error": null
     }
@@ -2463,6 +2505,20 @@
       "error": null
     }
   ],
+  "07f64c1c1fc09465b62fafafc6254cebf93fdc7c2332cd2933e2c8eba9db77e7": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.6.0/Bazarnote_9.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 9,
+      "version_name": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "fe5392aaa15c365f8603d208d5ab35f50d38b2ff",
+      "timestamp": 1723735671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -2991,6 +3047,20 @@
       "tag": "0.1.22",
       "commit": "d39cb5fbdf7d921958c78079ec5df9affaa14c8a",
       "timestamp": 1721168797,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1e8e5955d290293b70aa85a086b18c79356810fcd9825201a3b5b28123e30b39": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.24/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 24,
+      "version_name": "0.1.24",
+      "tag": "0.1.24",
+      "commit": "0685e5b3d1acda15607189e6bcb836daed93b5a6",
+      "timestamp": 1723735817,
       "reproducible": true,
       "error": null
     }
@@ -4237,6 +4307,20 @@
       "tag": "3.4.5",
       "commit": "943bbf9b1d15e70a8c5707d674e9e77086871ee3",
       "timestamp": 1723655132,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9d7bc2c298e598a592914c1506046ab1f932ffd372ddc9f7b0a809ada3ab7ec4": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.6/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 136,
+      "version_name": "3.4.6",
+      "tag": "3.4.6",
+      "commit": "8822eea3cbb505b3ea0b0c29dddcb259741b902b",
+      "timestamp": 1723736191,
       "reproducible": true,
       "error": null
     }

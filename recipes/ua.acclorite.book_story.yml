@@ -13,7 +13,6 @@ versions:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - git clone -b v0.2.8 https://github.com/obfusk/reproducible-apk-tools.git
           - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
           - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'META-INF/services/*' 'res/M7.json'

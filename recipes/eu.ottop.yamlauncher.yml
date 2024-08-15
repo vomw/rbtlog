@@ -12,7 +12,6 @@ versions:
           - git reset --soft 56c57b66a90cac0e1a5ac96b5b9edd4e47199986
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
@@ -40,7 +39,6 @@ versions:
         build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
