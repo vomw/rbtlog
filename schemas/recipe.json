@@ -13,7 +13,14 @@
     "updates": {
       "description": "mode to check for upstream updates",
       "type": "string",
-      "pattern": "^((checkonly:)?(releases|tags:.*)|manual)$"
+      "pattern": "^((checkonly:)?(releases|tags:.*)|manual|disabled)$"
+    },
+    "labels": {
+      "description": "labels (not required)",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "notes": {
       "description": "notes (not required)",
@@ -61,6 +68,10 @@
                 "build_repo_dir": {
                   "description": "directory the repo is cloned to and the build is run in",
                   "type": "string"
+                },
+                "build_timeout": {
+                  "description": "build timeout in minutes (not required, default: null)",
+                  "type": "integer"
                 },
                 "build_user": {
                   "description": "build user name",
