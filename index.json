@@ -1805,6 +1805,20 @@
       "error": null
     }
   ],
+  "1df42f50f5d5e4944072618965718a98827d40ff092ecf3ec54ae0a8557d9d11": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Klock.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Klock/releases/download/v1.2.0/Klock_5.apk",
+      "appid": "com.koshai_limited.klock",
+      "version_code": 5,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "9e219b3eb1bcf82bf7b06d521f62deeeefd48929",
+      "timestamp": 1723827635,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e1c10ab81f13ccf7bc61e9e4c0b50011e7c793197bba7731b6802d03b0229d3b": [
     {
       "repository": "https://github.com/KSSidll/Arru.git",
@@ -3023,6 +3037,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "dc77db68bcab782e72422248fc898835f6ab82441daaa7abd1a0a73ea682c5bd": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.7/InnerTune_v0.5.7_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 23,
+      "version_name": "0.5.7",
+      "tag": "v0.5.7",
+      "commit": "f3ba2519de37fc4bffc7c3ed0f812efc398bf2dc",
+      "timestamp": 1723828137,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
     {
       "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
@@ -3621,6 +3649,20 @@
       "tag": "v0.6-test",
       "commit": "32bbcd0ef9c287add8e0643751da8f8e2cb4ef2d",
       "timestamp": 1723681116,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c0e9663b383bd8a69125188b753520ce98216d32f8a5b756a00759e2dc1bc302": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v0.7/yamlauncher-0.7.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 3,
+      "version_name": "0.7",
+      "tag": "v0.7",
+      "commit": "84c37734c9ae4a2a0123814ca78e74b094d81cca",
+      "timestamp": 1723835301,
       "reproducible": true,
       "error": null
     }
@@ -4965,6 +5007,20 @@
       "tag": "v1.0.1",
       "commit": "54e8c066c72c875bc1293470375f596de1bc5be0",
       "timestamp": 1722966405,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "966a6379469c8d87665e90444c35b0e641750af8cce8adf89504abfe2cd1a0fc": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.0.2/tranquilstopwatch-2.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 2,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "759a02bf27d868e1f9efbaa93711603f0dfc2e7e",
+      "timestamp": 1723828804,
       "reproducible": true,
       "error": null
     }

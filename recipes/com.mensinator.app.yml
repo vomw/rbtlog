@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/EmmaTellblom/Mensinator.git
 updates: releases
+notes:
+  - 'FIXME: had to inject gradle as upstream lacks the gradle-wrapper JAR'
 versions:
   - tag: v1.8.1
     apks:
