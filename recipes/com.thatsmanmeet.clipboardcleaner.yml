@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/thatsmanmeet/Clipboard-Cleaner.git
-updates: releases
+updates: disabled
+notes:
+  - 'FIXME: app is decomissioned, upstream repo was removed 2024-08-18. So remove recipe after a decent time, too.'
 versions:
   - tag: v2.0
     apks:
