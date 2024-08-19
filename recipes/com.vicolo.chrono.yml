@@ -1,0 +1,50 @@
+---
+repository: https://github.com/vicolo-dev/chrono.git
+updates: releases
+notes:
+  - 'FIXME: upstream does not provide gradle wrapper, need to inject our own gradle manually here'
+versions:
+  - tag: v0.5.1
+    apks:
+      - apk_pattern: chrono-.*-arm64-v8a\.apk
+        apk_url: https://github.com/vicolo-dev/chrono/releases/download/v0.5.1/chrono-v0.5.1-arm64-v8a.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - echo "keyAlias=keyAlias" > key.properties
+          - echo "keyPassword=keyPassword" >> key.properties
+          - echo "storePassword=storePassword" >> key.properties
+          - touch release-key.jks
+          - wget -q -O /tmp/gradle-7.6.4-bin.zip -- https://services.gradle.org/distributions/gradle-7.6.4-bin.zip
+          - sha256sum -c <<< 'bed1da33cca0f557ab13691c77f38bb67388119e4794d113e051039b80af9bb1  /tmp/gradle-7.6.4-bin.zip'
+          - unzip -q -d /opt /tmp/gradle-7.6.4-bin.zip
+          - export PATH="${PATH}:/opt/gradle-7.6.4/bin"
+          - version=$(sed -n -E 's/.*flutter-version:\ "(.*)"/\1/p' .github/workflows/android-release.yml)
+          - git clone https://github.com/flutter/flutter
+          - cd flutter
+          - git checkout -f $version
+          - cd ..
+          - export PUB_CACHE=${PWD}/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64" --flavor prod
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-prod-release.apk /outputs/unsigned.apk
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/chrono/chrono
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
