@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 1.7.1
     apks:
-      - apk_pattern: Neo-Feed_.*\.apk
+      - apk_pattern: Neo_Feed_.*\.apk
         apk_url: https://github.com/NeoApplications/Neo-Feed/releases/download/1.7.1/Neo_Feed_171_release.apk
         build:
           - chmod +x gradlew
