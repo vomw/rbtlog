@@ -9,7 +9,6 @@ versions:
         build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
