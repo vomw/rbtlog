@@ -3947,6 +3947,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp0o13nh4i/outputs:/outputs', '--volume', '/tmp/tmp0o13nh4i/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Semper-Viventem/MetaRadar.git', '--env', 'APP_TAG=v0.26.1-beta', '--env', 'APP_COMMIT=42993e29a331f0b29c8545385d33c765ee7f1d84', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "07eb8a05c7eee10483b17ad38ed8a9e40571651dea775d93ee922c273978887b": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.26.5-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536361,
+      "version_name": "0.26.5-beta",
+      "tag": "v0.26.5-beta",
+      "commit": "70d30021a24e0561422e727e428ef0b31a71d922",
+      "timestamp": 1724224054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "373bf8e82d81aa15c7dad5a75b493cdb18a296e5c2b25f7606c0345ed707e6c3": [
     {
       "repository": "https://github.com/gilbsgilbs/LocationIndicatorWhitelist.git",
