@@ -895,6 +895,20 @@
       "error": null
     }
   ],
+  "fa93faf711a5410213b3660c56416004fd8e270d2bda7c7a9ec08bce8a7af3e6": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1033-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1033,
+      "version_name": "2024.08.1033-dev",
+      "tag": "2024.08.1033-dev",
+      "commit": "1df75c5f03c91555348560f3e78ea56930fd6bae",
+      "timestamp": 1724347911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2123,6 +2137,20 @@
       "tag": "v1.8.3",
       "commit": "c69e9921d62e755d1d8472367bd5a860e5100d2c",
       "timestamp": 1724004452,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3fbd251e6aa018026556022593592ac3d9d1721a18c3b35395e9087cda2725eb": [
+    {
+      "repository": "https://github.com/EmmaTellblom/Mensinator.git",
+      "apk_url": "https://github.com/EmmaTellblom/Mensinator/releases/download/v1.8.4/app-release.apk",
+      "appid": "com.mensinator.app",
+      "version_code": 13,
+      "version_name": "1.8.4",
+      "tag": "v1.8.4",
+      "commit": "4627cba7d643d51f7e99bfd4c64edd2751ae6c6e",
+      "timestamp": 1724348300,
       "reproducible": true,
       "error": null
     }
@@ -5413,6 +5441,20 @@
       "tag": "v1.0.5",
       "commit": "a9a7effc3a96896dff2515c050e8a2a3b4d2749f",
       "timestamp": 1724270869,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "97e5fa4bb575c5dd5e70a83e7789444801a1be94c88cc583642d676af4f6ff92": [
+    {
+      "repository": "https://github.com/v4lpt/VPC.git",
+      "apk_url": "https://github.com/v4lpt/VPC/releases/download/v1.0.4/VPT.018-VPC.1.0.4.apk",
+      "appid": "v4lpt.vpt.i018.vpc",
+      "version_code": 104,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "a7f18ca861cf7e1c324f34f731e32b2f0c5c01d1",
+      "timestamp": 1724348514,
       "reproducible": true,
       "error": null
     }
