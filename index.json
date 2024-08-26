@@ -1259,6 +1259,20 @@
       "error": null
     }
   ],
+  "4ade5433141ab753be93ccc6ebe03972852890e29f0ea40c17bfc99cc52c6259": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.3.3/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 15,
+      "version_name": "0.3.3",
+      "tag": "0.3.3",
+      "commit": "29ab9d5500b64f438b5c963407e44553a5c830e3",
+      "timestamp": 1724690051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -1325,6 +1339,20 @@
       "tag": "3.4.1",
       "commit": "08f1c8d6f7a78ffeeec1573daa72b198b1b509da",
       "timestamp": 1723734204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e79728de6bcef0481f1bc2d285cce4da52b2a593071aa48d8f0dc464ef51029b": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.2/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 103,
+      "version_name": "3.4.2",
+      "tag": "3.4.2",
+      "commit": "88c340784ee70c6bf0e603f3dff487ea76589da0",
+      "timestamp": 1724690907,
       "reproducible": true,
       "error": null
     }
@@ -1592,6 +1620,20 @@
       "commit": "74a76616c21a7e85bc3e0869da43289d9020ac7e",
       "timestamp": 1724614236,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "1aa8a16ebe42fb027754c17bdfcc3a3b49c3ce4c18b2eba7003860f79affa526": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.13.3/com.fibelatti.photowidget-v1.13.3-1130300-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1130300,
+      "version_name": "1.13.3",
+      "tag": "v1.13.3",
+      "commit": "dfd70f445c934fdc952fcef0783aa2e2190c61de",
+      "timestamp": 1724691230,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -2067,6 +2109,20 @@
       "tag": "1.1v2",
       "commit": "2b340b8dae2feb9469e6f01f55989f07b71b5f50",
       "timestamp": 1722731115,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8530c1807838ee745c3564d0d31001585b25f8955f05b919a40a10b45cddb703": [
+    {
+      "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
+      "apk_url": "https://github.com/leohearts/AlternativeUnlockXposed/releases/download/1.2v3/app-release.apk",
+      "appid": "com.leohearts.alternativeUnlockHook",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2v3",
+      "commit": "b0bdfeae9b2180534d5ca95344b7dd414a2fb290",
+      "timestamp": 1724691563,
       "reproducible": true,
       "error": null
     }
@@ -3009,6 +3065,20 @@
       "error": null
     }
   ],
+  "f88cc1df12a2d6144fbe3dbaac28fe780ec748a97f6e520696c4caaa07f68bd5": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.0.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 15,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "fdc96350f0453717538f46a67cb7b9785ed64212",
+      "timestamp": 1724691764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0ceac9604b65b02a4fe96326add4a6205058932942926c46d8b378d84569364e": [
     {
       "repository": "https://github.com/Smooth-E/monet-color-previewer.git",
@@ -3733,6 +3803,20 @@
       "tag": "v1.0.0-alpha.4",
       "commit": "00004cb99d188b203636b65531da8102f2329a18",
       "timestamp": 1724088739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24ef13607d24d9143f9fa835d37ee5ca96ff0a71912c362c3ccebac4f6e5fa32": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.5/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 104,
+      "version_name": "1.0.0-alpha.5",
+      "tag": "v1.0.0-alpha.5",
+      "commit": "c1092774fc924364541fe4ea25cade880bd9583c",
+      "timestamp": 1724692038,
       "reproducible": true,
       "error": null
     }
@@ -4941,6 +5025,20 @@
       "error": null
     }
   ],
+  "80bf8401c1c5e011328f3aa155da6f52faa0a6aa077348edff6ad5609c56d5e7": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.8/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 138,
+      "version_name": "3.4.8",
+      "tag": "3.4.8",
+      "commit": "48942e8d1f17bd1e3b2bd430517373109ad0ea13",
+      "timestamp": 1724692416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -5305,6 +5403,20 @@
       "error": null
     }
   ],
+  "7db2df9fec29bdf3fab37163fa175942ee8c6d4683b0cdd7789d696176de0e73": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.1.0/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 9,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "f586b4af1e8f59498f09fd5350724f1b7eba986b",
+      "timestamp": 1724692592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f412f5fc31cb1e268deca4a12ebebe765d4fb4fd80cfc39c6052015b5c793708": [
     {
       "repository": "https://github.com/traccar/traccar-manager-android.git",
@@ -5625,6 +5737,20 @@
       "timestamp": 1723407306,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "969bb3903bb879abd75711e059cf53096c2cc834ff8309afb9db8413f9e88cb7": [
+    {
+      "repository": "https://github.com/Acclorite/book-story.git",
+      "apk_url": "https://github.com/Acclorite/book-story/releases/download/v1.2.0/book-story.apk",
+      "appid": "ua.acclorite.book_story",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "4e849d94a792e5fd9175355809eb3fa9e0c2d018",
+      "timestamp": 1724693434,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "4d0b183eb838636a2ac419161cdf5690c9d3a778594dfda2b176e700fb5b61a6": [
