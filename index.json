@@ -951,6 +951,20 @@
       "error": null
     }
   ],
+  "21a13603cf24d51b2448db7b9d5ae167992371a7de5487ba56f86eb34f9b30f6": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.08.1037/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1037,
+      "version_name": "2024.08.1037",
+      "tag": "2024.08.1037",
+      "commit": "e7efcd389cf86be80d7da556bb649c088c63c339",
+      "timestamp": 1724773425,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2417,6 +2431,32 @@
       "tag": "v6.2.0",
       "commit": "251f2e69fa825a0c0c50d995675476fd89f3a3ac",
       "timestamp": 1723322376,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "661bcd2f2ea0e91dcb0769927d2fe275b3c24010b55636fe8bd1a5dccd4d9ffa": [
+    {
+      "repository": "https://github.com/Tommy-Geenexus/exif-eraser.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/exif-eraser/releases/download/v6.3.0/app-release.apk",
+      "appid": "com.none.tom.exiferaser",
+      "version_code": 39,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "961a9727e7d074b3fca9b704dd5fb6d20667b463",
+      "timestamp": 1724773863,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/Tommy-Geenexus/exif-eraser.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/exif-eraser/releases/download/v6.3.0/app-release.apk",
+      "appid": "com.none.tom.exiferaser",
+      "version_code": 39,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "961a9727e7d074b3fca9b704dd5fb6d20667b463",
+      "timestamp": 1724773761,
       "reproducible": true,
       "error": null
     }
@@ -4181,6 +4221,20 @@
       "tag": "v1.2.3-rc0",
       "commit": "3ec4c6e2e79c4a30846190e35d74b8851a752997",
       "timestamp": 1723309950,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "368c44b3725d60b066aca4b4e6eb75f8425913fa2e522ae7a0b0802e09aa0eaa": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.4-rc0/eu.darken.sdmse-v1.2.4-rc0-10204000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10204000,
+      "version_name": "1.2.4-rc0",
+      "tag": "v1.2.4-rc0",
+      "commit": "d55d7c7dde09f28d9396b85d3cec06f0ca5433da",
+      "timestamp": 1724777943,
       "reproducible": true,
       "error": null
     }
