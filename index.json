@@ -1371,6 +1371,20 @@
       "error": null
     }
   ],
+  "dac7685fc76fef32455b772e7391b125f4b21d9fc34fef5bdd8c44c74e024d42": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.3/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 104,
+      "version_name": "3.4.3",
+      "tag": "3.4.3",
+      "commit": "97032cbcfe159187a95b3c998eeb3e65da9cfa02",
+      "timestamp": 1724861995,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -1423,6 +1437,20 @@
       "tag": "v0.12.0",
       "commit": "5d0f7cc1cc180104190a1a51a7b9250e0b3e88bd",
       "timestamp": 1723913203,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd49a52f045f334d80f649c15a8ebd2a3f32b7f4e426f2144f663acf980ca7ab": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.13.0/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 17,
+      "version_name": "v0.13.0",
+      "tag": "v0.13.0",
+      "commit": "975f0e2ff8d63ba969906e799eb458a3f74f9a58",
+      "timestamp": 1724862291,
       "reproducible": true,
       "error": null
     }
@@ -3567,6 +3595,20 @@
       "error": null
     }
   ],
+  "f35064a435dea875eb177574c844383c8bb6560400c7f2b86adb810f3a738667": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.9/InnerTune_v0.5.9_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 25,
+      "version_name": "0.5.9",
+      "tag": "v0.5.9",
+      "commit": "17be9cd128d6de2738960a8603de738afa565ce8",
+      "timestamp": 1724863217,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
     {
       "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
@@ -3633,6 +3675,20 @@
       "tag": "0.1.25",
       "commit": "78d575d833c810a0333e26d50bffd08c02508bdb",
       "timestamp": 1723914705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "acab13ebbc1d61caf012305aa0ab601107ad388e2862861360587b4cc08c098f": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.26/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 26,
+      "version_name": "0.1.26",
+      "tag": "0.1.26",
+      "commit": "75a3bda62241cbca463560f42f3a09adf59a6560",
+      "timestamp": 1724863640,
       "reproducible": true,
       "error": null
     }
