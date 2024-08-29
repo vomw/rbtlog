@@ -1,0 +1,32 @@
+---
+repository: https://github.com/green-green-avk/AnotherTerm.git
+updates: tags:(MkIIIv\d+_release)
+versions:
+  - tag: MkIIIv87_release
+    apks:
+      - apk_pattern: app-redist-versioned-release\.apk
+        apk_url: https://github.com/green-green-avk/AnotherTerm/releases/download/$$TAG$$/app-redist-versioned-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRedistVersionedRelease
+          - mv app/build/outputs/apk/redistVersioned/release/app-redist-versioned-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - cmake
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
