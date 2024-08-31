@@ -1847,6 +1847,20 @@
       "error": null
     }
   ],
+  "fa2f74733928553258ec0b4a768b5bfe298d1ac5f04807c569eb503c544c7491": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.4.4/fdroidRelease-2.4.4.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30404,
+      "version_name": "2.4.4",
+      "tag": "2.4.4",
+      "commit": "056cd7b277992bddf79b8f08ba128b684206ed42",
+      "timestamp": 1725119538,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3a2da02196e91445879523bc6e8d92779cb5c167bb93c5ec9b41d55f41861061": [
     {
       "repository": "https://github.com/capntrips/KernelFlasher.git",
@@ -4225,6 +4239,20 @@
       "error": null
     }
   ],
+  "707b75f0c1f1ac9aa5dd83ee5cf416de84b886318e6ac5e76aebe267b18eb84c": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.12.3/nextplayer-v0.12.3-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 20,
+      "version_name": "0.12.3",
+      "tag": "v0.12.3",
+      "commit": "eed9aa34b8a03891b98bf37d98403c61c9773a2e",
+      "timestamp": 1725120093,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f27df9a55ae0f4cf2b504d952c2027daad40223759ad580485cb67da7dc34375": [
     {
       "repository": "https://github.com/JahidHasanCO/BMI-Calculator.git",
@@ -4501,6 +4529,20 @@
       "tag": "v1.0",
       "commit": "b49f30c91cebf667ef6758394a1fe6b88563bc95",
       "timestamp": 1724615656,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3c5eda76052cc304ea47b6034df3f98e8ccd93c7e9b6489d5c49dba37ee34de5": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.2/yamlauncher-1.2.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 6,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "7f766c4312d915fa73fd655508372b767c8a46a8",
+      "timestamp": 1725120578,
       "reproducible": true,
       "error": null
     }
