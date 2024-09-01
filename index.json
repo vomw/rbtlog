@@ -3273,6 +3273,20 @@
       "error": null
     }
   ],
+  "0b49d6173c611ae561387446f0475e9c81a920385e996a0f4857a08aa0e49c3f": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.1.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 16,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "91442a9f292b022975cafb4ebb534afbaa200256",
+      "timestamp": 1725207201,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0ceac9604b65b02a4fe96326add4a6205058932942926c46d8b378d84569364e": [
     {
       "repository": "https://github.com/Smooth-E/monet-color-previewer.git",
@@ -3749,6 +3763,20 @@
       "error": null
     }
   ],
+  "e30facf30e4755c4d3efb33a21f4412cd87e681608920628a6e46ecdc02fff94": [
+    {
+      "repository": "https://github.com/z-huang/InnerTune.git",
+      "apk_url": "https://github.com/z-huang/InnerTune/releases/download/v0.5.10/InnerTune_v0.5.10_foss.apk",
+      "appid": "com.zionhuang.music",
+      "version_code": 26,
+      "version_name": "0.5.10",
+      "tag": "v0.5.10",
+      "commit": "e65e6bf435c50c25e0be52213692d1e0967772c0",
+      "timestamp": 1725207511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
     {
       "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
@@ -3829,6 +3857,20 @@
       "tag": "0.1.26",
       "commit": "75a3bda62241cbca463560f42f3a09adf59a6560",
       "timestamp": 1724863640,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdef13a47473fba21585f1954971559e3ed3f98a157a9746d48d14fcfef9bd03": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.28/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 28,
+      "version_name": "0.1.28",
+      "tag": "0.1.28",
+      "commit": "4fa931f769976bb376dfc076f93c13f36609a80a",
+      "timestamp": 1725208113,
       "reproducible": true,
       "error": null
     }
@@ -4977,6 +5019,20 @@
       "tag": "v0.1.1",
       "commit": "8d3bfbdad09d537291e9369e45d1f6f62c8cc82a",
       "timestamp": 1725143499,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "27ca1a209477264635444b32659797bf23db9e7aa051b8825075c080609d2b82": [
+    {
+      "repository": "https://github.com/abdallahmehiz/mpvKt.git",
+      "apk_url": "https://github.com/abdallahmehiz/mpvKt/releases/download/v0.1.2/mpvKt-arm64-v8a-v0.1.2.apk",
+      "appid": "live.mehiz.mpvkt",
+      "version_code": 82,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "4e90d5d72d754519bb2efb242f394019dbfc9543",
+      "timestamp": 1725209536,
       "reproducible": true,
       "error": null
     }
