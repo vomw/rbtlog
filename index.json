@@ -139,6 +139,20 @@
       "error": null
     }
   ],
+  "51c04cab646e6c18bffaae6059a73fd4157cd309dc20ea2c0186a12fe06ce504": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v1.53_beta/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 153,
+      "version_name": "1.53_beta",
+      "tag": "v1.53_beta",
+      "commit": "54d29d8e4b0d3456b6dfbf3ba6952b8633b22509",
+      "timestamp": 1725294082,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1021,6 +1035,20 @@
       "error": null
     }
   ],
+  "94f0c114bbf06dae4648baf8422e55966e3f7b7113cbbfcc958fb91ce52fb750": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1039-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1039,
+      "version_name": "2024.09.1039-dev",
+      "tag": "2024.09.1039-dev",
+      "commit": "1b27e52bebdee979243b1f0c4eaeede994fe6eac",
+      "timestamp": 1725294371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1451,6 +1479,20 @@
       "tag": "3.4.4",
       "commit": "6f03303edaa4ddc299a996c0d004d8a121256d6f",
       "timestamp": 1725052643,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f3c05760e0f8a9141ffd76898b801b24fac33d5d3856734099ad7b9ef618ecd6": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.5/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 106,
+      "version_name": "3.4.5",
+      "tag": "3.4.5",
+      "commit": "cbb592f263dc29f871e3394ca466d5763a53078c",
+      "timestamp": 1725294780,
       "reproducible": true,
       "error": null
     }
@@ -5033,6 +5075,20 @@
       "tag": "v0.1.2",
       "commit": "4e90d5d72d754519bb2efb242f394019dbfc9543",
       "timestamp": 1725209536,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2d2b5ed26243e297f23baf51916abbadfeaf242486f620ac4af2a965337589a7": [
+    {
+      "repository": "https://github.com/abdallahmehiz/mpvKt.git",
+      "apk_url": "https://github.com/abdallahmehiz/mpvKt/releases/download/v0.1.3/mpvKt-arm64-v8a-v0.1.3.apk",
+      "appid": "live.mehiz.mpvkt",
+      "version_code": 92,
+      "version_name": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "4bb980f4f2560419e27c3e23b2cd123b7411b556",
+      "timestamp": 1725295110,
       "reproducible": true,
       "error": null
     }
