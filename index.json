@@ -4631,6 +4631,20 @@
       "error": null
     }
   ],
+  "b02ebc0b3ef5480959951717bcb423f4c6a83b06ce6b8bc48f4072bb232774f2": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.3/yamlauncher-1.3.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 7,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "77fc95b2f4535d49d7aed43715a0ac075f31c02d",
+      "timestamp": 1725385126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b02296dd7bb626f5ba46cf30d59a41ed452a0e573be3e8837d05b09e8f9beee4": [
     {
       "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
@@ -5205,6 +5219,20 @@
       "error": null
     }
   ],
+  "66272fecda15530e7f9f5ed4a4c7ff836079239f1c2559dc10598de189a45ab7": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/2.9.3/EasyWatermark-2.9.3-20903-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 20903,
+      "version_name": "2.9.3",
+      "tag": "2.9.3",
+      "commit": "b5c9148faca7a45b08a67ffa0d78c2d0e468b5e1",
+      "timestamp": 1725386080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "590a449db952809d129c65642473621a549cf11ca2976c3a3bb96032560dbc63": [
     {
       "repository": "https://github.com/Henry-ZHR/firefox_no_home_button.git",
@@ -5481,6 +5509,20 @@
       "tag": "3.4.8",
       "commit": "48942e8d1f17bd1e3b2bd430517373109ad0ea13",
       "timestamp": 1724692416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b401f71a9861c76d6a3a08ac2686db7c753d917acee813aec6ae5edd24db13c0": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.11/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 141,
+      "version_name": "3.4.11",
+      "tag": "3.4.11",
+      "commit": "2397d91f73de20aa0e39295c3066423a28f0811c",
+      "timestamp": 1725386423,
       "reproducible": true,
       "error": null
     }
