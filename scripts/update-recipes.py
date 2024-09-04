@@ -18,6 +18,8 @@ import requests
 
 from ruamel.yaml import YAML
 
+EXE = sys.executable or "python3"
+
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or None
 
 CODEBERG_DOT_ORG = "codeberg.org"
@@ -194,6 +196,13 @@ def save_recipe(recipe_file: str, data: Dict[Any, Any]) -> None:
         yaml.dump(data, fh)
 
 
+def update_hashes(recipe_file: str, tag: str, *, verbose: bool = False) -> None:
+    """Update hashes in recipes."""
+    verb = ("--verbose",) if verbose else ()
+    args = (EXE, os.path.join("scripts", "update-hashes.py"), *verb, "--", recipe_file, tag)
+    subprocess.run(args, check=True)
+
+
 def append_latest_version(recipe: Dict[Any, Any], tag: str,
                           apk_urls: Optional[Dict[str, str]]) -> bool:
     """Add new version to recipe; modifies in-place!"""
@@ -211,8 +220,8 @@ def append_latest_version(recipe: Dict[Any, Any], tag: str,
     return True
 
 
-def update_recipes(*recipes: str, continue_on_errors: bool = False, quiet: bool = False,
-                   verbose: bool = False) -> bool:
+def update_recipes(*recipes: str, continue_on_errors: bool = False, always_update_hashes: bool = False,
+                   quiet: bool = False, verbose: bool = False) -> bool:
     """Update recipes."""
     if verbose and GITHUB_TOKEN:
         print("Using $GITHUB_TOKEN.", file=sys.stderr)
@@ -250,6 +259,11 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, quiet: bool 
                 else:
                     save_recipe(recipe_file, recipe)
                     print(f"Updated {appid!r} to {tag!r}.", file=sys.stderr)
+                    labels = recipe.get("labels", [])
+                    upd, no_upd = "update-hashes" in labels, "no-update-hashes" in labels
+                    if (always_update_hashes and not no_upd) or upd:
+                        update_hashes(recipe_file, tag, verbose=verbose)
+                        print(f"Updated hashes for {f'{appid}:{tag}'!r}.", file=sys.stderr)
             elif verbose:
                 print(f"Tag already present: {tag!r}.", file=sys.stderr)
         except (subprocess.CalledProcessError, requests.RequestException, Error) as e:
@@ -264,10 +278,12 @@ if __name__ == "__main__":
     parser.add_argument("-q", "--quiet", action="store_true")
     parser.add_argument("-v", "--verbose", action="store_true")
     parser.add_argument("--continue-on-errors", action="store_true", help="continue on errors")
+    parser.add_argument("--update-hashes", action="store_true", help="always update hashes")
     parser.add_argument("recipes", metavar="RECIPE", nargs="*", help="recipe")
     args = parser.parse_args()
     if not update_recipes(*args.recipes, continue_on_errors=args.continue_on_errors,
-                          quiet=args.quiet, verbose=args.verbose):
+                          always_update_hashes=args.update_hashes, quiet=args.quiet,
+                          verbose=args.verbose):
         sys.exit(1)
 
 # vim: set tw=80 sw=4 sts=4 et fdm=marker :
