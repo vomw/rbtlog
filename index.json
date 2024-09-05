@@ -1091,6 +1091,20 @@
       "error": null
     }
   ],
+  "bf114d0153dbf3bb43066c061ef0596c8bd81950f6fe7942e9f4b53d33a2348a": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1040/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1040,
+      "version_name": "2024.09.1040",
+      "tag": "2024.09.1040",
+      "commit": "788966e7799b9a1610051bc5285b162cf5c8ef46",
+      "timestamp": 1725553382,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -5177,6 +5191,20 @@
       "error": null
     }
   ],
+  "a26a64ffa4aa818ef115605c44c7daa7a4af3ff9952f3d6da8dc29efb191f019": [
+    {
+      "repository": "https://github.com/abdallahmehiz/mpvKt.git",
+      "apk_url": "https://github.com/abdallahmehiz/mpvKt/releases/download/v0.1.4/mpvKt-arm64-v8a-v0.1.4.apk",
+      "appid": "live.mehiz.mpvkt",
+      "version_code": 102,
+      "version_name": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "ad62b84719b5f6d3d1e564b866b192690b11ffc7",
+      "timestamp": 1725553736,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99ab1f3bc70166d3a217aeea9a2badd14d62ba9a3d7bd31f797a4e5568942f71": [
     {
       "repository": "https://github.com/Erbzur/Orange.git",
@@ -6391,6 +6419,20 @@
       "tag": "v1.0.4",
       "commit": "a1a52be1d4622a6b0cfff0433be1d2c2ae66af90",
       "timestamp": 1725484087,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "df9c4fe3998fc282d9cf0412ef2f4bd78b7b01017af2a99e3301f96f5ae6b639": [
+    {
+      "repository": "https://github.com/v4lpt/GDP.git",
+      "apk_url": "https://github.com/v4lpt/GDP/releases/download/v1.0.5/VPT.003-GDP.1.0.5.apk",
+      "appid": "v4lpt.vpt.f003.gdp",
+      "version_code": 105,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "971725e954fe5ca89b99da9520fda2df1511b43e",
+      "timestamp": 1725554061,
       "reproducible": true,
       "error": null
     }
