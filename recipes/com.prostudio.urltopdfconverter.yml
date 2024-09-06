@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/tawhidmonowar/WebCapture.git
-updates: releases
+updates: disabled
+notes:
+  - app rebranded and uses a different packageName now (com.tawhid.webcapture)
 versions:
   - tag: 1.0.1
     apks:
