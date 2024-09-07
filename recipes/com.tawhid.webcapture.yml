@@ -2,7 +2,7 @@
 repository: https://github.com/tawhidmonowar/WebCapture.git
 updates: releases
 notes:
-  - 'FIXME: 1.0.2 needed manual adjustment of commit hash. Only building all ABIs (even while just picking one) results in RB.'
+  - 'FIXED: 1.0.2 needed manual adjustment of commit hash. Only building all ABIs (even while just picking one) results in RB.'
 versions:
   - tag: 1.0.2
     apks:

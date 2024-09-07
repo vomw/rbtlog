@@ -2,7 +2,7 @@
 repository: https://github.com/vicolo-dev/chrono.git
 updates: releases
 notes:
-  - 'FIXME: upstream does not provide gradle wrapper, need to inject our own gradle manually here'
+  - 'FIXME: upstream does not provide gradle wrapper, need to inject our own gradle manually here – https://github.com/vicolo-dev/chrono/issues/326'
 versions:
   - tag: v0.5.1
     apks:

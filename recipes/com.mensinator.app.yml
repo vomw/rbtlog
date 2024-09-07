@@ -2,9 +2,9 @@
 repository: https://github.com/EmmaTellblom/Mensinator.git
 updates: releases
 notes:
-  - 'FIXME: had to inject gradle as upstream lacks the gradle-wrapper JAR'
-  - 'FIXME: v1.8.2 needed manual adjustment to embedded commit hash'
-  - 'FIXME: v1.8.3 needed manual adjustment to embedded commit hash'
+  - 'FIXED: had to inject gradle as upstream lacks the gradle-wrapper JAR'
+  - 'FIXED: v1.8.2 needed manual adjustment to embedded commit hash'
+  - 'FIXED: v1.8.3 needed manual adjustment to embedded commit hash'
 versions:
   - tag: v1.8.1
     apks:

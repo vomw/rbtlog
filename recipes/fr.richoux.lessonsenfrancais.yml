@@ -2,7 +2,7 @@
 repository: https://github.com/richoux/les_sons_en_francais.git
 updates: releases
 notes:
-  - 'FIXME: needed to inject gradle-8.0.2 with v1.2.2. Project seems no longer maintained, though.'
+  - 'FIXME: needed to inject gradle-8.0.2 with v1.2.2. – see https://github.com/richoux/les_sons_en_francais/issues/2'
 versions:
   - tag: v1.2.2
     apks:

@@ -2,8 +2,9 @@
 repository: https://github.com/Kaiserdragon2/CallForwarding.git
 updates: releases
 notes:
-  - 'FIXME: embedded commit hash mismatch for v1.8 (manually adjusted)'
-  - 'FIXME: embedded commit hash mismatch for v1.9 (manually adjusted)'
+  - 'FIXED: embedded commit hash mismatch for v1.8 (manually adjusted)'
+  - 'FIXED: embedded commit hash mismatch for v1.9 (manually adjusted)'
+  - 'FIXME: missing gradle-wrapper JAR, see https://github.com/Kaiserdragon2/CallForwarding/issues/13'
 versions:
   - tag: v1.8
     apks:

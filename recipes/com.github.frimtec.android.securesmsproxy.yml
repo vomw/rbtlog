@@ -2,7 +2,7 @@
 repository: https://github.com/frimtec/secure-sms-proxy.git
 updates: releases
 notes:
-  - 'FIXME: dev uses build-time specific calculation for versionCode and some other method for versionName, requiring manual adjustments for each release'
+  - 'FIXME: dev uses build-time specific calculation for versionCode and some other method for versionName, requiring manual adjustments for each release – https://github.com/frimtec/secure-sms-proxy/issues/368'
 versions:
   - tag: 3.2.7
     apks:

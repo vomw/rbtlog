@@ -2,7 +2,7 @@
 repository: https://github.com/v4lpt/PWG.git
 updates: releases
 notes:
-  - 'FIXME: v1.0.5 has the wrong checksum in gradle-wrapper.properties'
+  - 'FIXME: v1.0.5 has the wrong checksum in gradle-wrapper.properties – see https://github.com/v4lpt/PWG/issues/3'
 versions:
   - tag: v1.0.5
     apks:

@@ -2,7 +2,7 @@
 repository: https://github.com/Kwasow/Musekit.git
 updates: releases
 notes:
-  - 'FIXME: generates versionCode based on buildtime unix timestamp, see https://github.com/Kwasow/Musekit/blob/main/app/build.gradle.kts#L7'
+  - 'FIXME: generates versionCode based on buildtime unix timestamp, see https://github.com/Kwasow/Musekit/blob/main/app/build.gradle.kts#L7 – https://github.com/Kwasow/Musekit/issues/9'
 versions:
   - tag: v1.3.1
     apks:

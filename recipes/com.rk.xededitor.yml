@@ -2,8 +2,8 @@
 repository: https://github.com/RohitKushvaha01/Xed-Editor.git
 updates: releases
 notes:
-  - 'FIXME: v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed'
-  - 'FIXME: v2.5.0 had uncommitted changes applied after the release tag and hence is not RB'
+  - 'v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed'
+  - 'v2.5.0 had uncommitted changes applied after the release tag and hence is not RB'
 versions:
   - tag: v2.1.0
     apks:

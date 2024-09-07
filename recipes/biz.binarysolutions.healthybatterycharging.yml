@@ -2,7 +2,7 @@
 repository: https://github.com/vbresan/HealthyBatteryCharging.git
 updates: releases
 notes:
-  - 'FIXME: no gradle-wrapper.jar, gradle injected manually to recipe'
+  - 'FIXME: no gradle-wrapper.jar, gradle injected manually to recipe – https://github.com/vbresan/HealthyBatteryCharging/issues/24'
 versions:
   - tag: '5'
     apks:

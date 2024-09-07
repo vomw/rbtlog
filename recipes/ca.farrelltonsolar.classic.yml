@@ -2,7 +2,7 @@
 repository: https://github.com/ClassicDIY/ClassicMonitor.git
 updates: releases
 notes:
-  - 'FIXME: V2.7.5 requires manual soft-reset to embedded commit hash plus gradle injection as their gradle wrapper is broken and outaged'
+  - 'FIXME: V2.7.5 requires manual soft-reset to embedded commit hash plus gradle injection as their gradle wrapper is broken and outaged – https://github.com/ClassicDIY/ClassicMonitor/issues/30'
 versions:
   - tag: V2.7.5
     apks:

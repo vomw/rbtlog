@@ -2,9 +2,9 @@
 repository: https://github.com/sosauce/CuteMusic.git
 updates: releases
 notes:
-  - 'FIXME: embedded commit hash mismatch for v1.3.0 (manually adjusted)'
-  - 'FIXME: embedded commit hash mismatch for v1.4.0 (manual adjustment does not help)'
-  - 'FIXME: embedded commit hash mismatch for v1.4.1 (manual adjustment does not help) – https://github.com/sosauce/CuteMusic/issues/23'
+  - 'FIXED: embedded commit hash mismatch for v1.3.0 (manually adjusted)'
+  - 'FIXED: embedded commit hash mismatch for v1.4.0 (manual adjustment does not help)'
+  - 'FIXED: embedded commit hash mismatch for v1.4.1 (manual adjustment does not help) – https://github.com/sosauce/CuteMusic/issues/23'
   - 'FIXED: rebuild after "clean" in Android Studio solved it in v1.4.2'
 versions:
   - tag: v1.3.0
