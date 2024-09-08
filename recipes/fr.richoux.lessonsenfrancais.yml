@@ -2,7 +2,7 @@
 repository: https://github.com/richoux/les_sons_en_francais.git
 updates: releases
 notes:
-  - 'FIXME: needed to inject gradle-8.0.2 with v1.2.2. – see https://github.com/richoux/les_sons_en_francais/issues/2'
+  - 'FIXED: needed to inject gradle-8.0.2 with v1.2.2. – see https://github.com/richoux/les_sons_en_francais/issues/2'
 versions:
   - tag: v1.2.2
     apks:
@@ -35,3 +35,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.7
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/richoux/les_sons_en_francais/releases/download/v1.7/app-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
