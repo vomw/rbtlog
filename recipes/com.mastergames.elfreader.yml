@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/MasterGamesMG/ELFReader.git
 updates: releases
+notes:
+  - 'FIXME: tag is a moving target, see https://github.com/MasterGamesMG/ELFReader/issues/3'
 versions:
   - tag: Android
     apks:
