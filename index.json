@@ -153,6 +153,20 @@
       "error": null
     }
   ],
+  "92753b76b06630e6a74b70ffaa1a0d3af8996797e4c2402a67cf0253bd4167ac": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v1.54_beta/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 154,
+      "version_name": "1.54_beta",
+      "tag": "v1.54_beta",
+      "commit": "e06da38eda88955621b1fd683385d95cc0c4b20e",
+      "timestamp": 1725899957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1143,6 +1157,20 @@
       "tag": "2024.09.1041",
       "commit": "f8ac7e8c4a6fccfe8f26f1b492261a4f5ce7dafa",
       "timestamp": 1725639627,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec0912491b6fa661201c19901c17ab6e76bb54d5a30aa0c27d5a9aaf78c6faaf": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1043-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1043,
+      "version_name": "2024.09.1043-dev",
+      "tag": "2024.09.1043-dev",
+      "commit": "a9bbe3f752300a4db9b3119dca6b9f39b600ae75",
+      "timestamp": 1725900259,
       "reproducible": true,
       "error": null
     }
@@ -4921,6 +4949,20 @@
       "tag": "v1.3",
       "commit": "77fc95b2f4535d49d7aed43715a0ac075f31c02d",
       "timestamp": 1725385126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "addfab50f7ab6286460a28da38a14516d70c8bd492b0f21d1340048930a0c8f3": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.4/yamlauncher-1.4.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 8,
+      "version_name": "1.4",
+      "tag": "v1.4",
+      "commit": "4eb3ccc2a40320b1cf0ff80ee523ad037da1218a",
+      "timestamp": 1725900707,
       "reproducible": true,
       "error": null
     }
