@@ -447,6 +447,20 @@
       "error": null
     }
   ],
+  "a2aa9db2fe5fc4e57ac6f1b23ab94eb06623589d0f84cef215b6f90e23ae5018": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.5.1/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 70,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "d930a3214275ae7b4a854c126d3b4dd9335d8d45",
+      "timestamp": 1725983967,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7219b463760c8883ba86fcde070ef806b012749b59467837bfa6e92d459d8e8b": [
     {
       "repository": "https://github.com/Alfio010/notification-listener-android.git",
@@ -1175,6 +1189,20 @@
       "error": null
     }
   ],
+  "456f64ca7acb467e42e380d5fdfe7c3005f7330880932838b6e0d603e38af5f0": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1044-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1044,
+      "version_name": "2024.09.1044-dev",
+      "tag": "2024.09.1044-dev",
+      "commit": "09f0653408f2940e72db939f051ec9a4f415b7cd",
+      "timestamp": 1725984143,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1507,6 +1535,20 @@
       "tag": "0.3.3",
       "commit": "29ab9d5500b64f438b5c963407e44553a5c830e3",
       "timestamp": 1724690051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fa3d83dcbba1dbbf10b57c188df6b530dcdc063841b56627d569aa0eddf948c6": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.4.0/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 16,
+      "version_name": "0.4.0",
+      "tag": "0.4.0",
+      "commit": "543171dff352bfc0b3746656caeac8dfe14cc20d",
+      "timestamp": 1725984509,
       "reproducible": true,
       "error": null
     }
@@ -2211,6 +2253,20 @@
       "error": null
     }
   ],
+  "69b6fb513a720af5058c9e327604aa7938ffd2dbd43c2e0f96533ff2363207a2": [
+    {
+      "repository": "https://github.com/jabstone/JABtalk.git",
+      "apk_url": "https://github.com/jabstone/JABtalk/releases/download/5.3.2/jabtalk_v5.3.2.apk",
+      "appid": "com.jabstone.jabtalk.basic",
+      "version_code": 532,
+      "version_name": "5.3.2",
+      "tag": "5.3.2",
+      "commit": "f88992b3380e81ae4ce5887c1c6ce75c90640703",
+      "timestamp": 1725988342,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15c7e9c2e512b646ff8191fde498bb2c7fca38023e4f6d0484d4f043c1643d6f": [
     {
       "repository": "https://github.com/jamal2362/URL-Radio.git",
@@ -2473,6 +2529,20 @@
       "tag": "v1.4.1",
       "commit": "7d86033d277b4993a32866d82710cded5f86fa44",
       "timestamp": 1725922594,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "860eae8fee2d7ff9a10cb9b1bce26ff36c0983587798cc8873e0912c2b59f5e1": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v1.4.2/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768580,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "6092f2eeba3f47d3014e83b7c9ce0a82e02b22a0",
+      "timestamp": 1725985525,
       "reproducible": true,
       "error": null
     }
@@ -5495,6 +5565,20 @@
       "tag": "v0.1.4",
       "commit": "ad62b84719b5f6d3d1e564b866b192690b11ffc7",
       "timestamp": 1725553736,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f28e578456e5e0e4a06a74171a170f8d0f2a7366c6913eed260660e90af146c": [
+    {
+      "repository": "https://github.com/abdallahmehiz/mpvKt.git",
+      "apk_url": "https://github.com/abdallahmehiz/mpvKt/releases/download/v0.1.5/mpvKt-arm64-v8a-v0.1.5.apk",
+      "appid": "live.mehiz.mpvkt",
+      "version_code": 112,
+      "version_name": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "924e21dcc5eb5bc9f793044fa6e48ca26f1312f7",
+      "timestamp": 1725985730,
       "reproducible": true,
       "error": null
     }
