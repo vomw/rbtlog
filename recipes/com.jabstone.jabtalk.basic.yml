@@ -3,6 +3,7 @@ repository: https://github.com/jabstone/JABtalk.git
 updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for 5.3.1 (manually adjusted)'
+  - 'FIXME: update recipe on next release following 5.3.2 as gradle-wrapper was fixed now upstream'
 versions:
   - tag: 5.3.1
     apks:
