@@ -1217,6 +1217,20 @@
       "error": null
     }
   ],
+  "11a0c60070f97d902232c078dad5eb92de25d8b4dde393a6cea06203ba38842c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1046/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1046,
+      "version_name": "2024.09.1046",
+      "tag": "2024.09.1046",
+      "commit": "e6e1acea00ed9eddd3d1515df3ccf678b51e5739",
+      "timestamp": 1726157714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1567,6 +1581,20 @@
       "error": null
     }
   ],
+  "b2f569272cede7857d31ea26b36880a6d2aafd13893b3d80b97c5d0241ba8086": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.4.1/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 17,
+      "version_name": "0.4.1",
+      "tag": "0.4.1",
+      "commit": "66398b20f4bbfa8847ae15db758e06d0cab7cf15",
+      "timestamp": 1726158109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -1703,6 +1731,20 @@
       "tag": "3.4.6",
       "commit": "c089bc512d78e1739aea248441b1ac3689c1a66e",
       "timestamp": 1726076707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "29e2cd15fc7af6a0cae253e87a87bed23bd440dd14db1c16df1f786afc30b007": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.7/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 108,
+      "version_name": "3.4.7",
+      "tag": "3.4.7",
+      "commit": "5c16da29181c71977c3bea2ade76acaa132465c0",
+      "timestamp": 1726158377,
       "reproducible": true,
       "error": null
     }
@@ -6587,6 +6629,20 @@
       "tag": "0.9.2",
       "commit": "6eb701fe74f84ea7110ae4d2aadf96dde0172778",
       "timestamp": 1725884320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3397db3155b2c2fded03cfa96faa324c1fd14bd45677e5b04042319d10105134": [
+    {
+      "repository": "https://github.com/Moderpach/Extinguish.git",
+      "apk_url": "https://github.com/Moderpach/Extinguish/releases/download/0.9.3/app-release.apk",
+      "appid": "own.moderpach.extinguish",
+      "version_code": 32,
+      "version_name": "0.9.3",
+      "tag": "0.9.3",
+      "commit": "2481d4db3f648c871afae000770a3b5717658d90",
+      "timestamp": 1726158688,
       "reproducible": true,
       "error": null
     }
