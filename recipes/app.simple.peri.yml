@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Hamza417/Peristyle.git
 updates: releases
+notes:
+  - 'FIXME: upstream APK shows "generate_error_reason: NO_VALID_GIT_FOUND" in version-control-info.textproto'
 versions:
   - tag: v1.48_beta
     apks:

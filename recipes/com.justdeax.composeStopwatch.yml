@@ -3,6 +3,7 @@ repository: https://github.com/JustDeax/ComposeStopwatch.git
 updates: releases
 notes:
   - 'FIXED: 1.1.6 needs soft-reset to embedded commithash'
+  - 'FIXME: 1.1.6_NEW has huge diff of Dex despite version-control-info.textproto stating it was built from the tagged commit'
 versions:
   - tag: 1.1.6_RELEASE
     apks:

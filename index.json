@@ -27,6 +27,20 @@
       "error": null
     }
   ],
+  "52d7922c64bd65cbb25d3f9c03d62d121e164220e358972c156b30c6836da5c7": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.12.0/Lawnicons.2.12.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 16,
+      "version_name": "2.12.0",
+      "tag": "v2.12.0",
+      "commit": "c4864d7d10913a9d76ca1f433396ab6b6393eb73",
+      "timestamp": 1726334374,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "74256b9736d5e2ce9a60a9a5f26ebf49ebb835a2d869086bd2d54c93b6ac3a2a": [
     {
       "repository": "https://github.com/Myzel394/NumberHub.git",
@@ -485,6 +499,20 @@
       "tag": "2.2.1",
       "commit": "bb54d019477c28fc53207a4a009589381de9f563",
       "timestamp": 1720693376,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9dfe69b3bba7a878a48cde8984169d034244e14606c91ab61408692aff981790": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.2.2/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 26,
+      "version_name": "2.2.2",
+      "tag": "2.2.2",
+      "commit": "9106598a49f236d4e024e7985966b1650a60890c",
+      "timestamp": 1726335140,
       "reproducible": true,
       "error": null
     }
@@ -1749,6 +1777,20 @@
       "error": null
     }
   ],
+  "ba1b9fa560c3bad21d46941354891d4b47612d6e9f7deb34a43dfeb1cd72eedb": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.8/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 109,
+      "version_name": "3.4.8",
+      "tag": "3.4.8",
+      "commit": "4dc712f294f15f1e2dfa264c7bf7689124b6c019",
+      "timestamp": 1726335707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -2573,6 +2615,20 @@
       "timestamp": 1723655615,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "e763947ff39c899c8273e76edb788c50894ee216e59a22388c826c43daa6b688": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.0/Arru-2.5.0.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 38,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "eb259d06b8c632b4ecf1febf4be3fbda2f580459",
+      "timestamp": 1726336225,
+      "reproducible": true,
+      "error": null
     }
   ],
   "555567eb46305cdcad0c4d9feae152cb44a05aa8dffd23de97cf3f3f01ae68f1": [
@@ -4071,6 +4127,20 @@
       "error": null
     }
   ],
+  "b391f584e64691d3347ed8d71849e7530ce6c8c9c6ea802f97c242d0ac56dcb4": [
+    {
+      "repository": "https://github.com/viktorholk/push-notifications-api.git",
+      "apk_url": "https://github.com/viktorholk/push-notifications-api/releases/download/1.2.2/app-release.apk",
+      "appid": "com.viktorholk.apipushnotifications",
+      "version_code": 9,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "2fa743a5e049a38aae407687cfb92f1adead8e5b",
+      "timestamp": 1726336585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a04c4e01db9571f595edbeeac3d32e3f63124707d37a625e9d1409a8bc19ffe8": [
     {
       "repository": "https://github.com/WirelessAlien/ZipXtract.git",
@@ -5471,6 +5541,20 @@
       "error": null
     }
   ],
+  "262ff7af04da9eaf4dbb847308d3c640467cf4df4be9fd9dc68d00eb47bfb7f7": [
+    {
+      "repository": "https://github.com/Leonidius20/RecordingStudio.git",
+      "apk_url": "https://github.com/Leonidius20/RecordingStudio/releases/download/v0.1.2/lite.apk",
+      "appid": "io.github.leonidius20.recorder.lite",
+      "version_code": 3,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "40430d2cf19714b3799231ccdcbb010f7b1bd1f5",
+      "timestamp": 1726336705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1a954a8110e4c0bf38e9b636add2e1f6bd29a9641c1da82f408d92fa86e7f53b": [
     {
       "repository": "https://github.com/MuntashirAkon/BatteryChargeLimiter.git",
@@ -5681,6 +5765,20 @@
       "error": null
     }
   ],
+  "9ea140a599eca417b5911a9eea8c330b4aee4145434ce6f8973f7cb1aa727d67": [
+    {
+      "repository": "https://github.com/abdallahmehiz/mpvKt.git",
+      "apk_url": "https://github.com/abdallahmehiz/mpvKt/releases/download/v0.1.6/mpvKt-arm64-v8a-v0.1.6.apk",
+      "appid": "live.mehiz.mpvkt",
+      "version_code": 122,
+      "version_name": "0.1.6",
+      "tag": "v0.1.6",
+      "commit": "ac95c8db18a3f8080cbcebb5b34a5ffb5b62c1ec",
+      "timestamp": 1726336977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99ab1f3bc70166d3a217aeea9a2badd14d62ba9a3d7bd31f797a4e5568942f71": [
     {
       "repository": "https://github.com/Erbzur/Orange.git",
@@ -5817,6 +5915,20 @@
       "tag": "2.9.3",
       "commit": "b5c9148faca7a45b08a67ffa0d78c2d0e468b5e1",
       "timestamp": 1725386080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "871e7cde4f5fc6011d87584631ef4dd5c7764e29bebf4a348ced1cbc3fdd830e": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/2.9.4/EasyWatermark-2.9.4-20904-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 20904,
+      "version_name": "2.9.4",
+      "tag": "2.9.4",
+      "commit": "7e77caea27fe667959860964acd6ccbc483e464f",
+      "timestamp": 1726337294,
       "reproducible": true,
       "error": null
     }
