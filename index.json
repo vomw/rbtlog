@@ -1259,6 +1259,20 @@
       "error": null
     }
   ],
+  "fd8d7529925d136d2a871e2464a2e4763c5446a2cc687f9041436e6bcaf492c7": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1047-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1047,
+      "version_name": "2024.09.1047-dev",
+      "tag": "2024.09.1047-dev",
+      "commit": "59d47e442d589073584f6adff3ee72f95a15720b",
+      "timestamp": 1726427232,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1619,6 +1633,20 @@
       "tag": "0.4.1",
       "commit": "66398b20f4bbfa8847ae15db758e06d0cab7cf15",
       "timestamp": 1726158109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2b9665b0dd7fcd8b659642eddeaf77009dfc694ac88ee99c48999ae9f354c90b": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.5.0/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 18,
+      "version_name": "0.5.0",
+      "tag": "0.5.0",
+      "commit": "3a3c5ce59c9a875b4de3458c9ac479d0813528c3",
+      "timestamp": 1726427758,
       "reproducible": true,
       "error": null
     }
@@ -3847,6 +3875,20 @@
       "error": null
     }
   ],
+  "9e5ed8bf96c9bd3857e17d520e89864352959ceea6eb32551e47c2dc65534645": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.0.0/CuteMusic_2.0.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 10,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "c6c7180599b827e0ad15eb2bcd16c7ef62f3f399",
+      "timestamp": 1726428657,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "28a63e588f23ca126a20c8a409d4ead9a33cdb3eac6107e08976361bb4dc4b0b": [
     {
       "repository": "https://github.com/nxtrace/NextTraceroute.git",
@@ -4701,6 +4743,20 @@
       "error": null
     }
   ],
+  "d53e82c0791f03f95b1279e4a8fa40c3e4b2d5d4121016f55fd49354b5a04fb5": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.7/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 106,
+      "version_name": "1.0.0-alpha.7",
+      "tag": "v1.0.0-alpha.7",
+      "commit": "cbf79490362c457558f4ba9ab0c3f2f51168393c",
+      "timestamp": 1726428964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "39a5c9a066c86eb4f5115dfa92212b7a6066ff1c36ef201f41ffba437c490daf": [
     {
       "repository": "https://github.com/deltazefiro/Amarok-Hider.git",
@@ -5089,6 +5145,20 @@
       "tag": "v1.2.5-rc0",
       "commit": "81e75e4ede1c76c3e35944be4f75397b08759015",
       "timestamp": 1725649426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "36056c5af21de840028d5071ff217817efb3f28777ac16707c6de1ff2d6906a9": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.6-rc0/eu.darken.sdmse-v1.2.6-rc0-10206000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10206000,
+      "version_name": "1.2.6-rc0",
+      "tag": "v1.2.6-rc0",
+      "commit": "c3ecae5fb533929c1fda5aec55a229e16cda2ef8",
+      "timestamp": 1726429356,
       "reproducible": true,
       "error": null
     }
@@ -6251,6 +6321,20 @@
       "tag": "3.4.14",
       "commit": "46e8bfd119f7681147840f44bd8e937553ebb2b9",
       "timestamp": 1725642169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c20d846e1e97b155aea1cb980ca714394cc429e1ef462dd09a70c42303712ab": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.15/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 145,
+      "version_name": "3.4.15",
+      "tag": "3.4.15",
+      "commit": "6c8deb9a20d65186aff12e99eda08bac54572f48",
+      "timestamp": 1726430838,
       "reproducible": true,
       "error": null
     }
