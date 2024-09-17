@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/puutaro/CommandClick.git
 updates: releases
+notes:
+  - 'FIXME: v1.3.19 was built from different commit'
 versions:
   - tag: v1.3.16
     apks:

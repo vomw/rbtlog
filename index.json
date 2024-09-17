@@ -1833,6 +1833,20 @@
       "error": null
     }
   ],
+  "4c5b2556238b8fc653e359a245132f5d2a2338d2c1acad24dd841ed8d99bdab3": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.9/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 110,
+      "version_name": "3.4.9",
+      "tag": "3.4.9",
+      "commit": "b58a3cdaebcf8c6b295b15f0b927dd3b39ec0ecf",
+      "timestamp": 1726597696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -2153,6 +2167,20 @@
       "timestamp": 1724691230,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "7cf267974f27ca54252d59da7407b21c041633870dd8377a5d1ec31ca7c18d98": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.14.0/com.fibelatti.photowidget-v1.14-1140000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1140000,
+      "version_name": "1.14",
+      "tag": "v1.14.0",
+      "commit": "ed57aebf2a2f356ec4e1d303dc2c1f1ad8a8685a",
+      "timestamp": 1726598601,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp4iu4vzda/outputs:/outputs', '--volume', '/tmp/tmp4iu4vzda/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fibelatti/photo-widget.git', '--env', 'APP_TAG=v1.14.0', '--env', 'APP_COMMIT=ed57aebf2a2f356ec4e1d303dc2c1f1ad8a8685a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
@@ -2669,6 +2697,20 @@
       "tag": "v2.5.0",
       "commit": "eb259d06b8c632b4ecf1febf4be3fbda2f580459",
       "timestamp": 1726336225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6df582e26f2ce504a8784abbf26d5b9c24c41872eac8bec70e6c46809419a8f7": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.1/Arru-2.5.1.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 39,
+      "version_name": "2.5.1",
+      "tag": "v2.5.1",
+      "commit": "7600cae992ffa36234d2f253d2ba6d50718de151",
+      "timestamp": 1726599835,
       "reproducible": true,
       "error": null
     }
@@ -6405,6 +6447,20 @@
       "tag": "3.4.16",
       "commit": "420932e775d8a5b6523bfe94fc41caec10757da6",
       "timestamp": 1726514350,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "120af4cd5147fc5afefaf3a664116b7145f077b38e7e66d787ca9a8ca6ef4282": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.17/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 147,
+      "version_name": "3.4.17",
+      "tag": "3.4.17",
+      "commit": "da20d9eba7ebacd73f7bf69910bbe040472234a6",
+      "timestamp": 1726601267,
       "reproducible": true,
       "error": null
     }
