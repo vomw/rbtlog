@@ -3,6 +3,7 @@ repository: https://github.com/Anthonyy232/Paperize.git
 updates: releases
 notes:
   - 'FIXED: build flaky, retry if RB fails (and only baseline.prof differs, which it should not if classes.dex does not)'
+  - 'FIXME: 2.2.0 fails witth differences in .so files'
 versions:
   - tag: v1.6.3
     apks:

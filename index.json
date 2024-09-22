@@ -1889,6 +1889,20 @@
       "error": null
     }
   ],
+  "9d6a4d3039bdc3db1827ae2e9f72ec482aeb81ff6678309fb4cdfda08fb8ff88": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.11/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 112,
+      "version_name": "3.4.11",
+      "tag": "3.4.11",
+      "commit": "36486fb52e9c91d47f55b0381c6568703b6998a4",
+      "timestamp": 1727023912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -2767,6 +2781,20 @@
       "tag": "v2.5.1",
       "commit": "7600cae992ffa36234d2f253d2ba6d50718de151",
       "timestamp": 1726599835,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "80adb6fd1f9c9dba1d5ff4c703735f0ed1bf11d58188c3a20a3f61fb9234a373": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.2/Arru-2.5.2.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 40,
+      "version_name": "2.5.2",
+      "tag": "v2.5.2",
+      "commit": "dfbb1f895b4b0369a7a46764456a96fd78f57fc6",
+      "timestamp": 1727024239,
       "reproducible": true,
       "error": null
     }
@@ -6587,6 +6615,20 @@
       "tag": "3.4.17",
       "commit": "da20d9eba7ebacd73f7bf69910bbe040472234a6",
       "timestamp": 1726601267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f35dba352db2ba76344efc33dd35437911d4f38b1328eadf86dc690c98139ad4": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.4.18/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 148,
+      "version_name": "3.4.18",
+      "tag": "3.4.18",
+      "commit": "95ec5acbe922ed4b15b476ac53093bc6c7fae4a6",
+      "timestamp": 1727024638,
       "reproducible": true,
       "error": null
     }

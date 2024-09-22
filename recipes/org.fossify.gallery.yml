@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/FossifyOrg/Gallery.git
 updates: releases
+notes:
+  - 'FIXME: v1.2.0 fails to build (missing dependency)'
 versions:
   - tag: 1.1.3
     apks:
