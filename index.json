@@ -1301,6 +1301,20 @@
       "error": null
     }
   ],
+  "5a3961cc5a4c0bd9a36eddd6cf6b18b8d3558a1d3d1952a91bbc29126e8741fe": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1050-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1050,
+      "version_name": "2024.09.1050-dev",
+      "tag": "2024.09.1050-dev",
+      "commit": "9634c47c3b978673afcbb57d016c71bf84b992cf",
+      "timestamp": 1727109915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -4967,6 +4981,20 @@
       "error": null
     }
   ],
+  "87c80a0fb9f79a8ec2705175ce22c269552d57ce031505aa01272f17bbb90676": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.8.1/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 108,
+      "version_name": "1.0.0-alpha.8.1",
+      "tag": "v1.0.0-alpha.8.1",
+      "commit": "ef4111072b21b930645de903ed92cc06ac8352e4",
+      "timestamp": 1727110292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "39a5c9a066c86eb4f5115dfa92212b7a6066ff1c36ef201f41ffba437c490daf": [
     {
       "repository": "https://github.com/deltazefiro/Amarok-Hider.git",
@@ -5271,6 +5299,20 @@
       "tag": "v2.14.1-rc0",
       "commit": "788038beb73ca50c370ec55fcecb122c1a553bfc",
       "timestamp": 1722812886,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "faad63bcf79003ae3a0a62c885c655e4b72a2e24aa82ed775145fe8d8e4a2e91": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.15.0-rc0/eu.darken.capod-v2.15.0-rc0-21500000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21500000,
+      "version_name": "2.15.0-rc0",
+      "tag": "v2.15.0-rc0",
+      "commit": "647300fd3ad4c7879d5c89635d4d8850ba79a330",
+      "timestamp": 1727110667,
       "reproducible": true,
       "error": null
     }

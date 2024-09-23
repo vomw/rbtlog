@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Moderpach/Extinguish.git
 updates: releases
+notes:
+  - 'FIXME: v0.9.4 does not build'
 versions:
   - tag: 0.9.2
     apks:
