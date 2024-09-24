@@ -1315,6 +1315,20 @@
       "error": null
     }
   ],
+  "3ce8c17371e75b556d97e68e55efe9a9d2f97d5387a9fa87425a7d64f7ec8f42": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1052/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1052,
+      "version_name": "2024.09.1052",
+      "tag": "2024.09.1052",
+      "commit": "62ee865147eb7844739cedaaaa8161224a52a3ef",
+      "timestamp": 1727196317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -1367,6 +1381,20 @@
       "tag": "4.5",
       "commit": "7ffaf46d82097406df903ebbd3443b43243e98ed",
       "timestamp": 1721311788,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12ebcc2832191252bec1e19d292abdc23ae32610b941f7889d1437de97726aaa": [
+    {
+      "repository": "https://github.com/LSPosed/CorePatch.git",
+      "apk_url": "https://github.com/LSPosed/CorePatch/releases/download/4.6/core-patch-4.6.apk",
+      "appid": "com.coderstory.toolkit",
+      "version_code": 2029,
+      "version_name": "4.6",
+      "tag": "4.6",
+      "commit": "798b1afaca8d557b217c045e0692da977328e3a1",
+      "timestamp": 1727197057,
       "reproducible": true,
       "error": null
     }
@@ -7077,6 +7105,20 @@
       "tag": "v2.1.0",
       "commit": "f586b4af1e8f59498f09fd5350724f1b7eba986b",
       "timestamp": 1724692592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a750e41fc7c6987e3ae4bc1a216daf90d5523f9f54de87776647ad85af23fcec": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.1.1/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 10,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "72f0eae136d500a4d7029b431dd4365a123eafad",
+      "timestamp": 1727197199,
       "reproducible": true,
       "error": null
     }
