@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dessalines/rank-my-favs.git
 updates: releases
+notes:
+  - 'FIXME: 0.5.1 flaky?'
 versions:
   - tag: 0.0.4
     apks:

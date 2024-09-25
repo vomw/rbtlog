@@ -1945,6 +1945,20 @@
       "error": null
     }
   ],
+  "78b8f693da5d15db0f08661e95fa977cc53aef95d6260a42738298dd6ecb15fb": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.12/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 113,
+      "version_name": "3.4.12",
+      "tag": "3.4.12",
+      "commit": "88735a14f4923ab00e219864ad3999972b7e40d7",
+      "timestamp": 1727283101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -4099,6 +4113,20 @@
       "error": null
     }
   ],
+  "178ec236f62353cac881c00020ea51763923ad2981f743af4639d95a45cf43b9": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.1.0/CuteMusic_v2.1.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 11,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "7f45ab26b4c75cb1c76acf4acf35c2d611474ec9",
+      "timestamp": 1727283426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "28a63e588f23ca126a20c8a409d4ead9a33cdb3eac6107e08976361bb4dc4b0b": [
     {
       "repository": "https://github.com/nxtrace/NextTraceroute.git",
@@ -5443,6 +5471,20 @@
       "error": null
     }
   ],
+  "473af048777381ff2570b87f5034eb204d61983ccab9772c7f0f39744d7cc244": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.7-rc0/eu.darken.sdmse-v1.2.7-rc0-10207000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10207000,
+      "version_name": "1.2.7-rc0",
+      "tag": "v1.2.7-rc0",
+      "commit": "42f7ffd9b06fa3d536ef844cb37e1a952a295395",
+      "timestamp": 1727283725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -5565,6 +5607,20 @@
       "tag": "v1.4",
       "commit": "4eb3ccc2a40320b1cf0ff80ee523ad037da1218a",
       "timestamp": 1725900707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a0c9d81806ce7d8f6543a19760b51d6428e199dde02dce8a3c53955e5ca007cf": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.5/yamlauncher-1.5.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 9,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "48365010c5ee19bed365cf88f6ed892c59ab4ab2",
+      "timestamp": 1727284446,
       "reproducible": true,
       "error": null
     }
