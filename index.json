@@ -4057,6 +4057,20 @@
       "error": null
     }
   ],
+  "ae3c98963c95e4fd0c132234a6efdaab94a9df19a70e0d452a81e4b720982194": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 17,
+      "version_name": "2.3.0",
+      "tag": "2.3.0",
+      "commit": "f04a665277be11b58fc782663a8eee3adac4ce88",
+      "timestamp": 1727543157,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0ceac9604b65b02a4fe96326add4a6205058932942926c46d8b378d84569364e": [
     {
       "repository": "https://github.com/Smooth-E/monet-color-previewer.git",
@@ -4907,6 +4921,20 @@
       "tag": "v0.12.2",
       "commit": "15d1c025ad6c8e2cef96dde2a493d9c4e273d32b",
       "timestamp": 1724704752,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "58b63c054aff5899e0e3fc65de1b20c75756a4a65070f3ed3d8a0d52dbadb8de": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.3/RecurringExpenseTracker_0.12.3.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 27,
+      "version_name": "0.12.3",
+      "tag": "v0.12.3",
+      "commit": "d712b345ea6f467af16ed835f0305ab7453fa408",
+      "timestamp": 1727544335,
       "reproducible": true,
       "error": null
     }
@@ -6857,6 +6885,20 @@
       "error": null
     }
   ],
+  "5a3ca97e6223ec4c34575a2d16508b721ace95f6d27e9cc8d598e1e286885acd": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.2.1/gallery-9-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 9,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "08cc4fc39ba2d1756aa148f1322150623d3c48e0",
+      "timestamp": 1727548070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -7189,6 +7231,20 @@
       "tag": "v2.1.1",
       "commit": "72f0eae136d500a4d7029b431dd4365a123eafad",
       "timestamp": 1727197199,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5581d8792d9015035e7b89337edaa3df30b1b43fabdca861c2d28c54d2f139de": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.2.0/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 11,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "b0a86bf0f2b334d012ab64a35a2e2a0570491814",
+      "timestamp": 1727544665,
       "reproducible": true,
       "error": null
     }

@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dessalines/thumb-key.git
 updates: releases
+notes:
+  - 'FIXME: 3.4.13 does not build'
 versions:
   - tag: 3.3.4
     apks:
