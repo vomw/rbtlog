@@ -1329,6 +1329,20 @@
       "error": null
     }
   ],
+  "ab1d937af8506c27d191182eada8f7ae375cab8ec06690e0a442c844b4fa9466": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.09.1053-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1053,
+      "version_name": "2024.09.1053-dev",
+      "tag": "2024.09.1053-dev",
+      "commit": "5be4098ee8e7eeef4e13855ef83c940a1e47d361",
+      "timestamp": 1727628320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -3665,6 +3679,20 @@
       "error": null
     }
   ],
+  "464f47bed5620dc400a1805c4c61cbb1691fd1c5573b60bdc4eb454b306e17b4": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.7.3/xed-editor-v2.7.3.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 33,
+      "version_name": "2.7.3",
+      "tag": "v2.7.3",
+      "commit": "fa7e9f8d66e6999caeb6eabd40afe1862c516be3",
+      "timestamp": 1727629088,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b89c828ee4c0c5fdec74e6417bd8347366c4a0d63c84f9133bc925b2238fdbb2": [
     {
       "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
@@ -4067,6 +4095,20 @@
       "tag": "2.3.0",
       "commit": "f04a665277be11b58fc782663a8eee3adac4ce88",
       "timestamp": 1727543157,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "584a5953ae2b20e794ff29419247b597e095d5122a36df1df1332b94a11c75bf": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 18,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "82af163817a608dfe066ac3038d55a103f2fb1f2",
+      "timestamp": 1727629396,
       "reproducible": true,
       "error": null
     }
@@ -5089,6 +5131,20 @@
       "tag": "v1.0.0-alpha.8.1",
       "commit": "ef4111072b21b930645de903ed92cc06ac8352e4",
       "timestamp": 1727110292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f48b12c0ed486e931ce6e94e6b6e5b3e5c65209465cf313b6dcbf774407c6b9": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.9/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 109,
+      "version_name": "1.0.0-alpha.9",
+      "tag": "v1.0.0-alpha.9",
+      "commit": "b0624c3f9b324bf66773ea7051ace6ecd083cc33",
+      "timestamp": 1727629693,
       "reproducible": true,
       "error": null
     }
@@ -7147,6 +7203,20 @@
       "tag": "1.5.14",
       "commit": "33d10507fcfae6aacf45ff4dbba67292079c4143",
       "timestamp": 1725813071,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71562a549a4d6bdbea6d3ae3f459e16f6e25f4f51a60551f03fdf0130295cd38": [
+    {
+      "repository": "https://github.com/nuclearfog/Apollo-Music.git",
+      "apk_url": "https://github.com/nuclearfog/Apollo-Music/releases/download/1.5.15/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 55,
+      "version_name": "1.5.15",
+      "tag": "1.5.15",
+      "commit": "dcf331a7b6749dc4da223d32861898fb0455b45d",
+      "timestamp": 1727630103,
       "reproducible": true,
       "error": null
     }

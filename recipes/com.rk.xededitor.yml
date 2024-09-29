@@ -2,8 +2,8 @@
 repository: https://github.com/RohitKushvaha01/Xed-Editor.git
 updates: releases
 notes:
-  - 'v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed'
-  - 'v2.5.0 had uncommitted changes applied after the release tag and hence is not RB'
+  - v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed
+  - v2.5.0 had uncommitted changes applied after the release tag and hence is not RB
 versions:
   - tag: v2.1.0
     apks:
@@ -145,6 +145,34 @@ versions:
     apks:
       - apk_pattern: xed-editor-.*\.apk
         apk_url: https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.6.0/xed-editor-v2.6.0.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.7.3
+    apks:
+      - apk_pattern: xed-editor-.*\.apk
+        apk_url: https://github.com/RohitKushvaha01/Xed-Editor/releases/download/v2.7.3/xed-editor-v2.7.3.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
