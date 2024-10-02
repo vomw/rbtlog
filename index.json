@@ -195,6 +195,20 @@
       "error": null
     }
   ],
+  "0233484528b0a5496e65a6039d7051bda90e2914f51bf5db9e3c21259d13cb83": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v3.0.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 300,
+      "version_name": "v3.0.0",
+      "tag": "v3.0.0",
+      "commit": "1d4941aa1d0b1da77279d6039e660d00a9c347a4",
+      "timestamp": 1727896056,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1787,6 +1801,20 @@
       "tag": "0.5.0",
       "commit": "3a3c5ce59c9a875b4de3458c9ac479d0813528c3",
       "timestamp": 1726427758,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "520d526a86c7fcc69933d5c50f1b23fbf4ae97a7049af46daf1e012a6c6facda": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.5.2/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 20,
+      "version_name": "0.5.2",
+      "tag": "0.5.2",
+      "commit": "c59ccf5dfd29eee48f5eba47ee3b954a20fa00a7",
+      "timestamp": 1727896846,
       "reproducible": true,
       "error": null
     }
