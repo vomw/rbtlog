@@ -209,6 +209,20 @@
       "error": null
     }
   ],
+  "210da802222684f0ea6115c6f8f72e4b33a6428ed5566309906389b95c41b31d": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v3.1.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 310,
+      "version_name": "v3.1.0",
+      "tag": "v3.1.0",
+      "commit": "730b20fb8ee485c20e8caf9c076093c8a35253f7",
+      "timestamp": 1728060313,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -387,6 +401,20 @@
       "tag": "v1.46.18",
       "commit": "6efe5403109af7363d31f049afae64cbc2401c1e",
       "timestamp": 1725727705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c4acbf5bf26579f7c156ecf9c1e591a8c78d289f9fb1d7e01e27ba71180366f8": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.46.19/ArcaneChat-foss-armeabi-v7a-1.46.19.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006911,
+      "version_name": "1.46.19",
+      "tag": "v1.46.19",
+      "commit": "45cb3a953c125a861cc42faee83d782b0a9ffdcc",
+      "timestamp": 1728060636,
       "reproducible": true,
       "error": null
     }

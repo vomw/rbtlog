@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dead8309/Kizzy.git
 updates: releases
+notes:
+  - 'FIXME: v5.6 was built from different commit'
 versions:
   - tag: '5.4'
     apks:
