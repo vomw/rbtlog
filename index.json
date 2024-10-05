@@ -1427,6 +1427,20 @@
       "error": null
     }
   ],
+  "a3ad4253ed9140e0ea05d8f661ce48c29ec815989b8c3ec227fa393b884e952d": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1057-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1057,
+      "version_name": "2024.10.1057-dev",
+      "tag": "2024.10.1057-dev",
+      "commit": "6467f406d215d79cedd9c725535b5ce7ab63acf3",
+      "timestamp": 1728146714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -4305,6 +4319,20 @@
       "tag": "v2.1.0",
       "commit": "7f45ab26b4c75cb1c76acf4acf35c2d611474ec9",
       "timestamp": 1727283426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5f8e116352d95d38e7464e675d67cd985bbf53d96cfa3058150e4462997de47": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.2.0_fixed/CuteMusic_2.2.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 12,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0_fixed",
+      "commit": "99210a58395ed8239fca57548ff910c478f9dfe2",
+      "timestamp": 1728147090,
       "reproducible": true,
       "error": null
     }
@@ -7497,6 +7525,20 @@
       "tag": "v4.1.9",
       "commit": "5e1ecbf17758a073124ac22fe7db685091b943f1",
       "timestamp": 1720627640,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7af269100c167daa4a361b164fd1710f892dd38b4c204b97c25bddb68e9c0f1f": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.2.0/transistor-app-release-4.2.0.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 100,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "9cc5490bf425b04e2a4757f827f0d7f82e1b50e2",
+      "timestamp": 1728147400,
       "reproducible": true,
       "error": null
     }
