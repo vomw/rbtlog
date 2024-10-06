@@ -1441,6 +1441,20 @@
       "error": null
     }
   ],
+  "320a189512d5192fc801b611c6426ffd09bb6d36bbe959547dde4110af37aaf2": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1058/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1058,
+      "version_name": "2024.10.1058",
+      "tag": "2024.10.1058",
+      "commit": "bdc463999b9cbf439ae0bdd7ffa2e8ad7ede248e",
+      "timestamp": 1728233113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2095,6 +2109,20 @@
       "tag": "3.4.12",
       "commit": "88735a14f4923ab00e219864ad3999972b7e40d7",
       "timestamp": 1727283101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "74deda5341dd9a20bbca568121259c7216f16983dc7d05947c30ab9d48a5a258": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.15/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 116,
+      "version_name": "3.4.15",
+      "tag": "3.4.15",
+      "commit": "0a40c72e47d0bed6bafb5a88ba7a65d6ec90d0ae",
+      "timestamp": 1728235724,
       "reproducible": true,
       "error": null
     }
@@ -2785,6 +2813,20 @@
       "error": null
     }
   ],
+  "2efa1fd3322196d7fc6ab86d37b2c6ce7f92f6e739b5f306c5a4d27d08fc2fc6": [
+    {
+      "repository": "https://github.com/JustDeax/ComposeStopwatch.git",
+      "apk_url": "https://github.com/JustDeax/ComposeStopwatch/releases/download/1.7.2/compose-stopwatch.apk",
+      "appid": "com.justdeax.composeStopwatch",
+      "version_code": 1007020,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "a671563f04fa0c3174834fae6ab2282c972745e2",
+      "timestamp": 1728235014,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -3341,6 +3383,20 @@
       "tag": "5.5",
       "commit": "40bec9067df7756ecca3fb169d4058c98135bcc2",
       "timestamp": 1721168351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6b2747a758d2d49a96a0e9b4d1c74325a632cf42e27e1fc52d0acaa15833bc5": [
+    {
+      "repository": "https://github.com/dead8309/Kizzy.git",
+      "apk_url": "https://github.com/dead8309/Kizzy/releases/download/5.7/Kizzy_5.7.apk",
+      "appid": "com.my.kizzy",
+      "version_code": 9,
+      "version_name": "5.7",
+      "tag": "5.7",
+      "commit": "81cf93ee901d2f8a3fac7b4c8dcfeec77ce8ea1b",
+      "timestamp": 1728238750,
       "reproducible": true,
       "error": null
     }
@@ -6227,6 +6283,20 @@
       "error": null
     }
   ],
+  "ec2edc957109aab3658b9fc273b4582992864e7968eccd072d97d8e8364d783a": [
+    {
+      "repository": "https://github.com/Leonidius20/RecordingStudio.git",
+      "apk_url": "https://github.com/Leonidius20/RecordingStudio/releases/download/v0.1.4/lite.apk",
+      "appid": "io.github.leonidius20.recorder.lite",
+      "version_code": 5,
+      "version_name": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "400832acaaad91b754c2104e96d5c97924d747b0",
+      "timestamp": 1728233484,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1a954a8110e4c0bf38e9b636add2e1f6bd29a9641c1da82f408d92fa86e7f53b": [
     {
       "repository": "https://github.com/MuntashirAkon/BatteryChargeLimiter.git",
@@ -8015,6 +8085,20 @@
       "tag": "v1.0.5",
       "commit": "750367b9ef0a46533ca1324929f995af8c8eb647",
       "timestamp": 1724271948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "28d2d7245610425d741a9cec3ccf0b1ea0c1161324e8cb612e404717b934ded2": [
+    {
+      "repository": "https://github.com/v4lpt/PWG.git",
+      "apk_url": "https://github.com/v4lpt/PWG/releases/download/v1.0.6/VPT.002-PWG.1.0.6.apk",
+      "appid": "v4lpt.vpt.pwg",
+      "version_code": 106,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "5cb20ffcb223abcebad0b593cadb46ff31522d03",
+      "timestamp": 1728235520,
       "reproducible": true,
       "error": null
     }

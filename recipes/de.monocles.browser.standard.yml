@@ -3,6 +3,7 @@ repository: https://codeberg.org/monocles/monocles_browser.git
 updates: releases
 notes:
   - 'FIXME: gradle-wrapper.jar "unknown hash" (gradle-8.6 according to gradle-wrapper.properties) for Beta-v1.9.2'
+  - 'FIXME: no APKs attached to more recent tags, currently v1.9.2, see https://codeberg.org/monocles/monocles_browser/issues/38'
 versions:
   - tag: Beta-v1.9.2
     apks:
