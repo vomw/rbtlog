@@ -419,6 +419,20 @@
       "error": null
     }
   ],
+  "89b1e91f43d4354ffc20909528d2ada6a1a5d003baca431a969697f41a942eab": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.46.20/ArcaneChat-foss-armeabi-v7a-1.46.20.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006921,
+      "version_name": "1.46.20",
+      "tag": "v1.46.20",
+      "commit": "5627f5f123807a13baa0a39464b30d9817d868cb",
+      "timestamp": 1728319511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -4407,6 +4421,20 @@
       "error": null
     }
   ],
+  "2950ae68ffa627ccef932d555d93474a80001a7f8b79d9489cb49b46456ba819": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.2.1/CuteMusic_v2.2.1.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 12,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "9883b1284f1733ce54339fd22c9e88c0913ddfda",
+      "timestamp": 1728320175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "28a63e588f23ca126a20c8a409d4ead9a33cdb3eac6107e08976361bb4dc4b0b": [
     {
       "repository": "https://github.com/nxtrace/NextTraceroute.git",
@@ -6307,6 +6335,20 @@
       "tag": "v0.1.4",
       "commit": "400832acaaad91b754c2104e96d5c97924d747b0",
       "timestamp": 1728233484,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4c64d95ee66947ae29c11df4b56543e5b43799406a8cdaf108d98fd37c52233d": [
+    {
+      "repository": "https://github.com/Leonidius20/RecordingStudio.git",
+      "apk_url": "https://github.com/Leonidius20/RecordingStudio/releases/download/v0.1.5/lite.apk",
+      "appid": "io.github.leonidius20.recorder.lite",
+      "version_code": 6,
+      "version_name": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "bed6a2fdcdeb426017ee24d65c5f324938d035f6",
+      "timestamp": 1728320456,
       "reproducible": true,
       "error": null
     }
