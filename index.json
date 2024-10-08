@@ -1511,6 +1511,20 @@
       "error": null
     }
   ],
+  "82d5ff3b76adc1ca65cda98402ae0d01c7f185db3a56f57bdbeae927dc0fa6d0": [
+    {
+      "repository": "https://github.com/ClusterM/usb-serial-telnet-server.git",
+      "apk_url": "https://github.com/ClusterM/usb-serial-telnet-server/releases/download/v1.7/UsbSerialTelnetServer-v12-240911-114812.apk",
+      "appid": "com.clusterrr.usbserialtelnetserver",
+      "version_code": 12,
+      "version_name": "1.7",
+      "tag": "v1.7",
+      "commit": "94b9b581ad8e0ce2c2aa1eb800401c475f388afa",
+      "timestamp": 1728392420,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "015d492ef05498c37576d09f6d44ecd691a594ee61c357e6fe8d8656fb529937": [
     {
       "repository": "https://github.com/CodeDead/Advanced-PortChecker-android.git",
