@@ -643,6 +643,20 @@
       "error": null
     }
   ],
+  "0c2178f15dfe83a89032dfde42299a2f5f3f52402fccc564905984f44b86f104": [
+    {
+      "repository": "https://github.com/Ammar64/Sharing.git",
+      "apk_url": "https://github.com/Ammar64/Sharing/releases/download/v1.5.2-beta2/Sharing-v1.5.2-beta2.apk",
+      "appid": "com.ammar.sharing",
+      "version_code": 19,
+      "version_name": "v1.5.2-beta2",
+      "tag": "v1.5.2-beta2",
+      "commit": "6208078ff0663166a129116a09f2b9bc6aa2c892",
+      "timestamp": 1728589103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "647ce579597385293384cfef8b15b9ed86d36a4413d1e1217594807ef6a003e4": [
     {
       "repository": "https://github.com/ammargitham/WallFlow.git",
@@ -823,6 +837,20 @@
       "timestamp": 1728241214,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "ad4e1243442a579252d591327214168c1b146005900337f7f89f71eeef539b38": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v2.3.0/paperize-v2.3.0.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 32,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "84e93a652bb425300c7f136a6a6c344c4bba1e7d",
+      "timestamp": 1728584129,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [

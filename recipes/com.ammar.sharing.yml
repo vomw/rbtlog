@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Ammar64/Sharing.git
 updates: releases
+notes:
+  - 'FIXME: v1.5.2-beta2 was built from different commit (tag +1) before that was committed with additional changes; remove/adjust sed with next release'
 versions:
   - tag: '1.5'
     apks:
@@ -22,6 +24,38 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
           extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.5.2-beta2
+    apks:
+      - apk_pattern: Sharing.*\.apk
+        apk_url: https://github.com/Ammar64/Sharing/releases/download/v1.5.2-beta2/Sharing-v1.5.2-beta2.apk
+        build:
+          - sed -r 's/versionCode 18/versionCode 19/ ; s/versionName "v1.5.2-beta1"/versionName "v1.5.2-beta2"/' -i app/build.gradle
+          - npm install --prefix web
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - npm
+            - node-typescript
+            - rsync
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
