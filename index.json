@@ -265,6 +265,20 @@
       "error": null
     }
   ],
+  "bb3f2ece05eec1694e2bae6889ceac3697e4d07a621843ccb3db1c1a923e4244": [
+    {
+      "repository": "https://github.com/OMGSoundboard/android-app.git",
+      "apk_url": "https://github.com/OMGSoundboard/android-app/releases/download/v12.0/OMGSoundboard_12.apk",
+      "appid": "audio.omgsoundboard",
+      "version_code": 12,
+      "version_name": "12.0",
+      "tag": "v12.0",
+      "commit": "3ef822856893674fc9626dee1c735e4a4fc0c091",
+      "timestamp": 1728762250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -317,6 +331,20 @@
       "tag": "9",
       "commit": "6605fdf7c2e5bda3a9d07c0a4d2de53c8c4918cf",
       "timestamp": 1724613727,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a64febae83daa6d4d76e77c2d5c8c479f58b412b04ce1f1970f54b71178df2d": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/10/biz.binarysolutions.healthybatterycharging-2.0.8-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 10,
+      "version_name": "2.0.8",
+      "tag": "10",
+      "commit": "0250bde1921e2a5eaf75d772409fffe33f120f4f",
+      "timestamp": 1728763084,
       "reproducible": true,
       "error": null
     }
@@ -865,6 +893,20 @@
       "timestamp": 1728584129,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "b5add2648d11bdde56770f0c702e9c378e5a55579e535c1ab67864c5acded981": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v2.3.2/paperize-v2.3.2.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 34,
+      "version_name": "2.3.2",
+      "tag": "v2.3.2",
+      "commit": "59594878ab79f895479909edc6217840bdf42a08",
+      "timestamp": 1728775701,
+      "reproducible": true,
+      "error": null
     }
   ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
@@ -1815,6 +1857,20 @@
       "tag": "v3.0.1",
       "commit": "1c82f4cd5efa5870e7e7337d340f8fd591d4db5b",
       "timestamp": 1727455510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f6e19858ba13202b7ac4a00c798bcaf642a1ecb68d8e66e0de57af0fa16e45f": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v3.1.0-beta02/easter_eggs_3.1.0-beta02_51-foss-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 51,
+      "version_name": "3.1.0-beta02",
+      "tag": "v3.1.0-beta02",
+      "commit": "3892e3bbf4d5031e2b5c6e435579644e0a54a53b",
+      "timestamp": 1728772922,
       "reproducible": true,
       "error": null
     }
@@ -2907,6 +2963,20 @@
       "tag": "v1.5.1",
       "commit": "fc1d1f4971aab0ac0d59c69adc5359dc70116ff6",
       "timestamp": 1721467995,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "27b430fb8db75ea5e54cf581c31ac2c0cbc6fabf174bf203562210e58f305a75": [
+    {
+      "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
+      "apk_url": "https://github.com/lukaspieper/Gcam-Services-Provider/releases/download/v1.5.2/app-photos-release.apk",
+      "appid": "com.google.android.apps.photos",
+      "version_code": 8,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "b9857801f9fa562b0a773b3d3466a6e1556bfa4a",
+      "timestamp": 1728766428,
       "reproducible": true,
       "error": null
     }
@@ -5763,6 +5833,20 @@
       "error": null
     }
   ],
+  "df629b49e6eb670fdf36ea506c46d203acdeaa5cdd216136357d3caa43bccf86": [
+    {
+      "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
+      "apk_url": "https://github.com/lukaspieper/Gcam-Services-Provider/releases/download/v1.5.2/app-basic-release.apk",
+      "appid": "de.lukaspieper.gcam.services",
+      "version_code": 8,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "b9857801f9fa562b0a773b3d3466a6e1556bfa4a",
+      "timestamp": 1728768507,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -8125,6 +8209,20 @@
       "tag": "0.9.3",
       "commit": "2481d4db3f648c871afae000770a3b5717658d90",
       "timestamp": 1726158688,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b7bcd4c816205802d2874cf7efd0cac3942fce7ecf1c880684f5ed9f8974bd38": [
+    {
+      "repository": "https://github.com/Moderpach/Extinguish.git",
+      "apk_url": "https://github.com/Moderpach/Extinguish/releases/download/0.9.5.1/app-release.apk",
+      "appid": "own.moderpach.extinguish",
+      "version_code": 35,
+      "version_name": "0.9.5.1",
+      "tag": "0.9.5.1",
+      "commit": "1084596c68ed1f35e6675e14cdc29535dd81daac",
+      "timestamp": 1728770209,
       "reproducible": true,
       "error": null
     }
