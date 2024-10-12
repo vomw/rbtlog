@@ -237,6 +237,20 @@
       "error": null
     }
   ],
+  "3b29ad4972f7cf3e89e3ae84dbc4782b0ea6dfda6e7c91ace50c69a15e2dcad9": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v3.3.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 330,
+      "version_name": "v3.3.0",
+      "tag": "v3.3.0",
+      "commit": "3a1be5dd65b30ac028679b448ebe082db38ed10e",
+      "timestamp": 1728759114,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -863,6 +877,20 @@
       "tag": "1.4",
       "commit": "97039af9d7ed1fe4d5f3a6d69f8813759f41fae3",
       "timestamp": 1718917866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a5d2d10ec525144951eaaf765b153f28c26ce74ab8cf395125b7582bb86fdefc": [
+    {
+      "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
+      "apk_url": "https://github.com/AsyJAIZ/Notification-Shade-Transparency/releases/download/1.5/NST-release.apk",
+      "appid": "com.asyjaiz.A12blur",
+      "version_code": 6,
+      "version_name": "1.5N",
+      "tag": "1.5",
+      "commit": "e574427983abf9325460fc68443a144d5ad7826b",
+      "timestamp": 1728665122,
       "reproducible": true,
       "error": null
     }
@@ -1535,6 +1563,20 @@
       "tag": "2024.10.1058",
       "commit": "bdc463999b9cbf439ae0bdd7ffa2e8ad7ede248e",
       "timestamp": 1728233113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "50208659bc4a780cc1d8ce060679d0351dc5e082131d9b4d285f086a4c465462": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1059/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1059,
+      "version_name": "2024.10.1059",
+      "tag": "2024.10.1059",
+      "commit": "74595dc7f06d0775764cb9ce0d286acc3aad7bc1",
+      "timestamp": 1728665227,
       "reproducible": true,
       "error": null
     }
@@ -2323,6 +2365,20 @@
       "error": null
     }
   ],
+  "4d71e4bcab3aba1de952547969ea7be1d3ccd3ca43c6bd0b490e8c4d55eeec1e": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.15.0/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 20,
+      "version_name": "v0.15.0",
+      "tag": "v0.15.0",
+      "commit": "276039ad2375496cedb84eae54eb283955b94884",
+      "timestamp": 1728666272,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5acd1d66a493ae55e62e0a43df3812fe60ff836746f56a56f7258e9ce53f1388": [
     {
       "repository": "https://github.com/jetspiking/AndME.git",
@@ -2627,6 +2683,20 @@
       "tag": "v3.2",
       "commit": "a4df83bbcbeea41f3fcd1d7524482c2ad2805550",
       "timestamp": 1728410055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21a6927866110891b13c996fb5e78399184f3f262d8178eba9fc6e1d71238f79": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.2.2/com.fibelatti.pinboard-v3.2.2-3020200-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3020200,
+      "version_name": "3.2.2",
+      "tag": "v3.2.2",
+      "commit": "90e0b6fbc7b57cade35d4ec4bf99c33b4f411e7d",
+      "timestamp": 1728761042,
       "reproducible": true,
       "error": null
     }
@@ -4851,6 +4921,20 @@
       "tag": "v3.3.0",
       "commit": "7e09a6f491982b73de8fd2bd2915cbc98923fa1d",
       "timestamp": 1725640346,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49dd26bff316d8198ff31e5b05b77327cbc167e478ea7713f3d953f3e4ebb664": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.4.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30400,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "13c707e846698c62880f9fcf500149cd47eb1172",
+      "timestamp": 1728666639,
       "reproducible": true,
       "error": null
     }
