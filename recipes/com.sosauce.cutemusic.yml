@@ -6,6 +6,7 @@ notes:
   - 'FIXED: embedded commit hash mismatch for v1.4.0 (manual adjustment does not help)'
   - 'FIXED: embedded commit hash mismatch for v1.4.1 (manual adjustment does not help) – https://github.com/sosauce/CuteMusic/issues/23'
   - 'FIXED: rebuild after "clean" in Android Studio solved it in v1.4.2'
+  - 'FIXED: v2.2.2 seems to be flaky'
 versions:
   - tag: v1.3.0
     apks:
@@ -178,6 +179,40 @@ versions:
         build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.2.2
+    apks:
+      - apk_pattern: CuteMusic_.*\.apk
+        apk_url: https://github.com/sosauce/CuteMusic/releases/download/v2.2.2/CuteMusic_v2.2.2.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=bdbbb4f227ae60ebb9a20f8fe83ef9615ed0f74b
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
