@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/bg443/JetBird.git
 updates: releases
+notes:
+  - 'FIXME: update recipe from https://codeberg.org/bg443/rbtlog/src/branch/master/recipes/dev.bg.jetbird.yml before verifying the next release'
 versions:
   - tag: v1.0.7
     apks:
