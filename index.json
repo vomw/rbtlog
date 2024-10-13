@@ -251,6 +251,34 @@
       "error": null
     }
   ],
+  "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
+    {
+      "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
+      "apk_url": "https://github.com/hashemi-hossein/memory-guardian/releases/download/v1.4.2/MemoryGuardian_1.4.2-signed.apk",
+      "appid": "ara.memoryguardian",
+      "version_code": 13,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "b200d927c764b4f5a7e7476d38f1869a8feaf199",
+      "timestamp": 1728827229,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.2-ose/davx5-ose-4.4.2-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404020004,
+      "version_name": "4.4.2-ose",
+      "tag": "v4.4.2-ose",
+      "commit": "6df0925e5053fb195700f6b76aa4109db612305d",
+      "timestamp": 1728827504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -951,6 +979,20 @@
       "error": null
     }
   ],
+  "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
+    {
+      "repository": "https://github.com/blinskey/greek-reference.git",
+      "apk_url": "https://github.com/blinskey/greek-reference/releases/download/v1.13.0/GreekReference-release-v1.13.0.apk",
+      "appid": "com.benlinskey.greekreference",
+      "version_code": 32,
+      "version_name": "1.13.0",
+      "tag": "v1.13.0",
+      "commit": "2e482ff9f252e1f0607fa1a6f199250f8092afc2",
+      "timestamp": 1728828055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "647990083375c22796386082675b225934c1f951ae29c18d0c7b01f23e163e79": [
     {
       "repository": "https://github.com/DavidBerdik/Let-Me-Downgrade.git",
@@ -961,6 +1003,20 @@
       "tag": "1.0.5",
       "commit": "f3e745cc837179f8d7a83efc5c5b17d583aa8801",
       "timestamp": 1722505258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a008b12be29b6ca83cd33d7ee973f7eab81d60420c57ffbcffa2a51b06fa45ca": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v10.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 41,
+      "version_name": "10.0",
+      "tag": "v10.0",
+      "commit": "18d7ea3017be7f8fd1f25f9ceb378fe4af10a786",
+      "timestamp": 1728828164,
       "reproducible": true,
       "error": null
     }
@@ -1707,6 +1763,34 @@
       "error": null
     }
   ],
+  "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
+    {
+      "repository": "https://github.com/CominAtYou/BatteryTile.git",
+      "apk_url": "https://github.com/CominAtYou/BatteryTile/releases/download/v1.7.0/batterytile-1.7.0.apk",
+      "appid": "com.cominatyou.batterytile",
+      "version_code": 12,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "2f1266544cbcb13a5364620a450686f489b3c914",
+      "timestamp": 1728828491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b7162d87e5602876ff5800bd3474a05af1073c917155704d7200a3944a68e4c": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.30.2/networksurvey-1.30.2-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 85,
+      "version_name": "1.30.2",
+      "tag": "v1.30.2",
+      "commit": "83b4800221a7b4b7ef959fa3438be7a4550c81af",
+      "timestamp": 1728828640,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -1731,6 +1815,20 @@
       "tag": "2.1.0",
       "commit": "a555adbc7b15725f2e022f9e3c2041df4b2e57d7",
       "timestamp": 1719410468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
+    {
+      "repository": "https://github.com/danilkinkin/buckwheat.git",
+      "apk_url": "https://github.com/danilkinkin/buckwheat/releases/download/4.7.0/buckwheat_v4.7.0.apk",
+      "appid": "com.danilkinkin.buckwheat",
+      "version_code": 28,
+      "version_name": "4.7.0",
+      "tag": "4.7.0",
+      "commit": "0b69ea84c9638c50d4060819268eb3111774fb8e",
+      "timestamp": 1728828984,
       "reproducible": true,
       "error": null
     }
@@ -1885,6 +1983,20 @@
       "tag": "v1.7.9.2",
       "commit": "3307118d7fbb1950bd80613b237e8cf7e34ab4a0",
       "timestamp": 1725473797,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.35/Shiori.v1.35.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 45,
+      "version_name": "1.35",
+      "tag": "v1.35",
+      "commit": "41e5f97705a8a9ccd25e577973e3ddf3956019a9",
+      "timestamp": 1728829330,
       "reproducible": true,
       "error": null
     }
