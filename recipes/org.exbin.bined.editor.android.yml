@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 0.2.2
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: bined-android-.*\.apk
         apk_url: https://github.com/exbin/bined-android/releases/download/0.2.2/bined-android-0.2.2.apk
         build:
           - git reset --soft 3722d5d28a954d85d73277531ab429bed8b4f71f
