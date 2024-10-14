@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/jinweijie/notify-me.git
 updates: releases
+notes:
+  - 'FIXME: remove the "find" from the recipe on next update'
 versions:
   - tag: release-1.2.1
     apks:

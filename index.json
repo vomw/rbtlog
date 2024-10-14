@@ -2981,6 +2981,20 @@
       "error": null
     }
   ],
+  "32ff8cdfb9e5176b2168fe78d140b9512dcc124bbaa039b37310a3fe0ae1cd02": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.1/fdroidRelease-2.5.1.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30501,
+      "version_name": "2.5.1",
+      "tag": "2.5.1",
+      "commit": "b857cdda01c39e0775502f54ef472a026b719e1e",
+      "timestamp": 1728924323,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -3803,6 +3817,20 @@
       "tag": "3.39.1",
       "commit": "d5a463996e4c2cb0e6f6abb4a64ec09184563fc0",
       "timestamp": 1728873227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ff9b765f3853f99d00cd4a20e62a08a2f50c94b0fe2912faef7a367641d6271f": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly-2.0/releases/download/3.40.1/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 825,
+      "version_name": "3.40.0",
+      "tag": "3.40.1",
+      "commit": "777c55a196215c08bee81fa728b61b68cd444e51",
+      "timestamp": 1728924895,
       "reproducible": true,
       "error": null
     }
@@ -6893,6 +6921,20 @@
       "tag": "1.1",
       "commit": "6206404a40be55f5cb031b5f6736cbd2d39b44f3",
       "timestamp": 1728892371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a6adccc1a809062c7acd24f49460bb8038d8d410fec69b912bae54b72772841e": [
+    {
+      "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
+      "apk_url": "https://github.com/AbdurazaaqMohammed/APKExtractor/releases/download/1.1.1/app-release.apk",
+      "appid": "io.github.abdurazaaqmohammed.ApkExtractor",
+      "version_code": 2,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "6d95ff7c22f7c92e7708fc83141f91c2031b0156",
+      "timestamp": 1728926320,
       "reproducible": true,
       "error": null
     }
