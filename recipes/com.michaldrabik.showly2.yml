@@ -1,0 +1,37 @@
+---
+repository: https://github.com/michaldrabik/showly-2.0.git
+updates: releases
+versions:
+  - tag: 3.39.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/michaldrabik/showly-2.0/releases/download/3.39.1/app-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - echo "storeFile=/dev/null" > app/keystore.properties
+          - echo "storePassword=pass" >> app/keystore.properties
+          - echo "keyAlias=alias" >> app/keystore.properties
+          - echo "keyPassword=pass" >> app/keystore.properties
+          - base64 -d >> local.properties <<< dHJha3RDbGllbnRJZD0iODlhZmM0NTc4ZjQwZjliMTJhOWYzYjZhMGEzMTI3YWVjMzA0NTAwOTQwNzc3YWI3MjIwYzBlOGE4ZDhkMzkwNyIKdHJha3RDbGllbnRTZWNyZXQ9IjE3YmE2YTBiOTQ3NGViZDRiNWI0ZTEwM2RkMTAwZDFlOTc5ODIyOTQ4YzU1M2Y1NTY0ZTM1YWE1MjVlZDMzZTMiCnRtZGJBcGlLZXk9ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SmhkV1FpT2lJelltSmpOemhoTjJKallqSTNOV1UyTTJZNVlUTTFNbU5sTVRrNE5XTTRNeUlzSW5OMVlpSTZJalUwWW1VNE1UTmxZek5oTXpZNE5EQTBOakF3T0Raak9TSXNJbk5qYjNCbGN5STZXeUpoY0dsZmNtVmhaQ0pkTENKMlpYSnphVzl1SWpveGZRLmVzTTR6Z1RUNjR0RnBudzlVazVxd3JobGFEVXd0Tk5ZS1Z6dl9qTnIzOTAiCm9tZGJBcGlLZXk9ImJhOWMwMTY2Igo=
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
