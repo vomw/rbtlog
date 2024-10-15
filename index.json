@@ -1693,6 +1693,20 @@
       "error": null
     }
   ],
+  "3aaf59bf8bb931d08b863fb2398236ffc27c38fba9bf637bc16a46ac2b914da4": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1060-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1060,
+      "version_name": "2024.10.1060-dev",
+      "tag": "2024.10.1060-dev",
+      "commit": "0557a467d0d6f3da2e93063124415807c5789b83",
+      "timestamp": 1729010716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2459,6 +2473,20 @@
       "tag": "3.4.15",
       "commit": "0a40c72e47d0bed6bafb5a88ba7a65d6ec90d0ae",
       "timestamp": 1728235724,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3db8ae71f4925e9f0c7a2c8a81c8694f20a5dae6b9b1641460c9814675c43cd8": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/3.4.16/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 117,
+      "version_name": "3.4.16",
+      "tag": "3.4.16",
+      "commit": "212b354d3ed8cb61779104b7374a088dafa3d24c",
+      "timestamp": 1729011124,
       "reproducible": true,
       "error": null
     }
