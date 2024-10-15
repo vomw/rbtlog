@@ -1,0 +1,45 @@
+---
+repository: https://github.com/lhns/restic-android.git
+updates: releases
+notes:
+  - needed to adjust versionCode in build recipe, done now via env GIT_COMMIT_COUNT; if we need to do it manually at some point, "s/versionCode getVersionCodeOrNull.*/versionCode '$versionCode'/;"
+  - 'TODO: downloads precompiled binaries from restic repo which we might need to compile ourselves for RB as well'
+versions:
+  - tag: 0.5.1
+    apks:
+      - apk_pattern: restic-android-.*-armeabi-v7a-release\.apk
+        apk_url: https://github.com/lhns/restic-android/releases/download/0.5.1/restic-android-0.5.1-armeabi-v7a-release.apk
+        build:
+          - versionName="${APP_TAG}"
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - sed -r 's/versionName getVersionOrNul.*/versionName "'$versionName'"/' -i app/build.gradle
+          - sed -r 's/getVersionOrNull\(\)\?\.toString\(\)/"'$versionName'"/' -i app/build.gradle
+          - sed -r '/downloadBinaries arm64 aarch64 arm64-v8a/d ; /downloadBinaries amd64 x86_64 x86_64/d ; /downloadBinaries 386 i686 x86/d' -i download-binaries.sh
+          - chmod +x gradlew
+          - ./download-binaries.sh
+          - export RELEASE_STORE_FILE=/dev/null RELEASE_STORE_PASSWORD=pass RELEASE_KEY_ALIAS=alias RELEASE_KEY_PASSWORD=pass GIT_COMMIT_COUNT="$(($(git rev-list --all --count) -1))"
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/restic-android-*armeabi-v7a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - binutils
+            - bzip2
+            - curl
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
