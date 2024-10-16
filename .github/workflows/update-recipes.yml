@@ -35,11 +35,11 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install -r requirements.txt
       - name: Update recipes
-        run: python3 scripts/update-recipes.py -v --continue-on-errors recipes/*.yml
+        run: python3 scripts/update-recipes.py -v --continue-on-errors --update-hashes recipes/*.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6.1.0
+        uses: peter-evans/create-pull-request@v7.0.5
         with:
           title: "Update recipes"
           commit-message: "Update recipes"
