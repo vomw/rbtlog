@@ -61,6 +61,11 @@
                     "type": "string"
                   }
                 },
+                "build_cpus": {
+                  "description": "number of CPUs to use for build (not required, default: null)",
+                  "type": "integer",
+                  "minimum": 1
+                },
                 "build_home_dir": {
                   "description": "home directory for the build user",
                   "type": "string"
@@ -166,6 +171,10 @@
                         "string",
                         "null"
                       ]
+                    },
+                    "verify_git": {
+                      "description": "whether to verify git objects (not required, default: true)",
+                      "type": "boolean"
                     },
                     "verify_gradle_wrapper": {
                       "description": "whether to verify the gradle-wrapper.jar checksum",
