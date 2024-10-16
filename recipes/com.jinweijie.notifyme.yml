@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: release-1.2.1
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: notify-me-release.*\.apk
         apk_url: https://github.com/jinweijie/notify-me/releases/download/release-1.2.1/notify-me-release-1.2.1.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
