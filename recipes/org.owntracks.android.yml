@@ -1,0 +1,43 @@
+---
+repository: https://github.com/owntracks/android.git
+updates: releases
+notes:
+  - build is flaky
+versions:
+  - tag: v2.5.3
+    apks:
+      - apk_pattern: owntracks-release-oss-.*\.apk
+        apk_url: https://github.com/owntracks/android/releases/download/v2.5.3/owntracks-release-oss-420503003.apk
+        build:
+          - export VERSION_CODE="$( grep versionCode latest-version.yaml | awk '{print $NF}' )"
+          - cd project
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/ossRelease/compileOssReleaseArtProfile/baseline.prof
+          - PROF_SHA1=ab55168a2b108f9e5a2383ab751ae971dcfc7954
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleOssRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/oss/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
