@@ -1,17 +1,17 @@
 ---
 repository: https://github.com/mjaakko/NeoStumbler.git
 updates: releases
+notes:
+  - original recipe and log were replaced because of misspellings (no differences in result)
 versions:
   - tag: 1.3.2
     apks:
       - apk_pattern: app-fdroid-release.apk
         apk_url: https://github.com/mjaakko/NeoStumbler/releases/download/1.3.2/app-fdroid-release.apk
         build:
-          - sed -r '/signingConfig.release/d' -i app/build.gradle
-          - export SIGNING_STORE_PASSWORD=dummypass SIGNING_KEY_ALIAS=dummy SIGNING_KEY_PASSWORD=dummypass
-          - keytool -genkey -v -keystore keystore.jks -alias $SIGNING_KEY_ALIAS -keyalg RSA -keysize 4096 -sigalg SHA512withRSA -validity 10000 -dname "cn=dummy" -storepass $SIGNING_STORE_PASSWORD -keypass $SIGNING_KEY_PASSWORD
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
           - ./gradlew assembleFdroidRelease
-          - mv app/build/outputs/apk/fdroid/release/app-fdroid-release.apk /outputs/unsigned.apk
+          - mv app/build/outputs/apk/fdroid/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
         build_user: build
