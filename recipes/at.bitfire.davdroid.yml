@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'NB: flaky'
   - 'FIXED: timestamps (resolved by 4.4.3 as "System.currentTimeMillis()" is no longer present in build.gradle)'
+  - 'FIXME: remove the inplace-fix as well, the target to be fixed is no longer there'
 versions:
   - tag: v4.4.2-ose
     apks:
