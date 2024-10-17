@@ -279,6 +279,20 @@
       "error": null
     }
   ],
+  "e6230219a531014d5f0661abe891a5618b2de96a1e3b756498c49920f406ed53": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.3-ose/davx5-ose-4.4.3-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404030003,
+      "version_name": "4.4.3-ose",
+      "tag": "v4.4.3-ose",
+      "commit": "9c2afbab09205928579a370a962769efc807383a",
+      "timestamp": 1729185439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1707,6 +1721,20 @@
       "error": null
     }
   ],
+  "2c2b08b1f402ced48ac00970518980544293c8ebfa0d117ad4db1881bf37149c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1063/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1063,
+      "version_name": "2024.10.1063",
+      "tag": "2024.10.1063",
+      "commit": "922231f55eadab0fb3e9e595c8dab672f0680f03",
+      "timestamp": 1729183521,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2011,6 +2039,20 @@
       "tag": "v3.1.0-beta02",
       "commit": "3892e3bbf4d5031e2b5c6e435579644e0a54a53b",
       "timestamp": 1728772922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3334876fe09b3dab425312fececcecaa686be8f0996ef1cc68abb7d8432445ba": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v3.1.0/easter_eggs_3.1.0_52-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 52,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "6675eccba6412267ea855a669ada83ead5162e09",
+      "timestamp": 1729188655,
       "reproducible": true,
       "error": null
     }
@@ -3159,6 +3201,20 @@
       "tag": "3.4.0",
       "commit": "acec874e0d34f9764b28ffedaccf6c6f0dd387b3",
       "timestamp": 1727715027,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bba258b2a43f9e2ff5c07cace0a7eb8a074c1128be4fca6c2b814a6dd530f30b": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.1/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2021393,
+      "version_name": "3.4.1",
+      "tag": "3.4.1",
+      "commit": "171c075425f458619aec58238fdbaa504611b0d5",
+      "timestamp": 1729184764,
       "reproducible": true,
       "error": null
     }
