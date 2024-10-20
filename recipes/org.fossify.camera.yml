@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 1.0.1
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: camera-\d*-foss-release\.apk
         apk_url: https://github.com/FossifyOrg/Camera/releases/download/1.0.1/camera-2-foss-release.apk
         build:
           - chmod +x gradlew

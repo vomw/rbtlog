@@ -307,6 +307,20 @@
       "error": null
     }
   ],
+  "1571b3ea7b770602617f3df6b8c0a654cef4770d104866eab8b477ae61940b84": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.3.2-ose/davx5-ose-4.4.3.2-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404030200,
+      "version_name": "4.4.3.2-ose",
+      "tag": "v4.4.3.2-ose",
+      "commit": "1802740a2d3d3df7702b74c0efa0edf88e49298a",
+      "timestamp": 1729442737,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1077,6 +1091,20 @@
       "error": null
     }
   ],
+  "9aa31f967946f5ac77c7e580a953584449832934f4a0839d8c3f56a374ffb8d1": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v11.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 42,
+      "version_name": "11.0",
+      "tag": "v11.0",
+      "commit": "c19f800829af123b46e6f733ca3b7ee86e6d7e0e",
+      "timestamp": 1729443157,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebaa64f149c71dd9a14ced90ff418156032161771a1f045479dc48d37e24a2ee": [
     {
       "repository": "https://github.com/you-apps/WallYou.git",
@@ -1087,6 +1115,20 @@
       "tag": "v8.1",
       "commit": "9857d14f8ae833f9b51ec77ade78b04e308aca53",
       "timestamp": 1719278085,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ae50062902a2037e5d899592cbad8bb95244cfa089c2ee7403b211be9b84698": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v9.0/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 27,
+      "version_name": "9.0",
+      "tag": "v9.0",
+      "commit": "a222b1b7767db6fa5e4ebfe19ca6dd1f9aaaa977",
+      "timestamp": 1729443511,
       "reproducible": true,
       "error": null
     }
@@ -1773,6 +1815,20 @@
       "tag": "2024.10.1064-dev",
       "commit": "e743cf338f442a31f2bf870e298f1da193ca3b05",
       "timestamp": 1729356317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "34e191b75d9583773898310ef973f4f97fcba6ac06571b7147c0bc87ba0eb9a6": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1065-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1065,
+      "version_name": "2024.10.1065-dev",
+      "tag": "2024.10.1065-dev",
+      "commit": "8c2fbeca33b10a6901109ac4e9a0c02150c781f4",
+      "timestamp": 1729443920,
       "reproducible": true,
       "error": null
     }
@@ -3047,6 +3103,20 @@
       "tag": "v1.10.2",
       "commit": "e8b93f0814c48f18d43d543af21cf642212cc490",
       "timestamp": 1729072150,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca5eb13f90ca8f9fe49bd117046536be9bb78d70545b9d1e7d202579f7809cf1": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.10.3/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 77,
+      "version_name": "1.10.3",
+      "tag": "v1.10.3",
+      "commit": "859e653ca18063aa80cecc0e4bb3ba7b84a03b38",
+      "timestamp": 1729444862,
       "reproducible": true,
       "error": null
     }
@@ -8241,6 +8311,20 @@
       "error": null
     }
   ],
+  "abd548173d2d81e48944c367142cdf3ef25c876c88cbe94afc549a8c60a62de3": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/1.1.2/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 4,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "5343e60bba4895a5ac7e9dc8943b10e4bf867d9d",
+      "timestamp": 1729445105,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2c061e5d02d88b17d738a67a5da1f2313b155d492329d169276aa41b48b2dd97": [
     {
       "repository": "https://github.com/seht/volumenotification.git",
@@ -8573,6 +8657,20 @@
       "tag": "1.0.1",
       "commit": "c2a9092cc2f4a284022b44b53a29846a77a30f9b",
       "timestamp": 1721806537,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbe42390c4232f16d5d1a1bc374d7d959a50cf862ec76016dc904867aa25c1a5": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calculator.git",
+      "apk_url": "https://github.com/FossifyOrg/Calculator/releases/download/1.0.2/calculator-3-foss-release.apk",
+      "appid": "org.fossify.calculator",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "1.0.2",
+      "commit": "5e75b3fa2f1070fca8c2d59451e1dd1feee724be",
+      "timestamp": 1729445287,
       "reproducible": true,
       "error": null
     }
@@ -9063,6 +9161,20 @@
       "tag": "v2.2.0",
       "commit": "b0a86bf0f2b334d012ab64a35a2e2a0570491814",
       "timestamp": 1727544665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0ef566ef456e8211099d6ba1d4f52cb3c3e611715cd35ea97ff1798f69579b93": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.2.1/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 12,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "8482a349195c0b5dac5defc40086fb30850c6c58",
+      "timestamp": 1729445810,
       "reproducible": true,
       "error": null
     }
