@@ -7079,6 +7079,20 @@
       "error": null
     }
   ],
+  "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2240/FairEmail-v1.2240a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2240,
+      "version_name": "1.2240",
+      "tag": "1.2240",
+      "commit": "ec645b9297dd1180ea87db19fbc2d772d2c951cc",
+      "timestamp": 1729436633,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -7261,6 +7275,20 @@
       "error": null
     }
   ],
+  "197dff09cf92d1f8e7c571d3e0b5a9e6dfd033ffc0c851134c8bcffc27268468": [
+    {
+      "repository": "https://github.com/gdzx/audiosource.git",
+      "apk_url": "https://github.com/gdzx/audiosource/releases/download/v1.2/audiosource.apk",
+      "appid": "fr.dzx.audiosource",
+      "version_code": 4,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "6213d0f6f39bb8381e5c92d75cbedc458d38f9ea",
+      "timestamp": 1729437133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "373bf8e82d81aa15c7dad5a75b493cdb18a296e5c2b25f7606c0345ed707e6c3": [
     {
       "repository": "https://github.com/gilbsgilbs/LocationIndicatorWhitelist.git",
@@ -7387,6 +7415,20 @@
       "error": null
     }
   ],
+  "5dbbf8e63ad8f454026394cda7d66ea2360a085f728f68d8bc12c8cafe7d380d": [
+    {
+      "repository": "https://github.com/WrichikBasu/ShakeAlarmClock.git",
+      "apk_url": "https://github.com/WrichikBasu/ShakeAlarmClock/releases/download/v4.2.1/ShakeAlarmClock_v4.2.1.apk",
+      "appid": "in.basulabs.shakealarmclock",
+      "version_code": 36,
+      "version_name": "4.2.1",
+      "tag": "v4.2.1",
+      "commit": "43b451f27128dc7dda16f45e5385dac591e5b216",
+      "timestamp": 1729437249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce": [
     {
       "repository": "https://github.com/whew-inc/FakeGApps.git",
@@ -7481,6 +7523,34 @@
       "tag": "v0.10",
       "commit": "2049c9ed7f76bf8be2e8742550c03bdf18968fe7",
       "timestamp": 1726851094,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0504f18d07ebf1afbca4ba7e0f6e91e669a5f7ec6e34dc0377df504c0f9a680f": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/izzyondroid.git",
+      "apk_url": "https://gitlab.com/-/project/29159716/uploads/63385bc02aed0c53471928bb5cdfd40f/app-release.apk",
+      "appid": "in.sunilpaulmathew.izzyondroid",
+      "version_code": 13,
+      "version_name": "v0.13",
+      "tag": "v0.13",
+      "commit": "84daffa4479e75163fd0ead6844b3b0299e44c4a",
+      "timestamp": 1729437433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "833c39456e0f3ac45e8fb3b814ac4ef293efe9da19f34e5d33229c712bbec005": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/Weather.git",
+      "apk_url": "https://github.com/sunilpaulmathew/Weather/releases/download/v0.5/app-release.apk",
+      "appid": "in.sunilpaulmathew.weatherwidget",
+      "version_code": 5,
+      "version_name": "v0.5",
+      "tag": "v0.5",
+      "commit": "fcfa72ae188bf49da86d1d232cea5ceba4ca47f4",
+      "timestamp": 1729437596,
       "reproducible": true,
       "error": null
     }
