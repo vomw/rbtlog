@@ -2169,6 +2169,20 @@
       "error": null
     }
   ],
+  "c77294b2c29a2111a2118b9c91631c662cdef0fdcf36f190d41f5b2c3d56e7f7": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.0/YTDLnis-1.8.0-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108000004,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "fd39a180b564e51fb360d3772975a8a36daee329",
+      "timestamp": 1729452566,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -4628,6 +4642,20 @@
       "commit": "6e5631290ce6b9cafb0c87e7e4a2ceb33572b524",
       "timestamp": 1722532803,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "40e568b459bb754f1159fe11caf171ad5cd8124e027e0e7704987e699314bbb4": [
+    {
+      "repository": "https://github.com/puutaro/CommandClick.git",
+      "apk_url": "https://github.com/puutaro/CommandClick/releases/download/v1.4.2/CommandClick-1.4.2-release.apk",
+      "appid": "com.puutaro.commandclick",
+      "version_code": 82,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "f9fc3ac4116bbad6ef0234e9555cbd74550a3c7c",
+      "timestamp": 1729453953,
+      "reproducible": false,
       "error": null
     }
   ],
