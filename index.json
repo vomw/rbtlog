@@ -5821,6 +5821,20 @@
       "error": null
     }
   ],
+  "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.0.7/MediLog-3.0.7.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5462,
+      "version_name": "3.0.7",
+      "tag": "v3.0.7",
+      "commit": "ad36343ab7c3d2d3fac57686967c382294474fe0",
+      "timestamp": 1729385325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -6757,6 +6771,20 @@
       "error": null
     }
   ],
+  "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
+    {
+      "repository": "https://github.com/LibrePass/LibrePass-Android.git",
+      "apk_url": "https://github.com/LibrePass/LibrePass-Android/releases/download/v1.3.1/LibrePass-signed.apk",
+      "appid": "dev.medzik.librepass.android",
+      "version_code": 18,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "5f444b13ad233edade759b025efddbfb8b0663cf",
+      "timestamp": 1729386822,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca7822c290510d987cdc7df358fa4ef01b50601f91e1e99c2d96d8677140d367": [
     {
       "repository": "https://github.com/zacharee/InstallWithOptions.git",
@@ -6781,6 +6809,48 @@
       "tag": "0.6.4",
       "commit": "7c16cd1a7ca7a4440da46b8d27b2644317c2cc0f",
       "timestamp": 1729097991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cfa0bd6f657a58474c8b6cfdd9f060e310aeecab439bcff52905d575f70a5cb0": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.13.5/LemmyRedirect_1.13.5-release-signed.apk",
+      "appid": "dev.zwander.lemmyredirect",
+      "version_code": 41,
+      "version_name": "1.13.5",
+      "tag": "1.13.5",
+      "commit": "9c38869e5885ae47d7bb1f6c57feb2e5246dc199",
+      "timestamp": 1729386013,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1677127be4118f22edee092893b57931b159b56f493771297688aadd58624f66": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.13.5/MastodonRedirect_1.13.5-release-signed.apk",
+      "appid": "dev.zwander.mastodonredirect",
+      "version_code": 41,
+      "version_name": "1.13.5",
+      "tag": "1.13.5",
+      "commit": "9c38869e5885ae47d7bb1f6c57feb2e5246dc199",
+      "timestamp": 1729386270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c20d6b49f0413c9a0dde9fd50df0256b648dbc3c2612a98021dd23cbc06214d6": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.13.5/PeerTubeRedirect_1.13.5-release-signed.apk",
+      "appid": "dev.zwander.peertuberedirect",
+      "version_code": 41,
+      "version_name": "1.13.5",
+      "tag": "1.13.5",
+      "commit": "9c38869e5885ae47d7bb1f6c57feb2e5246dc199",
+      "timestamp": 1729386510,
       "reproducible": true,
       "error": null
     }
