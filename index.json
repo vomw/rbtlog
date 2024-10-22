@@ -7807,6 +7807,20 @@
       "error": null
     }
   ],
+  "3e6cdc6226d7e88fc81911dd1757f471183b1ee5ffb8ff72d2005bda0f0df28f": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.21.3.122/freetube-0.21.3.122-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 210003122,
+      "version_name": "0.21.3.122",
+      "tag": "0.21.3.122",
+      "commit": "16d6ccc9368806934fdc5b63c2ecd78d7d1a01b5",
+      "timestamp": 1729551980,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -7845,6 +7859,20 @@
       "tag": "1.2",
       "commit": "33166cefa819dcd67a242d64247b55af26c8bee9",
       "timestamp": 1729530938,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
+    {
+      "repository": "https://github.com/devhyper/open-video-editor.git",
+      "apk_url": "https://github.com/devhyper/open-video-editor/releases/download/v1.1.3/app-release.apk",
+      "appid": "io.github.devhyper.openvideoeditor",
+      "version_code": 7,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "c446a819cdbe2df2f6bc36a4df6e03f3f4186d9e",
+      "timestamp": 1729552249,
       "reproducible": true,
       "error": null
     }
@@ -8087,6 +8115,20 @@
       "error": null
     }
   ],
+  "3ee37c9b127ce03eca2afad66b943910da7ec7ddb2cc027420e41986a9f6ee96": [
+    {
+      "repository": "https://github.com/JunioJsv/minimum.git",
+      "apk_url": "https://github.com/JunioJsv/minimum/releases/download/v1.6.0/juniojsv.minimum-v1.6.0-release.apk",
+      "appid": "juniojsv.minimum",
+      "version_code": 141,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "bb870fa02dfc49a14bb812c3b183c7646bad457c",
+      "timestamp": 1729553059,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05205d9d303f606d51ce0f8cfe4b1217a0e2cfb95ab65ba0bd9a98f582411999": [
     {
       "repository": "https://github.com/ksh-b/raven.git",
@@ -8251,6 +8293,20 @@
       "tag": "v2.31.1",
       "commit": "1c8c4924000a198e93156126069ab6b9d9147fbb",
       "timestamp": 1724615849,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "86783f35d33f4977d8fb0ebd56fbd5ed7ce55ad30d0be6100364bd531bde25ed": [
+    {
+      "repository": "https://github.com/TheLastProject/RaiseToAnswer.git",
+      "apk_url": "https://github.com/TheLastProject/RaiseToAnswer/releases/download/v3.6.6/app-release.apk",
+      "appid": "me.hackerchick.raisetoanswer",
+      "version_code": 33,
+      "version_name": "3.6.6",
+      "tag": "v3.6.6",
+      "commit": "1f529e6b5e8508d614d37e9fd9ef0e4a10f77b97",
+      "timestamp": 1729553296,
       "reproducible": true,
       "error": null
     }
