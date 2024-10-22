@@ -1875,6 +1875,20 @@
       "error": null
     }
   ],
+  "9d9499a6ec57d11e59322d3db0a2149d330d0961e34c2e99363499bca548ebc8": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1067/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1067,
+      "version_name": "2024.10.1067",
+      "tag": "2024.10.1067",
+      "commit": "10f37f04a54aa4421c5bb01ff6b7a9c06758a230",
+      "timestamp": 1729615530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -3107,6 +3121,20 @@
       "error": null
     }
   ],
+  "5e799417d098ac20af3cf702e0c10fc8297c327384628850bc5d700782a6a6c9": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.16.0/com.fibelatti.photowidget-v1.16-1160000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1160000,
+      "version_name": "1.16",
+      "tag": "v1.16.0",
+      "commit": "0d5646901ca1d244e7a2983a1fe53caed540d904",
+      "timestamp": 1729619598,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -3161,6 +3189,20 @@
       "timestamp": 1728761042,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "8734a36915924ce24f8f95a876f7aae1abae49e47f19378348e05cb22896856b": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.3.0/com.fibelatti.pinboard-v3.3-3030000-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3030000,
+      "version_name": "3.3",
+      "tag": "v3.3.0",
+      "commit": "fc42dc58e17e666b48841ae571a667ca12d99f16",
+      "timestamp": 1729620572,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp8thhiwj8/outputs:/outputs', '--volume', '/tmp/tmp8thhiwj8/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fibelatti/pinboard-kotlin.git', '--env', 'APP_TAG=v3.3.0', '--env', 'APP_COMMIT=fc42dc58e17e666b48841ae571a667ca12d99f16', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
@@ -6515,6 +6557,20 @@
       "tag": "v0.12.3",
       "commit": "d712b345ea6f467af16ed835f0305ab7453fa408",
       "timestamp": 1727544335,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f7d4c4d73ad86a357bb997346fb48506e854694628230ac56c8c4496f1ec4a8c": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.4/RecurringExpenseTracker_0.12.4.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 28,
+      "version_name": "0.12.4",
+      "tag": "v0.12.4",
+      "commit": "11cb5aca142f8b5624cc0e12ff99e35a1af4a86c",
+      "timestamp": 1729615947,
       "reproducible": true,
       "error": null
     }
@@ -10169,6 +10225,20 @@
       "tag": "v1.0.0",
       "commit": "9af6e975b5bb4ae1b859ca4bdf35ebfae9f44209",
       "timestamp": 1729498001,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bc771d7b71e386c63108a7eab88657df1632547fa2edd037a9fef4d3ae3b84c7": [
+    {
+      "repository": "https://github.com/regulad/SupIR.git",
+      "apk_url": "https://github.com/regulad/SupIR/releases/download/v1.0.1/app-release.apk",
+      "appid": "xyz.regulad.supir",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "7cea570d083a63ca3ed2e6b21c32c7d0e9d004f2",
+      "timestamp": 1729616223,
       "reproducible": true,
       "error": null
     }
