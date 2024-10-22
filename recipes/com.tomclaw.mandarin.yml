@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/solkin/mandarin-android.git
-updates: releases
+updates: disabled
+notes:
+  - ICQ was shut down in 6/2024, so the app does no longer work; see https://gitlab.com/IzzyOnDroid/repo/-/issues/617
 versions:
   - tag: v1.30
     apks:
