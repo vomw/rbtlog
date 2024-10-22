@@ -2799,6 +2799,20 @@
       "error": null
     }
   ],
+  "2c4dd328f0a6f3ca4c3bece01529839e03cdf1027d0cab27c41fcc216ee4d397": [
+    {
+      "repository": "https://github.com/dmitrijkotov634/android-notes.git",
+      "apk_url": "https://github.com/dmitrijkotov634/android-notes/releases/download/1.5.1/app-release.apk",
+      "appid": "com.dm.notes",
+      "version_code": 6,
+      "version_name": "1.5.1",
+      "tag": "1.5.1",
+      "commit": "b32e1e3b4a9757549f72b7ebb2ae0a60fc613351",
+      "timestamp": 1729557212,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5acd1d66a493ae55e62e0a43df3812fe60ff836746f56a56f7258e9ce53f1388": [
     {
       "repository": "https://github.com/jetspiking/AndME.git",
@@ -8587,6 +8601,20 @@
       "tag": "v1.1",
       "commit": "aaf5c81ed714ea5a6224a7ecae67f3c72b2b01d3",
       "timestamp": 1719057510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f37f6740d7a9b7d6fc28ddcaeddbe4dc3ccda3def4715655fc99af74d28e8fce": [
+    {
+      "repository": "https://github.com/AkaneTan/Gramophone.git",
+      "apk_url": "https://github.com/AkaneTan/Gramophone/releases/download/1.0.14/Gramophone-1.0.14-release.apk",
+      "appid": "org.akanework.gramophone",
+      "version_code": 16,
+      "version_name": "1.0.14",
+      "tag": "1.0.14",
+      "commit": "4589ac98657364aaf1c3c2bf35f5c9ff6d8abcc8",
+      "timestamp": 1729557783,
       "reproducible": true,
       "error": null
     }
