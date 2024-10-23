@@ -2813,6 +2813,20 @@
       "error": null
     }
   ],
+  "bdf41cbc0fc843ec828c064a9c658a36b082cb7ace28d23f5a79f670c3b8867f": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.16.0/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 21,
+      "version_name": "v0.16.0",
+      "tag": "v0.16.0",
+      "commit": "30400d8749806bd11521a2f7e30d78f3334c5955",
+      "timestamp": 1729701928,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2c4dd328f0a6f3ca4c3bece01529839e03cdf1027d0cab27c41fcc216ee4d397": [
     {
       "repository": "https://github.com/dmitrijkotov634/android-notes.git",
@@ -4125,6 +4139,20 @@
       "tag": "1.6.2",
       "commit": "62b0ca11a69f938909f395300a8610a494cd8062",
       "timestamp": 1724680680,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ab8adf610274a4c497cd60bdcaff7bc057725d363ec9df16eb1f4f4d2e48f632": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.7.0/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 29,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "cb3c9a383924e58ef77ccab6c9081552e1cc3c74",
+      "timestamp": 1729702241,
       "reproducible": true,
       "error": null
     }
@@ -6435,6 +6463,20 @@
       "error": null
     }
   ],
+  "25de9ce8090417845bca79ea5a3cb86b52cb3a1df633f9b4ef99dd1b0983b299": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.39/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 39,
+      "version_name": "0.1.39",
+      "tag": "0.1.39",
+      "commit": "8e2412794d35420d0e3f27ba0ab9072f583a9ca5",
+      "timestamp": 1729702483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -7411,6 +7453,20 @@
       "tag": "v1.2.7-rc0",
       "commit": "42f7ffd9b06fa3d536ef844cb37e1a952a295395",
       "timestamp": 1727283725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee5e3130a90f0f3ed136bc2d78e2e1770b1781a1db28ea48d20901ade3324ba1": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.2.8-rc0/eu.darken.sdmse-v1.2.8-rc0-10208000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10208000,
+      "version_name": "1.2.8-rc0",
+      "tag": "v1.2.8-rc0",
+      "commit": "34615e47713ec96b8162725266c5e88abffb8d44",
+      "timestamp": 1729702805,
       "reproducible": true,
       "error": null
     }
