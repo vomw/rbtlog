@@ -8773,6 +8773,48 @@
       "error": null
     }
   ],
+  "cfe5184a67eb45fe3a88add56346b76a412a08dcc13b47f6bbab6638865433ed": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.2.8/breezy-weather-arm64-v8a-v5.2.8_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50208,
+      "version_name": "5.2.8",
+      "tag": "v5.2.8",
+      "commit": "7fcc13ce2a2b828097e1bca202ce91a6453ffbca",
+      "timestamp": 1729691069,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "268dd002fefacd424576d53e7a6b449d427b5ef0e9d4714659b4eddc2e3e44ac": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.2.8/breezy-weather-armeabi-v7a-v5.2.8_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50208,
+      "version_name": "5.2.8",
+      "tag": "v5.2.8",
+      "commit": "7fcc13ce2a2b828097e1bca202ce91a6453ffbca",
+      "timestamp": 1729691596,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "960900d372014728495adbfaa68725fa8bb6856a22aa3f4991bf8043c167a436": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.2.8/breezy-weather-v5.2.8_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50208,
+      "version_name": "5.2.8",
+      "tag": "v5.2.8",
+      "commit": "7fcc13ce2a2b828097e1bca202ce91a6453ffbca",
+      "timestamp": 1729692096,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "65c950b7a4e3120b125e8fec5c50d6ca9c640cc7722b07952faa73ab2a91e506": [
     {
       "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
@@ -9207,6 +9249,20 @@
       "error": null
     }
   ],
+  "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.0.0/musicplayer-1-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "fe002ed478cd6c3617257e5460102c2654d9a5e5",
+      "timestamp": 1729692646,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5bda57d71873c71342a3a27fba2ece296c7ebc864654112ee182444a2194aab9": [
     {
       "repository": "https://github.com/FossifyOrg/Notes.git",
@@ -9231,6 +9287,34 @@
       "tag": "1.2.0",
       "commit": "67bd401e4c844dc6c33161a75c8dc6d0d80e7e7c",
       "timestamp": 1722387247,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cafdbf639fe3749b156f74bddca6738527818950ad77a41a4e0c1534d3cba942": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.3.1/floccus-build-v5.3.1.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5003001,
+      "version_name": "5.3.1",
+      "tag": "v5.3.1",
+      "commit": "0002c2fc9215eedbaeacf0d61846ddab2cf7c35f",
+      "timestamp": 1729692984,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6a3a2ee367a386eb71fedb553c7c2750fc99d11c3e2a350065532abfc942cef": [
+    {
+      "repository": "https://github.com/LucasGGamerM/moshidon.git",
+      "apk_url": "https://github.com/LucasGGamerM/moshidon/releases/download/2.3.0%2Bfork.107.moshinda/moshidon-fdroidRelease.apk",
+      "appid": "org.joinmastodon.android.moshinda",
+      "version_code": 107,
+      "version_name": "2.3.0+fork.107.moshinda",
+      "tag": "2.3.0+fork.107.moshinda",
+      "commit": "bed201a2f791bc3c7099e89d7d815807dec921fa",
+      "timestamp": 1729693215,
       "reproducible": true,
       "error": null
     }
@@ -9287,6 +9371,20 @@
       "tag": "v3.8.2",
       "commit": "b19055dfc6e661c265875e87bcf22b6359101f85",
       "timestamp": 1725055364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "08e81d668ddfa4e890dcf6b4c10399ce6fbb740fa56723bebb9e63ab0c8326f8": [
+    {
+      "repository": "https://github.com/Netdex/android-usb-script.git",
+      "apk_url": "https://github.com/Netdex/android-usb-script/releases/download/1.2.2/android-usb-script_1.2.2.apk",
+      "appid": "org.netdex.androidusbscript",
+      "version_code": 122,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "68a2503dfd9fb79b4aa96dcf0a64ab65c0085ebc",
+      "timestamp": 1729693375,
       "reproducible": true,
       "error": null
     }
