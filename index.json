@@ -3135,6 +3135,20 @@
       "error": null
     }
   ],
+  "3f69a1387ec4f080518d8ac12ecdc0c2ba0b4b517d333533d791f2b3c0008125": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.16.2/com.fibelatti.photowidget-v1.16.2-1160200-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1160200,
+      "version_name": "1.16.2",
+      "tag": "v1.16.2",
+      "commit": "86e6ec04525efbef0291972839692f9b44131d53",
+      "timestamp": 1729673892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -3203,6 +3217,20 @@
       "timestamp": 1729620572,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp8thhiwj8/outputs:/outputs', '--volume', '/tmp/tmp8thhiwj8/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fibelatti/pinboard-kotlin.git', '--env', 'APP_TAG=v3.3.0', '--env', 'APP_COMMIT=fc42dc58e17e666b48841ae571a667ca12d99f16', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "8b9d39bcb3c341d3cf2c8e992790f6ef45dbe3490fed7c71397a02f9bbdc824a": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.3.2/com.fibelatti.pinboard-v3.3.2-3030200-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3030200,
+      "version_name": "3.3.2",
+      "tag": "v3.3.2",
+      "commit": "140ccd0b497270b4c7722f8e91817ac319a9cdde",
+      "timestamp": 1729674399,
+      "reproducible": true,
+      "error": null
     }
   ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
