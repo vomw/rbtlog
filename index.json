@@ -83,6 +83,20 @@
       "error": null
     }
   ],
+  "26b2802e95f20f44c65e14bbc6583a68e4fba57f449d4c22176efc8609a53ae3": [
+    {
+      "repository": "https://github.com/Myzel394/NumberHub.git",
+      "apk_url": "https://github.com/Myzel394/NumberHub/releases/download/v0.2.2/NumberHub.apk",
+      "appid": "app.myzel394.numberhub",
+      "version_code": 22,
+      "version_name": "0.2.2",
+      "tag": "v0.2.2",
+      "commit": "9df12ca237d29e65905b385a02c4f0cedc7168b3",
+      "timestamp": 1729788335,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -261,6 +275,20 @@
       "tag": "v3.3.1",
       "commit": "a63b9e641268034f9592c35448f80d6ecc56364d",
       "timestamp": 1729529129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1972e3e81a978d728d8149acc6208e5982640c498a6c6ccb1f7ea277385e525": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v3.4.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 340,
+      "version_name": "v3.4.0",
+      "tag": "v3.4.0",
+      "commit": "adf3be691e0c71be264b73532d3a757604747f53",
+      "timestamp": 1729788775,
       "reproducible": true,
       "error": null
     }
@@ -3261,6 +3289,20 @@
       "error": null
     }
   ],
+  "a4ce4fc9661f8a313b854cf2ad67e7114b9cc2fbb1a1e694291c64fd4968212c": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.3.3/com.fibelatti.pinboard-v3.3.3-3030300-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3030300,
+      "version_name": "3.3.3",
+      "tag": "v3.3.3",
+      "commit": "93368f201020184eac90a3d73ccf80d6a8aa334e",
+      "timestamp": 1729789080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -5779,6 +5821,20 @@
       "error": null
     }
   ],
+  "bd8f85d24780d775805007dcf88beab4d7b873eb10fc3e47c299b8d805f8acce": [
+    {
+      "repository": "https://github.com/tharunbirla/FetchIt.git",
+      "apk_url": "https://github.com/tharunbirla/FetchIt/releases/download/v1.3/app-release.apk",
+      "appid": "com.tharunbirla.fetchit",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "95a88e76ffcee37a31c93b04da6bdb1a13fb7f2d",
+      "timestamp": 1729789496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f4ba44e259d8afa9d9c4a624f1e6a4782acd1f22f1895dfc5df5a5552b4bb9f7": [
     {
       "repository": "https://github.com/thatsmanmeet/Clipboard-Cleaner.git",
@@ -7513,6 +7569,20 @@
       "error": null
     }
   ],
+  "0673b88fa32b585ae6c8c4a40c8970552e62c36ce0dc541ff7990452dae4193d": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2241/FairEmail-v1.2241a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2241,
+      "version_name": "1.2241",
+      "tag": "1.2241",
+      "commit": "40dc1b3b17288d24ef6d8ae25224a84e0dedffcc",
+      "timestamp": 1729789651,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -8055,6 +8125,20 @@
       "tag": "1.2",
       "commit": "33166cefa819dcd67a242d64247b55af26c8bee9",
       "timestamp": 1729530938,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a1f53f184a989919cc9ffb7f29faadd73f89200f35b5a68f9af915b8d9b9787": [
+    {
+      "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
+      "apk_url": "https://github.com/AbdurazaaqMohammed/APKExtractor/releases/download/1.2.1/app-release.apk",
+      "appid": "io.github.abdurazaaqmohammed.ApkExtractor",
+      "version_code": 4,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "0cfb6ebf814cf959873ab15b97ab2748c35a3a9d",
+      "timestamp": 1729790098,
       "reproducible": true,
       "error": null
     }
@@ -9487,6 +9571,20 @@
       "error": null
     }
   ],
+  "e9ded684a32ba5719c1e31b4802b84a3810aeee72ced78919bce2d1bbe3fa3b0": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.4.0/wikireader-v1.4.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 9,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "09721b82a3477bbe1e13da5e1af5a379b620d3c6",
+      "timestamp": 1729790324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -10183,6 +10281,20 @@
       "tag": "v1.1.3",
       "commit": "f75b0282fb1f7fdd41ae06b00dc4a6209c949e4b",
       "timestamp": 1725054188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c802d46fa94e06baea392875ce9d479f85e620a4478ff8527e0121dd4cb5dd42": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.2.0/stasis-client-android-v1.2.0.apk",
+      "appid": "stasis.client.android",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "aabeb7548755191c68a0a7fb743af87074d52d93",
+      "timestamp": 1729790517,
       "reproducible": true,
       "error": null
     }
