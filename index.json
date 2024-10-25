@@ -2491,6 +2491,20 @@
       "error": null
     }
   ],
+  "a726d104d966073c1793848efcb448cf42436babc04c55e7b9c061b52ad33976": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.5.3/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 21,
+      "version_name": "0.5.3",
+      "tag": "0.5.3",
+      "commit": "c17f45b63f0449c9dfca92986946337651863709",
+      "timestamp": 1729886720,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -2739,6 +2753,20 @@
       "tag": "3.4.16",
       "commit": "212b354d3ed8cb61779104b7374a088dafa3d24c",
       "timestamp": 1729011124,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "485ebd728b1ccba5f4e0790b66b724625d8ba80636c91a1826a2ae7f6902415a": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.0/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 118,
+      "version_name": "4.0.0",
+      "tag": "4.0.0",
+      "commit": "4eecfe7cc82e2bff3405bdf519eeabb3c972a1d2",
+      "timestamp": 1729887496,
       "reproducible": true,
       "error": null
     }
