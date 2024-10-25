@@ -6003,6 +6003,20 @@
       "error": null
     }
   ],
+  "90c39be087d1942d2e2f346bc984942c8e0e61a234c39e05a6222a2b7161590b": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.5.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30500,
+      "version_name": "3.5.0",
+      "tag": "v3.5.0",
+      "commit": "71064f0ef124445fafcefdb89ce31bef39e81278",
+      "timestamp": 1729874795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -8265,6 +8279,20 @@
       "tag": "v0.1.5",
       "commit": "bed6a2fdcdeb426017ee24d65c5f324938d035f6",
       "timestamp": 1728320456,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6e88af1b7aa4cca9863717453735d12cd40530090287360214ea3ac8ae9d3e8": [
+    {
+      "repository": "https://github.com/Leonidius20/RecordingStudio.git",
+      "apk_url": "https://github.com/Leonidius20/RecordingStudio/releases/download/v0.2.0/lite.apk",
+      "appid": "io.github.leonidius20.recorder.lite",
+      "version_code": 7,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "e26698398e1a4a09fbc5232a5be1991b657ea03c",
+      "timestamp": 1729874941,
       "reproducible": true,
       "error": null
     }
