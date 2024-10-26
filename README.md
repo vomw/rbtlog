@@ -7,6 +7,7 @@ Here you find the recipes and logs from the rbtlog builder run by Izzy. It cover
 
 ----
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://codeberg.org/IzzyOnDroid/.profile/src/branch/master/CODE_OF_CONDUCT.md)
 [![CI](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml/badge.svg)](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml)
 [![podman](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml)
 [![docker](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml)
