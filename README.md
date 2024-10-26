@@ -2,12 +2,6 @@
 <!-- SPDX-FileCopyrightText: 2024 Andreas Itzchak (Izzy) Rehberg <izzy@qumran.org> -->
 <!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
 
-# IzzyOnDroid Reproducible Builds Transparency Log (rbtlog)
-Here you find the recipes and logs from the rbtlog builder run by Izzy. It covers mostly apps hosted at the [IzzyOnDroid repo](https://apt.izzysoft.de/fdroid). The `code` branch is usually kept unchanged from the [original `rbtlog`](https://github.com/obfusk/rbtlog) run by Fay. Below is its original Readme:
-
-----
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://codeberg.org/IzzyOnDroid/.profile/src/branch/master/CODE_OF_CONDUCT.md)
 [![CI](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml/badge.svg)](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml)
 [![podman](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml)
 [![docker](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml)
