@@ -629,6 +629,20 @@
       "error": null
     }
   ],
+  "a52f3a6a67bbf16127985687f86986be550192950aec79d9321371ddba7fef25": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.48.2/ArcaneChat-foss-armeabi-v7a-1.48.2.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006941,
+      "version_name": "1.48.2",
+      "tag": "v1.48.2",
+      "commit": "097465536651ba5965238aeb94a4010065b3018e",
+      "timestamp": 1730051138,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -1955,6 +1969,20 @@
       "tag": "2024.10.1067",
       "commit": "10f37f04a54aa4421c5bb01ff6b7a9c06758a230",
       "timestamp": 1729615530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7bea204c5d6113725691bcec7151b3c7f0d032bd51b9cb5fd9dc50f44ae6c07b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.10.1068-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1068,
+      "version_name": "2024.10.1068-dev",
+      "tag": "2024.10.1068-dev",
+      "commit": "113560d5b6864eca780fced27188bea8572284e9",
+      "timestamp": 1730052094,
       "reproducible": true,
       "error": null
     }
@@ -3541,6 +3569,20 @@
       "error": null
     }
   ],
+  "ea3268a76c674f03f522f59e901ebfc521972dd2de4db528ccd50b83702216c5": [
+    {
+      "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
+      "apk_url": "https://github.com/AEFeinstein/mtg-familiar/releases/download/v3.9.11/mtgfam_3.9.11.apk",
+      "appid": "com.gelakinetic.mtgfam",
+      "version_code": 94,
+      "version_name": "3.9.11",
+      "tag": "v3.9.11",
+      "commit": "6a6c560ba4faee55dd83776d20b20978966a659b",
+      "timestamp": 1730052660,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "4ff9a69e6ee507152892ab4d54356c6f9cbc1a865d9a1c97f41bd9e373018665": [
     {
       "repository": "https://github.com/6eero/NewPass.git",
@@ -3765,6 +3807,20 @@
       "error": null
     }
   ],
+  "e4275d0a69872c0485c440ee81031905d76e379e4a5c1f2932e4225217ae015b": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v1.5.0/com.hifnawy.caffeinate_release_v1.5.0.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 20,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "881b1ec9fda2cfb2111012c405c5d4291c57a249",
+      "timestamp": 1730055764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dec0421ef60c93b74a11af3817cd2dea59c560f9aaaa62f63a793da391b9a30": [
     {
       "repository": "https://github.com/Armand31/Dividoc.git",
@@ -3873,6 +3929,20 @@
       "tag": "release-1.2.2",
       "commit": "6712b91f925555497a5f94be9a369902f7509973",
       "timestamp": 1729964257,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "17a5d12aeef588b886c33ec6bfb3306af72cdf4c61941e3f8d7aa25f3e2ea306": [
+    {
+      "repository": "https://github.com/jinweijie/notify-me.git",
+      "apk_url": "https://github.com/jinweijie/notify-me/releases/download/release-1.2.3/notify-me-release-1.2.3.apk",
+      "appid": "com.jinweijie.notifyme",
+      "version_code": 123,
+      "version_name": "1.2.3",
+      "tag": "release-1.2.3",
+      "commit": "82b5474520da1b548bcd77199f93af54930863d1",
+      "timestamp": 1730053379,
       "reproducible": true,
       "error": null
     }
@@ -7065,6 +7135,20 @@
       "error": null
     }
   ],
+  "6f0d40b0f31ac1ccf82333a3eeec2422528000d88f073a85a286937bc1029dce": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.10.1/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1101,
+      "version_name": "1.0.0-alpha.10.1",
+      "tag": "v1.0.0-alpha.10.1",
+      "commit": "44c84c4c57e5b7ebb04d5ae161b39ce4b2f96803",
+      "timestamp": 1730053565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -8549,6 +8633,20 @@
       "error": null
     }
   ],
+  "0e80884163c1d822ffe197af117375c0649641cc2d33d851015efdde31094acc": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.58.1/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 66,
+      "version_name": "0.6.58.1",
+      "tag": "v0.6.58.1",
+      "commit": "2eb38e714c1e8fbeaa2a67f25daec18242b67b9c",
+      "timestamp": 1730053964,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpn0hyo6zz/outputs:/outputs', '--volume', '/tmp/tmpn0hyo6zz/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiMusic.git', '--env', 'APP_TAG=v0.6.58.1', '--env', 'APP_COMMIT=2eb38e714c1e8fbeaa2a67f25daec18242b67b9c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -9777,6 +9875,20 @@
       "tag": "v1.4.0",
       "commit": "09721b82a3477bbe1e13da5e1af5a379b620d3c6",
       "timestamp": 1729790324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5706d183b04b4b3bab59ee5b4d06f22198f18fff7781d87919e1be8e34bf6488": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.5.0/wikireader-v1.5.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 10,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "51349fb59a72d28e48801d0ffc1f3441d9a235da",
+      "timestamp": 1730055225,
       "reproducible": true,
       "error": null
     }
