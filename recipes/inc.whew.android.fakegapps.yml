@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/whew-inc/FakeGApps.git
 updates: releases
+notes:
+  - 'FIXME: gradle wrapper was broken, fixed by upstream for next release'
 versions:
   - tag: '5.0'
     apks:

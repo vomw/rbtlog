@@ -2,7 +2,7 @@
 repository: https://gitlab.com/axet/android-ping-utils.git
 updates: releases
 notes:
-  - 'FIXNEEDED: no gradle-wrapper.jar, see https://gitlab.com/axet/android-ping-utils/-/issues/5'
+  - 'FIXME: no gradle-wrapper.jar, see https://gitlab.com/axet/android-ping-utils/-/issues/5 – use Fay’s instead with the next update'
 versions:
   - tag: pingutils-0.2.6
     apks:

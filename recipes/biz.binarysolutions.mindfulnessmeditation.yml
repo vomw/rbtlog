@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/vbresan/MindfulnessMeditation.git
 updates: releases
+notes:
+  - 'FIXME: missing gradle-wrapper JAR'
 versions:
   - tag: '5'
     apks:
