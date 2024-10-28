@@ -64,7 +64,7 @@ versions:
         build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
-          - mv app/build/outputs/apk/release/com.hifnawy.caffeinate_release_*.apk /outputs/unsigned.apk
+          - mv app/build/outputs/apk/release/com.hifnawy.caffeinate*_release_*.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
         build_user: build
