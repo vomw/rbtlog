@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/tuhin733/SwiftNotes.git
-updates: releases
+updates: disabled
+notes:
+  - repo gone on 2024-10-29 due to copyright issues (it was a fork without giving credit)
 versions:
   - tag: v1.1.0
     apks:
