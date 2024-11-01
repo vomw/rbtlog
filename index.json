@@ -4115,6 +4115,20 @@
       "error": null
     }
   ],
+  "66ff40e2c3d3402f5b1daa0930afc48503f19b316c003ba80d9903866b5a167a": [
+    {
+      "repository": "https://github.com/JustDeax/ComposeStopwatch.git",
+      "apk_url": "https://github.com/JustDeax/ComposeStopwatch/releases/download/1.8.2/compose-stopwatch.apk",
+      "appid": "com.justdeax.composeStopwatch",
+      "version_code": 1008020,
+      "version_name": "1.8.2",
+      "tag": "1.8.2",
+      "commit": "216ca2ef360356695ed08782feda2886d28e42a4",
+      "timestamp": 1730483129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -8031,6 +8045,20 @@
       "error": null
     }
   ],
+  "1448c64c097e60c74ec117cef4e0e22a418c0c70ba820f91f5abc818f59b2ddd": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2244/FairEmail-v1.2244a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2244,
+      "version_name": "1.2244",
+      "tag": "1.2244",
+      "commit": "1e1932e3752eac45dee8c07d57fafc0dcc2a9710",
+      "timestamp": 1730483342,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -10603,6 +10631,20 @@
       "tag": "v4.2.1",
       "commit": "02f1ff847cd2095f51dac94d944fd1d53a3014f0",
       "timestamp": 1728494763,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8604fd508fb92594449c03a8c8dcae2afd0ac6aca0bc7ac2768df8b756d582f4": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.2.2/transistor-app-release-4.2.2.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 102,
+      "version_name": "4.2.2",
+      "tag": "v4.2.2",
+      "commit": "59eb94e4ab5917ae84fb5445891d73c05b3dfe9f",
+      "timestamp": 1730483846,
       "reproducible": true,
       "error": null
     }
