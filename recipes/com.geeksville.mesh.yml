@@ -2,7 +2,7 @@
 repository: https://github.com/meshtastic/Meshtastic-Android.git
 updates: releases
 notes:
-  - 'FIXME: 2.5.6 introduced embedded build timestamp'
+  - 'FIXME: 2.5.6 introduced embedded build timestamp, see https://github.com/meshtastic/Meshtastic-Android/issues/1372 (should be removed with next release)'
 versions:
   - tag: 2.3.11
     apks:

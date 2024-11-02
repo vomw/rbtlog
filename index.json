@@ -3541,6 +3541,20 @@
       "error": null
     }
   ],
+  "ee254c3dce9d5627752401b6aabfa8c88153c54e2d5e5af15b60c8b4e98e780f": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.10.5/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 80,
+      "version_name": "1.10.5",
+      "tag": "v1.10.5",
+      "commit": "19ad5ca9cc5a315bfa86221cb118c448151d3260",
+      "timestamp": 1730569539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3bbeb57c879ba98aa34905f6fca2bfe8773af73df3dffa98604851db26bacd00": [
     {
       "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
@@ -8871,6 +8885,20 @@
       "error": null
     }
   ],
+  "80673da9f61360a8df8796094ea7883fccb05fe9c2e0dfbf0b7a6b3e7e1a5a1c": [
+    {
+      "repository": "https://github.com/Tommy-Geenexus/usb-dongle-control.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/usb-dongle-control/releases/download/v3.1.0/app-release.apk",
+      "appid": "io.github.tommygeenexus.usbdonglecontrol",
+      "version_code": 7,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "7d732c7782285481eaafdb06bc285397b33e9be4",
+      "timestamp": 1730573937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24fe8bf61626ddd2b1dd5434d564c381296bcc8f62397fa8d5d154ff1bab61f1": [
     {
       "repository": "https://github.com/fast4x/RiMusic.git",
@@ -10786,6 +10814,20 @@
       "commit": "f630bf4ec0754fbee520098caa97889070fd31f1",
       "timestamp": 1729062374,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c13d7b11f1cb675750e72c37ba003bdb817d6f48a8ffb5d28d8cf6fe26144b8": [
+    {
+      "repository": "https://github.com/Lambada10/SongSync.git",
+      "apk_url": "https://github.com/Lambada10/SongSync/releases/download/v4.2.0/app-release.apk",
+      "appid": "pl.lambada.songsync",
+      "version_code": 420,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "90c4dbb9e4b4bb653a9ca782a689cabaf5b7e92a",
+      "timestamp": 1730575554,
+      "reproducible": false,
       "error": null
     }
   ],

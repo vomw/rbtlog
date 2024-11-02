@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/AEFeinstein/mtg-familiar.git
 updates: releases
+notes:
+  - v3.9.11 failed RB, see https://github.com/AEFeinstein/mtg-familiar/issues/626#issuecomment-2439694851
 versions:
   - tag: v3.9.10
     apks:
