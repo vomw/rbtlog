@@ -2,7 +2,7 @@
 repository: https://github.com/sosauce/CuteCalc.git
 updates: releases
 notes:
-  - 'NB: tag mismatch'
+  - v3.2.3 is flaky
 versions:
   - tag: v3.2.2
     apks:
@@ -10,6 +10,40 @@ versions:
         apk_url: https://github.com/sosauce/CuteCalc/releases/download/$$TAG$$/CuteCalc_$$TAG$$.apk
         build:
           - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v3.2.3
+    apks:
+      - apk_pattern: CuteCalc_v.*\.apk
+        apk_url: https://github.com/sosauce/CuteCalc/releases/download/$$TAG$$/CuteCalc_$$TAG$$.apk
+        build:
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=c98c0c092ca050a0383ca8fe5056fc5412b311f8
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
