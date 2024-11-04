@@ -2029,6 +2029,20 @@
       "error": null
     }
   ],
+  "2df3a28634ca6a52a15fc0c6b74073d8f2dbb1da874c632921f8191c1f8a2e97": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1070/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1070,
+      "version_name": "2024.11.1070",
+      "tag": "2024.11.1070",
+      "commit": "29093742357363397150e158efe8012490ba5bd9",
+      "timestamp": 1730742332,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -2925,6 +2939,20 @@
       "error": null
     }
   ],
+  "1615fb9dbdc6872ca35c58dd8c57fee5c7fcc75913cb3c4636ff0adb6541ca8a": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.3/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 121,
+      "version_name": "4.0.3",
+      "tag": "4.0.3",
+      "commit": "d55bb078246a16c825a323f3981d05b4b746a24f",
+      "timestamp": 1730742686,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -3173,6 +3201,20 @@
       "tag": "v2.0.2",
       "commit": "9fa3549c5c831854a7bb7e4d33eac67f780c7c4f",
       "timestamp": 1724172502,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12203a1ee0f89233f4896c65bbe6b71e67934e1a145929abd95691f0649b01b0": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.0.3/app-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 63,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "d0ac7d6f35e921021a15c53d63ce8d0165051c08",
+      "timestamp": 1730743686,
       "reproducible": true,
       "error": null
     }
@@ -6279,6 +6321,20 @@
       "tag": "v2.2.3",
       "commit": "ba588456448c71d9b30e665174fc87ac638db732",
       "timestamp": 1729270219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ab578dea7d8218f713d1f929d777b9479111c042845d9999653b2c076104c21": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.2.4/CuteMusic_v2.2.4.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 15,
+      "version_name": "2.2.4",
+      "tag": "v2.2.4",
+      "commit": "5a10bcd07e3f069d5a33418a2b102f710f7357a1",
+      "timestamp": 1730743283,
       "reproducible": true,
       "error": null
     }

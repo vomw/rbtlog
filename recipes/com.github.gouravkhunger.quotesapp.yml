@@ -4,8 +4,8 @@ updates: releases
 versions:
   - tag: 2.1.2
     apks:
-      - apk_pattern: quotesapp-$$TAG$$\.apk
-        apk_url: https://github.com/gouravkhunger/QuotesApp/releases/download/2.1.2/quotesapp-2.1.2.apk
+      - apk_pattern: quotesapp-[0-9.]+\.apk
+        apk_url: https://github.com/gouravkhunger/QuotesApp/releases/download/$$TAG$$/quotesapp-$$TAG$$.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - export SIGNING_KEY_ALIAS=alias SIGNING_KEY_PASSWORD=keypass SIGNING_STORE_PASSWORD=storepass
