@@ -3,7 +3,7 @@ repository: https://github.com/Bartuzen/qBitController.git
 updates: releases
 notes:
   - have to remove the entire signingConfig block as otherwise build fails. After that, still minor differences in dex
-  - build seemingly not flaky (same hash in multiple subsequent runs), but not RB with 16 or 8 CPUs; had to reduce CPU count to 4
+  - build seemingly flaky (same "wrong" hash in multiple subsequent runs)
 versions:
   - tag: v1.1.0
     apks:
@@ -27,7 +27,6 @@ versions:
         build_user: build
         provisioning:
           android_home: /opt/sdk
-          build_cpus: 4
           build_tools:
           cmake:
           cmdline_tools:
