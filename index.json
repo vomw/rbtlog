@@ -419,6 +419,20 @@
       "error": null
     }
   ],
+  "1b4bef0d85246c04b4ab56373e0baadab2c6748b21c8fb956596d70c437ab763": [
+    {
+      "repository": "https://github.com/OMGSoundboard/android-app.git",
+      "apk_url": "https://github.com/OMGSoundboard/android-app/releases/download/v15.0/OMGSoundboard_Foss_15.apk",
+      "appid": "audio.omgsoundboard",
+      "version_code": 15,
+      "version_name": "15.0",
+      "tag": "v15.0",
+      "commit": "a1b32df126142cdca466721cc0c1976da08b7d95",
+      "timestamp": 1730831691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -2169,6 +2183,20 @@
       "error": null
     }
   ],
+  "8bff9edccf810e7ade590e23d838f3412dbf704de1ac128ae5cf648857a3faeb": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.31/networksurvey-1.31-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 86,
+      "version_name": "1.31",
+      "tag": "v1.31",
+      "commit": "4b697d4274f3ec3f59bcfb0715c0d245d09438c0",
+      "timestamp": 1730828767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -3233,6 +3261,20 @@
       "error": null
     }
   ],
+  "9a3b2ac031bde3d0879c4b277efcaa4ae1f4dcded90e65e869b8b56c24ee606c": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.0.4/logfox-v2.0.4.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 64,
+      "version_name": "2.0.4",
+      "tag": "v2.0.4",
+      "commit": "8a88c6f52fc78393db01445e2c99b8680f8b042d",
+      "timestamp": 1730829166,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7ec7b797e0b5d0bf754b0e67ac31d216ea65ad5f28a15cca5fab6a46634f5977": [
     {
       "repository": "https://github.com/anonfaded/FadCam.git",
@@ -4125,6 +4167,20 @@
       "tag": "v1.6.5",
       "commit": "41614baae7b53f37dfcd800d2e0326f1bf262d4e",
       "timestamp": 1730659194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1382ec27c2875eeac18ea4471a532fd7c4643b72f74067f74218a1c948c75e06": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v1.6.7/com.hifnawy.caffeinate.release_release_v1.6.7.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 25,
+      "version_name": "1.6.7",
+      "tag": "v1.6.7",
+      "commit": "f98dd53793792cc0403f168a0926c5f4ef83fce3",
+      "timestamp": 1730829682,
       "reproducible": true,
       "error": null
     }
@@ -6167,6 +6223,20 @@
       "tag": "2.3.4",
       "commit": "9b66358457fa8016c9b408e6886ba1439b0686d6",
       "timestamp": 1729097119,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e9b343224d03dbb1aeda6d24e5cede4d660e37df40a1101bd8a7c9302acab04": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.5/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 235,
+      "version_name": "2.3.5",
+      "tag": "2.3.5",
+      "commit": "9da28405d6a78500988e24eb46ba50bb90bf535b",
+      "timestamp": 1730829938,
       "reproducible": true,
       "error": null
     }
@@ -11136,6 +11206,20 @@
       "commit": "90c4dbb9e4b4bb653a9ca782a689cabaf5b7e92a",
       "timestamp": 1730575554,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "2686bc5efc5770d78a6cd66a0942b1d4f7c349791b7bc3318751fa7b98f33494": [
+    {
+      "repository": "https://github.com/Lambada10/SongSync.git",
+      "apk_url": "https://github.com/Lambada10/SongSync/releases/download/v4.2.1/app-release.apk",
+      "appid": "pl.lambada.songsync",
+      "version_code": 421,
+      "version_name": "4.2.1",
+      "tag": "v4.2.1",
+      "commit": "dc1e4eb9d46d56a6bb12efae3f09b409475c8396",
+      "timestamp": 1730817824,
+      "reproducible": true,
       "error": null
     }
   ],
