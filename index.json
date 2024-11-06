@@ -5723,6 +5723,20 @@
       "error": null
     }
   ],
+  "a827b57789a72ae86fc5fdbc0a9dd75e2d26be88e603b24515d323c01d2d4320": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.8.0/xed-editor-v2.8.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 35,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "444054b3e8f3e12bfc87241e33c4fe70ae03289e",
+      "timestamp": 1730915139,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -10687,6 +10701,20 @@
       "tag": "v1.5.0",
       "commit": "51349fb59a72d28e48801d0ffc1f3441d9a235da",
       "timestamp": 1730055225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3f7ad65272f5dc995b1f53ff66834f95ae786ea8be144e3d8a81cd082b028877": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.6.1/wikireader-v1.6.1-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 12,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "fb12b93fa87d5feadef3ed301246727df366ba9d",
+      "timestamp": 1730915496,
       "reproducible": true,
       "error": null
     }
