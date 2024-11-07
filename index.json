@@ -321,6 +321,20 @@
       "error": null
     }
   ],
+  "6e51eb753c478a8974f2e5894dc78873be8d5dd1b41585462ba63d786dad447d": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v5.1.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 510,
+      "version_name": "v5.1.0",
+      "tag": "v5.1.0",
+      "commit": "cdc45d5cf6502260e451b4346c5bb44824f4ef37",
+      "timestamp": 1731001539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -3513,6 +3527,20 @@
       "error": null
     }
   ],
+  "9f4d7404af33d269148915eee1cd8a09cc9603339c7700c0d35065faaf6193fb": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.18.0/com.fibelatti.photowidget-v1.18-1180000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1180000,
+      "version_name": "1.18",
+      "tag": "v1.18.0",
+      "commit": "808615db5b974f0f697abdd17e19ba68b0a55e2f",
+      "timestamp": 1731001889,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -4111,6 +4139,20 @@
       "tag": "v6.3.0",
       "commit": "1a688283bf1958509242331faa162fa009f2e4c5",
       "timestamp": 1729776730,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8275f9daf58b3d5fbdaa58f84cbcbd0691af776ed26625c1dd4d2d32a689044a": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v6.3.1/NeverTooManyBooks-6.3.1.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 89,
+      "version_name": "6.3.1",
+      "tag": "v6.3.1",
+      "commit": "7e6b3d9d150c2711c426b2e4293b8e83f571a84d",
+      "timestamp": 1731005155,
       "reproducible": true,
       "error": null
     }
@@ -5345,6 +5387,20 @@
       "error": null
     }
   ],
+  "528d151f4023874b08e6b06e7e9e5ab7b32017bc8851b69ce4875a16c1355959": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.12.0/dahdidahdit-1.12.0.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1120001,
+      "version_name": "1.12.0",
+      "tag": "release-1.12.0",
+      "commit": "7ec9db4d18c550fae4276b6b0b61baf8be1f085a",
+      "timestamp": 1731002402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -5915,6 +5971,20 @@
       "tag": "v0.1.4",
       "commit": "78bbcc4173c2a8a77993cc551ad519749985f8dc",
       "timestamp": 1730841152,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a4af4fa391356702bf0dbb00059ae7312bf25ff6c681bb492ed8c3e78b171ed5": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v0.2.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 6,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "aa6b92380d6c048433dc83204dede6ff71ad82a2",
+      "timestamp": 1731002610,
       "reproducible": true,
       "error": null
     }
@@ -11205,6 +11275,20 @@
       "tag": "v1.0.0",
       "commit": "3ee652c6360c508591a3ce2639f1019c2df0479e",
       "timestamp": 1730936089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8575b13316e46d639514b7df63b0f9da48ccecc19780453b2d002e3a67bc1adb": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v1.0.1/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "041bedd97899177a04ec5c3f368e26c0c27a6f34",
+      "timestamp": 1731002941,
       "reproducible": true,
       "error": null
     }
