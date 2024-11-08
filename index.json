@@ -349,6 +349,20 @@
       "error": null
     }
   ],
+  "2ea389addba1b6a8b28c6c6a308fee9cfabe5882af0ecd82764230f575d46d2b": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v5.2.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 520,
+      "version_name": "v5.2.0",
+      "tag": "v5.2.0",
+      "commit": "82016caacf66789ad204cab3454ff2c7ebae7d7b",
+      "timestamp": 1731089388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -3569,6 +3583,20 @@
       "error": null
     }
   ],
+  "5f93f2002e45fa691aef63497f11eab4787f2816bef7f07ad4a4e5e223e27ff9": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.18.1/com.fibelatti.photowidget-v1.18.1-1180100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1180100,
+      "version_name": "1.18.1",
+      "tag": "v1.18.1",
+      "commit": "3ebeec44febac7b780baa873df4d3c2bb9a53005",
+      "timestamp": 1731089743,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -6031,6 +6059,20 @@
       "error": null
     }
   ],
+  "4f17a810c36e8ecba63a511fd14f5340df64665a1e7c8216a7cf96253e5988cf": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v0.2.1/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 7,
+      "version_name": "0.2.1",
+      "tag": "v0.2.1",
+      "commit": "585647a343beaf98e834a2f51e68dbac5b08e382",
+      "timestamp": 1731090413,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -7639,6 +7681,20 @@
       "error": null
     }
   ],
+  "ed824019a9fa0f62af36d95442febce7642de16935b37be5b9b3672f3b02d598": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.5/RecurringExpenseTracker_0.12.5.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 29,
+      "version_name": "0.12.5",
+      "tag": "v0.12.5",
+      "commit": "0a5887a2b6ec79e400b782bebb1ca348cd50e880",
+      "timestamp": 1731091042,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -8419,6 +8475,20 @@
       "tag": "v2.15.0-rc0",
       "commit": "647300fd3ad4c7879d5c89635d4d8850ba79a330",
       "timestamp": 1727110667,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49fb80fb4ad08aaef30965bd9c576e7a642c6cc0b21e1c93a328db0a409a4c12": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.16.0-rc0/eu.darken.capod-v2.16.0-rc0-21600000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21600000,
+      "version_name": "2.16.0-rc0",
+      "tag": "v2.16.0-rc0",
+      "commit": "fb0527b0bf6e7e75bef0d6613bc624ef827a5c9e",
+      "timestamp": 1731091354,
       "reproducible": true,
       "error": null
     }
@@ -10841,6 +10911,20 @@
       "tag": "v1.6.1",
       "commit": "fb12b93fa87d5feadef3ed301246727df366ba9d",
       "timestamp": 1730915496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "16094f3f2b621af00a4c48fadea9d780be75c9396ef0b56783afd811ee4ac0ec": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.6.2/wikireader-v1.6.2-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 13,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "d5d06bddca206c311d8f3776b488c59f0f912aa6",
+      "timestamp": 1731091714,
       "reproducible": true,
       "error": null
     }
