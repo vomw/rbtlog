@@ -4185,6 +4185,20 @@
       "error": null
     }
   ],
+  "f9b0d70b92f05292aa1de9f05b07ee08eaf3c426bfd80028818b892829911b02": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.2.8/Telewatch-v1.2.8-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 19,
+      "version_name": "1.2.8",
+      "tag": "v1.2.8",
+      "commit": "b5a25ef6522edf9018cc6a80f047b3727924ed38",
+      "timestamp": 1731262463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -5091,6 +5105,20 @@
       "tag": "v0.2.3-hf2",
       "commit": "eaba3a2e727c76846e281206c981217ee94cf0ff",
       "timestamp": 1723642398,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f2227e8a6226716d76e3681a895e0177f4b0baa8b9da17f170aa73a41891278f": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.4/SimpMusic_v0.2.4.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 21,
+      "version_name": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "5d4771c787d232a8a9bce15861197abf0a5af69e",
+      "timestamp": 1731264790,
       "reproducible": true,
       "error": null
     }
@@ -9595,6 +9623,20 @@
       "tag": "v2024.11.113",
       "commit": "b0cb9f11fc4f5611eb810d87f9425f7bd768e5fc",
       "timestamp": 1730734386,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ca94247fc46650161633501832bf547defd37ff00a27a2dba21186dbfb18edd": [
+    {
+      "repository": "https://github.com/zyrouge/symphony.git",
+      "apk_url": "https://github.com/zyrouge/symphony/releases/download/v2024.11.114/symphony-v2024.11.114.apk",
+      "appid": "io.github.zyrouge.symphony",
+      "version_code": 114,
+      "version_name": "2024.11.114",
+      "tag": "v2024.11.114",
+      "commit": "63e5ad193e418021c1481b8ee29c5c979c702c75",
+      "timestamp": 1731262078,
       "reproducible": true,
       "error": null
     }
