@@ -41,6 +41,20 @@
       "error": null
     }
   ],
+  "4a6ee966f7bd59409221b3e3daaa203ce7aed8485ed9af8616f918c609b78170": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.13.10/Podcini.R_release_free_6.13.10_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020297,
+      "version_name": "6.13.10",
+      "tag": "6.13.10",
+      "commit": "8eb74458bd73b59c039cde21aa2846a40bf42db4",
+      "timestamp": 1731520001,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -751,6 +765,20 @@
       "tag": "v1.48.2",
       "commit": "097465536651ba5965238aeb94a4010065b3018e",
       "timestamp": 1730051138,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43c0ae7412faf0236b1058c616250ff5cbaaf8a119342f2405919bd474d1c367": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.48.5/ArcaneChat-foss-armeabi-v7a-1.48.5.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006961,
+      "version_name": "1.48.5",
+      "tag": "v1.48.5",
+      "commit": "b7446c9a9304ebc7d2ca5fbf422729780d86f78b",
+      "timestamp": 1731520667,
       "reproducible": true,
       "error": null
     }
@@ -3145,6 +3173,20 @@
       "tag": "v1.3.2",
       "commit": "14814c5ba671b46036a8171294843072da335cd3",
       "timestamp": 1719104679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "609319236e063a00f534e0ce4ce3e375ce9804996323564e513bf96e08c9259f": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.3.5/nadamillas-1.3.5.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 33,
+      "version_name": "1.3.5.20240929",
+      "tag": "v1.3.5",
+      "commit": "9d3405babf0e5911b2b355bbc3f1de3123ab0057",
+      "timestamp": 1731523794,
       "reproducible": true,
       "error": null
     }
@@ -9039,6 +9081,20 @@
       "error": null
     }
   ],
+  "35dea49fb7537dd65b3090b4cd9466e932a8a0bca4537edc0ae86f7dca5d1a34": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2246/FairEmail-v1.2246a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2246,
+      "version_name": "1.2246",
+      "tag": "1.2246",
+      "commit": "1c5075177a115e8e36861d44a4f23acff7613c7f",
+      "timestamp": 1731521683,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -9175,6 +9231,20 @@
       "tag": "v1.5",
       "commit": "48365010c5ee19bed365cf88f6ed892c59ab4ab2",
       "timestamp": 1727284446,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "23a45cac2726ba5e7280236338971a6af27a022ac67b18f620895c43aae6fcce": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.6/yamlauncher-1.6.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 10,
+      "version_name": "1.6",
+      "tag": "v1.6",
+      "commit": "c1c208fc03cf1f9db6db2e968600f43b2e3823e1",
+      "timestamp": 1731522233,
       "reproducible": true,
       "error": null
     }
@@ -12325,6 +12395,20 @@
       "tag": "v1.3.0",
       "commit": "82d8fa8e3bef9b889b370202b34260ed61ff1fe3",
       "timestamp": 1727377437,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b7f6245b734c1e94c7546a1494bd2126b96ea36206d728dec4a3f79f2d7fe7fd": [
+    {
+      "repository": "https://github.com/Acclorite/book-story.git",
+      "apk_url": "https://github.com/Acclorite/book-story/releases/download/v1.4.0/book-story.apk",
+      "appid": "ua.acclorite.book_story",
+      "version_code": 9,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "d1d83c2bb93183eaacfa976864c61197abf2f643",
+      "timestamp": 1731522433,
       "reproducible": true,
       "error": null
     }
