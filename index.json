@@ -517,6 +517,20 @@
       "error": null
     }
   ],
+  "67d8230f9f11ac0917d88235c57ee6cc4cacad38e3f4bf12c2cc00a6deda2494": [
+    {
+      "repository": "https://github.com/OMGSoundboard/android-app.git",
+      "apk_url": "https://github.com/OMGSoundboard/android-app/releases/download/v17.0/OMGSoundboard_Foss_17.apk",
+      "appid": "audio.omgsoundboard",
+      "version_code": 17,
+      "version_name": "17.0",
+      "tag": "v17.0",
+      "commit": "8a7c1fd2f851aba6dce96d3198ec330ca7f09c27",
+      "timestamp": 1731606356,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -2225,6 +2239,20 @@
       "error": null
     }
   ],
+  "806cfdc2ab65a93e6d353d2ff192bcb9db39b33cdbac80af4182a400f0cf5193": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1074-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1074,
+      "version_name": "2024.11.1074-dev",
+      "tag": "2024.11.1074-dev",
+      "commit": "b94443db0d720fe802148031f4141a7a8ae073f9",
+      "timestamp": 1731607134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b7ee33fafd0eb1c482415edc5d8b064b85a2b0891ac0e1d35f3705068662f7ac": [
     {
       "repository": "https://github.com/cliambrown/PillTime.git",
@@ -3187,6 +3215,20 @@
       "tag": "v1.3.5",
       "commit": "9d3405babf0e5911b2b355bbc3f1de3123ab0057",
       "timestamp": 1731523794,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c2afa55fe5e691d3a41b20e48ec8804fbead8bd3f67b97a36b3e5593e24239a6": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.3.6/nadamillas-1.3.6.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 34,
+      "version_name": "1.3.6.20241111",
+      "tag": "v1.3.6",
+      "commit": "12986a7d727ad9632fb9c0a63424c0783c79ff2c",
+      "timestamp": 1731607487,
       "reproducible": true,
       "error": null
     }
@@ -4367,6 +4409,48 @@
       "error": null
     }
   ],
+  "5678e4fe55a29f09e80b111f4f8cccc212e8518edaad9dc608333eae0c81d604": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.02.03/WebMonkey-004.02.03-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4020311,
+      "version_name": "004.02.03-11API",
+      "tag": "v04.02.03",
+      "commit": "0e1cfc3048df3f9c6819acdced0dbedcefd57426",
+      "timestamp": 1731610068,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a5c2163d736190c833eccf70b542211cd2fe4f9408e8b9d0f5f3728bac8a73de": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.02.03/WebMonkey-004.02.03-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4020311,
+      "version_name": "004.02.03-11API",
+      "tag": "v04.02.03",
+      "commit": "0e1cfc3048df3f9c6819acdced0dbedcefd57426",
+      "timestamp": 1731610185,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21901b1ac07e6e5ef68f5ddc190b7f2121050000b87c1d5ca70f7ce3373e730f": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.02.03/WebMonkey-004.02.03-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4020311,
+      "version_name": "004.02.03-11API",
+      "tag": "v04.02.03",
+      "commit": "0e1cfc3048df3f9c6819acdced0dbedcefd57426",
+      "timestamp": 1731610313,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -5161,6 +5245,20 @@
       "tag": "0.1.0-beta21",
       "commit": "9537cff4e88438e0269dbb35b4f143ef37c0bd20",
       "timestamp": 1731435922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "560a04b625bf71d27edcf73415801537122d7571e38e643d0e04784cb577d660": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.1.0/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 52,
+      "version_name": "0.1.0",
+      "tag": "0.1.0",
+      "commit": "31c5a9513cc6491b223b6a6755986b77b48538ad",
+      "timestamp": 1731608051,
       "reproducible": true,
       "error": null
     }
@@ -11083,6 +11181,20 @@
       "error": null
     }
   ],
+  "46cd25e07df34293722cbe213249af7e410c2505f9a41c7e02889f1ccd467c80": [
+    {
+      "repository": "https://github.com/exbin/bined-android.git",
+      "apk_url": "https://github.com/exbin/bined-android/releases/download/0.2.3/bined-android-0.2.3.apk",
+      "appid": "org.exbin.bined.editor.android",
+      "version_code": 10,
+      "version_name": "0.2.3",
+      "tag": "0.2.3",
+      "commit": "dbcfa995fb824e61aec355c5ea414bcbac99695c",
+      "timestamp": 1731608655,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -11527,6 +11639,20 @@
       "tag": "v1.6.2",
       "commit": "d5d06bddca206c311d8f3776b488c59f0f912aa6",
       "timestamp": 1731091714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b650d1accbd0e8f366017fabee348e75ce01f7927d4cf999f61cbb08748c219d": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.7.0/wikireader-v1.7.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 14,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "ce2887dc9b15699e5ed69888e72ac7cba050ad62",
+      "timestamp": 1731608817,
       "reproducible": true,
       "error": null
     }

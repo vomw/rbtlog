@@ -3,6 +3,7 @@ repository: https://github.com/PhilKes/NotallyX.git
 updates: releases
 notes:
   - in v6.0 author put the wrong checksum into gradle-wrapper.properties, see https://github.com/PhilKes/NotallyX/issues/71
+  - 'FIXME: v6.1.1 build fails and needs adjustments (and sed for gradle-wrapper.properties can be removed now)'
 versions:
   - tag: v6.0
     apks:
