@@ -1,0 +1,40 @@
+---
+repository: https://github.com/tuhinpal/cash_compass.git
+updates: releases
+versions:
+  - tag: v0.1.3
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/tuhinpal/cash_compass/releases/download/v0.1.3/app-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - flutter_version=$(grep 'flutter-version:' .github/workflows/build-apk.yml | awk -F"'" '{print $2; exit }')
+          - git clone -b $flutter_version https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release
+          - mv build/app/outputs/apk/release/app-*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/cash_compass/cash_compass
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
