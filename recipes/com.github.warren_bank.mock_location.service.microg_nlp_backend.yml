@@ -1,0 +1,41 @@
+---
+repository: https://github.com/warren-bank/Android-Mock-Location.git
+updates: releases
+notes:
+  - the project’s gradle setup is broken, so we have to inject a proper gradle ourselves
+versions:
+  - tag: service/v02.04.01
+    apks:
+      - apk_pattern: Mock-my-GPS-UnifiedNlp-Backend.*withAllLanguageTranslations-release\.apk
+        apk_url: https://github.com/warren-bank/Android-Mock-Location/releases/download/service%2Fv02.04.01/Mock-my-GPS-UnifiedNlp-Backend-002.04.01-09API-withAllLanguageTranslations-release.apk
+        build:
+          - cd android-studio-project
+          - chmod +x gradlew
+          - wget -q -O /tmp/gradle-7.6.4-bin.zip -- https://services.gradle.org/distributions/gradle-7.6.4-bin.zip
+          - sha256sum -c <<< 'bed1da33cca0f557ab13691c77f38bb67388119e4794d113e051039b80af9bb1  /tmp/gradle-7.6.4-bin.zip'
+          - unzip -q -d /opt /tmp/gradle-7.6.4-bin.zip
+          - export PATH="${PATH}:/opt/gradle-7.6.4/bin"
+          - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 gradle :Mock-my-GPS-UnifiedNlp-Backend:assembleWithAllLanguageTranslationsRelease
+          - mv Mock-my-GPS-UnifiedNlp-Backend/build/outputs/apk/withAllLanguageTranslations/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
