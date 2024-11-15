@@ -55,6 +55,20 @@
       "error": null
     }
   ],
+  "2c8af5b7c461e0b36e17842aeb9862ea165b09630ea9a1b515033cd90ce04cbc": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.13.11/Podcini.R_release_free_6.13.11_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020298,
+      "version_name": "6.13.11",
+      "tag": "6.13.11",
+      "commit": "5598ad630f00af6c34451c32e9a34005e657d9e8",
+      "timestamp": 1731692758,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -401,6 +415,20 @@
       "tag": "v5.2.0",
       "commit": "82016caacf66789ad204cab3454ff2c7ebae7d7b",
       "timestamp": 1731089388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "72a111bbd632b6f947a70a404fd9239611ea24e02404c6c96867919b3d4ca37e": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v6.0.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 600,
+      "version_name": "v6.0.0",
+      "tag": "v6.0.0",
+      "commit": "4c181bb5c271570c02cb6d895ee520c7ec801a9a",
+      "timestamp": 1731693151,
       "reproducible": true,
       "error": null
     }
@@ -919,6 +947,20 @@
       "tag": "v1.5.1",
       "commit": "d930a3214275ae7b4a854c126d3b4dd9335d8d45",
       "timestamp": 1725983967,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f27054247836636f0877cbdaaa330e4dde0247df17944130fe55a72c379b7842": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.5.2/71/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 71,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2/71",
+      "commit": "7ea0190ef0d7013c7b21fe7e674bcff6b73b1b0b",
+      "timestamp": 1731693561,
       "reproducible": true,
       "error": null
     }
@@ -4661,6 +4703,20 @@
       "error": null
     }
   ],
+  "9a78fd0f2ebe5cd587c5aa73cd2f02e626d3d78a08ad30252e4355f3ef865401": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v1.8.0/com.hifnawy.caffeinate.release_release_v1.8.0.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 30,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "c6d0fe7ac6fb46a2c2126ea051b24a93e7b76d56",
+      "timestamp": 1731693871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dec0421ef60c93b74a11af3817cd2dea59c560f9aaaa62f63a793da391b9a30": [
     {
       "repository": "https://github.com/Armand31/Dividoc.git",
@@ -4811,6 +4867,20 @@
       "tag": "release-1.4.0",
       "commit": "1f10321dd263099ed89990745bf58bef2d532195",
       "timestamp": 1731174807,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39d4ea48d7d92ecf4dae6edb989837b84ad1aa2a1881ad3dd4a42acb73228001": [
+    {
+      "repository": "https://github.com/jinweijie/notify-me.git",
+      "apk_url": "https://github.com/jinweijie/notify-me/releases/download/release-1.5.0/notify-me-release-1.5.0.apk",
+      "appid": "com.jinweijie.notifyme",
+      "version_code": 150,
+      "version_name": "1.5.0",
+      "tag": "release-1.5.0",
+      "commit": "6e2ad07d14239f89efd6f49ebdec1c6805805c98",
+      "timestamp": 1731694097,
       "reproducible": true,
       "error": null
     }
@@ -5263,6 +5333,20 @@
       "error": null
     }
   ],
+  "206047a221ebc24b72035102be7f63e52c8bd013a4a2eb53dfcdd634b5c03865": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.1.1/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 53,
+      "version_name": "0.1.1",
+      "tag": "0.1.1",
+      "commit": "5dc987f2b8b5287e1bd7ccc550768a7c8f510e1f",
+      "timestamp": 1731694289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "22724e21732e19d8cd71d650adc2833c97d24132c52e34354198548d9a69ba44": [
     {
       "repository": "https://github.com/Droid-ify/client.git",
@@ -5301,6 +5385,20 @@
       "tag": "v2.4.2",
       "commit": "d0e956d6c0b9bf30145a088f2c8e7452e3263f71",
       "timestamp": 1728947162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5632431122530265b6c2828c089f3eed3d4a90565609df705bef9d9d784645e5": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.5.0/FoodExpirationDates-2.5.0-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 34,
+      "version_name": "2.5.0-foss",
+      "tag": "v2.5.0",
+      "commit": "63176d6a5373227e0114f479bc961c3f993d5b46",
+      "timestamp": 1731696975,
       "reproducible": true,
       "error": null
     }
@@ -6031,6 +6129,20 @@
       "error": null
     }
   ],
+  "2681c7ca1d18f87db7251693229bb0639a8dff7cbd3e653ce312d2b04a1d7d27": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v6.1.1/NotallyX-6.1.1.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 611,
+      "version_name": "6.1.1",
+      "tag": "v6.1.1",
+      "commit": "8c321803306c4f7ca4dee3ec0dae941d86a8f673",
+      "timestamp": 1731703847,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39108ae0e3002847be88e4211dd999540a16e0f015218fed8b1ecde7c46cbf1": [
     {
       "repository": "https://github.com/ray-pH/Nabla-TypeMath-android.git",
@@ -6559,6 +6671,20 @@
       "tag": "v0.3.0",
       "commit": "3a0ec0534bd3ea2d52ea41f5770055a78e7b01b7",
       "timestamp": 1731347935,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "432aaf9ce6c0ab15e208c4bc82b19eb5d83871ee29ec38941a63abc0f5be4ad5": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v0.4.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 9,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "7d8a87fcd8e5a3f738e08cb2d96e2f8357e7e78f",
+      "timestamp": 1731695452,
       "reproducible": true,
       "error": null
     }
@@ -7483,6 +7609,34 @@
       "tag": "v3.5.0",
       "commit": "71064f0ef124445fafcefdb89ce31bef39e81278",
       "timestamp": 1729874795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45098a7c6668cf6b790d02f44d02e204f18681e146a2b0ff189220cfadcedd5c": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.6.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30600,
+      "version_name": "3.6.0",
+      "tag": "v3.6.0",
+      "commit": "31f0f6d2960738f63b92c4392f81831fdec41c1d",
+      "timestamp": 1731698707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "df97b9f29200c39c80ed708e67601c5df4d4d9daf1db8b6868c99494ffadbe9f": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.6.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30600,
+      "version_name": "3.6.0",
+      "tag": "v3.6.0",
+      "commit": "31f0f6d2960738f63b92c4392f81831fdec41c1d",
+      "timestamp": 1731698877,
       "reproducible": true,
       "error": null
     }
@@ -11261,6 +11415,20 @@
       "tag": "1.0.3",
       "commit": "de376b8bd846b0303f582d179750dc867bc89e9f",
       "timestamp": 1721781636,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b9eec9e6225b42c44f9bc5f2a8d41c0a3ea5398af73ab94972ef565f0c3572e": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.1.0/calendar-5-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 5,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "874f8665914c3fd03407dc85ce8c5b55a76f9846",
+      "timestamp": 1731696152,
       "reproducible": true,
       "error": null
     }

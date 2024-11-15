@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.0.0
     apks:
-      - apk_pattern: frigoligo-.*_arm64-v8a\.apk
+      - apk_pattern: frigoligo-.*-arm64-v8a\.apk
         apk_url: https://github.com/casimir/frigoligo/releases/download/v2.0.0/frigoligo-v2.0.0-arm64-v8a.apk
         build:
           - flutter_version=$(cat .flutter-version)
