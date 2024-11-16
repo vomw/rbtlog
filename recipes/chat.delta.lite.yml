@@ -247,3 +247,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.48.6
+    apks:
+      - apk_pattern: ArcaneChat-foss-armeabi-v7a.*\.apk
+        apk_url: https://github.com/ArcaneChat/android/releases/download/v1.48.6/ArcaneChat-foss-armeabi-v7a-1.48.6.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i build.gradle
+          - git clone https://github.com/rust-lang/rustup.git -b 1.25.1
+          - export ANDROID_NDK=/opt/sdk/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $(cat scripts/rust-toolchain) --target armv7-linux-androideabi
+          - source $HOME/.cargo/env
+          - scripts/ndk-make.sh armeabi-v7a
+          - ./gradlew assembleFossRelease -PABI_FILTER=armeabi-v7a
+          - mv build/outputs/apk/foss/release/ArcaneChat-foss-unsigned-*.apk /outputs/unsigned.apk
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/android/android
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - make
+            - g++
+            - cmake
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 23.2.8568313
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

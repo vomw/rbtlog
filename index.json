@@ -447,6 +447,20 @@
       "error": null
     }
   ],
+  "5670ccbcc6a90aada65c722894e638a610478a2a43b0c138c225e57182e48ac0": [
+    {
+      "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
+      "apk_url": "https://github.com/hashemi-hossein/memory-guardian/releases/download/v1.5.0/MemoryGuardian_1.5.0-signed.apk",
+      "appid": "ara.memoryguardian",
+      "version_code": 14,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "9841476761903389681b0d863005ec25fa9c7075",
+      "timestamp": 1731779180,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -821,6 +835,20 @@
       "tag": "v1.48.5",
       "commit": "b7446c9a9304ebc7d2ca5fbf422729780d86f78b",
       "timestamp": 1731520667,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bfecdabfc99785fab772e646b5d0e1143967d87d07bff4e6ac88ee453cbc27b0": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.48.6/ArcaneChat-foss-armeabi-v7a-1.48.6.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006971,
+      "version_name": "1.48.6",
+      "tag": "v1.48.6",
+      "commit": "e5ddbacb2eabf70474421496f88cdbf8a7c21242",
+      "timestamp": 1731779444,
       "reproducible": true,
       "error": null
     }
@@ -3537,6 +3565,20 @@
       "tag": "v2.0.4",
       "commit": "8a88c6f52fc78393db01445e2c99b8680f8b042d",
       "timestamp": 1730829166,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38f9bd148885c44d3519499f43959b86fb653cf84ddd37ceba74097007e13e0f": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.0.5/logfox-v2.0.5.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 65,
+      "version_name": "2.0.5",
+      "tag": "v2.0.5",
+      "commit": "81382e9c250128dccc6672742dde541dd83da0ad",
+      "timestamp": 1731780348,
       "reproducible": true,
       "error": null
     }
@@ -7053,6 +7095,20 @@
       "error": null
     }
   ],
+  "e2dc4822d5b07494c66d1b547513c595dc754b5e7b6d6cc971a431bc860c1abf": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.7/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 237,
+      "version_name": "2.3.7",
+      "tag": "2.3.7",
+      "commit": "6bcd17a16176d729c637e0ad2631969baae6ea71",
+      "timestamp": 1731780838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d0164f6dfe14b00bb2213444e3ca1bdc0f5530cb1b0493f79e8292b2b7df7a50": [
     {
       "repository": "https://github.com/hash-checker/hash-checker.git",
@@ -9445,6 +9501,20 @@
       "error": null
     }
   ],
+  "a9a45cbda8b937660e31f314eed9c0911fecdef2b9bd94d68c20f8ddc1430b05": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2247/FairEmail-v1.2247a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2247,
+      "version_name": "1.2247",
+      "tag": "1.2247",
+      "commit": "f7e1004d8106526bc6098b94149f989f20f44119",
+      "timestamp": 1731781153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -10365,6 +10435,20 @@
       "tag": "v0.6.59",
       "commit": "0419774a2b75a7cf0fda0d4f3ae45ded202cd5fc",
       "timestamp": 1731175437,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b796c3db1d40ecd8f16a45a522663b4962f9d97d113c82e7b97b0ee972788be0": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.60/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 68,
+      "version_name": "0.6.60",
+      "tag": "v0.6.60",
+      "commit": "f6bdcc25e4d0ac3466ce489a10f7cacb962bca45",
+      "timestamp": 1731781788,
       "reproducible": true,
       "error": null
     }
@@ -11849,6 +11933,20 @@
       "tag": "v1.7.0",
       "commit": "ce2887dc9b15699e5ed69888e72ac7cba050ad62",
       "timestamp": 1731608817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "78fb1c9a577bcf6044e730138eb71a1aeb08534a3615914edda78263a44bc926": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.7.1/wikireader-v1.7.1-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 15,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "107dea2fb13dd4ab16d876672da30f1b5dd2bb93",
+      "timestamp": 1731782327,
       "reproducible": true,
       "error": null
     }
