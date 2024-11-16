@@ -1,0 +1,43 @@
+---
+repository: https://github.com/khaled-0/TubeSync.git
+updates: releases
+notes:
+  - asked the author to either add flutter as submodule or include the used version with pubspec.yaml (if RB breaks, upstream most likely used a newer flutter version – the hash in their .metadata is not honored)
+versions:
+  - tag: 0.1.4
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/khaled-0/TubeSync/releases/download/0.1.4/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - git clone -b 3.24.5 https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter pub run build_runner build --delete-conflicting-outputs
+          - flutter/bin/flutter pub run flutter_native_splash:create
+          - flutter/bin/flutter pub run flutter_launcher_icons -f flutter_launcher_icons.yaml
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/TubeSync/TubeSync
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
