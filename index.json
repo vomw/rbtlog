@@ -69,6 +69,20 @@
       "error": null
     }
   ],
+  "041f1087cd83954cb2e280b5ab1bf4b8bde3a4516a2a7cf6e1a85c6d78e8c677": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.0/Podcini.R_release_free_6.14.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020299,
+      "version_name": "6.14.0",
+      "tag": "6.14.0",
+      "commit": "c646505e93610ee1e02cb3e494a88d9fc07b91e8",
+      "timestamp": 1731868722,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3303,6 +3317,20 @@
       "error": null
     }
   ],
+  "00fedc8108e228d2f3ade2e54d9449c8b6c946bd1abc4a4144c801701ae44763": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.3.7/nadamillas-1.3.7.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 35,
+      "version_name": "1.3.7.20241116",
+      "tag": "v1.3.7",
+      "commit": "db12ee79e6cd6c46721bae480268d9bc4b980c8d",
+      "timestamp": 1731869209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a7ef1fc50eaf198a5b3e33d610d366aadb61397348b593e170b42648cdceec05": [
     {
       "repository": "https://github.com/dluvian/voyage.git",
@@ -4535,6 +4563,48 @@
       "error": null
     }
   ],
+  "a232e0d809e72b691926746f5a98d3d886545ffa4050fa33380d5949326a1e47": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.04.02/WebMonkey-004.04.02-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4040211,
+      "version_name": "004.04.02-11API",
+      "tag": "v04.04.02",
+      "commit": "c60567b4cab695f08b20cc2694d14c5fb4c21404",
+      "timestamp": 1731869373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e02b5741bbeef119349a41ea99c1a38902fc117d0f13992169579f15af59cac6": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.04.02/WebMonkey-004.04.02-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4040211,
+      "version_name": "004.04.02-11API",
+      "tag": "v04.04.02",
+      "commit": "c60567b4cab695f08b20cc2694d14c5fb4c21404",
+      "timestamp": 1731869514,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07481821a89db3f889abbc4998b30050e7ef89f9c0489c1f5e57788c2c4bed68": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.04.02/WebMonkey-004.04.02-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4040211,
+      "version_name": "004.04.02-11API",
+      "tag": "v04.04.02",
+      "commit": "c60567b4cab695f08b20cc2694d14c5fb4c21404",
+      "timestamp": 1731869648,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -4573,6 +4643,20 @@
       "tag": "v1.2.8",
       "commit": "b5a25ef6522edf9018cc6a80f047b3727924ed38",
       "timestamp": 1731262463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "245dbfa36fbf3ba4c78ad6abd61d81d0f91c34443a8600138d2051c77cb0f8ba": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.2.9/Telewatch-v1.2.9-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 20,
+      "version_name": "1.2.9",
+      "tag": "v1.2.9",
+      "commit": "91dbca05d17e85260de4b85563bae448c7413201",
+      "timestamp": 1731869801,
       "reproducible": true,
       "error": null
     }
@@ -5385,6 +5469,20 @@
       "tag": "0.1.1",
       "commit": "5dc987f2b8b5287e1bd7ccc550768a7c8f510e1f",
       "timestamp": 1731694289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee198825fd0ec47448af899a14520a13ebad70ce344b335c2bde82e058eeb936": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.2.0/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 54,
+      "version_name": "0.2.0",
+      "tag": "0.2.0",
+      "commit": "28e3daf2b4ffd2eab5dfabb334a99bc76724b04c",
+      "timestamp": 1731870368,
       "reproducible": true,
       "error": null
     }
@@ -8269,6 +8367,20 @@
       "error": null
     }
   ],
+  "a2fe23def6b301dbc2a60173a8a98594c24e2e4046d6c0dff866dcd413845918": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.41/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 41,
+      "version_name": "0.1.41",
+      "tag": "0.1.41",
+      "commit": "406846668f2ba9f0fb8d34f32dd10cdda97d6ed0",
+      "timestamp": 1731870865,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -8927,6 +9039,20 @@
       "error": null
     }
   ],
+  "129479abd1809eb1f02b02bd92b6b680bfafffe63b8c67311159e73e2c3e5d51": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.0.9/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 9,
+      "version_name": "1.0.8",
+      "tag": "v1.0.9",
+      "commit": "bb02dbbcc33d5c00cb0864525d535298d21e7afa",
+      "timestamp": 1731871343,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8bdb2a9929390304f6d6a99a75de554bedccf91cf378389b9f515d3395811158": [
     {
       "repository": "https://codeberg.org/bg443/rbtlui.git",
@@ -9511,6 +9637,20 @@
       "tag": "1.2247",
       "commit": "f7e1004d8106526bc6098b94149f989f20f44119",
       "timestamp": 1731781153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f16f49627b23ab368f7f48061a31f3cfd645b8ca230532126f7f1ebc187e4061": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2248/FairEmail-v1.2248a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2248,
+      "version_name": "1.2248",
+      "tag": "1.2248",
+      "commit": "ad118b9455955184ebe4bab7bc8005b97179934f",
+      "timestamp": 1731871845,
       "reproducible": true,
       "error": null
     }
@@ -11765,6 +11905,20 @@
       "tag": "v5.3.3",
       "commit": "b6b43912cd31bd7a5c9d0abf647fb042a2b5a507",
       "timestamp": 1731368594,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8c2b35ff63484ef0d69c0e36f11db4ed7c2c89528ea67432bdf187b724488c57": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.3.4/floccus-build-v5.3.4.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5003004,
+      "version_name": "5.3.4",
+      "tag": "v5.3.4",
+      "commit": "ae7262e93184102d5716f2d691e93bb8f270d98a",
+      "timestamp": 1731872750,
       "reproducible": true,
       "error": null
     }
