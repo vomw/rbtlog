@@ -83,6 +83,20 @@
       "error": null
     }
   ],
+  "fa97bbb0728c9a8bce501d6f4d8e00ea269e345b5b534afb02ec16821364c768": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.1/Podcini.R_release_free_6.14.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020300,
+      "version_name": "6.14.1",
+      "tag": "6.14.1",
+      "commit": "a213284e40752088cd9950aa05848a2e7bb40273",
+      "timestamp": 1731951949,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1003,6 +1017,20 @@
       "tag": "v1.5.2/71",
       "commit": "7ea0190ef0d7013c7b21fe7e674bcff6b73b1b0b",
       "timestamp": 1731693561,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbcf14669ccc26f8bc365597ecb7e9f04db0c2b81b76ad0ebe794a21f88c69ee": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.6.0/72/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 72,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0/72",
+      "commit": "49849d3e29e3ab8d012d3f415ba3b2dc86666b92",
+      "timestamp": 1731953940,
       "reproducible": true,
       "error": null
     }
@@ -2333,6 +2361,20 @@
       "tag": "2024.11.1074-dev",
       "commit": "b94443db0d720fe802148031f4141a7a8ae073f9",
       "timestamp": 1731607134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7d74d38a2191cf5fc264191b5c59998831e36666c7b5a46500b1429a10f6dafa": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1075-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1075,
+      "version_name": "2024.11.1075-dev",
+      "tag": "2024.11.1075-dev",
+      "commit": "b0fbe9cd08a440934895f16cf78b076b061b58e8",
+      "timestamp": 1731952502,
       "reproducible": true,
       "error": null
     }
@@ -4055,6 +4097,20 @@
       "tag": "v1.11.0",
       "commit": "b66bb3e2079c7c1c3ba70f0886f6a2280b809864",
       "timestamp": 1731174392,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d89fcf184d91bd23599ef78c4c1ac2050514347c0d4911175b5af5937a09de21": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.12.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 85,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "0c985101230c5f50030311165e4f40dfd1b3aa59",
+      "timestamp": 1731952889,
       "reproducible": true,
       "error": null
     }
@@ -9053,6 +9109,20 @@
       "error": null
     }
   ],
+  "6d803f9b0fd064b7c5d024d62554a194c8b80760a5fa1a29b63797e9b303c8e7": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.0.10/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 11,
+      "version_name": "1.0.10",
+      "tag": "v1.0.10",
+      "commit": "8f51affa2b81c57d656b2fd5e4fe64f01c9d55e1",
+      "timestamp": 1731953197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8bdb2a9929390304f6d6a99a75de554bedccf91cf378389b9f515d3395811158": [
     {
       "repository": "https://codeberg.org/bg443/rbtlui.git",
@@ -11135,6 +11205,20 @@
       "tag": "1.2.0",
       "commit": "d050480d21871745dede9da2589cadd0859e4fd3",
       "timestamp": 1730226930,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ce78b1eb78c195bfe284c10790bbb1497ff01e77859002e7301a94ae7bd56dcb": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/1.3.0/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 6,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "319fdc9af29981ddbfd6ec1c2aeac170e9a37033",
+      "timestamp": 1731953654,
       "reproducible": true,
       "error": null
     }

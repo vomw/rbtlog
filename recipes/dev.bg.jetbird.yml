@@ -4,7 +4,6 @@ updates: releases
 notes:
   - original recipe (and log) was replaced and the build repeated as it failed lint, which does not change the outcome of the build. Also see https://codeberg.org/bg443/rbtlog/src/branch/master/recipes/dev.bg.jetbird.yml
   - platform is needed for the build to succeed; android_home is set to match upstream’s build process (Woodpecker)
-  - 'FIXME: update recipe before building the next release, see https://codeberg.org/bg443/rbtlog/issues/1#issuecomment-2453953'
 versions:
   - tag: v1.0.7
     apks:
@@ -88,6 +87,38 @@ versions:
           - export PATH="$PATH:/build/go/bin" GOBIN=/build/go/bin
           - go install golang.org/x/mobile/cmd/gomobile@c6794c95c70b02ddb1a79d92fec29f8b8ddd8836
           - go install golang.org/x/mobile/cmd/gobind@c6794c95c70b02ddb1a79d92fec29f8b8ddd8836
+          - ./scripts/build_netbird.sh
+          - ./gradlew assembleRelease --stacktrace --no-build-cache --no-configuration-cache --no-daemon
+          - mv app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus: 8
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /build/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - adduser
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk: 27.1.12297006
+          platform: android-34
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.0.10
+    apks:
+      - apk_pattern: JetBird-armeabi-v7a-release\.apk
+        apk_url: https://codeberg.org/bg443/JetBird/releases/download/$$TAG$$/JetBird-armeabi-v7a-release.apk
+        build:
+          - export PATH="$PATH:/build/go/bin" GOBIN=/build/go/bin
+          - ./scripts/init_go.sh
           - ./scripts/build_netbird.sh
           - ./gradlew assembleRelease --stacktrace --no-build-cache --no-configuration-cache --no-daemon
           - mv app/build/outputs/apk/release/app-armeabi-v7a-release-unsigned.apk /outputs/unsigned.apk
