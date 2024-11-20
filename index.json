@@ -111,6 +111,20 @@
       "error": null
     }
   ],
+  "b774b8ca84ebdbfc90d04585c74031e3e8dfab26bfab2de490ea7806e5d6ccba": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.3/Podcini.R_release_free_6.14.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020302,
+      "version_name": "6.14.3",
+      "tag": "6.14.3",
+      "commit": "d22f29d4bec8ae8cd86535c0e2faa8b7c309c2be",
+      "timestamp": 1732124833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2403,6 +2417,20 @@
       "tag": "2024.11.1075-dev",
       "commit": "b0fbe9cd08a440934895f16cf78b076b061b58e8",
       "timestamp": 1731952502,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0916c6bc73d64b9829c11b7532ab6b904afe921a4dcfe5a6cc0010fd3be8d06c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1076-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1076,
+      "version_name": "2024.11.1076-dev",
+      "tag": "2024.11.1076-dev",
+      "commit": "8eb4ad2b29bf1843f4eac7a9853624ae55349f71",
+      "timestamp": 1732125281,
       "reproducible": true,
       "error": null
     }
@@ -5599,6 +5627,20 @@
       "error": null
     }
   ],
+  "9627175eebd94ef75e06fc408088121a20d88599e5ac777117715d340a87afb9": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.2.1/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 55,
+      "version_name": "0.2.1",
+      "tag": "0.2.1",
+      "commit": "dd0a50bc80bd57099e48b3dec61212e7a4ca87bb",
+      "timestamp": 1732125696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "22724e21732e19d8cd71d650adc2833c97d24132c52e34354198548d9a69ba44": [
     {
       "repository": "https://github.com/Droid-ify/client.git",
@@ -8215,6 +8257,20 @@
       "error": null
     }
   ],
+  "dadce724ef301ddb247e03c144bc92a453e71ead0816372262785ba8c000fa96": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.1.0/MediLog-3.1.0.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5464,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "68cecf68e642585427cfdca1d7feacb1d1af8779",
+      "timestamp": 1732126237,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -9875,6 +9931,20 @@
       "tag": "1.2248",
       "commit": "ad118b9455955184ebe4bab7bc8005b97179934f",
       "timestamp": 1731871845,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a1cdba685361da48ff8b82f8255a5556110c5c5f7efa69f61dac5a1e9491d158": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2249/FairEmail-v1.2249a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2249,
+      "version_name": "1.2249",
+      "tag": "1.2249",
+      "commit": "e0826e65eb26a7438d727a0d53284f16300a5064",
+      "timestamp": 1732126555,
       "reproducible": true,
       "error": null
     }
@@ -12227,6 +12297,20 @@
       "tag": "4.0.2",
       "commit": "2380d13ed64ed9176360bb17d0bb181d51c189d2",
       "timestamp": 1719320325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "550e39c63cb59f09e63037192667c26c9715ab13d19e991cc7c33b9e4ae4cd10": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/4.0.3/Autu-Mandu_4.0.3.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 403,
+      "version_name": "4.0.3",
+      "tag": "4.0.3",
+      "commit": "608c53d4572fd1e3cab410dd0e435b06c6481e23",
+      "timestamp": 1732130374,
       "reproducible": true,
       "error": null
     }
