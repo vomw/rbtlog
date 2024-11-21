@@ -2435,6 +2435,20 @@
       "error": null
     }
   ],
+  "1eaa1383bcbcdd7bcdbe6f42598b72835a8c752fc405fc97c4b6c750af0d8424": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1077/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1077,
+      "version_name": "2024.11.1077",
+      "tag": "2024.11.1077",
+      "commit": "7d4065664567e5105149fcac32302f8adbc1ccb7",
+      "timestamp": 1732211168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -3079,6 +3093,20 @@
       "error": null
     }
   ],
+  "1dc32f8051b471e8b2780932153d7164afa251223aed08b9a0aae839e0c9cee6": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.2/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 25,
+      "version_name": "0.6.2",
+      "tag": "0.6.2",
+      "commit": "d878d90ddcdcded299946aee1556ed9d1cfa1d10",
+      "timestamp": 1732211923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -3439,6 +3467,20 @@
       "tag": "v1.3.7",
       "commit": "db12ee79e6cd6c46721bae480268d9bc4b980c8d",
       "timestamp": 1731869209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fd857c1a5a7832a0dff08ee768eb9f7faa2600d41a06fde5edab7a78f5abbb8": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.3.8/nadamillas-1.3.8.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 36,
+      "version_name": "1.3.8.20241120",
+      "tag": "v1.3.8",
+      "commit": "329d82af3de5ca82b77229762a59ae2481667512",
+      "timestamp": 1732212256,
       "reproducible": true,
       "error": null
     }
@@ -3817,6 +3859,34 @@
       "tag": "v1.1.3",
       "commit": "5f46d89d41b0f799324fabec67e0aaf18fd92623",
       "timestamp": 1723046606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dd0d1273c5180295232e0e4161ab47bbc500b4ce26baae778605e427c8926404": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.2.0/FadCam-v1.2.0-armeabi-v7a.apk",
+      "appid": "com.fadcam",
+      "version_code": 8,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "194043019004491b6d5e342ec418902605a9a705",
+      "timestamp": 1732214888,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e4c13db34cb7bcb8823e6fda1feab4573d8f35ecc8e3b009c91157a02db0ab53": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.2.0/FadCam-v1.2.0-arm64-v8a.apk",
+      "appid": "com.fadcam",
+      "version_code": 8,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "194043019004491b6d5e342ec418902605a9a705",
+      "timestamp": 1732215095,
       "reproducible": true,
       "error": null
     }
@@ -4769,6 +4839,48 @@
       "tag": "v04.04.02",
       "commit": "c60567b4cab695f08b20cc2694d14c5fb4c21404",
       "timestamp": 1731869648,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ad8ec4b533fb514d2f467354f1b7df4aecde124cde2c1ae0664e4b48147e5fb": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.05.00/WebMonkey-004.05.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4050011,
+      "version_name": "004.05.00-11API",
+      "tag": "v04.05.00",
+      "commit": "f1eee39cfef1eb34173a36e1a74f2707202ff499",
+      "timestamp": 1732212885,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "488bdf24407a4e73ac1c3186e5302df238af624ef6c64fe48b5f8372518a818b": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.05.00/WebMonkey-004.05.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4050011,
+      "version_name": "004.05.00-11API",
+      "tag": "v04.05.00",
+      "commit": "f1eee39cfef1eb34173a36e1a74f2707202ff499",
+      "timestamp": 1732213020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "37c80c2e90a170d1d18da9c62ff0cd8354870f04eb0bd023af2ce33eea76dc15": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.05.00/WebMonkey-004.05.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4050011,
+      "version_name": "004.05.00-11API",
+      "tag": "v04.05.00",
+      "commit": "f1eee39cfef1eb34173a36e1a74f2707202ff499",
+      "timestamp": 1732213148,
       "reproducible": true,
       "error": null
     }
@@ -9375,6 +9487,20 @@
       "error": null
     }
   ],
+  "40fca33945bc36d4673a4757c4d0d72941e246dbe6a18d57bff63c4fd8d968d9": [
+    {
+      "repository": "https://codeberg.org/bg443/rbtlui.git",
+      "apk_url": "https://codeberg.org/bg443/rbtlui/releases/download/v1.0.1/rbtlui-universal-release.apk",
+      "appid": "dev.bg.rbtlui",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "1386b1fc85292bb053ca5e93194a0045b13a8f85",
+      "timestamp": 1732213277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f27df9a55ae0f4cf2b504d952c2027daad40223759ad580485cb67da7dc34375": [
     {
       "repository": "https://github.com/JahidHasanCO/BMI-Calculator.git",
@@ -13697,6 +13823,20 @@
       "tag": "1.3.2",
       "commit": "dc83497e52c752af97fe1387765a9431e4831017",
       "timestamp": 1729124488,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "56e961365ea3f2bd3f332991efdf28c77e4f82fed255c631370426aef6244a9f": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.4.0/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 18,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "aaea1e2f989e8b65153ad299442aff197c94fe0a",
+      "timestamp": 1732216883,
       "reproducible": true,
       "error": null
     }

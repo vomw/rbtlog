@@ -3,6 +3,7 @@ repository: https://github.com/mjaakko/NeoStumbler.git
 updates: releases
 notes:
   - original recipe and log were replaced because of misspellings (no differences in result)
+  - v1.4.0 was flaky
 versions:
   - tag: 1.3.2
     apks:
@@ -11,6 +12,41 @@ versions:
         build:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
           - ./gradlew assembleFdroidRelease
+          - mv app/build/outputs/apk/fdroid/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 1.4.0
+    apks:
+      - apk_pattern: app-fdroid-release.apk
+        apk_url: https://github.com/mjaakko/NeoStumbler/releases/download/1.4.0/app-fdroid-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
+          - PROF_SHA1=19cd67a4857d07efb133033cd1e64fdbc51e7a7f
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - mv app/build/outputs/apk/fdroid/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
