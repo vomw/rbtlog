@@ -125,6 +125,20 @@
       "error": null
     }
   ],
+  "6ac9753a819889b871151b6e8d7dcbb098c03e79da20b6459758a4a98dd36054": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.5/Podcini.R_release_free_6.14.5_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020304,
+      "version_name": "6.14.5",
+      "tag": "6.14.5",
+      "commit": "d79317d699c4c4ee6353e020a7a0f03079e5591e",
+      "timestamp": 1732297551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2459,6 +2473,20 @@
       "tag": "1.3v4",
       "commit": "9c5f862a1575215b60cf03fddfa99172f176c2fd",
       "timestamp": 1732107866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e404c9e92d7773a3bdcd3f91ace20d2446167633c0aa002ae6f8e86a4a8aac3": [
+    {
+      "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
+      "apk_url": "https://github.com/catpuppyapp/SshKeyMan/releases/download/1.6v7/SshKeyMan_1.6v7_release.apk",
+      "appid": "com.catpuppyapp.sshkeyman",
+      "version_code": 7,
+      "version_name": "1.6",
+      "tag": "1.6v7",
+      "commit": "92034dd54a276c327f52551eb266bcca7a3a71ee",
+      "timestamp": 1732273873,
       "reproducible": true,
       "error": null
     }
@@ -4885,6 +4913,48 @@
       "error": null
     }
   ],
+  "4ba79342f2ddcb6d7926db8fd73772a4defa3fad2074bdd2b2173231db3ac6d2": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.06.00/WebMonkey-004.06.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4060011,
+      "version_name": "004.06.00-11API",
+      "tag": "v04.06.00",
+      "commit": "99bf64dfdfa974e989c956416ace6c9016a4f83c",
+      "timestamp": 1732297938,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "32a3c84d3f065ab59d7cb18791363a3af6c0f8848612ac2d09054afe85ec9632": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.06.00/WebMonkey-004.06.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4060011,
+      "version_name": "004.06.00-11API",
+      "tag": "v04.06.00",
+      "commit": "99bf64dfdfa974e989c956416ace6c9016a4f83c",
+      "timestamp": 1732298066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "66880f12587bc23b00b12018f6cafabe9e84f424a35d4e737972fbdef1db827b": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.06.00/WebMonkey-004.06.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4060011,
+      "version_name": "004.06.00-11API",
+      "tag": "v04.06.00",
+      "commit": "99bf64dfdfa974e989c956416ace6c9016a4f83c",
+      "timestamp": 1732298194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -6099,6 +6169,20 @@
       "tag": "v1.9.1",
       "commit": "e1edd20e8096b81413673431b9aaf9212fdfac9d",
       "timestamp": 1726937613,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7a628be58021f649a1f0c3d49fe3bf2387e3c8648fb59a6870900fcfe779660e": [
+    {
+      "repository": "https://github.com/EmmaTellblom/Mensinator.git",
+      "apk_url": "https://github.com/EmmaTellblom/Mensinator/releases/download/v1.9.2/app-release.apk",
+      "appid": "com.mensinator.app",
+      "version_code": 22,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "12579b4a4c35b8a72f47f9ab4324cf96c9daa7c5",
+      "timestamp": 1732300195,
       "reproducible": true,
       "error": null
     }
@@ -7651,6 +7735,20 @@
       "tag": "v3.2.3",
       "commit": "ce337a6b0eb4ba8116c6a938f0048360f2ddacf9",
       "timestamp": 1730745240,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3e5c1ed176e42a492c509549d44f42c54bb41a90105d93835da921410636285": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.3.0/CuteCalc_v3.3.0.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 36,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "df26d2664cdba2cb928e8666122636f722a336c2",
+      "timestamp": 1732299155,
       "reproducible": true,
       "error": null
     }
@@ -13137,6 +13235,20 @@
       "tag": "v1.1.1",
       "commit": "79af56d26c7a7f8b311449cc3a0b555ff97823c6",
       "timestamp": 1731176294,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a39058651438842af1766b7bd4de72fe23949ff544a39acdb71fdb73d571db0c": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v1.2.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 5,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "4178447fed73dd864496ce0b16973c99abea1f21",
+      "timestamp": 1732299421,
       "reproducible": true,
       "error": null
     }
