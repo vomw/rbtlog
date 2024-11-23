@@ -139,6 +139,20 @@
       "error": null
     }
   ],
+  "284a962603c412573aa7bf4f4719491431c07a000cc443bd9e14a599cedfa3bd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.6/Podcini.R_release_free_6.14.6_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020305,
+      "version_name": "6.14.6",
+      "tag": "6.14.6",
+      "commit": "309d7c98b99bce80f47d013229c7be5c98088769",
+      "timestamp": 1732383960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -4283,6 +4297,20 @@
       "error": null
     }
   ],
+  "5700a0f19d9b3c4402e8fc4f06a7ed7612831d0a3997a190d981977865cb66b5": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.12.1/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 86,
+      "version_name": "1.12.1",
+      "tag": "v1.12.1",
+      "commit": "d53b4ef9430b0db24f155ddad520761916cb3e62",
+      "timestamp": 1732384335,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -4951,6 +4979,48 @@
       "tag": "v04.06.00",
       "commit": "99bf64dfdfa974e989c956416ace6c9016a4f83c",
       "timestamp": 1732298194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c93b6177f6cd1e5ff1f43e9660bf86dc582c30ed3190cf31337d86838b34a1a": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.07.00/WebMonkey-004.07.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4070011,
+      "version_name": "004.07.00-11API",
+      "tag": "v04.07.00",
+      "commit": "16280ec8418fdd81a2b9bb7db1e5e73f562cf442",
+      "timestamp": 1732384685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9fd8bea2b93d49737c64e578179e1f28b83b398c82613884cabdc265d016390a": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.07.00/WebMonkey-004.07.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4070011,
+      "version_name": "004.07.00-11API",
+      "tag": "v04.07.00",
+      "commit": "16280ec8418fdd81a2b9bb7db1e5e73f562cf442",
+      "timestamp": 1732384819,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "186f5adb1ebb1d97f52e548608eacfa9d8b78ad96ee24331a295ef793dad61fb": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.07.00/WebMonkey-004.07.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4070011,
+      "version_name": "004.07.00-11API",
+      "tag": "v04.07.00",
+      "commit": "16280ec8418fdd81a2b9bb7db1e5e73f562cf442",
+      "timestamp": 1732384943,
       "reproducible": true,
       "error": null
     }
@@ -5847,6 +5917,20 @@
       "tag": "0.2.1",
       "commit": "dd0a50bc80bd57099e48b3dec61212e7a4ca87bb",
       "timestamp": 1732125696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f0f5b2e51f3217925b17696e30899e0fe4566365188c75bd495b35e7c9039d1": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.3.0/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 56,
+      "version_name": "0.3.0",
+      "tag": "0.3.0",
+      "commit": "9fe93d6e163809e22b16fcb29969f467b89aae45",
+      "timestamp": 1732385068,
       "reproducible": true,
       "error": null
     }
@@ -7695,6 +7779,20 @@
       "timestamp": 1732114755,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "664620a57b2d74e2514a84fad79f5dd9e1b7a00775b399e718a9ee0cc593dbf9": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.2/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2001,
+      "version_name": "1.0.2",
+      "tag": "V1.0.2",
+      "commit": "6b61d8deb1d6343f3c9c3f1324df692017649aee",
+      "timestamp": 1732298643,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "d0164f6dfe14b00bb2213444e3ca1bdc0f5530cb1b0493f79e8292b2b7df7a50": [
@@ -11167,6 +11265,20 @@
       "error": null
     }
   ],
+  "53fd88331a9e4705dd8abcd50fc993dc4b3312548c4571798bc147803184bda4": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.61/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 69,
+      "version_name": "0.6.61",
+      "tag": "v0.6.61",
+      "commit": "86262aa4c85b170068075b5b40af238904893df6",
+      "timestamp": 1732386399,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -13267,6 +13379,20 @@
       "error": null
     }
   ],
+  "80c40d09c46eb787ac53d44239f9ff1258cbe776b14ca4c5204d9becd202674d": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v1.3.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 6,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "4aafcf794559ea21b7b52bf48a9b6f22c288f87f",
+      "timestamp": 1732387022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4651ee9382456df657bcba5f79149d6e2b55d1766d580fdcb670fd848ef19436": [
     {
       "repository": "https://github.com/VishnuSanal/Quotes.git",
@@ -14005,6 +14131,20 @@
       "tag": "v1.0.1",
       "commit": "7cea570d083a63ca3ed2e6b21c32c7d0e9d004f2",
       "timestamp": 1729616223,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d7cdbb464bf9edcb4095e896e278781642a8eab7dd1e4b6278948ca7d31259c": [
+    {
+      "repository": "https://github.com/regulad/SupIR.git",
+      "apk_url": "https://github.com/regulad/SupIR/releases/download/v1.1.3/app-release.apk",
+      "appid": "xyz.regulad.supir",
+      "version_code": 6,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "f284f4cc6dd81c1e46b61e273204012b01fe0c9a",
+      "timestamp": 1732387252,
       "reproducible": true,
       "error": null
     }
