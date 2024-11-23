@@ -6061,6 +6061,20 @@
       "error": null
     }
   ],
+  "74b6a979af1f8a0d0162d1c099eb9d4ad1db8904e0afa8ef14b11fc2d1fdd07a": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.8.0/localmaterialnotes_arm64-v8a_v1.8.0.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 172,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "aced7e92ed3c9e8f16c530f1fd4fac825242b2ff",
+      "timestamp": 1732389589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -12297,6 +12311,20 @@
       "tag": "3.5.3",
       "commit": "34e90305c5e1e63b07b9a1ddd6d4408d0c07241b",
       "timestamp": 1730139164,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
+    {
+      "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
+      "apk_url": "https://github.com/Exodus-Privacy/exodus-android-app/releases/download/release-v3.3.2/app-release.apk",
+      "appid": "org.eu.exodus_privacy.exodusprivacy",
+      "version_code": 23,
+      "version_name": "3.3.2",
+      "tag": "release-v3.3.2",
+      "commit": "a507b729be1bd3983fbc0828eb445e7cd1dd093e",
+      "timestamp": 1732402258,
       "reproducible": true,
       "error": null
     }
