@@ -7809,6 +7809,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
+    {
+      "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
+      "apk_url": "https://github.com/SimonHalvdansson/Harmonic-HN/releases/download/v2.0.3/app-release.apk",
+      "appid": "com.simon.harmonichackernews",
+      "version_code": 60,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "2e9532077fb82cb7c320bd128c68f546e81a79da",
+      "timestamp": 1732459411,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d0164f6dfe14b00bb2213444e3ca1bdc0f5530cb1b0493f79e8292b2b7df7a50": [
     {
       "repository": "https://github.com/hash-checker/hash-checker.git",

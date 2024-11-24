@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/sidhant947/Wallet.git
 updates: releases
+notes:
+  - 'FIXME: currently not RB due to embedded build-id, see https://github.com/sidhant947/Wallet/issues/1#issuecomment-2495650606'
 versions:
   - tag: V1.0.1
     apks:
