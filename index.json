@@ -3457,6 +3457,20 @@
       "error": null
     }
   ],
+  "588409ada7ab2a0aa533ef6a83d154eb359ce3e0ffc185cc86217f9b63492113": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.4/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 122,
+      "version_name": "4.0.4",
+      "tag": "4.0.4",
+      "commit": "9dcd7bcec561ad2eea5f7ecfc3ee953c93c39c03",
+      "timestamp": 1732470381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -4101,6 +4115,20 @@
       "error": null
     }
   ],
+  "98175bbc2d487ed5bcbfe94fa9a42cb8368da1cc91abddc1dfaf10276fa379e6": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.19.0/com.fibelatti.photowidget-v1.19-1190000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1190000,
+      "version_name": "1.19",
+      "tag": "v1.19.0",
+      "commit": "47b9e2fa1187586796afa2f1108f0cedfec89bca",
+      "timestamp": 1732470711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -4447,6 +4475,20 @@
       "tag": "2.5.7",
       "commit": "4e30172f3c8aeda91a1f9c2572c1c35c815a2f43",
       "timestamp": 1731176900,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ebee26ac6ed6861af5325ee84a4a0ef48e01a8d88da68b30ca29a92a327131a": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.10/fdroidRelease-2.5.10.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30510,
+      "version_name": "2.5.10",
+      "tag": "2.5.10",
+      "commit": "91c8c7809aedae629bf39a58e3700a1535367d46",
+      "timestamp": 1732471048,
       "reproducible": true,
       "error": null
     }
@@ -6075,6 +6117,20 @@
       "error": null
     }
   ],
+  "7ecb2c98f2f5d2736959777c9ba33d3d9a2127dc443a0ebacdc0e7caf6ba0183": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.8.2/localmaterialnotes_arm64-v8a_v1.8.2.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 192,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "52faa2eaa1b6a207a23548cbfe81faee0f72be96",
+      "timestamp": 1732471457,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -6281,6 +6337,20 @@
       "tag": "v1.9.2",
       "commit": "12579b4a4c35b8a72f47f9ab4324cf96c9daa7c5",
       "timestamp": 1732300195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f4854f2101c1ee9f238df672567819397a09b2a85b57ea7fd6bc04f2225e97b8": [
+    {
+      "repository": "https://github.com/EmmaTellblom/Mensinator.git",
+      "apk_url": "https://github.com/EmmaTellblom/Mensinator/releases/download/v1.9.3/app-release.apk",
+      "appid": "com.mensinator.app",
+      "version_code": 23,
+      "version_name": "1.9.3",
+      "tag": "v1.9.3",
+      "commit": "8fde17c148e2e28469c736c63fcfdb6ed37fcfdf",
+      "timestamp": 1732473891,
       "reproducible": true,
       "error": null
     }
@@ -7399,6 +7469,20 @@
       "tag": "v0.6.1",
       "commit": "9221e8764260064f404908af39f5ebd77f2089c3",
       "timestamp": 1732118022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbdba267f3036d1f829ce70f1ea6bad1c2802d13cdb2fe7e575642cfa907ff9f": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v0.7.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 13,
+      "version_name": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "d2ca3d6a24b7e6d9f9f41dcc8e3deb25605d6719",
+      "timestamp": 1732472006,
       "reproducible": true,
       "error": null
     }
@@ -13698,6 +13782,20 @@
       "commit": "9a564e3e1158e63b4a987c73496fc0458ee0e4bc",
       "timestamp": 1726241956,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6077e05bd0b935a1316a33e08d6e77cc38e6c33f91753875cd62870dfa3cb77": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.1.0/image-toolbox-3.1.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 159,
+      "version_name": "3.1.0",
+      "tag": "3.1.0",
+      "commit": "c8e9e55ceb7c08fbe0ed02c293d28d9e3e454737",
+      "timestamp": 1732472332,
+      "reproducible": false,
       "error": null
     }
   ],
