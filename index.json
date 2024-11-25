@@ -153,6 +153,20 @@
       "error": null
     }
   ],
+  "cc2ed0b11253834b1edc926f421bf590a1865bbb7eb6c9b12e5dfc78a5c1809e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.7/Podcini.R_release_free_6.14.7_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020306,
+      "version_name": "6.14.7",
+      "tag": "6.14.7",
+      "commit": "6266412a485b68a6f5aa46a1a6503c13f4a8fda1",
+      "timestamp": 1732556760,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -517,6 +531,20 @@
       "error": null
     }
   ],
+  "dad318c89a3f2dd04b8b93879e6d6d889eb303ba749d2afefb9888be9a0b387d": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v6.1.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 610,
+      "version_name": "v6.1.0",
+      "tag": "v6.1.0",
+      "commit": "0a0a5a6027a4dd286acf55c01a5c1deee900a9ba",
+      "timestamp": 1732557140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -597,6 +625,20 @@
       "tag": "v4.4.3.2-ose",
       "commit": "1802740a2d3d3df7702b74c0efa0edf88e49298a",
       "timestamp": 1729442737,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3ae19c778ccaa387d6e584635a3737b078134abc550203a7f0e913950e449c5d": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.4-ose/davx5-ose-4.4.4-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404040002,
+      "version_name": "4.4.4-ose",
+      "tag": "v4.4.4-ose",
+      "commit": "2f26c6c36559d2276e8396865b6e8b0ece504bed",
+      "timestamp": 1732557510,
       "reproducible": true,
       "error": null
     }
@@ -751,6 +793,20 @@
       "tag": "4",
       "commit": "8461a73ff5d5600a43aa5a4a4a3e14cb36edaea5",
       "timestamp": 1731958800,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e33028bea80030b881029a7e4800b37fb266d64c55c007ec691da022e8fb2ff": [
+    {
+      "repository": "https://github.com/vbresan/MindfulAttentionAwarenessScale.git",
+      "apk_url": "https://github.com/vbresan/MindfulAttentionAwarenessScale/releases/download/5/biz.binarysolutions.mindfulscale-1.0.4-withoutAds-release.apk",
+      "appid": "biz.binarysolutions.mindfulscale",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "5",
+      "commit": "964f6b42814dced17d896dbc4b4f2496a31efeee",
+      "timestamp": 1732558126,
       "reproducible": true,
       "error": null
     }
@@ -3471,6 +3527,20 @@
       "error": null
     }
   ],
+  "f1449911fa530003406713e6575bca537a6275a0f56e6b25fe4392a7d356bc29": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.5/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 123,
+      "version_name": "4.0.5",
+      "tag": "4.0.5",
+      "commit": "ac514dad22a11cba3bf3e49ab6c555e232ddb459",
+      "timestamp": 1732558454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -5063,6 +5133,48 @@
       "tag": "v04.07.00",
       "commit": "16280ec8418fdd81a2b9bb7db1e5e73f562cf442",
       "timestamp": 1732384943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "335e369949858156c79a5a7437ed618ad51867727d517702f48f8e7c85b6ae34": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.08.00/WebMonkey-004.08.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4080011,
+      "version_name": "004.08.00-11API",
+      "tag": "v04.08.00",
+      "commit": "29d9f64e6e94273529cf657486e20d1146fce5bc",
+      "timestamp": 1732560073,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a87428b97f58117135b5324c50e65cb925aa20b944b59a20c4248c96e9bedcc": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.08.00/WebMonkey-004.08.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4080011,
+      "version_name": "004.08.00-11API",
+      "tag": "v04.08.00",
+      "commit": "29d9f64e6e94273529cf657486e20d1146fce5bc",
+      "timestamp": 1732560201,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b149b062e6eaf2f07338a628f363852b515613ffc6fdb8ee02fc55ef81039d65": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.08.00/WebMonkey-004.08.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4080011,
+      "version_name": "004.08.00-11API",
+      "tag": "v04.08.00",
+      "commit": "29d9f64e6e94273529cf657486e20d1146fce5bc",
+      "timestamp": 1732560329,
       "reproducible": true,
       "error": null
     }
@@ -9529,6 +9641,20 @@
       "error": null
     }
   ],
+  "271eadf36d989a12e4075aa43909d11c5ce2df15f16d1b01074f7e2ac2369741": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.12.1/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1121,
+      "version_name": "1.0.0-alpha.12.1",
+      "tag": "v1.0.0-alpha.12.1",
+      "commit": "bf7e744e43bfb1d17de4f2e133649c701e7fc7e3",
+      "timestamp": 1732559202,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -10856,6 +10982,20 @@
       "commit": "63812b8f0e48bef56d214239d6bbda73c91d4069",
       "timestamp": 1723978994,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "0be0642990a8282e610d171340fff1d2226f819e803e96cd28a872e7baeb0fd7": [
+    {
+      "repository": "https://github.com/Guru-25/SkillRack-Points-Tracker.git",
+      "apk_url": "https://github.com/Guru-25/SkillRack-Tracker/releases/download/v1.0.7/SkillTRack_v1.0.7.apk",
+      "appid": "in.gururaja.skillrack",
+      "version_code": 7,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "c2c180964a911532248d35a1c91f8ed2c107ddae",
+      "timestamp": 1732559624,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -13515,6 +13655,20 @@
       "tag": "v1.3.0",
       "commit": "4aafcf794559ea21b7b52bf48a9b6f22c288f87f",
       "timestamp": 1732387022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a60e1f6f714c4a71a981eae9dc1ff19857754c6cd25c7a3be0ba57964f101456": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v1.4.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 7,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "7d0b52669904b25ec3b446aa8d0dfb99f552b947",
+      "timestamp": 1732559734,
       "reproducible": true,
       "error": null
     }
