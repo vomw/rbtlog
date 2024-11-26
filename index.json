@@ -2533,6 +2533,20 @@
       "error": null
     }
   ],
+  "ea4beb6d7c3b895eaa871b2b3238b9159d498695b6c6467335b779c25a4bad05": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.11.1078-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1078,
+      "version_name": "2024.11.1078-dev",
+      "tag": "2024.11.1078-dev",
+      "commit": "9a4cb2a1b79d5d790982f920b7beedcc38e1ecdc",
+      "timestamp": 1732643153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -6495,6 +6509,20 @@
       "error": null
     }
   ],
+  "da9741dbca50ff2bd0dd34aad711e2497061112afc8db0a63390e3dd9a976455": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.41.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 830,
+      "version_name": "3.41.0",
+      "tag": "3.41.0",
+      "commit": "607384148b137e07e5e95d57f34ace1dba9bf293",
+      "timestamp": 1732643519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -8239,6 +8267,20 @@
       "tag": "v2.2.5",
       "commit": "868325134707edf45730a21681ebbb23ee738938",
       "timestamp": 1731434917,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f5ad5b4b77ab487d27c4cf9624fd867fbdeae09db21ba5380ca07f13f99f9fa": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.3.0/CuteMusic_v2.3.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 17,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "92c2a3bbbeea213a5b50e650edde73db2215d50b",
+      "timestamp": 1732644134,
       "reproducible": true,
       "error": null
     }
@@ -10435,6 +10477,20 @@
       "tag": "v1.2.8-rc0",
       "commit": "34615e47713ec96b8162725266c5e88abffb8d44",
       "timestamp": 1729702805,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5fcd6e14fbcc58c8590ee186c8ce870a35d475f3f72e8c9d6a5b8c2c1e2fa937": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.3.1-rc0/eu.darken.sdmse-v1.3.1-rc0-10301000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10301000,
+      "version_name": "1.3.1-rc0",
+      "tag": "v1.3.1-rc0",
+      "commit": "2998605f37c38f178280e5c7a0eefc2d627ffe83",
+      "timestamp": 1732644493,
       "reproducible": true,
       "error": null
     }
@@ -14454,6 +14510,20 @@
       "commit": "3d174d7752675e1bab3363887922fd27c5116a75",
       "timestamp": 1720652342,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "3e4b92bfe10d01b09d074f1bc556bff5d5b96e2c320f2dc0e71b53b6e3b9b434": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.0/yetCalc-v2.0.0.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 16,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "e9356f240b8653530b7f7d801cbc205e6212e9f8",
+      "timestamp": 1732645913,
+      "reproducible": false,
       "error": null
     }
   ]
