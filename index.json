@@ -167,6 +167,20 @@
       "error": null
     }
   ],
+  "eadea914407678e99be83f5252d536210706fc40e8e46be93bc0728ab9ea3126": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.14.8/Podcini.R_release_free_6.14.8_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020307,
+      "version_name": "6.14.8",
+      "tag": "6.14.8",
+      "commit": "8c13b7e5a1a56c3e037079a99b4174f5e1bcc92e",
+      "timestamp": 1732729555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2953,6 +2967,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "2f3732e8d0576024b4f0c5fdf8641665db2cca6824c9ea1b4ad341480c54d201": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.1/YTDLnis-1.8.1-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108010004,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "0f6d8d6494a47704700e152e529e6ef2e406c92b",
+      "timestamp": 1732663692,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -4307,6 +4335,20 @@
       "tag": "v3.3.3",
       "commit": "93368f201020184eac90a3d73ccf80d6a8aa334e",
       "timestamp": 1729789080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f31748aff5f65a10ca7c8c2434982d096d9e366920a8b1a13365fae837e4c024": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.4.0/com.fibelatti.pinboard-v3.4-3040000-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3040000,
+      "version_name": "3.4",
+      "tag": "v3.4.0",
+      "commit": "56d2fc2989051e39a2e8eb07473e5df27430cc31",
+      "timestamp": 1732730001,
       "reproducible": true,
       "error": null
     }
@@ -6099,6 +6141,20 @@
       "tag": "0.3.0",
       "commit": "9fe93d6e163809e22b16fcb29969f467b89aae45",
       "timestamp": 1732385068,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dcbe6c53fd493e83d783c9d9bd277b1a636cbf60ce62bf58e61943415697616c": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.3.1/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 57,
+      "version_name": "0.3.1",
+      "tag": "0.3.1",
+      "commit": "b9028d474466648d6892a8241857d3571dae84c9",
+      "timestamp": 1732730517,
       "reproducible": true,
       "error": null
     }
@@ -8015,6 +8071,20 @@
       "tag": "2.3.7",
       "commit": "6bcd17a16176d729c637e0ad2631969baae6ea71",
       "timestamp": 1731780838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0a815f0625c9c825f66d11ccd5a3a38bcfd296ce9693874853941a79029d4a75": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.8/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 238,
+      "version_name": "2.3.8",
+      "tag": "2.3.8",
+      "commit": "bc317c151ff15c84895f1e13ffc60808db953c1c",
+      "timestamp": 1732731679,
       "reproducible": true,
       "error": null
     }
@@ -14565,6 +14635,20 @@
       "tag": "2.0.1",
       "commit": "3df1a5f4e4c732f43267183119f66224ef95271e",
       "timestamp": 1732650715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42a52eebad81224a7838544afa6652f3a621db84f329bdd483467db9feefccdb": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.2/yetCalc-v2.0.2.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 18,
+      "version_name": "2.0.2",
+      "tag": "2.0.2",
+      "commit": "906a2970ce407827724cee6f81231900c402d44d",
+      "timestamp": 1732731316,
       "reproducible": true,
       "error": null
     }
