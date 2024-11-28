@@ -1119,6 +1119,20 @@
       "error": null
     }
   ],
+  "34b235ca26bab1df5bdb9765806fabcc88e06901fbfd0d3f3b82c5c00d01dece": [
+    {
+      "repository": "https://github.com/afaneca/myfin-android.git",
+      "apk_url": "https://github.com/afaneca/myfin-android/releases/download/2.3.0/app-prod-release.apk",
+      "appid": "com.afaneca.myfin",
+      "version_code": 23000,
+      "version_name": "2.3.0",
+      "tag": "2.3.0",
+      "commit": "fb2187c43659c7733e61e644c6f45cd6e31738a7",
+      "timestamp": 1732815948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8aaef1ce0bea45006098ba54c15165d1a490219f4aaa41afacf271a50b84e25b": [
     {
       "repository": "https://github.com/vitaminncpp/TouchDroid.git",
@@ -3947,6 +3961,20 @@
       "error": null
     }
   ],
+  "2b6b4904f106635a4ce718cdb65ef177c9a9bf1cf783e024312d39764125d136": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.0.6/logfox-v2.0.6.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 66,
+      "version_name": "2.0.6",
+      "tag": "v2.0.6",
+      "commit": "3c3ed3a044e588f7fbf434315d74122070f6cd8b",
+      "timestamp": 1732816252,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7ec7b797e0b5d0bf754b0e67ac31d216ea65ad5f28a15cca5fab6a46634f5977": [
     {
       "repository": "https://github.com/anonfaded/FadCam.git",
@@ -5259,6 +5287,48 @@
       "tag": "v04.08.00",
       "commit": "29d9f64e6e94273529cf657486e20d1146fce5bc",
       "timestamp": 1732560329,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "668beafa69751d02e2793d0c4b1e31e8bc4d21a61e573736cbbbfbd3ffa15d70": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.01/WebMonkey-004.09.01-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090111,
+      "version_name": "004.09.01-11API",
+      "tag": "v04.09.01",
+      "commit": "0abb8c499a283d4d52687d226d5a266fc9a18ca2",
+      "timestamp": 1732818177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "367fa6366ded670486fc1b36d46ade13c278f0994561c809735d4b9f7f6b49f3": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.01/WebMonkey-004.09.01-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090111,
+      "version_name": "004.09.01-11API",
+      "tag": "v04.09.01",
+      "commit": "0abb8c499a283d4d52687d226d5a266fc9a18ca2",
+      "timestamp": 1732818315,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1a474665568cbde149c5b8954eb434ef8aa97937eafccbd78e167738ef9a41b": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.01/WebMonkey-004.09.01-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090111,
+      "version_name": "004.09.01-11API",
+      "tag": "v04.09.01",
+      "commit": "0abb8c499a283d4d52687d226d5a266fc9a18ca2",
+      "timestamp": 1732818452,
       "reproducible": true,
       "error": null
     }
