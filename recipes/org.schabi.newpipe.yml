@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v0.27.3
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: NewPipe_.*\.apk
         apk_url: https://github.com/TeamNewPipe/NewPipe/releases/download/$$TAG$$/NewPipe_$$TAG$$.apk
         build:
           - chmod +x gradlew

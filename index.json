@@ -181,6 +181,20 @@
       "error": null
     }
   ],
+  "1b1a9e3d835710121becd12a9ef09e7ebde7b3b17dfd5473e341004d44671f23": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.0/Podcini.R_release_free_6.15.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020308,
+      "version_name": "6.15.0",
+      "tag": "6.15.0",
+      "commit": "884abb5eec741303d89201c240551402747f2a95",
+      "timestamp": 1732902362,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1199,6 +1213,20 @@
       "tag": "v1.6.0/72",
       "commit": "49849d3e29e3ab8d012d3f415ba3b2dc86666b92",
       "timestamp": 1731953940,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88431f641cbbdcdcccc2e923ac36364552149515221bbde506af12830b730386": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.6.1/73/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 73,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1/73",
+      "commit": "268eb1da2fc3d3f2e2c3e53f9388272ae04acc30",
+      "timestamp": 1732902937,
       "reproducible": true,
       "error": null
     }
@@ -2715,6 +2743,20 @@
       "error": null
     }
   ],
+  "84c921a55c1743ad052415195d87354f418a862ae624b8f4da521252933eecb9": [
+    {
+      "repository": "https://github.com/CominAtYou/BatteryTile.git",
+      "apk_url": "https://github.com/CominAtYou/BatteryTile/releases/download/v1.8.0/batterytile-1.8.0.apk",
+      "appid": "com.cominatyou.batterytile",
+      "version_code": 13,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "e9b0fd86d130be3d7c439b1550b4a2510b6dd7dc",
+      "timestamp": 1732903159,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b7162d87e5602876ff5800bd3474a05af1073c917155704d7200a3944a68e4c": [
     {
       "repository": "https://github.com/christianrowlands/android-network-survey.git",
@@ -3789,6 +3831,20 @@
       "tag": "v0.16.0",
       "commit": "30400d8749806bd11521a2f7e30d78f3334c5955",
       "timestamp": 1729701928,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cfa65b559c655d77e7e84492ef2180ee5bb9c090546989e5deabfc6821c68b55": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.17.0/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 22,
+      "version_name": "v0.17.0",
+      "tag": "v0.17.0",
+      "commit": "3ddc88620db4f94dfd5f4820965c9115dc15186f",
+      "timestamp": 1732903332,
       "reproducible": true,
       "error": null
     }
@@ -5333,6 +5389,48 @@
       "error": null
     }
   ],
+  "e04b7bb7e0c1e442c587d29629d5364b223ca3ce1ef9c463a745870bd5a2fa30": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.02/WebMonkey-004.09.02-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090211,
+      "version_name": "004.09.02-11API",
+      "tag": "v04.09.02",
+      "commit": "f8d73a7cda74f8ba27af883d207d332aedd0dad1",
+      "timestamp": 1732903732,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31bbda9e0b2b832f25ef68cc72c9adcaa35f18c678937d71ec0874d897e01e7d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.02/WebMonkey-004.09.02-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090211,
+      "version_name": "004.09.02-11API",
+      "tag": "v04.09.02",
+      "commit": "f8d73a7cda74f8ba27af883d207d332aedd0dad1",
+      "timestamp": 1732903883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e44c50bec2bdc93b1bb4c208b8fe55e1e061416de7149e020dc168062d508c8b": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.09.02/WebMonkey-004.09.02-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4090211,
+      "version_name": "004.09.02-11API",
+      "tag": "v04.09.02",
+      "commit": "f8d73a7cda74f8ba27af883d207d332aedd0dad1",
+      "timestamp": 1732904023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -5567,6 +5665,20 @@
       "tag": "v1.8.0",
       "commit": "c6d0fe7ac6fb46a2c2126ea051b24a93e7b76d56",
       "timestamp": 1731693871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "47d6cadfd89b580ecfcd24ac9a34f763569c22a2ae4e74c6e9df81cba8d9794f": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v2.0.0/com.hifnawy.caffeinate.release_release_v2.0.0.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 31,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "fedfeaf3031be6653101448d46fec6dc0683d2a1",
+      "timestamp": 1732905789,
       "reproducible": true,
       "error": null
     }
@@ -13225,6 +13337,20 @@
       "error": null
     }
   ],
+  "dc5f4b5504d02648c11049d76aea58e95ce302d5f0b7c5970c460a510594cf20": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/4.0.4/Autu-Mandu_4.0.4.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 404,
+      "version_name": "4.0.4",
+      "tag": "4.0.4",
+      "commit": "c4e31cf8f09de4a7194b463f83f098834d4677ef",
+      "timestamp": 1732904436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca954d55488756a0c38e0faa77a5a9d99cf7b6ad1709524a57f3ab7a4f29df19": [
     {
       "repository": "https://github.com/juanro49/FeedTV.git",
@@ -13361,6 +13487,20 @@
       "tag": "v1.7.1",
       "commit": "107dea2fb13dd4ab16d876672da30f1b5dd2bb93",
       "timestamp": 1731782327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5251e41442d99e031e29a2119bba422a084e754aa67275d46c1385c5ad3891a1": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.8.0/wikireader-v1.8.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 16,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "48c5d2097aa24864039f316669173774e085c1a8",
+      "timestamp": 1732904669,
       "reproducible": true,
       "error": null
     }
@@ -13967,6 +14107,20 @@
       "error": null
     }
   ],
+  "ee7053e478990685de83b2266a9946110dac4a6bdac332c3f3ddb34fe355f5d7": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v1.5.1/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 9,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "f8a8a81c0050858c95c2514860e2f2b931f1573b",
+      "timestamp": 1732904941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4651ee9382456df657bcba5f79149d6e2b55d1766d580fdcb670fd848ef19436": [
     {
       "repository": "https://github.com/VishnuSanal/Quotes.git",
@@ -14257,6 +14411,20 @@
       "tag": "v0.1.10",
       "commit": "b22fbc006dfcc443df88381c2326c7b051262ade",
       "timestamp": 1729778980,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8654adbbbe2c3aafde6d38f6ae252239e788d45737bc84046d7cc61ba113c6d7": [
+    {
+      "repository": "https://github.com/nightkr/flickboard.git",
+      "apk_url": "https://github.com/nightkr/flickboard/releases/download/v0.1.11/flickboard-v0.1.11-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 50,
+      "version_name": "0.1.11",
+      "tag": "v0.1.11",
+      "commit": "9172391442375f8a07726fd2e01c29cf42ebafae",
+      "timestamp": 1732905222,
       "reproducible": true,
       "error": null
     }
