@@ -881,6 +881,20 @@
       "error": null
     }
   ],
+  "b0d48f0282867b515180440033bc8ebe8b11703e8f535d61941584bf70081507": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.31.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 331000,
+      "version_name": "3.31.0",
+      "tag": "3.31.0",
+      "commit": "713ed1f75a3db719e57763ecc8c374876af88057",
+      "timestamp": 1732988761,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -3653,6 +3667,20 @@
       "error": null
     }
   ],
+  "4c933c99a84a55f13fd165231144c8543ae1e29a7720568f14553fa63bb8a47f": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.6/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 124,
+      "version_name": "4.0.6",
+      "tag": "4.0.6",
+      "commit": "de20e6da7663890b431a1d498854ba1315056ea3",
+      "timestamp": 1732989097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -5487,6 +5515,20 @@
       "error": null
     }
   ],
+  "730cd1fb26de7ec3524a63de7bd8f32a3d151380870a6925a9929e27cff52a46": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.3.0/Telewatch-v1.3.0-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 20,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "c13fe23a0d82e8743901df821414526fa8251b22",
+      "timestamp": 1732989448,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -7147,6 +7189,20 @@
       "tag": "v1.14.0",
       "commit": "80fc8be61364f00e8bf6d7c32731cef156ab9ea6",
       "timestamp": 1732058876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1c1779485c4e665093347d6d2d280c42afcdd1fca4b524eb9186f69d5c4054b8": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.14.1/openscq30_android.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 28,
+      "version_name": "1.14.1",
+      "tag": "v1.14.1",
+      "commit": "5449065b6e414ffaa977c327f43d92da62749440",
+      "timestamp": 1732928673,
       "reproducible": true,
       "error": null
     }
@@ -9181,6 +9237,20 @@
       "error": null
     }
   ],
+  "f43cfc0c5a5d13e8ec0cbd070f9ef91b30c797745d9a7beaa11b7691610b78ad": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.1.1/MediLog-3.1.1.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5465,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "7dd1b9607b4a747c2b06810f68aa2b283753a22d",
+      "timestamp": 1732989775,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -9553,6 +9623,20 @@
       "tag": "0.1.41",
       "commit": "406846668f2ba9f0fb8d34f32dd10cdda97d6ed0",
       "timestamp": 1731870865,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cce3163a86394e15f2fc65df356f43ebfed0dbe2c7ae72e5cf9ae45f6eacffd1": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.42/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 42,
+      "version_name": "0.1.42",
+      "tag": "0.1.42",
+      "commit": "23e2847d6d1bc310c630031daefb164d8837990e",
+      "timestamp": 1732990118,
       "reproducible": true,
       "error": null
     }
@@ -11891,6 +11975,20 @@
       "tag": "v0.6.61",
       "commit": "86262aa4c85b170068075b5b40af238904893df6",
       "timestamp": 1732386399,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "26934a35bee6da21ceac4962bb7a9375d9ac0060ec0dea2423489bdd5684702b": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.62/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 70,
+      "version_name": "0.6.62",
+      "tag": "v0.6.62",
+      "commit": "00be63250da610880e175c3c85ddbb8478788718",
+      "timestamp": 1732990495,
       "reproducible": true,
       "error": null
     }
