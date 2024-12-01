@@ -107,3 +107,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.4.0
+    apks:
+      - apk_pattern: floccus-build-.*\.apk
+        apk_url: https://github.com/floccusaddon/floccus/releases/download/$$TAG$$/floccus-build-$$TAG$$.apk
+        build:
+          - git checkout 3ec547802b8a33851512b25e820b841937b25772^ -- _locales/zh_CN/messages.json
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v22.11.0/node-v22.11.0-linux-x64.tar.xz
+          - sha256sum -c <<< '83bf07dd343002a26211cf1fcd46a9d9534219aad42ee02847816940bf610a72  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v22.11.0-linux-x64/bin"
+          - npm install
+          - npx gulp
+          - npx cap sync
+          - cd android
+          - ./gradlew assembleRelease
+          - OUT="app/build/outputs/apk/release/app-release-unsigned.apk"
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 4 fix-files "$OUT" 'sed s/e76e0a64-2553-498e-8bbc-421147806e69/329b438e-9296-4a06-8509-fdece313f58f/g' 'assets/public/js/832.js'
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 4 fix-files "$OUT" 'sed s/bb6b0f7b-ed3d-4e50-a8d3-8db632945595/cf96b95b-1251-4f82-b15b-a003159435da/g' 'assets/public/js/88.js'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
