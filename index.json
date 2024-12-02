@@ -209,6 +209,20 @@
       "error": null
     }
   ],
+  "3a7eaa51e1b21ac48127f6a0dd1fc1de9f0bafde25cd38ab4c3c1b572e46dba9": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.2/Podcini.R_release_free_6.15.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020310,
+      "version_name": "6.15.2",
+      "tag": "6.15.2",
+      "commit": "dcbbbd745faab7559bbc7113bd9d5c893ea6d1f0",
+      "timestamp": 1733161562,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1059,6 +1073,20 @@
       "tag": "v1.48.6",
       "commit": "e5ddbacb2eabf70474421496f88cdbf8a7c21242",
       "timestamp": 1731779444,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "209e5b0bfd0d686ef3e8dd8dd4241902dae32b35d7377e94072e7d19ebee85c2": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.49.0/ArcaneChat-foss-armeabi-v7a-1.49.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006981,
+      "version_name": "1.49.0",
+      "tag": "v1.49.0",
+      "commit": "7f89ecea5c78a45e54bf2bdcd5a4646890fcf4d8",
+      "timestamp": 1733129219,
       "reproducible": true,
       "error": null
     }
@@ -3093,6 +3121,20 @@
       "error": null
     }
   ],
+  "a3962c6976f6a7046d8cbe8c334748d9fdd37bcabed811eb75dbc9e31b72e132": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.1.1/YTDLnis-1.8.1.1-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108010104,
+      "version_name": "1.8.1.1",
+      "tag": "v1.8.1.1",
+      "commit": "3d4f17e8c461a25c0c345690e61e71a7965b8855",
+      "timestamp": 1733161982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -3103,6 +3145,34 @@
       "tag": "v1.35",
       "commit": "41e5f97705a8a9ccd25e577973e3ddf3956019a9",
       "timestamp": 1728829330,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "828f0326e84869c6fc913384c4bd58684916689f1865517a9d735b4994fe4671": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.50/Shiori.v1.50.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 46,
+      "version_name": "1.50",
+      "tag": "v1.50",
+      "commit": "8559a4e98a1b2df26feb7c47c0fc72669dcc35a4",
+      "timestamp": 1733146237,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4df29c80be03e32649798fd92c0eae8af7c43916fbefb320771d02b018e6455a": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.50.01/Shiori.v1.50.01.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 47,
+      "version_name": "1.50.01",
+      "tag": "v1.50.01",
+      "commit": "3f48895a5decb08852b1f9115e72a77567ae9ac1",
+      "timestamp": 1733162468,
       "reproducible": true,
       "error": null
     }
@@ -5077,6 +5147,20 @@
       "tag": "v3.4.8",
       "commit": "0f5d34447029e1a3f819c091ec2854cc9f9e9c32",
       "timestamp": 1733077055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec965fe891db2e9d5df8b84255bf0f771f63fbf0e65030cdc892bd8616a3b849": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.5.0/ExoPlayer-AirPlay-Receiver-003.05.00-21API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3050021,
+      "version_name": "003.05.00-21API",
+      "tag": "v3.5.0",
+      "commit": "827a9b85722d555ee1fd7fef6b4d638850ba1bf2",
+      "timestamp": 1733165284,
       "reproducible": true,
       "error": null
     }
@@ -8117,6 +8201,20 @@
       "error": null
     }
   ],
+  "27f593dbd156954e3bda07e36d87f4da7c5515a5e893f7a75c509078c6b5c770": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/1.3.4/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 7,
+      "version_name": "1.3.4",
+      "tag": "1.3.4",
+      "commit": "aec6d8d66636b6eed0e12a923a76321b6a3602d3",
+      "timestamp": 1733163011,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -10043,6 +10141,20 @@
       "tag": "1.3",
       "commit": "cdd5cc0c51f6220dc226be917b5c1aa257e92f05",
       "timestamp": 1720736133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "666e3872ae4000550e625353a74b2197454da0d0c8acb865ddabe3b9f4236b11": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/WeatherShortcut.git",
+      "apk_url": "https://github.com/Kaiserdragon2/WeatherShortcut/releases/download/1.4/WeatherShortcut-release-1.4.apk",
+      "appid": "de.kaiserdragon.weathershortcut",
+      "version_code": 5,
+      "version_name": "1.4",
+      "tag": "1.4",
+      "commit": "33b16233b5f2c62def2cc16af6d3a9e279f65ed7",
+      "timestamp": 1733163296,
       "reproducible": true,
       "error": null
     }

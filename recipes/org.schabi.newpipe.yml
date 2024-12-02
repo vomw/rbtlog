@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/TeamNewPipe/NewPipe.git
 updates: releases
+notes:
+  - 'FIXME: next release will use JDK-21 again (stepping back to 17 was only done temporarily for F-Droid, see https://github.com/TeamNewPipe/NewPipe/issues/11754)'
 versions:
   - tag: v0.27.3
     apks:
