@@ -1161,6 +1161,20 @@
       "error": null
     }
   ],
+  "0f0ea1499b120d37d3dfbd9b91ba50207cafc2868743ce73f20ff7e6491856cd": [
+    {
+      "repository": "https://github.com/acszo/Redomi.git",
+      "apk_url": "https://github.com/acszo/Redomi/releases/download/1.3.0/redomi-release-no-updater.apk",
+      "appid": "com.acszo.redomi.repo",
+      "version_code": 10300,
+      "version_name": "1.3.0-(repo)",
+      "tag": "1.3.0",
+      "commit": "971abf43317c3d406219d8b4c80fd800204f81bf",
+      "timestamp": 1733245544,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
