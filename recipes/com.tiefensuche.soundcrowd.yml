@@ -1,0 +1,46 @@
+---
+repository: https://github.com/soundcrowd/soundcrowd.git
+updates: releases
+versions:
+  - tag: v3.6.1
+    apks:
+      - apk_pattern: soundcrowd\.apk
+        apk_url: https://github.com/soundcrowd/soundcrowd/releases/download/v3.6.1/soundcrowd.apk
+        build:
+          - git clone https://github.com/soundcrowd/soundcrowd-plugin.git
+          - pushd soundcrowd-plugin
+          - git checkout 5ef111cd40dd595c8831854da0106a37fa750784
+          - ./gradlew publishToMavenLocal
+          - popd
+          - git clone https://github.com/soundcrowd/soundcrowd-waveform.git
+          - pushd soundcrowd-waveform
+          - git checkout 167dd57c3d387ce2ea106d9fdae55fd6ecec3a25
+          - ./gradlew publishToMavenLocal
+          - popd
+          - sed -r 's/mavenCentral\(\)/mavenCentral()\nmavenLocal()/' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 4 --pad-like-apksigner --replace app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
