@@ -867,6 +867,20 @@
       "error": null
     }
   ],
+  "7fbec512058b9661ff0a7230084371ec713f839968cf65ceaf14d9c11d1bbb7a": [
+    {
+      "repository": "https://github.com/vbresan/MindfulAttentionAwarenessScale.git",
+      "apk_url": "https://github.com/vbresan/MindfulAttentionAwarenessScale/releases/download/7/biz.binarysolutions.mindfulscale-1.0.6-withoutAds-release.apk",
+      "appid": "biz.binarysolutions.mindfulscale",
+      "version_code": 7,
+      "version_name": "1.0.6",
+      "tag": "7",
+      "commit": "3f9cab3074849c983433e4da1e3dec62a8483d1f",
+      "timestamp": 1733334360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2364cac58c0ab3d9624d8439526214858e89da6f8d911c0bee2ba391948e96a1": [
     {
       "repository": "https://github.com/LeoColman/Petals.git",
@@ -2697,6 +2711,20 @@
       "tag": "2024.11.1078-dev",
       "commit": "9a4cb2a1b79d5d790982f920b7beedcc38e1ecdc",
       "timestamp": 1732643153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee0700a223dd30f3beb6bc352a7750022eb2443692b64af269e0f5cd2b488d04": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1080-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1080,
+      "version_name": "2024.12.1080-dev",
+      "tag": "2024.12.1080-dev",
+      "commit": "cc74679272bd1fc15990cc62ef7496bb46536c9b",
+      "timestamp": 1733334562,
       "reproducible": true,
       "error": null
     }
@@ -8215,6 +8243,20 @@
       "error": null
     }
   ],
+  "131c19b8b733b58d6932dfb040099c22fd847cd9fb51f77797045cc618041c09": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.2.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 16,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "8797b5835cd6f119ecc1ccd2e734f90d5ee96598",
+      "timestamp": 1733335170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -8647,6 +8689,20 @@
       "timestamp": 1732298643,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "cf7f5d7c0fe6660fe9d5fa66c1ff2bfefb0bed23327684eac8864c3169f02d71": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.4/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2004,
+      "version_name": "1.0.4",
+      "tag": "V1.0.4",
+      "commit": "16424506eca3144e91ccb49ba8bc39d561224849",
+      "timestamp": 1733336380,
+      "reproducible": false,
+      "error": null
     }
   ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
@@ -11640,6 +11696,20 @@
       "commit": "fedb770c6025ec6aeb3b634b094e4bd0236b1c4a",
       "timestamp": 1722617270,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5f0bbbc7855808bd383a6329bdd73a0d3bdaba2d7dd4495c0b11e23367115f9": [
+    {
+      "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
+      "apk_url": "https://github.com/IAEAOrg/IsotopeBrowser/releases/download/v5.42.86/Nuclides_x.V156_5.42.86.apk",
+      "appid": "iaea.nds.nuclides",
+      "version_code": 156,
+      "version_name": "5.42.86",
+      "tag": "v5.42.86",
+      "commit": "0aed6532d75576b04aef6f21be21ac5317dd01da",
+      "timestamp": 1733335552,
+      "reproducible": false,
       "error": null
     }
   ],

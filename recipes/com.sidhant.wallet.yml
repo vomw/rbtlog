@@ -74,3 +74,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: V1.0.4
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/sidhant947/Wallet/releases/download/V1.0.4/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - flutter_version=3.24.5
+          - git clone -b $flutter_version https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache NO_SIGNING=true
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64"
+          - mv build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/sidhant
+        build_repo_dir: /home/sidhant/Downloads/Projects/wallet/wallet
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
