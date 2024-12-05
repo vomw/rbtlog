@@ -223,6 +223,20 @@
       "error": null
     }
   ],
+  "73a79082c9de876e572f2d2d5af78f93032856af00b6f76a8e4ff3fa4ab46b04": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.3/Podcini.R_release_free_6.15.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020312,
+      "version_name": "6.15.3",
+      "tag": "6.15.3",
+      "commit": "d782c09c4d13fe16709235c51facbcc8cb46f5b5",
+      "timestamp": 1733420844,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3849,6 +3863,20 @@
       "error": null
     }
   ],
+  "aba437b1bb08e4091150a9e053b58316e36d94bb6a05094792416a981f6c37b2": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.7/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 125,
+      "version_name": "4.0.7",
+      "tag": "4.0.7",
+      "commit": "6bc5d9a0b218373887be589e00da3d99375fb65d",
+      "timestamp": 1733421408,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -4923,6 +4951,20 @@
       "tag": "2.5.10",
       "commit": "91c8c7809aedae629bf39a58e3700a1535367d46",
       "timestamp": 1732471048,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fb6ee2696bf493861b6df3ce564bd0aac2da3811f95cf6a8ca708e1c4447f9a9": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.12/fdroidRelease-2.5.12.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30512,
+      "version_name": "2.5.12",
+      "tag": "2.5.12",
+      "commit": "c02a30cff907c3343998829e696849e2caf5edce",
+      "timestamp": 1733421742,
       "reproducible": true,
       "error": null
     }
@@ -11391,6 +11433,20 @@
       "error": null
     }
   ],
+  "51f479c60f342bc11468d7fe09c082031747129cf33176e8fbef14134899d5da": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2250/FairEmail-v1.2250a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2250,
+      "version_name": "1.2250",
+      "tag": "1.2250",
+      "commit": "5d1553c968b9b3f2ec6d1388597524e0b5a828e4",
+      "timestamp": 1733422130,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -11724,6 +11780,18 @@
       "commit": "0aed6532d75576b04aef6f21be21ac5317dd01da",
       "timestamp": 1733335552,
       "reproducible": false,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
+      "apk_url": "https://github.com/IAEAOrg/IsotopeBrowser/releases/download/v5.42.86b/Nuclides_x.V156_5.42.86b.apk",
+      "appid": "iaea.nds.nuclides",
+      "version_code": 156,
+      "version_name": "5.42.86",
+      "tag": "v5.42.86b",
+      "commit": "d65fe4f5713120a1056ef8f4c8c172a72ac4429f",
+      "timestamp": 1733393577,
+      "reproducible": true,
       "error": null
     }
   ],
