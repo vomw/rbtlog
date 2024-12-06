@@ -237,6 +237,20 @@
       "error": null
     }
   ],
+  "31d2608d8c139bbe9c3d330045d4e230fd5b680f7e63d803f199e7069d1916c2": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.4/Podcini.R_release_free_6.15.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020313,
+      "version_name": "6.15.4",
+      "tag": "6.15.4",
+      "commit": "cce73998c12e590631adf9d061828a50e78e65ca",
+      "timestamp": 1733507161,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3219,6 +3233,20 @@
       "error": null
     }
   ],
+  "e4041e4f592130ef1da1dcaa8a00d382cfccf1c8ce591dce2eb5c8ffe6e727bc": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.1.2/YTDLnis-1.8.1.2-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108010204,
+      "version_name": "1.8.1.2",
+      "tag": "v1.8.1.2",
+      "commit": "3c3ef92cbd36345a98a3857848b72f0b0c9c95b1",
+      "timestamp": 1733507493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -5301,6 +5329,20 @@
       "tag": "v3.5.0",
       "commit": "827a9b85722d555ee1fd7fef6b4d638850ba1bf2",
       "timestamp": 1733165284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "09a163a0d33b930c194773ea2e151889964b4000eabc5bdefc8a8a43d0436e11": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.6.0/ExoPlayer-AirPlay-Receiver-003.06.00-21API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3060021,
+      "version_name": "003.06.00-21API",
+      "tag": "v3.6.0",
+      "commit": "40f6b516522dfc9dbeac051890c2bc79706335a5",
+      "timestamp": 1733507907,
       "reproducible": true,
       "error": null
     }
@@ -9419,6 +9461,34 @@
       "error": null
     }
   ],
+  "796db6f2904cc3a6863aa23c0688deb9a1e68d10d9d329c07b45b45b7ba84056": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.7.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30700,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "7577aa78cc52dc5c4e3de655c329dd01a34f9b16",
+      "timestamp": 1733508094,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac416a936a19e3915d38dce1dd549999ce2f2fd77cfa15f9d1c2929d33d0dc7f": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.7.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30700,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "7577aa78cc52dc5c4e3de655c329dd01a34f9b16",
+      "timestamp": 1733508243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -11805,6 +11875,20 @@
       "tag": "v5.42.86b",
       "commit": "d65fe4f5713120a1056ef8f4c8c172a72ac4429f",
       "timestamp": 1733393577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "00d3ea58f317c066df7683079084951655bcfab86de321c9b9c7fb1fab54781f": [
+    {
+      "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
+      "apk_url": "https://github.com/IAEAOrg/IsotopeBrowser/releases/download/v5.43.86/Nuclides_x.V157_5.43.86.apk",
+      "appid": "iaea.nds.nuclides",
+      "version_code": 157,
+      "version_name": "5.43.86",
+      "tag": "v5.43.86",
+      "commit": "71eb6cb8a6a49bab7f9731f1c6a57f46fe793b08",
+      "timestamp": 1733508406,
       "reproducible": true,
       "error": null
     }
@@ -14455,6 +14539,20 @@
       "error": null
     }
   ],
+  "b455af12b6b23a07c75653d8c907e0665d089fc8534116c166fa94ed0190c24d": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.2.2/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 13,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "cfbf9077a0dac4c3442b6771997b2878feb7b8c0",
+      "timestamp": 1733508534,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ff2d42be6815e8cdae4f0a5d282afa46d043badb8bcc13a701f27d70334842a1": [
     {
       "repository": "https://github.com/TeamNewPipe/NewPipe.git",
@@ -15627,6 +15725,20 @@
       "tag": "2.0.2",
       "commit": "906a2970ce407827724cee6f81231900c402d44d",
       "timestamp": 1732731316,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49048177e6e5891059dabe7387b40bfbd2a3ea4654f1194da352a3641efdb370": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.3/yetCalc-v2.0.3.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 19,
+      "version_name": "2.0.3",
+      "tag": "2.0.3",
+      "commit": "114526f96b77698fbbdc129afc4556f90d187530",
+      "timestamp": 1733508704,
       "reproducible": true,
       "error": null
     }
