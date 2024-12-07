@@ -965,6 +965,20 @@
       "error": null
     }
   ],
+  "83c345f6ed1aa112695820325fd23c0185945f87069b29a3181ff3dbafd09b62": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.31.1/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 331010,
+      "version_name": "3.31.1",
+      "tag": "3.31.1",
+      "commit": "465c43d1c2ac0e4c76a98210c46671570d0c5656",
+      "timestamp": 1733593571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -1129,6 +1143,20 @@
       "tag": "v1.49.0",
       "commit": "7f89ecea5c78a45e54bf2bdcd5a4646890fcf4d8",
       "timestamp": 1733129219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d16dd3f91de43e922472e59526ddb35cfe17210897206788daa86299576c22aa": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.50.3/ArcaneChat-foss-armeabi-v7a-1.50.3.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300006991,
+      "version_name": "1.50.3",
+      "tag": "v1.50.3",
+      "commit": "811089f3b375f3126f4e5c40f776cab8643f5ce4",
+      "timestamp": 1733593919,
       "reproducible": true,
       "error": null
     }
@@ -2767,6 +2795,20 @@
       "tag": "2024.12.1080-dev",
       "commit": "cc74679272bd1fc15990cc62ef7496bb46536c9b",
       "timestamp": 1733334562,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a906f99772919ce419f782417cccd1d6de9cfc601d59e46912e6fc49e93dad2b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1081-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1081,
+      "version_name": "2024.12.1081-dev",
+      "tag": "2024.12.1081-dev",
+      "commit": "5c747976ca537212d077ef4d69d09c99b2747f15",
+      "timestamp": 1733594987,
       "reproducible": true,
       "error": null
     }
@@ -7473,6 +7515,20 @@
       "error": null
     }
   ],
+  "11fd17d71f2d88fb0407393741e6bf37a860ac7868c49b4d76233dcca4cb8caa": [
+    {
+      "repository": "https://github.com/stud0709/OneMoreSecret.git",
+      "apk_url": "https://github.com/stud0709/OneMoreSecret/releases/download/v0.33-alpha/app-foss-release.apk",
+      "appid": "com.onemoresecret",
+      "version_code": 33,
+      "version_name": "0.33-alpha",
+      "tag": "v0.33-alpha",
+      "commit": "036bff68447a5be2e6faec1ea5fd0320881a503c",
+      "timestamp": 1733597084,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0f6596ac22a4ab18a06849817c10513d7b3a16bb53e5a9c4423b3b7505897f99": [
     {
       "repository": "https://github.com/Theta-Limited/OpenAthenaAndroid.git",
@@ -7735,6 +7791,20 @@
       "tag": "v6.2.0",
       "commit": "aa5a14d962b426119a279fd06848fb0a65982ee6",
       "timestamp": 1733249330,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b58cde2d640acdd302dad9bf41a7e026828fa02dc1435095c245270cc7e75c11": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v6.2.1/NotallyX-6.2.1.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 621,
+      "version_name": "6.2.1",
+      "tag": "v6.2.1",
+      "commit": "c228eb341df4e6f9b79e7f9bfc522b6af2761525",
+      "timestamp": 1733595506,
       "reproducible": true,
       "error": null
     }
@@ -10985,6 +11055,20 @@
       "error": null
     }
   ],
+  "3965ca5350ab29a3dd2c2370899c464113f7dcef913ed9a4bdfb099bd272ba8c": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.0.3/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 3,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "618584c7e0a9464769c6c94260ce4ecd01618eb6",
+      "timestamp": 1733596066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -12075,6 +12159,20 @@
       "error": null
     }
   ],
+  "d7402e51746199cbe010fc5ea4024c0d993d25a314c664208514c31eb9c3d9c6": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/f1e80c3ef187c0cadd630b266aa79279/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 11,
+      "version_name": "v0.11",
+      "tag": "v0.11",
+      "commit": "18fa1cefe27d753bd1ff88535865514a46992d26",
+      "timestamp": 1733596349,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0504f18d07ebf1afbca4ba7e0f6e91e669a5f7ec6e34dc0377df504c0f9a680f": [
     {
       "repository": "https://gitlab.com/sunilpaulmathew/izzyondroid.git",
@@ -12631,6 +12729,20 @@
       "tag": "v0.6.62.2",
       "commit": "0f6227b6d3fbba6162ad8553065816229f1379ff",
       "timestamp": 1733179699,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f0c9f3c2304d2dfc142cc07fbf9356ec79ff47f41adb8e6d9c5b056713b8841": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.63/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 73,
+      "version_name": "0.6.63",
+      "tag": "v0.6.63",
+      "commit": "6f86af67676ec0f4bfaa23a5003c29448c672c70",
+      "timestamp": 1733596484,
       "reproducible": true,
       "error": null
     }
