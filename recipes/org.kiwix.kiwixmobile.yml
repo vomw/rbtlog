@@ -1,0 +1,36 @@
+---
+repository: https://github.com/kiwix/kiwix-android.git
+updates: releases
+notes:
+  - versionCode is dynamically generated, based on buildtime https://github.com/kiwix/kiwix-android/blob/116180e6f02ac34525bca6bfd1e115060d376322/buildSrc/src/main/kotlin/VersionCodeGenerator.kt#L22 – https://github.com/kiwix/kiwix-android/issues/4120
+versions:
+  - tag: 3.12.0
+    apks:
+      - apk_pattern: kiwix-.-*armeabi-v7a-release\.apk
+        apk_url: https://github.com/kiwix/kiwix-android/releases/download/3.12.0/kiwix-armeabi-v7a-release.apk
+        build:
+          - GRADLE_VERSION="$(sed -rn 's/distributionUrl.*gradle-([0-9.]+).*\.zip/\1/p' gradle/wrapper/gradle-wrapper.properties)"
+          - sed -r 's/return baseVersionCode \+ daysDifference/return 231235/' -i buildSrc/src/main/kotlin/VersionCodeGenerator.kt
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version $GRADLE_VERSION -v assembleRelease -PdisableSigning
+          - mv app/build/outputs/apk/release/kiwix-armeabi-v7a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
