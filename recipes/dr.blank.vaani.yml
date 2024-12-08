@@ -2,7 +2,7 @@
 repository: https://github.com/Dr-Blank/Vaani.git
 updates: releases
 notes:
-  - 'TODO: ask to pin shelfsdk to a commit/tag, same for Flutter version (stable=3.24.3 at time of v0.0.15; RB fails with 3.24.5) – done in https://gitlab.com/IzzyOnDroid/repo/-/issues/623#note_2223795085'
+  - 'FIXME: shelfsdk is now a git submodule, Flutter version now in pubspec.yaml – done in https://gitlab.com/IzzyOnDroid/repo/-/issues/623#note_2223795085'
 versions:
   - tag: v0.0.15
     apks:
