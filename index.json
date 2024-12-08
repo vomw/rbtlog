@@ -3947,6 +3947,20 @@
       "error": null
     }
   ],
+  "8bb9dd93a96e1645781c45ca36cb2bcd55ab62c78602e6980508833c0d72db17": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.8/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 126,
+      "version_name": "4.0.8",
+      "tag": "4.0.8",
+      "commit": "e7e8be98b9c9f28f4bcdb2b769cb91cf78595a0e",
+      "timestamp": 1733679997,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -4871,6 +4885,20 @@
       "error": null
     }
   ],
+  "981262be7c83389fd2920ff93d8ca2388ba76ddd3ec9aeabae99356d28ba99be": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.12.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 89,
+      "version_name": "1.12.2",
+      "tag": "v1.12.2",
+      "commit": "d4324d71a02f3a631560beff25d2f715fa5d2d2c",
+      "timestamp": 1733680324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -5385,6 +5413,20 @@
       "tag": "v3.6.0",
       "commit": "40f6b516522dfc9dbeac051890c2bc79706335a5",
       "timestamp": 1733507907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cb0232630dec825c58a247e0eec95c9c48cdeafaf89f3d0a887832600c8f1e15": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.7.0/ExoPlayer-AirPlay-Receiver-003.07.00-21API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3070021,
+      "version_name": "003.07.00-21API",
+      "tag": "v3.7.0",
+      "commit": "cca1cbb2b00d0546d92bbc2b2a2930ba49af2b92",
+      "timestamp": 1733680559,
       "reproducible": true,
       "error": null
     }
@@ -5973,6 +6015,20 @@
       "tag": "v6.3.1",
       "commit": "7e6b3d9d150c2711c426b2e4293b8e83f571a84d",
       "timestamp": 1731005155,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b01630230732f73356bdda8bd4aa051d91e6845e355188400d548209157bee82": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v6.4.0/NeverTooManyBooks-6.4.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 90,
+      "version_name": "6.4.0",
+      "tag": "v6.4.0",
+      "commit": "9cb1f1576052746c616d70ae7bd4f2df256adb87",
+      "timestamp": 1733680826,
       "reproducible": true,
       "error": null
     }
@@ -8467,6 +8523,20 @@
       "error": null
     }
   ],
+  "a4c4da1e10a6323f06c0a8392066bf5e7c6bdc62ffa0b9a49274206d49668195": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.2.2/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 18,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "e35a8ecf60005da21314bd91612696cfc603bdb8",
+      "timestamp": 1733681075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -8873,6 +8943,20 @@
       "error": null
     }
   ],
+  "db32d652b393012c9f8e6b1f1ef981cb35d524777743fa0285faed4ed029739f": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.3.9/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 238,
+      "version_name": "2.3.9",
+      "tag": "2.3.9",
+      "commit": "2577e83923fae47fb33514edc967637174b9ead5",
+      "timestamp": 1733681304,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -9179,6 +9263,20 @@
       "timestamp": 1733077944,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "b78d276572730f4630a5a9a26e8082829160af2c44e8c398ec8851d0032dfc86": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.3.2/CuteMusic_v2.3.2.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 19,
+      "version_name": "2.3.2",
+      "tag": "v2.3.2",
+      "commit": "84ef42f0e659c305c669ac25e61367d27e80ce29",
+      "timestamp": 1733595771,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpkvwmfz30/outputs:/outputs', '--volume', '/tmp/tmpkvwmfz30/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/sosauce/CuteMusic.git', '--env', 'APP_TAG=v2.3.2', '--env', 'APP_COMMIT=84ef42f0e659c305c669ac25e61367d27e80ce29', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
@@ -9751,6 +9849,20 @@
       "tag": "2.0.4",
       "commit": "d2df68fe0d93f463c0b076a2b099c8b22ad01372",
       "timestamp": 1733078239,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c46be3be0840651548328a54c242e46ba2ec74590ea87371165fc0aad1b99a50": [
+    {
+      "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
+      "apk_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.5/DataBackup-2.0.5-armeabi-v7a-foss-release.apk",
+      "appid": "com.xayah.databackup.foss",
+      "version_code": 3411113,
+      "version_name": "2.0.5",
+      "tag": "2.0.5",
+      "commit": "e92f86f11b6abbf24e56c87beb3152e835ca8595",
+      "timestamp": 1733682291,
       "reproducible": true,
       "error": null
     }
@@ -10691,6 +10803,20 @@
       "error": null
     }
   ],
+  "f2e16267a59af6476e89d85be3af3968843f59653edd73df9f57be5a4a574b6b": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.13/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1130,
+      "version_name": "1.0.0-alpha.13",
+      "tag": "v1.0.0-alpha.13",
+      "commit": "739daa4070f620bde50b65f895e556a06d82991e",
+      "timestamp": 1733682976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -11093,6 +11219,20 @@
       "tag": "v1.0.3",
       "commit": "618584c7e0a9464769c6c94260ce4ecd01618eb6",
       "timestamp": 1733596066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9176ca68302a3da3a4d0b17417da04cff50ef77454006709c45b5f2debc35fe1": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.0.5/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 5,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "d21ef6518ea2db33d7843095e84631e7f20c8841",
+      "timestamp": 1733683402,
       "reproducible": true,
       "error": null
     }
@@ -12775,6 +12915,20 @@
       "error": null
     }
   ],
+  "aa590b44436e78a7486a482af78b83f10b0912947b131c16e8482ea1a9f3ff3b": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.63.1/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 74,
+      "version_name": "0.6.63.1",
+      "tag": "v0.6.63.1",
+      "commit": "522d4b779727ed3a3ebf00b06c759466b4a6d773",
+      "timestamp": 1733683635,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -14413,6 +14567,20 @@
       "error": null
     }
   ],
+  "2ebb71cb122a5cb7a91fef7884b9fe67a829c37b42d658b44026cf379859bf95": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.8.1/wikireader-v1.8.1-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 17,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "0ecd6ff4bec2e547798666e16932350a74a04a32",
+      "timestamp": 1733684291,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -15823,6 +15991,20 @@
       "tag": "1.4.0",
       "commit": "aaea1e2f989e8b65153ad299442aff197c94fe0a",
       "timestamp": 1732216883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7deb13efd32c9b3dc6a2acb5a2e2ca7186169c2179fc6b9b4f81dfe765026426": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.4.1/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 19,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "4c3e96fcf3514869708ad7b4e72bd2231ef23a07",
+      "timestamp": 1733684504,
       "reproducible": true,
       "error": null
     }
