@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: 3.12.0
     apks:
-      - apk_pattern: kiwix-.-*armeabi-v7a-release\.apk
+      - apk_pattern: kiwix-.*armeabi-v7a-release\.apk
         apk_url: https://github.com/kiwix/kiwix-android/releases/download/3.12.0/kiwix-armeabi-v7a-release.apk
         build:
           - GRADLE_VERSION="$(sed -rn 's/distributionUrl.*gradle-([0-9.]+).*\.zip/\1/p' gradle/wrapper/gradle-wrapper.properties)"

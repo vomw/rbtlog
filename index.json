@@ -6187,6 +6187,20 @@
       "error": null
     }
   ],
+  "51a633ce633c5621f49c3957ee90982f6c0d65ca9bf0fa3d700c11782fade42a": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v2.0.3/com.hifnawy.caffeinate.release_release_v2.0.3.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 34,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "dfe59c6bec8b7b6fa19c3d29639e59318ae3fb8d",
+      "timestamp": 1733766383,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dec0421ef60c93b74a11af3817cd2dea59c560f9aaaa62f63a793da391b9a30": [
     {
       "repository": "https://github.com/Armand31/Dividoc.git",
@@ -7693,6 +7707,20 @@
       "tag": "v1.14.1",
       "commit": "5449065b6e414ffaa977c327f43d92da62749440",
       "timestamp": 1732928673,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0afba4abdab942103b91e9095adcd2d13c84ca64b55747441b8b07c6a0536325": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.15.0/openscq30_android.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 29,
+      "version_name": "1.15.0",
+      "tag": "v1.15.0",
+      "commit": "7b4e2ba565c88555e9e2536f8c4b8297ab440e4c",
+      "timestamp": 1733766617,
       "reproducible": true,
       "error": null
     }
@@ -9291,6 +9319,20 @@
       "timestamp": 1733595771,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpkvwmfz30/outputs:/outputs', '--volume', '/tmp/tmpkvwmfz30/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/sosauce/CuteMusic.git', '--env', 'APP_TAG=v2.3.2', '--env', 'APP_COMMIT=84ef42f0e659c305c669ac25e61367d27e80ce29', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "3ab504999dd1aa5b677eda7f62987aeaced7d74e1d5f6d64fe43a8cd28156a7a": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.3.3/CuteMusic_v2.3.3.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 20,
+      "version_name": "2.3.3",
+      "tag": "v2.3.3",
+      "commit": "476cb2afe91b0105451658389405b4e4342f4179",
+      "timestamp": 1733767289,
+      "reproducible": true,
+      "error": null
     }
   ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
@@ -11247,6 +11289,20 @@
       "tag": "v1.0.5",
       "commit": "d21ef6518ea2db33d7843095e84631e7f20c8841",
       "timestamp": 1733683402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0726418f43062d8d08702bec7aa68d0256416227332c0e50728ace9e8a4ee8b0": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.0.7/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 7,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "0d5b2eb580caa921dcd935460dbdd70c88324783",
+      "timestamp": 1733767928,
       "reproducible": true,
       "error": null
     }
@@ -14623,6 +14679,20 @@
       "error": null
     }
   ],
+  "9d671adc2c70d4f0451a9cb54f026cad129814cd2b0a50ec182c4e040aed6761": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.8.2/wikireader-v1.8.2-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 18,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "bbdfdf8dc7fd0c547b8ede113ef87adcd5dc3d22",
+      "timestamp": 1733768162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -15347,6 +15417,20 @@
       "tag": "v4.2.1",
       "commit": "dc1e4eb9d46d56a6bb12efae3f09b409475c8396",
       "timestamp": 1730817824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f65e9716c68a7ac67a95bffca0cc9fef32ce6ce0405f8a09de7a384dffd30e7d": [
+    {
+      "repository": "https://github.com/Lambada10/SongSync.git",
+      "apk_url": "https://github.com/Lambada10/SongSync/releases/download/v4.2.2/app-release.apk",
+      "appid": "pl.lambada.songsync",
+      "version_code": 422,
+      "version_name": "4.2.2",
+      "tag": "v4.2.2",
+      "commit": "c9a6ff69f6c8be3f1e401ce64e87ad12d87edc91",
+      "timestamp": 1733768414,
       "reproducible": true,
       "error": null
     }
