@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/RichardLuo0/global-icon-pack-android.git
 updates: releases
+notes:
+  - 'FIXME: gradle version is now specified in gradle.properties, so remove --version from call to gradlew.py'
 versions:
   - tag: 0.0.6
     apks:
