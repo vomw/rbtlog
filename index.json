@@ -265,6 +265,20 @@
       "error": null
     }
   ],
+  "5bee6088d26a25c7fc94f0b73d53f6eee3ff7a7abf3272cd9d4958a7eb7f2c9e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.6/Podcini.R_release_free_6.15.6_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020316,
+      "version_name": "6.15.6",
+      "tag": "6.15.6",
+      "commit": "92cd81b351781e751adbd115111c40a448aa5227",
+      "timestamp": 1733939170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2869,6 +2883,20 @@
       "error": null
     }
   ],
+  "70b912bba1f61ef4850666155d9b1b749e9b6d397589ab08a59f56e63a89f8ab": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1082-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1082,
+      "version_name": "2024.12.1082-dev",
+      "tag": "2024.12.1082-dev",
+      "commit": "b58fcaa6795cce0e3a2b954ea55b92a507935d6b",
+      "timestamp": 1733939580,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -4969,6 +4997,20 @@
       "error": null
     }
   ],
+  "bcdbf78a18add31a26ba17debf663b6255ccbfcaf90ffa26705e8bea2544495b": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.12.3/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 90,
+      "version_name": "1.12.3",
+      "tag": "v1.12.3",
+      "commit": "fd837eef368209fef5ab3c0da3aba7a48527343f",
+      "timestamp": 1733940047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -5329,6 +5371,20 @@
       "tag": "3.4.2",
       "commit": "5fdcb7f5db3888a46bd9fdb91fbd8cbb86396917",
       "timestamp": 1729269922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "504042ec665b24063215a7a42e85ee8434a7d4c0100f77d0e5846e3bb4defc2d": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.3/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2099754,
+      "version_name": "3.4.3",
+      "tag": "3.4.3",
+      "commit": "7d2c3489ac4db45bc556068f7c2c13b83d26343f",
+      "timestamp": 1733940374,
       "reproducible": true,
       "error": null
     }
@@ -8201,6 +8257,20 @@
       "error": null
     }
   ],
+  "2fa021d758a079bc9b04cb8ba390f337714426367708f8c9e796f62e2a9f43c2": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.0.8/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 8,
+      "version_name": "0.0.8",
+      "tag": "0.0.8",
+      "commit": "dd176f4f088b025d8a4768b78d9b16b223ffe874",
+      "timestamp": 1733941265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -8757,6 +8827,20 @@
       "tag": "1.3.4",
       "commit": "aec6d8d66636b6eed0e12a923a76321b6a3602d3",
       "timestamp": 1733163011,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48a4960c869e1724c9098583b37fd8b111a7ec151856be14421253b68e37548a": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/1.3.5/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 8,
+      "version_name": "1.3.5",
+      "tag": "1.3.5",
+      "commit": "989645e08a2b553c5cee130c90ea7426427096fb",
+      "timestamp": 1733941547,
       "reproducible": true,
       "error": null
     }
@@ -10747,6 +10831,20 @@
       "error": null
     }
   ],
+  "8e04d252e88d7eb8a9905b27bf7d61adbe33992f485bdd85ac7de5564e1c6e6b": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/CallForwarding.git",
+      "apk_url": "https://github.com/Kaiserdragon2/CallForwarding/releases/download/v2.1/CallForwardingStatus-v2.1.apk",
+      "appid": "de.kaiserdragon.callforwardingstatus",
+      "version_code": 8,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "21f69b15fbe98b2d0d422c33ff5d01a78c818660",
+      "timestamp": 1733943170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f37496b8a93e4f791e2e1637bf80042057eef59afb840add5813a3043f5ee9b4": [
     {
       "repository": "https://github.com/Kaiserdragon2/IconRequest.git",
@@ -11051,6 +11149,20 @@
       "tag": "Beta-v1.9.2",
       "commit": "7759c0e0a9b711e8da6f021ac66766616d80af6a",
       "timestamp": 1720953953,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "827c6f5fc5c84f68279a7065876c88912796838587107e1dd20c000855517baf": [
+    {
+      "repository": "https://codeberg.org/monocles/monocles_browser.git",
+      "apk_url": "https://codeberg.org/monocles/monocles_browser/releases/download/v1.9.2/monocles_browser-standard-release.apk",
+      "appid": "de.monocles.browser.standard",
+      "version_code": 13,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "5a7fc99ddb08c93a0b4e440e6220ff552b6983a7",
+      "timestamp": 1733943581,
       "reproducible": true,
       "error": null
     }
@@ -15641,6 +15753,20 @@
       "tag": "v0.13.4",
       "commit": "189026fe3bb5e11885596530b0383e6fc052049c",
       "timestamp": 1733250209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e42f5a7ce720db1cfb471e34a5fb6564dcd5a3262bb5b97f63fee26480800aa0": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.13.5/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 34,
+      "version_name": "0.13.5",
+      "tag": "v0.13.5",
+      "commit": "7f8a477312143c47e421c9c866ada8e01ae84a66",
+      "timestamp": 1733942736,
       "reproducible": true,
       "error": null
     }

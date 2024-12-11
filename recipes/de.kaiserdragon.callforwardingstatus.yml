@@ -4,7 +4,7 @@ updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for v1.8 (manually adjusted)'
   - 'FIXED: embedded commit hash mismatch for v1.9 (manually adjusted)'
-  - 'FIXME: missing gradle-wrapper JAR, see https://github.com/Kaiserdragon2/CallForwarding/issues/13'
+  - 'FIXED: missing gradle-wrapper JAR, see https://github.com/Kaiserdragon2/CallForwarding/issues/13'
 versions:
   - tag: v1.8
     apks:
@@ -63,6 +63,34 @@ versions:
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v2.1
+    apks:
+      - apk_pattern: CallForwardingStatus-.*\.apk
+        apk_url: https://github.com/Kaiserdragon2/CallForwarding/releases/download/v2.1/CallForwardingStatus-v2.1.apk
+        build:
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py -v assembleRelease
+          - mv app/build/outputs/apk/release/CallForwardingStatus-*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
           ndk:
           platform:
           platform_tools:
