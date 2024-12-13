@@ -279,6 +279,20 @@
       "error": null
     }
   ],
+  "d3939f106a36ec842a993a8d8b1fb1e1c763b40c51b1d58956092e934d1c3251": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.8/Podcini.R_release_free_6.15.8_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020318,
+      "version_name": "6.15.8",
+      "tag": "6.15.8",
+      "commit": "8c0c56865b89d7babea2ba1921a5ab11756907b1",
+      "timestamp": 1734116795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2897,6 +2911,20 @@
       "error": null
     }
   ],
+  "f5bf77f5aa913c14d1707087721c39700d75a03c17180efee0889e3fd4837c8c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1083/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1083,
+      "version_name": "2024.12.1083",
+      "tag": "2024.12.1083",
+      "commit": "5d4f04037bc48702c426cf6fea35220179915359",
+      "timestamp": 1734117254,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5263,6 +5291,20 @@
       "error": null
     }
   ],
+  "710778d9d35e04e7ed831ba8040b35c60ecf86761564cdb977f518e1e565c080": [
+    {
+      "repository": "https://gitlab.com/axet/android-ping-utils.git",
+      "apk_url": "https://gitlab.com/-/project/31631246/uploads/be15524dce57733d1cfb4b91ae5163c1/pingutils-0.2.8-release.apk",
+      "appid": "com.github.axet.pingutils",
+      "version_code": 40,
+      "version_name": "0.2.8",
+      "tag": "pingutils-0.2.8",
+      "commit": "31686f01372bee8673234c4f4de7bb9e858a3137",
+      "timestamp": 1734117670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3a2da02196e91445879523bc6e8d92779cb5c167bb93c5ec9b41d55f41861061": [
     {
       "repository": "https://github.com/capntrips/KernelFlasher.git",
@@ -7206,6 +7248,20 @@
       "commit": "52faa2eaa1b6a207a23548cbfe81faee0f72be96",
       "timestamp": 1732471457,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "79f13bbb8c74b990574901027ed7d449fece3dfe878b8aebca7f64f959322a0a": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.9.1/localmaterialnotes_arm64-v8a_v1.9.1.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 212,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "7a4c7d3cd8a4272e5b8e1b101fcfbcbcb6246084",
+      "timestamp": 1734117825,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -15981,6 +16037,20 @@
       "error": null
     }
   ],
+  "769811ec30f405a66e474b27464b2e8031be38936a8cccf89adc3396c2909ae2": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.1.1/image-toolbox-3.1.1-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 161,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "0af0ba8569f22a60bc8faffa15c9eb5f73acf4df",
+      "timestamp": 1734124168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ac1634c982b246b9cfd7c2b81c174aadda5ea464739848998301260b7438f8": [
     {
       "repository": "https://github.com/nightkr/flickboard.git",
@@ -16593,6 +16663,20 @@
       "tag": "2.0.3",
       "commit": "114526f96b77698fbbdc129afc4556f90d187530",
       "timestamp": 1733508704,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "921439a2a5ace6491ba84852488506354e939df2a88f197199ca199a70402a10": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.4/yetCalc-v2.0.4.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 20,
+      "version_name": "2.0.4",
+      "tag": "2.0.4",
+      "commit": "ab660fbaa34a391aa469b8bb8848e47057e288af",
+      "timestamp": 1734121614,
       "reproducible": true,
       "error": null
     }
