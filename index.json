@@ -293,6 +293,20 @@
       "error": null
     }
   ],
+  "0148d517b504b92b2e54518b971c0a92a6a43aaa5c205a9d56265f8b562804a2": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.15.9/Podcini.R_release_free_6.15.9_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020319,
+      "version_name": "6.15.9",
+      "tag": "6.15.9",
+      "commit": "2e6d22c19c720a649fa63e37fa545158f9546a69",
+      "timestamp": 1734198369,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -895,6 +909,20 @@
       "error": null
     }
   ],
+  "3454375d70f9024fe27a23075e9af2302126f0b83c626d988f07afc28d991fc2": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/11/biz.binarysolutions.healthybatterycharging-2.0.9-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 11,
+      "version_name": "2.0.9",
+      "tag": "11",
+      "commit": "36c7cbaf294b13f0c1f9193ce06485ce0e4649c8",
+      "timestamp": 1734204327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5a05791ad481c22af69088b9cd1d89e38206d0d9d56e9d54beb0ea1730516811": [
     {
       "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
@@ -1199,6 +1227,20 @@
       "tag": "v1.50.3",
       "commit": "811089f3b375f3126f4e5c40f776cab8643f5ce4",
       "timestamp": 1733593919,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "80c925094073e592241c18c6b82e3e69c6cdb97ee35ca88e1d910ce3d11ba622": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.50.4/ArcaneChat-foss-armeabi-v7a-1.50.4.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007001,
+      "version_name": "1.50.4",
+      "tag": "v1.50.4",
+      "commit": "3a5f9b3fed5727cb82a0fa4b6409f0946ab68735",
+      "timestamp": 1734198827,
       "reproducible": true,
       "error": null
     }
@@ -6691,6 +6733,20 @@
       "error": null
     }
   ],
+  "c622d48649795642cb107e33ee4a7192445bc4a8f23472c0797dab46a114cefa": [
+    {
+      "repository": "https://github.com/Kin69/EasyNotes.git",
+      "apk_url": "https://github.com/Kin69/EasyNotes/releases/download/1.4/EasyNotes.apk",
+      "appid": "com.kin.easynotes",
+      "version_code": 9,
+      "version_name": "1.4",
+      "tag": "1.4",
+      "commit": "ea22b1c587d5a9cc04df3d0ec4845e85dd6ded38",
+      "timestamp": 1734199610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1cb54a55aadb4d46d992709e490544c792476fc115041557fbb563d5d0004d20": [
     {
       "repository": "https://github.com/KipJM/Reykunyutsyip.git",
@@ -7179,20 +7235,6 @@
       "timestamp": 1733874137,
       "reproducible": true,
       "error": null
-    }
-  ],
-  "37a27c43016456bd6230b8341f51837874a44c87b606784e222a79fcf29c5b42": [
-    {
-      "repository": "https://github.com/NeoApplications/Neo-Backup.git",
-      "apk_url": "https://github.com/NeoApplications/Neo-Backup/releases/download/8.3.8/Neo_Backup_838_release.apk",
-      "appid": "com.machiav3lli.backup",
-      "version_code": 8318,
-      "version_name": "8.3.8",
-      "tag": "8.3.8",
-      "commit": "b465b026e1e943c8a1f65de315238a5ed8946af6",
-      "timestamp": 1734027429,
-      "reproducible": false,
-      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "6fd8b68fe4ba5b6fb45821199d3d31bcb37de31182a0b5aff0eb1de9da915d55": [
@@ -7949,6 +7991,20 @@
       "error": null
     }
   ],
+  "70a9e13118a021d62ec5c640af12244f7d25abb3c9e265fea44c30f8089e8b39": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.16.1/openscq30_android.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 31,
+      "version_name": "1.16.1",
+      "tag": "v1.16.1",
+      "commit": "25dbce563baf3ac26ca928192deca3a66db44bb6",
+      "timestamp": 1734199922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8e8f7186a907c353b488af1b78d961ac89fd834c3e7082df91cbecd2290f810e": [
     {
       "repository": "https://github.com/kerero/airdots-double-tap.git",
@@ -8491,6 +8547,20 @@
       "tag": "v2.8.0",
       "commit": "444054b3e8f3e12bfc87241e33c4fe70ae03289e",
       "timestamp": 1730915139,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01a28d39b53781665726c03c3e1a05f1366a03be7fc0701808fc23e728eb9be9": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.9.0/xed-editor-v2.9.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 36,
+      "version_name": "2.9.0",
+      "tag": "v2.9.0",
+      "commit": "1680e4e849409cc3fab708c5a0868d596400949f",
+      "timestamp": 1734200556,
       "reproducible": true,
       "error": null
     }
@@ -9401,6 +9471,20 @@
       "tag": "v3.3.0",
       "commit": "df26d2664cdba2cb928e8666122636f722a336c2",
       "timestamp": 1732299155,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a6b33d807e1048831385403ea796ed571648134b061e77c5e36af5f7d5e5e6fe": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.3.1/CuteCalc_v3.3.1.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 37,
+      "version_name": "3.3.1",
+      "tag": "v3.3.1",
+      "commit": "c2304254c8de313f0a4772a583c9a1a23ae67e3a",
+      "timestamp": 1734201133,
       "reproducible": true,
       "error": null
     }
@@ -12217,6 +12301,20 @@
       "error": null
     }
   ],
+  "d57555b363292c7b85cf487081f202cf0985a516cb3392c46108124dfe91676c": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2251/FairEmail-v1.2251a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2251,
+      "version_name": "1.2251",
+      "tag": "1.2251",
+      "commit": "1e3f6974ae35dc6f216abf5423714fe9710b7249",
+      "timestamp": 1734201386,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -13359,6 +13457,20 @@
       "tag": "v0.6.63.1",
       "commit": "522d4b779727ed3a3ebf00b06c759466b4a6d773",
       "timestamp": 1733683635,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5af7975fc63118fed2af67b4da89e616579b70e42550219a277295ae13f4386a": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.64/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 75,
+      "version_name": "0.6.64",
+      "tag": "v0.6.64",
+      "commit": "15bfe11724f718b130f632b55221c5d5902cde31",
+      "timestamp": 1734201879,
       "reproducible": true,
       "error": null
     }

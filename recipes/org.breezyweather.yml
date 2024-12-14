@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/breezy-weather/breezy-weather.git
 updates: releases
+notes:
+  - 'FIXME: v5.3.x needs recipe adjustments, see https://github.com/breezy-weather/breezy-weather/issues/1527'
 versions:
   - tag: v5.2.8
     apks:
