@@ -2,7 +2,7 @@
 repository: https://github.com/breezy-weather/breezy-weather.git
 updates: releases
 notes:
-  - 'FIXME: v5.3.x needs recipe adjustments, see https://github.com/breezy-weather/breezy-weather/issues/1527'
+  - 'FIXME: v5.3.x needed recipe adjustments, see https://github.com/breezy-weather/breezy-weather/issues/1527 – remove assembleFreenetRelease and clean calls before building next release'
 versions:
   - tag: v5.2.8
     apks:
@@ -69,6 +69,97 @@ versions:
           - mv app/build/outputs/apk/basic/release/app-basic-release-unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v5.3.1
+    apks:
+      - apk_pattern: breezy-weather-arm64-v8a-(v[\d.]+)(-beta)?[_-]standard.apk
+        apk_url: https://github.com/breezy-weather/breezy-weather/releases/download/$$TAG$$/breezy-weather-arm64-v8a-$$TAG$$_standard.apk
+        build:
+          - base64 -d > local.properties <<< YnJlZXp5LmFjY3Uua2V5PTQ2NmE0YTk1ZTJhOTQ4M2U4ZjNmYzIyZDliYjIzOTVmCmJyZWV6eS5hZW1ldC5rZXk9ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKemRXSWlPaUpoY0dsQVluSmxaWHA1ZDJWaGRHaGxjaTV2Y21jaUxDSnFkR2tpT2lJMlltUTFNVGxrWWkxbFkyVmlMVFExTVdVdE9EUXhNeTFrWkRjNU9EaGpaak14WlRVaUxDSnBjM01pT2lKQlJVMUZWQ0lzSW1saGRDSTZNVGN6TWpjeU5EVXdOeXdpZFhObGNrbGtJam9pTm1Ka05URTVaR0l0WldObFlpMDBOVEZsTFRnME1UTXRaR1EzT1RnNFkyWXpNV1UxSWl3aWNtOXNaU0k2SWlKOS5rUWtqMXRySmw3QkowNmtOdjZDSDN2LWpnWmRrVVVEa1Z5VHdISzBpMlhJCmJyZWV6eS5hdG1vYXVyYS5rZXk9ZTEzOWVkNDFmODEyMzgzZWQ4ODY3OGY4ZTdmYTc0NGYKYnJlZXp5LmJhaWR1aXAua2V5PUdNMWV2dWxvdkdONUU0MXA2TkM3MkxXM3FsNWQwbk5HCmJyZWV6eS5ibWtnLmtleT1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJakZqTldGa1pXVXhZelk1TXpNME5qWTJOMkV6WldNME1XUmxNakJtWldaaE5EY3hPVE5qWXpjeVpEZ3dNR1JpTjJabVptRmxNV1ZoWWpjeFpHWXlZalFpTENKcFlYUWlPakUzTURFMU9ETXpOemw5LkQxVk5wTW9UVVZGT1V1UVcweTJ2U2p0dFp3ajBzS0JYMzNLeXJrYVJNY1EKYnJlZXp5LmN3YS5rZXk9Q1dBLUM5ODdERkFBLTdEREUtNEU1OS1CMjgxLTVEQjBEOTgwRDI3MQpicmVlenkuZ2VvbmFtZXMua2V5PWJyZWV6eXdlYXRoZXIKYnJlZXp5Lm1mLmp3dEtleT0KYnJlZXp5Lm1mLmtleT1fX1dqN2RWU1RqVjlZR3UxZ3V2ZUx5RHEwZzdTN1RmVGphSEJUUFRwTzBrajhfXwpicmVlenkub3BlbndlYXRoZXIua2V5PWQ5YzkxMDNhNzRhNDM4ZWFjMDk1MmEzNGQxYjU4MGU2Cg==
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("arm64-v8a")/ ; s/isUniversalApk = true/isUniversalApk = false/ }' -i app/build.gradle.kts
+          - sed -r '/ndk \{/,/}/ { /abiFilters/d }' -i app/build.gradle.kts
+          - ./gradlew assembleFreenetRelease
+          - ./gradlew clean
+          - ./gradlew assembleBasicRelease
+          - mv app/build/outputs/apk/basic/release/app-basic-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+      - apk_pattern: breezy-weather-armeabi-v7a-(v[\d.]+)(-beta)?[_-]standard.apk
+        apk_url: https://github.com/breezy-weather/breezy-weather/releases/download/$$TAG$$/breezy-weather-armeabi-v7a-$$TAG$$_standard.apk
+        build:
+          - base64 -d > local.properties <<< YnJlZXp5LmFjY3Uua2V5PTQ2NmE0YTk1ZTJhOTQ4M2U4ZjNmYzIyZDliYjIzOTVmCmJyZWV6eS5hZW1ldC5rZXk9ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKemRXSWlPaUpoY0dsQVluSmxaWHA1ZDJWaGRHaGxjaTV2Y21jaUxDSnFkR2tpT2lJMlltUTFNVGxrWWkxbFkyVmlMVFExTVdVdE9EUXhNeTFrWkRjNU9EaGpaak14WlRVaUxDSnBjM01pT2lKQlJVMUZWQ0lzSW1saGRDSTZNVGN6TWpjeU5EVXdOeXdpZFhObGNrbGtJam9pTm1Ka05URTVaR0l0WldObFlpMDBOVEZsTFRnME1UTXRaR1EzT1RnNFkyWXpNV1UxSWl3aWNtOXNaU0k2SWlKOS5rUWtqMXRySmw3QkowNmtOdjZDSDN2LWpnWmRrVVVEa1Z5VHdISzBpMlhJCmJyZWV6eS5hdG1vYXVyYS5rZXk9ZTEzOWVkNDFmODEyMzgzZWQ4ODY3OGY4ZTdmYTc0NGYKYnJlZXp5LmJhaWR1aXAua2V5PUdNMWV2dWxvdkdONUU0MXA2TkM3MkxXM3FsNWQwbk5HCmJyZWV6eS5ibWtnLmtleT1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJakZqTldGa1pXVXhZelk1TXpNME5qWTJOMkV6WldNME1XUmxNakJtWldaaE5EY3hPVE5qWXpjeVpEZ3dNR1JpTjJabVptRmxNV1ZoWWpjeFpHWXlZalFpTENKcFlYUWlPakUzTURFMU9ETXpOemw5LkQxVk5wTW9UVVZGT1V1UVcweTJ2U2p0dFp3ajBzS0JYMzNLeXJrYVJNY1EKYnJlZXp5LmN3YS5rZXk9Q1dBLUM5ODdERkFBLTdEREUtNEU1OS1CMjgxLTVEQjBEOTgwRDI3MQpicmVlenkuZ2VvbmFtZXMua2V5PWJyZWV6eXdlYXRoZXIKYnJlZXp5Lm1mLmp3dEtleT0KYnJlZXp5Lm1mLmtleT1fX1dqN2RWU1RqVjlZR3UxZ3V2ZUx5RHEwZzdTN1RmVGphSEJUUFRwTzBrajhfXwpicmVlenkub3BlbndlYXRoZXIua2V5PWQ5YzkxMDNhNzRhNDM4ZWFjMDk1MmEzNGQxYjU4MGU2Cg==
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("armeabi-v7a")/ ; s/isUniversalApk = true/isUniversalApk = false/ }' -i app/build.gradle.kts
+          - sed -r '/ndk \{/,/}/ { /abiFilters/d }' -i app/build.gradle.kts
+          - ./gradlew assembleFreenetRelease
+          - ./gradlew clean
+          - ./gradlew assembleBasicRelease
+          - mv app/build/outputs/apk/basic/release/app-basic-armeabi-v7a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+      - apk_pattern: breezy-weather-(v[\d.]+)(-beta)?[_-]standard.apk
+        apk_url: https://github.com/breezy-weather/breezy-weather/releases/download/$$TAG$$/breezy-weather-$$TAG$$_standard.apk
+        build:
+          - base64 -d > local.properties <<< YnJlZXp5LmFjY3Uua2V5PTQ2NmE0YTk1ZTJhOTQ4M2U4ZjNmYzIyZDliYjIzOTVmCmJyZWV6eS5hZW1ldC5rZXk9ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKemRXSWlPaUpoY0dsQVluSmxaWHA1ZDJWaGRHaGxjaTV2Y21jaUxDSnFkR2tpT2lJMlltUTFNVGxrWWkxbFkyVmlMVFExTVdVdE9EUXhNeTFrWkRjNU9EaGpaak14WlRVaUxDSnBjM01pT2lKQlJVMUZWQ0lzSW1saGRDSTZNVGN6TWpjeU5EVXdOeXdpZFhObGNrbGtJam9pTm1Ka05URTVaR0l0WldObFlpMDBOVEZsTFRnME1UTXRaR1EzT1RnNFkyWXpNV1UxSWl3aWNtOXNaU0k2SWlKOS5rUWtqMXRySmw3QkowNmtOdjZDSDN2LWpnWmRrVVVEa1Z5VHdISzBpMlhJCmJyZWV6eS5hdG1vYXVyYS5rZXk9ZTEzOWVkNDFmODEyMzgzZWQ4ODY3OGY4ZTdmYTc0NGYKYnJlZXp5LmJhaWR1aXAua2V5PUdNMWV2dWxvdkdONUU0MXA2TkM3MkxXM3FsNWQwbk5HCmJyZWV6eS5ibWtnLmtleT1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJakZqTldGa1pXVXhZelk1TXpNME5qWTJOMkV6WldNME1XUmxNakJtWldaaE5EY3hPVE5qWXpjeVpEZ3dNR1JpTjJabVptRmxNV1ZoWWpjeFpHWXlZalFpTENKcFlYUWlPakUzTURFMU9ETXpOemw5LkQxVk5wTW9UVVZGT1V1UVcweTJ2U2p0dFp3ajBzS0JYMzNLeXJrYVJNY1EKYnJlZXp5LmN3YS5rZXk9Q1dBLUM5ODdERkFBLTdEREUtNEU1OS1CMjgxLTVEQjBEOTgwRDI3MQpicmVlenkuZ2VvbmFtZXMua2V5PWJyZWV6eXdlYXRoZXIKYnJlZXp5Lm1mLmp3dEtleT0KYnJlZXp5Lm1mLmtleT1fX1dqN2RWU1RqVjlZR3UxZ3V2ZUx5RHEwZzdTN1RmVGphSEJUUFRwTzBrajhfXwpicmVlenkub3BlbndlYXRoZXIua2V5PWQ5YzkxMDNhNzRhNDM4ZWFjMDk1MmEzNGQxYjU4MGU2Cg==
+          - sed -r '/abi \{/,/}/ { /include/d }' -i app/build.gradle.kts
+          - ./gradlew assembleFreenetRelease
+          - ./gradlew clean
+          - ./gradlew assembleBasicRelease
+          - mv app/build/outputs/apk/basic/release/app-basic-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
         build_user: build
         provisioning:
           android_home: /opt/sdk
