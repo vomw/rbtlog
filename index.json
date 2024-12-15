@@ -9391,6 +9391,20 @@
       "error": null
     }
   ],
+  "df6c0d90e99f4062d289262a0cdd0cb9d7baa807fbc50356f2636f2518a92717": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.5/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2006,
+      "version_name": "1.0.5",
+      "tag": "V1.0.5",
+      "commit": "a32ebf5ee7520c08d5171deff018e3f3b0608408",
+      "timestamp": 1734266004,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -12329,6 +12343,20 @@
       "error": null
     }
   ],
+  "33712237f796f610fb95064b66fcf1e4ef22a93fd4fbeeea02b9807e1ec01771": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.90.12-alpha2/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 3,
+      "version_name": "0.90.12-alpha2",
+      "tag": "v0.90.12-alpha2",
+      "commit": "ba8bf68b7a685d20c4d524aa00e5fae174e7d8fd",
+      "timestamp": 1734286663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -12743,6 +12771,20 @@
       "tag": "5.0",
       "commit": "09debf692cb9bb26d3a937de50ebdc25c2fa1531",
       "timestamp": 1721599900,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c910c43b460154a0ec29d5c9164ded8aec9f63750205bc7edbc34ebd25aa4073": [
+    {
+      "repository": "https://github.com/whew-inc/FakeGApps.git",
+      "apk_url": "https://github.com/whew-inc/FakeGApps/releases/download/6.0/app-release.apk",
+      "appid": "inc.whew.android.fakegapps",
+      "version_code": 11,
+      "version_name": "6",
+      "tag": "6.0",
+      "commit": "e9a88b407cd1493c665ffa5895d041a16c31118d",
+      "timestamp": 1734287064,
       "reproducible": true,
       "error": null
     }
@@ -13289,6 +13331,20 @@
       "tag": "v2024.11.114",
       "commit": "63e5ad193e418021c1481b8ee29c5c979c702c75",
       "timestamp": 1731262078,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "362458624a4b0ec3a7d63c74f8c18b86e0846fa46f2da6fd8043a9a28749fb2a": [
+    {
+      "repository": "https://github.com/zyrouge/symphony.git",
+      "apk_url": "https://github.com/zyrouge/symphony/releases/download/v2024.12.115/symphony-v2024.12.115.apk",
+      "appid": "io.github.zyrouge.symphony",
+      "version_code": 115,
+      "version_name": "2024.12.115",
+      "tag": "v2024.12.115",
+      "commit": "b134bfb352490cb8c7047dc97495a2903ee470b6",
+      "timestamp": 1734285002,
       "reproducible": true,
       "error": null
     }
@@ -14017,6 +14073,20 @@
       "tag": "v2.0.0",
       "commit": "39be3d1db704e667a0b46e9c3df76c01f62127ce",
       "timestamp": 1731619102,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5afdbfc7abcfd7611a61dae24e3094632ac2a60b3efc7a6ee8c4fc19520acccc": [
+    {
+      "repository": "https://github.com/casimir/frigoligo.git",
+      "apk_url": "https://github.com/casimir/frigoligo/releases/download/v2.1.0/frigoligo-v2.1.0-arm64-v8a.apk",
+      "appid": "net.casimirlab.frigoligo",
+      "version_code": 2037,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "4e61df2ede3122b6f960a2be9ff06ea53e510e4e",
+      "timestamp": 1734285376,
       "reproducible": true,
       "error": null
     }
@@ -16691,6 +16761,20 @@
       "tag": "1.4.1",
       "commit": "4c3e96fcf3514869708ad7b4e72bd2231ef23a07",
       "timestamp": 1733684504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "26aed86ad80799582eba46de857300118ce1a551ee9f3551e9827c2de6103b56": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.4.2/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 20,
+      "version_name": "1.4.2",
+      "tag": "1.4.2",
+      "commit": "96b02751c073f78785733fc6169bc603693b28f9",
+      "timestamp": 1734285846,
       "reproducible": true,
       "error": null
     }
