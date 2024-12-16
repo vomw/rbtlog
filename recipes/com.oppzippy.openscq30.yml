@@ -166,3 +166,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.17.0
+    apks:
+      - apk_pattern: openscq30_android\.apk
+        apk_url: https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.17.0/openscq30_android.apk
+        build:
+          - RUSTUP_VER="$(grep rustup .build-tool-versions | awk '{print $2}')"
+          - RUST_TOOLCHAIN="$(grep -E 'rust\b' .build-tool-versions | awk '{print $2}')"
+          - CARGO_VER="$(grep cargo-ndk .build-tool-versions | awk '{print $2}')"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP_VER
+          - export ANDROID_NDK=/opt/sdk/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain=$RUST_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install cargo-ndk --version $CARGO_VER
+          - cd android
+          - ./gradlew assembleBluetoothRelease
+          - mv app/build/outputs/apk/bluetooth/release/app-bluetooth-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/OpenSCQ30/OpenSCQ30
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - make
+            - g++
+            - cmake
+            - protobuf-compiler
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 27.2.12479018
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
