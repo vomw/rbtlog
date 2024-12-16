@@ -117,11 +117,19 @@ versions:
         apk_url: https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.9.1/localmaterialnotes_arm64-v8a_v1.9.1.apk
         build:
           - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
-          - flutter_version=$(sed -rn 's/^\s*flutter\:\s*([0-9.]+)$/\1/p' pubspec.yaml)
-          - git clone -b $flutter_version https://github.com/flutter/flutter
+          - FLUTTER_VERSION=$(sed -rn 's/^\s*flutter\:\s*([0-9.]+)$/\1/p' pubspec.yaml)
+          - RUST_VERSION=$(sed -n 's/channel = "\(.*\)"/\1/p' rust-toolchain.toml)
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
           - export PUB_CACHE=$(pwd)/.pub-cache
           - flutter/bin/flutter config --no-analytics
           - flutter/bin/flutter pub get
+          - git clone https://github.com/rust-lang/rustup.git -b 1.27.1
+          - export ANDROID_NDK_HOME=/opt/sdk/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_VERSION --target aarch64-linux-android
+          - cp .isar-cargo.lock .isar/Cargo.lock
+          - source $HOME/.cargo/env
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - bash ./scripts/isar/fdroid_build_isar.sh arm64
           - flutter/bin/dart run build_runner build
           - flutter/bin/flutter gen-l10n
           - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64"
@@ -141,9 +149,12 @@ versions:
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
           extra_packages:
             - curl
+            - gcc-multilib
+            - libc-dev
+            - make
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
-          ndk:
+          ndk: 26.3.11579264
           platform:
           platform_tools:
           tools:
