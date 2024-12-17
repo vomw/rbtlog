@@ -2981,6 +2981,20 @@
       "error": null
     }
   ],
+  "26a13f8aebc8b3596ce11461e87d76f4ac68716eb845d2e5a06eb04bd89e2a9c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1084-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1084,
+      "version_name": "2024.12.1084-dev",
+      "tag": "2024.12.1084-dev",
+      "commit": "cb53b674481f4f0f38d78239aba33c6b57504b74",
+      "timestamp": 1734457574,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5137,6 +5151,20 @@
       "error": null
     }
   ],
+  "d9907abf39a405556ea1011a4dd3eb3989cd90b53cacee2bc55e4611073b4b29": [
+    {
+      "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
+      "apk_url": "https://codeberg.org/gardockt/termux-terminal-widget/releases/download/v1.2/termux-terminal-widget-v1.2.apk",
+      "appid": "com.gardockt.termuxterminalwidget",
+      "version_code": 4,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "0999f7ea2f61398af047dc9495a9071b049d3524",
+      "timestamp": 1734458040,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3bbeb57c879ba98aa34905f6fca2bfe8773af73df3dffa98604851db26bacd00": [
     {
       "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
@@ -5371,6 +5399,20 @@
       "tag": "pingutils-0.2.8",
       "commit": "31686f01372bee8673234c4f4de7bb9e858a3137",
       "timestamp": 1734117670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6d5f3ca774e3cabf4d9c01c9c249ae3428cb674b60ff65fb41844fc842e51c2d": [
+    {
+      "repository": "https://gitlab.com/axet/android-ping-utils.git",
+      "apk_url": "https://gitlab.com/-/project/31631246/uploads/7f51fce8c05e01d0528bc26d6cb7e06e/pingutils-0.2.9-release.apk",
+      "appid": "com.github.axet.pingutils",
+      "version_code": 41,
+      "version_name": "0.2.9",
+      "tag": "pingutils-0.2.9",
+      "commit": "a1e176f9fba3e15be910ead823b357648a90a473",
+      "timestamp": 1734458195,
       "reproducible": true,
       "error": null
     }
@@ -10005,6 +10047,20 @@
       "error": null
     }
   ],
+  "28ed49c2ac556d3f0773a674cb74b9a871f5a54622c9f1a7fb4184fd29d13c3a": [
+    {
+      "repository": "https://github.com/neoblackxt/AnyWebView.git",
+      "apk_url": "https://github.com/neoblackxt/AnyWebView/releases/download/v1.3/AnyWebView_1.3_test.apk",
+      "appid": "com.thinkdifferent.anywebview",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "89b62f6eed4bc64ce7a95cca996ecf3af4cdc6ad",
+      "timestamp": 1734458349,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "3ec1f2388c8dcea14159524b1bbd4c81a7d7830bab73fbe4efbc5e39d36e7b56": [
     {
       "repository": "https://github.com/0xf4b1/motionmate.git",
@@ -11343,6 +11399,20 @@
       "tag": "v1.0.0-alpha.13",
       "commit": "739daa4070f620bde50b65f895e556a06d82991e",
       "timestamp": 1733682976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "558edb53c2276d6af992c8609c8d62b226395bee10b0f4d2cfb9fbcef0fc4be0": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.14/app-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1140,
+      "version_name": "1.0.0-alpha.14",
+      "tag": "v1.0.0-alpha.14",
+      "commit": "00e33962593fd473d37a970887a215a24cce58bc",
+      "timestamp": 1734458695,
       "reproducible": true,
       "error": null
     }
@@ -16059,6 +16129,20 @@
       "tag": "v1.5.1",
       "commit": "f8a8a81c0050858c95c2514860e2f2b931f1573b",
       "timestamp": 1732904941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bfe11f176a7af488c3b633203408114ff393bb67b69d145ecb3b81348eed87d2": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v2.0.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 10,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "6276a360f0831de51c098e5a736c2dfd541a3e63",
+      "timestamp": 1734459230,
       "reproducible": true,
       "error": null
     }
