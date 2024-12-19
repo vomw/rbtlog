@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/v4lpt/TPC.git
 updates: releases
+notes:
+  - 'FIXME: RB failed for v1.0.2'
 versions:
   - tag: v1.0.0
     apks:
