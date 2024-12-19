@@ -335,6 +335,20 @@
       "error": null
     }
   ],
+  "71b014232f8608f8cbe6a53ce49bf76aa5a69b65e387afa0e753a07884b01a73": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/6.16.1/Podcini.R_release_free_6.16.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020323,
+      "version_name": "6.16.1",
+      "tag": "6.16.1",
+      "commit": "ca4b93b6e6616ba5b32866c98b6535c443cc25a0",
+      "timestamp": 1734630355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3327,6 +3341,20 @@
       "tag": "v0.6.3",
       "commit": "d941f8bb706924502a3f34568fadc30d93dfec69",
       "timestamp": 1730663809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6239af3f46c0f4023c6b6d1e5de32e9ef91bd429ca02160811f42698a6c867b": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/DD3Boh/OuterTune/releases/download/v0.6.4/OuterTune-0.6.4-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 25,
+      "version_name": "0.6.4",
+      "tag": "v0.6.4",
+      "commit": "424a879dd9bb82f5cee15b5253c3bdebc713d164",
+      "timestamp": 1734630713,
       "reproducible": true,
       "error": null
     }
@@ -8899,6 +8927,20 @@
       "error": null
     }
   ],
+  "e8a6d31164b04d79b83adf11afdf2c7aa4148c37c27eb8063068f5555ef799f4": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Feed.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Feed/releases/download/1.7.2.hotfix/Neo_Feed_172hf_release.apk",
+      "appid": "com.saulhdev.neofeed",
+      "version_code": 1703,
+      "version_name": "1.7.2-hotfix",
+      "tag": "1.7.2.hotfix",
+      "commit": "50841521bace3e6ec27db1f8d3d3a92368cbe531",
+      "timestamp": 1734574160,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "4ca54004c9a10953730c8a71c297a8175a1696a0a1b576fceeca5e1225f2675b": [
     {
       "repository": "https://github.com/SchweGELBin/OpenBible2.git",
@@ -9525,6 +9567,20 @@
       "tag": "2.3.9",
       "commit": "2577e83923fae47fb33514edc967637174b9ead5",
       "timestamp": 1733681304,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2802adbf71117b9233995e797fcff41baabc078bbc5c8a9f69bac3f15dc0e302": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.4.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 240,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "fdbec7d3c118cee6679519d8b848eda4833105ab",
+      "timestamp": 1734631747,
       "reproducible": true,
       "error": null
     }
