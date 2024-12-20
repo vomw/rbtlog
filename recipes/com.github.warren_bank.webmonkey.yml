@@ -3,6 +3,7 @@ repository: https://github.com/warren-bank/Android-WebMonkey.git
 updates: releases
 notes:
   - the project’s gradle setup is broken, so we have to inject a proper gradle ourselves
+  - 'FIXME: needs gradle update'
 versions:
   - tag: v04.02.04
     apks:
