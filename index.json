@@ -1301,6 +1301,20 @@
       "error": null
     }
   ],
+  "b3efc1ff6b4931b156bca79cf85e41b0099690444fc35606d8008ea89178ae41": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.50.5/ArcaneChat-foss-armeabi-v7a-1.50.5.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007011,
+      "version_name": "1.50.5",
+      "tag": "v1.50.5",
+      "commit": "6f5e90be53cc5607ae650d2f5e980e01ad9a421f",
+      "timestamp": 1734803167,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -4293,6 +4307,20 @@
       "tag": "4.0.9",
       "commit": "0fbbfaa49477aceaf441f1c8e3be54c1be649870",
       "timestamp": 1734027112,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f3d132e4097a78479fe220f331e77815831d69b04adaef9cd50fd9b88703e98": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.10/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 128,
+      "version_name": "4.0.10",
+      "tag": "4.0.10",
+      "commit": "d07e32fc54dc243dc9faa8a5bc19bb9210e7feb6",
+      "timestamp": 1734803885,
       "reproducible": true,
       "error": null
     }
@@ -12523,6 +12551,20 @@
       "error": null
     }
   ],
+  "53973bb9961823a99d5fa25f9c507f20d874bea1fab8a052e6d6bfd373941ac7": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.3.3-rc0/eu.darken.sdmse-v1.3.3-rc0-10303000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10303000,
+      "version_name": "1.3.3-rc0",
+      "tag": "v1.3.3-rc0",
+      "commit": "b0b0dfe6f1cf80adc8b71f9604ef4b98f69764f5",
+      "timestamp": 1734818907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -13945,6 +13987,20 @@
       "tag": "v0.6.64",
       "commit": "15bfe11724f718b130f632b55221c5d5902cde31",
       "timestamp": 1734201879,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8065379f368c4e00950d4e41b168be448a9fcddca319e64c71477ff2e84bb32d": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.65/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 76,
+      "version_name": "0.6.65",
+      "tag": "v0.6.65",
+      "commit": "f9499c43985fd2210e12481185df2bfa37267ad1",
+      "timestamp": 1734820920,
       "reproducible": true,
       "error": null
     }
