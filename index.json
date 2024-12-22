@@ -3051,6 +3051,20 @@
       "error": null
     }
   ],
+  "51d46cdb8b7d7cff8bbac07f5f85629f0f92b81ef8991f5eb5938f423a765e09": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1085-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1085,
+      "version_name": "2024.12.1085-dev",
+      "tag": "2024.12.1085-dev",
+      "commit": "6f113fe1721fa3c327890d4e2cc9060454242c32",
+      "timestamp": 1734889572,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -5599,6 +5613,20 @@
       "error": null
     }
   ],
+  "89f958096a4bf69c2786d3f8804952d51053826cce90438925f0e42a66da34f7": [
+    {
+      "repository": "https://github.com/enteraname74/SoulSearching.git",
+      "apk_url": "https://github.com/enteraname74/SoulSearching/releases/download/v0.10.0/com.github.enteraname74.soulsearching_0.10.0.apk",
+      "appid": "com.github.enteraname74.soulsearching",
+      "version_code": 25,
+      "version_name": "0.10.0",
+      "tag": "v0.10.0",
+      "commit": "ce1aea4c5b12a2d4f4771db38e27b9b59db507bb",
+      "timestamp": 1734889974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5775c2d786cd604851a1b45927855c79c59cfc5cbc7b9146a657e3358e1a039f": [
     {
       "repository": "https://github.com/frimtec/pikett-assist.git",
@@ -7697,6 +7725,20 @@
       "error": null
     }
   ],
+  "99bc640f9824d189cbb544431da49c346ef609ae77287d98c798254aafbb3766": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.5/SimpMusic_v0.2.5.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 22,
+      "version_name": "0.2.5",
+      "tag": "v0.2.5",
+      "commit": "7b81e2cc093c288fd20041e30206cb08f15fe127",
+      "timestamp": 1734890475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "02dd9f909b315c0f2b41401f24909357bf4894b906b4d23f731a8ca5603c8cd7": [
     {
       "repository": "https://github.com/EmmaTellblom/Mensinator.git",
@@ -9669,6 +9711,20 @@
       "error": null
     }
   ],
+  "014c4cdb062efdaafee864cf7a0546dc932a88df99e2c264c58b7dcc40c592a6": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.4.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 241,
+      "version_name": "2.4.1",
+      "tag": "2.4.1",
+      "commit": "5ab306e6a4eac2565fc88f4b10df1e630d6feced",
+      "timestamp": 1734891038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -11175,6 +11231,20 @@
       "tag": "0.3.1",
       "commit": "821f769497d39646b79af44fc2ad61a40a5d1a70",
       "timestamp": 1734545334,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8cd47c6985484f2d62b379d5c6e6f0153830d3a0b5e3a6d4a2b4bd43ee2df4b4": [
+    {
+      "repository": "https://github.com/buttercookie42/SimbaDroid.git",
+      "apk_url": "https://github.com/buttercookie42/SimbaDroid/releases/download/0.4/de.buttercookie.simbadroid-0.4.apk",
+      "appid": "de.buttercookie.simbadroid",
+      "version_code": 5,
+      "version_name": "0.4",
+      "tag": "0.4",
+      "commit": "39861fa9f2712235ec43b3b7c7b43560636e17ee",
+      "timestamp": 1734891721,
       "reproducible": true,
       "error": null
     }
@@ -12925,6 +12995,20 @@
       "tag": "v1.6",
       "commit": "c1c208fc03cf1f9db6db2e968600f43b2e3823e1",
       "timestamp": 1731522233,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "77ea71a7e4d2dc34a7a9b5050333b73b53057bde3c17f7b958cedd4ab50e7487": [
+    {
+      "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
+      "apk_url": "https://codeberg.org/ottoptj/yamlauncher/releases/download/v1.7/yamlauncher-1.7.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 12,
+      "version_name": "1.7",
+      "tag": "v1.7",
+      "commit": "7f0174cd99598b381639ebece1c2793ecc8f4fbd",
+      "timestamp": 1734891947,
       "reproducible": true,
       "error": null
     }
@@ -15779,6 +15863,20 @@
       "tag": "v1.8.2",
       "commit": "bbdfdf8dc7fd0c547b8ede113ef87adcd5dc3d22",
       "timestamp": 1733768162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "822524ce306e9b0e3c50da8d113e8ee9a6a0485ca42fbe172420010ea589af93": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.8.3/wikireader-v1.8.3-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 19,
+      "version_name": "1.8.3",
+      "tag": "v1.8.3",
+      "commit": "512a84d516439243155378d03d2ee4d0649c225e",
+      "timestamp": 1734892168,
       "reproducible": true,
       "error": null
     }
