@@ -1973,6 +1973,20 @@
       "error": null
     }
   ],
+  "78bc4c362c5fdd61a6b1250d76cb6982cd5457dcba095b1651bd273ddad678dc": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://gitlab.com/-/project/6922885/uploads/fd58e68d71e30712fa633ea27ffd4876/AuroraStore_4.6.3.apk",
+      "appid": "com.aurora.store",
+      "version_code": 64,
+      "version_name": "4.6.3",
+      "tag": "4.6.3",
+      "commit": "2cf63309fa062632b7fffd06105eaee1a44f89cb",
+      "timestamp": 1734975979,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
     {
       "repository": "https://github.com/blinskey/greek-reference.git",
@@ -5473,6 +5487,20 @@
       "error": null
     }
   ],
+  "0601afca705c8e1c934eb0b2a1f11203ba32ce74990239c62947d4093bc439f1": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.15/fdroidRelease-2.5.15.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30515,
+      "version_name": "2.5.15",
+      "tag": "2.5.15",
+      "commit": "b05768df9886caa21f8a73064584b3ca75533765",
+      "timestamp": 1734976414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -6351,6 +6379,90 @@
       "tag": "v04.09.02",
       "commit": "f8d73a7cda74f8ba27af883d207d332aedd0dad1",
       "timestamp": 1732904023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fff60d940c740687c10e81a19e6d0335d6e6c9fe98d12571fa087f7cfa4cf030": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.01/WebMonkey-004.10.01-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100111,
+      "version_name": "004.10.01-11API",
+      "tag": "v04.10.01",
+      "commit": "47fb94c1217c7915781cd2828822cd3f5251362c",
+      "timestamp": 1734968341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "683ff077e5f4025c4756bed3886b48b951f2635f997c1d02993482d71178c7de": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.01/WebMonkey-004.10.01-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100111,
+      "version_name": "004.10.01-11API",
+      "tag": "v04.10.01",
+      "commit": "47fb94c1217c7915781cd2828822cd3f5251362c",
+      "timestamp": 1734968454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e145f4f7aef3f9c00b32447254f0e1d4ccb3612446ae6cd2f4a1f17d5427721d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.01/WebMonkey-004.10.01-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100111,
+      "version_name": "004.10.01-11API",
+      "tag": "v04.10.01",
+      "commit": "47fb94c1217c7915781cd2828822cd3f5251362c",
+      "timestamp": 1734968565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "488f27e8cf3e1a95268555097e9aa731c42b9e0e58950857d02fd5bf42c88c00": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.05/WebMonkey-004.10.05-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100511,
+      "version_name": "004.10.05-11API",
+      "tag": "v04.10.05",
+      "commit": "14a8352ca0d032158479f58bb0c0746c99b7348f",
+      "timestamp": 1734976830,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6292a8db7f92f53ee8dc109c658ee63be1be88ed8beb0aac03295e07736c1432": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.05/WebMonkey-004.10.05-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100511,
+      "version_name": "004.10.05-11API",
+      "tag": "v04.10.05",
+      "commit": "14a8352ca0d032158479f58bb0c0746c99b7348f",
+      "timestamp": 1734976946,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24cd4696909c2bd2b5a28cbe08624d17a5429f71078b7bb08aff05728f0d6ed0": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.10.05/WebMonkey-004.10.05-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4100511,
+      "version_name": "004.10.05-11API",
+      "tag": "v04.10.05",
+      "commit": "14a8352ca0d032158479f58bb0c0746c99b7348f",
+      "timestamp": 1734977059,
       "reproducible": true,
       "error": null
     }
@@ -7585,6 +7697,20 @@
       "error": null
     }
   ],
+  "9e55d0efc809b04ea981972a600c0e37a3e88273b0dc61272260304c86eb6d9c": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.10.1/localmaterialnotes_arm64-v8a_v1.10.1.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 232,
+      "version_name": "1.10.1",
+      "tag": "v1.10.1",
+      "commit": "f27a81a34f0d285ff7d082a5dfa3266d691af5a0",
+      "timestamp": 1734977177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -7875,6 +8001,20 @@
       "tag": "3.41.0",
       "commit": "607384148b137e07e5e95d57f34ace1dba9bf293",
       "timestamp": 1732643519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0738a122e1bdf0967bd0c54bd3b0f10d71341d51718801c1f9913b7a48cf816e": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.42.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 840,
+      "version_name": "3.42.0",
+      "tag": "3.42.0",
+      "commit": "0faf23ebc8402d2f0bf0fbe7b1193c5e5ee8cce2",
+      "timestamp": 1734977947,
       "reproducible": true,
       "error": null
     }
@@ -8517,6 +8657,20 @@
       "tag": "v6.2.2",
       "commit": "766aedb923222457077b39f660580665a4cce99c",
       "timestamp": 1733854168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "508c933ba7fe258e9fbf995a95c78105de6d521152115b8cdf239be8193c0c19": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v6.3.0/NotallyX-6.3.0.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 630,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "30d5ee0a9e62cb7c36a8bd0d605485680f797e95",
+      "timestamp": 1734978394,
       "reproducible": true,
       "error": null
     }
@@ -9777,6 +9931,20 @@
       "tag": "V1.0.5",
       "commit": "a32ebf5ee7520c08d5171deff018e3f3b0608408",
       "timestamp": 1734266004,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb7d2325aba88c2dea14fe06520db0ac07b6c1081e1cefa8b3f0c8f486da59ed": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.6/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2008,
+      "version_name": "1.0.6",
+      "tag": "V1.0.6",
+      "commit": "ae4442bbae8945812d594c36143d2a5a856c05b2",
+      "timestamp": 1734978733,
       "reproducible": true,
       "error": null
     }
@@ -11399,6 +11567,20 @@
       "tag": "v0.12.5",
       "commit": "0a5887a2b6ec79e400b782bebb1ca348cd50e880",
       "timestamp": 1731091042,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e8e3d4da12c0a4551ce50de4fc27b2ef74623f5de29a2ed18006a1f51a98c833": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.6/RecurringExpenseTracker_0.12.6.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 30,
+      "version_name": "0.12.6",
+      "tag": "v0.12.6",
+      "commit": "a8dbc2f691167995c3b171c139a7c1f1c07bd96c",
+      "timestamp": 1734980610,
       "reproducible": true,
       "error": null
     }
@@ -14085,6 +14267,20 @@
       "tag": "v0.6.65",
       "commit": "f9499c43985fd2210e12481185df2bfa37267ad1",
       "timestamp": 1734820920,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dfee454b154d2148ccf3cbcc3d37719b948bc8576c0d43df01c8b8794d616d84": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.65.1/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 77,
+      "version_name": "0.6.65.1",
+      "tag": "v0.6.65.1",
+      "commit": "b48e873865961b9013e51c7ca2dda314b13b832e",
+      "timestamp": 1734979393,
       "reproducible": true,
       "error": null
     }
@@ -16983,6 +17179,20 @@
       "tag": "v1.2.0",
       "commit": "aabeb7548755191c68a0a7fb743af87074d52d93",
       "timestamp": 1729790517,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c739eeef859db3bbed2313d7e0def9b2e72142a659a4aec6722a43b7b0b9881f": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.3.0/stasis-client-android-v1.3.0.apk",
+      "appid": "stasis.client.android",
+      "version_code": 4,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "4a3e2a153a4690b9fbe06aff037f43b0bebdc5de",
+      "timestamp": 1734979994,
       "reproducible": true,
       "error": null
     }
