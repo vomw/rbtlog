@@ -839,6 +839,20 @@
       "error": null
     }
   ],
+  "7d01cba09ff66c9ccac7473ae8df65bc807bbdc7bdbcf3c3b455aeb6cd943454": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.5-ose/davx5-ose-4.4.5-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404050003,
+      "version_name": "4.4.5-ose",
+      "tag": "v4.4.5-ose",
+      "commit": "d10add8367b3c6f2cf8d969468df3612566203db",
+      "timestamp": 1735056061,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -3075,6 +3089,20 @@
       "tag": "2024.12.1085-dev",
       "commit": "6f113fe1721fa3c327890d4e2cc9060454242c32",
       "timestamp": 1734889572,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f552f763032eed1e0124fb58eb9fb5b4d6eee1ca8047143b6387008156a128e": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1086/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1086,
+      "version_name": "2024.12.1086",
+      "tag": "2024.12.1086",
+      "commit": "d897a75b3e72715755b53c6a189430f719e00388",
+      "timestamp": 1735056455,
       "reproducible": true,
       "error": null
     }
@@ -12985,6 +13013,20 @@
       "error": null
     }
   ],
+  "305275d73038f371c6dbbc066ed960f7d774be87b8cf3e9dc883955f3e75da07": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2253/FairEmail-v1.2253a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2253,
+      "version_name": "1.2253",
+      "tag": "1.2253",
+      "commit": "0001326eaf93bcdaad8c6a0d6ce4d13125a4dbe2",
+      "timestamp": 1735057017,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -13483,6 +13525,20 @@
       "tag": "6.0",
       "commit": "e9a88b407cd1493c665ffa5895d041a16c31118d",
       "timestamp": 1734287064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd01915d4a8dbeced73ca907eff022edc0779899a26d4b61d5d35bc06dcbbd00": [
+    {
+      "repository": "https://github.com/whew-inc/FakeGApps.git",
+      "apk_url": "https://github.com/whew-inc/FakeGApps/releases/download/6.5/app-release.apk",
+      "appid": "inc.whew.android.fakegapps",
+      "version_code": 11,
+      "version_name": "6.5",
+      "tag": "6.5",
+      "commit": "4979b18c4baf310fd36e1df856ee97863e31abee",
+      "timestamp": 1735057510,
       "reproducible": true,
       "error": null
     }
