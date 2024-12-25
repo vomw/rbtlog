@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/vishal2376/git-coach.git
 updates: releases
+notes:
+  - 'FIXME: v5.2 failed due to different PNG'
 versions:
   - tag: v5.1
     apks:
