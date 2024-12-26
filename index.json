@@ -349,6 +349,20 @@
       "error": null
     }
   ],
+  "c74af074fcd4cea0a2ca98cd23a935faa2d720c749268a9edb81a49458854ce0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/7.0.3/Podcini.R_release_free_7.0.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020330,
+      "version_name": "7.0.3",
+      "tag": "7.0.3",
+      "commit": "5152fbfd783b78c476e64920d7a244b2f4c66163",
+      "timestamp": 1735211480,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -8127,6 +8141,20 @@
       "tag": "5.7",
       "commit": "81cf93ee901d2f8a3fac7b4c8dcfeec77ce8ea1b",
       "timestamp": 1728238750,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "08ed4509935017e587fbb9618de4b121e179ea4e2e6fbbc3bdb451032e082e28": [
+    {
+      "repository": "https://github.com/dead8309/Kizzy.git",
+      "apk_url": "https://github.com/dead8309/Kizzy/releases/download/5.8/app-release.apk",
+      "appid": "com.my.kizzy",
+      "version_code": 10,
+      "version_name": "5.8",
+      "tag": "5.8",
+      "commit": "51b8cb3eb3fe8918741788f6f1e83644eccd96ec",
+      "timestamp": 1735212727,
       "reproducible": true,
       "error": null
     }
