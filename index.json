@@ -7573,6 +7573,20 @@
       "error": null
     }
   ],
+  "ecba2ebf36746833fddff6891e1f0d12235c83812a145c0a2904770960cd354e": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.6.4/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 640,
+      "version_name": "0.6.4",
+      "tag": "v0.6.4",
+      "commit": "afd939ace04b036a747fae0d9b75db8e8dc2d22c",
+      "timestamp": 1735246453,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "73b0076b9005341778eb2b27cb4b31a47e4d13b498aa2a3a2bf560f6fdc4794d": [
     {
       "repository": "https://github.com/Iamlooker/Kenko.git",
@@ -9973,6 +9987,20 @@
       "tag": "2.4.1",
       "commit": "5ab306e6a4eac2565fc88f4b10df1e630d6feced",
       "timestamp": 1734891038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e0340ca48cffca0a381402e644d920f04b4d7242f8b955cb57f4bac1c9023c4": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.4.2/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 242,
+      "version_name": "2.4.2",
+      "tag": "2.4.2",
+      "commit": "c1f416dd4e34d0e578e04d833889c9a76a4be9c6",
+      "timestamp": 1735238534,
       "reproducible": true,
       "error": null
     }
@@ -14715,6 +14743,20 @@
       "tag": "v2.34.1",
       "commit": "19bccc0c82453f2bdd4e60cd1d34b199eef9a729",
       "timestamp": 1734022486,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6c4f9fdd37bb569d80d06658f2d2a076049bd942a306d8d878f17ac360f0351": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.34.2/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 144,
+      "version_name": "2.34.2",
+      "tag": "v2.34.2",
+      "commit": "83f9a2bcc9237ce727bdcff41210d8b16d6f5311",
+      "timestamp": 1735245810,
       "reproducible": true,
       "error": null
     }
