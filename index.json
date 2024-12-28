@@ -3135,6 +3135,20 @@
       "error": null
     }
   ],
+  "22e1b3d50f536b74ef428af6311ff21198c2afc70758767a2b47f9a977bab6d7": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1087/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1087,
+      "version_name": "2024.12.1087",
+      "tag": "2024.12.1087",
+      "commit": "b8defc21d9abcd40f3ff44484b00070a4c141bce",
+      "timestamp": 1735407968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -9161,6 +9175,20 @@
       "tag": "v2.9.0",
       "commit": "1680e4e849409cc3fab708c5a0868d596400949f",
       "timestamp": 1734200556,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1484846250034d36e6142cfd52c58c52e4d73d08b720b205addd713fe1d805a": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.9.1/xed-editor-v2.9.1.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 37,
+      "version_name": "2.9.1",
+      "tag": "v2.9.1",
+      "commit": "c99dcd611070227c183d4ba9504f56b2ad17cd05",
+      "timestamp": 1735408348,
       "reproducible": true,
       "error": null
     }
