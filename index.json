@@ -1133,6 +1133,20 @@
       "error": null
     }
   ],
+  "dad1466a3f7ed5de80c11d3e87c44e200fcdfedaffe48d505bd83937e56f9ba7": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.31.2/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 331020,
+      "version_name": "3.31.2",
+      "tag": "3.31.2",
+      "commit": "c9b790b87532bdaa233dd94f75b8b3cc42a8a2fc",
+      "timestamp": 1735321569,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -7629,6 +7643,20 @@
       "error": null
     }
   ],
+  "b8709ea017921c0628e595515e8f56c893d7fc6234fce20bd1dd826c74f0f198": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.5.1/FoodExpirationDates-2.5.1-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 35,
+      "version_name": "2.5.1-foss",
+      "tag": "v2.5.1",
+      "commit": "8ec924a42c158f020e888a2c58179be9e645e5c5",
+      "timestamp": 1735321902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "143bfe9817ed959109298442251033ec0f48f49b5084ab366b1d4c4a36d01621": [
     {
       "repository": "https://github.com/ninjinskii/Cavity.git",
@@ -10813,6 +10841,34 @@
       "tag": "v3.7.0",
       "commit": "7577aa78cc52dc5c4e3de655c329dd01a34f9b16",
       "timestamp": 1733508243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3d4422472fbf3f118f220bbbb229b3095670cbcd3f5a9a3136cac7211286d2b3": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.8.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30800,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "1ad1435b30fefabfe9e0045b90c1d96e7c2d9203",
+      "timestamp": 1735325916,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "687b97d6fcef2768b716a1e32db434817afe89a98994338368b38ae981eee534": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.8.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 30800,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "1ad1435b30fefabfe9e0045b90c1d96e7c2d9203",
+      "timestamp": 1735326066,
       "reproducible": true,
       "error": null
     }
@@ -15573,6 +15629,20 @@
       "error": null
     }
   ],
+  "d8fd6277881d14b762d29a6ef74a6e52dcab0fa10c4840bc210ac692d8c4bdda": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.0/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 153,
+      "version_name": "3.6.0",
+      "tag": "3.6.0",
+      "commit": "c35da557354509cd29508127dfb73fd4dd76feda",
+      "timestamp": 1735326221,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -15835,6 +15905,20 @@
       "tag": "1.0.1",
       "commit": "38bc2ed8c1c1e002969b8cc344e0fd8a7d8e03dd",
       "timestamp": 1722385814,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "72996f27532cc403de28af68885ca3819bb78461c1edb3a1d154ca67f9514d04": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.0/messages-3-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "79971924d5e55d643aecb25515e8f00563466fd3",
+      "timestamp": 1735326386,
       "reproducible": true,
       "error": null
     }

@@ -4,6 +4,7 @@ updates: releases
 notes:
   - asked the author to either add flutter as submodule or include the used version with pubspec.yaml (if RB breaks, upstream most likely used a newer flutter version – the hash in their .metadata is not honored)
   - 'FIXME: 0.1.6 fails due to missing dependency'
+  - 'FIXME: 0.1.7 has different appId'
 versions:
   - tag: 0.1.4
     apks:

@@ -3,6 +3,7 @@ repository: https://github.com/maxrave-dev/SimpMusic.git
 updates: releases
 notes:
   - flaky build
+  - 'FIXME: v0.2.7 fails RB with strange huge dex diff'
 versions:
   - tag: v0.2.3-hf2
     apks:
