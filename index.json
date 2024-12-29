@@ -4423,6 +4423,20 @@
       "error": null
     }
   ],
+  "d2cab23132d01819e56c122028259fb9de2c7f15a7722f50ac5afb10a7c0930c": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.11/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 129,
+      "version_name": "4.0.11",
+      "tag": "4.0.11",
+      "commit": "78a1fa6ef6850f84edd4d964c112e62a3b343a60",
+      "timestamp": 1735494379,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -6551,6 +6565,48 @@
       "error": null
     }
   ],
+  "f7270b996a277605116ed42fa8a804db4093b2610bcccf497f181c6a6e00fd4d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.11.00/WebMonkey-004.11.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4110011,
+      "version_name": "004.11.00-11API",
+      "tag": "v04.11.00",
+      "commit": "f87a51206209ec1e7b3b8099344e4fbb2d30983b",
+      "timestamp": 1735494682,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "18e4c9550ab1c5bc34fa13fd271381d489e641a3c4f21d11dfa50e018da4e6bd": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.11.00/WebMonkey-004.11.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4110011,
+      "version_name": "004.11.00-11API",
+      "tag": "v04.11.00",
+      "commit": "f87a51206209ec1e7b3b8099344e4fbb2d30983b",
+      "timestamp": 1735494793,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ef2cfd4d6e9e163e11f3ad318c9f355f195775ef7e5215c9c2b38bd21542561d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.11.00/WebMonkey-004.11.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4110011,
+      "version_name": "004.11.00-11API",
+      "tag": "v04.11.00",
+      "commit": "f87a51206209ec1e7b3b8099344e4fbb2d30983b",
+      "timestamp": 1735494903,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -7587,6 +7643,20 @@
       "error": null
     }
   ],
+  "da50677cdbf3d82157f4a9b87d13939ec79948fb653fbe01e37eceebf81450e9": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.3.4/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 67,
+      "version_name": "0.3.4",
+      "tag": "0.3.4",
+      "commit": "3f9c3ea6b0c94d2cf10f36ab87831d386a826446",
+      "timestamp": 1735500551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "22724e21732e19d8cd71d650adc2833c97d24132c52e34354198548d9a69ba44": [
     {
       "repository": "https://github.com/Droid-ify/client.git",
@@ -8141,6 +8211,20 @@
       "tag": "3.42.0",
       "commit": "0faf23ebc8402d2f0bf0fbe7b1193c5e5ee8cce2",
       "timestamp": 1734977947,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "95fd8aac0d876507e4e82d2727262bbfb56aff14927ab4f74ddc054e6f6b3119": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.43.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 850,
+      "version_name": "3.43.0",
+      "tag": "3.43.0",
+      "commit": "5cc8d9d0e60d66d4768ccc854d28f0d1a35a51c6",
+      "timestamp": 1735495016,
       "reproducible": true,
       "error": null
     }
@@ -9021,6 +9105,20 @@
       "tag": "0.0.8",
       "commit": "dd176f4f088b025d8a4768b78d9b16b223ffe874",
       "timestamp": 1733941265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac02e0b4a266f1ec58a46f1af9b6096a03eb4af36b77a4f1b76d82936f4dcd69": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.0.10/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 10,
+      "version_name": "0.0.10",
+      "tag": "0.0.10",
+      "commit": "3ab26b07ccf031c300aa5bc101d7b2041ebe2bcf",
+      "timestamp": 1735495402,
       "reproducible": true,
       "error": null
     }
@@ -10131,6 +10229,20 @@
       "error": null
     }
   ],
+  "51fdc73a4374708e643922ffe2432b59fcd78280e8539ab58abc85b930eebc25": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.7/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2009,
+      "version_name": "1.0.7",
+      "tag": "V1.0.7",
+      "commit": "49b4d1c451fe1726d3f95eefa9864988480495de",
+      "timestamp": 1735495591,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -11011,6 +11123,20 @@
       "timestamp": 1729084633,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "71c3df198408facb2ad7c8f6a9a2d5d2c3c0f8dfb9b9e1ed815b2fffd5d60c75": [
+    {
+      "repository": "https://github.com/vishal2376/git-coach.git",
+      "apk_url": "https://github.com/vishal2376/git-coach/releases/download/v5.2/gitcoach.v5.2.apk",
+      "appid": "com.vishal2376.gitcoach",
+      "version_code": 15,
+      "version_name": "5.2",
+      "tag": "v5.2",
+      "commit": "2e9d0ae592b52e34e120afcde4dd7548822f1494",
+      "timestamp": 1735056837,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "a04c4e01db9571f595edbeeac3d32e3f63124707d37a625e9d1409a8bc19ffe8": [
@@ -14565,6 +14691,20 @@
       "error": null
     }
   ],
+  "ccb7f85ae38450c673d647123b0844826216027fbcfd26e95fd9f6129230ea9c": [
+    {
+      "repository": "https://github.com/tateisu/SubwayTooter.git",
+      "apk_url": "https://github.com/tateisu/SubwayTooter/releases/download/v5.547/SubwayTooter-main-noFcm-547-5.547-20241229_040655.apk",
+      "appid": "jp.juggler.subwaytooter.noFcm",
+      "version_code": 547,
+      "version_name": "5.547-noFcm",
+      "tag": "v5.547",
+      "commit": "58d9352baca0195c4c75a2b50ea0f20492062602",
+      "timestamp": 1735497267,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "16dd08d5d537ed29c31510a45cfcec59e7bb0f9801289f6fe1acc00c4f47c695": [
     {
       "repository": "https://github.com/shiftrot/caps2ctrl.git",
@@ -16357,6 +16497,20 @@
       "error": null
     }
   ],
+  "2ebd537ccf3bb03b2a78c8c50bff5a6e1f2a9e89e1017af1899a598da70f7cce": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.9.0/wikireader-v1.9.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 20,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "d2f89c02ae7f0dae0b06e39ff50cd0b423eae94f",
+      "timestamp": 1735496064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -17631,6 +17785,20 @@
       "error": null
     }
   ],
+  "bb75ec77e07008febc17057fa0a66fa04fe16b098378e880459741343c32aa30": [
+    {
+      "repository": "https://github.com/Acclorite/book-story.git",
+      "apk_url": "https://github.com/Acclorite/book-story/releases/download/v1.5.0/book-story.apk",
+      "appid": "ua.acclorite.book_story",
+      "version_code": 10,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "aa657790d0f5b6e4f1f9d16fe659f59b0145ac64",
+      "timestamp": 1735496267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1883ad4c9dd3d0d529fcb7042d9887917c49f8604d389f5df880f01938dbcb53": [
     {
       "repository": "https://github.com/AkaneFoundation/Omni.git",
@@ -17683,6 +17851,20 @@
       "tag": "v1.0.1",
       "commit": "53cbd9b7b6a791ded1b8b41fff0e61672391c6f9",
       "timestamp": 1725728943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "22c7161ca2d1eccc5cb2b7cee31096e3b4c1333dec79172ddb874f0959ef8ee2": [
+    {
+      "repository": "https://github.com/v4lpt/TPC.git",
+      "apk_url": "https://github.com/v4lpt/TPC/releases/download/v1.0.2/VPT.016-TPC.1.0.2.apk",
+      "appid": "v4lpt.vpt.c016.TPC",
+      "version_code": 102,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "84f550de4446c5a4d04e7a9118e6485c58347e15",
+      "timestamp": 1735499824,
       "reproducible": true,
       "error": null
     }
@@ -18019,6 +18201,20 @@
       "tag": "2.0.4",
       "commit": "ab660fbaa34a391aa469b8bb8848e47057e288af",
       "timestamp": 1734121614,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e1be6b5d3f7dd49cc72955f635c83f52af9d83b4de6111ca876c6698788e87d": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.5/yetCalc-v2.0.5.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 21,
+      "version_name": "2.0.5",
+      "tag": "2.0.5",
+      "commit": "a33735a66e8704f3a5a41858ca30f8014602fc06",
+      "timestamp": 1735496665,
       "reproducible": true,
       "error": null
     }

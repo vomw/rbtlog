@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/NeoApplications/Neo-Feed.git
 updates: releases
+notes:
+  - v1.7.2.hotfix failed RB, see https://github.com/NeoApplications/Neo-Feed/issues/39
 versions:
   - tag: 1.7.1
     apks:
