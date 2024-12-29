@@ -1,8 +1,8 @@
 ---
 repository: https://github.com/teixeira0x/SubTypo.git
-updates: releases
+updates: disabled
 notes:
-  - 'FIXME: appId changed'
+  - appId changed to com.teixeira0x.subtypo
 versions:
   - tag: v1.2.0
     apks:
