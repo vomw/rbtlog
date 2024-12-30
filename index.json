@@ -363,6 +363,20 @@
       "error": null
     }
   ],
+  "0d727e840f416e203b0816fd6787e5150f5826b8d9d72df5198b1d9cf170f36b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/7.1.1/Podcini.R_release_free_7.1.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020332,
+      "version_name": "7.1.1",
+      "tag": "7.1.1",
+      "commit": "20fce0e9b3970f0f50ec856bf53864b5adf034ec",
+      "timestamp": 1735584473,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1143,6 +1157,20 @@
       "tag": "3.31.2",
       "commit": "c9b790b87532bdaa233dd94f75b8b3cc42a8a2fc",
       "timestamp": 1735321569,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2f65f08ed5124d9cb15e132c78efe006bc57493ac76187be41d22b8279cf6e8f": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.31.4/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 331040,
+      "version_name": "3.31.4",
+      "tag": "3.31.4",
+      "commit": "58e6d8c245fd22e28dd3c480008bb3de35fe4948",
+      "timestamp": 1735580757,
       "reproducible": true,
       "error": null
     }
@@ -3145,6 +3173,20 @@
       "tag": "2024.12.1087",
       "commit": "b8defc21d9abcd40f3ff44484b00070a4c141bce",
       "timestamp": 1735407968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5f62d5415b57b3218a0bff99e1e97d02a812b884e1be3b7424b6956cf07ae98f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2024.12.1088-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1088,
+      "version_name": "2024.12.1088-dev",
+      "tag": "2024.12.1088-dev",
+      "commit": "d775df31824157ca9648ea46d5bf4372e71c2237",
+      "timestamp": 1735581064,
       "reproducible": true,
       "error": null
     }
@@ -5399,6 +5441,20 @@
       "tag": "v1.13.1",
       "commit": "ab1d8191cae44b50660f540257c664588c732557",
       "timestamp": 1735148764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "618403e786e4b880ae707465ee2ea47dc89d1ba10ae6c5a786381e39c610a7c6": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.14.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 94,
+      "version_name": "1.14.0",
+      "tag": "v1.14.0",
+      "commit": "33fd4bc0ac8d7c1c08d707b69288e551ca446959",
+      "timestamp": 1735581410,
       "reproducible": true,
       "error": null
     }
@@ -12715,6 +12771,20 @@
       "tag": "v1.0.7",
       "commit": "0d5b2eb580caa921dcd935460dbdd70c88324783",
       "timestamp": 1733767928,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3c9c9f559773df11cbd7311ce6b437c4028b38a93148b268c3a205ffd3620a32": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.0.9/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 9,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "71af7fb9e7bcfa763e788b5e9e62ce986ebc3d54",
+      "timestamp": 1735581640,
       "reproducible": true,
       "error": null
     }
