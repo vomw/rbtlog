@@ -2,8 +2,9 @@
 repository: https://github.com/tateisu/SubwayTooter.git
 updates: releases
 notes:
-  - 'FIXNEEDED: lots of JARs in _Emoji/emojiConverter/src/lib'
+  - 'FIXME: lots of JARs in _Emoji/emojiConverter/src/lib; we could run "rm -rf _Emoji/emojiConverter/src/lib" according to https://github.com/tateisu/SubwayTooter/issues/271#issuecomment-2564462499'
   - for v5.545, needed to rename the app/src/noFcm directory to app/src/nofcm (case sensitivity on Linux but not on Windows); should be fixed with the next release
+  - v5.547 failed as it was built from a dirty tree (local adjustments after tagging)
 versions:
   - tag: v5.545
     apks:
