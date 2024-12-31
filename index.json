@@ -769,6 +769,20 @@
       "error": null
     }
   ],
+  "46e856eb595c18da1e6a088c1f4fb0bb328b1b426cfa785e74137bdaccc03ad9": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v6.3.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 630,
+      "version_name": "v6.3.0",
+      "tag": "v6.3.0",
+      "commit": "3a6cf8f0edcb6eac2ac2d1af7a7b9883894a9aa3",
+      "timestamp": 1735667156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -8801,6 +8815,20 @@
       "error": null
     }
   ],
+  "27efb3f9673c2a8cc260bda3c191f8ff087e7899f20fd9a80758efd93c82d56f": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.13.0/dahdidahdit-1.13.0.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1130001,
+      "version_name": "1.13.0",
+      "tag": "release-1.13.0",
+      "commit": "cacba75aaa5b8b633c3c138dc73426bce1a5eb18",
+      "timestamp": 1735667472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -9189,6 +9217,20 @@
       "tag": "0.0.10",
       "commit": "3ab26b07ccf031c300aa5bc101d7b2041ebe2bcf",
       "timestamp": 1735495402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "62b310d013647d141f208acf19d63c8aa769b6ca8bfb5ef341a5fafad82d3398": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.0/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 100,
+      "version_name": "0.1.0",
+      "tag": "0.1.0",
+      "commit": "6793e355539e78c470bc2d5d1791359433098381",
+      "timestamp": 1735667679,
       "reproducible": true,
       "error": null
     }
@@ -12817,6 +12859,20 @@
       "error": null
     }
   ],
+  "eb17a66299fc75bf0f0b2ea88999ccb7cef9e573c3b36e188c7239efbf4fa983": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.1.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 10,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "b519162d89407dc06c77ca53e1796013c1da4153",
+      "timestamp": 1735667884,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -13443,6 +13499,20 @@
       "tag": "1.2253",
       "commit": "0001326eaf93bcdaad8c6a0d6ce4d13125a4dbe2",
       "timestamp": 1735057017,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6cd1fd2437489a4a91d03f7395a1cb5a6ffd661fa455bae23893c5fa146f313": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2254/FairEmail-v1.2254a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2254,
+      "version_name": "1.2254",
+      "tag": "1.2254",
+      "commit": "b7a6f66081450af5e440dac275c1f1de5acb40e0",
+      "timestamp": 1735668097,
       "reproducible": true,
       "error": null
     }
@@ -14169,6 +14239,20 @@
       "tag": "0.22.0.126",
       "commit": "fa2cbd967476187a963401904ac15a1777eb90fa",
       "timestamp": 1730310616,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f6bded58229d8fc74bd150e67fbf22b87616b250918bdf61d9193832a160066": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.22.1.127/freetube-0.22.1.127-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 220001127,
+      "version_name": "0.22.1.127",
+      "tag": "0.22.1.127",
+      "commit": "63b8a61733cd4782ab5de13551e9b362d567b0fa",
+      "timestamp": 1735668556,
       "reproducible": true,
       "error": null
     }
@@ -17781,6 +17865,20 @@
       "tag": "v2.0.7",
       "commit": "f0ec6f31fd8c173553a4040de3ac763d646005a6",
       "timestamp": 1726678700,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c7c9eaeead077e4196196aedb4e6673d491db46717817719967c058b3b5d336b": [
+    {
+      "repository": "https://github.com/techlore/Plexus-app.git",
+      "apk_url": "https://github.com/techlore/Plexus-app/releases/download/v2.0.8/Plexus_v2.0.8.apk",
+      "appid": "tech.techlore.plexus",
+      "version_code": 208,
+      "version_name": "2.0.8",
+      "tag": "v2.0.8",
+      "commit": "33451c748c9111f76d7504dc04192ba8787445c5",
+      "timestamp": 1735671400,
       "reproducible": true,
       "error": null
     }
