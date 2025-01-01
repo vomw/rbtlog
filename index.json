@@ -2141,6 +2141,20 @@
       "error": null
     }
   ],
+  "6aa8f0b75543a6ca75916c3a01b285b3c52c1e83653dc8ed0802d1fe9e881eac": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v6.3/OwnDroid-v6.3.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 35,
+      "version_name": "6.3",
+      "tag": "v6.3",
+      "commit": "4e6393bebeba62abbdee5fe65e01eff627c2e844",
+      "timestamp": 1735760233,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a008b12be29b6ca83cd33d7ee973f7eab81d60420c57ffbcffa2a51b06fa45ca": [
     {
       "repository": "https://github.com/you-apps/TranslateYou.git",
@@ -3219,6 +3233,20 @@
       "error": null
     }
   ],
+  "dddec8c003a9c48e2cd84fb577d3ced26177d728bd34f551478b3af87dd856e5": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.2v48/PuppyGit_1.0.7.2v48_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 48,
+      "version_name": "1.0.7.2",
+      "tag": "1.0.7.2v48",
+      "commit": "7ba2b29fc3fc8efb3b2cd47798490b870b0b9c91",
+      "timestamp": 1735753808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -3257,6 +3285,20 @@
       "tag": "1.7v8",
       "commit": "1114ff4d77bacdb096e7242f96580cceb4acb19b",
       "timestamp": 1733853802,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c3bcc008f60e24292fd3f29ff62df3f2a877bf4035b857e2284f69263e7b910e": [
+    {
+      "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
+      "apk_url": "https://github.com/catpuppyapp/SshKeyMan/releases/download/1.8v9/SshKeyMan_1.8v9_release.apk",
+      "appid": "com.catpuppyapp.sshkeyman",
+      "version_code": 9,
+      "version_name": "1.8",
+      "tag": "1.8v9",
+      "commit": "f911edff4ba26167417962ed5d6587be1bf9bb3a",
+      "timestamp": 1735761400,
       "reproducible": true,
       "error": null
     }
@@ -16245,6 +16287,20 @@
       "error": null
     }
   ],
+  "feb24945263e52e99c09450710c445da94e921a65678d15f59d2421a2b4500ff": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.0.1/launcher-2-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "1.0.1",
+      "commit": "e91e4c43ac8c4486c17030287f8af8feedfe69d4",
+      "timestamp": 1735754940,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -18135,6 +18191,20 @@
       "error": null
     }
   ],
+  "445f392fe696b0c20bad86a28d90e804ca585791084bf27cabf40c2ddcd9934e": [
+    {
+      "repository": "https://github.com/v4lpt/TPC.git",
+      "apk_url": "https://github.com/v4lpt/TPC/releases/download/v1.0.3/VPT.016-TPC.1.0.3.apk",
+      "appid": "v4lpt.vpt.c016.TPC",
+      "version_code": 103,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "fd46e269710dfb27b99cf7decd870d4f8ca0d1b1",
+      "timestamp": 1735755226,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "03d8ab084316d4698b9857e472c015f91bb53a9dc8ac3a3e6fead23f20064e98": [
     {
       "repository": "https://github.com/v4lpt/GDP.git",
@@ -18355,6 +18425,20 @@
       "tag": "v1.0.1",
       "commit": "b588fcec3127b4a9e397e492624e1cd79408bff9",
       "timestamp": 1735689188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "15567178625ee53d9b43c1ba3efb9b0fb935ccf1a19764b7f7ce5bdb439b0d21": [
+    {
+      "repository": "https://github.com/regulad/closecircuit.git",
+      "apk_url": "https://github.com/regulad/closecircuit/releases/download/v1.0.2/app-release.apk",
+      "appid": "xyz.regulad.closecircuit",
+      "version_code": 1,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "f3b8a5594549da7b0391efd3bf7a3ed1a3345ea9",
+      "timestamp": 1735755366,
       "reproducible": true,
       "error": null
     }
