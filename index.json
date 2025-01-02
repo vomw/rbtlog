@@ -3219,6 +3219,20 @@
       "error": null
     }
   ],
+  "df1002a2c1bbe9475e4f5b51d908995e9fefe944ff548a456212dddb7bd07b47": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1089/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1089,
+      "version_name": "2025.01.1089",
+      "tag": "2025.01.1089",
+      "commit": "a9b67aca34b6ade5d39aaaf418be81d38dd33c37",
+      "timestamp": 1735839957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -3873,6 +3887,20 @@
       "tag": "0.0.4",
       "commit": "d270c408ad6de4e3043f3f1d8ef3dd0fc705dfc1",
       "timestamp": 1735692449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "270c95e6dac257ba96a2542207b4d5a6092d608aa5e90036384602b93e54dc26": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.5/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 5,
+      "version_name": "0.0.5",
+      "tag": "0.0.5",
+      "commit": "957b6528ecf4e414adffebcab1b8f0fa7486b270",
+      "timestamp": 1735840295,
       "reproducible": true,
       "error": null
     }
@@ -4545,6 +4573,20 @@
       "tag": "4.0.11",
       "commit": "78a1fa6ef6850f84edd4d964c112e62a3b343a60",
       "timestamp": 1735494379,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b441f4b4b9ddf7cdf1fe17c9b65765805b37970ceb7ed45fe8d7f0c871d08745": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.12/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 130,
+      "version_name": "4.0.12",
+      "tag": "4.0.12",
+      "commit": "5866a72129993e6c3741124ece71e27d92dabbad",
+      "timestamp": 1735840548,
       "reproducible": true,
       "error": null
     }
@@ -8895,6 +8937,20 @@
       "tag": "release-1.13.0",
       "commit": "cacba75aaa5b8b633c3c138dc73426bce1a5eb18",
       "timestamp": 1735667472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "063a7dc8d5d01650b674e3bbca48636e649384b2d201a3de9288fba4f534009d": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.13.1/dahdidahdit-1.13.1.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1130101,
+      "version_name": "1.13.1",
+      "tag": "release-1.13.1",
+      "commit": "7b5f124f0efec94d062f98e40a51a213e344a925",
+      "timestamp": 1735840837,
       "reproducible": true,
       "error": null
     }
@@ -13587,6 +13643,20 @@
       "error": null
     }
   ],
+  "7c94c938c2c3a211a28bed72757fd291062f4dc5a5ec3416d380458f1a6a5b67": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2256/FairEmail-v1.2256a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2256,
+      "version_name": "1.2256",
+      "tag": "1.2256",
+      "commit": "564cac99b480d54ea5e18c1590dc3c8bc57974f4",
+      "timestamp": 1735841043,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -14631,6 +14701,20 @@
       "tag": "0.4.4",
       "commit": "92eebb9f2c1e72ecacd58a6137f25e3d0b220062",
       "timestamp": 1734546240,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c53084b0cd85ff48af13ed10261f89ead8a80cd2a6708b37098c28a2070cc2e2": [
+    {
+      "repository": "https://github.com/SoundRemote/client-android.git",
+      "apk_url": "https://github.com/SoundRemote/client-android/releases/download/0.4.5/SoundRemote_0.4.5.apk",
+      "appid": "io.github.soundremote",
+      "version_code": 10,
+      "version_name": "0.4.5",
+      "tag": "0.4.5",
+      "commit": "401d3ac128023bb5c8f2189781871ca58edb6764",
+      "timestamp": 1735842937,
       "reproducible": true,
       "error": null
     }
