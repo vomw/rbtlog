@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/aimok04/kitshn.git
 updates: releases
+notes:
+  - v1.0.0-alpha.15 switched to Compose and became flaky
 versions:
   - tag: v1.0.0-alpha.4
     apks:
@@ -320,6 +322,44 @@ versions:
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
           extra_packages: []
           image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.0.0-alpha.15
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.15/app-release.apk
+        build:
+          - git reset --soft 6b614d8b914eb127fc1213a6285ff0381e863138
+          - chmod +x gradlew
+          - PROF_FILE=composeApp/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=3c9dfcf7053dd66957eb346417e5152047e633df
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv composeApp/build/outputs/apk/release/composeApp-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
           jdk: openjdk-17-jdk-headless
           ndk:
           platform:
