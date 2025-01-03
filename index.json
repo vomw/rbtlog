@@ -377,6 +377,20 @@
       "error": null
     }
   ],
+  "c3d64993a8a590bc63a17d166fc68e8d90c00232519e01698003d14a60d6cf07": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/7.2.1/Podcini.R_release_free_7.2.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020334,
+      "version_name": "7.2.1",
+      "tag": "7.2.1",
+      "commit": "c589a681954e10543d923a999a7a3880c73219ac",
+      "timestamp": 1735926365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3233,6 +3247,20 @@
       "error": null
     }
   ],
+  "5f7f2a76319af251a5f47dba09780f695688c8a95e0ea0a0bbe630d3e001dae1": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1090-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1090,
+      "version_name": "2025.01.1090-dev",
+      "tag": "2025.01.1090-dev",
+      "commit": "88eff2fde7956b387d6e58340412d93b62cead42",
+      "timestamp": 1735926786,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -4153,6 +4181,20 @@
       "tag": "0.6.2",
       "commit": "d878d90ddcdcded299946aee1556ed9d1cfa1d10",
       "timestamp": 1732211923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5eddad152cb2a75e9a9cee0580886b36e6d5c743fa906cfe1b6c1f4c5308656": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.5/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 28,
+      "version_name": "0.6.5",
+      "tag": "0.6.5",
+      "commit": "f784b6947654fef2607e19d68c947b37eb663ea0",
+      "timestamp": 1735861316,
       "reproducible": true,
       "error": null
     }
@@ -5917,6 +5959,20 @@
       "tag": "v0.10.0",
       "commit": "ce1aea4c5b12a2d4f4771db38e27b9b59db507bb",
       "timestamp": 1734889974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e020bb6e1c605da2b50016d2ed3823f732c4b27c58cac86db754936b13ee5528": [
+    {
+      "repository": "https://github.com/enteraname74/SoulSearching.git",
+      "apk_url": "https://github.com/enteraname74/SoulSearching/releases/download/v0.10.2/com.github.enteraname74.soulsearching_0.10.2.apk",
+      "appid": "com.github.enteraname74.soulsearching",
+      "version_code": 27,
+      "version_name": "0.10.2",
+      "tag": "v0.10.2",
+      "commit": "71f4a3fef7abab6d0ec1ffe53fd304de3455a5a0",
+      "timestamp": 1735927173,
       "reproducible": true,
       "error": null
     }
@@ -8141,6 +8197,20 @@
       "tag": "v3.1.0",
       "commit": "f490f0e7f27c4992ff3e2a7db90633669ba9820a",
       "timestamp": 1725640063,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c44178601760f558a06005620925a2d14105a7a27bfaa3c978cd69f403259246": [
+    {
+      "repository": "https://github.com/forzzzzz/Calculator-You.git",
+      "apk_url": "https://github.com/forzzzzz/Calculator-You/releases/download/v3.1.1/CalculatorYou-v3.1.1.apk",
+      "appid": "com.marktka.calculatorYou",
+      "version_code": 32,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "27980957eec3bc04cacd65e3bf8b27f4b7ce1d87",
+      "timestamp": 1735927557,
       "reproducible": true,
       "error": null
     }
@@ -12799,6 +12869,20 @@
       "tag": "v1.0.10",
       "commit": "8f51affa2b81c57d656b2fd5e4fe64f01c9d55e1",
       "timestamp": 1731953197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3259c0bf3d34628ceada951b19ec742bd24ffdde003f791fab76ec08e30cecba": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.0.11/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 12,
+      "version_name": "1.0.11",
+      "tag": "v1.0.11",
+      "commit": "735683cc77503a140a01d7f25e843c8656b74029",
+      "timestamp": 1735927904,
       "reproducible": true,
       "error": null
     }
