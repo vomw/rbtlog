@@ -7923,6 +7923,20 @@
       "error": null
     }
   ],
+  "08eab924b24eb0fb2f4a6d460198c4ca5ee8820e2b3f32cc5932b57ee85d80f0": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.4.0/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 74,
+      "version_name": "0.4.0",
+      "tag": "0.4.0",
+      "commit": "cdf733d0326ed90d41fe217372861666169eabab",
+      "timestamp": 1736016809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "22724e21732e19d8cd71d650adc2833c97d24132c52e34354198548d9a69ba44": [
     {
       "repository": "https://github.com/Droid-ify/client.git",
@@ -18103,6 +18117,20 @@
       "tag": "3.1.1",
       "commit": "0af0ba8569f22a60bc8faffa15c9eb5f73acf4df",
       "timestamp": 1734124168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "824a6cfe607e6f00c5821cd291fb652c9930882d252738f79a235fb1a04e75a9": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.1.2/image-toolbox-3.1.2-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 163,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "3651388d690d1fec69dc60b22d8aadfd1dc96d5d",
+      "timestamp": 1736019847,
       "reproducible": true,
       "error": null
     }
