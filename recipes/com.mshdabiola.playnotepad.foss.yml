@@ -1,0 +1,45 @@
+---
+repository: https://github.com/mshdabiola/NotePad.git
+updates: releases
+notes:
+  - flaky build
+versions:
+  - tag: 1.3.6
+    apks:
+      - apk_pattern: app-fossReliant-release-unsigned-signed\.apk
+        apk_url: https://github.com/mshdabiola/NotePad/releases/download/$$TAG$$/app-fossReliant-release-unsigned-signed.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - sed -i -e '/androidx.dev/d' settings.gradle.kts
+          - sed -i -e '/with(target) {/,/^        }/d' -e '/CrashlyticsExtension/d' build-logic/convention/src/main/kotlin/AndroidApplicationFirebaseConventionPlugin.kt
+          - sed -i -e '/libs.firebase/d' build-logic/convention/build.gradle.kts
+          - chmod +x gradlew
+          - DEX_FILE=app/build/intermediates/dex/fossReliantRelease/minifyFossReliantReleaseWithR8/classes.dex
+          - DEX_SHA1=2f95509dffb390e333d69cdc7e0786831ca73e75
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFossReliantRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$DEX_FILE"
+          - if [ "$( sha1sum "$DEX_FILE" | cut -d' ' -f1 )" = "$DEX_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/fossReliant/release/app-fossReliant-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
