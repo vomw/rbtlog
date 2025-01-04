@@ -391,6 +391,20 @@
       "error": null
     }
   ],
+  "c1ee065a0f0478cf71ceddfc5f7dab2615447c0548b62b8120afa10f124ec4ff": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.git",
+      "apk_url": "https://github.com/XilinJia/Podcini/releases/download/7.2.2/Podcini.R_release_free_7.2.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.R",
+      "version_code": 3020335,
+      "version_name": "7.2.2",
+      "tag": "7.2.2",
+      "commit": "2182b7161ee6ee07dc3933da52be3a519070f890",
+      "timestamp": 1736012765,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1045,6 +1059,20 @@
       "tag": "11",
       "commit": "36c7cbaf294b13f0c1f9193ce06485ce0e4649c8",
       "timestamp": 1734204327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "41f09a044ee49b7542d34590282924e8f9d8a7e8639144a12e5b3d73bed82db0": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/12/biz.binarysolutions.healthybatterycharging-2.0.10-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 12,
+      "version_name": "2.0.10",
+      "tag": "12",
+      "commit": "f9c26cb18e24ba77c376a01e8ffccbf25bb5dfc7",
+      "timestamp": 1736013278,
       "reproducible": true,
       "error": null
     }
@@ -3929,6 +3957,20 @@
       "tag": "0.0.5",
       "commit": "957b6528ecf4e414adffebcab1b8f0fa7486b270",
       "timestamp": 1735840295,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ae0b0d0b08b5bbc583827d12d49aa864e3d26a2c81b3e120572f8ae353a8ab26": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.6/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 6,
+      "version_name": "0.0.6",
+      "tag": "0.0.6",
+      "commit": "c446973f3504b6961b3ffbf9a09a377b388219d4",
+      "timestamp": 1736013427,
       "reproducible": true,
       "error": null
     }
@@ -9441,6 +9483,20 @@
       "tag": "0.1.0",
       "commit": "6793e355539e78c470bc2d5d1791359433098381",
       "timestamp": 1735667679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb5c3d46e48a78196f94ecb59205ed9dec04938ebd55becbff26271e056d0543": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.1/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 101,
+      "version_name": "0.1.1",
+      "tag": "0.1.1",
+      "commit": "a612508ecb49a79e388e148e59b592e631fe6c12",
+      "timestamp": 1736013750,
       "reproducible": true,
       "error": null
     }
@@ -16567,6 +16623,20 @@
       "error": null
     }
   ],
+  "7226bdc6745d7d169a9650f34a11a96faaaf3729b4c62b21e93c1e4f6694f5cc": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.1/messages-4-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 4,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "55c4e84ddc29e7c36febc2ebe74d6308fb1ce54b",
+      "timestamp": 1736016145,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -18159,6 +18229,20 @@
       "tag": "v1.3.0",
       "commit": "4a3e2a153a4690b9fbe06aff037f43b0bebdc5de",
       "timestamp": 1734979994,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "268b6b6edc21ee5b4765903adbe4e034bc2a2ce844626bf26a53d405718f1740": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.3.1/stasis-client-android-v1.3.1.apk",
+      "appid": "stasis.client.android",
+      "version_code": 5,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "dab71b3cf83a254224f0607cf3bb6124e51fa2f5",
+      "timestamp": 1736014229,
       "reproducible": true,
       "error": null
     }
