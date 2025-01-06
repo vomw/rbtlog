@@ -1,7 +1,7 @@
 ---
 repository: https://github.com/DD3Boh/OuterTune.git
 notes:
-  - 'TODO: self-build ffmpeg libs; see instructions in settings.gradle and app/build.gradle.kts (at the end of the files)'
+  - 'FIXME: remove the ffMetadataEx clone before running the next build (after v0.6.4, see https://github.com/DD3Boh/OuterTune/issues/23#issuecomment-2571744304)'
 updates: releases
 versions:
   - tag: v0.6.2
