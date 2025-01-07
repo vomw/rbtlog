@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/jucktion/healthlog.git
 updates: releases
+notes:
+  - 'FIXME: Flutter version now defined in pubspec.yaml'
 versions:
   - tag: v0.32.0
     apks:

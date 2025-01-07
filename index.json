@@ -1245,6 +1245,20 @@
       "error": null
     }
   ],
+  "4b0f538294db3019296781ba9999fbf6c94df29964a1780ac56e002a53f63f05": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.32.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 332000,
+      "version_name": "3.32.0",
+      "tag": "3.32.0",
+      "commit": "1b2395ad6892a35e4d8f2be3d8cdbb0492502ba3",
+      "timestamp": 1736271974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -1451,6 +1465,20 @@
       "tag": "v1.50.5",
       "commit": "6f5e90be53cc5607ae650d2f5e980e01ad9a421f",
       "timestamp": 1734803167,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f15844ec6afba58e27265396a8fb13035d1d70554575d49adc9fe4b58f9da0ed": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.50.6/ArcaneChat-foss-armeabi-v7a-1.50.6.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007021,
+      "version_name": "1.50.6",
+      "tag": "v1.50.6",
+      "commit": "35d814c3f66f7e7171a7c4e0526f2f3f13292aec",
+      "timestamp": 1736272343,
       "reproducible": true,
       "error": null
     }
@@ -1703,6 +1731,20 @@
       "tag": "v1.6.1/73",
       "commit": "268eb1da2fc3d3f2e2c3e53f9388272ae04acc30",
       "timestamp": 1732902937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5536296758e267fb7aeb1cfcdf928f7f13b35ef6e6ce93318f6d0fae0331f4ec": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.6.2/74/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 74,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2/74",
+      "commit": "d046451ec271e7de7f2815e59b442a495001c759",
+      "timestamp": 1736273023,
       "reproducible": true,
       "error": null
     }
@@ -3401,6 +3443,20 @@
       "error": null
     }
   ],
+  "4e92310aa00fd2c95e9172a31ca58bb517b993f2e48b603d208a9e9d6dbb0354": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.5v51/PuppyGit_1.0.7.5v51_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 51,
+      "version_name": "1.0.7.5",
+      "tag": "1.0.7.5v51",
+      "commit": "0d84ea8370e2b30a8335a1c9e23602d9dce09965",
+      "timestamp": 1736273307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5007,6 +5063,20 @@
       "tag": "v0.17.1",
       "commit": "ed26cd12ee1f45299526fff0990633d28c90e609",
       "timestamp": 1733248589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d701c74510ee02b6b26db71fc6b5d1beeab0de65c9d41f0c71ad290388b5c4c3": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.17.2/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 23,
+      "version_name": "v0.17.2",
+      "tag": "v0.17.2",
+      "commit": "b0cf8212d0bc9e1166a1600125ca56f685ad5de9",
+      "timestamp": 1736274272,
       "reproducible": true,
       "error": null
     }
@@ -7891,6 +7961,20 @@
       "tag": "v2.0",
       "commit": "c2a6857ea6b758792fd4ce225403d62e3ab513bf",
       "timestamp": 1736188606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "736cd8533d3c0ccd05eeb4715d194c2df6185a83eccf4453b1c4b35cf9129ea0": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.0.1/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768582,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "7592023e7a41e49f036920dea7677eb7189716ed",
+      "timestamp": 1736274667,
       "reproducible": true,
       "error": null
     }
@@ -14189,6 +14273,20 @@
       "error": null
     }
   ],
+  "42039594fb3e1b042c00d693467bdaa50a63e52d0a9de97a720c1e0b3307d8fd": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2257/FairEmail-v1.2257a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2257,
+      "version_name": "1.2257",
+      "tag": "1.2257",
+      "commit": "e1bb7182f693a1312afadddbaee7796f8949f3ed",
+      "timestamp": 1736278134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -17211,6 +17309,20 @@
       "error": null
     }
   ],
+  "0ffb71538dc0f7a492e956f1135b72f21da6906d409029c056be3ed4ceaacae9": [
+    {
+      "repository": "https://github.com/LucasGGamerM/moshidon.git",
+      "apk_url": "https://github.com/LucasGGamerM/moshidon/releases/download/2.3.0%2Bfork.108.moshinda/moshidon-fdroidRelease.apk",
+      "appid": "org.joinmastodon.android.moshinda",
+      "version_code": 108,
+      "version_name": "2.3.0+fork.108.moshinda",
+      "tag": "2.3.0+fork.108.moshinda",
+      "commit": "dae5989d64c4dd3ddcda0fe93daff2b1f549e5cc",
+      "timestamp": 1736279283,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "45b1b3af338b570ef6141eac94eecb561b666b9c77a6a75877448b59ebbd5076": [
     {
       "repository": "https://github.com/sk22/megalodon.git",
@@ -18747,6 +18859,20 @@
       "tag": "v2.0.8",
       "commit": "33451c748c9111f76d7504dc04192ba8787445c5",
       "timestamp": 1735671400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e939edc57480c595e14878a439d6968473080cf627d590baeac4f25decb5f61": [
+    {
+      "repository": "https://github.com/techlore/Plexus-app.git",
+      "apk_url": "https://github.com/techlore/Plexus-app/releases/download/v2.0.9/Plexus_v2.0.9.apk",
+      "appid": "tech.techlore.plexus",
+      "version_code": 209,
+      "version_name": "2.0.9",
+      "tag": "v2.0.9",
+      "commit": "a06cac5862d20c9c12340edfa5b14f2c39eeb0da",
+      "timestamp": 1736275778,
       "reproducible": true,
       "error": null
     }
