@@ -4143,6 +4143,20 @@
       "error": null
     }
   ],
+  "82ccc672aba1f7cd673686924982eff1137af7f26a14fda520288ed525e5c4f4": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.9/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 9,
+      "version_name": "0.0.9",
+      "tag": "0.0.9",
+      "commit": "41a88b9d7b9f711ab3d69abf014726dc72ef5ccb",
+      "timestamp": 1736358361,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -4853,6 +4867,20 @@
       "tag": "4.0.12",
       "commit": "5866a72129993e6c3741124ece71e27d92dabbad",
       "timestamp": 1735840548,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c3e6a068a113e9718d8a0c0de8b40f8c85d11f8817adc474cad34451c400f082": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.13/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 131,
+      "version_name": "4.0.13",
+      "tag": "4.0.13",
+      "commit": "e0aa133ff1cc9a09097c82a944e46d40de5048d0",
+      "timestamp": 1736358748,
       "reproducible": true,
       "error": null
     }
@@ -13853,6 +13881,20 @@
       "error": null
     }
   ],
+  "e4a21ab58ed1dbb376352cf09e69aaa4e1b9ad75519c6f67ccc5a3d99d70a508": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v2.58.2-rc0/eu.darken.bluemusic-v2.58.2-rc0.25802000.-RELEASE-cb78a5b.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 25802000,
+      "version_name": "2.58.2-rc0",
+      "tag": "v2.58.2-rc0",
+      "commit": "cb78a5b328bc923e4e1513652535baccec6c4bf2",
+      "timestamp": 1736359171,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -14283,6 +14325,20 @@
       "tag": "1.2257",
       "commit": "e1bb7182f693a1312afadddbaee7796f8949f3ed",
       "timestamp": 1736278134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5efe6b3188c1d79c52225c9f4406f42150fae006adda24534930cdcb6dde2cc0": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2258/FairEmail-v1.2258a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2258,
+      "version_name": "1.2258",
+      "tag": "1.2258",
+      "commit": "784cf1e70f3b3d2bd02da851af63e85db7036fa3",
+      "timestamp": 1736360504,
       "reproducible": true,
       "error": null
     }
@@ -18485,6 +18541,20 @@
       "error": null
     }
   ],
+  "e4679966a6e7bc1a9575aa1f1ad26366f3a42a53704668af528435195a394156": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.13.6/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 35,
+      "version_name": "0.13.6",
+      "tag": "v0.13.6",
+      "commit": "64db0d3e2ddfe40a358e3e0a68148d9b70729ee9",
+      "timestamp": 1736359899,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmppz641byf/outputs:/outputs', '--volume', '/tmp/tmppz641byf/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/AdamGuidarini/MediTrak.git', '--env', 'APP_TAG=v0.13.6', '--env', 'APP_COMMIT=64db0d3e2ddfe40a358e3e0a68148d9b70729ee9', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "534c3603b9ae481662ded85f8cf82a693ac0e29a8138813334ee24c9f627c623": [
     {
       "repository": "https://github.com/Crazy-Marvin/MetadataRemover.git",
@@ -19307,6 +19377,20 @@
       "tag": "1.4.2",
       "commit": "96b02751c073f78785733fc6169bc603693b28f9",
       "timestamp": 1734285846,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3bd00f28d0abaa924a219dd811d0c671541c00fcc642a3465f50771de44fb490": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.4.3/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 21,
+      "version_name": "1.4.3",
+      "tag": "1.4.3",
+      "commit": "14ace0df46426776ca81c4a258849adf952e7aad",
+      "timestamp": 1736360124,
       "reproducible": true,
       "error": null
     }
