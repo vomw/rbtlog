@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/XayahSuSuSu/Android-DataBackup.git
 updates: releases
-notes:
-  - 2.0.6_1 failed with small diff in baseline.prof (does not seem to be flaky, produced the same hash 4 times in a row before running into timeout)
 versions:
   - tag: 2.0.3
     apks:
@@ -99,10 +97,19 @@ versions:
           - cd source
           - chmod +x gradlew
           - sed -r '/signingConfigs.getByName/d' -i build-logic/convention/src/main/kotlin/ApplicationCommonConventionPlugin.kt
-          - ./gradlew assembleArmeabi-v7aFossRelease
+          - PROF_FILE=app/build/intermediates/binary_art_profile/armeabi-v7aFossRelease/compileArmeabi-v7aFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=5baa9504c1f1a69dbd63afb8dc9a59413e49867c
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleArmeabi-v7aFossRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - mv app/build/outputs/apk/armeabi-v7aFoss/release/DataBackup-*-armeabi-v7a-foss-release.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
+        build_timeout: 40
         build_user: build
         provisioning:
           android_home: /opt/sdk

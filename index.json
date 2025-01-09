@@ -8677,6 +8677,20 @@
       "error": null
     }
   ],
+  "857d780d3359613250074513144aa4b57821777bb582bb052fbf2832e66451f9": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.8/SimpMusic_v0.2.8-fdroid.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 25,
+      "version_name": "0.2.8",
+      "tag": "v0.2.8",
+      "commit": "0d219e724902f83bd7aa7fdcd433f7676156cc6c",
+      "timestamp": 1736372083,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "02dd9f909b315c0f2b41401f24909357bf4894b906b4d23f731a8ca5603c8cd7": [
     {
       "repository": "https://github.com/EmmaTellblom/Mensinator.git",
@@ -12074,6 +12088,18 @@
       "commit": "febb8097e22f6204ec8216adad9c9e87b20de7b7",
       "timestamp": 1736102602,
       "reproducible": false,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
+      "apk_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.6_1/DataBackup-2.0.6_1-armeabi-v7a-foss-release.apk",
+      "appid": "com.xayah.databackup.foss",
+      "version_code": 3501133,
+      "version_name": "2.0.6_1",
+      "tag": "2.0.6_1",
+      "commit": "febb8097e22f6204ec8216adad9c9e87b20de7b7",
+      "timestamp": 1736381153,
+      "reproducible": true,
       "error": null
     }
   ],

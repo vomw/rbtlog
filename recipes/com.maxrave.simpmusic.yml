@@ -2,8 +2,7 @@
 repository: https://github.com/maxrave-dev/SimpMusic.git
 updates: releases
 notes:
-  - flaky build
-  - 'FIXME: fails since v0.2.7, timeout since v0.2.8 (needs ~6 minutes per round)'
+  - flaky build (up to 0.2.7 at least, 0.2.8 succeeded on the first round again)
 versions:
   - tag: v0.2.3-hf2
     apks:
@@ -117,6 +116,41 @@ versions:
           - chmod +x gradlew
           - DEX_FILE=app/build/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
           - DEX_SHA1=e79d130b20c2f0ee60f1cdc17f4b36f036b350e2
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$DEX_FILE" | cut -d' ' -f1 )" = "$DEX_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 60
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.2.8
+    apks:
+      - apk_pattern: SimpMusic_.*\.apk
+        apk_url: https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.8/SimpMusic_v0.2.8-fdroid.apk
+        build:
+          - chmod +x gradlew
+          - DEX_FILE=app/build/intermediates/dex/release/minifyReleaseWithR8/classes2.dex
+          - DEX_SHA1=fe8fd27dc4e66496a2c3b42d4d72a6c7e0c80ab4
           - for _ in {1..10}; do
           - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
           - if [ "$( sha1sum "$DEX_FILE" | cut -d' ' -f1 )" = "$DEX_SHA1" ]; then
