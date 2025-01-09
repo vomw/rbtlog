@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: v1.0.0
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: lotus-.*-arm64-v8a-release\.apk
         apk_url: https://github.com/dn0ne/lotus/releases/download/v1.0.0/lotus-1.0.0-arm64-v8a-release.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts

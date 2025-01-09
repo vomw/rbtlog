@@ -3387,6 +3387,20 @@
       "error": null
     }
   ],
+  "36f34cd61c036f90e016113e190619981dc38003c6a3155ff047f7e44ba6ba80": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1093-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1093,
+      "version_name": "2025.01.1093-dev",
+      "tag": "2025.01.1093-dev",
+      "commit": "9392833d39e1098c91702a0c3d54a7968f29cc9d",
+      "timestamp": 1736444751,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -4157,6 +4171,20 @@
       "error": null
     }
   ],
+  "61978c691e47fe06f02e6d06cca891828cb7f21e413414f3d9ba429fdc0484f1": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.10/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 10,
+      "version_name": "0.0.10",
+      "tag": "0.0.10",
+      "commit": "1e8e1245ad2ad0d2661cdf1278f44ba2a18e2808",
+      "timestamp": 1736445108,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -4881,6 +4909,20 @@
       "tag": "4.0.13",
       "commit": "e0aa133ff1cc9a09097c82a944e46d40de5048d0",
       "timestamp": 1736358748,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d271fb8b504bf97384607e40e9074f991df84102c9bfecd875ad904d306a9de8": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.14/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 132,
+      "version_name": "4.0.14",
+      "tag": "4.0.14",
+      "commit": "6a7b24dd93dba32a5301997c69ad951d8e0ddc3a",
+      "timestamp": 1736445381,
       "reproducible": true,
       "error": null
     }
@@ -9385,6 +9427,20 @@
       "tag": "v1.17.0",
       "commit": "f171126fb580bf3785d0096e730b26f1b3fb33a3",
       "timestamp": 1734371512,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6d1d4033f97223fe0ee83ee28cdf5bcbb84f1ea3c732f0d6056c4b81728b41cf": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.18.0/openscq30_android.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 33,
+      "version_name": "1.18.0",
+      "tag": "v1.18.0",
+      "commit": "58550492ded5384323b6af417dbe66ed720c64c9",
+      "timestamp": 1736445901,
       "reproducible": true,
       "error": null
     }
@@ -14155,6 +14211,20 @@
       "tag": "v1.3.3-rc0",
       "commit": "b0b0dfe6f1cf80adc8b71f9604ef4b98f69764f5",
       "timestamp": 1734818907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f8c2346bd5d8f974cba1c81b18b42e2fda112c83d85fd4182fa4442743f1bf1": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.3.4-rc2/eu.darken.sdmse-v1.3.4-rc2-10304020-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10304020,
+      "version_name": "1.3.4-rc2",
+      "tag": "v1.3.4-rc2",
+      "commit": "9f5db75cdc72ac1a861f8aedca0a79af87119919",
+      "timestamp": 1736446538,
       "reproducible": true,
       "error": null
     }
