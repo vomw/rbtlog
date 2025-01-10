@@ -9235,6 +9235,20 @@
       "error": null
     }
   ],
+  "12ad25f8ff22270686cade4256b81175ed71805c8b3abad9d34849bfae250330": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.0.2/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 3,
+      "version_name": "0.0.2",
+      "tag": "V0.0.2",
+      "commit": "183bfb83a016dce32fef2e2c3c0292f12d46007a",
+      "timestamp": 1736501572,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ba6c0da00c62db0013271e279705e46691967a914b1ee749d01cfa4c95c80a46": [
     {
       "repository": "https://github.com/ofalvai/HabitBuilder.git",
@@ -18705,6 +18719,20 @@
       "timestamp": 1736359899,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmppz641byf/outputs:/outputs', '--volume', '/tmp/tmppz641byf/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/AdamGuidarini/MediTrak.git', '--env', 'APP_TAG=v0.13.6', '--env', 'APP_COMMIT=64db0d3e2ddfe40a358e3e0a68148d9b70729ee9', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "ce80ee6dc3ea2f3428bc898ff92dc1967fc2841c0f69d831d52ac35bb55c48ba": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.13.7/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 36,
+      "version_name": "0.13.7",
+      "tag": "v0.13.7",
+      "commit": "d80384f20b5aba87369b49ed83dbec9c8cd37578",
+      "timestamp": 1736501968,
+      "reproducible": true,
+      "error": null
     }
   ],
   "534c3603b9ae481662ded85f8cf82a693ac0e29a8138813334ee24c9f627c623": [
