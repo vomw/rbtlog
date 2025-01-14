@@ -3541,6 +3541,20 @@
       "error": null
     }
   ],
+  "faa3688d798dbf5830e9fdb15f360157458ff3f872ce9e3cfc27265b3c222d22": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1095/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1095,
+      "version_name": "2025.01.1095",
+      "tag": "2025.01.1095",
+      "commit": "73fcf5d3c65e055d8afd6f24decdf88c0da4e1d2",
+      "timestamp": 1736877047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -5917,6 +5931,20 @@
       "tag": "v1.20.1",
       "commit": "6d1ea94a2eea4901d14b436f49882089c1dcc698",
       "timestamp": 1736619069,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e7cb889b37e2c4649b079123a99512045a8655cfa640a37c2343ac0b1b9087e": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.21.1/com.fibelatti.photowidget-v1.21.1-1210100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1210100,
+      "version_name": "1.21.1",
+      "tag": "v1.21.1",
+      "commit": "81368aa334bd9b269b42f26fa07f2eb1fecbeaab",
+      "timestamp": 1736877699,
       "reproducible": true,
       "error": null
     }
@@ -10467,6 +10495,20 @@
       "error": null
     }
   ],
+  "8ddbeed3b84a21000c82b4929b6bd7adc61d1ead80f58dbee3e9aab9a931b8ad": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.10/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 110,
+      "version_name": "0.1.10",
+      "tag": "0.1.10",
+      "commit": "ee44837558495986eba67e9dc1a68c03c2117973",
+      "timestamp": 1736878051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -10631,6 +10673,20 @@
       "tag": "v2.9.1",
       "commit": "c99dcd611070227c183d4ba9504f56b2ad17cd05",
       "timestamp": 1735408348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a84321a6c8fd4ab213ffcac82c36d54334c7580127b14d11d34b22206a413203": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.9.3/xed-editor-v2.9.3.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 38,
+      "version_name": "2.9.3",
+      "tag": "v2.9.3",
+      "commit": "1e0550ddbee0f24c58f88fd502328db5f113074d",
+      "timestamp": 1736878294,
       "reproducible": true,
       "error": null
     }
@@ -18143,6 +18199,20 @@
       "tag": "1.3.0",
       "commit": "069179d1e794615e3102ca0a7b46738b193a29bd",
       "timestamp": 1730311147,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4599249630246abe956f7c9bf204491994f62aebba763589d2a8994eb1b36959": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.3.1/phone-6-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 6,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "6b8b36045185d48eadd16f53bcea9317e02da459",
+      "timestamp": 1736878665,
       "reproducible": true,
       "error": null
     }
