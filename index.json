@@ -3905,6 +3905,20 @@
       "error": null
     }
   ],
+  "de4c66b337dca1477bdfa265c9c9e67383cdad56cac2afa0a5963b7ef5d52d81": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/daniebeler/pixelix/releases/download/v3.2.0/pixelix_v3.2.0.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 22,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "65cb868ac1cb57af2478b2a4a8e7d6cc591eeefa",
+      "timestamp": 1736963162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
     {
       "repository": "https://github.com/danilkinkin/buckwheat.git",
@@ -6435,6 +6449,20 @@
       "tag": "2.5.15",
       "commit": "b05768df9886caa21f8a73064584b3ca75533765",
       "timestamp": 1734976414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "10b1ed498fbd9ba4b5bf62c7264a84fe89c273e35d6fc63b95f4972b118a0533": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.16/fdroidRelease-2.5.16.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30516,
+      "version_name": "2.5.16",
+      "tag": "2.5.16",
+      "commit": "3a68b5dc7c3f3cf2808314538f7fea783b67bc37",
+      "timestamp": 1736975543,
       "reproducible": true,
       "error": null
     }
@@ -9223,6 +9251,20 @@
       "error": null
     }
   ],
+  "0073beeb663bfcb5084d2f4a7ad0113c342c11f3de59e637d82d41229bcdde16": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v10.9.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 109,
+      "version_name": "10.9.0",
+      "tag": "v10.9.0",
+      "commit": "843ecfebc3656401177bca67e2cf0dd0d4854cf0",
+      "timestamp": 1736964156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -10505,6 +10547,20 @@
       "tag": "0.1.10",
       "commit": "ee44837558495986eba67e9dc1a68c03c2117973",
       "timestamp": 1736878051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "19edf905c52c8a2dc402bda22d01fc8e57104b8179586eb21fec504ef4f3bc5d": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.11/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 111,
+      "version_name": "0.1.11",
+      "tag": "0.1.11",
+      "commit": "4a4a38a17ec2859c9a28fede2da4303c7b4fa9bc",
+      "timestamp": 1736964792,
       "reproducible": true,
       "error": null
     }
@@ -14117,6 +14173,20 @@
       "error": null
     }
   ],
+  "4bcda446e1d402a62faa3b2b976894fd921321a692c2cfe5090dd002e77c50f4": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.13.0/nextplayer-v0.13.0-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 31,
+      "version_name": "0.13.0",
+      "tag": "v0.13.0",
+      "commit": "abec77cbdacbcc343dbad1b7a842c8e2f3af4fab",
+      "timestamp": 1736973875,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6ac85dff0501a8f9d0b0e27bbace7a10f5630b53188d2cc0d984d63ba8f658a": [
     {
       "repository": "https://github.com/Bartuzen/qBitController.git",
@@ -16901,6 +16971,20 @@
       "error": null
     }
   ],
+  "c9b992d8d3bbefdee98bb985d3adc5563f0ebaac8ded3a1f506a27767652a0e9": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.34.3/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 145,
+      "version_name": "2.34.3",
+      "tag": "v2.34.3",
+      "commit": "be54c5078626510cd2e42c3e42073d1b5ec201e4",
+      "timestamp": 1736972498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "86783f35d33f4977d8fb0ebd56fbd5ed7ce55ad30d0be6100364bd531bde25ed": [
     {
       "repository": "https://github.com/TheLastProject/RaiseToAnswer.git",
@@ -17807,6 +17891,20 @@
       "tag": "3.6.1",
       "commit": "b4ca8588e747e4c480c9e3797796ccc0a0757f02",
       "timestamp": 1736709586,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d6504d92780924d2ac3cc21da0920154b74f9ab3701ce15235aafded474d6f40": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.2/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 154,
+      "version_name": "3.6.2",
+      "tag": "3.6.2",
+      "commit": "2436298365fbe1366a1764027e0494319e88d23c",
+      "timestamp": 1736966474,
       "reproducible": true,
       "error": null
     }
@@ -19053,6 +19151,20 @@
       "tag": "0.2.0",
       "commit": "9a599ac7d969b0ac82288a07348bccc30863700c",
       "timestamp": 1735850225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "75d9456fd8b7d1f4df4cfa0e09afac7ad59572fdea9860c709edf46adfb11713": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/0.2.1/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 3,
+      "version_name": "0.2.1",
+      "tag": "0.2.1",
+      "commit": "bd5dd8e869d500a3933c7e155a17477cf475ae0c",
+      "timestamp": 1736966714,
       "reproducible": true,
       "error": null
     }
