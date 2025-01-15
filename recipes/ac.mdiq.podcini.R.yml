@@ -1,9 +1,10 @@
 ---
 repository: https://github.com/XilinJia/Podcini.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXED: 6.16.1 + 7.0.3 failed, see https://github.com/XilinJia/Podcini/issues/129#issuecomment-2564827016'
   - 7.1.1 seems to be flaky; failed on the first run, succeeded on the second without changes
+  - 2024-01-15 app is discontinued, see https://github.com/XilinJia/Podcini/issues/82#issuecomment-2591087730
 versions:
   - tag: 6.13.7
     apks:
