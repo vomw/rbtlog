@@ -489,6 +489,20 @@
       "error": null
     }
   ],
+  "75df804dbcf7be2ab25bf801635c219eabc4dc9b22659ea733610a15f48fae9a": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.1.0/Podcini.X_release_free_8.1.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 104,
+      "version_name": "8.1.0",
+      "tag": "8.1.0",
+      "commit": "2446efd6cba83ef807643adeee3b45ab637396c7",
+      "timestamp": 1737135964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -891,6 +905,20 @@
       "tag": "v6.3.0",
       "commit": "3a6cf8f0edcb6eac2ac2d1af7a7b9883894a9aa3",
       "timestamp": 1735667156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a0eec97036bd13819549e9389271469d28623e5cc96cb687945aebd0cb4578b3": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v6.4.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 640,
+      "version_name": "v6.4.0",
+      "tag": "v6.4.0",
+      "commit": "3e59a56b2105063d14fd10f538ef74334f63cc09",
+      "timestamp": 1737136342,
       "reproducible": true,
       "error": null
     }
@@ -3891,6 +3919,20 @@
       "error": null
     }
   ],
+  "cc6726fb402fe8e4b719d20a9039712fd770a4a11c3f788a050739d4bb496275": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.32/networksurvey-1.32-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 87,
+      "version_name": "1.32",
+      "tag": "v1.32",
+      "commit": "fb2e0f3d8b4a1f2d94dc8b7643e9dd548317741b",
+      "timestamp": 1737136708,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -5483,6 +5525,20 @@
       "tag": "v1.1.0",
       "commit": "72b742f0d05f28048a9e79ede84acb902a33fa03",
       "timestamp": 1737049962,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5d3d7b46dfab0fa67b13345f99a1210b5c2d4237c6c0c1780ab641645fdfb745": [
+    {
+      "repository": "https://github.com/dn0ne/lotus.git",
+      "apk_url": "https://github.com/dn0ne/lotus/releases/download/v1.1.1/lotus-1.1.1-arm64-v8a-release.apk",
+      "appid": "com.dn0ne.lotus",
+      "version_code": 1001012,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "3be420fc542101b4611b2b502a71f4978e581c0a",
+      "timestamp": 1737137332,
       "reproducible": true,
       "error": null
     }
@@ -11303,6 +11359,20 @@
       "tag": "1.3.5",
       "commit": "989645e08a2b553c5cee130c90ea7426427096fb",
       "timestamp": 1733941547,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7b543ee5f9d768f7230b47f526c11241efc144306a62b4fcd3f780a5331bbf3f": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/1.4.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 140,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "05a34394fe9644001f545694c29e4e838e8e1b39",
+      "timestamp": 1737137715,
       "reproducible": true,
       "error": null
     }
@@ -19991,6 +20061,20 @@
       "tag": "v0.2.1",
       "commit": "52aefb635174c2bb98837f0ca02fc6b787e628f7",
       "timestamp": 1736105097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "35c2e34a47f0f87fdcb45edec82bd5c9f61ee7a09b52f88568f757d70da528ad": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.2.3/flickboard-v0.2.3-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 79,
+      "version_name": "0.2.3",
+      "tag": "v0.2.3",
+      "commit": "f151cad44f1fc296ff1a19799dbf4a3ebab6adba",
+      "timestamp": 1737137996,
       "reproducible": true,
       "error": null
     }
