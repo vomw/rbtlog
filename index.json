@@ -3611,6 +3611,20 @@
       "error": null
     }
   ],
+  "5db931c47e1f37cca77fd13a383700547e688e5791da0c44294526ea3fdeef0d": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1096-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1096,
+      "version_name": "2025.01.1096-dev",
+      "tag": "2025.01.1096-dev",
+      "commit": "ae078b5743ea1b8ccc20bade0a3dd5fb70139624",
+      "timestamp": 1737222361,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -4027,6 +4041,20 @@
       "tag": "1.6.0",
       "commit": "fe07070c52c70b1725a515880a92b88991f34106",
       "timestamp": 1722965585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "130d0dcb6fefa7777fa44f7202f3d603411827b255c43c6354e93ba7c8b3d1a2": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.6.1/bura-1.6.1.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 15,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "972e19e3b1afe2e61539c8addd834546776f403b",
+      "timestamp": 1737226905,
       "reproducible": true,
       "error": null
     }
@@ -8553,6 +8581,20 @@
       "error": null
     }
   ],
+  "a9ecf2366d83be61f33e9f2fbb39f9707842d4c255c43ef1631d822cb99acc77": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.1.0/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768583,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "5289b2dfe906e64c1bb4517f6a811fde2883978e",
+      "timestamp": 1737222960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ee4e3ebe6b9acc73a78a0465a8bbadd28343b1f4394517d4ee5cc8eaba5d82c": [
     {
       "repository": "https://github.com/Ladsers/Passtable-Android.git",
@@ -9443,6 +9485,20 @@
       "tag": "3.43.0",
       "commit": "5cc8d9d0e60d66d4768ccc854d28f0d1a35a51c6",
       "timestamp": 1735495016,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ee9570e125f563fd7ec7c8b7597d1e20fa2c3a7e6974450fe88145d580fca64": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.44.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 860,
+      "version_name": "3.44.0",
+      "tag": "3.44.0",
+      "commit": "274ebeb6d36ddfaa63fded2b3f42ca056ea4405a",
+      "timestamp": 1737223207,
       "reproducible": true,
       "error": null
     }
@@ -10341,6 +10397,20 @@
       "error": null
     }
   ],
+  "750340337012043d009370e5c47d760461c149aa37fd2f65c4b9e0b29c50a035": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v6.4.1/NotallyX-6.4.1.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 641,
+      "version_name": "6.4.1",
+      "tag": "v6.4.1",
+      "commit": "a70bc19807aa50a9bfa33513bd107cb0b46dc9c5",
+      "timestamp": 1737227349,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39108ae0e3002847be88e4211dd999540a16e0f015218fed8b1ecde7c46cbf1": [
     {
       "repository": "https://github.com/ray-pH/Nabla-TypeMath-android.git",
@@ -10673,6 +10743,20 @@
       "tag": "0.1.11",
       "commit": "4a4a38a17ec2859c9a28fede2da4303c7b4fa9bc",
       "timestamp": 1736964792,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "df7d45beabbb849b406c0b6936ce7c1539d8acea459a8b3218525f5ce5d2367c": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.12/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 112,
+      "version_name": "0.1.12",
+      "tag": "0.1.12",
+      "commit": "6bcd4f54d82ba481ac10ac97e5e3f856181b0669",
+      "timestamp": 1737224204,
       "reproducible": true,
       "error": null
     }
@@ -11765,6 +11849,20 @@
       "tag": "2.4.3",
       "commit": "52e6548631a4c2b50c18400d29e7af73f80eefa9",
       "timestamp": 1737050679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3abb771b1747c92266596d321773416e1d4e2e01a768e57f4334738195c402a": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.4.4/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 2440,
+      "version_name": "2.4.4",
+      "tag": "2.4.4",
+      "commit": "c2bd805f4b06ac21eab729eed2a62100bc44616e",
+      "timestamp": 1737224443,
       "reproducible": true,
       "error": null
     }
@@ -14607,6 +14705,20 @@
       "error": null
     }
   ],
+  "31cf7fc759143a622c5523496f74025da5e2465a730e87946529dd231c69d707": [
+    {
+      "repository": "https://github.com/Its-Just-Nans/sms2call.git",
+      "apk_url": "https://github.com/Its-Just-Nans/sms2call/releases/download/1.0.7/sms2call-1.0.7.apk",
+      "appid": "dev.n4n5.sms2call",
+      "version_code": 7,
+      "version_name": "1.0.7",
+      "tag": "1.0.7",
+      "commit": "9235da9a3c854d9b2be0418c6bc8f6c34ef01b30",
+      "timestamp": 1737228529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebe1ed13f7b9b9d6d6bd469ac32473e3d767b39ab019c8a3596799646bb0254a": [
     {
       "repository": "https://github.com/robinsrk/flip_2_dnd.git",
@@ -15177,6 +15289,20 @@
       "tag": "v1.3.4-rc2",
       "commit": "9f5db75cdc72ac1a861f8aedca0a79af87119919",
       "timestamp": 1736446538,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "798a6906f5e138118d712c7ad2d072be6a081542fecb02e9d8f2e2ac95f8d8d0": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.3.5-rc1/eu.darken.sdmse-v1.3.5-rc1-10305010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10305010,
+      "version_name": "1.3.5-rc1",
+      "tag": "v1.3.5-rc1",
+      "commit": "b34d3403abe5c7df175248260b92d88d83ed3858",
+      "timestamp": 1737227791,
       "reproducible": true,
       "error": null
     }
@@ -16817,6 +16943,20 @@
       "error": null
     }
   ],
+  "67f61d7cc860481a349a770f71260fb2494ec4ddcd79d455a1439775534d893a": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.67/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 79,
+      "version_name": "0.6.67",
+      "tag": "v0.6.67",
+      "commit": "10191e01f7081b670be63535a78996fa4f7a193d",
+      "timestamp": 1737225455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -17177,6 +17317,20 @@
       "tag": "v2.34.3",
       "commit": "be54c5078626510cd2e42c3e42073d1b5ec201e4",
       "timestamp": 1736972498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2873ef0e8d680ffd45d2baa24038181f62148a2cb9036658f3d564df69180d98": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.34.4/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 146,
+      "version_name": "2.34.4",
+      "tag": "v2.34.4",
+      "commit": "e7aac163c28581884972400cc49928c0e7b54bee",
+      "timestamp": 1737226030,
       "reproducible": true,
       "error": null
     }
@@ -20803,6 +20957,20 @@
       "tag": "v1.5.1",
       "commit": "06936e280412b9d752a4b08d01c904a2a0063e40",
       "timestamp": 1733831461,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4a833313a6b5742c271dac3f585bfec8b4805c44e6785fb620eda4b885388079": [
+    {
+      "repository": "https://github.com/sommd/auto-mute.git",
+      "apk_url": "https://github.com/sommd/auto-mute/releases/download/v1.6.0/Auto_Mute_v1.6.0.apk",
+      "appid": "xyz.sommd.automute",
+      "version_code": 106002000,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "6c0cdfcf720cd0e8a48981f98b04d05072998457",
+      "timestamp": 1737226256,
       "reproducible": true,
       "error": null
     }
