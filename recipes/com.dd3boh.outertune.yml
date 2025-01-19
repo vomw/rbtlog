@@ -1,7 +1,7 @@
 ---
 repository: https://github.com/DD3Boh/OuterTune.git
 notes:
-  - 'FIXME: remove the ffMetadataEx clone before running the next build (after v0.6.4, see https://github.com/DD3Boh/OuterTune/issues/23#issuecomment-2571744304)'
+  - v0.7.0 flaky
 updates: releases
 versions:
   - tag: v0.6.2
@@ -75,6 +75,45 @@ versions:
           - chmod +x gradlew
           - git clone https://github.com/mikooomich/ffmpeg-android-maker-prebuilt.git ffMetadataEx/src/main/cpp/ffmpeg-android-maker
           - ./gradlew assembleArm64Release
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/arm64/release/app-arm64-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'META-INF/services/*'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.7.0
+    apks:
+      - apk_pattern: OuterTune-.*-arm64-release\.apk
+        apk_url: https://github.com/DD3Boh/OuterTune/releases/download/v0.7.0/OuterTune-0.7.0-app-arm64-release.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/arm64Release/compileArm64ReleaseArtProfile/baseline.prof
+          - PROF_SHA1=6c473082199d5b49b6300f1adab707d06eab9f41
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleArm64Release --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
           - OUT=app/build/outputs/apk/arm64/release/app-arm64-release-unsigned.apk
           - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'META-INF/services/*'

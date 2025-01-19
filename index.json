@@ -1217,6 +1217,20 @@
       "error": null
     }
   ],
+  "b3129018580d75bc77138b181dbb1de33d8b0574324ea0fba4590d944afd54f0": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/15/biz.binarysolutions.healthybatterycharging-2.0.13-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 15,
+      "version_name": "2.0.13",
+      "tag": "15",
+      "commit": "d15751c34d823c0121843c0380b65522ee86cc9b",
+      "timestamp": 1737308759,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5a05791ad481c22af69088b9cd1d89e38206d0d9d56e9d54beb0ea1730516811": [
     {
       "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
@@ -1269,6 +1283,20 @@
       "tag": "7",
       "commit": "3f9cab3074849c983433e4da1e3dec62a8483d1f",
       "timestamp": 1733334360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2c456b7fdce096981e5900df2fc059cdb634b2d696074432d9fb52e2ed7063d3": [
+    {
+      "repository": "https://github.com/vbresan/MindfulAttentionAwarenessScale.git",
+      "apk_url": "https://github.com/vbresan/MindfulAttentionAwarenessScale/releases/download/8/biz.binarysolutions.mindfulscale-1.0.7-withoutAds-release.apk",
+      "appid": "biz.binarysolutions.mindfulscale",
+      "version_code": 8,
+      "version_name": "1.0.7",
+      "tag": "8",
+      "commit": "af82c8af530244728c48c4174dd98df1b88f741d",
+      "timestamp": 1737308885,
       "reproducible": true,
       "error": null
     }
@@ -1409,6 +1437,20 @@
       "tag": "3.33.3",
       "commit": "f1e7121dbdb64dd824f9d3faf4d38216067fec1a",
       "timestamp": 1736790930,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7eb9bdad7a47305e811c8f1f820578f097b894655c1405e429ab6843837e3ba9": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.34.1/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3034001,
+      "version_name": "3.34.1",
+      "tag": "3.34.1",
+      "commit": "f4d8f8c925956d390652d1f76b7a47a7a8966b77",
+      "timestamp": 1737309002,
       "reproducible": true,
       "error": null
     }
@@ -4101,6 +4143,20 @@
       "error": null
     }
   ],
+  "5aa7096b0f742f6c06a2c04b9814236b6879b45e22373782d3adce44c0d27a05": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/DD3Boh/OuterTune/releases/download/v0.7.0/OuterTune-0.7.0-app-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 34,
+      "version_name": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "27fec3b494e5d32ae23a354994a368db888ee919",
+      "timestamp": 1737307636,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f2b9e9351cf7b043069ebe0115f92382cc23fed8e1a7e0b82b04db6c6e646ee2": [
     {
       "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
@@ -4517,6 +4573,20 @@
       "tag": "0.0.11",
       "commit": "9ee28fb2c1df28d6bc1d66117395ae619fea9ed1",
       "timestamp": 1736532450,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aa6b08db544b41feacbf4ac6c4443754c5973ed585d03f0ac891708b496d974c": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.12/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 12,
+      "version_name": "0.0.12",
+      "tag": "0.0.12",
+      "commit": "f2ba6d7c320bfe5a19695b3ddeb933659ddb8be3",
+      "timestamp": 1737314746,
       "reproducible": true,
       "error": null
     }
@@ -6211,6 +6281,20 @@
       "tag": "v3.4.2",
       "commit": "fd91e5a829c2ae71661d7e1c23b7130fac162cb4",
       "timestamp": 1736619407,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88f7869fa865bdb3971a6509a926281e303d45f9745b2db9bfe82374ce796c62": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.5.0/com.fibelatti.pinboard-v3.5-3050000-pinboardapi-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3050000,
+      "version_name": "3.5",
+      "tag": "v3.5.0",
+      "commit": "8139e64c5f3f686620d66f613c2d3a4a9ab5cd2c",
+      "timestamp": 1737309618,
       "reproducible": true,
       "error": null
     }
@@ -8595,6 +8679,20 @@
       "error": null
     }
   ],
+  "b119d1296af62d7d6a4bc0b039fec5d5217c07cacb0739ff5bce9dc9e1f37421": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.1.1/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768584,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "89e4a69e44f59d49806ed2029ce95594f2c3e983",
+      "timestamp": 1737310298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ee4e3ebe6b9acc73a78a0465a8bbadd28343b1f4394517d4ee5cc8eaba5d82c": [
     {
       "repository": "https://github.com/Ladsers/Passtable-Android.git",
@@ -9181,6 +9279,20 @@
       "error": null
     }
   ],
+  "ca793d0f025bc65ff476b150c0cb5db3151b36bfbb4c24c8a3f349e03a293e03": [
+    {
+      "repository": "https://github.com/forzzzzz/Calculator-You.git",
+      "apk_url": "https://github.com/forzzzzz/Calculator-You/releases/download/v3.1.2/CalculatorYou-v3.1.2.apk",
+      "appid": "com.marktka.calculatorYou",
+      "version_code": 33,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "2c86cf3aa1a9d9347b9720e5d08b9aebc85400ff",
+      "timestamp": 1737310759,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "27618df3ab4ea4a68c8fdf40139e95eb0008ac045194e20abc8c2f96dbb4df59": [
     {
       "repository": "https://github.com/martinmimigames/little-file-explorer.git",
@@ -9289,6 +9401,20 @@
       "tag": "v0.2.8",
       "commit": "0d219e724902f83bd7aa7fdcd433f7676156cc6c",
       "timestamp": 1736372083,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "94345c846d5e4750771a27b460eda1de8248f495fcc8bc7e7bdc072ffd9127f9": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.9/SimpMusic_v0.2.9.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 26,
+      "version_name": "0.2.9",
+      "tag": "v0.2.9",
+      "commit": "eb7973e4863b33004c1f08d20844095a3ab05a70",
+      "timestamp": 1737311316,
       "reproducible": true,
       "error": null
     }
@@ -10785,6 +10911,20 @@
       "tag": "0.1.12",
       "commit": "6bcd4f54d82ba481ac10ac97e5e3f856181b0669",
       "timestamp": 1737224204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "510637ed047c884db21ec2b8e5022f5a282c44a9494f356980659a43e2273c3d": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.14/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 114,
+      "version_name": "0.1.14",
+      "tag": "0.1.14",
+      "commit": "580fe6b433cc037fc98bb306abb3e85a276ee91b",
+      "timestamp": 1737311974,
       "reproducible": true,
       "error": null
     }
