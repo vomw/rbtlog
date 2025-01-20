@@ -1,7 +1,7 @@
 ---
 repository: https://github.com/PnX-SI/gn_mobile_occtax.git
 updates: releases
-note:
+notes:
   - build.gradle sets BUILD_DATE at build time, so we need to replace that; see https://github.com/PnX-SI/gn_mobile_occtax/issues/275
 versions:
   - tag: 2.7.1

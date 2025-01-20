@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/neoblackxt/AnyWebView.git
 updates: releases
+notes:
+  - v1.3 failed RB on 2024-12-16, see https://github.com/neoblackxt/AnyWebView/issues/22 (which was closed as wontfix 2024-12-18 without a comment even)
 versions:
   - tag: v1.2
     apks:
