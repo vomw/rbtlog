@@ -13337,6 +13337,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "9f357e8eeca03abea9f1c5d40e5d146568d1fd79a494831cd98dabea08a4da68": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.2.3/0.2.3.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 11,
+      "version_name": "0.2.3",
+      "tag": "0.2.3",
+      "commit": "e123e0663ca0cec4571c327242e1ab64f6748f60",
+      "timestamp": 1737486279,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
