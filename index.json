@@ -503,6 +503,20 @@
       "error": null
     }
   ],
+  "4ab69f743f624aeb46a735db68965949ca7b20fbb0d2f175872e88f522be8989": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.2.0/Podcini.X_release_free_8.2.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 106,
+      "version_name": "8.2.0",
+      "tag": "8.2.0",
+      "commit": "38657477d991a4f9501e98b8a28bb43c19a9bed3",
+      "timestamp": 1737481567,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -5389,6 +5403,20 @@
       "error": null
     }
   ],
+  "c8314977794077262d834fa82c8ca0d69fc14600f18468e2878c7f9bac9efe8a": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.16/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 134,
+      "version_name": "4.0.16",
+      "tag": "4.0.16",
+      "commit": "53718643e0ee516e401cb7498611eae47b6f8c8e",
+      "timestamp": 1737481948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -6215,6 +6243,20 @@
       "error": null
     }
   ],
+  "5040d6c61351317a64425bec52ecf3aa6e30f9e661dd7d12e8b8ecb9dc5045b3": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.22.1/com.fibelatti.photowidget-v1.22.1-1220100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1220100,
+      "version_name": "1.22.1",
+      "tag": "v1.22.1",
+      "commit": "586f2d01ba1649dbc7c4066df6bbee7174740009",
+      "timestamp": 1737482287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -6533,6 +6575,20 @@
       "tag": "v1.15.0",
       "commit": "f6742448d738bca716e3bb600cecfda4ab2caa29",
       "timestamp": 1737395866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "40358f9392bff4e57b03b675d7b5354a662265ad1a9e261173127aa3624338d5": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.15.1/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 96,
+      "version_name": "1.15.1",
+      "tag": "v1.15.1",
+      "commit": "f0ec73519f25e8b698ad9690a79d19c7c243a889",
+      "timestamp": 1737482645,
       "reproducible": true,
       "error": null
     }
@@ -10243,6 +10299,20 @@
       "error": null
     }
   ],
+  "331c0622dd0b2fad42aa7cd2451a889f7b611475b48ed8ca3d21e1baa935c6cc": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.20/ssc-1.0.20.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 20,
+      "version_name": "1.0.20",
+      "tag": "v1.0.20",
+      "commit": "5a23841f61a27065ccc413e240221f3b1c517f5f",
+      "timestamp": 1737482915,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpu4qedill/outputs:/outputs', '--volume', '/tmp/tmpu4qedill/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/UpAllNite-Software/simple-song-collector.git', '--env', 'APP_TAG=v1.0.20', '--env', 'APP_COMMIT=5a23841f61a27065ccc413e240221f3b1c517f5f', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "27043b59fbb7ad0ffa26a2b108b5b40375f29faf192f78bd349e3bc465d744e0": [
     {
       "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
@@ -13291,6 +13361,20 @@
       "tag": "1.0.11",
       "commit": "07ab8893bb2199b9f41309ec62c810f6e390a55c",
       "timestamp": 1736708043,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f8a9acf705d8d396722dd2d57bbffbdb4cde606552da8a5238e9007f64ea2a1": [
+    {
+      "repository": "https://github.com/mrwm/QRshare.git",
+      "apk_url": "https://github.com/mrwm/QRshare/releases/download/v1.0.12/app-release.apk",
+      "appid": "com.wchung.qrshare",
+      "version_code": 12,
+      "version_name": "1.0.12",
+      "tag": "v1.0.12",
+      "commit": "7fdc9c3f65adff15f8cd8c95eeb167d52e5b58df",
+      "timestamp": 1737477772,
       "reproducible": true,
       "error": null
     }
@@ -19687,6 +19771,20 @@
       "error": null
     }
   ],
+  "d6d3646439b5ef72ef957299c270624e904c5c2721a6cc0aaf8c64e3d996a4f2": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.2.4/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 15,
+      "version_name": "2.2.4",
+      "tag": "v2.2.4",
+      "commit": "b35ad6475b835951673e510083fc84f0793f4b76",
+      "timestamp": 1737482965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ff2d42be6815e8cdae4f0a5d282afa46d043badb8bcc13a701f27d70334842a1": [
     {
       "repository": "https://github.com/TeamNewPipe/NewPipe.git",
@@ -19785,6 +19883,20 @@
       "error": null
     }
   ],
+  "279730ec67d44e30aa52d5ace1e715df8f8e1fc284017eadb6393ea9088fee25": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.0.1/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 31,
+      "version_name": "2.0.1",
+      "tag": "2.0.1",
+      "commit": "80dd1f7cc3777f0a5e31b852900c6f74b6e753ad",
+      "timestamp": 1737483158,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -19809,6 +19921,20 @@
       "tag": "0.2.1",
       "commit": "bd5dd8e869d500a3933c7e155a17477cf475ae0c",
       "timestamp": 1736966714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5b174ff536694e416da34a09512d77734da1e6354432e11c2511b69c443f8f0": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/0.2.2/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 4,
+      "version_name": "0.2.2",
+      "tag": "0.2.2",
+      "commit": "467fd3d87e6cea96149ca20c79a38a01c291c48c",
+      "timestamp": 1737483443,
       "reproducible": true,
       "error": null
     }
