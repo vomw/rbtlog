@@ -517,6 +517,20 @@
       "error": null
     }
   ],
+  "0a646242f79b0370bb23ff16c903c90b54accd5d0b70e2cc084a70bb7f2c700c": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.2.1/Podcini.X_release_free_8.2.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 107,
+      "version_name": "8.2.1",
+      "tag": "8.2.1",
+      "commit": "c3998dbff128dac064747315f28c0cba9fce18ce",
+      "timestamp": 1737567974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1717,6 +1731,20 @@
       "tag": "v1.50.8",
       "commit": "46bc3e7f729f83623d60d9b6d0d5c106e939c669",
       "timestamp": 1736531287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5da8a162e62730d25424e51124c8bcbc53ee0b1260cbbe29dd5ddcb0cf82283e": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.50.9/ArcaneChat-foss-armeabi-v7a-1.50.9.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007051,
+      "version_name": "1.50.9",
+      "tag": "v1.50.9",
+      "commit": "052ada221eafaf07683180a714b319d9b5e31572",
+      "timestamp": 1737568347,
       "reproducible": true,
       "error": null
     }
@@ -3723,6 +3751,20 @@
       "error": null
     }
   ],
+  "9576b5400150a9b0dafcdf7b9a6651006c000652123e0630efc9a66d50e68376": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1097/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1097,
+      "version_name": "2025.01.1097",
+      "tag": "2025.01.1097",
+      "commit": "ea92cf04416b5f81baa6b2cea7ddd33f4583fbab",
+      "timestamp": 1737569080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -4223,6 +4265,20 @@
       "tag": "v0.7.0",
       "commit": "27fec3b494e5d32ae23a354994a368db888ee919",
       "timestamp": 1737307636,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "238f938687a810e46fe41140505c3552bb0bff5c18f358bc5e2814ebb32e2189": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/DD3Boh/OuterTune/releases/download/v0.7.1/OuterTune-0.7.1-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 35,
+      "version_name": "0.7.1",
+      "tag": "v0.7.1",
+      "commit": "32b403cde366d535ba6cad2aee3c316a4311ca64",
+      "timestamp": 1737565466,
       "reproducible": true,
       "error": null
     }
@@ -6607,6 +6663,20 @@
       "error": null
     }
   ],
+  "9031dc653d1706ab67aab8272628922c397fa0e9c1dd28203d3dc32d814d9958": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.15.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 97,
+      "version_name": "1.15.2",
+      "tag": "v1.15.2",
+      "commit": "616838cfc6889080d826152717c2869f4d6b3eb3",
+      "timestamp": 1737569501,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -7233,6 +7303,20 @@
       "tag": "v1.8.0",
       "commit": "f6855f810d7b8c34fedb2a01d1ac05bab34edc45",
       "timestamp": 1737396109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0a687c75beaf1318c8a1fa2bf0ea9a2ba7d00197eb0caad367ed99db71cc5dfd": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v1.9.0/DroidPad-v1.9.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 14,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "9051aa6757ed3f0296443b7940ed5bfc09391258",
+      "timestamp": 1737569762,
       "reproducible": true,
       "error": null
     }
@@ -10007,6 +10091,20 @@
       "error": null
     }
   ],
+  "747330240dd40da0aa715419e947b37e7c06eeab568b767c68ce2fb81214fd29": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.5.1/nfc_alarm_clock_v12.5.1-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 466,
+      "version_name": "12.5.1",
+      "tag": "v12.5.1",
+      "commit": "961a73a37f51e37b1ac02c0721fe826960e4e3e0",
+      "timestamp": 1737572082,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b45e6a23a49d94b71dc38b24c8a4b27ffc914e02ad25197bcee330106edc025e": [
     {
       "repository": "https://github.com/nikashitsa/polar-alert-android.git",
@@ -11695,6 +11793,20 @@
       "tag": "v1.5.0",
       "commit": "27b3c740f139ef56617effbf16b865634a2d4345",
       "timestamp": 1734718716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "58f9a4560246435e1a08b5b3ae70e1a8a59d431ec814d97cfef65d12d82e1d9c": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.5.2/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 25,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "41a62902ea374886bd9a2a6dcdb80bba1094bfe6",
+      "timestamp": 1737570384,
       "reproducible": true,
       "error": null
     }
@@ -13407,6 +13519,20 @@
       "error": null
     }
   ],
+  "81aba1916338e5f5bf9e7d37decaac565ea6f1214f475c4cd1a60d47883a65a6": [
+    {
+      "repository": "https://github.com/mrwm/QRshare.git",
+      "apk_url": "https://github.com/mrwm/QRshare/releases/download/v1.0.14/app-release.apk",
+      "appid": "com.wchung.qrshare",
+      "version_code": 14,
+      "version_name": "1.0.14",
+      "tag": "v1.0.14",
+      "commit": "54098bbaa7767164765ea7bafb66c6397e3015a2",
+      "timestamp": 1737570641,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a04c4e01db9571f595edbeeac3d32e3f63124707d37a625e9d1409a8bc19ffe8": [
     {
       "repository": "https://github.com/WirelessAlien/ZipXtract.git",
@@ -14239,6 +14365,20 @@
       "tag": "v0.12.6",
       "commit": "a8dbc2f691167995c3b171c139a7c1f1c07bd96c",
       "timestamp": 1734980610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd5b087629d6d011190b3c8c27c721855b75245917da12dc3e891ef75a4b1653": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.7/RecurringExpenseTracker_0.12.7.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 31,
+      "version_name": "0.12.7",
+      "tag": "v0.12.7",
+      "commit": "833675bcc5ff332458ca071e4fd51bb1fa03a974",
+      "timestamp": 1737570823,
       "reproducible": true,
       "error": null
     }
@@ -21447,6 +21587,20 @@
       "tag": "v4.6.0",
       "commit": "40a3acd70b0bae28ed2e4b32f429f70716a3bd9d",
       "timestamp": 1737052399,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "28b0db3168adb65afa5d33288514f5a143514fc102df362acad36602eda8e3f7": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v4.7.0/Tack-Android-v4.7.0.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 260,
+      "version_name": "4.7.0",
+      "tag": "v4.7.0",
+      "commit": "a05b5da457d516f1cbc86ae0d4aacb70e36b40b2",
+      "timestamp": 1737571133,
       "reproducible": true,
       "error": null
     }
