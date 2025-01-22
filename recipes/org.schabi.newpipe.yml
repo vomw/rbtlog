@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/TeamNewPipe/NewPipe.git
 updates: releases
-notes:
-  - 'FIXME: next release will use JDK-21 again (stepping back to 17 was only done temporarily for F-Droid, see https://github.com/TeamNewPipe/NewPipe/issues/11754)'
 versions:
   - tag: v0.27.3
     apks:
@@ -34,6 +32,35 @@ versions:
           tools:
           verify_gradle_wrapper: true
   - tag: v0.27.4
+    apks:
+      - apk_pattern: NewPipe_.*\.apk
+        apk_url: https://github.com/TeamNewPipe/NewPipe/releases/download/$$TAG$$/NewPipe_$$TAG$$.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.27.5
     apks:
       - apk_pattern: NewPipe_.*\.apk
         apk_url: https://github.com/TeamNewPipe/NewPipe/releases/download/$$TAG$$/NewPipe_$$TAG$$.apk
