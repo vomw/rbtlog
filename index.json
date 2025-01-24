@@ -7265,6 +7265,44 @@
       "error": null
     }
   ],
+  "6b253366a002acec059672c33570863b9ef62349d433351746e3e30cb93ced26": [
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v0.27.0/app-arm64-v8a-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 59,
+      "version_name": "0.27.0",
+      "tag": "v0.27.0",
+      "commit": "4de55510722620f2e284e28f5c73b87ec45fa32e",
+      "timestamp": 1737753316,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v0.27.0/app-armeabi-v7a-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 59,
+      "version_name": "0.27.0",
+      "tag": "v0.27.0",
+      "commit": "4de55510722620f2e284e28f5c73b87ec45fa32e",
+      "timestamp": 1737753674,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v0.27.0/app-universal-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 59,
+      "version_name": "0.27.0",
+      "tag": "v0.27.0",
+      "commit": "4de55510722620f2e284e28f5c73b87ec45fa32e",
+      "timestamp": 1737754118,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a327aa7d88ed34a4fd5de5cbf5f6701df5c9e1f8c26ea3ee1b41f64529dc5c3": [
     {
       "repository": "https://github.com/mikulash/ShareAsQR.git",

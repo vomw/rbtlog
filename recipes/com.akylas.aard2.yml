@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/farfromrefug/OSS-Dict.git
 updates: releases
+notes:
+  - 'FIXME: since v1.0.8, slobj is a submodule, so we can remove the cloning step'
 versions:
   - tag: v1.0.7/65
     apks:
