@@ -3779,6 +3779,20 @@
       "error": null
     }
   ],
+  "a1597718cabdd8e68665c8ad8d4e44d2a3f95395e84cfe94a682360863e6158f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1098-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1098,
+      "version_name": "2025.01.1098-dev",
+      "tag": "2025.01.1098-dev",
+      "commit": "09720c07e056133a30d5850dc59a5760099bdce6",
+      "timestamp": 1737740768,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -3873,6 +3887,20 @@
       "tag": "1.0.7.7v53",
       "commit": "a37c566e6856ca28a87e219d28fe783f6e6f0bf2",
       "timestamp": 1736791664,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ae40a68bb10c2d852a2a372dd22c32b8b629f49d407dbab2cae60c6ded58897": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.9v55/PuppyGit_1.0.7.9v55_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 55,
+      "version_name": "1.0.7.9",
+      "tag": "1.0.7.9v55",
+      "commit": "ce53cd62e911d5f53d38851803690efce848d687",
+      "timestamp": 1737741167,
       "reproducible": true,
       "error": null
     }
@@ -4727,6 +4755,20 @@
       "tag": "0.0.12",
       "commit": "f2ba6d7c320bfe5a19695b3ddeb933659ddb8be3",
       "timestamp": 1737314746,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a7de8624d43e9bf3c5ccbfcd49f12e3b78cbe65259b45494517138052f25d257": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.14/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 14,
+      "version_name": "0.0.14",
+      "tag": "0.0.14",
+      "commit": "c2904937388f9bc0e1d35055e045580fb9b40b93",
+      "timestamp": 1737742093,
       "reproducible": true,
       "error": null
     }
@@ -9839,6 +9881,20 @@
       "error": null
     }
   ],
+  "8492afb3a9de10746c863901ebd0150497ad97155d0ba233a8ccad7327445d5c": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v10.10.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 110,
+      "version_name": "10.10.0",
+      "tag": "v10.10.0",
+      "commit": "a4f044decf8cdbcf2019628f91365002bd46f463",
+      "timestamp": 1737739580,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -10493,6 +10549,20 @@
       "timestamp": 1737482915,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpu4qedill/outputs:/outputs', '--volume', '/tmp/tmpu4qedill/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/UpAllNite-Software/simple-song-collector.git', '--env', 'APP_TAG=v1.0.20', '--env', 'APP_COMMIT=5a23841f61a27065ccc413e240221f3b1c517f5f', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "01e129bf066ad5f3acf412134a737d34991568e42b21c32e8a8ab4fe342e7ab2": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.21/ssc-1.0.21.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 21,
+      "version_name": "1.0.21",
+      "tag": "v1.0.21",
+      "commit": "931cac9eef705fd4124cda57aa8735fe8a6f556f",
+      "timestamp": 1737742428,
+      "reproducible": true,
+      "error": null
     }
   ],
   "27043b59fbb7ad0ffa26a2b108b5b40375f29faf192f78bd349e3bc465d744e0": [
@@ -14257,6 +14327,20 @@
       "error": null
     }
   ],
+  "115edcb57ed5ae787dbff0995110bf9bc5dac36f44fcbb29a89aac0eae1f0361": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.44/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 44,
+      "version_name": "0.1.44",
+      "tag": "0.1.44",
+      "commit": "7df740ae00f23f4589bcc17b9666f0c6b4312eb2",
+      "timestamp": 1737742616,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -16507,6 +16591,20 @@
       "tag": "v0.26.5-beta",
       "commit": "70d30021a24e0561422e727e428ef0b31a71d922",
       "timestamp": 1724224054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9672f7a4b779c2f5a801414e122257b5cac7a63db9d4e622baca59519b685d0": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.27.0-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536362,
+      "version_name": "0.27.0-beta",
+      "tag": "v0.27.0-beta",
+      "commit": "48600948791c389c64c27a830710e364718a54cf",
+      "timestamp": 1737742996,
       "reproducible": true,
       "error": null
     }
@@ -19281,6 +19379,20 @@
       "error": null
     }
   ],
+  "0d5234c98f3772722379774629ce712d71544d12fd2e5a0b0a2aab598d104cab": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.4/messages-7-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 7,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "ddc0e8aa3cd14d303d84cf2e529601d443f34750",
+      "timestamp": 1737743363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -20555,6 +20667,20 @@
       "error": null
     }
   ],
+  "645b9a8f585ec812c0fa613a5819242eb237525a32d40b0dc7af47a6ee6ab26e": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v3.0.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 11,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "73f2bf152c89a364ff23a2b28324fc9b2c493586",
+      "timestamp": 1737743726,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4651ee9382456df657bcba5f79149d6e2b55d1766d580fdcb670fd848ef19436": [
     {
       "repository": "https://github.com/VishnuSanal/Quotes.git",
@@ -21787,6 +21913,20 @@
       "error": null
     }
   ],
+  "a53308dc3a1b88f158488091cb5c76aba2606d0a9f506447383793a44d2a0e40": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v4.7.1/Tack-Android-v4.7.1.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 270,
+      "version_name": "4.7.1",
+      "tag": "v4.7.1",
+      "commit": "e05112d87dcb674e7c99152db1593ca60583d48c",
+      "timestamp": 1737744015,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b3522594949e4d0a0b9bcb1af4ab9f25d48293563f584ac9606169cf848fdd3": [
     {
       "repository": "https://github.com/Yet-Zio/yetCalc.git",
@@ -21881,6 +22021,20 @@
       "tag": "2.0.5",
       "commit": "a33735a66e8704f3a5a41858ca30f8014602fc06",
       "timestamp": 1735496665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fbbdfd70c059448416ceced3b8182bd6e4a63878a516c1bfb3b05517496191bd": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.6/yetCalc-v2.0.6.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 22,
+      "version_name": "2.0.6",
+      "tag": "2.0.6",
+      "commit": "5d1b279cf779954323c926e608109bed9919f210",
+      "timestamp": 1737744289,
       "reproducible": true,
       "error": null
     }
