@@ -1077,6 +1077,20 @@
       "error": null
     }
   ],
+  "e599321571970e0c48555e613413575b20c58f4916bb25956669b717e6b0e75a": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.6-ose/davx5-ose-4.4.6-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404060003,
+      "version_name": "4.4.6-ose",
+      "tag": "v4.4.6-ose",
+      "commit": "d1dd2f016ea9e16fd09288fe410b8d305f783b11",
+      "timestamp": 1737819996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -1745,6 +1759,20 @@
       "tag": "v1.50.9",
       "commit": "052ada221eafaf07683180a714b319d9b5e31572",
       "timestamp": 1737568347,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "daf7da16bc8b33fc1fc427f28c88c7f8cc1b8788b64db719530db20e13b86af7": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.52.0/ArcaneChat-foss-armeabi-v7a-1.52.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007061,
+      "version_name": "1.52.0",
+      "tag": "v1.52.0",
+      "commit": "ffa58aae34e958fbc031c9fc96d94d27d32fb521",
+      "timestamp": 1737820470,
       "reproducible": true,
       "error": null
     }
@@ -3905,6 +3933,20 @@
       "error": null
     }
   ],
+  "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.8.0v56/PuppyGit_1.0.8.0v56_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 56,
+      "version_name": "1.0.8.0",
+      "tag": "1.0.8.0v56",
+      "commit": "f392a98b03de1cc4d43778269ce8cbb0e7c4e3b6",
+      "timestamp": 1737820977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5049,6 +5091,20 @@
       "tag": "0.6.6",
       "commit": "730eb5803f566d99f58de0d5649fd0adbcf98f22",
       "timestamp": 1736187956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c95fc4a913e9b369303d65420a40fba5f187ed1209271ef1460424ce7deb004": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.7/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 30,
+      "version_name": "0.6.7",
+      "tag": "0.6.7",
+      "commit": "5caec74fbca92056cb369a90b6b6f13fadc5555e",
+      "timestamp": 1737821672,
       "reproducible": true,
       "error": null
     }
@@ -6397,6 +6453,20 @@
       "error": null
     }
   ],
+  "54019ddeeb6f8ebcf8c532955be8e142454af5b3601dd6c31063c2254c6283f4": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.23.0/com.fibelatti.photowidget-v1.23-1230000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1230000,
+      "version_name": "1.23",
+      "tag": "v1.23.0",
+      "commit": "394ae13e952566ff6a60069b7136afa48898565b",
+      "timestamp": 1737821991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -7233,6 +7303,20 @@
       "tag": "3.4.3",
       "commit": "7d2c3489ac4db45bc556068f7c2c13b83d26343f",
       "timestamp": 1733940374,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b323c473d74df68a35363af30d316b542b1c847beebc033c1b18ff04712c349": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.4/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2158216,
+      "version_name": "3.4.4",
+      "tag": "3.4.4",
+      "commit": "3cc1d190ed4f460c8ae3d9ca85c0b817051ac923",
+      "timestamp": 1737822284,
       "reproducible": true,
       "error": null
     }
@@ -11387,6 +11471,20 @@
       "error": null
     }
   ],
+  "e854eb72eb1d50f33ff2a1f08c4e4df34538d55adb56ce44cb943882cafd87c5": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.1.15/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 115,
+      "version_name": "0.1.15",
+      "tag": "0.1.15",
+      "commit": "7b19121f37ff20507f54492763223785022e0405",
+      "timestamp": 1737827156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -12983,6 +13081,20 @@
       "error": null
     }
   ],
+  "c003dd07ceb0f3a5de7b3280ee268b35e67cf0d74f6e9bec64dddcbc0369b5cb": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.4.1/CM_2.4.1.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 23,
+      "version_name": "2.4.1",
+      "tag": "v2.4.1",
+      "commit": "b048b642e7d9ece15a5142b1852984aaeca17972",
+      "timestamp": 1737822405,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
     {
       "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
@@ -13539,6 +13651,34 @@
       "tag": "v3.9.0",
       "commit": "60eaf8bfff8a30676d1439f05eb5b7faf4d607df",
       "timestamp": 1736533956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1cccb6a7790ea36fced7212c5c932711384bf77be09e78fca82ae6ecca46e2c4": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.10.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31000,
+      "version_name": "3.10.0",
+      "tag": "v3.10.0",
+      "commit": "bfcbb759e5b935d5534bec38df4d1b0e96789efc",
+      "timestamp": 1737822689,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0be0fda2ba7a9efa0878c0aebdf7aa4cf6deee19e5860593389f2e0dc6adddd1": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.10.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31000,
+      "version_name": "3.10.0",
+      "tag": "v3.10.0",
+      "commit": "bfcbb759e5b935d5534bec38df4d1b0e96789efc",
+      "timestamp": 1737822830,
       "reproducible": true,
       "error": null
     }
@@ -14991,6 +15131,20 @@
       "tag": "v1.0.0-alpha.16",
       "commit": "7223664c393ad519314da837afbc052bc8480d82",
       "timestamp": 1737050993,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "960d3b9a48d6165905fb252ac798e51eea7cd077ffde9c133241d43a9d15d3b5": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.17/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1170,
+      "version_name": "1.0.0-alpha.17",
+      "tag": "v1.0.0-alpha.17",
+      "commit": "b2d0fd5eeea6f975ef2b75076a6fd71329f648b1",
+      "timestamp": 1737827541,
       "reproducible": true,
       "error": null
     }
@@ -16647,6 +16801,20 @@
       "error": null
     }
   ],
+  "baa1b56ce1a063e54f18f99732c695e15260e720b711c09d0aa582ac14871458": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.27.1-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536363,
+      "version_name": "0.27.1-beta",
+      "tag": "v0.27.1-beta",
+      "commit": "f1dbad2ed66bb0d93d5ea769ba007e142877f677",
+      "timestamp": 1737822986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "197dff09cf92d1f8e7c571d3e0b5a9e6dfd033ffc0c851134c8bcffc27268468": [
     {
       "repository": "https://github.com/gdzx/audiosource.git",
@@ -17789,6 +17957,20 @@
       "tag": "v0.6.67",
       "commit": "10191e01f7081b670be63535a78996fa4f7a193d",
       "timestamp": 1737225455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4c9d2dde14afa431afbfe0f3a2032b5054930dd26ad5fbbc06b09fa0e6f538d5": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.68/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 80,
+      "version_name": "0.6.68",
+      "tag": "v0.6.68",
+      "commit": "a8bd69d879281fb9faa9f663f63ccec2bf93c644",
+      "timestamp": 1737823321,
       "reproducible": true,
       "error": null
     }
@@ -20141,6 +20323,20 @@
       "tag": "2.2.2",
       "commit": "c3df32e6a8613fc4055b45ec863fe31fd91d60ad",
       "timestamp": 1731874155,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5ad3eedf964973d65c5970259c6aa9689ccb2a39207ab577431d1edf75c3456": [
+    {
+      "repository": "https://github.com/samolego/Canta.git",
+      "apk_url": "https://github.com/samolego/Canta/releases/download/2.3.1/app-release.apk",
+      "appid": "org.samo_lego.canta",
+      "version_code": 207,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "017c28f5774691aa09c34e01dda0686f399ce4fe",
+      "timestamp": 1737823776,
       "reproducible": true,
       "error": null
     }

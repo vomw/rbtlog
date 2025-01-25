@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/libre-tube/LibreTube.git
 updates: releases
+notes:
+  - 'FIXME: since v0.27.0, all builds are byte-identical. So for the next release, remove all but the universal one. See: https://github.com/libre-tube/LibreTube/issues/6455#issuecomment-2613442439'
 versions:
   - tag: v0.27.0
     apks:
