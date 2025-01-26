@@ -965,6 +965,20 @@
       "error": null
     }
   ],
+  "1248b0113f1a014ac6d2486117d11cd7958b550886c4ae776cd3867b270f02b4": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v7.0.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 700,
+      "version_name": "v7.0.0",
+      "tag": "v7.0.0",
+      "commit": "6bb95ff70e8986dd95c149afd918b9f88f35679a",
+      "timestamp": 1737913564,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -5907,6 +5921,20 @@
       "error": null
     }
   ],
+  "68ab3df2fe856d7ad3a0b62ecf6aed03bd1fb023d55161f0c5825b832f588659": [
+    {
+      "repository": "https://github.com/dn0ne/lotus.git",
+      "apk_url": "https://github.com/dn0ne/lotus/releases/download/v1.2.0/lotus-1.2.0-arm64-v8a-release.apk",
+      "appid": "com.dn0ne.lotus",
+      "version_code": 1002002,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "468c27b09e3e311765154d4fce200bcc67a6f136",
+      "timestamp": 1737906726,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5acd1d66a493ae55e62e0a43df3812fe60ff836746f56a56f7258e9ce53f1388": [
     {
       "repository": "https://github.com/jetspiking/AndME.git",
@@ -8731,6 +8759,20 @@
       "error": null
     }
   ],
+  "5e0e8631e1ce6cef20375a9dec2a7203b62f9500271d50ebf84a53549e961b69": [
+    {
+      "repository": "https://github.com/jucktion/healthlog.git",
+      "apk_url": "https://github.com/jucktion/healthlog/releases/download/v0.33.0/Healthlog-arm64.apk",
+      "appid": "com.jucktion.healthlog",
+      "version_code": 6,
+      "version_name": "0.33.0",
+      "tag": "v0.33.0",
+      "commit": "dae8b3eb91df696f02dacad5afbb73660cbdb117",
+      "timestamp": 1737852539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "76ad5b113e0b189f8b1b8d3b913ae07e917f79b933111451197c8f2fba131d91": [
     {
       "repository": "https://github.com/JustDeax/ComposeStopwatch.git",
@@ -9133,6 +9175,20 @@
       "tag": "v2.1.1",
       "commit": "89e4a69e44f59d49806ed2029ce95594f2c3e983",
       "timestamp": 1737310298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5e9af077ae769c491aecbd4452781ad523895d8b495afd82da6a25a1f40a6ad": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.2.0/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768585,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "6929f6c35c66fe6cb22ad4a72f7b9c98032c1763",
+      "timestamp": 1737907036,
       "reproducible": true,
       "error": null
     }
@@ -10339,6 +10395,20 @@
       "error": null
     }
   ],
+  "808401bfe4c5d40fd3426639b2c295884deea544e7f4b45fc2ce394cba92dc47": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.5.2/nfc_alarm_clock_v12.5.2-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 471,
+      "version_name": "12.5.2",
+      "tag": "v12.5.2",
+      "commit": "5673029d2aceb76e663b3a3fb10796aa4c118c8d",
+      "timestamp": 1737907206,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b45e6a23a49d94b71dc38b24c8a4b27ffc914e02ad25197bcee330106edc025e": [
     {
       "repository": "https://github.com/nikashitsa/polar-alert-android.git",
@@ -10515,6 +10585,34 @@
       "tag": "V0.1.5",
       "commit": "f3521735652b8fc9cabca958646ac6fe97dbd764",
       "timestamp": 1737654996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a89688f67e5116e8032a360a22ef582bfa9fda006a7360b47e2c81a0a3769a25": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.1.8/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 10,
+      "version_name": "0.1.8",
+      "tag": "V0.1.8",
+      "commit": "0a29e6cf87da621f8f8174c2f68907c58009f0c2",
+      "timestamp": 1737907712,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3121ca6348e556be859286a53c33b8a82531faa0b03ee66461c48486a292159a": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.1.9/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 11,
+      "version_name": "0.1.9",
+      "tag": "V0.1.9",
+      "commit": "788f0dec30909def63191c95c61de385618217e4",
+      "timestamp": 1737914117,
       "reproducible": true,
       "error": null
     }
@@ -13837,6 +13935,20 @@
       "error": null
     }
   ],
+  "57d5d7cfc5adfc5e077f4fd679e0693e550d067ff14cd806e14780d28733d130": [
+    {
+      "repository": "https://github.com/VishnuSanal/RemindMe.git",
+      "apk_url": "https://github.com/VishnuSanal/RemindMe/releases/download/v1.0.1/remind-me-v1.0.1.apk",
+      "appid": "com.vishnu.remindme",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "e77aee10346ef1b77cb692f017b47eac06190c17",
+      "timestamp": 1737851771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9f357e8eeca03abea9f1c5d40e5d146568d1fd79a494831cd98dabea08a4da68": [
     {
       "repository": "https://github.com/w2sv/FileNavigator.git",
@@ -13903,6 +14015,20 @@
       "tag": "v1.0.14",
       "commit": "54098bbaa7767164765ea7bafb66c6397e3015a2",
       "timestamp": 1737570641,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1397f9900c3a90636fe14c6447bcf759e6c975baea0b5648e9ec62ad7fb876d5": [
+    {
+      "repository": "https://github.com/mrwm/QRshare.git",
+      "apk_url": "https://github.com/mrwm/QRshare/releases/download/1.0.15/app-release.apk",
+      "appid": "com.wchung.qrshare",
+      "version_code": 15,
+      "version_name": "1.0.15",
+      "tag": "1.0.15",
+      "commit": "7c0e81a2150282c0e4ac192377c3f652f8afb810",
+      "timestamp": 1737907937,
       "reproducible": true,
       "error": null
     }
@@ -16811,6 +16937,20 @@
       "tag": "v0.27.1-beta",
       "commit": "f1dbad2ed66bb0d93d5ea769ba007e142877f677",
       "timestamp": 1737822986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d32047559eef0e79309f405fce5d6507db390eabd90eb92cdd44221179042101": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.27.3-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536365,
+      "version_name": "0.27.3-beta",
+      "tag": "v0.27.3-beta",
+      "commit": "b2fb7db6ecf73fa8fe0e399392899e7cf57c3144",
+      "timestamp": 1737908071,
       "reproducible": true,
       "error": null
     }
@@ -20281,6 +20421,20 @@
       "tag": "v0.27.2",
       "commit": "c2765316542743c2a4fc02d75ccf44bc22f53878",
       "timestamp": 1724358638,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44566fb49660b21439aee68d1da0693562d9f557f790944f771939be7d2ae1a9": [
+    {
+      "repository": "https://github.com/polymorphicshade/Tubular.git",
+      "apk_url": "https://github.com/polymorphicshade/Tubular/releases/download/v0.27.5/tubular_v0.27.5.apk",
+      "appid": "org.polymorphicshade.tubular",
+      "version_code": 1002,
+      "version_name": "0.27.5",
+      "tag": "v0.27.5",
+      "commit": "2999fb3adf704b7ba7f4b731be0d7f6b95b2c7f5",
+      "timestamp": 1737909205,
       "reproducible": true,
       "error": null
     }
