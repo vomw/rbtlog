@@ -1,9 +1,9 @@
 ---
 repository: https://github.com/mark99i/AppSearcher.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: versionCode + versionName are calculated based on build time, see https://github.com/mark99i/AppSearcher/blob/master/app/build.gradle#L14'
-  - 'FIXME: latest tag is always (?) named "release-next"?'
+  - 'FIXME: latest tag is always (?) named "release-next"? – https://github.com/mark99i/AppSearcher/issues/4'
 versions:
   - tag: release-next
     apks:

@@ -14061,6 +14061,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "8b52ed35c5314e856ffeaf08e4a230969cf48f94aeb15f89849f12fc7f4772b9": [
+    {
+      "repository": "https://github.com/vishal2376/snaptick.git",
+      "apk_url": "https://github.com/vishal2376/snaptick/releases/download/v3.2/snaptick.v3.2.apk",
+      "appid": "com.vishal2376.snaptick",
+      "version_code": 10,
+      "version_name": "3.2",
+      "tag": "v3.2",
+      "commit": "e5f8d0acee7561cef3972bd0ae107c21fb803da0",
+      "timestamp": 1738080725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
