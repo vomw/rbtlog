@@ -531,6 +531,20 @@
       "error": null
     }
   ],
+  "89130e18347be1507d661cbbb58aaace219b1af3841fabde4d17f16580e0ce1b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.3.0/Podcini.X_release_free_8.3.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 108,
+      "version_name": "8.3.0",
+      "tag": "8.3.0",
+      "commit": "24237db64292feb87ac24f032ddad1c603866310",
+      "timestamp": 1738165597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -10297,6 +10311,20 @@
       "error": null
     }
   ],
+  "13a15faf6a8e15d56ff35ba44ff51cc9545ee90e4c4394fac7c3f448383e9623": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.45.1/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 870,
+      "version_name": "3.45.1",
+      "tag": "3.45.1",
+      "commit": "08ad35b0108a24eb9b7615057f85407f729dafc5",
+      "timestamp": 1738165885,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -13049,6 +13077,20 @@
       "tag": "V1.0.10",
       "commit": "410644d30548d2cdafbf1f48f6aa376bfadbda5e",
       "timestamp": 1736533395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d4003595c5c33327a32892e79dc28ae96f22320b6dfbf02a17c82a844cccc75f": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.11/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2013,
+      "version_name": "1.0.11",
+      "tag": "V1.0.11",
+      "commit": "036ee7aef875a1885c3f3949a463cb9109588bc3",
+      "timestamp": 1738166241,
       "reproducible": true,
       "error": null
     }
@@ -16041,6 +16083,20 @@
       "tag": "1.0.9",
       "commit": "49bef679d31b2c111db266183eeca90c1cd594ac",
       "timestamp": 1738083323,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "03372e54fb575c5a227227d7feb14d6f1cffb440d6641b038cf572519e4e03a1": [
+    {
+      "repository": "https://github.com/Its-Just-Nans/sms2call.git",
+      "apk_url": "https://github.com/Its-Just-Nans/sms2call/releases/download/1.0.10/sms2call-1.0.10.apk",
+      "appid": "dev.n4n5.sms2call",
+      "version_code": 10,
+      "version_name": "1.0.10",
+      "tag": "1.0.10",
+      "commit": "b41704767f07eeaba33343eefdd4cdef7f09da6c",
+      "timestamp": 1738166733,
       "reproducible": true,
       "error": null
     }
@@ -21041,6 +21097,20 @@
       "error": null
     }
   ],
+  "d125091effff4eac3dd45fd1f79c812a3ecdae278f2f51bbbff29852a260f5e5": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.1.0/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 32,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "0df19d02fb75905399d99f7f7327f5e19b4849f2",
+      "timestamp": 1738166864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -21079,6 +21149,20 @@
       "tag": "0.2.2",
       "commit": "467fd3d87e6cea96149ca20c79a38a01c291c48c",
       "timestamp": 1737483443,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9d2717055c787e30a8e847b943ec8362e801921dd7a8019c38406608112c0e5b": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.0.0/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 5,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "6ae3d4a1f1eec4a6c6cff668c1b7130add05e3ab",
+      "timestamp": 1738167070,
       "reproducible": true,
       "error": null
     }
@@ -21359,6 +21443,20 @@
       "tag": "v3.0.0",
       "commit": "73f2bf152c89a364ff23a2b28324fc9b2c493586",
       "timestamp": 1737743726,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "627351fcecc28971cccbfd3380cdb5bbaf329d36752f57d53fbf75570942fbce": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v3.1.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 12,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "26d7068909637c42fd3a483323ee92616a724d4d",
+      "timestamp": 1738167297,
       "reproducible": true,
       "error": null
     }
