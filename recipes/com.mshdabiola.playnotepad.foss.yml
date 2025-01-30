@@ -3,6 +3,7 @@ repository: https://github.com/mshdabiola/NotePad.git
 updates: releases
 notes:
   - flaky build
+  - 'FIXME: need to switch to baseline.prof check as that still differs once the dex succeeds'
 versions:
   - tag: 1.3.6
     apks:

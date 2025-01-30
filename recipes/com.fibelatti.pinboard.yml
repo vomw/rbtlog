@@ -3,6 +3,7 @@ repository: https://github.com/fibelatti/pinboard-kotlin.git
 updates: releases
 notes:
   - v3.2 is flaky, adding the de-flaker
+  - 'FIXME: next release after v3.5.0 will remove build flavors, so we need to adjust the build; see https://github.com/fibelatti/pinboard-kotlin/issues/396'
 versions:
   - tag: v3.1
     apks:

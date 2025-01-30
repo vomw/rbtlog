@@ -1581,6 +1581,20 @@
       "error": null
     }
   ],
+  "755d3bab8574b6721df8ecf0bc40542200f376796eb3447693c5bd95d8be7ae4": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.35.2/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3035002,
+      "version_name": "3.35.2",
+      "tag": "3.35.2",
+      "commit": "cbecf2605d68e0b7a197df1e4712d61d82592221",
+      "timestamp": 1738251997,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -4419,6 +4433,20 @@
       "tag": "1.6.1",
       "commit": "972e19e3b1afe2e61539c8addd834546776f403b",
       "timestamp": 1737226905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e52e527982b1cb309f84b714484f1dbafc35a771e314c7d145661df61ef4d51": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.7.0/bura-1.7.0.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 16,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "0267cb81104465f0f6fcce6de6844ec86ae1e6c7",
+      "timestamp": 1738252326,
       "reproducible": true,
       "error": null
     }
@@ -11527,6 +11555,20 @@
       "error": null
     }
   ],
+  "f22e3637292ace22c3bd331fed34fa5e626ea3c17ae882091328b2728e173dfa": [
+    {
+      "repository": "https://github.com/puutaro/CommandClick.git",
+      "apk_url": "https://github.com/puutaro/CommandClick/releases/download/v1.4.3/CommandClick-1.4.3-release.apk",
+      "appid": "com.puutaro.commandclick",
+      "version_code": 84,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "ffbf0185148ccb6cb34b6e4c0050ad0ec1825113",
+      "timestamp": 1738264843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -11817,6 +11859,20 @@
       "tag": "0.2.1",
       "commit": "5c227d902a4a77c2e159eef8f04527d5a3e599c7",
       "timestamp": 1738086362,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6254d49e165f0db39e1c208e755da2908df9659a475bb6efee3d2d60ce25a2d": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.2/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 202,
+      "version_name": "0.2.2",
+      "tag": "0.2.2",
+      "commit": "43edc4f75d17c27b503d750396cf2806cdbf708e",
+      "timestamp": 1738253810,
       "reproducible": true,
       "error": null
     }
@@ -13193,6 +13249,20 @@
       "error": null
     }
   ],
+  "c585f2be706faa03a9d6912311c169045cbdf772a123f23fabfa6306c6e2da15": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.3.2/CC_3.3.2.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 38,
+      "version_name": "3.3.2",
+      "tag": "v3.3.2",
+      "commit": "db2a2e444e910ea7129073b2fcdab3a530b07ff1",
+      "timestamp": 1738253676,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -13595,6 +13665,20 @@
       "tag": "v2.1.1-jelly",
       "commit": "441a3a38764064764b83d1bcafabd7d1c596d87d",
       "timestamp": 1737655509,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "556cdf7cb279a794da292411d9f95500d89c1cb7581be36fbc3b36453c07b155": [
+    {
+      "repository": "https://github.com/teixeira0x/SubTypo.git",
+      "apk_url": "https://github.com/teixeira0x/SubTypo/releases/download/v2.1.2-jelly/app-foss-release.apk",
+      "appid": "com.teixeira0x.subtypo",
+      "version_code": 9,
+      "version_name": "2.1.2-jelly",
+      "tag": "v2.1.2-jelly",
+      "commit": "5a50ea8d640983fb2dd7c7e5c72fda18f4a8253e",
+      "timestamp": 1738255875,
       "reproducible": true,
       "error": null
     }
@@ -16965,6 +17049,20 @@
       "tag": "1.2260",
       "commit": "cb7d0f0b3b9b539a96f1073a444b2c70ea554217",
       "timestamp": 1737656066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe514a326aa943fa9a2b834338e1f1d7ac75324bffc7db87fd26bbd2f1126f76": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2261/FairEmail-v1.2261a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2261,
+      "version_name": "1.2261",
+      "tag": "1.2261",
+      "commit": "85ed88ab1762275bd7db7ed7a430559477a3f597",
+      "timestamp": 1738259156,
       "reproducible": true,
       "error": null
     }
@@ -21069,6 +21167,20 @@
       "error": null
     }
   ],
+  "c25ea6173419f67cf0b02284e2b5108a9df3b943163a1ea053f44ec9018af9ab": [
+    {
+      "repository": "https://codeberg.org/UnifiedPush/fcm-distributor.git",
+      "apk_url": "https://codeberg.org/UnifiedPush/fcm-distributor/releases/download/2.0.0/fcm-distributor.apk",
+      "appid": "org.unifiedpush.distributor.fcm",
+      "version_code": 17,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "1af44a81f8925b957959d9728ed19689825c074a",
+      "timestamp": 1738263140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bf4b7903408d4c91432ab5179139d6ebe646956411d55a728c09e9cc3784bf93": [
     {
       "repository": "https://codeberg.org/NextPush/nextpush-android.git",
@@ -21107,6 +21219,20 @@
       "tag": "2.1.0",
       "commit": "0df19d02fb75905399d99f7f7327f5e19b4849f2",
       "timestamp": 1738166864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "732015e435d29ef7e3f4229ce7a3e6af313d0c9b28277a0b14157609be1a59b0": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.1.1/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 33,
+      "version_name": "2.1.1",
+      "tag": "2.1.1",
+      "commit": "cd576e083eec63449eb148e9cad60d32616831be",
+      "timestamp": 1738254056,
       "reproducible": true,
       "error": null
     }
@@ -22227,6 +22353,20 @@
       "tag": "v1.5.0",
       "commit": "aa657790d0f5b6e4f1f9d16fe659f59b0145ac64",
       "timestamp": 1735496267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "99694df23863be567a85148abb8cc819c1119d0ff7591a71f6901a9ed07c4cb2": [
+    {
+      "repository": "https://github.com/Acclorite/book-story.git",
+      "apk_url": "https://github.com/Acclorite/book-story/releases/download/v1.6.0/book-story.apk",
+      "appid": "ua.acclorite.book_story",
+      "version_code": 11,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "72908737c221ff3bd8f32b4d07473bf6d6f76f08",
+      "timestamp": 1738254260,
       "reproducible": true,
       "error": null
     }
