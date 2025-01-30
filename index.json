@@ -10381,6 +10381,20 @@
       "error": null
     }
   ],
+  "60120001a81e597af4411d0efb524346c6aaf76dc62476ff4ba5383755219fdf": [
+    {
+      "repository": "https://github.com/mshdabiola/NotePad.git",
+      "apk_url": "https://github.com/mshdabiola/NotePad/releases/download/1.3.7/app-fossReliant-release-unsigned-signed.apk",
+      "appid": "com.mshdabiola.playnotepad.foss",
+      "version_code": 137,
+      "version_name": "1.3.7",
+      "tag": "1.3.7",
+      "commit": "e7de8a0fac6f3017e813afa67e2d9ae32d5bc62c",
+      "timestamp": 1738275836,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8d979f1cb3d869dd4be54ba888ff009f85abfac2b83386abd16504225fc7f14b": [
     {
       "repository": "https://github.com/MubarakNative/MBCompass.git",
@@ -14379,6 +14393,20 @@
       "tag": "1.0.15",
       "commit": "7c0e81a2150282c0e4ac192377c3f652f8afb810",
       "timestamp": 1737907937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e4ff94e610ee0f7ef49ebd5a81fd8ce28ab8e0c5f6bf27c67aaac5defc3873a0": [
+    {
+      "repository": "https://github.com/mrwm/QRshare.git",
+      "apk_url": "https://github.com/mrwm/QRshare/releases/download/1.0.16/app-release.apk",
+      "appid": "com.wchung.qrshare",
+      "version_code": 16,
+      "version_name": "1.0.16",
+      "tag": "1.0.16",
+      "commit": "96da4470df92337fb1c9d56c5941deb832bac164",
+      "timestamp": 1738275527,
       "reproducible": true,
       "error": null
     }
@@ -22731,6 +22759,20 @@
       "tag": "v1.0.2",
       "commit": "f3b8a5594549da7b0391efd3bf7a3ed1a3345ea9",
       "timestamp": 1735755366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "19fd5a4ea7da931350451473d3a7c7e1c8d1be97f3168657fa230e42d22ade28": [
+    {
+      "repository": "https://github.com/regulad/closecircuit.git",
+      "apk_url": "https://github.com/regulad/closecircuit/releases/download/v1.0.2_2/app-release.apk",
+      "appid": "xyz.regulad.closecircuit",
+      "version_code": 2,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2_2",
+      "commit": "ab3ab5f0fc691e8e2f931d33b2ee681d9633d506",
+      "timestamp": 1738277273,
       "reproducible": true,
       "error": null
     }
