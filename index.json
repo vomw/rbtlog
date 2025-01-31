@@ -545,6 +545,20 @@
       "error": null
     }
   ],
+  "c66d31a10259d7ba2c32678dc6cd946aff2254c8ccd6ce3b354d98b71e6534a5": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.3.1/Podcini.X_release_free_8.3.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 109,
+      "version_name": "8.3.1",
+      "tag": "8.3.1",
+      "commit": "5865d5b372f8b64d3e32908caadf7fe00a82f74b",
+      "timestamp": 1738345576,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1861,6 +1875,20 @@
       "error": null
     }
   ],
+  "1e2bfe725080de5b141c7c26bc69cf8ab6c8f456bca860b08d387e2614b56da8": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.52.1/ArcaneChat-foss-armeabi-v7a-1.52.1.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007071,
+      "version_name": "1.52.1",
+      "tag": "v1.52.1",
+      "commit": "bdfeddecd535443e2f4c5120751ecc74b4f083c6",
+      "timestamp": 1738345939,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -2085,6 +2113,20 @@
       "error": null
     }
   ],
+  "a94c776645422a955a53d807113615429decd5bbae1e0ba65d2eb524e3e0d670": [
+    {
+      "repository": "https://github.com/farfromrefug/OSS-Dict.git",
+      "apk_url": "https://github.com/farfromrefug/OSS-Dict/releases/download/v1.1.0/68/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 68,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0/68",
+      "commit": "77a83a30eb0f15416bebc3693d347b50a246e8e8",
+      "timestamp": 1738346642,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68402d9c3e3261a0bfe1d09727a323349ecd03fcd86b7392811c50d381cce237": [
     {
       "repository": "https://github.com/farfromrefug/EnforceDoze.git",
@@ -2165,6 +2207,20 @@
       "tag": "v1.6.2/74",
       "commit": "d046451ec271e7de7f2815e59b442a495001c759",
       "timestamp": 1736273023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6061102c9a2eed6c513beecae3c60935622c7df4384f2c48fe0c847dd8c68df7": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.7.0/75/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 75,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0/75",
+      "commit": "2f01fd5a049205cba32667916c704fba8923e426",
+      "timestamp": 1738346853,
       "reproducible": true,
       "error": null
     }
@@ -4055,6 +4111,20 @@
       "tag": "1.0.8.0v56",
       "commit": "f392a98b03de1cc4d43778269ce8cbb0e7c4e3b6",
       "timestamp": 1737820977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "11f5aa7eb343eff5eae2e066aecb5c9e34aa42b66a533a5f516f3431aa5deea9": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.8.1v57/PuppyGit_1.0.8.1v57_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 57,
+      "version_name": "1.0.8.1",
+      "tag": "1.0.8.1v57",
+      "commit": "a5c42c7ca4e488f5c66ad0d6e8e1aacfb1ede6ac",
+      "timestamp": 1738347048,
       "reproducible": true,
       "error": null
     }
@@ -11891,6 +11961,20 @@
       "error": null
     }
   ],
+  "f60ca2e0e49b6d2b7d64e78123e3034f43de0c8f8ac895f815fc76e7bddb7b31": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.3/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 203,
+      "version_name": "0.2.3",
+      "tag": "0.2.3",
+      "commit": "e69552290acc97e843a0afcd0b0bc442c08b9159",
+      "timestamp": 1738348122,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -16115,6 +16199,20 @@
       "error": null
     }
   ],
+  "60a09bc26d839e3b2080ca1b3c5908e076e2da1cf8572e5275d1af55003733fe": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/1.8.0/Photok-1.8.0-standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 33,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "f8d986a37c369b06ade4f08cda740ee73936168a",
+      "timestamp": 1738348365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -17091,6 +17189,20 @@
       "tag": "1.2261",
       "commit": "85ed88ab1762275bd7db7ed7a430559477a3f597",
       "timestamp": 1738259156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65bb622183d8415787512b834b58d29b3230bb3ca588922ee177f26fe7b64d0d": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2262/FairEmail-v1.2262a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2262,
+      "version_name": "1.2262",
+      "tag": "1.2262",
+      "commit": "d349f350ff4bd92491844ca917fef8eb113be382",
+      "timestamp": 1738348691,
       "reproducible": true,
       "error": null
     }
@@ -21265,6 +21377,20 @@
       "error": null
     }
   ],
+  "648bda26a582fef4d5b513979a2052b59db3ca53c5fe648193a905721e9a75c2": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.1.2/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 33,
+      "version_name": "2.1.2",
+      "tag": "2.1.2",
+      "commit": "1d25d941dd535e8bfbc5d7b37c5780c9d4a080c9",
+      "timestamp": 1738349523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -21317,6 +21443,20 @@
       "tag": "1.0.0",
       "commit": "6ae3d4a1f1eec4a6c6cff668c1b7130add05e3ab",
       "timestamp": 1738167070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a65dc887edcc65f70b34d43eaddfff96b903d1d75a275e8d8eb5a36ad44d7b6": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.0.1/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 6,
+      "version_name": "1.0.1",
+      "tag": "1.0.1",
+      "commit": "5f0ce3a75bc16baa0d713fa49635a7343937f79a",
+      "timestamp": 1738349801,
       "reproducible": true,
       "error": null
     }
