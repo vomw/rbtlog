@@ -559,6 +559,20 @@
       "error": null
     }
   ],
+  "e2d058c629c3b830b698f4091d10406f196daec0cd2cff124d284cc45edb2666": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.3.2/Podcini.X_release_free_8.3.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 110,
+      "version_name": "8.3.2",
+      "tag": "8.3.2",
+      "commit": "34360e40588696e6bf65e70282970b20b1af1e6e",
+      "timestamp": 1738446581,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3989,6 +4003,20 @@
       "error": null
     }
   ],
+  "dfc63202c3ce9ab00bd46833ad7b554493304d655cf3657c8d98393a43967a50": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.01.1100-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1100,
+      "version_name": "2025.01.1100-dev",
+      "tag": "2025.01.1100-dev",
+      "commit": "3026da576a7e508a0c5936424d6002a14d4befb7",
+      "timestamp": 1738446966,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -5343,6 +5371,20 @@
       "tag": "0.6.7",
       "commit": "5caec74fbca92056cb369a90b6b6f13fadc5555e",
       "timestamp": 1737821672,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e97092d8d99d4d9b8201a5818ac1c39a25a4a2662daff2b7d72299a5247b9365": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.8/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 31,
+      "version_name": "0.6.8",
+      "tag": "0.6.8",
+      "commit": "d22e7d1379526ef367e2a4fa29b85ff32efbf9d8",
+      "timestamp": 1738447766,
       "reproducible": true,
       "error": null
     }
@@ -9947,6 +9989,20 @@
       "error": null
     }
   ],
+  "8f90816fdf412a9bf05a131d81414479925ae4fdc3056e098a98ab532a9e379f": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v1.12.1/localmaterialnotes_arm64-v8a_v1.12.1.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 262,
+      "version_name": "1.12.1",
+      "tag": "v1.12.1",
+      "commit": "fd9e3b4f01d98df7eb44349df2be7b8e9842d903",
+      "timestamp": 1738448099,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -10181,6 +10237,20 @@
       "tag": "v0.2.9",
       "commit": "eb7973e4863b33004c1f08d20844095a3ab05a70",
       "timestamp": 1737311316,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdd5ed92297c2b65c64caa9e717e86a50a4600e3d267ef85be44e95db3c787be": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.10/SimpMusic_v0.2.10.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 27,
+      "version_name": "0.2.10",
+      "tag": "v0.2.10",
+      "commit": "28e6f09546ea8636bee3e7e19b88ff15dcc0493b",
+      "timestamp": 1738448926,
       "reproducible": true,
       "error": null
     }
@@ -10685,6 +10755,20 @@
       "tag": "v12.5.2",
       "commit": "5673029d2aceb76e663b3a3fb10796aa4c118c8d",
       "timestamp": 1737907206,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4a2f1aaa4d8245cce19fd7446c428d92a93028971d1dc25ef093d5730ae2cbe": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.5.3/nfc_alarm_clock_v12.5.3-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 474,
+      "version_name": "12.5.3",
+      "tag": "v12.5.3",
+      "commit": "f9bfc868c9d9a4d36e8131ac24a8702c62f07ece",
+      "timestamp": 1738449538,
       "reproducible": true,
       "error": null
     }
@@ -13245,6 +13329,20 @@
       "tag": "V1.0.11",
       "commit": "036ee7aef875a1885c3f3949a463cb9109588bc3",
       "timestamp": 1738166241,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1bf7fc796354a13ff016416eb0992c247e10e9583d4bd2e7cb76de32b037cfd6": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.12/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2014,
+      "version_name": "1.0.12",
+      "tag": "V1.0.12",
+      "commit": "1958b749abe0f4eb25dcfcb9798d38f103d07968",
+      "timestamp": 1738450294,
       "reproducible": true,
       "error": null
     }
@@ -18017,6 +18115,20 @@
       "error": null
     }
   ],
+  "82d2433e410b38d5ed71405f05019b6bcaa8f42e27271c879633cf878ac34187": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.0.9/freetube-0.23.0.9-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230000009,
+      "version_name": "0.23.0.9",
+      "tag": "0.23.0.9",
+      "commit": "afcb50dc357041d746cfddd22c07bb05f936b73c",
+      "timestamp": 1738349173,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -18657,6 +18769,20 @@
       "tag": "v0.6.68",
       "commit": "a8bd69d879281fb9faa9f663f63ccec2bf93c644",
       "timestamp": 1737823321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c5cd8d251c37a55b96097c83cd220b2776fcb2bab25cded89406d9e15322f223": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.69/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 81,
+      "version_name": "0.6.69",
+      "tag": "v0.6.69",
+      "commit": "543c757c374e15f6c914da2c40d2e37e1915b798",
+      "timestamp": 1738451101,
       "reproducible": true,
       "error": null
     }
@@ -21387,6 +21513,20 @@
       "tag": "2.1.2",
       "commit": "1d25d941dd535e8bfbc5d7b37c5780c9d4a080c9",
       "timestamp": 1738349523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7de0ded89509dbea283d84303c02e4ce504e316c6fa32e03c39f532b8294fe83": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.1.3/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 35,
+      "version_name": "2.1.3",
+      "tag": "2.1.3",
+      "commit": "c03763a4f98532def33c44cb11885c4cffc1ac49",
+      "timestamp": 1738452217,
       "reproducible": true,
       "error": null
     }
