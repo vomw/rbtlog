@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/UpAllNite-Software/simple-song-collector.git
 updates: releases
+notes:
+  - 'FIXME: sometimes needs a special variant of the newpipe extractor (e.g. 1.0.22), other times not; see https://github.com/UpAllNite-Software/simple-song-collector/issues/5'
 versions:
   - tag: v1.0.17
     apks:
@@ -119,6 +121,39 @@ versions:
       - apk_pattern: s.*\.apk
         apk_url: https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.21/ssc-1.0.21.apk
         build:
+          - sed -r '/storeFile file/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v.1.0.22
+    apks:
+      - apk_pattern: s.*\.apk
+        apk_url: https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v.1.0.22/ssc-1.0.22.apk
+        build:
+          - pushd /build
+          - git clone https://github.com/teststation5/NewPipeExtractor.git NewPipeExtractor-teststation5
+          - cd NewPipeExtractor-teststation5
+          - git checkout d2337f03d934ff1f325f26dc4adb1748594f0b56
+          - popd
           - sed -r '/storeFile file/d' -i app/build.gradle
           - chmod +x gradlew
           - ./gradlew assembleRelease

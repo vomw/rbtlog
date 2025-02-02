@@ -573,6 +573,20 @@
       "error": null
     }
   ],
+  "7f8a3e18e507a8a40a16cf02d84fc827a036b45c26371d81e593ad81683a7b06": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.4.0/Podcini.X_release_free_8.4.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 111,
+      "version_name": "8.4.0",
+      "tag": "8.4.0",
+      "commit": "f9d1dd267a2bda5c3a335ce06af131939ca77960",
+      "timestamp": 1738518364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -4475,6 +4489,20 @@
       "tag": "v3.3.1",
       "commit": "70b97603471cc361fc7364b4081528fa566a2028",
       "timestamp": 1738079517,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71022afef9e6b82cc2af631e57dfac627152d1e6d96131fd51adf4f6ce593fef": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/daniebeler/pixelix/releases/download/v3.4.0/pixelix_v3.4.0.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 26,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "c0b49283da87c211f58a1b8dab13b66ec1ae8dcc",
+      "timestamp": 1738536809,
       "reproducible": true,
       "error": null
     }
@@ -11149,6 +11177,20 @@
       "error": null
     }
   ],
+  "40d24b63a02f02a747e7db1a1772a18b6ad05d4fa21db38d36c1a9ea83b3006e": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v.1.0.22/ssc-1.0.22.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 22,
+      "version_name": "1.0.22",
+      "tag": "v.1.0.22",
+      "commit": "e81194be8ff3d3187316518d3bb7381d036b839b",
+      "timestamp": 1738535008,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "27043b59fbb7ad0ffa26a2b108b5b40375f29faf192f78bd349e3bc465d744e0": [
     {
       "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
@@ -12055,6 +12097,20 @@
       "tag": "0.2.3",
       "commit": "e69552290acc97e843a0afcd0b0bc442c08b9159",
       "timestamp": 1738348122,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "513ef4d600ab7238c05cd0a26650baf064f27bc8f2e3787d86ea3e281dcb5e67": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.4/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 204,
+      "version_name": "0.2.4",
+      "tag": "0.2.4",
+      "commit": "73c4a0458bd844b9577944c708a8063838e38ad6",
+      "timestamp": 1738519189,
       "reproducible": true,
       "error": null
     }
@@ -15835,6 +15891,20 @@
       "error": null
     }
   ],
+  "7ea70507f89559ef91efe5803b68478c62b41daaa35b8d06bca9ed93d4ddf2cd": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.18/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1180,
+      "version_name": "1.0.0-alpha.18",
+      "tag": "v1.0.0-alpha.18",
+      "commit": "5010376980d009ac652ef03f84424781b303a76f",
+      "timestamp": 1738519472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -16503,6 +16573,20 @@
       "tag": "v1.1.1",
       "commit": "21037e38b170e95c7579479f193075f95cb36fb8",
       "timestamp": 1736793377,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f652090a534e3b0bfe94655fbb892f600f25ebdbf96cc3aa8746b74a4c6a0ced": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v1.1.2/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 12,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "5f551e06ec4667948655f9afb471d69f3ef545cc",
+      "timestamp": 1738519931,
       "reproducible": true,
       "error": null
     }
@@ -18125,6 +18209,20 @@
       "tag": "0.23.0.9",
       "commit": "afcb50dc357041d746cfddd22c07bb05f936b73c",
       "timestamp": 1738349173,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "4cf16c05f22b8d8c8aa1d6a7cb2447919c840a1f3bfa5c1f763185c365698b3c": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.1.11/freetube-0.23.1.11-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230001011,
+      "version_name": "0.23.1.11",
+      "tag": "0.23.1.11",
+      "commit": "9791c4cbf4abd315c31bdf0c765a922e2801a696",
+      "timestamp": 1738520177,
       "reproducible": false,
       "error": null
     }
@@ -20449,6 +20547,20 @@
       "tag": "1.1.4",
       "commit": "ddc0e8aa3cd14d303d84cf2e529601d443f34750",
       "timestamp": 1737743363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f0e78a6ba711ffadf454806668b780393d61e75171e1183f7347094bfdc57e83": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.5/messages-8-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 8,
+      "version_name": "1.1.5",
+      "tag": "1.1.5",
+      "commit": "79d4782caf0447f6532712f7793dfb615704a9d9",
+      "timestamp": 1738520546,
       "reproducible": true,
       "error": null
     }

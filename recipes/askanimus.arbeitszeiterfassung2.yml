@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 2.10.007
     apks:
-      - apk_pattern: download
+      - apk_pattern: app-release.apk
         apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/package_files/171899891/download
         build:
           - git clone https://github.com/obfusk/gradlew.py.git
