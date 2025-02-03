@@ -1175,6 +1175,20 @@
       "error": null
     }
   ],
+  "55b07daf09f40e28e8e483938901fae1bf04d21b8c6bf185aec43f3c519a742b": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.7-ose/davx5-ose-4.4.7-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404070002,
+      "version_name": "4.4.7-ose",
+      "tag": "v4.4.7-ose",
+      "commit": "969d92d03753e026125fad8304b9fde08689a978",
+      "timestamp": 1738597587,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -4031,6 +4045,20 @@
       "error": null
     }
   ],
+  "1629ea2e290e149a22d6fa4118fd2edced583be383e387a4acac96bd790d051b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.02.1101/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1101,
+      "version_name": "2025.02.1101",
+      "tag": "2025.02.1101",
+      "commit": "2cca1cecf0870ec0a04f953a51d13623dbfc1824",
+      "timestamp": 1738597906,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -4643,6 +4671,20 @@
       "tag": "v0.7.1",
       "commit": "32b403cde366d535ba6cad2aee3c316a4311ca64",
       "timestamp": 1737565466,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8c0ae4fcd2941c753cdb410f3da9553964546161c52f1ffdc52e161d66d48d74": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/DD3Boh/OuterTune/releases/download/v0.7.2/OuterTune-0.7.2-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 36,
+      "version_name": "0.7.2",
+      "tag": "v0.7.2",
+      "commit": "f65ef00f572b6b5dd1893d5dd035236fa522ffbd",
+      "timestamp": 1738598205,
       "reproducible": true,
       "error": null
     }
@@ -6925,6 +6967,20 @@
       "tag": "v3.5.0",
       "commit": "8139e64c5f3f686620d66f613c2d3a4a9ab5cd2c",
       "timestamp": 1737309618,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d24d44f5306b2c53a840592cdab2bfa7502552b307b4bc8450952bebebec1ace": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.6.0/com.fibelatti.pinboard-v3.6-3060000-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3060000,
+      "version_name": "3.6",
+      "tag": "v3.6.0",
+      "commit": "d1a0a0b132df95a1a696bc8fe6e4f5533ca5b4c0",
+      "timestamp": 1738605535,
       "reproducible": true,
       "error": null
     }
@@ -20211,6 +20267,20 @@
       "tag": "3.6.3",
       "commit": "5c5f2ba7c8d094181d35c2b705ce57306f48ee70",
       "timestamp": 1738080502,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f3b41fe86f587a2b88d85e0bff4e9b60ece420cf2f76f7aba842fb267d93565": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.4/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 156,
+      "version_name": "3.6.4",
+      "tag": "3.6.4",
+      "commit": "cd1cfc36e4b246db841ebe3dc6a1a50446502d25",
+      "timestamp": 1738599057,
       "reproducible": true,
       "error": null
     }
