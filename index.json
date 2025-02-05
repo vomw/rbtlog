@@ -1091,6 +1091,20 @@
       "error": null
     }
   ],
+  "75a6a6360752a09c367b7224c7e0f2a6876938832be82a2340457fd63bfb8289": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.009/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 210009,
+      "version_name": "2.10.009",
+      "tag": "2.10.009",
+      "commit": "00e004afe118501584672b51cf1616d12411cb17",
+      "timestamp": 1738711730,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -8829,6 +8843,20 @@
       "error": null
     }
   ],
+  "4a8795683a704b904192b8d3ff2fc788fd91accffb0b7a3503cfac29cf06c259": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.0.1/NeverTooManyBooks-7.0.1.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 92,
+      "version_name": "7.0.1",
+      "tag": "v7.0.1",
+      "commit": "dd96e0e86388688ef2f333bb0f0793ab4b58ede2",
+      "timestamp": 1738715927,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2f5db5d790490d7480d199ecf04f46ef428db22308be4fc03aa3c2f2f204d3f4": [
     {
       "repository": "https://github.com/abdalmoniem/Caffeinate.git",
@@ -13427,6 +13455,20 @@
       "tag": "2.4.4",
       "commit": "c2bd805f4b06ac21eab729eed2a62100bc44616e",
       "timestamp": 1737224443,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "168035e03d4d313cc5200254a0e64b0b59e62c8bd29bcefc0b6b1bf4334fe1d7": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.5.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 2510,
+      "version_name": "2.5.1",
+      "tag": "2.5.1",
+      "commit": "52cc1c0009f2cfab84a4ccb8c3377056b48a9289",
+      "timestamp": 1738716286,
       "reproducible": true,
       "error": null
     }
