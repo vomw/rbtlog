@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/lukaspieper/Gcam-Services-Provider.git
 updates: releases
-notes:
-  - 'FIXME: v1.5.1 was build from the commit next to the one of the tag, to adjust versioning'
 versions:
   - tag: v1.5.1
     apks:
@@ -39,6 +37,35 @@ versions:
           - ./gradlew assemblePhotosRelease -x lint -x lintVitalPhotosRelease
           - git clone -b v0.2.8 https://github.com/obfusk/reproducible-apk-tools.git
           - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 4 fix-files app/build/outputs/apk/photos/release/app-photos-release-unsigned.apk 'sed s/b9857801f9fa562b0a773b3d3466a6e1556bfa4a/4f88edbb7a4432279e136cf5f0dade6e6cea3379/' 'META-INF/version-control-info.textproto'
+          - mv app/build/outputs/apk/photos/release/app-photos-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.6.0
+    apks:
+      - apk_pattern: app-photos-release\.apk
+        apk_url: https://github.com/lukaspieper/Gcam-Services-Provider/releases/download/v1.6.0/app-photos-release.apk
+        build:
+          - ./gradlew assemblePhotosRelease -x lint -x lintVitalPhotosRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 4 fix-files app/build/outputs/apk/photos/release/app-photos-release-unsigned.apk 'sed s/ee192e61ca9a39a5072228db61e31d21f992b55a/520a06190f77d3b4cdbb7344e326eed111b442f8/' 'META-INF/version-control-info.textproto'
           - mv app/build/outputs/apk/photos/release/app-photos-release-unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
