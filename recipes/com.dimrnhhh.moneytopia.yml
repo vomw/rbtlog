@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dimrnhhh/moneytopia.git
 updates: releases
+notes:
+  - 'FIXME: page-size in fix-newlines is wrong, should be 16 as with pad-like-apksigner'
 versions:
   - tag: v1.0.2
     apks:
