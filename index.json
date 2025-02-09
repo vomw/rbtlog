@@ -629,6 +629,20 @@
       "error": null
     }
   ],
+  "d9e2ebdaa2cb7f95f12c82522db7e8e0a877e05ed0faddb0db1cc89a5427eea5": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.5.4/Podcini.X_release_free_8.5.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 116,
+      "version_name": "8.5.4",
+      "tag": "8.5.4",
+      "commit": "d7ac90b14a5e30cf082d0af3c6af3d83d054f7f1",
+      "timestamp": 1739115994,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -667,6 +681,20 @@
       "tag": "v2.12.0",
       "commit": "c4864d7d10913a9d76ca1f433396ab6b6393eb73",
       "timestamp": 1726334374,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "9a5afdedcce9bc7725634275f4b450a5e68a1a05a2f1fb21df59281a0ba342ad": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.13.0/Lawnicons.2.13.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 17,
+      "version_name": "2.13.0",
+      "tag": "v2.13.0",
+      "commit": "7a9b5bd617907a459e0b0432d5540c5930b041c1",
+      "timestamp": 1739119123,
       "reproducible": false,
       "error": null
     }
@@ -1077,6 +1105,20 @@
       "error": null
     }
   ],
+  "e432f057ab2da24fa6e94c4de0388b2496ef818ab2984f325719fd6a6a4a6e79": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v7.0.4/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 704,
+      "version_name": "v7.0.4",
+      "tag": "v7.0.4",
+      "commit": "3b7c4ae6b9c91a84286a74888813dca882c291fa",
+      "timestamp": 1739116528,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1569c5158ef66247cd29e605826aa49a05b3204d298fe1d95ae5f9f9a8ae377e": [
     {
       "repository": "https://github.com/traced-it/traced-it-android.git",
@@ -1087,6 +1129,20 @@
       "tag": "v1.0.2",
       "commit": "079eb5261cf8c273bb1f496801f8690f4f37b4df",
       "timestamp": 1739038169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c55b1a8983e71d276a9678066c6e1cc18cab9215f664d4633bb2b10b74c95ce": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.0.3/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "e449ceb652d6574d1b5d2e8113f2fe2a00664ac7",
+      "timestamp": 1739116898,
       "reproducible": true,
       "error": null
     }
@@ -2907,6 +2963,20 @@
       "tag": "v6.3",
       "commit": "4e6393bebeba62abbdee5fe65e01eff627c2e844",
       "timestamp": 1735760233,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a45c51045cfe598a5c94af266484008dbcb036f3824953bef4fc8f15c8c19195": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v6.4/OwnDroid-v6.4.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 36,
+      "version_name": "6.4",
+      "tag": "v6.4",
+      "commit": "f83a63f239aedd5ffc5ee25eb14d98ec213b77b9",
+      "timestamp": 1739117121,
       "reproducible": true,
       "error": null
     }
@@ -15431,6 +15501,20 @@
       "error": null
     }
   ],
+  "0d891cbdb9dcf9c2cf41e20aee1ab6edbf7a859d6d5ba688bf8232784fb92573": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.5.1/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 151,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "7c723c60e7ee83fc6383758379ba7c9a270a9486",
+      "timestamp": 1739123167,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -16591,6 +16675,20 @@
       "error": null
     }
   ],
+  "3adaede28a20633ffca220c1b85740f4ebc1d30c0f01524bc6d49a5e9d9653cd": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.19/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1190,
+      "version_name": "1.0.0-alpha.19",
+      "tag": "v1.0.0-alpha.19",
+      "commit": "8658a87bd08e1a92d326a0731888e0bb73a465cc",
+      "timestamp": 1739117374,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -16881,6 +16979,20 @@
       "tag": "v1.1.0",
       "commit": "30c4f82d87a0044efd76db6c817836c8fd0b8008",
       "timestamp": 1730724716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ccd03c65a0d8983e8f5d075d65ee4358aba0cc567b3e5d4a406298356656be85": [
+    {
+      "repository": "https://github.com/Bartuzen/qBitController.git",
+      "apk_url": "https://github.com/Bartuzen/qBitController/releases/download/v1.1.1/qbitcontroller-1.1.1.apk",
+      "appid": "dev.bartuzen.qbitcontroller",
+      "version_code": 21,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "7457ab0c2e6b134ae5013982351abd9760b82814",
+      "timestamp": 1739117711,
       "reproducible": true,
       "error": null
     }
@@ -20327,6 +20439,20 @@
       "error": null
     }
   ],
+  "57d3ea2a0ba8904b15e3492c09a28220e21f163b80515a55d2b7b09e131a14e6": [
+    {
+      "repository": "https://github.com/casimir/frigoligo.git",
+      "apk_url": "https://github.com/casimir/frigoligo/releases/download/v2.3.0/frigoligo-v2.3.0-arm64-v8a.apk",
+      "appid": "net.casimirlab.frigoligo",
+      "version_code": 2039,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "4de00d0e61e74f8abf6b55ceeaae9f00269a308f",
+      "timestamp": 1739123555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b889a283b2961dd849b58f7d649bbd813cbb5b5b9d55cbcfbd64bc847756f84": [
     {
       "repository": "https://github.com/dfyockey/RomanDigital.git",
@@ -22031,6 +22157,20 @@
       "tag": "1.5.15",
       "commit": "dcf331a7b6749dc4da223d32861898fb0455b45d",
       "timestamp": 1727630103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f93a7cb7eb9f557906a559f2b1e51671776fa90c329b610b4b2fddaa201682f7": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.1/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 57,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "5e55b8cf4d30fe90b183ca9eb876f46a3fe39124",
+      "timestamp": 1739103646,
       "reproducible": true,
       "error": null
     }
