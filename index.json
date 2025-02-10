@@ -4297,6 +4297,20 @@
       "error": null
     }
   ],
+  "c6297acc7077064f1af4a32886074942ff8ffb6fd2e74ca8d336d888b5f8ba92": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.02.1103/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1103,
+      "version_name": "2025.02.1103",
+      "tag": "2025.02.1103",
+      "commit": "fef36bd2426a7979cdec581107815ec4658d27e8",
+      "timestamp": 1739202393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -4965,6 +4979,20 @@
       "tag": "v0.7.2",
       "commit": "f65ef00f572b6b5dd1893d5dd035236fa522ffbd",
       "timestamp": 1738598205,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6594f17fa9071956b1edc21f935f6178d366364072af71ef58bb8234899317a": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.7.3/OuterTune-0.7.3_rev1-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 37,
+      "version_name": "0.7.3_rev1",
+      "tag": "v0.7.3",
+      "commit": "f2fb841afa6432ed729026768650781c76a4de1b",
+      "timestamp": 1739202735,
       "reproducible": true,
       "error": null
     }
@@ -9627,6 +9655,20 @@
       "error": null
     }
   ],
+  "48cdcb2bd1ad9e147981514f8edc5911baaf9db882961c79ca7579bf1e0252c8": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.0-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 90,
+      "version_name": "v0.9.0-beta",
+      "tag": "v0.9.0-beta",
+      "commit": "ebaf7f41782b42dc93a9c5dbbdab763875c6338e",
+      "timestamp": 1739203330,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -9665,6 +9707,20 @@
       "tag": "1.0.5",
       "commit": "bba9ac616d95c3d98b7c5b6ba6942afc23356f62",
       "timestamp": 1719071526,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21863de225be4ebb82e2e23ae25aedcb51230b713b5da6eb10c92571623e56e5": [
+    {
+      "repository": "https://github.com/99keshav99/CaptureSposed.git",
+      "apk_url": "https://github.com/99keshav99/CaptureSposed/releases/download/1.0.6/CaptureSposed-1.0.6.apk",
+      "appid": "com.keshav.capturesposed",
+      "version_code": 7,
+      "version_name": "1.0.6",
+      "tag": "1.0.6",
+      "commit": "b93c63d94f631e4ae791870a602b2f450a91b4c7",
+      "timestamp": 1739206343,
       "reproducible": true,
       "error": null
     }
@@ -11929,6 +11985,20 @@
       "tag": "v1.19.1",
       "commit": "bbd1d8bae927832e6b462d4ec6351195fb214951",
       "timestamp": 1736707119,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a06c289bb7f0ec61970e803aed45167b367843990632d5a8ab410a0368196f19": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v1.19.3/openscq30_android.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 38,
+      "version_name": "1.19.3",
+      "tag": "v1.19.3",
+      "commit": "cea547dcac5d4dba62070da0a8b3bc2a981aa43e",
+      "timestamp": 1739203919,
       "reproducible": true,
       "error": null
     }
@@ -22941,6 +23011,20 @@
       "tag": "v4.2.2",
       "commit": "59eb94e4ab5917ae84fb5445891d73c05b3dfe9f",
       "timestamp": 1730483846,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "806baeec9a58b07936e8c0896bc19e2cb744e15ae6af939e7b46c3c851716e18": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.2.3/transistor-app-release-4.2.3.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 103,
+      "version_name": "4.2.3",
+      "tag": "v4.2.3",
+      "commit": "e9129210dc629262de56a40ed49e8fe3e5059318",
+      "timestamp": 1739204414,
       "reproducible": true,
       "error": null
     }
