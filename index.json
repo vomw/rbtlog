@@ -7307,6 +7307,20 @@
       "error": null
     }
   ],
+  "be36827575a396dd29939dac80a523072955d273f423399286ac218a264d76df": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.6.1/com.fibelatti.pinboard-v3.6.1-3060100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3060100,
+      "version_name": "3.6.1",
+      "tag": "v3.6.1",
+      "commit": "1b6f33fdde404435d10bc7038ac5b3a35d471d73",
+      "timestamp": 1739147956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -20771,6 +20785,48 @@
       "tag": "v5.3.1",
       "commit": "e42918965cb5e65c8800d0d5a9f922298c045067",
       "timestamp": 1734215364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4cd6b299f2b45306c9bf434efd1cc4c97021556411d21bba3f6a7a942135e45a": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.2/breezy-weather-arm64-v8a-v5.4.2_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50402,
+      "version_name": "5.4.2",
+      "tag": "v5.4.2",
+      "commit": "afc3d15780578181f7f6053f3e3d84ca80f80a5e",
+      "timestamp": 1739149675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d239983badc3580512eb98f5f81d46475f01986056072bfbdb2f93f68cee50ba": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.2/breezy-weather-armeabi-v7a-v5.4.2_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50402,
+      "version_name": "5.4.2",
+      "tag": "v5.4.2",
+      "commit": "afc3d15780578181f7f6053f3e3d84ca80f80a5e",
+      "timestamp": 1739150414,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "7979f2064f07eaa408f3a7b098b0fc50283d58527813458f376c3cdc05809514": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.2/breezy-weather-v5.4.2_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50402,
+      "version_name": "5.4.2",
+      "tag": "v5.4.2",
+      "commit": "afc3d15780578181f7f6053f3e3d84ca80f80a5e",
+      "timestamp": 1739151145,
       "reproducible": true,
       "error": null
     }
