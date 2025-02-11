@@ -9571,6 +9571,20 @@
       "error": null
     }
   ],
+  "93cf89c46baf152ee9c708968dd1ab581b55f61e8027d1f1b740adde941ec4dd": [
+    {
+      "repository": "https://github.com/fei0316/OpenCC-android-app.git",
+      "apk_url": "https://github.com/fei0316/OpenCC-android-app/releases/download/2.1.1/app-release.apk",
+      "appid": "com.iatfei.tsconverter",
+      "version_code": 14,
+      "version_name": "2.1.1",
+      "tag": "2.1.1",
+      "commit": "146413675be70e92e6075b5e0c94816526fbf8b3",
+      "timestamp": 1739304436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dec0421ef60c93b74a11af3817cd2dea59c560f9aaaa62f63a793da391b9a30": [
     {
       "repository": "https://github.com/Armand31/Dividoc.git",
@@ -9637,6 +9651,20 @@
       "tag": "12.8",
       "commit": "7d69e118ccc7f99675ba70e132eaec7c4802cc9b",
       "timestamp": 1719192426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "67820d72ca3dfd899f479a66d51a52aef3126c4381eaada5807214a08d922d4a": [
+    {
+      "repository": "https://gitlab.com/juanitobananas/sotification.git",
+      "apk_url": "https://gitlab.com/-/project/30379104/uploads/bcd6ad4c3e0fad1676fe5d809ec8935e/sotification-release-0.1.2.apk",
+      "appid": "com.jarsilio.android.sotification",
+      "version_code": 3,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "121c882c47b8a1f8a8b11a5c832dcedcd78e2c4b",
+      "timestamp": 1739307993,
       "reproducible": true,
       "error": null
     }
@@ -9735,6 +9763,20 @@
       "tag": "release-1.5.0",
       "commit": "6e2ad07d14239f89efd6f49ebdec1c6805805c98",
       "timestamp": 1731694097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c380a862550f09e5341edd82034aa5e2c8b0c820608cec7491d10130fdf72ea5": [
+    {
+      "repository": "https://github.com/jjewuz/JustWeather.git",
+      "apk_url": "https://github.com/jjewuz/JustWeather/releases/download/2.8/app-release.apk",
+      "appid": "com.jjewuz.justweather",
+      "version_code": 20,
+      "version_name": "2.8",
+      "tag": "2.8",
+      "commit": "9186c43fa303d78bd7c13cc3cb443d14a42d37b5",
+      "timestamp": 1739312824,
       "reproducible": true,
       "error": null
     }
