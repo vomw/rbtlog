@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.0
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: AraNote.*signed\.apk
         apk_url: https://github.com/hashemi-hossein/ara-note/releases/download/v1.0.0/AraNote_1.0.0-signed.apk
         build:
           - sed -r '/signingConfigs\[/d' -i app/build.gradle.kts
