@@ -14579,6 +14579,20 @@
       "error": null
     }
   ],
+  "7517a5e954d863d944566c789e1738917c3b3a9c909a85f1b7fb0f46e25d8c17": [
+    {
+      "repository": "https://github.com/SlaVcE14/JsonList.git",
+      "apk_url": "https://github.com/SlaVcE14/JsonList/releases/download/v1.5/JsonList_1.5.apk",
+      "appid": "com.sjapps.jsonlist",
+      "version_code": 20,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "cc90c6509e1f0304eb2dcd43366aa7418e50ec3a",
+      "timestamp": 1739385854,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d0164f6dfe14b00bb2213444e3ca1bdc0f5530cb1b0493f79e8292b2b7df7a50": [
     {
       "repository": "https://github.com/hash-checker/hash-checker.git",
@@ -15639,6 +15653,20 @@
       "tag": "v0.6.0",
       "commit": "69fdb1bedf829eed0f09cf57914c87e548655e73",
       "timestamp": 1736190855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d84776ea8b06c8cae6d6f8f659bf1ff54bc2bb6a5b74dd743fc32030efe85b08": [
+    {
+      "repository": "https://github.com/victorbnl/android-ip-scanner.git",
+      "apk_url": "https://github.com/victorbnl/android-ip-scanner/releases/download/v1.3.1/app-release.apk",
+      "appid": "com.victorb.androidnetworkscanner",
+      "version_code": 1003001,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "fda637fa4f22cf6e842ae1f6aaad62298fd15d03",
+      "timestamp": 1739393211,
       "reproducible": true,
       "error": null
     }
