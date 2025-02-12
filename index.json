@@ -1189,6 +1189,20 @@
       "error": null
     }
   ],
+  "b476077e53ce45a7dc2fc676e229c149cd5c835bcefb5a0d5256d03fcb53fdf1": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.0.4/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "a585d183e1b802a3caf7c2650814a9038a2ece0c",
+      "timestamp": 1739375194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -1861,6 +1875,20 @@
       "error": null
     }
   ],
+  "2e54d28a591d3d2bd4af92f717dd9bbee7b9c92eb6affe110aef700f346a972b": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.35.4/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3035004,
+      "version_name": "3.35.4",
+      "tag": "3.35.4",
+      "commit": "a9923e45a64a6363b55f5d934c5b4d993d554c68",
+      "timestamp": 1739375437,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -2151,6 +2179,20 @@
       "tag": "v1.52.2",
       "commit": "e1c92712a0a4af05b7d1836c8d9954d87797bc99",
       "timestamp": 1738691732,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e16391720f4c8c1c3543f151023697fa6e0c2aea37469f54f1e3aeae147b0c2": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.54.0/ArcaneChat-foss-armeabi-v7a-1.54.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007101,
+      "version_name": "1.54.0",
+      "tag": "v1.54.0",
+      "commit": "ebfd9ca12227ea9b810179173d1a5c232ca3c2e7",
+      "timestamp": 1739375701,
       "reproducible": true,
       "error": null
     }
@@ -6407,6 +6449,20 @@
       "tag": "4.0.18",
       "commit": "ff31f2dfed68505a64b982bb1339b81ff893c0de",
       "timestamp": 1739289053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "925798f629ea3f753ce20c657b8917309e47e1b33bc7ed6388a272bee03bd3e2": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.19/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 137,
+      "version_name": "4.0.19",
+      "tag": "4.0.19",
+      "commit": "52eed3f8ae351e1cf6a47431fecbb0d1c11d844d",
+      "timestamp": 1739376293,
       "reproducible": true,
       "error": null
     }
@@ -15963,6 +16019,20 @@
       "error": null
     }
   ],
+  "4090783d3b797fcacdc61793d01f9f8be2abdc44d1360928310b99b18dffab2e": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.5.2/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 152,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "033061ff7aaa1daba83a173c5a40c8872a5d802d",
+      "timestamp": 1739382371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -17749,6 +17819,20 @@
       "tag": "1.0.10",
       "commit": "b41704767f07eeaba33343eefdd4cdef7f09da6c",
       "timestamp": 1738166733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "36e0645398241cbc4df3826a8d6935bbf86c483bfe7fdbea6befaf670ac5e9cb": [
+    {
+      "repository": "https://github.com/Its-Just-Nans/sms2call.git",
+      "apk_url": "https://github.com/Its-Just-Nans/sms2call/releases/download/1.0.11/sms2call-1.0.11.apk",
+      "appid": "dev.n4n5.sms2call",
+      "version_code": 11,
+      "version_name": "1.0.11",
+      "tag": "1.0.11",
+      "commit": "ad5c80037e0904c7aca589bd2b0ff8a63a1c5eb8",
+      "timestamp": 1739376542,
       "reproducible": true,
       "error": null
     }
