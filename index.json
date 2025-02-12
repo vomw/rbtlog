@@ -9879,6 +9879,20 @@
       "error": null
     }
   ],
+  "7685a15df71280f709d0c35368a2e04ca7b5822c6074695d71bed408cdccb5ef": [
+    {
+      "repository": "https://github.com/kaajjo/LibreSudoku.git",
+      "apk_url": "https://github.com/kaajjo/LibreSudoku/releases/download/v2.0.1/libresudoku-v2.0.1.apk",
+      "appid": "com.kaajjo.libresudoku",
+      "version_code": 21,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "c7aefeaa312d0198ce37efbd373de6e7c728cb6e",
+      "timestamp": 1739319647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15c5ce3044cf1e71d29aaf935aebb8dfb51d04b3d0c64a1c14de6688384dcad1": [
     {
       "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
@@ -10393,6 +10407,20 @@
       "tag": "1.5.1",
       "commit": "db1249ddd7f16072ee8abdc1a3b32d32d6941ae4",
       "timestamp": 1738694311,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
+    {
+      "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
+      "apk_url": "https://github.com/LimoDerEchte/NoteCompanion/releases/download/v0.1.1-Alpha/NoteCompanion.apk",
+      "appid": "com.limo.notecompanion",
+      "version_code": 101,
+      "version_name": "0.1.1",
+      "tag": "v0.1.1-Alpha",
+      "commit": "b66bbf9b53ab13a59a086d8a3f4e787ac81a8245",
+      "timestamp": 1739326059,
       "reproducible": true,
       "error": null
     }
