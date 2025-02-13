@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/teixeira0x/SubTypo.git
-updates: releases
+updates: disabled
+notes:
+  - 2025-02-13 app went proprietary
 versions:
   - tag: v2.0.0
     apks:

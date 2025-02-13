@@ -4605,6 +4605,20 @@
       "error": null
     }
   ],
+  "45c4276364a81c66461c796b3f675c8e90be3b3d464c3033e5159f8b58e33f16": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.8.4v60/PuppyGit_1.0.8.4v60_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 60,
+      "version_name": "1.0.8.4",
+      "tag": "1.0.8.4v60",
+      "commit": "0d7c166b072123d9454852a40f949b65e518c854",
+      "timestamp": 1739468772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -16843,6 +16857,20 @@
       "error": null
     }
   ],
+  "0f61b35d4e0a59d7d857daf39eb4ee88a3a5455fe54682e55c6b57387d387e85": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.12.8/RecurringExpenseTracker_0.12.8.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 32,
+      "version_name": "0.12.8",
+      "tag": "v0.12.8",
+      "commit": "12e50791aa68e1f6359741aaf58e0bdf0878146f",
+      "timestamp": 1739469785,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -21755,6 +21783,20 @@
       "error": null
     }
   ],
+  "5adf6329c3b7bc4f55027b97f95ae14e1cf095f9901320c0b1dea9892f3b1a37": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.7/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 159,
+      "version_name": "3.6.7",
+      "tag": "3.6.7",
+      "commit": "71e8a9e7250118dd71db37a35f2be455aee4568f",
+      "timestamp": 1739470100,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -24159,6 +24201,20 @@
       "tag": "v0.2.3",
       "commit": "f151cad44f1fc296ff1a19799dbf4a3ebab6adba",
       "timestamp": 1737137996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a8fc4c4358f88db1548d8b667ee8aa9278f2f38c6e6c60c000fac4b1e1d0421d": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.2.4/flickboard-v0.2.4-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 82,
+      "version_name": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "c5777217410216d7aeb5d1d6df0cc57c0ed1012c",
+      "timestamp": 1739470466,
       "reproducible": true,
       "error": null
     }
