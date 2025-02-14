@@ -1,9 +1,10 @@
 ---
 repository: https://github.com/kiwix/kiwix-android.git
-updates: releases
+updates: disabled
 notes:
   - versionCode is dynamically generated, based on buildtime https://github.com/kiwix/kiwix-android/blob/116180e6f02ac34525bca6bfd1e115060d376322/buildSrc/src/main/kotlin/VersionCodeGenerator.kt#L22 – https://github.com/kiwix/kiwix-android/issues/4120
   - 'FIXME: 3.13.0 lacks APKs for org.kiwix.kiwixmobile and instead ships org.kiwix.kiwixmobile.standalone with different file names'
+  - since 3.13.0 packageName has changed
 versions:
   - tag: 3.12.0
     apks:
