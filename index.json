@@ -17389,6 +17389,20 @@
       "error": null
     }
   ],
+  "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
+    {
+      "repository": "https://github.com/Tetr4/CompassTile.git",
+      "apk_url": "https://github.com/Tetr4/CompassTile/releases/download/v1.4.1/app-release.apk",
+      "appid": "de.klimek.compass",
+      "version_code": 8,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "ab4563d1a138341c0263e0a0a89edcb801ed7d84",
+      "timestamp": 1739577718,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -17525,6 +17539,20 @@
       "tag": "v1.0.1",
       "commit": "28db011c310f03a2c654b4d72c8fd1d13c306dad",
       "timestamp": 1719077195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e290e4e217d162db3bda73753821580f45ee32d27e05aecdb0cb1f6f44cd5b60": [
+    {
+      "repository": "https://github.com/synyx/MeeRoo.git",
+      "apk_url": "https://github.com/synyx/MeeRoo/releases/download/v1.3.2/app-release.apk",
+      "appid": "de.synyx.android.meetingroom",
+      "version_code": 7,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "d81b93eff5fd3401eda2e9ed6cc75efedb0586e4",
+      "timestamp": 1739582811,
       "reproducible": true,
       "error": null
     }
