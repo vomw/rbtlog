@@ -21307,6 +21307,34 @@
       "error": null
     }
   ],
+  "cc64546805db1b94d97593d345b2ed4a6893d0936a112a3a7b66fc412dc82f91": [
+    {
+      "repository": "https://github.com/Henry-ZHR/force_dark.git",
+      "apk_url": "https://github.com/Henry-ZHR/force_dark/releases/download/v2/app-release.apk",
+      "appid": "moe.henry_zhr.force_dark",
+      "version_code": 2,
+      "version_name": "2",
+      "tag": "v2",
+      "commit": "8de79a83e943c3b2dde1c4e08a154ae2cb433521",
+      "timestamp": 1739792509,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "52b5a1ccbb5c10f5e477a0a96da1c98ff6b4ad78e65fef655c3bbdbfcbdbaf1e": [
+    {
+      "repository": "https://github.com/Henry-ZHR/KillDomainVerification.git",
+      "apk_url": "https://github.com/Henry-ZHR/KillDomainVerification/releases/download/v4/app-release.apk",
+      "appid": "moe.henry_zhr.kill_domain_verification",
+      "version_code": 4,
+      "version_name": "4",
+      "tag": "v4",
+      "commit": "b06b6ae227f81a4b0f8edfc74ffe3b9efd070673",
+      "timestamp": 1739793698,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3e9f80ab4a8177d78249f45fbefaf36fb6dd34425098a71c450e127579cfb38b": [
     {
       "repository": "https://github.com/nanihadesuka/NovelDokusha.git",
@@ -21359,6 +21387,20 @@
       "tag": "v2.2.0",
       "commit": "0afccb5a45cbe311d05cdd973d74d838303009ee",
       "timestamp": 1723046807,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4503ec2942f126b8c66b1598bf1de8122ec661fbeaa86bc31124eaeb36cac968": [
+    {
+      "repository": "https://github.com/nemuTUI/nemu-droid.git",
+      "apk_url": "https://github.com/nemuTUI/nemu-droid/releases/download/v0.2.0/nemu-droid-0.2.0.apk",
+      "appid": "nemutui.com.github.nemu_droid",
+      "version_code": 2,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "aab67913d5572428fccb3d0b4931ec52950a7580",
+      "timestamp": 1739806801,
       "reproducible": true,
       "error": null
     }

@@ -7,6 +7,7 @@ notes:
   - sed -r 's/val abiCodes =.+$/val abiCodes = mapOf("armeabi-v7a" to 5)/ ; s/isUniversalApk = true/isUniversalApk = false/' -i buildSrc/src/main/kotlin/plugin/AppConfigurer.kt (produces different dex etc)
   - use "-Pandroid.injected.build.abi=armeabi-v7a" to build a single ABI, see https://github.com/kiwix/kiwix-android/issues/4128#issuecomment-2566396846 (produces different dex etc)
   - first RB for each version will fail. Diff the manifest then, adjust the addition to BASE_VERSION_CODE with the difference and run again; see https://github.com/kiwix/kiwix-android/issues/4120#issuecomment-2659462249
+  - 'FIXME: set KIWIX_ANDROID_RELEASE_DATE to automatically adjust versionCode: export KIWIX_ANDROID_RELEASE_DATE="$(git show -s --format=%cs)"'
 versions:
   - tag: 3.14.0
     apks:
