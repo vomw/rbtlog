@@ -11529,6 +11529,20 @@
       "error": null
     }
   ],
+  "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
+    {
+      "repository": "https://github.com/meenbeese/Chronos.git",
+      "apk_url": "https://github.com/meenbeese/Chronos/releases/download/v2025.1.0/app-release.apk",
+      "appid": "com.meenbeese.chronos",
+      "version_code": 11,
+      "version_name": "2025.1.0",
+      "tag": "v2025.1.0",
+      "commit": "1673bfadc3e9a21eeb0c263a6bebdab57f53b5c6",
+      "timestamp": 1739824593,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "02dd9f909b315c0f2b41401f24909357bf4894b906b4d23f731a8ca5603c8cd7": [
     {
       "repository": "https://github.com/EmmaTellblom/Mensinator.git",
@@ -21793,6 +21807,20 @@
       "tag": "v1.2.8.2",
       "commit": "cc4b9ea03cd6fbb960591c7c703890c8b9a3b595",
       "timestamp": 1720827999,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "60ac1dd606f1f0c51d317c57cf9611a9b03d8b82207de2f9e56a6e4913e0c601": [
+    {
+      "repository": "https://github.com/ohmae/dms-explorer.git",
+      "apk_url": "https://github.com/ohmae/dms-explorer/releases/download/v0.7.72/DmsExplorer-0.7.72.apk",
+      "appid": "net.mm2d.dmsexplorer",
+      "version_code": 772,
+      "version_name": "0.7.72",
+      "tag": "v0.7.72",
+      "commit": "9a8dd76429ce17248c715f85a002737cc37239b1",
+      "timestamp": 1739823290,
       "reproducible": true,
       "error": null
     }
