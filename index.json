@@ -20159,6 +20159,20 @@
       "error": null
     }
   ],
+  "bcece554a290eca0ae224c7d86cb0a2c3f34b6d5ce1ad85f1f5f1dca5f6190ba": [
+    {
+      "repository": "https://github.com/Leonidius20/BeatInspector.git",
+      "apk_url": "https://github.com/Leonidius20/BeatInspector/releases/download/0.0.8/app-release.apk",
+      "appid": "io.github.leonidius20.beatinspector",
+      "version_code": 8,
+      "version_name": "0.0.8",
+      "tag": "0.0.8",
+      "commit": "2a3aa89e30a9a7430dc912bbb9b6a0e740d7a088",
+      "timestamp": 1739736172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e109aadf516b50979cacc7e83aa13a31d80d1021955af4bee7e22f4df259f5a9": [
     {
       "repository": "https://github.com/Leonidius20/RecordingStudio.git",
@@ -20449,6 +20463,20 @@
       "tag": "v0.2",
       "commit": "6e1743ddfd3db5ea83bb54c91a4f63f0bd1cb262",
       "timestamp": 1731501347,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e182851d5f31f174f4e1ae4bd7b41b0ed8b1921b234c76230577014bdd3963a": [
+    {
+      "repository": "https://github.com/JunkieLabs/sensify-android.git",
+      "apk_url": "https://github.com/JunkieLabs/sensify-android/releases/download/Sensify_FOSS_2023.03.05_02-07/release-signed.apk",
+      "appid": "io.sensify.sensor.foss",
+      "version_code": 20,
+      "version_name": "3.0.12-foss",
+      "tag": "Sensify_FOSS_2023.03.05_02-07",
+      "commit": "a05e51a1ca125bec12abb83f8683606d1605ba1e",
+      "timestamp": 1739746948,
       "reproducible": true,
       "error": null
     }
@@ -20939,6 +20967,20 @@
       "tag": "v1.1.0",
       "commit": "aefb4a53181950cdacb38914c6a1176ed0851e7f",
       "timestamp": 1719103545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2b86fd95382feb22f84cad5880c974e8b6123d72ff78ef32d08a7ad549a6ecd": [
+    {
+      "repository": "https://github.com/FFDA/SourCherry.git",
+      "apk_url": "https://github.com/FFDA/SourCherry/releases/download/v1.6.0/SourCherry_1.6.0-release.apk",
+      "appid": "lt.ffda.sourcherry",
+      "version_code": 13,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "1391aacc59e7946065d1e887a5dfb6339b138dbe",
+      "timestamp": 1739751707,
       "reproducible": true,
       "error": null
     }
