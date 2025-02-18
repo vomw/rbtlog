@@ -23169,6 +23169,20 @@
       "error": null
     }
   ],
+  "cedfd61c78d5635bc06994f7de5190d372e5be0f1b7a72e6f0165621e13dbc57": [
+    {
+      "repository": "https://github.com/dwi336/Eleven.git",
+      "apk_url": "https://github.com/dwi336/Eleven/releases/download/1.0/Eleven_10.apk",
+      "appid": "org.lineageos.eleven",
+      "version_code": 410,
+      "version_name": "4.1.0",
+      "tag": "1.0",
+      "commit": "ed7945a48e652c9a91f3c02210bb27486b2745ba",
+      "timestamp": 1739875356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1851693fa1944aca47f8febdaa377abbcd11e53d29d3bdfab9591b7d35662269": [
     {
       "repository": "https://github.com/MaintainTeam/Hypatia.git",
@@ -23193,6 +23207,20 @@
       "tag": "v3.8.2",
       "commit": "b19055dfc6e661c265875e87bcf22b6359101f85",
       "timestamp": 1725055364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
+    {
+      "repository": "https://github.com/NessunoZero/speedy_launcher.git",
+      "apk_url": "https://github.com/NessunoZero/speedy_launcher/releases/download/v1.5/app-release.apk",
+      "appid": "org.n0.speedy_launch",
+      "version_code": 11,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "dc6b953f19c1196a71a1e35061f4680daa4f1745",
+      "timestamp": 1739876449,
       "reproducible": true,
       "error": null
     }
