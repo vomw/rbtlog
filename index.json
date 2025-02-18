@@ -23603,6 +23603,20 @@
       "error": null
     }
   ],
+  "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
+    {
+      "repository": "https://github.com/otr-community/android.git",
+      "apk_url": "https://github.com/otr-community/android/releases/download/v2.0/app-release.apk",
+      "appid": "org.otrsc.android",
+      "version_code": 4,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "c3af68f1c987d18a161f06f857b7244926d70001",
+      "timestamp": 1739881552,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bedbc911b76dc8f812a21d2815ba3850f6df4b621f35747f39932d80d89e7d75": [
     {
       "repository": "https://github.com/owntracks/android.git",
@@ -24747,6 +24761,20 @@
       "tag": "v0.13.7",
       "commit": "d80384f20b5aba87369b49ed83dbec9c8cd37578",
       "timestamp": 1736501968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c29c3b7fce2d8343740ce7d48b1316a4f8214ee2f4bb2577bd8e56fa2283eb17": [
+    {
+      "repository": "https://github.com/iamrasel/crushr.git",
+      "apk_url": "https://github.com/iamrasel/crushr/releases/download/v7_24072022/crushr_v7_24072022.apk",
+      "appid": "rasel.neo.crushr",
+      "version_code": 7,
+      "version_name": "24.07.2022",
+      "tag": "v7_24072022",
+      "commit": "6e867e67beaf971b354d4f6e2157ed084c6b0c58",
+      "timestamp": 1739884429,
       "reproducible": true,
       "error": null
     }
