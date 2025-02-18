@@ -1,0 +1,37 @@
+---
+repository: https://github.com/calin-darie/extra-keyboard-layouts.git
+updates: releases
+versions:
+  - tag: v1.28
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/calin-darie/extra-keyboard-layouts/releases/download/v1.28/app-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines $OUT 'res/-x.kcm' 'res/2Q.kcm' 'res/4Y.kcm' 'res/9v.kcm' 'res/A2.kcm' 'res/Av.kcm' 'res/Dw.kcm' 'res/E1.kcm' 'res/Fu.kcm' 'res/I_.kcm' 'res/JQ.kcm' 'res/KO.kcm' 'res/Kd.kcm' 'res/L0.kcm' 'res/On.kcm' 'res/Ps.kcm' 'res/Rn.kcm' 'res/Vo.kcm' 'res/XR.kcm' 'res/az.kcm' 'res/d0.kcm' 'res/ea.kcm' 'res/jb.kcm' 'res/lV.kcm' 'res/pj.kcm' 'res/qV.kcm' 'res/rV.kcm' 'res/rk.kcm' 'res/y2.kcm' 'res/z-.kcm'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

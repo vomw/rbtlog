@@ -25185,6 +25185,20 @@
       "error": null
     }
   ],
+  "3e4c6f1ee76dc5901d9116f01edcc66771a56df4836a1ad4f8378e7e09156767": [
+    {
+      "repository": "https://github.com/linuxct/PhoneAccountDetector.git",
+      "apk_url": "https://github.com/linuxct/PhoneAccountDetector/releases/download/3.1/app-release.apk",
+      "appid": "space.linuxct.phoneaccountdetector",
+      "version_code": 5,
+      "version_name": "3.1",
+      "tag": "3.1",
+      "commit": "206e2398c4010f6ed3272a94a1ca788d030a7498",
+      "timestamp": 1739906474,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15b5ae7511052ee98a9c88fc82e9df425bb994cabd370c82776f08805a0a8709": [
     {
       "repository": "https://github.com/sndnv/stasis.git",
@@ -25741,6 +25755,20 @@
       "tag": "v1.0.6",
       "commit": "5cb20ffcb223abcebad0b593cadb46ff31522d03",
       "timestamp": 1728235520,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6c0f90926bcb0bf609748ff884ff9e8fb93272eaeb28c0679c834fb8b9d42b4": [
+    {
+      "repository": "https://github.com/calin-darie/extra-keyboard-layouts.git",
+      "apk_url": "https://github.com/calin-darie/extra-keyboard-layouts/releases/download/v1.28/app-release.apk",
+      "appid": "varzan.extraKeyboardLayouts",
+      "version_code": 1028,
+      "version_name": "1.28",
+      "tag": "v1.28",
+      "commit": "962f5ab6860bba927447088dc6d05305b4a7a646",
+      "timestamp": 1739919200,
       "reproducible": true,
       "error": null
     }
