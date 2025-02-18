@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/samyak2403/IPTVmine.git
-updates: releases
+updates: disabled
+notes:
+  - app has been removed from IoD, see https://gitlab.com/IzzyOnDroid/repo/-/issues/701
 versions:
   - tag: 1.0.9
     apks:

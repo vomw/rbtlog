@@ -685,6 +685,20 @@
       "error": null
     }
   ],
+  "90a2c632bed516e7f6c1544ebeaf86991f22b581fed7676bca6b13119e3486b1": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.6.2/Podcini.X_release_free_8.6.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 120,
+      "version_name": "8.6.2",
+      "tag": "8.6.2",
+      "commit": "da1264e2e410a710586bf28c32ae5ea7113583ae",
+      "timestamp": 1739893608,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -5025,6 +5039,20 @@
       "error": null
     }
   ],
+  "717aafe2c1a5897d4590c6519edc5813a9974eb20036aff867d66dce5e043275": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.33/networksurvey-1.33-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 88,
+      "version_name": "1.33",
+      "tag": "v1.33",
+      "commit": "ba9959db5542fe46bdc7c137c2f2f9a51f77125f",
+      "timestamp": 1739898644,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -5301,6 +5329,20 @@
       "tag": "v0.7.3",
       "commit": "f2fb841afa6432ed729026768650781c76a4de1b",
       "timestamp": 1739202735,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4576b3c87aa1241164289cab7738d93fc7acf35e476d1ad57471cfa533431890": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.7.4/OuterTune-0.7.4-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 38,
+      "version_name": "0.7.4",
+      "tag": "v0.7.4",
+      "commit": "e682f0fb3d6b700859061a6d908e7d766e898cce",
+      "timestamp": 1739894186,
       "reproducible": true,
       "error": null
     }
@@ -16259,6 +16301,34 @@
       "error": null
     }
   ],
+  "cb26c633f9636d45bf2da968819696a330a62503a1d5acc59368d8488a2cfaa0": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.2.4/0.2.4.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 12,
+      "version_name": "0.2.4",
+      "tag": "0.2.4",
+      "commit": "0193328f46bef738cf2a8fafef1620a77d99d8aa",
+      "timestamp": 1739894996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca1688860b966a94abb7534cd000ebae07827048f6f106c24710d69d9bd06cb5": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.2.5/0.2.5.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 13,
+      "version_name": "0.2.5",
+      "tag": "0.2.5",
+      "commit": "aedb7e2925616013418ce22202dd91d3f2c1eb17",
+      "timestamp": 1739900766,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -18537,6 +18607,20 @@
       "error": null
     }
   ],
+  "78b403e300e51e3d2f481ae3a611660ff568b3e984ddbab25a47187d017643be": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v3.0.1/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 31,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "83512fbeed5f16db235e4470c413653c88ee8f77",
+      "timestamp": 1739895861,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -19903,6 +19987,20 @@
       "tag": "6.5",
       "commit": "4979b18c4baf310fd36e1df856ee97863e31abee",
       "timestamp": 1735057510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a74256c6a6fc15ed041dad76054b81bb74c4b6751e587dc88f9c959332f02446": [
+    {
+      "repository": "https://github.com/whew-inc/FakeGApps.git",
+      "apk_url": "https://github.com/whew-inc/FakeGApps/releases/download/6.6/app-release.apk",
+      "appid": "inc.whew.android.fakegapps",
+      "version_code": 13,
+      "version_name": "6.6",
+      "tag": "6.6",
+      "commit": "589065476b1da92a12a993067f56eabc43e798b3",
+      "timestamp": 1739901282,
       "reproducible": true,
       "error": null
     }
@@ -25937,6 +26035,20 @@
       "tag": "v4.7.2",
       "commit": "b104b3d75bffdf5e735da6202c38116165019beb",
       "timestamp": 1738080822,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5f2c9394ac5cd1e6d611beb3b86624a0382fea3278236ba84cdefd9c5ca637b4": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v4.8.0/Tack-Android-v4.8.0.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 290,
+      "version_name": "4.8.0",
+      "tag": "v4.8.0",
+      "commit": "5e907e8bb1a5d2c43e75e4e3ab82b0e9cb54c48d",
+      "timestamp": 1739896059,
       "reproducible": true,
       "error": null
     }
