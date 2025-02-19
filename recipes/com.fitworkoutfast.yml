@@ -1,0 +1,46 @@
+---
+repository: https://github.com/senpl/Fit-workout-fast.git
+updates: releases
+versions:
+  - tag: 0.26.03
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/senpl/Fit-workout-fast/releases/download/0.26.03/app-release.apk
+        build:
+          - sed -r '/signingConfigs.(debug|release)/d' -i app/build.gradle
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=6a7083fcd6c3371d9a32288ee213825d6a381bd5
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'META-INF/services/*'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
