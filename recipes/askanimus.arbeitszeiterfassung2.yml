@@ -1,6 +1,8 @@
 ---
 repository: https://gitlab.com/Askanimus/arbeitszeitkonto.git
 updates: releases
+notes:
+  - 'FIXME: file resolves to "download" which is not recognized properly'
 versions:
   - tag: 2.10.007
     apks:
