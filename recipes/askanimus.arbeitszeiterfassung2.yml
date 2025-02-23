@@ -2,12 +2,12 @@
 repository: https://gitlab.com/Askanimus/arbeitszeitkonto.git
 updates: releases
 notes:
-  - 'FIXME: file resolves to "download" which is not recognized properly'
+  - 2.10.007 was built from https://gitlab.com/Askanimus/arbeitszeitkonto/-/package_files/171899891/download (needed to adjust apk_url to make lint happy)
 versions:
   - tag: 2.10.007
     apks:
       - apk_pattern: app-release.apk
-        apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/package_files/171899891/download
+        apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.007/downloads/app-release.apk
         build:
           - git clone https://github.com/obfusk/gradlew.py.git
           - gradlew.py/gradlew.py --version 8.10 -v assembleRelease
@@ -38,6 +38,37 @@ versions:
     apks:
       - apk_pattern: app-release.apk
         apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.009/downloads/app-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.10 -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: 2.10.010
+    apks:
+      - apk_pattern: app-release.apk
+        apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.010/downloads/app-release.apk
         build:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
           - git clone https://github.com/obfusk/gradlew.py.git

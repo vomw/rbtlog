@@ -741,6 +741,20 @@
       "error": null
     }
   ],
+  "6803140a55cc20449e70b882b5439750af1c5db11a0ec77c9716af118f7d54cc": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.8.2/Podcini.X_release_free_8.8.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 125,
+      "version_name": "8.8.2",
+      "tag": "8.8.2",
+      "commit": "40e216eb513e593741aa7f6ac09b00b435994660",
+      "timestamp": 1740332874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1383,6 +1397,20 @@
       "timestamp": 1738711730,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "eb7483459664e1113c6efee6db8daffac120678f4feba0107de96022a8b93258": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.010/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 210009,
+      "version_name": "2.10.010",
+      "tag": "2.10.010",
+      "commit": "183bcaea29aa274403109f77cc7ea4ca524f75df",
+      "timestamp": 1740339295,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpw3abkkar/outputs:/outputs', '--volume', '/tmp/tmpw3abkkar/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://gitlab.com/Askanimus/arbeitszeitkonto.git', '--env', 'APP_TAG=2.10.010', '--env', 'APP_COMMIT=183bcaea29aa274403109f77cc7ea4ca524f75df', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
@@ -2743,6 +2771,20 @@
       "error": null
     }
   ],
+  "a0e3c8d3e768317c2f7994d801e4036d51ba3f0ed7e3cbd43773bc4cfac0547f": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.7.2/77/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 77,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2/77",
+      "commit": "ffa6f368a28c609dc5e0adb42eeda2e81e4cf2eb",
+      "timestamp": 1740333227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e680e00d49947d6ad22e907b8baacfcaa3f0361bbffb376a84f0cd37d3e890d9": [
     {
       "repository": "https://github.com/alexmercerind/audire.git",
@@ -2781,6 +2823,20 @@
       "tag": "2.2.2",
       "commit": "9106598a49f236d4e024e7985966b1650a60890c",
       "timestamp": 1726335140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "efd2db8473bcfa96f3f254c38b58c6b766464bde6bf3a46ed71f4a89b51d274a": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.3.0/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 27,
+      "version_name": "2.3.0",
+      "tag": "2.3.0",
+      "commit": "b0a00c42e69abd22b1b795d80e17f24d26246494",
+      "timestamp": 1740333432,
       "reproducible": true,
       "error": null
     }
@@ -3243,6 +3299,20 @@
       "tag": "2.11",
       "commit": "9613c72d902c181db905b0c9b88d48c8afff8ba7",
       "timestamp": 1733845645,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9a028bf71c15832b2a99f1a9b6a1053e4eb10b7dc8566c94f092fbe6ef33661c": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.12.1/Clock_2.12.1-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2015,
+      "version_name": "2.12.1",
+      "tag": "2.12.1",
+      "commit": "1ea85ab6fa7258f376ce753032056342c159c502",
+      "timestamp": 1740333638,
       "reproducible": true,
       "error": null
     }
@@ -4923,6 +4993,20 @@
       "tag": "1.0.8.7v63",
       "commit": "219161c21e47388bf1e9665574e885e8978494e8",
       "timestamp": 1740160923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbbf66a7c4b4a4bf1a000e29730738229f5604de9d190271943170faf482a30d": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.8.8v64/PuppyGit_1.0.8.8v64_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 64,
+      "version_name": "1.0.8.8",
+      "tag": "1.0.8.8v64",
+      "commit": "3578eb3163cdabb1228e1d60a65253f30d45fdb0",
+      "timestamp": 1740333805,
       "reproducible": true,
       "error": null
     }
@@ -10019,6 +10103,20 @@
       "error": null
     }
   ],
+  "7f5b158b179b061f29818b4698f946fe3e4c4db13720fc4f5f0ec04d0eb0c43e": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.0.4/NeverTooManyBooks-7.0.4.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 95,
+      "version_name": "7.0.4",
+      "tag": "v7.0.4",
+      "commit": "68032f499a047b8fbc3a85468c8723a28fcce031",
+      "timestamp": 1740334710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aee2ffdd21ef886fd92063fe9433fa36e9abb5405b0c73fdb684414b581d94ba": [
     {
       "repository": "https://github.com/gitofleonardo/ExtClipboardManager.git",
@@ -10967,6 +11065,20 @@
       "tag": "v2.2.1",
       "commit": "231edf80efc82a626c4f64f7859f3b5ddcefdb40",
       "timestamp": 1737993807,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8902473477da65756f4763827150ebf6bd55a58e9554fa5d233fc09e7d5aa4e2": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.3.0/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768587,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "8cf944b923b549eb646e5c78b0c79e5057feded8",
+      "timestamp": 1740334948,
       "reproducible": true,
       "error": null
     }
@@ -12197,6 +12309,20 @@
       "tag": "v1.1.1",
       "commit": "d85baeaa53ac4099ab4783b8f2de612f9bb7e4a0",
       "timestamp": 1737291283,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f0f8020c43883baf4fd1fa2d705bd31d2e6ac1b96c976714477017d1c1e4d490": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/MubarakNative/MBCompass/releases/download/v1.1.2/MBCompass_v1.1.2_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 3,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "f5e751d043aa7d04268d9cfd629040de991eb713",
+      "timestamp": 1740340279,
       "reproducible": true,
       "error": null
     }
@@ -13935,6 +14061,20 @@
       "error": null
     }
   ],
+  "ceb70c07d8bb0f79448cdddb9a9d2f5714efa83bf00111790b73be18a04bf0e4": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.9/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 209,
+      "version_name": "0.2.9",
+      "tag": "0.2.9",
+      "commit": "2207629dc58dc2f0b2a4c1fed93a41b7a67ddc20",
+      "timestamp": 1740335198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -14001,6 +14141,20 @@
       "tag": "v1.0.2",
       "commit": "9cb03383cf95aec9a6efea66b6a8fa89c25f7a7d",
       "timestamp": 1740162949,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5002f465326885e44da7df1ed692d2c3091a9dfaf56185028a9f8e3f34f1234f": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
+      "apk_url": "https://github.com/RohitKushvaha01/ReTerminal/releases/download/v1.0.3/reterminal-v1.0.3.apk",
+      "appid": "com.rk.terminal",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "584d5efaf31743197771c370d6dc845517932f4e",
+      "timestamp": 1740340647,
       "reproducible": true,
       "error": null
     }
@@ -14183,6 +14337,20 @@
       "tag": "v2.9.5",
       "commit": "eb9fa526a9e18e9b5fa3f5baf65c3cbd60276bc1",
       "timestamp": 1738858801,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fcfc05458355918fb0e6c5051e7754e1984dcc377af8dfade26cccb861421870": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.9.6/xed-editor-v2.9.6.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 41,
+      "version_name": "2.9.6",
+      "tag": "v2.9.6",
+      "commit": "778b39ac2db909ad3cea18dc89cc80fa6247fd6c",
+      "timestamp": 1740335688,
       "reproducible": true,
       "error": null
     }
@@ -16455,6 +16623,34 @@
       "error": null
     }
   ],
+  "83a4a39cc67a4d7b1c2429d6ea262c1b83a6ff1d975c36b57d6dde2f6f3211e1": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.12.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31200,
+      "version_name": "3.12.0",
+      "tag": "v3.12.0",
+      "commit": "71c555009b24ef90bc22db6d9180b21269bf87ca",
+      "timestamp": 1740336041,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "02381e6be6cf1c874f67a46784ceaa435ab7d67dd07f8266671a3829480d1e6c": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.12.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31200,
+      "version_name": "3.12.0",
+      "tag": "v3.12.0",
+      "commit": "71c555009b24ef90bc22db6d9180b21269bf87ca",
+      "timestamp": 1740336190,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -16953,6 +17149,20 @@
       "tag": "v1.5.5",
       "commit": "5f99aa4725b909e06bcba215145019fbc0ef447f",
       "timestamp": 1740071306,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "660fbf4a39832e66dc0ca3f69e45ff599743ccee16f689da19c264994651615d": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.5.6/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1560,
+      "version_name": "1.5.6",
+      "tag": "v1.5.6",
+      "commit": "9dc41274bc791396483d6185ea34f8104ad57fdc",
+      "timestamp": 1740336344,
       "reproducible": true,
       "error": null
     }
@@ -22427,6 +22637,20 @@
       "error": null
     }
   ],
+  "c29cf3652701a25f22df4faba365e485ac58ad5bd95c21959002847ccedb7e7c": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.1.15/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 15,
+      "version_name": "alpha-0.1.15",
+      "tag": "alpha-0.1.15",
+      "commit": "74cb47e720e4140c7b48f3e8b847d54ef10bfef1",
+      "timestamp": 1740338126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -25195,6 +25419,20 @@
       "tag": "v4.2.2",
       "commit": "c9a6ff69f6c8be3f1e401ce64e87ad12d87edc91",
       "timestamp": 1733768414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "06a356d41654613c84ad2f2f2d8f96d3793eef345ee67256ae78391dd4df2076": [
+    {
+      "repository": "https://github.com/Lambada10/SongSync.git",
+      "apk_url": "https://github.com/Lambada10/SongSync/releases/download/v4.3.0/app-release.apk",
+      "appid": "pl.lambada.songsync",
+      "version_code": 430,
+      "version_name": "4.3.0",
+      "tag": "v4.3.0",
+      "commit": "abce49d5a5319022428293efdd38a11a8617e87b",
+      "timestamp": 1740338366,
       "reproducible": true,
       "error": null
     }
