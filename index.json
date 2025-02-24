@@ -1413,6 +1413,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpw3abkkar/outputs:/outputs', '--volume', '/tmp/tmpw3abkkar/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://gitlab.com/Askanimus/arbeitszeitkonto.git', '--env', 'APP_TAG=2.10.010', '--env', 'APP_COMMIT=183bcaea29aa274403109f77cc7ea4ca524f75df', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "342ff7a4fe8c208e7a3c97fd0504db94e0fa672fa9c62dc4f1fc98e9eebbda4a": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.10.011/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 210011,
+      "version_name": "2.10.011",
+      "tag": "2.10.011",
+      "commit": "5c7eba63288f71a85ba375ba03091826e5c27c75",
+      "timestamp": 1740386263,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -2785,6 +2799,20 @@
       "error": null
     }
   ],
+  "4ac422037f34996b7f51ee654ae12f93c018bc2b8702354776856cb2a61de5ee": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.7.4/79/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 79,
+      "version_name": "1.7.4",
+      "tag": "v1.7.4/79",
+      "commit": "a858f4b2ed859611d6da6991ac4205ade466c218",
+      "timestamp": 1740412167,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e680e00d49947d6ad22e907b8baacfcaa3f0361bbffb376a84f0cd37d3e890d9": [
     {
       "repository": "https://github.com/alexmercerind/audire.git",
@@ -2837,6 +2865,20 @@
       "tag": "2.3.0",
       "commit": "b0a00c42e69abd22b1b795d80e17f24d26246494",
       "timestamp": 1740333432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "203159e61992db2cdabfe413e04a1326a53387d17ddbb175f225bed7b1cc65a3": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.3.1/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 28,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "23338926c19c18314339daf244080614217b2999",
+      "timestamp": 1740412339,
       "reproducible": true,
       "error": null
     }
@@ -5011,6 +5053,20 @@
       "error": null
     }
   ],
+  "0bf6a0cc1e1a5fb51fd68952a7d8d8e8ee94e251622ffd5d94beca43f1f87b07": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.8.9v65/PuppyGit_1.0.8.9v65_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 65,
+      "version_name": "1.0.8.9",
+      "tag": "1.0.8.9v65",
+      "commit": "f45b1876c5749b0109f30f6f1e2ef11bd8c84180",
+      "timestamp": 1740412509,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5791,6 +5847,20 @@
       "tag": "v1.8.2",
       "commit": "1a4c515262656857eb67dc0ad7caaea76106227e",
       "timestamp": 1739808597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd220d73dccd4e38b3cef6d0ee07ce30d6025c03d3d35d961244848fdf9d4a2f": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.2.2/YTDLnis-1.8.2.2-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108020204,
+      "version_name": "1.8.2.2",
+      "tag": "v1.8.2.2",
+      "commit": "2cd41421c24608042898c2370b1aeafd7ef6793d",
+      "timestamp": 1740413242,
       "reproducible": true,
       "error": null
     }
@@ -6971,6 +7041,20 @@
       "error": null
     }
   ],
+  "451626208f6b9ccc85887773667bd4540c20bff0cd72c033b6137d9d1d4435c9": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.22/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 140,
+      "version_name": "4.0.22",
+      "tag": "4.0.22",
+      "commit": "5a1a5f3ecde63267a585a2e118bc86d0bb415a53",
+      "timestamp": 1740419173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -7919,6 +8003,20 @@
       "tag": "v1.24.2",
       "commit": "5d2eaf3eaaea8ae4c87678c89e9d60a51a6ec110",
       "timestamp": 1739980576,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2e0329ca3cad0d1528e9fd4ba8d59315e79a931bf5d2bafb4ca8d6dfbcabb2c": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.25.1/com.fibelatti.photowidget-v1.25.1-1250100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1250100,
+      "version_name": "1.25.1",
+      "tag": "v1.25.1",
+      "commit": "d64c7fc898e74f7680589f56c5e7c59cbcfe0292",
+      "timestamp": 1740413582,
       "reproducible": true,
       "error": null
     }
@@ -12453,6 +12551,20 @@
       "error": null
     }
   ],
+  "2322de5e9e72cc585c5d031be98b43ce26de78063ad6adccfac48c475110474f": [
+    {
+      "repository": "https://github.com/ribbons/TaskerRsync.git",
+      "apk_url": "https://github.com/ribbons/TaskerRsync/releases/download/0.15/com.nerdoftheherd.tasker.rsync_0.15.apk",
+      "appid": "com.nerdoftheherd.tasker.rsync",
+      "version_code": 395,
+      "version_name": "0.15",
+      "tag": "0.15",
+      "commit": "5b3f1c520328974a24e8cd6c7a53f1a96a31e074",
+      "timestamp": 1740413836,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ded47acf62b75ab5425fb2e350ade7765a8df7212e32c3e7bfc5e142c9837638": [
     {
       "repository": "https://github.com/gamemn02/Settings-Database-Provider.git",
@@ -14071,6 +14183,20 @@
       "tag": "0.2.9",
       "commit": "2207629dc58dc2f0b2a4c1fed93a41b7a67ddc20",
       "timestamp": 1740335198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "02d97d6d6037772934cd2e77d8905d6886f7de87d69c2677997e19ced2064da8": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.10/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 210,
+      "version_name": "0.2.10",
+      "tag": "0.2.10",
+      "commit": "bb905a82db7f37e5e8db45447a38b47fa5d32227",
+      "timestamp": 1740419480,
       "reproducible": true,
       "error": null
     }
@@ -17015,6 +17141,20 @@
       "error": null
     }
   ],
+  "63a99d1b992c51f1777cdcde53ec2f8ea8daf76911a680b233b737085831410a": [
+    {
+      "repository": "https://github.com/WirelessAlien/ZipXtract.git",
+      "apk_url": "https://github.com/WirelessAlien/ZipXtract/releases/download/v5.1/zipxtract-v5.1.apk",
+      "appid": "com.wirelessalien.zipxtract",
+      "version_code": 16,
+      "version_name": "5.1",
+      "tag": "v5.1",
+      "commit": "65e7606fb62157a552350ebdbb15e874b78dee26",
+      "timestamp": 1740414022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde61cda06a70d65d979c6e69067491f483917707511511c295cbb0be102a267": [
     {
       "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
@@ -17177,6 +17317,20 @@
       "tag": "v1.5.6",
       "commit": "9dc41274bc791396483d6185ea34f8104ad57fdc",
       "timestamp": 1740336344,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5499b5a76b4320c7769f0e2f2a45c1776770a807c0e6741ce2b1626ab1bd2e8e": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.5.7/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1570,
+      "version_name": "1.5.7",
+      "tag": "v1.5.7",
+      "commit": "22d1574571489520e4e416a437c309f2508019f2",
+      "timestamp": 1740419709,
       "reproducible": true,
       "error": null
     }
@@ -18967,6 +19121,20 @@
       "tag": "1.9.0",
       "commit": "b2533e8d0d9e8674eed24bcbcb8b91e1e5bd8999",
       "timestamp": 1740070203,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ddde189b71fc7791105c8f0564c30e6d1b7df3710dd3210cd32a364952f4548e": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/1.9.1/Photok.1.9.1.Standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 35,
+      "version_name": "1.9.1",
+      "tag": "1.9.1",
+      "commit": "d2506623b3584ee443125d504507998b893a0355",
+      "timestamp": 1740414203,
       "reproducible": true,
       "error": null
     }
@@ -20943,6 +21111,20 @@
       "error": null
     }
   ],
+  "51a11c348a63d0367af4b2cf92e590517aa6b7da86702b39f8450aa0ad9084b1": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.2.13/freetube-0.23.2.13-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230002013,
+      "version_name": "0.23.2.13",
+      "tag": "0.23.2.13",
+      "commit": "92fd4f42220fbac9f11fbe4aadae15681725661f",
+      "timestamp": 1740418254,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -21683,6 +21865,20 @@
       "timestamp": 1739637736,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "e2d793b96a347e246f6d26db000a25cae98506cf37cea1ef94af9d5b68db720b": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.72.1/app-foss-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 85,
+      "version_name": "0.6.72.1",
+      "tag": "v0.6.72.1",
+      "commit": "f2499f20d3d197820a921180481e2dd4edcdcd45",
+      "timestamp": 1740336807,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpmpydrf7a/outputs:/outputs', '--volume', '/tmp/tmpmpydrf7a/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiMusic.git', '--env', 'APP_TAG=v0.6.72.1', '--env', 'APP_COMMIT=f2499f20d3d197820a921180481e2dd4edcdcd45', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
@@ -22521,6 +22717,20 @@
       "tag": "1.3.0",
       "commit": "319fdc9af29981ddbfd6ec1c2aeac170e9a37033",
       "timestamp": 1731953654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c986efab722b7106dbba8a97f2367cb4caab534cd31fdbbe98f049e99b73792": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/2.0.0/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 7,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "d0948f207ff9521fcbce34d1011df85fe23354bd",
+      "timestamp": 1740416056,
       "reproducible": true,
       "error": null
     }
@@ -26791,6 +27001,20 @@
       "tag": "v4.8.0",
       "commit": "5e907e8bb1a5d2c43e75e4e3ab82b0e9cb54c48d",
       "timestamp": 1739896059,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e7ca632131ebc2142dc9bf374650426ded7c1e9c79f8a4ecb112b3f681d49db4": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v4.8.1/Tack-Android-v4.8.1.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 300,
+      "version_name": "4.8.1",
+      "tag": "v4.8.1",
+      "commit": "078568b0392dbb8f2d46598bb90e974fc6ff0ef4",
+      "timestamp": 1740416220,
       "reproducible": true,
       "error": null
     }
