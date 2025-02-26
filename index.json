@@ -769,6 +769,20 @@
       "error": null
     }
   ],
+  "626d930cbe60f12b82789a06b29057e23370009f6c5973c64620a1bd9926b411": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.9.4/Podcini.X_release_free_8.9.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 130,
+      "version_name": "8.9.4",
+      "tag": "8.9.4",
+      "commit": "2d992a76081b8f5bd6f143ea3b0514520a853a5b",
+      "timestamp": 1740584825,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -4843,6 +4857,20 @@
       "error": null
     }
   ],
+  "e31cf47c3843b2940ed4119870562bab56c3ca156f37691db099a0a4354427f9": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.02.1110-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1110,
+      "version_name": "2025.02.1110-dev",
+      "tag": "2025.02.1110-dev",
+      "commit": "6aa3c2d142813245a042cb55b09cf856cc39b3bd",
+      "timestamp": 1740585107,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -4867,6 +4895,20 @@
       "tag": "v1.0.3",
       "commit": "2a6814c8814a38ccf8167b22be2cfc758818da66",
       "timestamp": 1740500153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8ee9f39efedd83cfb376dbae4d114199f434c645b96e28bc402ffb4d5f034300": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.0.4/sefirah-1.0.4.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "5a257e4f813241a3e0c1b842b59341b599be131b",
+      "timestamp": 1740585444,
       "reproducible": true,
       "error": null
     }
@@ -8595,6 +8637,20 @@
       "error": null
     }
   ],
+  "9430dcc995faafed41142ed5471f698a2c7f95001e32abf3ef6c73326e720b40": [
+    {
+      "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
+      "apk_url": "https://github.com/More-Than-Solitaire/Tabs-Lite/releases/download/v3.6.5/TabsLite.v3.6.5.apk",
+      "appid": "com.gbros.tabslite",
+      "version_code": 3650,
+      "version_name": "3.6.5",
+      "tag": "v3.6.5",
+      "commit": "92df61a62a5ce60a038ee7a6e66afa1989bc9e05",
+      "timestamp": 1740585755,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpuaeko_bg/outputs:/outputs', '--volume', '/tmp/tmpuaeko_bg/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/More-Than-Solitaire/Tabs-Lite.git', '--env', 'APP_TAG=v3.6.5', '--env', 'APP_COMMIT=92df61a62a5ce60a038ee7a6e66afa1989bc9e05', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "a9d2284ec5b0bfc7846199f2a3aeba4d9ac56927d36c807f69be202b8f3af813": [
     {
       "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
@@ -10505,6 +10561,20 @@
       "tag": "3.0.0",
       "commit": "9a14d6fbe38fb7d95e34bbc6d6c81db066fef0c7",
       "timestamp": 1740503301,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c29723bca669b47a0ccebb92b2fbf192cec2786a62fc9fec2a7b7a31d23371fd": [
+    {
+      "repository": "https://github.com/fei0316/OpenCC-android-app.git",
+      "apk_url": "https://github.com/fei0316/OpenCC-android-app/releases/download/3.0.2/app-release.apk",
+      "appid": "com.iatfei.tsconverter",
+      "version_code": 17,
+      "version_name": "3.0.2",
+      "tag": "3.0.2",
+      "commit": "fcc0ec3ab763765493bf9e3230cc724e921b6c75",
+      "timestamp": 1740590913,
       "reproducible": true,
       "error": null
     }
@@ -12789,6 +12859,20 @@
       "error": null
     }
   ],
+  "f5c93cd4ca3b7b7e6c4a1acfb6cd4725eb023b706af74d835defa12b0a85ca6c": [
+    {
+      "repository": "https://github.com/NimaKhajehpour/MyMood.git",
+      "apk_url": "https://github.com/NimaKhajehpour/MyMood/releases/download/v2.0.1/app-release.apk",
+      "appid": "com.nima.mymood",
+      "version_code": 12,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "ccf06fd6eef48ff3d30adae1342566971c8c6af7",
+      "timestamp": 1740586135,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10fe18b430149dc0141dba63fd8bfe38b0818851b055bdc012ec322c279f8b7a": [
     {
       "repository": "https://github.com/NimaKhajehpour/OpenBooksDownloader.git",
@@ -13021,6 +13105,20 @@
       "tag": "V0.3.11",
       "commit": "ae643a588317fc12230d0e2c3a7f7b5c4c1bc06f",
       "timestamp": 1739721748,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b9011a76bdc788a496af054da8a00efe33fb89d56a5e0fe9a9fa63bfaf6b3211": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.3.12/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 16,
+      "version_name": "0.3.12",
+      "tag": "V0.3.12",
+      "commit": "229dc6f760479455882ab82a6c733b5e4d4a3266",
+      "timestamp": 1740586338,
       "reproducible": true,
       "error": null
     }
@@ -15009,6 +15107,20 @@
       "tag": "v1.5.2",
       "commit": "41a62902ea374886bd9a2a6dcdb80bba1094bfe6",
       "timestamp": 1737570384,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "294247d77382155d5553e36bd2b1bda082eaf0e455fb79364afeaea342e55a6a": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.6.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 26,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "c43d992b3766eb963767e844cd41b6a424f82d90",
+      "timestamp": 1740586527,
       "reproducible": true,
       "error": null
     }
@@ -19083,6 +19195,20 @@
       "error": null
     }
   ],
+  "0ae28ce23e742a57fe233ef41293cd92bf1540819714f78fefdfef580f8e2058": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.0/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 13,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "3e56a792d98568ea6e6a468ca68206f2bf307f2a",
+      "timestamp": 1740586728,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -19247,6 +19373,20 @@
       "tag": "1.9.1",
       "commit": "d2506623b3584ee443125d504507998b893a0355",
       "timestamp": 1740414203,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7a5dc6b94042e393f0e72d21767c2172144d0f890aa12f818490e9b2d726923c": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/1.9.2/Photok.1.9.2.Standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 36,
+      "version_name": "1.9.2",
+      "tag": "1.9.2",
+      "commit": "a6bb61808e74b5f685faf2f00afa8ac2e5c2c67a",
+      "timestamp": 1740587159,
       "reproducible": true,
       "error": null
     }
@@ -20437,6 +20577,20 @@
       "tag": "v0.91.6-alpha3",
       "commit": "4c5a527d8a553fc776b8909a5ac6f8fa3bbeee26",
       "timestamp": 1739982263,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b0eb7bb6461843ae4a3c3cdd23006d23eea70d6cb3b0f56f7569e51989c3e343": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.91.6-alpha4/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 7,
+      "version_name": "0.91.6-alpha4",
+      "tag": "v0.91.6-alpha4",
+      "commit": "5aca39898db084ffd6d257e001d9e0d05ed6d701",
+      "timestamp": 1740591969,
       "reproducible": true,
       "error": null
     }
