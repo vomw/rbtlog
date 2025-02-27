@@ -12593,6 +12593,20 @@
       "error": null
     }
   ],
+  "5726a48166ee92ae4451bc053316de1a57ea328041189b816609604c2ac4c0c0": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/MubarakNative/MBCompass/releases/download/v1.1.3/MBCompass_v1.1.3_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 4,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "c0ca267128927bb96765360f33573cfe820711c5",
+      "timestamp": 1740615918,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0d91819a73163e9616760245faf476bd223a8ae12d90a13f24e3712ea66391ef": [
     {
       "repository": "https://github.com/dead8309/Kizzy.git",
@@ -16717,6 +16731,20 @@
       "tag": "v3.1",
       "commit": "d700853170770bb08170193b20546af2807986d9",
       "timestamp": 1740345954,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "79218210a70625aae4fbcedb3ae428900362a86bb48ad6e73086d0c5d3ded568": [
+    {
+      "repository": "https://github.com/TrianguloY/URLCheck.git",
+      "apk_url": "https://github.com/TrianguloY/URLCheck/releases/download/v3.2/URLCheck-3.2.apk",
+      "appid": "com.trianguloy.urlchecker",
+      "version_code": 39,
+      "version_name": "3.2",
+      "tag": "v3.2",
+      "commit": "ddfc6403b24e7d80c7abe0f60a357f52d6329917",
+      "timestamp": 1740656542,
       "reproducible": true,
       "error": null
     }
