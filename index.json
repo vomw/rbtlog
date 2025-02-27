@@ -783,6 +783,20 @@
       "error": null
     }
   ],
+  "555700ca1ce16aa2eb071916c2397f5bbebbfe3df5c00042966b8e612ba6a83a": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.10.0/Podcini.X_release_free_8.10.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 131,
+      "version_name": "8.10.0",
+      "tag": "8.10.0",
+      "commit": "936eb8a05d2b2fd6a736102a7040c84e308606d1",
+      "timestamp": 1740671225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3401,6 +3415,20 @@
       "error": null
     }
   ],
+  "151a49bbbe3f26d4edc034ba200a5603711cde8069057d098d1de0f70f4b5341": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.13/Clock_2.13-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2016,
+      "version_name": "2.13",
+      "tag": "2.13",
+      "commit": "ae14534b96bdfaa7ea1195a1d866d08f5d75d575",
+      "timestamp": 1740671594,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "95d9bc0d8442ee62a99ab6587d6679bab4a048632ead0a2b159e8f33770e00a7": [
     {
       "repository": "https://github.com/BinTianqi/OwnDroid.git",
@@ -4871,6 +4899,20 @@
       "error": null
     }
   ],
+  "e5f7b04d86bcc53347c7d1c569552319657f978d0dd3aeb549ba713a4c908426": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.02.1111/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1111,
+      "version_name": "2025.02.1111",
+      "tag": "2025.02.1111",
+      "commit": "9b3c16dfe2fa6fc4910605c11dd5c3bcde7b8497",
+      "timestamp": 1740671754,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -6281,6 +6323,20 @@
       "tag": "0.0.21",
       "commit": "7f0c72b68853c1d019af5708033b8ba7857da17c",
       "timestamp": 1739721298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ff8c91e631cdfeee6607e78b0455a7806e5625874854ffa7ec0a9ff81f41a7ee": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.22/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 22,
+      "version_name": "0.0.22",
+      "tag": "0.0.22",
+      "commit": "2cef046bdf0a3039116729a0bb0f1a4d5748a332",
+      "timestamp": 1740672281,
       "reproducible": true,
       "error": null
     }
@@ -9235,6 +9291,20 @@
       "error": null
     }
   ],
+  "83619facf4bdadb642e417028d37768638591e8138c7eb8f5d87e232b14e5530": [
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v0.27.1/app-universal-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 60,
+      "version_name": "0.27.1",
+      "tag": "v0.27.1",
+      "commit": "1fd15a56035cd783f714502d934821d2d255c859",
+      "timestamp": 1740671512,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a327aa7d88ed34a4fd5de5cbf5f6701df5c9e1f8c26ea3ee1b41f64529dc5c3": [
     {
       "repository": "https://github.com/mikulash/ShareAsQR.git",
@@ -9385,6 +9455,20 @@
       "tag": "v2.0.0",
       "commit": "69f07350c9e741badf574a4ccd55ca99f5b69fd9",
       "timestamp": 1740161972,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "09cdd394557a6f10876e1e23e88c536ad4c0160cd6a9886dcc65abe30d0e4efb": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v2.1.0/DroidPad-v2.1.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 17,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "7bed1f67b4db0d94bbcd6ff3120a1816c8a559fb",
+      "timestamp": 1740672570,
       "reproducible": true,
       "error": null
     }
@@ -14705,6 +14789,20 @@
       "error": null
     }
   ],
+  "4caa028775fa51927a10b30d1f2679e808fad9ebb4949e29476396aea12453fb": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v2.9.8/xed-editor-v2.9.8.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 44,
+      "version_name": "2.9.8",
+      "tag": "v2.9.8",
+      "commit": "270e0a04745327cf27b1cb7f1988613df43385be",
+      "timestamp": 1740675073,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -18355,6 +18453,20 @@
       "error": null
     }
   ],
+  "fc48e297ffd9d50adbcefe14a26958c36b52f3bce1f220354526a792bc320280": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.13.0/RecurringExpenseTracker_0.13.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 33,
+      "version_name": "0.13.0",
+      "tag": "v0.13.0",
+      "commit": "29ad26ae0c8ac567f4d91fca4509527be44b9bbe",
+      "timestamp": 1740673131,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -19723,6 +19835,20 @@
       "tag": "v3.0.3",
       "commit": "ffa73203e3e16d0a3cd029d9267720fb91c2c89e",
       "timestamp": 1740501388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4f60755bc89be588d0557eaf433466f5158df5ac756a803430a8ba86d0e1157": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v3.0.4/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 34,
+      "version_name": "3.0.4",
+      "tag": "v3.0.4",
+      "commit": "8eab5665b780bcdef49a75ba20d8e53fbffc5463",
+      "timestamp": 1740673432,
       "reproducible": true,
       "error": null
     }

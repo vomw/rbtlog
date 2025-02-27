@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.2.2
     apks:
-      - apk_pattern: blade-*\.apk
+      - apk_pattern: blade-.*\.apk
         apk_url: https://github.com/vhaudiquet/BladePlayer/releases/download/v2.2.2/blade-2.2.2.apk
         build:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
