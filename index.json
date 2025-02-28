@@ -797,6 +797,20 @@
       "error": null
     }
   ],
+  "ddb5d445a81393809ecce9ed6e817c097b763cdd80ebd8690a0916ccb8db0048": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.10.1/Podcini.X_release_free_8.10.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 132,
+      "version_name": "8.10.1",
+      "tag": "8.10.1",
+      "commit": "fa3d8c34783dae9482a9a98bea04f25d476d0b94",
+      "timestamp": 1740764772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1367,6 +1381,20 @@
       "tag": "v1.0.4",
       "commit": "a585d183e1b802a3caf7c2650814a9038a2ece0c",
       "timestamp": 1739375194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "acaaf48cdabfbba22b5e52b35cf84919025c5007f60868f2de55523d750948e0": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.1.0/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 6,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "9c9cd52a616e10b741693dac37e8807229be87d7",
+      "timestamp": 1740757617,
       "reproducible": true,
       "error": null
     }
@@ -2403,6 +2431,20 @@
       "tag": "v1.54.1",
       "commit": "836e11ca27318c2e2404307477dd3bfa753d2c35",
       "timestamp": 1739807475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a4248bb528e5a0c0d31186058237d94d183338d6ca4dfa9a1eaa4dd2a7a09716": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.54.2/ArcaneChat-foss-armeabi-v7a-1.54.2.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007121,
+      "version_name": "1.54.2",
+      "tag": "v1.54.2",
+      "commit": "4db770b1f8f471a6cf85aa77a1276d40dde750d0",
+      "timestamp": 1740765146,
       "reproducible": true,
       "error": null
     }
@@ -11685,6 +11727,20 @@
       "error": null
     }
   ],
+  "84af01c7e404e9d44b9b7faceea8dcbcfa82da7bffb3662269d65c1a7dc67b95": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.4.1/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 87,
+      "version_name": "0.4.1",
+      "tag": "0.4.1",
+      "commit": "c94cb2858daf07a2944b41fa21a86385f93cc50e",
+      "timestamp": 1740761917,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "22724e21732e19d8cd71d650adc2833c97d24132c52e34354198548d9a69ba44": [
     {
       "repository": "https://github.com/Droid-ify/client.git",
@@ -11709,6 +11765,20 @@
       "tag": "v0.6.4",
       "commit": "afd939ace04b036a747fae0d9b75db8e8dc2d22c",
       "timestamp": 1735246453,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "35bc235b88e7920b558378a8b894a9a993a03b3c2b396cc2a0940d2036e1ec6f": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.6.5/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 650,
+      "version_name": "0.6.5",
+      "tag": "v0.6.5",
+      "commit": "cd8d638aa6a303049d49d20d219c0c626d5106e7",
+      "timestamp": 1740759528,
       "reproducible": true,
       "error": null
     }
@@ -15853,6 +15923,20 @@
       "error": null
     }
   ],
+  "ab3a3f540ec10cb4ab90ed60ee1fc67e29e3272a1365ab63097aa0e0b9563b4e": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.6.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 2600,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "a154a587bb4ff10224d34777eec8a7a1a895251e",
+      "timestamp": 1740760822,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -17681,6 +17765,20 @@
       "tag": "v1.5.7",
       "commit": "22d1574571489520e4e416a437c309f2508019f2",
       "timestamp": 1740419709,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "11ba94996d4abb5dc658377ecb4b406609d7a0a3f34428f3da07716d3db19e17": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.5.8/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1580,
+      "version_name": "1.5.8",
+      "tag": "v1.5.8",
+      "commit": "120b6cd519244ef0e93ae44436d15da58c0aeac0",
+      "timestamp": 1740759481,
       "reproducible": true,
       "error": null
     }
@@ -25213,6 +25311,20 @@
       "error": null
     }
   ],
+  "0bd2bedbb64abccca662ebaa1f4397aa347a4205ad29bdae52747d6cf3315334": [
+    {
+      "repository": "https://github.com/samolego/Canta.git",
+      "apk_url": "https://github.com/samolego/Canta/releases/download/2.5.0/app-release.apk",
+      "appid": "org.samo_lego.canta",
+      "version_code": 209,
+      "version_name": "2.5.0",
+      "tag": "2.5.0",
+      "commit": "798455cd206f0bb9b2b83614a7897a7ac82c391c",
+      "timestamp": 1740759852,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2f521821dd8dfb8f565370341f986bb52b4e841f3e6b260eb4da8c13788807ea": [
     {
       "repository": "https://gitlab.com/Dacid99/pockettracker.git",
@@ -26245,6 +26357,20 @@
       "tag": "v0.13.7",
       "commit": "d80384f20b5aba87369b49ed83dbec9c8cd37578",
       "timestamp": 1736501968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2194befe5e8076a41413df2dfb30b542655d51104cf3fc48745ced2a52d13be2": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.14.0/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 37,
+      "version_name": "0.14.0",
+      "tag": "v0.14.0",
+      "commit": "68728645975bbb822ddecde2a64bec2c23206c3e",
+      "timestamp": 1740760162,
       "reproducible": true,
       "error": null
     }
