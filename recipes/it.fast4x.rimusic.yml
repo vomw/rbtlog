@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'FIXNEEDED: JARs'
   - v0.6.72.1 was built from a non-published commit, see https://github.com/fast4x/RiMusic/issues/5783
+  - v0.6.73 cannot be build, see https://github.com/fast4x/RiMusic/issues/5783#issuecomment-2691802282
 versions:
   - tag: v0.6.57.1
     apks:
@@ -801,6 +802,46 @@ versions:
           - fi
           - done
           - OUT=composeApp/build/outputs/apk/foss/release/app-foss-release.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines "$OUT" 'META-INF/services/*' 'composeResources/*.xml' 'assets/composeResources/rimusic.composeapp.generated.resources/drawable/*.xml' 'res/*.html' 'res/*.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.6.73
+    apks:
+      - apk_pattern: rimusic-full-release\.apk
+        apk_url: https://github.com/fast4x/RiMusic/releases/download/v0.6.73/rimusic-full-release.apk
+        build:
+          - sed -r '/release \{/,/}/ { /signingConfig/d }' -i composeApp/build.gradle.kts
+          - PROF_FILE=composeApp/build/intermediates/binary_art_profile/fullRelease/compileFullReleaseArtProfile/baseline.prof
+          - PROF_SHA1=ded4659349b10de06232c05b63a335228ea482c0
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFullRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - OUT=composeApp/build/outputs/apk/full/release/app-foss-release.apk
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
           - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines "$OUT" 'META-INF/services/*' 'composeResources/*.xml' 'assets/composeResources/rimusic.composeapp.generated.resources/drawable/*.xml' 'res/*.html' 'res/*.json'
           - mv "$OUT" /outputs/unsigned.apk
