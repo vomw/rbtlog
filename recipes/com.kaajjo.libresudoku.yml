@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/kaajjo/LibreSudoku.git
 updates: releases
+notes:
+  - 'FIXME: next release will have flavors (foss / nonfoss), we will need to pick the foss one'
 versions:
   - tag: v2.0.1
     apks:
