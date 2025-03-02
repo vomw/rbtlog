@@ -2463,6 +2463,20 @@
       "error": null
     }
   ],
+  "29b2b67ed3f9e547b23b4b3acf858bdb5994388c763195d4c8bb919a35667307": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.54.3/ArcaneChat-foss-armeabi-v7a-1.54.3.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007131,
+      "version_name": "1.54.3",
+      "tag": "v1.54.3",
+      "commit": "f0fb8e62f8cfa4c5a79fee9168becbb48bdbb021",
+      "timestamp": 1740930463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -3537,6 +3551,20 @@
       "tag": "v6.4",
       "commit": "f83a63f239aedd5ffc5ee25eb14d98ec213b77b9",
       "timestamp": 1739117121,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "375a78e76c5fd0889bb462f4f048cdd6291412c4e91576c5adc42c89fcda901d": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v6.5/OwnDroid-v6.5.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 37,
+      "version_name": "6.5",
+      "tag": "v6.5",
+      "commit": "d85cecd6e930aa6103aa0953ecbebfa7dbda9499",
+      "timestamp": 1740931123,
       "reproducible": true,
       "error": null
     }
@@ -8721,6 +8749,20 @@
       "error": null
     }
   ],
+  "8a2b6108995103068ed0ce7545a5aef3872cb036758b941f8a30fe2493bb63b0": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 102,
+      "version_name": "1.16.2",
+      "tag": "v1.16.2",
+      "commit": "991e68c5ea3f4b76e1aa586c92e1ff514cf070de",
+      "timestamp": 1740931397,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -9183,6 +9225,20 @@
       "error": null
     }
   ],
+  "ed063134ff6d21daed3b25bd53b4a14e42bfdca7b36c62a59bc00f223acd89b0": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.16.6/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2217472,
+      "version_name": "2.16.6-Univers-oss",
+      "tag": "2.16.6",
+      "commit": "1246399c54ac79ca514f38e74694e6093879019e",
+      "timestamp": 1740931650,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -9291,6 +9347,20 @@
       "tag": "3.4.4",
       "commit": "3cc1d190ed4f460c8ae3d9ca85c0b817051ac923",
       "timestamp": 1737822284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0a5d9c0e7d69e19376b2db81320e52bb82727178754265c1c1b6b826f0f611c6": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.5/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2217464,
+      "version_name": "3.4.5",
+      "tag": "3.4.5",
+      "commit": "1457c76df0b3bce4fa6ccf8b1059535a56358b24",
+      "timestamp": 1740931871,
       "reproducible": true,
       "error": null
     }
@@ -10379,6 +10449,20 @@
       "tag": "v1.3.2",
       "commit": "67f2a9c1cb95e700c6a7541071e3bb8734261d2b",
       "timestamp": 1737654686,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a6462b421602cefbee581d10d73f00023467771fa32cbd8c6c65cd0e95fe357e": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.3.4/Telewatch-v1.3.4-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 25,
+      "version_name": "1.3.4",
+      "tag": "v1.3.4",
+      "commit": "7fec83ae3dfae2e9b59db4f8203a8558d5a4d451",
+      "timestamp": 1740932048,
       "reproducible": true,
       "error": null
     }
@@ -12719,6 +12803,20 @@
       "error": null
     }
   ],
+  "3c4b5b5a1043d666ce77e8123ebdaa5e1563b8b501c0e45649f3a6b11ee9942f": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.47.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 890,
+      "version_name": "3.47.0",
+      "tag": "3.47.0",
+      "commit": "1b456ff979110a15ae54408b2182a3c73417d294",
+      "timestamp": 1740932332,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -13371,6 +13469,20 @@
       "tag": "V0.3.12",
       "commit": "229dc6f760479455882ab82a6c733b5e4d4a3266",
       "timestamp": 1740586338,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73d344e864a624efbe864ae34961fcc28be4175f677b49f6e16f908f8c0cc2c6": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.3.13/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 17,
+      "version_name": "0.3.13",
+      "tag": "V0.3.13",
+      "commit": "61d5af71c4cb50d1dbd82d3acfed0c734e4378de",
+      "timestamp": 1740932727,
       "reproducible": true,
       "error": null
     }
@@ -16031,6 +16143,20 @@
       "tag": "2.6.0",
       "commit": "a154a587bb4ff10224d34777eec8a7a1a895251e",
       "timestamp": 1740760822,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9904b3f9995910fc116b2c3ae5ade046754597d4f01ebc271012e275d56c7be0": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/2.6.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 2610,
+      "version_name": "2.6.1",
+      "tag": "2.6.1",
+      "commit": "1c2cf32c07a1b852d4648debbaed4477a777120f",
+      "timestamp": 1740932936,
       "reproducible": true,
       "error": null
     }
@@ -19107,6 +19233,20 @@
       "tag": "v1.0.0-alpha.20",
       "commit": "32b28629d525ee2599280a79e7d911ae834ecd59",
       "timestamp": 1739722464,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83c5c8233cc5a813faedcf40cdf1f43cd2d2d2f83c66a76545b2744d2d0a6e92": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.21/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 1210,
+      "version_name": "1.0.0-alpha.21",
+      "tag": "v1.0.0-alpha.21",
+      "commit": "b0cf07a1d26ed21eac85d69a011771c3235cf210",
+      "timestamp": 1740937982,
       "reproducible": true,
       "error": null
     }
@@ -23771,6 +23911,48 @@
       "error": null
     }
   ],
+  "2da45bf34b88c2f878b93778db010bc5723dcdac21ace4b9d91e3a3d72dd840b": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.4/breezy-weather-arm64-v8a-v5.4.4_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50404,
+      "version_name": "5.4.4",
+      "tag": "v5.4.4",
+      "commit": "e55de3caee06bd63b200dad7f3fe034a669a7b2e",
+      "timestamp": 1740933655,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "445090676d214384d42a5b7d8f9a1fb82c52affe8f629e92e92746440335eeb2": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.4/breezy-weather-armeabi-v7a-v5.4.4_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50404,
+      "version_name": "5.4.4",
+      "tag": "v5.4.4",
+      "commit": "e55de3caee06bd63b200dad7f3fe034a669a7b2e",
+      "timestamp": 1740934227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e717cec3d8aabbe41b2d1e58f4eee7f27f81273239b2b07f0da5c45b0ab1b864": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.4/breezy-weather-v5.4.4_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50404,
+      "version_name": "5.4.4",
+      "tag": "v5.4.4",
+      "commit": "e55de3caee06bd63b200dad7f3fe034a669a7b2e",
+      "timestamp": 1740934788,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "65c950b7a4e3120b125e8fec5c50d6ca9c640cc7722b07952faa73ab2a91e506": [
     {
       "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
@@ -25629,6 +25811,20 @@
       "tag": "v2.2.5",
       "commit": "bf3a6324ec42fa9a8a7a093515986e459cc9b7be",
       "timestamp": 1739638687,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e286185450bd8e168df8cd3cef41afb5294e9c98afeaf11f5eff2b4918e505e5": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.3.0/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 17,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "3f7e9c795c87b845f73832367e3a6fd07ea40926",
+      "timestamp": 1740935369,
       "reproducible": true,
       "error": null
     }
