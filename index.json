@@ -5361,6 +5361,20 @@
       "error": null
     }
   ],
+  "a7595230974921edced071925cbb8b7d00cde3ea55be9378385d00edcae2dd69": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.1v67/PuppyGit_1.0.9.1v67_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 67,
+      "version_name": "1.0.9.1",
+      "tag": "1.0.9.1v67",
+      "commit": "4a84bc6db8d781f5f1f24d6ff417927a8b9f9775",
+      "timestamp": 1741103236,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -5665,6 +5679,20 @@
       "tag": "v1.0.1",
       "commit": "936886cfdb3a5a29e0239155d7d75dd03b04cbc6",
       "timestamp": 1740445381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "070e16df4c97cb444c8fa40538d3f1c9626dcde4d2cf5b65a163bb76588ce24d": [
+    {
+      "repository": "https://github.com/daitj/Easycontrol.git",
+      "apk_url": "https://github.com/daitj/Easycontrol/releases/download/v1.0.2/com.daitj.easycontrolfork_10002.apk",
+      "appid": "com.daitj.easycontrolfork.app",
+      "version_code": 10002,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "e2f75fa677b1065862defb8fe8a383b0456d9614",
+      "timestamp": 1741104139,
       "reproducible": true,
       "error": null
     }
@@ -11961,6 +11989,20 @@
       "tag": "0.4.1",
       "commit": "c94cb2858daf07a2944b41fa21a86385f93cc50e",
       "timestamp": 1740761917,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb6eb9eff2871bd72e04b984c705f423cff9301e3221865fa2c1c2fee637ddda": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/0.4.2/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 90,
+      "version_name": "0.4.2",
+      "tag": "0.4.2",
+      "commit": "ae9cf6ac9d00336550b39177a003e0d77886e1f0",
+      "timestamp": 1741104725,
       "reproducible": true,
       "error": null
     }
@@ -18869,6 +18911,20 @@
       "tag": "v0.13.0",
       "commit": "29ad26ae0c8ac567f4d91fca4509527be44b9bbe",
       "timestamp": 1740673131,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2b1a395c0a4562956a86d6cdba9d221007942b8dcd141810572b220c1770daa0": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.13.1/RecurringExpenseTracker_0.13.1.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 34,
+      "version_name": "0.13.1",
+      "tag": "v0.13.1",
+      "commit": "e3d46c15f1c440c6c07806a1e3a2a3485d0355e0",
+      "timestamp": 1741105202,
       "reproducible": true,
       "error": null
     }
@@ -26235,6 +26291,20 @@
       "error": null
     }
   ],
+  "21b42514aff5f2a435576cfec0d5c9065e0e80f6dcb0578f2bd24c2e8bc364a9": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.1.6/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 38,
+      "version_name": "2.1.6",
+      "tag": "2.1.6",
+      "commit": "ac8d79bf16cd7684b796ac21bb8a305fa1c1bc3c",
+      "timestamp": 1741105539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -26329,6 +26399,20 @@
       "tag": "1.0.3",
       "commit": "d026d44f8bd692015e70b9c7eac8acdb78493e52",
       "timestamp": 1741021447,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "001d72eca40c1e4911b17e9454c4e9d654e34e316b867dd3181076039b159b9c": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.0.4/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 9,
+      "version_name": "1.0.4",
+      "tag": "1.0.4",
+      "commit": "6c25d4c60ae849280d5988ff6cc1ddb85c030338",
+      "timestamp": 1741105802,
       "reproducible": true,
       "error": null
     }
@@ -28023,6 +28107,20 @@
       "tag": "1.5.2",
       "commit": "47767ea1cd5d4a265b290220ea42773682cc6be3",
       "timestamp": 1740163556,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6ce2839197af0f502cdd878b8ccf156a57f9328fe00e06186f8ff43e2ebd9338": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.5.3/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 28,
+      "version_name": "1.5.3",
+      "tag": "1.5.3",
+      "commit": "54875476c4cdb1b8a6d593406aa360c298e3b11e",
+      "timestamp": 1741106041,
       "reproducible": true,
       "error": null
     }
