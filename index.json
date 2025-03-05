@@ -5781,6 +5781,20 @@
       "error": null
     }
   ],
+  "4bbaac46ebd2377c57412974ffb70329aad8da6cfa7a1a2c00a4fb095b5fafd0": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/daniebeler/pixelix/releases/download/v4.0.3/pixelix_v4.0.3.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 30,
+      "version_name": "4.0.3",
+      "tag": "v4.0.3",
+      "commit": "0f1a6c0a230d544a8a1d8b5141106e11b10f76d6",
+      "timestamp": 1741172640,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
     {
       "repository": "https://github.com/danilkinkin/buckwheat.git",
@@ -18981,6 +18995,20 @@
       "tag": "v1.7.1",
       "commit": "99d293e968efef4890347c72027a9075be23695b",
       "timestamp": 1739012960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "11889eca675d73d055ca325f30545f47c8d0910f7a2e2fe8d88be0f3860998e7": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.18.1/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 189,
+      "version_name": "2.18.1",
+      "tag": "v2.18.1",
+      "commit": "abaefc82561bfa655e63eb9563a8befab228f2bd",
+      "timestamp": 1741186311,
       "reproducible": true,
       "error": null
     }
