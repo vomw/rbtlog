@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/nuclearfog/Nitterify.git
-updates: releases
+updates: disabled
+notes:
+  - 2025-03-05 updates disabled as upstream repo is gone
 versions:
   - tag: '2.1'
     apks:
