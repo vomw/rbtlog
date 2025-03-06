@@ -14551,6 +14551,20 @@
       "error": null
     }
   ],
+  "20f30054997f86a18e0cd2f4ccf9588484d45ab7b7584a5299c233e273730ffb": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.7.0/baba_1.7.0-arm64-v8a-release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025030601,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "477d79feb8736842900b79cad9b16cd5d6a3ca50",
+      "timestamp": 1741256387,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
