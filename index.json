@@ -5109,6 +5109,34 @@
       "error": null
     }
   ],
+  "05c78613fe22e0b574ff13773d88bd57f7f8c7a375df640cbb8d4b9989a61703": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.0.6/sefirah-1.0.6.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 7,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "f4a3c2ad8074c8a3517f09779ef3e767fb1ed1aa",
+      "timestamp": 1741276020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7587eb7d19ad45887673e18e08ddaa0d6afae08d5548656c46d0d58637211555": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.0.7/sefirah-1.0.7.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 8,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "129da9f79657aa7eb6a8d354eb50b65ca4abf99f",
+      "timestamp": 1741283175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -5385,6 +5413,20 @@
       "tag": "1.0.9.1v67",
       "commit": "4a84bc6db8d781f5f1f24d6ff417927a8b9f9775",
       "timestamp": 1741103236,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a0da464b91b2362927d2aa374ceb67275087e3c92aaa15162aff51c558d0ab7": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.2v68/PuppyGit_1.0.9.2v68_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 68,
+      "version_name": "1.0.9.2",
+      "tag": "1.0.9.2v68",
+      "commit": "48ab96d5a6575d08417eb77c2c91275978d2b622",
+      "timestamp": 1741276604,
       "reproducible": true,
       "error": null
     }
@@ -6547,6 +6589,20 @@
       "tag": "0.0.22",
       "commit": "2cef046bdf0a3039116729a0bb0f1a4d5748a332",
       "timestamp": 1740672281,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c977ee47e573d5d2a70874c582b798180c0dac647d36cf0e07e1a8c268159741": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.23/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 23,
+      "version_name": "0.0.23",
+      "tag": "0.0.23",
+      "commit": "707e0e3a3037e6cd53d65fc0faa3f46d1e252665",
+      "timestamp": 1741277484,
       "reproducible": true,
       "error": null
     }
@@ -19195,6 +19251,20 @@
       "error": null
     }
   ],
+  "e565597132b148ac505984971fc67dd917ecd58841dc437db001f7858b773df3": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/IconRequest.git",
+      "apk_url": "https://github.com/Kaiserdragon2/IconRequest/releases/download/v2.5.8/IconRequest-v2.5.8.apk",
+      "appid": "de.kaiserdragon.iconrequest",
+      "version_code": 30,
+      "version_name": "2.5.8",
+      "tag": "v2.5.8",
+      "commit": "b2f4b7c81b2931741a4689072c23ee0a7fa35289",
+      "timestamp": 1741277768,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "43652300c50abc08318f0d87c72c7190a76bec107920ab4e410bce86a53626bc": [
     {
       "repository": "https://github.com/Kaiserdragon2/WeatherShortcut.git",
@@ -28331,6 +28401,20 @@
       "tag": "v0.1.4",
       "commit": "56a33f14cd1dd833e7eb093c54a987dbc616b1fb",
       "timestamp": 1741188797,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43bbceb6cf88f4cd001bb120d69136c2f2718c2888eac6181096e9f9f8d7d056": [
+    {
+      "repository": "https://codeberg.org/phileix/ddns-android.git",
+      "apk_url": "https://codeberg.org/phileix/ddns-android/releases/download/v0.1.5/app-release.apk",
+      "appid": "xyz.philei.ddnsupdater",
+      "version_code": 4,
+      "version_name": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "205486ef0083515dff18bf9744bab77c527bacf6",
+      "timestamp": 1741277930,
       "reproducible": true,
       "error": null
     }
