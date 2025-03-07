@@ -19167,6 +19167,20 @@
       "error": null
     }
   ],
+  "ee1d4b9dfedd5e8f4afb7b81ec1a5e9791c75bd67fa9d87adb0bc5055c38d394": [
+    {
+      "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
+      "apk_url": "https://codeberg.org/Starfish/TinyWeatherForecastGermany/releases/download/0.62.7/TinyWeatherForecastGermany-build056-version_0.62.7_20250302.apk",
+      "appid": "de.kaffeemitkoffein.tinyweatherforecastgermany",
+      "version_code": 56,
+      "version_name": "0.62.7",
+      "tag": "0.62.7",
+      "commit": "4ee137e53934df32fcc1271fa3b42d05e8b1148a",
+      "timestamp": 1741298369,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b3b7154b1d27cf825fb3314d99ed5d5c61eca2cd2a5589d555ae959adb55d325": [
     {
       "repository": "https://github.com/Kaiserdragon2/CallForwarding.git",
@@ -27631,6 +27645,20 @@
       "tag": "v1.1.0",
       "commit": "c1b919f05b09272b8f538b30615c59d27eb26e0b",
       "timestamp": 1720710029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2237db03b6cb0d6144b7bae7de62250b422c3ef8770ae5a088ab4e22daa169b": [
+    {
+      "repository": "https://github.com/slowscript/warpinator-android.git",
+      "apk_url": "https://github.com/slowscript/warpinator-android/releases/download/v1.7.1/warpinator-android_1.7.1.apk",
+      "appid": "slowscript.warpinator",
+      "version_code": 1071,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "8963c17c8a2ff78a290b0ae7886997af5963dc2d",
+      "timestamp": 1741305223,
       "reproducible": true,
       "error": null
     }
