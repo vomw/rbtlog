@@ -5431,6 +5431,20 @@
       "error": null
     }
   ],
+  "4534a1cba492a1120dd7ca6dfdaf264b35b82dc2517c065767627063d69677dc": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.3v69/PuppyGit_1.0.9.3v69_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 69,
+      "version_name": "1.0.9.3",
+      "tag": "1.0.9.3v69",
+      "commit": "dfed73edfde3dc0ebf2bffe15cca9cfe46609f97",
+      "timestamp": 1741362426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -9183,6 +9197,20 @@
       "error": null
     }
   ],
+  "07ff4ac9b6afe563c88bddbbfc9d021fd0d22fe489cb21ea8306946dc8f94f14": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.18/fdroidRelease-2.5.18.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30518,
+      "version_name": "2.5.18",
+      "tag": "2.5.18",
+      "commit": "a9df1da44f17c7df84b1c7b3c88fbce7867a9e45",
+      "timestamp": 1741363338,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -9362,6 +9390,20 @@
       "commit": "8b642a305d7454943351a3b6f7140c0cdf251e7f",
       "timestamp": 1739289326,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "e901dbc167ad91243e4d1a1197717f02604e20f0a59f205792b23d524613b0cc": [
+    {
+      "repository": "https://github.com/enteraname74/SoulSearching.git",
+      "apk_url": "https://github.com/enteraname74/SoulSearching/releases/download/v0.12.0/com.github.enteraname74.soulsearching_0.12.0.apk",
+      "appid": "com.github.enteraname74.soulsearching",
+      "version_code": 30,
+      "version_name": "0.12.0",
+      "tag": "v0.12.0",
+      "commit": "0a1d03cefa5aa1d9faaee0c116f08efcb8dc5782",
+      "timestamp": 1741363828,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -13219,6 +13261,20 @@
       "tag": "5.8",
       "commit": "51b8cb3eb3fe8918741788f6f1e83644eccd96ec",
       "timestamp": 1735212727,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5e3cf0cff4d557954d2410a5014a4f4967abe17500c7e37d73a8697e14a3fdb": [
+    {
+      "repository": "https://github.com/dead8309/Kizzy.git",
+      "apk_url": "https://github.com/dead8309/Kizzy/releases/download/5.9/app-release.apk",
+      "appid": "com.my.kizzy",
+      "version_code": 11,
+      "version_name": "5.9",
+      "tag": "5.9",
+      "commit": "a69f2ce5e12d2e73b9dcf793f2511f453795ae64",
+      "timestamp": 1741364253,
       "reproducible": true,
       "error": null
     }
@@ -17379,6 +17435,20 @@
       "error": null
     }
   ],
+  "3e2d2b1cfc8aa7741a4839285d484a981d7dbba9b145175f7ba5025cb6d7e98a": [
+    {
+      "repository": "https://github.com/soundcrowd/soundcrowd.git",
+      "apk_url": "https://github.com/soundcrowd/soundcrowd/releases/download/v4.0.0/soundcrowd.apk",
+      "appid": "com.tiefensuche.soundcrowd",
+      "version_code": 77,
+      "version_name": "4.0.0-release",
+      "tag": "v4.0.0",
+      "commit": "6194b0d1eb803caf9799eb8ee4765b690d3ca114",
+      "timestamp": 1741364832,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpmvpmyj4d/outputs:/outputs', '--volume', '/tmp/tmpmvpmyj4d/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/soundcrowd/soundcrowd.git', '--env', 'APP_TAG=v4.0.0', '--env', 'APP_COMMIT=6194b0d1eb803caf9799eb8ee4765b690d3ca114', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "3ff0106b340d8cce51eda87209380ca707d4cbb574c8760987fdead53d35cf62": [
     {
       "repository": "https://github.com/solkin/mandarin-android.git",
@@ -21445,6 +21515,20 @@
       "tag": "1.2264",
       "commit": "04f936416f5355833a3813d80256309a8bacd692",
       "timestamp": 1741018992,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8cddc59ae0a703c6522836ba76edf88585aaa08bb3bfb9192820608a30708e4f": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2265/FairEmail-v1.2265a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2265,
+      "version_name": "1.2265",
+      "tag": "1.2265",
+      "commit": "4869024299d00b2ad4ac3de6d8eb70eec52748b9",
+      "timestamp": 1741365279,
       "reproducible": true,
       "error": null
     }
