@@ -27089,6 +27089,20 @@
       "error": null
     }
   ],
+  "c8e77bbbfbe70d9825a008fbf6ab3ec6ddd242e11b375cfee9557585e439ee75": [
+    {
+      "repository": "https://github.com/Abrynos/ShoppingList.git",
+      "apk_url": "https://github.com/Abrynos/ShoppingList/releases/download/v1.17.0/app-release.apk",
+      "appid": "pl.edu.pjwstk.s999844.shoppinglist",
+      "version_code": 19,
+      "version_name": "v1.17.0",
+      "tag": "v1.17.0",
+      "commit": "17fab4247a1f0a2d6617f423d695a82d8f5134bc",
+      "timestamp": 1741359333,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "653969dc5703b1cca0c1c4e218f35e4bcde477e203e875eaeebd14e95736052b": [
     {
       "repository": "https://github.com/Lambada10/SongSync.git",
@@ -27309,6 +27323,20 @@
       "tag": "v7_24072022",
       "commit": "6e867e67beaf971b354d4f6e2157ed084c6b0c58",
       "timestamp": 1739884429,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "27e1087a7acd8bd67881ea9132a9c77450f81385dfc91003044122055b76dc7a": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/111/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 111,
+      "version_name": "5.25",
+      "tag": "111",
+      "commit": "c2160d3e15fd0ecb4f3a7237c2e981f4583d81f3",
+      "timestamp": 1741356181,
       "reproducible": true,
       "error": null
     }
