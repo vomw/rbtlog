@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/nuclearfog/Apollo.git
 updates: releases
+notes:
+  - 'FIXME: at 1.6.3, gradle was updated but the checksum not, see https://codeberg.org/nuclearfog/Apollo/issues/3 (we temporarily use our wrapper to work around that)'
 versions:
   - tag: 1.5.2
     apks:
@@ -314,3 +316,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.6.3
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.3/app-release.apk
+        build:
+          - git clone https://github.com/IzzySoft/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.13 -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

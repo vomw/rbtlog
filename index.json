@@ -5767,6 +5767,20 @@
       "error": null
     }
   ],
+  "08b1640f15a811bf40303ab90aad1419094cd21b6e1aeb643183f84e4f8a7409": [
+    {
+      "repository": "https://github.com/daitj/Easycontrol.git",
+      "apk_url": "https://github.com/daitj/Easycontrol/releases/download/v1.0.3/com.daitj.easycontrolfork_10003.apk",
+      "appid": "com.daitj.easycontrolfork.app",
+      "version_code": 10003,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "98fb223dc64fa3daf45278ae7ecea59c1b81e579",
+      "timestamp": 1741448838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313db85ae94d45de3e64f64ce2dcac28cb6692b431192625453e3a2f93382730": [
     {
       "repository": "https://github.com/daniebeler/pixelix.git",
@@ -6043,6 +6057,20 @@
       "tag": "v0.7.4",
       "commit": "e682f0fb3d6b700859061a6d908e7d766e898cce",
       "timestamp": 1739894186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c92c51a25d72a9950791e27229e66befb503a53f97ef7dd89629fcd5a173d39f": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.7.5/OuterTune-0.7.5-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 39,
+      "version_name": "0.7.5",
+      "tag": "v0.7.5",
+      "commit": "a37eb95b7c9345963bbb8cf3f93aad0a2165e7f1",
+      "timestamp": 1741448982,
       "reproducible": true,
       "error": null
     }
@@ -8497,6 +8525,20 @@
       "error": null
     }
   ],
+  "3da355ed3f58b190c3b790447b92e7f74876e584c28cac12cf9ac221a00c7b25": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.25.2/com.fibelatti.photowidget-v1.25.2-1250200-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1250200,
+      "version_name": "1.25.2",
+      "tag": "v1.25.2",
+      "commit": "8a082cedcc276ab14e0b129c2c41e99970221064",
+      "timestamp": 1741449856,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -8959,6 +9001,20 @@
       "error": null
     }
   ],
+  "5de25235baab652a7af1018df382012c89d64cc80f44c4f633954b6d3e7a81b6": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.3/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 103,
+      "version_name": "1.16.3",
+      "tag": "v1.16.3",
+      "commit": "a9249e9456bc9b47bba02fdf92f83ad7e5ecdd3c",
+      "timestamp": 1741450154,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -9207,6 +9263,20 @@
       "tag": "2.5.18",
       "commit": "a9df1da44f17c7df84b1c7b3c88fbce7867a9e45",
       "timestamp": 1741363338,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0dc51bdb7c02d74fde4a3be82e6c5f41edca992e7381acadf6cd417a6e83504f": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.19/fdroidRelease-2.5.19.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30519,
+      "version_name": "2.5.19",
+      "tag": "2.5.19",
+      "commit": "e0cedc5e010a22e4def649575afc004a677e1a4d",
+      "timestamp": 1741450406,
       "reproducible": true,
       "error": null
     }
@@ -11475,6 +11545,20 @@
       "error": null
     }
   ],
+  "5c33fd6b8d25a74029d191bbae76b61a8401776fced3dd918a69dd9428482a55": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.1-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 91,
+      "version_name": "v0.9.1-beta",
+      "tag": "v0.9.1-beta",
+      "commit": "b048825c64dbd707ba4fa777e0d7a1a982498c86",
+      "timestamp": 1741455976,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpeb51xdkf/outputs:/outputs', '--volume', '/tmp/tmpeb51xdkf/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/kaii-lb/LavenderPhotos.git', '--env', 'APP_TAG=v0.9.1-beta', '--env', 'APP_COMMIT=b048825c64dbd707ba4fa777e0d7a1a982498c86', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -12799,6 +12883,20 @@
       "tag": "v0.2.11",
       "commit": "6c6bf42f30cbc468cd6e5deb371378ee92266a99",
       "timestamp": 1740075328,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44e403fd19df6faddf9771e80759f718c9268cdc5a8bcf484caf764436ba2132": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.12/SimpMusic_v0.2.12-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 29,
+      "version_name": "0.2.12",
+      "tag": "v0.2.12",
+      "commit": "7ee6c31680a7977eefdcc2b2bafb97b630556436",
+      "timestamp": 1741451252,
       "reproducible": true,
       "error": null
     }
@@ -15181,6 +15279,20 @@
       "error": null
     }
   ],
+  "d977720046b64342927079cb4ba06401d6650adbcf7f2da4bebbbe0407ce3236": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
+      "apk_url": "https://github.com/RohitKushvaha01/ReTerminal/releases/download/v1.0.4/reterminal-v1.0.4.apk",
+      "appid": "com.rk.terminal",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "96af99b23bf8c7af5047857d0c14995e6949c1c0",
+      "timestamp": 1741451825,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1cb3f6264a538138024b44be3f88c4ea68292eea2ef0e255648f8e3829aba83": [
     {
       "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
@@ -15387,6 +15499,20 @@
       "tag": "v2.9.8",
       "commit": "270e0a04745327cf27b1cb7f1988613df43385be",
       "timestamp": 1740675073,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3c440776783f2c9fd4682a2b1b3ead99c75166ea3381551f14940654599a59fa": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.0.0/xed-editor-v3.0.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 46,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "3d872c519fbde9552c2b8203bdc274f12f98a1ad",
+      "timestamp": 1741452119,
       "reproducible": true,
       "error": null
     }
@@ -23211,6 +23337,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp2wfv8aue/outputs:/outputs', '--volume', '/tmp/tmp2wfv8aue/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiMusic.git', '--env', 'APP_TAG=v0.6.73', '--env', 'APP_COMMIT=d9b8f3ac95522105119c6f9d867e64f9497a1351', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "4915533e6adb0ba46ce871738a5a0631d5094c1ec5fd98dad7ba61ede38890dc": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.74/rimusic-full-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 87,
+      "version_name": "0.6.74",
+      "tag": "v0.6.74",
+      "commit": "c2a50b0e6bf5258a119c15738d3ac5916f000595",
+      "timestamp": 1741467743,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -24065,6 +24205,20 @@
       "error": null
     }
   ],
+  "3d5eb62dc024c5798e17447c235ed48c31dad5ea9bc40173e2a9c6da28292a46": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/2.0.1/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 8,
+      "version_name": "2.0.1",
+      "tag": "2.0.1",
+      "commit": "ad50db20d4bc181c0d60d036871e51059e788ace",
+      "timestamp": 1741454160,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38843ca345b849f962df5c957f06b940ee40961648777d8f7741c2769ba34da4": [
     {
       "repository": "https://github.com/helcel-net/beans.git",
@@ -24173,6 +24327,20 @@
       "tag": "1.0.15",
       "commit": "64ab51dcd022e403f51dccb46d26bc8755663577",
       "timestamp": 1730397201,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "227e566addcdce3296eeb64986c0fec6d474aafa4397c95178c568ace61d3e24": [
+    {
+      "repository": "https://github.com/AkaneTan/Gramophone.git",
+      "apk_url": "https://github.com/AkaneTan/Gramophone/releases/download/1.0.16.1/Gramophone-1.0.16.1-release.apk",
+      "appid": "org.akanework.gramophone",
+      "version_code": 19,
+      "version_name": "1.0.16.1",
+      "tag": "1.0.16.1",
+      "commit": "3fa245f24b684c1f56d9115a6d93da975c78fb8e",
+      "timestamp": 1741456679,
       "reproducible": true,
       "error": null
     }
@@ -25941,6 +26109,20 @@
       "error": null
     }
   ],
+  "86f05d7f30a3a9b62e0638c790c28ef916714b5aa559b841bb473fc5c5964e32": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v1.10.2/wikireader-v1.10.2-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 24,
+      "version_name": "1.10.2",
+      "tag": "v1.10.2",
+      "commit": "726ecb9fa167c95313569f36ef3664232eaa0a5d",
+      "timestamp": 1741454848,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -26105,6 +26287,20 @@
       "tag": "1.6.1",
       "commit": "5e55b8cf4d30fe90b183ca9eb876f46a3fe39124",
       "timestamp": 1739103646,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "107980c48389c70079718e93416423eaa42d0865c61c824c849e2cd7eb0ac34f": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.3/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 59,
+      "version_name": "1.6.3",
+      "tag": "1.6.3",
+      "commit": "095d4471ebf419413abf66c791ce38f63575da34",
+      "timestamp": 1741457660,
       "reproducible": true,
       "error": null
     }
@@ -27449,6 +27645,20 @@
       "tag": "111",
       "commit": "c2160d3e15fd0ecb4f3a7237c2e981f4583d81f3",
       "timestamp": 1741356181,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "019e984b344ac524e552909fe7873dae88650ac57632ac2d15fdcedb88e1af41": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/112/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 112,
+      "version_name": "5.26",
+      "tag": "112",
+      "commit": "59f3508cd10f635f6a30380130c99e888cb15437",
+      "timestamp": 1741455242,
       "reproducible": true,
       "error": null
     }
