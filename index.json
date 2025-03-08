@@ -25493,6 +25493,20 @@
       "error": null
     }
   ],
+  "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
+    {
+      "repository": "https://github.com/jellyfin/jellyfin-android.git",
+      "apk_url": "https://github.com/jellyfin/jellyfin-android/releases/download/v2.6.2/jellyfin-android-v2.6.2-libre-release.apk",
+      "appid": "org.jellyfin.mobile",
+      "version_code": 2060299,
+      "version_name": "2.6.2",
+      "tag": "v2.6.2",
+      "commit": "8908d18f585af19bd9d30347721f39a489616ab0",
+      "timestamp": 1741454725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6a3a2ee367a386eb71fedb553c7c2750fc99d11c3e2a350065532abfc942cef": [
     {
       "repository": "https://github.com/LucasGGamerM/moshidon.git",
@@ -25685,6 +25699,20 @@
       "tag": "v3.8.2",
       "commit": "b19055dfc6e661c265875e87bcf22b6359101f85",
       "timestamp": 1725055364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1c4304bda4d8e89197f849a4e7ae8fb9f9513f1e7f7da561e1121298ae1f0981": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/7.0.0/7.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 700,
+      "version_name": "7.0.0",
+      "tag": "7.0.0",
+      "commit": "4d6daf3e9ea2e0b33c4891e3f25a16f58b1ba14e",
+      "timestamp": 1741394924,
       "reproducible": true,
       "error": null
     }
