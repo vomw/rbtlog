@@ -853,6 +853,20 @@
       "error": null
     }
   ],
+  "d5bd733d022e333a4acc8b997bf4ab5f03ee856f2346e50c0452f82f94c1b73b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.11.1/Podcini.X_release_free_8.11.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 136,
+      "version_name": "8.11.1",
+      "tag": "8.11.1",
+      "commit": "928320d2fec5dfe87776bc550a7d441f516c6db0",
+      "timestamp": 1741625765,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3569,6 +3583,20 @@
       "error": null
     }
   ],
+  "990550d78b8543a31b1a447ef51e8568f9036903f9c5cf31498bd68c0cd07841": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.15/Clock_2.15-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2018,
+      "version_name": "2.15",
+      "tag": "2.15",
+      "commit": "732f1b345ee80eb2116d434e5aa0677c8e761922",
+      "timestamp": 1741626341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "95d9bc0d8442ee62a99ab6587d6679bab4a048632ead0a2b159e8f33770e00a7": [
     {
       "repository": "https://github.com/BinTianqi/OwnDroid.git",
@@ -6117,6 +6145,20 @@
       "error": null
     }
   ],
+  "a4238ebd83254fd7165ab0aa541220bc1d9656f5d2a6e48b7a40cdb5450fc6f6": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.7.6/OuterTune-0.7.6-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 40,
+      "version_name": "0.7.6",
+      "tag": "v0.7.6",
+      "commit": "fdcbe0155fa8f666640d528807b5abb8e2f0313c",
+      "timestamp": 1741636408,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f2b9e9351cf7b043069ebe0115f92382cc23fed8e1a7e0b82b04db6c6e646ee2": [
     {
       "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
@@ -7009,6 +7051,20 @@
       "tag": "0.6.9",
       "commit": "119d528f64e813f0956ec9b4aaad64832c1755a3",
       "timestamp": 1738770917,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d569f138b6ddd4a659077e758aac5fc6db54cd7364661ec5590313fdfb3ced5f": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.10/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 33,
+      "version_name": "0.6.10",
+      "tag": "0.6.10",
+      "commit": "a025dad7a3f00e0884e84debb3a6ac6a6bbb48b9",
+      "timestamp": 1741627905,
       "reproducible": true,
       "error": null
     }
@@ -11627,6 +11683,20 @@
       "timestamp": 1741455976,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpeb51xdkf/outputs:/outputs', '--volume', '/tmp/tmpeb51xdkf/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/kaii-lb/LavenderPhotos.git', '--env', 'APP_TAG=v0.9.1-beta', '--env', 'APP_COMMIT=b048825c64dbd707ba4fa777e0d7a1a982498c86', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "3c47a63f20ccc8045e1b32a4eea62708eb749bac165aa15d275025af1543210d": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.2-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 92,
+      "version_name": "v0.9.2-beta",
+      "tag": "v0.9.2-beta",
+      "commit": "0c7398d979b3d1356f018167821ace35f1cd0fb6",
+      "timestamp": 1741628258,
+      "reproducible": true,
+      "error": null
     }
   ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
