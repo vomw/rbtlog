@@ -23253,6 +23253,20 @@
       "error": null
     }
   ],
+  "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
+    {
+      "repository": "https://github.com/mkckr0/audio-share.git",
+      "apk_url": "https://github.com/mkckr0/audio-share/releases/download/v0.3.4/audio-share-app-0.3.4-release.apk",
+      "appid": "io.github.mkckr0.audio_share_app",
+      "version_code": 3004,
+      "version_name": "0.3.4",
+      "tag": "v0.3.4",
+      "commit": "342751fe675367483170b002ec6054e243966dc0",
+      "timestamp": 1741730038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1a954a8110e4c0bf38e9b636add2e1f6bd29a9641c1da82f408d92fa86e7f53b": [
     {
       "repository": "https://github.com/MuntashirAkon/BatteryChargeLimiter.git",
@@ -23375,6 +23389,20 @@
       "tag": "0.4.5",
       "commit": "401d3ac128023bb5c8f2189781871ca58edb6764",
       "timestamp": 1735842937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1ea21ca153c664107d82abb4ccff07edf4ec6b62054a7ddaabcade348319047": [
+    {
+      "repository": "https://github.com/teccheck/FastLyrics.git",
+      "apk_url": "https://github.com/teccheck/FastLyrics/releases/download/v0.6.2/FastLyrics_v0.6.2.apk",
+      "appid": "io.github.teccheck.fastlyrics",
+      "version_code": 11,
+      "version_name": "0.6.2",
+      "tag": "v0.6.2",
+      "commit": "4222406e3132a456774cf3c02ea6d08ed6ea4bb4",
+      "timestamp": 1741723092,
       "reproducible": true,
       "error": null
     }
