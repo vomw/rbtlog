@@ -24107,6 +24107,20 @@
       "error": null
     }
   ],
+  "47539e5d39eac65811889b25a812450ee29b6d5ecad44664170b81c4100a964f": [
+    {
+      "repository": "https://github.com/dic1911/android_URLSanitizer.git",
+      "apk_url": "https://github.com/dic1911/android_URLSanitizer/releases/download/3.0.2/URLSanitizer-3.0.2-signed.apk",
+      "appid": "moe.dic1911.urlsanitizer",
+      "version_code": 32,
+      "version_name": "3.0.2",
+      "tag": "3.0.2",
+      "commit": "d2d5b970caefed32710ef67b15d27091be06fec0",
+      "timestamp": 1741694799,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "590a449db952809d129c65642473621a549cf11ca2976c3a3bb96032560dbc63": [
     {
       "repository": "https://github.com/Henry-ZHR/firefox_no_home_button.git",
@@ -24509,6 +24523,20 @@
       "tag": "v0.7.72",
       "commit": "9a8dd76429ce17248c715f85a002737cc37239b1",
       "timestamp": 1739823290,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44f7a5f208a08542de8ea7f9929aa83ff2514290eed7aeb4d4afa4a20ff8a2e6": [
+    {
+      "repository": "https://github.com/nhirokinet/bluelineconsole.git",
+      "apk_url": "https://github.com/nhirokinet/bluelineconsole/releases/download/v1.2.22/bluelineconsole-1.2.22.apk",
+      "appid": "net.nhiroki.bluelineconsole",
+      "version_code": 40,
+      "version_name": "1.2.22",
+      "tag": "v1.2.22",
+      "commit": "a080db5ba4763183333796239696781b7e8e650e",
+      "timestamp": 1741688741,
       "reproducible": true,
       "error": null
     }
