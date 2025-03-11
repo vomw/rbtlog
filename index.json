@@ -867,6 +867,20 @@
       "error": null
     }
   ],
+  "402eef1e0972aa3d29f0d75ea24f57868906a7457256988ff69b8edaee9ca2e5": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.11.2/Podcini.X_release_free_8.11.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 137,
+      "version_name": "8.11.2",
+      "tag": "8.11.2",
+      "commit": "f9f9c3e925841d1f9c978b1bbdd79500b3c3ad0c",
+      "timestamp": 1741707235,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2543,6 +2557,20 @@
       "tag": "v1.54.4",
       "commit": "ccedf31b96c380319bcdf9d7eb0f7e7ecb420e97",
       "timestamp": 1741189653,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f8ae24848c70fc5b89a356491b86d219b44344b7a6300ca51ac359279abf4d8b": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.54.5/ArcaneChat-foss-armeabi-v7a-1.54.5.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007151,
+      "version_name": "1.54.5",
+      "tag": "v1.54.5",
+      "commit": "2f79310db63b5638c69ea5524c0fa56008dfb8f4",
+      "timestamp": 1741707720,
       "reproducible": true,
       "error": null
     }
@@ -5123,6 +5151,20 @@
       "error": null
     }
   ],
+  "4ff7a721be088d106f83100f08bec63b0cc0154e051d9bc7f79f99f52d45c663": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.03.1114/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1114,
+      "version_name": "2025.03.1114",
+      "tag": "2025.03.1114",
+      "commit": "9f71f7303a99b6d3c7451223624fd7775c0baf61",
+      "timestamp": 1741708439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -5651,6 +5693,34 @@
       "tag": "v1.5.2",
       "commit": "0ff5871fced3d1c9458e631ce1a9a2e4b256a498",
       "timestamp": 1741018475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbf1904aef6c950604724c0c422f5843a461b96aa61eff8ea4248d69a2026781": [
+    {
+      "repository": "https://github.com/CodeDead/Advanced-PortChecker-android.git",
+      "apk_url": "https://github.com/CodeDead/Advanced-PortChecker-android/releases/download/v1.5.3/app-release.apk",
+      "appid": "com.codedead.advancedportchecker",
+      "version_code": 16,
+      "version_name": "1.5.3",
+      "tag": "v1.5.3",
+      "commit": "d6c525f488c72dfd22d20950a96f048d47938718",
+      "timestamp": 1741708957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "84cbe92d6c63d3f6cc6362324435e180ae5ac1777ff771ecca74a6103810d7b2": [
+    {
+      "repository": "https://github.com/CodeDead/Advanced-PortChecker-android.git",
+      "apk_url": "https://github.com/CodeDead/Advanced-PortChecker-android/releases/download/v1.5.4/app-release.apk",
+      "appid": "com.codedead.advancedportchecker",
+      "version_code": 17,
+      "version_name": "1.5.4",
+      "tag": "v1.5.4",
+      "commit": "fee2100cfd26d885663fe2e5c05429ea3f970da5",
+      "timestamp": 1741715175,
       "reproducible": true,
       "error": null
     }
@@ -10761,6 +10831,48 @@
       "error": null
     }
   ],
+  "c83d7731c59922ed514e18be09192b92c7e46cb400fab8934aca49696788b06f": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.12.00/WebMonkey-004.12.00-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4120011,
+      "version_name": "004.12.00-11API",
+      "tag": "v04.12.00",
+      "commit": "6a87d73ed6c50fbcc5e3f7c6f5ede6eed5190c32",
+      "timestamp": 1741709156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e05f1bae2fb46d3bfaddb60ae898c26f50921ba25281b885ce1311599043ddd6": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.12.00/WebMonkey-004.12.00-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4120011,
+      "version_name": "004.12.00-11API",
+      "tag": "v04.12.00",
+      "commit": "6a87d73ed6c50fbcc5e3f7c6f5ede6eed5190c32",
+      "timestamp": 1741709310,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a449073df14f0e1e9e08facf02fa5fe139800d9aa51539c9017ff87b7a34c113": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.12.00/WebMonkey-004.12.00-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4120011,
+      "version_name": "004.12.00-11API",
+      "tag": "v04.12.00",
+      "commit": "6a87d73ed6c50fbcc5e3f7c6f5ede6eed5190c32",
+      "timestamp": 1741709461,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -14607,6 +14719,20 @@
       "error": null
     }
   ],
+  "1543b6aa8358fa0ab119a85cd9718f7968bc1abccf4b665023769be3ced49ff2": [
+    {
+      "repository": "https://github.com/Patch4Code/Logline.git",
+      "apk_url": "https://github.com/Patch4Code/Logline/releases/download/v.1.0.2/logline-1.0.2.apk",
+      "appid": "com.patch4code.logline",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v.1.0.2",
+      "commit": "c58dce774478642dbe646d586d559d405b7d55a2",
+      "timestamp": 1741714409,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1719cfb8e819c0fe6e706dac29da61e74c10c8c8be4f126e643f5752033b02d7": [
     {
       "repository": "https://github.com/PhilKes/NotallyX.git",
@@ -15867,6 +15993,20 @@
       "error": null
     }
   ],
+  "6f8c30fc1ffdbee3602c55c1dafa9ea1a7e35c81f0b7fccfc20aee37317699c7": [
+    {
+      "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
+      "apk_url": "https://codeberg.org/rootminusone8004/Bazarnote/releases/download/v0.9.0/Bazarnote_13.apk",
+      "appid": "com.rootminusone8004.bazarnote",
+      "version_code": 13,
+      "version_name": "0.9.0",
+      "tag": "v0.9.0",
+      "commit": "d30d8aa045f565d220155d8e7e92d57354285a65",
+      "timestamp": 1741710066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "45e600d9c777fe86164560609c1760c0834caade25a0788ec7d9f8e80fa563f7": [
     {
       "repository": "https://github.com/samyak2403/IPTVmine.git",
@@ -16143,6 +16283,20 @@
       "tag": "v1.6.0",
       "commit": "c43d992b3766eb963767e844cd41b6a424f82d90",
       "timestamp": 1740586527,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6111751562f5b61aeec56dd52633fd960f0b4ac3c9681f6f2d7cb3deea7fd167": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.6.1/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 27,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "3f5b937b698929ab80db5007ab39cd713d786cf0",
+      "timestamp": 1741715326,
       "reproducible": true,
       "error": null
     }
@@ -17109,6 +17263,20 @@
       "tag": "v3.4.0",
       "commit": "89b9e4a30d805a7fc8937190eb05f45f0b7bb4d0",
       "timestamp": 1738951522,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2888f1f11f8051a9b353326397fd657c2df7da394e80a18c2bfa7fcdd317036c": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v2.4.1/CC_v2.4.1.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 40,
+      "version_name": "3.4.1",
+      "tag": "v2.4.1",
+      "commit": "c6a9155e7a896326598ace6066368ff75a413c0e",
+      "timestamp": 1741715570,
       "reproducible": true,
       "error": null
     }
@@ -18131,6 +18299,20 @@
       "tag": "v.1.3.2",
       "commit": "bd166914953f219214cdd461ed76370a860bdb0a",
       "timestamp": 1720735272,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ba5f408cf4f8866b4af352b5abbeade0645a910c47dccb305640e25b705a54a2": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4/chooser-v1.4.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 13,
+      "version_name": "1.4",
+      "tag": "v.1.4",
+      "commit": "91062e58d169bd4fc7672d759a13a07f1f8f9cf7",
+      "timestamp": 1741710274,
       "reproducible": true,
       "error": null
     }
@@ -21879,6 +22061,20 @@
       "tag": "1.2265",
       "commit": "4869024299d00b2ad4ac3de6d8eb70eec52748b9",
       "timestamp": 1741365279,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2571ba7ccaeaaa4bf94b67c0ae146e9f72b5f22da6fd61a2cec0be617ef4f71c": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2266/FairEmail-v1.2266a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2266,
+      "version_name": "1.2266",
+      "tag": "1.2266",
+      "commit": "5a61e650face66aea2dba42ede49622ba894f868",
+      "timestamp": 1741710527,
       "reproducible": true,
       "error": null
     }
@@ -28415,6 +28611,20 @@
       "tag": "v1.7.1",
       "commit": "8963c17c8a2ff78a290b0ae7886997af5963dc2d",
       "timestamp": 1741305223,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f27495f159ff3c493d0a6cac8abeacf5c40a48c9355260d1dc024810be71fe9e": [
+    {
+      "repository": "https://github.com/slowscript/warpinator-android.git",
+      "apk_url": "https://github.com/slowscript/warpinator-android/releases/download/v1.8/warpinator-android_1.8.apk",
+      "appid": "slowscript.warpinator",
+      "version_code": 1080,
+      "version_name": "1.8",
+      "tag": "v1.8",
+      "commit": "2d1d8c3abd05326cb7ff46a22f49274a1e38f0e5",
+      "timestamp": 1741711147,
       "reproducible": true,
       "error": null
     }
