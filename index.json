@@ -23127,6 +23127,20 @@
       "error": null
     }
   ],
+  "048986476af18bba0fc70163ec2611282f79d79950386e5659cc840143d428fd": [
+    {
+      "repository": "https://github.com/ronynn/karui.git",
+      "apk_url": "https://github.com/ronynn/karui/releases/download/1.1/Karui-release.apk",
+      "appid": "io.github.ronynn.karui",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "1.1",
+      "commit": "7d9cdc944c329e7c98877bb0b65deccaab5d8a94",
+      "timestamp": 1741699577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -24103,6 +24117,20 @@
       "tag": "2.0",
       "commit": "04e1c8555aab805dbedaa6c201deb55c2588d819",
       "timestamp": 1729474293,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2f7193b49d6aa8b359a793e9074234ecfc303ca8589b4b720c6f997183f589d0": [
+    {
+      "repository": "https://github.com/dic1911/android_AutoDND.git",
+      "apk_url": "https://github.com/dic1911/android_AutoDND/releases/download/3.2/AutoDND-3.2.apk",
+      "appid": "moe.dic1911.autodnd",
+      "version_code": 7,
+      "version_name": "3.2",
+      "tag": "3.2",
+      "commit": "08603d91bcee631bcc95cb82678ef727d18eb41f",
+      "timestamp": 1741703255,
       "reproducible": true,
       "error": null
     }
