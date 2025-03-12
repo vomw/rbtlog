@@ -1,0 +1,41 @@
+---
+repository: https://github.com/timer-machine/timer-machine-android.git
+updates: releases
+notes:
+  - 'FIXME: 7.6.0 was built from a commit which no longer exists (probably squashed), remove the sed with the next release'
+versions:
+  - tag: 7.6.0
+    apks:
+      - apk_pattern: TimeR.Machine-.*-other-release\.apk
+        apk_url: https://github.com/timer-machine/timer-machine-android/releases/download/7.6.0/TimeR.Machine-v7.6.0.7060002.-other-release.apk
+        build:
+          - sed -r '/firebase/d' -i flavor-google/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleOtherRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/other/release/TimeR.Machine-*-other-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/26163924fb78bf9a87ec6f1c6a2b4f5af36653ba/fe4b0d4adc72c6e49cd5e5c0191395b17d4e6f86/' 'META-INF/version-control-info.textproto'
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
