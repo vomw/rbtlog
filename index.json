@@ -22583,6 +22583,20 @@
       "error": null
     }
   ],
+  "ea62905803e60c5723c9f2d4ab6368f894b3f50f06f456935185306ee4eb67e7": [
+    {
+      "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
+      "apk_url": "https://github.com/Helium314/Local-NLP-Backend/releases/download/v1.2.14/local-nlp-backend_1.2.14-release.apk",
+      "appid": "helium314.localbackend",
+      "version_code": 42,
+      "version_name": "1.2.14",
+      "tag": "v1.2.14",
+      "commit": "d834076955b936887ece07ba05dbf9d582363072",
+      "timestamp": 1741812147,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "67c5bb9096e0aed12654c1cfe0000bfc0c0213de96ec24ca57d5d670fddc3289": [
     {
       "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
@@ -22689,6 +22703,20 @@
       "tag": "v4.2.1",
       "commit": "43b451f27128dc7dda16f45e5385dac591e5b216",
       "timestamp": 1729437249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "084ed2ff2fb930c489831210114128a405f88d5ce4ad558b3bf198a6f6d26ffa": [
+    {
+      "repository": "https://github.com/8VIM/8VIM.git",
+      "apk_url": "https://github.com/8VIM/8VIM/releases/download/v0.17.5/8vim-release.apk",
+      "appid": "inc.flide.vi8",
+      "version_code": 170500,
+      "version_name": "0.17.5",
+      "tag": "v0.17.5",
+      "commit": "a04b75ea88ca9973094d95dc3e01333b5cb2a57a",
+      "timestamp": 1741809421,
       "reproducible": true,
       "error": null
     }

@@ -1,0 +1,37 @@
+---
+repository: https://github.com/8VIM/8VIM.git
+updates: releases
+versions:
+  - tag: v0.17.5
+    apks:
+      - apk_pattern: 8vim-release\.apk
+        apk_url: https://github.com/8VIM/8VIM/releases/download/v0.17.5/8vim-release.apk
+        build:
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.7 -v assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="8vim/build/outputs/apk/release/8vim-release-unsigned.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files "$OUT" 'sed -r s/"generated":"[^"]+Z"/"generated":"2024-06-28T03:57:09.633Z"/' 'res/M7.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
