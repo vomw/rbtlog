@@ -22373,6 +22373,20 @@
       "error": null
     }
   ],
+  "24efce208caec55908bb63c7a6fa1388e65eb5fedfb2d4bdf09bbe9d5cc59e75": [
+    {
+      "repository": "https://github.com/2bllw8/anemo.git",
+      "apk_url": "https://github.com/2bllw8/anemo/releases/download/v2.7.0/app-release.apk",
+      "appid": "exe.bbllw8.anemo",
+      "version_code": 17,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "d9f56e312ca7914b9d917f40037c76709dd9b1a1",
+      "timestamp": 1741821386,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b02296dd7bb626f5ba46cf30d59a41ed452a0e573be3e8837d05b09e8f9beee4": [
     {
       "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
@@ -22523,6 +22537,20 @@
       "tag": "v1.7",
       "commit": "ad5a1e688009d5b5ae54c3481c3f7eab97ef808f",
       "timestamp": 1725785700,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65b40261fa05b249fe21db19c82bf406a47bc96bd6082a32ffb5f4b1d3c550b7": [
+    {
+      "repository": "https://github.com/SimonMarquis/SleepTimer.git",
+      "apk_url": "https://github.com/SimonMarquis/SleepTimer/releases/download/1.3.2/app-release.apk",
+      "appid": "fr.smarquis.sleeptimer",
+      "version_code": 13200,
+      "version_name": "1.3.2",
+      "tag": "1.3.2",
+      "commit": "1bc39fe0fc82516b5ef96a59f4831ad14499a6ea",
+      "timestamp": 1741819533,
       "reproducible": true,
       "error": null
     }
