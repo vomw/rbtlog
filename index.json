@@ -881,6 +881,20 @@
       "error": null
     }
   ],
+  "d76aac84994ef5af44b5741e5942b91b8222acb8149592de738abb983cd48a55": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.11.4/Podcini.X_release_free_8.11.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 139,
+      "version_name": "8.11.4",
+      "tag": "8.11.4",
+      "commit": "6a8b36b38eab20ddd4840de63937661908b9e94a",
+      "timestamp": 1741877245,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1675,6 +1689,20 @@
       "tag": "v4.4.7-ose",
       "commit": "969d92d03753e026125fad8304b9fde08689a978",
       "timestamp": 1738597587,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fdd5265adb5c93f606d363c0750b5034045490d97750d128172f8121ee9ae3d": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.8-ose/davx5-ose-4.4.8-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404080001,
+      "version_name": "4.4.8-ose",
+      "tag": "v4.4.8-ose",
+      "commit": "0c89e3ba3bd4990ccac4dfbd54852242b144c696",
+      "timestamp": 1741877631,
       "reproducible": true,
       "error": null
     }
@@ -21267,6 +21295,20 @@
       "error": null
     }
   ],
+  "808ae612af72ebd8b424ae645a25f83692b4724f9c2bad4ed8b89b2e5ccd4903": [
+    {
+      "repository": "https://github.com/supershadoe/delta.git",
+      "apk_url": "https://github.com/supershadoe/delta/releases/download/2025.03%2B3/app-release.apk",
+      "appid": "dev.shadoe.delta",
+      "version_code": 12,
+      "version_name": "2025.03+3",
+      "tag": "2025.03+3",
+      "commit": "89b0dad86f9b285ba26eb9a8723295b0b9aae74f",
+      "timestamp": 1741887981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -29619,6 +29661,20 @@
       "tag": "1.5.3",
       "commit": "54875476c4cdb1b8a6d593406aa360c298e3b11e",
       "timestamp": 1741106041,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "377ecd835ebb4417fcafb2002972727fc1799a410116364783bf8cdb74bae2a6": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.5.4/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 29,
+      "version_name": "1.5.4",
+      "tag": "1.5.4",
+      "commit": "acf056d53eb824e71b6f2c73203d1319ce8013ec",
+      "timestamp": 1741878024,
       "reproducible": true,
       "error": null
     }
