@@ -15111,6 +15111,20 @@
       "error": null
     }
   ],
+  "0b204d5bb63e0fd1ee3ded72a1f45410bcb82ab49af259ec0d24df4eaceac0e3": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.8.0/baba_1.8.0-free-arm64-v8a-release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031306,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "70aa1ce02ae9117f7d36c32507fb3744dc41a6ad",
+      "timestamp": 1741857554,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -22369,6 +22383,20 @@
       "tag": "v1.7",
       "commit": "7f0174cd99598b381639ebece1c2793ecc8f4fbd",
       "timestamp": 1734891947,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e133ba4589ff9f831c13fa889b8c56e0eb14570fb0cc19b7c1e6dd796fb28e3": [
+    {
+      "repository": "https://github.com/EXALAB/AnLinux-Adfree.git",
+      "apk_url": "https://github.com/EXALAB/AnLinux-Adfree/releases/download/v6.65/app-release.apk",
+      "appid": "exa.lnx.a",
+      "version_code": 665,
+      "version_name": "6.65 Stable",
+      "tag": "v6.65",
+      "commit": "47a023f0e013943ab5d134f080fdad08e3d940bc",
+      "timestamp": 1741860205,
       "reproducible": true,
       "error": null
     }
