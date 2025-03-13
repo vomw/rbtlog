@@ -18597,6 +18597,20 @@
       "error": null
     }
   ],
+  "e6fe6966c0798355f24a97f4d82d55b35dc17411f2dc3460ee6d6b9d8f20b8bb": [
+    {
+      "repository": "https://github.com/w2sv/WiFi-Widget.git",
+      "apk_url": "https://github.com/w2sv/WiFi-Widget/releases/download/1.6.4/1.6.4.apk",
+      "appid": "com.w2sv.wifiwidget",
+      "version_code": 66,
+      "version_name": "1.6.4",
+      "tag": "1.6.4",
+      "commit": "3cced1e6119c235330d1f2acbdc6df4371c48d90",
+      "timestamp": 1741899877,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3497941e3ad91adddaf495c563a314739b1e8703dcebb6a7852a817543fbdb35": [
     {
       "repository": "https://github.com/watea/RadioUpnp.git",
@@ -20437,6 +20451,34 @@
       "tag": "v1.0.1",
       "commit": "28db011c310f03a2c654b4d72c8fd1d13c306dad",
       "timestamp": 1719077195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "551c8158ee01640d5fa4726d48eaf424c88fea009b5cb79a47908ceb584666af": [
+    {
+      "repository": "https://github.com/niendo1/ImapNotes3.git",
+      "apk_url": "https://github.com/niendo1/ImapNotes3/releases/download/v1.4-04/ImapNotes3-v1.4-04-release.apk",
+      "appid": "de.niendo.ImapNotes3",
+      "version_code": 10404,
+      "version_name": "v1.4-04",
+      "tag": "v1.4-04",
+      "commit": "92aab842b7b71e2e3f2408d9adc9023768f07cb0",
+      "timestamp": 1741895026,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
+    {
+      "repository": "https://codeberg.org/qwerty287/ftpclient.git",
+      "apk_url": "https://codeberg.org/qwerty287/ftpclient/releases/download/2.11.3/release.apk",
+      "appid": "de.qwerty287.ftpclient",
+      "version_code": 23,
+      "version_name": "2.11.3",
+      "tag": "2.11.3",
+      "commit": "5ffe1a189a332221f819f772ce243b1098cecf7d",
+      "timestamp": 1741889807,
       "reproducible": true,
       "error": null
     }
