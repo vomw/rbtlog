@@ -20399,6 +20399,20 @@
       "error": null
     }
   ],
+  "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
+    {
+      "repository": "https://github.com/sal0max/currencies.git",
+      "apk_url": "https://github.com/sal0max/currencies/releases/download/1.22.5/de.salomax.currencies-v12205-play-release.apk",
+      "appid": "de.salomax.currencies",
+      "version_code": 12205,
+      "version_name": "1.22.5",
+      "tag": "1.22.5",
+      "commit": "702e13c613f31049d65fa22bb16f501390deea8d",
+      "timestamp": 1741871070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e290e4e217d162db3bda73753821580f45ee32d27e05aecdb0cb1f6f44cd5b60": [
     {
       "repository": "https://github.com/synyx/MeeRoo.git",
@@ -21445,6 +21459,20 @@
       "tag": "v1.9",
       "commit": "9d05e0cbddb737706377311e27560e6e6905d2cb",
       "timestamp": 1718930839,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2611b5e67e19f33644fffea4ce0c0d31f85c3c36e5f6d0a31b7bffa8fc1ff03c": [
+    {
+      "repository": "https://github.com/dubrowgn/wattz.git",
+      "apk_url": "https://github.com/dubrowgn/wattz/releases/download/v1.19/wattz-1.19.apk",
+      "appid": "dubrowgn.wattz",
+      "version_code": 19,
+      "version_name": "1.19",
+      "tag": "v1.19",
+      "commit": "7c37c8487ac557dea516646ad9a3113c7a24db40",
+      "timestamp": 1741867942,
       "reproducible": true,
       "error": null
     }
