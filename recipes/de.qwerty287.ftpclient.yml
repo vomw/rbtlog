@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 2.11.3
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: release\.apk
         apk_url: https://codeberg.org/qwerty287/ftpclient/releases/download/2.11.3/release.apk
         build:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle

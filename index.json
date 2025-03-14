@@ -895,6 +895,20 @@
       "error": null
     }
   ],
+  "f02eebb38fae2d152262bb428e5a842e901d31722d28cd1da122899b8307518e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.11.5/Podcini.X_release_free_8.11.5_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 140,
+      "version_name": "8.11.5",
+      "tag": "8.11.5",
+      "commit": "4ccb2b2282a5e6e80d98d612bc899d182044dbb5",
+      "timestamp": 1741963652,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -5193,6 +5207,20 @@
       "error": null
     }
   ],
+  "f45fc5f731e750ca48ca646e313183d17fba30efd08dcc4f17906a4a39fe9820": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.03.1115-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1115,
+      "version_name": "2025.03.1115-dev",
+      "tag": "2025.03.1115-dev",
+      "commit": "bbcdf22e90ed60eaeec21dfa5f85802797b24e75",
+      "timestamp": 1741964143,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -9221,6 +9249,20 @@
       "tag": "v1.16.3",
       "commit": "a9249e9456bc9b47bba02fdf92f83ad7e5ecdd3c",
       "timestamp": 1741450154,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43ecddf6386126db98761ae8605c99b3e7db41b7f5ad56d3b9eccf0b15d1468d": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.4/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 104,
+      "version_name": "1.16.4",
+      "tag": "v1.16.4",
+      "commit": "608944ab9dfd63e9d49dd461a4ee818001da6072",
+      "timestamp": 1741964639,
       "reproducible": true,
       "error": null
     }
@@ -13499,6 +13541,20 @@
       "tag": "3.47.0",
       "commit": "1b456ff979110a15ae54408b2182a3c73417d294",
       "timestamp": 1740932332,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "858672177680b51821b6bfef70f5771fe2e92b364568a812ae9b75141cc32947": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.48.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 892,
+      "version_name": "3.48.0",
+      "tag": "3.48.0",
+      "commit": "8095cad377297bebdfda061e5375c1b890ba3d7e",
+      "timestamp": 1741964992,
       "reproducible": true,
       "error": null
     }
@@ -19839,6 +19895,20 @@
       "error": null
     }
   ],
+  "91594015b2185194ee4a33d85d0cc720fb1022e42c8a07908c361026592208c1": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.13.2/RecurringExpenseTracker_0.13.2.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 35,
+      "version_name": "0.13.2",
+      "tag": "v0.13.2",
+      "commit": "5ce2f915685933f16992ff08c735fa0bf6d190ab",
+      "timestamp": 1741974378,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -22341,6 +22411,20 @@
       "tag": "1.2267",
       "commit": "7b5e97cb81089fa12b5bd73e95e19fb24a2ee376",
       "timestamp": 1741791525,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "90036bc49683d32e2c4b84b363185b2e69acdf6853ed9b10d115f1bb60290e26": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2268/FairEmail-v1.2268a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2268,
+      "version_name": "1.2268",
+      "tag": "1.2268",
+      "commit": "c0046fe7441f6dfaa708e624270d9ffc513f8667",
+      "timestamp": 1741965494,
       "reproducible": true,
       "error": null
     }
@@ -29395,6 +29479,20 @@
       "tag": "v1.6.0",
       "commit": "72908737c221ff3bd8f32b4d07473bf6d6f76f08",
       "timestamp": 1738254260,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "05be52986bc5f5f835b355fb7b06553b3c1574aac222d446b2538bb557e04b00": [
+    {
+      "repository": "https://github.com/Acclorite/book-story.git",
+      "apk_url": "https://github.com/Acclorite/book-story/releases/download/v1.7.0/book-story.apk",
+      "appid": "ua.acclorite.book_story",
+      "version_code": 12,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "c49e7f95006f6c4016896e2c34d79cf83971fab5",
+      "timestamp": 1741974663,
       "reproducible": true,
       "error": null
     }
