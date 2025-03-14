@@ -3289,6 +3289,20 @@
       "error": null
     }
   ],
+  "96215804d31dae0e9b3492fe97550637b945e8dd524bee2c4249651edfcf13e2": [
+    {
+      "repository": "https://github.com/cioccarellia/androoster.git",
+      "apk_url": "https://github.com/cioccarellia/androoster/releases/download/2025.3/app-release.apk",
+      "appid": "com.andreacioccarelli.androoster",
+      "version_code": 62,
+      "version_name": "1.6.2",
+      "tag": "2025.3",
+      "commit": "353e36a4a107b6505dc4e19834e11419c8775214",
+      "timestamp": 1741982157,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7663dcf3924139df06c9182fe40c8addacdc9c7fcb59216db3f729317762a6e1": [
     {
       "repository": "https://github.com/Lennoard/SysctlGUI.git",
@@ -11839,6 +11853,20 @@
       "error": null
     }
   ],
+  "958258f2cb86d5780a54bf93cd131bb3804124baa8fc452c254139af5176f15b": [
+    {
+      "repository": "https://codeberg.org/kaanelloed/Alembicons.git",
+      "apk_url": "https://codeberg.org/kaanelloed/Alembicons/releases/download/2025.02.00/Alembicons-v2025.02.00.apk",
+      "appid": "com.kaanelloed.iconeration",
+      "version_code": 44,
+      "version_name": "2025.02.00",
+      "tag": "2025.02.00",
+      "commit": "e9e02a98adb8aa524ffb8e132b28131bcdd56973",
+      "timestamp": 1741991817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15c5ce3044cf1e71d29aaf935aebb8dfb51d04b3d0c64a1c14de6688384dcad1": [
     {
       "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
@@ -13555,6 +13583,20 @@
       "tag": "3.48.0",
       "commit": "8095cad377297bebdfda061e5375c1b890ba3d7e",
       "timestamp": 1741964992,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
+    {
+      "repository": "https://github.com/m-i-n-a-r/birday.git",
+      "apk_url": "https://github.com/m-i-n-a-r/birday/releases/download/v4.5.1/Birday-451.apk",
+      "appid": "com.minar.birday",
+      "version_code": 33,
+      "version_name": "4.5.1",
+      "tag": "v4.5.1",
+      "commit": "61ceb75d26b460726393554a9d771d0c5f736ffd",
+      "timestamp": 1741987174,
       "reproducible": true,
       "error": null
     }
