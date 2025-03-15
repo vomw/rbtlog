@@ -10145,6 +10145,20 @@
       "error": null
     }
   ],
+  "dc16b2ee5cd08f8a38b4a9a2ac677e3e2a2086858ac46a5daf6ed6c6e7433425": [
+    {
+      "repository": "https://github.com/tmo1/sms-ie.git",
+      "apk_url": "https://github.com/tmo1/sms-ie/releases/download/v2.4.2/com.github.tmo1.sms_ie-v2.4.2-standard.apk",
+      "appid": "com.github.tmo1.sms_ie",
+      "version_code": 10108,
+      "version_name": "2.4.2-standard",
+      "tag": "v2.4.2",
+      "commit": "78f5b068ce8c46d3d9153b9b6f8fd6f17d055542",
+      "timestamp": 1742074921,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "574c03b881378a7b0d90bc5825d79bc7a2d16299a15463088fc5db50e18df13f": [
     {
       "repository": "https://github.com/umer0586/DroidPad.git",
@@ -25307,6 +25321,20 @@
       "tag": "v2.3.1",
       "commit": "35edb775c3c6866dff90b3ae438ce51f903fb245",
       "timestamp": 1739810757,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5c99c1520f223c20188e6120dafcd35129f3946feb7d23b429aaf747c924949": [
+    {
+      "repository": "https://github.com/casimir/frigoligo.git",
+      "apk_url": "https://github.com/casimir/frigoligo/releases/download/v2.4.0/frigoligo-v2.4.0-arm64-v8a.apk",
+      "appid": "net.casimirlab.frigoligo",
+      "version_code": 2041,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "eab2ae30c1b40864961dc3dca29669a199b5e3a5",
+      "timestamp": 1742072883,
       "reproducible": true,
       "error": null
     }
