@@ -1931,6 +1931,20 @@
       "error": null
     }
   ],
+  "d095e2be38cab1fdebee5ef6f16aafb229a2647894f62e06e48494a3af2e584e": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/17/biz.binarysolutions.healthybatterycharging-2.0.15-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 17,
+      "version_name": "2.0.15",
+      "tag": "17",
+      "commit": "bd53aa0cf12eae9e9b060678e677d790946f03a5",
+      "timestamp": 1742060780,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5a05791ad481c22af69088b9cd1d89e38206d0d9d56e9d54beb0ea1730516811": [
     {
       "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
@@ -2755,6 +2769,20 @@
       "timestamp": 1733391988,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "a8c08f53b0e9f14d9f1777732030db7f733d0cb3e9a38021ec7a12b61b534f77": [
+    {
+      "repository": "https://github.com/LibChecker/LibChecker.git",
+      "apk_url": "https://github.com/LibChecker/LibChecker/releases/download/2.5.1/LibChecker-2.5.1.e4fdf2d96-2343-foss-release.apk",
+      "appid": "com.absinthe.libchecker",
+      "version_code": 2343,
+      "version_name": "2.5.1.e4fdf2d96",
+      "tag": "2.5.1",
+      "commit": "e4fdf2d966a81fde2679c6a33a91fadf36e0a6cf",
+      "timestamp": 1742050040,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "0f0ea1499b120d37d3dfbd9b91ba50207cafc2868743ce73f20ff7e6491856cd": [
@@ -7909,6 +7937,20 @@
       "error": null
     }
   ],
+  "258ea0e16a4e70bc0592cca09740c6bb1a03e222090e17c2e9d2f5c83e38096a": [
+    {
+      "repository": "https://github.com/nooowavailable/tunedetectivex.git",
+      "apk_url": "https://github.com/nooowavailable/tunedetectivex/releases/download/v1.3/app-github-release.apk",
+      "appid": "com.dev.tunedetectivex",
+      "version_code": 7,
+      "version_name": "1.3-github",
+      "tag": "v1.3",
+      "commit": "43c3c51cff95a8f1d30616afa40ebc9fd31361b0",
+      "timestamp": 1742064880,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d11b3697d530801ac022f41ef134c38af06f0f6a369e48ac5ab5bc16e2a19ec6": [
     {
       "repository": "https://github.com/dimrnhhh/moneytopia.git",
@@ -9277,6 +9319,20 @@
       "tag": "v1.16.4",
       "commit": "608944ab9dfd63e9d49dd461a4ee818001da6072",
       "timestamp": 1741964639,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b894e284b7b0a931dbadf4c39de980a27c223bc6e618144c95ec721fd177e1b": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.5/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 105,
+      "version_name": "1.16.5",
+      "tag": "v1.16.5",
+      "commit": "8fde0b913ffb88c3ac7a22e68f30d599b4d134c3",
+      "timestamp": 1742050470,
       "reproducible": true,
       "error": null
     }
@@ -15321,6 +15377,20 @@
       "error": null
     }
   ],
+  "82e285a43b41fb1526c5e2bd53d5d3993ce03f8811c46e2b48b164a617dec968": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.8.1/baba_1.8.1-free-arm64-v8a-release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031326,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "4b36ef9b263e44e7ba7e0b7056e5a6000444fad5",
+      "timestamp": 1742053024,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -18565,6 +18635,34 @@
       "tag": "v3.12.0",
       "commit": "71c555009b24ef90bc22db6d9180b21269bf87ca",
       "timestamp": 1740336190,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01a8690c3eb3e47363224f3cb9eaeb0eb048899f8b0a2f1f9c6d3ff1dafa210d": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.13.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31300,
+      "version_name": "3.13.0",
+      "tag": "v3.13.0",
+      "commit": "24d33d9886863d38303ff07c71512c79c9c5802a",
+      "timestamp": 1742050742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "93ee19fb59b8ccf805b3c7a3c6ef0c954e41f7585669f5939208c768853f88ab": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.13.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31300,
+      "version_name": "3.13.0",
+      "tag": "v3.13.0",
+      "commit": "24d33d9886863d38303ff07c71512c79c9c5802a",
+      "timestamp": 1742050905,
       "reproducible": true,
       "error": null
     }
@@ -23641,6 +23739,20 @@
       "tag": "v1.15.4+62",
       "commit": "9be9cacb85baf10643789d053e2dac12d602539b",
       "timestamp": 1741775979,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6d9c7926081e0c870c534b80bb1033410f09ae43b877a05d65df445437ef9a42": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.15.8%2B66/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2066,
+      "version_name": "1.15.8",
+      "tag": "v1.15.8+66",
+      "commit": "b29650884346170d91413aeeb72b2b0618580c9b",
+      "timestamp": 1742051091,
       "reproducible": true,
       "error": null
     }
@@ -28751,6 +28863,20 @@
       "tag": "v0.14.1",
       "commit": "fe801111e4b8936015b9b31de4cb4fd93d7e30c7",
       "timestamp": 1741021740,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e134cd4e9fa643288819d0cc9f65fabde3f756158407df34a260191ea7238a94": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.14.2/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 39,
+      "version_name": "0.14.2",
+      "tag": "v0.14.2",
+      "commit": "5e55da8cd60fa02594dede543b65c13bcc82e987",
+      "timestamp": 1742063663,
       "reproducible": true,
       "error": null
     }
