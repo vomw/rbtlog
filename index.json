@@ -11097,6 +11097,20 @@
       "error": null
     }
   ],
+  "a7845014169c99a878318fa077ef4b5871e5d75a7a2fa9fabf27c5f83c47ce27": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.2.5/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2122,
+      "version_name": "9.2.5",
+      "tag": "9.2.5",
+      "commit": "01d037e09510b9452d5fb299fcd4c5291c6bf085",
+      "timestamp": 1742051045,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -11261,6 +11275,20 @@
       "tag": "v7.1.1",
       "commit": "7e607ff444981bfee4b6029e1c8c11957b28bde2",
       "timestamp": 1741202995,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4d8352ab1748951737186088d331a6d04344725477aef0ae89344640c8810dad": [
+    {
+      "repository": "https://github.com/oliexdev/openWorkout.git",
+      "apk_url": "https://github.com/oliexdev/openWorkout/releases/download/v1.3.2/openWorkout-1.3.2-fdroid-release.apk",
+      "appid": "com.health.openworkout",
+      "version_code": 15,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "f18c08480e3ec49c596f6c226d984f0970b79b8a",
+      "timestamp": 1742043733,
       "reproducible": true,
       "error": null
     }
@@ -11527,6 +11555,20 @@
       "tag": "v0.46",
       "commit": "0afd90d07218056e53a44a99ac0c680b5d830c78",
       "timestamp": 1719509770,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
+    {
+      "repository": "https://github.com/StellarSand/IYPS.git",
+      "apk_url": "https://github.com/StellarSand/IYPS/releases/download/v1.5.4/IYPS_v1.5.4.apk",
+      "appid": "com.iyps",
+      "version_code": 154,
+      "version_name": "1.5.4",
+      "tag": "v1.5.4",
+      "commit": "bdd8c077a0ebda143245524bbc6794dfb616387e",
+      "timestamp": 1742004892,
       "reproducible": true,
       "error": null
     }
