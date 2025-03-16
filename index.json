@@ -3821,6 +3821,20 @@
       "error": null
     }
   ],
+  "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
+    {
+      "repository": "https://github.com/you-apps/ClockYou.git",
+      "apk_url": "https://github.com/you-apps/ClockYou/releases/download/v9.1/app-release.apk",
+      "appid": "com.bnyro.clock",
+      "version_code": 19,
+      "version_name": "9.1",
+      "tag": "v9.1",
+      "commit": "0a866828a77ecae88b09d187341962038200d2c3",
+      "timestamp": 1742165552,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a008b12be29b6ca83cd33d7ee973f7eab81d60420c57ffbcffa2a51b06fa45ca": [
     {
       "repository": "https://github.com/you-apps/TranslateYou.git",
@@ -29885,6 +29899,20 @@
       "tag": "v1.1.0",
       "commit": "d2db5861f86f81fb3cff073da3c8740a798faee1",
       "timestamp": 1742143091,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f7263b528e45a70df1e0dd1aa19aba1523e4e599a2b27a6b6055c445196ff351": [
+    {
+      "repository": "https://codeberg.org/TipzTeam/pomodoro.git",
+      "apk_url": "https://codeberg.org/TipzTeam/pomodoro/releases/download/1.2.1/app-release.apk",
+      "appid": "tipz.pomodoro",
+      "version_code": 5,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "bddab2023a22b89f191209bd87938b11fd3b134c",
+      "timestamp": 1742151472,
       "reproducible": true,
       "error": null
     }
