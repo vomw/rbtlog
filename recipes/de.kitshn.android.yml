@@ -594,3 +594,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.0-alpha.23
+    apks:
+      - apk_pattern: android-release\.apk
+        apk_url: https://github.com/aimok04/kitshn/releases/download/v1.0.0-alpha.23/android-release.apk
+        build:
+          - sed -r '/signingConfigs\[/d' -i composeApp/build.gradle.kts
+          - export SIGNING_STORE_PASSWORD=SIGNING_STORE_PASSWORD SIGNING_KEY_ALIAS=SIGNING_KEY_ALIAS SIGNING_KEY_PASSWORD=SIGNING_KEY_PASSWORD
+          - touch composeApp/keystore.jks
+          - ./gradlew assembleRelease
+          - mv composeApp/build/outputs/apk/release/composeApp-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
