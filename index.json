@@ -5893,6 +5893,20 @@
       "error": null
     }
   ],
+  "9a357f7449b5f01d437b59a7b19c9b23da06ed1a32d6cc6f5516836808e88ce4": [
+    {
+      "repository": "https://github.com/CDrummond/lms-material-app.git",
+      "apk_url": "https://github.com/CDrummond/lms-material-app/releases/download/0.8.4/lms-material-release-0.8.4.apk",
+      "appid": "com.craigd.lmsmaterial.app",
+      "version_code": 804,
+      "version_name": "0.8.4",
+      "tag": "0.8.4",
+      "commit": "529e439995bb88ec9efaaa6fe427ff86bb87b347",
+      "timestamp": 1742132753,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b7162d87e5602876ff5800bd3474a05af1073c917155704d7200a3944a68e4c": [
     {
       "repository": "https://github.com/christianrowlands/android-network-survey.git",
@@ -6127,6 +6141,20 @@
       "tag": "4.7.0",
       "commit": "0b69ea84c9638c50d4060819268eb3111774fb8e",
       "timestamp": 1728828984,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5afa5383b4ce8f0624a8b6667fbd2099443649a3364ba027c7be756fe9ab7ac7": [
+    {
+      "repository": "https://github.com/Darkempire78/OpenCalc.git",
+      "apk_url": "https://github.com/Darkempire78/OpenCalc/releases/download/v3.1.4/OpenCalc.v3.1.4.apk",
+      "appid": "com.darkempire78.opencalculator",
+      "version_code": 52,
+      "version_name": "3.1.4",
+      "tag": "v3.1.4",
+      "commit": "4ef7c6dd73894d1689b8f8a166885721fb4aa968",
+      "timestamp": 1742125235,
       "reproducible": true,
       "error": null
     }
