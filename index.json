@@ -5823,6 +5823,20 @@
       "error": null
     }
   ],
+  "ae31b60398a239582386f47ce672fc392d00dfeec24017e48420f7123b66a313": [
+    {
+      "repository": "https://github.com/CodeDead/DeadHash-android.git",
+      "apk_url": "https://github.com/CodeDead/DeadHash-android/releases/download/v1.8.3/app-release.apk",
+      "appid": "com.codedead.deadhash",
+      "version_code": 13,
+      "version_name": "1.8.3",
+      "tag": "v1.8.3",
+      "commit": "02ff60747d3d332bbe217659c1ba19d500332cc6",
+      "timestamp": 1742139322,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "95b2996a2bef1b1c8ef803f7d3c68a2a269acef812337257f8a24af982fce8c1": [
     {
       "repository": "https://github.com/LSPosed/CorePatch.git",
@@ -13765,6 +13779,20 @@
       "tag": "v4.5.1",
       "commit": "61ceb75d26b460726393554a9d771d0c5f736ffd",
       "timestamp": 1741987174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a54dadc50f3ef0e67a7aca80aa54bcf43799d94889f56fae005ed892284ddab4": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo/releases/download/v1.5.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 21,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "df5be1d05d9fa4341e3edaa4309e78a7b9d5f802",
+      "timestamp": 1742138210,
       "reproducible": true,
       "error": null
     }
