@@ -3415,6 +3415,20 @@
       "error": null
     }
   ],
+  "440932994bf79eeca71c1aaa177c1368357c32071214d974d27541b20e0fd7bd": [
+    {
+      "repository": "https://github.com/barbeau/gpstest.git",
+      "apk_url": "https://github.com/barbeau/gpstest/releases/download/v3.10.5/osmdroidRelease-v3.10.5.apk",
+      "appid": "com.android.gpstest.osmdroid",
+      "version_code": 24099,
+      "version_name": "3.10.5",
+      "tag": "v3.10.5",
+      "commit": "8f07afeb834a702367ead9bd2fe89ef08fef5525",
+      "timestamp": 1742248923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7663dcf3924139df06c9182fe40c8addacdc9c7fcb59216db3f729317762a6e1": [
     {
       "repository": "https://github.com/Lennoard/SysctlGUI.git",
@@ -3579,6 +3593,20 @@
       "tag": "v0.29",
       "commit": "fe53f2c6a388be7dc69085178c9fb8cd01ca7b01",
       "timestamp": 1728916885,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45c70bc10c1450c5bc930ba174032f1cab35e13c206349183c4e7f2ec651b9e7": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.5c/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1355,
+      "version_name": "4.5.5c",
+      "tag": "v4.5.5c",
+      "commit": "93781fb6268213a7009c649c7d8a045663c7f246",
+      "timestamp": 1742246090,
       "reproducible": true,
       "error": null
     }
