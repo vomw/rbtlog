@@ -25073,6 +25073,20 @@
       "error": null
     }
   ],
+  "20858d65f99bd533bcf0a6a51829a5600b4dfb88f33514a4b74f5d60cd816fe7": [
+    {
+      "repository": "https://github.com/tateisu/SubwayTooter.git",
+      "apk_url": "https://github.com/tateisu/SubwayTooter/releases/download/v5.549/SubwayTooter-main-noFcm-549-5.549-20250309_134611.apk",
+      "appid": "jp.juggler.subwaytooter.noFcm",
+      "version_code": 549,
+      "version_name": "5.549-noFcm",
+      "tag": "v5.549",
+      "commit": "db0ec5e3e5a49345731b7f6dafdcbb1a7509ed34",
+      "timestamp": 1742293941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16dd08d5d537ed29c31510a45cfcec59e7bb0f9801289f6fe1acc00c4f47c695": [
     {
       "repository": "https://github.com/shiftrot/caps2ctrl.git",
@@ -25195,6 +25209,20 @@
       "tag": "v0.1.6",
       "commit": "ac95c8db18a3f8080cbcebb5b34a5ffb5b62c1ec",
       "timestamp": 1726336977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "929911b727c054f7ba9b741115fa83482f3ff9a9f6ba5bf200788230151fa962": [
+    {
+      "repository": "https://github.com/dulanjayabhanu/MediNote.git",
+      "apk_url": "https://github.com/dulanjayabhanu/MediNote/releases/download/v1.0.2/MediNote_v1.0.2.apk",
+      "appid": "lk.dulanjaya.medinote",
+      "version_code": 2,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "4a5a88ab6d56b1cfbfc454b4ae42abc5719c715a",
+      "timestamp": 1742262413,
       "reproducible": true,
       "error": null
     }
