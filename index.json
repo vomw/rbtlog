@@ -1063,6 +1063,20 @@
       "error": null
     }
   ],
+  "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.10.1/Pachli_2.10.1_28_d1e6c1ec_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 28,
+      "version_name": "2.10.1",
+      "tag": "v2.10.1",
+      "commit": "d1e6c1ec48261a72c923db29f56801ca2adf2634",
+      "timestamp": 1742315615,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -2067,6 +2081,20 @@
       "tag": "5",
       "commit": "3906548bfd96d3c22e927ddaa4b2d151a7c26099",
       "timestamp": 1738842621,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d076f510f17449706757534fdfaa8acad288c1afeaeb4baf0885c0e8b070577b": [
+    {
+      "repository": "https://github.com/aghontpi/ad-silence.git",
+      "apk_url": "https://github.com/aghontpi/ad-silence/releases/download/v0.6.2/Ad-silence-v0.6.2.apk",
+      "appid": "bluepie.ad_silence",
+      "version_code": 49,
+      "version_name": "0.6.2-prod",
+      "tag": "v0.6.2",
+      "commit": "8e1c244ee192c1937d6ac8e785be23fe45f71510",
+      "timestamp": 1742304234,
       "reproducible": true,
       "error": null
     }
