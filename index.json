@@ -2337,6 +2337,20 @@
       "error": null
     }
   ],
+  "99e27283edaff5676f299e8267996ea66f2d189090c2ecbcd38230ec1cb45ae0": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.18.1/min-cal-widget-v2.18.1.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 87,
+      "version_name": "2.18.1",
+      "tag": "v2.18.1",
+      "commit": "dd0647d81ea2c93b01fd5683637f442ae276494d",
+      "timestamp": 1742259128,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -2711,6 +2725,20 @@
       "tag": "v1.0.5",
       "commit": "bb62ca681d9b68eca2fa8ebcc0a1d52d84ffc80e",
       "timestamp": 1732735267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b8e7de72eda614fc71e8f3880297224ba5bca03649d26ef931a501b05d12077c": [
+    {
+      "repository": "https://github.com/famoser/Mensa.git",
+      "apk_url": "https://github.com/famoser/Mensa/releases/download/v1.10.0/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 31,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "48f2c3a8764305e21487801f4195588f76800fca",
+      "timestamp": 1742257360,
       "reproducible": true,
       "error": null
     }
