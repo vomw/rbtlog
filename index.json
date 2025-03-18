@@ -3877,6 +3877,20 @@
       "error": null
     }
   ],
+  "69743171d3c1bcca078e9a5cdb96421f4eb40cdc2cf0e0082c7c685e136be3e6": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.16/Clock_2.16-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2019,
+      "version_name": "2.16",
+      "tag": "2.16",
+      "commit": "81f09eb2474c6a54c3a96007986d65a46e4372b5",
+      "timestamp": 1742309241,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "95d9bc0d8442ee62a99ab6587d6679bab4a048632ead0a2b159e8f33770e00a7": [
     {
       "repository": "https://github.com/BinTianqi/OwnDroid.git",
@@ -5539,6 +5553,20 @@
       "tag": "v1.0.7",
       "commit": "129da9f79657aa7eb6a8d354eb50b65ca4abf99f",
       "timestamp": 1741283175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2c277bd6f63f929127c6e4a7089a38519408cbc77c6b96a769f420ba277b4ea5": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.1.0/sefirah-1.1.0.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 9,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "f574d8e2d5f4d837a92b134493ad60924f403428",
+      "timestamp": 1742309366,
       "reproducible": true,
       "error": null
     }
@@ -14673,6 +14701,20 @@
       "tag": "V0.0.3",
       "commit": "e4218b324581ae10ecbe1507094b6b88be89d2ac",
       "timestamp": 1741791277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0150355c50fb6aeae7b2b6c040b5b7e65cfe559fb4ff66113342ad08f13f9715": [
+    {
+      "repository": "https://github.com/cuadratico/NowiChat.git",
+      "apk_url": "https://github.com/cuadratico/NowiChat/releases/download/V0.1.3/NowiChat.apk",
+      "appid": "com.nowichat",
+      "version_code": 5,
+      "version_name": "0.1.3",
+      "tag": "V0.1.3",
+      "commit": "d9b34dc0a4176181eec3d04db376453af009ee27",
+      "timestamp": 1742309935,
       "reproducible": true,
       "error": null
     }
@@ -25031,6 +25073,20 @@
       "error": null
     }
   ],
+  "282906e03aa9ffc23be755a2737a297b8caacc386cdee1d9f5343d9a927d240b": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.75/rimusic-full-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 88,
+      "version_name": "0.6.75",
+      "tag": "v0.6.75",
+      "commit": "18c70979f434dc3ee015a1d13b1b37654080ec79",
+      "timestamp": 1742319987,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp4h20m9yb/outputs:/outputs', '--volume', '/tmp/tmp4h20m9yb/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiMusic.git', '--env', 'APP_TAG=v0.6.75', '--env', 'APP_COMMIT=18c70979f434dc3ee015a1d13b1b37654080ec79', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -26861,6 +26917,20 @@
       "tag": "v1.0",
       "commit": "a00822706c294c9c208949c65f0e03e2640f22da",
       "timestamp": 1740571256,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec6282663785db57a0ab0d3371a114ac7bd8f36e3e2fd717ba8b873a5f93d0e2": [
+    {
+      "repository": "https://codeberg.org/minardil/laundrynotes.git",
+      "apk_url": "https://codeberg.org/minardil/laundrynotes/releases/download/v1.1/app-release.apk",
+      "appid": "org.eagsoftware.laundrynotes",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "1c4ffc0ee85d16e840659f2673eabfbc7d2dd467",
+      "timestamp": 1742322457,
       "reproducible": true,
       "error": null
     }
@@ -29875,6 +29945,20 @@
       "error": null
     }
   ],
+  "f83f2fea2b88bfbede01e61e68515419cfe1411bdae951adc9464c6d4233be1b": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.2.5/flickboard-v0.2.5-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 88,
+      "version_name": "0.2.5",
+      "tag": "v0.2.5",
+      "commit": "b36c7bc07cf009289097e2e7d9ee33f01c4b72ac",
+      "timestamp": 1742312637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "61b85e2bd3f9ce51e2016339fff67f171f39b64899035c1237b46cb092bf3c38": [
     {
       "repository": "https://github.com/elizagamedev/android-textbender.git",
@@ -29927,6 +30011,20 @@
       "tag": "v1.8",
       "commit": "2d1d8c3abd05326cb7ff46a22f49274a1e38f0e5",
       "timestamp": 1741711147,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6dabcd6051a46bb4b43fe88e2b1fe9e30e136a73eba2e06f40fb63bf802e3a59": [
+    {
+      "repository": "https://github.com/slowscript/warpinator-android.git",
+      "apk_url": "https://github.com/slowscript/warpinator-android/releases/download/v1.8.1/warpinator-android_1.8.1.apk",
+      "appid": "slowscript.warpinator",
+      "version_code": 1081,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "cfb0f34e0692bf76ac98ed824180f87c78bb096f",
+      "timestamp": 1742322640,
       "reproducible": true,
       "error": null
     }
@@ -30753,6 +30851,20 @@
       "tag": "1.5.4",
       "commit": "acf056d53eb824e71b6f2c73203d1319ce8013ec",
       "timestamp": 1741878024,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a6385ffe23153c24c0dff7e9f1668b22ed633b45d691d5421bd492ce1f49540": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/1.5.5/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 30,
+      "version_name": "1.5.5",
+      "tag": "1.5.5",
+      "commit": "2e530c14cd56c1af60c6fb3f740528ac49e44aa5",
+      "timestamp": 1742312922,
       "reproducible": true,
       "error": null
     }
