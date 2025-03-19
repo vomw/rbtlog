@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/FossifyOrg/Calculator.git
-updates: releases
+updates: disabled
 notes:
   - build might be flaky? 1.0.1 succeeded once, then failed, then succeeded again.
+  - 2025-03-19 appId changed to org.fossify.math
 versions:
   - tag: 1.0.1
     apks:
