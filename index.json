@@ -1063,6 +1063,20 @@
       "error": null
     }
   ],
+  "0f36a862947ceed50160ba3b1edfb36927469844b88a582d07b37010631321f7": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v5.3.2/Olauncher-v5.3.2.apk",
+      "appid": "app.olauncher",
+      "version_code": 92,
+      "version_name": "v5.3.2",
+      "tag": "v5.3.2",
+      "commit": "bf993daa39265c3bb3898cbde8fdd3e81bd1ae42",
+      "timestamp": 1742329040,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -21697,6 +21711,20 @@
       "tag": "v1.1.1",
       "commit": "f28efba8a6500c9362f1572f0fb99b7c79c8c715",
       "timestamp": 1738879475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "32cd6b138707552e170ff2485ff2bb5d6dc9091cdb13bb31d10654a75026c203": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.47/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23042,
+      "version_name": "1.1.47",
+      "tag": "v1.1.47",
+      "commit": "4815e5180e87d6388679064ac2c770eec5bd323c",
+      "timestamp": 1742341957,
       "reproducible": true,
       "error": null
     }
