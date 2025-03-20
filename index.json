@@ -951,6 +951,34 @@
       "error": null
     }
   ],
+  "a0234dcc5ebcfa9b085c68d14152e37860c257e40e15ca820f821e786069976b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.12.1/Podcini.X_release_free_8.12.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 144,
+      "version_name": "8.12.1",
+      "tag": "8.12.1",
+      "commit": "310daea6ba350aac138396bf9f5f3968f73fc935",
+      "timestamp": 1742482098,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "abad9450b49b584045406680fa4818c54addf8e3a1e059c926dd5171dc40e842": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.12.2/Podcini.X_release_free_8.12.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 145,
+      "version_name": "8.12.2",
+      "tag": "8.12.2",
+      "commit": "4cd35b7782214bc4c1ca9cfcf48996512bcec8fc",
+      "timestamp": 1742492791,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1465,6 +1493,20 @@
       "tag": "v8.0.0",
       "commit": "93ad010f148d5b107d9c74a7cc7d95e9b7afb0df",
       "timestamp": 1740246742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9bc67707f318767eab9ff0329eda1a836e1f9b4fe1a5bc6f9a88df47ca3cba0b": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v8.1.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 810,
+      "version_name": "v8.1.0",
+      "tag": "v8.1.0",
+      "commit": "fb4e515594efb0b2c5f7bbec90ae458818a3cbdd",
+      "timestamp": 1742488336,
       "reproducible": true,
       "error": null
     }
@@ -2361,6 +2403,20 @@
       "tag": "3.35.6",
       "commit": "54f2de01fdf8282a3301e6be7e6450fb89fe16f0",
       "timestamp": 1742223109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76b8e75881a1342d671baae5c4fff96124808d4c5273333a876d62133cbfd542": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.36.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3036000,
+      "version_name": "3.36.0",
+      "tag": "3.36.0",
+      "commit": "73433de728d345f9dd700747c7c854ca326e1990",
+      "timestamp": 1742482823,
       "reproducible": true,
       "error": null
     }
@@ -9435,6 +9491,20 @@
       "error": null
     }
   ],
+  "acc1903b6eded5a5a6fdb8d8c3529593093ce195e7b968042c04a5b070f71d36": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.7.1/com.fibelatti.pinboard-v3.7.1-3070100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3070100,
+      "version_name": "3.7.1",
+      "tag": "v3.7.1",
+      "commit": "d800b453f131c0670f1b25b4d254f5773672b108",
+      "timestamp": 1742483179,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -10887,6 +10957,20 @@
       "error": null
     }
   ],
+  "8e11aeb6bd360f275b5f13aae4a8b4e945e31476cd31e3fff6196ab5b48cfbfb": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.8.1/ExoPlayer-AirPlay-Receiver-003.08.01-21API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3080121,
+      "version_name": "003.08.01-21API",
+      "tag": "v3.8.1",
+      "commit": "ae0649aa401be250f0453aaa657143b4ed648efe",
+      "timestamp": 1742483560,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e16f0a10ac6fe6a1fa1415370e4584f1ba0762bcd69bbe7e845e5c3a72176773": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -11933,6 +12017,20 @@
       "tag": "v7.2.0",
       "commit": "418dc4190e728e2a66934672028a2a58f5480940",
       "timestamp": 1742406392,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9f9199b495a6657e4da71716bcb54e8be8ffd0e51d7376bfb3efb86b8f871db9": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.2.1/NeverTooManyBooks-7.2.1.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 99,
+      "version_name": "7.2.1",
+      "tag": "v7.2.1",
+      "commit": "85df0f9a2e2de931bb020106c36a453cdbc0c31e",
+      "timestamp": 1742483785,
       "reproducible": true,
       "error": null
     }
@@ -13445,6 +13543,20 @@
       "tag": "v2.5.1",
       "commit": "8ec924a42c158f020e888a2c58179be9e645e5c5",
       "timestamp": 1735321902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4411ed7e917afe25a1054dbdc75ecc43cff47f0ec1ae7ae20c1707af80b001ab": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.6.0/FoodExpirationDates-2.6.0-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 38,
+      "version_name": "2.6.0-foss",
+      "tag": "v2.6.0",
+      "commit": "bb22b95bcabbeda06550040f403a3a5c97c6d14e",
+      "timestamp": 1742484148,
       "reproducible": true,
       "error": null
     }
@@ -23801,6 +23913,20 @@
       "error": null
     }
   ],
+  "b5341a3da520acad66575637737572f39f37e93ea59a6eb50f55a38813e5f04c": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.27.4-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536366,
+      "version_name": "0.27.4-beta",
+      "tag": "v0.27.4-beta",
+      "commit": "250fed80612d7d36df60c6ff7fdaa7c739b2821a",
+      "timestamp": 1742484826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "197dff09cf92d1f8e7c571d3e0b5a9e6dfd033ffc0c851134c8bcffc27268468": [
     {
       "repository": "https://github.com/gdzx/audiosource.git",
@@ -28083,6 +28209,20 @@
       "error": null
     }
   ],
+  "ce133df6534313d2c93bf7fa6ffd3b872bf94d496a5d7c5c88312e41ffc54860": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/8.0.0/8.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 800,
+      "version_name": "8.0.0",
+      "tag": "8.0.0",
+      "commit": "0bea8995ac2a7c33cbf053451c97021aee3f4915",
+      "timestamp": 1742493545,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -28499,6 +28639,20 @@
       "tag": "1.6.3",
       "commit": "095d4471ebf419413abf66c791ce38f63575da34",
       "timestamp": 1741457660,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f271d1223462cf8290bf7b7ecf670182c7c8c1609d9a8b3d70b4845b8e73b1a": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.4/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 60,
+      "version_name": "1.6.4",
+      "tag": "1.6.4",
+      "commit": "a983f95be0a30f5a99b6fd57c3a95bbf72a5e9e8",
+      "timestamp": 1742493923,
       "reproducible": true,
       "error": null
     }
