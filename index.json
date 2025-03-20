@@ -3793,6 +3793,20 @@
       "error": null
     }
   ],
+  "74c71ba338ce4047d03477f1053d740077fb5798fc6e423c44fd1e134fa103a8": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.0.apk",
+      "appid": "com.aurora.store",
+      "version_code": 66,
+      "version_name": "4.7.0",
+      "tag": "4.7.0",
+      "commit": "c2e5a57f597db92b499aee9e70807739a7b29766",
+      "timestamp": 1742428814,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
     {
       "repository": "https://github.com/blinskey/greek-reference.git",
@@ -11779,6 +11793,20 @@
       "tag": "v2.0.1",
       "commit": "d142bac9a3f9259bf4bd0cb5d6a9f261627f4f2a",
       "timestamp": 1721646165,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5cabb17375091e2ad47c5d92b2d6c96a37e5fe441ea374b0b4755a06ed481d83": [
+    {
+      "repository": "https://github.com/grmasa/Sound-Toggle.git",
+      "apk_url": "https://github.com/grmasa/Sound-Toggle/releases/download/v1.0.4/SoundToggle-release.apk",
+      "appid": "com.grmasa.soundtoggle",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.4",
+      "commit": "c7e3a53f0a6df6eebfaca5eddee781c5fa7d903b",
+      "timestamp": 1742427553,
       "reproducible": true,
       "error": null
     }
@@ -27141,6 +27169,20 @@
       "tag": "3.6.10",
       "commit": "d24d03f700aa4c00c3a0975b1670b38cc7f8c31c",
       "timestamp": 1742399993,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
+    {
+      "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
+      "apk_url": "https://codeberg.org/minardil/BasicCashFlow/releases/download/v1.0/app-release.apk",
+      "appid": "org.eagsoftware.basiccashflow",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "12ac0c465097d887299d38d46ce0beaadcef0d11",
+      "timestamp": 1742429779,
       "reproducible": true,
       "error": null
     }
