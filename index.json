@@ -1623,6 +1623,20 @@
       "error": null
     }
   ],
+  "a77b843e5d9db7646246102eb937a16ce9f247489d70f56f7820d20ab8bd6c85": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.2.1/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 8,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "93161e3384b39c7e0aa9e5b6b7f3c57a4c3cc497",
+      "timestamp": 1742579183,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -6001,6 +6015,20 @@
       "tag": "1.0.9.4v70",
       "commit": "8dc235711c5ace1250b2eadb0e5ea91f4ec5de3c",
       "timestamp": 1742396367,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "805657dcafcfc1f03d5678f3797fa597589e7d1912d4c4513e83b2d660933d93": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.5v71/PuppyGit_1.0.9.5v71_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 71,
+      "version_name": "1.0.9.5",
+      "tag": "1.0.9.5v71",
+      "commit": "06fdcda9eff0303a68c2be14d8e94dcad3ea7e54",
+      "timestamp": 1742568551,
       "reproducible": true,
       "error": null
     }
@@ -11895,6 +11923,20 @@
       "error": null
     }
   ],
+  "3e39692f7be6a9aa26404f6c472187b43400f4b6e720ace0f15588998cccb567": [
+    {
+      "repository": "https://github.com/grmasa/Sound-Toggle.git",
+      "apk_url": "https://github.com/grmasa/Sound-Toggle/releases/download/v1.0.5/SoundToggle-release.apk",
+      "appid": "com.grmasa.soundtoggle",
+      "version_code": 5,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "3af43a0d0acfa7075c0d44dfd332e8b45ba5479e",
+      "timestamp": 1742569327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6a6f1cfa7eaaf9db96929d0ef7716ca91db0795f5e1b2caca5175133035c5f3c": [
     {
       "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
@@ -15195,6 +15237,20 @@
       "error": null
     }
   ],
+  "02c2e62d729ee2a389bcb3be6795a902dee1f5a836cd0addaf458130320cabca": [
+    {
+      "repository": "https://github.com/cuadratico/NowiPass.git",
+      "apk_url": "https://github.com/cuadratico/NowiPass/releases/download/V0.4.14/app-release.apk",
+      "appid": "com.nowipass",
+      "version_code": 19,
+      "version_name": "0.4.14",
+      "tag": "V0.4.14",
+      "commit": "0fe1ae5f7386b9698c9ad4b88f3a6c4b0b004312",
+      "timestamp": 1742569496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a49d601e2e59f87cd60bbd68d211e0280ee26f7b48eb35b10d5f120600c32c4": [
     {
       "repository": "https://github.com/githubcatw/Sharchive.git",
@@ -16144,6 +16200,20 @@
       "commit": "5885e06884c09e3279eae3536da906f30f63a46b",
       "timestamp": 1740918697,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "e0be08d93d4220d884dd9b3da8d79ced0833dae947d7f57fbb0ee9c84147a9f0": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2025.03.21.2/2025.03.21.2-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111119,
+      "version_name": "2025.03.21.2",
+      "tag": "2025.03.21.2",
+      "commit": "6ba9cfe67f412012016e6ed10e911b31fc77a1f1",
+      "timestamp": 1742569715,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -22597,6 +22667,20 @@
       "error": null
     }
   ],
+  "e96260115aab1c33dacbd1fbd6525cc553fce5018cf6de78ab6d6f2ac10382a4": [
+    {
+      "repository": "https://github.com/supershadoe/delta.git",
+      "apk_url": "https://github.com/supershadoe/delta/releases/download/2025.03%2B4/app-release.apk",
+      "appid": "dev.shadoe.delta",
+      "version_code": 13,
+      "version_name": "2025.03+4",
+      "tag": "2025.03+4",
+      "commit": "0b9673bde13fd7f940041b49f4d56600441cae98",
+      "timestamp": 1742570062,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -27985,6 +28069,20 @@
       "error": null
     }
   ],
+  "d41f12f89ec6c3d7ace09f5f9d6c99a79a7830c52155c224fdd0ba2dd486ee9f": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.4.5/floccus-build-v5.4.5.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5004005,
+      "version_name": "5.4.5",
+      "tag": "v5.4.5",
+      "commit": "372632345666fb7b9ff1df54745eef3d8d9ee334",
+      "timestamp": 1742570374,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -30809,6 +30907,20 @@
       "tag": "1.2.1",
       "commit": "bddab2023a22b89f191209bd87938b11fd3b134c",
       "timestamp": 1742151472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8fcf80ed2d21f3cddc338df91ec18823ac0b8087f453e9b4b154b29ec8988870": [
+    {
+      "repository": "https://codeberg.org/TipzTeam/pomodoro.git",
+      "apk_url": "https://codeberg.org/TipzTeam/pomodoro/releases/download/1.2.2/app-release.apk",
+      "appid": "tipz.pomodoro",
+      "version_code": 6,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "0d643919ab990b0c0caf5be87309031d46d46cb6",
+      "timestamp": 1742570591,
       "reproducible": true,
       "error": null
     }
