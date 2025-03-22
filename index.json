@@ -5697,6 +5697,20 @@
       "error": null
     }
   ],
+  "e37453a9cb4830088d951d156c86314b3db906a14ef60cfd7ce2429c32609876": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.1.1/Sefirah-1.1.1.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 10,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "bcbd2cfc57e094be95d2fb6e5f3e414968ba622f",
+      "timestamp": 1742670803,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -6029,6 +6043,20 @@
       "tag": "1.0.9.5v71",
       "commit": "06fdcda9eff0303a68c2be14d8e94dcad3ea7e54",
       "timestamp": 1742568551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "18a9ec6eb454cb567b9a1edee91f46889fbdfb236d8f99b30f0f6426b5fd5da8": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.6v72/PuppyGit_1.0.9.6v72_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 72,
+      "version_name": "1.0.9.6",
+      "tag": "1.0.9.6v72",
+      "commit": "9a626e9e2c5b104e4c16665ba8763f9a259c275d",
+      "timestamp": 1742654837,
       "reproducible": true,
       "error": null
     }
@@ -6757,6 +6785,20 @@
       "tag": "v0.7.6",
       "commit": "fdcbe0155fa8f666640d528807b5abb8e2f0313c",
       "timestamp": 1741636408,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "315f0d7ad71b24520332d9848c8fb07cb11a1c58f3684172db914cbfacc2326b": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.7.7/OuterTune-0.7.7-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 41,
+      "version_name": "0.7.7",
+      "tag": "v0.7.7",
+      "commit": "75cd93b6cece71268e4e08066f494e567fc9bc7c",
+      "timestamp": 1742655619,
       "reproducible": true,
       "error": null
     }
@@ -9337,6 +9379,20 @@
       "error": null
     }
   ],
+  "403df087fd314bb92315a017bf6d9f7fbb86fe10b7ae4553793ce62711ff5f72": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.27.0/com.fibelatti.photowidget-v1.27-1270000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1270000,
+      "version_name": "1.27",
+      "tag": "v1.27.0",
+      "commit": "e388d6f27687150797db0a9606c354df466b6021",
+      "timestamp": 1742665591,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -9533,6 +9589,20 @@
       "error": null
     }
   ],
+  "8a6c13ddd3047878abb6d29b53f70e67c385f56d4d262f3269a93d16357065c5": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.8.0/com.fibelatti.pinboard-v3.8-3080000-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3080000,
+      "version_name": "3.8",
+      "tag": "v3.8.0",
+      "commit": "5d96def52d87639e1cafa96ad1ee9716e333c64e",
+      "timestamp": 1742665971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -9557,6 +9627,20 @@
       "tag": "1.27",
       "commit": "cff5775a8627e37fb458b7b0db64e2e597a6d6fb",
       "timestamp": 1722769507,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "acd381a05c62156607b7e83c4087f41d90ce3b32a8b5ddacb28cc21045dab2d8": [
+    {
+      "repository": "https://github.com/Johboh/hassalarm.git",
+      "apk_url": "https://github.com/Johboh/hassalarm/releases/download/1.28/app-release.apk",
+      "appid": "com.fjun.hassalarm",
+      "version_code": 28,
+      "version_name": "1.28",
+      "tag": "1.28",
+      "commit": "b999aaf200529256e699b574860ed965af04f18d",
+      "timestamp": 1742666436,
       "reproducible": true,
       "error": null
     }
@@ -11825,6 +11909,20 @@
       "error": null
     }
   ],
+  "028db3b9db0be34242b0fef82509dca9bc1d0e4808a1bba43320c3d0af4e8961": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.3.7/Telewatch-v1.3.7-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 28,
+      "version_name": "1.3.7",
+      "tag": "v1.3.7",
+      "commit": "6391695099d4069b8ce3e2ceb06b4b462987e17f",
+      "timestamp": 1742656212,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a7845014169c99a878318fa077ef4b5871e5d75a7a2fa9fabf27c5f83c47ce27": [
     {
       "repository": "https://github.com/gokadzev/Musify.git",
@@ -13683,6 +13781,20 @@
       "tag": "8.3.11",
       "commit": "c49ea493ce7e69a1abef64b6b10838572f8ceecd",
       "timestamp": 1736555781,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2524bd30885f87271a449eb6f06b0704d800cc50a723e8c6860e706983b9788": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Backup.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Backup/releases/download/8.3.12/Neo_Backup_8312_release.apk",
+      "appid": "com.machiav3lli.backup",
+      "version_code": 8325,
+      "version_name": "8.3.12",
+      "tag": "8.3.12",
+      "commit": "c2a157695260588de04483998109fbf1bf6f0f2f",
+      "timestamp": 1742665022,
       "reproducible": true,
       "error": null
     }
@@ -16721,6 +16833,20 @@
       "error": null
     }
   ],
+  "bf9ce02ab95d0a01503195fe10dee24204e57b11c777a864e596cd72b4c8fbde": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.2.12/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 212,
+      "version_name": "0.2.12",
+      "tag": "0.2.12",
+      "commit": "2414d8999fb8efac6dd350efc7400c86cf0c03cc",
+      "timestamp": 1742656892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -17571,6 +17697,20 @@
       "tag": "1.0.0",
       "commit": "fd279082120f970aa9c80e001aa3fddd6d181a03",
       "timestamp": 1739982403,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4a480d3b6f1404a80b5473c3f006d7b3aeebef780a15b6e0434432027f87ae65": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/2.0.0/composeApp-release.apk",
+      "appid": "com.shub39.dharmik",
+      "version_code": 2000,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "73e2a74a2862fd9daa9ffae786f634ab74fc269b",
+      "timestamp": 1742657101,
       "reproducible": true,
       "error": null
     }
@@ -25563,6 +25703,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp4h20m9yb/outputs:/outputs', '--volume', '/tmp/tmp4h20m9yb/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiMusic.git', '--env', 'APP_TAG=v0.6.75', '--env', 'APP_COMMIT=18c70979f434dc3ee015a1d13b1b37654080ec79', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "6ade44105c03972a4d1782f0593feee04d8339c0b9dd0e92e4f1f951444b5539": [
+    {
+      "repository": "https://github.com/fast4x/RiMusic.git",
+      "apk_url": "https://github.com/fast4x/RiMusic/releases/download/v0.6.76/rimusic-full-release.apk",
+      "appid": "it.fast4x.rimusic",
+      "version_code": 89,
+      "version_name": "0.6.76",
+      "tag": "v0.6.76",
+      "commit": "4170f169cdd4273ec3ecb391c75f09c258c68dd2",
+      "timestamp": 1742669733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -25979,6 +26133,20 @@
       "tag": "v2.34.4",
       "commit": "e7aac163c28581884972400cc49928c0e7b54bee",
       "timestamp": 1737226030,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "efb3ab0af3ae86c5b13c79810bb4fccdaa50728749879559e1ab4d268c8bcaec": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.34.5/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 147,
+      "version_name": "2.34.5",
+      "tag": "v2.34.5",
+      "commit": "da3eaf36f1b2af8f331354985d4c15cbe79ffc3c",
+      "timestamp": 1742668762,
       "reproducible": true,
       "error": null
     }
@@ -26497,6 +26665,20 @@
       "tag": "2.0.1",
       "commit": "ad50db20d4bc181c0d60d036871e51059e788ace",
       "timestamp": 1741454160,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f29638f2c0ab025f67758626e2484895e2878e62776f743fcee90db2da687172": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/2.0.2/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 9,
+      "version_name": "2.0.2",
+      "tag": "2.0.2",
+      "commit": "b51f5b915c911d00c01f049d6ccd28cc3c9ed866",
+      "timestamp": 1742657838,
       "reproducible": true,
       "error": null
     }
@@ -30921,6 +31103,20 @@
       "tag": "1.2.2",
       "commit": "0d643919ab990b0c0caf5be87309031d46d46cb6",
       "timestamp": 1742570591,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4ddc60bb540a2c3be4a5b56f3e236b57fac4b8672e3a9280993a93e3b95d2f68": [
+    {
+      "repository": "https://codeberg.org/TipzTeam/pomodoro.git",
+      "apk_url": "https://codeberg.org/TipzTeam/pomodoro/releases/download/1.3/app-release.apk",
+      "appid": "tipz.pomodoro",
+      "version_code": 7,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "a84cc3b05dd019c6ee4c6b304f2a8ae5cd2efdc7",
+      "timestamp": 1742657983,
       "reproducible": true,
       "error": null
     }

@@ -950,3 +950,45 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.6.76
+    apks:
+      - apk_pattern: rimusic-full-release\.apk
+        apk_url: https://github.com/fast4x/RiMusic/releases/download/v0.6.76/rimusic-full-release.apk
+        build:
+          - sed -r '/release \{/,/}/ { /signingConfig/d }' -i composeApp/build.gradle.kts
+          - base64 -d > prepare.sh <<< c2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIjBSR0F5QzFacXUiXCkvIlwveW91dHViZWlcL3YxXC9tdXNpY1wvZ2V0X3NlYXJjaF9zdWdnZXN0aW9ucyIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIjF6TnNoRHBGb2giXCkvIlwveW91dHViZWlcL3YxXC9wbGF5bGlzdFwvY3JlYXRlIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgiNEZkbXU5SmtheCJcKS8iXC95b3V0dWJlaVwvdjFcL3N1YnNjcmlwdGlvblwvc3Vic2NyaWJlIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgiOXNaS3JrTWc4cCJcKS8iQ2ciLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJBVzUyY3ZKSUp4IlwpLyJcL3lvdXR1YmVpXC92MVwvcGxheWxpc3RcL2RlbGV0ZSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIkMwWlI5OTN6bWsiXCkvIlwveW91dHViZWlcL3YxXC9hY2NvdW50XC9hY2NvdW50X21lbnUiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJDclEwSmpBWGd2IlwpLyJtdXNpYy55b3V0dWJlLmNvbSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIkRUaWhIQUZhQlIiXCkvIjIuMjAyMTExMSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIkVFcVgweWl6ZjIiXCkvIjE4LjIuMS4yMkMxNjEiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJKSlVRYWVoUkZnIlwpLyJXRUJfUkVNSVgiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJMMnU0Sk5kcDdMIlwpLyJcL3lvdXR1YmVpXC92MVwvbGlrZVwvcmVtb3ZlbGlrZSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIkxEUmxiT3ZiRjEiXCkvImlPUyIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIk1BcGR5SExNeUoiXCkvIjUiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJRcmdES3d2YW0xIlwpLyJ3d3cueW91dHViZS5jb20iLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJXcExsYXRrclZ2IlwpLyJcL3lvdXR1YmVpXC92MVwvbmV4dCIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIlhwaXVBU3ViclYiXCkvIkRFU0tUT1AiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJhNEFjSFM4Q1NnIlwpLyJJT1MiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJhUXBOQ1ZPZTJpIlwpLyJDZ3RNTjBGa2JERmFXRVJmZHlpOHQ0dTdCaklLQ2dKV1RoSUVHZ0FnV1ElM0QlM0QiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJhdURzam55bENaIlwpLyJcL3lvdXR1YmVpXC92MVwvbXVzaWNcL2dldF9xdWV1ZSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoImR3YlV2aldVbDMiXCkvImh0dHBzOlwvXC93d3cueW91dHViZS5jb21cLyIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoImVjMDltMjBZSDUiXCkvImlQaG9uZTE2LDIiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJmcXFoQlpkMGNmIlwpLyJodHRwczpcL1wvbXVzaWMueW91dHViZS5jb20iLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJoTnBCenpBbjdpIlwpLyJcL3lvdXR1YmVpXC92MVwvYnJvd3NlIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgiaGl6STd5TGpMNCJcKS8iY29tLmdvb2dsZS5pb3MueW91dHViZVwvMjAuMDMuMDIgKGlQaG9uZTE2LDI7IFU7IENQVSBpT1MgMThfMl8xIGxpa2UgTWFjIE9TIFg7KSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoImkzQlJoTHJWMXYiXCkvInRleHRcL2h0bWwsYXBwbGljYXRpb25cL3hodG1sK3htbCxhcHBsaWNhdGlvblwveG1sO3E9MC45LGltYWdlXC9hdmlmLGltYWdlXC93ZWJwLCpcLyo7cT0wLjgiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJpN1dYMmJIVjZSIlwpLyIxLjIwMjUwMTIyLjAxLjAwIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgia3JkTHFwWUx4TSJcKS8iMjAuMDMuMDIiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJrdVNkUUxoUDhJIlwpLyJodHRwczpcL1wvd3d3LnlvdXR1YmUuY29tXC95b3V0dWJlaVwvdjFcL3BsYXllciIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoImxFaTlZTTc0T0wiXCkvIlwveW91dHViZWlcL3YxXC9saWtlXC9saWtlIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgibE9sSUlWdzM4TCJcKS8iNjciLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJtUFZXVnVDeEp6IlwpLyJcL3lvdXR1YmVpXC92MVwvc3Vic2NyaXB0aW9uXC91bnN1YnNjcmliZSIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoIm1jY2hhSENXeUsiXCkvIlwveW91dHViZWlcL3YxXC9wbGF5ZXIiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJtdGNSMEZoRkVsIlwpLyJXRUIiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJuemEzNHNVODhDIlwpLyJodHRwczpcL1wvbXVzaWMueW91dHViZS5jb21cLyIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoInJMb1pQN0JGNGMiXCkvIk1vemlsbGFcLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdFwvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lXC8xMzIuMC4wLjAgU2FmYXJpXC81MzcuMzYgRWRnXC8xMzIuMC4wLjAsZ3ppcChnZmUpIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgic3FEbGZtVjRNdCJcKS8iXC95b3V0dWJlaVwvdjFcL3NlYXJjaCIvJyAtaSBjb21wb3NlQXBwL2J1aWxkLmdyYWRsZS5rdHMKc2VkIC1yICdzL3Byb3BlcnR5T3JFbXB0eVwoInczVEZCRkw3NFkiXCkvIlwveW91dHViZWlcL3YxXC9icm93c2VcL2VkaXRfcGxheWxpc3QiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCnNlZCAtciAncy9wcm9wZXJ0eU9yRW1wdHlcKCJ3THdORVNwUHRWIlwpLyJodHRwczpcL1wvd3d3LnlvdXR1YmUuY29tIi8nIC1pIGNvbXBvc2VBcHAvYnVpbGQuZ3JhZGxlLmt0cwpzZWQgLXIgJ3MvcHJvcGVydHlPckVtcHR5XCgieWU2S0dMWkw3biJcKS8iQXBwbGUiLycgLWkgY29tcG9zZUFwcC9idWlsZC5ncmFkbGUua3RzCg==
+          - bash prepare.sh
+          - PROF_FILE=composeApp/build/intermediates/binary_art_profile/fullRelease/compileFullReleaseArtProfile/baseline.prof
+          - PROF_SHA1=2540147b6ed97a14e2a465e6ea07cf2fb1af586a
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFullRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - OUT="composeApp/build/outputs/apk/full/release/rimusic-full-release.apk"
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines "$OUT" 'META-INF/services/*' 'composeResources/*.xml' 'assets/composeResources/rimusic.composeapp.generated.resources/drawable/*.xml' 'res/*.html' 'res/*.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
