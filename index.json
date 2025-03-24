@@ -979,6 +979,20 @@
       "error": null
     }
   ],
+  "58b341fa29584b07d3f82b2eb4d221059a7df39ea1a28d7614a34e48a75e0044": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.13.0/Podcini.X_release_free_8.13.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 146,
+      "version_name": "8.13.0",
+      "tag": "8.13.0",
+      "commit": "a894398a3fa8a735680c2d3790d082af151e0622",
+      "timestamp": 1742838390,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2095,6 +2109,20 @@
       "tag": "18",
       "commit": "adb341609730ba2800eaa7510b8f8a7055ea1628",
       "timestamp": 1742741227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b2e808c53eaf0607bf23151d046c89fff9eb6d78109a859143a8918deb374ab": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/19/biz.binarysolutions.healthybatterycharging-2.0.17-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 19,
+      "version_name": "2.0.17",
+      "tag": "19",
+      "commit": "4952fd22b14ac0fa3e63e0240f6de1d8cebb5d07",
+      "timestamp": 1742827633,
       "reproducible": true,
       "error": null
     }
@@ -9701,6 +9729,20 @@
       "error": null
     }
   ],
+  "cdd77fa7521acd51f0bb71611df2a00fdc077d1e7a100f9c1218c8d3e22b20fd": [
+    {
+      "repository": "https://github.com/Johboh/hassalarm.git",
+      "apk_url": "https://github.com/Johboh/hassalarm/releases/download/1.30/app-release.apk",
+      "appid": "com.fjun.hassalarm",
+      "version_code": 30,
+      "version_name": "1.30",
+      "tag": "1.30",
+      "commit": "6a45b5ae7ea9e9d411fa2e6080c014544583103c",
+      "timestamp": 1742838855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05cd7ecb9f7bc6737c50aa27d37dd33335dde97f840ca80bbf13445636ce9e01": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -10285,6 +10327,20 @@
       "tag": "2.5.19",
       "commit": "e0cedc5e010a22e4def649575afc004a677e1a4d",
       "timestamp": 1741450406,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73deae4a6b40a5ae6a8a74732688f84b6ecb367cc3435ab766bf8388e6084a99": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.20/fdroidRelease-2.5.20.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30520,
+      "version_name": "2.5.20",
+      "tag": "2.5.20",
+      "commit": "53c240198cad7e6d41e7036317b757e5cd5f8854",
+      "timestamp": 1742827735,
       "reproducible": true,
       "error": null
     }
@@ -15839,6 +15895,20 @@
       "error": null
     }
   ],
+  "6d0caf1da02f99b34e641798db338db0747aac7d9e9e18b9cb3fc4e28954c6c3": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.8.38/orgzly-revived-fdroid-1.8.38.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 244,
+      "version_name": "1.8.38",
+      "tag": "v1.8.38",
+      "commit": "a0da89d958cfaf8dbf0782d0eca47643b6b9f6c1",
+      "timestamp": 1742828076,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8e8f7186a907c353b488af1b78d961ac89fd834c3e7082df91cbecd2290f810e": [
     {
       "repository": "https://github.com/kerero/airdots-double-tap.git",
@@ -17767,6 +17837,20 @@
       "tag": "v1.6.1",
       "commit": "3f5b937b698929ab80db5007ab39cd713d786cf0",
       "timestamp": 1741715326,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2cc546beb981e92c25911e152cb7db724d61f824cd7db7c12fed8656fb089ff5": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.7.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 28,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "aa04fb2c35ace5d98c53be972d0482bc0455f46f",
+      "timestamp": 1742839120,
       "reproducible": true,
       "error": null
     }
@@ -27943,6 +28027,20 @@
       "error": null
     }
   ],
+  "6224d15fda9475e02cacdbe57486e82be2c4c8592fc6db874a9269590762d64c": [
+    {
+      "repository": "https://github.com/FossifyOrg/Clock.git",
+      "apk_url": "https://github.com/FossifyOrg/Clock/releases/download/1.1.0/clock-2-foss-release.apk",
+      "appid": "org.fossify.clock",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "9a13e2ef5304e77335130bcd159d928f1881fd3d",
+      "timestamp": 1742828338,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "568ac7597064bdaec690571a2e5d263441f4cc495ca220a90015a9922a875e72": [
     {
       "repository": "https://github.com/FossifyOrg/Contacts.git",
@@ -28191,6 +28289,20 @@
       "tag": "1.1.5",
       "commit": "79d4782caf0447f6532712f7793dfb615704a9d9",
       "timestamp": 1738520546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d40edc545a909d7db123ad40947d970c9de5b9b1e0edf7edd58a464b0c784902": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.6/messages-9-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 9,
+      "version_name": "1.1.6",
+      "tag": "1.1.6",
+      "commit": "4832d69e070983c58a56a491099d829f78b27b7d",
+      "timestamp": 1742828581,
       "reproducible": true,
       "error": null
     }
@@ -28639,6 +28751,20 @@
       "tag": "v3.14",
       "commit": "6d65bf819f55874464b67a4c4e3e21b5eb6a5fee",
       "timestamp": 1738957260,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "651d219ecc5abe64d18b2303ec210084c37db4c3df02c85fcf48e5e48d51243e": [
+    {
+      "repository": "https://github.com/MaintainTeam/Hypatia.git",
+      "apk_url": "https://github.com/MaintainTeam/Hypatia/releases/download/v3.15/hypatia_v3.15.apk",
+      "appid": "org.maintainteam.hypatia",
+      "version_code": 315,
+      "version_name": "3.15",
+      "tag": "v3.15",
+      "commit": "018942aa7747a8e34f1455a195ca7b3fa5d9874f",
+      "timestamp": 1742828865,
       "reproducible": true,
       "error": null
     }
