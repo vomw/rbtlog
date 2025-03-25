@@ -41,3 +41,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.2.0
+    apks:
+      - apk_pattern: ReadeckApp.*\.apk
+        apk_url: https://github.com/jensomato/ReadeckApp/releases/download/v0.2.0/ReadeckApp-0.2.0.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - export KEY_ALIAS=KEY_ALIAS KEYSTORE_PASSWORD=KEYSTORE_PASSWORD KEY_PASSWORD=KEY_PASSWORD
+          - PROF_FILE=app/build/intermediates/binary_art_profile/githubReleaseRelease/compileGithubReleaseReleaseArtProfile/baseline.prof
+          - PROF_SHA1=b52713d1897c7f62622fe59783ea33d5dda15882
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleGithubReleaseRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/githubRelease/release/ReadeckApp-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
