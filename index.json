@@ -1175,6 +1175,20 @@
       "error": null
     }
   ],
+  "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build104.0.0/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10400,
+      "version_name": "Build104.0.0",
+      "tag": "build104.0.0",
+      "commit": "0d58e081921a8053f73c8f2e3d47ad8a6c528346",
+      "timestamp": 1743114204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -3187,6 +3201,20 @@
       "tag": "v1.16",
       "commit": "05ff4f16ad6f11616ff1c3c5f6eae81bbe9950b1",
       "timestamp": 1743079508,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c88f24bd54d87817705b3038499d35cb6234ad78c9306ea6c625023bd4d0942": [
+    {
+      "repository": "https://github.com/aicodix/rattlegram.git",
+      "apk_url": "https://github.com/aicodix/rattlegram/releases/download/v1.16/app-release.apk",
+      "appid": "com.aicodix.rattlegram",
+      "version_code": 17,
+      "version_name": "1.16",
+      "tag": "v1.16",
+      "commit": "0bd6f688b6c11c1e9f55716903e9e5b6d3f06262",
+      "timestamp": 1743118736,
       "reproducible": true,
       "error": null
     }
