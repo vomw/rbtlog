@@ -1021,6 +1021,20 @@
       "error": null
     }
   ],
+  "279d77e17bbac3b699b532f09798d22557e993f6e9c08a27d36da43ebedfe5af": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.13.5/Podcini.X_release_free_8.13.5_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 151,
+      "version_name": "8.13.5",
+      "tag": "8.13.5",
+      "commit": "120ca27748511b06da7dc6c5f3047d5988c97279",
+      "timestamp": 1743183987,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -1689,6 +1703,20 @@
       "tag": "v1.2.1",
       "commit": "93161e3384b39c7e0aa9e5b6b7f3c57a4c3cc497",
       "timestamp": 1742579183,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "47af0ba5b4e149979bd489e2285d20637451653973a99c147e03ba06d8541c78": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.2.2/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 9,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "f5ee2f87514116f03b28298a48e91e445cecb278",
+      "timestamp": 1743180993,
       "reproducible": true,
       "error": null
     }
@@ -18191,6 +18219,20 @@
       "error": null
     }
   ],
+  "3f0bc47bc9c43c5af5a00728779c07513ff53c36894c2b8e1eb31116029359db": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/2.1.0/composeApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 2100,
+      "version_name": "2.1.0-online",
+      "tag": "2.1.0",
+      "commit": "703f3f9c89dcc1dae67aa35c4b3151fe0252d1f5",
+      "timestamp": 1743168244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "563a268bc436a35883d537dd9fea6985bee2adc4cefefd53b50860fb179e0611": [
     {
       "repository": "https://github.com/shub39/Grit.git",
@@ -20515,6 +20557,20 @@
       "error": null
     }
   ],
+  "182f1c54bebb92c619283e2aa9cf03dc293816451c89b461b40aaa629992cd05": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.34/app-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27134,
+      "version_name": "2.71.34",
+      "tag": "V2.71.34",
+      "commit": "7313e70decbac6f80bae6068ef004feee6281761",
+      "timestamp": 1743181302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -21785,6 +21841,20 @@
       "error": null
     }
   ],
+  "ea8a5fef2bfed5e407fd98ed8a672fe91b2e1fe1eced34f69c739f66334c403f": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.18.5/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 193,
+      "version_name": "2.18.5",
+      "tag": "v2.18.5",
+      "commit": "e7b63dfa724170f1736d15bfc770feca45f211f9",
+      "timestamp": 1743181545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ee1d4b9dfedd5e8f4afb7b81ec1a5e9791c75bd67fa9d87adb0bc5055c38d394": [
     {
       "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
@@ -22257,6 +22327,20 @@
       "tag": "v1.0.0-alpha.24",
       "commit": "4715c2444e2afd340939a76c7b1d3523536ead5c",
       "timestamp": 1742742422,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "275a101121927f1e95eb978f29dc1aceeb130a15aa9c9a030be60dc3ce51aba2": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.0.0/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 10000,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "1d026cbdeaa6b1d99878ca873618378366bf5d93",
+      "timestamp": 1743181957,
       "reproducible": true,
       "error": null
     }
@@ -23335,6 +23419,20 @@
       "tag": "v3.0.6",
       "commit": "ba6ba0653969c918bc3d9f047a20db647f436e40",
       "timestamp": 1741535138,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9ada39e460e5c8928c9abbdf3794c800d95f2bd3288327a665714dde30ae4643": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v3.0.9/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 39,
+      "version_name": "3.0.9",
+      "tag": "v3.0.9",
+      "commit": "f8a0e07ee00aa7c4d29368dbff2e5686491c92e3",
+      "timestamp": 1743182405,
       "reproducible": true,
       "error": null
     }
@@ -24473,6 +24571,20 @@
       "error": null
     }
   ],
+  "ff9a9e7294329fd6c7e325144b8d622c491763f4a0891dec63c260b99de8b07f": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.92.4-alpha6.1/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 10,
+      "version_name": "0.92.4-alpha6.1",
+      "tag": "v0.92.4-alpha6.1",
+      "commit": "4881bfda12f6c09895a17b6b0f2b202729f287ca",
+      "timestamp": 1743180695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -25395,6 +25507,20 @@
       "error": null
     }
   ],
+  "4356606d34120964aa0abe725c7036cc7d7d5e90a89d0d3376931f18d8618e47": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.3.14/freetube-0.23.3.14-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230003014,
+      "version_name": "0.23.3.14",
+      "tag": "0.23.3.14",
+      "commit": "ef68d342fcb69e2c166bed26ea1587ece99085ba",
+      "timestamp": 1743182686,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -25797,6 +25923,20 @@
       "tag": "1.1",
       "commit": "7d9cdc944c329e7c98877bb0b65deccaab5d8a94",
       "timestamp": 1741699577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "28bfde5e6b8cb3462aa2b65f08b123c59fdb8688c20e563f419bb000cb895d48": [
+    {
+      "repository": "https://github.com/ronynn/karui.git",
+      "apk_url": "https://github.com/ronynn/karui/releases/download/1.2/karui-release.apk",
+      "appid": "io.github.ronynn.karui",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "1445cbac0ba225fbb7fb3be2ae838f0425284a7d",
+      "timestamp": 1743181833,
       "reproducible": true,
       "error": null
     }
@@ -29147,6 +29287,20 @@
       "error": null
     }
   ],
+  "66c0aed0d9ff7d0de0c6d2090323627f89a4aa8d58b8c215b7508605dad6df34": [
+    {
+      "repository": "https://github.com/MaintainTeam/Hypatia.git",
+      "apk_url": "https://github.com/MaintainTeam/Hypatia/releases/download/v3.16/hypatia_v3.16.apk",
+      "appid": "org.maintainteam.hypatia",
+      "version_code": 316,
+      "version_name": "3.16",
+      "tag": "v3.16",
+      "commit": "00634882f8c86fb8a918673695c81cf291775a86",
+      "timestamp": 1743183033,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e3a5905071b1bb78dd04499e9c617eb015fcd10c5afc373e5004e8d3f4def42": [
     {
       "repository": "https://github.com/JingMatrix/ChromeXt.git",
@@ -31159,6 +31313,20 @@
       "tag": "1.7.3",
       "commit": "878ef51f3b4bfafa6f88de764819e30c008aced3",
       "timestamp": 1741792160,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "98d6a64ae33b29c67d2fcb71df6f4739bac70f6f1b6d2486354eb4dda79db7b3": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.7.7/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 52,
+      "version_name": "1.7.7",
+      "tag": "1.7.7",
+      "commit": "e52138113d817905836cbcf754ab924670f7502f",
+      "timestamp": 1743183218,
       "reproducible": true,
       "error": null
     }
