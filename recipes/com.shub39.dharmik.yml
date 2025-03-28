@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/shub39/Dharmik.git
-updates: releases
+updates: disabled
+notes:
+  - switched to com.shub39.dharmik.online
 versions:
   - tag: 1.0.0
     apks:
