@@ -1,10 +1,11 @@
 ---
 repository: https://github.com/fast4x/RiMusic.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXNEEDED: JARs'
   - v0.6.72.1 was built from a non-published commit, see https://github.com/fast4x/RiMusic/issues/5783
   - v0.6.73 cannot be build, see https://github.com/fast4x/RiMusic/issues/5783#issuecomment-2691802282
+  - 2025-03-29 disabled as the project is being discontinued
 versions:
   - tag: v0.6.57.1
     apks:
