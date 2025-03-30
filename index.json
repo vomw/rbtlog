@@ -1035,6 +1035,20 @@
       "error": null
     }
   ],
+  "937cd5b87df8ce794d6b6f507f7d55aab3f745dab82e2ef01f8e18f52106d632": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.13.6/Podcini.X_release_free_8.13.6_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 152,
+      "version_name": "8.13.6",
+      "tag": "8.13.6",
+      "commit": "1d585209a02bff720eb549ebf70aa43049cfa264",
+      "timestamp": 1743346103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -2963,6 +2977,20 @@
       "tag": "v1.56.0",
       "commit": "314ecf1639a8fd05f038d6c3c1d6c37be0be9366",
       "timestamp": 1742138159,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e17fcb700be2f8fc1ee12c3ef7a82a75a75094a957a57ec0e281498d1ffa672": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.56.1/ArcaneChat-foss-armeabi-v7a-1.56.1.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007171,
+      "version_name": "1.56.1",
+      "tag": "v1.56.1",
+      "commit": "f8c678b7ff8757bea955fba5859685f0f8e553bd",
+      "timestamp": 1743353189,
       "reproducible": true,
       "error": null
     }
@@ -9659,6 +9687,20 @@
       "error": null
     }
   ],
+  "ab7c620af8243ea81cc4fe0435862af2e2fae32c0a13b3cb7c8f6019c68e9b8a": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.28.1/com.fibelatti.photowidget-v1.28.1-1280100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1280100,
+      "version_name": "1.28.1",
+      "tag": "v1.28.1",
+      "commit": "7d0bcda578d2b0c87db561fc4bba1f644d93d658",
+      "timestamp": 1743347189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -9893,6 +9935,20 @@
       "tag": "v3.8.2",
       "commit": "22406f65b257a65250f45f598ae482cb7892ead6",
       "timestamp": 1743270755,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "afe90a1f5600df4b2be8ce4b3606ac2aa4db27c71dfddacc91f4c8c842d1a764": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.8.3/com.fibelatti.pinboard-v3.8.3-3080300-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3080300,
+      "version_name": "3.8.3",
+      "tag": "v3.8.3",
+      "commit": "e26597f23b1b1bb9c60e5e292be4c46877f4ddb2",
+      "timestamp": 1743347454,
       "reproducible": true,
       "error": null
     }
@@ -14805,6 +14861,20 @@
       "error": null
     }
   ],
+  "1f87fd22b83f71e18364bce9be3622e32e51c7d8e6bfba6480bb5c61693c3ec4": [
+    {
+      "repository": "https://github.com/EmmaTellblom/Mensinator.git",
+      "apk_url": "https://github.com/EmmaTellblom/Mensinator/releases/download/v2.0/app-release.apk",
+      "appid": "com.mensinator.app",
+      "version_code": 24,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "e29d11edaa5600dcb7ca736f90d6afff4a2a01a7",
+      "timestamp": 1743347816,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c3f23a131fb9472d05b1171ce5f5468fc97f7b5796ee7cd480b2f1431b4b368d": [
     {
       "repository": "https://github.com/mostafaalagamy/Metrolist.git",
@@ -14885,6 +14955,20 @@
       "tag": "v11.2.0",
       "commit": "c85ca8a9bfb3c273a6c159566956e782af592a8d",
       "timestamp": 1743087970,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f965d97259ede44ca675208c8542889cd89e923e61da7f4749dba6f192bfed7a": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v11.3.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 114,
+      "version_name": "11.3.0",
+      "tag": "v11.3.0",
+      "commit": "1b26908bcd3dc92adc9b3cc5f52eca4f02974bfe",
+      "timestamp": 1743348031,
       "reproducible": true,
       "error": null
     }
@@ -17701,6 +17785,20 @@
       "error": null
     }
   ],
+  "5dbd69430725ee6f2483ff13bb7bedd75a1d31136cb2df0a7dbe6c1d639f4dcd": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.0.1/xed-editor-v3.0.1.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 47,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "36f38c9a373ec8471d068578bc9f34812d781f0a",
+      "timestamp": 1743348434,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -19255,6 +19353,20 @@
       "error": null
     }
   ],
+  "33ea08671e9f26a781ce855b25110ab19705296eb8a72008c9d8892e8d71b6f7": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.4.2/CC_3.4.2.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 42,
+      "version_name": "3.4.2",
+      "tag": "v3.4.2",
+      "commit": "e1a4c50f0efeddae8c888a77371cb98c30e51753",
+      "timestamp": 1743348714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -19545,6 +19657,20 @@
       "tag": "v2.6.0",
       "commit": "f3a65dda1d934e1eae2afcb2ca68e24dfbe3f2ef",
       "timestamp": 1742399093,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2036d97a732a4c696f3488a7675d07035e70bc44082919e9a9e495f328d5c670": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.7.0/CM_2.7.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 27,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "3221809a7c7ed95056bd8aa8f815a7fc10bdd258",
+      "timestamp": 1743348911,
       "reproducible": true,
       "error": null
     }
@@ -20539,6 +20665,20 @@
       "tag": "v1.0.1",
       "commit": "e77aee10346ef1b77cb692f017b47eac06190c17",
       "timestamp": 1737851771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43c6cc208b3db578ede3484092ecc338cd4906a04403227b913d68d62c7008cc": [
+    {
+      "repository": "https://github.com/VishnuSanal/RemindMe.git",
+      "apk_url": "https://github.com/VishnuSanal/RemindMe/releases/download/v1.1.0/remind-me-v1.1.0.apk",
+      "appid": "com.vishnu.remindme",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "c20f51e68792659979dd7b02cc794c8526d0ec80",
+      "timestamp": 1743354383,
       "reproducible": true,
       "error": null
     }
@@ -23003,6 +23143,20 @@
       "error": null
     }
   ],
+  "f1a7b7f7aabbcf94eb6efea1140f98c66ed08f587b5a46c54e2787ef653d8f7b": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.48/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23052,
+      "version_name": "1.1.48",
+      "tag": "v1.1.48",
+      "commit": "6784c6c0c6db3198b50ea655c07f1c7cdafef4f6",
+      "timestamp": 1743349186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f27df9a55ae0f4cf2b504d952c2027daad40223759ad580485cb67da7dc34375": [
     {
       "repository": "https://github.com/JahidHasanCO/BMI-Calculator.git",
@@ -24959,6 +25113,20 @@
       "tag": "v0.27.5-beta",
       "commit": "37d06202aec2ea6d13f73bf253254abbdf4d3b3d",
       "timestamp": 1743260188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dbf0bc80438ac9942b6e2c1f6870f62610167b7cc429c4035245527228d985fa": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.28.0-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536368,
+      "version_name": "0.28.0-beta",
+      "tag": "v0.28.0-beta",
+      "commit": "bb8d85ddb373e67509b2d03231cd52a6e5390cdd",
+      "timestamp": 1743349882,
       "reproducible": true,
       "error": null
     }
@@ -32097,6 +32265,20 @@
       "tag": "v1.2.0",
       "commit": "6d16bfcf829078cd7915c810898031417614b4be",
       "timestamp": 1742237082,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45af339f3cf7fe474bf6b299d3dc39fe90ec488503b5692e7ccaf926680c37b9": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.3.0/tranquilstopwatch-5.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 5,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "fed54bf636fd9c73489c357a4ed8823b95d0520b",
+      "timestamp": 1743350226,
       "reproducible": true,
       "error": null
     }
