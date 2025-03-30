@@ -21491,6 +21491,20 @@
       "error": null
     }
   ],
+  "057ffac452f55ed9b98611ef2ba35a315c4f111f42dedd55db7b5084a5b14e61": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.0.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.0.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 93,
+      "version_name": "16.0.0",
+      "tag": "16.0.0",
+      "commit": "411426ebe54e32538aa0f0ac8285ef38a2a30dfb",
+      "timestamp": 1743350244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -31355,6 +31369,20 @@
       "tag": "v2.0.2",
       "commit": "7f40dbb24a057a0395c57a07483f40fb71b040d6",
       "timestamp": 1720711357,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "685634ab4a889ac386bc6a7691317632404adb26bc52bb1016e7fceef38e514c": [
+    {
+      "repository": "https://github.com/Crazy-Marvin/VacationDays.git",
+      "apk_url": "https://github.com/Crazy-Marvin/VacationDays/releases/download/v15.0/app-release.apk",
+      "appid": "rocks.poopjournal.vacationdays",
+      "version_code": 15,
+      "version_name": "15.0",
+      "tag": "v15.0",
+      "commit": "36b9a4ddc4c7be745ad304c6ce5cb8ba39c66587",
+      "timestamp": 1743280874,
       "reproducible": true,
       "error": null
     }
