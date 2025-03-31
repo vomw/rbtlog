@@ -1203,6 +1203,20 @@
       "error": null
     }
   ],
+  "de52c1e9e0a185bcb205d782972a11dfa5f260121ee5962d443706302454c72e": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.11.0/Pachli_2.11.0_29_d462cfa2_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 29,
+      "version_name": "2.11.0",
+      "tag": "v2.11.0",
+      "commit": "d462cfa2160078b543b7ccfc4bbd74d8eb74ae71",
+      "timestamp": 1743432491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -3975,6 +3989,20 @@
       "error": null
     }
   ],
+  "6580aa1c375cb805dfdc044011a8f1265e03e885bbf3e0d6f942300cb1e833db": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.6/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1356,
+      "version_name": "4.5.6",
+      "tag": "v4.5.6",
+      "commit": "f169ef26ecee71b09ac62fdfe143a1ae8f45a180",
+      "timestamp": 1743433067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -5837,6 +5865,20 @@
       "error": null
     }
   ],
+  "186a5533798ff5aaf5adef88c9e42d0ad8b65338b0c72726542ef814ac0f4d44": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.03.1120/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1120,
+      "version_name": "2025.03.1120",
+      "tag": "2025.03.1120",
+      "commit": "daad3a7deeb6c4ba3e3962ae9e5e96163117aaf4",
+      "timestamp": 1743433280,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -5945,6 +5987,20 @@
       "tag": "v1.1.1",
       "commit": "bcbd2cfc57e094be95d2fb6e5f3e414968ba622f",
       "timestamp": 1742670803,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "61a6f7186293faf5e3c4316a5d37b852b94b117708329e129f8e5c732e0c1ef5": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.1.2/sefirah-1.1.2.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 11,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "2d604036367b98cdf5b27a805a91b20c6eb0f9ea",
+      "timestamp": 1743434802,
       "reproducible": true,
       "error": null
     }
@@ -6295,6 +6351,20 @@
       "tag": "1.0.9.6v72",
       "commit": "9a626e9e2c5b104e4c16665ba8763f9a259c275d",
       "timestamp": 1742654837,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "df5312d10cca849ab6c866b210f06a29599a0ddc5b5e2d4d17ed79d2db7465d2": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.7v73/PuppyGit_1.0.9.7v73_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 73,
+      "version_name": "1.0.9.7",
+      "tag": "1.0.9.7v73",
+      "commit": "9661100b245326f6963c8ab1f405841b20b29d5d",
+      "timestamp": 1743435651,
       "reproducible": true,
       "error": null
     }
@@ -7346,6 +7416,20 @@
       "commit": "5062d413e2fade988f16b96c616268e1db3a31c8",
       "timestamp": 1736559361,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a97f81bfe9d47caffa2e07f60dd137c290fe396c1305d269b8c6242249dea8e": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v5.32.43/MMRL-5.32.43-33393-release.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 33393,
+      "version_name": "5.32.43-release",
+      "tag": "v5.32.43",
+      "commit": "9dd5eb4c45e802ed2d2602446686df618e4c0613",
+      "timestamp": 1743436582,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -12381,6 +12465,20 @@
       "tag": "v1.3.8",
       "commit": "97a098d38efd36bb1fe39ae44aa7f2d42f39829a",
       "timestamp": 1742924794,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8dbcc579df1242238cd3b147fa4518765ac8ce17fd8d57f6e9d48b6efe9ecd2a": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.3.9/Telewatch-v1.3.9-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 30,
+      "version_name": "1.3.9",
+      "tag": "v1.3.9",
+      "commit": "c0b63cc879682806933071af580976a2d78833ca",
+      "timestamp": 1743437775,
       "reproducible": true,
       "error": null
     }
@@ -21645,6 +21743,20 @@
       "error": null
     }
   ],
+  "feec7776b6ee47ad492149fb96db318b665c0676843094a48dc13100f47eb0fb": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.1.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.1.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 94,
+      "version_name": "16.1.0",
+      "tag": "16.1.0",
+      "commit": "e32b95006bb86341966541a94242a0379dd09b49",
+      "timestamp": 1743438130,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -22061,6 +22173,20 @@
       "tag": "v2.18.5",
       "commit": "e7b63dfa724170f1736d15bfc770feca45f211f9",
       "timestamp": 1743181545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5cfe8872ffb7372c4db3ad2c052b28c4fcabdf846810b036f89b4af8acbe500": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.19.0/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 194,
+      "version_name": "2.19.0",
+      "tag": "v2.19.0",
+      "commit": "682b84b4269706b4282b8782b7b1c95ca8beac60",
+      "timestamp": 1743438497,
       "reproducible": true,
       "error": null
     }
@@ -24711,6 +24837,20 @@
       "error": null
     }
   ],
+  "990d6ec61deadf7b355cb4c233efabdfabd9e6814644b977fc331b4b0721ff9a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2270/FairEmail-v1.2270a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2270,
+      "version_name": "1.2270",
+      "tag": "1.2270",
+      "commit": "2d5f58f3df6b0993dea4eeaa97a15c0ef862b022",
+      "timestamp": 1743438869,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -25127,6 +25267,20 @@
       "tag": "v0.28.0-beta",
       "commit": "bb8d85ddb373e67509b2d03231cd52a6e5390cdd",
       "timestamp": 1743349882,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6808d98151e56cd86b47a7c713d0859d33cbf7cdf5b66a6df970b280c86674bc": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.29.0-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536370,
+      "version_name": "0.29.0-beta",
+      "tag": "v0.29.0-beta",
+      "commit": "80781353311e06c99ddd64a290db067b3603301e",
+      "timestamp": 1743439599,
       "reproducible": true,
       "error": null
     }
