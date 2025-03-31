@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v15.0
     apks:
-      - apk_pattern: VacationDays.*\.apk
+      - apk_pattern: app-release\.apk
         apk_url: https://github.com/Crazy-Marvin/VacationDays/releases/download/v15.0/app-release.apk
         build:
           - rm -rf .git

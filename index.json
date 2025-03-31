@@ -26991,6 +26991,20 @@
       "error": null
     }
   ],
+  "bc887804282fab020eaff4f0248760677740c4be3bd850d2b49efd5f14e946d6": [
+    {
+      "repository": "https://github.com/tahaak67/Farhan.git",
+      "apk_url": "https://github.com/tahaak67/Farhan/releases/download/v0.2.4/app-release.apk",
+      "appid": "ly.com.tahaben.farhan",
+      "version_code": 9,
+      "version_name": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "606c116ce3da163d01d048f2cd109543e5315414",
+      "timestamp": 1743412911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "97da6e1733f77ca42f6cfb94559a48cea6e1dd786da5d5665f166ff30ea0800f": [
     {
       "repository": "https://github.com/Arian04/android-hid-client.git",
@@ -32923,6 +32937,20 @@
       "tag": "v0.1.5",
       "commit": "205486ef0083515dff18bf9744bab77c527bacf6",
       "timestamp": 1741277930,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "438015e70e3163b623bb2256b4d6633710ff3a7964f30a317175550b0899704f": [
+    {
+      "repository": "https://codeberg.org/phileix/ddns-android.git",
+      "apk_url": "https://codeberg.org/phileix/ddns-android/releases/download/v0.1.6/ddns-updater-v0.1.6.apk",
+      "appid": "xyz.philei.ddnsupdater",
+      "version_code": 5,
+      "version_name": "0.1.6",
+      "tag": "v0.1.6",
+      "commit": "43f71fa674c0aae662c3b848de60c4e91a233870",
+      "timestamp": 1743435953,
       "reproducible": true,
       "error": null
     }
