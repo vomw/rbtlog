@@ -1049,6 +1049,20 @@
       "error": null
     }
   ],
+  "2e0432586477969cb29d9838822b2e653667eb0ec5bdcb22b5d398b115aa21bd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.0/Podcini.X_release_free_8.14.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 153,
+      "version_name": "8.14.0",
+      "tag": "8.14.0",
+      "commit": "c3dfd93c34ed633bec2792f2c81a60a8ccfb82f6",
+      "timestamp": 1743525989,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -7433,6 +7447,20 @@
       "error": null
     }
   ],
+  "d79165937b93bab484c0b5acce253bf3ca779b1f1b6a93b36e187df73c9bdf05": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v5.32.44/MMRL-5.32.44-33404-release.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 33404,
+      "version_name": "5.32.44-release",
+      "tag": "v5.32.44",
+      "commit": "0bcd4c452842eadef6c37f2e8fd8522105c91796",
+      "timestamp": 1743515250,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp4k94lq9f/outputs:/outputs', '--volume', '/tmp/tmp4k94lq9f/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/DerGoogler/MMRL.git', '--env', 'APP_TAG=v5.32.44', '--env', 'APP_COMMIT=0bcd4c452842eadef6c37f2e8fd8522105c91796', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -10121,6 +10149,20 @@
       "error": null
     }
   ],
+  "339901fa457c5873d5edcd2a81a4b7856faa4b62f0f380c0c174a36fa3a7c3bd": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.21/app-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 24,
+      "version_name": "1.21",
+      "tag": "v1.21",
+      "commit": "e29a046b6741a2a565ddc8d8a68b034aa6b81399",
+      "timestamp": 1743516505,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a0f87f05598821a4276339d0b729a6674d3678bdb5a481a3103c17bfea1db481": [
     {
       "repository": "https://github.com/Futsch1/medTimer.git",
@@ -10425,6 +10467,20 @@
       "tag": "v1.16.6",
       "commit": "f37759734f363092823b14c171ed9f53225a4637",
       "timestamp": 1742397708,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "57b8a123647a5ce2770672c8a4b2e3431b0cb89f3cb9ad3712f30e8ee224abd6": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.7/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 107,
+      "version_name": "1.16.7",
+      "tag": "v1.16.7",
+      "commit": "2d6d1e90c130fdb9a733180fffc976904d2693bb",
+      "timestamp": 1743516767,
       "reproducible": true,
       "error": null
     }
@@ -16437,6 +16493,20 @@
       "tag": "v1.8.38",
       "commit": "a0da89d958cfaf8dbf0782d0eca47643b6b9f6c1",
       "timestamp": 1742828076,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "66ba181a92e60fa509e6edf67e75b285f233d01252fdaa146ef4e66bbf3207a8": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.9.0/orgzly-revived-fdroid-1.9.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 247,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "6c9baf6c1dd007b3fe4f734611516319bafdc6ec",
+      "timestamp": 1743517020,
       "reproducible": true,
       "error": null
     }
@@ -25285,6 +25355,20 @@
       "error": null
     }
   ],
+  "d6de7353c0061e6fac67fbc32f4c26d850bd22bf1ed1579ea6d05ff4f741a106": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.29.2-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536372,
+      "version_name": "0.29.2-beta",
+      "tag": "v0.29.2-beta",
+      "commit": "fdfbb2c08b9781fd11cec65d9e4f9b1e10f2b041",
+      "timestamp": 1743517278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "197dff09cf92d1f8e7c571d3e0b5a9e6dfd033ffc0c851134c8bcffc27268468": [
     {
       "repository": "https://github.com/gdzx/audiosource.git",
@@ -29245,6 +29329,20 @@
       "error": null
     }
   ],
+  "3ed38ee666ef79804c9c7b8592a245663bd4d37b4802ba3b37f37c70eaeea6ed": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.1.7/messages-10-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 10,
+      "version_name": "1.1.7",
+      "tag": "1.1.7",
+      "commit": "b965022576083500609bd28fe6a77f54021e1d81",
+      "timestamp": 1743517580,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -29339,6 +29437,20 @@
       "tag": "1.3.1",
       "commit": "6b8b36045185d48eadd16f53bcea9317e02da459",
       "timestamp": 1736878665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3c6734b86e9ed8626ddeec3335ee666fd70d0f93077ca1a750dcfeea721ac5ee": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.4.0/phone-7-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 7,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "d0840aac0acfdab7a84910b408b3753aa18410b2",
+      "timestamp": 1743517871,
       "reproducible": true,
       "error": null
     }
@@ -29760,6 +29872,20 @@
       "commit": "0bea8995ac2a7c33cbf053451c97021aee3f4915",
       "timestamp": 1742493545,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "b67b23f9fed5357906190252e0eb77126505e28d1a24fd7c79538f2284554278": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/8.0.1/8.0.1.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 801,
+      "version_name": "8.0.1",
+      "tag": "8.0.1",
+      "commit": "67f70f8815b2a8d2b004a9b6f1308ba934f70814",
+      "timestamp": 1743528134,
+      "reproducible": true,
       "error": null
     }
   ],
