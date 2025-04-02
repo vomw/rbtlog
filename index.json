@@ -1063,6 +1063,20 @@
       "error": null
     }
   ],
+  "25b6669256adc9822f5bff33a888f616b40590e1bb7dc1540fd579eefe70b948": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.1/Podcini.X_release_free_8.14.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 154,
+      "version_name": "8.14.1",
+      "tag": "8.14.1",
+      "commit": "586ebfbf9e7893710d41e6190a65fba7cc6f23b0",
+      "timestamp": 1743601643,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -5893,6 +5907,20 @@
       "error": null
     }
   ],
+  "e190be2fe59b16eac159e7d1232aab3cc1da585391328aa193bbde9891069612": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.04.1121/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1121,
+      "version_name": "2025.04.1121",
+      "tag": "2025.04.1121",
+      "commit": "f66a74689ca5522dbcddf654bc990ea65b203b4b",
+      "timestamp": 1743601901,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -7783,6 +7811,20 @@
       "error": null
     }
   ],
+  "630e38bdbd7c02a8fadf73bb690d2d2453824234d97df033459fc846874e6ef9": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.25/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 25,
+      "version_name": "0.0.25",
+      "tag": "0.0.25",
+      "commit": "0298ef026d8b5a7f59cf8ec29d2408eca270c02b",
+      "timestamp": 1743602375,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -8115,6 +8157,20 @@
       "tag": "0.6.10",
       "commit": "a025dad7a3f00e0884e84debb3a6ac6a6bbb48b9",
       "timestamp": 1741627905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3bb1cd6e41042ba664e868445c84d979ddf2c4c0745e23e624a1d869fc462ec0": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.11/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 34,
+      "version_name": "0.6.11",
+      "tag": "0.6.11",
+      "commit": "ae0f9c0a513ad229f195987b435a19dab4230899",
+      "timestamp": 1743602711,
       "reproducible": true,
       "error": null
     }
@@ -8731,6 +8787,20 @@
       "tag": "4.0.25",
       "commit": "bc658e9417aa46f7b209b5245daf0fd0af351ba9",
       "timestamp": 1742397423,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "68785e8ee0c95bd038c35f57fbf28696560cf3a8e167ef4bcc0ccf0ebd56361f": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.26/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 144,
+      "version_name": "4.0.26",
+      "tag": "4.0.26",
+      "commit": "26cbdd776db4463e7137643c5c48017f8cb35350",
+      "timestamp": 1743603017,
       "reproducible": true,
       "error": null
     }
@@ -10804,6 +10874,20 @@
       "commit": "6a6c560ba4faee55dd83776d20b20978966a659b",
       "timestamp": 1730052660,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "cf538dbd9c16737d6e4f2ad8785ad834fabdfd6f5b3710b8931250e1d67e686a": [
+    {
+      "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
+      "apk_url": "https://github.com/AEFeinstein/mtg-familiar/releases/download/v3.9.12/com.gelakinetic.mtgfam_3.9.12_1de3f85-release.apk",
+      "appid": "com.gelakinetic.mtgfam",
+      "version_code": 95,
+      "version_name": "3.9.12",
+      "tag": "v3.9.12",
+      "commit": "1de3f85e5f3cbc10d01c7059e445b489f69d3bcf",
+      "timestamp": 1743617557,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -15309,6 +15393,20 @@
       "error": null
     }
   ],
+  "3d3eb24754d73c84e3d6189bad8fb96d8fe24f9814a52cd2ff24179db07c175c": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo/releases/download/v1.7.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 24,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "eb5413b63eb26d1748f3eab34a5f8bec6b42b6bc",
+      "timestamp": 1743603519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -18537,6 +18635,20 @@
       "tag": "2.1.0",
       "commit": "703f3f9c89dcc1dae67aa35c4b3151fe0252d1f5",
       "timestamp": 1743168244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1f65ab0edc8d07da4081cece5de67f794f6973492629533fcc615b4ae7d70e0": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/2.1.3/composeApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 2130,
+      "version_name": "2.1.3-online",
+      "tag": "2.1.3",
+      "commit": "86a3ed7f4deecf8e1f7770e28586df0975e5336c",
+      "timestamp": 1743603774,
       "reproducible": true,
       "error": null
     }
@@ -25379,6 +25491,20 @@
       "tag": "v0.29.2-beta",
       "commit": "fdfbb2c08b9781fd11cec65d9e4f9b1e10f2b041",
       "timestamp": 1743517278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "35df31efcf0a8b57bead78383f33c7ea7e344e578139deb1ab9e39bc9a4c092d": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.29.3-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536373,
+      "version_name": "0.29.3-beta",
+      "tag": "v0.29.3-beta",
+      "commit": "eb26d9636f116cc2c80d7901d4ca4b451e5abe41",
+      "timestamp": 1743604002,
       "reproducible": true,
       "error": null
     }
