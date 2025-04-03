@@ -8,6 +8,7 @@ notes:
   - use "-Pandroid.injected.build.abi=armeabi-v7a" to build a single ABI, see https://github.com/kiwix/kiwix-android/issues/4128#issuecomment-2566396846 (produces different dex etc)
   - first RB for each version will fail. Diff the manifest then, adjust the addition to BASE_VERSION_CODE with the difference and run again; see https://github.com/kiwix/kiwix-android/issues/4120#issuecomment-2659462249
   - 'FIXME: set KIWIX_ANDROID_RELEASE_DATE to automatically adjust versionCode: export KIWIX_ANDROID_RELEASE_DATE="$(git log -1 --format=%cd --date=format:%Y-%m-%d $(git describe --tags --abbrev=0 $APP_TAG))"'
+  - 'FIXME: next release needs env APK_BUILD=true to be set, see https://github.com/kiwix/kiwix-android/pull/4274#issuecomment-2775396148 '
 versions:
   - tag: 3.14.0
     apks:
