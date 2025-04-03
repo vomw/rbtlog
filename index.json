@@ -23577,6 +23577,20 @@
       "error": null
     }
   ],
+  "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
+    {
+      "repository": "https://github.com/itsvic-dev/parcel.git",
+      "apk_url": "https://github.com/itsvic-dev/parcel/releases/download/v1.0.0/app-release.apk",
+      "appid": "dev.itsvic.parceltracker",
+      "version_code": 10000010,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "73fc9dcc322986341e407ebc4e6a18ffcc3a9593",
+      "timestamp": 1743695578,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f27df9a55ae0f4cf2b504d952c2027daad40223759ad580485cb67da7dc34375": [
     {
       "repository": "https://github.com/JahidHasanCO/BMI-Calculator.git",
@@ -27435,6 +27449,20 @@
       "tag": "v1.0.2",
       "commit": "4a5a88ab6d56b1cfbfc454b4ae42abc5719c715a",
       "timestamp": 1742262413,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e3c454ec1bfa83524f01a0b7083dfbc2da4906fbd6714bad80b03d82f380ea0": [
+    {
+      "repository": "https://github.com/LSafer/edgeseek.git",
+      "apk_url": "https://github.com/LSafer/edgeseek/releases/download/0.3-pre.1/edgeseek_0.3-pre.1_release.apk",
+      "appid": "lsafer.edgeseek",
+      "version_code": 15,
+      "version_name": "0.3-pre.1",
+      "tag": "0.3-pre.1",
+      "commit": "bd865d65d9d381b9d0442bdf4107509a55b89546",
+      "timestamp": 1743684298,
       "reproducible": true,
       "error": null
     }
