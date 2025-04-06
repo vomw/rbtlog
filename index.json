@@ -4423,6 +4423,20 @@
       "error": null
     }
   ],
+  "2bee53b2003fc2b2f0819e577f0d433b388eb43091e9e398f24bdc1c4adfbf76": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v6.6/OwnDroid-v6.6.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 38,
+      "version_name": "6.6",
+      "tag": "v6.6",
+      "commit": "576507a78d4056f5577dabfb43f4dde65665af7a",
+      "timestamp": 1743958010,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -6509,6 +6523,20 @@
       "error": null
     }
   ],
+  "ab081df3abd0638bbcbef86124e9b43a90f4bd9b6ab023619b10b4440052709f": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.8v74/PuppyGit_1.0.9.8v74_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 74,
+      "version_name": "1.0.9.8",
+      "tag": "1.0.9.8v74",
+      "commit": "7058466c02bb9ad5080c8eb327b046bbb2657d57",
+      "timestamp": 1743958286,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -7541,6 +7569,20 @@
       "tag": "v1.8.3",
       "commit": "78fd2427eb8e6c4730449cb028a05986506c3ce9",
       "timestamp": 1742147183,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a93b2d8d60d758ab2f8238581d391fc9fddc9839016c806b79f1ca83941ca6bc": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.4/YTDLnis-1.8.4-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108040004,
+      "version_name": "1.8.4",
+      "tag": "v1.8.4",
+      "commit": "f43c82f94ce323bf06fac8c6fbe399ab43dbeac4",
+      "timestamp": 1743959240,
       "reproducible": true,
       "error": null
     }
@@ -10005,6 +10047,20 @@
       "tag": "v1.28.2",
       "commit": "893e7a98ace83c31992d1e4c78ad973601543e84",
       "timestamp": 1743872690,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "644c4fd92eafba7aa361e6d38c6772606cd578369610cf9b7f00c51885addb97": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.28.3/com.fibelatti.photowidget-v1.28.3-1280300-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1280300,
+      "version_name": "1.28.3",
+      "tag": "v1.28.3",
+      "commit": "5f9c3c7acd9d402defdb0800446c167626862011",
+      "timestamp": 1743959689,
       "reproducible": true,
       "error": null
     }
@@ -15575,6 +15631,20 @@
       "error": null
     }
   ],
+  "457d4147f8a1302e894c8ca4914976c4c3afd7090e1fc514fed0b0a5562e3b0d": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo/releases/download/v1.8.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 26,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "bba78e9a919dba2375d0ae4c472c6ce3fdfd9a25",
+      "timestamp": 1743960019,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -16787,6 +16857,20 @@
       "tag": "v1.9.0",
       "commit": "6c9baf6c1dd007b3fe4f734611516319bafdc6ec",
       "timestamp": 1743517020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "70aedfb48ac79b22a5d5c5406b5696ae0372c3c5a52a9b03cb4f347b971a84f3": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.10.0/orgzly-revived-fdroid-1.10.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 251,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "1ea23047501228d8f1c4bd7e2229dfb12a6576c0",
+      "timestamp": 1743960271,
       "reproducible": true,
       "error": null
     }
@@ -21215,6 +21299,20 @@
       "error": null
     }
   ],
+  "622eeb4d61cbe0170b6168f24963326ca69177b94e2606f8d195ccfb2d40ff57": [
+    {
+      "repository": "https://github.com/VishnuSanal/RemindMe.git",
+      "apk_url": "https://github.com/VishnuSanal/RemindMe/releases/download/v1.1.1/remind-me-v1.1.1.apk",
+      "appid": "com.vishnu.remindme",
+      "version_code": 4,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "edb3a1644b2ee0606d759365e3e171f36178e6fd",
+      "timestamp": 1743960601,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -23741,6 +23839,20 @@
       "tag": "v1.1.48",
       "commit": "6784c6c0c6db3198b50ea655c07f1c7cdafef4f6",
       "timestamp": 1743349186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "416e901a5e43538700eab3b9fd98e85702ebd37c7432292845a82d0f19fc5c06": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.49/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23062,
+      "version_name": "1.1.49",
+      "tag": "v1.1.49",
+      "commit": "10634e8ed2de4f9dda19f38e9dc64c141aef8fd4",
+      "timestamp": 1743960882,
       "reproducible": true,
       "error": null
     }
@@ -29455,6 +29567,20 @@
       "error": null
     }
   ],
+  "48c746dbc4ce606cf4de73978ef8f22fab9a04f84ae17fa2bc83631582298da6": [
+    {
+      "repository": "https://github.com/exbin/bined-android.git",
+      "apk_url": "https://github.com/exbin/bined-android/releases/download/0.2.4/bined-android-0.2.4.apk",
+      "appid": "org.exbin.bined.editor.android",
+      "version_code": 11,
+      "version_name": "0.2.4",
+      "tag": "0.2.4",
+      "commit": "4e7279c766429ba75672ff257600d7750eed8ff2",
+      "timestamp": 1743961824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -30865,6 +30991,20 @@
       "tag": "1.6.5",
       "commit": "3758f582dc0ee73ed8ca6f01c3e955278ebdb8a9",
       "timestamp": 1742916113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cad4f7b8d8d6f3e4b75eb048438ac478f4bf9d82b91c1a5bd877833e2f0b71e8": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.6/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 62,
+      "version_name": "1.6.6",
+      "tag": "1.6.6",
+      "commit": "00b526cc31e47afecefeb67a4873bbd45d1a118b",
+      "timestamp": 1743961968,
       "reproducible": true,
       "error": null
     }
@@ -33133,6 +33273,20 @@
       "tag": "v1.3.0",
       "commit": "fed54bf636fd9c73489c357a4ed8823b95d0520b",
       "timestamp": 1743350226,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7ef27256a0113ad5ef7ca0d12d7d417e4dbc91964b44ff127a5f1fff93a0f7d8": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.4.0/tranquilstopwatch-6.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 6,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "c8eb513e2e11158a5a24c96d4bcfecfdf545678a",
+      "timestamp": 1743962140,
       "reproducible": true,
       "error": null
     }
