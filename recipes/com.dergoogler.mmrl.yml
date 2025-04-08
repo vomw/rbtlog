@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/DerGoogler/MMRL.git
 updates: releases
+notes:
+  - 'FIXME: currently stuck, see https://github.com/MMRLApp/MMRL/issues/292#issuecomment-2764636244 '
 versions:
   - tag: v5.31.42
     apks:

@@ -1105,6 +1105,20 @@
       "error": null
     }
   ],
+  "2d14cd719bac066d6b4a43475e1c85b947ee674e8e147db9aa74a566a4a0dbe4": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.4.0/Podcini.X_release_free_8.14.4.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 158,
+      "version_name": "8.14.4.0",
+      "tag": "8.14.4.0",
+      "commit": "a43de613ce5c652bb1e7e2db55e67fae40374153",
+      "timestamp": 1744102377,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -4353,6 +4367,20 @@
       "error": null
     }
   ],
+  "ff6c4c58549e2030a75fee4746548d65c7b55af1c4b61185746570de5442060b": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.18/Clock_2.18-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2021,
+      "version_name": "2.18",
+      "tag": "2.18",
+      "commit": "6087ae299612498db8ddfde5394f6164a751da91",
+      "timestamp": 1744113809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "95d9bc0d8442ee62a99ab6587d6679bab4a048632ead0a2b159e8f33770e00a7": [
     {
       "repository": "https://github.com/BinTianqi/OwnDroid.git",
@@ -6047,6 +6075,20 @@
       "error": null
     }
   ],
+  "3ff9f7c6ad15135846120c043b219bf9c8c886a58557637e3596c2f0cb1f7299": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.04.1124-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1124,
+      "version_name": "2025.04.1124-dev",
+      "tag": "2025.04.1124-dev",
+      "commit": "258710ad3e16561486ff67bda92fa0113dde2bf3",
+      "timestamp": 1744113968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "190831dc41765b4d8d76b087b7c7787018e4d1721b5eb9b4a14c602c2015666a": [
     {
       "repository": "https://github.com/shrimqy/Sefirah-Android.git",
@@ -6883,6 +6925,20 @@
       "tag": "v1.34",
       "commit": "fb9e57e64a01b15608abdf464302fe854f15923e",
       "timestamp": 1742914897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "77b6981415d8e1e09709d47f3f4f097c568a2f7fe90a0a4244d68784a45a31f2": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.35/networksurvey-1.35-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 90,
+      "version_name": "1.35",
+      "tag": "v1.35",
+      "commit": "065484fcf089b09ef0afc3e533da120bf944152f",
+      "timestamp": 1744114433,
       "reproducible": true,
       "error": null
     }
@@ -10765,6 +10821,20 @@
       "error": null
     }
   ],
+  "c852e3fccbc26d058b907ffe26abff96ff2120024bee4263b0231703b04f1554": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.9/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 109,
+      "version_name": "1.16.9",
+      "tag": "v1.16.9",
+      "commit": "4a7b6997d126983a46c0e57c61134fe490045957",
+      "timestamp": 1744114762,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -11097,6 +11167,20 @@
       "tag": "v3.9.12",
       "commit": "1de3f85e5f3cbc10d01c7059e445b489f69d3bcf",
       "timestamp": 1743617557,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "adfa846ebc55359cd339ff4b5c4d10c34f8277b4cab84898bb136bf0ae2830c7": [
+    {
+      "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
+      "apk_url": "https://github.com/AEFeinstein/mtg-familiar/releases/download/v3.9.13/com.gelakinetic.mtgfam_3.9.13_eaf3ba0-release.apk",
+      "appid": "com.gelakinetic.mtgfam",
+      "version_code": 96,
+      "version_name": "3.9.13",
+      "tag": "v3.9.13",
+      "commit": "eaf3ba022d773c416a931c1cb5de1381058883bf",
+      "timestamp": 1744115021,
       "reproducible": true,
       "error": null
     }
@@ -14817,6 +14901,20 @@
       "tag": "1.0.8",
       "commit": "a7ef2cd14a7ebcf6ea50f0b8c82cf267e9252ae0",
       "timestamp": 1739809463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "313bb94b81f22a74e45cceb87fe31a823adac76c52a51eb5318a7466e108547d": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Store.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Store/releases/download/1.0.9/Neo_Store_109_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1026,
+      "version_name": "1.0.9",
+      "tag": "1.0.9",
+      "commit": "a84c2b6a918a04b95ef861188155d8996cac53c5",
+      "timestamp": 1744115236,
       "reproducible": true,
       "error": null
     }
@@ -24781,6 +24879,20 @@
       "error": null
     }
   ],
+  "49efe159a7700ac4a957892b7c824c0087d3e9ff8e349450377a8971b8d71a6f": [
+    {
+      "repository": "https://github.com/Dr-Blank/Vaani.git",
+      "apk_url": "https://github.com/Dr-Blank/Vaani/releases/download/v0.0.16/app-arm64-v8a-release.apk",
+      "appid": "dr.blank.vaani",
+      "version_code": 2007,
+      "version_name": "0.0.16",
+      "tag": "v0.0.16",
+      "commit": "412c21211861998b3251ea80d15cb51e2bd1e5a7",
+      "timestamp": 1744100103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48e6b8e1d297e7024685e899687bd36f332e60f4a1f43b09bc78e11c331b998a": [
     {
       "repository": "https://github.com/dubrowgn/micro-timer.git",
@@ -25579,6 +25691,20 @@
       "error": null
     }
   ],
+  "df1435efe99e28a96277dfd0001aee85333b5c68bf470d2c02adff368c2b2ff7": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2271/FairEmail-v1.2271a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2271,
+      "version_name": "1.2271",
+      "tag": "1.2271",
+      "commit": "1c95d1ac144577cb0c85e382a6edfe58997f895a",
+      "timestamp": 1744115667,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -26037,6 +26163,20 @@
       "tag": "v0.29.3-beta",
       "commit": "eb26d9636f116cc2c80d7901d4ca4b451e5abe41",
       "timestamp": 1743604002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ee99097a5c958bb6078a1055c4a1dbafbc9919479647b17fc6941f73ad6a178": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.29.5-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536375,
+      "version_name": "0.29.5-beta",
+      "tag": "v0.29.5-beta",
+      "commit": "51d94a27b7cc9186d6f53d552e410ff11723c9f1",
+      "timestamp": 1744116160,
       "reproducible": true,
       "error": null
     }
@@ -27883,6 +28023,20 @@
       "tag": "0.3-pre.1",
       "commit": "bd865d65d9d381b9d0442bdf4107509a55b89546",
       "timestamp": 1743684298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2037f17f8bc5870a13593b47254e1bb2a21be2533bd69ff4f67535767345abb5": [
+    {
+      "repository": "https://github.com/LSafer/edgeseek.git",
+      "apk_url": "https://github.com/LSafer/edgeseek/releases/download/0.3-pre.4/edgeseek_0.3-pre.4_release.apk",
+      "appid": "lsafer.edgeseek",
+      "version_code": 18,
+      "version_name": "0.3-pre.4",
+      "tag": "0.3-pre.4",
+      "commit": "3dba8863d3fd854d3622813d18ceda85c87d85f3",
+      "timestamp": 1744097768,
       "reproducible": true,
       "error": null
     }
@@ -33399,6 +33553,20 @@
       "tag": "v1.4.0",
       "commit": "c8eb513e2e11158a5a24c96d4bcfecfdf545678a",
       "timestamp": 1743962140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "32f73ac4a0596b153fa86dde19cc33209ce88b637378f6f091208be14aaf24fa": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.5.0/tranquilstopwatch-7.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 7,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "7b4bb37d6e8b94de517371535e3a9a891cde5856",
+      "timestamp": 1744116537,
       "reproducible": true,
       "error": null
     }

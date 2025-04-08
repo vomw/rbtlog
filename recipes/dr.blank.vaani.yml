@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/Dr-Blank/Vaani.git
 updates: releases
-notes:
-  - 'FIXME: shelfsdk is now a git submodule, Flutter version now in pubspec.yaml – done in https://gitlab.com/IzzyOnDroid/repo/-/issues/623#note_2223795085'
 versions:
   - tag: v0.0.15
     apks:
@@ -16,6 +14,41 @@ versions:
           - git checkout 11a7116ef6ab57e1bf8625fb1c6b40469b6d88d1
           - popd
           - git clone -b $flutter_version https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache NO_SIGNING=true
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64"
+          - mv build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Vaani/Vaani
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v0.0.16
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/Dr-Blank/Vaani/releases/download/v0.0.16/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
           - export PUB_CACHE=$(pwd)/.pub-cache NO_SIGNING=true
           - flutter/bin/flutter config --no-analytics
           - flutter/bin/flutter pub get
