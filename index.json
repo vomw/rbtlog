@@ -6607,6 +6607,20 @@
       "error": null
     }
   ],
+  "27a328ec232a2c201fbc4f9dca996558378b46782149b1b5779272c2b64ae587": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.9.9v75/PuppyGit_1.0.9.9v75_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 75,
+      "version_name": "1.0.9.9",
+      "tag": "1.0.9.9v75",
+      "commit": "6415872e72ce5a420956313346604d7364e39202",
+      "timestamp": 1744217670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -10145,6 +10159,20 @@
       "tag": "v1.28.3",
       "commit": "5f9c3c7acd9d402defdb0800446c167626862011",
       "timestamp": 1743959689,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "abee4534e6e847a819b2a951a175b72bf952b3f03e76a0279e9975017f56fa5c": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.28.4/com.fibelatti.photowidget-v1.28.4-1280400-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1280400,
+      "version_name": "1.28.4",
+      "tag": "v1.28.4",
+      "commit": "05deb008aa0f49202017cb93787f2afacf2f3fa0",
+      "timestamp": 1744207444,
       "reproducible": true,
       "error": null
     }
@@ -18233,6 +18261,20 @@
       "error": null
     }
   ],
+  "4ee2c3c7a24afa9bc59aa803e3023a1eedc249eb41da44b85c0c58d2840ba2be": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.3.2/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 302,
+      "version_name": "0.3.2",
+      "tag": "0.3.2",
+      "commit": "7a635979d8bb010b09d94f4ecd86bddadff9fe15",
+      "timestamp": 1744218660,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -18327,6 +18369,20 @@
       "tag": "v1.0.4",
       "commit": "96af99b23bf8c7af5047857d0c14995e6949c1c0",
       "timestamp": 1741451825,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "16a32372f7bec90d6194ce1ad160a5e0534fccc562c23e21c82eeb8f79308153": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
+      "apk_url": "https://github.com/RohitKushvaha01/ReTerminal/releases/download/v1.1.0/reterminal-v1.1.0.apk",
+      "appid": "com.rk.terminal",
+      "version_code": 6,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "ad0ac1e2d7ecfcb26c30ca6f217017a71d5f64ff",
+      "timestamp": 1744207764,
       "reproducible": true,
       "error": null
     }
@@ -21337,6 +21393,20 @@
       "tag": "v.1.4.1",
       "commit": "4480249f44a0888f945723ae1a4587ac8b045d50",
       "timestamp": 1742234143,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "189f637fa1114c3b430f889b4bf12a1a4bfe77d6abe3071af6828eea4f735c7c": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.2/chooser-v1.4.2.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 15,
+      "version_name": "1.4.2",
+      "tag": "v.1.4.2",
+      "commit": "c449f3d44a15834743fad46d85077c54a58bb589",
+      "timestamp": 1744218906,
       "reproducible": true,
       "error": null
     }
@@ -30601,6 +30671,34 @@
       "timestamp": 1742570374,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "7af192ff7fdcce6e97da7507ac3e78d18cbf06ae5d2349865f7e449a34d62762": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.5.0/floccus-build-v5.5.0.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5005000,
+      "version_name": "5.5.0",
+      "tag": "v5.5.0",
+      "commit": "7949458abac5da35a0e4eb556a630743ca910b30",
+      "timestamp": 1744208065,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe6b869e9b8dddbd0f6ffd04a32d501eb2d9daf0b4813b13eb196db42f171c0e": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.5.1/floccus-build-v5.5.1.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5005001,
+      "version_name": "5.5.1",
+      "tag": "v5.5.1",
+      "commit": "d7e40b0d176b0491507edc425bd05b545661ab86",
+      "timestamp": 1744219132,
+      "reproducible": true,
+      "error": null
     }
   ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
