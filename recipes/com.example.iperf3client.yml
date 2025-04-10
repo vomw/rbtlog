@@ -1,0 +1,36 @@
+---
+repository: https://github.com/CachoCh/iperf3AndroidClient.git
+updates: releases
+notes:
+  - 'FIXME: wrong gradle has in the initial release, next releases should have that (hopefully) fixed, see https://github.com/CachoCh/iperf3AndroidClient/issues/3#issuecomment-2792015966 '
+versions:
+  - tag: 0.1.0
+    apks:
+      - apk_pattern: iperf3client_.*\.apk
+        apk_url: https://github.com/CachoCh/iperf3AndroidClient/releases/download/0.1.0/iperf3client_0.1.0.apk
+        build:
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.11.1 -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

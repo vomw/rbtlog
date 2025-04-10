@@ -9435,6 +9435,20 @@
       "error": null
     }
   ],
+  "8f2f4d62b22d5e5bd0125c2e209c79d1ff0129c3a3ef3520b1f2289393c32a65": [
+    {
+      "repository": "https://github.com/CachoCh/iperf3AndroidClient.git",
+      "apk_url": "https://github.com/CachoCh/iperf3AndroidClient/releases/download/0.1.0/iperf3client_0.1.0.apk",
+      "appid": "com.example.iperf3client",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "0.1.0",
+      "commit": "2b202e5b6c04605581eebd703dfc93372ffadaef",
+      "timestamp": 1744274172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6c9ed78c9664341f09f49192588ba4b673bc24ffba002408d7da160164278608": [
     {
       "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
@@ -16647,6 +16661,20 @@
       "tag": "1.1",
       "commit": "babb56d88f42050891cf654adf8b7ce25f300d54",
       "timestamp": 1739366464,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f7d2314080a1f020ef9314ad934569c6055917c6847a3d839cff3e054ca8535": [
+    {
+      "repository": "https://github.com/nvllz/stepsy.git",
+      "apk_url": "https://github.com/nvllz/stepsy/releases/download/1.4.3/app-release.apk",
+      "appid": "com.nvllz.stepsy",
+      "version_code": 2,
+      "version_name": "1.4.3",
+      "tag": "1.4.3",
+      "commit": "030b50d19326b0caf3315a860c19ad80e0483a8a",
+      "timestamp": 1744224695,
       "reproducible": true,
       "error": null
     }
