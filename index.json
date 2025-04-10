@@ -1119,6 +1119,20 @@
       "error": null
     }
   ],
+  "879cc12bbf34ab20703d5520336ac9862b22da20982f64e50f06b1bd8542d6dd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.5/Podcini.X_release_free_8.14.5_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 159,
+      "version_name": "8.14.5",
+      "tag": "8.14.5",
+      "commit": "4c859c8203c4f659ee2cddac0d5e12c6c0b009db",
+      "timestamp": 1744292842,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -6099,6 +6113,20 @@
       "tag": "2025.04.1124-dev",
       "commit": "258710ad3e16561486ff67bda92fa0113dde2bf3",
       "timestamp": 1744113968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "115bfbbdfcb86b90ce7f75131f8f113ef300d57522dfbd7be62d01dbe2a6005b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.04.1125/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1125,
+      "version_name": "2025.04.1125",
+      "tag": "2025.04.1125",
+      "commit": "340f3efd29813974d92600c6fb223bba95161ff9",
+      "timestamp": 1744293216,
       "reproducible": true,
       "error": null
     }
@@ -15263,6 +15291,20 @@
       "tag": "v4.15",
       "commit": "314152758290faf9d08b7ca30c4da984dfa5a752",
       "timestamp": 1729076029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88040d6a17c091eb8f14576ce085306feaa050e2f99ca45a8c11fb4715f481cf": [
+    {
+      "repository": "https://github.com/martinmimigames/little-file-explorer.git",
+      "apk_url": "https://github.com/martinmimigames/little-file-explorer/releases/download/v4.16/little.file.explorer.4.16.apk",
+      "appid": "com.martinmimigames.simplefileexplorer",
+      "version_code": 17,
+      "version_name": "4.16",
+      "tag": "v4.16",
+      "commit": "64d4e8a3a6fe2efd5f05d1bb6d01e4eefdd247c7",
+      "timestamp": 1744293798,
       "reproducible": true,
       "error": null
     }
@@ -28331,6 +28373,20 @@
       "tag": "v1.0.1",
       "commit": "e14c406f0c7f3320ddad1ff10e3c9fc6be0bece3",
       "timestamp": 1742737563,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eca48a2cdc6754927e0e7ea1075ba76d0b9de78f9124aae350ff262ae729fd99": [
+    {
+      "repository": "https://github.com/FooqX/GoldenRatio.git",
+      "apk_url": "https://github.com/FooqX/GoldenRatio/releases/download/v1.1.0/Golden-Ratio-arm64-v8a-v1.1.0.apk",
+      "appid": "lv.RIN4X.goldenratio",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "794b4daf640c9d051e0e1ba91c8eff51717be0d4",
+      "timestamp": 1744303597,
       "reproducible": true,
       "error": null
     }
