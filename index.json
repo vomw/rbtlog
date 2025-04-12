@@ -1133,6 +1133,20 @@
       "error": null
     }
   ],
+  "832d0a80f91b825401be813beeeb7844bb5acf2a5989fb404acca972d4ff6a38": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.6/Podcini.X_release_free_8.14.6_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 160,
+      "version_name": "8.14.6",
+      "tag": "8.14.6",
+      "commit": "d2d49cc2eb3bd53c98ff188f5f5d4dad7e99feb7",
+      "timestamp": 1744476400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -7221,6 +7235,20 @@
       "timestamp": 1741172640,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "408a09cf68f909d276c499eb86dad07bc1ff9db418866c7a6c37ec944d4252a8": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/daniebeler/pixelix/releases/download/v4.1.0/pixelix_v4.1.0.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 31,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "29a3f1a9b14a0b3536d9807bdcb1a82421c3bc6c",
+      "timestamp": 1744476756,
+      "reproducible": false,
+      "error": "signature copying failed: Unsupported compresslevel"
     }
   ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
@@ -23717,6 +23745,20 @@
       "error": null
     }
   ],
+  "5939df090e22e4afae8add625a92bfc06cfea66dd4a32b36261cf045fec21b9a": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v1.1.0/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 10100,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "7553cb8c6688ce49149d3397457066c490998226",
+      "timestamp": 1744466037,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
     {
       "repository": "https://github.com/Tetr4/CompassTile.git",
@@ -24975,6 +25017,18 @@
       "timestamp": 1744141731,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/supershadoe/delta.git",
+      "apk_url": "https://github.com/supershadoe/delta/releases/download/2025.03%2B5/app-release.apk",
+      "appid": "dev.shadoe.delta",
+      "version_code": 14,
+      "version_name": "2025.03+5",
+      "tag": "2025.03+5",
+      "commit": "fda306584f35d42aa6d39f4348de2e2a38771fcc",
+      "timestamp": 1744400224,
+      "reproducible": true,
+      "error": null
     }
   ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
@@ -25631,6 +25685,20 @@
       "tag": "v1.3.6-rc0",
       "commit": "df79f30ed56c316c5d98dd41fa147b8b8782e5f0",
       "timestamp": 1737389355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe4cf3a818aab147dc647f3c63936c74f2487eade257d3289c1251ced42ec8da": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.4.6-rc0/eu.darken.sdmse-v1.4.6-rc0-10406000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10406000,
+      "version_name": "1.4.6-rc0",
+      "tag": "v1.4.6-rc0",
+      "commit": "512ffea6afbb5136ebc30eb5681c653f4cee7643",
+      "timestamp": 1744477255,
       "reproducible": true,
       "error": null
     }
@@ -27369,6 +27437,20 @@
       "error": null
     }
   ],
+  "34e068513cd2f14f75349e2003ab3e4d63efccd38ff03bc4e521df881e16327a": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.16.3%2B70/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2070,
+      "version_name": "1.16.3",
+      "tag": "v1.16.3+70",
+      "commit": "5ffadec9f13035d7325e50ada2b79ad738e672ab",
+      "timestamp": 1744478253,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b8db3b323186eb08e83e6bc5779084495269292b4bf63b9a571c873ecd868f8": [
     {
       "repository": "https://github.com/Husseinfo/interfast.git",
@@ -28485,6 +28567,20 @@
       "tag": "v1.1.0",
       "commit": "794b4daf640c9d051e0e1ba91c8eff51717be0d4",
       "timestamp": 1744303597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "50e4c439c17f9b6dbe28137676aa270ecaf7479b533e236b4816ffc19b20956e": [
+    {
+      "repository": "https://github.com/FooqX/GoldenRatio.git",
+      "apk_url": "https://github.com/FooqX/GoldenRatio/releases/download/v1.2.0/Golden-Ratio-arm64-v8a-v1.2.0.apk",
+      "appid": "lv.RIN4X.goldenratio",
+      "version_code": 4,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "48d16391eefc4da9af5666daaca77830b2d4a78e",
+      "timestamp": 1744467503,
       "reproducible": true,
       "error": null
     }
@@ -34001,6 +34097,20 @@
       "tag": "v1.5.0",
       "commit": "7b4bb37d6e8b94de517371535e3a9a891cde5856",
       "timestamp": 1744116537,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c78be3ea7a21e03837e7329efd10ea83b26e4fe9b9053d70c5d8aaa7a81e702a": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.6.0/tranquilstopwatch-8.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 8,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "8268227d277e5c4bfde87a616795b335aea8c66b",
+      "timestamp": 1744467634,
       "reproducible": true,
       "error": null
     }
