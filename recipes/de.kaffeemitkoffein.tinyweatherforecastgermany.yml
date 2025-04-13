@@ -33,3 +33,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: 0.62.8
+    apks:
+      - apk_pattern: TinyWeatherForecastGermany-.*\.apk
+        apk_url: https://codeberg.org/Starfish/TinyWeatherForecastGermany/releases/download/0.62.8/TinyWeatherForecastGermany-build057-version_0.62.8_20250413.apk
+        build:
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 gradlew.py/gradlew.py -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
