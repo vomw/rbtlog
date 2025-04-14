@@ -1147,6 +1147,20 @@
       "error": null
     }
   ],
+  "a0ed19337330e371b9c3611d215ace1c162fc40411cb2eced6fa262b5caf15f8": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.14.7/Podcini.X_release_free_8.14.7_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 161,
+      "version_name": "8.14.7",
+      "tag": "8.14.7",
+      "commit": "94c9c2f88ffbe6a095375491899c19040e6b21cf",
+      "timestamp": 1744649197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3173,6 +3187,20 @@
       "tag": "v1.10.0",
       "commit": "48f2c3a8764305e21487801f4195588f76800fca",
       "timestamp": 1742257360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "30c2703c23df5ff6173a8ce20aec0c87822247078ce17000f7d01f3e275d3414": [
+    {
+      "repository": "https://github.com/famoser/Mensa.git",
+      "apk_url": "https://github.com/famoser/Mensa/releases/download/v1.11.0/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 32,
+      "version_name": "1.11.0",
+      "tag": "v1.11.0",
+      "commit": "729632462d1e3404bbf5d758c62dc75d7cbbcfa5",
+      "timestamp": 1744638440,
       "reproducible": true,
       "error": null
     }
@@ -7279,6 +7307,20 @@
       "error": null
     }
   ],
+  "1950328a4504b7d6dbcdd5e716c5158c366efb0a698f58652fdcedc287a1cf86": [
+    {
+      "repository": "https://github.com/Darkempire78/OpenCalc.git",
+      "apk_url": "https://github.com/Darkempire78/OpenCalc/releases/download/v3.2.0/OpenCalc.v3.2.0.apk",
+      "appid": "com.darkempire78.opencalculator",
+      "version_code": 53,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "5910082ccf19a66d9d78456d2867ee70081a0b5c",
+      "timestamp": 1744649022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "80c0adf6ff99c26c2b52eb359b9fb1e8b657b390902a95b0106c74dfd587f937": [
     {
       "repository": "https://github.com/davidtakac/bura.git",
@@ -10285,6 +10327,20 @@
       "tag": "v1.28.4",
       "commit": "05deb008aa0f49202017cb93787f2afacf2f3fa0",
       "timestamp": 1744207444,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aeb06e9e222e1502fa15543a093824a7d7f4ceb59a37966903d22107c4ec57a4": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.29.0/com.fibelatti.photowidget-v1.29-1290000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1290000,
+      "version_name": "1.29",
+      "tag": "v1.29.0",
+      "commit": "23870dca19fd0f855168898634579becdd443584",
+      "timestamp": 1744638773,
       "reproducible": true,
       "error": null
     }
@@ -18485,6 +18541,20 @@
       "error": null
     }
   ],
+  "a6a4d6cf64959e11b1428b04e22b3bd484af2bb99e4eddd399376cba66dbc38e": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.3.4/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 304,
+      "version_name": "0.3.4",
+      "tag": "0.3.4",
+      "commit": "7e8d702da43986ae0151c7fd8c806828a8123e57",
+      "timestamp": 1744639081,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -25741,6 +25811,20 @@
       "tag": "v1.4.6-rc0",
       "commit": "512ffea6afbb5136ebc30eb5681c653f4cee7643",
       "timestamp": 1744477255,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6793cdc5b6db3ca777e029c1e511bbed2b452cc19e8215f208caf0065f584a59": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.4.7-rc0/eu.darken.sdmse-v1.4.7-rc0-10407000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10407000,
+      "version_name": "1.4.7-rc0",
+      "tag": "v1.4.7-rc0",
+      "commit": "7d683c6e7d601e18bb8f51a9c13ee76e1d1e9d3e",
+      "timestamp": 1744639300,
       "reproducible": true,
       "error": null
     }
