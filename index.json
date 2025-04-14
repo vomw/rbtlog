@@ -3205,6 +3205,20 @@
       "error": null
     }
   ],
+  "c66ae8419ec9b425f81f2e9d843f62478efbf055c961ba06a11155f812254a03": [
+    {
+      "repository": "https://github.com/famoser/Mensa.git",
+      "apk_url": "https://github.com/famoser/Mensa/releases/download/v1.11.1/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 33,
+      "version_name": "1.11.1",
+      "tag": "v1.11.1",
+      "commit": "524c552796fa90933005f5fa3f5a9819798e52eb",
+      "timestamp": 1744665492,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00e485bbea3399a0609e05f9b4d406169791534f45e5b7bf7ffdacf7773681a2": [
     {
       "repository": "https://github.com/ICTrust/PObY-A.git",
@@ -17435,6 +17449,20 @@
       "error": null
     }
   ],
+  "308b0f529573b5e963fefb651a23474810522dd59fbcd912f6948eaa30a5e9b8": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.14.1/dahdidahdit-1.14.1.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1140101,
+      "version_name": "1.14.1",
+      "tag": "release-1.14.1",
+      "commit": "ca63900e99b57ffee493362740f6309067675d8d",
+      "timestamp": 1744665677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -22971,6 +22999,20 @@
       "tag": "0.4",
       "commit": "39861fa9f2712235ec43b3b7c7b43560636e17ee",
       "timestamp": 1734891721,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "00466206278fd846fd8b6e31bb943a5bca1d2efa77892380bd808db35f625f8f": [
+    {
+      "repository": "https://github.com/buttercookie42/SimbaDroid.git",
+      "apk_url": "https://github.com/buttercookie42/SimbaDroid/releases/download/0.5/de.buttercookie.simbadroid-0.5.apk",
+      "appid": "de.buttercookie.simbadroid",
+      "version_code": 6,
+      "version_name": "0.5",
+      "tag": "0.5",
+      "commit": "8516fa93bb3f8d02d1288f5b0c2079df62881386",
+      "timestamp": 1744665898,
       "reproducible": true,
       "error": null
     }
