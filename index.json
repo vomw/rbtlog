@@ -8315,6 +8315,20 @@
       "error": null
     }
   ],
+  "d2c7430d2a524a046a00f60c0963d3345d17bc877c2adeb5e557691674f0fccc": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.26/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 26,
+      "version_name": "0.0.26",
+      "tag": "0.0.26",
+      "commit": "da3ac924e2b34ab68e5ace5c678876ad54d8d86c",
+      "timestamp": 1744984042,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -8661,6 +8675,20 @@
       "tag": "0.6.11",
       "commit": "ae0f9c0a513ad229f195987b435a19dab4230899",
       "timestamp": 1743602711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44c4d5f4c90391253123f4a24c61ed294ed43f0631cd3b70d79022554f42cfb2": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.12/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 35,
+      "version_name": "0.6.12",
+      "tag": "0.6.12",
+      "commit": "85e4f18745822b3aa89dd2e40556ea3f31b1dee8",
+      "timestamp": 1744984295,
       "reproducible": true,
       "error": null
     }
@@ -9291,6 +9319,20 @@
       "tag": "4.0.26",
       "commit": "26cbdd776db4463e7137643c5c48017f8cb35350",
       "timestamp": 1743603017,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39bb8a239a8088de53c63589ff50b4e4f3249798d319a4b8e451c73e043b60e2": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.27/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 145,
+      "version_name": "4.0.27",
+      "tag": "4.0.27",
+      "commit": "21a53ff3b6cdd1a05708b23dca3a33b4645883a2",
+      "timestamp": 1744984542,
       "reproducible": true,
       "error": null
     }
@@ -15995,6 +16037,20 @@
       "error": null
     }
   ],
+  "215121b841e9cd79dfe1aa8e86c464c5d8b8a83ac9d230c3c0862cb5178ac6b1": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v11.6.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 116,
+      "version_name": "11.6.0",
+      "tag": "v11.6.0",
+      "commit": "1f9d889562ba9f0870fe0ac98fa2ce697966080e",
+      "timestamp": 1745000445,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -18019,6 +18075,20 @@
       "tag": "v7.3.1",
       "commit": "6cf2a8ce1fe79c148bb7f2d6230f94f3a8dce752",
       "timestamp": 1744130809,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f0d44d1076e82ff3c157ea25fdf89c5b0d791dfec6e8e6d420004901c5e07eed": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v7.4.0/NotallyX-7.4.0.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7400,
+      "version_name": "7.4.0",
+      "tag": "v7.4.0",
+      "commit": "66f0d33cd47c1486b7ac399ff6e472ac92a4cb24",
+      "timestamp": 1745000950,
       "reproducible": true,
       "error": null
     }
