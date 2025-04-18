@@ -18079,6 +18079,20 @@
       "error": null
     }
   ],
+  "9053bc222d332dce59499c4c45284576d7abb4a517a7afd3f5bc7bafddcbfdb0": [
+    {
+      "repository": "https://github.com/prinzpiuz/MSM.git",
+      "apk_url": "https://github.com/prinzpiuz/MSM/releases/download/1.9.0/app-armeabi-v7a-release.apk",
+      "appid": "com.prinzpiuz.msm",
+      "version_code": 1010,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "09ebf2f6f5d012fd60d5de5bb679c92ff07b9132",
+      "timestamp": 1744972258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a118bb12013f3de4e26277d6f48122b93ccb9c5b30270f3a7b7cea0939d31aa7": [
     {
       "repository": "https://github.com/tawhidmonowar/WebCapture.git",
@@ -27601,6 +27615,20 @@
       "tag": "v1.0.8",
       "commit": "e62957f95034d48fb2eb96ad61bdedabf3f1e5a8",
       "timestamp": 1732646887,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9db14a176a89240b49a34cfe238c9a14a56874623535ace38e0fcac9dd7a3925": [
+    {
+      "repository": "https://github.com/DP-Hridayan/XMLForge.git",
+      "apk_url": "https://github.com/DP-Hridayan/XMLForge/releases/download/v1.1.0/XMLForge-v1.1.0-release.apk",
+      "appid": "in.hridayan.xmlforge",
+      "version_code": 2,
+      "version_name": "v1.1.0",
+      "tag": "v1.1.0",
+      "commit": "9f0dc1426d8fcf303a5e015eee4ade9093510cc5",
+      "timestamp": 1744990695,
       "reproducible": true,
       "error": null
     }
