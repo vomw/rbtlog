@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/mostafaalagamy/Metrolist.git
 updates: releases
+notes:
+  - v11.6.0 failed RB, see https://github.com/mostafaalagamy/Metrolist/issues/544
 versions:
   - tag: v10.8.0
     apks:

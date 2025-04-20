@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/mi-g-alex/Telegram-Monet.git
 updates: releases
+note:
+  - v11.7.0 failed RB, see https://github.com/mi-g-alex/Telegram-Monet/issues/75#issuecomment-2799974473
 versions:
   - tag: v11.5.3
     apks:
@@ -8,6 +10,33 @@ versions:
         apk_url: https://github.com/mi-g-alex/Telegram-Monet/releases/download/$$TAG$$/TG.Monet.11.5.3.apk
         build:
           - git reset --soft 86596693ad68f512d4fe50e9b422e157d3696aeb
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v_11.7.0
+    apks:
+      - apk_pattern: Telegram\.Monet\..*\.apk
+        apk_url: https://github.com/mi-g-alex/Telegram-Monet/releases/download/v_11.7.0/Telegram.Monet.11.7.0.apk
+        build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk

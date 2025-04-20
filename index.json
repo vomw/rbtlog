@@ -2169,6 +2169,20 @@
       "error": null
     }
   ],
+  "fc945d02dcae6c778b0b393dbb3a6d0eb37a23224ceec2b47edae338982a9cac": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.9-ose/davx5-ose-4.4.9-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404090001,
+      "version_name": "4.4.9-ose",
+      "tag": "v4.4.9-ose",
+      "commit": "3901e6ebe4581bccaaa833131a89d035d0ffae34",
+      "timestamp": 1745156914,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -4759,6 +4773,20 @@
       "error": null
     }
   ],
+  "3c28cebdadeca41159b40d79077725af302b5fe4ab835496a0beee1b76c56d21": [
+    {
+      "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
+      "apk_url": "https://github.com/mi-g-alex/Telegram-Monet/releases/download/v_11.7.0/Telegram.Monet.11.7.0.apk",
+      "appid": "com.c3r5b8.telegram_monet",
+      "version_code": 25041301,
+      "version_name": "11.7.0",
+      "tag": "v_11.7.0",
+      "commit": "869f2956ad8000cf0f07d555c287acb280e8000d",
+      "timestamp": 1744558242,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "994b65135a6da893021cb1bc8c1a3bba51e6c6ff342bbd40d43633d841c5630a": [
     {
       "repository": "https://github.com/jocmp/capyreader.git",
@@ -6281,6 +6309,20 @@
       "tag": "2025.04.1127-dev",
       "commit": "c9e68b427921d18b94843342d02282977fcee246",
       "timestamp": 1744819862,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "be3200e132b40fbe34fb2404e0bcf3e45bff75f6d7859d8152afb89dab994b33": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.04.1128-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1128,
+      "version_name": "2025.04.1128-dev",
+      "tag": "2025.04.1128-dev",
+      "commit": "7c51fab0f884f10bf460131d54ff66e851f66dbb",
+      "timestamp": 1745157379,
       "reproducible": true,
       "error": null
     }
@@ -11241,6 +11283,20 @@
       "error": null
     }
   ],
+  "0fb6fbc94890d20ff9255efcc25f69ead4cddff4f723dd3c62f077e30599897a": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.11/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 112,
+      "version_name": "1.16.11",
+      "tag": "v1.16.11",
+      "commit": "2eccd3b4d9e0b619027906d002fc01435b6934f6",
+      "timestamp": 1745173235,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -13365,6 +13421,20 @@
       "error": null
     }
   ],
+  "75c945fe421663cc2eae142a02b30facea11a192282145f8bef6d63390c76142": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.4.1/Telewatch-v1.4.1-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 32,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "e727905c49718b4e9b60f8d99df611b5d1791c9d",
+      "timestamp": 1745157778,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a7845014169c99a878318fa077ef4b5871e5d75a7a2fa9fabf27c5f83c47ce27": [
     {
       "repository": "https://github.com/gokadzev/Musify.git",
@@ -13641,6 +13711,20 @@
       "tag": "v7.2.1",
       "commit": "85df0f9a2e2de931bb020106c36a453cdbc0c31e",
       "timestamp": 1742483785,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "60985fcf0393b076c468f4dce59525e223007cd725d7f3a849029da04103d8cb": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.3.0/NeverTooManyBooks-7.3.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 100,
+      "version_name": "7.3.0",
+      "tag": "v7.3.0",
+      "commit": "75ba5bf73883a8f1064c2e8bd9c754ac4ac856f8",
+      "timestamp": 1745162167,
       "reproducible": true,
       "error": null
     }
@@ -15823,6 +15907,34 @@
       "tag": "v0.2.13",
       "commit": "15e8998381a549e8dd4fcd486f260c10118f8102",
       "timestamp": 1744914036,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d39c05df2f0b8bb093cb56f9fc1c75e7411c2ee0927343088ea146ab00d18d49": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.14/SimpMusic_v0.2.14-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 31,
+      "version_name": "0.2.14",
+      "tag": "v0.2.14",
+      "commit": "36ab5c9685ece15dac0333d756de607a553b03fb",
+      "timestamp": 1745166120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ddf578edf87d79ed8069973d1d254661fe1c27d91a94129e52feaf539a801eba": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.14-hf/SimpMusic_v0.2.14-hf-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 32,
+      "version_name": "0.2.14-hf",
+      "tag": "v0.2.14-hf",
+      "commit": "78d5cfdf40923a7de709dd428826722e3ad2dd12",
+      "timestamp": 1745173498,
       "reproducible": true,
       "error": null
     }
@@ -18216,6 +18328,20 @@
       "commit": "2e3a9bbfc9a733c06adb47cc76f2b83cdb65d4b0",
       "timestamp": 1745086845,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "9c4efb41988f4386baab13c4540d2d8949ed3aae5b56135c8849f1cb1bfc673c": [
+    {
+      "repository": "https://github.com/prinzpiuz/MSM.git",
+      "apk_url": "https://github.com/prinzpiuz/MSM/releases/download/1.9.3/app-armeabi-v7a-release.apk",
+      "appid": "com.prinzpiuz.msm",
+      "version_code": 1014,
+      "version_name": "1.9.3",
+      "tag": "1.9.3",
+      "commit": "93470f82e1add9ea1c009c2380733ede79a9d032",
+      "timestamp": 1745159858,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -29271,6 +29397,20 @@
       "error": null
     }
   ],
+  "0ff3234a21ac56e2cbb016ab67fad6d1ac73ae7dc680b20e81fb5b95072e598d": [
+    {
+      "repository": "https://github.com/LSafer/edgeseek.git",
+      "apk_url": "https://github.com/LSafer/edgeseek/releases/download/0.3-pre.5/edgeseek_0.3-pre.5_release.apk",
+      "appid": "lsafer.edgeseek",
+      "version_code": 19,
+      "version_name": "0.3-pre.5",
+      "tag": "0.3-pre.5",
+      "commit": "5065b144be46cada5f26276e9d35a56177484c57",
+      "timestamp": 1745163544,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99ab1f3bc70166d3a217aeea9a2badd14d62ba9a3d7bd31f797a4e5568942f71": [
     {
       "repository": "https://github.com/Erbzur/Orange.git",
@@ -30625,6 +30765,34 @@
       "tag": "v5.4.5",
       "commit": "dfa59a76a4b3168dd8788ec0fa80a163f548fb6f",
       "timestamp": 1741025805,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c692b6b525b876e39236ded8616247c948d292c1117e35f772c97a9ea0f0edf2": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.6/breezy-weather-arm64-v8a-v5.4.6_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50406,
+      "version_name": "5.4.6",
+      "tag": "v5.4.6",
+      "commit": "4bedebfa3d634820f0189ced24e5d3faf91d0730",
+      "timestamp": 1745169552,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f90c659b2ffba489538a51d6cae07cc275da2b67e327c6cc71d3bc04cca550af": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v5.4.6/breezy-weather-v5.4.6_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 50406,
+      "version_name": "5.4.6",
+      "tag": "v5.4.6",
+      "commit": "4bedebfa3d634820f0189ced24e5d3faf91d0730",
+      "timestamp": 1745170177,
       "reproducible": true,
       "error": null
     }
@@ -34349,6 +34517,20 @@
       "tag": "1.7.7",
       "commit": "e52138113d817905836cbcf754ab924670f7502f",
       "timestamp": 1743183218,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b9f422f4b26ce54b81811c23a83c4fa846d12911c84c8a0c9ed1ec68975fc6b1": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.7.8/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 53,
+      "version_name": "1.7.8",
+      "tag": "1.7.8",
+      "commit": "12d233e3426590e979e1c75524da8cb11bbdd5b1",
+      "timestamp": 1745162041,
       "reproducible": true,
       "error": null
     }
