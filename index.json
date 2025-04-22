@@ -1189,6 +1189,20 @@
       "error": null
     }
   ],
+  "4b0fe1597e7d8582bd0264d9e1900501752a559b78149c2c11be45e120d105bd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.15.1/Podcini.X_release_free_8.15.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 164,
+      "version_name": "8.15.1",
+      "tag": "8.15.1",
+      "commit": "ad16b8b72493e496bcfe75499b0098ea69fa0fb9",
+      "timestamp": 1745329668,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3215,6 +3229,20 @@
       "tag": "v1.56.1",
       "commit": "f8c678b7ff8757bea955fba5859685f0f8e553bd",
       "timestamp": 1743353189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "16effec27a141a76253df0f3446e140e208120cf6879b9e33a2b730cfa8532a1": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.58.1/ArcaneChat-foss-armeabi-v7a-1.58.1.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007191,
+      "version_name": "1.58.1",
+      "tag": "v1.58.1",
+      "commit": "83fa4c493d503ebab60806f854103463f6dfee5b",
+      "timestamp": 1745330073,
       "reproducible": true,
       "error": null
     }
@@ -11647,6 +11675,20 @@
       "error": null
     }
   ],
+  "728fd2b667bc6f2366e545877ad53982671f0ac6bd528c2db19a2f342ee5a0cd": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.22/fdroidRelease-2.5.22.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30522,
+      "version_name": "2.5.22",
+      "tag": "2.5.22",
+      "commit": "d3cfc461483b46d0d96787ac7e2af89a1f89702c",
+      "timestamp": 1745330679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -18443,6 +18485,20 @@
       "error": null
     }
   ],
+  "358e15ec4427ee3e0648a24eb10955c2ea3e4bea173bfefae2c2b0eb630e86eb": [
+    {
+      "repository": "https://github.com/prinzpiuz/MSM.git",
+      "apk_url": "https://github.com/prinzpiuz/MSM/releases/download/1.9.4/app-armeabi-v7a-release.apk",
+      "appid": "com.prinzpiuz.msm",
+      "version_code": 1016,
+      "version_name": "1.9.4",
+      "tag": "1.9.4",
+      "commit": "b82764ff4d0e93894cb8e91077e3938c4d0127fa",
+      "timestamp": 1745331148,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a118bb12013f3de4e26277d6f48122b93ccb9c5b30270f3a7b7cea0939d31aa7": [
     {
       "repository": "https://github.com/tawhidmonowar/WebCapture.git",
@@ -18621,6 +18677,20 @@
       "tag": "1.8.1",
       "commit": "4b36ef9b263e44e7ba7e0b7056e5a6000444fad5",
       "timestamp": 1742053024,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7878360ae8497017875df68019836b5b1f4bc9c6b75074f4ee265913d3c16dfb": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.9.0/baba_1.9.0-free-arm64-v8a-release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031694,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "0cf295b077226764cdd507c8fa9d9b21e0eca464",
+      "timestamp": 1745332172,
       "reproducible": true,
       "error": null
     }
@@ -24011,6 +24081,20 @@
       "error": null
     }
   ],
+  "3ce7a4af7e8dbf95a5ade4469d4e5028d51fd92d649cfdd200cf08273c1e8dc8": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.14.0/RecurringExpenseTracker_0.14.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 36,
+      "version_name": "0.14.0",
+      "tag": "v0.14.0",
+      "commit": "61d3810f2c3d646e13617fa2ee6f05b4d52c515a",
+      "timestamp": 1745331835,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -24147,6 +24231,20 @@
       "tag": "v2.19.1",
       "commit": "a295f565c950f8488c3e9ab3f2db78905a81bc15",
       "timestamp": 1743786610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31bb62cfb8a4bf1ff953ac25134b8f1ab227a462faa6a3db6a7c4774337c1968": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.19.2/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 196,
+      "version_name": "2.19.2",
+      "tag": "v2.19.2",
+      "commit": "3a48485cc7f35affcef436c03caab4a339598b28",
+      "timestamp": 1745332279,
       "reproducible": true,
       "error": null
     }
@@ -28133,6 +28231,20 @@
       "tag": "v0.12",
       "commit": "ff78038e5550c426ea715f020d43fe4ca850ca2f",
       "timestamp": 1736794333,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0009b774140440a421d6796b7086ce04372e346aadcd23a205e3ac830ddb96da": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/a47b484f8399e47d45c4cbc8ce7449a5/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 14,
+      "version_name": "v0.14",
+      "tag": "v0.14",
+      "commit": "bb8f2a1cf7c7c879a90246f1a4df071a0c47ab24",
+      "timestamp": 1745333572,
       "reproducible": true,
       "error": null
     }

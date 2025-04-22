@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/spieglt/FlyingCarpet.git
 updates: tags:v([\d.]+)
+notes:
+  - 'FIXME: v9.0.4 is macOS only, no APK, so build fails not finding any'
 versions:
   - tag: v8.0.2
     apks:
