@@ -17129,6 +17129,20 @@
       "error": null
     }
   ],
+  "fd388dbcbeaf286f8fad36a5f55eca1452d9425958e4fddc9388599078322fec": [
+    {
+      "repository": "https://github.com/NimaKhajehpour/SocketChat.git",
+      "apk_url": "https://github.com/NimaKhajehpour/SocketChat/releases/download/v2.0/app-release.apk",
+      "appid": "com.nima.socketchat",
+      "version_code": 2,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "4a7867c376932856b5ce21437c583433dae85529",
+      "timestamp": 1745502515,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0ab7676654801c77111634704a114663dad71fea8daa284aefdbb2020b37226d": [
     {
       "repository": "https://github.com/NimaKhajehpour/TaskManager.git",
@@ -17557,6 +17571,20 @@
       "tag": "1.4.7",
       "commit": "00653432bcc4a2a613ba81b1995a7d5171106627",
       "timestamp": 1745430551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "449e59013a35fe1a9f3fe5d4749527e028d1e6058898daeffa444446466d50f9": [
+    {
+      "repository": "https://github.com/nvllz/stepsy.git",
+      "apk_url": "https://github.com/nvllz/stepsy/releases/download/1.4.8/app-release.apk",
+      "appid": "com.nvllz.stepsy",
+      "version_code": 7,
+      "version_name": "1.4.8",
+      "tag": "1.4.8",
+      "commit": "311aa467a4be395a6fefc2c794467c1ecd61a326",
+      "timestamp": 1745502820,
       "reproducible": true,
       "error": null
     }
@@ -19927,20 +19955,6 @@
       "error": null
     }
   ],
-  "7900252ed0c4d3d32ddabc24029d94ef80bb867d4964c8a527c5594b18407448": [
-    {
-      "repository": "https://github.com/sadellie/unitto.git",
-      "apk_url": "https://github.com/sadellie/unitto/releases/download/51/app-release.apk",
-      "appid": "com.sadellie.unitto",
-      "version_code": 51,
-      "version_name": "Red Salsa",
-      "tag": "51",
-      "commit": "679bbcaf944dcc05dc793448d754857d4cc0a642",
-      "timestamp": 1745426003,
-      "reproducible": true,
-      "error": null
-    }
-  ],
   "eceb522009d1a873cb2c819dde1cf4bc42b5dd097bd4c29c89c08beaa4c3b93f": [
     {
       "repository": "https://github.com/sakethpathike/JetSpacer.git",
@@ -22125,6 +22139,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpmvpmyj4d/outputs:/outputs', '--volume', '/tmp/tmpmvpmyj4d/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/soundcrowd/soundcrowd.git', '--env', 'APP_TAG=v4.0.0', '--env', 'APP_COMMIT=6194b0d1eb803caf9799eb8ee4765b690d3ca114', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "39dce2856cc455f11f4a3337f040d5a187fde6ed70148fd65e7c85c58e326a69": [
+    {
+      "repository": "https://github.com/soundcrowd/soundcrowd.git",
+      "apk_url": "https://github.com/soundcrowd/soundcrowd/releases/download/v4.0.1/soundcrowd.apk",
+      "appid": "com.tiefensuche.soundcrowd",
+      "version_code": 78,
+      "version_name": "4.0.1-release",
+      "tag": "v4.0.1",
+      "commit": "2f7722e7ed7417c3eaf24db38ec39624f9fc5c87",
+      "timestamp": 1745522909,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ff0106b340d8cce51eda87209380ca707d4cbb574c8760987fdead53d35cf62": [
     {
       "repository": "https://github.com/solkin/mandarin-android.git",
@@ -22933,6 +22961,20 @@
       "tag": "V2.71.34",
       "commit": "7313e70decbac6f80bae6068ef004feee6281761",
       "timestamp": 1743181302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1c50d20ecba237302da8e9ff22c23dc35fe1fdfe5541233ae56c40901813046": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.40/app-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27140,
+      "version_name": "2.71.40",
+      "tag": "V2.71.40",
+      "commit": "5545570024788ac9d18668ffea3c87158e1c1bee",
+      "timestamp": 1745503050,
       "reproducible": true,
       "error": null
     }
@@ -27369,6 +27411,20 @@
       "error": null
     }
   ],
+  "55e9c04ceaa9710ff0eddcdbafd2bd7fd4b3cb1bbb82568bf30e72793528128d": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2274/FairEmail-v1.2274a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2274,
+      "version_name": "1.2274",
+      "tag": "1.2274",
+      "commit": "fd9cbfbbacc7b0d259b47e5aacf0d343bdfe94b3",
+      "timestamp": 1745520038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -28581,6 +28637,20 @@
       "tag": "0.23.3.15",
       "commit": "37757ac25fcf47963a1862c3adba7548d013a752",
       "timestamp": 1744046250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "50a070964fb039ac364fad6ce0fcdc48152cadd61f67a363324df56c1b4ce0e3": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.4.16/freetube-0.23.4.16-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230004016,
+      "version_name": "0.23.4.16",
+      "tag": "0.23.4.16",
+      "commit": "515621253aa4eccece3babbd322b94267712ea9d",
+      "timestamp": 1745503248,
       "reproducible": true,
       "error": null
     }
