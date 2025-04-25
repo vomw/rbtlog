@@ -1217,6 +1217,20 @@
       "error": null
     }
   ],
+  "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v6.1.2/cclauncher-v6.1.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 440,
+      "version_name": "v6.1.2",
+      "tag": "v6.1.2",
+      "commit": "03c3eaaa8c7f85a8f46d5c71142e0e0e13ce8c8a",
+      "timestamp": 1745592979,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -21841,6 +21855,20 @@
       "tag": "v48",
       "commit": "58221b248764c7c79ddf20c2c6f3ca6b3a3d691c",
       "timestamp": 1742692362,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
+    {
+      "repository": "https://github.com/prathameshkhade/SysAdmin.git",
+      "apk_url": "https://github.com/prathameshkhade/SysAdmin/releases/download/v1.0.28/SysAdmin-v1.0.28-arm64-v8a.apk",
+      "appid": "com.sysadmin.sysadmin",
+      "version_code": 2001,
+      "version_name": "1.0.28",
+      "tag": "v1.0.28",
+      "commit": "efc20c33bd5401c1a41d90555129a0995ad298c6",
+      "timestamp": 1745594086,
       "reproducible": true,
       "error": null
     }
