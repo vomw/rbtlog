@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: v6.1.2
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: cclauncher-.*-arm64-v8a\.apk
         apk_url: https://github.com/mlm-games/CCLauncher/releases/download/v6.1.2/cclauncher-v6.1.2-arm64-v8a.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts

@@ -1217,6 +1217,20 @@
       "error": null
     }
   ],
+  "e72bf0916becdc3cee0d9b1154c563e48fa8998ff5795a29ed5b3fb735c85f9a": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.16.1/Podcini.X_release_free_8.16.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 166,
+      "version_name": "8.16.1",
+      "tag": "8.16.1",
+      "commit": "b267cd69161a933464c7fceb253c33ab153ab779",
+      "timestamp": 1745588866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
     {
       "repository": "https://github.com/mlm-games/CCLauncher.git",
@@ -6565,118 +6579,6 @@
       "error": null
     }
   ],
-  "f72c4603a6d9892643ffe3c8f9d4fd3e4d6c92c7c08ac351a39aaf0a95aeb71e": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.1v47/PuppyGit_1.0.7.1v47_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 47,
-      "version_name": "1.0.7.1",
-      "tag": "1.0.7.1v47",
-      "commit": "8106108548db8df7a1d1f6ca83063f89f1459925",
-      "timestamp": 1734515308,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "dddec8c003a9c48e2cd84fb577d3ced26177d728bd34f551478b3af87dd856e5": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.2v48/PuppyGit_1.0.7.2v48_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 48,
-      "version_name": "1.0.7.2",
-      "tag": "1.0.7.2v48",
-      "commit": "7ba2b29fc3fc8efb3b2cd47798490b870b0b9c91",
-      "timestamp": 1735753808,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "0b0ab964e05fa36d98a201be512c325b4305faa2f104d43df2874e3466cb3def": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.3v49/PuppyGit_1.0.7.3v49_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 49,
-      "version_name": "1.0.7.3",
-      "tag": "1.0.7.3v49",
-      "commit": "a4ce579683c3e790216d3ac1bad60185e228f63d",
-      "timestamp": 1736099167,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "bb4213b4166f2791834216de65c9d017931dc16f53191c0d004faf44822c531c": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.4v50/PuppyGit_1.0.7.4v50_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 50,
-      "version_name": "1.0.7.4",
-      "tag": "1.0.7.4v50",
-      "commit": "26037625ce67d9618b02dc8c9a59c481a59abb40",
-      "timestamp": 1736186742,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "4e92310aa00fd2c95e9172a31ca58bb517b993f2e48b603d208a9e9d6dbb0354": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.5v51/PuppyGit_1.0.7.5v51_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 51,
-      "version_name": "1.0.7.5",
-      "tag": "1.0.7.5v51",
-      "commit": "0d84ea8370e2b30a8335a1c9e23602d9dce09965",
-      "timestamp": 1736273307,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "e5625611c41b90397703f05bc45bb3eb2aa143eae0f31fe5ceef9fa8e1eb9329": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.6v52/PuppyGit_1.0.7.6v52_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 52,
-      "version_name": "1.0.7.6",
-      "tag": "1.0.7.6v52",
-      "commit": "c74a3c73b0a88f862810046f2b590234d75bfcb6",
-      "timestamp": 1736704760,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "aec31211688d1fda0678385c8be4de36a6b69d44bd56609d5a10ebb35bb6c0a8": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.7v53/PuppyGit_1.0.7.7v53_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 53,
-      "version_name": "1.0.7.7",
-      "tag": "1.0.7.7v53",
-      "commit": "a37c566e6856ca28a87e219d28fe783f6e6f0bf2",
-      "timestamp": 1736791664,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "1ae40a68bb10c2d852a2a372dd22c32b8b629f49d407dbab2cae60c6ded58897": [
-    {
-      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
-      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.0.7.9v55/PuppyGit_1.0.7.9v55_release.apk",
-      "appid": "com.catpuppyapp.puppygit.play.pro",
-      "version_code": 55,
-      "version_name": "1.0.7.9",
-      "tag": "1.0.7.9v55",
-      "commit": "ce53cd62e911d5f53d38851803690efce848d687",
-      "timestamp": 1737741167,
-      "reproducible": true,
-      "error": null
-    }
-  ],
   "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -7009,6 +6911,20 @@
       "tag": "1.1.0.3v79",
       "commit": "2e79d533fa10edd4b419d1b4967b13d77027fbc1",
       "timestamp": 1745428566,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9687d59fd832f48dd89007fdc773eaeddc0f8947cc78a0b52515f6f386e868b6": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.0.4v80/PuppyGit_1.1.0.4v80_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 80,
+      "version_name": "1.1.0.4",
+      "tag": "1.1.0.4v80",
+      "commit": "41181af3f44efb80b4917c6cb95e42d81397687f",
+      "timestamp": 1745589280,
       "reproducible": true,
       "error": null
     }
@@ -20067,6 +19983,20 @@
       "error": null
     }
   ],
+  "7543a1d9a9ed9fcc53eab18a6301c5a0613c729f8888af75dfe919a6591b4540": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Feed.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Feed/releases/download/1.8.0/Neo_Feed_180_release.apk",
+      "appid": "com.saulhdev.neofeed",
+      "version_code": 1800,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "1baf6521653cccd7d9d24123d6c6660769147af3",
+      "timestamp": 1745590164,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4ca54004c9a10953730c8a71c297a8175a1696a0a1b576fceeca5e1225f2675b": [
     {
       "repository": "https://github.com/SchweGELBin/OpenBible2.git",
@@ -23383,6 +23313,20 @@
       "error": null
     }
   ],
+  "b265357eb3c9ae83e3c9aab1ad4a8c96f730f629cad3121f73b00eafa75e8f38": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.6.2/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1620,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "6998d9e9277c07ead3bf0bf9c593a0bde8a81949",
+      "timestamp": 1745608476,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -25509,6 +25453,20 @@
       "error": null
     }
   ],
+  "5de35a24bec62f2ff5cd923ded8eacc4266b923c64e53885698d3a6aca9ce85a": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.1/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 14,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "a14d4661a4664d4518429262bee30b95ba9d59ee",
+      "timestamp": 1745605921,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -27593,6 +27551,20 @@
       "error": null
     }
   ],
+  "5df02e45cfec00ed8bbcc6f50b45798f115546ec01c402ed756786d641934cd3": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.93.0-alpha9/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 14,
+      "version_name": "0.93.0-alpha9",
+      "tag": "v0.93.0-alpha9",
+      "commit": "a53f3eb917eb2a14d52d0391329a9cbabddaf0dd",
+      "timestamp": 1745590564,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -27771,6 +27743,20 @@
       "tag": "v1.0.0",
       "commit": "1bdad8e7c7ace83094a2a9e14276c7855b7f15b4",
       "timestamp": 1745096645,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "96f333b7e4f7d0d389c8c5292f834ffe1e4f164796cae98e0b030f763d000b7b": [
+    {
+      "repository": "https://github.com/rafareborn/biometric-bypass.git",
+      "apk_url": "https://github.com/rafareborn/biometric-bypass/releases/download/v1.0.1/app-release.apk",
+      "appid": "eu.rafareborn.biometricbypass",
+      "version_code": 101,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "4486974cc93844c6585c30683c703e8352e63539",
+      "timestamp": 1745595297,
       "reproducible": true,
       "error": null
     }
@@ -34993,6 +34979,20 @@
       "tag": "v15.0",
       "commit": "36b9a4ddc4c7be745ad304c6ce5cb8ba39c66587",
       "timestamp": 1743280874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ab9131422e8df8abd8e82c19460bf38e10369b07ec11c18579bdb9c952700e72": [
+    {
+      "repository": "https://github.com/Crazy-Marvin/VacationDays.git",
+      "apk_url": "https://github.com/Crazy-Marvin/VacationDays/releases/download/v16.0/app-release.apk",
+      "appid": "rocks.poopjournal.vacationdays",
+      "version_code": 16,
+      "version_name": "16.0",
+      "tag": "v16.0",
+      "commit": "f9ae0c8706b3b84cdda68689d2eb6f4c72b2dcb0",
+      "timestamp": 1745607518,
       "reproducible": true,
       "error": null
     }

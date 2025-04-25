@@ -2,7 +2,7 @@
 repository: https://github.com/ranobe-org/ranobe.git
 updates: releases
 notes:
-  - 'FIXME: v0.0.7 was built from dirty tree and needed versionCode/versionName adjusted'
+  - 'FIXME: v0.0.7 was built from dirty tree and needed versionCode/versionName adjusted. v0.0.8 has the same issue, but in addition, the commit it was built from does not exist; see https://github.com/ranobe-org/ranobe/issues/38 '
 versions:
   - tag: v0.0.7
     apks:
