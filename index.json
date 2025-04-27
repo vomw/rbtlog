@@ -22335,6 +22335,20 @@
       "error": null
     }
   ],
+  "0e949250591b50103a268a521a02caab6f684e4b87f5fed913ea35074326cc51": [
+    {
+      "repository": "https://github.com/Turtlepaw/nearby_settings.git",
+      "apk_url": "https://github.com/Turtlepaw/nearby_settings/releases/download/v1.0.3/mobile.apk",
+      "appid": "com.turtlepaw.nearby_settings",
+      "version_code": 6,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "329998b4a32e138806ee171af063ef1bbf4cc7a1",
+      "timestamp": 1745794630,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc72e7f374c06cbd3af6b9357436069239622b26942bf2bffb3640ab68efe501": [
     {
       "repository": "https://github.com/thevindu-w/clip_share_client.git",
@@ -31143,6 +31157,20 @@
       "tag": "1.0.16.1",
       "commit": "3fa245f24b684c1f56d9115a6d93da975c78fb8e",
       "timestamp": 1741456679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "730da62eade74e329ecb7c5f44ec6e955019cdaba2b884e65392ba7a1e62bf6b": [
+    {
+      "repository": "https://github.com/mlm-games/geotag-video-camera.git",
+      "apk_url": "https://github.com/mlm-games/geotag-video-camera/releases/download/1.1.4/app-universal-release.apk",
+      "appid": "org.app.geotagvideocamera",
+      "version_code": 90,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "6f840d23153bb6526e45168eb01c10f2550672ab",
+      "timestamp": 1745787590,
       "reproducible": true,
       "error": null
     }
