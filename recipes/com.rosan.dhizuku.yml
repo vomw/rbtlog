@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.9.1
     apks:
-      - apk_pattern: Dhizuku_v[0-9.]\.apk
+      - apk_pattern: Dhizuku_v[0-9.]*\.apk
         apk_url: https://github.com/iamr0s/Dhizuku/releases/download/v2.9.1/Dhizuku_v2.9.1.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts

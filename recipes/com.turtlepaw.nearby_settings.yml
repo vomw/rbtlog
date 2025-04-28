@@ -1,6 +1,9 @@
 ---
 repository: https://github.com/Turtlepaw/nearby_settings.git
 updates: releases
+notes:
+  - 'FIXME: for next release, use'
+  - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ "(.*)".*/\1/p' publish.yaml)"
 versions:
   - tag: v1.0.3
     apks:
