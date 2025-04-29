@@ -1259,6 +1259,20 @@
       "error": null
     }
   ],
+  "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
+    {
+      "repository": "https://github.com/ericswpark/camsung.git",
+      "apk_url": "https://github.com/ericswpark/camsung/releases/download/1.1.0/app-release.apk",
+      "appid": "android.com.ericswpark.camsung",
+      "version_code": 5,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "5e7578b1d9d2bcfba26e5a175b12080af9a71d70",
+      "timestamp": 1745966877,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
     {
       "repository": "https://github.com/mlm-games/CCLauncher.git",
@@ -11769,6 +11783,20 @@
       "tag": "2.5.22",
       "commit": "d3cfc461483b46d0d96787ac7e2af89a1f89702c",
       "timestamp": 1745330679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dbdd56e95f55026a1a5862dd03e15160b9ab624fd6544f82fdeaf9e25cb5342e": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.24/fdroidRelease-2.5.24.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30524,
+      "version_name": "2.5.24",
+      "tag": "2.5.24",
+      "commit": "0f9f00843f29a29c3282440aefbe0dc9da66dc3f",
+      "timestamp": 1745955634,
       "reproducible": true,
       "error": null
     }
