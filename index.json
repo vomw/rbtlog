@@ -19899,6 +19899,20 @@
       "error": null
     }
   ],
+  "4ceab0fdfd2fac70c2c96cc9b596e7eadb2a9576415b8020e9c0ab83bf622298": [
+    {
+      "repository": "https://github.com/rohankhayech/Choona.git",
+      "apk_url": "https://github.com/rohankhayech/Choona/releases/download/v1.3.0/Choona-Android-v1.3.0.apk",
+      "appid": "com.rohankhayech.choona",
+      "version_code": 7,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "7d71b9bbe1598eae021b3f04e3254a7e7db13dc3",
+      "timestamp": 1745943318,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b89c828ee4c0c5fdec74e6417bd8347366c4a0d63c84f9133bc925b2238fdbb2": [
     {
       "repository": "https://codeberg.org/rootminusone8004/Bazarnote.git",
@@ -25841,6 +25855,20 @@
       "tag": "v1.1.1",
       "commit": "f28efba8a6500c9362f1572f0fb99b7c79c8c715",
       "timestamp": 1738879475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
+    {
+      "repository": "https://github.com/Elbullazul/LinkGuardian.git",
+      "apk_url": "https://github.com/Elbullazul/LinkGuardian/releases/download/v0.0.8-beta/app-release.apk",
+      "appid": "dev.elbullazul.linkguardian",
+      "version_code": 8,
+      "version_name": "v0.0.8",
+      "tag": "v0.0.8-beta",
+      "commit": "fe84fb2c1d6bdefb0ecf7075b58fffe1336bf162",
+      "timestamp": 1745875989,
       "reproducible": true,
       "error": null
     }
