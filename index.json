@@ -1273,6 +1273,20 @@
       "error": null
     }
   ],
+  "2d3ca37b46613e21fa460849611a96dad5f348cfc178ede5397cd98edd824abb": [
+    {
+      "repository": "https://github.com/ericswpark/camsung.git",
+      "apk_url": "https://github.com/ericswpark/camsung/releases/download/1.1.1/app-release.apk",
+      "appid": "android.com.ericswpark.camsung",
+      "version_code": 6,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "c4d5c4b22937d9922736688a2c9c37fc8e0677d3",
+      "timestamp": 1745971926,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
     {
       "repository": "https://github.com/mlm-games/CCLauncher.git",
@@ -1297,6 +1311,34 @@
       "tag": "v7.0.2",
       "commit": "e313d8449ce0b2e20f2f0822c9a41af447d0cbe2",
       "timestamp": 1745780580,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0efca5a3364c85bad7937b3ec80943ccf23bd045b0a0ffbf90d2d51ee908fc17": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v7.0.3/cclauncher-v7.0.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 470,
+      "version_name": "v7.0.3",
+      "tag": "v7.0.3",
+      "commit": "16b3f6965cd78acc6355b6a37c2e21bec18b81c7",
+      "timestamp": 1746021211,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f8058e9f7c815a42526ff977eda713dd1b64f30d8ba9f5ffd72239790b009cd1": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v7.1.1/cclauncher-v7.1.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 480,
+      "version_name": "v7.1.1",
+      "tag": "v7.1.1",
+      "commit": "005eb417bf7222e87cb43c5461212229d4e28010",
+      "timestamp": 1746037244,
       "reproducible": true,
       "error": null
     }
@@ -1465,6 +1507,20 @@
       "tag": "v2.11.0",
       "commit": "d462cfa2160078b543b7ccfc4bbd74d8eb74ae71",
       "timestamp": 1743432491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "381c08c471907edf2085c9197825e004c15af529ee645bcc190626eeeffa8616": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.12.0/Pachli_2.12.0_30_7a7bc62c_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 30,
+      "version_name": "2.12.0",
+      "tag": "v2.12.0",
+      "commit": "7a7bc62c2be3e4f725cbfa252af530d8fa9756ad",
+      "timestamp": 1746033619,
       "reproducible": true,
       "error": null
     }
@@ -6505,6 +6561,20 @@
       "tag": "2025.04.1130",
       "commit": "1223fea77904955d26203fd1b54903e94671ff60",
       "timestamp": 1745243417,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f7b90b97264da480a63970fe6a8857ec115f5163e307a615a645eb7a82d6d58": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.04.1131-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1131,
+      "version_name": "2025.04.1131-dev",
+      "tag": "2025.04.1131-dev",
+      "commit": "52cbb9b31fed8de72bf2e0ef4a9cac6fb280303a",
+      "timestamp": 1746022268,
       "reproducible": true,
       "error": null
     }
@@ -12245,6 +12315,20 @@
       "tag": "3.4.5",
       "commit": "1457c76df0b3bce4fa6ccf8b1059535a56358b24",
       "timestamp": 1740931871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "64d53ee034b86c4a8e143c2fc000297e6ae606aaf3b7e6488e61769dae85a16e": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.6/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2302205,
+      "version_name": "3.4.6",
+      "tag": "3.4.6",
+      "commit": "fcf83e6a10bfe54ff20d196946938bb11dfa84e2",
+      "timestamp": 1746023070,
       "reproducible": true,
       "error": null
     }
@@ -19549,6 +19633,34 @@
       "error": null
     }
   ],
+  "eef6e22a06b66d8fef421d0e9c142668fe626c73d9035bf8b32e40502eacb042": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.3.10/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 310,
+      "version_name": "0.3.10",
+      "tag": "0.3.10",
+      "commit": "c9721ade33a6aa8aabe75410efe3f803d2f6667b",
+      "timestamp": 1746023281,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "780eb63e5b85f9420fafd5995c7db422a3852a1d79855f0166fa67957ff7b429": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.3.11/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 311,
+      "version_name": "0.3.11",
+      "tag": "0.3.11",
+      "commit": "eb4f0c475a018346b81ca7058a78ce4b8d964ba9",
+      "timestamp": 1746037589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -20623,6 +20735,20 @@
       "tag": "2.1.3",
       "commit": "86a3ed7f4deecf8e1f7770e28586df0975e5336c",
       "timestamp": 1743603774,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3aa990f415bef16a3c9f99d0283dc7901ac0e52b68d03b8a2bd4422a3d3856d8": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/2.2.0/composeApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 2200,
+      "version_name": "2.2.0-online",
+      "tag": "2.2.0",
+      "commit": "b28cc1eff7b49ee66b0f1121397e512f95be9863",
+      "timestamp": 1746023547,
       "reproducible": true,
       "error": null
     }
@@ -22097,6 +22223,20 @@
       "error": null
     }
   ],
+  "2dec152cd67e029de0b8bb3151aecb2a559c48928d2ad38c24123bddec870a63": [
+    {
+      "repository": "https://github.com/nxtrace/NextTraceroute.git",
+      "apk_url": "https://github.com/nxtrace/NextTraceroute/releases/download/v0.1.0/NextTraceroute-v0.1.0.apk",
+      "appid": "com.surfaceocean.nexttraceroute",
+      "version_code": 10,
+      "version_name": "0.1.0",
+      "tag": "v0.1.0",
+      "commit": "5dfe7e37550880fb248c3d54c844094e51e9a071",
+      "timestamp": 1746031179,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "879e6d592f15a91f12755dae463100313cfb72534467b709746238e34f665a0f": [
     {
       "repository": "https://github.com/leon-cleaning-services/leon.git",
@@ -23441,6 +23581,20 @@
       "error": null
     }
   ],
+  "7a51913f458d421c24312b1f15da0fa9ef4eb20cfdf82a2f9ee73e8799712d2b": [
+    {
+      "repository": "https://github.com/WirelessAlien/ZipXtract.git",
+      "apk_url": "https://github.com/WirelessAlien/ZipXtract/releases/download/v5.2/zipxtract-v5.2.apk",
+      "appid": "com.wirelessalien.zipxtract",
+      "version_code": 17,
+      "version_name": "5.2",
+      "tag": "v5.2",
+      "commit": "ed614cdb42cd6fc6bbdd18de45b38a222fc227b5",
+      "timestamp": 1746037857,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde61cda06a70d65d979c6e69067491f483917707511511c295cbb0be102a267": [
     {
       "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
@@ -24217,6 +24371,20 @@
       "tag": "0.1.45",
       "commit": "01b033a59f24d629d089442bf1a611a30d550cd6",
       "timestamp": 1745430774,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1e2230b0b5517a6697579c14917bd9c215c892b2f19eaaa348085c4317e84a34": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.46/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 46,
+      "version_name": "0.1.46",
+      "tag": "0.1.46",
+      "commit": "bdfb8e84f239066028d185c1ff2842fdf147665c",
+      "timestamp": 1746024134,
       "reproducible": true,
       "error": null
     }
@@ -30405,6 +30573,20 @@
       "error": null
     }
   ],
+  "00d95a0a791b320732ea0ad06f1e5b4bc073d7dae24c4320f5008676f874b06d": [
+    {
+      "repository": "https://github.com/FFDA/SourCherry.git",
+      "apk_url": "https://github.com/FFDA/SourCherry/releases/download/v1.7.1/SourCherry_1.7.1-release.apk",
+      "appid": "lt.ffda.sourcherry",
+      "version_code": 15,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "5df35918955b3adb6746cc222d621089c8de22ad",
+      "timestamp": 1746038066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f4c61a7bf19412324036b8de074707c24965c82ba2379a2d9c1cb420d9c1cfe2": [
     {
       "repository": "https://github.com/FooqX/GoldenRatio.git",
@@ -33117,6 +33299,20 @@
       "tag": "v5.5.2",
       "commit": "1dd982098109c27cd7ef2c4f258495c4bfa0f395",
       "timestamp": 1744824919,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a60876bde3d0f8b21ad66ed322bc7e87e7b0d9ce29de475e79fac7fc508f49b7": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.5.3/floccus-build-v5.5.3.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5005003,
+      "version_name": "5.5.3",
+      "tag": "v5.5.3",
+      "commit": "48249b1236a81b219a9b49ba2d3193d89506a7aa",
+      "timestamp": 1746038203,
       "reproducible": true,
       "error": null
     }
@@ -36425,6 +36621,20 @@
       "error": null
     }
   ],
+  "7b0791f4ba7e57eaa7ce005291a6bdd89713da889d79f793a183b76b2e6d2a93": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.8.0/tranquilstopwatch-11.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 10,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "d4881a086d848c78aa09944f843d6034e5acc020",
+      "timestamp": 1746024615,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7263b528e45a70df1e0dd1aa19aba1523e4e599a2b27a6b6055c445196ff351": [
     {
       "repository": "https://codeberg.org/TipzTeam/pomodoro.git",
@@ -37037,6 +37247,20 @@
       "tag": "1.5.5",
       "commit": "2e530c14cd56c1af60c6fb3f740528ac49e44aa5",
       "timestamp": 1742312922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1b3a1f19e5b8fac2eef9cea57e45ab5e7cf656772ab8ae9d60fafc90a6d1e079": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.0.0/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 34,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "a24b3900ca0b36efb02de9cd98a14b0e116f8491",
+      "timestamp": 1746024865,
       "reproducible": true,
       "error": null
     }
