@@ -1343,6 +1343,20 @@
       "error": null
     }
   ],
+  "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
+    {
+      "repository": "https://github.com/mlm-games/CLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CLauncher/releases/download/v5.2.9/clauncher-v5.2.9.apk",
+      "appid": "app.clauncher",
+      "version_code": 410,
+      "version_name": "v5.2.9",
+      "tag": "v5.2.9",
+      "commit": "8d114c74a3e1cbab2ef7b9e7f66c831aacbb8507",
+      "timestamp": 1746040455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -6730,6 +6744,20 @@
       "commit": "5b0265da24131f7ba833269cda6dc355b3fe19fb",
       "timestamp": 1744217197,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "38ab64e877e1f5b9c17352bf44569170b70f8ac680b5e2ff1cc186aead5966a5": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v1.1.4/sefirah-1.1.4.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 13,
+      "version_name": "1.1.4",
+      "tag": "v1.1.4",
+      "commit": "7320b3d2cb20d1a901ae03e1e00d1f99f8acb7d1",
+      "timestamp": 1746096292,
+      "reproducible": true,
       "error": null
     }
   ],
