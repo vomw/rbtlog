@@ -1343,6 +1343,20 @@
       "error": null
     }
   ],
+  "83f15cf824d2a75e49464f918fb3eac40880013a458625d7172b8bf61f3fde7f": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v7.1.2/cclauncher-v7.1.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 490,
+      "version_name": "v7.1.2",
+      "tag": "v7.1.2",
+      "commit": "32d3f4dc30fab2f4bd850f12b5dc5ce026fe8c1b",
+      "timestamp": 1746107265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -1353,6 +1367,20 @@
       "tag": "v5.2.9",
       "commit": "8d114c74a3e1cbab2ef7b9e7f66c831aacbb8507",
       "timestamp": 1746040455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "37917d6ebffb0c331a541761e52e1a0136a0d91d7dd9462c3bb6ddd6d3ef9d60": [
+    {
+      "repository": "https://github.com/mlm-games/CLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CLauncher/releases/download/v5.2.10/clauncher-v5.2.10.apk",
+      "appid": "app.clauncher",
+      "version_code": 420,
+      "version_name": "v5.2.10",
+      "tag": "v5.2.10",
+      "commit": "359dd0c4945b1b9f3a25cfcdfb2aa57b35a55738",
+      "timestamp": 1746107670,
       "reproducible": true,
       "error": null
     }
@@ -11577,6 +11605,20 @@
       "error": null
     }
   ],
+  "e37208ca7adba8cf4b1b7a9c6554a3e4a972247c640413e198e545a02c21f3ad": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.16.13/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 114,
+      "version_name": "1.16.13",
+      "tag": "v1.16.13",
+      "commit": "b01ccb84ea6d0d6b47bf401ad8541152c71fd84a",
+      "timestamp": 1746107919,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -12221,6 +12263,20 @@
       "error": null
     }
   ],
+  "369704b46462b462540c3e25c34de6085e3e7503bb95ab9b88a866e4de1244d4": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.17.1/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2302207,
+      "version_name": "2.17.1-Univers-oss",
+      "tag": "2.17.1",
+      "commit": "208ad90e05a53cd1f7b6add0159f8d2a2509f976",
+      "timestamp": 1746108244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -12745,6 +12801,20 @@
       "tag": "v2.4.0",
       "commit": "35bf9b2fb2fb4753e9635cae84e873df646bb4e8",
       "timestamp": 1745762680,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "20ea3b53b4537b2541eafce1fe57747d4fa2a05c587627a27139a9e6b92b42b6": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v2.5.0/DroidPad-v2.5.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 22,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "a83e4bfddc50876b91db9dc0d170f5f1412e3ed6",
+      "timestamp": 1746123649,
       "reproducible": true,
       "error": null
     }
@@ -13866,6 +13936,34 @@
       "commit": "f4897098a15a05db6ed28d23cd7d9978a7e13272",
       "timestamp": 1745778467,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "3280934dca1a95570af0449d2750fa406254014b318f203011fcae5c5bb13059": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.4.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2127,
+      "version_name": "9.4.0",
+      "tag": "9.4.0",
+      "commit": "12bee5618234144aee8214131731a3e710587445",
+      "timestamp": 1746115913,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "670f28e0bde0b15adaa0d3d03e982c3cc65c3ab6e11eed06d781ffb52cf15480": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.4.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2128,
+      "version_name": "9.4.1",
+      "tag": "9.4.1",
+      "commit": "97b34833b06c3a468835ac2a743b617b91247f00",
+      "timestamp": 1746126000,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -19689,6 +19787,20 @@
       "error": null
     }
   ],
+  "12b446dfda5fbded0cf2aff11ea2742884a6d70d6b7297333984f274bd2e965c": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.3.12/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 312,
+      "version_name": "0.3.12",
+      "tag": "0.3.12",
+      "commit": "e14188c356cf75a8fb34d573fcaa1c38e8f31643",
+      "timestamp": 1746123927,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -20791,6 +20903,18 @@
       "tag": "2.2.0",
       "commit": "b28cc1eff7b49ee66b0f1121397e512f95be9863",
       "timestamp": 1746023547,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/2.2.0-online/composeApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 2200,
+      "version_name": "2.2.0-online",
+      "tag": "2.2.0-online",
+      "commit": "b28cc1eff7b49ee66b0f1121397e512f95be9863",
+      "timestamp": 1746109202,
       "reproducible": true,
       "error": null
     }
@@ -23901,6 +24025,20 @@
       "error": null
     }
   ],
+  "4586254e6897e8664c433f6f606de8c590eb4c2f93e60d39cdb2752a1fc27f5e": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.6.3/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1630,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "5b10da31d8dc0d3ac4d7013aa2eb4a12b86c594a",
+      "timestamp": 1746124172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -26811,6 +26949,20 @@
       "error": null
     }
   ],
+  "0e1df4e9386f142d0b5aad874d77aa74b0710d6cb51570d1e00fc7e24abd9601": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v4.0.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 400,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "1f10f09edb79b51000faac16a400c474a68c5259",
+      "timestamp": 1746110004,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "52b0062998adbd48cfb26f2daa8d5822b672be3023a241ee4fc2b3f672fd6d3c": [
     {
       "repository": "https://github.com/supershadoe/delta.git",
@@ -29341,6 +29493,20 @@
       "error": null
     }
   ],
+  "927e3512b10d5622c78f1030d7ec67c290e4f6aba187806c45d275255adde00c": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.5.17/freetube-0.23.5.17-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230005017,
+      "version_name": "0.23.5.17",
+      "tag": "0.23.5.17",
+      "commit": "15b3a2392b218105dddbeb6e04a57114dce2d93a",
+      "timestamp": 1746110290,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -31661,6 +31827,20 @@
       "tag": "1.1.4",
       "commit": "6f840d23153bb6526e45168eb01c10f2550672ab",
       "timestamp": 1745787590,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "709a554ea059b867c97f31143a0094531b0fd44fbda7e3296a4630a5035d89fd": [
+    {
+      "repository": "https://github.com/mlm-games/geotag-video-camera.git",
+      "apk_url": "https://github.com/mlm-games/geotag-video-camera/releases/download/1.1.5/app-universal-release.apk",
+      "appid": "org.app.geotagvideocamera",
+      "version_code": 100,
+      "version_name": "1.1.5",
+      "tag": "1.1.5",
+      "commit": "b71615fd3b3bb53980acc89349d2a0349281da51",
+      "timestamp": 1746110646,
       "reproducible": true,
       "error": null
     }
@@ -35389,6 +35569,20 @@
       "error": null
     }
   ],
+  "3e430bff9b263e08414153428f48591fd1c671b92d55fb02e3642247d42bfdd3": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v3.4.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 15,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "9c9ff1a68c20b8c416b8ec09f258a0a4e7fa123d",
+      "timestamp": 1746110932,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4651ee9382456df657bcba5f79149d6e2b55d1766d580fdcb670fd848ef19436": [
     {
       "repository": "https://github.com/VishnuSanal/Quotes.git",
@@ -35791,6 +35985,20 @@
       "tag": "115",
       "commit": "98d0b0870224cef205e8f60261f08900efc07048",
       "timestamp": 1745247305,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6b40e99ca05e62a6c4c0e90f985b4181a39d667ef9e93ae530e5ceed11b84e9b": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/116/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 116,
+      "version_name": "5.30",
+      "tag": "116",
+      "commit": "7f7be2942dd1f5657d0c3d9716feaac28fe5558e",
+      "timestamp": 1746111243,
       "reproducible": true,
       "error": null
     }
