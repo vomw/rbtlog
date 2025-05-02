@@ -8693,6 +8693,20 @@
       "error": null
     }
   ],
+  "52dc6bed1bd6874ce0e109bd01773303d004460c432a35ba35139d8516eaf34e": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.27/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 27,
+      "version_name": "0.0.27",
+      "tag": "0.0.27",
+      "commit": "34dc61b5d177006c7b6f45b7ec32b6e4110b85fd",
+      "timestamp": 1746194423,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -9697,6 +9711,20 @@
       "tag": "4.0.27",
       "commit": "21a53ff3b6cdd1a05708b23dca3a33b4645883a2",
       "timestamp": 1744984542,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d811a6e0f24b5643f8feb70472d257f486ded9c87f6debcbc7e85edbb6adac0f": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.28/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 146,
+      "version_name": "4.0.28",
+      "tag": "4.0.28",
+      "commit": "41b8d3f07876c5a1b9ae89df20bdac230913a48a",
+      "timestamp": 1746194790,
       "reproducible": true,
       "error": null
     }
