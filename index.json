@@ -3723,6 +3723,20 @@
       "error": null
     }
   ],
+  "46d93737fa9d45810ea5c4e291b4f10085fa653f4a072c33c9ec0987285af46c": [
+    {
+      "repository": "https://github.com/afaneca/myfin-android.git",
+      "apk_url": "https://github.com/afaneca/myfin-android/releases/download/2.3.1/app-prod-release.apk",
+      "appid": "com.afaneca.myfin",
+      "version_code": 23100,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "6724417a6043e6624cd0b7c15faaf5b09b133f7c",
+      "timestamp": 1746217654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1656a33a374df8074732708626203abf874be754999c3bd5f31adb02d7c7bee7": [
     {
       "repository": "https://github.com/smswithoutborders/RelaySMS-Android.git",
@@ -7975,6 +7989,20 @@
       "tag": "v0.7.8",
       "commit": "c8c36372adce3189067b054ebb8aa84544c2a8a5",
       "timestamp": 1743087011,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0c917440bf4fca8209169120d13bd556f5f183e4fa09ef0dac91d30d2822f5dc": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.8.0-final/OuterTune-0.8.0-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 52,
+      "version_name": "0.8.0",
+      "tag": "v0.8.0-final",
+      "commit": "dada2601c3742f466600491835585b95a79a7d65",
+      "timestamp": 1746219582,
       "reproducible": true,
       "error": null
     }
@@ -12563,6 +12591,20 @@
       "tag": "v1.0.0",
       "commit": "23e00dbdbfcf0aad40ed4e34544bf4b6ce236ce9",
       "timestamp": 1744064610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aa11809d96a303e1b7b9aa15e0b45a58d93b4d3bc97fc7d40a95906c4aaff04a": [
+    {
+      "repository": "https://github.com/mkalmousli/FloatingMute.git",
+      "apk_url": "https://github.com/mkalmousli/FloatingMute/releases/download/v2.0.0/FloatingMute.github.v2.0.0.apk",
+      "appid": "com.github.mkalmousli.floating_mute",
+      "version_code": 2,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "dbf7c266ef6cc9b06c1fe70a5410048b43f1445c",
+      "timestamp": 1746210488,
       "reproducible": true,
       "error": null
     }
@@ -19157,6 +19199,20 @@
       "error": null
     }
   ],
+  "52aa75d68ea81f4e2a51110718e770e9baada7dfd095be9b7688cdabeab2257d": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.49/1.49-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 99,
+      "version_name": "1.49",
+      "tag": "v1.49",
+      "commit": "ce4a1863db46eb9dfbe3326bb60000b4cd48e92b",
+      "timestamp": 1746210772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -24975,6 +25031,20 @@
       "error": null
     }
   ],
+  "84c9b844a7b29319483c61a99794787525814673ee15c8dc899f808afb12b418": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.16.0/RecurringExpenseTracker_0.16.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 38,
+      "version_name": "0.16.0",
+      "tag": "v0.16.0",
+      "commit": "a7220f977194ba6a199a288d525e54a5d08e60d5",
+      "timestamp": 1746211170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -27755,6 +27825,20 @@
       "tag": "v1.4.7-rc0",
       "commit": "7d683c6e7d601e18bb8f51a9c13ee76e1d1e9d3e",
       "timestamp": 1744639300,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "356c903f9e2edd72fc42ee89f8d0162a7b75152abcf37c7462f05488aab4bb38": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.4.8-rc0/eu.darken.sdmse-v1.4.8-rc0-10408000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10408000,
+      "version_name": "1.4.8-rc0",
+      "tag": "v1.4.8-rc0",
+      "commit": "3e547677080a355041cd0d518fced44e3541c5f7",
+      "timestamp": 1746211511,
       "reproducible": true,
       "error": null
     }
@@ -36139,6 +36223,20 @@
       "tag": "1.7.8",
       "commit": "12d233e3426590e979e1c75524da8cb11bbdd5b1",
       "timestamp": 1745162041,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "418284c0611da9b0971768572b960ff966f722d0e67affae3cb0de8ac01d3170": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.7.9/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 54,
+      "version_name": "1.7.9",
+      "tag": "1.7.9",
+      "commit": "5ba75a7eeb1652c4dd813a2038345c818d8e6adf",
+      "timestamp": 1746212118,
       "reproducible": true,
       "error": null
     }
