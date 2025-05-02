@@ -1,0 +1,37 @@
+---
+repository: https://github.com/VersoBit/WeatherDoge.git
+updates: releases
+versions:
+  - tag: v1.9
+    apks:
+      - apk_pattern: WeatherDoge-.*[0-9]f-.*\.apk
+        apk_url: https://github.com/VersoBit/WeatherDoge/releases/download/v1.9/WeatherDoge-12-1.9f-3bbc566.apk
+        build:
+          - echo "signing.file=/build/repo/signing.gradle" >> local.properties
+          - cp signing.template.gradle signing.gradle
+          - sed -r '/release \{/,/}/d' -i signing.gradle
+          - base64 -d > sedo <<< c2VkIC1yICdzL1JFUExBQ0UgV0lUSCBZT1VSIEFQUCBJRC8yZGMyZGMwZjA4ZDZmNjc0ZWIxMTJjYjFmZDUxMDBiOC8gOyBzL1JFUExBQ0UgV0lUSCBZT1VSIEtFWS8vJyAtaSBzaWduaW5nLmdyYWRsZQo=
+          - bash sedo
+          - ./gradlew assembleFossRelease -Dorg.gradle.jvmargs=-Xmx4096M
+          - mv WeatherDoge/build/outputs/apk/foss/release/WeatherDoge-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
