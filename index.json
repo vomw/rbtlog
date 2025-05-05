@@ -1385,6 +1385,20 @@
       "error": null
     }
   ],
+  "26d4353fc9f6f798c921c3a001c5e2868a9a52a6de6a8cd76ffe7cf010830c6e": [
+    {
+      "repository": "https://github.com/mlm-games/CLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CLauncher/releases/download/v5.2.11/clauncher-v5.2.11.apk",
+      "appid": "app.clauncher",
+      "version_code": 430,
+      "version_name": "v5.2.11",
+      "tag": "v5.2.11",
+      "commit": "19da82a089936885dd9d065662148c01c669b2b1",
+      "timestamp": 1746469238,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
     {
       "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
@@ -3831,6 +3845,20 @@
       "tag": "v1.16",
       "commit": "0bd6f688b6c11c1e9f55716903e9e5b6d3f06262",
       "timestamp": 1743118736,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a7af3abb856d9c5174499b31c8a8e1e6b9cc55aaa04af15bcea7540a64e836ae": [
+    {
+      "repository": "https://github.com/aicodix/rattlegram.git",
+      "apk_url": "https://github.com/aicodix/rattlegram/releases/download/v1.17/app-release.apk",
+      "appid": "com.aicodix.rattlegram",
+      "version_code": 18,
+      "version_name": "1.17",
+      "tag": "v1.17",
+      "commit": "8ea3f127637baad76e7d270373f084bccacc0879",
+      "timestamp": 1746452865,
       "reproducible": true,
       "error": null
     }
@@ -6691,6 +6719,20 @@
       "error": null
     }
   ],
+  "4ef0887b410e84e34caf710ac38b3404f4ac6302b6aee7a6317a1b9f94ba04cd": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.05.1132/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1132,
+      "version_name": "2025.05.1132",
+      "tag": "2025.05.1132",
+      "commit": "d506d39c4fcade617c30c2d5bad9f263f327e9c5",
+      "timestamp": 1746453053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -7233,6 +7275,20 @@
       "tag": "1.1.0.6v82",
       "commit": "af8b637f1e2d52a77c445a3a4dd3b16c24630587",
       "timestamp": 1745848449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65f2040a492afea901b1a7881853ed75c5fbca4679e09c6e8ce335d1a641c702": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.0.8v84/PuppyGit_1.1.0.8v84_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 84,
+      "version_name": "1.1.0.8",
+      "tag": "1.1.0.8v84",
+      "commit": "c53e8a5a99222161b4c2ba938976d7398f063656",
+      "timestamp": 1746453591,
       "reproducible": true,
       "error": null
     }
@@ -11731,6 +11787,20 @@
       "error": null
     }
   ],
+  "5d2be62fef07f95de941dd846585511ac9b6de9db9270641ab2c4eb129b73fe1": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 117,
+      "version_name": "1.17.0",
+      "tag": "v1.17.0",
+      "commit": "6af3dcb4111a186f4c5300b9b7a121fa95178385",
+      "timestamp": 1746469419,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -14005,6 +14075,20 @@
       "tag": "v1.4.2",
       "commit": "e16cf7fd403f68fec45e2aa42febb63afcf03ebe",
       "timestamp": 1746296444,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e885ef1f09b70dbc7fb4773e4a9f5cfe06b778eeae4b58e1ebc71aef4988bdd3": [
+    {
+      "repository": "https://github.com/gohj99/Telewatch.git",
+      "apk_url": "https://github.com/gohj99/Telewatch/releases/download/v1.4.3/Telewatch-v1.4.3-arm.apk",
+      "appid": "com.gohj99.telewatch",
+      "version_code": 34,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "dacd1f863ebd0e852544e11b8a83705b68243f74",
+      "timestamp": 1746454540,
       "reproducible": true,
       "error": null
     }
@@ -17647,6 +17731,20 @@
       "error": null
     }
   ],
+  "16d2cb40a8122b4fabd77b9fce615a01c46a907001edd82036e9ae250fc0b42c": [
+    {
+      "repository": "https://github.com/NimaKhajehpour/OpenBooksDownloader.git",
+      "apk_url": "https://github.com/NimaKhajehpour/OpenBooksDownloader/releases/download/v1.1/app-release.apk",
+      "appid": "com.nima.openbooksdownloader",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "69e0a08bda6514c2f210a26e559744e841cac50e",
+      "timestamp": 1746464624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "91f1cd498ba3f2c015d4990254de53a321e343ad28290dab14de723152dc0512": [
     {
       "repository": "https://github.com/NimaKhajehpour/SocketChat.git",
@@ -20431,6 +20529,20 @@
       "error": null
     }
   ],
+  "811c3752013f0c17a6d3388f666b66962fe451272c5500264bd56a73d427e0cc": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.0.5/xed-editor-v3.0.5.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 51,
+      "version_name": "3.0.5",
+      "tag": "v3.0.5",
+      "commit": "edcbf3e0f9f7145ebcc71f15a9348047d1935da1",
+      "timestamp": 1746454964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -22581,6 +22693,20 @@
       "tag": "v4.4.0",
       "commit": "bf2339e0f0e2c3077f344c90fb7f2634dcdbf448",
       "timestamp": 1736102261,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a7425a4201f0b4ac663d32e974041b9d270ca710a07cab7a0c48f4dbec0033a": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/Myne.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/Myne/releases/download/v4.5.0/Myne-v4.5.0.apk",
+      "appid": "com.starry.myne",
+      "version_code": 450,
+      "version_name": "4.5.0",
+      "tag": "v4.5.0",
+      "commit": "1e4810ab5cc7e27b7907d821e4e373f52f25663a",
+      "timestamp": 1746455327,
       "reproducible": true,
       "error": null
     }
@@ -33147,6 +33273,20 @@
       "error": null
     }
   ],
+  "a935efdff74e3842695e848703a033df03bf5db9840302d329bfb1ec046d1f57": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.15/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 167,
+      "version_name": "3.6.15",
+      "tag": "3.6.15",
+      "commit": "fbe0372602b7794581b8fbf56155e43193c95808",
+      "timestamp": 1746455741,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -33703,6 +33843,20 @@
       "tag": "1.0.0",
       "commit": "7a9045a4ed804e0b5d238954d71c1621f6505aee",
       "timestamp": 1735682358,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "93c3156c83e452a5372e8199e5b70b3f3e8a0ad3d67d762bfe47a68e8b40d69d": [
+    {
+      "repository": "https://github.com/FossifyOrg/Paint.git",
+      "apk_url": "https://github.com/FossifyOrg/Paint/releases/download/1.1.0/paint-2-foss-release.apk",
+      "appid": "org.fossify.paint",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "99f55add82e88cf4896bcffd21b90f07aff4ffea",
+      "timestamp": 1746455912,
       "reproducible": true,
       "error": null
     }
