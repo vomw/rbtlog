@@ -1357,6 +1357,34 @@
       "error": null
     }
   ],
+  "68ac572bdd1df884ffa39336a4aa105d5a92d4cde514ba9f881bd5e608bb4879": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.0.2/cclauncher-v9.0.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 570,
+      "version_name": "v9.0.2",
+      "tag": "v9.0.2",
+      "commit": "cb0f12f147194af3365277a727a278c76b4b7d55",
+      "timestamp": 1746539261,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8df954c388d5313acb8dee408a23415339f4c8906a3fad90aa221c2f92413124": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.0.3/cclauncher-v9.0.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 580,
+      "version_name": "v9.0.3",
+      "tag": "v9.0.3",
+      "commit": "04e4167af2839755643cd9361bb5f3e50f66fe9f",
+      "timestamp": 1746556832,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -3835,6 +3863,20 @@
       "error": null
     }
   ],
+  "51f77bc52c3ef8f4660af6bc5d7dab5b3e144f25a9e586184fba88d348c0e71b": [
+    {
+      "repository": "https://github.com/aicodix/assempix.git",
+      "apk_url": "https://github.com/aicodix/assempix/releases/download/v1.17/app-release.apk",
+      "appid": "com.aicodix.assempix",
+      "version_code": 18,
+      "version_name": "1.17",
+      "tag": "v1.17",
+      "commit": "1320927185fd5f4d6b814c7dbc8d3586edb5434d",
+      "timestamp": 1746539612,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c88f24bd54d87817705b3038499d35cb6234ad78c9306ea6c625023bd4d0942": [
     {
       "repository": "https://github.com/aicodix/rattlegram.git",
@@ -3873,6 +3915,20 @@
       "tag": "v1.19",
       "commit": "70b80f6f40c1118f8f35322a92ef892701d7a80a",
       "timestamp": 1743086585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "749b50fc658bfc052c9e42f5233e936cfa6114932e075a017cabd27862ff519a": [
+    {
+      "repository": "https://github.com/aicodix/shredpix.git",
+      "apk_url": "https://github.com/aicodix/shredpix/releases/download/v1.20/app-release.apk",
+      "appid": "com.aicodix.shredpix",
+      "version_code": 21,
+      "version_name": "1.20",
+      "tag": "v1.20",
+      "commit": "6e59009db1cf19689617ea4e9234fa87ebaeccc5",
+      "timestamp": 1746539842,
       "reproducible": true,
       "error": null
     }
@@ -4587,6 +4643,20 @@
       "tag": "v4.5.6a",
       "commit": "dbfb6804ac70e258614fe7ba3b26ff6474ef77e0",
       "timestamp": 1745243262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "897a47f12a1b50861477c58314ac53edc1b73dc3bcb88e03902ceb90900d3431": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.6b/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1358,
+      "version_name": "4.5.6b",
+      "tag": "v4.5.6b",
+      "commit": "fadee5e8cd994249210c04c1d02ac232bc8b760a",
+      "timestamp": 1746540070,
       "reproducible": true,
       "error": null
     }
@@ -8119,6 +8189,20 @@
       "error": null
     }
   ],
+  "2463e1d8455fbcadf03a543529b64061c4ef2ce5cbd97b4ed71df25e9b9de7e3": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.8.1/OuterTune-0.8.1-arm64-release.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 53,
+      "version_name": "0.8.1",
+      "tag": "v0.8.1",
+      "commit": "e853991c93b75a74e41a2cd6628c10d38808953f",
+      "timestamp": 1746543311,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f2b9e9351cf7b043069ebe0115f92382cc23fed8e1a7e0b82b04db6c6e646ee2": [
     {
       "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
@@ -9837,6 +9921,20 @@
       "tag": "4.0.28",
       "commit": "41b8d3f07876c5a1b9ae89df20bdac230913a48a",
       "timestamp": 1746194790,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d244ce4b80f033e3ef565a9c7f504fc4cf772e429ebe539c40c9e0edd8a45532": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.29/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 147,
+      "version_name": "4.0.29",
+      "tag": "4.0.29",
+      "commit": "ccbd44e1558b8058b0ad21f199fcdb46c4cb12ef",
+      "timestamp": 1746558325,
       "reproducible": true,
       "error": null
     }
@@ -14191,6 +14289,20 @@
       "error": null
     }
   ],
+  "27c6b51906a6a571c9138977b140c4c40d2aa873798574dd268d17d2f9c662ed": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.4.2/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2129,
+      "version_name": "9.4.2",
+      "tag": "9.4.2",
+      "commit": "033811f10f32f1a9a5de7b7cfeeea267fa010941",
+      "timestamp": 1746557351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -18229,6 +18341,20 @@
       "tag": "1.4.8",
       "commit": "311aa467a4be395a6fefc2c794467c1ecd61a326",
       "timestamp": 1745502820,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca1bf6a9659fd6acc028473097ff320cefa1bafcfe55422b67beba0f0043efe5": [
+    {
+      "repository": "https://github.com/nvllz/stepsy.git",
+      "apk_url": "https://github.com/nvllz/stepsy/releases/download/1.4.9/app-release.apk",
+      "appid": "com.nvllz.stepsy",
+      "version_code": 8,
+      "version_name": "1.4.9",
+      "tag": "1.4.9",
+      "commit": "73857bdb75801b186210ddbd4b96a7f4ddd8f53e",
+      "timestamp": 1746559929,
       "reproducible": true,
       "error": null
     }
@@ -23887,6 +24013,20 @@
       "error": null
     }
   ],
+  "87d9b3fcdb17d6ccc98282c3bb7b40df65b215e976a64ba9777db128ac7e839f": [
+    {
+      "repository": "https://github.com/VishnuSanal/RemindMe.git",
+      "apk_url": "https://github.com/VishnuSanal/RemindMe/releases/download/v1.2.0/remind-me-v1.2.0.apk",
+      "appid": "com.vishnu.remindme",
+      "version_code": 5,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "fb2d81e2e06a64715b4e4bc5c15084d0ca4c1a63",
+      "timestamp": 1746540833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -24009,6 +24149,20 @@
       "tag": "V2.71.41",
       "commit": "21e02f5cef8e2f023cdeacb6d43806a7f64424a6",
       "timestamp": 1745864692,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a8a8960cf70a774d5ac275ad17f5297663674e11c2e366d7cc78da127d366d2": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.45/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27145,
+      "version_name": "2.71.45",
+      "tag": "V2.71.45",
+      "commit": "47ce9f4bb68ec8271d96cc1055fd9f0e02c2b888",
+      "timestamp": 1746561197,
       "reproducible": true,
       "error": null
     }
@@ -24539,6 +24693,20 @@
       "tag": "v3.1.2",
       "commit": "ebca7cd1e21293fd425ca43502b4ed975a517be7",
       "timestamp": 1737396368,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "263fc6570e7dec17f452ead54aa8a7fc34e636e0236b08787237c92e7105b770": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.2.0/MediLog-3.2.0.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5470,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "74a0ee8fb8d914000083c09659fcbb317051bfb2",
+      "timestamp": 1746541133,
       "reproducible": true,
       "error": null
     }
@@ -28707,6 +28875,20 @@
       "tag": "1.2274",
       "commit": "fd9cbfbbacc7b0d259b47e5aacf0d343bdfe94b3",
       "timestamp": 1745520038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4abc6180e44f493b90fb94241ae3086fd79a74001e50ee91d2efce923a340b24": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2275/FairEmail-v1.2275a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2275,
+      "version_name": "1.2275",
+      "tag": "1.2275",
+      "commit": "605bce2c9a76dda419ad68b70523c50d3da4199b",
+      "timestamp": 1746541608,
       "reproducible": true,
       "error": null
     }
@@ -36181,6 +36363,20 @@
       "tag": "v1.3.0",
       "commit": "1c4ad516392954dadda7144e55e9bd3c72d78047",
       "timestamp": 1746513682,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31cdba0c2ca60ffec0a347f8a325eb7b44e77558e568ac1bc0abc65395c9772d": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v1.3.1/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 10,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "57ef2764a729c59f7b9b5749200a6d39244151b2",
+      "timestamp": 1746556343,
       "reproducible": true,
       "error": null
     }
