@@ -23103,6 +23103,20 @@
       "error": null
     }
   ],
+  "df3961fd882594edce427849877bde2d6756a5683165f2258c77481a530aaa87": [
+    {
+      "repository": "https://github.com/tiendnm/zukulock.git",
+      "apk_url": "https://github.com/tiendnm/zukulock/releases/download/1.0/com.tiendnm.zukulock.apk",
+      "appid": "com.tiendnm.zukulock",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "1.0",
+      "commit": "579baeb22b30ae8dc6b0c25ddf5fc8049c9c39dd",
+      "timestamp": 1746545047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ff0106b340d8cce51eda87209380ca707d4cbb574c8760987fdead53d35cf62": [
     {
       "repository": "https://github.com/solkin/mandarin-android.git",
@@ -36153,6 +36167,20 @@
       "tag": "v3.4.0",
       "commit": "9c9ff1a68c20b8c416b8ec09f258a0a4e7fa123d",
       "timestamp": 1746110932,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v1.3.0/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 9,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "1c4ad516392954dadda7144e55e9bd3c72d78047",
+      "timestamp": 1746513682,
       "reproducible": true,
       "error": null
     }
