@@ -5039,6 +5039,20 @@
       "error": null
     }
   ],
+  "ac35a9ad83791b941299023459c858fed1518346c16921676775993164a3d42d": [
+    {
+      "repository": "https://github.com/BitMavrick/Lumolight.git",
+      "apk_url": "https://github.com/BitMavrick/Lumolight/releases/download/2.2.4.21/lumolight-2.2.4.21-universal.apk",
+      "appid": "com.bitmavrick.lumolight",
+      "version_code": 21,
+      "version_name": "2.2.4.21",
+      "tag": "2.2.4.21",
+      "commit": "24f501d2b57b7e578a1faf167df8426c7480c42d",
+      "timestamp": 1746563850,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -36377,6 +36391,20 @@
       "tag": "v1.3.1",
       "commit": "57ef2764a729c59f7b9b5749200a6d39244151b2",
       "timestamp": 1746556343,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b1c46dcc1f2455155ee20a5d6a303e23b93c7dde0220c726525a3a822d6e2adf": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v1.4.0/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 12,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "240f95eba2e425c7e253217227817e83c8481158",
+      "timestamp": 1746620733,
       "reproducible": true,
       "error": null
     }
