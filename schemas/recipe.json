@@ -5,6 +5,11 @@
   "description": "rbtlog build recipe (recipes/<appid>.yml)",
   "type": "object",
   "properties": {
+    "forge_type": {
+      "description": "git forge type (not required, default autodetects based on URL)",
+      "type": "string",
+      "pattern": "^forgejo|gitea|github|gitlab$"
+    },
     "repository": {
       "description": "git repository URL",
       "type": "string",
