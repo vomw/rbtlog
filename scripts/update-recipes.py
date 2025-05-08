@@ -45,32 +45,46 @@ class Error(Exception):
     """Base class for errors."""
 
 
-def latest_release(repository: str, apk_patterns: List[str], *,
+def latest_release(repository: str, forge_type: Optional[str], apk_patterns: List[str], *,
                    verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs."""
     if repository.endswith(".git"):
         repository = repository[:-4]
     url = urllib.parse.urlparse(repository)
-    if url.hostname == CODEBERG_DOT_ORG:
-        tag, apk_urls = latest_release_gitea(url, apk_patterns, verbose=verbose)
-    elif url.hostname == GITHUB_DOT_COM:
+
+    if forge_type is None:
+        if url.hostname == CODEBERG_DOT_ORG:
+            forge_type = "forgejo"
+        elif url.hostname == GITHUB_DOT_COM:
+            forge_type = "github"
+        elif url.hostname == GITLAB_DOT_COM:
+            forge_type = "gitlab"
+        else:
+            raise NotImplementedError("Could not autodetect forge for "
+                                      f"{url.hostname}, you should manually "
+                                      "set forge_type in your recipe.")
+
+    if forge_type in ["forgejo", "gitea"]:
+        tag, apk_urls = latest_release_forgejo(url, apk_patterns, verbose=verbose)
+    elif forge_type == "github":
         tag, apk_urls = latest_release_github(url, apk_patterns, verbose=verbose)
-    elif url.hostname == GITLAB_DOT_COM:
+    elif forge_type == "gitlab":
         tag, apk_urls = latest_release_gitlab(url, apk_patterns, verbose=verbose)
     else:
-        raise NotImplementedError(f"Unsupported forge: {url.hostname}")
+        raise NotImplementedError(f"Unsupported forge: {forge_type}")
     if not set(apk_urls) == set(apk_patterns):
         raise Error(f"Could not find all APK assets for tag {tag!r}")
     return tag, apk_urls
 
 
-# FIXME: self-hosted, gitea vs forgejo
-def latest_release_gitea(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
+# FIXME: for now, we assume Gitea and Forgejo are compatible. If this ever
+# changes, this needs to be split into multiple functions
+def latest_release_forgejo(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
                          verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from Gitea/Forgejo."""
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
-    data = gitea_latest_release(url.hostname, namespace, project, verbose=verbose)
+    data = forgejo_latest_release(url.hostname, namespace, project, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -96,7 +110,6 @@ def latest_release_github(url: urllib.parse.ParseResult, apk_patterns: List[str]
     return tag, apk_urls
 
 
-# FIXME: self-hosted
 def latest_release_gitlab(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
                           verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitLab."""
@@ -144,7 +157,7 @@ def latest_tag(repository: str, tag_pattern: str, *, quiet: bool = False,
 
 
 # FIXME: retry, configure timeout, gitea vs forgejo
-def gitea_latest_release(host: str, namespace: str, project: str, *,
+def forgejo_latest_release(host: str, namespace: str, project: str, *,
                          verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from Gitea/Forgejo API."""
     url = GITEA_RELEASE.format(host, namespace, project)
@@ -230,6 +243,7 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, always_updat
         if verbose:
             print(f"Updating {appid!r}...", file=sys.stderr)
         recipe = load_recipe(recipe_file)
+        forge_type = recipe.get("forge_type")
         repository = recipe["repository"]
         updates = recipe["updates"]
         if verbose:
@@ -241,7 +255,7 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, always_updat
         try:
             if updates == "releases":
                 apk_patterns = [apk["apk_pattern"] for apk in recipe["versions"][-1]["apks"]]
-                tag, apk_urls = latest_release(repository, apk_patterns, verbose=verbose)
+                tag, apk_urls = latest_release(repository, forge_type, apk_patterns, verbose=verbose)
                 if verbose:
                     for apk_url in apk_urls.values():
                         print(f"Found tag {tag!r} with APK URL {apk_url!r}.", file=sys.stderr)
