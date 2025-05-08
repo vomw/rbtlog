@@ -1385,6 +1385,34 @@
       "error": null
     }
   ],
+  "97b0a9ceb77650c2f5393922d940ee988dbb503106440ff4236f822001a23f54": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.1.2/cclauncher-v9.1.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 610,
+      "version_name": "v9.1.2",
+      "tag": "v9.1.2",
+      "commit": "0813fae83e76d7d8386fd70c427d74cc0de3e6e2",
+      "timestamp": 1746712053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2fec8c3d331161d631b53ac815ea8a1149f366f1d8e26da4752b75017fc6d32c": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.1.5/cclauncher-v9.1.5-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 640,
+      "version_name": "v9.1.5",
+      "tag": "v9.1.5",
+      "commit": "95176df64e42b01d8d371a253bb813f825cb71ed",
+      "timestamp": 1746728459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -6831,6 +6859,20 @@
       "error": null
     }
   ],
+  "61a21041eb0d80927cee3ed0c70a4c0fe411405713085cae3c46e5a9341c78b0": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.05.1133/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1133,
+      "version_name": "2025.05.1133",
+      "tag": "2025.05.1133",
+      "commit": "0d32e47da4e5a043f1ba3dc873bee9679c7fea0d",
+      "timestamp": 1746729030,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -7391,6 +7433,34 @@
       "error": null
     }
   ],
+  "6310c5f75f59d46719695f207dbb28fc1c8f466cd855411005133df11fd00e89": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.0.9v85/PuppyGit_1.1.0.9v85_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 85,
+      "version_name": "1.1.0.9",
+      "tag": "1.1.0.9v85",
+      "commit": "65671ec148cd4df0aff0c3099fe0bd08efb8004e",
+      "timestamp": 1746712371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3530f41d2b5272fe5b980fc09fad204b4bd8d579aa2e32498774462118e90ace": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.0v86/PuppyGit_1.1.1.0v86_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 86,
+      "version_name": "1.1.1.0",
+      "tag": "1.1.1.0v86",
+      "commit": "6db0d536917d608b21418a7887b3154b165fc57f",
+      "timestamp": 1746729606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -7737,6 +7807,20 @@
       "tag": "v1.35",
       "commit": "065484fcf089b09ef0afc3e533da120bf944152f",
       "timestamp": 1744114433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a89c860817ad292355c0c2406845a30861bf219c37cdd874d956c6688916c7ef": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.36/networksurvey-1.36-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 91,
+      "version_name": "1.36",
+      "tag": "v1.36",
+      "commit": "3ddfa007c17cc41d7b8ebaf39585dc1ac6bf4c0c",
+      "timestamp": 1746730580,
       "reproducible": true,
       "error": null
     }
@@ -9963,6 +10047,34 @@
       "tag": "4.0.29",
       "commit": "ccbd44e1558b8058b0ad21f199fcdb46c4cb12ef",
       "timestamp": 1746558325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d5b30349205abc52f139b40498ece9ad7eb142e66e4783cf90e2e2dbe9a83165": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.31/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 149,
+      "version_name": "4.0.31",
+      "tag": "4.0.31",
+      "commit": "d5cd5808a4278fdf5fcf584f009f885c38e4dfd1",
+      "timestamp": 1746713241,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e3d37bab7ddfc3e2152706e3b15f82ea91d7a88a43e082379c207a205b65dd79": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.32/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 150,
+      "version_name": "4.0.32",
+      "tag": "4.0.32",
+      "commit": "09d34a7979a117ff2f19cc15a6189b4fc352fb0f",
+      "timestamp": 1746730914,
       "reproducible": true,
       "error": null
     }
@@ -12259,6 +12371,20 @@
       "tag": "2.5.24",
       "commit": "0f9f00843f29a29c3282440aefbe0dc9da66dc3f",
       "timestamp": 1745955634,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ff3ae44aae3dc784843de56dcd57afa8f339c9896123f1ea500665526d31044": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.25/fdroidRelease-2.5.25.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30525,
+      "version_name": "2.5.25",
+      "tag": "2.5.25",
+      "commit": "6bb282f9013b18ad82e3068c836fe566283cddfa",
+      "timestamp": 1746731287,
       "reproducible": true,
       "error": null
     }
@@ -24669,6 +24795,20 @@
       "error": null
     }
   ],
+  "6c7875fd80c5b74cde94d41282d65f53748f839bb2f3319286704fe17b17a4f1": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.6.4/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1640,
+      "version_name": "1.6.4",
+      "tag": "v1.6.4",
+      "commit": "7f447d5ed3ba8ad30dd6063626940a90fe9998ec",
+      "timestamp": 1746713707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -27769,6 +27909,20 @@
       "tag": "2025.05+1",
       "commit": "8194b19cb8c9be718c67cde5ae1c301421a81a72",
       "timestamp": 1746281175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4b07a2e419e72f52e172c1a7ec3ccf1d4de2cdbf29810d67e7e08e469cbf84b": [
+    {
+      "repository": "https://github.com/supershadoe/delta.git",
+      "apk_url": "https://github.com/supershadoe/delta/releases/download/2025.05%2B2/app-release.apk",
+      "appid": "dev.shadoe.delta",
+      "version_code": 17,
+      "version_name": "2025.05+2",
+      "tag": "2025.05+2",
+      "commit": "2cc85f133800794b6056a77b430367e0f1a973bf",
+      "timestamp": 1746714050,
       "reproducible": true,
       "error": null
     }
@@ -33843,6 +33997,20 @@
       "tag": "1.2.0",
       "commit": "f7ebacf119f8456d51995f22ad3818eb5196075b",
       "timestamp": 1744737016,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d788a470960bbbd39063cc85f6463b79aa1f42217ef38bec20f5539fbe9196bf": [
+    {
+      "repository": "https://github.com/FossifyOrg/Clock.git",
+      "apk_url": "https://github.com/FossifyOrg/Clock/releases/download/1.2.1/clock-4-foss-release.apk",
+      "appid": "org.fossify.clock",
+      "version_code": 4,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "816d67f1a816a91db768e662daf806f6a3f9e091",
+      "timestamp": 1746731754,
       "reproducible": true,
       "error": null
     }
