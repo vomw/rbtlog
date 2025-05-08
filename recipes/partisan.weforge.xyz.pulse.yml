@@ -1,8 +1,7 @@
 ---
+forge_type: forgejo
 repository: https://weforge.xyz/partisan/Pulse.git
-updates: manual
-notes:
-  - need to set updates to manual as weforge.xyz is not supported by update-recipes.sh (script needs adjustment/config; weforge uses Forgejo)
+updates: releases
 versions:
   - tag: v1.3.0
     apks:
@@ -66,6 +65,35 @@ versions:
     apks:
       - apk_pattern: app-release\.apk
         apk_url: https://weforge.xyz/partisan/Pulse/releases/download/v1.4.0/app-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d ; /RELEASE_STORE_PASSWORD/d' -i app/build.gradle
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.4.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://weforge.xyz/partisan/Pulse/releases/download/v1.4.1/app-release.apk
         build:
           - sed -r '/signingConfigs.release/d ; /RELEASE_STORE_PASSWORD/d' -i app/build.gradle
           - ./gradlew assembleRelease
