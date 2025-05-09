@@ -2477,6 +2477,20 @@
       "error": null
     }
   ],
+  "1a734169e52955b8871185edf1f081c7020029857795729363c23bc01a1dbfc5": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.4.10-ose/davx5-ose-4.4.10-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 404100004,
+      "version_name": "4.4.10-ose",
+      "tag": "v4.4.10-ose",
+      "commit": "827a1b954fc836c95c5bee13a2185b26e9120d2b",
+      "timestamp": 1746798460,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -7457,6 +7471,20 @@
       "tag": "1.1.1.0v86",
       "commit": "6db0d536917d608b21418a7887b3154b165fc57f",
       "timestamp": 1746729606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "733913a9519fa53648dc265e3a0084f298d6b99c74cd3023cba15d99064dc737": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.1v87/PuppyGit_1.1.1.1v87_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 87,
+      "version_name": "1.1.1.1",
+      "tag": "1.1.1.1v87",
+      "commit": "7e5b750eab783c9ba9cecffa9be1cccbeae09148",
+      "timestamp": 1746798972,
       "reproducible": true,
       "error": null
     }
@@ -17885,6 +17913,20 @@
       "error": null
     }
   ],
+  "805c2a6cb6479f75f9c06c53c06b918eb082fb56ea81fda4af56dadfbb8fda3e": [
+    {
+      "repository": "https://github.com/gromif/AstraCrypt.git",
+      "apk_url": "https://github.com/gromif/AstraCrypt/releases/download/v2.2.0/astracrypt-v2.2.0.apk",
+      "appid": "com.nevidimka655.astracrypt",
+      "version_code": 20200,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "c4256cb819489eea4bb74d1d4c00cdabe7086a52",
+      "timestamp": 1746799956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eaa1ff7e411753f77c96350090e4f47c64ec94daf7eaac484696cf6950051a55": [
     {
       "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
@@ -21467,6 +21509,20 @@
       "error": null
     }
   ],
+  "fee7702ce8439391415d907111f00f033a11999813d3f66bec5d5d645e5a3796": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.8.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 29,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "9152fc0321ab041118f026d4f465919894851723",
+      "timestamp": 1746814849,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -24935,6 +24991,20 @@
       "error": null
     }
   ],
+  "baff919d63c9ffb61c9069740f6fc00881718d18ab47902345460578217ef4c6": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.2.1/MediLog-3.2.1.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5471,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "a1f3045fbae5b124d596ac23dee913fe615c3e79",
+      "timestamp": 1746801125,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -25937,6 +26007,20 @@
       "tag": "v2.19.2",
       "commit": "3a48485cc7f35affcef436c03caab4a339598b28",
       "timestamp": 1745332279,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2cc378ed981f05d8eedc71cae9e88a4e7e7bacf76249e9bd89559decaf2be1d2": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.19.3/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 197,
+      "version_name": "2.19.3",
+      "tag": "v2.19.3",
+      "commit": "e900d766656abfac7f7585908c4b44cfeecec551",
+      "timestamp": 1746801641,
       "reproducible": true,
       "error": null
     }
@@ -27267,6 +27351,20 @@
       "tag": "v1.2.0",
       "commit": "1749c0ea160b8e94585e87d5fc33a7b519fd1b28",
       "timestamp": 1744131163,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "33ff337c34d72bf65e639dc9cbf17d00cb802e27db73c87d30f3ad9711a0892d": [
+    {
+      "repository": "https://github.com/itsvic-dev/parcel.git",
+      "apk_url": "https://github.com/itsvic-dev/parcel/releases/download/v1.3.0/app-release.apk",
+      "appid": "dev.itsvic.parceltracker",
+      "version_code": 10300000,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "6279d8d968884846878159a00ff4028d611783ca",
+      "timestamp": 1746802026,
       "reproducible": true,
       "error": null
     }
@@ -30655,6 +30753,20 @@
       "error": null
     }
   ],
+  "475221f0142b1e039f0a52a55708713de5050fa7d984fb05565f3f325d108561": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.16.10%2B78/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2078,
+      "version_name": "1.16.10",
+      "tag": "v1.16.10+78",
+      "commit": "d788e928ff13d0ca2746a6b9fc1aa5196f8e8b9e",
+      "timestamp": 1746802321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b8db3b323186eb08e83e6bc5779084495269292b4bf63b9a571c873ecd868f8": [
     {
       "repository": "https://github.com/Husseinfo/interfast.git",
@@ -30959,6 +31071,20 @@
       "tag": "0.4.5",
       "commit": "401d3ac128023bb5c8f2189781871ca58edb6764",
       "timestamp": 1735842937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "783130ed179f0870baebb781117882b070f34d83ef6dc4b35beb86d1622c41c4": [
+    {
+      "repository": "https://github.com/SoundRemote/client-android.git",
+      "apk_url": "https://github.com/SoundRemote/client-android/releases/download/0.5.0/SoundRemote_0.5.0.apk",
+      "appid": "io.github.soundremote",
+      "version_code": 12,
+      "version_name": "0.5.0",
+      "tag": "0.5.0",
+      "commit": "e7039330e0669cc7ce23fd76a645d6725b37af78",
+      "timestamp": 1746810178,
       "reproducible": true,
       "error": null
     }
@@ -34655,6 +34781,20 @@
       "tag": "v2.6.2",
       "commit": "8908d18f585af19bd9d30347721f39a489616ab0",
       "timestamp": 1741454725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13b4ea2653feb5eb2df497015c53098f5e97727df28a98fbd53547361b6d5490": [
+    {
+      "repository": "https://github.com/jellyfin/jellyfin-android.git",
+      "apk_url": "https://github.com/jellyfin/jellyfin-android/releases/download/v2.6.3-beta.1/jellyfin-android-v2.6.3-beta.1-libre-release.apk",
+      "appid": "org.jellyfin.mobile",
+      "version_code": 2060301,
+      "version_name": "2.6.3-beta.1",
+      "tag": "v2.6.3-beta.1",
+      "commit": "d92e6e9dc368d13769753b3f2fe2c799c2317f94",
+      "timestamp": 1746815177,
       "reproducible": true,
       "error": null
     }
