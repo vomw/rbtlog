@@ -1,0 +1,42 @@
+---
+repository: https://codeberg.org/mi6e4ka/openstore.git
+updates: releases
+notes:
+  -  'FIXME: flutter submodule was added 1 commit after the tag; remove the first 2 lines of the build block with the next release'
+versions:
+  - tag: 1.2.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://codeberg.org/mi6e4ka/openstore/releases/download/1.2.1/app-release.apk
+        build:
+          - git checkout deed4ddd5a79ce46649bb01adc1b34b41cdcd4d5
+          - git submodule update --init --recursive
+          - sed -r '/create\("release"\) \{/,/        \}/d' -i android/app/build.gradle.kts
+          - sed -r '/signingConfigs.getByName/d' -i android/app/build.gradle.kts
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release
+          - mv build/app/outputs/flutter-apk/app-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/mi6e4ka
+        build_repo_dir: /home/mi6e4ka/Developer/openstore
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

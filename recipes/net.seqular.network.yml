@@ -1,0 +1,37 @@
+---
+repository: https://github.com/tipone/seqular-android.git
+updates: releases
+versions:
+  - tag: 2.3.1-109
+    apks:
+      - apk_pattern: seqular-.*-release\.apk
+        apk_url: https://github.com/tipone/seqular-android/releases/download/2.3.1-109/seqular-2.3.1-109-release.apk
+        build:
+          - git checkout e5b62110108d7fcec61b7c00e327484223afc9a9
+          - touch local.properties
+          - sed -r '/signingConfigs.release/d' -i mastodon/build.gradle
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.11.1 -v assembleRelease
+          - mv mastodon/build/outputs/apk/release/seqular-${APP_TAG}-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

@@ -27607,6 +27607,20 @@
       "error": null
     }
   ],
+  "484e6872340de32ec755c98f23787cfbc876b2495129804296aa762dd85e926d": [
+    {
+      "repository": "https://codeberg.org/mi6e4ka/openstore.git",
+      "apk_url": "https://codeberg.org/mi6e4ka/openstore/releases/download/1.2.1/app-release.apk",
+      "appid": "dev.mi6e4ka.openstore",
+      "version_code": 2,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "3f2c5eec7625c11c96135d5c3203f82f4dbf6808",
+      "timestamp": 1746920789,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a2f8c90cfa11e88eedb8f7c5c60db667ec73e139c54820b6ddddcb2afc19dace": [
     {
       "repository": "https://github.com/Its-Just-Nans/sms2call.git",
@@ -32947,6 +32961,20 @@
       "tag": "v1.2.22",
       "commit": "a080db5ba4763183333796239696781b7e8e650e",
       "timestamp": 1741688741,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13aedeae30cd64d141a9eff617cc7f57593d2e93132e60cfa94fecc03ca709bd": [
+    {
+      "repository": "https://github.com/tipone/seqular-android.git",
+      "apk_url": "https://github.com/tipone/seqular-android/releases/download/2.3.1-109/seqular-2.3.1-109-release.apk",
+      "appid": "net.seqular.network",
+      "version_code": 109,
+      "version_name": "2.3.1",
+      "tag": "2.3.1-109",
+      "commit": "dc7abfdcc392da8756af295373acd95e032b254a",
+      "timestamp": 1746914555,
       "reproducible": true,
       "error": null
     }
