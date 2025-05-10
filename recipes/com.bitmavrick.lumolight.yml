@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 2.2.4.21
     apks:
-      - apk_pattern: lumolight*universal\.apk
+      - apk_pattern: lumolight.*universal\.apk
         apk_url: https://github.com/BitMavrick/Lumolight/releases/download/2.2.4.21/lumolight-2.2.4.21-universal.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
