@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/tipone/seqular-android.git
 updates: releases
+notes:
+  - 'FIXME: with 2.3.1-109, gradle hash did not match – so we had to use our gradlew.py. Should be solved with the next release.'
 versions:
   - tag: 2.3.1-109
     apks:
