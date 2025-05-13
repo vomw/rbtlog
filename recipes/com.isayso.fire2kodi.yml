@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/Isayso/Fire2kodi.git
 updates: releases
+notes:
+  - 'FIXME: 0.51 needed WildDance to become RB, remove the double-commit-hash before building the next release'
 versions:
   - tag: v0.46
     apks:
@@ -35,6 +37,35 @@ versions:
         apk_url: https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.50/fire2kodi_v0.50.apk
         build:
           - git reset --soft 7345fa18ad79214e6d318b32cba43b29149891f8
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.51
+    apks:
+      - apk_pattern: fire2kodi_.*\.apk
+        apk_url: https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.51/fire2kodi_v0.51.apk
+        build:
+          - git checkout ac0c56db09f3b2fd2498d588ceb0606d152dd378
+          - git reset --soft 9e7af2b16774f1dbacb6b5b07bb49729831af294
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk

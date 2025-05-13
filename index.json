@@ -1413,6 +1413,20 @@
       "error": null
     }
   ],
+  "a17eb5d5a35c06aa96cfa1827d2c4d792a019f2f16959a17762fee9e04f5e993": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.2.1/cclauncher-v9.2.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 650,
+      "version_name": "v9.2.1",
+      "tag": "v9.2.1",
+      "commit": "5fe9f12cccf12cb691487f12a43af7d8cf4b9e3a",
+      "timestamp": 1747144064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -13393,6 +13407,20 @@
       "error": null
     }
   ],
+  "b2af4e42b45a257c7c615df8399167609012fd552699d194bcf1bebce04122c2": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v2.6.0/DroidPad-v2.6.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 23,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "93d8f9cdcf5c94ff7e9a1a2b50a26a47261421b4",
+      "timestamp": 1747152848,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -15125,6 +15153,20 @@
       "tag": "v0.50",
       "commit": "a6b0f88f6d51c730e363c8af447d9c3c04143b7d",
       "timestamp": 1746376342,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24c7175a19925a44ea55224cd22b9d3822a756c57fa4feaf06dcedb9fe2352e9": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.51/fire2kodi_v0.51.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 10,
+      "version_name": "0.51",
+      "tag": "v0.51",
+      "commit": "44f53085c4e9a45cdc99702887d0a489070f6dcd",
+      "timestamp": 1747154599,
       "reproducible": true,
       "error": null
     }
@@ -23383,6 +23425,20 @@
       "error": null
     }
   ],
+  "47ad4af5417b3b85988d4d8f4409f8219d5f34a8ff986829daf1ef68fc8b063b": [
+    {
+      "repository": "https://github.com/nxtrace/NextTraceroute.git",
+      "apk_url": "https://github.com/nxtrace/NextTraceroute/releases/download/v0.1.1/NextTraceroute-v0.1.1.apk",
+      "appid": "com.surfaceocean.nexttraceroute",
+      "version_code": 11,
+      "version_name": "0.1.1",
+      "tag": "v0.1.1",
+      "commit": "d08b09949a54cf7291192afa091abe8f07da15f5",
+      "timestamp": 1747153685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "879e6d592f15a91f12755dae463100313cfb72534467b709746238e34f665a0f": [
     {
       "repository": "https://github.com/leon-cleaning-services/leon.git",
@@ -26963,6 +27019,20 @@
       "error": null
     }
   ],
+  "9508b248aa67fd73f56c580c7a4a976dc04519462893920fca081509c14010ea": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.0/GlucoDataHandler_2.0.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1135,
+      "version_name": "2.0",
+      "tag": "2.0",
+      "commit": "146e14b69db4f6f963d9e152831bf075f020faad",
+      "timestamp": 1747165929,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -27425,6 +27495,34 @@
       "error": null
     }
   ],
+  "c387375e68e40598a2e5f4a65ec990db523ab1e8cc6bc1462fe3bbf8a6ade3bb": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.2/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 152,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "1997a811fa36c9f6c9fc0ae069919f969c8d965b",
+      "timestamp": 1747144907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "04481363f28319025b68a7fd958993566d106d1d9b7f05d23d225f205cba3cda": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.3/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 161,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "deff16941716921f6392aadbd25617c5c9d580bb",
+      "timestamp": 1747160741,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -27799,6 +27897,20 @@
       "tag": "1.2.1",
       "commit": "3f2c5eec7625c11c96135d5c3203f82f4dbf6808",
       "timestamp": 1746920789,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "09adb89ab8ecb34dd2fcdc8037e43f796b226b749fe0788edd568d71f3c46e88": [
+    {
+      "repository": "https://codeberg.org/mi6e4ka/openstore.git",
+      "apk_url": "https://codeberg.org/mi6e4ka/openstore/releases/download/1.3.1/app-arm64-v8a-release.apk",
+      "appid": "dev.mi6e4ka.openstore",
+      "version_code": 2004,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "29f98db4a06289c1c5cbe3731edda73870643de7",
+      "timestamp": 1747136208,
       "reproducible": true,
       "error": null
     }
@@ -32461,6 +32573,20 @@
       "error": null
     }
   ],
+  "de09554db3def92428843a45d65667c7d9729c1674c42ea93099889eaa83ddfa": [
+    {
+      "repository": "https://github.com/TheLastProject/ShareToInputStick.git",
+      "apk_url": "https://github.com/TheLastProject/ShareToInputStick/releases/download/v3.6.2/app-release.apk",
+      "appid": "me.hackerchick.sharetoinputstick",
+      "version_code": 23,
+      "version_name": "3.6.2",
+      "tag": "v3.6.2",
+      "commit": "c17bc48677bcfdbd13539a9a85a4fafbca610742",
+      "timestamp": 1747165169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "93a6bf261a6b639129b3df1136a51abf212dac2b5753b9d53cbe63bcb222f1f3": [
     {
       "repository": "https://github.com/knighthat/Kreate.git",
@@ -35709,6 +35835,20 @@
       "error": null
     }
   ],
+  "02253843d7ffd199e64217399e203eaee249492c60a3ba56aaa8f7f0384ff912": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v2.1.0/wikireader-v2.1.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 37,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "e7d4f33f28871690492baee254bc5b422b99cb52",
+      "timestamp": 1747161436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -37683,6 +37823,20 @@
       "error": null
     }
   ],
+  "37a23145b37eb46134cbee76e9748aa840a445f50e2c4bcb67bfacc63e9d52d9": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/118/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 118,
+      "version_name": "5.32",
+      "tag": "118",
+      "commit": "be8135179912140c944a1e825e50ffcf15c226f4",
+      "timestamp": 1747161696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "534c3603b9ae481662ded85f8cf82a693ac0e29a8138813334ee24c9f627c623": [
     {
       "repository": "https://github.com/Crazy-Marvin/MetadataRemover.git",
@@ -38603,6 +38757,20 @@
       "tag": "v1.8.0",
       "commit": "d4881a086d848c78aa09944f843d6034e5acc020",
       "timestamp": 1746024615,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07a4d3fea8eed153b32d992288dc28d03229aaec41e5b079e9cde8ea82ba029b": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.8.1/tranquilstopwatch-12.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 12,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "11055d1defdcd358c4e11208fe735b9c8ab68658",
+      "timestamp": 1747145464,
       "reproducible": true,
       "error": null
     }

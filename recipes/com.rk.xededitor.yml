@@ -4,6 +4,7 @@ updates: releases
 notes:
   - v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed
   - v2.5.0 had uncommitted changes applied after the release tag and hence is not RB
+  - 'FIXME: next release after 3.0.6 will need assembleFdroidRelease, see https://github.com/Xed-Editor/Xed-Editor/issues/598 '
 versions:
   - tag: v2.1.0
     apks:
