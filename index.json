@@ -6929,6 +6929,20 @@
       "error": null
     }
   ],
+  "56eb340d99016b3bdbad3bd337c22f034ebbd4c03cd582515264b8cc1edafd5d": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.05.1134-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1134,
+      "version_name": "2025.05.1134-dev",
+      "tag": "2025.05.1134-dev",
+      "commit": "f845c6fac2b4bcd8f7ed4a71eec0c0a341177867",
+      "timestamp": 1747316864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -7555,6 +7569,20 @@
       "tag": "1.1.1.2v88",
       "commit": "759a8dbbebb822e59db866c03b37e1284c3f56c4",
       "timestamp": 1746971296,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2fb979c607f423e81db71b0f7f49986094434083537ce6e083aa0ce78203b9d1": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.3v89/PuppyGit_1.1.1.3v89_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 89,
+      "version_name": "1.1.1.3",
+      "tag": "1.1.1.3v89",
+      "commit": "90995b9e6c9650c44894f28fd36ae92c8ad959aa",
+      "timestamp": 1747317693,
       "reproducible": true,
       "error": null
     }
@@ -12543,6 +12571,20 @@
       "error": null
     }
   ],
+  "995c2db1ead913bedf66c36c4f03385cc69934686c593a2f2e6a8ab81c9da184": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.26/fdroidRelease-2.5.26.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30526,
+      "version_name": "2.5.26",
+      "tag": "2.5.26",
+      "commit": "fc38a1a44117fea11f683319d0a7d31e6118bac3",
+      "timestamp": 1747333265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -15689,6 +15731,20 @@
       "error": null
     }
   ],
+  "21fe48fef267c7035e7184cca2238fc5f6662b40a1466ccfc67084b38a55a7cd": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.6-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 96,
+      "version_name": "v0.9.6-beta",
+      "tag": "v0.9.6-beta",
+      "commit": "26a6d7f150825d05f92a9897df2ecf0bf0b0a257",
+      "timestamp": 1747333692,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -16887,6 +16943,20 @@
       "tag": "v1.0.2",
       "commit": "00e40e3ad571b74d9db910825366d6032d2ff17a",
       "timestamp": 1747254229,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4fdea6c4c83ea64e6317340242cdd1d34c2e825af020dffed7a2dd829058984": [
+    {
+      "repository": "https://github.com/mardous/BoomingMusic.git",
+      "apk_url": "https://github.com/mardous/BoomingMusic/releases/download/v1.0.3/BoomingMusic-1.0.3-fdroid-release.apk",
+      "appid": "com.mardous.booming",
+      "version_code": 1030300,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "323dce4cfc2da462963ec984834ee062aedaeb08",
+      "timestamp": 1747318582,
       "reproducible": true,
       "error": null
     }
@@ -23533,6 +23603,20 @@
       "tag": "v0.1.1",
       "commit": "d08b09949a54cf7291192afa091abe8f07da15f5",
       "timestamp": 1747153685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f753f5e7a698b6e724a3b7ce9b2232a89a244cc6a29b39570ff8673997154aa": [
+    {
+      "repository": "https://github.com/nxtrace/NextTraceroute.git",
+      "apk_url": "https://github.com/nxtrace/NextTraceroute/releases/download/v0.1.2/NextTraceroute-v0.1.2.apk",
+      "appid": "com.surfaceocean.nexttraceroute",
+      "version_code": 12,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "302f53db0ba513cfb60505e1bd55b59b1d7f12b9",
+      "timestamp": 1747318970,
       "reproducible": true,
       "error": null
     }
@@ -35429,6 +35513,20 @@
       "error": null
     }
   ],
+  "6a51b54d22196d01a4164f191675228d4ad11509ad50b74a878ce7968db19569": [
+    {
+      "repository": "https://github.com/LucasGGamerM/moshidon.git",
+      "apk_url": "https://github.com/LucasGGamerM/moshidon/releases/download/2.3.0%2Bfork.109.moshinda/moshidon-fdroidRelease.apk",
+      "appid": "org.joinmastodon.android.moshinda",
+      "version_code": 109,
+      "version_name": "2.3.0+fork.109.moshinda",
+      "tag": "2.3.0+fork.109.moshinda",
+      "commit": "fb6b9a9bed0dce14f144d8079a196774d9e62365",
+      "timestamp": 1747319268,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "45b1b3af338b570ef6141eac94eecb561b666b9c77a6a75877448b59ebbd5076": [
     {
       "repository": "https://github.com/sk22/megalodon.git",
@@ -37707,6 +37805,20 @@
       "tag": "v4.3.1",
       "commit": "5ef5678b09b7404b4346e895e5c111fc1028239c",
       "timestamp": 1743002046,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f372118c0ed17cb2cb1d5e5e25fcef64144f5a8d1e6c3add8e9b859e00be61b0": [
+    {
+      "repository": "https://github.com/Lambada10/SongSync.git",
+      "apk_url": "https://github.com/Lambada10/SongSync/releases/download/v4.3.3/app-release.apk",
+      "appid": "pl.lambada.songsync",
+      "version_code": 433,
+      "version_name": "4.3.3",
+      "tag": "v4.3.3",
+      "commit": "7acf114262cf3e871b18362d14c1f0bb574df9b3",
+      "timestamp": 1747319456,
       "reproducible": true,
       "error": null
     }
