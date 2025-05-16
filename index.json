@@ -2099,6 +2099,20 @@
       "error": null
     }
   ],
+  "4c368f8667a96ef622beb63b0777eca1ff7667be27cdc0506c211bc1c5acff9e": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v8.4.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 840,
+      "version_name": "v8.4.0",
+      "tag": "v8.4.0",
+      "commit": "cec62c5f05754b02a17a84bce63da5d226672fb4",
+      "timestamp": 1747403269,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -3205,6 +3219,20 @@
       "error": null
     }
   ],
+  "ad0fc0b8689d238bf02fc89335e546fdfc03554b9ae66d1035c9c483dd0d4477": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.18.3/min-cal-widget-v2.18.3.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 89,
+      "version_name": "2.18.3",
+      "tag": "v2.18.3",
+      "commit": "e8c6a5e2716cb74d7cb98b146079b306382d7815",
+      "timestamp": 1747419647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -3607,6 +3635,20 @@
       "tag": "v1.58.2",
       "commit": "ad6f232d344798c8d15534f4eb18e0ce12d57ad4",
       "timestamp": 1745761912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c84fc54ab7dde51822bb3dbc3ea34303ac6144ce69e6809847505d5376253350": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.58.4/ArcaneChat-foss-armeabi-v7a-1.58.4.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007221,
+      "version_name": "1.58.4",
+      "tag": "v1.58.4",
+      "commit": "c4aa00d40d7e7eaf45fb20fd9be95f2a709f69d6",
+      "timestamp": 1747403585,
       "reproducible": true,
       "error": null
     }
@@ -12581,6 +12623,20 @@
       "tag": "2.5.26",
       "commit": "fc38a1a44117fea11f683319d0a7d31e6118bac3",
       "timestamp": 1747333265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d734e2ec9b3e40cff24a06d6540eb517a49c9a96323d44ccfb3ffec8c35b4a1f": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.5.27/fdroidRelease-2.5.27.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30527,
+      "version_name": "2.5.27",
+      "tag": "2.5.27",
+      "commit": "8db9665ff3a2dfa9df6e900943ce84cc891b18f7",
+      "timestamp": 1747404183,
       "reproducible": true,
       "error": null
     }
@@ -22739,6 +22795,20 @@
       "error": null
     }
   ],
+  "f83d5550bf964c514f5723ea2a116c16c20af5a82d80c9f7067972f9bc003d73": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/3.1.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 3110,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "1947a660115810a9dd237daaeec00b4d756f9f32",
+      "timestamp": 1747404605,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -25509,6 +25579,20 @@
       "error": null
     }
   ],
+  "d73cdd3017f5376d9fc17f3edb600174cc4f1dcb3946715b361f8b473e589172": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.2.5/MediLog-3.2.5.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5479,
+      "version_name": "3.2.5",
+      "tag": "v3.2.5",
+      "commit": "f6fac6445a038cfceb3236f6d74e2b50b7801229",
+      "timestamp": 1747425248,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -27715,6 +27799,20 @@
       "tag": "v1.1.3",
       "commit": "deff16941716921f6392aadbd25617c5c9d580bb",
       "timestamp": 1747160741,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a1d886845b10787440b4f7e0f51563c41e00da231588dcd33856dd17deca2a3a": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.4/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 171,
+      "version_name": "1.1.4",
+      "tag": "v1.1.4",
+      "commit": "9663772212e5b657a8209a6e68bb3dc485a7b493",
+      "timestamp": 1747420167,
       "reproducible": true,
       "error": null
     }
