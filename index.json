@@ -12305,6 +12305,20 @@
       "error": null
     }
   ],
+  "a6b8fedf9310593d1ffd8627bc7662092b88ac0ab4d6069682d64bdc8ac95f76": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 119,
+      "version_name": "1.17.2",
+      "tag": "v1.17.2",
+      "commit": "7eabced778eb4b8fbe23fe251ff57d7be4107131",
+      "timestamp": 1747576066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -16957,6 +16971,20 @@
       "tag": "v1.12.1",
       "commit": "fd9e3b4f01d98df7eb44349df2be7b8e9842d903",
       "timestamp": 1738448099,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "90e7122be004a8379f45ac9e1cf4030e13295baf5f3705ad1006d8e9fc676be1": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.0.0/localmaterialnotes_arm64-v8a_v2.0.0.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 282,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "cdb3236bb4e9353aab6037a413766ed1791afe87",
+      "timestamp": 1747592451,
       "reproducible": true,
       "error": null
     }
@@ -24153,6 +24181,20 @@
       "error": null
     }
   ],
+  "dfa6dd02f21ede650f0a43b795799bea8f326319a576bb55d8f8270eb79da579": [
+    {
+      "repository": "https://github.com/soundcrowd/soundcrowd.git",
+      "apk_url": "https://github.com/soundcrowd/soundcrowd/releases/download/v4.1.0/soundcrowd.apk",
+      "appid": "com.tiefensuche.soundcrowd",
+      "version_code": 79,
+      "version_name": "4.1.0-release",
+      "tag": "v4.1.0",
+      "commit": "bf3bb571d9d42d4dedc68942e5df98ae9585d520",
+      "timestamp": 1747595553,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "df3961fd882594edce427849877bde2d6756a5683165f2258c77481a530aaa87": [
     {
       "repository": "https://github.com/tiendnm/zukulock.git",
@@ -24205,6 +24247,20 @@
       "tag": "1.1",
       "commit": "8fb80112a9c8d95672587a7e6b1904324672d1de",
       "timestamp": 1747526409,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "af2d6a3c6fc96baad13ffb4fe1f1391641eccaa5ab9bae019188772d61dd4282": [
+    {
+      "repository": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app.git",
+      "apk_url": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/releases/download/1.2/app-release.apk",
+      "appid": "com.tre.openstreetmapwiki",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "fe46171a40eb46d0c45cdc05ef85743a9f9b126b",
+      "timestamp": 1747576440,
       "reproducible": true,
       "error": null
     }
@@ -26823,6 +26879,20 @@
       "error": null
     }
   ],
+  "272268ce0634b9faab472768651a74b0fa183d5f7f4555d68b7c383ccad495c0": [
+    {
+      "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
+      "apk_url": "https://codeberg.org/Starfish/TinyWeatherForecastGermany/releases/download/0.62.9/TinyWeatherForecastGermany-build058-version_0.62.9_20250518.apk",
+      "appid": "de.kaffeemitkoffein.tinyweatherforecastgermany",
+      "version_code": 58,
+      "version_name": "0.62.9",
+      "tag": "0.62.9",
+      "commit": "92c4ed3c16615f1bfb9b1815468cd02d631f4721",
+      "timestamp": 1747593735,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b3b7154b1d27cf825fb3314d99ed5d5c61eca2cd2a5589d555ae959adb55d325": [
     {
       "repository": "https://github.com/Kaiserdragon2/CallForwarding.git",
@@ -28149,6 +28219,20 @@
       "tag": "v1.1.53",
       "commit": "c702dbcefecb40960dcab2101b705b7d93854b7f",
       "timestamp": 1747491972,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "97fe7e2eb2817d6ecab8614a9029ce1ae232275bd4b11637f8cd919cb68a10c3": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.54/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23112,
+      "version_name": "1.1.54",
+      "tag": "v1.1.54",
+      "commit": "7d01141db57c2862bb0a22ccde88cc1bf160e7fa",
+      "timestamp": 1747576669,
       "reproducible": true,
       "error": null
     }
@@ -33227,6 +33311,20 @@
       "tag": "v1.3.3",
       "commit": "20f12281954159ed08343fa334b4181a5507fc50",
       "timestamp": 1746979769,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "480959a032dfbbc944ffe1e3c7f89b39ed9d7efb6e5774a24f18bdef360ecd19": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.3.4/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 98,
+      "version_name": "1.3.4-izzy",
+      "tag": "v1.3.4",
+      "commit": "3231d797c1e7b47e19d6ea8e604aec6a7fc45ced",
+      "timestamp": 1747593964,
       "reproducible": true,
       "error": null
     }
@@ -39237,6 +39335,20 @@
       "error": null
     }
   ],
+  "8443186e5086f36daf7a1b811a8d036feb1912049c9fad5378aade7b091fe24f": [
+    {
+      "repository": "https://github.com/techlore/Plexus-app.git",
+      "apk_url": "https://github.com/techlore/Plexus-app/releases/download/v2.1.2/Plexus_v2.1.2.apk",
+      "appid": "tech.techlore.plexus",
+      "version_code": 212,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "6c4f0f7f531ecccbcc423a634e423eddc20c41ca",
+      "timestamp": 1747578321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "770a9610c69829016ab00095819b047404a733f8b2490a9fa60aec9f65f3512e": [
     {
       "repository": "https://github.com/tibarj/tranquilstopwatch.git",
@@ -40049,6 +40161,20 @@
       "error": null
     }
   ],
+  "f1da32b054102244fc43d23288825319c7ce61715eea2c93e760fd69e402f9ac": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.0/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 36,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "94b7181562fbbdc44e809f5cb761797dd3c4df2b",
+      "timestamp": 1747578571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25446c6cee27505eb08eaca56ee3e8a3a9d9cff759373c7af1c6c015a36638d7": [
     {
       "repository": "https://codeberg.org/phileix/ddns-android.git",
@@ -40087,6 +40213,20 @@
       "tag": "v0.1.6",
       "commit": "43f71fa674c0aae662c3b848de60c4e91a233870",
       "timestamp": 1743435953,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e66982d13526aa3fc19fc4dfda1486f29bee8dffacb4537ae399aebc71a4d056": [
+    {
+      "repository": "https://codeberg.org/phileix/ddns-android.git",
+      "apk_url": "https://codeberg.org/phileix/ddns-android/releases/download/v0.2.0/ddns-updater-v0.2.0.apk",
+      "appid": "xyz.philei.ddnsupdater",
+      "version_code": 6,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "3dc6e696e5bcfb68681f8f10b99ac6ca2c08d3d9",
+      "timestamp": 1747578915,
       "reproducible": true,
       "error": null
     }
