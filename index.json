@@ -7741,6 +7741,20 @@
       "error": null
     }
   ],
+  "2ff695f49d1f0e3ceae19f47d66768cd68807a314b45e0c8b953ea48f10e51de": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.5v91/PuppyGit_1.1.1.5v91_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 91,
+      "version_name": "1.1.1.5",
+      "tag": "1.1.1.5v91",
+      "commit": "3bb0570979ec126042786f35daaaa040b402f852",
+      "timestamp": 1747686960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -33157,6 +33171,20 @@
       "tag": "v0.2.4",
       "commit": "606c116ce3da163d01d048f2cd109543e5315414",
       "timestamp": 1743412911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "47a65d68f2402c161d7ee0ebdb10380cb28de2466a8bfd89d127314de84c6e2f": [
+    {
+      "repository": "https://github.com/tahaak67/Farhan.git",
+      "apk_url": "https://github.com/tahaak67/Farhan/releases/download/v0.2.5/app-release.apk",
+      "appid": "ly.com.tahaben.farhan",
+      "version_code": 10,
+      "version_name": "0.2.5",
+      "tag": "v0.2.5",
+      "commit": "40818698c3b98515c557d22e9cc5df94930a2d3f",
+      "timestamp": 1747690936,
       "reproducible": true,
       "error": null
     }
