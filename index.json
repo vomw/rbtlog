@@ -1273,6 +1273,20 @@
       "error": null
     }
   ],
+  "17738e392c92a1381f144b9ee557bd5f50f455be99d7a18806167cc4cb0a97c9": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.0/Podcini.X_release_free_8.17.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 170,
+      "version_name": "8.17.0",
+      "tag": "8.17.0",
+      "commit": "8cb2990813927a8d8e7b6a63b68021e5c5d00796",
+      "timestamp": 1747678850,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2389,6 +2403,20 @@
       "tag": "2.10.011",
       "commit": "5c7eba63288f71a85ba375ba03091826e5c27c75",
       "timestamp": 1740386263,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "245aa8f1175c9d5e8cb29fcb983bb6b2f7bfa737beac072a1926e7379dac34fc": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.000/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211000,
+      "version_name": "2.11.000",
+      "tag": "2.11.000",
+      "commit": "a2490c61d9ff277adbda9dc3208e2c90004de21e",
+      "timestamp": 1747673544,
       "reproducible": true,
       "error": null
     }
@@ -4829,6 +4857,20 @@
       "error": null
     }
   ],
+  "60edd1a66a078709c103481046c9542899baf91e2d70ef983ff24da13c7daf91": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.3-beta/fomodoro_v1.3.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 3,
+      "version_name": "1.3",
+      "tag": "v1.3-beta",
+      "commit": "959ee04370d9143e1b6399ec8815ac8e87083b56",
+      "timestamp": 1747664565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -5119,6 +5161,20 @@
       "tag": "2.19",
       "commit": "195dda26b69893bcd36b51f05f9cf3a5d6bf31ea",
       "timestamp": 1746366513,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "564a49b2dd6300167766c6ca1388a6f0cfddf508ac689553019099e3ea5e5e0b": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.21/Clock_2.21-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2024,
+      "version_name": "2.21",
+      "tag": "2.21",
+      "commit": "3fed421b52086d76405dbcabcd9e701be3211ccf",
+      "timestamp": 1747664784,
       "reproducible": true,
       "error": null
     }
@@ -7013,6 +7069,20 @@
       "error": null
     }
   ],
+  "6fc3a4fc11d65f97948957969ebddcf88fd48031eb20e66b8bbe1413d7fee1a1": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.05.1135/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1135,
+      "version_name": "2025.05.1135",
+      "tag": "2025.05.1135",
+      "commit": "cfbc73a6107e345c6c7a1c26ef72798992691ee0",
+      "timestamp": 1747665000,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -7653,6 +7723,20 @@
       "tag": "1.1.1.3v89",
       "commit": "90995b9e6c9650c44894f28fd36ae92c8ad959aa",
       "timestamp": 1747317693,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "85909c3415fa0cb4a0ab280b488888402ae54047de183d25a766ccc11ebe8647": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.4v90/PuppyGit_1.1.1.4v90_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 90,
+      "version_name": "1.1.1.4",
+      "tag": "1.1.1.4v90",
+      "commit": "d17868fe76f482437002649cae9050e45b90c1e9",
+      "timestamp": 1747666029,
       "reproducible": true,
       "error": null
     }
@@ -13365,6 +13449,20 @@
       "error": null
     }
   ],
+  "43c75c1eadf6450a93541780756c8a9b92bf94bc1c95dc9c5bae610527c6ebcf": [
+    {
+      "repository": "https://github.com/mkalmousli/FloatingMute.git",
+      "apk_url": "https://github.com/mkalmousli/FloatingMute/releases/download/v3.0.0/FloatingMute.github.v3.0.0.apk",
+      "appid": "com.github.mkalmousli.floating_mute",
+      "version_code": 3,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "2d51d40c8164c15a0c9382388421a58928c1eada",
+      "timestamp": 1747685212,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "88b1310c94d5e8c0e9992388789bce8d02fa71ba5610487749ea93af32071fec": [
     {
       "repository": "https://github.com/MrRar/gps_locker.git",
@@ -13627,6 +13725,20 @@
       "tag": "v2.6.0",
       "commit": "93d8f9cdcf5c94ff7e9a1a2b50a26a47261421b4",
       "timestamp": 1747152848,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b475beeadbb173206402373749eb7f370f40f9e448b589d37759086184a92837": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v2.7.0/DroidPad-v2.7.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 24,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "d00b389a87f1301d7eefc33667eea0ae340af306",
+      "timestamp": 1747666893,
       "reproducible": true,
       "error": null
     }
@@ -19129,6 +19241,20 @@
       "error": null
     }
   ],
+  "f5db9bec3e9b979c2f4c9c6d381da1069d44b0c6da6b3b319960ba6ffac84a61": [
+    {
+      "repository": "https://github.com/stud0709/OneMoreSecret.git",
+      "apk_url": "https://github.com/stud0709/OneMoreSecret/releases/download/v0.35-alpha/app-foss-release.apk",
+      "appid": "com.onemoresecret",
+      "version_code": 35,
+      "version_name": "0.35-alpha",
+      "tag": "v0.35-alpha",
+      "commit": "77c8d949ae7af3a856bceda09b05872114db004e",
+      "timestamp": 1747680299,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0d3ab906530200cb5c2407f2a51629485217f79cc3bb233b732cc8db257b9654": [
     {
       "repository": "https://github.com/calin-darie/gentle-glow-onyx-boox.git",
@@ -20375,6 +20501,20 @@
       "error": null
     }
   ],
+  "22cfd85113a130abb1e8c87ec27148c51c8312359bb90141c12dc53838f2e456": [
+    {
+      "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
+      "apk_url": "https://github.com/RBN-Apps/Quick-Tile-Settings/releases/download/v1.0.2/quick-tile-settings-1.0.2.apk",
+      "appid": "com.rbn.qtsettings",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "88df8f9165de1bccba4ddefae33b4bcc69e57a97",
+      "timestamp": 1747667262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -21463,6 +21603,20 @@
       "tag": "v3.0.6",
       "commit": "de2586a98d28e3bab950128145423315bfff3a3f",
       "timestamp": 1746885157,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7434c371140f6071a1bca29d7064447dd3f11709606da9fa73544f82336b01b5": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.1.0/xed-editor-v3.1.0.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 53,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "82d138b7f7ddfa03750d4f89db384710fcc9e342",
+      "timestamp": 1747670897,
       "reproducible": true,
       "error": null
     }
@@ -23827,6 +23981,20 @@
       "tag": "v0.1.3",
       "commit": "e9f642075ae6bf2f91408a4ecefc6cbe89f7c236",
       "timestamp": 1747506814,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f8ea886dfad1bb699a37a4653ed5a0d99ac65f73302113e20b42d69c35c6b687": [
+    {
+      "repository": "https://github.com/nxtrace/NextTraceroute.git",
+      "apk_url": "https://github.com/nxtrace/NextTraceroute/releases/download/v0.1.4/NextTraceroute-v0.1.4.apk",
+      "appid": "com.surfaceocean.nexttraceroute",
+      "version_code": 14,
+      "version_name": "0.1.4",
+      "tag": "v0.1.4",
+      "commit": "8e58f467963517ca5f68a65fb7a50763316c763d",
+      "timestamp": 1747667550,
       "reproducible": true,
       "error": null
     }
@@ -36797,6 +36965,20 @@
       "tag": "2.1.1",
       "commit": "f52139d9e8a63bca8c954da3f07a9bd5f2bfe322",
       "timestamp": 1747320119,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e53e5a0055d8e8cbed95b2b6fb875463bbe98a8f5f36b40f7f1dc23dc77535b": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Nittterify/releases/download/2.1.2/app-release.apk",
+      "appid": "org.nuclearfog.nitterify",
+      "version_code": 6,
+      "version_name": "2.1.2",
+      "tag": "2.1.2",
+      "commit": "966b492c24f92cfd2775d9694f1bb2c58a058b46",
+      "timestamp": 1747672918,
       "reproducible": true,
       "error": null
     }

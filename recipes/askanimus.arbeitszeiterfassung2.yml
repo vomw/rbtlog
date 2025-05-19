@@ -3,6 +3,7 @@ repository: https://gitlab.com/Askanimus/arbeitszeitkonto.git
 updates: releases
 notes:
   - 2.10.007 was built from https://gitlab.com/Askanimus/arbeitszeitkonto/-/package_files/171899891/download (needed to adjust apk_url to make lint happy)
+  - 'FIXME: 2.11.000 lacks gradle-wrapper.properties, plus the APK link at the release gave a 404, see /org/unifiedpush/android/embedded_fcm_distributor (remove the 2 git commands with the next release)'
 versions:
   - tag: 2.10.007
     apks:
@@ -105,6 +106,39 @@ versions:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
           - git clone https://github.com/obfusk/gradlew.py.git
           - gradlew.py/gradlew.py --version 8.10 -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: 2.11.000
+    apks:
+      - apk_pattern: app-release.apk
+        apk_url: https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.000/downloads/app-release.apk
+        build:
+          - git checkout 8a4968aa9c56812a0065e84904eddd347209f727
+          - git reset --soft a2490c61d9ff277adbda9dc3208e2c90004de21e
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py -v assembleRelease
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build

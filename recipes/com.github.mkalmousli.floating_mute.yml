@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/mkalmousli/FloatingMute.git
 updates: releases
+notes:
+  - 'FIXME: v3.0.0 used builttime string we worked around using sed, that needs to be removed again, see https://github.com/mkalmousli/FloatingMute/issues/2 '
 versions:
   - tag: v1.0.0
     apks:
@@ -35,6 +37,35 @@ versions:
       - apk_pattern: FloatingMute.github.*\.apk
         apk_url: https://github.com/mkalmousli/FloatingMute/releases/download/v2.0.0/FloatingMute.github.v2.0.0.apk
         build:
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v3.0.0
+    apks:
+      - apk_pattern: FloatingMute.github.*\.apk
+        apk_url: https://github.com/mkalmousli/FloatingMute/releases/download/v3.0.0/FloatingMute.github.v3.0.0.apk
+        build:
+          - sed -r 's/\$\{Date\(\)\}/Mon May 19 19:46:18 CEST 2025/' -i app/build.gradle.kts
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
         build_cpus:
