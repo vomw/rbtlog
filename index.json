@@ -1315,6 +1315,20 @@
       "error": null
     }
   ],
+  "bc32f10684cfba2d1a32022d95d6d8fe65bbd30585dedb5778a7e7d81f9af427": [
+    {
+      "repository": "https://github.com/ericswpark/camsung.git",
+      "apk_url": "https://github.com/ericswpark/camsung/releases/download/1.1.2/app-release.apk",
+      "appid": "android.com.ericswpark.camsung",
+      "version_code": 7,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "6fcb245d87746177d6c03c6738d86f5b99de0409",
+      "timestamp": 1747748874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
     {
       "repository": "https://github.com/mlm-games/CCLauncher.git",
@@ -3271,6 +3285,20 @@
       "tag": "v2.18.3",
       "commit": "e8c6a5e2716cb74d7cb98b146079b306382d7815",
       "timestamp": 1747419647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "422a282b8b270b37a45318038ac6fb4f15ff71f49eed60ac7efdf1beca23b252": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.18.4/min-cal-widget-v2.18.4.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 90,
+      "version_name": "2.18.4",
+      "tag": "v2.18.4",
+      "commit": "cec0ed7a36e565e2a51710d381de63908c2ff64c",
+      "timestamp": 1747749035,
       "reproducible": true,
       "error": null
     }
@@ -7755,6 +7783,20 @@
       "error": null
     }
   ],
+  "633f93a399d8646bb93e36f0eef904825cd383f9bd0cfbaef0b265fa2fb38090": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.7v93/PuppyGit_1.1.1.7v93_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 93,
+      "version_name": "1.1.1.7",
+      "tag": "1.1.1.7v93",
+      "commit": "1c9ecaec286e37b44c4ddab94d525bd4d822ef84",
+      "timestamp": 1747749219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -9323,6 +9365,20 @@
       "error": null
     }
   ],
+  "6aa2e0c655b8fdf151d1e11b1dfabf7ac663ff845011fe2e468c4e528bd0b991": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.29/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 29,
+      "version_name": "0.0.29",
+      "tag": "0.0.29",
+      "commit": "746cc9502b5023be71ea4a82d5e11007462141b9",
+      "timestamp": 1747765266,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -9697,6 +9753,20 @@
       "tag": "0.6.13",
       "commit": "73fff70dbc01429e286c9351dc0f5ba3349ac6c8",
       "timestamp": 1747231388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f48aac9196ce65f2bb529c2c2081b168eccd09a38b5dbe3a7911ca3a87ef6895": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.14/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 37,
+      "version_name": "0.6.14",
+      "tag": "0.6.14",
+      "commit": "783f973c1dec91f913a905ece5a5afee53498e54",
+      "timestamp": 1747765576,
       "reproducible": true,
       "error": null
     }
@@ -10523,6 +10593,20 @@
       "tag": "v1.3",
       "commit": "43c3c51cff95a8f1d30616afa40ebc9fd31361b0",
       "timestamp": 1742064880,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21c52b0efacd8b1067b355b8ff045e25834a6b8a8362261bc0cc376d2c5bda49": [
+    {
+      "repository": "https://github.com/nooowavailable/tunedetectivex.git",
+      "apk_url": "https://github.com/nooowavailable/tunedetectivex/releases/download/v1.4/app-github-release.apk",
+      "appid": "com.dev.tunedetectivex",
+      "version_code": 7,
+      "version_name": "1.4-github",
+      "tag": "v1.4",
+      "commit": "95f95586a6d0314dc610e6122744b5adb078a815",
+      "timestamp": 1747767324,
       "reproducible": true,
       "error": null
     }
@@ -15731,6 +15815,20 @@
       "error": null
     }
   ],
+  "bc70ed00b9417f4662e758fe64ecd5f23202e0243d5822ea3fefae369eb92818": [
+    {
+      "repository": "https://github.com/NoWakeLock/NoWakeLock.git",
+      "apk_url": "https://github.com/NoWakeLock/NoWakeLock/releases/download/v3.0.3/80/release-3.0.3-80.apk",
+      "appid": "com.js.nowakelock",
+      "version_code": 80,
+      "version_name": "3.0.3",
+      "tag": "v3.0.3/80",
+      "commit": "581d957029859a7d5f258f75f7a2b7b1cedf52e9",
+      "timestamp": 1747750295,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10f6f2b266dad28a047532b96bbac5d0dbb04f24dd18dd235a39c1bce342777d": [
     {
       "repository": "https://github.com/jucktion/healthlog.git",
@@ -20389,6 +20487,20 @@
       "error": null
     }
   ],
+  "d1247f5356d036fff8fb817000a777c0e59b6f37f2973c23b8adec81f8b23efe": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2025.05.19.2/2025.05.19.2-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111122,
+      "version_name": "2025.05.19.2",
+      "tag": "2025.05.19.2",
+      "commit": "25524e465b48e845869fbbce62f1d2b1cdc84c30",
+      "timestamp": 1747750640,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "635b27f24c6b1b2a2d0a1b90a4dcbbb2d1d4ff5b48e64c7319565842ccfbb80f": [
     {
       "repository": "https://github.com/r57zone/EasyNotes.git",
@@ -20525,6 +20637,20 @@
       "tag": "v1.0.2",
       "commit": "88df8f9165de1bccba4ddefae33b4bcc69e57a97",
       "timestamp": 1747667262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5da693022c430ad127ff7748dea9b99c20b6485749181137fb2aa2b2e2e82ff7": [
+    {
+      "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
+      "apk_url": "https://github.com/RBN-Apps/Quick-Tile-Settings/releases/download/v1.1.0/quick-tile-settings-1.1.0.apk",
+      "appid": "com.rbn.qtsettings",
+      "version_code": 4,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "4d17702899017ac78a89f8332799e5940f535bdc",
+      "timestamp": 1747766164,
       "reproducible": true,
       "error": null
     }
@@ -22293,6 +22419,20 @@
       "error": null
     }
   ],
+  "aabe4111a1682d0e42891a95d864e5b689d745b0b705aadc0cff4d9a80588fe2": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v2.5/Quotes-app.v2-5.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 25,
+      "version_name": "2.5",
+      "tag": "v2.5",
+      "commit": "0f1055004b4cdf7944215dc7d9c33be2144a6433",
+      "timestamp": 1747756221,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "521b33987861774d9331c221a52a8ea1db13a58f460e40ac724ac78e98159aa7": [
     {
       "repository": "https://github.com/shub39/Dharmik.git",
@@ -23085,6 +23225,20 @@
       "tag": "3.1.1",
       "commit": "1947a660115810a9dd237daaeec00b4d756f9f32",
       "timestamp": 1747404605,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4ad7c12cc8454911b412b2a11d96ed4b217c595f1cee5e6d3836e3d1666b9fcb": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/3.2.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 3200,
+      "version_name": "3.2.0",
+      "tag": "3.2.0",
+      "commit": "aaf0276847b0e601b9edde331528fe5617a14ef2",
+      "timestamp": 1747751238,
       "reproducible": true,
       "error": null
     }
@@ -25395,6 +25549,20 @@
       "tag": "V2.71.46",
       "commit": "3970257703e8c2cf3b04e2daf4dbf3c8ccd95503",
       "timestamp": 1747247096,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dfe90665ba88c144fb8d984f02cc031485cb799efe408611bb9cf0a4143a6a64": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.47/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27147,
+      "version_name": "2.71.47",
+      "tag": "V2.71.47",
+      "commit": "dcf1b97ecf61fb052d6e0727436410e8265ff883",
+      "timestamp": 1747752565,
       "reproducible": true,
       "error": null
     }
@@ -28415,6 +28583,20 @@
       "tag": "v1.1.54",
       "commit": "7d01141db57c2862bb0a22ccde88cc1bf160e7fa",
       "timestamp": 1747576669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8f40438afdae68d9a1c7a360a689b836bbaebf3f415c0c315f0fbcad0cb86221": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.55/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23122,
+      "version_name": "1.1.55",
+      "tag": "v1.1.55",
+      "commit": "c45aaff610d6afa517a7d3f519fa3906a6ed2710",
+      "timestamp": 1747752774,
       "reproducible": true,
       "error": null
     }
@@ -35765,6 +35947,20 @@
       "error": null
     }
   ],
+  "3ff6cf60cef63316fcd292d8656046ff391d831df7a16949699c1aa3c9c5df24": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.1.0/musicplayer-2-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "16bd625ea94841050f07b8222d1adaa347fddd75",
+      "timestamp": 1747771310,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5bda57d71873c71342a3a27fba2ece296c7ebc864654112ee182444a2194aab9": [
     {
       "repository": "https://github.com/FossifyOrg/Notes.git",
@@ -35915,6 +36111,20 @@
       "tag": "1.1.3",
       "commit": "f06bd0a46cd9546fef1f28f25ff09e2721f43a5b",
       "timestamp": 1739870707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8480939d71576b1e92228db1b6e6ba9e08500162800c264fdfa33dcf86710726": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.2.0/voicerecorder-6-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 6,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "dd7bef7e919ca2800ac534dde4d61d62b936b0dd",
+      "timestamp": 1747753617,
       "reproducible": true,
       "error": null
     }
