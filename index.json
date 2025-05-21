@@ -1287,6 +1287,20 @@
       "error": null
     }
   ],
+  "dbe65cd9cf7df6215fe45c09c92beb0a55f6b09efa9ba38812ae5c800950e3d3": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.1/Podcini.X_release_free_8.17.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 171,
+      "version_name": "8.17.1",
+      "tag": "8.17.1",
+      "commit": "25025810ec953ff73a74d09fbb266fa221b6d60c",
+      "timestamp": 1747835278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -1465,6 +1479,20 @@
       "tag": "v9.2.1",
       "commit": "5fe9f12cccf12cb691487f12a43af7d8cf4b9e3a",
       "timestamp": 1747144064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0ef98fbb48046842f0e7c1b5180380eefee79e73a0cfd34188ddd05605ccb06e": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.2.2/cclauncher-v9.2.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 660,
+      "version_name": "v9.2.2",
+      "tag": "v9.2.2",
+      "commit": "7a15e308ae34f6393f5e2f2f073e6db4d30a5c20",
+      "timestamp": 1747835733,
       "reproducible": true,
       "error": null
     }
@@ -4899,6 +4927,20 @@
       "error": null
     }
   ],
+  "5b673477a79d89ff7ae1c1fb2293a6e06c60060cc1a1795e63f7c73aec93593e": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.4-beta/fomodoro_1.4.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 4,
+      "version_name": "1.4",
+      "tag": "v1.4-beta",
+      "commit": "bfff3fe817fccdb05710d3d825e8e8dde743cd02",
+      "timestamp": 1747851645,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -7111,6 +7153,20 @@
       "error": null
     }
   ],
+  "b91791b5cbc804fe6efbab3b11b1e2b4f1f97c9be37a3367b02b3d7300c0aa87": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.05.1136-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1136,
+      "version_name": "2025.05.1136-dev",
+      "tag": "2025.05.1136-dev",
+      "commit": "07a1ad89dbe0f565552e9f6034e0725fadb924e7",
+      "timestamp": 1747836082,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -7793,6 +7849,20 @@
       "tag": "1.1.1.7v93",
       "commit": "1c9ecaec286e37b44c4ddab94d525bd4d822ef84",
       "timestamp": 1747749219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3f9512078a495df98400680eb686525fb904046d745a9346729f5fd38ded067e": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.8v94/PuppyGit_1.1.1.8v94_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 94,
+      "version_name": "1.1.1.8",
+      "tag": "1.1.1.8v94",
+      "commit": "3d8da058ca3f86c6e9ba824bc0232eba49188866",
+      "timestamp": 1747836623,
       "reproducible": true,
       "error": null
     }
@@ -12557,6 +12627,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpuaeko_bg/outputs:/outputs', '--volume', '/tmp/tmpuaeko_bg/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/More-Than-Solitaire/Tabs-Lite.git', '--env', 'APP_TAG=v3.6.5', '--env', 'APP_COMMIT=92df61a62a5ce60a038ee7a6e66afa1989bc9e05', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "cb6cde0da849f8739d1c0f9eae4647f822f84f205f145f161c4a2bc6d0a410d5": [
+    {
+      "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
+      "apk_url": "https://github.com/More-Than-Solitaire/Tabs-Lite/releases/download/v3.7.0/TabsLite.v3.7.0.apk",
+      "appid": "com.gbros.tabslite",
+      "version_code": 3700,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "f8c45d087f80e35a36980f6c32ddf3d515b2a8f1",
+      "timestamp": 1747853945,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "a9d2284ec5b0bfc7846199f2a3aeba4d9ac56927d36c807f69be202b8f3af813": [
     {
       "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
@@ -12875,6 +12959,20 @@
       "tag": "2.6.0",
       "commit": "a603dcb91e2e873bb1c90cf59bfc8bb684cca8b5",
       "timestamp": 1747506043,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e100d9ec8abd6f1e143ce17b0e26c89ee2eb626ad0d4236000c542e583c1dd94": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.1/fdroidRelease-2.6.1.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30601,
+      "version_name": "2.6.1",
+      "tag": "2.6.1",
+      "commit": "fa3852ab6b14a1d3950e4972298ca01a0a6e3caf",
+      "timestamp": 1747837846,
       "reproducible": true,
       "error": null
     }
@@ -20655,6 +20753,20 @@
       "error": null
     }
   ],
+  "a2c901ba09f29bf3db40b78db584811ffc3cd2b591e623107cbb62c6a7e729c6": [
+    {
+      "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
+      "apk_url": "https://github.com/RBN-Apps/Quick-Tile-Settings/releases/download/v1.1.1/quick-tile-settings-1.1.1.apk",
+      "appid": "com.rbn.qtsettings",
+      "version_code": 5,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "d6561ed10be3b8ada0fe58f804db906897301d23",
+      "timestamp": 1747838353,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -21327,6 +21439,20 @@
       "error": null
     }
   ],
+  "ab4bb5d81a0efc4599c388993ab879532aca359c4671541cd119333b73caa7e1": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.4.1/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 401,
+      "version_name": "0.4.1",
+      "tag": "0.4.1",
+      "commit": "a41c066407bb0073d3df5c900729be896b5c7d6f",
+      "timestamp": 1747838609,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -21981,6 +22107,20 @@
       "tag": "v2.9.1",
       "commit": "053c9a7bdc947b8cc1f8e6bc3519671cd1ff7be4",
       "timestamp": 1745676230,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5d3e991509a4251739adb237a4d0fe244ec2b851f9ac09149f6cf3cd2bc765e9": [
+    {
+      "repository": "https://github.com/iamr0s/Dhizuku.git",
+      "apk_url": "https://github.com/iamr0s/Dhizuku/releases/download/v2.10/Dhizuku_v2.10.apk",
+      "appid": "com.rosan.dhizuku",
+      "version_code": 15,
+      "version_name": "2.10",
+      "tag": "v2.10",
+      "commit": "d2c4bfd08117b9d58e71b0e7d22d679e938bd1d8",
+      "timestamp": 1747838933,
       "reproducible": true,
       "error": null
     }
@@ -23239,6 +23379,20 @@
       "tag": "3.2.0",
       "commit": "aaf0276847b0e601b9edde331528fe5617a14ef2",
       "timestamp": 1747751238,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f8fc38634fd9a372c84ba3720211c430ef72ee6283a7b45f802d86df9763e31": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/3.2.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 3210,
+      "version_name": "3.2.1",
+      "tag": "3.2.1",
+      "commit": "b02002260c6c90abf8b30ca8780b4f59e65546a8",
+      "timestamp": 1747839294,
       "reproducible": true,
       "error": null
     }
@@ -24597,6 +24751,20 @@
       "tag": "1.2",
       "commit": "fe46171a40eb46d0c45cdc05ef85743a9f9b126b",
       "timestamp": 1747576440,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bf15d483bd54fc23d831d143e3bd4df198b099c628d4d965e766c27b70be9739": [
+    {
+      "repository": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app.git",
+      "apk_url": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/releases/download/1.3/app-release.apk",
+      "appid": "com.tre.openstreetmapwiki",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "e18a980b2ef681b5afe6a05e3ee1624c8b6d9190",
+      "timestamp": 1747843447,
       "reproducible": true,
       "error": null
     }
@@ -28051,6 +28219,20 @@
       "tag": "v0.3.2",
       "commit": "6018463849826c1b81b5980d56953ad90419d16b",
       "timestamp": 1745947715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe1dd5096822a5cad5ded343bd86ade1768670845b7b87f209a37aef56678764": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.4.0/ReadeckApp-0.4.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 400,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "5a8fc7601a5239cc239b04bf804a34cee0df1125",
+      "timestamp": 1747840048,
       "reproducible": true,
       "error": null
     }
@@ -34421,6 +34603,20 @@
       "error": null
     }
   ],
+  "1cc937cf0f665e5dc0f602838149ac10a4b76ddc7d84fd64e2a0feb7d04bf1c1": [
+    {
+      "repository": "https://github.com/AkaneTan/Gramophone.git",
+      "apk_url": "https://github.com/AkaneTan/Gramophone/releases/download/1.0.17/Gramophone-1.0.17-release.apk",
+      "appid": "org.akanework.gramophone",
+      "version_code": 20,
+      "version_name": "1.0.17",
+      "tag": "1.0.17",
+      "commit": "ea0e38cd64cd901495d17701d9405555baa30643",
+      "timestamp": 1747844581,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "730da62eade74e329ecb7c5f44ec6e955019cdaba2b884e65392ba7a1e62bf6b": [
     {
       "repository": "https://github.com/mlm-games/geotag-video-camera.git",
@@ -35677,6 +35873,20 @@
       "tag": "1.0.1",
       "commit": "985568ea2dcfe9992675d9097e030f4fd27230de",
       "timestamp": 1722384107,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ebfee83955a46e48c964e02e8f3689a4347f1231c939a4e19352ea553e99266b": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.1.0/file-manager-3-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "626497acc5b2386f545ec2234205bb0be02bf4e2",
+      "timestamp": 1747840905,
       "reproducible": true,
       "error": null
     }
@@ -36965,6 +37175,20 @@
       "tag": "v2.1.0",
       "commit": "e7d4f33f28871690492baee254bc5b422b99cb52",
       "timestamp": 1747161436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ce0db6c2f84d0c80287fe6787cd921f1787255f09d404da61d4fab93c3511dda": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v2.2.0/wikireader-v2.2.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 38,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "1dec186b6e8ed2cbfa472529a6b3021f827d7c85",
+      "timestamp": 1747841314,
       "reproducible": true,
       "error": null
     }
