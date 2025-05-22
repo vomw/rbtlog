@@ -1301,6 +1301,20 @@
       "error": null
     }
   ],
+  "14536ba3a068dbafeed06511500db8883fd850ee3f27e40adfd88fdc49e78570": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.2/Podcini.X_release_free_8.17.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 172,
+      "version_name": "8.17.2",
+      "tag": "8.17.2",
+      "commit": "ce8cc4c66180543c6b68c97028bb121271073d31",
+      "timestamp": 1747938050,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -7863,6 +7877,20 @@
       "tag": "1.1.1.8v94",
       "commit": "3d8da058ca3f86c6e9ba824bc0232eba49188866",
       "timestamp": 1747836623,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "164256ea8bfa31879e3c092c7373ba7bf181cb579ee0dd099dfe92d4b191e517": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.1.9v95/PuppyGit_1.1.1.9v95_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 95,
+      "version_name": "1.1.1.9",
+      "tag": "1.1.1.9v95",
+      "commit": "691388641278f9f3fa46641ee0b29c7f16ccbebe",
+      "timestamp": 1747938427,
       "reproducible": true,
       "error": null
     }
@@ -17727,6 +17755,20 @@
       "tag": "v0.2.14-hf",
       "commit": "78d5cfdf40923a7de709dd428826722e3ad2dd12",
       "timestamp": 1745173498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ce9eecb6739e967d82a2ba4e34b559d63776adabeb4a5513ebd67833ea038dd8": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.15/SimpMusic_0.2.15-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 33,
+      "version_name": "0.2.15",
+      "tag": "v0.2.15",
+      "commit": "520a1f76a2d163a5a348108c7befe2a4d35b643b",
+      "timestamp": 1747939849,
       "reproducible": true,
       "error": null
     }
