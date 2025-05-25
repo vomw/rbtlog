@@ -165,3 +165,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 2.0.8
+    apks:
+      - apk_pattern: DataBackup-.*armeabi-v7a-foss-release\.apk
+        apk_url: https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.8/DataBackup-2.0.8-armeabi-v7a-foss-release.apk
+        build:
+          - cd source
+          - chmod +x gradlew
+          - sed -r '/signingConfigs.getByName/d' -i build-logic/convention/src/main/kotlin/ApplicationCommonConventionPlugin.kt
+          - PROF_FILE=app/build/intermediates/binary_art_profile/armeabi-v7aFossRelease/compileArmeabi-v7aFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=9e5786587406de1d1becd7027575186fd5857090
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleArmeabi-v7aFossRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/armeabi-v7aFoss/release/DataBackup-*-armeabi-v7a-foss-release.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

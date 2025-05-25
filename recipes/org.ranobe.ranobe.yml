@@ -2,7 +2,7 @@
 repository: https://github.com/ranobe-org/ranobe.git
 updates: releases
 notes:
-  - 'FIXME: v0.0.7 was built from dirty tree and needed versionCode/versionName adjusted. v0.0.8 has the same issue, but in addition, the commit it was built from does not exist; see https://github.com/ranobe-org/ranobe/issues/38 '
+  - v0.0.7 was built from dirty tree and needed versionCode/versionName adjusted. v0.0.8 has the same issue, but in addition, the commit it was built from does not exist; see https://github.com/ranobe-org/ranobe/issues/38
 versions:
   - tag: v0.0.7
     apks:
@@ -38,6 +38,35 @@ versions:
         apk_url: https://github.com/ranobe-org/ranobe/releases/download/v0.0.8/ranobe.apk
         build:
           - git checkout 28040ee704f5b8e6cf9f2bec2169c54465a13e57
+          - touch local.properties
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.0.9
+    apks:
+      - apk_pattern: ranobe\.apk
+        apk_url: https://github.com/ranobe-org/ranobe/releases/download/v0.0.9/ranobe.apk
+        build:
+          - git reset --soft 658bbe8755f2083acf9a14bb3d623378f732b065
           - touch local.properties
           - chmod +x gradlew
           - ./gradlew assembleRelease
