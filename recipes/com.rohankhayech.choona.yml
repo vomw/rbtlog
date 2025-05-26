@@ -1,12 +1,49 @@
 ---
 repository: https://github.com/rohankhayech/Choona.git
 updates: releases
+notes:
+  - 'FIXME: M7.json is now without the timestamp, remove the sed with the next release'
 versions:
   - tag: v1.3.0
     apks:
       - apk_pattern: Choona-Android-.*\.apk
         apk_url: https://github.com/rohankhayech/Choona/releases/download/v1.3.0/Choona-Android-v1.3.0.apk
         build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-newlines "$OUT" 'META-INF/services/*'
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-files "$OUT" 'sed s/"generated":"[^"]*"/"generated":"2024-11-09T12:47:43.381Z"/' 'res/M7.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.4.1
+    apks:
+      - apk_pattern: Choona-Android-.*\.apk
+        apk_url: https://github.com/rohankhayech/Choona/releases/download/v1.4.1/Choona-Android-v1.4.1.apk
+        build:
+          - git reset --soft 02ef95da55a983d3bde1b08ab16e2d6ad8db62a7
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git

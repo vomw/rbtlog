@@ -1651,6 +1651,20 @@
       "error": null
     }
   ],
+  "950c42fe73f0e696927f98e260568658cfa0f65d4a1d6b12a3b9d0150c6b36d4": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.14.0/Lawnicons.2.14.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 19,
+      "version_name": "2.14.0",
+      "tag": "v2.14.0",
+      "commit": "37262a7c07a223d712503a714a9f9dd5a671faa7",
+      "timestamp": 1748283645,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -4997,6 +5011,20 @@
       "error": null
     }
   ],
+  "bb5701412e1d854b487fbefa9e3eee9f30d18fa4426df0e576fd55be7fcb9b5a": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.7/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1359,
+      "version_name": "4.5.7",
+      "tag": "v4.5.7",
+      "commit": "87f2c9ae2ec6097f55f6185f6a2cb8aab75fc02b",
+      "timestamp": 1748267270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -5049,6 +5077,20 @@
       "tag": "v1.5-beta",
       "commit": "fed023ef04ba3afd050ed751affe847bd962975b",
       "timestamp": 1748198905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6bdeb9cbb9f20156cd470f8d2661e4d8341b7d97b59b28aa8618c5e994d5949b": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.6-beta/fomodoro_v1.6.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 6,
+      "version_name": "1.6",
+      "tag": "v1.6-beta",
+      "commit": "28571860aa44d26b149b4bb89d3395f31e5fd75f",
+      "timestamp": 1748267532,
       "reproducible": true,
       "error": null
     }
@@ -11059,6 +11101,20 @@
       "error": null
     }
   ],
+  "11bf653998ecfdb62db884e0c0d105acec6a108971d283357e254757ff3a590d": [
+    {
+      "repository": "https://github.com/dluvian/voyage.git",
+      "apk_url": "https://github.com/dluvian/voyage/releases/download/v0.17.5/app-arm64-v8a-release.apk",
+      "appid": "com.dluvian.voyage",
+      "version_code": 26,
+      "version_name": "v0.17.5",
+      "tag": "v0.17.5",
+      "commit": "f7c145e6d9b230ebf6df33d4a0af5684ef07d3ba",
+      "timestamp": 1748267757,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2c4dd328f0a6f3ca4c3bece01529839e03cdf1027d0cab27c41fcc216ee4d397": [
     {
       "repository": "https://github.com/dmitrijkotov634/android-notes.git",
@@ -11951,6 +12007,20 @@
       "tag": "v1.29.0",
       "commit": "23870dca19fd0f855168898634579becdd443584",
       "timestamp": 1744638773,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d77a7eac75e75cf9f7abd54360f5a88f2ab8be999897048586a8e57c8d628ac4": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v8.130.0/com.fibelatti.photowidget-v1.30-1300001-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1300001,
+      "version_name": "1.30",
+      "tag": "v8.130.0",
+      "commit": "864f4869b3065fa0e59589a0e3dac45143b51c32",
+      "timestamp": 1748268135,
       "reproducible": true,
       "error": null
     }
@@ -15419,6 +15489,20 @@
       "tag": "9.4.3",
       "commit": "325ef7622cc345b5df23ea5de7f82433b7c8ab0e",
       "timestamp": 1748207958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5938737aeac347095cc423f05492eeb889bb35c053ed72408ec29f1fd6bd4de4": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.5.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 131,
+      "version_name": "9.5.0",
+      "tag": "9.5.0",
+      "commit": "14bd3e4d443251d53676e107d2606c560bca5c4e",
+      "timestamp": 1748283977,
       "reproducible": true,
       "error": null
     }
@@ -19187,6 +19271,20 @@
       "error": null
     }
   ],
+  "9eeb5f310751d56266d43fd30d9cad5821356d6c1ffa43d47d9fe4275dec2b12": [
+    {
+      "repository": "https://github.com/NimaKhajehpour/MyMood.git",
+      "apk_url": "https://github.com/NimaKhajehpour/MyMood/releases/download/v2.1.0/app-release.apk",
+      "appid": "com.nima.mymood",
+      "version_code": 13,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "688cb5fbc8963b2461d02809177557158b4bca93",
+      "timestamp": 1748268523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10fe18b430149dc0141dba63fd8bfe38b0818851b055bdc012ec322c279f8b7a": [
     {
       "repository": "https://github.com/NimaKhajehpour/OpenBooksDownloader.git",
@@ -22279,6 +22377,20 @@
       "error": null
     }
   ],
+  "59bb4b9791e15b0a04183c5dd76a9fd6248c6e6f1fdb563be74e38e917d871fb": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.1.2/xed-editor-v3.1.2.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 55,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "a706e21d042af34b8e22c82b0082416f9860afb2",
+      "timestamp": 1748268842,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -22304,6 +22416,20 @@
       "commit": "7d71b9bbe1598eae021b3f04e3254a7e7db13dc3",
       "timestamp": 1745943318,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "624472b2b164f3d72eb1b7fcea969fe26193c99d924cda3640f3f96efa20b5d0": [
+    {
+      "repository": "https://github.com/rohankhayech/Choona.git",
+      "apk_url": "https://github.com/rohankhayech/Choona/releases/download/v1.4.1/Choona-Android-v1.4.1.apk",
+      "appid": "com.rohankhayech.choona",
+      "version_code": 9,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "33c957123a12b6dc4d109a3fadafdafe0eb1a1d3",
+      "timestamp": 1748284492,
+      "reproducible": false,
       "error": null
     }
   ],

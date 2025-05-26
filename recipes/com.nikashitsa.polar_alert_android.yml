@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'FIXME: versionCode is set via GITHUB_RUN_NUMBER variable, which we cannot reproduce (but have to set manually), see https://github.com/nikashitsa/polar-alert-android/blob/v1.0.3/app/build.gradle#L15'
   - issue opened upstream at https://github.com/nikashitsa/polar-alert-android/issues/1 (should be solved with the next release, so we can remove the variable then)
+  - should be fixed after v1.0.4, so remove that "sed" for versionCode then
 versions:
   - tag: v1.0.3
     apks:
