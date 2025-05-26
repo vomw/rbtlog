@@ -10849,6 +10849,20 @@
       "error": null
     }
   ],
+  "db60b2e2aed40f0a1fba7d35d027a63621053f0f0802a172664b05714650b52e": [
+    {
+      "repository": "https://github.com/nooowavailable/tunedetectivex.git",
+      "apk_url": "https://github.com/nooowavailable/tunedetectivex/releases/download/v1.4/app-github-release.apk",
+      "appid": "com.dev.tunedetectivex",
+      "version_code": 8,
+      "version_name": "1.4-github",
+      "tag": "v1.4",
+      "commit": "95f95586a6d0314dc610e6122744b5adb078a815",
+      "timestamp": 1748245548,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d11b3697d530801ac022f41ef134c38af06f0f6a369e48ac5ab5bc16e2a19ec6": [
     {
       "repository": "https://github.com/dimrnhhh/moneytopia.git",
@@ -30079,6 +30093,20 @@
       "tag": "v2.7.5",
       "commit": "2360b68eb52bd2f178c682dfc35075c737ddf1d3",
       "timestamp": 1747492874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
+    {
+      "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
+      "apk_url": "https://yaky.dev/apps/usb_camera_viewer/usb_camera_viewer_release.apk",
+      "appid": "dev.yaky.usbcamviewer",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "1.0.0",
+      "commit": "86c1767d27806fd8075dfc38e6d381a0394fd8c5",
+      "timestamp": 1748252947,
       "reproducible": true,
       "error": null
     }

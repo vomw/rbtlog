@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/yasinkacmaz/jetflix.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: 3.0.0 was built from a squashed commit, remove inplace-fix with next release'
+  - disabled as it was unlisted, see https://github.com/yasinkacmaz/jetflix/issues/344#issuecomment-2900740518
 versions:
   - tag: 2.0.0
     apks:

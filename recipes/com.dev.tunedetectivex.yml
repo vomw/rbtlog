@@ -95,6 +95,7 @@ versions:
       - apk_pattern: app-github-release\.apk
         apk_url: https://github.com/nooowavailable/tunedetectivex/releases/download/v1.4/app-github-release.apk
         build:
+          - git checkout 724aeb731d0a29b67f40dec5bdd71222eedb7ccf
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleGithubRelease
