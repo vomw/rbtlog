@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/rohankhayech/Choona.git
 updates: releases
-notes:
-  - 'FIXME: M7.json is now without the timestamp, remove the sed with the next release'
 versions:
   - tag: v1.3.0
     apks:
@@ -43,13 +41,11 @@ versions:
       - apk_pattern: Choona-Android-.*\.apk
         apk_url: https://github.com/rohankhayech/Choona/releases/download/v1.4.1/Choona-Android-v1.4.1.apk
         build:
-          - git reset --soft 02ef95da55a983d3bde1b08ab16e2d6ad8db62a7
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
           - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
-          - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-newlines "$OUT" 'META-INF/services/*'
-          - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-files "$OUT" 'sed s/"generated":"[^"]*"/"generated":"2024-11-09T12:47:43.381Z"/' 'res/M7.json'
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'META-INF/services/*'
           - mv "$OUT" /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build

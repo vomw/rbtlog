@@ -3,6 +3,7 @@ repository: https://github.com/prathameshkhade/SysAdmin.git
 updates: releases
 notes:
   - v1.0.29 has crazy versionCode calculation which will hopefully be fixed with the next release, see https://github.com/prathameshkhade/SysAdmin/issues/12
+  - 'FIXME: recipe update needed with next release, see https://github.com/prathameshkhade/SysAdmin/issues/12#issuecomment-2911074277 and compare with https://github.com/prathameshkhade/SysAdmin/blob/dev/.github/workflows/main.yml '
 versions:
   - tag: v1.0.28
     apks:
