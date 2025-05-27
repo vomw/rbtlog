@@ -1553,6 +1553,20 @@
       "error": null
     }
   ],
+  "f768b2669c688428fb4750d426eb1a3003ac06f7477d46937c1c4ad8eb4b2e0c": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.6.1/cclauncher-v9.6.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 700,
+      "version_name": "v9.6.1",
+      "tag": "v9.6.1",
+      "commit": "d22eba905553bd35aeb3dcade62de7e04297a4a1",
+      "timestamp": 1748353670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -5497,6 +5511,20 @@
       "tag": "2.2.4.21",
       "commit": "24f501d2b57b7e578a1faf167df8426c7480c42d",
       "timestamp": 1746563850,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e8bf4b380d1eb87f6b247dfa29174fae77af85620c9a0b0f6af166a094b19be2": [
+    {
+      "repository": "https://github.com/BitMavrick/Lumolight.git",
+      "apk_url": "https://github.com/BitMavrick/Lumolight/releases/download/2.2.4.22/lumolight-2.2.4.22-universal.apk",
+      "appid": "com.bitmavrick.lumolight",
+      "version_code": 22,
+      "version_name": "2.2.4.22",
+      "tag": "2.2.4.22",
+      "commit": "b9a6cad18400f52aeeca80f7b8d2b58c61018749",
+      "timestamp": 1748354045,
       "reproducible": true,
       "error": null
     }
@@ -13299,6 +13327,20 @@
       "error": null
     }
   ],
+  "0ef179183ba003ad8ea422369289db80a2034df9ad4f59144a2c52f1be2f3b7e": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.4/fdroidRelease-2.6.4.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30604,
+      "version_name": "2.6.4",
+      "tag": "2.6.4",
+      "commit": "6ee7b6e12daef0ec88af04f2817b395127007e1e",
+      "timestamp": 1748354337,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpibrp2_aa/outputs:/outputs', '--volume', '/tmp/tmpibrp2_aa/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=2.6.4', '--env', 'APP_COMMIT=6ee7b6e12daef0ec88af04f2817b395127007e1e', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -15503,6 +15545,20 @@
       "tag": "9.5.0",
       "commit": "14bd3e4d443251d53676e107d2606c560bca5c4e",
       "timestamp": 1748283977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "06d8cd60ea61b90d6437330e9d8ee038e822f847506d700293576141ed6eb8f0": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.5.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 132,
+      "version_name": "9.5.1",
+      "tag": "9.5.1",
+      "commit": "e36eb107aab9f640fe48166d99c22f720d77f85e",
+      "timestamp": 1748370054,
       "reproducible": true,
       "error": null
     }
@@ -24713,6 +24769,20 @@
       "error": null
     }
   ],
+  "660ae40b8672edf1710b1e0daea5918c6e74a557853ae921f2a95ff838006020": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.8.0/CM_2.8.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 30,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "46fe3b4bd8cdffaeaa1ef26144ed592bc1e562e1",
+      "timestamp": 1748355010,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
     {
       "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
@@ -26569,6 +26639,20 @@
       "tag": "2.0.8",
       "commit": "e2c372903badad2e1904b8e0ff1939ba7c190454",
       "timestamp": 1748201853,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bcd0f72a37196b344a6db56d8846ad5d8b71a0f1862e495d9dd6f692f983f9bc": [
+    {
+      "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
+      "apk_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.9/DataBackup-2.0.9-armeabi-v7a-foss-release.apk",
+      "appid": "com.xayah.databackup.foss",
+      "version_code": 3501163,
+      "version_name": "2.0.9",
+      "tag": "2.0.9",
+      "commit": "f1fb8567ef360adeca7e3d2da4281d9863ad56ee",
+      "timestamp": 1748370935,
       "reproducible": true,
       "error": null
     }
@@ -39485,6 +39569,20 @@
       "tag": "v1.4.1",
       "commit": "c5510e62f0e07bb529b1cad4efab3a77a0b9c71b",
       "timestamp": 1746734031,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e7f113ef2111777d4fa40c932c4d7e40102783742131c87f610e7a008578d7d": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v2.0.0/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 14,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "660bac6af88d849d9311628f560e61e665a8861b",
+      "timestamp": 1748371537,
       "reproducible": true,
       "error": null
     }
