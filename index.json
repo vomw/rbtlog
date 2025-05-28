@@ -13341,6 +13341,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpibrp2_aa/outputs:/outputs', '--volume', '/tmp/tmpibrp2_aa/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=2.6.4', '--env', 'APP_COMMIT=6ee7b6e12daef0ec88af04f2817b395127007e1e', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "582924e54eedd55770b62dba850f53c9748838d18d0d4d80d1e49a9e908a51ed": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.5/fdroidRelease-2.6.5.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30605,
+      "version_name": "2.6.5",
+      "tag": "2.6.5",
+      "commit": "6e4a5b2812b1a1018163ded4e4b4fa9365c88854",
+      "timestamp": 1748376655,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -16903,6 +16917,20 @@
       "tag": "v2.5.2",
       "commit": "dfbb1f895b4b0369a7a46764456a96fd78f57fc6",
       "timestamp": 1727024239,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "882715a06d0afa414fd1dd33989d745fe787c30620ed12cbd628779fe699008a": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.4/Arru-2.5.4.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 42,
+      "version_name": "2.5.4",
+      "tag": "v2.5.4",
+      "commit": "4a84be3d71686ba001e6c39f50f2b07fc526b9ce",
+      "timestamp": 1748384390,
       "reproducible": true,
       "error": null
     }
@@ -27021,6 +27049,20 @@
       "error": null
     }
   ],
+  "785a6ce788c6dd981ee64c6dd39c06f7ebb19a02d72ee55671ce6bb9d27fb2ee": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.2.7/MediLog-3.2.7.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5484,
+      "version_name": "3.2.7",
+      "tag": "v3.2.7",
+      "commit": "003432c1bab36e8a20a937dda09245c90d1132df",
+      "timestamp": 1748423767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -30109,6 +30151,20 @@
       "tag": "v4.0.0",
       "commit": "1f10f09edb79b51000faac16a400c474a68c5259",
       "timestamp": 1746110004,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
+    {
+      "repository": "https://github.com/RiddlerXenon/app2proxy.git",
+      "apk_url": "https://github.com/RiddlerXenon/app2proxy/releases/download/v1.0.1/app-release.apk",
+      "appid": "dev.rx.app2proxy",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "ba34369d94f21036932c1834b426285b0ff6082a",
+      "timestamp": 1748430546,
       "reproducible": true,
       "error": null
     }
