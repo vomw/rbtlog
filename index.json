@@ -1805,6 +1805,20 @@
       "error": null
     }
   ],
+  "783c6fec57c07750ae22bd49a950dc0fc6d9a4dc942fd02a248298549f1579cf": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.13.0/Pachli_2.13.0_31_f89f6b23_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 31,
+      "version_name": "2.13.0",
+      "tag": "v2.13.0",
+      "commit": "f89f6b237c33eed18a4b52d097b7f5734cf3fa83",
+      "timestamp": 1748456450,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -12051,6 +12065,18 @@
       "timestamp": 1748268135,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.30.0/com.fibelatti.photowidget-v1.30-1300001-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1300001,
+      "version_name": "1.30",
+      "tag": "v1.30.0",
+      "commit": "864f4869b3065fa0e59589a0e3dac45143b51c32",
+      "timestamp": 1748440053,
+      "reproducible": true,
+      "error": null
     }
   ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
@@ -12893,6 +12919,20 @@
       "error": null
     }
   ],
+  "fd0772c1b60c515568f1dbc28b83bde5b19da11d18deaaf52a95d04ee9a133a0": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.3/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 120,
+      "version_name": "1.17.3",
+      "tag": "v1.17.3",
+      "commit": "0833c91f33712d094e38ba2082737e8d0fe3256a",
+      "timestamp": 1748440414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -13351,6 +13391,20 @@
       "tag": "2.6.5",
       "commit": "6e4a5b2812b1a1018163ded4e4b4fa9365c88854",
       "timestamp": 1748376655,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48972c801078b1aaefa2b8252c0a4ca80fb52f43ce48996190de6391217e598b": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.6/fdroidRelease-2.6.6.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30606,
+      "version_name": "2.6.6",
+      "tag": "2.6.6",
+      "commit": "dcae34a7869b01a88b6469fe83f8f70609ad872b",
+      "timestamp": 1748457082,
       "reproducible": true,
       "error": null
     }
@@ -15573,6 +15627,20 @@
       "tag": "9.5.1",
       "commit": "e36eb107aab9f640fe48166d99c22f720d77f85e",
       "timestamp": 1748370054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "807087cbe6f348936ce477d65e5f806e838c65062581657e650cf8bff08c4f0b": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.5.2/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 133,
+      "version_name": "9.5.2",
+      "tag": "9.5.2",
+      "commit": "43c90bb8f03d725af16297f2564cceb57ac71f90",
+      "timestamp": 1748440740,
       "reproducible": true,
       "error": null
     }
@@ -18525,6 +18593,20 @@
       "tag": "v11.10.0",
       "commit": "b49319ffdc8f4f2166869614085717fc8a2f5067",
       "timestamp": 1746642412,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac26e5258566ca939f15615db3bf702a62989bfa3889ac261edc120a50fd88ad": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.0.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 121,
+      "version_name": "12.0.0",
+      "tag": "v12.0.0",
+      "commit": "0f381dd39a563eb00caf081e549f4b55d6de1de8",
+      "timestamp": 1748441400,
       "reproducible": true,
       "error": null
     }
@@ -29329,6 +29411,20 @@
       "error": null
     }
   ],
+  "29f62444a508950c9fb79b3fb3647b02d6953670be49520c7dc018e05519386a": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.5/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 181,
+      "version_name": "1.1.5",
+      "tag": "v1.1.5",
+      "commit": "eda7eedb7a76b69b23f46bb48a5deba2e1307be0",
+      "timestamp": 1748441976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -31563,6 +31659,20 @@
       "tag": "1.2276",
       "commit": "e578f12e32da2d100920a440d7fce0a824d28eb4",
       "timestamp": 1746625956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "60a0ab5dd44190c3df8a8300316a4f9745ee4ac75e6ce8046941c4b59d65b5e7": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2277/FairEmail-v1.2277a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2277,
+      "version_name": "1.2277",
+      "tag": "1.2277",
+      "commit": "0c28eca0c4ece91477152ccc19e55d343df3b6df",
+      "timestamp": 1748442486,
       "reproducible": true,
       "error": null
     }
@@ -36591,6 +36701,20 @@
       "error": null
     }
   ],
+  "4357abe5c161b62df3666453d5f9957fb889ce5770239b74a0db4655f74dec03": [
+    {
+      "repository": "https://github.com/FossifyOrg/Camera.git",
+      "apk_url": "https://github.com/FossifyOrg/Camera/releases/download/1.0.2/camera-3-foss-release.apk",
+      "appid": "org.fossify.camera",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "1.0.2",
+      "commit": "bb41baccf489f228128507df60a98397730e684c",
+      "timestamp": 1748457664,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "410143c5d53106376bace38811a9559dad843b09ed0b8783c79809380a1bef0e": [
     {
       "repository": "https://github.com/FossifyOrg/Clock.git",
@@ -39643,6 +39767,20 @@
       "error": null
     }
   ],
+  "e1dc1a6e79e6a5e43dc236d3be8bdd5bf54a41532653bc59129cad618485eb42": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v2.0.1/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 15,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "561ee9387567f02b1eca6338d75907ca6413b7d0",
+      "timestamp": 1748457943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4651ee9382456df657bcba5f79149d6e2b55d1766d580fdcb670fd848ef19436": [
     {
       "repository": "https://github.com/VishnuSanal/Quotes.git",
@@ -41697,6 +41835,20 @@
       "tag": "2.1.0",
       "commit": "94b7181562fbbdc44e809f5cb761797dd3c4df2b",
       "timestamp": 1747578571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73885c4471a0fdfbd7cfbb1fc4cc853e8507d82256addb11cb5f9947c0002bc7": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.1/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 37,
+      "version_name": "2.1.1",
+      "tag": "2.1.1",
+      "commit": "793767750573debd5920c251ca2bd62d7b52f113",
+      "timestamp": 1748442922,
       "reproducible": true,
       "error": null
     }
