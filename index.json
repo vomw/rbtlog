@@ -4227,6 +4227,20 @@
       "error": null
     }
   ],
+  "8a7b5c5b1d85cfd6eb238a3cccd4cc2ec65994eb31910b2cf08f819082e28ec3": [
+    {
+      "repository": "https://github.com/smswithoutborders/RelaySMS-Android.git",
+      "apk_url": "https://github.com/smswithoutborders/RelaySMS-Android/releases/download/71/0.25.0.apk",
+      "appid": "com.afkanerd.sw0b",
+      "version_code": 71,
+      "version_name": "0.25.0",
+      "tag": "71",
+      "commit": "f793a1a6efb88da7f337ae49aacd9f7ec454209f",
+      "timestamp": 1748527352,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "059d0ab37559df28f01b0c8abed5c39f6edc7b865674ae9ccf7368860f5392f2": [
     {
       "repository": "https://github.com/aicodix/assempix.git",
@@ -5119,6 +5133,20 @@
       "tag": "v1.6-beta",
       "commit": "28571860aa44d26b149b4bb89d3395f31e5fd75f",
       "timestamp": 1748267532,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b1a97f45e947694a0921d7b67671f74d77bd57ca4fa454a85e3eb9f3d7f82f7": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.7-beta/fomodoro_v1.7.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 7,
+      "version_name": "1.7",
+      "tag": "v1.7-beta",
+      "commit": "058ebd1fcb7667b9b4c068b2e940200e08196a09",
+      "timestamp": 1748543806,
       "reproducible": true,
       "error": null
     }
@@ -13423,6 +13451,20 @@
       "error": null
     }
   ],
+  "c71f43c63f7e10f722f15208d9f395e8b99b1ca76cf54b1d13b11cf2a5998706": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.7/fdroidRelease-2.6.7.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30607,
+      "version_name": "2.6.7",
+      "tag": "2.6.7",
+      "commit": "32d9f29d7e7c0c36cbe7e540beedc051bada371a",
+      "timestamp": 1748527663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -17017,6 +17059,20 @@
       "error": null
     }
   ],
+  "b23e66836020428e84297a929a32618663e557f992b1da4fd8961d05bf1b795b": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.5/Arru-2.5.5.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 43,
+      "version_name": "2.5.5",
+      "tag": "v2.5.5",
+      "commit": "49f3530efb843fe66579e1dade97b750496756fe",
+      "timestamp": 1748528280,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "555567eb46305cdcad0c4d9feae152cb44a05aa8dffd23de97cf3f3f01ae68f1": [
     {
       "repository": "https://github.com/Kwasow/Musekit.git",
@@ -18327,6 +18383,20 @@
       "tag": "v2025.1.0",
       "commit": "1673bfadc3e9a21eeb0c263a6bebdab57f53b5c6",
       "timestamp": 1739824593,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e560fe749fc8166013aaf7d28a8c626277cc151698f8b367c8ccb54aabde12a": [
+    {
+      "repository": "https://github.com/meenbeese/Chronos.git",
+      "apk_url": "https://github.com/meenbeese/Chronos/releases/download/v2025.2.0/app-release.apk",
+      "appid": "com.meenbeese.chronos",
+      "version_code": 12,
+      "version_name": "2025.2.0",
+      "tag": "v2025.2.0",
+      "commit": "65565f2c72d865febbd7f5415f389aaeb76392ba",
+      "timestamp": 1748533266,
       "reproducible": true,
       "error": null
     }
@@ -21349,6 +21419,20 @@
       "tag": "1.9.0",
       "commit": "0cf295b077226764cdd507c8fa9d9b21e0eca464",
       "timestamp": 1745332172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "20d1efe8e6e7285f28bd94c46d67e4350971f682726abbc1eaf1fecbb7f82829": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.11.0/baba_1.11.0_free_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031757,
+      "version_name": "1.11.0",
+      "tag": "1.11.0",
+      "commit": "f8ed140b7eea939f3b7444c021b69d26418ecd7c",
+      "timestamp": 1748540385,
       "reproducible": true,
       "error": null
     }
@@ -25537,6 +25621,20 @@
       "error": null
     }
   ],
+  "d27fe9ce4750a741869613cc59ee49d82c010b0ea03b47634f9fa529d053631f": [
+    {
+      "repository": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app.git",
+      "apk_url": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app/releases/download/1.5/app-release.apk",
+      "appid": "com.tre.openstreetmapwiki",
+      "version_code": 6,
+      "version_name": "1.5",
+      "tag": "1.5",
+      "commit": "215abb6f37de79a31c4542e6068d4085c07ea9eb",
+      "timestamp": 1748535184,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca73ef741fe46f325bddf90ceea4b6ae71d2a828a2bdbdf33e5675c055869fc4": [
     {
       "repository": "https://github.com/TrianguloY/URLCheck.git",
@@ -29449,6 +29547,20 @@
       "tag": "v1.1.5",
       "commit": "eda7eedb7a76b69b23f46bb48a5deba2e1307be0",
       "timestamp": 1748441976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d083190a04392ff1aebe4cdd797ed0bfe1878070c56e46098e38abf98e9ac752": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.1.6/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 191,
+      "version_name": "1.1.6",
+      "tag": "v1.1.6",
+      "commit": "ca713127d5bdca6ebd994ac4223b01b4dc58427f",
+      "timestamp": 1748543026,
       "reproducible": true,
       "error": null
     }
@@ -36631,6 +36743,20 @@
       "error": null
     }
   ],
+  "8fc13338daf40331f9b8d1ed0c7d32301b90d1c66814d35dfcab66c21a6404f8": [
+    {
+      "repository": "https://github.com/exbin/bined-android.git",
+      "apk_url": "https://github.com/exbin/bined-android/releases/download/0.2.6/bined-android-0.2.6.apk",
+      "appid": "org.exbin.bined.editor.android",
+      "version_code": 15,
+      "version_name": "0.2.6",
+      "tag": "0.2.6",
+      "commit": "80fbed262ddc3af5d96615a5711259fa38eefdf3",
+      "timestamp": 1748529055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -37271,6 +37397,20 @@
       "tag": "1.0.2",
       "commit": "9103e7e2ad108ed4bddc2518d0e6412a063fe0a4",
       "timestamp": 1742418022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a41026b19e0f6f38570874a10a9209e4e16ba8eaf3deab172a77c33742e64b50": [
+    {
+      "repository": "https://github.com/FossifyOrg/Thank-You.git",
+      "apk_url": "https://github.com/FossifyOrg/Thank-You/releases/download/1.0.3/thankyou-4-foss-release.apk",
+      "appid": "org.fossify.thankyou",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "1.0.3",
+      "commit": "ed0c6cef80cfdd497dd3001a7e3c2974087462f3",
+      "timestamp": 1748529202,
       "reproducible": true,
       "error": null
     }

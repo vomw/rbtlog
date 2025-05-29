@@ -1,6 +1,6 @@
 ---
 repository: https://codeberg.org/Flying-Snail/IPv6Droid.git
-updates: tags:([\d.]+)-clone
+updates: tags:v([\d.]+)-clone
 versions:
   - tag: v3.0.2-clone
     apks:
