@@ -16387,6 +16387,20 @@
       "error": null
     }
   ],
+  "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/v2.1/dejpeg-arm64-v8a_2.1.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 2,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "e0178e39fde0d0f3fb710660573bad064eb798f2",
+      "timestamp": 1748702629,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -26527,6 +26541,20 @@
       "tag": "v1.2.1",
       "commit": "ed66237ff18884e8fc63cb1f7779b52f511b2785",
       "timestamp": 1746972751,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9c16cbfceb948a869b30940a74c97d2de8647fbdb5c803d94a6ef09dc2e6c082": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/IZ-2.0.8/vividroid.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 1,
+      "version_name": "2.0.8",
+      "tag": "IZ-2.0.8",
+      "commit": "986757e2e93decf802b92a1acdf35a1efeb56a2b",
+      "timestamp": 1748708227,
       "reproducible": true,
       "error": null
     }
