@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: IZ-2.0.8
     apks:
-      - apk_pattern: vivifdroid\.apk
+      - apk_pattern: vividroid\.apk
         apk_url: https://github.com/vivizzz007/vivi-music/releases/download/IZ-2.0.8/vividroid.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
