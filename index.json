@@ -23061,6 +23061,20 @@
       "error": null
     }
   ],
+  "c13727b2e85e94e32ab7f1f4e50ab5fe26640ba0dc508fd89614cfb996441ac9": [
+    {
+      "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
+      "apk_url": "https://github.com/s4nj1th/pocket-dhamma/releases/download/v1.1.1/app-arm64-v8a-release.apk",
+      "appid": "com.s4nj1th.pocket_dhamma",
+      "version_code": 111,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "9336dd85f05e5a7a65de4de832ddf887b4fd057a",
+      "timestamp": 1748730959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eceb522009d1a873cb2c819dde1cf4bc42b5dd097bd4c29c89c08beaa4c3b93f": [
     {
       "repository": "https://github.com/sakethpathike/JetSpacer.git",
@@ -23127,6 +23141,20 @@
       "tag": "v6.0.0",
       "commit": "cce5287a133423bb00af6769c2005b87d65dfb2c",
       "timestamp": 1748112094,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "77d62bdf25411d58bf2a019d3bcd73960daffff58aad1f999dc7426c1bc869df": [
+    {
+      "repository": "https://github.com/SamLeatherdale/OpenLinkWith.git",
+      "apk_url": "https://github.com/SamLeatherdale/OpenLinkWith/releases/download/v3.2.0/app-floss-release.apk",
+      "appid": "com.samleatherdale.openwith.floss",
+      "version_code": 30200,
+      "version_name": "3.2.0-floss",
+      "tag": "v3.2.0",
+      "commit": "d8c85c46b960ffd49976cabf6b4950d1cef9e05e",
+      "timestamp": 1748782750,
       "reproducible": true,
       "error": null
     }
