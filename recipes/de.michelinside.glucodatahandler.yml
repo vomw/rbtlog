@@ -72,3 +72,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 2.0.1
+    apks:
+      - apk_pattern: GlucoDataHandler_[^_]+\.apk
+        apk_url: https://github.com/pachi81/GlucoDataHandler/releases/download/2.0.1/GlucoDataHandler_2.0.1.apk
+        build:
+          - git reset --soft 56feb0bdba18193f132386f61224e21f4f468acc
+          - chmod +x gradlew
+          - base64 -d > local.properties <<< REVYQ09NX0FQUExJQ0FUSU9OX0lEPSJkODk0NDNkMi0zMjdjLTRhNmYtODllNS00OTZiYmIwMzE3ZGIiCk5JR0hUU0NPVVRfREVCVUdfU0VSVkVSPSJodHRwczovL3BhY2hpODEuMTBiZS5kZSIKcmVsZWFzZVBhdGg9L291dHB1dHMK
+          - ./gradlew :mobile:assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=mobile/build/outputs/apk/release/GlucoDataHandler_*.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
