@@ -4157,6 +4157,20 @@
       "error": null
     }
   ],
+  "01d956e49a6b4f050a83ae8d61735a955ce5a17080dc1ee5e9f57d273810d715": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.1.0/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 1,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "acfac5d7a2dc51d56f6edb64b12910da4ebcc608",
+      "timestamp": 1748878250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -30917,6 +30931,20 @@
       "tag": "2025.05+2",
       "commit": "2cc85f133800794b6056a77b430367e0f1a973bf",
       "timestamp": 1746714050,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e251d81dc2267ebf45baa4d5efd31faddd3c9ffd8508c2c52275bc1f8bccb1a": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/1.2/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "2e10cc5d11440582eda42db0cf2edbe8a20a3710",
+      "timestamp": 1748880920,
       "reproducible": true,
       "error": null
     }
