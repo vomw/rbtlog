@@ -16513,6 +16513,20 @@
       "error": null
     }
   ],
+  "170bf591ae5f58e5f85e93c8931c46c7d42fae2722ab5cc50edeb027b4be31aa": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/v2.3/dejpeg-arm64-v8a_2.3.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 230,
+      "version_name": "2.3-release",
+      "tag": "v2.3",
+      "commit": "f26365275fa2bdceb774f03b1fd7bbfd75712823",
+      "timestamp": 1748857366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -25831,6 +25845,20 @@
       "error": null
     }
   ],
+  "016ee9f8e5924d424d5e8d7705813533aef7498a58e9179c57be4c935dc3de5d": [
+    {
+      "repository": "https://codeberg.org/Tre_brock/11-Cell-Network-Changer.git",
+      "apk_url": "https://codeberg.org/Tre_brock/11-Cell-Network-Changer/releases/download/1.2/app-release.apk",
+      "appid": "com.tre.a11cellnetworkchanger",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "e6e4c70e3149895db4935ce4f069df1bb65a8004",
+      "timestamp": 1748860717,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "003171562fc8881b0f21b9b1d1dd38f7f47dd73985a13e44cc74cbc01546a248": [
     {
       "repository": "https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app.git",
@@ -27547,6 +27575,20 @@
       "tag": "v3.2.7",
       "commit": "003432c1bab36e8a20a937dda09245c90d1132df",
       "timestamp": 1748423767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/-/project/69658398/uploads/f38ee77e29df7e12ab392e5129eaba19/app-foss-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 19,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "dc6918f429fe88f18fc8f4c24707c972ead08d3d",
+      "timestamp": 1748814890,
       "reproducible": true,
       "error": null
     }
