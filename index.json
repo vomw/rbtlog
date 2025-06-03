@@ -1329,6 +1329,20 @@
       "error": null
     }
   ],
+  "0b8013f6394dc8bd1f8b5452f705ccf14a60c63bcd9b79753aacd092228aeb34": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.4/Podcini.X_release_free_8.17.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 174,
+      "version_name": "8.17.4",
+      "tag": "8.17.4",
+      "commit": "9fad1ecbeed6be13672a26fc118cc833e455784f",
+      "timestamp": 1748965473,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -1563,6 +1577,20 @@
       "tag": "v9.6.1",
       "commit": "d22eba905553bd35aeb3dcade62de7e04297a4a1",
       "timestamp": 1748353670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aae53f1b1b4e833aa19c33357b9db9fba0bf22235e4b1e6a9add9e4dcd2fdb14": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.6.2/cclauncher-v9.6.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 710,
+      "version_name": "v9.6.2",
+      "tag": "v9.6.2",
+      "commit": "2d413ba970f6f7e716010909d31760ac646fa67b",
+      "timestamp": 1748965877,
       "reproducible": true,
       "error": null
     }
@@ -2487,6 +2515,20 @@
       "tag": "v1.4.0",
       "commit": "5f26d46ed898a5c0c8efa447cad26df133e5ced6",
       "timestamp": 1746280048,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee018649b5bdbaa8ee870ae6557d0b59a082ba77890acbe1233929b43b5250d5": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.5.0/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 12,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "e530b93d220be91298062791dc85bb5c80d70cb5",
+      "timestamp": 1748970515,
       "reproducible": true,
       "error": null
     }
@@ -4183,6 +4225,20 @@
       "timestamp": 1748888491,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "fe79ba873c636dd4ad4ef0b465a5a02f5cf327c0225b7a8ed4fd00f411deb4c0": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.2.1/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 12,
+      "version_name": "2.2.1",
+      "tag": "2.2.1",
+      "commit": "f743504b72139b114e98db69d3c5c4f9f9c6d319",
+      "timestamp": 1748966286,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp0vruwbkc/outputs:/outputs', '--volume', '/tmp/tmp0vruwbkc/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/adamff-dev/spam-call-blocker-app.git', '--env', 'APP_TAG=2.2.1', '--env', 'APP_COMMIT=f743504b72139b114e98db69d3c5c4f9f9c6d319', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
@@ -10989,6 +11045,20 @@
       "error": null
     }
   ],
+  "4c8a0c3522dc4ac6a18445c403bde350598a66192d0c7897e7da46e99e5ea144": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/4.0.34/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 152,
+      "version_name": "4.0.34",
+      "tag": "4.0.34",
+      "commit": "b458e8995f41b64f919ca6272ff364eab50e946f",
+      "timestamp": 1748966317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -14623,6 +14693,20 @@
       "error": null
     }
   ],
+  "b1e81287e218a2af6f1cbc107551217fd5c7a873adc588381d9e2c127028d795": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/2.9.0/DroidPad-v2.9.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 26,
+      "version_name": "2.9.0",
+      "tag": "2.9.0",
+      "commit": "a3d1479fbd796c7f7851d87a38f478cdf6a6b9da",
+      "timestamp": 1748966752,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -16579,6 +16663,20 @@
       "tag": "v2.3",
       "commit": "f26365275fa2bdceb774f03b1fd7bbfd75712823",
       "timestamp": 1748857366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dbed1a2832c3ee230ae9f3d23070d3188f37e1c6dc0429e7a4e0f8af0c24301e": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/v2.4.2/dejpeg-arm64-v8a_2.4.2.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 242,
+      "version_name": "2.4.2",
+      "tag": "v2.4.2",
+      "commit": "086ff2a7f5f3b08fec173d89b240d8e730bebb87",
+      "timestamp": 1748970952,
       "reproducible": true,
       "error": null
     }
@@ -23243,6 +23341,20 @@
       "error": null
     }
   ],
+  "b6bbfdc66b8957714321abf57c90d1c27b2125d0ff4471f462b7612ca2ae1367": [
+    {
+      "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
+      "apk_url": "https://github.com/s4nj1th/pocket-dhamma/releases/download/v1.2.0/app-arm64-v8a-release.apk",
+      "appid": "com.s4nj1th.pocket_dhamma",
+      "version_code": 11323,
+      "version_name": "1.1.3",
+      "tag": "v1.2.0",
+      "commit": "4d0313b2d9297c2951f96865ae934f476b8b2a3e",
+      "timestamp": 1748967628,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eceb522009d1a873cb2c819dde1cf4bc42b5dd097bd4c29c89c08beaa4c3b93f": [
     {
       "repository": "https://github.com/sakethpathike/JetSpacer.git",
@@ -27049,6 +27161,20 @@
       "error": null
     }
   ],
+  "a2e42a74670e2b43c5b3f96d7ca767426bc1c7d30eee95c1e7f0e26f94fcfff8": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.54/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27154,
+      "version_name": "2.71.54",
+      "tag": "V2.71.54",
+      "commit": "e305d000a2c01c2b555e9a0b4e4b7164d32790ef",
+      "timestamp": 1748975045,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -27701,6 +27827,20 @@
       "tag": "v1.0.1",
       "commit": "80996e1aca108d1bbdd3545c615c81a83fa83943",
       "timestamp": 1748889835,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "819ab971296893e252713ddee83192991ca133123f4ee1a094f2919d2a6ad728": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/-/project/69658398/uploads/7f3b03a9d67d659cbc6e3d7bf8b6debf/app-foss-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 21,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "cf8750eec130af015ac2d6e749dd39003c8eb2bb",
+      "timestamp": 1748968207,
       "reproducible": true,
       "error": null
     }
@@ -31059,6 +31199,20 @@
       "timestamp": 1748880920,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "1cde7f97babc01f3d42b1edd47cf5322338f2faa2c057119fd6262cf2865bb95": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/1.3/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "970cde737a4735ae96731e2e5da09da87d806533",
+      "timestamp": 1748972775,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpurunvndz/outputs:/outputs', '--volume', '/tmp/tmpurunvndz/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Binondi/Calculator-Hide-Files.git', '--env', 'APP_TAG=1.3', '--env', 'APP_COMMIT=970cde737a4735ae96731e2e5da09da87d806533', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
@@ -37597,6 +37751,20 @@
       "error": null
     }
   ],
+  "cbc83678f6e676ad54b40d2fe2c05c4138b1371f8d00b921be9122ad35b69343": [
+    {
+      "repository": "https://github.com/FossifyOrg/Contacts.git",
+      "apk_url": "https://github.com/FossifyOrg/Contacts/releases/download/1.2.1/contacts-5-foss-release.apk",
+      "appid": "org.fossify.contacts",
+      "version_code": 5,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "5d3b8746759deb4427f9b7b0320feb5db9f2462e",
+      "timestamp": 1748968757,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -37761,6 +37929,20 @@
       "tag": "1.1.1",
       "commit": "359a1ec6f309f213d92ae079be2171a045d6b743",
       "timestamp": 1730139675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3fc87d110137cdc5eca4512795d78604a323088065809fd9e6ef63bbd2af9a4f": [
+    {
+      "repository": "https://github.com/FossifyOrg/Keyboard.git",
+      "apk_url": "https://github.com/FossifyOrg/Keyboard/releases/download/1.2.0/keyboard-4-foss-release.apk",
+      "appid": "org.fossify.keyboard",
+      "version_code": 4,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "cc016c06bf6e4ef5dfe8ab150f65449f3140b967",
+      "timestamp": 1748969033,
       "reproducible": true,
       "error": null
     }
@@ -39231,6 +39413,20 @@
       "tag": "1.6.6",
       "commit": "00b526cc31e47afecefeb67a4873bbd45d1a118b",
       "timestamp": 1743961968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aad9d370391e2434c47564976c943f58c47931f367c84d34a0a1b1b6e44b058a": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.7/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 63,
+      "version_name": "1.6.7",
+      "tag": "1.6.7",
+      "commit": "af8703e933db5c10257e81751b3dbab56f45741d",
+      "timestamp": 1748969349,
       "reproducible": true,
       "error": null
     }
