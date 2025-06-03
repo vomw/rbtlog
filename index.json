@@ -2533,6 +2533,20 @@
       "error": null
     }
   ],
+  "ba45efd02c53f942ce84e4bff26d8239704f9a6411459bf79731b71580a5a89f": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.11.1/Clerotri-v0.11.1-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 17,
+      "version_name": "0.11.1",
+      "tag": "v0.11.1",
+      "commit": "87ce5576065141828d53d5ec5e996c9dfe3c6959",
+      "timestamp": 1748987372,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b9ba60893e0a4b2c21b1af1105f3766095a4d7ccb291e8a943b0906751892f23": [
     {
       "repository": "https://github.com/hashemi-hossein/memory-guardian.git",
@@ -4239,6 +4253,20 @@
       "timestamp": 1748966286,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp0vruwbkc/outputs:/outputs', '--volume', '/tmp/tmp0vruwbkc/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/adamff-dev/spam-call-blocker-app.git', '--env', 'APP_TAG=2.2.1', '--env', 'APP_COMMIT=f743504b72139b114e98db69d3c5c4f9f9c6d319', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
+    }
+  ],
+  "9f473d0f1e22e4666affb38b514df492680c39b938cb9f5690e358e135d9b0e2": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.2.2/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 13,
+      "version_name": "2.2.2",
+      "tag": "2.2.2",
+      "commit": "1a28a634f8005954b77dc1cd48d9ea0ff10e00a0",
+      "timestamp": 1748977372,
+      "reproducible": true,
+      "error": null
     }
   ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
@@ -20118,6 +20146,20 @@
       "commit": "d9b34dc0a4176181eec3d04db376453af009ee27",
       "timestamp": 1742309935,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "831267b4796aadf573d96d8813d2dcbaa99ce495636dc50d266e2df53a48905f": [
+    {
+      "repository": "https://github.com/cuadratico/NowiChat.git",
+      "apk_url": "https://github.com/cuadratico/NowiChat/releases/download/V0.1.4/NowiChat.apk",
+      "appid": "com.nowichat",
+      "version_code": 7,
+      "version_name": "0.1.4",
+      "tag": "V0.1.4",
+      "commit": "350e7a43c1a90060e5940d89a7a77f3ca0807d1b",
+      "timestamp": 1748974856,
+      "reproducible": false,
       "error": null
     }
   ],
