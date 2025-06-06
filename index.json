@@ -4311,6 +4311,20 @@
       "error": null
     }
   ],
+  "59dd2f2c8a1f1857bcc81f7894317c7f2d31046fb74c2e0a148bc5e9533c46fb": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.3.3/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 19,
+      "version_name": "2.3.3",
+      "tag": "2.3.3",
+      "commit": "75e8c677a803ceab3c9e11753d200082cf44b241",
+      "timestamp": 1749217758,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -8455,6 +8469,20 @@
       "error": null
     }
   ],
+  "bca69785e8b0ebf81b7e2a14e7f0aed439bbafc97dda941c08bb4926de3abdfe": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.2.6v102/PuppyGit_1.1.2.6v102_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 102,
+      "version_name": "1.1.2.6",
+      "tag": "1.1.2.6v102",
+      "commit": "7058ace8e7ad0fb04dbdabe0d7b2cd810434e9a5",
+      "timestamp": 1749217984,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -11741,6 +11769,20 @@
       "tag": "1.2.1",
       "commit": "6530355da3a8474fecac6da7f4ce404a057b0d43",
       "timestamp": 1730072320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d5467859400d4139d9dbf62d7a8ea34d49d7216d62e4688122f60c13d4df232f": [
+    {
+      "repository": "https://github.com/Fertion/QuickMDCapture.git",
+      "apk_url": "https://github.com/Fertion/QuickMDCapture/releases/download/1.3.0/QuickMDCapture_1.3.0-release.apk",
+      "appid": "com.example.quickmdcapture",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "04b59f1a9bc2d5c5f789bba129242a6bc07c3179",
+      "timestamp": 1749224273,
       "reproducible": true,
       "error": null
     }
@@ -23537,6 +23579,20 @@
       "error": null
     }
   ],
+  "5d444d9f4ca4cf9bfb54d8d9bacbc88a79e77214d4ba21e18d74417dea8a23df": [
+    {
+      "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
+      "apk_url": "https://github.com/s4nj1th/pocket-dhamma/releases/download/v1.2.1/app-arm64-v8a-release.apk",
+      "appid": "com.s4nj1th.pocket_dhamma",
+      "version_code": 1213,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "cfb8c6036c6e6aa1f7b4806fd9b703316861292e",
+      "timestamp": 1749219088,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eceb522009d1a873cb2c819dde1cf4bc42b5dd097bd4c29c89c08beaa4c3b93f": [
     {
       "repository": "https://github.com/sakethpathike/JetSpacer.git",
@@ -29327,6 +29383,20 @@
       "error": null
     }
   ],
+  "ec1d62c609c1a473247ae6ae4a9315cc1f1debd5ca1257fb2b656ffda9dfa4ed": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/IconRequest.git",
+      "apk_url": "https://github.com/Kaiserdragon2/IconRequest/releases/download/v2.6.0/IconRequest-v2.6.0.apk",
+      "appid": "de.kaiserdragon.iconrequest",
+      "version_code": 31,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "a670e2f649d0a442647e47eaeda0034fc6b648be",
+      "timestamp": 1749234219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "43652300c50abc08318f0d87c72c7190a76bec107920ab4e410bce86a53626bc": [
     {
       "repository": "https://github.com/Kaiserdragon2/WeatherShortcut.git",
@@ -31495,6 +31565,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpurunvndz/outputs:/outputs', '--volume', '/tmp/tmpurunvndz/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Binondi/Calculator-Hide-Files.git', '--env', 'APP_TAG=1.3', '--env', 'APP_COMMIT=970cde737a4735ae96731e2e5da09da87d806533', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "00519fcfefc0bc47162c1f30fbd8f01b46ec00e804730bf1f980bd7e5a9781d5": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/1.4.0/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 5,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "cf192b6ab98c8f4a1fd3f316c00273b35fe72444",
+      "timestamp": 1749224700,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -32009,6 +32093,20 @@
       "tag": "v2.16.0-rc0",
       "commit": "fb0527b0bf6e7e75bef0d6613bc624ef827a5c9e",
       "timestamp": 1731091354,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "68a1b5482da3408028cc0a9d2c17fe222b486366e1252cdc472225080d7caf59": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.17.0-rc0/eu.darken.capod-v2.17.0-rc0-21700000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21700000,
+      "version_name": "2.17.0-rc0",
+      "tag": "v2.17.0-rc0",
+      "commit": "c1b247c21973b8ee47d6f4ba8af5155b3d1017e1",
+      "timestamp": 1749220086,
       "reproducible": true,
       "error": null
     }
@@ -36659,6 +36757,20 @@
       "error": null
     }
   ],
+  "c75e6b1c4f91eb0343c357e31ded473e5357d08a38e02ac9cfdfc2e4ae8979eb": [
+    {
+      "repository": "https://github.com/nhirokinet/bluelineconsole.git",
+      "apk_url": "https://github.com/nhirokinet/bluelineconsole/releases/download/v1.2.23/bluelineconsole-1.2.23.apk",
+      "appid": "net.nhiroki.bluelineconsole",
+      "version_code": 41,
+      "version_name": "1.2.23",
+      "tag": "v1.2.23",
+      "commit": "c3802c1fdd84bc8991a59d2f1da8c578f835ea7e",
+      "timestamp": 1749234356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "13aedeae30cd64d141a9eff617cc7f57593d2e93132e60cfa94fecc03ca709bd": [
     {
       "repository": "https://github.com/tipone/seqular-android.git",
@@ -38213,6 +38325,20 @@
       "error": null
     }
   ],
+  "7dce5c062f166391c90ba9f3cc1e7155c0c06cde91877cb437d125e6159371ca": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.1.2/launcher-5-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 5,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "66c5bb89eff919f1f127070fb52c895803a5a6e9",
+      "timestamp": 1749234495,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -38573,6 +38699,20 @@
       "tag": "1.4.0",
       "commit": "d0840aac0acfdab7a84910b408b3753aa18410b2",
       "timestamp": 1743517871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73daed547373464a0eea8d0905ec358fa68f876a636af32512f3688264012a2a": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.5.0/phone-8-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 8,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "572590d3b0909a124038197ea95baa17a2bb25a6",
+      "timestamp": 1749220454,
       "reproducible": true,
       "error": null
     }
