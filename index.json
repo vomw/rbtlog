@@ -6005,6 +6005,20 @@
       "error": null
     }
   ],
+  "1cfb691eccba4245dbfc4d3a09dee0dc2e635eae0323e7b2e102071676719dac": [
+    {
+      "repository": "https://github.com/bojko108/mobile-tile-server.git",
+      "apk_url": "https://github.com/bojko108/mobile-tile-server/releases/download/v5.3/MobileTileServer-v5.3.apk",
+      "appid": "com.bojko108.mobiletileserver",
+      "version_code": 10,
+      "version_name": "5.3",
+      "tag": "v5.3",
+      "commit": "0a3c5c5e8276daf24f74871400f009eaf63e24f7",
+      "timestamp": 1749247829,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5d95edc59e74426b460a907778ae21c77feebc9b58b5d177e28be501f19991c5": [
     {
       "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
@@ -11643,6 +11657,20 @@
       "tag": "2.3.2",
       "commit": "6775fc357dc6d2d885f6be06867e0ab10d2827ef",
       "timestamp": 1719509044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
+    {
+      "repository": "https://github.com/eipna/Centsation.git",
+      "apk_url": "https://github.com/eipna/Centsation/releases/download/v1.5/Centsation-1.5.apk",
+      "appid": "com.eipna.centsation",
+      "version_code": 5,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "97496d2b59c18935f099bf81c97fe2dadc24691d",
+      "timestamp": 1749230766,
       "reproducible": true,
       "error": null
     }
