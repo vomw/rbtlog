@@ -18793,6 +18793,20 @@
       "error": null
     }
   ],
+  "99454b7afd2e0aa74e6eecafdba29fc8fa3e625a53acf6e988593962c8de5ba5": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.1.2/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 102,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "631d601052f464945097b29ccb931839fcb3dd60",
+      "timestamp": 1749326876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "62ba226b0b9f7921280c3256912e999d9efbf801d23fb6cd8ec4edebb6ed416b": [
     {
       "repository": "https://github.com/maxrave-dev/SimpMusic.git",
@@ -20119,6 +20133,20 @@
       "tag": "v1.0.4",
       "commit": "a1c277824033589be428fb5dfd003644528cca63",
       "timestamp": 1748209227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "700672abd5bfd67e435e84029742bf3cb349128ae21b6c13d170792833bd7119": [
+    {
+      "repository": "https://github.com/nikashitsa/polar-alert-android.git",
+      "apk_url": "https://github.com/nikashitsa/polar-alert-android/releases/download/v1.0.5/app-release.apk",
+      "appid": "com.nikashitsa.polar_alert_android",
+      "version_code": 68,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "c764ca1ca58e48821cc77ce716a7c307ce99bed2",
+      "timestamp": 1749332546,
       "reproducible": true,
       "error": null
     }
@@ -22091,6 +22119,20 @@
       "tag": "1.11.0",
       "commit": "f8ed140b7eea939f3b7444c021b69d26418ecd7c",
       "timestamp": 1748540385,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e71c8b5180c6790c3a9e1f60d0e4d07d4d4c6b6d0df39f1b7b4fc34c960c0acd": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.12.0/baba_1.12.0_free_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031803,
+      "version_name": "1.12.0",
+      "tag": "1.12.0",
+      "commit": "3e45752509196e7dc91c14f479c2ed9345084f41",
+      "timestamp": 1749333473,
       "reproducible": true,
       "error": null
     }
@@ -31841,6 +31883,20 @@
       "tag": "0.6.4",
       "commit": "7c16cd1a7ca7a4440da46b8d27b2644317c2cc0f",
       "timestamp": 1729097991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "986fe789ffc31acf87bea9b09e15c6d333de19babd8ae524c000e007848dce1a": [
+    {
+      "repository": "https://github.com/zacharee/InstallWithOptions.git",
+      "apk_url": "https://github.com/zacharee/InstallWithOptions/releases/download/0.7.3/InstallWithOptions_0.7.3-release.apk",
+      "appid": "dev.zwander.installwithoptions",
+      "version_code": 20,
+      "version_name": "0.7.3",
+      "tag": "0.7.3",
+      "commit": "ecd00b0eeaf5c564f9da342848b99f1ac4d01a2f",
+      "timestamp": 1749328836,
       "reproducible": true,
       "error": null
     }
