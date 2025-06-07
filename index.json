@@ -1707,6 +1707,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "031723d2a36311cd973a3d600d0fde7b1b8d84731591f2b94e09e160204cf9c6": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.14.1/Lawnicons.2.14.1.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 20,
+      "version_name": "2.14.1",
+      "tag": "v2.14.1",
+      "commit": "b398ca32975b7a99571208c65e02548c54b85298",
+      "timestamp": 1749311196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -2711,6 +2725,20 @@
       "tag": "2.11.002",
       "commit": "614cd8a5a2fe9526acd2aa4c24df65c214ae537c",
       "timestamp": 1748804941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "673d74b92ce7816014140fdc20ce32d6a90fa803ebc6199d4db0195322d423e5": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.003/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211003,
+      "version_name": "2.11.003",
+      "tag": "2.11.003",
+      "commit": "79c8477e5592d813702b3a8241cc9278baa39e07",
+      "timestamp": 1749304421,
       "reproducible": true,
       "error": null
     }
@@ -13381,6 +13409,20 @@
       "error": null
     }
   ],
+  "f1c4709c719b89858498099961758664a37f6fb67a19dcfff6f3a837ec3666ef": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.4/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 121,
+      "version_name": "1.17.4",
+      "tag": "v1.17.4",
+      "commit": "66a9a0aeff3d9b1f8ee558480facf0ab128565d4",
+      "timestamp": 1749320452,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -22837,6 +22879,20 @@
       "error": null
     }
   ],
+  "525b28e905aa91e564d9e753f31a4d61be090b50ab8970803db06db1b8738fa0": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.4.3/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 403,
+      "version_name": "0.4.3",
+      "tag": "0.4.3",
+      "commit": "3089c7a64d813bae98f535aa0344ea0d239d9df9",
+      "timestamp": 1749311685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -24329,6 +24385,20 @@
       "tag": "2.1.1",
       "commit": "de0e1169909c38f1fb58aeb253a0f2d8894441a0",
       "timestamp": 1746885523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8207a66b332737d5315d33c8b8dc2c0816357acb177d62fbd6061a8fc7221380": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/3.3.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 3000,
+      "version_name": "3.0.0",
+      "tag": "3.3.0",
+      "commit": "20add3b6bc30412e27db60d8a158ea0b044c05c8",
+      "timestamp": 1749320690,
       "reproducible": true,
       "error": null
     }
@@ -29143,6 +29213,20 @@
       "timestamp": 1748533303,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "0e760dbbead3ac0cd2fd407127e99c93d2b884f7cfa4c0eb23cc263ccbed757a": [
+    {
+      "repository": "https://codeberg.org/Flying-Snail/IPv6Droid.git",
+      "apk_url": "https://codeberg.org/Flying-Snail/IPv6Droid/releases/download/v3.0.3-clone/IPv6Droid-signed.apk",
+      "appid": "de.flyingsnail.ipv6droid",
+      "version_code": 303,
+      "version_name": "v3.0.3",
+      "tag": "v3.0.3-clone",
+      "commit": "84892f3df9470a66aaaad738c35d5bf98db90ed8",
+      "timestamp": 1749312118,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "9ab4fef53be0cae470f4a8d1bf63ea3c76a8b05c1e7a2540fdb77714a9f6059f": [
@@ -42045,6 +42129,20 @@
       "tag": "1.7.9",
       "commit": "5ba75a7eeb1652c4dd813a2038345c818d8e6adf",
       "timestamp": 1746212118,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "10d51600229496feb0570afca847571bb4755fa73e1d28b5d968b41ef812aeb1": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.0/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 55,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "0163c558dd9667bf6d62bc5d038bda0c0b3208a0",
+      "timestamp": 1749304882,
       "reproducible": true,
       "error": null
     }
