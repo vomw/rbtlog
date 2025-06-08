@@ -6047,6 +6047,20 @@
       "error": null
     }
   ],
+  "6456eb829c3ede40bba717f659bb9a651c1e46f45093d174a524065801bf34a3": [
+    {
+      "repository": "https://github.com/bojko108/mobile-tile-server.git",
+      "apk_url": "https://github.com/bojko108/mobile-tile-server/releases/download/v5.4/MobileTileServer-v5.4.apk",
+      "appid": "com.bojko108.mobiletileserver",
+      "version_code": 11,
+      "version_name": "5.4",
+      "tag": "v5.4",
+      "commit": "9bba6109c7dbe3258cff8e670a0b18d8ddaff8a7",
+      "timestamp": 1749402305,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5d95edc59e74426b460a907778ae21c77feebc9b58b5d177e28be501f19991c5": [
     {
       "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
@@ -9083,6 +9097,20 @@
       "timestamp": 1744476756,
       "reproducible": false,
       "error": "signature copying failed: Unsupported compresslevel"
+    }
+  ],
+  "a025842f4d9749881bd33c687b42c8eb4fb452b8cd67c7ef3972656de308d667": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/ghostbyte-dev/pixelix/releases/download/v4.1.1/pixelix_v4.1.1.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 32,
+      "version_name": "4.1.1",
+      "tag": "v4.1.1",
+      "commit": "64b87f98c0a63acbd66f1f2a43f6403a75e3d1a2",
+      "timestamp": 1749409070,
+      "reproducible": true,
+      "error": null
     }
   ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
@@ -16919,6 +16947,20 @@
       "error": null
     }
   ],
+  "8977d05f9c991cb375b52fdac17c5fbd5f4ff0b28ab656405530660f16e1d007": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/v2.5.0/dejpeg-arm64-v8a_2.5.0.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 250,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "932b80b3fd520ed8af344fda28bd5ca73d8cdee9",
+      "timestamp": 1749390529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -22221,6 +22263,20 @@
       "error": null
     }
   ],
+  "3dc9ffd8347044de6c8f3eb7c1ecaf5859ed58909d236316549c607f3632a13a": [
+    {
+      "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
+      "apk_url": "https://github.com/RBN-Apps/Quick-Tile-Settings/releases/download/v1.1.2/quick-tile-settings-1.1.2.apk",
+      "appid": "com.rbn.qtsettings",
+      "version_code": 6,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "0c1873482267b8a45fe3b3d12130efe574dcf54d",
+      "timestamp": 1749390782,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -24441,6 +24497,18 @@
       "tag": "3.3.0",
       "commit": "20add3b6bc30412e27db60d8a158ea0b044c05c8",
       "timestamp": 1749320690,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/3.0.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 3000,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "20add3b6bc30412e27db60d8a158ea0b044c05c8",
+      "timestamp": 1749391003,
       "reproducible": true,
       "error": null
     }
@@ -27665,6 +27733,20 @@
       "error": null
     }
   ],
+  "6fb24005c301428db252e12aa70a2d60eb93fcb5b43d1aa7fed46ccfe5020a2a": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.56/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27156,
+      "version_name": "2.71.56",
+      "tag": "V2.71.56",
+      "commit": "857d37d5e06e4b6fbe56dd82d9ba687ef4eedded",
+      "timestamp": 1749391261,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -28331,6 +28413,20 @@
       "tag": "v1.0.2",
       "commit": "cf8750eec130af015ac2d6e749dd39003c8eb2bb",
       "timestamp": 1748968207,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88e399f2bb3dec0ae56c7fc9fac813d09d0f6f8c32d66b34c27619fd5ba5d8ae": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/-/project/69658398/uploads/8b34d09a4e616b057ce3b8fc76c94122/app-foss-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 25,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "43e15646d1985778464ed383ea25ea8c1f170685",
+      "timestamp": 1749391378,
       "reproducible": true,
       "error": null
     }
@@ -31747,6 +31843,20 @@
       "error": null
     }
   ],
+  "492a3af4a50f9822e38d02aeb7579d2b035435da3d3e4f37e8fbca009de1fc1c": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v1.4.1/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 6,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "7ceb599d9f02f9f1f528cba747aec78c7e6ef519",
+      "timestamp": 1749391610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -33283,6 +33393,20 @@
       "tag": "v0.93.0-alpha10",
       "commit": "5433898e428b6c1930bb0fa695a6200ed78ba56f",
       "timestamp": 1745764409,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "29b5d4e4158ce1d3cc48de9ddd3f809b4751918bd35eb7ec75fb61f56880a20e": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.94.1-alpha11/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 16,
+      "version_name": "0.94.1-alpha11",
+      "tag": "v0.94.1-alpha11",
+      "commit": "119532991f8dbddb5ff2f9a4944a8b48dccb4187",
+      "timestamp": 1749391848,
       "reproducible": true,
       "error": null
     }
@@ -36319,6 +36443,20 @@
       "tag": "v1.4.1",
       "commit": "9f359aaab4822e2c3b541c35803c2d4ef2599f72",
       "timestamp": 1748803042,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e817b95019d7fef4a2737fe3db5156053d68c465e4177406f7782c3857c2727": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.4.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 101,
+      "version_name": "1.4.2-izzy",
+      "tag": "v1.4.2",
+      "commit": "aadc326f6f0c9449a178c89dbd798447f267727d",
+      "timestamp": 1749407359,
       "reproducible": true,
       "error": null
     }
