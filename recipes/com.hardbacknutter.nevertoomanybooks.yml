@@ -3,6 +3,7 @@ repository: https://github.com/tfonteyn/NeverTooManyBooks.git
 updates: releases
 notes:
   - v6.3.1 was built from different commit and was flaky
+  - 'FIXME: v7.5.0 has wrong distributionSha256Sum, so we need to override that with our wrapper. Undo when fixed'
 versions:
   - tag: v6.3.0
     apks:
@@ -558,3 +559,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v7.5.0
+    apks:
+      - apk_pattern: NeverTooManyBooks-.*\.apk
+        apk_url: https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.5.0/NeverTooManyBooks-7.5.0.apk
+        build:
+          - sed -r '/signingConfigs.release|props.*sign/d' -i app/build.gradle
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=21d99af5780b4e63ded63bc2c5da61402ea9b279
+          - for _ in {1..10}; do
+          - gradlew.py/gradlew.py --version 8.14.2 -v clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - OUT=app/build/outputs/apk/release/NeverTooManyBooks-*-release.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'META-INF/services/*' 'assets/katalog.dnb.de*.pem'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

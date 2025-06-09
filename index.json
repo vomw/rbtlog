@@ -2379,6 +2379,20 @@
       "error": null
     }
   ],
+  "269a50450f9c43cfdbe789714cd1d340547bc400794aa3c66ca70099e38ee46d": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v8.7.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 870,
+      "version_name": "v8.7.0",
+      "tag": "v8.7.0",
+      "commit": "2061245129e7e119e3637caa8c3e77dd3dc95050",
+      "timestamp": 1749493269,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -5301,6 +5315,20 @@
       "tag": "v4.5.7",
       "commit": "87f2c9ae2ec6097f55f6185f6a2cb8aab75fc02b",
       "timestamp": 1748267270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "85fc08e8d9afa986dc72d2fbf7f7ea919db7d63dd52e0569e07ef74068c87cac": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.7a/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1360,
+      "version_name": "4.5.7a",
+      "tag": "v4.5.7a",
+      "commit": "60c7ea217339687da12fe1be0dd0cac604bd4d5f",
+      "timestamp": 1749476871,
       "reproducible": true,
       "error": null
     }
@@ -16513,6 +16541,20 @@
       "error": null
     }
   ],
+  "f09a9d8257e78f9db3a5fe7f2c5f79ad7927a7d061e49d65bd659c5a9ba0e486": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.5.0/NeverTooManyBooks-7.5.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 105,
+      "version_name": "7.5.0",
+      "tag": "v7.5.0",
+      "commit": "83fb8d0b213da7ca4370638bb5e10e78e2e111ec",
+      "timestamp": 1749495593,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4d8352ab1748951737186088d331a6d04344725477aef0ae89344640c8810dad": [
     {
       "repository": "https://github.com/oliexdev/openWorkout.git",
@@ -18845,6 +18887,20 @@
       "tag": "v0.1.2",
       "commit": "631d601052f464945097b29ccb931839fcb3dd60",
       "timestamp": 1749326876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "52faad3c71fc1a9e7e0679d88ad7bc8866b1288e637d57dda846eeb5272a2fed": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.2.0/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 200,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "45f5ccfa601e354afe145e1dc3b28f2c164925b4",
+      "timestamp": 1749477068,
       "reproducible": true,
       "error": null
     }
@@ -33229,6 +33285,20 @@
       "error": null
     }
   ],
+  "25dd240d588f4b3150e11fa7b9b10b2d38fbf0bfd1dcce5201bb70839c0e6c6a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2279/FairEmail-v1.2279a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2279,
+      "version_name": "1.2279",
+      "tag": "1.2279",
+      "commit": "04dbdca90dff4e5041dfe05f2c613782334a1397",
+      "timestamp": 1749477348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -34833,6 +34903,20 @@
       "tag": "v1.16.14+83",
       "commit": "212459d4c9b6d581b516c513e4ff4030c3cadb99",
       "timestamp": 1748113020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "53c10d4f5448b3b2011b2a46a8f79c78a131aba125129e5bfe385ce788a94856": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.16.17%2B86/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2086,
+      "version_name": "1.16.17",
+      "tag": "v1.16.17+86",
+      "commit": "adbc30b7d81e47af4d1b347cd4ac091f5f3c2416",
+      "timestamp": 1749477799,
       "reproducible": true,
       "error": null
     }
@@ -38435,6 +38519,20 @@
       "error": null
     }
   ],
+  "2d6e83e9e7b31e80da55a9d180b3e66688a2615a86724e7b75f5d17195d494a3": [
+    {
+      "repository": "https://github.com/FossifyOrg/Camera.git",
+      "apk_url": "https://github.com/FossifyOrg/Camera/releases/download/1.0.3/camera-4-foss-release.apk",
+      "appid": "org.fossify.camera",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "1.0.3",
+      "commit": "32aff24d0807df21bb93d024de62fd1d39f1bfa4",
+      "timestamp": 1749478571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "410143c5d53106376bace38811a9559dad843b09ed0b8783c79809380a1bef0e": [
     {
       "repository": "https://github.com/FossifyOrg/Clock.git",
@@ -41707,6 +41805,20 @@
       "tag": "v2.0.2",
       "commit": "7cc7d5e3900d6d0feab64c88128b53516c4d9917",
       "timestamp": 1749048065,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1bfdcf9acbe70ea3aded04fed41aa3945534322f550b476e55dbdff57d08b9ff": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v2.0.3/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 17,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "60a4080c9e5d515c1117857d59537ac4c3866aea",
+      "timestamp": 1749478893,
       "reproducible": true,
       "error": null
     }
