@@ -4059,6 +4059,20 @@
       "error": null
     }
   ],
+  "5813b7920a0ce321c3f5d6e90bfb4c9b869d9383bd024ebc5a91ddb14ba21edb": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v1.58.5/ArcaneChat-foss-armeabi-v7a-1.58.5.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007231,
+      "version_name": "1.58.5",
+      "tag": "v1.58.5",
+      "commit": "60e3f475de69228f5ecdfc28e537748d96d015a6",
+      "timestamp": 1749579656,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -8931,6 +8945,20 @@
       "error": null
     }
   ],
+  "b89697794b92f75be3d8043403e5b3a07034bd69a16cf4447084c1348dbeef21": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.37/networksurvey-1.37-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 92,
+      "version_name": "1.37",
+      "tag": "v1.37",
+      "commit": "5c95e11c4c5c8ecd2e2c79a7687b542a8d81450c",
+      "timestamp": 1749563277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -10173,6 +10201,20 @@
       "tag": "0.0.29",
       "commit": "746cc9502b5023be71ea4a82d5e11007462141b9",
       "timestamp": 1747765266,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "299854021adc570babdc3b8c351e86927327024f5babaa101c519d623ee73e68": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.30/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 30,
+      "version_name": "0.0.30",
+      "tag": "0.0.30",
+      "commit": "7fa303f1f49a7ba383478e1ad1947c503492be14",
+      "timestamp": 1749563671,
       "reproducible": true,
       "error": null
     }
@@ -13475,6 +13517,20 @@
       "tag": "v1.17.4",
       "commit": "66a9a0aeff3d9b1f8ee558480facf0ab128565d4",
       "timestamp": 1749320452,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d9321662038fcb3bd4233a3e48e8e09f83e68c10a46e9b1e6a41905bf93477c1": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.5/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 122,
+      "version_name": "1.17.5",
+      "tag": "v1.17.5",
+      "commit": "b5bfaeccf1e839e49bd00480c90d4e86a67ce8fc",
+      "timestamp": 1749564090,
       "reproducible": true,
       "error": null
     }
@@ -18905,6 +18961,20 @@
       "error": null
     }
   ],
+  "25e43e601f822de84bcbd7967c33ed8358fb138388bf5e4e8c72437a2cf2440d": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.2.1/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 201,
+      "version_name": "0.2.1",
+      "tag": "v0.2.1",
+      "commit": "c2ab29ba6a2013b734de6ca94a0587c1abb4f11d",
+      "timestamp": 1749564424,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "62ba226b0b9f7921280c3256912e999d9efbf801d23fb6cd8ec4edebb6ed416b": [
     {
       "repository": "https://github.com/maxrave-dev/SimpMusic.git",
@@ -23159,6 +23229,20 @@
       "error": null
     }
   ],
+  "c2710da3927585a0ba291940333e0775a1e2c72af8034a5596205ef4dd9fe1ed": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
+      "apk_url": "https://github.com/RohitKushvaha01/ReTerminal/releases/download/v1.2.0/reterminal-v1.2.0.apk",
+      "appid": "com.rk.terminal",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "dc536555901c6e68da31b31cd20702c905ec699e",
+      "timestamp": 1749564674,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1cb3f6264a538138024b44be3f88c4ea68292eea2ef0e255648f8e3829aba83": [
     {
       "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
@@ -25993,6 +26077,20 @@
       "tag": "v2.8.1",
       "commit": "649ebcc7adbd51c04018418f162bb5cd82c9276e",
       "timestamp": 1748700194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d6cac5a520dfbfdad2025e68612f256ad757b305b0830a7b00ef39512c19dd86": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.8.2/CM_2.8.2.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 32,
+      "version_name": "2.8.2",
+      "tag": "v2.8.2",
+      "commit": "dee3d78e553c2b72225c4ecabca5da7e06276bc4",
+      "timestamp": 1749580291,
       "reproducible": true,
       "error": null
     }
@@ -29363,6 +29461,20 @@
       "tag": "v0.17.2",
       "commit": "8180ce785538a3874da10b789bf69aea88705b1b",
       "timestamp": 1747491606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b858c38683314cf8b4a888c717eb979812ccf8bd68752b3a8775fc24fa8a5623": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.17.3/RecurringExpenseTracker_0.17.3.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 42,
+      "version_name": "0.17.3",
+      "tag": "v0.17.3",
+      "commit": "0169dfea89d49ba819ee9d6e3b50ebc8f8f09ab5",
+      "timestamp": 1749580638,
       "reproducible": true,
       "error": null
     }
@@ -33295,6 +33407,20 @@
       "tag": "1.2279",
       "commit": "04dbdca90dff4e5041dfe05f2c613782334a1397",
       "timestamp": 1749477348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e46b544834425f7bfe89788efc08ffcefd2ae16c661cb99812ee7ba6c13f1527": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2280/FairEmail-v1.2280a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2280,
+      "version_name": "1.2280",
+      "tag": "1.2280",
+      "commit": "559838528b065a5a74481fb6f316deade164915d",
+      "timestamp": 1749580965,
       "reproducible": true,
       "error": null
     }
@@ -39215,6 +39341,20 @@
       "tag": "1.2.0",
       "commit": "dd7bef7e919ca2800ac534dde4d61d62b936b0dd",
       "timestamp": 1747753617,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "57acc0aa8033446f4c8de1620ab69c0e46f81cd5d0a6c77f22801931120c6d26": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.3.0/voicerecorder-7-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 7,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "560eefb338191ac84e717cd1096a34298e94c8e7",
+      "timestamp": 1749564991,
       "reproducible": true,
       "error": null
     }
