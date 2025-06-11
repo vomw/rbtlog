@@ -18515,6 +18515,20 @@
       "error": null
     }
   ],
+  "6fbe92ca0729611f4995c0a22fc5fe9491ae713409511fb03936eccf68bfac34": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v1.1.0/alternate-arm64-v8a-v1.1.0.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "b6c54f1db373688415ab6d82a87093c2910eacce",
+      "timestamp": 1749670619,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f174b4457ead4968a1684f0a89a5503151c0425ed32ef5dcade932974ad19bdb": [
     {
       "repository": "https://github.com/NeoApplications/Neo-Backup.git",
@@ -22385,6 +22399,20 @@
       "tag": "1.12.0",
       "commit": "3e45752509196e7dc91c14f479c2ed9345084f41",
       "timestamp": 1749333473,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fbcf1094aa0c36c589dbdd4320e35818a698a89ac9ed9627a7c836e5562813ae": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.12.1/baba_1.12.1_free_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031816,
+      "version_name": "1.12.1",
+      "tag": "1.12.1",
+      "commit": "b01f8e0e485b6047f387ae49087cd1a9926e0892",
+      "timestamp": 1749671648,
       "reproducible": true,
       "error": null
     }
