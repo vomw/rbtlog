@@ -4395,6 +4395,20 @@
       "error": null
     }
   ],
+  "8d4ec15c1fdbf967b1e99235d1cefde8eb98694000611207ce1f316f34ad1d2a": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.3.4/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 20,
+      "version_name": "2.3.4",
+      "tag": "2.3.4",
+      "commit": "93d8bbb97646dd7f57ba7e685de7e1549101ad1f",
+      "timestamp": 1749752485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -14137,6 +14151,20 @@
       "error": null
     }
   ],
+  "7b84e689608421a3a8758da29d502577ed60fb1d0c5b79017fb59ec372ba8bbe": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.15/fdroidRelease-2.6.15.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30615,
+      "version_name": "2.6.15",
+      "tag": "2.6.15",
+      "commit": "6408b22c6d946098ce9d80efb918876c8b7122cf",
+      "timestamp": 1749748015,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -14473,6 +14501,20 @@
       "error": null
     }
   ],
+  "0a0f4cf193db23d06429937f62171ebd003b0606fee985bd5a14b4e81473c8f5": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.17.2/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2363992,
+      "version_name": "2.17.2-Univers-oss",
+      "tag": "2.17.2",
+      "commit": "aa683cc4f145863750ffe88c08725240d4b898ea",
+      "timestamp": 1749736148,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -14623,6 +14665,20 @@
       "tag": "3.4.7",
       "commit": "43c41ecad4f793cd2581e95dc7869427f024d32d",
       "timestamp": 1746901241,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76aa1cf090130b09ef2956dda2d76f930a0b3e9f114ce189bb4ccb6d4091574b": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.4.8/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2360312,
+      "version_name": "3.4.8",
+      "tag": "3.4.8",
+      "commit": "85737738099b224c1c1536c48dcb0732ac0e90d8",
+      "timestamp": 1749736336,
       "reproducible": true,
       "error": null
     }
@@ -18529,6 +18585,20 @@
       "error": null
     }
   ],
+  "7c5fbab98aaad5dab7b07249128fe9d26f0fbd374fca0246d7a66a0d9489fd72": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v1.1.1/alternate-arm64-v8a-v1.1.1.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "v1.1.1",
+      "commit": "0e76858d43750d6633798ed4166eeb84c7e387ba",
+      "timestamp": 1749736510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f174b4457ead4968a1684f0a89a5503151c0425ed32ef5dcade932974ad19bdb": [
     {
       "repository": "https://github.com/NeoApplications/Neo-Backup.git",
@@ -19069,6 +19139,20 @@
       "tag": "v0.2.1",
       "commit": "c2ab29ba6a2013b734de6ca94a0587c1abb4f11d",
       "timestamp": 1749564424,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "95b91611d863700d30ac44079e4ea0a73429336b9b8cd10b070fa3244204c915": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.3.0/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 300,
+      "version_name": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "4aa9ab33d8acf794d67e67da44b49028605e15b5",
+      "timestamp": 1749737291,
       "reproducible": true,
       "error": null
     }
@@ -21321,6 +21405,20 @@
       "tag": "v.1.0.22",
       "commit": "e81194be8ff3d3187316518d3bb7381d036b839b",
       "timestamp": 1738535008,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "be171d4cc03698066cad25906e6ec3af1516d1c1a920a0f963c1c62727b3ff48": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.23/ssc-1.0.23.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 23,
+      "version_name": "1.0.23",
+      "tag": "v1.0.23",
+      "commit": "f96e40e9f3dd8d9ada9de386a036804293810e0a",
+      "timestamp": 1749756053,
       "reproducible": true,
       "error": null
     }
@@ -24457,6 +24555,20 @@
       "tag": "v1.8.0",
       "commit": "9152fc0321ab041118f026d4f465919894851723",
       "timestamp": 1746814849,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81c897d7e15030a0fbd69c41f1568ba1971133a0d4bcdb4a7654336b939b3924": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.8.1/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 30,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "2dcecbc148d217ffb80dd0cac07e2ba02e9c1b3f",
+      "timestamp": 1749755648,
       "reproducible": true,
       "error": null
     }
@@ -32347,6 +32459,20 @@
       "error": null
     }
   ],
+  "e0732b206218035b6335c05bc1442bcc406a8b65a0e62149a1ae87e6e0151459": [
+    {
+      "repository": "https://github.com/zacharee/InstallWithOptions.git",
+      "apk_url": "https://github.com/zacharee/InstallWithOptions/releases/download/0.7.5/InstallWithOptions_0.7.5-release.apk",
+      "appid": "dev.zwander.installwithoptions",
+      "version_code": 22,
+      "version_name": "0.7.5",
+      "tag": "0.7.5",
+      "commit": "8d452a88bde2447eb3681c785043560e2f867d52",
+      "timestamp": 1749753006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfa0bd6f657a58474c8b6cfdd9f060e310aeecab439bcff52905d575f70a5cb0": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -32721,6 +32847,20 @@
       "tag": "v2.17.0-rc0",
       "commit": "c1b247c21973b8ee47d6f4ba8af5155b3d1017e1",
       "timestamp": 1749220086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e7e14a971f04b033d989ab265fe8299d3aba754abf9ee841c52e3516b226dde0": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.17.1-rc1/eu.darken.capod-v2.17.1-rc1-21701010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21701010,
+      "version_name": "2.17.1-rc1",
+      "tag": "v2.17.1-rc1",
+      "commit": "f4e8f08f4f462bc53bf3aaae8fe913875c15494b",
+      "timestamp": 1749737532,
       "reproducible": true,
       "error": null
     }
@@ -34335,6 +34475,20 @@
       "error": null
     }
   ],
+  "992ecae1758c19ab6272fc74db6ca80967ac59f15320496f0adb07ec2ec9bda1": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.2/HeliBoard_3.2-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3201,
+      "version_name": "3.2",
+      "tag": "v3.2",
+      "commit": "79726f1a9dfdf56e60ad68940c41f619a2cfc5bc",
+      "timestamp": 1749737892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ea62905803e60c5723c9f2d4ab6368f894b3f50f06f456935185306ee4eb67e7": [
     {
       "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
@@ -34721,6 +34875,20 @@
       "tag": "v0.15",
       "commit": "87f81f5ec958e3da6346d1d3a2008b00c210055b",
       "timestamp": 1747493498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "361a8b92d5408249064d348596fbdc944735ad92acd14b1599c6cc2cb3cf1701": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/9e56707cba8737a5387d2587b7708d92/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 16,
+      "version_name": "v0.16",
+      "tag": "v0.16",
+      "commit": "c628704d0ccd2ffed93d17e91084b401574c388d",
+      "timestamp": 1749738223,
       "reproducible": true,
       "error": null
     }
@@ -37437,6 +37605,20 @@
       "tag": "0.2",
       "commit": "9e0fcf391c75397cfbff8c95a1d0a45554bfad7b",
       "timestamp": 1748955826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ef6f55ca81298c298f706d0e133929ca92df6a0272b5e3f0209d6854326f892e": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/GreaseMilkyway/releases/download/25061201/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 25061201,
+      "version_name": "0.5",
+      "tag": "25061201",
+      "commit": "11a5b9c70d435cf6d15237f71cb14586e26c7fd7",
+      "timestamp": 1749756470,
       "reproducible": true,
       "error": null
     }
@@ -40661,6 +40843,20 @@
       "error": null
     }
   ],
+  "e16b6deea26822daaab2c313a3ae51fb653fd22792b98c9abf3506bfdc2b3a6e": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.8/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 64,
+      "version_name": "1.6.8",
+      "tag": "1.6.8",
+      "commit": "e158de98a4c6bed82de93eb0687e8cc77c19e06d",
+      "timestamp": 1749753246,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f799bcf762ff5d3048bc627aa318eb1e50d314ea724bf908b93df985ce893377": [
     {
       "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
@@ -41595,6 +41791,20 @@
       "tag": "2.0.3",
       "commit": "a3c79ac6466ffd7d9de656e2ad0c54c2327ff83e",
       "timestamp": 1735948471,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "40df29f6eba3791d882f22ee7d200f069068c811e6eefac0afdda048b88e9128": [
+    {
+      "repository": "https://codeberg.org/UnifiedPush/android-example.git",
+      "apk_url": "https://codeberg.org/UnifiedPush/android-example/releases/download/2.1.0/UP-Example-main.apk",
+      "appid": "org.unifiedpush.example",
+      "version_code": 28,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "d675f3ea8e00bb86d970832a871c2cbfac6dec19",
+      "timestamp": 1749753395,
       "reproducible": true,
       "error": null
     }
@@ -43583,6 +43793,20 @@
       "tag": "v1.8.1",
       "commit": "11055d1defdcd358c4e11208fe735b9c8ab68658",
       "timestamp": 1747145464,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b7cb78e22dd3673a2df18364b774515ba2a14be0c66d418010fe53894e3703f": [
+    {
+      "repository": "https://github.com/tibarj/tranquilstopwatch.git",
+      "apk_url": "https://github.com/tibarj/tranquilstopwatch/releases/download/v1.9.0/tranquilstopwatch-13.apk",
+      "appid": "tibarj.tranquilstopwatch",
+      "version_code": 13,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "72e9e2ba28dac1817d4e38dc8b06e57a53b2d7c4",
+      "timestamp": 1749753679,
       "reproducible": true,
       "error": null
     }
