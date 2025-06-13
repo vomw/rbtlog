@@ -4297,6 +4297,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "29264ef6802760fdac2f2d3fa731a3321b241996c4962a54f557a4f0c12f2cf0": [
+    {
+      "repository": "https://github.com/achunt2143/W-Launcher.git",
+      "apk_url": "https://github.com/achunt2143/W-Launcher/releases/download/release-apk-2.3.6-1/app-release2.3.6.apk",
+      "appid": "com.achunt.weboslauncher",
+      "version_code": 35,
+      "version_name": "2.3.6",
+      "tag": "release-apk-2.3.6-1",
+      "commit": "3f21959510044dc47e21149c570a2c9ad7a5ec34",
+      "timestamp": 1749848555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0f0ea1499b120d37d3dfbd9b91ba50207cafc2868743ce73f20ff7e6491856cd": [
     {
       "repository": "https://github.com/acszo/Redomi.git",
@@ -5385,6 +5399,20 @@
       "tag": "v4.5.7a",
       "commit": "60c7ea217339687da12fe1be0dd0cac604bd4d5f",
       "timestamp": 1749476871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/1.1.6/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 6,
+      "version_name": "1.1.6",
+      "tag": "1.1.6",
+      "commit": "247d2ebd7f90b95c70f6ec25acc16fcb862dcd05",
+      "timestamp": 1749836330,
       "reproducible": true,
       "error": null
     }
