@@ -5655,6 +5655,20 @@
       "error": null
     }
   ],
+  "23e986e47d9062c2e0709cb3cf1ddbef8367118bf9654994a02e7b0412fb7ed5": [
+    {
+      "repository": "https://github.com/beemdevelopment/Aegis.git",
+      "apk_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4/aegis-v3.4.apk",
+      "appid": "com.beemdevelopment.aegis",
+      "version_code": 79,
+      "version_name": "3.4",
+      "tag": "v3.4",
+      "commit": "36bd8f945abf3d7dc584efb999c2936d0daec078",
+      "timestamp": 1749853374,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
     {
       "repository": "https://github.com/blinskey/greek-reference.git",
@@ -29911,6 +29925,20 @@
       "timestamp": 1749312118,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "9ae76d2029c6773ab21c1b05d69cadf0849b8c70247e25a1e45fcbfaa21f394b": [
+    {
+      "repository": "https://codeberg.org/Flying-Snail/IPv6Droid.git",
+      "apk_url": "https://codeberg.org/Flying-Snail/IPv6Droid/releases/download/v3.0.4/IPv6Droid-signed.apk",
+      "appid": "de.flyingsnail.ipv6droid",
+      "version_code": 304,
+      "version_name": "v3.0.4",
+      "tag": "v3.0.4",
+      "commit": "aeaac7626cfa269f5a27753b41ee2d557231fbe4",
+      "timestamp": 1749855463,
+      "reproducible": true,
+      "error": null
     }
   ],
   "9ab4fef53be0cae470f4a8d1bf63ea3c76a8b05c1e7a2540fdb77714a9f6059f": [
