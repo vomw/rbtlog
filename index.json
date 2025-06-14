@@ -5417,6 +5417,20 @@
       "error": null
     }
   ],
+  "4c5ab6bea2d5c4cc08b4edc6899e4dd94bc034510a5bc98e5416d5587a2d58d9": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/1.1.8/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 8,
+      "version_name": "1.1.8",
+      "tag": "1.1.8",
+      "commit": "68408be64783b287d51a5f10c651eb0cc45b1a1a",
+      "timestamp": 1749932950,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -8903,6 +8917,20 @@
       "error": null
     }
   ],
+  "5a8b6391d71eb714138ee832537a6a07de93fbdcb1420562d938b07a4237e90c": [
+    {
+      "repository": "https://github.com/LSPosed/CorePatch.git",
+      "apk_url": "https://github.com/LSPosed/CorePatch/releases/download/4.7/core-patch-4.7.apk",
+      "appid": "com.coderstory.toolkit",
+      "version_code": 2038,
+      "version_name": "4.7",
+      "tag": "4.7",
+      "commit": "f930a83dfbd2cc7227623c6c9852f27ffbfdef57",
+      "timestamp": 1749925250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0db88fde4c82a7dfba88883255d57534d8200db29839f5ba1d01471abc5869ec": [
     {
       "repository": "https://github.com/coleblvck/MethodCall.git",
@@ -12319,6 +12347,34 @@
       "error": null
     }
   ],
+  "24c4b3a6334b87fec561dbec887df8965a342e060184a6c92bec2d44191f0164": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.4.0/FadCam-v1.4.0-armeabi-v7a.apk",
+      "appid": "com.fadcam",
+      "version_code": 12,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "7465d801ecb09091c4ca71ea6fcda2be98956617",
+      "timestamp": 1749922051,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7d9a44ab89d0e5c8c74f7478a49ce4a88bd758eaf6a092f33138c2372eb70931": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.4.0/FadCam-v1.4.0-arm64-v8a.apk",
+      "appid": "com.fadcam",
+      "version_code": 12,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "7465d801ecb09091c4ca71ea6fcda2be98956617",
+      "timestamp": 1749922296,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7e315764a96c1655df6c8c805f118693534f8f5f32917fb8e878feecf6184d90": [
     {
       "repository": "https://github.com/BetterBrainMemory/OpenToday.git",
@@ -13195,6 +13251,20 @@
       "tag": "v1.24",
       "commit": "38d516877f3089220e3fcd9092a0b3a6fc7b7a45",
       "timestamp": 1748025313,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4869776cd68d42afc8c0690ae91477a778cc889144856d72ff605b8419b72fb7": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.25/app-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 28,
+      "version_name": "1.25",
+      "tag": "v1.25",
+      "commit": "e1eed89af2c6a89bee7b33a529239a62268146bd",
+      "timestamp": 1749934125,
       "reproducible": true,
       "error": null
     }
@@ -18543,6 +18613,20 @@
       "error": null
     }
   ],
+  "bf520c09001982db941e380d80303325b042b532ea84616c50c64a9549526cce": [
+    {
+      "repository": "https://github.com/Iamlooker/Kenko.git",
+      "apk_url": "https://github.com/Iamlooker/Kenko/releases/download/1.3.0/app-release.apk",
+      "appid": "com.looker.kenko",
+      "version_code": 103000,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "1228cf8ee40272723f9c290515be372adade460a",
+      "timestamp": 1749929984,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e04706fabeac98c5b04f3bbbc6f329cd18ed14da7742bc1abea682dff999ea0": [
     {
       "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
@@ -20105,6 +20189,20 @@
       "tag": "v1.13.0",
       "commit": "05d8056c6942811f01170f48c132b5eee9807226",
       "timestamp": 1748699873,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6476967ea210686149a1bd84bedacc2b3ca7571420158f34e58e38cce5320c0": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo/releases/download/v1.14.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 44,
+      "version_name": "1.14.0",
+      "tag": "v1.14.0",
+      "commit": "932a4cf793cc9c3f1cf1cffcc6ad868a4c808b41",
+      "timestamp": 1749925687,
       "reproducible": true,
       "error": null
     }
@@ -26459,6 +26557,20 @@
       "error": null
     }
   ],
+  "6ab6ab86121722e9d4d2ba7d3ad87a050c8c8364fe7e6923239b62b24a6896a7": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v2.8.3/CM_2.8.3.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 33,
+      "version_name": "2.8.3",
+      "tag": "v2.8.3",
+      "commit": "fcaeec1a91cd6d1fd5fa7a771c4d6f4f55956577",
+      "timestamp": 1749925945,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
     {
       "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
@@ -31075,6 +31187,20 @@
       "error": null
     }
   ],
+  "98b43991000f3065d4c1bad562ec1104e8b479de9d7cf9e52b1b65dcf1cb2b57": [
+    {
+      "repository": "https://github.com/nfcgate/nfcgate.git",
+      "apk_url": "https://github.com/nfcgate/nfcgate/releases/download/v2.5.0/NFCGate.2.5.0.apk",
+      "appid": "de.tu_darmstadt.seemoo.nfcgate",
+      "version_code": 15,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "d82fcb98fc7994ec2d096135c1c04c64b7a00edd",
+      "timestamp": 1749926292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15d14daefcbe82a7669c050007d93119225e5114d392b4a2a16c815129c84869": [
     {
       "repository": "https://github.com/Abhay-cloud/Fixed-Deposit-Tracker.git",
@@ -31589,6 +31715,20 @@
       "tag": "v1.1.56",
       "commit": "fc4596c0bc610f32dcee67c668338e584ce2c950",
       "timestamp": 1748708138,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca9495926a9af0062df8eafc8b64164ebb567095b0052613d927577577a504d8": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.57/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23142,
+      "version_name": "1.1.57",
+      "tag": "v1.1.57",
+      "commit": "e35fd1e01e7b22b03b3d9e451c4f724d7e433107",
+      "timestamp": 1749926514,
       "reproducible": true,
       "error": null
     }

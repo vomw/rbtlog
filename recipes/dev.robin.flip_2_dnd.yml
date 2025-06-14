@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/robinsrk/flip_2_dnd.git
-updates: releases
+updates: disabled
+notes:
+  - appId changed (APK appid mismatch:\ expected dev.robin.flip_2_dnd, got dev.robin.dndfy)
 versions:
   - tag: v1.0.2
     apks:
