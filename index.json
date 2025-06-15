@@ -32167,6 +32167,20 @@
       "error": null
     }
   ],
+  "07cadccc5953f398ebe1d95c3253c99f05e99ee39496a17c7af96bbe09f6cfd6": [
+    {
+      "repository": "https://github.com/PranavPurwar/AppLock.git",
+      "apk_url": "https://github.com/PranavPurwar/AppLock/releases/download/v1.2/app-release.apk",
+      "appid": "dev.pranav.applock",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "aa31f09248ada9f466689ac4ddec028de48aff42",
+      "timestamp": 1750006503,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebe1ed13f7b9b9d6d6bd469ac32473e3d767b39ab019c8a3596799646bb0254a": [
     {
       "repository": "https://github.com/robinsrk/flip_2_dnd.git",
@@ -37717,6 +37731,20 @@
       "tag": "v5.0",
       "commit": "a76dd796d63711f2e952243ee283e780edca26cb",
       "timestamp": 1736856242,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5e34efda39863e13d9f246293a7bc003a6ed60b6d11c4a428c5f90ba0682f7b": [
+    {
+      "repository": "https://github.com/Freezer-Team/Cirno.git",
+      "apk_url": "https://github.com/Freezer-Team/Cirno/releases/download/v6.0/Cirno-v6.0.apk",
+      "appid": "nep.timeline.cirno",
+      "version_code": 6,
+      "version_name": "6.0",
+      "tag": "v6.0",
+      "commit": "39558f9c4e94b0172c71bf4a3da039478d15b8aa",
+      "timestamp": 1750015355,
       "reproducible": true,
       "error": null
     }
