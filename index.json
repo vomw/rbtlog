@@ -5431,6 +5431,20 @@
       "error": null
     }
   ],
+  "193386da9be1214ba1d5c818ba1492bd1830c1e300d8ed2b801ab7bd2f1cb866": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/1.5.0/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 9,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "ae3274153f69a618bb2891151327b5135b851e1a",
+      "timestamp": 1750081675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -7919,6 +7933,20 @@
       "tag": "2025.06.1139",
       "commit": "699c32b80716b72a4fdf1dd650cf9f3e7e10f001",
       "timestamp": 1749667300,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "69af24d85e6d0e33d36cb66be24ea547de33e4572a398fa7f4c1249c4e022eea": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.06.1140-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1140,
+      "version_name": "2025.06.1140-dev",
+      "tag": "2025.06.1140-dev",
+      "commit": "f3d9c785d080ac248faeb3ca9b6487560e03e5ec",
+      "timestamp": 1750082315,
       "reproducible": true,
       "error": null
     }
@@ -17559,6 +17587,20 @@
       "tag": "v0.33.0",
       "commit": "dae8b3eb91df696f02dacad5afbb73660cbdb117",
       "timestamp": 1737852539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c50bdd64864fbad9223a85b727363bfda530433f90d365ad68acd5bee65dbe9f": [
+    {
+      "repository": "https://github.com/jucktion/healthlog.git",
+      "apk_url": "https://github.com/jucktion/healthlog/releases/download/v0.33.1/Healthlog-arm64.apk",
+      "appid": "com.jucktion.healthlog",
+      "version_code": 7,
+      "version_name": "0.33.1",
+      "tag": "v0.33.1",
+      "commit": "d7cfabe961c8c465724329406a86bc929225b14f",
+      "timestamp": 1750083198,
       "reproducible": true,
       "error": null
     }
@@ -29145,6 +29187,34 @@
       "error": null
     }
   ],
+  "3edbc6626d62fc76b8b492af7068972e6cdb9b4b8ce1e8a52655cbcf6d8da4df": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/-/project/69658398/uploads/767183ea176f05983fb73ee735c6e5b4/PublicArtExplorer-1.0.5.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 26,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "2b3ac41a51c68ad19424189f439a5201edc534b5",
+      "timestamp": 1750024231,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1b7b4f5d7ffe3b9c49b6d20fb7c332ff56fc457003a1738ff2e59d60d574d320": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/toz12/PublicArtExplorer/-/releases/1.0.6/downloads/app-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 27,
+      "version_name": "1.0.6",
+      "tag": "1.0.6",
+      "commit": "7c41cb8e4dc2f4491a15374ba763d1fbec5d56cc",
+      "timestamp": 1750090914,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -31187,6 +31257,20 @@
       "error": null
     }
   ],
+  "48c393b2cf139d8594ebc08a4e1d10e97bed7bc9dd9bd0d19cad344f15210cdc": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.6.0/ReadeckApp-0.6.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 600,
+      "version_name": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "634d5a5bbdfc1889ff0e7b4888bdcc26ca853c0a",
+      "timestamp": 1750083733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
     {
       "repository": "https://github.com/sal0max/currencies.git",
@@ -31813,6 +31897,20 @@
       "tag": "v1.1.57",
       "commit": "e35fd1e01e7b22b03b3d9e451c4f724d7e433107",
       "timestamp": 1749926514,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c33ece72c75b015f752bd96a57c44222a2ad3f2949501be057cc98c8a068cef": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.1.58/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23152,
+      "version_name": "1.1.58",
+      "tag": "v1.1.58",
+      "commit": "39b76a41cf7ceaf5d901566e0838136929d8f266",
+      "timestamp": 1750084122,
       "reproducible": true,
       "error": null
     }
@@ -33131,6 +33229,20 @@
       "error": null
     }
   ],
+  "4840441d56196eda548f3006197179948fcdaadc5618017ae74d73070be28495": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken/airplanes-live-app/releases/download/v0.4.0-rc0/eu.darken.apl-v0.4.0-rc0-400000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 400000,
+      "version_name": "0.4.0-rc0",
+      "tag": "v0.4.0-rc0",
+      "commit": "4b52fd82265a88880385b08e1045b6d8825077b8",
+      "timestamp": 1750084926,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -33575,6 +33687,20 @@
       "tag": "v1.4.12-rc0",
       "commit": "2de100f5aee7d0e0e231b8f1b3d35fb500be023a",
       "timestamp": 1749132520,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83592550f28798d1e9fa46b6cf23af7e8891d3e0776ffe0699c71c65b2de8873": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.4.13-rc0/eu.darken.sdmse-v1.4.13-rc0-10413000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10413000,
+      "version_name": "1.4.13-rc0",
+      "tag": "v1.4.13-rc0",
+      "commit": "edaf037af582172d32d78d44a10c1aa35bf73357",
+      "timestamp": 1750098055,
       "reproducible": true,
       "error": null
     }
@@ -37745,6 +37871,20 @@
       "tag": "v6.0",
       "commit": "39558f9c4e94b0172c71bf4a3da039478d15b8aa",
       "timestamp": 1750015355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8289b90780ab9c5a54df5c8644a770842f60833164e58ad595de504230ebcf26": [
+    {
+      "repository": "https://github.com/Freezer-Team/Cirno.git",
+      "apk_url": "https://github.com/Freezer-Team/Cirno/releases/download/v7.0/Cirno-v7.0.apk",
+      "appid": "nep.timeline.cirno",
+      "version_code": 7,
+      "version_name": "7.0",
+      "tag": "v7.0",
+      "commit": "282534ed8e545c040656dd1f4d768a49a720f5f9",
+      "timestamp": 1750085273,
       "reproducible": true,
       "error": null
     }
