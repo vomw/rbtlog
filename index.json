@@ -6047,6 +6047,20 @@
       "error": null
     }
   ],
+  "0df61f7ed40e754e904ad0cd361404eb20beb3a8a60fec6c0e47536bf5205724": [
+    {
+      "repository": "https://github.com/BitMavrick/Lumolight.git",
+      "apk_url": "https://github.com/BitMavrick/Lumolight/releases/download/3.0.0.23/lumolight-3.0.0.23-universal.apk",
+      "appid": "com.bitmavrick.lumolight",
+      "version_code": 23,
+      "version_name": "3.0.0.23",
+      "tag": "3.0.0.23",
+      "commit": "74adf4ea1c3e645e52c99ee6b85999cbc954b4c0",
+      "timestamp": 1750252641,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -41819,6 +41833,20 @@
       "tag": "v0.27.7",
       "commit": "c46ffd90da63d8fd5de4052c96ef2ac72883739e",
       "timestamp": 1746973997,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ca4978112e68eae5188710ced6ae84f1d137cf473b760ce20cebec4a831d498": [
+    {
+      "repository": "https://github.com/ProjectSolutus/Pomozen.git",
+      "apk_url": "https://github.com/ProjectSolutus/Pomozen/releases/download/v1.0.3/app-arm64-v8a-release.apk",
+      "appid": "org.projectsolutus.pomozen",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "b4ec2da0875d7990836bea8b3794f7a8733af74a",
+      "timestamp": 1750250594,
       "reproducible": true,
       "error": null
     }
