@@ -168,3 +168,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.3.1
+    apks:
+      - apk_pattern: astracrypt.*\.apk
+        apk_url: https://github.com/gromif/AstraCrypt/releases/download/v2.3.1/astracrypt-2.3.1.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - echo "keyAlias=keyAlias\nkeyPassword=keyPassword\nstoreFile=/dev/null\nstorePassword=storePassword" >> keystore.properties
+          - sed -r '/create\("release"\) \{/,/\}/d' -i app/build.gradle.kts
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - PROF_FILE=app/build/intermediates/binary_art_profile/defaultRelease/compileDefaultReleaseArtProfile/baseline.prof
+          - PROF_SHA1=1577ea77b41bde72f687aa931a6ce1a5432a9e73
+          - for _ in {1..10}; do
+          - gradlew.py/gradlew.py -v clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/default/release/app-default-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
