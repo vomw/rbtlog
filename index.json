@@ -1623,6 +1623,20 @@
       "error": null
     }
   ],
+  "8bd1e23478b193f2f2492f5f43fb73e299321c6e2e569b9a95da326c8128ec88": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/vv9.6.3/cclauncher-v9.6.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 720,
+      "version_name": "v9.6.3",
+      "tag": "vv9.6.3",
+      "commit": "222234436327bb397b130866fef1880da61bfcf6",
+      "timestamp": 1750702853,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -3005,6 +3019,20 @@
       "tag": "v4.4.11-ose",
       "commit": "f349f1fec844e5477bcd84f904d9b507523521e7",
       "timestamp": 1748631281,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3ec1d4320c920a9ad9b3feb1a216a80e8c0a12483f0b9c242b1d819feafd9047": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5-ose/davx5-ose-4.5-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405000000,
+      "version_name": "4.5-ose",
+      "tag": "v4.5-ose",
+      "commit": "0780b226ff58cb74b2710f038a6aba8593671716",
+      "timestamp": 1750703144,
       "reproducible": true,
       "error": null
     }
@@ -12669,6 +12697,34 @@
       "error": null
     }
   ],
+  "760a93ab0d9a3ee64bdd91c52833065f02905e5178695709e2e7db6d70558ba6": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.5.0/FadCam-v1.5.0-armeabi-v7a.apk",
+      "appid": "com.fadcam",
+      "version_code": 16,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "999a12ca580181221bfe90129e54325d54c3a008",
+      "timestamp": 1750686946,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5db8f81794f7f9b7da29c9b0c88fc341c8923d856e59da1e2e7bffba00cddd21": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v1.5.0/FadCam-v1.5.0-arm64-v8a.apk",
+      "appid": "com.fadcam",
+      "version_code": 16,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "999a12ca580181221bfe90129e54325d54c3a008",
+      "timestamp": 1750687197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7e315764a96c1655df6c8c805f118693534f8f5f32917fb8e878feecf6184d90": [
     {
       "repository": "https://github.com/BetterBrainMemory/OpenToday.git",
@@ -14973,6 +15029,20 @@
       "tag": "2.17.2",
       "commit": "aa683cc4f145863750ffe88c08725240d4b898ea",
       "timestamp": 1749736148,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "23d2c7762a218f1f5173e24dd9733fe13c8e7c8203e181b456a2fde8527ce5ed": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.0/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2378635,
+      "version_name": "2.18.0-Verdana-oss",
+      "tag": "2.18.0",
+      "commit": "3f01b228ed4facaa46d39bf89a1ac79fb6ffc197",
+      "timestamp": 1750687443,
       "reproducible": true,
       "error": null
     }
@@ -28851,6 +28921,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp9ch0jniz/outputs:/outputs', '--volume', '/tmp/tmp9ch0jniz/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/w2sv/FileNavigator.git', '--env', 'APP_TAG=0.3.0.1', '--env', 'APP_COMMIT=0a70d50a720130308a73d99f82be9f9ebf405a8d', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "510e92af225497fcf15893f8be1e353e4ce2a2f7860e1ac2a4faf6398bf388cb": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.3.1/0.3.1.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 16,
+      "version_name": "0.3.1",
+      "tag": "0.3.1",
+      "commit": "a63491ea62558f0d2a00990f1661d8a09e750435",
+      "timestamp": 1750703584,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "e6fe6966c0798355f24a97f4d82d55b35dc17411f2dc3460ee6d6b9d8f20b8bb": [
     {
       "repository": "https://github.com/w2sv/WiFi-Widget.git",
@@ -29755,6 +29839,20 @@
       "tag": "v1.0.8",
       "commit": "c6524cb1727c92c9c749b84d0811fc46ec214066",
       "timestamp": 1750257033,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aaea7eec4931364a2e8c00e02b45370a59aed50371a53a195b282e7059d3c56d": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/toz12/PublicArtExplorer/-/releases/v1.0.9/downloads/app-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 29,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "16ff37eab286e98e523c1ebc5f5f7ffd901afc47",
+      "timestamp": 1750705954,
       "reproducible": true,
       "error": null
     }
@@ -33979,6 +34077,20 @@
       "tag": "v2.17.3-rc0",
       "commit": "10bf65bd09d54fd814e25333c601f45a376f4dda",
       "timestamp": 1750257901,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "593cafd9813bac54a5a7fecb18a7d9d2a98a2f8c8b29523da20c3490e1ddef28": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.17.4-rc0/eu.darken.capod-v2.17.4-rc0-21704000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21704000,
+      "version_name": "2.17.4-rc0",
+      "tag": "v2.17.4-rc0",
+      "commit": "7a967ce648430d3c5475c2416c9153a53b1bda1b",
+      "timestamp": 1750689606,
       "reproducible": true,
       "error": null
     }
@@ -38401,6 +38513,20 @@
       "tag": "3.0.2",
       "commit": "d2d5b970caefed32710ef67b15d27091be06fec0",
       "timestamp": 1741694799,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0758ae20d2398c39b416af18178be788946c263548a91e35579120be722eb071": [
+    {
+      "repository": "https://github.com/dic1911/android_URLSanitizer.git",
+      "apk_url": "https://github.com/dic1911/android_URLSanitizer/releases/download/3.0.3/URLSanitizer-3.0.3-signed.apk",
+      "appid": "moe.dic1911.urlsanitizer",
+      "version_code": 33,
+      "version_name": "3.0.3",
+      "tag": "3.0.3",
+      "commit": "2be9b9fb11ba14ada1cc944f8352e8ebcfdaa93a",
+      "timestamp": 1750689946,
       "reproducible": true,
       "error": null
     }
