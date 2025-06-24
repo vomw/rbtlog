@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/samolego/Canta.git
-updates: releases
+updates: disabled
+notes:
+  - packageName changed to io.github.samolego.canta with v3.0.0
 versions:
   - tag: 2.2.2
     apks:
