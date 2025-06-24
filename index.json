@@ -1637,6 +1637,20 @@
       "error": null
     }
   ],
+  "e90ab2102211078d4b6914f47f05ee186273ed356fb47903017e2ce0ec0f9192": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.6.4/cclauncher-v9.6.4-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 730,
+      "version_name": "v9.6.4",
+      "tag": "v9.6.4",
+      "commit": "7a74b85dc58fd88b1418e7bfd7f193e7223d2273",
+      "timestamp": 1750772881,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -1801,6 +1815,20 @@
       "tag": "1.10.7.5",
       "commit": "03cf629060dbca2627484699e4dcce1bfaf29355",
       "timestamp": 1750427276,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d655739fea67b542f671dd099c18d9ab9a90a7b293b7401168e4a10108d6c579": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.7.7/MultiLauncher-1.10.7.7-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100707,
+      "version_name": "1.10.7.7",
+      "tag": "1.10.7.7",
+      "commit": "44add9e31204860e46dc862c064478ab374d0175",
+      "timestamp": 1750773213,
       "reproducible": true,
       "error": null
     }
@@ -5403,6 +5431,20 @@
       "error": null
     }
   ],
+  "2a05369ede3d70731077407ebb407441e3b85b8f155ab5bc9abb6e2125ed2c6f": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v3.0.0/paperize-v3.0.0.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 37,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "598f00c536a7ab31b8c22633aa23721ecdcbcd29",
+      "timestamp": 1750792044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4a93a460e15e1ddab8702d0b7fdfa8f456980401befc29fbaf2ff78cb5692f": [
     {
       "repository": "https://github.com/apk-editor/APK-Explorer-Editor.git",
@@ -5581,6 +5623,20 @@
       "tag": "1.7.0",
       "commit": "908e49d2c28252f43598078b79f0ae850bd4b9d8",
       "timestamp": 1750513943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07386b12e780798870ddc86cf85ea34b3224fa3bf05be24ef4020c8ae203816d": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/1.7.2/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 14,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "a27efe9ad3c5e82ed086b2e50edf8fc35f537f39",
+      "timestamp": 1750773623,
       "reproducible": true,
       "error": null
     }
@@ -8119,6 +8175,20 @@
       "error": null
     }
   ],
+  "28d96c95f9a51dc38ec8092668fd5993b09299d49e2141e2e664353064ba0806": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.06.1142-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1142,
+      "version_name": "2025.06.1142-dev",
+      "tag": "2025.06.1142-dev",
+      "commit": "22b87fde9c19b8972443d3edf279cafc4b5ccf61",
+      "timestamp": 1750774265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -8927,6 +8997,20 @@
       "tag": "1.1.2.8v104",
       "commit": "e90e0dd4414e6d8802c26250038cdf7876e446b3",
       "timestamp": 1750341624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "33a08e0aaec87862eed12b5543053e1b630282cc7149ca0aaec9cf032532259a": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.2.9v105/PuppyGit_1.1.2.9v105_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 105,
+      "version_name": "1.1.2.9",
+      "tag": "1.1.2.9v105",
+      "commit": "b14683217d3bc056c429da97ccb683edd5197f75",
+      "timestamp": 1750774944,
       "reproducible": true,
       "error": null
     }
@@ -17731,6 +17815,20 @@
       "error": null
     }
   ],
+  "81d745a68c71f666ef3c4e8bcd7f60887ac59958b1239c23c87bf5e80945a31b": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/v2.5.3/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 253,
+      "version_name": "2.5.3",
+      "tag": "v2.5.3",
+      "commit": "cb6fffd16f9c2dfe91bd71a812cdbbb4ebcebbd5",
+      "timestamp": 1750791033,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -19113,6 +19211,20 @@
       "tag": "v2.6.0",
       "commit": "bb22b95bcabbeda06550040f403a3a5c97c6d14e",
       "timestamp": 1742484148,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f3b4facaa7efd59cfb71db2804f371b36665a3ba54cdb7410689fe05820aa563": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.7.0/FoodExpirationDates-2.7.0-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 40,
+      "version_name": "2.7.0-foss",
+      "tag": "v2.7.0",
+      "commit": "d1a6d97f1f58e3b3662d6a9de34e06af886e529a",
+      "timestamp": 1750776125,
       "reproducible": true,
       "error": null
     }
@@ -23265,6 +23377,20 @@
       "tag": "1.14.1",
       "commit": "72eab8e68f7e30ac457793288c5c60f9635a4edc",
       "timestamp": 1750619142,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01bb7ad7e71437c90ec5959ce0250fa8e492cef5e0286988cbd0d2df6c501edb": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.15.0/baba_1.15.0_free_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031847,
+      "version_name": "1.15.0",
+      "tag": "1.15.0",
+      "commit": "0d6e6a17c49c8dd306011eb9363eda17cde93ccb",
+      "timestamp": 1750790098,
       "reproducible": true,
       "error": null
     }
@@ -33927,6 +34053,20 @@
       "error": null
     }
   ],
+  "779c5a9443ac161a6d2994fce617dd7f1beb3fd081b95490ae12c5b3f6b94e62": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken/airplanes-live-app/releases/download/v0.5.0-rc0/eu.darken.apl-v0.5.0-rc0-500000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 500000,
+      "version_name": "0.5.0-rc0",
+      "tag": "v0.5.0-rc0",
+      "commit": "4c12d0ac1eb58a83914c28c99d820cceb4e22a23",
+      "timestamp": 1750777504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -39325,6 +39465,20 @@
       "tag": "alpha-0.2.5",
       "commit": "767f284186958574f359e6ede8b9099f668c85cd",
       "timestamp": 1746988102,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a34ef97e82a6ce404d1ea664776a4774ee72f1ac1367315056bc335be8b8d290": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.3.0/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 21,
+      "version_name": "alpha-0.3.0",
+      "tag": "alpha-0.3.0",
+      "commit": "ee612e4adb98f1e9307e9097d937b005b7a64371",
+      "timestamp": 1750790715,
       "reproducible": true,
       "error": null
     }
