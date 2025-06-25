@@ -3,7 +3,7 @@ repository: https://github.com/meshtastic/Meshtastic-Android.git
 updates: releases
 notes:
   - 'FIXED: 2.5.6 introduced embedded build timestamp, see https://github.com/meshtastic/Meshtastic-Android/issues/1372 (was removed with next release)'
-  - 2.5.16 flaky
+  - 2.5.16, 2.6.24 flaky
 versions:
   - tag: 2.3.11
     apks:
@@ -971,6 +971,41 @@ versions:
         build:
           - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
           - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - mv app/build/outputs/apk/fdroid/release/app-fdroid-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.6.24
+    apks:
+      - apk_pattern: fdroidRelease-.*\.apk
+        apk_url: https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.24/fdroidRelease-2.6.24.apk
+        build:
+          - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
+          - PROF_SHA1=7014b707a7753f609e78533035e989191c0b0ba2
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
           - mv app/build/outputs/apk/fdroid/release/app-fdroid-release-unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
