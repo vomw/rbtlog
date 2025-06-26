@@ -2519,6 +2519,20 @@
       "error": null
     }
   ],
+  "e588e7d9e7f3bdc3eb00e0f5b8fbbd0afeb57a0e807427adc0461dbf10e7b8f7": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v8.7.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 871,
+      "version_name": "v8.7.1",
+      "tag": "v8.7.1",
+      "commit": "c0611bb547c9fff0486ca59e66157ae5c06eb585",
+      "timestamp": 1750962171,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -13321,6 +13335,20 @@
       "tag": "v1.31.0",
       "commit": "4961372da7074aba10c14546feaa918a290aef84",
       "timestamp": 1750011650,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "84509a29c5305e7b596312abadd78fc3e5ed0822a8fd6a57cafa06c53fbdf104": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.31.1/com.fibelatti.photowidget-v1.31.1-1310100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1310100,
+      "version_name": "1.31.1",
+      "tag": "v1.31.1",
+      "commit": "74c5b23f20028f7ff275465d57b278351d439bed",
+      "timestamp": 1750945675,
       "reproducible": true,
       "error": null
     }
@@ -29327,6 +29355,20 @@
       "error": null
     }
   ],
+  "726356ffba987eeefc4fb05dc57dbcd834c06f16215ffb491b3379bd70fbea44": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.58/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27158,
+      "version_name": "2.71.58",
+      "tag": "V2.71.58",
+      "commit": "bb21a0e08ebf7c77bd829a2063fb0560230402b5",
+      "timestamp": 1750962459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -42503,6 +42545,20 @@
       "tag": "v2.3.1",
       "commit": "85748105104b676a78b12ea0e1d8069fda2b22f9",
       "timestamp": 1749997723,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7df2ba42128019e5be82c41ff5bc0d3356ba319419cef906c68fd8273cc37c43": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v2.4.0/wikireader-v2.4.0-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 44,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "ec2bcc3674900bf25f450095bae2d7235c167871",
+      "timestamp": 1750962666,
       "reproducible": true,
       "error": null
     }
