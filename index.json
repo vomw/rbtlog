@@ -1833,6 +1833,20 @@
       "error": null
     }
   ],
+  "4547b6e79058238e06dcdb171ee1ba3325dc21bce10914d9f9f5c135b875b88f": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.7.10/MultiLauncher-1.10.7.10-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100710,
+      "version_name": "1.10.7.10",
+      "tag": "1.10.7.10",
+      "commit": "09bc6a468b908598a584d20a6ea4c38f455dc9d4",
+      "timestamp": 1751032069,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -9053,6 +9067,20 @@
       "tag": "1.1.2.9v105",
       "commit": "b14683217d3bc056c429da97ccb683edd5197f75",
       "timestamp": 1750774944,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dc89c166d08ad095e88a1b0a869700d1bee2e4ba9e9d57c3011349c3ad6715c4": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.3.0v106/PuppyGit_1.1.3.0v106_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 106,
+      "version_name": "1.1.3.0",
+      "tag": "1.1.3.0v106",
+      "commit": "d7e999ad9ae7c100f70fce7d4fb5991eba0727be",
+      "timestamp": 1751032510,
       "reproducible": true,
       "error": null
     }
@@ -42895,6 +42923,20 @@
       "tag": "v2.5.3",
       "commit": "2f01b85e3356ee40f6b3d74c554123a1345f354f",
       "timestamp": 1729038179,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8aac6554370a03a137565b3aab0966e9a932116106660bb5149b143513657017": [
+    {
+      "repository": "https://github.com/prateek54353/PaperWise.git",
+      "apk_url": "https://github.com/prateek54353/PaperWise/releases/download/v1.0.0/app-arm64-v8a-release.apk",
+      "appid": "org.paperwise.app",
+      "version_code": 2002,
+      "version_name": "2.0.0",
+      "tag": "v1.0.0",
+      "commit": "212de4926b4796a2679d822bde79e3ffdcb17098",
+      "timestamp": 1751025490,
       "reproducible": true,
       "error": null
     }
