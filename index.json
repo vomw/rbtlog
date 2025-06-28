@@ -1651,6 +1651,20 @@
       "error": null
     }
   ],
+  "e79ff936bbc2d53e38ea8f5963a70a7953ed5132ad6a1c86c23dcc122162fd90": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.6.5/cclauncher-v9.6.5-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 740,
+      "version_name": "v9.6.5",
+      "tag": "v9.6.5",
+      "commit": "3bc197276e98e88ad356b8f173036a33a7d4a0ca",
+      "timestamp": 1751118467,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -6141,6 +6155,20 @@
       "tag": "2.22",
       "commit": "34846c73efc56401f9921fc3f4376a1d73341670",
       "timestamp": 1748699305,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee3c548709278cf1e70b6aa152754305ca55d893cf7667f84cfa3fe79d694539": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.23/Clock_2.23-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2026,
+      "version_name": "2.23",
+      "tag": "2.23",
+      "commit": "3e015a13760258c2bf04636692dcf87c2009bdba",
+      "timestamp": 1751134855,
       "reproducible": true,
       "error": null
     }
@@ -15925,6 +15953,20 @@
       "error": null
     }
   ],
+  "56190ed37926203641fad51b985af0e26dc798c012c2295d413a661f16674838": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v2.9.1/DroidPad-v2.9.1.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 27,
+      "version_name": "2.9.1",
+      "tag": "v2.9.1",
+      "commit": "4ee1f4628b48d8f421bedfc1299e807552462c3d",
+      "timestamp": 1751118854,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -20917,6 +20959,20 @@
       "tag": "v1.14.0",
       "commit": "932a4cf793cc9c3f1cf1cffcc6ad868a4c808b41",
       "timestamp": 1749925687,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "51933f36153724bcdf526da2361060dfdf2c37851729b83a6207ec0f05196f1c": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo/releases/download/v1.15.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 46,
+      "version_name": "1.15.0",
+      "tag": "v1.15.0",
+      "commit": "45194e797b8261e774cb68314ac04b0785f719f5",
+      "timestamp": 1751119735,
       "reproducible": true,
       "error": null
     }
@@ -30147,6 +30203,20 @@
       "tag": "v1.0.9",
       "commit": "16ff37eab286e98e523c1ebc5f5f7ffd901afc47",
       "timestamp": 1750705954,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "57bd25c22a4bc68bfb1eca0cba88c04f43816f2a08c1529b662ac2ced37683e5": [
+    {
+      "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
+      "apk_url": "https://gitlab.com/toz12/PublicArtExplorer/-/releases/v1.0.10/downloads/app-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 30,
+      "version_name": "1.0.10",
+      "tag": "v1.0.10",
+      "commit": "2af2a4f1160a9577a183e1e901aba33f688b4fcb",
+      "timestamp": 1751120097,
       "reproducible": true,
       "error": null
     }
@@ -41121,6 +41191,20 @@
       "error": null
     }
   ],
+  "ff8eee7fc854dc47c947a55b5797c5eb9b513a95ef36bfe7e36deb1b73b3b843": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.1.4/launcher-7-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 7,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "355e4aa7adc0969127ecefebc792076c9887c3c2",
+      "timestamp": 1751120718,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -42895,6 +42979,20 @@
       "tag": "3.5.12",
       "commit": "38d0eed0b130563bc221674114267c007500467c",
       "timestamp": 1741535420,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fc4de9b0b85c31fa8ec8c3d1e070fa794d3a1f9381079bd554c7217f7e53ffea": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Smither.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Smither/releases/download/3.6.0/app-release.apk",
+      "appid": "org.nuclearfog.smither",
+      "version_code": 116,
+      "version_name": "3.6.0",
+      "tag": "3.6.0",
+      "commit": "cbda0302f9458cc6eadb0cc6a5f204e5ce57ef07",
+      "timestamp": 1751135774,
       "reproducible": true,
       "error": null
     }
