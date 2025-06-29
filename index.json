@@ -1665,6 +1665,20 @@
       "error": null
     }
   ],
+  "c37d63d561fb31ad70889a91cb1eafd5108017070075bb17ff319b05d0fad706": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.6.6/cclauncher-v9.6.6-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 750,
+      "version_name": "v9.6.6",
+      "tag": "v9.6.6",
+      "commit": "2c2a741e1444e110db35286a65f5a54a2baf477b",
+      "timestamp": 1751204884,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -8269,6 +8283,20 @@
       "tag": "2025.06.1142-dev",
       "commit": "22b87fde9c19b8972443d3edf279cafc4b5ccf61",
       "timestamp": 1750774265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8b71a8f624a40a729524457606e29f0ae333032ee2039fc98ea5e5147095e7bc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.06.1143/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1143,
+      "version_name": "2025.06.1143",
+      "tag": "2025.06.1143",
+      "commit": "2a662f16d8f4dca1107a1f9b96388edbc8e4ddf3",
+      "timestamp": 1751205251,
       "reproducible": true,
       "error": null
     }
@@ -18431,6 +18459,20 @@
       "error": null
     }
   ],
+  "ec5ee313d6ba04ac51be6ac0e9b2461de959fac9a39540daeeaf2e09331d6ed3": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.7-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 97,
+      "version_name": "v0.9.7-beta",
+      "tag": "v0.9.7-beta",
+      "commit": "32b550e4d17a2e7c2181e69cbe4b68ccee304d68",
+      "timestamp": 1751135062,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -20973,6 +21015,34 @@
       "tag": "v1.15.0",
       "commit": "45194e797b8261e774cb68314ac04b0785f719f5",
       "timestamp": 1751119735,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6335a71311a5ad0e35f8dfc22358422699dbe312a80ccde62b4e39f395153e2": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.15.1/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 48,
+      "version_name": "1.15.1",
+      "tag": "v1.15.1",
+      "commit": "3fbf65ac9aad5479e5d6802122296bb05917d5b8",
+      "timestamp": 1751206373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a5c130932f40923cfe0d9ebe85a08ad8cd4118f1a297aaa8aada19db6ad35b12": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.15.2/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 49,
+      "version_name": "1.15.2",
+      "tag": "v1.15.2",
+      "commit": "8722a6e84172870302043a86ac813bc611c2deb9",
+      "timestamp": 1751221716,
       "reproducible": true,
       "error": null
     }
@@ -28809,6 +28879,34 @@
       "error": null
     }
   ],
+  "f4abbb56db34005d4e8639f2c5602dc36c2f64a2d44e7d19afa1da0c4d4285e1": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.15.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31500,
+      "version_name": "3.15.0",
+      "tag": "v3.15.0",
+      "commit": "47fe3f37c7bd71ea0572ee903d5ce30336e544c1",
+      "timestamp": 1751207210,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aacdb32dabc73e7ab88e4ab796f1aefb3ab5b18f23f948341f3337f3a7760605": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.15.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31500,
+      "version_name": "3.15.0",
+      "tag": "v3.15.0",
+      "commit": "47fe3f37c7bd71ea0572ee903d5ce30336e544c1",
+      "timestamp": 1751207403,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -31409,6 +31507,20 @@
       "error": null
     }
   ],
+  "4b27062d7fe229449e121a51da72f0fd530f98d636954a6366aff288f57062bc": [
+    {
+      "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
+      "apk_url": "https://codeberg.org/Starfish/TinyWeatherForecastGermany/releases/download/0.63.0/TinyWeatherForecastGermany-build059-version_0.63.0_20250629.apk",
+      "appid": "de.kaffeemitkoffein.tinyweatherforecastgermany",
+      "version_code": 59,
+      "version_name": "0.63.0",
+      "tag": "0.63.0",
+      "commit": "84f697723b5cb3edb4c529c582833bf01795353c",
+      "timestamp": 1751222541,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b3b7154b1d27cf825fb3314d99ed5d5c61eca2cd2a5589d555ae959adb55d325": [
     {
       "repository": "https://github.com/Kaiserdragon2/CallForwarding.git",
@@ -32707,6 +32819,20 @@
       "tag": "v1.2.1",
       "commit": "e69c141b5fdf351190edd2247501451ac37525d4",
       "timestamp": 1748787164,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f49519e913ca17eb9366080444ab7b423ec18ed388562e638435427817124b0e": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.3.0/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 221,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "0f0f1993f4758f0b896b8ec7a8c80cf026eed62e",
+      "timestamp": 1751207577,
       "reproducible": true,
       "error": null
     }
@@ -38765,6 +38891,20 @@
       "tag": "v1.5.1",
       "commit": "3d54f3e2f8841ee5f3b77887c60adaffb235a019",
       "timestamp": 1750617431,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ceb29dc0543fcdef8eee0f2744f550bfd94c84f5ae1f8bae13c16ecc63c14fd": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.5.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 104,
+      "version_name": "1.5.2-izzy",
+      "tag": "v1.5.2",
+      "commit": "95bbdd68abd527f937af7f6c8a0bdd33201fb95f",
+      "timestamp": 1751222822,
       "reproducible": true,
       "error": null
     }
@@ -46659,6 +46799,20 @@
       "tag": "2.1.1",
       "commit": "793767750573debd5920c251ca2bd62d7b52f113",
       "timestamp": 1748442922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a05b0d37922ef330bb056289561a0696577d3c5ccd29f560dca93d482e30cb3e": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.2/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 38,
+      "version_name": "2.1.2",
+      "tag": "2.1.2",
+      "commit": "66d5c708395ba2957a63399475df31bd72a86faa",
+      "timestamp": 1751223543,
       "reproducible": true,
       "error": null
     }
