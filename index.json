@@ -21283,6 +21283,20 @@
       "error": null
     }
   ],
+  "e3b6d934137f1c273c1bafefa35cf4131e8b201c667aa3a56be1eb47e05bc332": [
+    {
+      "repository": "https://github.com/dead8309/Kizzy.git",
+      "apk_url": "https://github.com/dead8309/Kizzy/releases/download/6.0/app-release.apk",
+      "appid": "com.my.kizzy",
+      "version_code": 12,
+      "version_name": "6.0",
+      "tag": "6.0",
+      "commit": "85be93a4b01195db2a2eef5b9f697f688644e385",
+      "timestamp": 1751222064,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "20021d120e970e46ffc1a8bb03fb9fb02861bdb59f650958b32a2a532268c2a2": [
     {
       "repository": "https://github.com/tuhin733/SwiftNotes.git",
@@ -32889,6 +32903,20 @@
       "tag": "v1.1.1",
       "commit": "f28efba8a6500c9362f1572f0fb99b7c79c8c715",
       "timestamp": 1738879475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.4.8/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10040082,
+      "version_name": "1.4.8",
+      "tag": "v1.4.8",
+      "commit": "60fe01f2840aa7a6d1ad8d226e7370f142c729a5",
+      "timestamp": 1751276779,
       "reproducible": true,
       "error": null
     }
