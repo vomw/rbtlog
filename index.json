@@ -32431,6 +32431,20 @@
       "error": null
     }
   ],
+  "97351a70202de6e6d3f07ea2e671ccccd18bb1653462098522ef93adfcb34a34": [
+    {
+      "repository": "https://github.com/PaulWoitaschek/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/8.6.2/libre.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 3603049,
+      "version_name": "8.6.2",
+      "tag": "8.6.2",
+      "commit": "e74dbcdeb65a67d2e380f28406eafae51534f807",
+      "timestamp": 1751324885,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -45833,6 +45847,34 @@
       "tag": "v0.2.5",
       "commit": "b36c7bc07cf009289097e2e7d9ee33f01c4b72ac",
       "timestamp": 1742312637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f26474a3b6b35b2d9b5f0df0c67728721cf5c267ee0beda62318c2e290bf9d04": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.2.6/flickboard-v0.2.6-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 90,
+      "version_name": "0.2.6",
+      "tag": "v0.2.6",
+      "commit": "01325af1e093a8a81cb8fba661d80fe552189dd6",
+      "timestamp": 1751315411,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "acfceeda38fad35ec28c9f60061278b677c21565c139f599a17e4cfa959fa20f": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.2.6.1/flickboard-v0.2.6.1-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 91,
+      "version_name": "0.2.6.1",
+      "tag": "v0.2.6.1",
+      "commit": "6cc33dc01e2d5b6f62ab74cd2962b9e907d5909f",
+      "timestamp": 1751316009,
       "reproducible": true,
       "error": null
     }

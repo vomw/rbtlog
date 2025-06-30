@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/prathameshkhade/SysAdmin.git
-updates: releases
+updates: disable
+notes:
+  - rebranded to dev.prathameshkhade.sysadmin with v1.1.0
 versions:
   - tag: v1.0.28
     apks:
