@@ -2015,6 +2015,20 @@
       "error": null
     }
   ],
+  "d84e0263ad8c773f9dd768eb097a205e9c3f2aef1275625dca0d68d8a7f65dac": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.14.0/Pachli_2.14.0_32_2e4d24e4_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 32,
+      "version_name": "2.14.0",
+      "tag": "v2.14.0",
+      "commit": "2e4d24e4fdc7f27e017dd23cb894a505c03c18ee",
+      "timestamp": 1751312234,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -4363,6 +4377,20 @@
       "tag": "v2.1.100.7-beta",
       "commit": "68607f51ea40fca2df55b89a2b624c6d664fdb87",
       "timestamp": 1751287412,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "118cd48edd0538cc83d8f48209346c96e3ec12cbcb2c2e68977cecb6bc361ff0": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.1.102.258-beta/Rhythm-v2.1-b258.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 2102258,
+      "version_name": "2.1.102.258",
+      "tag": "v2.1.102.258-beta",
+      "commit": "d8aa425c6e3644112323a2bcbe45fffd23ec6df3",
+      "timestamp": 1751308445,
       "reproducible": true,
       "error": null
     }
@@ -8311,6 +8339,20 @@
       "tag": "2025.06.1143",
       "commit": "2a662f16d8f4dca1107a1f9b96388edbc8e4ddf3",
       "timestamp": 1751205251,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5450a316c05b42419712b197cfb98ea951ed3530623c6e0e5a172b311a9623bb": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.06.1144/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1144,
+      "version_name": "2025.06.1144",
+      "tag": "2025.06.1144",
+      "commit": "e29c5087239e4ee8cff88b5ec93df48c5c997192",
+      "timestamp": 1751308827,
       "reproducible": true,
       "error": null
     }
@@ -14375,6 +14417,20 @@
       "error": null
     }
   ],
+  "320f0cfe26acc5509c73389f805e866647cf67c0531ec7799e557f42d5369d66": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.6/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 123,
+      "version_name": "1.17.6",
+      "tag": "v1.17.6",
+      "commit": "22903dfd6e66e2323934ce5a8feec9292dbb195e",
+      "timestamp": 1751311121,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -18487,6 +18543,20 @@
       "error": null
     }
   ],
+  "91406c79b73f0c46fc07fe2deae31dcb62a7d8da74a304682bb1d4120d6f176b": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.8-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 98,
+      "version_name": "v0.9.8-beta-hotfix",
+      "tag": "v0.9.8-beta",
+      "commit": "a70c5fe08ed111f16d4c629a341ff5bd38beaba8",
+      "timestamp": 1751292018,
+      "reproducible": false,
+      "error": "signature copying failed: Unsupported compresslevel"
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -18679,6 +18749,20 @@
       "tag": "v0.2.2-beta",
       "commit": "425b3c82dd182096715a1480f75bea61e86f19c7",
       "timestamp": 1750876711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ebad6490286bdcb7870645f5aa2f8310641ccac954e1e2bfdb81ed264df778fb": [
+    {
+      "repository": "https://github.com/KoalaSat/pokey.git",
+      "apk_url": "https://github.com/KoalaSat/pokey/releases/download/v0.2.3-beta/pokey-universal-v0.2.3-beta.apk",
+      "appid": "com.koalasat.pokey",
+      "version_code": 20,
+      "version_name": "v0.2.3-beta",
+      "tag": "v0.2.3-beta",
+      "commit": "6192185dd0e4e57feae12116c995151ac3bca510",
+      "timestamp": 1751292510,
       "reproducible": true,
       "error": null
     }
@@ -20105,6 +20189,20 @@
       "tag": "v0.3.1",
       "commit": "66c011212a58e346f15c69fea682276fa2ce68cc",
       "timestamp": 1749995401,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "588fe251d228fd9e73ad77ba19af01123b5471d92bf3ddf92968777a851dadea": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.3.2/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 302,
+      "version_name": "0.3.2",
+      "tag": "v0.3.2",
+      "commit": "097665d7aa970b82b124e069f56fbcb905a4f5a9",
+      "timestamp": 1751309313,
       "reproducible": true,
       "error": null
     }
@@ -29019,6 +29117,20 @@
       "error": null
     }
   ],
+  "d43b11c2d74c8be8f54b509859b6551b1571e590cd9b0827ae5df74b35d902af": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.4/chooser-v1.4.4.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 17,
+      "version_name": "1.4.4",
+      "tag": "v.1.4.4",
+      "commit": "afd512bb82b98a7022cca6b5f4e95f2a1053ba17",
+      "timestamp": 1751292826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fc559baac9666bd427255779a82965938a4120cc0f13bd3eae0f493f94f1e749": [
     {
       "repository": "https://github.com/trinadhthatakula/Thor.git",
@@ -34665,6 +34777,20 @@
       "tag": "v2.17.4-rc0",
       "commit": "7a967ce648430d3c5475c2416c9153a53b1bda1b",
       "timestamp": 1750689606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5847649f734fbe39866795385510eb82f4c4d5b236f82e42877396755c7339f1": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.17.5-rc0/eu.darken.capod-v2.17.5-rc0-21705000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21705000,
+      "version_name": "2.17.5-rc0",
+      "tag": "v2.17.5-rc0",
+      "commit": "2b08d9a4d02a768a2a7844b8184b9086a31ec046",
+      "timestamp": 1751293082,
       "reproducible": true,
       "error": null
     }
@@ -43345,6 +43471,20 @@
       "error": null
     }
   ],
+  "e120898401161cb54cdde440f5791ae70fe27ade81a866ca908e0abeace729b6": [
+    {
+      "repository": "https://github.com/ProjectSolutus/Pomozen.git",
+      "apk_url": "https://github.com/ProjectSolutus/Pomozen/releases/download/v1.1.0/app-arm64-v8a-release.apk",
+      "appid": "org.projectsolutus.pomozen",
+      "version_code": 73,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "0cc450208fff7cc5c54e5471c582d4c09ad67aab",
+      "timestamp": 1751293503,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "968577a810ea422828cf837df0dea55718b44860b2f64c9a3873419968daa6cc": [
     {
       "repository": "https://github.com/ranobe-org/ranobe.git",
@@ -43425,6 +43565,20 @@
       "tag": "v1.0.7",
       "commit": "d81141b92d45ff9aba31499f8704ff23c621ab5e",
       "timestamp": 1748788491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "74d444c87b17e8dd3e84e8dbe5f4d06854a5c0f691503e530369bc78ec789677": [
+    {
+      "repository": "https://github.com/RevEngiSquad/revengi-app.git",
+      "apk_url": "https://github.com/RevEngiSquad/revengi-app/releases/download/v1.2.0/RevEngi-Android-arm64.apk",
+      "appid": "org.revengi.app",
+      "version_code": 12,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "6e53a5029ea10622f0187ad7302a9be6a9340d0e",
+      "timestamp": 1751294318,
       "reproducible": true,
       "error": null
     }
