@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: 1.1.2
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: TrustDevice-release.*\.apk
         apk_url: https://github.com/trustdecision/trustdevice-android/releases/download/1.1.2/TrustDevice-release-1.1.2.apk
         build:
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
