@@ -1,0 +1,51 @@
+---
+repository: https://github.com/vitamin-caig/zxtune.git
+updates: releases
+versions:
+  - tag: r5101
+    apks:
+      - apk_pattern: zxtune.*fdroid_arm64-v8a\.apk
+        apk_url: https://github.com/vitamin-caig/zxtune/releases/download/r5101/zxtune_r5101-fdroid_arm64-v8a.apk
+        build:
+          - echo -e "android.ndk=/build/android-sdk/ndk/23.2.8568313\nprebuilt.dir=.\ntools.python=python3\njumbo.enabled=1" > variables.mak
+          - sed -r "s/versionName computeVersionName.*/versionName '${APP_TAG}'/" -i make/android/android.gradle
+          - pushd apps/zxtune-android
+          - base64 -d > local.properties <<< a2V5Lm1vZGFyY2hpdmU9YWI0bmZnem0tbzZia3BhazQtcmZldzdiNm8td2k0dTc0bzgKY2RuLnJvb3Q9aHR0cHM6Ly9zdG9yYWdlLnp4dHVuZS5ydQphcGkucm9vdD1odHRwczovL2FwaS56eHR1bmUucnUKcHJveHkucm9vdD1odHRwczovL3Byb3h5Lnp4dHVuZS5ydQo=
+          - echo -e "flavors.splitted.abifilters=arm64-v8a" >> local.properties
+          - echo -e "sdk.dir=/build/android-sdk\nndk.version=23.2.8568313" >> local.properties
+          - echo -e "org.gradle.jvmargs=-Xmx8g\nandroid.useAndroidX=true" >> gradle.properties
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.7 -v assembleFdroid
+          - popd
+          - find . -name '*.apk'
+          - mv pkg/zxtune/outputs/apk/fdroidMinsdk16/release/zxtune-fdroid-minsdk16-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/zxtune
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /build/android-sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+            - make
+            - cmake
+            - g++
+            - gcc
+            - ccache
+            - xz-utils
+            - bzip2
+            - zip
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 23.2.8568313
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
