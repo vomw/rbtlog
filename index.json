@@ -1679,6 +1679,20 @@
       "error": null
     }
   ],
+  "a58f37606907d9e26fb7b03f060d683baa6563a0ef51e1f77725051016aa4016": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.7.1/cclauncher-v9.7.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 770,
+      "version_name": "v9.7.1",
+      "tag": "v9.7.1",
+      "commit": "5b9724448c914f39d414ded38536d1e3dd71f2be",
+      "timestamp": 1751464089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -4423,6 +4437,20 @@
       "error": null
     }
   ],
+  "b34a1ba065d0e34551a995584ad34c329a70c3e90bc4fca9dc3b3ef0ca9a5efb": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.1.106.267-stable/Rhythm-v2.1-s267.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 20206267,
+      "version_name": "2.1.106.267",
+      "tag": "v2.1.106.267-stable",
+      "commit": "85f55cd128ea1905cd481a14f6c4b419b3b09ba0",
+      "timestamp": 1751466002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -5805,6 +5833,20 @@
       "tag": "1.7.2",
       "commit": "a27efe9ad3c5e82ed086b2e50edf8fc35f537f39",
       "timestamp": 1750773623,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "503fb7031b56956aea57c768d842aa1f70ec520f8b86b5f8d51365ebcf1b9a47": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/1.8.0/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 15,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "4dc2c3db7ed27f882515c8bb354c20fac93449da",
+      "timestamp": 1751466318,
       "reproducible": true,
       "error": null
     }
@@ -12189,6 +12231,20 @@
       "tag": "v1.3.8",
       "commit": "329d82af3de5ca82b77229762a59ae2481667512",
       "timestamp": 1732212256,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c7f30edd4b362f4ff1065134342b88946a91d571040722af3df9192cfe1b35dc": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.3.9/nadamillas-1.3.9.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 37,
+      "version_name": "1.3.9.20250702",
+      "tag": "v1.3.9",
+      "commit": "9e01133e1f997a8524e9138a3899e81e39545195",
+      "timestamp": 1751491202,
       "reproducible": true,
       "error": null
     }
@@ -23129,6 +23185,20 @@
       "error": null
     }
   ],
+  "621ecb6f465c1321cf707259e8037010a32b8f8983659a8456e32f389005a526": [
+    {
+      "repository": "https://github.com/Parseus/codecinfo.git",
+      "apk_url": "https://github.com/Parseus/codecinfo/releases/download/release_2.8.0/app-standard-mobile-release.apk",
+      "appid": "com.parseus.codecinfo",
+      "version_code": 10027,
+      "version_name": "2.8.0",
+      "tag": "release_2.8.0",
+      "commit": "9101b9462423ac820c787221009d04045a2b1a81",
+      "timestamp": 1751466963,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "768e65b3d050b2d46cd65dbb6084b2ea91534016789b522b53c4ed75a05aae6e": [
     {
       "repository": "https://github.com/StellarSand/Password-Monitor.git",
@@ -27111,6 +27181,20 @@
       "tag": "V1.0.12",
       "commit": "1958b749abe0f4eb25dcfcb9798d38f103d07968",
       "timestamp": 1738450294,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "137c9b152a5a96a3584855fff4c603c01dff463fd70851439d534107d2b49b42": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.13/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 15,
+      "version_name": "1.0.13",
+      "tag": "V1.0.13",
+      "commit": "743ea69d56ec2ef14e0419e0181056de37bd95bc",
+      "timestamp": 1751467270,
       "reproducible": true,
       "error": null
     }
@@ -42787,6 +42871,20 @@
       "error": null
     }
   ],
+  "983edc0c89e7e3b8fbc11787c989de50d14d945e0e26aadc8a5efd19a3647d45": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/9.0.0/9.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 900,
+      "version_name": "9.0.0",
+      "tag": "9.0.0",
+      "commit": "adecebd8e72cb7eab91588ecc1c32cabb61a5958",
+      "timestamp": 1751467838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -46239,6 +46337,20 @@
       "tag": "v1.4.2",
       "commit": "fc5201022fb2104e7b65d4b8bbd86ad13ab3e727",
       "timestamp": 1740502028,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "47f02d3153dd4ab0c5d2715bffd5bbd61602718250a3c480310a428bc767d994": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.5.0/stasis-client-android-v1.5.0.apk",
+      "appid": "stasis.client.android",
+      "version_code": 9,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "c21c10744533b0d9edf04897c57cd4901113de84",
+      "timestamp": 1751473565,
       "reproducible": true,
       "error": null
     }
