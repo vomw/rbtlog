@@ -3191,6 +3191,20 @@
       "error": null
     }
   ],
+  "0c9e558cec10055443be814cfdba15e0dc9a1876205cf7fa337fad634be98c04": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.1-ose/davx5-ose-4.5.1-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405010003,
+      "version_name": "4.5.1-ose",
+      "tag": "v4.5.1-ose",
+      "commit": "12cedd401073a941e65c6703c94de05a3e265ab5",
+      "timestamp": 1751636876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -22555,6 +22569,20 @@
       "error": null
     }
   ],
+  "9205945f62281e9d118f5be14bd40cd5cce90443dceee86a8903c976a6ab6f2f": [
+    {
+      "repository": "https://github.com/nvllz/stepsy.git",
+      "apk_url": "https://github.com/nvllz/stepsy/releases/download/1.5.5/app-release.apk",
+      "appid": "com.nvllz.stepsy",
+      "version_code": 14,
+      "version_name": "1.5.5",
+      "tag": "1.5.5",
+      "commit": "6f3843c01f9a3b9c1ab9f95f30ea7573cf4d7618",
+      "timestamp": 1751653270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ba6c0da00c62db0013271e279705e46691967a914b1ee749d01cfa4c95c80a46": [
     {
       "repository": "https://github.com/ofalvai/HabitBuilder.git",
@@ -26453,6 +26481,20 @@
       "tag": "3.1.0",
       "commit": "9173c9e15d016e8791ab270428592f9b4c125247",
       "timestamp": 1749838868,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49f6e04302bc3b472f7987fb0512cf34a1297d51a05701a5007c69e35e6341a2": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/3.5.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 3200,
+      "version_name": "3.2.0",
+      "tag": "3.5.0",
+      "commit": "f5e6027416c51fac7cc7f9694bf804d054d326d6",
+      "timestamp": 1751637426,
       "reproducible": true,
       "error": null
     }
@@ -35467,6 +35509,20 @@
       "error": null
     }
   ],
+  "429d4cefa63081773aa8627b4179c77966f5f6e0e6247afb607947234aaf768f": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.4.15-rc0/eu.darken.sdmse-v1.4.15-rc0-10415000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10415000,
+      "version_name": "1.4.15-rc0",
+      "tag": "v1.4.15-rc0",
+      "commit": "f550bc5571c8808e94da495e2414c3601f8bfb0e",
+      "timestamp": 1751637831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -36065,6 +36121,20 @@
       "tag": "1.2284",
       "commit": "51c3f983a0935c84e7548b8b63305036bc049ab7",
       "timestamp": 1751553236,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f153ea4593beade67022773f16af985c005c5a61c36e600f391053dcb7a1e18a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2285/FairEmail-v1.2285a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2285,
+      "version_name": "1.2285",
+      "tag": "1.2285",
+      "commit": "387ad79bda930ac004e36d90b06d3949d6d105fb",
+      "timestamp": 1751638601,
       "reproducible": true,
       "error": null
     }
@@ -37729,6 +37799,20 @@
       "tag": "v1.16.17+86",
       "commit": "adbc30b7d81e47af4d1b347cd4ac091f5f3c2416",
       "timestamp": 1749477799,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "da791d0ba59494d50bef5f7586d2ac3d7578c4785f7d96ba0d9aa6eaeecfc6b0": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.16.20%2B89/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2089,
+      "version_name": "1.16.20",
+      "tag": "v1.16.20+89",
+      "commit": "f7630fdc6798c52a93c56318a861ad5a3ec1eda4",
+      "timestamp": 1751639068,
       "reproducible": true,
       "error": null
     }
