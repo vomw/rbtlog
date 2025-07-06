@@ -34391,6 +34391,20 @@
       "error": null
     }
   ],
+  "a4d2ed0bfc198fcd0900168f8ac18d02b7128bb82c27b06cde10b97a866cbaed": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v5.0.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 500,
+      "version_name": "5.0.0",
+      "tag": "v5.0.0",
+      "commit": "b4570719f21e66eb2a790669192653726d7c75ac",
+      "timestamp": 1751799688,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -43987,6 +44001,20 @@
       "tag": "3.6.0",
       "commit": "cbda0302f9458cc6eadb0cc6a5f204e5ce57ef07",
       "timestamp": 1751135774,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e80e520dc29668d568902f94d4da5151320103648457ec9bf7c560778cd676aa": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Smither.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Smither/releases/download/3.6.1/app-release.apk",
+      "appid": "org.nuclearfog.smither",
+      "version_code": 117,
+      "version_name": "3.6.1",
+      "tag": "3.6.1",
+      "commit": "c698165b99a2225f979694fbc97283d54cdfde51",
+      "timestamp": 1751800079,
       "reproducible": true,
       "error": null
     }
