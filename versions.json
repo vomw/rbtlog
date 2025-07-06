@@ -1,13 +1,13 @@
 {
   "cmdline_tools": {
-    "version": "12.0",
-    "url": "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip",
-    "sha256": "2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258"
+    "version": "19.0",
+    "url": "https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip",
+    "sha256": "7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee"
   },
   "nodejs-lts": {
-    "version": "v22.14.0",
-    "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-linux-x64.tar.xz",
-    "sha256": "69b09dba5c8dcb05c4e4273a4340db1005abeafe3927efda2bc5b249e80437ec"
+    "version": "v22.17.0",
+    "url": "https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-x64.tar.xz",
+    "sha256": "325c0f1261e0c61bcae369a1274028e9cfb7ab7949c05512c5b1e630f7e80e12"
   },
   "repro-apk": {
     "tag": "v0.3.0"
