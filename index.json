@@ -2631,6 +2631,20 @@
       "error": null
     }
   ],
+  "d16ca9833f983ab3b355a45077927426c62c5598a5e8594408b13196bbdcbc63": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v8.8.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 880,
+      "version_name": "v8.8.0",
+      "tag": "v8.8.0",
+      "commit": "c4b92046bc31ad4882caab6a82d21e4b46afbc72",
+      "timestamp": 1751809674,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -6673,6 +6687,20 @@
       "tag": "v11.0",
       "commit": "d06e8598e429af05c82a565cf2047b9247c0baf7",
       "timestamp": 1746382846,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c5826283ebefd9a0ad68ddc24a361cb0567302ec6c1f58c5232e9854267fb7ce": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v12.0/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 31,
+      "version_name": "12.0",
+      "tag": "v12.0",
+      "commit": "1a9447472e25b3bc19d67c964b9caf6eaa588617",
+      "timestamp": 1751810055,
       "reproducible": true,
       "error": null
     }
@@ -17577,6 +17605,20 @@
       "error": null
     }
   ],
+  "9b526fbd11e77ecc1ece496eb89a79d42fd1339e61aba54a5a201cd5f8a6510b": [
+    {
+      "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
+      "apk_url": "https://github.com/lukaspieper/Gcam-Services-Provider/releases/download/v1.6.1/app-photos-release.apk",
+      "appid": "com.google.android.apps.photos",
+      "version_code": 100000010,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "4f357e0a00c5242fdd790b95631c5caab82c7c14",
+      "timestamp": 1751810405,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "86490f924dedf92ba30138dcfbd179973e5d7c2c7acccefb5b4d7320fd6d16e4": [
     {
       "repository": "https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked.git",
@@ -19663,6 +19705,20 @@
       "error": null
     }
   ],
+  "e6b4d8339a3706721964fbd92b75d3659cae0123a1d950d47403d61d058a4ea2": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.6.6/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 660,
+      "version_name": "0.6.6",
+      "tag": "v0.6.6",
+      "commit": "53ca19f3978453d241a6b9655c0008d8ecebdb69",
+      "timestamp": 1751810541,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpy5ruffe6/outputs:/outputs', '--volume', '/tmp/tmpy5ruffe6/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Droid-ify/client.git', '--env', 'APP_TAG=v0.6.6', '--env', 'APP_COMMIT=53ca19f3978453d241a6b9655c0008d8ecebdb69', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "73b0076b9005341778eb2b27cb4b31a47e4d13b498aa2a3a2bf560f6fdc4794d": [
     {
       "repository": "https://github.com/Iamlooker/Kenko.git",
@@ -21183,6 +21239,20 @@
       "tag": "3.52.0",
       "commit": "72e7e535262d546a75d484a11e5c3179d06bd247",
       "timestamp": 1748205193,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b47174e4d45fe43a3f11d4da844c18e744010a799c16f1482a70d9ec0a5a7d86": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.53.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 905,
+      "version_name": "3.53.0",
+      "tag": "3.53.0",
+      "commit": "f15e6b3e55b5661680078ce40e899f4b14d8c19d",
+      "timestamp": 1751826070,
       "reproducible": true,
       "error": null
     }
@@ -23644,6 +23714,20 @@
       "commit": "d00300fa0ef512c82e93d9fb28545cdaccc4d0ac",
       "timestamp": 1749061263,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "85cd3579e21d018e7c793a7c0d485bb60bbfcaf7ff16dfcec01092b3966d0e96": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v7.4.2/NotallyX-7.4.2.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7420,
+      "version_name": "7.4.2",
+      "tag": "v7.4.2",
+      "commit": "a3ed6a7ef571ee1bc336e09172d88abb00920d06",
+      "timestamp": 1751826485,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -26579,6 +26663,20 @@
       "tag": "3.2.0",
       "commit": "dd6bb98fea45fd3eb5ee215dbaa3d5574d2006d0",
       "timestamp": 1751724477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee3e8966d6c2d3ad0f2afe674ed5130cd3f37eed07eedfbc62168c3e8091878d": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/3.2.1/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 3210,
+      "version_name": "3.2.1",
+      "tag": "3.2.1",
+      "commit": "662d3c83f3c3562822726cd8735e08bd11bcd6fb",
+      "timestamp": 1751811171,
       "reproducible": true,
       "error": null
     }
@@ -30083,6 +30181,20 @@
       "error": null
     }
   ],
+  "88573e77864e7762c3b4460614a59e525460e58eb725ec6f5dfae71139521af3": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.71.60/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27160,
+      "version_name": "2.71.60",
+      "tag": "V2.71.60",
+      "commit": "5cc14ea1b4cb0056fc03dd518000cef8dbe717f7",
+      "timestamp": 1751811588,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -32735,6 +32847,20 @@
       "tag": "v1.6.0",
       "commit": "ee192e61ca9a39a5072228db61e31d21f992b55a",
       "timestamp": 1738864997,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3de0a9fee4fc67389ea6f90a45e87474f8478c6940d73256925280f9285ddef2": [
+    {
+      "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
+      "apk_url": "https://github.com/lukaspieper/Gcam-Services-Provider/releases/download/v1.6.1/app-basic-release.apk",
+      "appid": "de.lukaspieper.gcam.services",
+      "version_code": 100000010,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "4f357e0a00c5242fdd790b95631c5caab82c7c14",
+      "timestamp": 1751811821,
       "reproducible": true,
       "error": null
     }
@@ -39241,6 +39367,20 @@
       "tag": "v0.2.5",
       "commit": "40818698c3b98515c557d22e9cc5df94930a2d3f",
       "timestamp": 1747690936,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "586e62664e6c1d8b611b2790ab42a24a155379a514b75890ec3cf454cdc1daa8": [
+    {
+      "repository": "https://github.com/tahaak67/Farhan.git",
+      "apk_url": "https://github.com/tahaak67/Farhan/releases/download/v0.2.6/app-release.apk",
+      "appid": "ly.com.tahaben.farhan",
+      "version_code": 11,
+      "version_name": "0.2.6",
+      "tag": "v0.2.6",
+      "commit": "497b7680b4f83c1d345cec7505a18eabea475711",
+      "timestamp": 1751827906,
       "reproducible": true,
       "error": null
     }

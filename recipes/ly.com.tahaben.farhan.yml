@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/tahaak67/Farhan.git
 updates: releases
+notes:
+  - 'FIXME: v0.2.6 needed double-reset, cleanup recipe before building next release'
 versions:
   - tag: v0.2.4
     apks:
@@ -36,6 +38,35 @@ versions:
       - apk_pattern: app-release\.apk
         apk_url: https://github.com/tahaak67/Farhan/releases/download/v0.2.5/app-release.apk
         build:
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.2.6
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/tahaak67/Farhan/releases/download/v0.2.6/app-release.apk
+        build:
+          - git checkout a35331def41f5e0e8e416fd37563aa48de233dc4
+          - git reset --soft 497b7680b4f83c1d345cec7505a18eabea475711
           - ./gradlew assembleRelease
           - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
