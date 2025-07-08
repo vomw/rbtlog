@@ -3499,6 +3499,20 @@
       "error": null
     }
   ],
+  "b12e6010f0c9238b81e691068684f4b295564b6efb62141e8ec8cdf0c12329b3": [
+    {
+      "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
+      "apk_url": "https://github.com/vbresan/MindfulnessMeditation/releases/download/6/biz.binarysolutions.mindfulnessmeditation-2.3.1-fdroid-release.apk",
+      "appid": "biz.binarysolutions.mindfulnessmeditation",
+      "version_code": 6,
+      "version_name": "2.3.1",
+      "tag": "6",
+      "commit": "25ab8731bb9e1c34431d9d851d7a2d235d7d405a",
+      "timestamp": 1751996400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7266dc67862fb11411f8cd99aa9f145055ab5e5ed9329409e03c15befd7272e": [
     {
       "repository": "https://github.com/vbresan/MindfulAttentionAwarenessScale.git",
@@ -14235,6 +14249,20 @@
       "error": null
     }
   ],
+  "579f475d03d718dd675ca967b4128360bdec602804a1440dfdbf17c11bc1904e": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.26/PrivateDnsQS-v1.26-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 29,
+      "version_name": "1.26",
+      "tag": "v1.26",
+      "commit": "c454a7a90b6d9e7b6219378468f3cd24391e0339",
+      "timestamp": 1751997006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a0f87f05598821a4276339d0b729a6674d3678bdb5a481a3103c17bfea1db481": [
     {
       "repository": "https://github.com/Futsch1/medTimer.git",
@@ -19099,6 +19127,20 @@
       "tag": "v0.2.4-beta",
       "commit": "57a06c41a62fd0b74262b2ac80871eddc41f2f7f",
       "timestamp": 1751390491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c15df83f46b1437e6cb01e3772829d2a5e35cc6d0e328ed9c928051f7effe4a": [
+    {
+      "repository": "https://github.com/KoalaSat/pokey.git",
+      "apk_url": "https://github.com/KoalaSat/pokey/releases/download/v0.2.5-beta/pokey-universal-v0.2.5-beta.apk",
+      "appid": "com.koalasat.pokey",
+      "version_code": 21,
+      "version_name": "v0.2.5-beta",
+      "tag": "v0.2.5-beta",
+      "commit": "4e796b40e60a5eb4f94187290713d71d00a68bb2",
+      "timestamp": 1751998868,
       "reproducible": true,
       "error": null
     }
@@ -32263,6 +32305,20 @@
       "error": null
     }
   ],
+  "ffec7308e5852397dda04d30c91d4b3a0e0597db4c6f864398f2cd99670c43ff": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.20.1/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 199,
+      "version_name": "2.20.1-foss",
+      "tag": "v2.20.1",
+      "commit": "fc9e95cdfa3299a40ab31781e468bad287bdf457",
+      "timestamp": 1751982496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ee1d4b9dfedd5e8f4afb7b81ec1a5e9791c75bd67fa9d87adb0bc5055c38d394": [
     {
       "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
@@ -35043,6 +35099,20 @@
       "tag": "0.7.5",
       "commit": "8d452a88bde2447eb3681c785043560e2f867d52",
       "timestamp": 1749753006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a949d62ee59619630aa08f03667bf444e08f0daeb0143cfd7b5336ac5cd7645a": [
+    {
+      "repository": "https://github.com/zacharee/InstallWithOptions.git",
+      "apk_url": "https://github.com/zacharee/InstallWithOptions/releases/download/0.8.0/InstallWithOptions_0.8.0-release.apk",
+      "appid": "dev.zwander.installwithoptions",
+      "version_code": 23,
+      "version_name": "0.8.0",
+      "tag": "0.8.0",
+      "commit": "41c80c51d3d083e2b6fdd8be8d3fef54d3a4cf7d",
+      "timestamp": 1751982881,
       "reproducible": true,
       "error": null
     }
@@ -41835,6 +41905,20 @@
       "error": null
     }
   ],
+  "4281d843ab1072ad247f7611daf13c4247ed27216996c67fc502ea150e4a4d82": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.16/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 168,
+      "version_name": "3.6.16",
+      "tag": "3.6.16",
+      "commit": "1452f47126f153a45870354be5be854cd3cdff82",
+      "timestamp": 1751983134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -47639,6 +47723,20 @@
       "tag": "v1.0.3",
       "commit": "fd46e269710dfb27b99cf7decd870d4f8ca0d1b1",
       "timestamp": 1735755226,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4ebdc87d6cc98e69b8177a3f4dd53831479bffcb70c2c6a82639b60b349cab2e": [
+    {
+      "repository": "https://github.com/v4lpt/TPC.git",
+      "apk_url": "https://github.com/v4lpt/TPC/releases/download/v1.0.4/VPT.016.1.0.4.apk",
+      "appid": "v4lpt.vpt.c016.TPC",
+      "version_code": 104,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "17307e6684ec6669cc1968ffd809a77fdc5dfd2b",
+      "timestamp": 1751997744,
       "reproducible": true,
       "error": null
     }
