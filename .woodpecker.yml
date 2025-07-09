@@ -1,0 +1,42 @@
+---
+when:
+  - event:
+    - cron
+    - manual
+steps:
+  - name: update-versions
+    image: python:3
+    commands:
+      - python3 -m pip install --upgrade pip
+      - python3 -m pip install -r requirements.txt
+      - python3 scripts/update-versions.py -v
+  - name: push-generated-data
+    image: appleboy/drone-git-push
+    settings:
+      branch: ci-update-versions
+      remote: "git@codeberg.org:${CI_REPO}"
+      author_name: "iodbot"
+      author_email: "no-reply+iodbot@codeberg.org"
+      commit: true
+      commit_message: "[skip ci] Update versions"
+      force: true
+      ssh_key:
+        from_secret: ci_push_key        # https://codeberg.org/IzzyOnDroid/rbtlog/settings/keys
+  - name: create-pr
+    image: johnwalkerx/gitea-pull-request-create-plugin:latest
+    pull: true
+    settings:
+      gitea_address: https://codeberg.org
+      gitea_token:
+        from_secret: ci_iodbot_api_key  # https://codeberg.org/user/settings/applications for iodbot
+      owner: ${CI_REPO_OWNER}
+      repo: ${CI_REPO_NAME}
+      branch: ci-update-versions
+      base_branch: code
+      pr_title: Update versions
+      pr_body: Update versions
+      skip_on_empty_branch: true
+      delete_branch_if_empty: true
+      close_pr_if_empty: true
+      delete_branch_if_pr_empty: true
+      delete_branch_after_merge: true
