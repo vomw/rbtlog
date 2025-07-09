@@ -3,6 +3,7 @@ repository: https://github.com/T8RIN/ImageResizer.git
 updates: releases
 notes:
   - 'WARN: since v3.1.1, uses ~25 GB RAM on build'
+  - 3.3.0 always runs into timeout; 4 builds, all identical, but with an off-by-one in baseline.prof
 versions:
   - tag: 2.9.0
     apks:
@@ -213,6 +214,44 @@ versions:
             version: '12.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 3.3.0
+    apks:
+      - apk_pattern: image-toolbox-.*-foss-arm64-v8a\.apk
+        apk_url: https://github.com/T8RIN/ImageToolbox/releases/download/3.3.0/image-toolbox-3.3.0-foss-arm64-v8a.apk
+        build:
+          - sed -r 's/supportedAbi = arrayOf\(.*\)/supportedAbi = arrayOf("arm64-v8a")/' -i app/build.gradle.kts
+          - sed -r '/abi \{/,/}/ { s/isEnable = true/isEnable = false/ ; s/isUniversalApk = true/isUniversalApk = false/ }' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fossRelease/compileFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=74b893faa319346e9345752b7d7c7181e2a8001a
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFossRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - echo find . -name '*.apk'
+          - echo mv app/build/outputs/apk/foss/release/image-toolbox-*-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_timeout: 40
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless

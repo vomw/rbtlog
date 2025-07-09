@@ -3513,6 +3513,20 @@
       "error": null
     }
   ],
+  "fba1483a8a4d6cf3b94dc7798272684982ff1aaef560e76cc25b02c34dd1a1be": [
+    {
+      "repository": "https://github.com/vbresan/MindfulnessMeditation.git",
+      "apk_url": "https://github.com/vbresan/MindfulnessMeditation/releases/download/7/biz.binarysolutions.mindfulnessmeditation-2.3.2-fdroid-release.apk",
+      "appid": "biz.binarysolutions.mindfulnessmeditation",
+      "version_code": 7,
+      "version_name": "2.3.2",
+      "tag": "7",
+      "commit": "256d6f6b5f11f1246c639fa22ee1d519a458f5cc",
+      "timestamp": 1752068881,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7266dc67862fb11411f8cd99aa9f145055ab5e5ed9329409e03c15befd7272e": [
     {
       "repository": "https://github.com/vbresan/MindfulAttentionAwarenessScale.git",
@@ -17657,6 +17671,20 @@
       "tag": "9.5.2",
       "commit": "43c90bb8f03d725af16297f2564cceb57ac71f90",
       "timestamp": 1748440740,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "72355348b95e83562db9ca18aaea97d679e0d344341e59bc91620811771e4e7a": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 134,
+      "version_name": "9.6.0",
+      "tag": "9.6.0",
+      "commit": "940fe11828331933b400f19b37826d1fe1b0ff27",
+      "timestamp": 1752092029,
       "reproducible": true,
       "error": null
     }
@@ -34713,6 +34741,20 @@
       "error": null
     }
   ],
+  "ff5d66162705a3e35e108ff74e30d1daf35220f68153640f331cbac4774818af": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v6.0.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 600,
+      "version_name": "6.0.0",
+      "tag": "v6.0.0",
+      "commit": "90350b1f0cc6f5eab5137a9060e9059f651f3a4e",
+      "timestamp": 1752069173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -38825,6 +38867,20 @@
       "error": null
     }
   ],
+  "51f0dbc71df882a170bac6c3b82edda80ab392440863f4d21ee2192bd43401c9": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6294/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6294,
+      "version_name": "6294",
+      "tag": "v6294",
+      "commit": "a541b8a993cb935e8e008b2b58c50459e18bc0fd",
+      "timestamp": 1752069436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24fe8bf61626ddd2b1dd5434d564c381296bcc8f62397fa8d5d154ff1bab61f1": [
     {
       "repository": "https://github.com/fast4x/RiMusic.git",
@@ -41915,6 +41971,20 @@
       "tag": "3.6.16",
       "commit": "1452f47126f153a45870354be5be854cd3cdff82",
       "timestamp": 1751983134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5640feef95b008645c1e3e5101d496d16fd25fa6c156548ee59065574c3b904e": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.17/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 169,
+      "version_name": "3.6.17",
+      "tag": "3.6.17",
+      "commit": "3fbc049acee8cac770289f5f30e87a80baa13dc5",
+      "timestamp": 1752069696,
       "reproducible": true,
       "error": null
     }
@@ -46787,6 +46857,20 @@
       "timestamp": 1741550342,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "f75dd69232b000764cdf22980dd69b3d150ae6d22a8cd12d28355dcbcda11d57": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.3.0/image-toolbox-3.3.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 176,
+      "version_name": "3.3.0",
+      "tag": "3.3.0",
+      "commit": "1afb7aef2483288d60b350251f2e67e3be335e18",
+      "timestamp": 1752096783,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpzd5dtiee/outputs:/outputs', '--volume', '/tmp/tmpzd5dtiee/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/T8RIN/ImageResizer.git', '--env', 'APP_TAG=3.3.0', '--env', 'APP_COMMIT=1afb7aef2483288d60b350251f2e67e3be335e18', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "1ffd3e4a7357890026224a9465a262e645b04330d1a76a49cc0fbfc24b0f0aac": [
