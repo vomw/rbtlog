@@ -4577,6 +4577,20 @@
       "error": null
     }
   ],
+  "004c27946fc53dbf06c4b97166e6b8c4dbfecfdc11c5a0ef6dc33fff3ba41500": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.2.120.332-stable/Rhythm-v2.2-s332.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 22120332,
+      "version_name": "2.2.120.332",
+      "tag": "v2.2.120.332-stable",
+      "commit": "1dfc2c6592606b2ddd3a00b519b9f8bf70f2e658",
+      "timestamp": 1752155293,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -15337,6 +15351,20 @@
       "tag": "2.6.24",
       "commit": "ee03213a3a323f27bfec01aacf2c38a2a0c80204",
       "timestamp": 1750878525,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "77631216c9269e6d79b56378ba34ef835ee593f674a4826ab76065b57bcc58fb": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.6.30/fdroidRelease-2.6.30.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 30630,
+      "version_name": "2.6.30",
+      "tag": "2.6.30",
+      "commit": "1368cf4a14fa9110ebb26bc1fc0151a918b46e68",
+      "timestamp": 1752155634,
       "reproducible": true,
       "error": null
     }
@@ -32109,6 +32137,20 @@
       "error": null
     }
   ],
+  "520676b9542efe5d1e84296df2c8907f4109368c3d00b3379acc6cc169a66e29": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.17.5/RecurringExpenseTracker_0.17.5.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 44,
+      "version_name": "0.17.5",
+      "tag": "v0.17.5",
+      "commit": "420a37af5814eb859a55210c163cdf6525e0aec5",
+      "timestamp": 1752156578,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -33761,6 +33803,20 @@
       "error": null
     }
   ],
+  "5a547c9398ec20c70e044ed0592120402706eca18991f2a083d3cb19020c47d4": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.3.2/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 241,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "3e0799fad3c82033c6ade95acf99730cb687a416",
+      "timestamp": 1752156877,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -34751,6 +34807,20 @@
       "tag": "v6.0.0",
       "commit": "90350b1f0cc6f5eab5137a9060e9059f651f3a4e",
       "timestamp": 1752069173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f92499a4d382b5debee93da90436e8c0d199a6f8f931c8dd2637bfdd6ad04d48": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v6.0.1/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 601,
+      "version_name": "6.0.1",
+      "tag": "v6.0.1",
+      "commit": "0683774bee9dba3e20277735f9a556c853efd177",
+      "timestamp": 1752171888,
       "reproducible": true,
       "error": null
     }
@@ -37831,6 +37901,20 @@
       "error": null
     }
   ],
+  "5cd1cd15a829b2cf379989496cd8454761545c3a05bffff3bb45b47b3f07ab7e": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/6a12f6df856c875eaa8896606036a225/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 17,
+      "version_name": "v0.17",
+      "tag": "v0.17",
+      "commit": "bb46ce553418ba5cf8f2c1d8c0094e4b46aa9d17",
+      "timestamp": 1752157340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0504f18d07ebf1afbca4ba7e0f6e91e669a5f7ec6e34dc0377df504c0f9a680f": [
     {
       "repository": "https://gitlab.com/sunilpaulmathew/izzyondroid.git",
@@ -37855,6 +37939,20 @@
       "tag": "v0.5",
       "commit": "fcfa72ae188bf49da86d1d232cea5ceba4ca47f4",
       "timestamp": 1729437596,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b94f9620bcc162596194db35db73551d9673da6119d4c2b5acb75394cc6bbeba": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/Weather.git",
+      "apk_url": "https://github.com/sunilpaulmathew/Weather/releases/download/v0.6/app-release.apk",
+      "appid": "in.sunilpaulmathew.weatherwidget",
+      "version_code": 6,
+      "version_name": "v0.6",
+      "tag": "v0.6",
+      "commit": "f3d61152a6769711b13f20802eddcea8dbc86d1d",
+      "timestamp": 1752157487,
       "reproducible": true,
       "error": null
     }
@@ -38877,6 +38975,20 @@
       "tag": "v6294",
       "commit": "a541b8a993cb935e8e008b2b58c50459e18bc0fd",
       "timestamp": 1752069436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b038e800c57bd965db89d487237084a6e1b63c7846696d0e693774ef39205388": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6295/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6295,
+      "version_name": "6295",
+      "tag": "v6295",
+      "commit": "213e52abfc7101433cdc4aabbef133489556692d",
+      "timestamp": 1752157688,
       "reproducible": true,
       "error": null
     }
