@@ -1917,6 +1917,20 @@
       "error": null
     }
   ],
+  "30fb607b8c40285301772fb9550f319ae1eb480845a3dd7c62916eb51af598a8": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.8.1/MultiLauncher-1.10.8.1-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100801,
+      "version_name": "1.10.8.1",
+      "tag": "1.10.8.1",
+      "commit": "c6eea943f20797b57a1ae1ecb332b9ff4c39ff4a",
+      "timestamp": 1752241695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -2151,6 +2165,20 @@
       "tag": "build106.2.1",
       "commit": "bbe775c6461c789b55e5fcc05874dad787df38a0",
       "timestamp": 1749666097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "408cd4464d8bc8c93c5676d82676f07982ec3cde58156c99c6ead859f03f51d0": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.3.0/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10630,
+      "version_name": "build106.3.0",
+      "tag": "build106.3.0",
+      "commit": "327c24db7895a0ed6adc1f01490131bfd6dc3de8",
+      "timestamp": 1752242060,
       "reproducible": true,
       "error": null
     }
@@ -5417,6 +5445,20 @@
       "error": null
     }
   ],
+  "0f4e918adca8da03bfcc978ac14851a7e0d998e25d7ac002a1db0fd255744a8d": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.5.2/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 34,
+      "version_name": "2.5.2",
+      "tag": "2.5.2",
+      "commit": "cbe71ade73ed419ba44124f3a57cf2a5ad9f9a4b",
+      "timestamp": 1752242483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a167ecfa2e4181b6bba459829746dc03d5540b67eb076287bb7d80853cf10f53": [
     {
       "repository": "https://github.com/Ammar64/Files-Center.git",
@@ -6100,6 +6142,20 @@
       "commit": "2d1679b09cd7eb459eb349749aec32eaef50f170",
       "timestamp": 1751551351,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1f245c626b91d0c692c8b41592ac7497ec7f5fffe9716e00512085249a2642b": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.10-beta/fomodoro-v1.10.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 9,
+      "version_name": "1.9",
+      "tag": "v1.10-beta",
+      "commit": "5478c0c3cd2ec63ec556fcd7f91cc4e7ffea60d9",
+      "timestamp": 1752258080,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -9729,6 +9785,20 @@
       "error": null
     }
   ],
+  "f540b0a88073a531f9ac6bea041899272e73f9368fcadd04b468598e14dfab2e": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.0-build-23/app-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 3,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0-build-23",
+      "commit": "fa4411f78a403e7516fcbe560d42c9819e9146e2",
+      "timestamp": 1752258309,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0db88fde4c82a7dfba88883255d57534d8200db29839f5ba1d01471abc5869ec": [
     {
       "repository": "https://github.com/coleblvck/MethodCall.git",
@@ -10467,6 +10537,20 @@
       "tag": "v0.8.1",
       "commit": "e853991c93b75a74e41a2cd6628c10d38808953f",
       "timestamp": 1746543311,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "61877eaaee3c94d81cd6c372c25758788cd2be987c431765f9375509465d557d": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.0-final/OuterTune-0.9.0-core-arm64-v8a-release-62.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 62,
+      "version_name": "0.9.0",
+      "tag": "v0.9.0-final",
+      "commit": "2b2f1d40fdd4decdb7cbbf079237e0f2141ec86f",
+      "timestamp": 1752260452,
       "reproducible": true,
       "error": null
     }
@@ -13853,6 +13937,20 @@
       "tag": "v1.31.1",
       "commit": "74c5b23f20028f7ff275465d57b278351d439bed",
       "timestamp": 1750945675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3efd2133110116ec4f7bfac2d341aec5fea0d5227faab5122d3d3fe08fcb346": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.31.2/com.fibelatti.photowidget-v1.31.2-1310200-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1310200,
+      "version_name": "1.31.2",
+      "tag": "v1.31.2",
+      "commit": "619ece913859edc4e6d493beb9825d97ae5ced25",
+      "timestamp": 1752258787,
       "reproducible": true,
       "error": null
     }
@@ -31675,6 +31773,20 @@
       "error": null
     }
   ],
+  "d8bd5db901229680efe1bbde7cde9f78cc817c3d8eb12becacc95b2a3674380c": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.49/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 49,
+      "version_name": "0.1.49",
+      "tag": "0.1.49",
+      "commit": "7bbe911318fba6144503a6d3129ce95630e97316",
+      "timestamp": 1752250433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "057ffac452f55ed9b98611ef2ba35a315c4f111f42dedd55db7b5084a5b14e61": [
     {
       "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
@@ -32189,6 +32301,20 @@
       "tag": "v2.3.0",
       "commit": "8385d72b4e5856f7937f193b3c31d9aac053b80a",
       "timestamp": 1721163348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "53eb20fc2ea6e52c0c794cb5a00098ad00ea06ab80d65c958f73c741011d17cf": [
+    {
+      "repository": "https://github.com/scheibler/TactileClock.git",
+      "apk_url": "https://github.com/scheibler/TactileClock/releases/download/v2.4.0/TactileClock_v2.4.0.apk",
+      "appid": "de.eric_scheibler.tactileclock",
+      "version_code": 12,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "8a0838626bbff3f999e6f1c0c623ec036b58b4a5",
+      "timestamp": 1752243606,
       "reproducible": true,
       "error": null
     }
@@ -33267,6 +33393,20 @@
       "tag": "2.11.3",
       "commit": "5ffe1a189a332221f819f772ce243b1098cecf7d",
       "timestamp": 1741889807,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "17447aa7f2452e0ba8482e895c6080ec81a384461aa1801f6c560c432c965beb": [
+    {
+      "repository": "https://codeberg.org/qwerty287/ftpclient.git",
+      "apk_url": "https://codeberg.org/qwerty287/ftpclient/releases/download/2.12.1/release.apk",
+      "appid": "de.qwerty287.ftpclient",
+      "version_code": 25,
+      "version_name": "2.12.1",
+      "tag": "2.12.1",
+      "commit": "80c764fe03807e7d4b3120d5473006ff02be14d5",
+      "timestamp": 1752243783,
       "reproducible": true,
       "error": null
     }
@@ -35029,6 +35169,20 @@
       "tag": "v1.4.1",
       "commit": "7ceb599d9f02f9f1f528cba747aec78c7e6ef519",
       "timestamp": 1749391610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "98c869b2027612f4902e091f02345ede0b9d9852ca47e411bdb56156fccc6e39": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v1.4.2/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 7,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "5ecd3ec7d11fd5bf3771452c868f3281d0c6bc55",
+      "timestamp": 1752245891,
       "reproducible": true,
       "error": null
     }
@@ -38265,6 +38419,20 @@
       "error": null
     }
   ],
+  "11a6999ac9c02aec61d4ae4b9b7ba48e28ef7d9aacf65a9ab835d59a0286aebb": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.2.0/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "edc48d41f54c389577a35b81fa68de5645a06870",
+      "timestamp": 1752260993,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -39003,6 +39171,20 @@
       "tag": "v6295",
       "commit": "213e52abfc7101433cdc4aabbef133489556692d",
       "timestamp": 1752157688,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b0cbcaac70e24ef719f6ca4c89fbac0548fd7bef7ae6d421088a810348e98b83": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6302/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6302,
+      "version_name": "6302",
+      "tag": "v6302",
+      "commit": "484df04f23fe48f0cd9ad7c1f999510625750982",
+      "timestamp": 1752246123,
       "reproducible": true,
       "error": null
     }
@@ -42115,6 +42297,20 @@
       "error": null
     }
   ],
+  "ef3842e80f7800147cbeff2e9ca7d23ad56f752d77c763c3164945a78e40a3c2": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.18/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 170,
+      "version_name": "3.6.18",
+      "tag": "3.6.18",
+      "commit": "fb307e05a9ee47d88b45541f02f2c6743a31552d",
+      "timestamp": 1752246553,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -43175,6 +43371,20 @@
       "tag": "1.5.1",
       "commit": "f15990e5c65d650e4ff57962f674368b6f69f7ea",
       "timestamp": 1750172323,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "14926c1f55f45caa2650d769830691cab5b6ecac117687573ea6ace3b2204fbd": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.6.0/phone-10-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 10,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "c4e380bdcedd2de96c9b091a11bfb100ff47af07",
+      "timestamp": 1752261339,
       "reproducible": true,
       "error": null
     }
@@ -46789,6 +46999,20 @@
       "error": null
     }
   ],
+  "6df1aa71889ee5cb96d2d155f233213e095db90ff21b2c2aa51c13a5bf6951c1": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.1/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 56,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "336691c88010b1577ec403c6501cb308d86031a4",
+      "timestamp": 1752246753,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58aaa2fe59af915f1fe88a560d472bd9aa68ebb75ae7f30444dd8081384ed136": [
     {
       "repository": "https://github.com/BlueCat300/XposedAppSettings.git",
@@ -48353,6 +48577,20 @@
       "tag": "2.1.2",
       "commit": "66d5c708395ba2957a63399475df31bd72a86faa",
       "timestamp": 1751223543,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71319c4d7da3aa57abbf50a95506de13bdfaa42c7e1b9f4469a9c5a5603c522b": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.3/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 39,
+      "version_name": "2.1.3",
+      "tag": "2.1.3",
+      "commit": "48e23b25fd69198c423a4b4195b16af41aa8942e",
+      "timestamp": 1752263747,
       "reproducible": true,
       "error": null
     }

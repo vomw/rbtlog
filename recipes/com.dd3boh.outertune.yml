@@ -521,3 +521,45 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.9.0-final
+    apks:
+      - apk_pattern: OuterTune-.*-core-arm64-v8a-release-.*\.apk
+        apk_url: https://github.com/OuterTune/OuterTune/releases/download/v0.9.0-final/OuterTune-0.9.0-core-arm64-v8a-release-62.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/coreRelease/compileCoreReleaseArtProfile/baseline.prof
+          - PROF_SHA1=4b93abf25358c1a4dba0843ede78baac577d2444
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleCoreRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="app/build/outputs/apk/core/release/OuterTune-*-core-arm64-v8a-release*.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
