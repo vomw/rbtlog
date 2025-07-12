@@ -47237,6 +47237,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpzd5dtiee/outputs:/outputs', '--volume', '/tmp/tmpzd5dtiee/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/T8RIN/ImageResizer.git', '--env', 'APP_TAG=3.3.0', '--env', 'APP_COMMIT=1afb7aef2483288d60b350251f2e67e3be335e18', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "8edbbc20a8dcaceaa3fe4117b11466f522d2130a6b47c61ad10de92cc09af32e": [
+    {
+      "repository": "https://github.com/Wohlstand/ADLMIDI-Player-Java.git",
+      "apk_url": "https://github.com/Wohlstand/ADLMIDI-Player-Java/releases/download/v1.6.0/ADLMIDI-Player-android-v1.6.0.apk",
+      "appid": "ru.wohlsoft.adlmidiplayer",
+      "version_code": 1060000,
+      "version_name": "1.6.0.0",
+      "tag": "v1.6.0",
+      "commit": "a706a0370b573559cfc16dd8b81a94bde9029721",
+      "timestamp": 1752333249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab03b9f97007fce3cfbd803592831c5d13df1af10fe1be7a23eac0d4994c5316": [
     {
       "repository": "https://github.com/Wohlstand/OPNMIDI-Player-Java.git",
