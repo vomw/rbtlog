@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/knighthat/Kreate.git
 updates: releases
+notes:
+  - 'FIXME: next release uses assembleIzzyRelease instead of just assembleIzzy'
 versions:
   - tag: v1.2.0
     apks:

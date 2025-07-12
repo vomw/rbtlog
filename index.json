@@ -18599,6 +18599,20 @@
       "error": null
     }
   ],
+  "0b24766035cdc173564836798c6d2a8f5f7df821bd056adacd521195fbc8d669": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.79/app-release.apk",
+      "appid": "com.jerboa",
+      "version_code": 79,
+      "version_name": "0.0.79",
+      "tag": "0.0.79",
+      "commit": "5b913c0db6f015e205283d7473129098d99d1feb",
+      "timestamp": 1752280936,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -47221,6 +47235,20 @@
       "timestamp": 1752096783,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpzd5dtiee/outputs:/outputs', '--volume', '/tmp/tmpzd5dtiee/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/T8RIN/ImageResizer.git', '--env', 'APP_TAG=3.3.0', '--env', 'APP_COMMIT=1afb7aef2483288d60b350251f2e67e3be335e18', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
+  "ab03b9f97007fce3cfbd803592831c5d13df1af10fe1be7a23eac0d4994c5316": [
+    {
+      "repository": "https://github.com/Wohlstand/OPNMIDI-Player-Java.git",
+      "apk_url": "https://github.com/Wohlstand/OPNMIDI-Player-Java/releases/download/v1.6.0/OPNMIDI-Player-android-v1.6.0.apk",
+      "appid": "ru.wohlsoft.opnmidiplayer",
+      "version_code": 1060000,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "c1e0b15f05760e674597e8bc384e89d3dc3d2b96",
+      "timestamp": 1752287108,
+      "reproducible": true,
+      "error": null
     }
   ],
   "1ffd3e4a7357890026224a9465a262e645b04330d1a76a49cc0fbfc24b0f0aac": [
