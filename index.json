@@ -44299,6 +44299,20 @@
       "error": null
     }
   ],
+  "789ea9742ef3f02582270de67fc94a4e1f3d4011d043bff6af9cf2b6d38460f3": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.0.0/tomato-v1.0.0-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 2,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "d41745c74d1d79122dd6edfe0babf8e6221c1677",
+      "timestamp": 1752401971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -45525,6 +45539,20 @@
       "tag": "v2.4.1",
       "commit": "a2ddda2eed09a0849dd5dba6d176ef2f1dbca1fc",
       "timestamp": 1746974299,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b66aaea1fae7230a188de73b5508bbcf7272e492f8094a8d48af032355542853": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.0/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 21,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "9126c283e5ebd512f4aa5aeeccf2e90a1977e729",
+      "timestamp": 1752358932,
       "reproducible": true,
       "error": null
     }
