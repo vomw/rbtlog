@@ -1707,6 +1707,20 @@
       "error": null
     }
   ],
+  "d3a15169755258c9aa79cef0a2b527f7d4113579e95bc2337109c8032a369096": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.8.1/cclauncher-v9.8.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 800,
+      "version_name": "v9.8.1",
+      "tag": "v9.8.1",
+      "commit": "d3887ed08cbd560d6c5ea2e164b87c5919ee2b0a",
+      "timestamp": 1752430860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -5473,6 +5487,20 @@
       "error": null
     }
   ],
+  "be6cad62b5d9ecea737e9c550a2029a00809df4f5c3ca8f63d66cc7feaa5168f": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.5.3/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 35,
+      "version_name": "2.5.3",
+      "tag": "2.5.3",
+      "commit": "61708ba9e5c351bacc01daf158b23c98258e7c11",
+      "timestamp": 1752414478,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a167ecfa2e4181b6bba459829746dc03d5540b67eb076287bb7d80853cf10f53": [
     {
       "repository": "https://github.com/Ammar64/Files-Center.git",
@@ -6170,6 +6198,20 @@
       "commit": "5478c0c3cd2ec63ec556fcd7f91cc4e7ffea60d9",
       "timestamp": 1752258080,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "a98de28c5e6669174f654e2dd5e0ba11f35ae4a2a79263b440f18f484ed91cce": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.11-beta/fomodoro_v1.11.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 11,
+      "version_name": "1.11",
+      "tag": "v1.11-beta",
+      "commit": "1f1f7abf9bbb61a36fb1a3aabc922f7916482d50",
+      "timestamp": 1752414645,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -22221,6 +22263,20 @@
       "error": null
     }
   ],
+  "52504e15e6d075bdac56eb343e1e94e45b84feb6a71f54f168b5ae72059b72bc": [
+    {
+      "repository": "https://github.com/ribbons/TaskerRsync.git",
+      "apk_url": "https://github.com/ribbons/TaskerRsync/releases/download/0.16/com.nerdoftheherd.tasker.rsync_0.16.apk",
+      "appid": "com.nerdoftheherd.tasker.rsync",
+      "version_code": 439,
+      "version_name": "0.16",
+      "tag": "0.16",
+      "commit": "6803f7577b4a9eea28208a5b7e2da7067e31b6cd",
+      "timestamp": 1752414808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ded47acf62b75ab5425fb2e350ade7765a8df7212e32c3e7bfc5e142c9837638": [
     {
       "repository": "https://github.com/gamemn02/Settings-Database-Provider.git",
@@ -26373,6 +26429,20 @@
       "tag": "v3.2.0",
       "commit": "d8c85c46b960ffd49976cabf6b4950d1cef9e05e",
       "timestamp": 1748782750,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a711064f002fc6da42c9e1a9fee9f1be1541af0e750c2ace37aa74dae96b648": [
+    {
+      "repository": "https://github.com/SamLeatherdale/OpenLinkWith.git",
+      "apk_url": "https://github.com/SamLeatherdale/OpenLinkWith/releases/download/v3.3.1/app-floss-release.apk",
+      "appid": "com.samleatherdale.openwith.floss",
+      "version_code": 30301,
+      "version_name": "3.3.1-floss",
+      "tag": "v3.3.1",
+      "commit": "c952cae95794da0cd9d64122f98282350cfaaba9",
+      "timestamp": 1752430210,
       "reproducible": true,
       "error": null
     }
@@ -34783,6 +34853,20 @@
       "error": null
     }
   ],
+  "f03fce61cf705733b87c6e8df3cfa39c00fc42b9ea0b29f149d8d5b797998e96": [
+    {
+      "repository": "https://github.com/PranavPurwar/AppLock.git",
+      "apk_url": "https://github.com/PranavPurwar/AppLock/releases/download/v1.4.0/app-release.apk",
+      "appid": "dev.pranav.applock",
+      "version_code": 5,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "156f279ff2fcfc10147fb8a8d69ef31e04ee866c",
+      "timestamp": 1752415425,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b81174deddede1defe8b8f412e8f0c6bb225cddd15c4cf0253628c5c8f1ac1da": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -41443,6 +41527,20 @@
       "error": null
     }
   ],
+  "0e29cef06be645b745b0524ba322cd6b7bd894c9063268286e338afe67a42df8": [
+    {
+      "repository": "https://github.com/mlm-games/geotag-video-camera.git",
+      "apk_url": "https://github.com/mlm-games/geotag-video-camera/releases/download/1.2.3/app-universal-release.apk",
+      "appid": "org.app.geotagvideocamera",
+      "version_code": 140,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "44e397cd1090910148107583d7e9effc42e68351",
+      "timestamp": 1752415623,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "acd1ed73609741d16bb29ece214c863694502cce15794760cba5b0ba17c1e0d7": [
     {
       "repository": "https://github.com/pewaru-333/ShikiApp.git",
@@ -42825,6 +42923,20 @@
       "tag": "1.2.2",
       "commit": "02a77a2f8d0d00da17e05e51b9e4bd19cc48beea",
       "timestamp": 1750604166,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca45f852bda1dd12ae1d2b02d1dfa4e174e5bade7b85046586cb0faf16c278d4": [
+    {
+      "repository": "https://github.com/FossifyOrg/Clock.git",
+      "apk_url": "https://github.com/FossifyOrg/Clock/releases/download/1.3.0/clock-6-foss-release.apk",
+      "appid": "org.fossify.clock",
+      "version_code": 6,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "9b6795734707e6428075dedbf358ee462cdd7a35",
+      "timestamp": 1752431561,
       "reproducible": true,
       "error": null
     }
