@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.6.0
     apks:
-      - apk_pattern: OPNMIDI-Player-android.*\.apk
+      - apk_pattern: ADLMIDI-Player-android.*\.apk
         apk_url: https://github.com/Wohlstand/ADLMIDI-Player-Java/releases/download/v1.6.0/ADLMIDI-Player-android-v1.6.0.apk
         build:
           - export PIN_ALIAS="" DB_PASS_ALIAS=""

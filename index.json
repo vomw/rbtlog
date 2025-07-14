@@ -1959,6 +1959,20 @@
       "error": null
     }
   ],
+  "498690e809a797e4c2cc4c05fb2e07036517fa108694d0a17772ee1eb38ca7c9": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.8.3/MultiLauncher-1.10.8.3-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100803,
+      "version_name": "1.10.8.3",
+      "tag": "1.10.8.3",
+      "commit": "038805f2b78bfe11a14fcd2a9f0743615c5322ad",
+      "timestamp": 1752500890,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -3947,6 +3961,20 @@
       "error": null
     }
   ],
+  "d23a10beb403a1290e686894906185f552822d546391a67e4ca7e3cd42a032a7": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.36.2/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3036002,
+      "version_name": "3.36.2",
+      "tag": "3.36.2",
+      "commit": "06c097de9367a7508e27a1f32edc8b0660a72cd8",
+      "timestamp": 1752501249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aea5c7256ac62aa3262c8d47efd407be6c6b7e790102cd93a9b2776511800cbb": [
     {
       "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
@@ -4643,6 +4671,20 @@
       "tag": "v2.2.120.332-stable",
       "commit": "1dfc2c6592606b2ddd3a00b519b9f8bf70f2e658",
       "timestamp": 1752155293,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7ed3fde282ae1ba7b6ae0f0750ee2bd95ddb7c37088f53b6e1a9a086923fe4e4": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.3.128.367-stable/Rhythm-v2.3-s367.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 23128367,
+      "version_name": "2.3.128.367",
+      "tag": "v2.3.128.367-stable",
+      "commit": "b6bdd8a3818647b22296392204594b0b4908b904",
+      "timestamp": 1752501570,
       "reproducible": true,
       "error": null
     }
@@ -6351,6 +6393,20 @@
       "tag": "4.7.2",
       "commit": "5db149f438b2b33954291ab3ce5d4986d4421157",
       "timestamp": 1749659355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "561732d6f40b24f23cfae5775158bc4d7ef5722426b640f0e8d1d36ea81cd503": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://gitlab.com/-/project/6922885/uploads/8c0824338bc0b8431271b8ae7d9049e4/AuroraStore-4.7.3.apk",
+      "appid": "com.aurora.store",
+      "version_code": 69,
+      "version_name": "4.7.3",
+      "tag": "4.7.3",
+      "commit": "3dc3c2a452b4ebec040995773a1915a696f5af4b",
+      "timestamp": 1752517270,
       "reproducible": true,
       "error": null
     }
@@ -9869,6 +9925,20 @@
       "error": null
     }
   ],
+  "bad781f9045a44895e3ccbca4c34d98a8cb6f5760b2ca0b33afa6f45639fe93e": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.2/app-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 5,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "b441a8e0ecfe73180cfce278a6356171f88cd734",
+      "timestamp": 1752502315,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0db88fde4c82a7dfba88883255d57534d8200db29839f5ba1d01471abc5869ec": [
     {
       "repository": "https://github.com/coleblvck/MethodCall.git",
@@ -12581,6 +12651,20 @@
       "tag": "5.0.0",
       "commit": "d4aa3108b7fb49d9743a6ccfc0daf95c806c9a89",
       "timestamp": 1752344505,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac7c5bc696516198cd263c8940bc2c9e41976d5a349f3337a7ed203087c099de": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.1/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 156,
+      "version_name": "5.0.1",
+      "tag": "5.0.1",
+      "commit": "f294164834f654d1fab915a2e0c62aee04574b37",
+      "timestamp": 1752517777,
       "reproducible": true,
       "error": null
     }
@@ -24263,6 +24347,20 @@
       "error": null
     }
   ],
+  "2d84ba5cfb396ba56b50142f2935848c4a4cf2bae61e4aafba8ceda0e057f737": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.2.0/torrentsearch-v0.2.0.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 5,
+      "version_name": "0.2.0",
+      "tag": "v0.2.0",
+      "commit": "04bb5eb2c21b3ebc14c3bacc0d000400cc39e289",
+      "timestamp": 1752502808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9053bc222d332dce59499c4c45284576d7abb4a517a7afd3f5bc7bafddcbfdb0": [
     {
       "repository": "https://github.com/prinzpiuz/MSM.git",
@@ -30153,6 +30251,20 @@
       "error": null
     }
   ],
+  "dccefe816d0b878f8cdc3ee61056fe7ec2f7544eea33b5ad16388367973c3002": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1660/Thor_v1660.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1660,
+      "version_name": "1.66.0",
+      "tag": "Thor_v1660",
+      "commit": "e65894f8c493c4424a83ad3d1cb8893fa7d60843",
+      "timestamp": 1752503061,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -32735,6 +32847,20 @@
       "tag": "v2.20.1",
       "commit": "fc9e95cdfa3299a40ab31781e468bad287bdf457",
       "timestamp": 1751982496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "615cebd43d70182f6c76ca995fa809208c30d8de82f07b856156671778e0dac8": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.20.2/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 200,
+      "version_name": "2.20.2",
+      "tag": "v2.20.2",
+      "commit": "74479ff265397be7f4897a7c98dcd7818639585d",
+      "timestamp": 1752503365,
       "reproducible": true,
       "error": null
     }
@@ -38671,6 +38797,20 @@
       "error": null
     }
   ],
+  "4801060a5474986daea1cf1d33f151263df4a0f000111257f2fb938b04d7c581": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.2.1/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 4,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "3509e5cf17bf0c7d437ee211d45c4c47586ca1b3",
+      "timestamp": 1752519314,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -40631,6 +40771,20 @@
       "error": null
     }
   ],
+  "c9ced21ef971faf2c5f7d880ede2ad94cc0d613c1608b4c6d5602856a4e8a410": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.5.4/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 106,
+      "version_name": "1.5.4-izzy",
+      "tag": "v1.5.4",
+      "commit": "d679df3a4649a8eaecf2936e20c52771fb20d8d2",
+      "timestamp": 1752505833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -42563,6 +42717,20 @@
       "error": null
     }
   ],
+  "3f9582b013bff37a682fc9ead8bdb281460c9c1bda7b09c8484b51186de8de62": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.19/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 171,
+      "version_name": "3.6.19",
+      "tag": "3.6.19",
+      "commit": "18bec8203647d798dc78c05c58169c871484338f",
+      "timestamp": 1752503691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -43105,6 +43273,20 @@
       "tag": "1.3.1",
       "commit": "365ba59c78f7d1c20e2a5bdab3a28d60c652b897",
       "timestamp": 1750170908,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e925222aac34c46e16f1dc3adbf7606373f35c3738319cec6308a8e69f3b3608": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.4.0/gallery-12-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 12,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "1776a7d74a10ec6133d8ce5b48fabf91afbc6acd",
+      "timestamp": 1752503866,
       "reproducible": true,
       "error": null
     }
@@ -44005,6 +44187,20 @@
       "error": null
     }
   ],
+  "b2b47380c28c15211aa3473ea8c5261eadbdedeeaa04903c5c7711fdb0bd13bd": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.5.6/floccus-build-v5.5.6.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5005006,
+      "version_name": "5.5.6",
+      "tag": "v5.5.6",
+      "commit": "565803c109f1a730994256aeeb2beab6d5e30d62",
+      "timestamp": 1752504254,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -44421,6 +44617,20 @@
       "tag": "v1.0.0",
       "commit": "d41745c74d1d79122dd6edfe0babf8e6221c1677",
       "timestamp": 1752401971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "201122fb48acb7ca526758eda4e682ee6acfade6130905328fcf4e89afeae64a": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.0.1/tomato-v1.0.1-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 3,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "3393b8088bc0cda77218e52ceeff7357607e373f",
+      "timestamp": 1752506102,
       "reproducible": true,
       "error": null
     }

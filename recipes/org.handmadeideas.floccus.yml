@@ -533,3 +533,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.5.6
+    apks:
+      - apk_pattern: floccus-build-.*\.apk
+        apk_url: https://github.com/floccusaddon/floccus/releases/download/$$TAG$$/floccus-build-$$TAG$$.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-x64.tar.xz
+          - sha256sum -c <<< '325c0f1261e0c61bcae369a1274028e9cfb7ab7949c05512c5b1e630f7e80e12  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v22.17.0-linux-x64/bin"
+          - npm install
+          - npx gulp
+          - npx cap sync
+          - cd android
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - xz-utils
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
