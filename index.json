@@ -1973,6 +1973,20 @@
       "error": null
     }
   ],
+  "b4eabcae8e11da263e47b9b51a3d21f566dbe00acc7d59ce222b536cb5cbe6a6": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.8.5/MultiLauncher-1.10.8.5-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100805,
+      "version_name": "1.10.8.5",
+      "tag": "1.10.8.5",
+      "commit": "8abe317df35cd09ff4c93e7e12df1c6a65dbd14f",
+      "timestamp": 1752587307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -6019,6 +6033,20 @@
       "error": null
     }
   ],
+  "a600d309cacba4a790941868e31cd7da190d4b9b38a0aa83b70bac69d2dac09e": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.7c/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1362,
+      "version_name": "4.5.7c",
+      "tag": "v4.5.7c",
+      "commit": "10652aa210d49c8019ded3c9a7c293072262d5fa",
+      "timestamp": 1752587698,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -6253,6 +6281,20 @@
       "tag": "v1.11-beta",
       "commit": "1f1f7abf9bbb61a36fb1a3aabc922f7916482d50",
       "timestamp": 1752414645,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12a37058f781b7369f2bc14ea02d0352c9709edada6bd5625c34313327217f44": [
+    {
+      "repository": "https://github.com/Arijit-05/Fomodoro.git",
+      "apk_url": "https://github.com/Arijit-05/Fomodoro/releases/download/v1.12-beta/fomodoro-1.12.apk",
+      "appid": "com.arijit.pomodoro",
+      "version_code": 12,
+      "version_name": "1.12",
+      "tag": "v1.12-beta",
+      "commit": "076aac43167bc9495884e0835e99f040043bcb08",
+      "timestamp": 1752587905,
       "reproducible": true,
       "error": null
     }
@@ -6939,6 +6981,20 @@
       "tag": "v12.0",
       "commit": "1a9447472e25b3bc19d67c964b9caf6eaa588617",
       "timestamp": 1751810055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "903dc425c10b0c73c39639ee7d5cfddceded953f6cc2e46bf7f379ef9303dde6": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v12.1/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 32,
+      "version_name": "12.1",
+      "tag": "v12.1",
+      "commit": "a4ecef5db24b4f1b0f8642f348c29f6e2edafee0",
+      "timestamp": 1752603682,
       "reproducible": true,
       "error": null
     }
@@ -8791,6 +8847,20 @@
       "error": null
     }
   ],
+  "8466204fa9d95d69350f2dcb64854dadb0a21728c41c840ee9b16c616c7722e5": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.07.1146-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1146,
+      "version_name": "2025.07.1146-dev",
+      "tag": "2025.07.1146-dev",
+      "commit": "aaab52c28e9e3d80b654f09ec2c71ef2ea324cb2",
+      "timestamp": 1752588455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -8801,6 +8871,20 @@
       "tag": "v1.02.01",
       "commit": "aedce587ae815ce46d3d700aad1e24a3bcd91568",
       "timestamp": 1744280184,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "16004d666bfe632f23af5097be911c73e2a584d1ddffe3f62cc53aaf39621a08": [
+    {
+      "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
+      "apk_url": "https://github.com/CasparvdBroek/BLEtoMQTT/releases/download/v1.03.01/BLEtoMQTT.apk",
+      "appid": "com.CasparvdBroek.bletomqtt",
+      "version_code": 5,
+      "version_name": "1.03.01",
+      "tag": "v1.03.01",
+      "commit": "210e228b5c46f92c6fc518714b4625c033f8e13f",
+      "timestamp": 1752594338,
       "reproducible": true,
       "error": null
     }
@@ -10131,6 +10215,20 @@
       "tag": "v1.38",
       "commit": "4e70ee55cf584c983e0e27f47d7044f7f7a44c8c",
       "timestamp": 1751551557,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48041fe4fabfa32d01c0fc2cd528acb5f087706427735067eee836cf3ffad05b": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.39/networksurvey-1.39-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 94,
+      "version_name": "1.39",
+      "tag": "v1.39",
+      "commit": "3f5eb153b48b9a8907399dd73fc65247fb1f1e4e",
+      "timestamp": 1752589108,
       "reproducible": true,
       "error": null
     }
@@ -19285,6 +19383,20 @@
       "error": "signature copying failed: Unsupported compresslevel"
     }
   ],
+  "b322e154675f1a45213930850649726b2fe43fca1f95b4bb00259a419005d7f5": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v0.9.9-beta/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 99,
+      "version_name": "v0.9.9-beta",
+      "tag": "v0.9.9-beta",
+      "commit": "a3f7eba2cbfb4fd0065266dd723e00bb6b27311e",
+      "timestamp": 1752605395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -21061,6 +21173,20 @@
       "error": null
     }
   ],
+  "62a8d66ec60f2b3de9b34000266f43182a9e71e5ff91512e7f121aef8acc38dd": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.3.6/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 306,
+      "version_name": "0.3.6",
+      "tag": "v0.3.6",
+      "commit": "c9f76b67f253f6d7d3fa44308619bf4a9796ab91",
+      "timestamp": 1752589551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "62ba226b0b9f7921280c3256912e999d9efbf801d23fb6cd8ec4edebb6ed416b": [
     {
       "repository": "https://github.com/maxrave-dev/SimpMusic.git",
@@ -21603,6 +21729,20 @@
       "tag": "v12.1.0",
       "commit": "a6cc651bfd91392e13c42a7251084d589c63d689",
       "timestamp": 1750868366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d5bb2b10209cf4a38194d23d33e62fa690e671b1f5cad3d76d3ab8903ae10e3a": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.2.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 123,
+      "version_name": "12.2.0",
+      "tag": "v12.2.0",
+      "commit": "c9fe661c4c39c68486138639458f6593c3eb2766",
+      "timestamp": 1752589807,
       "reproducible": true,
       "error": null
     }
@@ -30265,6 +30405,20 @@
       "error": null
     }
   ],
+  "1129e0ff6facd7e08c056f8174ad09520e6463006322c9b28b1195baf4a5e490": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.5/chooser-v1.4.5.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 19,
+      "version_name": "1.4.5",
+      "tag": "v.1.4.5",
+      "commit": "5bfdd4c1263bd786abbc427e9cabe329c97d4ce6",
+      "timestamp": 1752593986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fc559baac9666bd427255779a82965938a4120cc0f13bd3eae0f493f94f1e749": [
     {
       "repository": "https://github.com/trinadhthatakula/Thor.git",
@@ -34363,6 +34517,20 @@
       "error": null
     }
   ],
+  "0ae897ba113c3a657f78a1f0d094223e252b0cfbc5b6f24275848443d3e60013": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.3.3/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 251,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "84b8dd537dc29f4a47b821b09da53baebea3153f",
+      "timestamp": 1752605023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -35031,6 +35199,20 @@
       "tag": "v1.4.0",
       "commit": "156f279ff2fcfc10147fb8a8d69ef31e04ee866c",
       "timestamp": 1752415425,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2010c6b83be1e3f5836c76bcec3bed034f6f094dec6223dddcab979c3917631d": [
+    {
+      "repository": "https://github.com/PranavPurwar/AppLock.git",
+      "apk_url": "https://github.com/PranavPurwar/AppLock/releases/download/v1.4.1/app-release.apk",
+      "appid": "dev.pranav.applock",
+      "version_code": 6,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "2ae31212a61608f895a921c186ae4cc0ef62b2ee",
+      "timestamp": 1752607209,
       "reproducible": true,
       "error": null
     }
@@ -41849,6 +42031,20 @@
       "error": null
     }
   ],
+  "0275083215ab108d920086162c97d8d93c046559abad5d7c2c2cc110b725cd81": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.3.1/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 22,
+      "version_name": "alpha-0.3.1",
+      "tag": "alpha-0.3.1",
+      "commit": "8ec3437ecab08af7d24f93c0175caad511813965",
+      "timestamp": 1752590934,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -43431,6 +43627,20 @@
       "error": null
     }
   ],
+  "63ead56cb4c1277cbb947a8412f3234ba6936a9c0e803e930819a9ca8814391b": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.2.0/launcher-8-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 8,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "baf44b3ecfa0b656adb6be83bd3c851fbcfa2c94",
+      "timestamp": 1752605939,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -43721,6 +43931,20 @@
       "tag": "1.1.0",
       "commit": "16bd625ea94841050f07b8222d1adaa347fddd75",
       "timestamp": 1747771310,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1c90c2ad9793b8aac94a177973f0c80ba5a199f22056580f18ea9b72608e9845": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.2.0/musicplayer-3-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "52c8256d3d56dd31a01fe0569d15d004e970b41a",
+      "timestamp": 1752606250,
       "reproducible": true,
       "error": null
     }
@@ -47863,6 +48087,20 @@
       "tag": "v2.2.2",
       "commit": "e4aafe8fe21b85e21a4e7045c537741fdb41f28f",
       "timestamp": 1741337991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac5df437c04f18cc7c8d68fef23afeed6af0ae088837b62089ff56308cc8a9f3": [
+    {
+      "repository": "https://github.com/Arctosoft/Valv-Android.git",
+      "apk_url": "https://github.com/Arctosoft/Valv-Android/releases/download/v2.3.0/Vault_38_2.3.0_release.apk",
+      "appid": "se.arctosoft.vault",
+      "version_code": 38,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "72fe2090f251ca7ec03ec41a9a3f3d22d7174b8b",
+      "timestamp": 1752611356,
       "reproducible": true,
       "error": null
     }

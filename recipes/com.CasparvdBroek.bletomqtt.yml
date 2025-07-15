@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/CasparvdBroek/BLEtoMQTT.git
 updates: releases
+notes:
+  - 'FIXME: check if the sed can be removed again (gradle.properties was "broken" with v1.03.1)'
 versions:
   - tag: v1.02.01
     apks:
@@ -26,6 +28,37 @@ versions:
           extra_packages: []
           image: ubuntu:jammy
           jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.03.01
+    apks:
+      - apk_pattern: BLEtoMQTT\.apk
+        apk_url: https://github.com/CasparvdBroek/BLEtoMQTT/releases/download/v1.03.01/BLEtoMQTT.apk
+        build:
+          - git reset --soft 39364e6072dd1a1fbf7804c86e53fee708c84859
+          - sed -r '/Program Files/d' -i gradle.properties
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
           ndk:
           platform:
           platform_tools:
