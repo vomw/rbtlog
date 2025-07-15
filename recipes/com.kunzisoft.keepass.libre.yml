@@ -1,0 +1,36 @@
+---
+repository: https://github.com/Kunzisoft/KeePassDX.git
+updates: releases
+notes:
+  - needs verify_git false due to https://github.com/Kunzisoft/KeePassDX/issues/1333
+versions:
+  - tag: 4.1.2
+    apks:
+      - apk_pattern: KeePassDX-.*-libre\.apk
+        apk_url: https://github.com/Kunzisoft/KeePassDX/releases/download/$$TAG$$/KeePassDX-$$TAG$$-libre.apk
+        build:
+          - git reset --soft 0e31890624b5d5b4d736a58e5cbfd8a05bb67097
+          - chmod +x gradlew
+          - ./gradlew assembleLibreRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/libre/release/app-libre-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /home/joker
+        build_repo_dir: /home/joker/Projects/KeePassDX
+        build_user: build
+        provisioning:
+          android_home: /home/joker/Softwares/android-sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk: 21.4.7075529
+          platform:
+          platform_tools:
+          tools:
+          verify_git: false
+          verify_gradle_wrapper: true

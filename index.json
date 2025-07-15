@@ -19691,6 +19691,34 @@
       "error": null
     }
   ],
+  "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.2/KeePassDX-4.1.2-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 134,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "e809109bb2b9f1e1e72f3f0c692ee6bb8e5e4336",
+      "timestamp": 1752541519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.2/KeePassDX-4.1.2-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 134,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "e809109bb2b9f1e1e72f3f0c692ee6bb8e5e4336",
+      "timestamp": 1752540671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "555567eb46305cdcad0c4d9feae152cb44a05aa8dffd23de97cf3f3f01ae68f1": [
     {
       "repository": "https://github.com/Kwasow/Musekit.git",
