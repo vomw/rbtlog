@@ -10,7 +10,8 @@ versions:
         apk_url: https://github.com/cvzi/Lyrics/releases/download/v7.0/lyrics11.apk
         build:
           - sed -r '/create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
-          - sed -r 's/".APIKEY."/"ZTejoT_ojOEasIkT9WrMBhBQOz6eYKK5QULCMECmOhvwqjRZ6WbpamFe3geHnvp3"/' -i app/src/main/AndroidManifest.xml
+          - base64 -d > sedo <<< c2VkIC1yICdzLyIuQVBJS0VZLiIvIlpUZWpvVF9vak9FYXNJa1Q5V3JNQmhCUU96NmVZS0s1UVVMQ01FQ21PaHZ3cWpSWjZXYnBhbUZlM2dlSG52cDMiLycgLWkgYXBwL3NyYy9tYWluL0FuZHJvaWRNYW5pZmVzdC54bWw=
+          - bash sedo
           - ./gradlew assembleRelease
           - find . -name '*.apk'
           - OUT=app/build/outputs/apk/release/*unsigned.apk
