@@ -31565,6 +31565,20 @@
       "error": null
     }
   ],
+  "002184560de26989736ee8379af777bb945c2b8a0df907f9feac0d623d37c909": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.0.51/app-arm64-v8a-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 3,
+      "version_name": "0.0.51",
+      "tag": "v0.0.51",
+      "commit": "14409bb0aac0b7bcc98ce870536cfe646ebb2c34",
+      "timestamp": 1752682684,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -48241,6 +48255,20 @@
       "tag": "v0.2.6.1",
       "commit": "6cc33dc01e2d5b6f62ab74cd2962b9e907d5909f",
       "timestamp": 1751316009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "efe83dc8e9fbeedd3ea44f7bb585f84bd4a296dcbd3ca326cd3eb021d9b99de3": [
+    {
+      "repository": "https://github.com/cvzi/Lyrics.git",
+      "apk_url": "https://github.com/cvzi/Lyrics/releases/download/v7.0/lyrics11.apk",
+      "appid": "sexy.lyrics",
+      "version_code": 11,
+      "version_name": "7.0",
+      "tag": "v7.0",
+      "commit": "1ccb71ba7ef4b9bdd3f980fd2b167e38fbb2cebc",
+      "timestamp": 1752680206,
       "reproducible": true,
       "error": null
     }

@@ -1,0 +1,41 @@
+---
+repository: https://github.com/cvzi/Lyrics.git
+updates: releases
+notes:
+  - 'FIXME: remove inplace-fix again (was needed to correct non-existing commit in vcsInfo)'
+versions:
+  - tag: v7.0
+    apks:
+      - apk_pattern: lyrics.*\.apk
+        apk_url: https://github.com/cvzi/Lyrics/releases/download/v7.0/lyrics11.apk
+        build:
+          - sed -r '/create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - sed -r 's/".APIKEY."/"ZTejoT_ojOEasIkT9WrMBhBQOz6eYKK5QULCMECmOhvwqjRZ6WbpamFe3geHnvp3"/' -i app/src/main/AndroidManifest.xml
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/*unsigned.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/1ccb71ba7ef4b9bdd3f980fd2b167e38fbb2cebc/348be01c21785b1b8b29d8171331de799e96de94/' 'META-INF/version-control-info.textproto'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
