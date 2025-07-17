@@ -19593,6 +19593,20 @@
       "error": null
     }
   ],
+  "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.0.0/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "7da7422235a0363106b06a92ffe67dad66efb2e8",
+      "timestamp": 1752790957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -29645,6 +29659,20 @@
       "tag": "v1.4",
       "commit": "d481175ff5dbcf96fe5edea87a00c50df14bcfef",
       "timestamp": 1730489407,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3df3688d83a2193e5fe5965511079e8895aba4340e955a2b3bb5fc4efd0bb9ef": [
+    {
+      "repository": "https://github.com/tharunbirla/GestureFlow.git",
+      "apk_url": "https://github.com/tharunbirla/GestureFlow/releases/download/v1.0/app-release.apk",
+      "appid": "com.tharunbirla.gestureflow",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "5c280a56c7efdb48b9176f9e903c2f1f623eb55e",
+      "timestamp": 1752787850,
       "reproducible": true,
       "error": null
     }
