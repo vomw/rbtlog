@@ -12991,6 +12991,20 @@
       "error": null
     }
   ],
+  "3d080a8c54a678e2da3a048a1c04852350bd75a88496eeda76f8e8997cc81f09": [
+    {
+      "repository": "https://github.com/jaxparrow07/launchpad-search.git",
+      "apk_url": "https://github.com/jaxparrow07/launchpad-search/releases/download/v1.3.0/app-release.apk",
+      "appid": "com.devrinth.launchpad",
+      "version_code": 764,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "f274f9ff23826e302d44488aa29f4bc628b1e1b8",
+      "timestamp": 1752857914,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0aaacb15128d1af92b1408a5b7150651887ed265ecae8d8d1b3de614c72142fa": [
     {
       "repository": "https://github.com/nooowavailable/tunedetectivex.git",
@@ -42195,6 +42209,20 @@
       "tag": "v1.3.8",
       "commit": "e6899ed1349fdd7efd86c7208cd679b81f9efab0",
       "timestamp": 1741475866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d9e154e9619f81c5bc2eba3653b1c8f8255aa4e22db8b0ee71c17aecd976cec7": [
+    {
+      "repository": "https://github.com/synapp009/NeuroCalm.git",
+      "apk_url": "https://github.com/synapp009/NeuroCalm/releases/download/1.0.0/neurocalm-1.0.0.apk",
+      "appid": "nodomain.synapp.neurocalm",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "1.0.0",
+      "commit": "a3ef82c9911d98a1f52aec30509af3ed7f9cac8b",
+      "timestamp": 1752850236,
       "reproducible": true,
       "error": null
     }
