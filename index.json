@@ -9841,6 +9841,20 @@
       "error": null
     }
   ],
+  "208d78bd2508260ea0de3cdb6a948e8370c78c9d2889dfedb296f61c52f67754": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.3.3v109/PuppyGit_1.1.3.3v109_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 109,
+      "version_name": "1.1.3.3",
+      "tag": "1.1.3.3v109",
+      "commit": "14743ebdc8256e9c696f952575ddb3ce48e181f2",
+      "timestamp": 1752862879,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -10915,6 +10929,20 @@
       "tag": "v0.9.0-final",
       "commit": "2b2f1d40fdd4decdb7cbbf079237e0f2141ec86f",
       "timestamp": 1752260452,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ec1b6659df9cf098f329d9cb0b751dbacad79aee7fb70418dd441edf62e82c0": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.1/OuterTune-0.9.1-core-arm64-v8a-release-63.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 63,
+      "version_name": "0.9.1",
+      "tag": "v0.9.1",
+      "commit": "4c1a57cf62389e80372c22ac4601041af448a32f",
+      "timestamp": 1752846492,
       "reproducible": true,
       "error": null
     }
@@ -18315,6 +18343,20 @@
       "tag": "9.6.0",
       "commit": "940fe11828331933b400f19b37826d1fe1b0ff27",
       "timestamp": 1752092029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13d0f316ec759b122364febba2b4722e0d4d69de46d30463926bddded7e3b4eb": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 135,
+      "version_name": "9.6.1",
+      "tag": "9.6.1",
+      "commit": "e92843be12ce63eda83a98f278ad51bef1bdefd4",
+      "timestamp": 1752847718,
       "reproducible": true,
       "error": null
     }
@@ -27301,6 +27343,20 @@
       "error": null
     }
   ],
+  "c02bad750e86d17820d09371976589c6e464ad607c2272b462b30f2dee368ea0": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.9.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 31,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "afe49f86a1830c29cf0017c1b3af0166067b77ef",
+      "timestamp": 1752848477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -31859,6 +31915,20 @@
       "error": null
     }
   ],
+  "9530d31b87919bee6f702797ae2ece050545a25d6968c2fd132d27090911e0e1": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.0.53/app-universal-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 5,
+      "version_name": "0.0.53",
+      "tag": "v0.0.53",
+      "commit": "76a539e5c78196192b1d5cecac8c1497f0a6fed0",
+      "timestamp": 1752848812,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -34667,6 +34737,20 @@
       "tag": "v2.0.2",
       "commit": "184ad6cacee82aaaf56d0f1ce97ae5ef4a36412a",
       "timestamp": 1752761624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "101e5aee8b213b91a4a638e55d892e2ef793836f232d91ad68512a34dd5a2a94": [
+    {
+      "repository": "https://github.com/Bartuzen/qBitController.git",
+      "apk_url": "https://github.com/Bartuzen/qBitController/releases/download/v2.0.3/qbitcontroller-2.0.3-android.apk",
+      "appid": "dev.bartuzen.qbitcontroller",
+      "version_code": 25,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "9f7155c2a1ba5b1bc165e81e16292b8716a23223",
+      "timestamp": 1752849330,
       "reproducible": true,
       "error": null
     }
@@ -44131,6 +44215,20 @@
       "error": null
     }
   ],
+  "1c010ae9f40e86720d13c86b1124b2dd5ad6616a273256c6bb86e255be6afa4d": [
+    {
+      "repository": "https://github.com/FossifyOrg/Keyboard.git",
+      "apk_url": "https://github.com/FossifyOrg/Keyboard/releases/download/1.2.2/keyboard-6-foss-release.apk",
+      "appid": "org.fossify.keyboard",
+      "version_code": 6,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "c01d340b018838a69c75de0416bfec0165414ccf",
+      "timestamp": 1752863992,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "779378fb3e2c4ef9d449e68042a1cbee72d58d2355975ced438a7902f41a41d8": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -48481,6 +48579,20 @@
       "timestamp": 1752096783,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpzd5dtiee/outputs:/outputs', '--volume', '/tmp/tmpzd5dtiee/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/T8RIN/ImageResizer.git', '--env', 'APP_TAG=3.3.0', '--env', 'APP_COMMIT=1afb7aef2483288d60b350251f2e67e3be335e18', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
+  "0654d8d954df558303c954e94a177b20542229aa0cad807e1e534430c6a9fdfd": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.3.1/image-toolbox-3.3.1-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 178,
+      "version_name": "3.3.1",
+      "tag": "3.3.1",
+      "commit": "bd03fd1efc234db226752adbbbecaae22f7508cc",
+      "timestamp": 1752856973,
+      "reproducible": true,
+      "error": null
     }
   ],
   "8edbbc20a8dcaceaa3fe4117b11466f522d2130a6b47c61ad10de92cc09af32e": [
