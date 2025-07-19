@@ -2743,6 +2743,20 @@
       "error": null
     }
   ],
+  "bec107301fda1b9b6196750995e98983d9c90e6f1012cc76526612a7aae81f59": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.0.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 900,
+      "version_name": "v9.0.0",
+      "tag": "v9.0.0",
+      "commit": "b6aa551ad96b33789fa66f0c53cd6ff3d3a54b28",
+      "timestamp": 1752932897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -8955,6 +8969,20 @@
       "tag": "2025.07.1146-dev",
       "commit": "aaab52c28e9e3d80b654f09ec2c71ef2ea324cb2",
       "timestamp": 1752588455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "99a4e64215f20bdb57c3dc0f797f2a4d3f713edc4ab9a4945cc8400670ed6b1c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.07.1147-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1147,
+      "version_name": "2025.07.1147-dev",
+      "tag": "2025.07.1147-dev",
+      "commit": "ffb21a83dfae25e5f923b95a31248393e651c3b8",
+      "timestamp": 1752933360,
       "reproducible": true,
       "error": null
     }
@@ -21075,6 +21103,20 @@
       "error": null
     }
   ],
+  "ea29d47cff9e8bf79dd2582afc367e8f2d63b6284f4045a105abed333357178f": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.1.1/localmaterialnotes_arm64-v8a_v2.1.1.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 302,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "22ddca379b2f91fab7d11af7e8721b58e5501e4a",
+      "timestamp": 1752939631,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -25201,6 +25243,20 @@
       "error": null
     }
   ],
+  "07a1d95b39bd078b0b5dea7c34453f8202e432d4644d642d25adf28775034216": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.16.0/baba_1.16.0_free_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031895,
+      "version_name": "1.16.0",
+      "tag": "1.16.0",
+      "commit": "e76146cf0aef80f8ba8420e53240f4ba7be427ba",
+      "timestamp": 1752949284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -26023,6 +26079,20 @@
       "tag": "0.4.4",
       "commit": "d84a81e47ae27d206bf3189abfec5417bf1e8bfa",
       "timestamp": 1750616728,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42b7d73918f0b97ceb3382efaae97bed228dabdf45f54c3651b238689ca61b0c": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.4.5/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 405,
+      "version_name": "0.4.5",
+      "tag": "0.4.5",
+      "commit": "2f8a65c64605fee71fd0fb5e5e9fffaba85158f1",
+      "timestamp": 1752934940,
       "reproducible": true,
       "error": null
     }
@@ -27741,6 +27811,20 @@
       "tag": "3.2.1",
       "commit": "662d3c83f3c3562822726cd8735e08bd11bcd6fb",
       "timestamp": 1751811171,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5f3250b3d1d33bc94c06275e6bea62bebc28496d6c654a4205ff57448610044": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/4.2.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 4200,
+      "version_name": "4.2.0",
+      "tag": "4.2.0",
+      "commit": "12040fffdba8cccbf47356952b4d39568696b4a8",
+      "timestamp": 1752933495,
       "reproducible": true,
       "error": null
     }
@@ -31929,6 +32013,20 @@
       "error": null
     }
   ],
+  "cb2460bcd738c9c746592b24b202150d941de170824fa828099e0731d95b2e43": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.0.55/app-universal-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 7,
+      "version_name": "0.0.55",
+      "tag": "v0.0.55",
+      "commit": "0d6e2e4312690cbb189abbf83e5e55d671ee059c",
+      "timestamp": 1752935749,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -34751,6 +34849,20 @@
       "tag": "v2.0.3",
       "commit": "9f7155c2a1ba5b1bc165e81e16292b8716a23223",
       "timestamp": 1752849330,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5885341533f1c2767629da43474da4d269e70e508c76573ac7650f7963ebe713": [
+    {
+      "repository": "https://github.com/Bartuzen/qBitController.git",
+      "apk_url": "https://github.com/Bartuzen/qBitController/releases/download/v2.0.4/qbitcontroller-2.0.4-android.apk",
+      "appid": "dev.bartuzen.qbitcontroller",
+      "version_code": 26,
+      "version_name": "2.0.4",
+      "tag": "v2.0.4",
+      "commit": "108d21d6cb108ab0d6053d9e12b2ed60ac587f2b",
+      "timestamp": 1752936229,
       "reproducible": true,
       "error": null
     }
@@ -40295,6 +40407,20 @@
       "error": null
     }
   ],
+  "24db3b3cdbabbe7d56eb12565dc45c1a5afc8f922e87c7cc9f5107a2c6685127": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6305/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6305,
+      "version_name": "6305",
+      "tag": "v6305",
+      "commit": "52e3d69cd21c9b38b0c8d594958274017ad62aec",
+      "timestamp": 1752936710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24fe8bf61626ddd2b1dd5434d564c381296bcc8f62397fa8d5d154ff1bab61f1": [
     {
       "repository": "https://github.com/fast4x/RiMusic.git",
@@ -44775,6 +44901,20 @@
       "error": null
     }
   ],
+  "abf78e836bde984d147dafa641d4f0cb776f22b6b917777635b4ea1856c84974": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.3.2/voicerecorder-9-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 9,
+      "version_name": "1.3.2",
+      "tag": "1.3.2",
+      "commit": "cb02e8011e8085edb9233d57212a2c1d80a2a59c",
+      "timestamp": 1752936972,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cafdbf639fe3749b156f74bddca6738527818950ad77a41a4e0c1534d3cba942": [
     {
       "repository": "https://github.com/floccusaddon/floccus.git",
@@ -47307,6 +47447,20 @@
       "error": null
     }
   ],
+  "42e5c0a19625d67a76ae2d308770609d67b9726de2741ed25bb56044b5d1fa1c": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.2.5/transistor-app-release-4.2.5.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 105,
+      "version_name": "4.2.5",
+      "tag": "v4.2.5",
+      "commit": "f9a602ff709355d5d48d4795bcc4ff34177953b7",
+      "timestamp": 1752937360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57443b3cdc44ed7c0f2a2754312c920315493855c8bd6ed0f333b9d04af72148": [
     {
       "repository": "https://github.com/danielyrovas/linklater.git",
@@ -48382,6 +48536,20 @@
       "commit": "336691c88010b1577ec403c6501cb308d86031a4",
       "timestamp": 1752246753,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "8019ec2cf4d981a1ae0c31efa64883ebd3de2eb7fa6324b2fd417d3c745b7cb5": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.2/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 57,
+      "version_name": "1.8.2",
+      "tag": "1.8.2",
+      "commit": "dc3a8b11b8d572612b5ed4736f6642b586756261",
+      "timestamp": 1752864283,
+      "reproducible": false,
       "error": null
     }
   ],

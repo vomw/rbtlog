@@ -348,3 +348,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.16.0
+    apks:
+      - apk_pattern: baba_.*free.arm64-v8a.release\.apk
+        apk_url: https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.16.0/baba_1.16.0_free_arm64-v8a_release.apk
+        build:
+          - sed -r 's/isUniversalApk = true/isUniversalApk = false/ ; s/include\(.*/include("arm64-v8a")/' -i app/build.gradle.kts
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - touch android-signing-keystore.jks
+          - echo -e "signing_keystore_password=signing_keystore_password\nsigning_key_alias=signing_key_alias\nsigning_key_password=signing_key_password" > secrets.properties
+          - chmod +x gradlew
+          - ./gradlew assembleFreeRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/free/release/baba_*_free_arm64-v8a_release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

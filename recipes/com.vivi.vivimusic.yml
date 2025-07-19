@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/vivizzz007/vivi-music.git
-updates: releases
+updates: disabled
+notes:
+  - no longer ships FOSS releases, see https://github.com/vivizzz007/vivi-music/issues/17
 versions:
   - tag: IZ-2.0.8
     apks:
