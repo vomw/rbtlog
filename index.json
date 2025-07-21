@@ -10667,6 +10667,20 @@
       "error": null
     }
   ],
+  "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
+    {
+      "repository": "https://github.com/darusc/Mousedroid.git",
+      "apk_url": "https://github.com/darusc/Mousedroid/releases/download/v1.4/mousedroid.apk",
+      "appid": "com.darusc.mousedroid",
+      "version_code": 4,
+      "version_name": "1.4",
+      "tag": "v1.4",
+      "commit": "41e5adf687461e8400d6741c7b7a82917a38e8dc",
+      "timestamp": 1753040302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "80c0adf6ff99c26c2b52eb359b9fb1e8b657b390902a95b0106c74dfd587f937": [
     {
       "repository": "https://github.com/davidtakac/bura.git",
@@ -26877,6 +26891,20 @@
       "tag": "v2.10.1",
       "commit": "6129b7e2776f0056471c9b17bc22edcea2c6fd73",
       "timestamp": 1749823647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "67a77d3c503cddc23f2e5e301194cc1189d39b1f9fd123befcfd272f4e378aae": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.2.2/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 4,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "86d78323a727147da415314a2b22d64f4420df27",
+      "timestamp": 1753110003,
       "reproducible": true,
       "error": null
     }
