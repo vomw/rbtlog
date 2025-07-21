@@ -2155,6 +2155,20 @@
       "error": null
     }
   ],
+  "5723208aae0ace6943b0cd08e5d3303bd003412d24f20d4b6bd40f2da46674ae": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.3/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 13,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "44c671e4155d90933b6edc34fb8d3554b8221e39",
+      "timestamp": 1753122096,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -3327,6 +3341,20 @@
       "tag": "v4.5.1-ose",
       "commit": "12cedd401073a941e65c6703c94de05a3e265ab5",
       "timestamp": 1751636876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e61077ed4fd621172eb2dd3c8de2d4d84870e974722560df89cfce251ec1bd36": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.2.1-ose/davx5-ose-4.5.2.1-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405020100,
+      "version_name": "4.5.2.1-ose",
+      "tag": "v4.5.2.1-ose",
+      "commit": "94a85833bc9180912dd2dd652cdde96441358b5d",
+      "timestamp": 1753122762,
       "reproducible": true,
       "error": null
     }
@@ -5991,6 +6019,20 @@
       "error": null
     }
   ],
+  "9fe7761cbac84f367f009884e8586daa22f9934c96ae87470292a0cb32679fc7": [
+    {
+      "repository": "https://github.com/apk-editor/APK-Explorer-Editor.git",
+      "apk_url": "https://github.com/apk-editor/APK-Explorer-Editor/releases/download/v0.31/app-full-release.apk",
+      "appid": "com.apk.editor",
+      "version_code": 31,
+      "version_name": "v0.31",
+      "tag": "v0.31",
+      "commit": "4f9c9546f49d1075ca5729471714261a9fc71c7c",
+      "timestamp": 1753129501,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "45c70bc10c1450c5bc930ba174032f1cab35e13c206349183c4e7f2ec651b9e7": [
     {
       "repository": "https://github.com/appml/neutrinote.git",
@@ -6211,6 +6253,20 @@
       "tag": "2.0.0",
       "commit": "b309caca4434331ed21d597dcdbf488f4345b9a1",
       "timestamp": 1752674039,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "751f48eea46d565c988e40ec61f967a8c448998840d7f55cd9b20b8d68f38d76": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/2.5.0/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 17,
+      "version_name": "2.5.0",
+      "tag": "2.5.0",
+      "commit": "04a370a9c92c0d5c0461594918891a5acd48b9e9",
+      "timestamp": 1753123440,
       "reproducible": true,
       "error": null
     }
@@ -8983,6 +9039,20 @@
       "tag": "2025.07.1147-dev",
       "commit": "ffb21a83dfae25e5f923b95a31248393e651c3b8",
       "timestamp": 1752933360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "08ac9aa5df3d7ee7b175c8eff507775eca521bfb305ca00c416933eae057a249": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.07.1148/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1148,
+      "version_name": "2025.07.1148",
+      "tag": "2025.07.1148",
+      "commit": "140580cf6cdd193277c2a8d1b40f793616af6625",
+      "timestamp": 1753124356,
       "reproducible": true,
       "error": null
     }
@@ -19369,6 +19439,20 @@
       "error": null
     }
   ],
+  "7b2dde3e060adcbfb04f24f4d1acd1fe3382ecf2fbcfdb62906853da6c6bd912": [
+    {
+      "repository": "https://github.com/NoWakeLock/NoWakeLock.git",
+      "apk_url": "https://github.com/NoWakeLock/NoWakeLock/releases/download/v3.0.4/81/release-3.0.4-81.apk",
+      "appid": "com.js.nowakelock",
+      "version_code": 81,
+      "version_name": "3.0.4",
+      "tag": "v3.0.4/81",
+      "commit": "8d85003ce0d5466470b1041d9c122aa7b1054021",
+      "timestamp": 1753125080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10f6f2b266dad28a047532b96bbac5d0dbb04f24dd18dd235a39c1bce342777d": [
     {
       "repository": "https://github.com/jucktion/healthlog.git",
@@ -19701,6 +19785,20 @@
       "tag": "v1.0.0",
       "commit": "7da7422235a0363106b06a92ffe67dad66efb2e8",
       "timestamp": 1752790957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "08604e55137b14b7152dd3bfdd6f31c487856008ddb5affcacc05610c3caa99d": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.0.1/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "5de6ed7fda5ec7e2996269d4a670c71878d835b9",
+      "timestamp": 1753125424,
       "reproducible": true,
       "error": null
     }
@@ -22499,6 +22597,20 @@
       "tag": "v1.15.2",
       "commit": "8722a6e84172870302043a86ac813bc611c2deb9",
       "timestamp": 1751221716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "82352fdbe34a8b6982069405f657a3e387419b0bed5dc20e217624edcf5b0290": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.16.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 50,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "122dab4aacf8f655cea5f6ef8482e413bcd139eb",
+      "timestamp": 1753125786,
       "reproducible": true,
       "error": null
     }
@@ -26111,6 +26223,20 @@
       "error": null
     }
   ],
+  "2c85e1af5197cb7a33d270e82a426c5278e81af80575caa4974b23a37d49f745": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.4.6/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 406,
+      "version_name": "0.4.6",
+      "tag": "0.4.6",
+      "commit": "965a099ed5409f9aa098ec5a9410c710bacfcbde",
+      "timestamp": 1753126065,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -27853,6 +27979,20 @@
       "tag": "4.2.0",
       "commit": "12040fffdba8cccbf47356952b4d39568696b4a8",
       "timestamp": 1752933495,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83bbfb482f94501005b3080c7d0bd30a2882e1bccc5b925ffb185120926a3bb2": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/4.2.1/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 4210,
+      "version_name": "4.2.1",
+      "tag": "4.2.1",
+      "commit": "c5f070c4aebd1b6afa0441e557acb6a98123fc7a",
+      "timestamp": 1753126331,
       "reproducible": true,
       "error": null
     }
@@ -31161,6 +31301,20 @@
       "error": null
     }
   ],
+  "8f5ad813e8b83f6f93a325e9e5c4d9b507c118779eb430491da68ddd0a12afaa": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/IZ-3.0.6/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 4,
+      "version_name": "3.0.6",
+      "tag": "IZ-3.0.6",
+      "commit": "3d113cf475f1ff0458802d38de5f6286e33f61de",
+      "timestamp": 1753113560,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -33383,6 +33537,20 @@
       "error": null
     }
   ],
+  "7864de39cdf801b89a3291b71dd8e09b7adeba8b9bf06e81eea912e19a18ae28": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.0.8/app-release-v1.0.8.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 9,
+      "version_name": "v1.0.8",
+      "tag": "v1.0.8",
+      "commit": "5536d55b88b5ee3c37851195828481a3f7eb84aa",
+      "timestamp": 1753126677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf3bafe3f0bd3904e016b655129438fac8412e7e49acfedd661b6f8a0b7ee0d": [
     {
       "repository": "https://github.com/newhinton/Round-Sync.git",
@@ -34653,6 +34821,20 @@
       "tag": "1.22.6",
       "commit": "499e46ca848f1c77d8d6ac03e0571664ef5df7b6",
       "timestamp": 1742749299,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3358ee9e8be1e34640cbbaca2fbed78274c38aed4e93e170453eb6d24b3e0164": [
+    {
+      "repository": "https://github.com/sal0max/currencies.git",
+      "apk_url": "https://github.com/sal0max/currencies/releases/download/1.23.0/de.salomax.currencies-v12300-play-release.apk",
+      "appid": "de.salomax.currencies",
+      "version_code": 12300,
+      "version_name": "1.23.0",
+      "tag": "1.23.0",
+      "commit": "013eed45e6ad62af8aa5456822fef0cdada22128",
+      "timestamp": 1753128724,
       "reproducible": true,
       "error": null
     }
@@ -38127,6 +38309,20 @@
       "error": null
     }
   ],
+  "81e7391c56be731c936a87624a92aaf0a07ec75ae0dc8fea2b47223cfa3d0f3c": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2288/FairEmail-v1.2288a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2288,
+      "version_name": "1.2288",
+      "tag": "1.2288",
+      "commit": "a9fa99684a181dac640aa9ed435e3e3fe9de9365",
+      "timestamp": 1753127199,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -38739,6 +38935,20 @@
       "tag": "v1.2",
       "commit": "6213d0f6f39bb8381e5c92d75cbedc458d38f9ea",
       "timestamp": 1729437133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d86a9684a1f24f5988aae3efbfd5a2a0e6c81c5a5f78bcaac6f819d38c0d34a": [
+    {
+      "repository": "https://github.com/gdzx/audiosource.git",
+      "apk_url": "https://github.com/gdzx/audiosource/releases/download/v1.3/audiosource.apk",
+      "appid": "fr.dzx.audiosource",
+      "version_code": 5,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "9e07e132ea50658b97f4e0daec07bc24e0be4ce9",
+      "timestamp": 1753127725,
       "reproducible": true,
       "error": null
     }
@@ -44005,6 +44215,20 @@
       "error": null
     }
   ],
+  "730c03979e0fea348b87465ec8b2fb9f04e9f3ea3165c5bfc21f1d175b5ff4ad": [
+    {
+      "repository": "https://github.com/FossifyOrg/Camera.git",
+      "apk_url": "https://github.com/FossifyOrg/Camera/releases/download/1.1.0/camera-6-foss-release.apk",
+      "appid": "org.fossify.camera",
+      "version_code": 6,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "cd169688caee08bf93d59191a004f1eb35642663",
+      "timestamp": 1753127891,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "410143c5d53106376bace38811a9559dad843b09ed0b8783c79809380a1bef0e": [
     {
       "repository": "https://github.com/FossifyOrg/Clock.git",
@@ -48647,6 +48871,20 @@
       "tag": "1.8.2",
       "commit": "dc3a8b11b8d572612b5ed4736f6642b586756261",
       "timestamp": 1752864283,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "decd1c8f5f3e57107f2561608da7be96c677f04312c50ec95ee7235cde7d3132": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.3/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 58,
+      "version_name": "1.8.3",
+      "tag": "1.8.3",
+      "commit": "9d5b40636601acbce497880310afd7256ca8d606",
+      "timestamp": 1753128343,
       "reproducible": false,
       "error": null
     }
