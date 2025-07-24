@@ -14879,6 +14879,20 @@
       "error": null
     }
   ],
+  "6654535b9ee3155014623ccf1878318744aff0ea924d0f9fe2fb30bf25c63bb5": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.4.6/FixupXer-v1.4.6-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 23,
+      "version_name": "1.4.6",
+      "tag": "v1.4.6",
+      "commit": "f9251c803aaad2b651f9a17876582e62e8421059",
+      "timestamp": 1753351120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -30345,6 +30359,20 @@
       "tag": "v1.30",
       "commit": "746b54aa74fcd78550251f53554d2b85d0a65b31",
       "timestamp": 1719185745,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a458ef9bfa78c83d5b4a667ab91cb483fbdd8a3637607cb98dcdd430f401ffcb": [
+    {
+      "repository": "https://github.com/Trase1/SimplestNotes-app.git",
+      "apk_url": "https://github.com/Trase1/SimplestNotes-app/releases/download/v1.0.3/simplestNotes_v1.0.3_release.apk",
+      "appid": "com.traseapps.simplestNotes",
+      "version_code": 5,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "e9e6f3b575b1b03762bf31316bd3dda2b440a6da",
+      "timestamp": 1753370986,
       "reproducible": true,
       "error": null
     }
