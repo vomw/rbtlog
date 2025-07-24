@@ -1371,6 +1371,20 @@
       "error": null
     }
   ],
+  "b908df245aaefc4169f8b8b1f788354bb015ba73dc5950941e17802db72fee96": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.7/Podcini.X_release_free_8.17.7_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 177,
+      "version_name": "8.17.7",
+      "tag": "8.17.7",
+      "commit": "4e641a2fe78df7058321a708a38788341205550d",
+      "timestamp": 1753368266,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -9953,6 +9967,20 @@
       "error": null
     }
   ],
+  "28294b564095f5fdfd9427dab876908a2158ea65ad254ddd59a5408d78c00cc1": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.3.4v110/PuppyGit_1.1.3.4v110_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 110,
+      "version_name": "1.1.3.4",
+      "tag": "1.1.3.4v110",
+      "commit": "1555ed0987ec26c974c876d40eec918d4980302e",
+      "timestamp": 1753368705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -11857,6 +11885,20 @@
       "error": null
     }
   ],
+  "6fec1960b02c681af8f6e5aa71ffd9dca95e65c6d52bcf9fe9d38bb65fffcc56": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.33/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 33,
+      "version_name": "0.0.33",
+      "tag": "0.0.33",
+      "commit": "b196095ec721ec34a70c653067228dde012d80eb",
+      "timestamp": 1753369643,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -12245,6 +12287,20 @@
       "tag": "0.6.14",
       "commit": "783f973c1dec91f913a905ece5a5afee53498e54",
       "timestamp": 1747765576,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e70cbecf178454f194634f6467da7aa4f5a3c35ddc037904135ca4636f0db29": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.15/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 38,
+      "version_name": "0.6.15",
+      "tag": "0.6.15",
+      "commit": "03773ddb13ab027896333cc42cf450aa908b4907",
+      "timestamp": 1753370019,
       "reproducible": true,
       "error": null
     }
@@ -13043,6 +13099,20 @@
       "tag": "5.0.2",
       "commit": "cf2e64921e6445977916105b40f1164f67b6377d",
       "timestamp": 1752690079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a9399dd7a3559c485909d93ed62cfdbcce613f078530f0ef14f97d3dc0b0295": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.3/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 158,
+      "version_name": "5.0.3",
+      "tag": "5.0.3",
+      "commit": "acad975f51d7b399a567b2d1217a3209b6bbef96",
+      "timestamp": 1753370500,
       "reproducible": true,
       "error": null
     }
@@ -16931,6 +17001,18 @@
       "timestamp": 1730636230,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/cbeuw/Cloak-android.git",
+      "apk_url": "https://github.com/cbeuw/Cloak-android/releases/download/v2.12.0/ck-client-2.9.0-signed.apk",
+      "appid": "com.github.shadowsocks.plugin.ck_client",
+      "version_code": 22,
+      "version_name": "2.9.0",
+      "tag": "v2.12.0",
+      "commit": "a754ec67ae0bbf68019ec355192dd37fac971acf",
+      "timestamp": 1753370924,
+      "reproducible": true,
+      "error": null
     }
   ],
   "dc16b2ee5cd08f8a38b4a9a2ac677e3e2a2086858ac46a5daf6ed6c6e7433425": [
@@ -19841,6 +19923,20 @@
       "tag": "v1.0.1",
       "commit": "5de6ed7fda5ec7e2996269d4a670c71878d835b9",
       "timestamp": 1753125424,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2bb11a7e9078e74d6c2156353e7836f81ec27c07f6f67002eb93ec6d2c7fc680": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.1.1/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 3,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "fc67d33de4ff6a1aa7de9100eeb567f2b9c69196",
+      "timestamp": 1753382519,
       "reproducible": true,
       "error": null
     }
@@ -23229,6 +23325,20 @@
       "error": null
     }
   ],
+  "4a48415027bbee25181ce12c2559b38c2b7d2259bc1cfc0c7dca799208ef7271": [
+    {
+      "repository": "https://github.com/nikashitsa/polar-alert-android.git",
+      "apk_url": "https://github.com/nikashitsa/heart-alert-android/releases/download/v2.0.0/app-release.apk",
+      "appid": "com.nikashitsa.polar_alert_android",
+      "version_code": 74,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "00b8f15039895196192b1222c5721b95061b65e2",
+      "timestamp": 1753376215,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58335376cef98186b2fe4275528fd55d6304341f4f5cb6e247f5242879145108": [
     {
       "repository": "https://github.com/NimaKhajehpour/MyMood.git",
@@ -26349,6 +26459,20 @@
       "error": null
     }
   ],
+  "274ab6b8d9c7761be4da0caece99b14b6df08aef07a6be7cd610303099b72739": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.0.8/taskmanager-v1.0.8.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 9,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "59768ed5d4753c50387bd0ede3f8fd22e5129f89",
+      "timestamp": 1753372463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -28735,6 +28859,20 @@
       "tag": "3.6.0",
       "commit": "2ffadf2af1ba43c840d7a40d4a98e5f524c58966",
       "timestamp": 1752330246,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3a8f476ffb0aa2b87cff5b2e0cf8fb40b421052599f2c502e3efc9666e80840": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/4.0.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 4000,
+      "version_name": "4.0.0",
+      "tag": "4.0.0",
+      "commit": "32cfd2e307aa6c7141abc607c579ec0e0c7fb853",
+      "timestamp": 1753383967,
       "reproducible": true,
       "error": null
     }
@@ -42815,6 +42953,20 @@
       "error": null
     }
   ],
+  "87a1967623184f0b072e0cdd7c8b40701a4d4f78d921c95b702bba2c2951f4b0": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/GreaseMilkyway/releases/download/25072401/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 25072401,
+      "version_name": "0.6",
+      "tag": "25072401",
+      "commit": "53887df03dfe956aff6b6f8b91590a2917567c30",
+      "timestamp": 1753383356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "60ac1dd606f1f0c51d317c57cf9611a9b03d8b82207de2f9e56a6e4913e0c601": [
     {
       "repository": "https://github.com/ohmae/dms-explorer.git",
@@ -46871,6 +47023,20 @@
       "tag": "3.6.1",
       "commit": "c698165b99a2225f979694fbc97283d54cdfde51",
       "timestamp": 1751800079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "807b01020b9c8209b4a9946595922cd7e83a438d3fd794021454997a6defe923": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Smither.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Smither/releases/download/3.6.2/app-release.apk",
+      "appid": "org.nuclearfog.smither",
+      "version_code": 118,
+      "version_name": "3.6.2",
+      "tag": "3.6.2",
+      "commit": "9c8ff12338b1b74aa32295cbf6a132c938af6c08",
+      "timestamp": 1753373347,
       "reproducible": true,
       "error": null
     }
