@@ -21969,6 +21969,20 @@
       "error": null
     }
   ],
+  "32dff1bb3dbfc79e1735fd2943d9196feb116de2123ba5ac341adb2ecb54b9d7": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.18-hf/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 37,
+      "version_name": "0.2.18-hf",
+      "tag": "v0.2.18-hf",
+      "commit": "cef4c61ff24dddab8f99ae8e9e3d38906720c1e3",
+      "timestamp": 1753299206,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
     {
       "repository": "https://github.com/meenbeese/Chronos.git",
@@ -30641,6 +30655,20 @@
       "error": null
     }
   ],
+  "0b4c50feaef2ca5cdc36a0367dba4db6d25cfb0a6ca619b9dca2db2039ad247f": [
+    {
+      "repository": "https://codeberg.org/Tre_brock/Toki-Pona-Dict-App.git",
+      "apk_url": "https://codeberg.org/Tre_brock/Toki-Pona-Dict-App/releases/download/1.0/app-release.apk",
+      "appid": "com.tre.tokiponadict",
+      "version_code": 1,
+      "version_name": "1",
+      "tag": "1.0",
+      "commit": "28dd6dfdb62f58dc1d6053cfa1652ffc1c3ba3db",
+      "timestamp": 1753393391,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca73ef741fe46f325bddf90ceea4b6ae71d2a828a2bdbdf33e5675c055869fc4": [
     {
       "repository": "https://github.com/TrianguloY/URLCheck.git",
@@ -31281,6 +31309,20 @@
       "tag": "v.1.4.5",
       "commit": "5bfdd4c1263bd786abbc427e9cabe329c97d4ce6",
       "timestamp": 1752593986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd9e4c46833b4cdecde2f8fa4c24b482bea5b4d58a7fa7616674a3676d8f4d73": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.6/chooser-v1.4.6.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 20,
+      "version_name": "1.4.6",
+      "tag": "v.1.4.6",
+      "commit": "1168e9cd09a8a28d1d4c506adfd41f382d2c4151",
+      "timestamp": 1753387515,
       "reproducible": true,
       "error": null
     }
