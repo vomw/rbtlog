@@ -4591,6 +4591,20 @@
       "error": null
     }
   ],
+  "9ef07d0e170ec2f0a85ba7f3470f5bd2ce29465374396f805b6f398b354c644f": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v2.6.0/ArcaneChat-foss-armeabi-v7a-2.6.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007251,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "5cc5a80990f4c8d67a4ac430152629f7029ee593",
+      "timestamp": 1753454665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -9981,6 +9995,20 @@
       "error": null
     }
   ],
+  "222075e934bdbc831361bc4c2b3d8745b16f86a8f72bd1d928f3c5a7d69d1b40": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.3.5v111/PuppyGit_1.1.3.5v111_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 111,
+      "version_name": "1.1.3.5",
+      "tag": "1.1.3.5v111",
+      "commit": "0404b5df4d5da5c5f35d00eeb985cbb72ae372da",
+      "timestamp": 1753460779,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -10033,6 +10061,20 @@
       "tag": "1.8v9",
       "commit": "f911edff4ba26167417962ed5d6587be1bf9bb3a",
       "timestamp": 1735761400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3802571fbe9814647f7c1541f04523bc11f7a641270abfba2e8ec7fe01e69c28": [
+    {
+      "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
+      "apk_url": "https://github.com/catpuppyapp/SshKeyMan/releases/download/1.9v10/SshKeyMan_1.9v10_release.apk",
+      "appid": "com.catpuppyapp.sshkeyman",
+      "version_code": 10,
+      "version_name": "1.9",
+      "tag": "1.9v10",
+      "commit": "1767e63bf4777333341aeb91d097bca5ccbcec84",
+      "timestamp": 1753456296,
       "reproducible": true,
       "error": null
     }
@@ -19395,6 +19437,20 @@
       "error": null
     }
   ],
+  "a59774e2602b266ff18b8f611249346cd782c6efe569d975e907d4888cdee30a": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.80/app-release.apk",
+      "appid": "com.jerboa",
+      "version_code": 80,
+      "version_name": "0.0.80",
+      "tag": "0.0.80",
+      "commit": "ba36b721b7a5a0442924346947379ae741b6ccea",
+      "timestamp": 1753467684,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpkpqx8x3d/outputs:/outputs', '--volume', '/tmp/tmpkpqx8x3d/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/LemmyNet/jerboa.git', '--env', 'APP_TAG=0.0.80', '--env', 'APP_COMMIT=ba36b721b7a5a0442924346947379ae741b6ccea', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -20361,6 +20417,20 @@
       "error": null
     }
   ],
+  "1543a465e6e0255a5b24c4471d3be77e0914a07b8b3f25814ab5348f55dfd630": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.3/KeePassDX-4.1.3-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 135,
+      "version_name": "4.1.3",
+      "tag": "4.1.3",
+      "commit": "70665f110da9949b097fe5cbae5ae0c45d906981",
+      "timestamp": 1753468925,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -20371,6 +20441,20 @@
       "tag": "4.1.2",
       "commit": "e809109bb2b9f1e1e72f3f0c692ee6bb8e5e4336",
       "timestamp": 1752540671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "468dc1cf259247a0a3dc8ed48fb7671359ebb9016fffe4428c151ee5a0224757": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.3/KeePassDX-4.1.3-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 135,
+      "version_name": "4.1.3",
+      "tag": "4.1.3",
+      "commit": "70665f110da9949b097fe5cbae5ae0c45d906981",
+      "timestamp": 1753469341,
       "reproducible": true,
       "error": null
     }
@@ -21117,6 +21201,20 @@
       "error": null
     }
   ],
+  "9b856a3c92bdec88bc415507261b0e2b785e12181b177ffa9c5ec723180f894f": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.0.0/alternate-arm64-v8a-v2.0.0.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 4,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "4dcc7ccbc1f69dfbac0fcb903b5c783582ec9c33",
+      "timestamp": 1753457878,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f174b4457ead4968a1684f0a89a5503151c0425ed32ef5dcade932974ad19bdb": [
     {
       "repository": "https://github.com/NeoApplications/Neo-Backup.git",
@@ -21755,6 +21853,20 @@
       "tag": "v0.3.6",
       "commit": "c9f76b67f253f6d7d3fa44308619bf4a9796ab91",
       "timestamp": 1752589551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f741660173a040b589e7c9e2e088e9e480cf8171f780736d57dfce6dba0bb85b": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.3.7/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 307,
+      "version_name": "0.3.7",
+      "tag": "v0.3.7",
+      "commit": "258329eb4fd6c150436893abb08b777a5fd21e8d",
+      "timestamp": 1753458590,
       "reproducible": true,
       "error": null
     }
@@ -32557,6 +32669,20 @@
       "error": null
     }
   ],
+  "d79516eb631e9dd5e05b9e7fb4b56a4df3185053e171311f265dde6fc8de4f5f": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.1.1/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 9,
+      "version_name": "0.1.1",
+      "tag": "v0.1.1",
+      "commit": "58e6938c1d7efb0b8a7d19ff1b7cabe31a4dddc7",
+      "timestamp": 1753458324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -35939,6 +36065,20 @@
       "tag": "v1.2.0",
       "commit": "19a4489d4f8f9f8575cd3815c3d8cdde57968409",
       "timestamp": 1751724880,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "522b7ba58814cd5673bd2aa8f47dbe35aad8c047c4872fa0d1e8c793a88e8ebb": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.2.1/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23172,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "71bf23a110c446bc47d4d6196b33ed5f2e67f34b",
+      "timestamp": 1753470036,
       "reproducible": true,
       "error": null
     }
@@ -39497,6 +39637,20 @@
       "error": null
     }
   ],
+  "35eae04b565b1081c13734e397f0e333e136ff8fee370e0aa3c6fbbad7f7a2ca": [
+    {
+      "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
+      "apk_url": "https://github.com/Helium314/Local-NLP-Backend/releases/download/v1.2.15/local-nlp-backend_1.2.15-release.apk",
+      "appid": "helium314.localbackend",
+      "version_code": 43,
+      "version_name": "1.2.15",
+      "tag": "v1.2.15",
+      "commit": "f05204722bca26b7f110ae7e5c200293da77d4bb",
+      "timestamp": 1753464714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "67c5bb9096e0aed12654c1cfe0000bfc0c0213de96ec24ca57d5d670fddc3289": [
     {
       "repository": "https://github.com/IAEA-NDS/IsotopeBrowser.git",
@@ -43005,6 +43159,20 @@
       "tag": "25072401",
       "commit": "53887df03dfe956aff6b6f8b91590a2917567c30",
       "timestamp": 1753383356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fe1f61dc9bced1e39673bc650fc1db00d1d47237438b8acf21740501d858041": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/GreaseMilkyway/releases/download/25072502/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 25072502,
+      "version_name": "0.7",
+      "tag": "25072502",
+      "commit": "b83bcfe6f169f40d35cf7b93910c4b6b8e6c1169",
+      "timestamp": 1753459151,
       "reproducible": true,
       "error": null
     }
