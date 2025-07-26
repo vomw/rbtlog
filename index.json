@@ -2281,6 +2281,20 @@
       "error": null
     }
   ],
+  "fd6d6e2786ab275a988d703f803c6697b99cd87a226d8b3f21a985aaf94a5ae9": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.3.1/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10631,
+      "version_name": "build106.3.1",
+      "tag": "build106.3.1",
+      "commit": "791c6ea89307bf49cbd810ac78b5419d64fb35b3",
+      "timestamp": 1753541060,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -4615,6 +4629,20 @@
       "tag": "v1.0.5",
       "commit": "bb62ca681d9b68eca2fa8ebcc0a1d52d84ffc80e",
       "timestamp": 1732735267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "55363307d91464e45ee0410b2c37715999e7c5d8164d5c97293b4b6c94f72fdb": [
+    {
+      "repository": "https://github.com/gfroerli/app-android.git",
+      "apk_url": "https://github.com/gfroerli/app-android/releases/download/v1.1.0/gfroerli-android-1.1.0.apk",
+      "appid": "ch.coredump.watertemp.zh",
+      "version_code": 18,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "5972eedc4c412caf1c2e0371c1843900155b83dc",
+      "timestamp": 1753549441,
       "reproducible": true,
       "error": null
     }
@@ -14683,6 +14711,34 @@
       "error": null
     }
   ],
+  "52746cc216f85389a73f0eb1dd742f5ea3737651911b84bfabcd8a8eb7cbdca5": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.31.4/com.fibelatti.photowidget-v1.31.4-1310400-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1310400,
+      "version_name": "1.31.4",
+      "tag": "v1.31.4",
+      "commit": "4e75d89b88d4fa626a52697ca41ce3ba7367ac52",
+      "timestamp": 1753541777,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e2209e0d8b4b4d326de9d5a558ec30557b5ea1fb77d179eeb44e51d368b6d03": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.31.5/com.fibelatti.photowidget-v1.31.5-1310500-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1310500,
+      "version_name": "1.31.5",
+      "tag": "v1.31.5",
+      "commit": "62ef85b0a437b1963c0646d84478cd70ab727adf",
+      "timestamp": 1753554540,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -19633,6 +19689,20 @@
       "error": null
     }
   ],
+  "bf10bc168f9c6d0b66c5e96412a3f856658be17a90bf3e7b747e6f15f781e40d": [
+    {
+      "repository": "https://github.com/NoWakeLock/NoWakeLock.git",
+      "apk_url": "https://github.com/NoWakeLock/NoWakeLock/releases/download/v3.0.7/NoWakeLock-3.0.7.apk",
+      "appid": "com.js.nowakelock",
+      "version_code": 84,
+      "version_name": "3.0.7",
+      "tag": "v3.0.7",
+      "commit": "e960346b410f1c5fb046b436f604228172f2920e",
+      "timestamp": 1753568949,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10f6f2b266dad28a047532b96bbac5d0dbb04f24dd18dd235a39c1bce342777d": [
     {
       "repository": "https://github.com/jucktion/healthlog.git",
@@ -21211,6 +21281,20 @@
       "tag": "v2.0.0",
       "commit": "4dcc7ccbc1f69dfbac0fcb903b5c783582ec9c33",
       "timestamp": 1753457878,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "796b9061207873d2ddd1ed4280a9924e12bbb79b73e62ab624bc90ea9bd32edc": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.0.1/alternate-arm64-v8a-v2.0.1.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 5,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "b5554b40396a9c04392676a5e83a681fd699c75a",
+      "timestamp": 1753542107,
       "reproducible": true,
       "error": null
     }
@@ -25279,6 +25363,20 @@
       "tag": "v0.2.0",
       "commit": "04bb5eb2c21b3ebc14c3bacc0d000400cc39e289",
       "timestamp": 1752502808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "28c2c8c032f214a9049ffde973b0ea7b3a6331f5a0ecd40a0b579feb217d7878": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.3.0/torrentsearch-v0.3.0.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 6,
+      "version_name": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "9e0b1653f0ac5f39e8c2d72d2266adae85f6b522",
+      "timestamp": 1753542899,
       "reproducible": true,
       "error": null
     }
@@ -30011,6 +30109,20 @@
       "error": null
     }
   ],
+  "720b1c9faae63eebcf88b8308cc453b511c84729e48bacc6325f1e6f1d5a06c5": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
+      "apk_url": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.28/app-release.apk",
+      "appid": "com.sunilpaulmathew.debloater",
+      "version_code": 28,
+      "version_name": "v0.28",
+      "tag": "v0.28",
+      "commit": "1a78f387a6a8116d9298114a409c4032a8043879",
+      "timestamp": 1753571860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9be02cdbdffa088162bd3c9e31efabcaf17e28fac034fb2953a0c0e542249407": [
     {
       "repository": "https://github.com/sunilpaulmathew/sNotz.git",
@@ -31481,6 +31593,20 @@
       "error": null
     }
   ],
+  "e4144aae057963721e53ad1b8200c0ddffd3144ca4e5150b41a1014469b68442": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1661/Thor_v1661.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1661,
+      "version_name": "1.66.1",
+      "tag": "Thor_v1661",
+      "commit": "5e9aa411bf8c90cb7bf501e351762362bb044d54",
+      "timestamp": 1753555172,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -32697,6 +32823,20 @@
       "error": null
     }
   ],
+  "e0ba453f9314dee5532f8adeacce8423111128ea9d3ced9061a23b3718e21391": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.1.2/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 10,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "46a483a1278b20967f6ddd3ff2916be573707232",
+      "timestamp": 1753543453,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -32819,6 +32959,20 @@
       "tag": "v3.3.2",
       "commit": "8c3af028c61f8246db7962b1354a72bd7f88f858",
       "timestamp": 1752784299,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "273b818216d36ac77abec58ca04f4cd13b791bdf81c44a06a7bbb8b187bac28a": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.3/MediLog-3.3.3.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5494,
+      "version_name": "3.3.3",
+      "tag": "v3.3.3",
+      "commit": "5b763248689818883e0d3fa46cd69e8d7736636a",
+      "timestamp": 1753569462,
       "reproducible": true,
       "error": null
     }
@@ -40447,6 +40601,20 @@
       "error": null
     }
   ],
+  "9b6bce0889f99e51c1526684c0654ecebd946d199a42c79aff83d8f841b8a217": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.3.1/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 6,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "d2606e3a26409cdbbe6764088a73f84477048aec",
+      "timestamp": 1753543779,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -43327,6 +43495,20 @@
       "tag": "1.0.3",
       "commit": "37379c146b022907d0d6e0978c9e08f987744b35",
       "timestamp": 1753193845,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a265e0c1c0c9ddcab5bb64528d25684c5cd457f5f5843a29dff029aafc48f850": [
+    {
+      "repository": "https://github.com/synapp009/NeuroCalm.git",
+      "apk_url": "https://github.com/synapp009/NeuroCalm/releases/download/1.0.4/neurocalm-1.0.4.apk",
+      "appid": "nodomain.synapp.neurocalm",
+      "version_code": 4,
+      "version_name": "1.0.4",
+      "tag": "1.0.4",
+      "commit": "d062ca7dc79fe087afc4a43c3b382373a76bdd1b",
+      "timestamp": 1753544121,
       "reproducible": true,
       "error": null
     }
