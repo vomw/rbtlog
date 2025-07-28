@@ -23813,6 +23813,20 @@
       "error": null
     }
   ],
+  "bb35e45fca60414d4fa06bbf17d4cfad979034c412d01e743ba559e6d6f5299d": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.0.4/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 4,
+      "version_name": "0.0.4",
+      "tag": "V0.0.4",
+      "commit": "e20ab01a64629ab72c006d18564da60e71524f28",
+      "timestamp": 1753645787,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05d89b89548fbcd9654c3a43aeae0479a0605cf16487451628f7ae2a21d195ce": [
     {
       "repository": "https://github.com/cuadratico/NowiChat.git",
@@ -41059,6 +41073,20 @@
       "tag": "v0.3.4",
       "commit": "342751fe675367483170b002ec6054e243966dc0",
       "timestamp": 1741730038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "19d8adc99d22cd9ebc08786b7982744be94daccc9b3f1725812a776789278f0d": [
+    {
+      "repository": "https://github.com/MuntashirAkon/AppManager.git",
+      "apk_url": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.0.5/AppManager_v4.0.5.apk",
+      "appid": "io.github.muntashirakon.AppManager",
+      "version_code": 445,
+      "version_name": "4.0.5",
+      "tag": "v4.0.5",
+      "commit": "31fa1f1460666e56f1ceb0ab43b3e31b3ba50dac",
+      "timestamp": 1753695480,
       "reproducible": true,
       "error": null
     }
