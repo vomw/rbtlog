@@ -78,3 +78,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.12.0-1
+    apks:
+      - apk_pattern: ck-client-.*signed\.apk
+        apk_url: https://github.com/cbeuw/Cloak-android/releases/download/v2.12.0-1/ck-client-2.12.0-signed.apk
+        build:
+          - export ANDROID_NDK_HOME="/opt/sdk/ndk/${PROVISIONING_NDK}"
+          - wget -q -O /tmp/go.tar.gz https://dl.google.com/go/go1.22.4.linux-amd64.tar.gz
+          - sha256sum -c <<< "ba79d4526102575196273416239cca418a651e049c2b099f3159db85e7bade7d /tmp/go.tar.gz"
+          - tar -C /build -xzf /tmp/go.tar.gz && rm -f /tmp/go.tar.gz
+          - export PATH="$PATH:/build/go/bin" GOBIN=/build/go/bin
+          - go install golang.org/x/mobile/cmd/gomobile@c6794c95c70b02ddb1a79d92fec29f8b8ddd8836
+          - go install golang.org/x/mobile/cmd/gobind@c6794c95c70b02ddb1a79d92fec29f8b8ddd8836
+          - pushd 'app/src'
+          - ./build.sh
+          - popd
+          - chmod +x gradlew
+          - ./gradlew --no-daemon assembleRelease
+          - mv app/build/outputs/apk/release/ck-client-*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 26.3.11579264
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

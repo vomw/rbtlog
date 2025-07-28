@@ -162,3 +162,42 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.1.1
+    apks:
+      - apk_pattern: alternate-arm64-v8a-.*\.apk
+        apk_url: https://github.com/BioHazard786/Alternate/releases/download/v2.1.1/alternate-arm64-v8a-v2.1.1.apk
+        build:
+          - sed -r '/signingConfigs.(debug|release)/d ; s/include ".*/include "arm64-v8a"/' -i android/app/build.gradle
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v22.17.1/node-v22.17.1-linux-x64.tar.xz
+          - sha256sum -c <<< 'ff04bc7c3ed7699ceb708dbaaf3580d899ff8bf67f17114f979e83aa74fc5a49  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v22.17.1-linux-x64/bin:${HOME}/.node/bin"
+          - npm config set prefix "${HOME}/.node"
+          - npm ci
+          - sed -r '/signingConfigs.debug/d' -i android/app/build.gradle
+          - sed -r '/version/ { s/"[0-9.]+"/"'"${APP_TAG:1}"'"/ }' -i package.json
+          - cd android && chmod +x gradlew && ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Alternate/Alternate
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

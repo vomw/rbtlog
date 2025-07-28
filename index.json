@@ -6215,6 +6215,20 @@
       "error": null
     }
   ],
+  "ef464624c985429c3586176379bea4bf87144f8f878129dfcad6b0512db5997a": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.8/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1363,
+      "version_name": "4.5.8",
+      "tag": "v4.5.8",
+      "commit": "5aad936eb1c29b4ea6cf079d7a584a8eed60ad05",
+      "timestamp": 1753714054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -6645,6 +6659,20 @@
       "tag": "4.7.3",
       "commit": "3dc3c2a452b4ebec040995773a1915a696f5af4b",
       "timestamp": 1752517270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "945cef85dd8e95117ee3f9b33e3747df7ee00cd9e262b647ce9df5b4bae2b67c": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.4.apk",
+      "appid": "com.aurora.store",
+      "version_code": 70,
+      "version_name": "4.7.4",
+      "tag": "4.7.4",
+      "commit": "d43dcd065c1de1cddaa43c6d3bb1dc2bec42678e",
+      "timestamp": 1753714261,
       "reproducible": true,
       "error": null
     }
@@ -9127,6 +9155,20 @@
       "error": null
     }
   ],
+  "e8cd12d8220da6306953b27cc005e3b210ce76a6db8855bd8483ab970984a11c": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.07.1149-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1149,
+      "version_name": "2025.07.1149-dev",
+      "tag": "2025.07.1149-dev",
+      "commit": "50bc98659c652b5026b6544a97f940ab2a53b16c",
+      "timestamp": 1753714864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -10369,6 +10411,20 @@
       "tag": "v1.1.2",
       "commit": "b441a8e0ecfe73180cfce278a6356171f88cd734",
       "timestamp": 1752502315,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "187f323e96d2e6f789a2755767b78f75d309216bc4341a185da188b2c01f020a": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.3/app-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 6,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "fbbaac7658fe44f787ca0387effadb725d046a21",
+      "timestamp": 1753715358,
       "reproducible": true,
       "error": null
     }
@@ -17127,6 +17183,20 @@
       "error": null
     }
   ],
+  "968c3c0b9d07795e22ac5dbc0b24da88dfdd1de0fc3fec643f30173098c1e696": [
+    {
+      "repository": "https://github.com/cbeuw/Cloak-android.git",
+      "apk_url": "https://github.com/cbeuw/Cloak-android/releases/download/v2.12.0-1/ck-client-2.12.0-signed.apk",
+      "appid": "com.github.shadowsocks.plugin.ck_client",
+      "version_code": 23,
+      "version_name": "2.12.0",
+      "tag": "v2.12.0-1",
+      "commit": "c95e333aea5fe2e8d0a0a91e4b8a1dbfbf235a23",
+      "timestamp": 1753727345,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc16b2ee5cd08f8a38b4a9a2ac677e3e2a2086858ac46a5daf6ed6c6e7433425": [
     {
       "repository": "https://github.com/tmo1/sms-ie.git",
@@ -21323,6 +21393,20 @@
       "tag": "v2.0.1",
       "commit": "b5554b40396a9c04392676a5e83a681fd699c75a",
       "timestamp": 1753542107,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f2a5c28ac1af1b988f13a77741a14aa463ea03bd8a0b33706f744b1336fee8cc": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.1.1/alternate-arm64-v8a-v2.1.1.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 6,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "e56d8aa58d52e17ff9859816f8d73f1a723adbfa",
+      "timestamp": 1753716247,
       "reproducible": true,
       "error": null
     }
@@ -30305,6 +30389,20 @@
       "error": null
     }
   ],
+  "1ea93e57afa3ec94a3b8b1cd6c1f18721299ece57d05e45336ee50439fb63e3d": [
+    {
+      "repository": "https://github.com/nxtrace/NextTraceroute.git",
+      "apk_url": "https://github.com/nxtrace/NextTraceroute/releases/download/0.1.5/NextTraceroute-0.1.5.apk",
+      "appid": "com.surfaceocean.nexttraceroute",
+      "version_code": 15,
+      "version_name": "0.1.5",
+      "tag": "0.1.5",
+      "commit": "1a88104ff26d7d25c9769af73bc3112a92a84c85",
+      "timestamp": 1753727607,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "879e6d592f15a91f12755dae463100313cfb72534467b709746238e34f665a0f": [
     {
       "repository": "https://github.com/leon-cleaning-services/leon.git",
@@ -34259,6 +34357,20 @@
       "tag": "v1.0.8",
       "commit": "5536d55b88b5ee3c37851195828481a3f7eb84aa",
       "timestamp": 1753126677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5765b69154352b6007df921bbfad2c9c796512b2b3fd82ff08b53d029636aff5": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.1.0/app-release-v1.1.0.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 10,
+      "version_name": "v1.1.0",
+      "tag": "v1.1.0",
+      "commit": "1d7fe08155dec4688e1edb5e978e94a43e242ec1",
+      "timestamp": 1753717050,
       "reproducible": true,
       "error": null
     }
@@ -42533,6 +42645,20 @@
       "error": null
     }
   ],
+  "d233d20440f4dbb3e3811aa4fcb62ae61335f6876b039ad7415afd5bc6ceda15": [
+    {
+      "repository": "https://github.com/TheLastProject/ShareToInputStick.git",
+      "apk_url": "https://github.com/TheLastProject/ShareToInputStick/releases/download/v3.7.0/app-release.apk",
+      "appid": "me.hackerchick.sharetoinputstick",
+      "version_code": 24,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "f53217bcf6c3e181b8ec71a787167f2083245a00",
+      "timestamp": 1753727879,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "93a6bf261a6b639129b3df1136a51abf212dac2b5753b9d53cbe63bcb222f1f3": [
     {
       "repository": "https://github.com/knighthat/Kreate.git",
@@ -42753,6 +42879,20 @@
       "tag": "v1.6.1",
       "commit": "6c49c405e7696d308af2fb85f60e3d1bb860992f",
       "timestamp": 1753629389,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73e703a5b7a5c579386ba2aa5dcb26780d8225522d25480378c3edc16e4dffff": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.6.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 109,
+      "version_name": "1.6.2-izzy",
+      "tag": "v1.6.2",
+      "commit": "7f134e76dc2251c2371058bffeb5275b72fffbc0",
+      "timestamp": 1753717378,
       "reproducible": true,
       "error": null
     }
