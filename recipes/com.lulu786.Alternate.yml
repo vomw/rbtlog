@@ -162,10 +162,10 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
-  - tag: v2.1.1
+  - tag: v2.1.2
     apks:
       - apk_pattern: alternate-arm64-v8a-.*\.apk
-        apk_url: https://github.com/BioHazard786/Alternate/releases/download/v2.1.1/alternate-arm64-v8a-v2.1.1.apk
+        apk_url: https://github.com/BioHazard786/Alternate/releases/download/v2.1.2/alternate-arm64-v8a-v2.1.2.apk
         build:
           - sed -r '/signingConfigs.(debug|release)/d ; s/include ".*/include "arm64-v8a"/' -i android/app/build.gradle
           - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v22.17.1/node-v22.17.1-linux-x64.tar.xz

@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/sunilpaulmathew/De-Bloater.git
 updates: releases
-notes:
-  - 'FIXME: v0.27 was built from a commit not present in the repo, see https://github.com/sunilpaulmathew/De-Bloater/issues/48'
 versions:
   - tag: v0.27
     apks:
@@ -44,6 +42,35 @@ versions:
         build:
           - git reset --soft a35e162b45892e4f35255692e46cf8bd8051d726
           - sed -r 's/"latestVersionCode":\ 28/"latestVersionCode":\ 27/ ; s/"latestVersion":\ "v0.28"/"latestVersion":\ "v0.27"/ ; s#/v0.28/#/v0.27/# ; s/b99a1a0f6375114b4a83a612d707a9c622f3d8d2/2553ee0eed968bbb01b6314c78d247847258ad4a/' -i app/src/main/assets/release.json
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.29
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.29/app-release.apk
+        build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk

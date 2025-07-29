@@ -4633,6 +4633,20 @@
       "error": null
     }
   ],
+  "f6e9694b0b7faeafb82b65afc9db75cd375ff2fcb38d3f13089e70a5822516c7": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v2.8.0/ArcaneChat-foss-armeabi-v7a-2.8.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007261,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "e6f4a616fbc8f2dbfcc5c283a1e8f9a6212bb59f",
+      "timestamp": 1753800477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d3f8b708c0bdab035da6de3a2f733456c08dd9da1bdda1f35c21da1d3cb010bf": [
     {
       "repository": "https://github.com/gfroerli/app-android.git",
@@ -6224,7 +6238,7 @@
       "version_name": "4.5.8",
       "tag": "v4.5.8",
       "commit": "5aad936eb1c29b4ea6cf079d7a584a8eed60ad05",
-      "timestamp": 1753714054,
+      "timestamp": 1753801114,
       "reproducible": true,
       "error": null
     }
@@ -9164,7 +9178,7 @@
       "version_name": "2025.07.1149-dev",
       "tag": "2025.07.1149-dev",
       "commit": "50bc98659c652b5026b6544a97f940ab2a53b16c",
-      "timestamp": 1753714864,
+      "timestamp": 1753801968,
       "reproducible": true,
       "error": null
     }
@@ -10415,16 +10429,16 @@
       "error": null
     }
   ],
-  "187f323e96d2e6f789a2755767b78f75d309216bc4341a185da188b2c01f020a": [
+  "c3189e2021360376a619b1f383b76e3e1dd561ed7349e40d6614557422657dd8": [
     {
       "repository": "https://github.com/cogwheel0/luci-mobile.git",
-      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.3/app-release.apk",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.4/app-release.apk",
       "appid": "com.cogwheel.LuCIMobile",
-      "version_code": 6,
-      "version_name": "1.1.3",
-      "tag": "v1.1.3",
-      "commit": "fbbaac7658fe44f787ca0387effadb725d046a21",
-      "timestamp": 1753715358,
+      "version_code": 7,
+      "version_name": "1.1.4",
+      "tag": "v1.1.4",
+      "commit": "004c1333df14f7ad076295a8a1cc1eb9c615022d",
+      "timestamp": 1753802404,
       "reproducible": true,
       "error": null
     }
@@ -11545,6 +11559,20 @@
       "tag": "v1.8.4",
       "commit": "f43c82f94ce323bf06fac8c6fbe399ab43dbeac4",
       "timestamp": 1743959240,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5336081c5c194d40595116319495c63c2374559d5591d9d358055f8140806a49": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.5/YTDLnis-1.8.5-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108050004,
+      "version_name": "1.8.5",
+      "tag": "v1.8.5",
+      "commit": "2c5b658a4904740dbcc840743f2ddab91410a0f6",
+      "timestamp": 1753802885,
       "reproducible": true,
       "error": null
     }
@@ -13257,6 +13285,20 @@
       "error": null
     }
   ],
+  "1af517aa91637ae2b39dc1aaa57113322e7c7de731de4f94a1da7ff1d492578c": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.4/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 159,
+      "version_name": "5.0.4",
+      "tag": "5.0.4",
+      "commit": "b7a6ebb124475bdd6995c31cd609dde377ad2115",
+      "timestamp": 1753803339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -13869,6 +13911,20 @@
       "tag": "2025.4.1",
       "commit": "b4a92b6d10dd0eb8858caf99c80b44ea409c3b9e",
       "timestamp": 1743699656,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "6ddccf714dd273b77e07f6ee17cd85fe4b0a492df90891a59768b6339993fd4e": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.7.2/app-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 4,
+      "version_name": "2025.7.2",
+      "tag": "2025.7.2",
+      "commit": "ffecffd9ff40bec98c168164029f3745d8bfdd55",
+      "timestamp": 1753727113,
       "reproducible": false,
       "error": null
     }
@@ -16923,6 +16979,20 @@
       "error": null
     }
   ],
+  "8740481359117b38df423548ad3729c864aa5e1529932553b54f56f2f7f9b78b": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.1/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2432057,
+      "version_name": "3.5.1",
+      "tag": "3.5.1",
+      "commit": "6a51affef7935b44c4f1f58a0c244c85f6060cd0",
+      "timestamp": 1753804117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c8c1917bb6e2f85f0fdc297ed1484ec10bfb6babdad860b49a560a226c792c1c": [
     {
       "repository": "https://github.com/gouravkhunger/QuotesApp.git",
@@ -17192,7 +17262,7 @@
       "version_name": "2.12.0",
       "tag": "v2.12.0-1",
       "commit": "c95e333aea5fe2e8d0a0a91e4b8a1dbfbf235a23",
-      "timestamp": 1753727345,
+      "timestamp": 1753804328,
       "reproducible": true,
       "error": null
     }
@@ -21397,16 +21467,16 @@
       "error": null
     }
   ],
-  "f2a5c28ac1af1b988f13a77741a14aa463ea03bd8a0b33706f744b1336fee8cc": [
+  "410da572597dae7dc6a9af6b210fac05944b31eb0ec4806ecba4016896d0da97": [
     {
       "repository": "https://github.com/BioHazard786/Alternate.git",
-      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.1.1/alternate-arm64-v8a-v2.1.1.apk",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.1.2/alternate-arm64-v8a-v2.1.2.apk",
       "appid": "com.lulu786.Alternate",
-      "version_code": 6,
-      "version_name": "2.1.1",
-      "tag": "v2.1.1",
-      "commit": "e56d8aa58d52e17ff9859816f8d73f1a723adbfa",
-      "timestamp": 1753716247,
+      "version_code": 7,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "f460d84211cafb8c91abe0a8f52d962ed00a889d",
+      "timestamp": 1753804574,
       "reproducible": true,
       "error": null
     }
@@ -23907,6 +23977,20 @@
       "tag": "V0.0.4",
       "commit": "e20ab01a64629ab72c006d18564da60e71524f28",
       "timestamp": 1753645787,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9179f3e0839a921a108b954b979c23cc72d4219c76097f0a019ac7cf98e0dd4f": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.0.5/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 5,
+      "version_name": "0.0.5",
+      "tag": "V0.0.5",
+      "commit": "4e976be881caeb2a91ea449f1656b0db1102930d",
+      "timestamp": 1753815236,
       "reproducible": true,
       "error": null
     }
@@ -28597,6 +28681,20 @@
       "error": null
     }
   ],
+  "1174965705be82445ce6de6fb7a93aebb889756315246a31610203d68ef003bd": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/4.2.3/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 4230,
+      "version_name": "4.2.3",
+      "tag": "4.2.3",
+      "commit": "b0841ca9ddc0fb3e72c9dfe7eb54c3d09511b32a",
+      "timestamp": 1753805374,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -29283,6 +29381,20 @@
       "error": null
     }
   ],
+  "27a2f0e646bf0f836d7bf23207fbfd0deecdd8952b736e3910cdb8df92448f73": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/4.1.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 4110,
+      "version_name": "4.1.1",
+      "tag": "4.1.1",
+      "commit": "dcb37302fa551a49bf529b03307479e4cae005d3",
+      "timestamp": 1753805771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -29769,6 +29881,20 @@
       "tag": "v3.5.2",
       "commit": "f64ab33277d7376a523dc3b6dc0237164c22de3e",
       "timestamp": 1753281961,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "46e12e2d6e58fb5dd698258942a416311d2b8c5bf97d82d0bb3fe13dd1a6302d": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.6.1/CC_3.6.1.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 50,
+      "version_name": "3.6.1",
+      "tag": "v3.6.1",
+      "commit": "d4b7b35683acc9374b63f7233e427f2c0ae7957c",
+      "timestamp": 1753806236,
       "reproducible": true,
       "error": null
     }
@@ -30291,6 +30417,20 @@
       "error": null
     }
   ],
+  "6a55afa404936d29b7ebead05e4e5ecb608afc178c3a0d161e4269d32cf38b60": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
+      "apk_url": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.29/app-release.apk",
+      "appid": "com.sunilpaulmathew.debloater",
+      "version_code": 29,
+      "version_name": "v0.29",
+      "tag": "v0.29",
+      "commit": "8d26baba7a338796429dca65db74bccd903fb412",
+      "timestamp": 1753817817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9be02cdbdffa088162bd3c9e31efabcaf17e28fac034fb2953a0c0e542249407": [
     {
       "repository": "https://github.com/sunilpaulmathew/sNotz.git",
@@ -30398,7 +30538,7 @@
       "version_name": "0.1.5",
       "tag": "0.1.5",
       "commit": "1a88104ff26d7d25c9769af73bc3112a92a84c85",
-      "timestamp": 1753727607,
+      "timestamp": 1753806471,
       "reproducible": true,
       "error": null
     }
@@ -30511,6 +30651,20 @@
       "tag": "1.0.10",
       "commit": "5b9466f9836be0cb5e21d195752bffacfbbaff9b",
       "timestamp": 1729025959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a71296b6447176553aee090849a66cbbfd7c6c3bf7fc63eea59ba976fb53b8f8": [
+    {
+      "repository": "https://github.com/Sztorm/NoteCalendar.git",
+      "apk_url": "https://github.com/Sztorm/NoteCalendar/releases/download/1.0.11/com.sztorm.notecalendar-1.0.11.apk",
+      "appid": "com.sztorm.notecalendar",
+      "version_code": 12,
+      "version_name": "1.0.11",
+      "tag": "1.0.11",
+      "commit": "d7163bc226e75ce68ebc1c420607355ec498177f",
+      "timestamp": 1753806705,
       "reproducible": true,
       "error": null
     }
@@ -33033,6 +33187,20 @@
       "error": null
     }
   ],
+  "efec6242e61ace696f02020b10fa3763235896f05e939c12213ea0ef4cc5ceed": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.1.5/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 13,
+      "version_name": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "695dbd9aec36247e296b0298aca286c1212110dd",
+      "timestamp": 1753818278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -34370,7 +34538,7 @@
       "version_name": "v1.1.0",
       "tag": "v1.1.0",
       "commit": "1d7fe08155dec4688e1edb5e978e94a43e242ec1",
-      "timestamp": 1753717050,
+      "timestamp": 1753807287,
       "reproducible": true,
       "error": null
     }
@@ -36233,6 +36401,20 @@
       "tag": "v1.4.8",
       "commit": "60fe01f2840aa7a6d1ad8d226e7370f142c729a5",
       "timestamp": 1751276779,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6e1be0ab6c8bdc68da68381570a4710c1ce7023e09819c5158dd8e57e124a03": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.4.9/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10040092,
+      "version_name": "1.4.9",
+      "tag": "v1.4.9",
+      "commit": "e14374bbe19fab397fb78637552aaad52de96400",
+      "timestamp": 1753807576,
       "reproducible": true,
       "error": null
     }
@@ -42654,7 +42836,7 @@
       "version_name": "3.7.0",
       "tag": "v3.7.0",
       "commit": "f53217bcf6c3e181b8ec71a787167f2083245a00",
-      "timestamp": 1753727879,
+      "timestamp": 1753808373,
       "reproducible": true,
       "error": null
     }
@@ -42892,7 +43074,7 @@
       "version_name": "1.6.2-izzy",
       "tag": "v1.6.2",
       "commit": "7f134e76dc2251c2371058bffeb5275b72fffbc0",
-      "timestamp": 1753717378,
+      "timestamp": 1753808576,
       "reproducible": true,
       "error": null
     }
@@ -44031,6 +44213,20 @@
       "error": null
     }
   ],
+  "2748f7f2dda5fdccf9b4a3880ed3bcd61c9f16714d7a27f65346bea5588748fa": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.3.3/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 24,
+      "version_name": "alpha-0.3.3",
+      "tag": "alpha-0.3.3",
+      "commit": "6d8ce5cd49cb217ade6ed9a89b24148d3662247a",
+      "timestamp": 1753728281,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -44083,6 +44279,20 @@
       "tag": "5.1.3",
       "commit": "6d2d14ffd59ceee337c1bf9d36d9625ea29c4bcf",
       "timestamp": 1748889671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3196ee2a20f702d96f5903b7736c90375b0faa75e2aa6ec42d062e9deadf5a23": [
+    {
+      "repository": "https://github.com/cmeng-git/xmail.git",
+      "apk_url": "https://github.com/cmeng-git/xmail/releases/download/5.2.0/XryptoMail-release.apk",
+      "appid": "org.atalk.xryptomail",
+      "version_code": 19200,
+      "version_name": "5.2.0",
+      "tag": "5.2.0",
+      "commit": "aea173591fc87d365f5207a9ae5910c6abe26a66",
+      "timestamp": 1753817294,
       "reproducible": true,
       "error": null
     }
@@ -48057,6 +48267,34 @@
       "tag": "v1.2.0",
       "commit": "6e53a5029ea10622f0187ad7302a9be6a9340d0e",
       "timestamp": 1751294318,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "17094ea3fc355a7c3b07d85769c439a9ae98a22a5084005cdcf93b080688d4c1": [
+    {
+      "repository": "https://github.com/RevEngiSquad/revengi-app.git",
+      "apk_url": "https://github.com/RevEngiSquad/revengi-app/releases/download/v1.2.1/RevEngi-Android-arm64.apk",
+      "appid": "org.revengi.app",
+      "version_code": 121,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "9e8b62cd7b252d50eeee2fd37fd1aecaa118f9b1",
+      "timestamp": 1753809400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f2458023e737b484d0756e587293083c3d7dceed8624a235f45767eb3266e09": [
+    {
+      "repository": "https://github.com/RevEngiSquad/revengi-app.git",
+      "apk_url": "https://github.com/RevEngiSquad/revengi-app/releases/download/v1.2.2/RevEngi-Android-arm64.apk",
+      "appid": "org.revengi.app",
+      "version_code": 122,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "6801a100cf81ab93d879e738f1f3550f176810d0",
+      "timestamp": 1753819072,
       "reproducible": true,
       "error": null
     }

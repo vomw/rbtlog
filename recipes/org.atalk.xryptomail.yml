@@ -2,7 +2,8 @@
 repository: https://github.com/cmeng-git/xmail.git
 updates: releases
 notes:
-  - 'FIXME: 5.1.3 needed patch for local uncommitted changes, remove with the next release'
+  - 5.1.3 needed patch for local uncommitted changes, removed again with 5.2.0
+  - 5.2.0 was built outside the git tree, so we had to rm -rf .git
 versions:
   - tag: 5.1.0
     apks:
@@ -110,6 +111,34 @@ versions:
             - patch
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 5.2.0
+    apks:
+      - apk_pattern: XryptoMail-release\.apk
+        apk_url: https://github.com/cmeng-git/xmail/releases/download/5.2.0/XryptoMail-release.apk
+        build:
+          - rm -rf .git
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv XryptoMail/build/outputs/apk/release/XryptoMail-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
           ndk:
           platform:
           platform_tools:
