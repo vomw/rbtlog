@@ -5151,6 +5151,20 @@
       "error": null
     }
   ],
+  "827f5b99f5dc57740baf5fd2cb9a6fc7f876073955c54155f37a5eb401329224": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.4.0/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 22,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "3114d6e65c0ef9ca82f14d0d29882ca822720631",
+      "timestamp": 1753986075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -9225,6 +9239,20 @@
       "error": null
     }
   ],
+  "c310ef2f8c5dcb58f214561223b07e55f16af20c61b7e175f7052230cfab07ff": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.07.1150-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1150,
+      "version_name": "2025.07.1150-dev",
+      "tag": "2025.07.1150-dev",
+      "commit": "6d3b768db33451714c67c80ced08d94b191000ff",
+      "timestamp": 1753973136,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11279,6 +11307,20 @@
       "tag": "v0.9.1",
       "commit": "4c1a57cf62389e80372c22ac4601041af448a32f",
       "timestamp": 1752846492,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "301bb65572db3aa648b3c210066336a68bb673804b452fe3b75134c6c158322f": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.2/OuterTune-0.9.2-core-arm64-v8a-release-64.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 64,
+      "version_name": "0.9.2",
+      "tag": "v0.9.2",
+      "commit": "27dd46dac1821a50c9563cae4015ec89eda24788",
+      "timestamp": 1753973578,
       "reproducible": true,
       "error": null
     }
@@ -15915,6 +15957,20 @@
       "error": null
     }
   ],
+  "87c1b88da3663fc9b73f86c63ca577724ceb805b8a3403bb859465be3e57bd4b": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.10/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 127,
+      "version_name": "1.17.10",
+      "tag": "v1.17.10",
+      "commit": "e7e6ff625742f956856b7ebc486e92c5c3a4798a",
+      "timestamp": 1753974320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -16853,6 +16909,20 @@
       "error": null
     }
   ],
+  "ca178b9afb649c726b02443dbb33c6ae7f71c07b6ba1f9f841ec26a4ce99821e": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.1/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2434952,
+      "version_name": "2.18.1-Verdana-oss",
+      "tag": "2.18.1",
+      "commit": "0bfbdc546b17532f4afd5e5a69f77f4027c9de1f",
+      "timestamp": 1753974584,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -17045,6 +17115,20 @@
       "tag": "3.5.1",
       "commit": "6a51affef7935b44c4f1f58a0c244c85f6060cd0",
       "timestamp": 1753804117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b8cbf2455a9754f42e9d6740c6e7dc9ac8d2ed90b3f65d7b877ab62b1780b960": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.2/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2434922,
+      "version_name": "3.5.2",
+      "tag": "3.5.2",
+      "commit": "9fcbd06394ec2ccb51a2c900effead4cf54c4926",
+      "timestamp": 1753974740,
       "reproducible": true,
       "error": null
     }
@@ -25255,6 +25339,20 @@
       "error": null
     }
   ],
+  "eaa1e1ac25800cfe518a89c6a5432557021b0a75fe96691dd9105223852fc3b6": [
+    {
+      "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
+      "apk_url": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock/releases/download/v1.1.9/app-release-v9.apk",
+      "appid": "com.paranoid.privacylock",
+      "version_code": 9,
+      "version_name": "v1.1.9",
+      "tag": "v1.1.9",
+      "commit": "59d5a12068f54757914d8fa5bdc63affc378d29e",
+      "timestamp": 1753986354,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b27b74f9ff3d0efa4161fdbba2b8627825794165c4c686aa819b0917dd459df": [
     {
       "repository": "https://github.com/adeekshith/watomatic.git",
@@ -29531,6 +29629,20 @@
       "tag": "4.1.1",
       "commit": "dcb37302fa551a49bf529b03307479e4cae005d3",
       "timestamp": 1753805771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2bc2baed7844ce551d2a2d78522a508b12061e7a124b01a18b912141859c237e": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/4.1.2/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 4120,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "248894a98d725404c83f0a548ad4733dfd782aa9",
+      "timestamp": 1753974895,
       "reproducible": true,
       "error": null
     }
@@ -34147,6 +34259,20 @@
       "tag": "16.2.0",
       "commit": "506dea367ef2853e6b023e0ba2aa74299ab4e921",
       "timestamp": 1746973034,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c01d2b943a508a1cd9536d1f42e8946a1fea9c01b36f01ea85235b75ee0e9ea0": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.3.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.3.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 96,
+      "version_name": "16.3.0",
+      "tag": "16.3.0",
+      "commit": "d7fb32848f812fae6b0326d63803d8a69455f695",
+      "timestamp": 1753986958,
       "reproducible": true,
       "error": null
     }
@@ -45865,6 +45991,20 @@
       "error": null
     }
   ],
+  "5c2f76b2d50b90411bdd049d37d263d925dcddc120988133c1c6a7ae2686eaba": [
+    {
+      "repository": "https://github.com/FossifyOrg/Contacts.git",
+      "apk_url": "https://github.com/FossifyOrg/Contacts/releases/download/1.2.4/contacts-8-foss-release.apk",
+      "appid": "org.fossify.contacts",
+      "version_code": 8,
+      "version_name": "1.2.4",
+      "tag": "1.2.4",
+      "commit": "1a46424d24403ccd2572f772f3935d8c635f32bb",
+      "timestamp": 1753977029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -46673,6 +46813,20 @@
       "tag": "1.6.0",
       "commit": "c4e380bdcedd2de96c9b091a11bfb100ff47af07",
       "timestamp": 1752261339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9ee898e878e8bc27be8f3052b5429466dc3961980c6967615d286a89d5e3b8b9": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.6.1/phone-11-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 11,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "4fba2b4f4333c7584112e5139255dc7920d3ab71",
+      "timestamp": 1753977298,
       "reproducible": true,
       "error": null
     }
@@ -49429,6 +49583,20 @@
       "tag": "1.14",
       "commit": "ad66f8e3311397db4ce8d1030df41dfb9d70b640",
       "timestamp": 1719430871,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1d6ba1344fcbd414612bec3760feadf44bc7f76f10a4c13d44e44dc731857d75": [
+    {
+      "repository": "https://github.com/danielyrovas/linklater.git",
+      "apk_url": "https://github.com/danielyrovas/linklater/releases/download/2.0/linklater-release.apk",
+      "appid": "org.yrovas.linklater",
+      "version_code": 16,
+      "version_name": "2.0",
+      "tag": "2.0",
+      "commit": "7a79ae28919fba909025f6593e80c99430dd9d41",
+      "timestamp": 1753979969,
       "reproducible": true,
       "error": null
     }
