@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/CominAtYou/BatteryTile.git
-updates: releases
+updates: disabled
+notes:
+  - app rebranded to com.cominatyou.batterytile.standalone due to Google-Fu
 versions:
   - tag: v1.7.0
     apks:
