@@ -6817,6 +6817,20 @@
       "error": null
     }
   ],
+  "033023d7b59318ec85cbf68fcf38e592aa632cb70364e03d25f8a4e7a157835c": [
+    {
+      "repository": "https://github.com/beemdevelopment/Aegis.git",
+      "apk_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.1/aegis-v3.4.1.apk",
+      "appid": "com.beemdevelopment.aegis",
+      "version_code": 80,
+      "version_name": "3.4.1",
+      "tag": "v3.4.1",
+      "commit": "491a81584dd184d9f21b283ccd2ced5c6e3ef0c0",
+      "timestamp": 1754232258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
     {
       "repository": "https://github.com/blinskey/greek-reference.git",
@@ -20515,6 +20529,20 @@
       "error": null
     }
   ],
+  "6c44749c116f1d6b8136518cd635deff1a88b7083b9ab26f136eaf91f3ecd94c": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.4.2/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 6,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "f1d5642ba37996484748043283ecf2217f08993b",
+      "timestamp": 1754232487,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -23491,6 +23519,20 @@
       "tag": "v1.16.0",
       "commit": "122dab4aacf8f655cea5f6ef8482e413bcd139eb",
       "timestamp": 1753125786,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0a13349530aec16e778ecc9914d8f74e2ef24f82b8fcecd696c608675b8bf33c": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.18.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 52,
+      "version_name": "1.18.0",
+      "tag": "v1.18.0",
+      "commit": "367180c081154b25ad9099f28a64303f14f7d128",
+      "timestamp": 1754233030,
       "reproducible": true,
       "error": null
     }
@@ -28069,6 +28111,20 @@
       "error": null
     }
   ],
+  "746e7a15f64212c7ee38a83e4fa21583d461ad006dcba56544b62f3f737f694b": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.2.3/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 123,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "93f4e8dde7d92e5375a2b8b06ee875a6ac5773dd",
+      "timestamp": 1754247902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c13727b2e85e94e32ab7f1f4e50ab5fe26640ba0dc508fd89614cfb996441ac9": [
     {
       "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
@@ -32195,6 +32251,34 @@
       "error": null
     }
   ],
+  "832abac2a13d30d367e46660c381d35a5748c4ece7ef0197ea24f3929756c98b": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.16.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31600,
+      "version_name": "3.16.0",
+      "tag": "v3.16.0",
+      "commit": "1a8402e94c7449e277999b0f8c79c59a66e1bc5f",
+      "timestamp": 1754233663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "40121e7140e0b3e2dbdf38ad930377f86db8e2aca65fe4db71fa3aa0378d4699": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.16.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31600,
+      "version_name": "3.16.0",
+      "tag": "v3.16.0",
+      "commit": "1a8402e94c7449e277999b0f8c79c59a66e1bc5f",
+      "timestamp": 1754233832,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -32639,6 +32723,20 @@
       "tag": "IZ-3.0.6",
       "commit": "3d113cf475f1ff0458802d38de5f6286e33f61de",
       "timestamp": 1753113560,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bdc072ff342b5853399bb25738764865899986faacfe5274b39c45228af6cbec": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v3.0.7/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 5,
+      "version_name": "3.0.7",
+      "tag": "v3.0.7",
+      "commit": "6a115f42666b1206c7e4b225961320d82ad39f2e",
+      "timestamp": 1754245532,
       "reproducible": true,
       "error": null
     }
@@ -43639,6 +43737,20 @@
       "error": null
     }
   ],
+  "c1a612f29dd9a69a5b8faf708fa1ebd784483f229ddee05b9b37d1122e9b21bd": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.6.3/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 110,
+      "version_name": "1.6.3-izzy",
+      "tag": "v1.6.3",
+      "commit": "e807b6cc0aec06cbdbe6be72d1b2baf5d2d4b489",
+      "timestamp": 1754234335,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -47909,6 +48021,20 @@
       "error": null
     }
   ],
+  "091d4ab2c98b8c91efd0efd3deb1f136356fa8928bb77553dfb132362e25bb2f": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/10.0.0/10.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 1000,
+      "version_name": "10.0.0",
+      "tag": "10.0.0",
+      "commit": "10994a4c644d8e127b02c3fe2eb27ea9bc6aa728",
+      "timestamp": 1754246647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -48995,6 +49121,20 @@
       "tag": "v1.2.2",
       "commit": "6801a100cf81ab93d879e738f1f3550f176810d0",
       "timestamp": 1753819072,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "da4bc943761912ebf5626b4a3806e6de25b06551cc7189cb469f7279edfd0f19": [
+    {
+      "repository": "https://github.com/RevEngiSquad/revengi-app.git",
+      "apk_url": "https://github.com/RevEngiSquad/revengi-app/releases/download/v1.2.3/RevEngi-Android-arm64.apk",
+      "appid": "org.revengi.app",
+      "version_code": 123,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "c6a04acee3de139e7233eb300157049f31501b4a",
+      "timestamp": 1754234960,
       "reproducible": true,
       "error": null
     }

@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: '2.0'
     apks:
-      - apk_pattern: app-release.signed\.apk
+      - apk_pattern: app-release\.apk
         apk_url: https://github.com/nethical6/LockLock/releases/download/2.0/app-release.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
