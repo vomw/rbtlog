@@ -1,0 +1,41 @@
+---
+repository: https://codeberg.org/epinez/Compete.git
+updates: releases
+versions:
+  - tag: v1.0.2
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://codeberg.org/epinez/Compete/releases/download/v1.0.2/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/android/app/build.gradle.kts
+          - base64 -d > app/assets/.env <<< QVBQX05BTUU9J0NvbXBldGUnCkFQUF9JRD0nY29tLmZsYXNza2FtcC5jb21wZXRlJwpERVZFTE9QRVJfTkFNRT0nQ2hyaXN0aWFuIEZsYcOfa2FtcCcKUkVQT19VUkw9J2h0dHBzOi8vY29kZWJlcmcub3JnL2VwaW5lei9Db21wZXRlJwpJU1NVRV9VUkw9J2h0dHBzOi8vY29kZWJlcmcub3JnL2VwaW5lei9Db21wZXRlL2lzc3VlcycKQ09OVEFDVF9FTUFJTD0nY29tcGV0ZUBmbGFzc2thbXAuY29tJwo=
+          - cd app
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - ../submodules/flutter/bin/flutter config --no-analytics
+          - ../submodules/flutter/bin/flutter pub get
+          - ../submodules/flutter/bin/flutter pub run build_runner build --delete-conflicting-outputs
+          - ../submodules/flutter/bin/flutter build apk --split-per-abi --target-platform="android-arm64"
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/christian
+        build_repo_dir: /home/christian/Development/Codeberg/Compete
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
