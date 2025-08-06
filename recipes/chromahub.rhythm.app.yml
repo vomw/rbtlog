@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/cromaguy/Rhythm.git
 updates: releases
-notes:
-  - 'FIXME: remove double-checkout/reset from recipe for next release (upstream forgot to push a commit)'
 versions:
   - tag: v2.1.100.7-beta
     apks:
@@ -253,6 +251,37 @@ versions:
         build:
           - git checkout 7dbd2dcb6e56210cd7da1c1610d4a1cd54afaa3c
           - git reset --soft cf6be67fe94f933e6e3eb6c7d9e4ac67cd1d9bc5
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.5.164.458-stable
+    apks:
+      - apk_pattern: Rhythm-.*\.apk
+        apk_url: https://github.com/cromaguy/Rhythm/releases/download/v2.5.164.458-stable/Rhythm-2.5-b458.apk
+        build:
+          - git reset --soft 6d71ccdb0419eba56e48b97306c83609afec5dd8
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - find . -name '*.apk'
