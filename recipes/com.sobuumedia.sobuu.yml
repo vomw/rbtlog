@@ -4,8 +4,8 @@ updates: releases
 versions:
   - tag: 1.3.1
     apks:
-      - apk_pattern: sobuu_androidApp-fdroid-release\.apk
-        apk_url: https://gitlab.com/-/project/42306654/uploads/14949a4ca4f991524ecc60dd9aecf85c/sobuu_androidApp-fdroid-release.apk
+      - apk_pattern: Sobuu-.*\.apk
+        apk_url: https://gitlab.com/sobuu/sobuu/-/releases/1.3.1/downloads/Sobuu-1.3.1.apk
         build:
           - sed -r '/signingConfigs.release/d' -i sobuu_androidApp/build.gradle
           - echo -e "KeyStoreAlias=KeyStoreAlias\nKeyStorePass=KeyStorePass\nKeyStoreUserPass=KeyStoreUserPass" > local.properties

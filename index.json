@@ -3513,6 +3513,20 @@
       "error": null
     }
   ],
+  "014a233c83d358226626ff91c8bbcd4dbb759737e9fb2d817425505e34c2c5c1": [
+    {
+      "repository": "https://github.com/OMGSoundboard/android-app.git",
+      "apk_url": "https://github.com/OMGSoundboard/android-app/releases/download/v18.0/OMGSoundboard_Foss_18.apk",
+      "appid": "audio.omgsoundboard",
+      "version_code": 18,
+      "version_name": "18.0",
+      "tag": "v18.0",
+      "commit": "644ce48f41c40d974ae2e8dfb5bba40b866a99ad",
+      "timestamp": 1754590884,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -9421,6 +9435,20 @@
       "error": null
     }
   ],
+  "8206e7173c9b7f5bb630406b29290ef53dce9869a6a298923f5a4b151c390f76": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1154-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1154,
+      "version_name": "2025.08.1154-dev",
+      "tag": "2025.08.1154-dev",
+      "commit": "a39d5bd320bbe795c964d0114dcb95fe29cb7384",
+      "timestamp": 1754575364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -9627,6 +9655,20 @@
       "tag": "v2.0.0",
       "commit": "c1bea42bfd65ae09782e48e7b1d725abc6664e35",
       "timestamp": 1754319548,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "607e27d5cace817b93f11aa8454f0e44c9f56e26d39c015b72774742e039ce15": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v2.0.1/sefirah-2.0.1.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 16,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "64450ef6e1cd3a2ea6866db3d618f79d45b51edd",
+      "timestamp": 1754575754,
       "reproducible": true,
       "error": null
     }
@@ -16275,6 +16317,20 @@
       "tag": "v1.17.10",
       "commit": "e7e6ff625742f956856b7ebc486e92c5c3a4798a",
       "timestamp": 1753974320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07203022197d9d53eb1056ee743f45e22af4c89e1aea3551c1c356dc3a6c5e4c": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.17.11/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 128,
+      "version_name": "1.17.11",
+      "tag": "v1.17.11",
+      "commit": "b64efa2424d78417ca4b6df0ef32cf2dfa656a1c",
+      "timestamp": 1754576492,
       "reproducible": true,
       "error": null
     }
@@ -26315,6 +26371,20 @@
       "tag": "v0.3.0",
       "commit": "9e0b1653f0ac5f39e8c2d72d2266adae85f6b522",
       "timestamp": 1753542899,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b86dc06b33bcb8fc93c451f7248c7f2f15fb66d9d2866f65d2287cab0fef709a": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.4.0/torrentsearch-v0.4.0.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 7,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "f478dc0f160d9cab0e55423425a9bf37059fb069",
+      "timestamp": 1754576782,
       "reproducible": true,
       "error": null
     }
@@ -37455,6 +37525,20 @@
       "error": null
     }
   ],
+  "ddb76497cb7a336af0581ca5452c2a8a09820b710c09fbcf6adee4d67fcbfe74": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.5.0/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10050002,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "5ede26e2a0a668373a360af69e67dcab451e763c",
+      "timestamp": 1754577072,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -37689,6 +37773,20 @@
       "tag": "v1.2.2",
       "commit": "7262750124819fdc66a39261b16481427fc45516",
       "timestamp": 1754148319,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec8dea8faf33925da6e064713db113dfe1b4b4c429f4cfca13c8a23feae09919": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.2.3/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23192,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "e8f9159571260252ca68584df17c6c367791bbbd",
+      "timestamp": 1754577920,
       "reproducible": true,
       "error": null
     }
@@ -38979,6 +39077,20 @@
       "error": null
     }
   ],
+  "6f9bf69949e06ba93c041c93f936df535f3c87924f9989702f53a914e50edc5f": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.0/LemmyRedirect_1.15.0-release-signed.apk",
+      "appid": "dev.zwander.lemmyredirect",
+      "version_code": 43,
+      "version_name": "1.15.0",
+      "tag": "1.15.0",
+      "commit": "858fee52dee8fc67ff2968553ef15e7e88815ae8",
+      "timestamp": 1754588246,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1677127be4118f22edee092893b57931b159b56f493771297688aadd58624f66": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -39007,6 +39119,20 @@
       "error": null
     }
   ],
+  "0312b9c3563112d782bf9ffadf7d3079754b159d85352f8b31563a0a5497a017": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.0/MastodonRedirect_1.15.0-release-signed.apk",
+      "appid": "dev.zwander.mastodonredirect",
+      "version_code": 43,
+      "version_name": "1.15.0",
+      "tag": "1.15.0",
+      "commit": "858fee52dee8fc67ff2968553ef15e7e88815ae8",
+      "timestamp": 1754587468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c20d6b49f0413c9a0dde9fd50df0256b648dbc3c2612a98021dd23cbc06214d6": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -39031,6 +39157,20 @@
       "tag": "1.14.0",
       "commit": "33765d7e495c04153ffa59175dc28f419a9c5a71",
       "timestamp": 1729530711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e787b2241750ff9e51df7a4240ad08f5c02e7390387a6dd5dda53f460716130c": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.0/PeerTubeRedirect_1.15.0-release-signed.apk",
+      "appid": "dev.zwander.peertuberedirect",
+      "version_code": 43,
+      "version_name": "1.15.0",
+      "tag": "1.15.0",
+      "commit": "858fee52dee8fc67ff2968553ef15e7e88815ae8",
+      "timestamp": 1754588657,
       "reproducible": true,
       "error": null
     }
@@ -39143,6 +39283,20 @@
       "tag": "v1.19",
       "commit": "7c37c8487ac557dea516646ad9a3113c7a24db40",
       "timestamp": 1741867942,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6c41fd0c3d47418aa3a643d127347c48066a07a611320fe1ee1e1566ad01e3b": [
+    {
+      "repository": "https://github.com/dubrowgn/wattz.git",
+      "apk_url": "https://github.com/dubrowgn/wattz/releases/download/v1.20/wattz-1.20.apk",
+      "appid": "dubrowgn.wattz",
+      "version_code": 20,
+      "version_name": "1.20",
+      "tag": "v1.20",
+      "commit": "ac9a8caf629405d3deb8c6d39351fd941adaf35d",
+      "timestamp": 1754578875,
       "reproducible": true,
       "error": null
     }
@@ -46421,6 +46575,20 @@
       "tag": "3.6.19",
       "commit": "18bec8203647d798dc78c05c58169c871484338f",
       "timestamp": 1752503691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3adcf8a0ea3ef31fab7d64e6efa36a678605a20bc2a00a6b91ec51214a3140a4": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.20/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 172,
+      "version_name": "3.6.20",
+      "tag": "3.6.20",
+      "commit": "255331619925c40280d25451b4bb82e4a7983984",
+      "timestamp": 1754579038,
       "reproducible": true,
       "error": null
     }
