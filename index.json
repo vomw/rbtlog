@@ -1385,6 +1385,20 @@
       "error": null
     }
   ],
+  "bf3856b8f317a52e6d62a4c64454e43d015079f61f6cb9387168d83bfe6a0aad": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.17.8/Podcini.X_release_free_8.17.8_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 178,
+      "version_name": "8.17.8",
+      "tag": "8.17.8",
+      "commit": "f5c0289550d6b80847400a2c57e0bad1471ee542",
+      "timestamp": 1754661808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -15579,6 +15593,20 @@
       "error": null
     }
   ],
+  "1893067c5feb29efb1e2063ba48ccf5d7176e52ecc9659699c0c457b1858d440": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.10.1/com.fibelatti.pinboard-v3.10.1-3100100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3100100,
+      "version_name": "3.10.1",
+      "tag": "v3.10.1",
+      "commit": "9b3fa662c21aead0ce7d39c615e0ada9b13eb2e4",
+      "timestamp": 1754677292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -23635,6 +23663,20 @@
       "error": null
     }
   ],
+  "cbb429f06665b45e6b1afe882c97ea50a434e02955dd73c96c5b967be17efd9f": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.4.0/SpeakThat-NoUpdater-v1.4.0.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 14,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "81f41b41f485213479137b78140b02c2209bb74b",
+      "timestamp": 1754678594,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -24049,6 +24091,20 @@
       "tag": "v1.1.8",
       "commit": "6f8f7faa01b56d4d8e114b0a89fb23d1449943b5",
       "timestamp": 1750616458,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "37795406176e2f58540d886999aa3232e3c94d6380e275207d2f5ae2a2fb2221": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.9/MBCompass_v1.1.9_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 10,
+      "version_name": "1.1.9",
+      "tag": "v1.1.9",
+      "commit": "0de1ddf62284c9350a664b558ea66e061775ff35",
+      "timestamp": 1754664498,
       "reproducible": true,
       "error": null
     }
@@ -34251,6 +34307,20 @@
       "error": null
     }
   ],
+  "5cbf5b0eb1e3c0e07766fca70a6a71ff48a921c90e7542a08de5027114f8f18f": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.2.2/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 19,
+      "version_name": "0.2.2",
+      "tag": "v0.2.2",
+      "commit": "d7f2a1ac31474497fc16841c4e86c76ee943cc02",
+      "timestamp": 1754678004,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -35939,6 +36009,20 @@
       "tag": "0.63.0",
       "commit": "84f697723b5cb3edb4c529c582833bf01795353c",
       "timestamp": 1751222541,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6be1c0744fc46b8ed3ce3157418f418f0f6ae08ba1cd647271f08e9fb0af761d": [
+    {
+      "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
+      "apk_url": "https://codeberg.org/Starfish/TinyWeatherForecastGermany/releases/download/0.63.1/TinyWeatherForecastGermany-build060-version_0.63.1_20250807.apk",
+      "appid": "de.kaffeemitkoffein.tinyweatherforecastgermany",
+      "version_code": 60,
+      "version_name": "0.63.1",
+      "tag": "0.63.1",
+      "commit": "e0a10ebdf8530ac7cfdbf96602825765ce05f4d3",
+      "timestamp": 1754662626,
       "reproducible": true,
       "error": null
     }
@@ -48003,6 +48087,20 @@
       "tag": "1.1.0",
       "commit": "0850629b559b94be685cbcbd74f0d9a15f8446a4",
       "timestamp": 1754151482,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "165c57889db9353aeb30eb430d131001bfea48329cdce9838dbbe244ddbd0476": [
+    {
+      "repository": "https://github.com/FossifyOrg/Thank-You.git",
+      "apk_url": "https://github.com/FossifyOrg/Thank-You/releases/download/1.1.1/thankyou-7-foss-release.apk",
+      "appid": "org.fossify.thankyou",
+      "version_code": 7,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "11dc4091253f11618648f724ef154a0f191a982b",
+      "timestamp": 1754663112,
       "reproducible": true,
       "error": null
     }
