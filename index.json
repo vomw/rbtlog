@@ -14363,6 +14363,20 @@
       "error": null
     }
   ],
+  "fd893b978812944dbb246e783bcdcd6c9957739b7dacb57644de6bacbb3bb5d4": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.8.2/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 8,
+      "version_name": "2025.8.2",
+      "tag": "2025.8.2",
+      "commit": "4f8ada2cef241ddcc0337b6d6e5fd42763c23416",
+      "timestamp": 1754694485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2a708bf63718ddf0e101601bcb833f0b33055ed45cd552a3e67d7ced37ac11e8": [
     {
       "repository": "https://github.com/thomasthaddeus/QRCodeGenius.git",
@@ -45133,6 +45147,20 @@
       "tag": "v0.9.6.7a",
       "commit": "adc165119eb74548cc9cf4c892fca96eaadf5737",
       "timestamp": 1753953219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9981ad289592a8738f8e5c05be28b3f0c0ea421eb70fd234fe98575807501a0": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.5.3/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 1,
+      "version_name": "1.5.3",
+      "tag": "1.5.3",
+      "commit": "309c36f75278d233e595a36e55e9bdcea91e166f",
+      "timestamp": 1754754804,
       "reproducible": true,
       "error": null
     }
