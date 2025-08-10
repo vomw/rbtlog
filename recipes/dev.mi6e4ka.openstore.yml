@@ -74,3 +74,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: 1.3.2
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://codeberg.org/mi6e4ka/openstore/releases/download/1.3.2/app-arm64-v8a-release.apk
+        build:
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /workspace/mi6e4ka
+        build_repo_dir: /workspace/mi6e4ka/openstore
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
