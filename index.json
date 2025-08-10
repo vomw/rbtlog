@@ -3247,6 +3247,20 @@
       "error": null
     }
   ],
+  "d5a03f6031c8745f00bdb12d41f02b3cff1aa2df7687471853f021b7d86e51b8": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.004/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211004,
+      "version_name": "2.11.004",
+      "tag": "2.11.004",
+      "commit": "bb31d607053a54a564e462ba18948afab6518d8a",
+      "timestamp": 1754823381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -20385,6 +20399,20 @@
       "tag": "2.8",
       "commit": "9186c43fa303d78bd7c13cc3cb443d14a42d37b5",
       "timestamp": 1739312824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
+    {
+      "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
+      "apk_url": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android/releases/download/v4.0.1m-build150/atomic-401m-build150.apk",
+      "appid": "com.jlindemann.science",
+      "version_code": 150,
+      "version_name": "4.0.1m",
+      "tag": "v4.0.1m-build150",
+      "commit": "891b2cf56a287c445e103f9b00b27fdc4e640313",
+      "timestamp": 1754783361,
       "reproducible": true,
       "error": null
     }
