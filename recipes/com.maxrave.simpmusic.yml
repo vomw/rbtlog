@@ -5,7 +5,6 @@ notes:
   - flaky build (up to 0.2.7 at least, 0.2.8 succeeded on the first round again)
   - per-ABI builds since v0.2.11
   - JARs MediaServiceCore/SharedModules/appupdatechecker[2]/libs/melautils.jar ffmpeg-kit/ffmpeg-kit-release.aar
-  - 'FIXME: reduce build_timeout to 40 with next release, no more loops needed (v0.2.18-hf failes, though, due to M7.json, see https://github.com/maxrave-dev/SimpMusic/issues/1094)'
 versions:
   - tag: v0.2.3-hf2
     apks:
@@ -539,6 +538,36 @@ versions:
     apks:
       - apk_pattern: SimpMusic.*foss-arm64-v8a-release\.apk
         apk_url: https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.18-hf/SimpMusic-foss-arm64-v8a-release.apk
+        build:
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("arm64-v8a")/ ; s/isUniversalApk = true/isUniversalApk = false/ }' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.2.19
+    apks:
+      - apk_pattern: SimpMusic.*foss-arm64-v8a-release\.apk
+        apk_url: https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.19/SimpMusic-foss-arm64-v8a-release.apk
         build:
           - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("arm64-v8a")/ ; s/isUniversalApk = true/isUniversalApk = false/ }' -i app/build.gradle.kts
           - chmod +x gradlew

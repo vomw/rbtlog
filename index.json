@@ -1749,6 +1749,20 @@
       "error": null
     }
   ],
+  "2faf4ef24e7bb7dbef9b2b8b1304b5f8303618d392de6e0a45d6fd9e801b4ee8": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.9.2/cclauncher-v9.9.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 820,
+      "version_name": "v9.9.2",
+      "tag": "v9.9.2",
+      "commit": "ea9df49c01336287c81ded3be60d8017f4abbbfa",
+      "timestamp": 1754923986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -2869,6 +2883,20 @@
       "error": null
     }
   ],
+  "ff003f6252005c52000ad1b712f6e8fb8cf262206083abb3ad72949130356ac3": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.2.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 920,
+      "version_name": "v9.2.0",
+      "tag": "v9.2.0",
+      "commit": "20222f8c702f81c05303507dfc2530811b8e0500",
+      "timestamp": 1754936490,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -3257,6 +3285,20 @@
       "tag": "2.11.004",
       "commit": "bb31d607053a54a564e462ba18948afab6518d8a",
       "timestamp": 1754823381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "305b4135f1d12bd9b5bea0dc41a96f47cb370af984146b7f3dcc65bd7179eccc": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.006/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211006,
+      "version_name": "2.11.006",
+      "tag": "2.11.006",
+      "commit": "4c3c14117d1245572a3ed7cd84816d12822c6fdf",
+      "timestamp": 1754936873,
       "reproducible": true,
       "error": null
     }
@@ -23117,6 +23159,20 @@
       "error": null
     }
   ],
+  "94ec39066261f2fb806a39f47df5a7ba3c3e9ef1978f2fa75ab8f89923a57a2c": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.19/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 38,
+      "version_name": "0.2.19",
+      "tag": "v0.2.19",
+      "commit": "36abd32c377e73af5ff8743b188941044470bc62",
+      "timestamp": 1754940497,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
     {
       "repository": "https://github.com/meenbeese/Chronos.git",
@@ -25535,6 +25591,20 @@
       "error": null
     }
   ],
+  "9cd84f4d32e08dc49595e97ccef357a675ce24bebe97e7bb1b39862c1590b9bf": [
+    {
+      "repository": "https://github.com/Theta-Limited/OpenAthenaAndroid.git",
+      "apk_url": "https://github.com/Theta-Limited/OpenAthenaAndroid/releases/download/v0.25.0/OpenAthena_for_Android_v0.25.0.apk",
+      "appid": "com.openathena",
+      "version_code": 50,
+      "version_name": "0.25.0",
+      "tag": "v0.25.0",
+      "commit": "fad595973043d93f7e964e5f55ed398639b9b856",
+      "timestamp": 1754929663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4478179673665485ede10ac6ec560bbf389f3774d1eb3151c8005900fcd256e7": [
     {
       "repository": "https://github.com/vayun-mathur/Alternative-Location-Services.git",
@@ -25881,6 +25951,20 @@
       "tag": "v1.12.0",
       "commit": "984d2df68110164bbe19e1f10d794cc96504d1a4",
       "timestamp": 1747506505,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6b8613bf9e86bc12e9a1358e36ceb3f35658acd8acacbf5f18450b2be01f405f": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.12.1/orgzly-revived-fdroid-1.12.1.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 263,
+      "version_name": "1.12.1",
+      "tag": "v1.12.1",
+      "commit": "4407ea3013eeeddd4740d578923f10854495ba7a",
+      "timestamp": 1754937366,
       "reproducible": true,
       "error": null
     }
@@ -28699,6 +28783,20 @@
       "error": null
     }
   ],
+  "22bd9260d0a219a91b64b691feaa866cd415ef15c9b2c65362515fcf8c1f2581": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.2.4/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 124,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "bd43a52bb518338b68b6c26cc91e7037c4c7fde5",
+      "timestamp": 1754929982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c13727b2e85e94e32ab7f1f4e50ab5fe26640ba0dc508fd89614cfb996441ac9": [
     {
       "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
@@ -30721,6 +30819,20 @@
       "tag": "v1.0.0",
       "commit": "b404b60d573078ff8c8207f972c6ef548241583e",
       "timestamp": 1754262735,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "05d7e626cc00b68dbcf72d89a19984cc5035d53153a044a6578c1b21298cae8b": [
+    {
+      "repository": "https://github.com/SimpolCo/Permissions-Summary.git",
+      "apk_url": "https://github.com/SimpolCo/Permissions-Summary/releases/download/v1.0.1/Permissions.Summary.v1.0.1.apk",
+      "appid": "com.simpol.permissionssummary",
+      "version_code": 101,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "cb4f56a973f88ed11610e3ebad7d93795f9512d5",
+      "timestamp": 1754930838,
       "reproducible": true,
       "error": null
     }
@@ -40953,6 +41065,20 @@
       "error": null
     }
   ],
+  "9342661525300bce0d9dd03d3d4549597400e8861bfdc522ffbd1289c32e3d25": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2290/FairEmail-v1.2290a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2290,
+      "version_name": "1.2290",
+      "tag": "1.2290",
+      "commit": "4d7e33d7bc48e14acfeaab9edb2a1f2af032eed9",
+      "timestamp": 1754931138,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -42645,6 +42771,20 @@
       "error": null
     }
   ],
+  "0aac690a2ada0e9781be3c311182757b1fe440cad555afa1225ad5844d04a3a5": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.3.3/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 8,
+      "version_name": "1.3.3",
+      "tag": "1.3.3",
+      "commit": "22f282154a5b156ac0b19798f8c4d1f3ef39df2d",
+      "timestamp": 1754931702,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -43272,6 +43412,20 @@
       "commit": "e4fa30d7948650efb6d5c96aad2898ea108f4295",
       "timestamp": 1751391175,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e5f4eebe049117edca357a51ff0379cdc8d9a7cd085f8fcba1b1d627150ed00": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/25.08.1/gitnote-release-25.08.1.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 9,
+      "version_name": "25.08.1",
+      "tag": "25.08.1",
+      "commit": "49477f530d10bef5db64ba5e31399de724355e3f",
+      "timestamp": 1754937839,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -45427,6 +45581,34 @@
       "tag": "1.5.3",
       "commit": "309c36f75278d233e595a36e55e9bdcea91e166f",
       "timestamp": 1754754804,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0dc03e8013fea65f76ea608605ec136c4d9f0bb337f9694e79b90892dcdb6df4": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.6.1/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 12,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "cbbb594ccfca726e365015814e0e257622f30e1a",
+      "timestamp": 1754932683,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e9fb54f36688c1c54dcb3db4f1fff293e23afa115c781bdb46e6fea0d750200": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.6.2/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 12,
+      "version_name": "1.6.2",
+      "tag": "1.6.2",
+      "commit": "4c9eaee8c2167331f02c77241918f0003c565a9e",
+      "timestamp": 1754939823,
       "reproducible": true,
       "error": null
     }
@@ -51253,6 +51435,20 @@
       "error": null
     }
   ],
+  "8cd20e408399f6e71d917c05f1a03fae8e0abcb9fee263ea26f8e02c2da19b6a": [
+    {
+      "repository": "https://github.com/danielyrovas/linklater.git",
+      "apk_url": "https://github.com/danielyrovas/linklater/releases/download/2.1/linklater-release.apk",
+      "appid": "org.yrovas.linklater",
+      "version_code": 17,
+      "version_name": "2.1",
+      "tag": "2.1",
+      "commit": "a31f65a5baed9545420b5490c1340457ac83748f",
+      "timestamp": 1754933361,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "845c95ec5096ee5835c15f7279b4d6f804bbd854a04d196492723847d6ab3108": [
     {
       "repository": "https://github.com/Moderpach/Extinguish.git",
@@ -52370,6 +52566,20 @@
       "commit": "9d5b40636601acbce497880310afd7256ca8d606",
       "timestamp": 1753128343,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "0c1e1160f96d678b5c5624de819a280467434c3d4561a9417395919345744c0b": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.4/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 59,
+      "version_name": "1.8.4",
+      "tag": "1.8.4",
+      "commit": "f783ec05572d91edd6e05e7d849250d379dd05e6",
+      "timestamp": 1754934558,
+      "reproducible": true,
       "error": null
     }
   ],
