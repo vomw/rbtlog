@@ -2897,6 +2897,20 @@
       "error": null
     }
   ],
+  "172355a10455feaa8722b8c44e827ddd088bf6d050d325f38d4ff02973906234": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.2.2/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 922,
+      "version_name": "v9.2.2",
+      "tag": "v9.2.2",
+      "commit": "da9efc9d0dc105a48d0dd0d39e4fab611598af57",
+      "timestamp": 1755095325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -4811,6 +4825,20 @@
       "tag": "v2.9.0",
       "commit": "a37fcfcaf71d89cc7499eb38849561c0da35dc10",
       "timestamp": 1754059471,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ab953c0bc2882aba7b177b9cc3057eae8bab28d2748de34b024815f1968e3c9": [
+    {
+      "repository": "https://github.com/ArcaneChat/android.git",
+      "apk_url": "https://github.com/ArcaneChat/android/releases/download/v2.11.0/ArcaneChat-foss-armeabi-v7a-2.11.0.apk",
+      "appid": "chat.delta.lite",
+      "version_code": 300007281,
+      "version_name": "2.11.0",
+      "tag": "v2.11.0",
+      "commit": "c0717237adddc6a7e16a72baea767690cc3c55d7",
+      "timestamp": 1755109293,
       "reproducible": true,
       "error": null
     }
@@ -14475,6 +14503,20 @@
       "error": null
     }
   ],
+  "e4d0c182ce2dab05015aa801cb7bcdf7f42dbb603b5f34f41293935bf9113116": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.8.3/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 9,
+      "version_name": "2025.8.3",
+      "tag": "2025.8.3",
+      "commit": "c8ce6db53a5bd6f809db193ea37fdd67a26e28d4",
+      "timestamp": 1755095783,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2a708bf63718ddf0e101601bcb833f0b33055ed45cd552a3e67d7ced37ac11e8": [
     {
       "repository": "https://github.com/thomasthaddeus/QRCodeGenius.git",
@@ -15407,6 +15449,20 @@
       "tag": "v1.31.5",
       "commit": "62ef85b0a437b1963c0646d84478cd70ab727adf",
       "timestamp": 1753554540,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c4e136e6abc1465f92d90f5099c46479fd36d6690aeeea0e923998f0e4ddf6c5": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.32.1/com.fibelatti.photowidget-v1.32.1-1320100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1320100,
+      "version_name": "1.32.1",
+      "tag": "v1.32.1",
+      "commit": "3d3cc72bb26c36aa15820df2dc05f885e83f7e0e",
+      "timestamp": 1755096149,
       "reproducible": true,
       "error": null
     }
@@ -21383,6 +21439,20 @@
       "error": null
     }
   ],
+  "8d81f4c531f8f6b1d9fd44a94348f2fdcf055c366208de10b6d702fc32d8e6fc": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.9/Arru-2.5.9.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 47,
+      "version_name": "2.5.9",
+      "tag": "v2.5.9",
+      "commit": "593052026fbb562719b667948f8697fe696cf33e",
+      "timestamp": 1755110990,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -24957,6 +25027,20 @@
       "tag": "V0.1.5",
       "commit": "8ae26dc88d153d4b7bf8575c13666dc2633a6129",
       "timestamp": 1754076577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fdbb1aa25e64e1d15fbe9c2f3f6dd6e907521bdf4ae2439287f8b3f39e28f783": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.2.5/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 7,
+      "version_name": "0.2.5",
+      "tag": "V0.2.5",
+      "commit": "4aced01dd35a09ebbd1a0cb6d6daa9f931ef2ddc",
+      "timestamp": 1755096651,
       "reproducible": true,
       "error": null
     }
@@ -34657,6 +34741,20 @@
       "error": null
     }
   ],
+  "e001af9cb6c5ab77169ee47f973bf6677b3c107a355165d2305bad5f48795eff": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.3.0/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 21,
+      "version_name": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "fe583712232f30b88581220810795ebbcbd5d194",
+      "timestamp": 1755096965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -41149,6 +41247,20 @@
       "error": null
     }
   ],
+  "800cca8521b32b041ec8a966704bb2fb3df4525ba89e65a5aca44cf880f59a9e": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2291/FairEmail-v1.2291a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2291,
+      "version_name": "1.2291",
+      "tag": "1.2291",
+      "commit": "434b400eb04a14ebc3ad3b75f0b5c89ae9d9a530",
+      "timestamp": 1755097478,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -45679,6 +45791,34 @@
       "tag": "1.6.2",
       "commit": "4c9eaee8c2167331f02c77241918f0003c565a9e",
       "timestamp": 1754939823,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83dd4895bc7402ce036867208e5b904cf411bb70672a26cf19a6fb1d4dcae988": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.6.5/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 12,
+      "version_name": "1.6.5",
+      "tag": "1.6.5",
+      "commit": "6868807fbb6fa22eb74b79b281c43d8a8499dea6",
+      "timestamp": 1755097990,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c40aed181608eccd04c595a242084abaabee2dc907c7e04cb898b3b118a2cc5b": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.6.6/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 14,
+      "version_name": "1.6.6",
+      "tag": "1.6.6",
+      "commit": "30d4f32fe9eb161143adf2ab8d18e0671744f174",
+      "timestamp": 1755111429,
       "reproducible": true,
       "error": null
     }
@@ -50367,6 +50507,20 @@
       "tag": "v1.1.0",
       "commit": "0cc450208fff7cc5c54e5471c582d4c09ad67aab",
       "timestamp": 1751293503,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "291f291c074a09eedcff1d89a992b7d0c7cd050b1899f5e56a415fe5f665ff18": [
+    {
+      "repository": "https://github.com/ProjectSolutus/Pomozen.git",
+      "apk_url": "https://github.com/TheGandabherunda/Pomozen/releases/download/v1.1.1/app-arm64-v8a-release.apk",
+      "appid": "org.projectsolutus.pomozen",
+      "version_code": 83,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "1f3238e597cbce5086091bf95070d0fb0189bf8d",
+      "timestamp": 1755111982,
       "reproducible": true,
       "error": null
     }
