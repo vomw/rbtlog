@@ -1399,6 +1399,20 @@
       "error": null
     }
   ],
+  "81afdf92616e4d49d686f2d3fd89d9cea204384b7baf6169fa9a2fab94d42329": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.18.0/Podcini.X_release_free_8.18.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 180,
+      "version_name": "8.18.0",
+      "tag": "8.18.0",
+      "commit": "196470072267ae2af739dd21a61af36eab197aec",
+      "timestamp": 1755195697,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5095,6 +5109,20 @@
       "error": null
     }
   ],
+  "bb144c8a1ff882c9b9b2166a6696d6548c741f06b6474a8baa39e93f30c5b7c2": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.6.172.494-stable/Rhythm-2.6.172.494-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 26172494,
+      "version_name": "2.6.172.494",
+      "tag": "v2.6.172.494-stable",
+      "commit": "620c6c10ffafa7356d0792d0023b2c1070174410",
+      "timestamp": 1755204410,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -6519,6 +6547,20 @@
       "tag": "v4.5.8",
       "commit": "5aad936eb1c29b4ea6cf079d7a584a8eed60ad05",
       "timestamp": 1753801114,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "549ce3873cfca682af0a715b4cee2b87f5b33d80b98cb3d48c2c97f399efb5fd": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.8a/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1364,
+      "version_name": "4.5.8a",
+      "tag": "v4.5.8a",
+      "commit": "678fd64351686810dc1c24f4e79f768cae86f45a",
+      "timestamp": 1755196226,
       "reproducible": true,
       "error": null
     }
@@ -9547,6 +9589,20 @@
       "error": null
     }
   ],
+  "e98d2771f80a77589f8725682f6325a4741e49d588534b147575aa08c113d7fc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1155-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1155,
+      "version_name": "2025.08.1155-dev",
+      "tag": "2025.08.1155-dev",
+      "commit": "eb1e008a02abf458f8c36fdb5796fc2134746b67",
+      "timestamp": 1755196354,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11115,6 +11171,20 @@
       "error": null
     }
   ],
+  "37ce12ccd9c7566a462afe83794d62600e395d2fa40ee47e0536a598938a146c": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.41/networksurvey-1.41-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 96,
+      "version_name": "1.41",
+      "tag": "v1.41",
+      "commit": "748f7641e73234463f54ace9efa839f818d50985",
+      "timestamp": 1755196666,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -11727,6 +11797,20 @@
       "tag": "v0.9.2.1",
       "commit": "dad4da16943ab24d1a7a32461936e704edc1ba40",
       "timestamp": 1754331694,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7bb788f8d9b9f166c1a6e42a3c8df10a6664c76d419b22a29572f2bb67750a78": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.3/OuterTune-0.9.3-core-arm64-v8a-release-66.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 66,
+      "version_name": "0.9.3",
+      "tag": "v0.9.3",
+      "commit": "27654851042f0818150993f94f2aee8c20dfd5dd",
+      "timestamp": 1755189182,
       "reproducible": true,
       "error": null
     }
@@ -12567,6 +12651,20 @@
       "tag": "0.0.34",
       "commit": "a1e82201db6cda7821bc78a2bfa029bc631d5065",
       "timestamp": 1754418792,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e78f80d0d8db03422a91829845a12484b47f973a6c799756addb650ea4491e5": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.35/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 35,
+      "version_name": "0.0.35",
+      "tag": "0.0.35",
+      "commit": "2fe24a2d9f471d6c03733e1a0f3e482d48f4fe81",
+      "timestamp": 1755197878,
       "reproducible": true,
       "error": null
     }
@@ -13813,6 +13911,20 @@
       "tag": "5.0.5",
       "commit": "f736d9b6df78d299b3e152c2aaf9f0e516883a51",
       "timestamp": 1754419327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "82813a473c7b6f798945881731b416b3b04a9030efa349ea142915420bb518fa": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.6/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 161,
+      "version_name": "5.0.6",
+      "tag": "5.0.6",
+      "commit": "347d8c70573945718bedbc141b19c3eccf28186d",
+      "timestamp": 1755198178,
       "reproducible": true,
       "error": null
     }
@@ -15465,6 +15577,20 @@
       "timestamp": 1755096149,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "12d48bd6990cada503175d114340f421755128648585ab881c25f0711bf47909": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.32.2/com.fibelatti.photowidget-v1.32.2-1320200-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1320200,
+      "version_name": "1.32.2",
+      "tag": "v1.32.2",
+      "commit": "79241b1400252c32d53f92a3c2e8f0adea5989dd",
+      "timestamp": 1755198559,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
@@ -20207,6 +20333,20 @@
       "error": null
     }
   ],
+  "edba70108267961bdceae0760d4c887019bb664955be415b14914d688e0c9595": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.60/fire2kodi_v0.60.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 12,
+      "version_name": "0.60",
+      "tag": "v0.60",
+      "commit": "9c05e030af3222b758a60e7c9d47273c6eb6a680",
+      "timestamp": 1755165801,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -21481,6 +21621,20 @@
       "error": null
     }
   ],
+  "baeb628e9d8bd872ff198a650263ea318af54ea9cea67cf180270d0ab0c606f9": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.5/KeePassDX-4.1.5-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 137,
+      "version_name": "4.1.5",
+      "tag": "4.1.5",
+      "commit": "1c30d533ad0c923a87cc636d26a8e8297728516c",
+      "timestamp": 1755198924,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -21505,6 +21659,20 @@
       "tag": "4.1.3",
       "commit": "70665f110da9949b097fe5cbae5ae0c45d906981",
       "timestamp": 1753469341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8418eab528acba1f14201bcef26a8f59f4522849a06125fab6526fe7024f0996": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.5/KeePassDX-4.1.5-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 137,
+      "version_name": "4.1.5",
+      "tag": "4.1.5",
+      "commit": "1c30d533ad0c923a87cc636d26a8e8297728516c",
+      "timestamp": 1755199329,
       "reproducible": true,
       "error": null
     }
@@ -25041,6 +25209,20 @@
       "tag": "V0.2.5",
       "commit": "4aced01dd35a09ebbd1a0cb6d6daa9f931ef2ddc",
       "timestamp": 1755096651,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1059d272950f8d9a3cfc88ea3e76ca87867a04b45decbcc526ef718f59646e91": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.2.6/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 8,
+      "version_name": "0.2.6",
+      "tag": "V0.2.6",
+      "commit": "d57e90d4fe9f348bc5b62d1f50c6d7524dab4f8f",
+      "timestamp": 1755199808,
       "reproducible": true,
       "error": null
     }
@@ -28653,6 +28835,20 @@
       "tag": "v1.4.1",
       "commit": "33c957123a12b6dc4d109a3fadafdafe0eb1a1d3",
       "timestamp": 1748347290,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "26fc3e968cd73ae5fa30bf2f28e8247cc26c103d01d037d6f7a4a15fd25e7346": [
+    {
+      "repository": "https://github.com/rohankhayech/Choona.git",
+      "apk_url": "https://github.com/rohankhayech/Choona/releases/download/v1.4.2/Choona-Android-v1.4.2.apk",
+      "appid": "com.rohankhayech.choona",
+      "version_code": 10,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "56cec6188b04b91e49ae8c7cbd75df28b000f85c",
+      "timestamp": 1755200008,
       "reproducible": true,
       "error": null
     }
@@ -34489,6 +34685,20 @@
       "error": null
     }
   ],
+  "9155bb410b444d8d89260115c7ff807d428b4e1997610fcae87408aaf79c8fcc": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.6.6/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1660,
+      "version_name": "1.6.6",
+      "tag": "v1.6.6",
+      "commit": "cc70895c1f8f9b73b23b991e54c3510475d49aa8",
+      "timestamp": 1755190007,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -40015,6 +40225,20 @@
       "error": null
     }
   ],
+  "91310362d0fe916c51caaf4ddb0111819e7cc385fdc4bd45937aec8a927497b5": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken/airplanes-live-app/releases/download/v0.5.3-rc0/eu.darken.apl-v0.5.3-rc0-503000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 503000,
+      "version_name": "0.5.3-rc0",
+      "tag": "v0.5.3-rc0",
+      "commit": "b2616cd29c92a832234ea931281a72aeb07e2b24",
+      "timestamp": 1755200913,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -43163,6 +43387,20 @@
       "error": null
     }
   ],
+  "742bc800533c916e9bcf289170e66e0816f992d557985f173e09daf6b2d7a7e9": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.17.2%2B95/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2095,
+      "version_name": "1.17.2",
+      "tag": "v1.17.2+95",
+      "commit": "a6b4d7a9c2c6dc32473ca63130db2c48acb72a3e",
+      "timestamp": 1755201702,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b8db3b323186eb08e83e6bc5779084495269292b4bf63b9a571c873ecd868f8": [
     {
       "repository": "https://github.com/Husseinfo/interfast.git",
@@ -43453,6 +43691,20 @@
       "tag": "3.0.0",
       "commit": "b8b7c92579554c390dabcc11f81d342b655da992",
       "timestamp": 1750782637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5db2f283dadda933b1b56c81b8acb2051d46253ef1ef7ea0652677f923d9f41d": [
+    {
+      "repository": "https://github.com/samolego/Canta.git",
+      "apk_url": "https://github.com/samolego/Canta/releases/download/3.0.1/app-release.apk",
+      "appid": "io.github.samolego.canta",
+      "version_code": 219,
+      "version_name": "3.0.1",
+      "tag": "3.0.1",
+      "commit": "f398ba0d154d625921b3a1b518ef1ee2124aa521",
+      "timestamp": 1755202483,
       "reproducible": true,
       "error": null
     }
@@ -43789,6 +44041,20 @@
       "tag": "v6306",
       "commit": "a657f48128c95aa807945617553a54e1f6db28b2",
       "timestamp": 1754423166,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6dbbd845e7f4f0175b329dd6ac3c660755dcdf2fb99e30c58cf1df0590b29e0": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6311/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6311,
+      "version_name": "6311",
+      "tag": "v6311",
+      "commit": "342fb494bea2db3b4c62bd3d7f13fe98ae5bc8ac",
+      "timestamp": 1755203018,
       "reproducible": true,
       "error": null
     }
@@ -46379,6 +46645,20 @@
       "tag": "alpha-0.4.0",
       "commit": "c66b538c81c2e04ae699786b1eab71e0fdebaa5f",
       "timestamp": 1754490089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fdfca90951541e344c149ad5d467701c56f389e7beed871d83bd59cd229e2c9f": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.4.1/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 26,
+      "version_name": "alpha-0.4.1",
+      "tag": "alpha-0.4.1",
+      "commit": "7407501b49ca248f43848e4a4c3c250259a2de84",
+      "timestamp": 1755190605,
       "reproducible": true,
       "error": null
     }
