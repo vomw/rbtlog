@@ -29903,6 +29903,20 @@
       "error": null
     }
   ],
+  "e2498df6bb465644e43c5ad840a7562ad4d43ef93dfdefa8728e304c19da248b": [
+    {
+      "repository": "https://github.com/shezik/DrawAnywhere.git",
+      "apk_url": "https://github.com/shezik/DrawAnywhere/releases/download/1.1/app-release.apk",
+      "appid": "com.shezik.drawanywhere",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "1.1",
+      "commit": "ab3b9f409089bfc62275a7b36b495dd160a5faaa",
+      "timestamp": 1755482520,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a0f3ae4c6701774b08503835757824a0b9a9efb3610e402d0419a72a295beb7": [
     {
       "repository": "https://github.com/ashpakouski/QuickTimer.git",
@@ -39327,6 +39341,20 @@
       "tag": "v0.5.0-rc02",
       "commit": "1275650ca556b99d36fd9f613e9bee4f8f052352",
       "timestamp": 1755480580,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b154db9f5e4f3773a235d5b5aa5740005f2c1929596ab4cd1cf1f0ae8355a8b4": [
+    {
+      "repository": "https://github.com/florisboard/florisboard.git",
+      "apk_url": "https://github.com/florisboard/florisboard/releases/download/v0.5.0/florisboard-0.5.0-preview.apk",
+      "appid": "dev.patrickgold.florisboard.beta",
+      "version_code": 115,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "0799adc19352dbfd0475b28ce9270666a474ff39",
+      "timestamp": 1755481495,
       "reproducible": true,
       "error": null
     }
