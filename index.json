@@ -7055,6 +7055,20 @@
       "error": null
     }
   ],
+  "462b3adfa59f158d786030cbb51c973263390dc8dd25c1f37233e246338252b1": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.5.apk",
+      "appid": "com.aurora.store",
+      "version_code": 71,
+      "version_name": "4.7.5",
+      "tag": "4.7.5",
+      "commit": "9ccbd62df037d8358dc42740f02368719085f38b",
+      "timestamp": 1755612380,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "23e986e47d9062c2e0709cb3cf1ddbef8367118bf9654994a02e7b0412fb7ed5": [
     {
       "repository": "https://github.com/beemdevelopment/Aegis.git",
@@ -9631,6 +9645,20 @@
       "error": null
     }
   ],
+  "4c80470c75008f721d1ce9d5bf572f444884b379ebf90a4aeb747765a7fc5db0": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1156/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1156,
+      "version_name": "2025.08.1156",
+      "tag": "2025.08.1156",
+      "commit": "f98e686579d0e2c6566c703e9df6ef6d2d76075e",
+      "timestamp": 1755613046,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -10985,6 +11013,20 @@
       "tag": "v1.1.6",
       "commit": "50b9cc2794edc4555275def7178283030e62d8e6",
       "timestamp": 1755542994,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3e74564aeafaa477cfbbfb8ebf49bed9bc1bb7009855456da55b8b77b8c7dbc8": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.7/app-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 10,
+      "version_name": "1.1.7",
+      "tag": "v1.1.7",
+      "commit": "cd31c83b1d5716a2d116a29c5d805e15dd2d40d2",
+      "timestamp": 1755613567,
       "reproducible": true,
       "error": null
     }
@@ -16713,6 +16755,20 @@
       "error": null
     }
   ],
+  "01f36b48464e631dbdc70649000870eecb852ae1d621f68933e71358772b459e": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.18.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 129,
+      "version_name": "1.18.0",
+      "tag": "v1.18.0",
+      "commit": "01e603f1ba8ee5e0c447a7fd29e3b032056cc45e",
+      "timestamp": 1755614048,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -21691,6 +21747,20 @@
       "error": null
     }
   ],
+  "cd87c7e4b9650b5f980c39074e48d69d6ce593496e1940f201676a65a7cbd3ee": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.5.11/Arru-2.5.11.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 49,
+      "version_name": "2.5.11",
+      "tag": "v2.5.11",
+      "commit": "cf65aa9e1f7c8ac78ec1d61c6c85549aa46a310b",
+      "timestamp": 1755614439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -21733,6 +21803,20 @@
       "error": null
     }
   ],
+  "ded010e8d19ecb0517eec6bec9308d5f4088d9f353cc21774b631f162b74d8c3": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.6/KeePassDX-4.1.6-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 138,
+      "version_name": "4.1.6",
+      "tag": "4.1.6",
+      "commit": "c4cbd2e587d6c50512cb229b6ce76f49edf1148b",
+      "timestamp": 1755614925,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -21771,6 +21855,20 @@
       "tag": "4.1.5",
       "commit": "1c30d533ad0c923a87cc636d26a8e8297728516c",
       "timestamp": 1755199329,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a60b2cb77684de6e436a4a65c3d980db4a3780714fe1220fcf915708da10499f": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.6/KeePassDX-4.1.6-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 138,
+      "version_name": "4.1.6",
+      "tag": "4.1.6",
+      "commit": "c4cbd2e587d6c50512cb229b6ce76f49edf1148b",
+      "timestamp": 1755615352,
       "reproducible": true,
       "error": null
     }
@@ -34155,6 +34253,20 @@
       "error": null
     }
   ],
+  "81d468cd541bf37f8ed47219bf6cb52281a98abcc8126af6456f4e85b167da6d": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v3.0.8/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 6,
+      "version_name": "3.0.8",
+      "tag": "v3.0.8",
+      "commit": "b9546b4836920e99937a3acd52e1ba54d2e209ea",
+      "timestamp": 1755627720,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -39887,6 +39999,20 @@
       "tag": "v7.0.1",
       "commit": "8a6cf9afc8cf25602856f0dcfa9c554bc4c80188",
       "timestamp": 1753193433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f3064fc1237f2c30ef85bb614581535e0f63f3a2c503595bcec2c87a80303964": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v8.0.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 800,
+      "version_name": "8.0.0",
+      "tag": "v8.0.0",
+      "commit": "91630a947f93c049a2942432721bcacc20dc6ed7",
+      "timestamp": 1755615801,
       "reproducible": true,
       "error": null
     }
@@ -50471,6 +50597,20 @@
       "error": null
     }
   ],
+  "2a1bf05c8a6f554796ff8805759c013c6283e67884859ef70ca3b80be2e455a8": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.0.2/tomato-v1.0.2-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 4,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "51f469d7229e7af8ed1118c1d206c43e23080423",
+      "timestamp": 1755616177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -51865,6 +52005,20 @@
       "tag": "v2.5.0",
       "commit": "9126c283e5ebd512f4aa5aeeccf2e90a1977e729",
       "timestamp": 1752358932,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "67720ea8645099d613402f21960c4824aa48d4f94743adfee2b425e7e68c5640": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.1/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 22,
+      "version_name": "2.5.1",
+      "tag": "v2.5.1",
+      "commit": "2aec59f3b8c8ce466f1c55f55ffefc84b903d7ac",
+      "timestamp": 1755616560,
       "reproducible": true,
       "error": null
     }
@@ -55239,6 +55393,20 @@
       "tag": "2.0.1",
       "commit": "a9e927e729158c00c40625e1e627b6d8542972c2",
       "timestamp": 1755469243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "26651644eccd0dacaa365d226a4c171b5105beee303f5184e7f0d4f3cb5f16bb": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.0.2/aucards-2.0.2.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 7,
+      "version_name": "2.0.2",
+      "tag": "2.0.2",
+      "commit": "bf03c40f909d68861836493f91d551a2750a669b",
+      "timestamp": 1755616949,
       "reproducible": true,
       "error": null
     }
