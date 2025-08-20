@@ -5151,6 +5151,20 @@
       "error": null
     }
   ],
+  "8cc27b03dc117fc2eb70db8aec24c536ccafa20487580bd86c760b6201fd32c6": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.7.174.503-stable/Rhythm-2.7.174.503-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 27174503,
+      "version_name": "2.7.174.503",
+      "tag": "v2.7.174.503-stable",
+      "commit": "f885a076581c3606aeccbc5bb5104aa5017fe273",
+      "timestamp": 1755714500,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -11283,6 +11297,20 @@
       "error": null
     }
   ],
+  "e8a4d30bf89944dfc494224e77a2a3430ca879be005afb6dd2709db8c20326e1": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.42/networksurvey-1.42-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 97,
+      "version_name": "1.42",
+      "tag": "v1.42",
+      "commit": "62cbb7f809c7a6a4380083306707bbebc4037b2f",
+      "timestamp": 1755715083,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -16769,6 +16797,20 @@
       "error": null
     }
   ],
+  "6fcd6e523a352cabaa3a61c9f78e50700da2daf509784dfe36ce55604d6aed70": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.18.1/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 130,
+      "version_name": "1.18.1",
+      "tag": "v1.18.1",
+      "commit": "09c8fa074d8a133f243030caa0b540861b3262a5",
+      "timestamp": 1755699539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -20653,6 +20695,20 @@
       "timestamp": 1753467684,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpkpqx8x3d/outputs:/outputs', '--volume', '/tmp/tmpkpqx8x3d/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/LemmyNet/jerboa.git', '--env', 'APP_TAG=0.0.80', '--env', 'APP_COMMIT=ba36b721b7a5a0442924346947379ae741b6ccea', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
+  "13887c0774d4e56a3c3c0fe46fd5af2879e316b58638299a7825765dfe6bdd06": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.83/app-release.apk",
+      "appid": "com.jerboa",
+      "version_code": 83,
+      "version_name": "0.0.83",
+      "tag": "0.0.83",
+      "commit": "4e4220c1b0b4761cb558efa39b36d26ebdf49c69",
+      "timestamp": 1755699920,
+      "reproducible": true,
+      "error": null
     }
   ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
@@ -26025,6 +26081,20 @@
       "error": null
     }
   ],
+  "04b11453e849ef1190965b26cd87532d1c5092a0ae4f57eb2deabca4ac741d52": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v1.2.0/app-arm64-v8a-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 43,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "7c6bf649bb16d723682036d784ed7ba34c911488",
+      "timestamp": 1755700510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "74f48042c4a8b642989d1f435a5c419dd8173b4d2e0bfeeee4eca6050711e226": [
     {
       "repository": "https://github.com/OmGodse/Notally.git",
@@ -29983,6 +30053,20 @@
       "tag": "v1.9.1",
       "commit": "95835d88ef467ecedaca9489729468010da6f535",
       "timestamp": 1755527181,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "92141ee8a76e4a18320530965d1d6859fe485f2b9baf8490ff23d4980e650ee7": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v1.9.2/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 33,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "43d5fb488c3e6e5042ab0cbbf420c9144f882570",
+      "timestamp": 1755701111,
       "reproducible": true,
       "error": null
     }
@@ -36219,6 +36303,20 @@
       "tag": "v1.0",
       "commit": "6f1cecc0b330b1d761b45f3847c3c4cfe385b403",
       "timestamp": 1755205406,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c0428d59881ba315e2ae7f43b0bcbf2f356d64962ded5c045a4833377478c6c": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.0.1/NeoDBYou-universal-v1.0.1.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 4,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "2e008e943765498b3e71838a72ed6f4e0c627b28",
+      "timestamp": 1755709049,
       "reproducible": true,
       "error": null
     }
@@ -43663,6 +43761,20 @@
       "tag": "0.23.7.2",
       "commit": "806930273c9b88fa3351d8799fa69f575f0695fe",
       "timestamp": 1755372336,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e38ba38f8b308263d3c3eadbed1e17be380f7fed822815062dd574f48eb4c543": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.7.3/freetube-0.23.7.3-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230007003,
+      "version_name": "0.23.7.3",
+      "tag": "0.23.7.3",
+      "commit": "3abf9d75e5a2866a031d190fb9db743692ffb501",
+      "timestamp": 1755701722,
       "reproducible": true,
       "error": null
     }
@@ -55421,6 +55533,20 @@
       "tag": "2.0.2",
       "commit": "bf03c40f909d68861836493f91d551a2750a669b",
       "timestamp": 1755616949,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6361de85bca97ea9176841c5afe45f44eb8cc1b81c9335749e175591be62d8ca": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.0.3/aucards-2.0.3.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 8,
+      "version_name": "2.0.3",
+      "tag": "2.0.3",
+      "commit": "3accc9c3647ecc75fba330845b4e620398f469eb",
+      "timestamp": 1755702492,
       "reproducible": true,
       "error": null
     }
