@@ -24377,6 +24377,20 @@
       "error": null
     }
   ],
+  "12d89482e1dec8d42d2123e0951038332cefd3e67ebdfe2fb1e60915e6e0fbc3": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.4.2/SpeakThat-NoUpdater-v1.4.2.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 16,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "f661b1295a83c57b4349ba000ee3b5c9bc176595",
+      "timestamp": 1755764029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -52663,6 +52677,20 @@
       "tag": "v1.0.2",
       "commit": "9d4033f126fb06e5607a0229e834cbb9540bb3f0",
       "timestamp": 1755374153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
+    {
+      "repository": "https://github.com/woheller69/exifedit.git",
+      "apk_url": "https://github.com/woheller69/exifedit/releases/download/V1.1/app-release.apk",
+      "appid": "org.woheller69.exifedit",
+      "version_code": 11,
+      "version_name": "1.1",
+      "tag": "V1.1",
+      "commit": "8ed348d3bcb0b61d382484543f46c2c09a8ad6ba",
+      "timestamp": 1755792185,
       "reproducible": true,
       "error": null
     }
