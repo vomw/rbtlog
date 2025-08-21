@@ -3135,6 +3135,20 @@
       "error": null
     }
   ],
+  "97d6827612e59446891a958ea8060df4831e88f9977f3106866a28f661e738ff": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.12.0/Clerotri-v0.12.0-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 18,
+      "version_name": "0.12.0",
+      "tag": "v0.12.0",
+      "commit": "f19b9e7a5d4fe299241a9b601ad80132d42ed597",
+      "timestamp": 1755698571,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpwewhn4te/outputs:/outputs', '--volume', '/tmp/tmpwewhn4te/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.12.0', '--env', 'APP_COMMIT=f19b9e7a5d4fe299241a9b601ad80132d42ed597', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/rexo', '--env', 'BUILD_REPO_DIR=/home/rexo/Repos/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/rexo && timeout 10m su build /scripts/provision.sh && cd /home/rexo/Repos/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "3ac7e975419e365f6538d77a8dd4650c07800a860c3a7d847333c136c5f65ae5": [
     {
       "repository": "https://github.com/vitamin-caig/zxtune.git",
@@ -6299,6 +6313,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpcdp6sqvu/outputs:/outputs', '--volume', '/tmp/tmpcdp6sqvu/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Lennoard/SysctlGUI.git', '--env', 'APP_TAG=2.2.3', '--env', 'APP_COMMIT=d5a6788d9871d4770da4cfc7ba39af524d6b012c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "44ac932e1261792a6e0c6d9cf5788354f4fc1ca283d53d578d0ff6069611b65c": [
+    {
+      "repository": "https://github.com/Lennoard/SysctlGUI.git",
+      "apk_url": "https://github.com/Lennoard/SysctlGUI/releases/download/3.0.3/sysctlgui-v3.0.3.apk",
+      "appid": "com.androidvip.sysctlgui",
+      "version_code": 22,
+      "version_name": "3.0.3",
+      "tag": "3.0.3",
+      "commit": "02faeeeead0e0a5f47fe21590940b372db3f38e0",
+      "timestamp": 1755805579,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "844f199750d5ba1c1d8d49b9e1eada3b4a6f1357d9a1f85bcc8053db794311e6": [
     {
       "repository": "https://github.com/Anthonyy232/Paperize.git",
@@ -6421,6 +6449,20 @@
       "tag": "v3.0.0",
       "commit": "598f00c536a7ab31b8c22633aa23721ecdcbcd29",
       "timestamp": 1750792044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "026e878118c5a06569ea9e8be30c447fc14b05f5ad5eb936193bd6be28141e11": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v3.1.0/paperize-v3.1.0.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 38,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "0c2ca68dcdfeaa30ce8648af180b9767a1b5b926",
+      "timestamp": 1755793620,
       "reproducible": true,
       "error": null
     }
@@ -9673,6 +9715,20 @@
       "error": null
     }
   ],
+  "1d4eb2cff8eb68e9aa573003fba4f0acb7f853296e509154f8f8d56259e0adcc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1157-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1157,
+      "version_name": "2025.08.1157-dev",
+      "tag": "2025.08.1157-dev",
+      "commit": "4cbd68b0a3d9010e8e15635bd4bb5cb2f2810072",
+      "timestamp": 1755786934,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11937,6 +11993,20 @@
       "tag": "v0.9.3",
       "commit": "27654851042f0818150993f94f2aee8c20dfd5dd",
       "timestamp": 1755189182,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "63f63b89256397af63fde70d9db144df29526f5214f2c254e18ddcf7f2285cfc": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.3.1/OuterTune-0.9.3.1-core-arm64-v8a-release-67.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 67,
+      "version_name": "0.9.3.1",
+      "tag": "v0.9.3.1",
+      "commit": "09d5545845dbc9e9c43507056d04e1edcaf68c88",
+      "timestamp": 1755794669,
       "reproducible": true,
       "error": null
     }
@@ -18289,6 +18359,20 @@
       "error": null
     }
   ],
+  "4285d145eec608416bee432bcc7f27ccd6acf5f0d1997a5ef1809e1844a6aec9": [
+    {
+      "repository": "https://github.com/tmo1/sms-ie.git",
+      "apk_url": "https://github.com/tmo1/sms-ie/releases/download/v2.6.0/com.github.tmo1.sms_ie-v2.6.0-standard-release.apk",
+      "appid": "com.github.tmo1.sms_ie",
+      "version_code": 10111,
+      "version_name": "2.6.0-standard",
+      "tag": "v2.6.0",
+      "commit": "548a1d4d45514b7d085978ace5566bb18553f20f",
+      "timestamp": 1755800910,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "574c03b881378a7b0d90bc5825d79bc7a2d16299a15463088fc5db50e18df13f": [
     {
       "repository": "https://github.com/umer0586/DroidPad.git",
@@ -22769,6 +22853,20 @@
       "error": null
     }
   ],
+  "74ccee0d6b258392ea556fd031c94a7b4c04e41d7e358f6abbd6fcfa4f4eb166": [
+    {
+      "repository": "https://github.com/maazm7d/QuickSE.git",
+      "apk_url": "https://github.com/maazm7d/QuickSE/releases/download/v5.1.3/app-release.apk",
+      "appid": "com.maazm7d.quickse",
+      "version_code": 6,
+      "version_name": "5.1.3",
+      "tag": "v5.1.3",
+      "commit": "886813b6fbe8f3685b62f0d49cec50c8f26b579a",
+      "timestamp": 1755788104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f174b4457ead4968a1684f0a89a5503151c0425ed32ef5dcade932974ad19bdb": [
     {
       "repository": "https://github.com/NeoApplications/Neo-Backup.git",
@@ -23729,6 +23827,20 @@
       "tag": "v2025.2.0",
       "commit": "65565f2c72d865febbd7f5415f389aaeb76392ba",
       "timestamp": 1748533266,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "92e3fbc0f159f4e15d8b32aec567bd2738dd87fed9c25a56749cee317fb937c3": [
+    {
+      "repository": "https://github.com/meenbeese/Chronos.git",
+      "apk_url": "https://github.com/meenbeese/Chronos/releases/download/v2025.3.0/app-release.apk",
+      "appid": "com.meenbeese.chronos",
+      "version_code": 13,
+      "version_name": "2025.3.0",
+      "tag": "v2025.3.0",
+      "commit": "93a022b463ad3463b5caee8006b031baacee9078",
+      "timestamp": 1755795662,
       "reproducible": true,
       "error": null
     }
@@ -26105,6 +26217,20 @@
       "tag": "v1.2.0",
       "commit": "7c6bf649bb16d723682036d784ed7ba34c911488",
       "timestamp": 1755700510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "962cd41e2266ff262f10c3a460dda5906a506e757c1f17d5a9a24f51b0fbfb65": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v1.2.1/app-arm64-v8a-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 53,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "6e1b96f083ed790be058bda567cb1a5bcb186463",
+      "timestamp": 1755789604,
       "reproducible": true,
       "error": null
     }
@@ -31327,6 +31453,20 @@
       "error": null
     }
   ],
+  "8430440437cf645a44c20155514c7606b99f6804c71f3d5f34d5e191171d09c8": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/4.2.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 4200,
+      "version_name": "4.2.0",
+      "tag": "4.2.0",
+      "commit": "6d6e19eb243c36097635a4734b27d9ad691f7c2a",
+      "timestamp": 1755801126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -34965,6 +35105,20 @@
       "error": null
     }
   ],
+  "803fac78813bb37e53144e7e10775b3fd530bc03c55946f79e69de8a36a3f11a": [
+    {
+      "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
+      "apk_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.11/DataBackup-2.0.11-armeabi-v7a-foss-release.apk",
+      "appid": "com.xayah.databackup.foss",
+      "version_code": 3501183,
+      "version_name": "2.0.11",
+      "tag": "2.0.11",
+      "commit": "3dbc48f958c743b3831ae86a435d666dd5084e4b",
+      "timestamp": 1755801675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "67c33cc5f1c02c2087d68b51c266bb68de685593c384667651ed52910f4263bd": [
     {
       "repository": "https://github.com/xyz-relativity/KinetiE-Speedometer.git",
@@ -35619,6 +35773,20 @@
       "tag": "v3.3.3",
       "commit": "5b763248689818883e0d3fa46cd69e8d7736636a",
       "timestamp": 1753569462,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0c2921cecc660598d3d67871349e065f668d7af03c2063c55cbad54f97774992": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.4/MediLog-3.3.4.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5496,
+      "version_name": "3.3.4",
+      "tag": "v3.3.4",
+      "commit": "52e5935d5443e0065fed19308f46aab984ad93a8",
+      "timestamp": 1755796252,
       "reproducible": true,
       "error": null
     }
@@ -38823,6 +38991,20 @@
       "tag": "v1.4.3",
       "commit": "b2d1cd5fc1bb159183ca73ca8984a20a43fe8d2e",
       "timestamp": 1755283248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "79816972f479ddd6bb66504b6e3771421b3a71548d979844c3a71f59fca11d1d": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.4.4/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 321,
+      "version_name": "1.4.4",
+      "tag": "v1.4.4",
+      "commit": "37c526d3e89da3cc92530abe1e877165d8e43b85",
+      "timestamp": 1755802326,
       "reproducible": true,
       "error": null
     }
@@ -47545,6 +47727,20 @@
       "error": null
     }
   ],
+  "59cf722f080d73e6b82a2f02e4f9378546ccb33ad009a116edb723d152ed76bf": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.4.2/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 27,
+      "version_name": "alpha-0.4.2",
+      "tag": "alpha-0.4.2",
+      "commit": "ab7a1e7ef600d787713119c5feff779875a11114",
+      "timestamp": 1755802872,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -52691,6 +52887,20 @@
       "tag": "V1.1",
       "commit": "8ed348d3bcb0b61d382484543f46c2c09a8ad6ba",
       "timestamp": 1755792185,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a16ba8c6bb3c7880fbcf6d9dce48005e2ba1a30dbd0ca9c09209e68219a3157d": [
+    {
+      "repository": "https://github.com/woheller69/exifedit.git",
+      "apk_url": "https://github.com/woheller69/exifedit/releases/download/V1.2/app-release.apk",
+      "appid": "org.woheller69.exifedit",
+      "version_code": 12,
+      "version_name": "1.2",
+      "tag": "V1.2",
+      "commit": "0b7dc46f62c0d8940cf41744506e13a7c7673ff8",
+      "timestamp": 1755805238,
       "reproducible": true,
       "error": null
     }
