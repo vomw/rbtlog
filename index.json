@@ -2043,6 +2043,20 @@
       "error": null
     }
   ],
+  "ea41db51168d31cccad70bb3165b4db7204e8c59fa9815579e51e0c304567415": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.8.7/MultiLauncher-1.10.8.7-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100807,
+      "version_name": "1.10.8.7",
+      "tag": "1.10.8.7",
+      "commit": "b767787a947ac65c9073e652b96582e7cd94bfa3",
+      "timestamp": 1755886897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -20753,6 +20767,20 @@
       "error": null
     }
   ],
+  "231e2d6e60bead731907b81ae43584bfe4cf224e24958e883c6fe3e1a6afff32": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/2.6.1/dejpeg-release-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 261,
+      "version_name": "2.6.1",
+      "tag": "2.6.1",
+      "commit": "4ab7bc90e2d85ffed36a779025ed952b0e552547",
+      "timestamp": 1755879707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b24766035cdc173564836798c6d2a8f5f7df821bd056adacd521195fbc8d669": [
     {
       "repository": "https://github.com/LemmyNet/jerboa.git",
@@ -22993,6 +23021,20 @@
       "error": null
     }
   ],
+  "fada640b17d341182a0fb682ece040059d613ddedea5cacc1876f8299dbd00b6": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Store.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Store/releases/download/1.1.1/Neo_Store_1.1.1_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1105,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "62ca3e2784f39c7ec9a527c0e486187bd9245ab8",
+      "timestamp": 1755887313,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
     {
       "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
@@ -23561,6 +23603,20 @@
       "tag": "v0.4.1",
       "commit": "63fe8062fa1340c37c56ba493c247cecdb8edab1",
       "timestamp": 1755456057,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a8a8a4790f48938c8ea69314037f97e0d2312e7cdebd06e45a6168cc6d75dc20": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.4.2/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 402,
+      "version_name": "0.4.2",
+      "tag": "v0.4.2",
+      "commit": "35674aeb70a361cee613b92f6c6e145e6a5c9e44",
+      "timestamp": 1755887751,
       "reproducible": true,
       "error": null
     }
@@ -25671,6 +25727,20 @@
       "tag": "V0.2.7.mini-fix",
       "commit": "981944bf31330f558f70d72228e8bff993544c8e",
       "timestamp": 1755368930,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6f71a782a604463e4af5ee58f9090307f4eba3fe127a2e2e9531d86ab97db9c": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.2.8/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 11,
+      "version_name": "0.2.8",
+      "tag": "V0.2.8",
+      "commit": "8b2f96627c1676d7291a8ca8fbb302b6a17988d5",
+      "timestamp": 1755871380,
       "reproducible": true,
       "error": null
     }
@@ -36475,6 +36545,34 @@
       "error": null
     }
   ],
+  "9b0f931727f9c567ef7f85767e57d7f3ac754daf7bb846efa29e259bc32bf781": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.53/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 53,
+      "version_name": "0.1.53",
+      "tag": "0.1.53",
+      "commit": "0ec8d2e3a2266052134ab99f9682532150e4363a",
+      "timestamp": 1755871739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1d0ad7fd1d8483bd69cf3393f42ab33b8cc1b05e200d4cf90256dc0c3808aea4": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.54/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 54,
+      "version_name": "0.1.54",
+      "tag": "0.1.54",
+      "commit": "8de91304da7757b9c970bc32113dd8a482348a46",
+      "timestamp": 1755888009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -39145,6 +39243,20 @@
       "tag": "v1.5.3",
       "commit": "58255ff3430e60a448f03ec97513d829fd0679b2",
       "timestamp": 1755370706,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "867b679cf143fd5e5ecf397f79dba09684c5c54debf1d38622fceb7f0611da9a": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.5.5/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10050052,
+      "version_name": "1.5.5",
+      "tag": "v1.5.5",
+      "commit": "2b60ce044c5d2201dbe6352cc6db817da2e95844",
+      "timestamp": 1755872257,
       "reproducible": true,
       "error": null
     }
@@ -46047,6 +46159,20 @@
       "error": null
     }
   ],
+  "e8ff0c9154430e6b8250411e0ddcc02f57a398860a9a1d55eb0f46b607cf971f": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.37.0/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 151,
+      "version_name": "2.37.0",
+      "tag": "v2.37.0",
+      "commit": "fc25082a9ace77eccbd48413ed029525a09c7b27",
+      "timestamp": 1755888459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "86783f35d33f4977d8fb0ebd56fbd5ed7ce55ad30d0be6100364bd531bde25ed": [
     {
       "repository": "https://github.com/TheLastProject/RaiseToAnswer.git",
@@ -47121,6 +47247,20 @@
       "tag": "1.6.9",
       "commit": "b519e334816c3a08f4383c345537445ce2f0c028",
       "timestamp": 1755470209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6afc5182b70c5fab86a7212fe670d2ae7be80d7efad17ad817c426baeca3193": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.7.0/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 2018,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "ca7a58580f2b5678a0bb7a0e396077154f8ee982",
+      "timestamp": 1755889307,
       "reproducible": true,
       "error": null
     }
@@ -48973,6 +49113,20 @@
       "error": null
     }
   ],
+  "7d62c63c5c10e88f555a7debdac67844292e4cbcab8fc17484d16c34b5cd59f7": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.6.0/calendar-10-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 10,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "203a3b2a31e58376ff3200ea1f40f2c1e55e3da6",
+      "timestamp": 1755873405,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -49365,6 +49519,20 @@
       "error": null
     }
   ],
+  "81bdf407defafe877a957136c88c439b0cbf5fd70c9c7de80b62b079f03761d2": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.4.2/gallery-14-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 14,
+      "version_name": "1.4.2",
+      "tag": "1.4.2",
+      "commit": "9954ee1049b57c247957c409166669d9b88db691",
+      "timestamp": 1755873922,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -49571,6 +49739,20 @@
       "tag": "1.3.0",
       "commit": "c957d3e2069f89235f675ab4e45f7c4c0ab53a6e",
       "timestamp": 1753641607,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "05f4c6d9cd2a8da4444a022cee891443aa8b22fd79eba2577fcf82eb495fcf72": [
+    {
+      "repository": "https://github.com/FossifyOrg/Keyboard.git",
+      "apk_url": "https://github.com/FossifyOrg/Keyboard/releases/download/1.4.0/keyboard-8-foss-release.apk",
+      "appid": "org.fossify.keyboard",
+      "version_code": 8,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "eb2a35d593e307dc067cc71706e0fe744716eaf3",
+      "timestamp": 1755874463,
       "reproducible": true,
       "error": null
     }
@@ -49785,6 +49967,20 @@
       "error": null
     }
   ],
+  "0560bef897bbce366a89f4009385e38a31e5a3f8933f6a72283ef44b57a88a35": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.2.3/messages-14-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 14,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "c0f2c25e32640ab2877c58c0e13c9df9c742519b",
+      "timestamp": 1755874862,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -49837,6 +50033,20 @@
       "tag": "1.2.1",
       "commit": "70b5bf33389a30a2f52201371d3c1cf0bad7f540",
       "timestamp": 1753630654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "72fddbafcb59d8ff70770632fbafa3f64e98dca8811e39465db9a811d3520de2": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.2.2/musicplayer-5-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 5,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "dd4da6e4e07219b1c7918a95d6d716368d83d508",
+      "timestamp": 1755875285,
       "reproducible": true,
       "error": null
     }
@@ -50229,6 +50439,20 @@
       "tag": "1.3.3",
       "commit": "21fa214cb4b87777abcc8b32e11148dc713d3680",
       "timestamp": 1754061295,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d6fdf92af2233ba07c4b98f319af3a7515134573513aa09a68a4c4219cb7f995": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.3.4/voicerecorder-11-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 11,
+      "version_name": "1.3.4",
+      "tag": "1.3.4",
+      "commit": "7e103a21f22cb4d6ea5532171c6de52b7dbc3c93",
+      "timestamp": 1755875719,
       "reproducible": true,
       "error": null
     }
@@ -55803,6 +56027,20 @@
       "error": null
     }
   ],
+  "2d7f68500ed325ba510c8b946986a275d9b132f69e774591d31e83cb50ff627f": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.0.4/aucards-2.0.4.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 9,
+      "version_name": "2.0.4",
+      "tag": "2.0.4",
+      "commit": "d4a91fa5f512cf40fc027d1329f50036f5b8e7d4",
+      "timestamp": 1755876174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6c0f90926bcb0bf609748ff884ff9e8fb93272eaeb28c0679c834fb8b9d42b4": [
     {
       "repository": "https://github.com/calin-darie/extra-keyboard-layouts.git",
@@ -56093,6 +56331,20 @@
       "tag": "2.1.5",
       "commit": "0ef92021da48f5e51e0da2af8f98e3ca5bc256db",
       "timestamp": 1754837716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b408fe185d2dedfc218d1edf4dc46b93a26cc30ee84205e6b514519d099d84a": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.6/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 42,
+      "version_name": "2.1.6",
+      "tag": "2.1.6",
+      "commit": "9b4639c768a45e36a9f1d53adaf7f439db8f4997",
+      "timestamp": 1755876601,
       "reproducible": true,
       "error": null
     }
