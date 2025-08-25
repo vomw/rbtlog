@@ -1819,6 +1819,20 @@
       "error": null
     }
   ],
+  "ef260730bf7c4c7586051fd726ecdae603ea2ce54adb7742f337c403a5f24f5c": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/2.3.7/flicky-2.3.7-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 301,
+      "version_name": "2.3.7",
+      "tag": "2.3.7",
+      "commit": "c845e948ab3515dc220bf9c9343ca1c38c7c6038",
+      "timestamp": 1756112897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -12273,6 +12287,20 @@
       "tag": "v4.1.0",
       "commit": "3cc05104cbc8db932db9a365f0549b8b9765cb31",
       "timestamp": 1751902982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6b4c964de9d9ec31f4e2f53a9515267f57a2be5c5ed4c1a7b2194902bd4296ac": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.12.1/daily-you-arm64-v8a-v2.12.1.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20120012,
+      "version_name": "2.12.1",
+      "tag": "v2.12.1",
+      "commit": "e28a40135079ce2026db94197d29386c75cb4e91",
+      "timestamp": 1756079736,
       "reproducible": true,
       "error": null
     }
