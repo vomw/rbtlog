@@ -1777,6 +1777,20 @@
       "error": null
     }
   ],
+  "c529172f31d5b9f4206b5ca8127f1a4c04588d9cf3087f123d1a4d7af217a0f0": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.9.3/cclauncher-v9.9.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 830,
+      "version_name": "v9.9.3",
+      "tag": "v9.9.3",
+      "commit": "7f59f102c9e5a57e1e3da14ea867abd6a0017538",
+      "timestamp": 1756232483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -6145,6 +6159,20 @@
       "error": null
     }
   ],
+  "e44f72cf2ed5c6151e65c650333d2df75f7d2e994eb1af7e48520b59e0614d57": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.5.6/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 38,
+      "version_name": "2.5.6",
+      "tag": "2.5.6",
+      "commit": "c1138090bab1ee516eeb4fe9347b34e2d40375f2",
+      "timestamp": 1756216974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a167ecfa2e4181b6bba459829746dc03d5540b67eb076287bb7d80853cf10f53": [
     {
       "repository": "https://github.com/Ammar64/Files-Center.git",
@@ -9799,6 +9827,20 @@
       "error": null
     }
   ],
+  "dfaee7c5f5b5a7473c0eaa6480b2310a322af7e115b98df1eeb122be17cfb083": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1158-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1158,
+      "version_name": "2025.08.1158-dev",
+      "tag": "2025.08.1158-dev",
+      "commit": "f162ea14036b08f43fd53c1a1446487b1b8bf73d",
+      "timestamp": 1756217365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -10775,6 +10817,20 @@
       "tag": "1.1.3.7v113",
       "commit": "d4cabacf79aac63111a102d1abee3d25e56b6f87",
       "timestamp": 1755525797,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3dfc5856e63a6a76ff92402e1a0c09609656f8337eb71ca32d2a54a1a1e48e62": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.3.8v114/PuppyGit_1.1.3.8v114_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 114,
+      "version_name": "1.1.3.8",
+      "tag": "1.1.3.8v114",
+      "commit": "85e8fb5f9d5c428f472aba1cab5cc234453265dc",
+      "timestamp": 1756217933,
       "reproducible": true,
       "error": null
     }
@@ -20399,6 +20455,34 @@
       "tag": "v7.7.0",
       "commit": "97d9b6f5c971513739fc885e08d85d4bd4a25841",
       "timestamp": 1754491173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7ffd6b8d2e5808a46c16518a0c5e2898dbc73fc0a3d4b65becac08a39f465ae7": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.8.0/NeverTooManyBooks-7.8.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 108,
+      "version_name": "7.8.0",
+      "tag": "v7.8.0",
+      "commit": "db0a00b2c4f3782007306eb8c2e48a170e9d855e",
+      "timestamp": 1756218965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "859d4f053c90723fe6e4d99cf60e93774e8a85db12b339321d32f5a37dcf977a": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.8.1/NeverTooManyBooks-7.8.1.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 109,
+      "version_name": "7.8.1",
+      "tag": "v7.8.1",
+      "commit": "e30675182f3d34eb355a46e1b90f767aadb6e950",
+      "timestamp": 1756232693,
       "reproducible": true,
       "error": null
     }
@@ -39625,6 +39709,20 @@
       "error": null
     }
   ],
+  "5d03043018304f07135c329aef11784528138f33d03b90124c6acd3202d825a7": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.5.8/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10050082,
+      "version_name": "1.5.8",
+      "tag": "v1.5.8",
+      "commit": "ff0f3f55eabcd2d83aa250cc654e9162a299a67a",
+      "timestamp": 1756219393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -48773,6 +48871,34 @@
       "tag": "v5.4.8",
       "commit": "7e136e3d66499d7a8884db8b20e8fadbfc8a7d44",
       "timestamp": 1750603598,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "771b25e39fd79b593583b4aec347f457e681c7e0dee224553a8fd12903920665": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.0.7-beta/breezy-weather-arm64-v8a-v6.0.7-beta_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60007,
+      "version_name": "6.0.7-alpha",
+      "tag": "v6.0.7-beta",
+      "commit": "066d703978bf8c9a3861922801234c1d5a215039",
+      "timestamp": 1756230252,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8716de2545e821ab31288107283edb26dc5bd486e18f08d6cb07519f63488d37": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.0.7-beta/breezy-weather-v6.0.7-beta_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60007,
+      "version_name": "6.0.7-alpha",
+      "tag": "v6.0.7-beta",
+      "commit": "066d703978bf8c9a3861922801234c1d5a215039",
+      "timestamp": 1756230914,
       "reproducible": true,
       "error": null
     }
