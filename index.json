@@ -36923,6 +36923,20 @@
       "error": null
     }
   ],
+  "c292c1eaaf2191473699ce2b40c324dc9698b65637d95f3a449fd8aae61d0f49": [
+    {
+      "repository": "https://codeberg.org/blindcoder/hackersdietoffline.git",
+      "apk_url": "https://codeberg.org/blindcoder/hackersdietoffline/releases/download/v2025082603/HackersDiet_2025082603_signed.apk",
+      "appid": "de.anderdonau.hackersdiet",
+      "version_code": 2025082603,
+      "version_name": "2025082603",
+      "tag": "v2025082603",
+      "commit": "c5db8173dec2e604df35b086bf321c6a477c0a4b",
+      "timestamp": 1756205519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "057ffac452f55ed9b98611ef2ba35a315c4f111f42dedd55db7b5084a5b14e61": [
     {
       "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
@@ -47597,6 +47611,20 @@
       "tag": "v0.9.6.7a",
       "commit": "adc165119eb74548cc9cf4c892fca96eaadf5737",
       "timestamp": 1753953219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca6955a7cc77ed00435ad179181c67ec8376a353c029cb23b6ca55fecc0ee685": [
+    {
+      "repository": "https://github.com/ReneArentz/net.forestany.mediacollection.git",
+      "apk_url": "https://github.com/ReneArentz/net.forestany.mediacollection/releases/download/Media_Collection_1.0.0/Media_Collection_1.0.0.apk",
+      "appid": "net.forestany.mediacollection",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "Media_Collection_1.0.0",
+      "commit": "52dcdda3a27dd2eae95d26ee7d590756b895f0c5",
+      "timestamp": 1756227836,
       "reproducible": true,
       "error": null
     }
