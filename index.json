@@ -1861,6 +1861,20 @@
       "error": null
     }
   ],
+  "c32e6518df20c8613ec9b5775cfff9416cdae2245dff3919fcd3b35be426b14f": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/2.4.1/flicky-2.4.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 321,
+      "version_name": "2.4.1",
+      "tag": "2.4.1",
+      "commit": "e2d1b1b4ec4cd7b90102b39359cda05f21805af2",
+      "timestamp": 1756318899,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -1885,6 +1899,20 @@
       "tag": "2.4.3",
       "commit": "3791054edea28dc4ccd89273a9663fe8ca73f4bd",
       "timestamp": 1756286482,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "634dca3fa36de12260672ed066b4446bf39b02bd4a0d1de050990854f66b75d1": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/2.4.4/fluffy-2.4.4-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 351,
+      "version_name": "2.4.4",
+      "tag": "2.4.4",
+      "commit": "8b45e82db9310997029ee0948b4c5daeb1be5b66",
+      "timestamp": 1756319239,
       "reproducible": true,
       "error": null
     }
@@ -6575,6 +6603,20 @@
       "tag": "v3.1.0",
       "commit": "0c2ca68dcdfeaa30ce8648af180b9767a1b5b926",
       "timestamp": 1755793620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "68639f740c35f6cdc37e2aa7a4f012c11d74b23d3dbef7a86a8800c8f4317ae2": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v3.1.1/paperize-v3.1.1.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 39,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "74d2c614fd3ea1c1aefdea3272b4c67cac3f3a22",
+      "timestamp": 1756303384,
       "reproducible": true,
       "error": null
     }
@@ -11759,6 +11801,20 @@
       "error": null
     }
   ],
+  "1fa670b03d17c32c0aa7efea5d464454261ef9438eb5f61cd71cc0c09752697b": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/ghostbyte-dev/pixelix/releases/download/v4.2.0/pixelix_v4.2.0.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 33,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "7bdba15ec78446ba6cbb8954702415ae85ca9482",
+      "timestamp": 1756319602,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
     {
       "repository": "https://github.com/danilkinkin/buckwheat.git",
@@ -12417,6 +12473,20 @@
       "error": null
     }
   ],
+  "49668a571146b1bf5b9ceaada61ac3e848f6f2e5cf7e883abfe92d4d5a9d4a1a": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.12.2/daily-you-arm64-v8a-v2.12.2.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20120022,
+      "version_name": "2.12.2",
+      "tag": "v2.12.2",
+      "commit": "f6c042d0adcd61151ec6fe25bc18a44e3ba6cd16",
+      "timestamp": 1756304198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -12665,6 +12735,20 @@
       "tag": "v1.50.20",
       "commit": "b6648b9942889cb854d7d2f83f924c2daa2216f3",
       "timestamp": 1734717582,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5219d70214d0108547e81fb7bf03574692a0f0f84fc6beb82b30770ddf6edbba": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.50.21/Shiori.v1.50.21.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 50,
+      "version_name": "1.50.21",
+      "tag": "v1.50.21",
+      "commit": "04c7571aa9dab3a4cccef8774b200a4292710d1a",
+      "timestamp": 1756304940,
       "reproducible": true,
       "error": null
     }
@@ -16471,6 +16555,20 @@
       "tag": "v1.26",
       "commit": "c454a7a90b6d9e7b6219378468f3cd24391e0339",
       "timestamp": 1751997006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "55c37bbb097e810a0f3f73f215a374652f711597f6e30feef9e97dadcb458a56": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.27/PrivateDnsQS-v1.27-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 30,
+      "version_name": "1.27",
+      "tag": "v1.27",
+      "commit": "9522ae2d87a831a180fedadb4b6fa9fee4290b7b",
+      "timestamp": 1756305413,
       "reproducible": true,
       "error": null
     }
@@ -23073,6 +23171,20 @@
       "tag": "1.9.1",
       "commit": "2405be4f0e6749c2b4cd6cca8b998f07a5c83083",
       "timestamp": 1755023302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38b4a68249e817ee0257698611d8dfb37b1eb0d2ab85af71028b80555ad14013": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.9.2/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 35,
+      "version_name": "1.9.2",
+      "tag": "1.9.2",
+      "commit": "2edfe635c805316d2fac90814d91cda7967e7c3e",
+      "timestamp": 1756305752,
       "reproducible": true,
       "error": null
     }
@@ -31183,6 +31295,20 @@
       "tag": "4.3.0",
       "commit": "5cf36000067f3d267d9fde7b8434c8e8c9f698d5",
       "timestamp": 1755974060,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "41dd928b952afbb8ccfef8a1ffe97818695cda1c24dd6b5e22fc63a51b044ed3": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/4.3.1/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 4310,
+      "version_name": "4.3.1",
+      "tag": "4.3.1",
+      "commit": "861a94669292f537b2ea12b3fbf3dbc723e3350a",
+      "timestamp": 1756306156,
       "reproducible": true,
       "error": null
     }
@@ -39751,6 +39877,20 @@
       "error": null
     }
   ],
+  "6bea9d3832fad34ab5ba9ead39dc3cc0e2d2830d7bf28053d50c4333ccb5ee73": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.5.9/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10050092,
+      "version_name": "1.5.9",
+      "tag": "v1.5.9",
+      "commit": "65011ce183ac6675ee65a3242b03507effa60794",
+      "timestamp": 1756306671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -41663,6 +41803,20 @@
       "tag": "v1.4.0",
       "commit": "c92a20029c82ee58e492ea61126c757d87b3cab4",
       "timestamp": 1721492941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ee4acc39920364e1d3d206589232f16ecaa92026511429ff94ae0651ebb0d4e": [
+    {
+      "repository": "https://github.com/hegocre/ScoreCounter.git",
+      "apk_url": "https://github.com/hegocre/ScoreCounter/releases/download/v1.5.0/scorecounter-v1.5.0-mobile.apk",
+      "appid": "es.hegocre.scorecounter",
+      "version_code": 361500001,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "366475b490997cbf38ad2b5b75bfc449387df6d3",
+      "timestamp": 1756307837,
       "reproducible": true,
       "error": null
     }
@@ -46411,6 +46565,20 @@
       "error": null
     }
   ],
+  "84e724c163d4ccdc1463db47d684d7b3c078672aca68d6fb5d262a6952c4788f": [
+    {
+      "repository": "https://github.com/FFDA/SourCherry.git",
+      "apk_url": "https://github.com/FFDA/SourCherry/releases/download/v1.8.0/SourCherry_1.8.0-release.apk",
+      "appid": "lt.ffda.sourcherry",
+      "version_code": 16,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "ac205c8be87d9e2a7e01c60010572bb9ba8647a2",
+      "timestamp": 1756320425,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f4c61a7bf19412324036b8de074707c24965c82ba2379a2d9c1cb420d9c1cfe2": [
     {
       "repository": "https://github.com/FooqX/GoldenRatio.git",
@@ -48931,6 +49099,34 @@
       "error": null
     }
   ],
+  "566e3b56b6845d2d40940cb54059645b9d0b9c27213abcff60ad6c0d5cafb5ab": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.0.8-beta/breezy-weather-arm64-v8a-v6.0.8-beta_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60008,
+      "version_name": "6.0.8-beta",
+      "tag": "v6.0.8-beta",
+      "commit": "ed28ad08e83b43911801b8ecdb6ad085326859e8",
+      "timestamp": 1756320574,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "99a83026ebecf1d74ea1533313b64c764fc2bff62c03c692c0f0fd9faddd73ba": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.0.8-beta/breezy-weather-v6.0.8-beta_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60008,
+      "version_name": "6.0.8-beta",
+      "tag": "v6.0.8-beta",
+      "commit": "ed28ad08e83b43911801b8ecdb6ad085326859e8",
+      "timestamp": 1756321169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "65c950b7a4e3120b125e8fec5c50d6ca9c640cc7722b07952faa73ab2a91e506": [
     {
       "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
@@ -51087,6 +51283,20 @@
       "error": null
     }
   ],
+  "c365c85ba85f59c96fdf6145f93826fa1b5b857959df6a5f8904ac478f777e41": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.3.5/voicerecorder-12-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 12,
+      "version_name": "1.3.5",
+      "tag": "1.3.5",
+      "commit": "77f47a917088536afa93eb07b02e4bfb4d179b4a",
+      "timestamp": 1756308196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cafdbf639fe3749b156f74bddca6738527818950ad77a41a4e0c1534d3cba942": [
     {
       "repository": "https://github.com/floccusaddon/floccus.git",
@@ -51475,6 +51685,20 @@
       "tag": "4.0.4",
       "commit": "c4e31cf8f09de4a7194b463f83f098834d4677ef",
       "timestamp": 1732904436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1d78fcf871b76b4ca81d20888c651f420f0c1f03554eb5bc2a1d8d1bed924bb5": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/5.0.0/Autu-Mandu_5.0.0.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 500,
+      "version_name": "5.0.0",
+      "tag": "5.0.0",
+      "commit": "9e59fce09702d00ad5cdf4658080d3db4cf01cc1",
+      "timestamp": 1756309326,
       "reproducible": true,
       "error": null
     }
