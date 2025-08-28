@@ -2323,6 +2323,20 @@
       "error": null
     }
   ],
+  "5842e1351f3093ee8f7709730effee7bf7fad810f04a7f5b7bb6d3404cb22eef": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v2.16.0/Pachli_2.16.0_35_c17c819c_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 35,
+      "version_name": "2.16.0",
+      "tag": "v2.16.0",
+      "commit": "c17c819cf314acf6332c7dd59015f0a26328af14",
+      "timestamp": 1756413739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8d8633ea354a92687fe3af94c1c2cc4ec5c50d4e7c5509d8f32e16b5b7e990cc": [
     {
       "repository": "https://github.com/msbelaid/PlugBrain.git",
@@ -2501,6 +2515,20 @@
       "tag": "build106.3.2",
       "commit": "82b0740fcc1ac7a357d1ff2ae704807d3476b396",
       "timestamp": 1753640470,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fee8a000f16d75baa5a36365de553a1fac29e4a4bd515fa8e5068fee03a51eb": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.3.3/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10633,
+      "version_name": "build106.3.3",
+      "tag": "build106.3.3",
+      "commit": "2eb0164d052c6820eb2a22560cff4d87e4001392",
+      "timestamp": 1756390467,
       "reproducible": true,
       "error": null
     }
@@ -5389,6 +5417,20 @@
       "error": null
     }
   ],
+  "2ce7ee46d06f44f7b1e55f014052d44c5cd7eb06b3eaae23e3d34260117ef8fc": [
+    {
+      "repository": "https://github.com/Abizer-R/QuickEdit-Photo-Editor.git",
+      "apk_url": "https://github.com/Abizer-R/QuickEdit-Photo-Editor/releases/download/v1.1.1-5/app-release.apk",
+      "appid": "com.abizer_r.quickedit",
+      "version_code": 5,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1-5",
+      "commit": "ddc756618a775f6527d6424acc219e83ae1299a0",
+      "timestamp": 1756398156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5416c92f350842ad014bdf670053282292bc59e9a4b8baa7692c2af6e86bfd51": [
     {
       "repository": "https://github.com/LibChecker/LibChecker.git",
@@ -5721,6 +5763,20 @@
       "tag": "72",
       "commit": "bd48ab978015ca7c507017fbc57262bd89aef548",
       "timestamp": 1752673696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d7118b12a2989f0263a504cc8b5ebbda7119f6ebd812bda06938445fc6f337d2": [
+    {
+      "repository": "https://github.com/smswithoutborders/RelaySMS-Android.git",
+      "apk_url": "https://github.com/smswithoutborders/RelaySMS-Android/releases/download/73/0.27.0.apk",
+      "appid": "com.afkanerd.sw0b",
+      "version_code": 73,
+      "version_name": "0.27.0",
+      "tag": "73",
+      "commit": "62916a005ab8e2adafdcbbae7f13a2f5e6ee7fd6",
+      "timestamp": 1756391533,
       "reproducible": true,
       "error": null
     }
@@ -6617,6 +6673,20 @@
       "tag": "v3.1.1",
       "commit": "74d2c614fd3ea1c1aefdea3272b4c67cac3f3a22",
       "timestamp": 1756303384,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7087cc4037d7d839eb26f5ec5a76f653f81d6d3ee507990b872e45ba7925847a": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v3.1.2/paperize-v3.1.2.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 40,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "27b0fe62c8725f2516cfdee1bfe6290330c15270",
+      "timestamp": 1756410511,
       "reproducible": true,
       "error": null
     }
@@ -18957,6 +19027,20 @@
       "tag": "v2.9.1",
       "commit": "4ee1f4628b48d8f421bedfc1299e807552462c3d",
       "timestamp": 1751118854,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4cd554499bbc99eef071efba59802a3022e4dc69e84d7dee481d32ee34c7577d": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v3.0.0/DroidPad-v3.0.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 28,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "eb50d49b085b0c37d79dcf249361674c8484900b",
+      "timestamp": 1756391989,
       "reproducible": true,
       "error": null
     }
@@ -36407,6 +36491,20 @@
       "error": null
     }
   ],
+  "6640a61d83a359ef50ab56c0e1adbf6e33ef6d905485cae6240a4f8382d09896": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.5/MediLog-3.3.5.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5497,
+      "version_name": "3.3.5",
+      "tag": "v3.3.5",
+      "commit": "83cace218f59e467ad6cdb9132e11d27deaf229b",
+      "timestamp": 1756392511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -37703,6 +37801,20 @@
       "tag": "v0.17.8",
       "commit": "b33c0068d4d667f01fc707be2bcb65ad4e16d990",
       "timestamp": 1756060109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "53ed3b2f9e6e5d4ddf016c953c0b2d385a232f99f2f96949e2de3e39b40211a6": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.18.0/RecurringExpenseTracker_0.18.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 48,
+      "version_name": "0.18.0",
+      "tag": "v0.18.0",
+      "commit": "a3c36c6793e063731770d139e07387bb3a9f8cae",
+      "timestamp": 1756393081,
       "reproducible": true,
       "error": null
     }
@@ -39887,6 +39999,20 @@
       "tag": "v1.5.9",
       "commit": "65011ce183ac6675ee65a3242b03507effa60794",
       "timestamp": 1756306671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8b0dd640120d8bf430474743af9629849d8a0c164463d3b47d0e3f0d5ed7c3c7": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.5.10/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10050102,
+      "version_name": "1.5.10",
+      "tag": "v1.5.10",
+      "commit": "922024a353b38fe321c9b049733997a50f6c74a7",
+      "timestamp": 1756393567,
       "reproducible": true,
       "error": null
     }
@@ -46957,6 +47083,20 @@
       "error": null
     }
   ],
+  "f65263a3d536b6add2686d129c55db9d569ac1520818093d822d53df48e932ff": [
+    {
+      "repository": "https://github.com/TheLastProject/ShareToInputStick.git",
+      "apk_url": "https://github.com/TheLastProject/ShareToInputStick/releases/download/v3.7.1/app-release.apk",
+      "appid": "me.hackerchick.sharetoinputstick",
+      "version_code": 25,
+      "version_name": "3.7.1",
+      "tag": "v3.7.1",
+      "commit": "d8cf1ba06b715073a9c2a9bba65a825c2a9bfacb",
+      "timestamp": 1756394800,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "93a6bf261a6b639129b3df1136a51abf212dac2b5753b9d53cbe63bcb222f1f3": [
     {
       "repository": "https://github.com/knighthat/Kreate.git",
@@ -51532,6 +51672,20 @@
       "commit": "5d3be681724dfc57115f4db51f9208e74bf7190d",
       "timestamp": 1754161806,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d8887978b0fa142b7d9b0ae1cf22f45e169e361586718224fcb96a57fd2469b": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.7.0/floccus-build-v5.7.0.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5007000,
+      "version_name": "5.7.0",
+      "tag": "v5.7.0",
+      "commit": "4314ea447ecb78f2e9e3a37b27a96a242e49e924",
+      "timestamp": 1756407425,
+      "reproducible": false,
       "error": null
     }
   ],
