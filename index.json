@@ -52739,6 +52739,20 @@
       "error": null
     }
   ],
+  "b77b847eb8cf79c7782e08817f05547e114028de56e222ba142684269357076a": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Nittterify/releases/download/2.1.3/app-release.apk",
+      "appid": "org.nuclearfog.nitterify",
+      "version_code": 6,
+      "version_name": "2.1.3",
+      "tag": "2.1.3",
+      "commit": "d3c1437c91090cefc7ac176061a310a899aa3857",
+      "timestamp": 1756331733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "506fb01165bf98d77bd76e2ef173782453b89b3d064962f8cebb5144eaf509db": [
     {
       "repository": "https://codeberg.org/nuclearfog/Smither.git",
@@ -52833,6 +52847,20 @@
       "tag": "v2.5.3",
       "commit": "2f01b85e3356ee40f6b3d74c554123a1345f354f",
       "timestamp": 1729038179,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e0e019c01c1ac5e60b524c2e492e6c8ebba36f663cdcceb5bf32e6bdb56fcba": [
+    {
+      "repository": "https://github.com/owntracks/android.git",
+      "apk_url": "https://github.com/owntracks/android/releases/download/v2.5.4/owntracks-release-oss-420504022.apk",
+      "appid": "org.owntracks.android",
+      "version_code": 420504022,
+      "version_name": "2.5.4",
+      "tag": "v2.5.4",
+      "commit": "c1c62f85b411c1c436fd6390dc31f4d3d727a0cf",
+      "timestamp": 1756330519,
       "reproducible": true,
       "error": null
     }
