@@ -1875,6 +1875,34 @@
       "error": null
     }
   ],
+  "6c18c924be048bb89772ac491866b9312772241f25607f2809df8423bb402a86": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/2.5.1/flicky-2.5.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 331,
+      "version_name": "2.5.1",
+      "tag": "2.5.1",
+      "commit": "902570d7d243214ca792dd5801dc39dca2e86c4f",
+      "timestamp": 1756476166,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2bae1c7feb6f685684bca24928888a9f595c4ea26668a650dad6e5e132d90110": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/2.5.2/flicky-2.5.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 341,
+      "version_name": "2.5.2",
+      "tag": "2.5.2",
+      "commit": "e6c00bdb47062bf07d432261f8bb0c72ed47e43e",
+      "timestamp": 1756491685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -1913,6 +1941,20 @@
       "tag": "2.4.4",
       "commit": "8b45e82db9310997029ee0948b4c5daeb1be5b66",
       "timestamp": 1756319239,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0959066c89444ed805d2dc70d8ecae03c2dbff48142b0337b47145885830f472": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/2.4.6/fluffy-2.4.6-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 371,
+      "version_name": "2.4.6",
+      "tag": "2.4.6",
+      "commit": "1d64359c2e06caa4996310797d092f4cc4cb7956",
+      "timestamp": 1756476558,
       "reproducible": true,
       "error": null
     }
@@ -9981,6 +10023,34 @@
       "error": null
     }
   ],
+  "4ff36b40d855715f52615474cae0f03c240fb3433bad130d4f19eb3e3d149943": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1159-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1159,
+      "version_name": "2025.08.1159-dev",
+      "tag": "2025.08.1159-dev",
+      "commit": "e836e2db22c77b818031e71450b9e4e48f29bd2d",
+      "timestamp": 1756476941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "978072cd5fe50fe8f29349f030c03c73c4c8c7cd023b839bc4d685b471d14fcb": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1160-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1160,
+      "version_name": "2025.08.1160-dev",
+      "tag": "2025.08.1160-dev",
+      "commit": "e77236b9a1f6ef3cf8c7683b574f5eaeee798417",
+      "timestamp": 1756491933,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11363,6 +11433,20 @@
       "tag": "v1.1.7",
       "commit": "cd31c83b1d5716a2d116a29c5d805e15dd2d40d2",
       "timestamp": 1755613567,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c52b11a2e92205f878cdebe0147730d156e3ccf9ff56297334018a6edbb21acd": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v1.1.8/app-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 11,
+      "version_name": "1.1.8",
+      "tag": "v1.1.8",
+      "commit": "3e13233198bc8f1a0e3f6ab0f9ca47ca256f2d33",
+      "timestamp": 1756486554,
       "reproducible": true,
       "error": null
     }
@@ -13225,6 +13309,20 @@
       "tag": "0.0.35",
       "commit": "2fe24a2d9f471d6c03733e1a0f3e482d48f4fe81",
       "timestamp": 1755197878,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "113255f6e3501a8bad78101d5842d5097320c49d444d0b8a19ab61a729c6b98c": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.36/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 36,
+      "version_name": "0.0.36",
+      "tag": "0.0.36",
+      "commit": "3432ed28bc9d6a62499f424b3662428411e62d6a",
+      "timestamp": 1756477547,
       "reproducible": true,
       "error": null
     }
@@ -25091,6 +25189,20 @@
       "error": null
     }
   ],
+  "946381b3af7d5206afd39897c55a265774f3fe39251c67945edc3d5c067219b9": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.4.4/SpeakThat-NoUpdater-v1.4.4.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 18,
+      "version_name": "1.4.4",
+      "tag": "v1.4.4",
+      "commit": "feded0d0f08f68976aab04e22ac462bf2577ffcb",
+      "timestamp": 1756477906,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -26287,6 +26399,20 @@
       "tag": "V0.2.9",
       "commit": "3a44e255621b7a01a18761db5470420f92727add",
       "timestamp": 1756046310,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c9e88a40de56b2759bdbc0bfb6bf31d5dfe00b8fb1709ca5499571ce142157c3": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.2.10/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 13,
+      "version_name": "0.2.10",
+      "tag": "V0.2.10",
+      "commit": "e572fa4f4ffb515e2c2ee6b906c5415ff96059e9",
+      "timestamp": 1756478515,
       "reproducible": true,
       "error": null
     }
@@ -31397,6 +31523,20 @@
       "error": null
     }
   ],
+  "6c2d315f99ee451572b65b7ee61e3bd92c35bc82fd1a22f66615f679a93867e4": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/4.3.3/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 4330,
+      "version_name": "4.3.3",
+      "tag": "4.3.3",
+      "commit": "0247416019c929bddec0f26137c11970ec4f0e49",
+      "timestamp": 1756478795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -32291,6 +32431,20 @@
       "timestamp": 1751467270,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "c5c567db24a147053ea58537520d4f289ac6eb5546f726d29a03fe4fadc42444": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.14/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2017,
+      "version_name": "1.0.14",
+      "tag": "V1.0.14",
+      "commit": "772614cc919c4543aa53a9a14dbd1b84c0f3ffa5",
+      "timestamp": 1756479187,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpc19x4bie/outputs:/outputs', '--volume', '/tmp/tmpc19x4bie/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/sidhant947/Wallet.git', '--env', 'APP_TAG=V1.0.14', '--env', 'APP_COMMIT=772614cc919c4543aa53a9a14dbd1b84c0f3ffa5', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/sidhant', '--env', 'BUILD_REPO_DIR=/home/sidhant/Downloads/Projects/wallet/wallet', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/sidhant && timeout 10m su build /scripts/provision.sh && cd /home/sidhant/Downloads/Projects/wallet/wallet && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
@@ -34823,6 +34977,20 @@
       "tag": "v.1.4.7",
       "commit": "cbd27e9d1d47c4d64cda69157568297ca5f8c544",
       "timestamp": 1755007778,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e83aa02af5101512daab430b34ef4ccf0d9bbd04d22e83fe9e72cda6fe4519f0": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.8/chooser-v1.4.8.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 22,
+      "version_name": "1.4.8",
+      "tag": "v.1.4.8",
+      "commit": "cec288a2b293372f2a9cff24a004dbbb77026fec",
+      "timestamp": 1756479583,
       "reproducible": true,
       "error": null
     }
@@ -37815,6 +37983,20 @@
       "tag": "v0.18.0",
       "commit": "a3c36c6793e063731770d139e07387bb3a9f8cae",
       "timestamp": 1756393081,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39122868616bd636a171304d946f7719e2c6302193b5d1df612d31413eda6d03": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.18.1/RecurringExpenseTracker_0.18.1.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 49,
+      "version_name": "0.18.1",
+      "tag": "v0.18.1",
+      "commit": "fb1e09e4a04e407ee0d1281b872afa08837a47bd",
+      "timestamp": 1756492462,
       "reproducible": true,
       "error": null
     }
@@ -44019,6 +44201,20 @@
       "error": null
     }
   ],
+  "333f28f50a91d76aa8c6510f7ff4bdd94f56c50a3ad14f632ed9fc3b1c57049a": [
+    {
+      "repository": "https://github.com/PnX-SI/gn_mobile_occtax.git",
+      "apk_url": "https://github.com/PnX-SI/gn_mobile_occtax/releases/download/2.7.2/occtax-2.7.2-generic-release.rotate.apk",
+      "appid": "fr.geonature.occtax2",
+      "version_code": 3322,
+      "version_name": "2.7.2",
+      "tag": "2.7.2",
+      "commit": "343e800c5590913a31a639cfa98f5e6bee4066d5",
+      "timestamp": 1756479912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "373bf8e82d81aa15c7dad5a75b493cdb18a296e5c2b25f7606c0345ed707e6c3": [
     {
       "repository": "https://github.com/gilbsgilbs/LocationIndicatorWhitelist.git",
@@ -46813,6 +47009,20 @@
       "tag": "v2.3.0",
       "commit": "be4c5fb69cc5646ecfe6edbd7afc3effc63fcbf6",
       "timestamp": 1720872729,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "459dba6bf5403cf35a912fc3e660e25392fdc4b5e39e2e6563dd1f6807455fd9": [
+    {
+      "repository": "https://github.com/Arian04/android-hid-client.git",
+      "apk_url": "https://github.com/Arian04/android-hid-client/releases/download/v3.0.0/android-hid-client-v3.0.0.apk",
+      "appid": "me.arianb.usb_hid_client",
+      "version_code": 300,
+      "version_name": "v3.0.0",
+      "tag": "v3.0.0",
+      "commit": "db180c9678ede34ada8fe226f4f6eafde9e92538",
+      "timestamp": 1756494095,
       "reproducible": false,
       "error": null
     }
