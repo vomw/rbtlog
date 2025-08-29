@@ -1,0 +1,43 @@
+---
+repository: https://github.com/florisboard/florisboard.git
+updates: releases
+versions:
+  - tag: v0.5.0
+    apks:
+      - apk_pattern: florisboard-.*-stable\.apk
+        apk_url: https://github.com/florisboard/florisboard/releases/download/v0.5.0/florisboard-0.5.0-stable.apk
+        build:
+          - RUSTUP=$(sed -rn 's/rustup\s*=\s*"(.+)\".*/\1/p' gradle/tools.versions.toml)
+          - RUST_TOOLCHAIN=$(sed -rn 's/rustToolchain\s*=\s*"(.+)\".*/\1/p' gradle/tools.versions.toml)
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/florisboard
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /home/runner/Android/Sdk
+          build_tools:
+          cmake: 4.0.2
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - build-essential
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 26.1.10909125
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

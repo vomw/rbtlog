@@ -40899,6 +40899,20 @@
       "error": null
     }
   ],
+  "619f0b5889d385ffff24901170ee84812aa106b1cc70db997debb1b38b4c14d6": [
+    {
+      "repository": "https://github.com/florisboard/florisboard.git",
+      "apk_url": "https://github.com/florisboard/florisboard/releases/download/v0.5.0/florisboard-0.5.0-stable.apk",
+      "appid": "dev.patrickgold.florisboard",
+      "version_code": 115,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "0799adc19352dbfd0475b28ce9270666a474ff39",
+      "timestamp": 1756505831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "07cadccc5953f398ebe1d95c3253c99f05e99ee39496a17c7af96bbe09f6cfd6": [
     {
       "repository": "https://github.com/PranavPurwar/AppLock.git",
@@ -45763,6 +45777,20 @@
       "tag": "3.2.2",
       "commit": "fc8b47d79a7926c84d7895ea509de38b9992b4bc",
       "timestamp": 1722532831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5eaf49ba136b7dece2eb970904c8358f5ce9e76e0e621be9ef4b0954b2ea90f2": [
+    {
+      "repository": "https://github.com/pedrolcl/vmpk-android.git",
+      "apk_url": "https://github.com/pedrolcl/vmpk-android/releases/download/v1.5.1/io.github.pedrolcl.vmpk-v1.5.1-release.apk",
+      "appid": "io.github.pedrolcl.vmpk",
+      "version_code": 151,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "97e9f71a46690f119eafcb8e8a57b88bdcbd666c",
+      "timestamp": 1756490506,
       "reproducible": true,
       "error": null
     }
