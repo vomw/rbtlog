@@ -30099,6 +30099,20 @@
       "error": null
     }
   ],
+  "d3d3a00a7c6c1a0e9b051db51b8ee70f1e693ae103ad65e5c754b10865ef2b68": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.1.7/xed-editor-v3.1.7.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 62,
+      "version_name": "3.1.7",
+      "tag": "v3.1.7",
+      "commit": "074632ac9f6b2f5db085e67e226b4c49bc756de1",
+      "timestamp": 1756637086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -57480,6 +57494,20 @@
       "commit": "d4a91fa5f512cf40fc027d1329f50036f5b8e7d4",
       "timestamp": 1755876174,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a75622388aef24473127c16cccbdb3bf8a4a5ef19901e6befc9e245d78f0666": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.1.0/aucards-2.1.0.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 10,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "cfea518ce0dd035166dc4e737f3b8f343afd74e2",
+      "timestamp": 1756579161,
+      "reproducible": false,
       "error": null
     }
   ],
