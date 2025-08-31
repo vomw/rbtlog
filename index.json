@@ -1903,6 +1903,34 @@
       "error": null
     }
   ],
+  "a051a6e17ad01ddc34074644a9da4c4c15a0466ac56f64062a26375faa2b599d": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.1.3/flicky-3.1.3-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 381,
+      "version_name": "3.1.3",
+      "tag": "3.1.3",
+      "commit": "f6806564f5fad625790b459beda21fd6ed003550",
+      "timestamp": 1756654855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "db6ec65799b9f44af0ed0a5616ad621a0e3a30b6e448f50d7988607135496d33": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.2.1/flicky-3.2.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 391,
+      "version_name": "3.2.1",
+      "tag": "3.2.1",
+      "commit": "265266518ccee56545a84f12ac1ad622d6ec2f40",
+      "timestamp": 1756664486,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -1969,6 +1997,20 @@
       "tag": "3.0.1",
       "commit": "2e721f03cb886e17683b0a9520a8e0cb581437a1",
       "timestamp": 1756578079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb798e48317014e1979a87b40e888bf136322812d1f5206107494054483c6dcf": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.0.2/fluffy-3.0.2-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 391,
+      "version_name": "3.0.2",
+      "tag": "3.0.2",
+      "commit": "fc1797a124a3cfbbb812fa11458bd9e9791517a8",
+      "timestamp": 1756649369,
       "reproducible": true,
       "error": null
     }
@@ -10089,6 +10131,20 @@
       "tag": "2025.08.1160-dev",
       "commit": "e77236b9a1f6ef3cf8c7683b574f5eaeee798417",
       "timestamp": 1756491933,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88318660d09a04a10355e736475e0640b10455bba501cef2c4c1304ade197cbc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.08.1161-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1161,
+      "version_name": "2025.08.1161-dev",
+      "tag": "2025.08.1161-dev",
+      "commit": "8593e7a8cfd5c25ad4180981b4b21646fb3b007a",
+      "timestamp": 1756649759,
       "reproducible": true,
       "error": null
     }
@@ -21215,6 +21271,20 @@
       "error": null
     }
   ],
+  "aecde68d5bef3233b3616ecf8a5c9ded37cfd00aa8363fbb719ffdda1b25902f": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.62/fire2kodi_v0.62.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 14,
+      "version_name": "0.62",
+      "tag": "v0.62",
+      "commit": "033a20bff784036d9b0344158b00ee2c9e91df4d",
+      "timestamp": 1756650214,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -28685,6 +28755,20 @@
       "error": null
     }
   ],
+  "e9e1bd176f39abb5fb994de739e6586571f17a6aedf8f55bc720966c2b20c648": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.50/1.50-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 105,
+      "version_name": "1.50",
+      "tag": "v1.50",
+      "commit": "9b6078d5aa4c8e295dbb555ac74bce7acac28fcc",
+      "timestamp": 1756650470,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcfb70cdb0670f858ac788e46683b348101203b6b25028c5080f712070b3ce8d": [
     {
       "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
@@ -32545,6 +32629,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpc19x4bie/outputs:/outputs', '--volume', '/tmp/tmpc19x4bie/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/sidhant947/Wallet.git', '--env', 'APP_TAG=V1.0.14', '--env', 'APP_COMMIT=772614cc919c4543aa53a9a14dbd1b84c0f3ffa5', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/sidhant', '--env', 'BUILD_REPO_DIR=/home/sidhant/Downloads/Projects/wallet/wallet', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/sidhant && timeout 10m su build /scripts/provision.sh && cd /home/sidhant/Downloads/Projects/wallet/wallet && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "226e77e4a9a7d7295ceba6e360c3b2e544d147a28932f725890e8ce95d4ff42f": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.15/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2018,
+      "version_name": "1.0.15",
+      "tag": "V1.0.15",
+      "commit": "68203da088739c41664673b39b44abb1de471bbb",
+      "timestamp": 1756650920,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmp2prlmt5e/outputs:/outputs', '--volume', '/tmp/tmp2prlmt5e/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/sidhant947/Wallet.git', '--env', 'APP_TAG=V1.0.15', '--env', 'APP_COMMIT=68203da088739c41664673b39b44abb1de471bbb', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/sidhant', '--env', 'BUILD_REPO_DIR=/home/sidhant/Downloads/Projects/wallet/wallet', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/sidhant && timeout 10m su build /scripts/provision.sh && cd /home/sidhant/Downloads/Projects/wallet/wallet && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -35439,6 +35537,20 @@
       "tag": "v3.0.8",
       "commit": "b9546b4836920e99937a3acd52e1ba54d2e209ea",
       "timestamp": 1755627720,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "10638ed49ebb94f80e0b80cd23674188cbb9fe4e3540d74bd5dfb737df3ebbf1": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v3.0.9/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 7,
+      "version_name": "3.0.9",
+      "tag": "v3.0.9",
+      "commit": "0a55f9fb3234ae8d2ead7ba1467b17ad45aa1830",
+      "timestamp": 1756651307,
       "reproducible": true,
       "error": null
     }
@@ -47167,6 +47279,20 @@
       "error": null
     }
   ],
+  "966dd1ee9e2b83e5f8854c0520f794788adf461a918bfd4e545ffd79418946ac": [
+    {
+      "repository": "https://github.com/Arian04/android-hid-client.git",
+      "apk_url": "https://github.com/Arian04/android-hid-client/releases/download/v3.0.1/android-hid-client-v3.0.1.apk",
+      "appid": "me.arianb.usb_hid_client",
+      "version_code": 301,
+      "version_name": "v3.0.1",
+      "tag": "v3.0.1",
+      "commit": "6bcf73441217993fa3f10486c2dca9e5cfbe1299",
+      "timestamp": 1756652027,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "14f304c147ede7da9a22bbd14963e901668782ddb44fab1aca06487b17b31116": [
     {
       "repository": "https://github.com/CatimaLoyalty/Android.git",
@@ -48521,6 +48647,20 @@
       "tag": "1.7.0",
       "commit": "ca7a58580f2b5678a0bb7a0e396077154f8ee982",
       "timestamp": 1755889307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b66be4d8c637895e78f1416e30b54a389a3ea005f05c2834a5b476566786928": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.7.1/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 2018,
+      "version_name": "1.7.0",
+      "tag": "1.7.1",
+      "commit": "95928e06d13cc4a2189e79caf1b59f1e33d9aca9",
+      "timestamp": 1756652377,
       "reproducible": true,
       "error": null
     }
@@ -52963,6 +53103,20 @@
       "error": null
     }
   ],
+  "6354f4407848876453cf40432b6b142edc1d77ebd0d96ca1ee843efd6e449fd2": [
+    {
+      "repository": "https://github.com/nsh07/WikiReader.git",
+      "apk_url": "https://github.com/nsh07/WikiReader/releases/download/v2.5.3/wikireader-v2.5.3-release.apk",
+      "appid": "org.nsh07.wikireader",
+      "version_code": 51,
+      "version_name": "2.5.3",
+      "tag": "v2.5.3",
+      "commit": "7b35f73c7c65bf39f1d2a76702f65c2a98d7e2c9",
+      "timestamp": 1756653023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00bdfc80a397b449bef89dd2051ddd3c9d2a64e954176420b40c90a2af956799": [
     {
       "repository": "https://github.com/nuclearfog/Apollo-Music.git",
@@ -55971,6 +56125,20 @@
       "error": null
     }
   ],
+  "9133b25b5f7f3f90c78d850a6f32d8daeb5481318d7548ce69fc1de1e0b987b0": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.5/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 60,
+      "version_name": "1.8.5",
+      "tag": "1.8.5",
+      "commit": "989add2fad273198e8bb9690d7b9b294e9f53129",
+      "timestamp": 1756653509,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58aaa2fe59af915f1fe88a560d472bd9aa68ebb75ae7f30444dd8081384ed136": [
     {
       "repository": "https://github.com/BlueCat300/XposedAppSettings.git",
@@ -56765,6 +56933,20 @@
       "tag": "v2.1.2",
       "commit": "6c4f0f7f531ecccbcc423a634e423eddc20c41ca",
       "timestamp": 1747578321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e284ed78fc49520a6114c1deb422fb3adf1041a0cc41c5cd114c56b072772fe": [
+    {
+      "repository": "https://github.com/techlore/Plexus-app.git",
+      "apk_url": "https://github.com/techlore/Plexus-app/releases/download/v2.1.5/Plexus_v2.1.5.apk",
+      "appid": "tech.techlore.plexus",
+      "version_code": 215,
+      "version_name": "2.1.5",
+      "tag": "v2.1.5",
+      "commit": "c95bda01c3a51f39e615935a57702a33cb528445",
+      "timestamp": 1756653960,
       "reproducible": true,
       "error": null
     }
