@@ -1931,6 +1931,34 @@
       "error": null
     }
   ],
+  "ebb3d3a6559da6368b0db8d1420c175a16097851ea6798bb62824dbc38709203": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.2.3/flicky-3.2.3-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 411,
+      "version_name": "3.2.3",
+      "tag": "3.2.3",
+      "commit": "d8b75ccd4ca35fa8c20e7ab652a97dbcab5b2e99",
+      "timestamp": 1756735373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f325aa4a3d9ce413bd5c35b21ef60fc0a688ffa6120aa4e88b224146487083da": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.2.4/flicky-3.2.4-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 421,
+      "version_name": "3.2.4",
+      "tag": "3.2.4",
+      "commit": "2a5160b41d770d9cc4fd9261fe9f9bfb55defd7f",
+      "timestamp": 1756750905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -10145,6 +10173,20 @@
       "tag": "2025.08.1161-dev",
       "commit": "8593e7a8cfd5c25ad4180981b4b21646fb3b007a",
       "timestamp": 1756649759,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "966c685622e78cc78a81c955f1ea31d708f8d344d935766a64214f2db60757dc": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1162-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1162,
+      "version_name": "2025.09.1162-dev",
+      "tag": "2025.09.1162-dev",
+      "commit": "580a1a3faff7be8e9b0ac1aceb55f96473794adb",
+      "timestamp": 1756735773,
       "reproducible": true,
       "error": null
     }
@@ -22167,6 +22209,20 @@
       "error": null
     }
   ],
+  "cd8eb1e78bb0d4e8f2f43600b1e177d4401b0272e89e37e816c9f8c130ce993a": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.5.3/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 10,
+      "version_name": "1.5.3",
+      "tag": "v1.5.3",
+      "commit": "2d87accc7d438d63fa66d2ae49a043ed4d11224a",
+      "timestamp": 1756736215,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -30305,6 +30361,20 @@
       "tag": "v1.5.0",
       "commit": "701ece84f76790603f61844f17989ab3fac3c42c",
       "timestamp": 1756568001,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "90c613966d33016778e7994fe896b6c24aa7b47ac6a3342c9fcd927f17f75b36": [
+    {
+      "repository": "https://github.com/rohankhayech/Choona.git",
+      "apk_url": "https://github.com/rohankhayech/Choona/releases/download/v1.5.1/Choona-Android-Open-v1.5.1.apk",
+      "appid": "com.rohankhayech.choona",
+      "version_code": 13,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "b4b3dab8069f5228fa694473a03c648a6be3eb29",
+      "timestamp": 1756748226,
       "reproducible": true,
       "error": null
     }
@@ -39191,6 +39261,20 @@
       "error": null
     }
   ],
+  "86baecfd0b1eaebf257d5ab57e945bc8cdd776b7d995c0ff8837d1289ce0a8df": [
+    {
+      "repository": "https://github.com/Tetr4/CompassTile.git",
+      "apk_url": "https://github.com/Tetr4/CompassTile/releases/download/v1.5.0/app-release.apk",
+      "appid": "de.klimek.compass",
+      "version_code": 9,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "21c7458d34cf1bc110e00985629bfdcb3442fe4d",
+      "timestamp": 1756748920,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eece4f85bb17eca060af5cc367ecbec55adc219da24fe15fbfc51d59b8787c96": [
     {
       "repository": "https://github.com/lhns/restic-android.git",
@@ -39901,6 +39985,20 @@
       "tag": "v2.0.4",
       "commit": "108d21d6cb108ab0d6053d9e12b2ed60ac587f2b",
       "timestamp": 1752936229,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3513bb85abe84ebd9ff8eb64bd473f339c5a46f3fc89c073a047d1990cbfe4e3": [
+    {
+      "repository": "https://github.com/Bartuzen/qBitController.git",
+      "apk_url": "https://github.com/Bartuzen/qBitController/releases/download/v2.1.0/qbitcontroller-2.1.0-android.apk",
+      "appid": "dev.bartuzen.qbitcontroller",
+      "version_code": 27,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "59f4f7d042396a02700019c5e326453beb8e6590",
+      "timestamp": 1756751723,
       "reproducible": true,
       "error": null
     }
@@ -43763,6 +43861,20 @@
       "tag": "1.2294",
       "commit": "512a2959fdef54481d20cb1e1a86a3b590660e8b",
       "timestamp": 1756568518,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "94a7fb0ac6db783262e712118f966e7dba1dedae38c7467384437250ef91a31a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2295/FairEmail-v1.2295a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2295,
+      "version_name": "1.2295",
+      "tag": "1.2295",
+      "commit": "8ebb53c776f29c74a2c20a443addba98d222232e",
+      "timestamp": 1756738394,
       "reproducible": true,
       "error": null
     }
@@ -48665,6 +48777,34 @@
       "error": null
     }
   ],
+  "d8a7625e4a822e77689a008f96af75282de19076628708994526c48069be143c": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.7.2/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 2019,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "87138b7484894de192621b5ccfd69785f1371f32",
+      "timestamp": 1756739547,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "296c285e865b1655d9257c1067387327e88a402ac38576f26dd1a193cda966dc": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.7.3/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 2020,
+      "version_name": "1.7.3",
+      "tag": "1.7.3",
+      "commit": "21ef2038d89cb60bfb7e3bc544c4c645eddf69a8",
+      "timestamp": 1756754121,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38843ca345b849f962df5c957f06b940ee40961648777d8f7741c2769ba34da4": [
     {
       "repository": "https://github.com/helcel-net/beans.git",
@@ -50583,6 +50723,20 @@
       "error": null
     }
   ],
+  "3c6c72eaa37b83084efe643ba80640c916cd6f41aabc8ab6d9c958e1c5e4b23a": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.6.1/calendar-11-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 11,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "f662bb5168673eed1597fd2778a9777610cf53a6",
+      "timestamp": 1756741235,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -50891,6 +51045,20 @@
       "error": null
     }
   ],
+  "904dfc123daeb37d5d78bf12d96783820a80632f3ec44accae0928f0819190b6": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.2.2/file-manager-6-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 6,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "8c711104edd7b8924ae4d70b46d64c6311ae9c2e",
+      "timestamp": 1756754680,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "573adb736b5cd42629720d241aa71db36410a292341e8718f04466b487928902": [
     {
       "repository": "https://github.com/FossifyOrg/Gallery.git",
@@ -51097,6 +51265,20 @@
       "tag": "1.2.0",
       "commit": "baf44b3ecfa0b656adb6be83bd3c851fbcfa2c94",
       "timestamp": 1752605939,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e9ad44b9a8430f9176835832187ebee34479a8aaa6003c6e0760eb8535de2ebd": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.3.0/launcher-9-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 9,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "f55145d2f25ecece062f1a989cc8e17504a046e5",
+      "timestamp": 1756755046,
       "reproducible": true,
       "error": null
     }
@@ -51591,6 +51773,20 @@
       "error": null
     }
   ],
+  "ff0860a6fbeff65846cec5eb805c3fba176459edc798023e9f22b84b1f5ba717": [
+    {
+      "repository": "https://github.com/FossifyOrg/Notes.git",
+      "apk_url": "https://github.com/FossifyOrg/Notes/releases/download/1.4.1/notes-9-foss-release.apk",
+      "appid": "org.fossify.notes",
+      "version_code": 9,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "15e69dc19bc86e6fba2e2a2d9aa92d717a49d6a2",
+      "timestamp": 1756755340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4ccca90f3e25b15d6fed23b72680329c17f57f0726e660e598b7192798ea582e": [
     {
       "repository": "https://github.com/FossifyOrg/Paint.git",
@@ -51759,6 +51955,20 @@
       "error": null
     }
   ],
+  "e9d303255c0debff686e492fa1ecc96554e5bd54c00cd8ebf690d841f1ba7116": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.7.0/phone-13-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 13,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "c91285b456664548a37f470c85433c8026765bd2",
+      "timestamp": 1756755765,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16eb7d91a305544ef92ee26b6773db3b0913aa7c9c5b75b93916fa5ee4dfaad5": [
     {
       "repository": "https://github.com/FossifyOrg/Thank-You.git",
@@ -51825,6 +52035,20 @@
       "tag": "1.1.1",
       "commit": "11dc4091253f11618648f724ef154a0f191a982b",
       "timestamp": 1754663112,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "10985cedf51172d4664c7ea2a00220fa8bb1cc65a648feb29d30f71b0cda6732": [
+    {
+      "repository": "https://github.com/FossifyOrg/Thank-You.git",
+      "apk_url": "https://github.com/FossifyOrg/Thank-You/releases/download/1.1.2/thankyou-8-foss-release.apk",
+      "appid": "org.fossify.thankyou",
+      "version_code": 8,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "7476c227d6687e5d1c505742512fb19b4594a3ae",
+      "timestamp": 1756756141,
       "reproducible": true,
       "error": null
     }
@@ -51937,6 +52161,20 @@
       "tag": "1.3.5",
       "commit": "77f47a917088536afa93eb07b02e4bfb4d179b4a",
       "timestamp": 1756308196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd0a321908464b0ac76477a93da36bb59da07457509aee0e3778bfd0f1d681c0": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.4.0/voicerecorder-13-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 13,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "2efb999bc859525d9c1688323e4a3b3a89034dee",
+      "timestamp": 1756741709,
       "reproducible": true,
       "error": null
     }
