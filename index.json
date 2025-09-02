@@ -37233,6 +37233,20 @@
       "error": null
     }
   ],
+  "1ca151a0def046b2a3792e3d93fb81f5627d07a77f220577902c95c59cd52f1e": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v1.3.0/PublicArtExplorer-1.3.0.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 41,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "64c4bc7e92b5b5e8da91368a63fb11de6d98086d",
+      "timestamp": 1756844108,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -50061,6 +50075,20 @@
       "tag": "v6.0.8-beta",
       "commit": "ed28ad08e83b43911801b8ecdb6ad085326859e8",
       "timestamp": 1756321169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2c4123ef861c6ac6bfaef027e210725282b16e45e687470ba329b9d1a2f189ea": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.0.10-rc/breezy-weather-v6.0.10-rc_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60010,
+      "version_name": "6.0.10-rc",
+      "tag": "v6.0.10-rc",
+      "commit": "abb7610a4c8f487c51a237a7d8d5703aa86ce844",
+      "timestamp": 1756849742,
       "reproducible": true,
       "error": null
     }

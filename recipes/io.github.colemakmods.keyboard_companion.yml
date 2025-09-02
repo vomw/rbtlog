@@ -5,6 +5,7 @@ notes:
   - 'build crashes with "R8:\ java.lang.OutOfMemoryError: Java heap space", so we add -Dorg.gradle.jvmargs=-Xmx2048m to give it more space'
   - upstream uses gradle with unknown hash, so we better pull our own
   - some of the keyboard layout definitions use DOS line-breaks, others Unix line-breaks
+  - 'FIXME change gradle options to -Xmx3g -Dkotlin.daemon.jvm.options=-Xmx2g'
 versions:
   - tag: '1.08'
     apks:
