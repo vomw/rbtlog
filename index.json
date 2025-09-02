@@ -1959,6 +1959,20 @@
       "error": null
     }
   ],
+  "d2c16a0cff9bccddc2026430e376ded4afde9ddf7576b1e87d240b5d6873e299": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.2.5/flicky-3.2.5-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 431,
+      "version_name": "3.2.5",
+      "tag": "3.2.5",
+      "commit": "3f2b83bafe9be7ec0795e865bde8f02392cb119a",
+      "timestamp": 1756821786,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -2055,6 +2069,20 @@
       "timestamp": 1751550560,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "eece7b713b2b0b3d172841a18e2cfad4b34199457adec9e759a00e90be12e46c": [
+    {
+      "repository": "https://github.com/gezimos/inkOS.git",
+      "apk_url": "https://github.com/gezimos/inkOS/releases/download/v0.2/app.inkos_v0.2-Signed.apk",
+      "appid": "app.inkos",
+      "version_code": 101001,
+      "version_name": "0.2",
+      "tag": "v0.2",
+      "commit": "2f936a78d96446e493507ada4ac512cf6690d88c",
+      "timestamp": 1756837299,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp41icj8fa/outputs:/outputs', '--volume', '/tmp/tmp41icj8fa/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/gezimos/inkOS.git', '--env', 'APP_TAG=v0.2', '--env', 'APP_COMMIT=2f936a78d96446e493507ada4ac512cf6690d88c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
@@ -10187,6 +10215,20 @@
       "tag": "2025.09.1162-dev",
       "commit": "580a1a3faff7be8e9b0ac1aceb55f96473794adb",
       "timestamp": 1756735773,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a5e0e9ca5854ff39c0d116c59dbd423d32624070015bf3be29c5bd58fdda4e5b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1163-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1163,
+      "version_name": "2025.09.1163-dev",
+      "tag": "2025.09.1163-dev",
+      "commit": "7f46654262ed682408b655de8456c5634b56a68a",
+      "timestamp": 1756822753,
       "reproducible": true,
       "error": null
     }
@@ -24657,6 +24699,20 @@
       "error": null
     }
   ],
+  "cc84fe041fb7d27252943888e8664f36fbc968c3090eb388ce71566770d3ac04": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.20/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 39,
+      "version_name": "0.2.20",
+      "tag": "v0.2.20",
+      "commit": "e04496222b5fec4339aafe7114b3cb93cf60c1ca",
+      "timestamp": 1756837611,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmptd6lm3ra/outputs:/outputs', '--volume', '/tmp/tmptd6lm3ra/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/maxrave-dev/SimpMusic.git', '--env', 'APP_TAG=v0.2.20', '--env', 'APP_COMMIT=e04496222b5fec4339aafe7114b3cb93cf60c1ca', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
     {
       "repository": "https://github.com/meenbeese/Chronos.git",
@@ -29777,6 +29833,20 @@
       "error": null
     }
   ],
+  "478ad432b8843dc464e20dbf9e72aa2c14996c3eb08647bf17dc9dd01142792a": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.0.9/taskmanager-v1.0.9.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 10,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "ea45699cb1d10ce536bfc80b85b2aa681831b36e",
+      "timestamp": 1756823671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -32513,6 +32583,20 @@
       "tag": "4.2.0",
       "commit": "6d6e19eb243c36097635a4734b27d9ad691f7c2a",
       "timestamp": 1755801126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83cf50410ef543e9ec215766942d49b40abec2416fb48509619fb7b0f6c0589b": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/4.2.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 4210,
+      "version_name": "4.2.1",
+      "tag": "4.2.1",
+      "commit": "4835f4e9d30a1a4982edaa8f3463c526eb452773",
+      "timestamp": 1756824110,
       "reproducible": true,
       "error": null
     }
@@ -36785,6 +36869,20 @@
       "error": null
     }
   ],
+  "57a4c3a6f01952769e4df96e0c9f4b2b65383039a897396069d4ba6eac6718e1": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.4.0/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 23,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "8003a41ed4b4c62e284e8e80dd90166a5454bc47",
+      "timestamp": 1756837759,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -40503,6 +40601,20 @@
       "tag": "v1.5.10",
       "commit": "922024a353b38fe321c9b049733997a50f6c74a7",
       "timestamp": 1756393567,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e9b783c00679e5d43a48aeccf34681e5b6a022e53b7d74c954aa48aec6e2c1a9": [
+    {
+      "repository": "https://github.com/juandjara/wafrn-rn.git",
+      "apk_url": "https://github.com/juandjara/wafrn-rn/releases/download/v1.6.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10060012,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "456a5566de571c77f0f2de75686b4e7587065042",
+      "timestamp": 1756838101,
       "reproducible": true,
       "error": null
     }
@@ -45557,6 +45669,20 @@
       "error": null
     }
   ],
+  "065581e6e9af4b5fc9bf6ef271ae4fef3cb5fda8f41d67218d056741cbcc8fc6": [
+    {
+      "repository": "https://github.com/stevep99/keyboard-layout-companion.git",
+      "apk_url": "https://github.com/stevep99/keyboard-layout-companion/releases/download/1.10/companion-1.10-release.apk",
+      "appid": "io.github.colemakmods.keyboard_companion",
+      "version_code": 10,
+      "version_name": "1.10",
+      "tag": "1.10",
+      "commit": "5f84b728eca025f446121e7b9bd3c54c2a47ba9b",
+      "timestamp": 1756826290,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpify9lhun/outputs:/outputs', '--volume', '/tmp/tmpify9lhun/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/stevep99/keyboard-layout-companion.git', '--env', 'APP_TAG=1.10', '--env', 'APP_COMMIT=5f84b728eca025f446121e7b9bd3c54c2a47ba9b', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
+    }
+  ],
   "3bb9f43455487da71d59c05b077773366407bc63d600c6e8593759e54fad7a09": [
     {
       "repository": "https://github.com/deprec8/EnigmaDroid.git",
@@ -45861,6 +45987,20 @@
       "tag": "v1.17.2+95",
       "commit": "a6b4d7a9c2c6dc32473ca63130db2c48acb72a3e",
       "timestamp": 1755201702,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2283b990fdd916120763704ef2a3d4021631c34bf12c6cfaafe56cbe57cb390a": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.17.5%2B98/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2098,
+      "version_name": "1.17.5",
+      "tag": "v1.17.5+98",
+      "commit": "f7885092f03e2780be06608f766fa439d3cf6433",
+      "timestamp": 1756826454,
       "reproducible": true,
       "error": null
     }
@@ -47962,6 +48102,20 @@
       "commit": "f268101cff22abda20f15d384a6ae6d19055523c",
       "timestamp": 1755457702,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "0f650cfe81bb66f22e8ac1e13d9cda35ee5468b154a9b84195ec3749b95a6444": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.7.1/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 116,
+      "version_name": "1.7.1-izzy",
+      "tag": "v1.7.1",
+      "commit": "9cd0ca113cc67ffc8fec12934efcac7af8ea9d66",
+      "timestamp": 1756839224,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -55649,6 +55803,20 @@
       "error": null
     }
   ],
+  "a0573f1bc053f42dc42eeea20468d599b113f6091205003c2a68697c03b9c688": [
+    {
+      "repository": "https://github.com/Abrynos/ShoppingList.git",
+      "apk_url": "https://github.com/Abrynos/ShoppingList/releases/download/v1.19.0/app-release.apk",
+      "appid": "pl.edu.pjwstk.s999844.shoppinglist",
+      "version_code": 21,
+      "version_name": "v1.19.0",
+      "tag": "v1.19.0",
+      "commit": "c630edd0f6faa48fc55d4e9e08c19c4167e4c5ef",
+      "timestamp": 1756839787,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "653969dc5703b1cca0c1c4e218f35e4bcde477e203e875eaeebd14e95736052b": [
     {
       "repository": "https://github.com/Lambada10/SongSync.git",
@@ -57942,6 +58110,20 @@
       "commit": "cfea518ce0dd035166dc4e737f3b8f343afd74e2",
       "timestamp": 1756579161,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "310935c2272646821404aaaababd112b2fa60874ff7f1f8697a02aaa786affdb": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.1.1/aucards-2.1.1.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 11,
+      "version_name": "2.1.1",
+      "tag": "2.1.1",
+      "commit": "41087a9c395400722b2327531cbb88b7df858ef2",
+      "timestamp": 1756827849,
+      "reproducible": true,
       "error": null
     }
   ],
