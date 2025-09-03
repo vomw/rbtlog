@@ -3,6 +3,7 @@ repository: https://github.com/juandjara/wafrn-rn.git
 updates: releases
 notes:
   - "sed -r '/signingConfigs.(debug|release)/d' -i android/app/build.gradle # unfortunately does not work out, versionCode then isn't handled correctly"
+  - 'FIXME swtich to Codeberg after 1.6.1'
 labels:
   - expo
 versions:

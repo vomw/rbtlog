@@ -2257,3 +2257,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.1.3.9v115
+    apks:
+      - apk_pattern: PuppyGit_.*_release\.apk
+        apk_url: https://github.com/catpuppyapp/PuppyGit/releases/download/$$TAG$$/PuppyGit_$$TAG$$_release.apk
+        build:
+          - pushd lib_build_scripts
+          - bash 1_installrequire.sh
+          - bash 2_downloadsrc.sh
+          - bash 3_buildlibs.sh ${BUILD_REPO_DIR}/app/src/main/jniLibs
+          - popd
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -Dorg.gradle.jvmargs=-Xmx3072m
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/PuppyGit/PuppyGit
+        build_timeout: 50
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake: 3.31.1
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+            - make
+            - tar
+            - maven
+            - unzip
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
