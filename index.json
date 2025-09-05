@@ -1987,6 +1987,20 @@
       "error": null
     }
   ],
+  "f14f33e704b8c40f77d4346cd0d9a2657e3cc26004ef76050755560b261485b5": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.3.2/flicky-3.3.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 471,
+      "version_name": "3.3.2",
+      "tag": "3.3.2",
+      "commit": "3ce5a6b3363631ba85cd679361198a636d90909b",
+      "timestamp": 1757081247,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -2067,6 +2081,20 @@
       "tag": "3.0.2",
       "commit": "fc1797a124a3cfbbb812fa11458bd9e9791517a8",
       "timestamp": 1756649369,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a365c305a7780e27485d4e1b36c86ee5d16fe89d8384186c25593886e71d6a78": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.1.1/fluffy-3.1.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 411,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "e300349debc549237df1855a85353c14101a84ad",
+      "timestamp": 1757081694,
       "reproducible": true,
       "error": null
     }
@@ -2333,6 +2361,20 @@
       "tag": "1.10.9.1",
       "commit": "069cf069621422be8850c59721b93d1f13d30d60",
       "timestamp": 1756929129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "add4ab589673a66b2694da76301948c0b079d1d0c478adca2b64cd67c1364a52": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.10.9.2/MultiLauncher-1.10.9.2-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1100902,
+      "version_name": "1.10.9.2",
+      "tag": "1.10.9.2",
+      "commit": "4c645e58e7ade160e9bbaa117fbf0f7f2fdbcb26",
+      "timestamp": 1757096500,
       "reproducible": true,
       "error": null
     }
@@ -13607,6 +13649,20 @@
       "error": null
     }
   ],
+  "c2609eb4d1856fec0a5b5b04f56b058d692c5b1c2d4e44cd82ee86eff2bc3165": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.37/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 37,
+      "version_name": "0.0.37",
+      "tag": "0.0.37",
+      "commit": "bac9dae242b6020813cfa299da3adf96b8d64ad8",
+      "timestamp": 1757097288,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -22853,6 +22909,20 @@
       "error": null
     }
   ],
+  "6ab89e82a2bd153851403e70f9a9f46b96fc6e59d018679c0ca57f3138585130": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.6.0/Arru-2.6.0.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 50,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "d4c059cda2e8b4f9f8ad48d178ab1abfd74937b5",
+      "timestamp": 1757082563,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -25833,6 +25903,20 @@
       "error": null
     }
   ],
+  "c4e64c611f5a1d2ba450b9927ab8f0c43d5418b2d5ca1e20784de99ca1a9c6f9": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.19.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 53,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "c9f27897b3e6f860c9bcf074b00852f3fb5f85c6",
+      "timestamp": 1757083061,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -26024,6 +26108,20 @@
       "commit": "25739c7da4afada66d99335d210855e184f154fd",
       "timestamp": 1755023727,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "64ead436e23ea0ef7fec7c2e1d6cd59b42d314c7c3b930c23aec3aad51cd6e70": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.11/MBCompass_v1.1.11_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 12,
+      "version_name": "1.1.11",
+      "tag": "v1.1.11",
+      "commit": "541a06ed9baf170163a1d30bc4632e69f71e353d",
+      "timestamp": 1757084599,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -31995,6 +32093,20 @@
       "tag": "4.3.3",
       "commit": "0247416019c929bddec0f26137c11970ec4f0e49",
       "timestamp": 1756478795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c6582c5a6775c87eebb6f02b155ac506660ea98bab27d8410e7868f86fdbce0": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.0.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5000,
+      "version_name": "5.0.0",
+      "tag": "5.0.0",
+      "commit": "d9f07ed0d08bcaa59d4a532f0a11708b600e7d29",
+      "timestamp": 1757083807,
       "reproducible": true,
       "error": null
     }

@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Arian04/android-hid-client.git
 updates: releases
+notes:
+  - v3.0.1 fails RB due to embedded BuildIDs, see https://github.com/Arian04/android-hid-client/issues/75
 versions:
   - tag: v2.2.1
     apks:
