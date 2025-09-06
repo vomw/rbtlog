@@ -2631,6 +2631,20 @@
       "error": null
     }
   ],
+  "fb599346a1fe8b39850b8461aa429b36f7adb4b11dd5609a490244e830ba8387": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.5.1/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 151,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "9a2cf271580cc05e69009c2fa91caf536320efeb",
+      "timestamp": 1757146656,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -29087,6 +29101,20 @@
       "tag": "1.16.0",
       "commit": "e76146cf0aef80f8ba8420e53240f4ba7be427ba",
       "timestamp": 1752949284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d86632a57efaa210c73e4421cb2d63618ba636dc648945633d1edf2599c12e8": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.17.0/baba_1.17.0__arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031928,
+      "version_name": "1.17.0",
+      "tag": "1.17.0",
+      "commit": "f901ecfa040345e62e9bd0b5d05f69f13a714eb6",
+      "timestamp": 1757108893,
       "reproducible": true,
       "error": null
     }
