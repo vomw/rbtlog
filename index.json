@@ -2099,6 +2099,34 @@
       "error": null
     }
   ],
+  "6dbbf90f6e17cbe6bd28e45fdb71fd30f72975c532a4897386a2e0d05041face": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.1.2/fluffy-3.1.2-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 421,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "838864b4ed615daa0672cbfe60debab74a03c44c",
+      "timestamp": 1757167298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f653cd16cda7753415a18917df04c266cbe0bcb18d5c01f9b14888d487d8ced": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.1/fluffy-3.2.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 431,
+      "version_name": "3.2.1",
+      "tag": "3.2.1",
+      "commit": "54b919bc880831a48920b107698657100b22fba6",
+      "timestamp": 1757182884,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -4042,6 +4070,20 @@
       "commit": "644ce48f41c40d974ae2e8dfb5bba40b866a99ad",
       "timestamp": 1754590884,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca05a0762256a9f990aad9409260033cfdf19f682377abd32f2c9b24f7189c05": [
+    {
+      "repository": "https://github.com/OMGSoundboard/android-app.git",
+      "apk_url": "https://github.com/OMGSoundboard/android-app/releases/download/v19.0/OMGSoundboard_Foss_19.apk",
+      "appid": "audio.omgsoundboard",
+      "version_code": 19,
+      "version_name": "19.0",
+      "tag": "v19.0",
+      "commit": "f238da1e48d3e420139d8c4598bdf2a680ac10ae",
+      "timestamp": 1757167763,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -24099,6 +24141,20 @@
       "error": null
     }
   ],
+  "b4e8cfcd23e9e3c182736ced93e80fec3d38a7294ce1618112a3329db98c4677": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Store.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Store/releases/download/1.1.2/Neo_Store_112_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1107,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "c9ce06f56d80ef5d11d16ef2dd184aa8ce025325",
+      "timestamp": 1757168243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
     {
       "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
@@ -26931,6 +26987,20 @@
       "tag": "V0.2.10",
       "commit": "e572fa4f4ffb515e2c2ee6b906c5415ff96059e9",
       "timestamp": 1756478515,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "043bb4fae7edf11f24aafab9938b903fbb3e58134beed20ad4272043bc70e2e0": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.10/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 14,
+      "version_name": "0.3.10",
+      "tag": "V0.3.10",
+      "commit": "9f2c75b5d2dce959e1687846ef1e19b27ba87385",
+      "timestamp": 1757184327,
       "reproducible": true,
       "error": null
     }
@@ -30631,6 +30701,20 @@
       "error": null
     }
   ],
+  "28b09931e4f6f2c5354d34006a85ab2697dd0a4501d94944058ccad75401e097": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.1.8/xed-editor-v3.1.8.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 63,
+      "version_name": "3.1.8",
+      "tag": "v3.1.8",
+      "commit": "c1857c30eace85e48b37b0c1cde76bc4a91cecc4",
+      "timestamp": 1757168784,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -33553,6 +33637,20 @@
       "error": null
     }
   ],
+  "47274dd26b5a656a2ce003c3d791599a8c3663dd9401003ec8ba1b8601f1fdd2": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.6.2/CC_3.6.2.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 30602,
+      "version_name": "3.6.2",
+      "tag": "v3.6.2",
+      "commit": "e3779653ed3d636d96cbd8f7c32c833a647e21cc",
+      "timestamp": 1757169295,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -33955,6 +34053,20 @@
       "tag": "v3.0.0",
       "commit": "41c1132ea2f08d27bbb263be45a53e3580d5d0ed",
       "timestamp": 1756995513,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01c7a1cee6195dd41648db1596d6c09614c425dd2b7dba541fd83fd45c1c816c": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v3.0.1/CM_3.0.1.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 30001,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "a1a5d84b060da029fee5344bc2fb7d3643273edb",
+      "timestamp": 1757169671,
       "reproducible": true,
       "error": null
     }
@@ -38823,6 +38935,20 @@
       "tag": "v1.1.0",
       "commit": "1d7fe08155dec4688e1edb5e978e94a43e242ec1",
       "timestamp": 1753807287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "40e97ef70f974442778853726e7bda5097f77a432fccacc3afe418df7e7365ed": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.1.1/dhbw-student-app-release-v1.1.1.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 11,
+      "version_name": "v1.1.1",
+      "tag": "v1.1.1",
+      "commit": "328f645cbfe446a31b1b4e1271b8b8c80a3a83d4",
+      "timestamp": 1757172473,
       "reproducible": true,
       "error": null
     }
@@ -45233,6 +45359,20 @@
       "tag": "v3.2",
       "commit": "79726f1a9dfdf56e60ad68940c41f619a2cfc5bc",
       "timestamp": 1749737892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8bcb126dbb408e95ae3948c96e1a6d2b123b833064d56e9599c04fd938283c15": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.3/HeliBoard_3.3-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3301,
+      "version_name": "3.3",
+      "tag": "v3.3",
+      "commit": "dd694d2d47f05cc2efc9b416d9afa92f14578ade",
+      "timestamp": 1757170175,
       "reproducible": true,
       "error": null
     }
@@ -53481,6 +53621,20 @@
       "error": null
     }
   ],
+  "04693a12ada97c26d62bae9589bf1566d7600d2c784fd8817a0bccbd4a3ed7ae": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/10.0.1/10.0.1.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 1001,
+      "version_name": "10.0.1",
+      "tag": "10.0.1",
+      "commit": "b1d750b9aacce9258df3cc7aadeee51b28f65c82",
+      "timestamp": 1757170665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -58645,6 +58799,20 @@
       "error": null
     }
   ],
+  "6d26551bf640e0c7f6143b39ec86965d6a88a3f81617d47cf5509164d56c85f2": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.1.2/aucards-2.1.2.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 12,
+      "version_name": "2.1.2",
+      "tag": "2.1.2",
+      "commit": "53d51f73ea51bd1173070c7037529f1b4d15aaa2",
+      "timestamp": 1757171134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6c0f90926bcb0bf609748ff884ff9e8fb93272eaeb28c0679c834fb8b9d42b4": [
     {
       "repository": "https://github.com/calin-darie/extra-keyboard-layouts.git",
@@ -58949,6 +59117,20 @@
       "tag": "2.1.6",
       "commit": "9b4639c768a45e36a9f1d53adaf7f439db8f4997",
       "timestamp": 1755876601,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8b700426adebbdf039511a90276c501c958c0bd332dce00b335f79eb0b8d56de": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.7/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 43,
+      "version_name": "2.1.7",
+      "tag": "2.1.7",
+      "commit": "b82df67545a7c992f76cbaa2e6039214e1c39602",
+      "timestamp": 1757183483,
       "reproducible": true,
       "error": null
     }
