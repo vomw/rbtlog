@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/Theta-Limited/OpenAthenaAndroid.git
-updates: releases
+updates: disabled
 notes:
   - rm app/src/test for jars
+  - 2025-09-08 disabled as app went proprietary, and removed all releases
 versions:
   - tag: v0.22.0
     apks:

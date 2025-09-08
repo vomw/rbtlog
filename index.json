@@ -2015,6 +2015,20 @@
       "error": null
     }
   ],
+  "982f75b5dea18fb2b1e2b8c1fea8043ead1d54345cd6466e669520697344445c": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.3.5/flicky-3.3.5-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 491,
+      "version_name": "3.3.4",
+      "tag": "3.3.5",
+      "commit": "de85402eac0394c02eb0787feef167ac4102ac0a",
+      "timestamp": 1757347965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -2151,6 +2165,20 @@
       "tag": "3.2.2",
       "commit": "7a4e9437852a332d1885a6fb7c75e5b504196f9f",
       "timestamp": 1757253753,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43ab7cf7b98014a2b9e3916e1ce7547a387d3cfe17ed34167e88ff71faf07412": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.4/fluffy-3.2.4-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 451,
+      "version_name": "3.2.3",
+      "tag": "3.2.4",
+      "commit": "84853bfc11e01ceff4973d9d82fb1a8f1317310c",
+      "timestamp": 1757358022,
       "reproducible": true,
       "error": null
     }
@@ -4839,6 +4867,20 @@
       "tag": "v1.0.0",
       "commit": "a59b1ba48f4856d56bc347542149abbc9a2bf53d",
       "timestamp": 1756657942,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e627556dd5313b6c658f226f2bea6b20a0ed8a730aeaeecfccd86e991e556315": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.1.0/UmihiMusic.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 10100,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "f9a4a909460be7aaf6efc67b2d6ffafc2d23da01",
+      "timestamp": 1757341288,
       "reproducible": true,
       "error": null
     }
@@ -10471,6 +10513,20 @@
       "error": null
     }
   ],
+  "893acf86b8eb0bfa5058d82c2c1934c658f1278012efa03ac3c11ff35ffe4215": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1165-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1165,
+      "version_name": "2025.09.1165-dev",
+      "tag": "2025.09.1165-dev",
+      "commit": "63ccd0fb9ebbfe3dce4273023ead584e3711c6fe",
+      "timestamp": 1757341772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11475,6 +11531,20 @@
       "tag": "1.1.3.9v115",
       "commit": "f43eefbf548d7ef199f84f1be07b46f6e07694dd",
       "timestamp": 1756908951,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9c558c694000eff23a50535db4f70623eeda3c64d340f9b539390ead5d7a6fe8": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.0v116/PuppyGit_1.1.4.0v116_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 116,
+      "version_name": "1.1.4.0",
+      "tag": "1.1.4.0v116",
+      "commit": "8ce2803c4bd2f5611dba0d5e8479cdb8ea48297b",
+      "timestamp": 1757342325,
       "reproducible": true,
       "error": null
     }
@@ -16750,7 +16820,7 @@
       "version_name": "1.32.3",
       "tag": "v1.32.3",
       "commit": "6aab1b46c234cf6aa4083991c1d37c646380444c",
-      "timestamp": 1757318010,
+      "timestamp": 1757343396,
       "reproducible": true,
       "error": null
     }
@@ -17059,6 +17129,20 @@
       "tag": "v3.10.1",
       "commit": "9b3fa662c21aead0ce7d39c615e0ada9b13eb2e4",
       "timestamp": 1754677292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d67414cd8becefea224ecef288ae1e45ddeee34de9e299839b8b3c6c889cc47f": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.11.0/com.fibelatti.pinboard-v3.11-3110000-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3110000,
+      "version_name": "3.11",
+      "tag": "v3.11.0",
+      "commit": "df8938458c92070630c264fcc1bb7351ec74cce4",
+      "timestamp": 1757344034,
       "reproducible": true,
       "error": null
     }
@@ -21715,6 +21799,20 @@
       "tag": "v0.63",
       "commit": "8a2375c7c4bf0f707a955ed1b4805e0c4fe54c78",
       "timestamp": 1756909964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c9b37c08977c51a5682b21cc8dc5ba0a29f9205a138553da62497912e535be10": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.64/fire2kodi_v0.64.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 16,
+      "version_name": "0.64",
+      "tag": "v0.64",
+      "commit": "79ebd794d0c0b9313a4aa2de699a2a5597acda51",
+      "timestamp": 1757356763,
       "reproducible": true,
       "error": null
     }
@@ -29315,6 +29413,20 @@
       "error": null
     }
   ],
+  "e91a017a79ea11694e7bfc6ffcf42fdbbfa60eef97cc49268a2c95c151c51dfc": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.17.1/baba_1.17.1__arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031929,
+      "version_name": "1.17.1",
+      "tag": "1.17.1",
+      "commit": "64d15be2a2a82740f7ca9658ab2666420de9b4fe",
+      "timestamp": 1757349256,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -33115,6 +33227,20 @@
       "tag": "4.2.1",
       "commit": "4835f4e9d30a1a4982edaa8f3463c526eb452773",
       "timestamp": 1756824110,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3b2f4beb5adfb9ca92a146c3ec59d497a8b439dd1a6ec34b0a84923f69a10fe": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.0.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5000,
+      "version_name": "5.0.0",
+      "tag": "5.0.0",
+      "commit": "e3284366a06e15d892956414a64671c8dadabfde",
+      "timestamp": 1757345303,
       "reproducible": true,
       "error": null
     }
@@ -37499,6 +37625,20 @@
       "error": null
     }
   ],
+  "0d4faf482fec763eb41e3b9748d4d53de61c3c1dc45cb269b4649a2c1f76e266": [
+    {
+      "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
+      "apk_url": "https://github.com/zaved707/Yet-Another-Habit-Tracker/releases/download/v0.4.1/app-release.apk",
+      "appid": "com.zavedahmad.yaHabit",
+      "version_code": 24,
+      "version_name": "0.4.1",
+      "tag": "v0.4.1",
+      "commit": "a847cc5be0792e3388cddd6dac27cbaf72069b7b",
+      "timestamp": 1757345911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b29f2583d7f852e0b05adc7ed6aed060eee5c90285ddaedb70bb4c503ea34a2c": [
     {
       "repository": "https://codeberg.org/toz/MediLog.git",
@@ -41287,6 +41427,20 @@
       "tag": "v1.6.1",
       "commit": "456a5566de571c77f0f2de75686b4e7587065042",
       "timestamp": 1756838101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01bc22009fcf71aec31a4f350aec93fe949645ba4e83d74d2735bda12c0de9d8": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.6.2/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10060022,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "256faa8de3db9756328037b207bc70e8e061145f",
+      "timestamp": 1757366063,
       "reproducible": true,
       "error": null
     }
@@ -52109,6 +52263,20 @@
       "error": null
     }
   ],
+  "7ad8568fedf18aa77de8efb936de44bdfa673b87ceaf89c18ada5e194b865218": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.5.0/gallery-15-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 15,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "8acc413fbf10f25c84b00dca71f405614137653f",
+      "timestamp": 1757346504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -55491,6 +55659,20 @@
       "tag": "v0.0.2",
       "commit": "0ce1a0e98b66bbea9e1ef775421f32e4f3e083a7",
       "timestamp": 1757335196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb11e09c3fbea4ead2e69af2755de807892dfb54d871149866065db6f5627304": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.4/screenlite-web-kiosk-v0-0-4.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 4,
+      "version_name": "0.0.4",
+      "tag": "v0.0.4",
+      "commit": "b46c7e68bcb132f9fe6ecf750f46b44db5db8088",
+      "timestamp": 1757357021,
       "reproducible": true,
       "error": null
     }
@@ -59033,6 +59215,20 @@
       "tag": "2.1.2",
       "commit": "53d51f73ea51bd1173070c7037529f1b4d15aaa2",
       "timestamp": 1757171134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb4f71f844cc7a5daeb51c23b1f8dbdea506fbfa9e0ba02e54efc046512585cf": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.1.3/aucards-2.1.3.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 13,
+      "version_name": "2.1.3",
+      "tag": "2.1.3",
+      "commit": "521e79dbfc735dacf67a25b4de130b1b745c0eea",
+      "timestamp": 1757347074,
       "reproducible": true,
       "error": null
     }
