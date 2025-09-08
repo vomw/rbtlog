@@ -1,0 +1,38 @@
+---
+repository: https://github.com/aunchagaonkar/NetworkSwitch.git
+updates: releases
+versions:
+  - tag: v1.0.0
+    apks:
+      - apk_pattern: NetworkSwitch.*\.apk
+        apk_url: https://github.com/aunchagaonkar/NetworkSwitch/releases/download/v1.0.0/NetworkSwitch-v1.0.0.apk
+        build:
+          - VERSION_CODE="$(echo ${APP_TAG} | sed -e 's/v//' -e 's/\.//g')"
+          - sed -r "/signingConfigs.getByName/d ; s/versionCode = .*/versionCode = ${VERSION_CODE}/" -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

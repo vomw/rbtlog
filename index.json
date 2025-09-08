@@ -16741,6 +16741,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "5f29f1a64ff523834ace0c503293e3c25843fa1aaf9d85153e7470edfbbc91e0": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.32.3/com.fibelatti.photowidget-v1.32.3-1320300-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1320300,
+      "version_name": "1.32.3",
+      "tag": "v1.32.3",
+      "commit": "6aab1b46c234cf6aa4083991c1d37c646380444c",
+      "timestamp": 1757318010,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -34389,6 +34403,20 @@
       "tag": "v0.34",
       "commit": "eeafdf6710955a7b2bebc8fa6d1b61a8202bfc13",
       "timestamp": 1755959428,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aa7dca36ea3cb6cf6592c14c9e418135f3b4b4c717ba1aa1e92543892044a6cf": [
+    {
+      "repository": "https://github.com/aunchagaonkar/NetworkSwitch.git",
+      "apk_url": "https://github.com/aunchagaonkar/NetworkSwitch/releases/download/v1.0.0/NetworkSwitch-v1.0.0.apk",
+      "appid": "com.supernova.networkswitch",
+      "version_code": 100,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "b0511b51847a77b69022b247bb613c98ecda6ba7",
+      "timestamp": 1757339939,
       "reproducible": true,
       "error": null
     }
@@ -55449,6 +55477,20 @@
       "tag": "v0.28.0",
       "commit": "95a0e0ca39b85725f10efcba03c0fe862d312fe2",
       "timestamp": 1754061635,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bf2ae64719a8432bb1213f5ff277acbb379e84e4104720c047025d7536511520": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.2/screenlite-web-kiosk-v0-0-2.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 2,
+      "version_name": "0.0.2",
+      "tag": "v0.0.2",
+      "commit": "0ce1a0e98b66bbea9e1ef775421f32e4f3e083a7",
+      "timestamp": 1757335196,
       "reproducible": true,
       "error": null
     }
