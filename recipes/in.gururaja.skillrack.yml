@@ -1,8 +1,6 @@
 ---
-repository: https://github.com/Guru-25/SkillRack-Points-Tracker.git
-updates: disabled
-notes:
-  - 2025-03-05 updates disabled as upstream repo has disappeared
+repository: https://github.com/Guru-25/SkillTRack.git
+updates: releases
 versions:
   - tag: v1.0.6
     apks:

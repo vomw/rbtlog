@@ -2029,6 +2029,20 @@
       "error": null
     }
   ],
+  "0c065730bd62a955408b17ae424b83d69f08d8f488fbda8d6911e0d76cc45eb0": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.3.6/flicky-3.3.6-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 511,
+      "version_name": "3.3.6",
+      "tag": "3.3.6",
+      "commit": "ceb957970a8d01234f79468adedc0d6c66870a5c",
+      "timestamp": 1757426584,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -2179,6 +2193,34 @@
       "tag": "3.2.4",
       "commit": "84853bfc11e01ceff4973d9d82fb1a8f1317310c",
       "timestamp": 1757358022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3f07b47438fc04fa173050cd9723923d71099c0b2dce458cf131dedb87593191": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.5/fluffy-3.2.5-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 471,
+      "version_name": "3.2.5",
+      "tag": "3.2.5",
+      "commit": "fb89e793b247ebc81284416194e5feab26d11fe5",
+      "timestamp": 1757427089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e40ffe9ca40e15225358bdc1f5669db14d9c4f2cd9db1e5deaffcc7728d7e58a": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.6/fluffy-3.2.6-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 481,
+      "version_name": "3.2.6",
+      "tag": "3.2.6",
+      "commit": "4dcfb7ba4e17e0415e61866cffd5626c75d517b6",
+      "timestamp": 1757447350,
       "reproducible": true,
       "error": null
     }
@@ -2473,6 +2515,20 @@
       "tag": "1.11.0.0",
       "commit": "a12bec03bbc21e904b26ef0cee6ba7b4577a6580",
       "timestamp": 1757269673,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a4d3e1690e3edff98854ce4f48eb3541c479dc815be004a5e559fe585a2e73a": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.0.1/MultiLauncher-1.11.0.1-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110001,
+      "version_name": "1.11.0.1",
+      "tag": "1.11.0.1",
+      "commit": "e0cd62999b4121deb276a564a05133a4d0862df9",
+      "timestamp": 1757445375,
       "reproducible": true,
       "error": null
     }
@@ -6701,6 +6757,20 @@
       "tag": "2.5.7",
       "commit": "f0c5f7f42b4dc3c7aa32b1279fc91cecae11020d",
       "timestamp": 1757270348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a83e06057b3dc925fb8cc5b9f7fa947d18accb878e947b3f4a88b576b93902cb": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.5.8/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 40,
+      "version_name": "2.5.8",
+      "tag": "2.5.8",
+      "commit": "78968429876b4c397b30bae6d08e1610d13961ce",
+      "timestamp": 1757427579,
       "reproducible": true,
       "error": null
     }
@@ -19475,6 +19545,20 @@
       "tag": "v2.6.0",
       "commit": "548a1d4d45514b7d085978ace5566bb18553f20f",
       "timestamp": 1755800910,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1c0ea45ac60864b4a894878102452aa50ad198f35d508089d79a250fb8c1649": [
+    {
+      "repository": "https://github.com/tmo1/sms-ie.git",
+      "apk_url": "https://github.com/tmo1/sms-ie/releases/download/v2.7.0/com.github.tmo1.sms_ie-v2.7.0-standard-release.apk",
+      "appid": "com.github.tmo1.sms_ie",
+      "version_code": 10112,
+      "version_name": "2.7.0-standard",
+      "tag": "v2.7.0",
+      "commit": "f1e71e481426c99ffab464b8c9d31698bc496f43",
+      "timestamp": 1757427972,
       "reproducible": true,
       "error": null
     }
@@ -34673,6 +34757,20 @@
       "error": null
     }
   ],
+  "fd74e670f4d39cd2b90dc233e34cc94c3f01a7866d70bb5c8643e83d987181f8": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v51/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 272,
+      "version_name": "51",
+      "tag": "v51",
+      "commit": "eaade710eae8cca2f5ed4fe98210532bcd5d3b48",
+      "timestamp": 1757428316,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -39261,6 +39359,20 @@
       "error": null
     }
   ],
+  "bec13b9f8f188c03c06038d7437e0aa1e21632c84db04a49454002fa0a79e004": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v.1.1.2/dhbw-student-app-release-v1.1.2.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 12,
+      "version_name": "v1.1.2",
+      "tag": "v.1.1.2",
+      "commit": "3cf72d56cc13b516d98e9175f8c856ebc8376747",
+      "timestamp": 1757428804,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf3bafe3f0bd3904e016b655129438fac8412e7e49acfedd661b6f8a0b7ee0d": [
     {
       "repository": "https://github.com/newhinton/Round-Sync.git",
@@ -39523,6 +39635,20 @@
       "tag": "v2.21.1",
       "commit": "64fa7d49bc5d4ba778d113937d2e53c38c56662a",
       "timestamp": 1756996061,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0dd4ca2c3e7d789bed6abc223473a5252debf4b232c6dfc1032737931da73c5d": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.21.2/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 203,
+      "version_name": "2.21.2",
+      "tag": "v2.21.2",
+      "commit": "dd525631f383d070ab64d398259f7a921fcce282",
+      "timestamp": 1757444775,
       "reproducible": true,
       "error": null
     }
@@ -46705,6 +46831,20 @@
       "error": null
     }
   ],
+  "2a633f58e90c3ff74f95f5e09c465583e4010aaab6d74bda080a80c66d80da04": [
+    {
+      "repository": "https://github.com/timer-machine/timer-machine-android.git",
+      "apk_url": "https://github.com/timer-machine/timer-machine-android/releases/download/7.7.0/TimeR.Machine-v7.7.0.7070000.-other-release.apk",
+      "appid": "io.github.deweyreed.timer.other",
+      "version_code": 7070000,
+      "version_name": "7.7.0",
+      "tag": "7.7.0",
+      "commit": "a90b1ba86f6f598ccd4a6c385da017bec8cc3059",
+      "timestamp": 1757435173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "af322d294b97b7ea012ffe0c23e4b68da5c5c9cc4132d6474d7d1270e9fc9a10": [
     {
       "repository": "https://github.com/DmitryTsyvtsyn/AlgoSortingAnimations.git",
@@ -47625,6 +47765,20 @@
       "tag": "v6315",
       "commit": "fa5c7bc164e12b737190d7bd774f03e212418587",
       "timestamp": 1756996556,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bae64b1f6d04173a4755a0e16656f6668ff51968831ae9e66942e5dc0afa858b": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6316/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6316,
+      "version_name": "6316",
+      "tag": "v6316",
+      "commit": "d370cc782fb98816846e0b91020d981ef8bedf8e",
+      "timestamp": 1757429942,
       "reproducible": true,
       "error": null
     }
@@ -51913,6 +52067,20 @@
       "error": null
     }
   ],
+  "663bbe344cf28648b965fd15518ef99322d36a582f4cc9979bc102c442c29574": [
+    {
+      "repository": "https://github.com/FossifyOrg/Camera.git",
+      "apk_url": "https://github.com/FossifyOrg/Camera/releases/download/1.2.0/camera-7-foss-release.apk",
+      "appid": "org.fossify.camera",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "b84c8d76f6d77485297ebbb740e9a00299bb9135",
+      "timestamp": 1757430312,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "410143c5d53106376bace38811a9559dad843b09ed0b8783c79809380a1bef0e": [
     {
       "repository": "https://github.com/FossifyOrg/Clock.git",
@@ -52109,6 +52277,20 @@
       "error": null
     }
   ],
+  "1dd6baa10bcb8d9f2224abcfe9c36a3c7e637ea7fc159c5a8d057483508218dc": [
+    {
+      "repository": "https://github.com/FossifyOrg/Contacts.git",
+      "apk_url": "https://github.com/FossifyOrg/Contacts/releases/download/1.2.5/contacts-9-foss-release.apk",
+      "appid": "org.fossify.contacts",
+      "version_code": 9,
+      "version_name": "1.2.5",
+      "tag": "1.2.5",
+      "commit": "6cfa2f9e763a3a0613f42ac43ef07d556a920c78",
+      "timestamp": 1757430713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -52273,6 +52455,20 @@
       "tag": "1.5.0",
       "commit": "8acc413fbf10f25c84b00dca71f405614137653f",
       "timestamp": 1757346504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "33b11c7cd02f15ab564346388e7cb2370a9a591ca522e9600e56a0e028db4b9b": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.5.1/gallery-16-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 16,
+      "version_name": "1.5.1",
+      "tag": "1.5.1",
+      "commit": "ebccddd27cf77b948d3e5f22e0c9a55033fe7ac6",
+      "timestamp": 1757431084,
       "reproducible": true,
       "error": null
     }
@@ -52739,6 +52935,20 @@
       "error": null
     }
   ],
+  "05b55baa94c0435b01007ab036fbe59ab0ab9e03c29646622e099c06da6b3c1f": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.3.0/messages-15-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 15,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "16126c6f09d42e3dad5007fab7419ce9d91019fc",
+      "timestamp": 1757431604,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -52805,6 +53015,20 @@
       "tag": "1.2.2",
       "commit": "dd4da6e4e07219b1c7918a95d6d716368d83d508",
       "timestamp": 1755875285,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2575929d82139b61df5aae9c982fbd6cba41158715b5b944a773cde695385f23": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.2.3/musicplayer-6-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 6,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "921f2e7c816cd64a6be0bff9cdc7d32175ea3ee4",
+      "timestamp": 1757432019,
       "reproducible": true,
       "error": null
     }
@@ -56657,6 +56881,20 @@
       "error": null
     }
   ],
+  "94bc0d00166d57389bd8e4fe09b6a0c463595118a18b62a8bda42378ae876c94": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.0.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 19,
+      "version_name": "5.0.0",
+      "tag": "v5.0.0",
+      "commit": "89891a918f79ccf914c057dc9d248e02abb9c3f7",
+      "timestamp": 1757432449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -58067,6 +58305,20 @@
       "tag": "v0.3.0",
       "commit": "719843c816687e17cf63f8f560c8e36e9494a49b",
       "timestamp": 1757255887,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24a6b97bf793595b4747b05157e3ae5e9dc6c0c24b672a065f812b129b36d8fa": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.3.0.1/flickboard-v0.3.0.1-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 101,
+      "version_name": "0.3.0.1",
+      "tag": "v0.3.0.1",
+      "commit": "34b9b213605ef351c3ea4ff13f321754b8c5a46d",
+      "timestamp": 1757432835,
       "reproducible": true,
       "error": null
     }
