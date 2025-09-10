@@ -4997,6 +4997,20 @@
       "error": null
     }
   ],
+  "67e1d77178600c1d00ae14b4503ddeefcf70c66d9d97ffcc8d03b6234dbda4c5": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.18.5/min-cal-widget-v2.18.5.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 91,
+      "version_name": "2.18.5",
+      "tag": "v2.18.5",
+      "commit": "f9efa3df9515766c2e01a31398603680f895de4b",
+      "timestamp": 1757512987,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -5919,6 +5933,20 @@
       "timestamp": 1742050040,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "d972786a5e211b4f2b14c5f718777c7646d7e06f19f4aa158856c628e4aba1bc": [
+    {
+      "repository": "https://github.com/LibChecker/LibChecker.git",
+      "apk_url": "https://github.com/LibChecker/LibChecker/releases/download/2.5.2/LibChecker-2.5.2.985368c-2441-foss-release.apk",
+      "appid": "com.absinthe.libchecker",
+      "version_code": 2441,
+      "version_name": "2.5.2.985368c",
+      "tag": "2.5.2",
+      "commit": "985368cb2843cbd3f86b1fb8f5246f708686d195",
+      "timestamp": 1757528497,
+      "reproducible": false,
+      "error": null
     }
   ],
   "29264ef6802760fdac2f2d3fa731a3321b241996c4962a54f557a4f0c12f2cf0": [
@@ -22811,6 +22839,20 @@
       "error": null
     }
   ],
+  "517134e43b463f54d5fed4b518c4dad94eb8c8cf9ca85f4b863cc5f8b2bfbe08": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.5.5/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 12,
+      "version_name": "1.5.5",
+      "tag": "v1.5.5",
+      "commit": "63c0273ba38d620f38a58244e6dda8c66ebedcf6",
+      "timestamp": 1757534734,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -26029,6 +26071,20 @@
       "error": null
     }
   ],
+  "586cca399453a62754f90ab719d9d8bd2b834f72b9c514c1ded38c5d1e82d6f1": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.4.5/SpeakThat-NoUpdater-v1.4.5.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 19,
+      "version_name": "1.4.5",
+      "tag": "v1.4.5",
+      "commit": "e9717f90b1cfac92fdeec6c7deaf9fb0d08ec7eb",
+      "timestamp": 1757513756,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -26909,6 +26965,20 @@
       "error": null
     }
   ],
+  "b8685213264bd64213c9dd652f62b1c69f8150f6235371d78c882dc324033883": [
+    {
+      "repository": "https://github.com/nikashitsa/polar-alert-android.git",
+      "apk_url": "https://github.com/nikashitsa/heart-alert-android/releases/download/v2.0.1/app-release.apk",
+      "appid": "com.nikashitsa.polar_alert_android",
+      "version_code": 77,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "64b9541c7d4d5830d9869b73f3a1e2b188894bfe",
+      "timestamp": 1757514403,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58335376cef98186b2fe4275528fd55d6304341f4f5cb6e247f5242879145108": [
     {
       "repository": "https://github.com/NimaKhajehpour/MyMood.git",
@@ -27297,6 +27367,20 @@
       "timestamp": 1757184327,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "92c99e32442d6f1eb2800340da68241302cd19bd269d777e34481b4105e1396d": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.11-Outlast/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 15,
+      "version_name": "0.3.11-Outlast",
+      "tag": "V0.3.11-Outlast",
+      "commit": "6db6552768f12cc8b3bd7ede47bbf75c77d38c10",
+      "timestamp": 1757530327,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "05d89b89548fbcd9654c3a43aeae0479a0605cf16487451628f7ae2a21d195ce": [
@@ -29059,6 +29143,20 @@
       "tag": "v0.4.1",
       "commit": "334ef525e638fe62f676bfa39ebab242ddc3e9ab",
       "timestamp": 1754763711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4155520d81464928eea1366b2ba339167b7aab9e541151ec6ba80e0b1b41f560": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.4.2/torrentsearch-v0.4.2.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 9,
+      "version_name": "0.4.2",
+      "tag": "v0.4.2",
+      "commit": "bb6040b632a28e3d486f2cb56360592f4a04668e",
+      "timestamp": 1757515086,
       "reproducible": true,
       "error": null
     }
@@ -31145,6 +31243,20 @@
       "tag": "v1.5.1",
       "commit": "b4b3dab8069f5228fa694473a03c648a6be3eb29",
       "timestamp": 1756748226,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f5eb155459c0fd43322b9a489475dd525df32f699ecb6ae28a0141f481f003f5": [
+    {
+      "repository": "https://github.com/rohankhayech/Choona.git",
+      "apk_url": "https://github.com/rohankhayech/Choona/releases/download/v1.5.2/Choona-Android-Open-v1.5.2.apk",
+      "appid": "com.rohankhayech.choona",
+      "version_code": 14,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "a03304091761b5c803be64d933fe8c3299c141a9",
+      "timestamp": 1757515503,
       "reproducible": true,
       "error": null
     }
@@ -42271,6 +42383,20 @@
       "error": null
     }
   ],
+  "412d4f1156d4bef62754a2478e085286078ad7c559c3c2d6f6c37be93eee4420": [
+    {
+      "repository": "https://github.com/florisboard/florisboard.git",
+      "apk_url": "https://github.com/florisboard/florisboard/releases/download/v0.5.1/florisboard-0.5.1-preview.apk",
+      "appid": "dev.patrickgold.florisboard.beta",
+      "version_code": 116,
+      "version_name": "0.5.1",
+      "tag": "v0.5.1",
+      "commit": "ab49fc5f2951cfe26fdc980f3ba5c4053f6a9967",
+      "timestamp": 1757518053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "619f0b5889d385ffff24901170ee84812aa106b1cc70db997debb1b38b4c14d6": [
     {
       "repository": "https://github.com/florisboard/florisboard.git",
@@ -42281,6 +42407,20 @@
       "tag": "v0.5.0",
       "commit": "0799adc19352dbfd0475b28ce9270666a474ff39",
       "timestamp": 1756505831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3966d2aa8ec97df48d22e71350302bf588d28361bd232afbaed4210012e713a": [
+    {
+      "repository": "https://github.com/florisboard/florisboard.git",
+      "apk_url": "https://github.com/florisboard/florisboard/releases/download/v0.5.1/florisboard-0.5.1-stable.apk",
+      "appid": "dev.patrickgold.florisboard",
+      "version_code": 116,
+      "version_name": "0.5.1",
+      "tag": "v0.5.1",
+      "commit": "ab49fc5f2951cfe26fdc980f3ba5c4053f6a9967",
+      "timestamp": 1757534816,
       "reproducible": true,
       "error": null
     }
@@ -55897,6 +56037,20 @@
       "tag": "v0.0.4",
       "commit": "b46c7e68bcb132f9fe6ecf750f46b44db5db8088",
       "timestamp": 1757357021,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9d620b06e67b61ee0b921a2aa08f12cfdc170cce7908f4066c56aecb525459f6": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.5/screenlite-web-kiosk-v0-0-5.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 5,
+      "version_name": "0.0.5",
+      "tag": "v0.0.5",
+      "commit": "b8218b9b1f0e0a430cb08e4df5d91311b97c2706",
+      "timestamp": 1757519395,
       "reproducible": true,
       "error": null
     }
