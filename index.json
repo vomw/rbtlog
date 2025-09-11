@@ -40675,6 +40675,20 @@
       "error": null
     }
   ],
+  "97d2467a62fe081d4b831557060b5fa7563a0af1290bc9168745401ac35217ba": [
+    {
+      "repository": "https://github.com/PaulWoitaschek/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/25.9.2/libre.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5309002,
+      "version_name": "25.9.2",
+      "tag": "25.9.2",
+      "commit": "656c3000ace268991ce902db957ca9197173c6c7",
+      "timestamp": 1757543493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -54177,6 +54191,20 @@
       "tag": "1.0",
       "commit": "ed7945a48e652c9a91f3c02210bb27486b2745ba",
       "timestamp": 1739875356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "67f8d703ed4a3d4f22c72eb442702b53ae4675c42ff48e4995855551f04e0c21": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.5.0/squeezelite-0.5.0.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 500,
+      "version_name": "0.5.0",
+      "tag": "0.5.0",
+      "commit": "02c94a5bdef2e0eb2e7fc443ffe1184a5030a422",
+      "timestamp": 1757586845,
       "reproducible": true,
       "error": null
     }

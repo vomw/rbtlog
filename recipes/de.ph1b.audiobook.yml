@@ -42,3 +42,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 25.9.2
+    apks:
+      - apk_pattern: libre\.apk
+        apk_url: https://github.com/PaulWoitaschek/Voice/releases/download/25.9.2/libre.apk
+        build:
+          - sed -r '/(play|github)SigningConfig/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/githubRelease/compileGithubReleaseArtProfile/baseline.prof
+          - PROF_SHA1=f02868e745c0f4dd734464a1f1ca2b922693f590
+          - for _ in {1..10}; do
+          - ./gradlew clean :app:assembleGithubRelease -Pvoice.includeProprietaryLibraries=false -Pvoice.versionName=$APP_TAG -Dorg.gradle.jvmargs=-Xmx2048m -D"-XX:MaxMetaspaceSize=1024m" --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - echo ./gradlew :app:assembleGithubRelease -Pvoice.includeProprietaryLibraries=false -Dorg.gradle.jvmargs=-Xmx2048m -D"-XX:MaxMetaspaceSize=1024m"
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/github/release/app-github-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
