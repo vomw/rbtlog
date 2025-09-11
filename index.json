@@ -2043,6 +2043,20 @@
       "error": null
     }
   ],
+  "f27398d1c8af2cfa0a82ec8c482c141ba32267b6990a2b133fc3db5c162bf65a": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.4.1/flicky-3.4.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 521,
+      "version_name": "3.4.1",
+      "tag": "3.4.1",
+      "commit": "46f0a957177ff552cea363b4b5fc8a0964bfd10c",
+      "timestamp": 1757614899,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -3481,6 +3495,20 @@
       "tag": "v9.2.2",
       "commit": "da9efc9d0dc105a48d0dd0d39e4fab611598af57",
       "timestamp": 1755095325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b547195c65ba75d435bfe1775c505e02ff3970d2c8c200cca42ac599aa8de8ea": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.2.4/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 924,
+      "version_name": "v9.2.4",
+      "tag": "v9.2.4",
+      "commit": "f7f5042efe1a171c1d75f80b02b8387a7b9d2e92",
+      "timestamp": 1757599555,
       "reproducible": true,
       "error": null
     }
@@ -23329,6 +23357,20 @@
       "error": null
     }
   ],
+  "a7b65dd66db86cf4c049922c7e60588555f69ca50f61c5b6b1c54ccc2dfb507a": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.7.0/Arru-2.7.0.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 51,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "6d277f5d374242f4c78dcb2665ce91bc7705e1dc",
+      "timestamp": 1757600064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -34659,6 +34701,20 @@
       "error": null
     }
   ],
+  "f74fe63bc632cffb7a437b22c59c76c22ae5955f4fc5602b3db14b9e6f2343d9": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/Myne.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/Myne/releases/download/v4.6.0/Myne-v4.6.0.apk",
+      "appid": "com.starry.myne",
+      "version_code": 460,
+      "version_name": "4.6.0",
+      "tag": "v4.6.0",
+      "commit": "467754be3a703ab457f8f01b7a55fb8dc323f179",
+      "timestamp": 1757616093,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4d5ddac73de505e650b681f05e6c4045e33763e84ef34894677a6112d6bc83e1": [
     {
       "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
@@ -39485,6 +39541,20 @@
       "error": null
     }
   ],
+  "7f88795db8263a66af1fa40c02f1e7e22eed94237b36d0210e28ed3962c490c7": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.1.3/dhbw-student-app-release-v.1.1.3.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 13,
+      "version_name": "v1.1.3",
+      "tag": "v1.1.3",
+      "commit": "c4749e92b29796ae8174fdad8e32ed8361eb6ded",
+      "timestamp": 1757600620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf3bafe3f0bd3904e016b655129438fac8412e7e49acfedd661b6f8a0b7ee0d": [
     {
       "repository": "https://github.com/newhinton/Round-Sync.git",
@@ -40685,6 +40755,20 @@
       "tag": "25.9.2",
       "commit": "656c3000ace268991ce902db957ca9197173c6c7",
       "timestamp": 1757543493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d677357d4eb04c843d088da24815ff955e263bcb9c81c94249c497c197e53196": [
+    {
+      "repository": "https://github.com/PaulWoitaschek/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/25.9.16/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5309016,
+      "version_name": "25.9.16",
+      "tag": "25.9.16",
+      "commit": "064318958ad3d34e66bfdf091b8841ceba817388",
+      "timestamp": 1757623947,
       "reproducible": true,
       "error": null
     }
@@ -55957,6 +56041,20 @@
       "error": null
     }
   ],
+  "ec48fc6739abbe199f71018b6fae6619a31c9c26362ec9757dd297d4d83a1ddf": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.2/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 23,
+      "version_name": "2.5.2",
+      "tag": "v2.5.2",
+      "commit": "a4b160ae93a9eae829e250f7cda3aadbe658ae83",
+      "timestamp": 1757601040,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ff2d42be6815e8cdae4f0a5d282afa46d043badb8bcc13a701f27d70334842a1": [
     {
       "repository": "https://github.com/TeamNewPipe/NewPipe.git",
@@ -56079,6 +56177,20 @@
       "tag": "v0.0.5",
       "commit": "b8218b9b1f0e0a430cb08e4df5d91311b97c2706",
       "timestamp": 1757519395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "db88403fd4dd14431ec53ccac1c5a5527cadb85891705c915ca47397a5a31f42": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.6/screenlite-web-kiosk-v0-0-6.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 6,
+      "version_name": "0.0.6",
+      "tag": "v0.0.6",
+      "commit": "e8f7a2eabd864b8986f1a077202f6159c314ffc8",
+      "timestamp": 1757616594,
       "reproducible": true,
       "error": null
     }
@@ -57185,6 +57297,20 @@
       "tag": "v2.0.3",
       "commit": "60a4080c9e5d515c1117857d59537ac4c3866aea",
       "timestamp": 1749478893,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d0b03d91b96421909a6281063e45f7b67ca6502fc471e7c42910a10190fec1ba": [
+    {
+      "repository": "https://weforge.xyz/partisan/Pulse.git",
+      "apk_url": "https://weforge.xyz/partisan/Pulse/releases/download/v2.1.0/app-release.apk",
+      "appid": "partisan.weforge.xyz.pulse",
+      "version_code": 18,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "aaf4da8277dcb214f9f9b042a395fb052b4f473b",
+      "timestamp": 1757618703,
       "reproducible": true,
       "error": null
     }

@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/thatsmanmeet/Tasky.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: remove the sed for versionCode again (3.0.2 was built from dirty tree with local changes)'
+  - disable updates as all releases are gone at 2025-09-11
 versions:
   - tag: v2.4.2
     apks:
