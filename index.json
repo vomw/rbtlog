@@ -2239,6 +2239,20 @@
       "error": null
     }
   ],
+  "a03d81af030e7c7253a0b9b43a18681679ec565fdba17902cfdf5cca76a27820": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.7/fluffy-3.2.7-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 491,
+      "version_name": "3.2.7",
+      "tag": "3.2.7",
+      "commit": "b96835a22a38459e8ac0f56072ef1ff727ca12cd",
+      "timestamp": 1757701295,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -6827,6 +6841,20 @@
       "tag": "2.5.8",
       "commit": "78968429876b4c397b30bae6d08e1610d13961ce",
       "timestamp": 1757427579,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de9ee7337fcf12eebcc2a3ef524116515e234277d5613d76ddede3dd51a4fd31": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/2.6.0/app-release.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 41,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "1bf24ef30d6a97b3fd42053943bbc0e8285f9fa5",
+      "timestamp": 1757685767,
       "reproducible": true,
       "error": null
     }
@@ -13043,6 +13071,20 @@
       "tag": "v0.9.3.1",
       "commit": "09d5545845dbc9e9c43507056d04e1edcaf68c88",
       "timestamp": 1755794669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d676b8f03e4600059c43752cf365ec4162cbc243831e39ba5e1ae1232070bb7c": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.9.4/OuterTune-0.9.4-core-arm64-v8a-release-68.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 68,
+      "version_name": "0.9.4",
+      "tag": "v0.9.4",
+      "commit": "56269a2d49c0dc62baa693f39fd11298b9821748",
+      "timestamp": 1757701123,
       "reproducible": true,
       "error": null
     }
@@ -23371,6 +23413,20 @@
       "error": null
     }
   ],
+  "62cd82d7ad97afd4814a3c51060312a418b648fc6e8b8e1d5de24faf13d3cb79": [
+    {
+      "repository": "https://github.com/KSSidll/Arru.git",
+      "apk_url": "https://github.com/KSSidll/Arru/releases/download/v2.7.1/Arru-2.7.1.apk",
+      "appid": "com.kssidll.arru",
+      "version_code": 52,
+      "version_name": "2.7.1",
+      "tag": "v2.7.1",
+      "commit": "958b7d586b8f7c6506b5d1c45614c6470a815262",
+      "timestamp": 1757702117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "69cba76aa67487a006f6ea43d018321af190e7ea66b1dd814fc5c475230a7e16": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -23441,6 +23497,20 @@
       "error": null
     }
   ],
+  "f1740d3ee64f7555eadcb358324a036dfb24e45050ea4832aa63d09b1406fd3b": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.8/KeePassDX-4.1.8-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 141,
+      "version_name": "4.1.8",
+      "tag": "4.1.8",
+      "commit": "84a62a32ff6c400a6415609b0e4b411a25c59fc8",
+      "timestamp": 1757702591,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -23507,6 +23577,20 @@
       "tag": "4.1.7",
       "commit": "dae5f65c0d6b370d886438be58220bd4ee009ae3",
       "timestamp": 1755958280,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "36ae248b08aac8d922eb7646dcec327cda792c4ade284e17708cef2e715e1efe": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.8/KeePassDX-4.1.8-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 141,
+      "version_name": "4.1.8",
+      "tag": "4.1.8",
+      "commit": "84a62a32ff6c400a6415609b0e4b411a25c59fc8",
+      "timestamp": 1757703040,
       "reproducible": true,
       "error": null
     }
@@ -29455,6 +29539,20 @@
       "error": null
     }
   ],
+  "49ffa960bb52876d03b29c21576becff391a59e847c7d56e07117d4ee946dc0f": [
+    {
+      "repository": "https://github.com/Raival-e/Prism-File-Explorer.git",
+      "apk_url": "https://github.com/Raival-e/Prism-File-Explorer/releases/download/v1.3.2/app-release.apk",
+      "appid": "com.raival.compose.file.explorer",
+      "version_code": 10,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "2defa43adbdb7bf217cabda618f5b42d5343b38b",
+      "timestamp": 1757686612,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d76faadbee622ac80956b7d56778f8bb09dd2e41286d6d670db7cf7a389b1540": [
     {
       "repository": "https://github.com/rajmani7584/Payload-Dumper-Android.git",
@@ -34641,6 +34739,34 @@
       "tag": "v3.9.4",
       "commit": "bc47a221e33f590d4f5b8e72f6d17d5a8ea128eb",
       "timestamp": 1750514642,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eaf54822034050b69e93f732891d2c064ded77a6ce14639d56939bdc0c48d0bd": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.0.0/GreenStash-v4.0.0.apk",
+      "appid": "com.starry.greenstash",
+      "version_code": 400,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "15852198c35344bdae4b101944c789219e19c4a3",
+      "timestamp": 1757687075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c40ea225c3764052609e74b09f10f882e6630b874d428de2e2241b5cbbc5cb8": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.0.1/GreenStash-v4.0.1.apk",
+      "appid": "com.starry.greenstash",
+      "version_code": 401,
+      "version_name": "4.0.1",
+      "tag": "v4.0.1",
+      "commit": "b9f3ae23d5d3fc57136814e388749cedbcbc2e3d",
+      "timestamp": 1757703506,
       "reproducible": true,
       "error": null
     }
@@ -40773,6 +40899,20 @@
       "error": null
     }
   ],
+  "2148f51b314116b963cd5ce0ba19d1ce6e640d83519f774e6665cc679eb295a0": [
+    {
+      "repository": "https://github.com/PaulWoitaschek/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/25.9.17-5309017/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5309017,
+      "version_name": "25.9.17",
+      "tag": "25.9.17-5309017",
+      "commit": "4a8e26583490438a0c0b54b67ed4bef13ba14a20",
+      "timestamp": 1757697041,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -41553,6 +41693,20 @@
       "tag": "v1.1.0",
       "commit": "7f4a1e7e81926f61cd5cdef9c92d6ce6e0dfbacd",
       "timestamp": 1736615350,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6d8a055cd1437534b031530e9914c07c8d7ba318df7495b1b5ca50bb24cfd2a": [
+    {
+      "repository": "https://codeberg.org/bg443/Octo.git",
+      "apk_url": "https://codeberg.org/bg443/Octo/releases/download/v1.2.0/Octo-universal-release.apk",
+      "appid": "dev.bg.octo",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "9dc9effa36c039054cdf304b4d2b5465d01f7391",
+      "timestamp": 1757704143,
       "reproducible": true,
       "error": null
     }
@@ -45191,6 +45345,20 @@
       "tag": "1.2295",
       "commit": "8ebb53c776f29c74a2c20a443addba98d222232e",
       "timestamp": 1756738394,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76ab530708ce7e99bbd175b932a3dbdcb3b4898f8c1a92727909db6050a8270c": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2296/FairEmail-v1.2296a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2296,
+      "version_name": "1.2296",
+      "tag": "1.2296",
+      "commit": "76b9ce5812600de8cb245e14a1f5b2b8b687ed4f",
+      "timestamp": 1757687722,
       "reproducible": true,
       "error": null
     }
@@ -50383,6 +50551,20 @@
       "tag": "25072502",
       "commit": "b83bcfe6f169f40d35cf7b93910c4b6b8e6c1169",
       "timestamp": 1753459151,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ad3fa7115f8d6fec0234557013e30c8ca0f50774b579fd7047457842092478c": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/GreaseMilkyway/releases/download/25091201/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 25091201,
+      "version_name": "0.7.2",
+      "tag": "25091201",
+      "commit": "f82aa00f5bf5487e779ddbcf975a2023713a9de0",
+      "timestamp": 1757688219,
       "reproducible": true,
       "error": null
     }
@@ -57903,6 +58085,20 @@
       "error": null
     }
   ],
+  "3e780d0f3817e18d9fabb82721b0a78e280be4382aea9fac065dec79c376ef92": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/134/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 134,
+      "version_name": "5.38",
+      "tag": "134",
+      "commit": "ef811fc02139dddf6161d96d9bb4ff507d8cce33",
+      "timestamp": 1757704581,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7b75ab79d472d67f5e8ee5e7d03c976d67c2f78c8b19a4dff512d4851fc15c5b": [
     {
       "repository": "https://github.com/rkkr/tiny-keyboard.git",
@@ -60223,6 +60419,20 @@
       "tag": "v0.3.2",
       "commit": "6f6bce7f73b01369626fead7dda0b57c91256f4b",
       "timestamp": 1750604468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9f47f2b40cf5e5f2dc9e99aa9da70de15d76f9e0fad7b61f4267ae8bde90a4b3": [
+    {
+      "repository": "https://codeberg.org/phileix/ddns-android.git",
+      "apk_url": "https://codeberg.org/phileix/ddns-android/releases/download/v0.3.3/ddns-updater-v0.3.3.apk",
+      "appid": "xyz.philei.ddnsupdater",
+      "version_code": 10,
+      "version_name": "0.3.3",
+      "tag": "v0.3.3",
+      "commit": "a52d70a8097ad81bba7c8b0eefc7647ee0debeda",
+      "timestamp": 1757704709,
       "reproducible": true,
       "error": null
     }
