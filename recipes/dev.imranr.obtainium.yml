@@ -585,3 +585,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.2.4
+    apks:
+      - apk_pattern: app-armeabi-v7a-release\.apk
+        apk_url: https://github.com/ImranR98/Obtainium/releases/download/v1.2.4/app-armeabi-v7a-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i android/app/build.gradle.kts
+          - sed -r '/create\("release"\) \{/,/        \}/d' -i android/app/build.gradle.kts
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - .flutter/bin/flutter config --no-analytics
+          - .flutter/bin/flutter pub get
+          - .flutter/bin/flutter build apk --release --flavor normal --split-per-abi --target-platform="android-arm"
+          - OUT=build/app/outputs/apk/normal/release/app-normal-armeabi-v7a-release-unsigned.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Obtainium/Obtainium
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
