@@ -27565,6 +27565,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "6887163fbde5f294e4c825ff14a3e03f7ad9aca95c9205ff2754b1ebd003ba14": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.12-RE7/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 16,
+      "version_name": "0.3.12-RE7",
+      "tag": "V0.3.12-RE7",
+      "commit": "daddf0ff7b2951d0c313786ca6d5fb7214badb33",
+      "timestamp": 1757844991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05d89b89548fbcd9654c3a43aeae0479a0605cf16487451628f7ae2a21d195ce": [
     {
       "repository": "https://github.com/cuadratico/NowiChat.git",
@@ -42575,6 +42589,20 @@
       "tag": "1.3.2",
       "commit": "0722a01531cefd8b86d3341626349a7d528ec2b7",
       "timestamp": 1754835679,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e96ab17dd4ee3976d278b2250f529f039683a4ca38b230f275e8172d61958e95": [
+    {
+      "repository": "https://codeberg.org/mi6e4ka/openstore.git",
+      "apk_url": "https://codeberg.org/mi6e4ka/openstore/releases/download/2.0.0/app-release.apk",
+      "appid": "dev.mi6e4ka.openstore",
+      "version_code": 4602178,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "fc7bc05504d2699bf7ffba8a4ec3d9655e0c6a4b",
+      "timestamp": 1757856622,
       "reproducible": true,
       "error": null
     }
@@ -58655,6 +58683,20 @@
       "tag": "1.3.0",
       "commit": "3dc14cbe590aab4c8aa321a695a41df01b676f45",
       "timestamp": 1721666576,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4d076bee81ceb1536e936e29e052044b0a5e0ecd061daba992359baff29b17c": [
+    {
+      "repository": "https://github.com/atomofiron/android-wifi-seeker.git",
+      "apk_url": "https://github.com/atomofiron/android-wifi-seeker/releases/download/release-2.2.0/wifi-seeker-v2.2.0.apk",
+      "appid": "ru.raslav.wirelessscan",
+      "version_code": 19,
+      "version_name": "2.2.0",
+      "tag": "release-2.2.0",
+      "commit": "eb223beb3066e38e6a1c6dfb490422ca45d63ae7",
+      "timestamp": 1757604850,
       "reproducible": true,
       "error": null
     }
