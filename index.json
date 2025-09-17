@@ -46497,6 +46497,20 @@
       "error": null
     }
   ],
+  "43f5c457b91fd3fc4ed4558c69e150ec4b7bf0b34e6460b15fee05da4d956a9f": [
+    {
+      "repository": "https://github.com/oupson/jxlviewer.git",
+      "apk_url": "https://github.com/oupson/jxlviewer/releases/download/0.5.0/app-universal-release.apk",
+      "appid": "fr.oupson.jxlviewer",
+      "version_code": 6,
+      "version_name": "0.5.0",
+      "tag": "0.5.0",
+      "commit": "e3c541dfe4a596fb61fcff2f3d491be0029c4b33",
+      "timestamp": 1758124973,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05a9833f7d31ef7e67ac977958c8e7aabd9e1c609e376dbff66a9e4c70849278": [
     {
       "repository": "https://github.com/richoux/les_sons_en_francais.git",
@@ -60223,6 +60237,20 @@
       "tag": "v1.1.6",
       "commit": "fef07a29d392580df462567c9f49bb539173f993",
       "timestamp": 1729778604,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fff408c32dbbf0396649d9abe64e6968925af74ff46608a026929ec60c1e4112": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.15.7/WebviewKiosk_v0.15.7.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 42,
+      "version_name": "0.15.7",
+      "tag": "v0.15.7",
+      "commit": "9251d010b601abc04609651dfa31691f7e0760e8",
+      "timestamp": 1758061031,
       "reproducible": true,
       "error": null
     }
