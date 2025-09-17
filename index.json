@@ -8539,6 +8539,34 @@
       "error": null
     }
   ],
+  "26cfd7e44e48132bb353bc7760769bb314b9f3900adc64975c77ef064027df58": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v15.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 46,
+      "version_name": "15.0",
+      "tag": "v15.0",
+      "commit": "81d925500b9bb72486428338578278a37028284d",
+      "timestamp": 1758116877,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8aaf0153413fa972c04af65a7ecf1146cd79eb1e3a859483810fe266576000ab": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v15.1/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 47,
+      "version_name": "15.1",
+      "tag": "v15.1",
+      "commit": "9e5cddb7080f1f9afe80edc81c02e32c503070c0",
+      "timestamp": 1758133317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebaa64f149c71dd9a14ced90ff418156032161771a1f045479dc48d37e24a2ee": [
     {
       "repository": "https://github.com/you-apps/WallYou.git",
@@ -10779,6 +10807,20 @@
       "error": null
     }
   ],
+  "4d292e2e943e14655c3e22f0612d33d5df77b4aa680964b55a311918d7908edf": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1167/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1167,
+      "version_name": "2025.09.1167",
+      "tag": "2025.09.1167",
+      "commit": "d60ded11da5f88708c42a8c2056d4a0d8b4fa313",
+      "timestamp": 1758117191,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -11797,6 +11839,20 @@
       "tag": "1.1.4.0v116",
       "commit": "8ce2803c4bd2f5611dba0d5e8479cdb8ea48297b",
       "timestamp": 1757342325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1c3048ddb6d86731835093a8bddb985e63145acd36872be256ed8a3936c95ee4": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.1v117/PuppyGit_1.1.4.1v117_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 117,
+      "version_name": "1.1.4.1",
+      "tag": "1.1.4.1v117",
+      "commit": "92454d9d630e5b83607942075c2960e77aef44dd",
+      "timestamp": 1758117622,
       "reproducible": true,
       "error": null
     }
@@ -19233,6 +19289,20 @@
       "error": null
     }
   ],
+  "6e311e374a44fc44f7738d30ea2993d282b80e90d367a07de4a566058ebfec17": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.3/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2502137,
+      "version_name": "2.18.3-Verdana-oss",
+      "tag": "2.18.3",
+      "commit": "f56c686444cea28c269a4cd21f86951c29cb3cbb",
+      "timestamp": 1758133677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -19439,6 +19509,20 @@
       "tag": "3.5.2",
       "commit": "9fcbd06394ec2ccb51a2c900effead4cf54c4926",
       "timestamp": 1753974740,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3d640d8728756f5a842600a755e17989a1fa7a2270c0d7fee03bf419ed0b55bc": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.3/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2501095,
+      "version_name": "3.5.3",
+      "tag": "3.5.3",
+      "commit": "18c3abf555743ff1a97526c7ef2355004bba5107",
+      "timestamp": 1758134191,
       "reproducible": true,
       "error": null
     }
@@ -20077,6 +20161,20 @@
       "tag": "v3.1.0",
       "commit": "9b9084f44c44e69b1fc7a15fff4847582e60cfd3",
       "timestamp": 1757261248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a2610151f78f7ed0ece2a0eab13f1a1cda3b0caeb135005a18794a8be458569": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/umer0586/DroidPad/releases/download/v3.2.0/DroidPad-v3.2.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 30,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "140bdbe81d649fd7a4b42fdb4ae91655844aa325",
+      "timestamp": 1758134376,
       "reproducible": true,
       "error": null
     }
@@ -38003,6 +38101,20 @@
       "error": null
     }
   ],
+  "7423c0d7d05e769aafbfab93d6a62157c0d640ef1f7cbd4e4d54a352625090f8": [
+    {
+      "repository": "https://github.com/YangDai2003/OpenNote-Compose.git",
+      "apk_url": "https://github.com/YangDai2003/OpenNote-Compose/releases/download/v1.6.7/app-universal-release.apk",
+      "appid": "com.yangdai.opennote",
+      "version_code": 1670,
+      "version_name": "1.6.7",
+      "tag": "v1.6.7",
+      "commit": "0c26e3c0c3400441dbc427ea2cb9eebfa0b14f60",
+      "timestamp": 1758141212,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3cfc2fe75e5f1ef8cbc797295b3fa241f0b08a3ffba0bcfc51625c97f736c67d": [
     {
       "repository": "https://github.com/yasinkacmaz/jetflix.git",
@@ -42813,6 +42925,20 @@
       "tag": "2.0.3",
       "commit": "895fd57a13912b69626e0f21038fe1e384a914c0",
       "timestamp": 1758031571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1ba10c3b5e117e2009d0c87921750708132ccd68a835654c9669be97c087652": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.0.4/Photok.2.0.4.Standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 43,
+      "version_name": "2.0.4",
+      "tag": "2.0.4",
+      "commit": "974dcaca1d8a978bd4c9757ce01be2efbd2ab764",
+      "timestamp": 1758118661,
       "reproducible": true,
       "error": null
     }
@@ -53019,6 +53145,20 @@
       "error": null
     }
   ],
+  "6967bb5c764da4d416e3118e662c20bb97d4ec5b323929fa5a53c569caea4548": [
+    {
+      "repository": "https://github.com/FossifyOrg/Camera.git",
+      "apk_url": "https://github.com/FossifyOrg/Camera/releases/download/1.3.0/camera-8-foss-release.apk",
+      "appid": "org.fossify.camera",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "b39dee733d1b6818fb83c83e9b7cb3a35dcba5a9",
+      "timestamp": 1758119003,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "410143c5d53106376bace38811a9559dad843b09ed0b8783c79809380a1bef0e": [
     {
       "repository": "https://github.com/FossifyOrg/Clock.git",
@@ -53285,6 +53425,20 @@
       "error": null
     }
   ],
+  "16bdc7037cd08d48ac5b9b83a4d63588a66f87cd9fea42061018ffcd593a2156": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.2.3/file-manager-7-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 7,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "7a5f797a2aa8b9f9f2c037627190c7f93515f025",
+      "timestamp": 1758119318,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "573adb736b5cd42629720d241aa71db36410a292341e8718f04466b487928902": [
     {
       "repository": "https://github.com/FossifyOrg/Gallery.git",
@@ -53533,6 +53687,20 @@
       "tag": "1.3.0",
       "commit": "f55145d2f25ecece062f1a989cc8e17504a046e5",
       "timestamp": 1756755046,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ad4478fc6d44a5fed8e783d7e229c26aa7a490da0d05a115a4b76f24edb6ab69": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.4.0/launcher-10-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 10,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "1c1d0360ffe33f40c35462b5566490f8fe84225f",
+      "timestamp": 1758119670,
       "reproducible": true,
       "error": null
     }
@@ -54247,6 +54415,20 @@
       "tag": "1.7.0",
       "commit": "c91285b456664548a37f470c85433c8026765bd2",
       "timestamp": 1756755765,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2873992a907d3dc2e388620ff05815a9096b0c046be70a6eb603b1306fbb8d15": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.7.1/phone-14-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 14,
+      "version_name": "1.7.1",
+      "tag": "1.7.1",
+      "commit": "353b271881f0528b5929b121c7156f21ddd2d443",
+      "timestamp": 1758119964,
       "reproducible": true,
       "error": null
     }
@@ -56933,6 +57115,20 @@
       "tag": "v0.0.7",
       "commit": "d70855a7188374e3f6df05c7d2c19fac20a5f532",
       "timestamp": 1757880517,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f269c03854179f7e552180fab37d17889a63a5486deddc1397483b9cb217ed6f": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.8/screenlite-web-kiosk-v0-0-8.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 8,
+      "version_name": "0.0.8",
+      "tag": "v0.0.8",
+      "commit": "ccab8d7b7e74817f43fc5b25777ccd3729ec31ff",
+      "timestamp": 1758120324,
       "reproducible": true,
       "error": null
     }
