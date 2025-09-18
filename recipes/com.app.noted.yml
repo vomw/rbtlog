@@ -335,3 +335,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: 2.6.0
+    apks:
+      - apk_pattern: noted-arm64-v8a\.apk
+        apk_url: https://github.com/3slam11/noted/releases/download/2.6.0/noted-arm64-v8a.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /keyProperties/d ; /create\("release"\) \{/,/        \}/d' -i android/app/build.gradle.kts
+          - base64 -d > .env <<< REVGQVVMVF9HT09HTEVfQk9PS1NfQVBJX0tFWT1BSXphU3lCQ3lQYlF3M2gyaFdlRU5CSU5uM3UxY3M0QjdUR0k2MWMKREVGQVVMVF9SQVdHX0FQSV9LRVk9YzVmZjYzYjA5OTJiNDBkNDgzNmFiYWI2NWVkMmFmZDcKREVGQVVMVF9UTURCX0FQSV9LRVk9ODExM2Q5ZTc0YWRhNmNjODE4MDEzZGIzNDZlNzVjNGEK
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/noted/noted
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

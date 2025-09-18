@@ -2589,6 +2589,20 @@
       "error": null
     }
   ],
+  "47a55e3396487df52529ece19b3aa89915bfc40b840b38986adae071ca3d23b5": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.1.1/MultiLauncher-1.11.1.1-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110101,
+      "version_name": "1.11.1.1",
+      "tag": "1.11.1.1",
+      "commit": "69213b449dc991e31ce8dda81926f92791ed636b",
+      "timestamp": 1758203276,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -7671,6 +7685,20 @@
       "error": null
     }
   ],
+  "adb94c9e3522ba84d656afa51e2efcc97fa66906b9510ff8555f92e5cfa5131b": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/2.6.0/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 2018,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "fc61cadc73f65bbffc160dbf3292fe44292b1241",
+      "timestamp": 1758219702,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -8563,6 +8591,20 @@
       "tag": "v15.1",
       "commit": "9e5cddb7080f1f9afe80edc81c02e32c503070c0",
       "timestamp": 1758133317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "474d4d132252702a28680a082fc913b3971314bc3ffa542e66d140ca39573748": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v15.2/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 48,
+      "version_name": "15.2",
+      "tag": "v15.2",
+      "commit": "d4d3b90147c14077b44fa35e9ac7015aee70bf05",
+      "timestamp": 1758203624,
       "reproducible": true,
       "error": null
     }
@@ -32619,6 +32661,20 @@
       "error": null
     }
   ],
+  "b0ddf09823b50f1589253813d7525cb9c0ae6a4678d24a5980fb193b263e83b2": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v2.0.0/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 34,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "2b07f0bf43bf85b64b0cd2e12c3b45629d95bd0f",
+      "timestamp": 1758220321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -38787,6 +38843,20 @@
       "error": null
     }
   ],
+  "0b50c4aa0e0e129cd1adeb1d7806fda84049c179bac773659ac0cb6d18a941fd": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v1.4.0/app-foss-release.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 46,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "f9095ddf9fa05a8e822c04d41f5d6dbe0331e01e",
+      "timestamp": 1758223404,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -39397,6 +39467,20 @@
       "tag": "v2025082603",
       "commit": "c5db8173dec2e604df35b086bf321c6a477c0a4b",
       "timestamp": 1756205519,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ff9ef8fda68894b7d42c1a96e6f3d0cefb73de9a72bdea62fca1ca1042b30c30": [
+    {
+      "repository": "https://codeberg.org/blindcoder/hackersdietoffline.git",
+      "apk_url": "https://codeberg.org/blindcoder/hackersdietoffline/releases/download/v2025091701/HackersDiet_2025091701_signed.apk",
+      "appid": "de.anderdonau.hackersdiet",
+      "version_code": 2025091701,
+      "version_name": "2025091701",
+      "tag": "v2025091701",
+      "commit": "997798771178e27ab15aef522f6777a4c862d615",
+      "timestamp": 1758210652,
       "reproducible": true,
       "error": null
     }
@@ -40097,6 +40181,20 @@
       "tag": "v1.1.3",
       "commit": "c4749e92b29796ae8174fdad8e32ed8361eb6ded",
       "timestamp": 1757600620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c2d936743b1350cdd628960809ae8295590ade6e52e8cca3598dbcfe9894f2b7": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.1.4/app-release-v1.1.4.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 14,
+      "version_name": "v1.1.4",
+      "tag": "v1.1.4",
+      "commit": "941aa727a42856594a60004c262fb41643ccc8b4",
+      "timestamp": 1758223873,
       "reproducible": true,
       "error": null
     }
@@ -41175,6 +41273,20 @@
       "tag": "2.0.1",
       "commit": "6b88c45ef6f45043a6f064796b344d2194930ed9",
       "timestamp": 1748890093,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ef46a048ad871807f31142cf1a29b42823f34bb69879550ab82b9758c0c8a84": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.1/GlucoDataHandler_2.1.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1155,
+      "version_name": "2.1",
+      "tag": "2.1",
+      "commit": "d23a35147752a0025835b8b1adbb6a7de5c47e59",
+      "timestamp": 1758220208,
       "reproducible": true,
       "error": null
     }
@@ -42943,6 +43055,20 @@
       "error": null
     }
   ],
+  "f5fe683c09717630537cefd7cee0de9218b3a37eb965e83457e119eaea9d194d": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.0.5/Photok.2.0.5.Standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 44,
+      "version_name": "2.0.5",
+      "tag": "2.0.5",
+      "commit": "af73cd7d2e64fac81b70917ea8bf412bfe8dd9e5",
+      "timestamp": 1758204073,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -43317,6 +43443,20 @@
       "tag": "v1.1.1",
       "commit": "501214209cfe2a1b3d7923ed64c1a98f2ee33d38",
       "timestamp": 1756131385,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1985dcc6f8e6d0c231d4640214f026ac29be7bd0811886c27b66e49fd33e759d": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v1.2.0/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "ec54914c112dbab25122b9f908ea5026008b9a93",
+      "timestamp": 1758204375,
       "reproducible": true,
       "error": null
     }
@@ -45909,6 +46049,20 @@
       "error": null
     }
   ],
+  "9125a60d04537129beb5ae4fe40c5e38ca7bf76033a992ce2013f4bd6ff3b61c": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2297/FairEmail-v1.2297a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2297,
+      "version_name": "1.2297",
+      "tag": "1.2297",
+      "commit": "ccb4a7355f0f7094b1a6b37be6eadd0dcba5a3aa",
+      "timestamp": 1758220596,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -47657,6 +47811,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpify9lhun/outputs:/outputs', '--volume', '/tmp/tmpify9lhun/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/stevep99/keyboard-layout-companion.git', '--env', 'APP_TAG=1.10', '--env', 'APP_COMMIT=5f84b728eca025f446121e7b9bd3c54c2a47ba9b', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
+  "accfbae71951d844cef2fbf75ed25578c1a16b57657385e16327e1e63d973ae1": [
+    {
+      "repository": "https://github.com/stevep99/keyboard-layout-companion.git",
+      "apk_url": "https://github.com/stevep99/keyboard-layout-companion/releases/download/1.12/companion-1.12-release.apk",
+      "appid": "io.github.colemakmods.keyboard_companion",
+      "version_code": 12,
+      "version_name": "1.12",
+      "tag": "1.12",
+      "commit": "549744bf07b5cd88a718b99fe7687c29a86f04f4",
+      "timestamp": 1758213505,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpi7m19oxq/outputs:/outputs', '--volume', '/tmp/tmpi7m19oxq/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/stevep99/keyboard-layout-companion.git', '--env', 'APP_TAG=1.12', '--env', 'APP_COMMIT=549744bf07b5cd88a718b99fe7687c29a86f04f4', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "3bb9f43455487da71d59c05b077773366407bc63d600c6e8593759e54fad7a09": [
     {
       "repository": "https://github.com/deprec8/EnigmaDroid.git",
@@ -48003,6 +48171,20 @@
       "tag": "v1.17.5+98",
       "commit": "f7885092f03e2780be06608f766fa439d3cf6433",
       "timestamp": 1756826454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "856b0e0262eb5607119f2eff725cf6e3f185fefdb3f6f6221eaea2304373946f": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.17.8%2B100/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2100,
+      "version_name": "1.17.8",
+      "tag": "v1.17.8+100",
+      "commit": "2ad65c641435370ac0d2577687334b26b48223bc",
+      "timestamp": 1758204585,
       "reproducible": true,
       "error": null
     }
@@ -50201,6 +50383,20 @@
       "tag": "v1.7.2",
       "commit": "0d7f183a6f2fe7949d9eb1ce8c3fe6affd5dd4f3",
       "timestamp": 1757879604,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f118a2dbbfefce2d108b5e5444e5e1023b794104c02c3d8d4b7c0241aa3f3eb": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.7.2-r2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 119,
+      "version_name": "1.7.2-r2-izzy",
+      "tag": "v1.7.2-r2",
+      "commit": "34cd41f83adc636a21bc2cbe603e7ab241daf621",
+      "timestamp": 1758205174,
       "reproducible": true,
       "error": null
     }
@@ -56267,6 +56463,20 @@
       "error": null
     }
   ],
+  "a4c4b45c9e47d710555d9f359a71502c9a5b79a882ec7bc003c7476c362f0346": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Smither.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Smither/releases/download/3.6.3/app-release.apk",
+      "appid": "org.nuclearfog.smither",
+      "version_code": 119,
+      "version_name": "3.6.3",
+      "tag": "3.6.3",
+      "commit": "fe9e383cf9cd77b09ba77b4e1c36d1af01c81f0a",
+      "timestamp": 1758221106,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -57129,6 +57339,20 @@
       "tag": "v0.0.8",
       "commit": "ccab8d7b7e74817f43fc5b25777ccd3729ec31ff",
       "timestamp": 1758120324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "578260f2f2ed40d1516f890ebf2ff116d4d6f242bd0b40fbfedcc3bf90e8bff8": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.9/screenlite-web-kiosk-v0-0-9.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 9,
+      "version_name": "0.0.9",
+      "tag": "v0.0.9",
+      "commit": "6a1ce27231c6348ccc66337f9abc97e8d5d8d999",
+      "timestamp": 1758221742,
       "reproducible": true,
       "error": null
     }
