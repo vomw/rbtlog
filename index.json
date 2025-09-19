@@ -21635,6 +21635,20 @@
       "error": null
     }
   ],
+  "5ae7fda0141d70e2559e6c6f05e8897719618077f7614271ac40ed311518c8e1": [
+    {
+      "repository": "https://github.com/madeofpendletonwool/PinePods.git",
+      "apk_url": "https://github.com/madeofpendletonwool/PinePods/releases/download/0.8.0/pinepods-arm64-0.8.0.apk",
+      "appid": "com.gooseberrydevelopment.pinepods",
+      "version_code": 20254193,
+      "version_name": "0.8.0",
+      "tag": "0.8.0",
+      "commit": "08d5ccb0c608ecfe6d5d1c5c172a28d71b9a6261",
+      "timestamp": 1758317489,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5cabb17375091e2ad47c5d92b2d6c96a37e5fe441ea374b0b4755a06ed481d83": [
     {
       "repository": "https://github.com/grmasa/Sound-Toggle.git",
@@ -43976,6 +43990,20 @@
       "commit": "9d2057c3a01659d77c176ba016eae1e37867ab41",
       "timestamp": 1758230900,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d5c3dd1826214f3805bde520369363a28ad378e2b7d567b79a7372614ac4871": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.1.1-beta/SimpleTag_v0.1.1-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 2,
+      "version_name": "0.1.1-beta",
+      "tag": "v0.1.1-beta",
+      "commit": "6aa997718092462fd5ae46aa6d2b93e000495f1b",
+      "timestamp": 1758306133,
+      "reproducible": false,
       "error": null
     }
   ],
