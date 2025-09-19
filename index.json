@@ -2603,6 +2603,20 @@
       "error": null
     }
   ],
+  "00e454221c3dc26b64921eed0e0f16c2e0ded949aeb858d0961927eaf8a15307": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.1.2/MultiLauncher-1.11.1.2-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110102,
+      "version_name": "1.11.1.2",
+      "tag": "1.11.1.2",
+      "commit": "8cd52839cf2d8e68980649c79e0a331b4a052e59",
+      "timestamp": 1758289671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -5049,6 +5063,20 @@
       "tag": "v1.1.0",
       "commit": "f9a4a909460be7aaf6efc67b2d6ffafc2d23da01",
       "timestamp": 1757341288,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "acb235f28f1d63b13c8c97cac3960b0d4b02eac714f58b5d0ddc35701c8fe89c": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.2.0/UmihiMusic.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 10200,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "39b2291597694eec4c9c326807b2cd418afaa595",
+      "timestamp": 1758289999,
       "reproducible": true,
       "error": null
     }
@@ -18361,6 +18389,20 @@
       "tag": "v1.18.2",
       "commit": "f516ccbe7e1a88dd4ff7bd83f63c57fd80e252ff",
       "timestamp": 1756045536,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "88e4a07acd7a8ade7aab6b015631541becf7454872f2503e7604b8557ec34bdd": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.19.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 132,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "14a84d49558af1eb68ee7faf4dc3f761f4fef9f9",
+      "timestamp": 1758290322,
       "reproducible": true,
       "error": null
     }
@@ -36759,6 +36801,34 @@
       "error": null
     }
   ],
+  "a8f83167b9b7dadb1687f90ab8d69cac9df643e7d77c5484e6866062b30a65fd": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.16.1/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31601,
+      "version_name": "3.16.1",
+      "tag": "v3.16.1",
+      "commit": "646f16f1e3f378528a5e3dae80a9cf4e3e54ef5d",
+      "timestamp": 1758290588,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f2994a851578abeedc8953be3d24ff82b5cc881198551d06c21e7b06386d320": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.16.1/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31601,
+      "version_name": "3.16.1",
+      "tag": "v3.16.1",
+      "commit": "646f16f1e3f378528a5e3dae80a9cf4e3e54ef5d",
+      "timestamp": 1758290729,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -43475,6 +43545,20 @@
       "error": null
     }
   ],
+  "84fea65a288b7d5c1c856da3aac01046cc26fec489637265a0077f1ab59dfefd": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v1.2.1/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 8,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "319533d5e193ddfef07a149ecf930064e43f3578",
+      "timestamp": 1758290880,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b81174deddede1defe8b8f412e8f0c6bb225cddd15c4cf0253628c5c8f1ac1da": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -48673,6 +48757,20 @@
       "tag": "v3.1.0",
       "commit": "7d732c7782285481eaafdb06bc285397b33e9be4",
       "timestamp": 1730573937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a70a96120c4b6d3f5936e24ae458c6b514e561123808158c7df972100df252f3": [
+    {
+      "repository": "https://github.com/Tommy-Geenexus/usb-dongle-control.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/usb-dongle-control/releases/download/v3.2.0/app-release.apk",
+      "appid": "io.github.tommygeenexus.usbdonglecontrol",
+      "version_code": 8,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "ab95366f261dc4394a4fdae854fb087abc22eedb",
+      "timestamp": 1758308889,
       "reproducible": true,
       "error": null
     }
@@ -59133,6 +59231,20 @@
       "error": null
     }
   ],
+  "22964671eb47b5590fe8645e67719bb9cdfed8ad8fde075a2c01f4703c94ef43": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/136/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 136,
+      "version_name": "5.40",
+      "tag": "136",
+      "commit": "d6081199a83959fea4db7fe970867573e7a2fe6e",
+      "timestamp": 1758309293,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7b75ab79d472d67f5e8ee5e7d03c976d67c2f78c8b19a4dff512d4851fc15c5b": [
     {
       "repository": "https://github.com/rkkr/tiny-keyboard.git",
@@ -60711,6 +60823,20 @@
       "tag": "v0.15.7",
       "commit": "9251d010b601abc04609651dfa31691f7e0760e8",
       "timestamp": 1758061031,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3e6d9098909b62b6606aadeda25706ca88034b0d0705cba70fec78bba9d4129": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.16.0/WebviewKiosk_v0.16.0.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 43,
+      "version_name": "0.16.0",
+      "tag": "v0.16.0",
+      "commit": "cc8f50fac63f61d234ff5d6f5b55fd0a23fa6a1d",
+      "timestamp": 1758291357,
       "reproducible": true,
       "error": null
     }
