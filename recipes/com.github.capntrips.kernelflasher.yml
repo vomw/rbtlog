@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/capntrips/KernelFlasher.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo has been archived 2025-09-12, disabling updates
 versions:
   - tag: v1.0.0-alpha20
     apks:

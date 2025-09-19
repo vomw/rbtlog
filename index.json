@@ -43867,6 +43867,20 @@
       "error": null
     }
   ],
+  "7012ffe1cecd85c1a6a27e5c05af460893509391c3cc2143434ff374635291ec": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.1.0-beta/SimpleTag_0.1.0-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 1,
+      "version_name": "0.1.0-beta",
+      "tag": "v0.1.0-beta",
+      "commit": "9d2057c3a01659d77c176ba016eae1e37867ab41",
+      "timestamp": 1758230900,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "52b0062998adbd48cfb26f2daa8d5822b672be3023a241ee4fc2b3f672fd6d3c": [
     {
       "repository": "https://github.com/supershadoe/delta.git",
@@ -47823,6 +47837,18 @@
       "timestamp": 1758213505,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpi7m19oxq/outputs:/outputs', '--volume', '/tmp/tmpi7m19oxq/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/stevep99/keyboard-layout-companion.git', '--env', 'APP_TAG=1.12', '--env', 'APP_COMMIT=549744bf07b5cd88a718b99fe7687c29a86f04f4', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    },
+    {
+      "repository": "https://github.com/stevep99/keyboard-layout-companion.git",
+      "apk_url": "https://github.com/stevep99/keyboard-layout-companion/releases/download/1.12/companion-1.12-release.apk",
+      "appid": "io.github.colemakmods.keyboard_companion",
+      "version_code": 12,
+      "version_name": "1.12",
+      "tag": "1.12",
+      "commit": "549744bf07b5cd88a718b99fe7687c29a86f04f4",
+      "timestamp": 1758276873,
+      "reproducible": true,
+      "error": null
     }
   ],
   "3bb9f43455487da71d59c05b077773366407bc63d600c6e8593759e54fad7a09": [

@@ -95,9 +95,9 @@ versions:
           - OUT=app/build/outputs/apk/release/companion-*-release-unsigned.apk
           - reproducible-apk-tools/inplace-fix.py --internal --page-size 4 fix-newlines $OUT 'assets/layout/asset.keyb' 'assets/layout/colemak.keyb' 'assets/layout/dvorak.keyb' 'assets/layout/minimak8.keyb' 'assets/layout/mtgap.keyb' 'assets/layout/norman.keyb' 'assets/layout/qgmlwyfub.keyb' 'assets/layout/qwerty.keyb' 'assets/layout/qwpr.keyb' 'assets/layout/workman.keyb'
           - mv $OUT /outputs/unsigned.apk
-        build_home_dir: /build
-        build_repo_dir: /build/repo
-        build_user: build
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/keyboard-layout-companion/keyboard-layout-companion
+        build_user: runner
         provisioning:
           android_home: /opt/sdk
           build_tools:
