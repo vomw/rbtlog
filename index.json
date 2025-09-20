@@ -7587,6 +7587,20 @@
       "error": null
     }
   ],
+  "869d770dc5f98b8a9587456365b21bb959f93fde30eea1dfed8b9d6a82868f55": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.8c/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1366,
+      "version_name": "4.5.8c",
+      "tag": "v4.5.8c",
+      "commit": "71cfeed0a0fae6ee01e63763a6e70f8a82f46ca0",
+      "timestamp": 1758376063,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -8633,6 +8647,20 @@
       "tag": "v15.2",
       "commit": "d4d3b90147c14077b44fa35e9ac7015aee70bf05",
       "timestamp": 1758203624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38dbf67324d96643a3a2bce5582234bdd02c19fa021db70ad98b102a744114c4": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v15.3/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 48,
+      "version_name": "15.2",
+      "tag": "v15.3",
+      "commit": "98ae1e28bec38befd0c2689c67cd405540a7fdb8",
+      "timestamp": 1758376255,
       "reproducible": true,
       "error": null
     }
@@ -20263,6 +20291,20 @@
       "error": null
     }
   ],
+  "925bec593bf8d67d0aa71e0d11c060961c18eef31693d92d8b62eedcdbeec4c0": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.3.0/DroidPad-v3.3.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 31,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "9607885dc2fb6ace2f729591774c0486bcdddba0",
+      "timestamp": 1758392510,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -28503,6 +28545,20 @@
       "error": null
     }
   ],
+  "a097acdbcc587c2eedb07e0df72ef860b70e6ecbb982b16e93ffff22bb57bb44": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v1.3.0/app-arm64-v8a-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20063,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "27fb538bf6fa12b8b9190db7d68360e4fbc0b5af",
+      "timestamp": 1758392861,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "74f48042c4a8b642989d1f435a5c419dd8173b4d2e0bfeeee4eca6050711e226": [
     {
       "repository": "https://github.com/OmGodse/Notally.git",
@@ -29269,6 +29325,20 @@
       "tag": "release_2.8.0",
       "commit": "9101b9462423ac820c787221009d04045a2b1a81",
       "timestamp": 1751466963,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "94494b9476f3d287c5f917770e883ec0acba6abbf922e8388be191c78e2c0b00": [
+    {
+      "repository": "https://github.com/Parseus/codecinfo.git",
+      "apk_url": "https://github.com/Parseus/codecinfo/releases/download/release_2.9.0/app-standard-mobile-release.apk",
+      "appid": "com.parseus.codecinfo",
+      "version_code": 10028,
+      "version_name": "2.9.0",
+      "tag": "release_2.9.0",
+      "commit": "5861d22af1885afacde3d853a91645deb8006294",
+      "timestamp": 1758376588,
       "reproducible": true,
       "error": null
     }
@@ -37501,6 +37571,20 @@
       "error": null
     }
   ],
+  "773b35872ecbe5ad17aa52069ac4878329165fa7c274f2b739ea9980d22375f7": [
+    {
+      "repository": "https://github.com/w2sv/WiFi-Widget.git",
+      "apk_url": "https://github.com/w2sv/WiFi-Widget/releases/download/1.7.2/1.7.2.apk",
+      "appid": "com.w2sv.wifiwidget",
+      "version_code": 69,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "d8b9fa6d25d7ca85d76e9d890c7c9d57ecc90649",
+      "timestamp": 1758393441,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3497941e3ad91adddaf495c563a314739b1e8703dcebb6a7852a817543fbdb35": [
     {
       "repository": "https://github.com/watea/RadioUpnp.git",
@@ -37999,6 +38083,20 @@
       "tag": "2.0.11",
       "commit": "3dbc48f958c743b3831ae86a435d666dd5084e4b",
       "timestamp": 1755801675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1593e2888e1cc9a9511e350b72a68803ee7acbdc0f64fb65140e68b1b096c8bc": [
+    {
+      "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
+      "apk_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.12/DataBackup-2.0.12-armeabi-v7a-foss-release.apk",
+      "appid": "com.xayah.databackup.foss",
+      "version_code": 3501193,
+      "version_name": "2.0.12",
+      "tag": "2.0.12",
+      "commit": "081a48ee790e64899bebd7fc0b20ef328cc0a59b",
+      "timestamp": 1758376927,
       "reproducible": true,
       "error": null
     }
@@ -41543,6 +41641,20 @@
       "error": null
     }
   ],
+  "4b4a005beba5bc7d6a1227a68221247ec68016b9a060dbc3019d32d758f4353d": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/VoiceAudiobook/Voice/releases/download/25.9.19-5309019/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5309019,
+      "version_name": "25.9.19",
+      "tag": "25.9.19-5309019",
+      "commit": "875c126c2fccbfc4b174e272d86756c9341df52c",
+      "timestamp": 1758377454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -42407,6 +42519,20 @@
       "tag": "1.0.2+4",
       "commit": "f1c10dbf453cf2f1a8eabe8296c2010d91804da3",
       "timestamp": 1758293168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1d098299f056d8b13f54fa99359c178ff430785210adadaea19a1e5a4faa28f2": [
+    {
+      "repository": "https://github.com/chukfinley/Better-Bahn.git",
+      "apk_url": "https://github.com/chukfinley/Besser-Bahn/releases/download/1.0.2%2B5/app-arm64-v8a-release.apk",
+      "appid": "dev.chuk.betterbahn",
+      "version_code": 2005,
+      "version_name": "1.0.2",
+      "tag": "1.0.2+5",
+      "commit": "aa568c986dfd578efa0a10ea9c2400c0b6f28f42",
+      "timestamp": 1758396034,
       "reproducible": true,
       "error": null
     }
@@ -44007,6 +44133,20 @@
       "error": null
     }
   ],
+  "d6a6c26b269c60e47fb75b5f889375aa3c83afadf0000641e33b510f8b7e2dc7": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.1.2-beta/SimpleTag_v0.1.2-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 3,
+      "version_name": "0.1.2-beta",
+      "tag": "v0.1.2-beta",
+      "commit": "20c493750a92263dd21c5b28e265c205b234cd06",
+      "timestamp": 1758378019,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "52b0062998adbd48cfb26f2daa8d5822b672be3023a241ee4fc2b3f672fd6d3c": [
     {
       "repository": "https://github.com/supershadoe/delta.git",
@@ -45417,6 +45557,20 @@
       "timestamp": 1751637831,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "93498e07a91d7194b842abac5e9115cf3495d7c61414124c3ab10d68c5ca8c0b": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.1-rc0/eu.darken.sdmse-v1.5.1-rc0-10501000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10501000,
+      "version_name": "1.5.1-rc0",
+      "tag": "v1.5.1-rc0",
+      "commit": "5bf39c50d2c44567df4c7872ae19fc1cc4cc240e",
+      "timestamp": 1758378355,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpsxfteu5i/outputs:/outputs', '--volume', '/tmp/tmpsxfteu5i/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/d4rken-org/sdmaid-se.git', '--env', 'APP_TAG=v1.5.1-rc0', '--env', 'APP_COMMIT=5bf39c50d2c44567df4c7872ae19fc1cc4cc240e', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
@@ -47555,6 +47709,20 @@
       "tag": "v0.17",
       "commit": "bb46ce553418ba5cf8f2c1d8c0094e4b46aa9d17",
       "timestamp": 1752157340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3d1b50d265e8308e30d85efc383f015173067fcc9e6c5629e5431bd15f4b21b4": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/cf44f89aded026443010949555168893/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 20,
+      "version_name": "v0.20",
+      "tag": "v0.20",
+      "commit": "da709c312e39b238ef6db9aa81a04bc014edbbbb",
+      "timestamp": 1758380787,
       "reproducible": true,
       "error": null
     }
@@ -58527,6 +58695,20 @@
       "tag": "v5.1.0",
       "commit": "b5bddaed03973075cc1fbe6ececec3a0ce273385",
       "timestamp": 1758032131,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ed864a880be2a02b65944e6889d593b771d9ad6a26e3b0b56dcf11f2d63c0499": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.2.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 21,
+      "version_name": "5.2.0",
+      "tag": "v5.2.0",
+      "commit": "0ad41aba68c437aaa606fd10e53f2610f2afabdf",
+      "timestamp": 1758381566,
       "reproducible": true,
       "error": null
     }
