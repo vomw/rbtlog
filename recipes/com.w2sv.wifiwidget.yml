@@ -95,7 +95,6 @@ versions:
       - apk_pattern: \d[\d.]*(-rc.*)?\.apk
         apk_url: https://github.com/w2sv/WiFi-Widget/releases/download/1.7.2/1.7.2.apk
         build:
-          - echo git reset --soft 3c1cbf21327a768264e39dd2e7b1ced91078f28b
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/*.apk /outputs/unsigned.apk

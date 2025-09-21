@@ -20305,6 +20305,20 @@
       "error": null
     }
   ],
+  "a145bd1bbdd6fa9333ebf8ef8e93e11fbfd43e62a7cf3049f04dad05cb5805d0": [
+    {
+      "repository": "https://github.com/UmerCodez/SensaGram.git",
+      "apk_url": "https://github.com/UmerCodez/SensaGram/releases/download/v1.5.0/SensaGram-v1.5.0.apk",
+      "appid": "com.github.umer0586.sensagram",
+      "version_code": 8,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "d27e7706a76124222e227a32a7cb4688dc156c39",
+      "timestamp": 1758474253,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -27981,6 +27995,20 @@
       "tag": "V0.3.12-RE7",
       "commit": "daddf0ff7b2951d0c313786ca6d5fb7214badb33",
       "timestamp": 1757844991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42bdc7dbf3d6ed192758cf089ddce9cc40b5b49ecbbdefa55e33adff5faedbed": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.13-DeadSpace/Nothingk.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 17,
+      "version_name": "0.3.13-Dead Space",
+      "tag": "V0.3.13-DeadSpace",
+      "commit": "5189517fe3edd135bcf393301a3ef7adee13fc6b",
+      "timestamp": 1758398871,
       "reproducible": true,
       "error": null
     }
@@ -37581,6 +37609,18 @@
       "tag": "1.7.2",
       "commit": "d8b9fa6d25d7ca85d76e9d890c7c9d57ecc90649",
       "timestamp": 1758393441,
+      "reproducible": false,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/w2sv/WiFi-Widget.git",
+      "apk_url": "https://github.com/w2sv/WiFi-Widget/releases/download/1.7.2/1.7.2.apk",
+      "appid": "com.w2sv.wifiwidget",
+      "version_code": 69,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "d8b9fa6d25d7ca85d76e9d890c7c9d57ecc90649",
+      "timestamp": 1758463839,
       "reproducible": false,
       "error": null
     }
