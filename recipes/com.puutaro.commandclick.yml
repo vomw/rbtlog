@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/puutaro/CommandClick.git
 updates: releases
-notes:
-  - 'FIXME: v1.3.19 was built from different commit, follow-up releases up to 1.4.2 failed, see https://github.com/puutaro/CommandClick/issues/18 (1.4.3 was RB again with manual adjustments, so next release needs cleanup)'
 versions:
   - tag: v1.3.16
     apks:
@@ -159,6 +157,32 @@ versions:
             version: '12.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.4.4
+    apks:
+      - apk_pattern: CommandClick-.*-release\.apk
+        apk_url: https://github.com/puutaro/CommandClick/releases/download/v1.4.4/CommandClick-1.4.4-release.apk
+        build:
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless

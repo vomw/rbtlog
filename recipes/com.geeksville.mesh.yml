@@ -1061,3 +1061,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.7.0
+    apks:
+      - apk_pattern: app-fdroid-release.*\.apk
+        apk_url: https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.0/app-fdroid-release.apk
+        build:
+          - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
+          - PROF_SHA1=6d641809866d16d5310e3274195900a1a5fb019c
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/fdroid/release/app-fdroid-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

@@ -2617,6 +2617,20 @@
       "error": null
     }
   ],
+  "edb378720264558521bc2dbd42cbc7ac131aa6ddfa0c0be62de73a06710cfbd4": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.1.3/MultiLauncher-1.11.1.3-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110103,
+      "version_name": "1.11.1.3",
+      "tag": "1.11.1.3",
+      "commit": "dc9ef280efe6ace94f476140f9ee0238dce11564",
+      "timestamp": 1758478903,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -10919,6 +10933,20 @@
       "error": null
     }
   ],
+  "1c4ff68e6b7c2f0702e2fe66084fda749c294bf527ce4ff37a4930942be7c603": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1168/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1168,
+      "version_name": "2025.09.1168",
+      "tag": "2025.09.1168",
+      "commit": "1e5ed932067796a8c5dabf9fb4581f5bd3f013ce",
+      "timestamp": 1758462470,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -19009,6 +19037,20 @@
       "error": null
     }
   ],
+  "bb0439c523bd118b0ac70c688c43a7d6e7497cf859e731b1a1a37ce94336e3d6": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.0/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29305499,
+      "version_name": "2.7.0 (29305499) fdroid",
+      "tag": "v2.7.0",
+      "commit": "256555179f66f03f96eea45787127364192a0697",
+      "timestamp": 1758484066,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpc5bxj11_/outputs:/outputs', '--volume', '/tmp/tmpc5bxj11_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=v2.7.0', '--env', 'APP_COMMIT=256555179f66f03f96eea45787127364192a0697', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -22391,6 +22433,20 @@
       "error": null
     }
   ],
+  "e989e99dbc3e52b1201f7853b0c719073f1b5dfa81fc33b76c0bbdd47215bf31": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.65/fire2kodi_v0.65.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 17,
+      "version_name": "0.65",
+      "tag": "v0.65",
+      "commit": "404a81a7a90517e54e6f7f56629affc0051f25b4",
+      "timestamp": 1758462902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -23147,6 +23203,20 @@
       "error": null
     }
   ],
+  "db445140dba90ed0ee239203a0db6258b22249f9c02b47fb1f21ee34bf3f0c1d": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.0.0/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 100,
+      "version_name": "v1.0.0",
+      "tag": "v1.0.0",
+      "commit": "5256994411bb527c88c494937ea4f1048081b25c",
+      "timestamp": 1758463075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
     {
       "repository": "https://github.com/kaleedtc/Privacium.git",
@@ -23339,6 +23409,20 @@
       "tag": "v1.7.0",
       "commit": "2a7ca8f3cea14df064782662b3493dff767d08de",
       "timestamp": 1757944466,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "da084f1efa10d8867c996b77f7b1464cd9b030a29a7a1df7c7d7f15cf1a7a798": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.8.0/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 15,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "f93c4a367185c6c228f575bff2396ed896136362",
+      "timestamp": 1758479291,
       "reproducible": true,
       "error": null
     }
@@ -25637,6 +25721,20 @@
       "error": null
     }
   ],
+  "07d86c156908f9c9d2ba9122cf51f84600e0d642f97e83b3c3127ed9201cab26": [
+    {
+      "repository": "https://github.com/matan-h/Transfer.git",
+      "apk_url": "https://github.com/matan-h/Transfer/releases/download/v0.5.0/app-release.apk",
+      "appid": "com.matanh.transfer",
+      "version_code": 500,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "0102905661a737839ceb483f250a2975f39ee501",
+      "timestamp": 1758479680,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "62ba226b0b9f7921280c3256912e999d9efbf801d23fb6cd8ec4edebb6ed416b": [
     {
       "repository": "https://github.com/maxrave-dev/SimpMusic.git",
@@ -27817,6 +27915,20 @@
       "error": null
     }
   ],
+  "474ed3e402509b2e29e152becdf9ae9e69aba01c94b1cc79f1dc8b356ccc14e3": [
+    {
+      "repository": "https://github.com/Tommy-Geenexus/exif-eraser.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/exif-eraser/releases/download/v6.4.2/app-release.apk",
+      "appid": "com.none.tom.exiferaser",
+      "version_code": 42,
+      "version_name": "6.4.2",
+      "tag": "v6.4.2",
+      "commit": "13d285bfc476ef49d34c1b68976b6aeab2bdb250",
+      "timestamp": 1758463573,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bb35e45fca60414d4fa06bbf17d4cfad979034c412d01e743ba559e6d6f5299d": [
     {
       "repository": "https://github.com/cuadratico/NothingK.git",
@@ -28583,6 +28695,20 @@
       "tag": "v1.3.0",
       "commit": "27fb538bf6fa12b8b9190db7d68360e4fbc0b5af",
       "timestamp": 1758392861,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48fdab966f30cc9eb14cfce6af576dcc1ae931ee921572eac20d16dcedab8ebd": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v1.3.1/app-arm64-v8a-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20073,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "012ba834b54c4069007834f9bdd70ad3c848b259",
+      "timestamp": 1758463941,
       "reproducible": true,
       "error": null
     }
@@ -29983,6 +30109,20 @@
       "tag": "v1.4.3",
       "commit": "ffbf0185148ccb6cb34b6e4c0050ad0ec1825113",
       "timestamp": 1738264843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e660a6e60b4f085cc5668da40c76dd690d5b234f9d93568c02ce247ae9ccf1a0": [
+    {
+      "repository": "https://github.com/puutaro/CommandClick.git",
+      "apk_url": "https://github.com/puutaro/CommandClick/releases/download/v1.4.4/CommandClick-1.4.4-release.apk",
+      "appid": "com.puutaro.commandclick",
+      "version_code": 85,
+      "version_name": "1.4.4",
+      "tag": "v1.4.4",
+      "commit": "05fdd0e120810cc5b9881d5b73eb9af4bbc1d6d3",
+      "timestamp": 1758482790,
       "reproducible": true,
       "error": null
     }
@@ -39679,6 +39819,20 @@
       "error": null
     }
   ],
+  "9cc752041b5b848b4c4fb78cb383d662b0d6aa42af1c88bcf311fbe7f9a69271": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.0.4/NeoDB-You-v1.0.4.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 6,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "a346832e6e2b441dd058579ddebdcbafabc158d0",
+      "timestamp": 1758464449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c292c1eaaf2191473699ce2b40c324dc9698b65637d95f3a449fd8aae61d0f49": [
     {
       "repository": "https://codeberg.org/blindcoder/hackersdietoffline.git",
@@ -45245,6 +45399,20 @@
       "tag": "v2.18.0-rc1",
       "commit": "b02b31043b8419dd474c10d15da4756dbec210f7",
       "timestamp": 1756925746,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e4942b4a639d0bea37ddfc6d21f683e3c3bf2952ff65165e3353de3048e2e52": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v2.19.0-rc1/eu.darken.capod-v2.19.0-rc1-21900010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 21900010,
+      "version_name": "2.19.0-rc1",
+      "tag": "v2.19.0-rc1",
+      "commit": "da5af8e4b1b61c94f4673fc67032183f9495d0a3",
+      "timestamp": 1758480063,
       "reproducible": true,
       "error": null
     }
@@ -57084,6 +57252,20 @@
       "commit": "1f3238e597cbce5086091bf95070d0fb0189bf8d",
       "timestamp": 1755111982,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "376e9aba1f28c79c36eb4a607f2e27f0c56e77ecbd5314b66c4846df93915ef3": [
+    {
+      "repository": "https://github.com/ProjectSolutus/Pomozen.git",
+      "apk_url": "https://github.com/TheGandabherunda/Pomozen/releases/download/v1.2.0/app-arm64-v8a-release.apk",
+      "appid": "org.projectsolutus.pomozen",
+      "version_code": 2092,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "893ae822ec25f7a894e7afef7f686990ac71d21d",
+      "timestamp": 1758480447,
+      "reproducible": false,
       "error": null
     }
   ],
