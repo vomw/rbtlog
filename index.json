@@ -2267,6 +2267,20 @@
       "error": null
     }
   ],
+  "a1fe34090b306acd7a0132c5a7b61c03fa4099a2e8c41f24cd7f70b41ce529cc": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.8/fluffy-3.2.8-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 501,
+      "version_name": "3.2.8",
+      "tag": "3.2.8",
+      "commit": "9c6a99e1d3f924ab84ae258194a8d07de90e8e86",
+      "timestamp": 1758548891,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -8357,6 +8371,20 @@
       "error": null
     }
   ],
+  "98bfaa8ca837ba3672b109ca077870128e12d17ffe55273866cf2c31d4f3523a": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.24/Clock_2.24-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2027,
+      "version_name": "2.24",
+      "tag": "2.24",
+      "commit": "95059a63e7f94cca12237b357ee376b165fb5094",
+      "timestamp": 1758549259,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "804b274128bacd121533730c557e7e8a60660f0a2e3628d6a9bfb9592bd913c2": [
     {
       "repository": "https://github.com/BHznJNs/MotionEaseTune.git",
@@ -13645,6 +13673,20 @@
       "tag": "v2.12.3",
       "commit": "1f7f2475c1db380ee7558d30a91b30adc12de9d4",
       "timestamp": 1757254248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4196c8ccad59e6be8114aa78c5a809ceb8b1f44361b4bbad7970cf8f0ee89f9a": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.13.0/daily-you-arm64-v8a-v2.13.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20130002,
+      "version_name": "2.13.0",
+      "tag": "v2.13.0",
+      "commit": "0dcfb96b3955119a6d5e4ba00d9011542812a98d",
+      "timestamp": 1758549438,
       "reproducible": true,
       "error": null
     }
@@ -27539,6 +27581,20 @@
       "error": null
     }
   ],
+  "c9ac30613bb83854c3b05045f817a219810f8af9975c51a476e9326ca8d9cc1c": [
+    {
+      "repository": "https://github.com/gromif/AstraCrypt.git",
+      "apk_url": "https://github.com/gromif/AstraCrypt/releases/download/v2.4.0/astracrypt-2.4.0.apk",
+      "appid": "com.nevidimka655.astracrypt",
+      "version_code": 20400,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "e4d6e61c4f8b789676267bc173729e0aa57e2463",
+      "timestamp": 1758565323,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eaa1ff7e411753f77c96350090e4f47c64ec94daf7eaac484696cf6950051a55": [
     {
       "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
@@ -28443,6 +28499,20 @@
       "tag": "1.0.0",
       "commit": "4d7538920756440f6e9ed0e8705e509255dcade2",
       "timestamp": 1754906291,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "93e80ea25d415020f10a8a1b5d4ad49aa8abe571a11c3ad0a9e9819ee703018b": [
+    {
+      "repository": "https://github.com/nvllz/piggsy.git",
+      "apk_url": "https://github.com/nvllz/piggsy/releases/download/1.0.1/app-release.apk",
+      "appid": "com.nvllz.piggsy",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "1.0.1",
+      "commit": "d58315fb8ab777355a31ae188837f8e1af8264f2",
+      "timestamp": 1758550150,
       "reproducible": true,
       "error": null
     }
@@ -39023,6 +39093,20 @@
       "error": null
     }
   ],
+  "6a86f0d10593335d41c9755fca78505ebd48a5f2cc67fd665f10cd8f5ad606b8": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.6/app-foss-release.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5498,
+      "version_name": "3.3.6",
+      "tag": "v3.3.6",
+      "commit": "2783769b674b00ad8b472665bddac23906a4c849",
+      "timestamp": 1758550337,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -40029,6 +40113,20 @@
       "error": null
     }
   ],
+  "26cf0633815f880f7e51a9f438fae8b947624d21ca0eed58096d9e2daaa67e0f": [
+    {
+      "repository": "https://github.com/buttercookie42/SimbaDroid.git",
+      "apk_url": "https://github.com/buttercookie42/SimbaDroid/releases/download/0.6/de.buttercookie.simbadroid-0.6.apk",
+      "appid": "de.buttercookie.simbadroid",
+      "version_code": 8,
+      "version_name": "0.6",
+      "tag": "0.6",
+      "commit": "732780341f0fda4cf2bc9009df6d038a7370702b",
+      "timestamp": 1758550784,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e270c2daf061cc6e72e185c9c43fec6d5c804f7dbd7e9d9617700b322588c26d": [
     {
       "repository": "https://github.com/buttercookie42/Units.git",
@@ -40865,6 +40963,20 @@
       "tag": "v2.21.2",
       "commit": "dd525631f383d070ab64d398259f7a921fcce282",
       "timestamp": 1757444775,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8db150ec2b6756c2784f847e060ab275809e246d3035167cedbf80858a21c610": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.21.3/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 204,
+      "version_name": "2.21.3",
+      "tag": "v2.21.3",
+      "commit": "8d9acbe6afb0e0399b5609726ef3e6fcdce1833d",
+      "timestamp": 1758550985,
       "reproducible": true,
       "error": null
     }
@@ -42745,6 +42857,20 @@
       "error": null
     }
   ],
+  "acce988f2a667674ce763dd21561de7e170b370f4b1ee745b4ac7b406cdd226b": [
+    {
+      "repository": "https://github.com/chukfinley/Better-Bahn.git",
+      "apk_url": "https://github.com/chukfinley/Besser-Bahn/releases/download/1.0.3%2B7/app-arm64-v8a-release.apk",
+      "appid": "dev.chuk.betterbahn",
+      "version_code": 2007,
+      "version_name": "1.0.3",
+      "tag": "1.0.3+7",
+      "commit": "03580ebe3300167cf6907786c3a2caab3c03b0c3",
+      "timestamp": 1758551350,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -43203,6 +43329,20 @@
       "tag": "v1.2.4",
       "commit": "a56069e881b2963972b85b8c6bcda3a59e71b72f",
       "timestamp": 1757789744,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "94a50eb6cc9c8bf56af86bc7668ed9c0f497e8ac5dffdc2bcc6308291d52bfbd": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.2.5/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23212,
+      "version_name": "1.2.5",
+      "tag": "v1.2.5",
+      "commit": "3af185b0f8606cfe667f94f10644ae1d9c5eefd1",
+      "timestamp": 1758551669,
       "reproducible": true,
       "error": null
     }
@@ -44783,6 +44923,20 @@
       "tag": "0.8.1",
       "commit": "07ace8b2aa6a1f821a2e224845795a290a587c34",
       "timestamp": 1755528024,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ebe592b34c736361ff10730efd2f4698dc6afc84865d61e31c86c8fd7b28a4f": [
+    {
+      "repository": "https://github.com/zacharee/InstallWithOptions.git",
+      "apk_url": "https://github.com/zacharee/InstallWithOptions/releases/download/0.9.0/InstallWithOptions_0.9.0-release.apk",
+      "appid": "dev.zwander.installwithoptions",
+      "version_code": 25,
+      "version_name": "0.9.0",
+      "tag": "0.9.0",
+      "commit": "fd10b7691de37731fdd63d8fc2e4b6cc4ad25f78",
+      "timestamp": 1758552411,
       "reproducible": true,
       "error": null
     }
@@ -48727,6 +48881,20 @@
       "tag": "v1.17.8+100",
       "commit": "2ad65c641435370ac0d2577687334b26b48223bc",
       "timestamp": 1758204585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e47c98320964e473b3fa7e1b4a4d8dcd0d32e8664939785ea4b45c85ff59bbd": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.17.10%2B102/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2102,
+      "version_name": "1.17.10",
+      "tag": "v1.17.10+102",
+      "commit": "8ced412b7b122f6aacc36cbd150ac6ae61bd4b41",
+      "timestamp": 1758552625,
       "reproducible": true,
       "error": null
     }
@@ -57941,6 +58109,20 @@
       "error": null
     }
   ],
+  "7e74acd8eaafde0250f3073c5e3893495650b51867f3bab711a555608f091c6b": [
+    {
+      "repository": "https://github.com/screenlite/web-kiosk.git",
+      "apk_url": "https://github.com/screenlite/web-kiosk/releases/download/v0.0.10/screenlite-web-kiosk-v0-0-10.apk",
+      "appid": "org.screenlite.webkiosk",
+      "version_code": 9,
+      "version_name": "0.0.9",
+      "tag": "v0.0.10",
+      "commit": "b4960480c857528d85ae2965940f09f8fd825473",
+      "timestamp": 1758566530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f412f5fc31cb1e268deca4a12ebebe765d4fb4fd80cfc39c6052015b5c793708": [
     {
       "repository": "https://github.com/traccar/traccar-manager-android.git",
@@ -60237,6 +60419,20 @@
       "error": null
     }
   ],
+  "3bee4b67dea3e93fd337efd956e19f598c18874a6774d5310116f1d9dd014f99": [
+    {
+      "repository": "https://github.com/Wohlstand/ADLMIDI-Player-Java.git",
+      "apk_url": "https://github.com/Wohlstand/ADLMIDI-Player-Java/releases/download/v1.6.1/ADLMIDI-Player-android-v1.6.1.apk",
+      "appid": "ru.wohlsoft.adlmidiplayer",
+      "version_code": 1060100,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "4fa2fb57c44aed21f2217e975f803c5a5cf0e344",
+      "timestamp": 1758553241,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab03b9f97007fce3cfbd803592831c5d13df1af10fe1be7a23eac0d4994c5316": [
     {
       "repository": "https://github.com/Wohlstand/OPNMIDI-Player-Java.git",
@@ -60247,6 +60443,20 @@
       "tag": "v1.6.0",
       "commit": "c1e0b15f05760e674597e8bc384e89d3dc3d2b96",
       "timestamp": 1752287108,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "818333aaea72ffc30339ec914187bf6987b5c116c124d1b2b4e6119782321170": [
+    {
+      "repository": "https://github.com/Wohlstand/OPNMIDI-Player-Java.git",
+      "apk_url": "https://github.com/Wohlstand/OPNMIDI-Player-Java/releases/download/v1.6.1/OPNMIDI-Player-android-v1.6.1.apk",
+      "appid": "ru.wohlsoft.opnmidiplayer",
+      "version_code": 1060100,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "80d36928d5e0c7241f105e0e9ba9a105fb4c3376",
+      "timestamp": 1758553377,
       "reproducible": true,
       "error": null
     }
@@ -61297,6 +61507,20 @@
       "tag": "v0.16.0",
       "commit": "cc8f50fac63f61d234ff5d6f5b55fd0a23fa6a1d",
       "timestamp": 1758291357,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "249edba23060818309bbc952c42eab3a490040255b1294f6719a4821d3eec5bf": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.17.0/WebviewKiosk_v0.17.0.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 44,
+      "version_name": "0.17.0",
+      "tag": "v0.17.0",
+      "commit": "f18e5108e6eedb77b8c46e12c9fe0d5c0c57c8a8",
+      "timestamp": 1758553508,
       "reproducible": true,
       "error": null
     }
