@@ -12991,6 +12991,20 @@
       "error": null
     }
   ],
+  "43b6befd1fecc686ba1611bbda18896cc26d966047e788be995def569a4510f3": [
+    {
+      "repository": "https://github.com/Darkempire78/OpenCalc.git",
+      "apk_url": "https://github.com/clementwzk/OpenCalc/releases/download/v3.2.1/OpenCalc.v3.2.1.apk",
+      "appid": "com.darkempire78.opencalculator",
+      "version_code": 54,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "e80aef9452992ce46b3931edd562cae567bb7a6f",
+      "timestamp": 1758493889,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -52003,6 +52017,20 @@
       "tag": "v1.3.8",
       "commit": "e6899ed1349fdd7efd86c7208cd679b81f9efab0",
       "timestamp": 1741475866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5fa894ebbd0c59bf3ccbb5db8ba255e58b6214cec0e89ddd3e7e938307dde9bf": [
+    {
+      "repository": "https://gitlab.com/aditya1875more/Stashly.git",
+      "apk_url": "https://gitlab.com/aditya1875more/Stashly/-/raw/master/app-release-signed.apk",
+      "appid": "nodomain.aditya1875more.stashly",
+      "version_code": 9,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "d79e7c39346b0339f94cc6b032fc46ae8ed32e7b",
+      "timestamp": 1758550769,
       "reproducible": true,
       "error": null
     }
