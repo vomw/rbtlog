@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/cvzi/Lyrics.git
 updates: releases
-notes:
-  - 'FIXME: remove inplace-fix again (was needed to correct non-existing commit in vcsInfo)'
 versions:
   - tag: v7.0
     apks:
@@ -33,6 +31,38 @@ versions:
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages:
             - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v8.0
+    apks:
+      - apk_pattern: lyrics.*\.apk
+        apk_url: https://github.com/cvzi/Lyrics/releases/download/v8.0/lyrics12.apk
+        build:
+          - sed -r '/^    if \(project.hasProperty\("keystore"\)\) \{/,/^    \}$/d' -i app/build.gradle.kts
+          - base64 -d > sedo <<< c2VkIC1yICdzLyIuQVBJS0VZLiIvIlpUZWpvVF9vak9FYXNJa1Q5V3JNQmhCUU96NmVZS0s1UVVMQ01FQ21PaHZ3cWpSWjZXYnBhbUZlM2dlSG52cDMiLycgLWkgYXBwL3NyYy9tYWluL0FuZHJvaWRNYW5pZmVzdC54bWw=
+          - bash sedo
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
