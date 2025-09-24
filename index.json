@@ -1791,6 +1791,20 @@
       "error": null
     }
   ],
+  "5d86a5fe82f7416a1c9f529dfd7f465011a33d56ff08245d87a4c01411bd4a92": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.9.6/cclauncher-v9.9.6-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 860,
+      "version_name": "v9.9.6",
+      "tag": "v9.9.6",
+      "commit": "0ed6aa29b0741e92a789ec85266d40b3e0f62fd7",
+      "timestamp": 1758738106,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -2067,6 +2081,20 @@
       "tag": "3.4.5",
       "commit": "42838c3cacc0f286f000febdee43b1575e1bce55",
       "timestamp": 1757787692,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a754ce1d43c9a6d580f674a16f1c873ad498cc1b2bb1871ffaa089caae9da6bd": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.4.6/flicky-3.4.6-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 571,
+      "version_name": "3.4.6",
+      "tag": "3.4.6",
+      "commit": "e0f79c11456417939f9e830413c8964bff959c15",
+      "timestamp": 1758738426,
       "reproducible": true,
       "error": null
     }
@@ -3621,6 +3649,20 @@
       "tag": "v9.2.4",
       "commit": "f7f5042efe1a171c1d75f80b02b8387a7b9d2e92",
       "timestamp": 1757599555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dc6f6d08d8ad4bcbaed94f2804829da1dc84f63d6aad859cb597f9f06157d04d": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.2.5/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 925,
+      "version_name": "v9.2.5",
+      "tag": "v9.2.5",
+      "commit": "7d184ae5797a30b7c72b5d42044e73969d3cec15",
+      "timestamp": 1758721944,
       "reproducible": true,
       "error": null
     }
@@ -23367,6 +23409,20 @@
       "tag": "v1.0.0",
       "commit": "5256994411bb527c88c494937ea4f1048081b25c",
       "timestamp": 1758463075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1db9de3395e1a80dbca0c0f455f9529a78a33fd95081b843ea038fe6db672ba": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.1.0/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 110,
+      "version_name": "v1.1.0",
+      "tag": "v1.1.0",
+      "commit": "d1bd15bd79b4707c7d4da8a22dc676a82dad2f36",
+      "timestamp": 1758740802,
       "reproducible": true,
       "error": null
     }
@@ -43809,6 +43865,20 @@
       "error": null
     }
   ],
+  "870ce01fae270ef3981bef298d83d93b08edca2af5063429abee1008912494e9": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.1.0/Photok-2.1.0-Standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 45,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "c2b4c8a8529b7bda4f8e451bab77b1bc6d58e731",
+      "timestamp": 1758723075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -44659,6 +44729,20 @@
       "tag": "v0.1.2-beta",
       "commit": "20c493750a92263dd21c5b28e265c205b234cd06",
       "timestamp": 1758378019,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3c757aea51cab2f566485f39aa425accb204e4908c9b3ce3db483aaabca4ec02": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.1.3-beta/SimpleTag_v0.1.3-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 4,
+      "version_name": "0.1.3-beta",
+      "tag": "v0.1.3-beta",
+      "commit": "c0e87ccdeda6c63ccd46d253008a99352e5c820a",
+      "timestamp": 1758723376,
       "reproducible": true,
       "error": null
     }
@@ -48281,6 +48365,20 @@
       "tag": "v0.20",
       "commit": "da709c312e39b238ef6db9aa81a04bc014edbbbb",
       "timestamp": 1758380787,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "637f9a713abc523011a9cd036ee6c944e69ec7ff8c15cde8d4faf6aabf1c5ab7": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/8b834d94f591de3b76faea353252a396/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 22,
+      "version_name": "v0.22",
+      "tag": "v0.22",
+      "commit": "4e777f5bdedd07f27d9f74eca89b3066604a2c39",
+      "timestamp": 1758723645,
       "reproducible": true,
       "error": null
     }
@@ -62515,6 +62613,20 @@
       "tag": "2.1.7",
       "commit": "b82df67545a7c992f76cbaa2e6039214e1c39602",
       "timestamp": 1757183483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "34c4b538cf313d6415d8574e4bff66b126ef49d70c0b55135516e5b74f3ec860": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.8/app-fdroid-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 44,
+      "version_name": "2.1.8",
+      "tag": "2.1.8",
+      "commit": "5d19855fef7409e6f2f9d725d66918fe673d57e6",
+      "timestamp": 1758723793,
       "reproducible": true,
       "error": null
     }
