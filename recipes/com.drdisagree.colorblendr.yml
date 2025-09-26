@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Mahmud0808/ColorBlendr.git
 updates: releases
+notes:
+  - 'FIXME: switches to GH actions for build with v2.0.3, remove newline adjustments in recipe then'
 versions:
   - tag: v1.11.5
     apks:

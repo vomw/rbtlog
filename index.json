@@ -49851,6 +49851,20 @@
       "error": null
     }
   ],
+  "2b361c4608199265504c0edf925a27838335003ada60f18349e98747fa545142": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/25.09/gitnote-release-25.09.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 10,
+      "version_name": "25.09",
+      "tag": "25.09",
+      "commit": "9bbef99a1bfc1531747fcde27fd89b895fbabf48",
+      "timestamp": 1758892416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bb5616daa155025b9e7bc4defcdb2774af1bc3bfb67ec54aeade0352743c6ea1": [
     {
       "repository": "https://github.com/yamin8000/freeDictionaryApp.git",
@@ -52745,6 +52759,20 @@
       "tag": "1.0.5",
       "commit": "f0cad1af10d56b4ddf4ed067925ceb6cf1785789",
       "timestamp": 1754060733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b8e342c526de8080a318b1c72b87c12b92c355b198b9f0081d75ebafa96815e": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.0.0/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0.0",
+      "commit": "4bae74dbde72d294151a86b160983385f945ff14",
+      "timestamp": 1758886702,
       "reproducible": true,
       "error": null
     }
