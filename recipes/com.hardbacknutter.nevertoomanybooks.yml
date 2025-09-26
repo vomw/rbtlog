@@ -760,3 +760,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v7.8.2
+    apks:
+      - apk_pattern: NeverTooManyBooks-.*\.apk
+        apk_url: https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.8.2/NeverTooManyBooks-7.8.2.apk
+        build:
+          - sed -r '/signingConfigs.release|props.*sign/d' -i app/build.gradle
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=aceb589974f9cf518f26e61d9a9724f1ea6f7199
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - OUT=app/build/outputs/apk/release/NeverTooManyBooks-*-release.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'assets/katalog.dnb.de*.pem'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/Mahmud0808/ColorBlendr.git
 updates: releases
-notes:
-  - 'FIXME: switches to GH actions for build with v2.0.3, remove newline adjustments in recipe then'
 versions:
   - tag: v1.11.5
     apks:
@@ -96,6 +94,36 @@ versions:
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages:
             - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.0.3
+    apks:
+      - apk_pattern: ColorBlendr.*\.apk
+        apk_url: https://github.com/Mahmud0808/ColorBlendr/releases/download/v2.0.3/ColorBlendr.v2.0.3.apk
+        build:
+          - git checkout 5c3a2c1af5a7044709d670cce7bcb1e06bd1d72e
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/ColorBlendr*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
