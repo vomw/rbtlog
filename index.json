@@ -3107,6 +3107,20 @@
       "error": null
     }
   ],
+  "18ff6911794dc90a8465eca7669cc8419749264c9004360e3378109580bb7f39": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.3.4/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10634,
+      "version_name": "build106.3.4",
+      "tag": "build106.3.4",
+      "commit": "d05df1269f25c118ebe8ac9d27370c4074708879",
+      "timestamp": 1758980857,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -5091,6 +5105,20 @@
       "tag": "v1.0.1",
       "commit": "0e66970460667b5f720bf210ea2281c98b9d6066",
       "timestamp": 1758962188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f1a81627792eadd0d4d1492603b0c5a26a2d72f20232d28ac1c36c009deb5bc": [
+    {
+      "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
+      "apk_url": "https://github.com/weslley75/AudioOutputSwitcher/releases/download/v1.0.3/app-release.apk",
+      "appid": "br.com.wasystems.audiooutputswitcher",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "990f7a09d18ef251d6c412605ee275c27011af63",
+      "timestamp": 1758997306,
       "reproducible": true,
       "error": null
     }
@@ -16925,6 +16953,34 @@
       "error": null
     }
   ],
+  "6a944327ae676722dcbe79d3c38227a53ab4767c4fbca1b10a0882532d903d63": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v2.0.0/FadCam-v2.0.0-armeabi-v7a.apk",
+      "appid": "com.fadcam",
+      "version_code": 27,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "ae8bdc3f915a485fce8963e164e7e5ba050a23a4",
+      "timestamp": 1759001964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0c5ac9b6a0f5840eb3598cd95d790e644a75f1ba543246412302cd8fa9fcf287": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v2.0.0/FadCam-v2.0.0-arm64-v8a.apk",
+      "appid": "com.fadcam",
+      "version_code": 27,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "ae8bdc3f915a485fce8963e164e7e5ba050a23a4",
+      "timestamp": 1759002239,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7e315764a96c1655df6c8c805f118693534f8f5f32917fb8e878feecf6184d90": [
     {
       "repository": "https://github.com/BetterBrainMemory/OpenToday.git",
@@ -19691,6 +19747,20 @@
       "tag": "2.18.3",
       "commit": "f56c686444cea28c269a4cd21f86951c29cb3cbb",
       "timestamp": 1758133677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "db8dad75c343e0932c0abd883b660ace73fd8f6f940520341d21a1a1e0c75702": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.4/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2518512,
+      "version_name": "2.18.4-Verdana-oss",
+      "tag": "2.18.4",
+      "commit": "2f4b9fa321b9802310f53e8b7b367c6da164e802",
+      "timestamp": 1758981290,
       "reproducible": true,
       "error": null
     }
@@ -43837,6 +43907,20 @@
       "error": null
     }
   ],
+  "067dadb5b0c9cdf52e4919e467df67d641157279a565e725d9213f641d2ef1f6": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.2.6/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23222,
+      "version_name": "1.2.6",
+      "tag": "v1.2.6",
+      "commit": "7cb9ca128bf5f87fb0fc4a382945fcca908ec5a9",
+      "timestamp": 1758981478,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
     {
       "repository": "https://github.com/itsvic-dev/parcel.git",
@@ -47485,6 +47569,20 @@
       "tag": "v0.95.0-alpha13",
       "commit": "79d3b216a3e516fb5cb3f2dec4b472b87dfa9593",
       "timestamp": 1756910853,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4ac2476334d41236a05e1a9bbfab8a99f99cc85ea42f114b04f879e63d14e3a4": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.99.0-alpha14/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 19,
+      "version_name": "0.99.0-alpha14",
+      "tag": "v0.99.0-alpha14",
+      "commit": "2bebbb30d743c67fc6d0ec02b694a3af6c42bf95",
+      "timestamp": 1758982208,
       "reproducible": true,
       "error": null
     }
@@ -52917,6 +53015,20 @@
       "error": null
     }
   ],
+  "8366127cad183a2f94a8f56491fb1662b0ee7b725546438ae3dad86655c28562": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.0.1/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "f5878966f08ac1f145daaacda8a6632470d2d59a",
+      "timestamp": 1758997715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f37f6740d7a9b7d6fc28ddcaeddbe4dc3ccda3def4715655fc99af74d28e8fce": [
     {
       "repository": "https://github.com/AkaneTan/Gramophone.git",
@@ -57057,6 +57169,20 @@
       "tag": "v1.3.0",
       "commit": "4b9e0b95bb6b2cd42e89e80079cf1965d8d0e620",
       "timestamp": 1758031883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1286b5d4ab7748969429161d853493e7884462b5a6ffa546c1aedc0bea79defc": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.4.1/tomato-v1.4.1-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 9,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "039a540ad9dda07a0589d52d8f2abbe04af8fb2b",
+      "timestamp": 1758997897,
       "reproducible": true,
       "error": null
     }
