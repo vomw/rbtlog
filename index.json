@@ -2967,6 +2967,20 @@
       "error": null
     }
   ],
+  "ee50efd45d7eb0f71fffa535172d9a5d9eb7beb98977d69c92b2ed231e6753ea": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.5.2/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 152,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "19ef24a6875da1416a1d79cfa248f0840a39ece2",
+      "timestamp": 1759067268,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9015,6 +9029,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "2cee0da2efa419e59cb0c18eb180d483a1ba9b95efff0b7f013b3ab573cf4fdb": [
+    {
+      "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
+      "apk_url": "https://github.com/mi-g-alex/Telegram-Monet/releases/download/v12.0.0/app-release.apk",
+      "appid": "com.c3r5b8.telegram_monet",
+      "version_code": 25092801,
+      "version_name": "12.0.0",
+      "tag": "v12.0.0",
+      "commit": "be5717a6d27c7a9e5838ba9cd223114ab4e278ff",
+      "timestamp": 1759087987,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "994b65135a6da893021cb1bc8c1a3bba51e6c6ff342bbd40d43633d841c5630a": [
     {
       "repository": "https://github.com/jocmp/capyreader.git",
@@ -12133,6 +12161,20 @@
       "tag": "1.1.4.1v117",
       "commit": "92454d9d630e5b83607942075c2960e77aef44dd",
       "timestamp": 1758117622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a62ef50cc1fab45f4db7384ad9c643066c0528b34f4ffdfa7adca793b4695b5": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.2v118/PuppyGit_1.1.4.2v118_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 118,
+      "version_name": "1.1.4.2",
+      "tag": "1.1.4.2v118",
+      "commit": "6174acb459494d0a19b567be0f772c841dd875bb",
+      "timestamp": 1759067820,
       "reproducible": true,
       "error": null
     }
@@ -17903,6 +17945,20 @@
       "error": null
     }
   ],
+  "59ffe4f7d8a1364c55486291fcba5de71a0e979efcbc2dcf47f853d9e93e02bf": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/3.11.1/com.fibelatti.pinboard-v3.11.1-3110100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3110100,
+      "version_name": "3.11.1",
+      "tag": "3.11.1",
+      "commit": "c500dd88e965087c79a1c3d47b7dbf4db6d35f78",
+      "timestamp": 1759068734,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -19765,6 +19821,20 @@
       "error": null
     }
   ],
+  "59b8d99a1013e311d7e743a5e1468936c37c78b0d5df9c7f907f8bbd504d3b01": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.5/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2519529,
+      "version_name": "2.18.5-Verdana-oss",
+      "tag": "2.18.5",
+      "commit": "b0b665c7697a94ff5c1214833d1436e716f0b574",
+      "timestamp": 1759070488,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -19985,6 +20055,20 @@
       "tag": "3.5.3",
       "commit": "18c3abf555743ff1a97526c7ef2355004bba5107",
       "timestamp": 1758134191,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e21b40a5daed7d60667d381e74f8c40f1f0e31e39ed2c0bd17611391ed53ec82": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.4/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2519531,
+      "version_name": "3.5.4",
+      "tag": "3.5.4",
+      "commit": "f6213cc2df9a82af1ef784c377dd5755bd1a2177",
+      "timestamp": 1759070660,
       "reproducible": true,
       "error": null
     }
@@ -21999,6 +22083,20 @@
       "error": null
     }
   ],
+  "c94a2711607523fe9ac421185079f4180ff53f8b762177dc6d484b8f542024a3": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.3/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2137,
+      "version_name": "9.6.3",
+      "tag": "9.6.3",
+      "commit": "d5bc6c442f23bf4ff66a2c394e6674a8b60832f2",
+      "timestamp": 1759078733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -22121,6 +22219,20 @@
       "tag": "v1.0.5",
       "commit": "3af43a0d0acfa7075c0d44dfd332e8b45ba5479e",
       "timestamp": 1742569327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1b6d6d1961a0f19d2354dacd386b2d7999271a9b96cd22a08c0ac0598e1faa4": [
+    {
+      "repository": "https://github.com/grmasa/Sound-Toggle.git",
+      "apk_url": "https://github.com/grmasa/Sound-Toggle/releases/download/v1.1.0/SoundToggle-release.apk",
+      "appid": "com.grmasa.soundtoggle",
+      "version_code": 6,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "de3120d6e61380c0fc6275dc40ae648058c80cde",
+      "timestamp": 1759076487,
       "reproducible": true,
       "error": null
     }
@@ -27079,6 +27191,20 @@
       "error": null
     }
   ],
+  "99c8de8c6d801b040bbcfc74806b438d89bc98c535b226a06bd4b5c804237e78": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.55.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 911,
+      "version_name": "3.55.0",
+      "tag": "3.55.0",
+      "commit": "66439fdba43fd0440765c2f3a0e06f1cd969027c",
+      "timestamp": 1759071435,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "26ba37d6e317438d594ed1061b2576bc98d86feb321e2e63399650048839f9ec": [
     {
       "repository": "https://github.com/mitchib1440/SpeakThat.git",
@@ -30939,6 +31065,20 @@
       "error": null
     }
   ],
+  "9a115e306cb4fd83fa5e0bf60e2e168e97bb76d9c18f0dff9800b46ce2d9efc1": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.18.0/baba_1.18.0_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031960,
+      "version_name": "1.18.0",
+      "tag": "1.18.0",
+      "commit": "0522023061d21a9d6f64d09d049b6037d585ab42",
+      "timestamp": 1759071956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -31957,6 +32097,20 @@
       "tag": "v1.0.9",
       "commit": "ea45699cb1d10ce536bfc80b85b2aa681831b36e",
       "timestamp": 1756823671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd4c697204bc8c0314a4c4ddf280ed125395e6d94f97bfa6ec83b83d134bd39f": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.1.1/taskmanager-v1.1.1.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 12,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "b0f5554a28d84b0b1b38e1e085d56576010539d9",
+      "timestamp": 1759072600,
       "reproducible": true,
       "error": null
     }
@@ -35079,6 +35233,20 @@
       "error": null
     }
   ],
+  "9c00af13078f399a3b039c6fa4050f5787a2d56588bd66aabe7ee4650ebe1a1b": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.17/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2020,
+      "version_name": "1.0.17",
+      "tag": "V1.0.17",
+      "commit": "11a6eb5b4e1879aba3c76e0b07331a98654c56e3",
+      "timestamp": 1759072923,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -35229,6 +35397,20 @@
       "tag": "v1.2.1",
       "commit": "81567762c4ee3d7aa72f5d890a0de754b49380dd",
       "timestamp": 1755369127,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f1d43b111346c3bb39cca97dcfa4ddaca778dd9f2422716196ed4e64044b347e": [
+    {
+      "repository": "https://github.com/SimpolCo/Permissions-Summary.git",
+      "apk_url": "https://github.com/SimpolCo/Permissions-Summary/releases/download/v1.3.0/Permissions.Summary.v1.3.0.apk",
+      "appid": "com.simpol.permissionssummary",
+      "version_code": 130,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "b390a0f448772378125bf5b054edaa663d9a927a",
+      "timestamp": 1759075353,
       "reproducible": true,
       "error": null
     }
@@ -48007,6 +48189,20 @@
       "error": null
     }
   ],
+  "5776a6696e84de59e5dbdd74afac5b19394e21bfc5962ec4dc0d20c5c859ee9b": [
+    {
+      "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
+      "apk_url": "https://github.com/Semper-Viventem/MetaRadar/releases/download/v0.31.1-beta/app-github-release.apk",
+      "appid": "f.cking.software",
+      "version_code": 1708536378,
+      "version_name": "0.31.1-beta",
+      "tag": "v0.31.1-beta",
+      "commit": "ea9b7b5a63c4060b297f3803fa9481ddf0ce01f9",
+      "timestamp": 1759073748,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "197dff09cf92d1f8e7c571d3e0b5a9e6dfd033ffc0c851134c8bcffc27268468": [
     {
       "repository": "https://github.com/gdzx/audiosource.git",
@@ -50113,6 +50309,20 @@
       "tag": "1.7.3",
       "commit": "259c26e39bf1745f1f9dbb33e5b92a58cbec8a05",
       "timestamp": 1741712668,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aa2984d385d87a761bf773379b88b5063dbde1a4d891f467590f4192aa2fb731": [
+    {
+      "repository": "https://github.com/yamin8000/freeDictionaryApp.git",
+      "apk_url": "https://github.com/yamin8000/freeDictionaryApp/releases/download/1.7.4/io.github.yamin8000.owl-v47-n1.7.4-release.apk",
+      "appid": "io.github.yamin8000.owl",
+      "version_code": 47,
+      "version_name": "1.7.4",
+      "tag": "1.7.4",
+      "commit": "db395fe196a7c7c7769a1ae4da6e5733363f3051",
+      "timestamp": 1759086135,
       "reproducible": true,
       "error": null
     }
@@ -53025,6 +53235,20 @@
       "tag": "v1.0.1",
       "commit": "f5878966f08ac1f145daaacda8a6632470d2d59a",
       "timestamp": 1758997715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "40e1ada49df38e88b7246bd29478dd4cfdd1a61799a3b2e3b650f54b0878dfa4": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.0.2/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "9db7722e38b84e7178824a3a0d3270c56605226e",
+      "timestamp": 1759085529,
       "reproducible": true,
       "error": null
     }
@@ -60737,6 +60961,20 @@
       "tag": "136",
       "commit": "d6081199a83959fea4db7fe970867573e7a2fe6e",
       "timestamp": 1758309293,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4fc484f3c0ca8c9e857e883b5006d2c83a08841a651675e567ed8074cc948640": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/137/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 137,
+      "version_name": "5.41",
+      "tag": "137",
+      "commit": "e889fa0280335eb52e7528daeae50bc70c97fdfb",
+      "timestamp": 1759085733,
       "reproducible": true,
       "error": null
     }
