@@ -3709,6 +3709,20 @@
       "error": null
     }
   ],
+  "25f81dd54cb6818e922df11507ab88ef25c2656acf8ec97cf35c48ba9be8c6af": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.2.6/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 926,
+      "version_name": "v9.2.6",
+      "tag": "v9.2.6",
+      "commit": "c09677f99b6b8b6162a2f6f39c8da37e2f924f31",
+      "timestamp": 1759170101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -11143,6 +11157,20 @@
       "error": null
     }
   ],
+  "7c410dbca470310b9b6002d2176d0c2ccfbf26334874f041914b38292b76d0b0": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.09.1170/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1170,
+      "version_name": "2025.09.1170",
+      "tag": "2025.09.1170",
+      "commit": "cfd9de7b54fc135907a506510aef0425484daafe",
+      "timestamp": 1759153674,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -17973,6 +18001,20 @@
       "error": null
     }
   ],
+  "5b58d41f06e8f295925880e90fe2df30cec4f9b96cd72e03ff53de49861f2081": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/3.11.2/com.fibelatti.pinboard-v3.11.2-3110200-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3110200,
+      "version_name": "3.11.2",
+      "tag": "3.11.2",
+      "commit": "e41d671ec0831ba366727d5236a370c3e2737725",
+      "timestamp": 1759176901,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -18193,6 +18235,20 @@
       "tag": "v1.0.2",
       "commit": "53e63cd79536bb20a78f610d7d40c625c028c3ab",
       "timestamp": 1754477329,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4d4994290de0650bbd1b2acd6b1e35914d0fd4cbc15974c827821ef1c939e978": [
+    {
+      "repository": "https://codeberg.org/epinez/Compete.git",
+      "apk_url": "https://codeberg.org/epinez/Compete/releases/download/v1.0.3-fix/app-arm64-v8a-release.apk",
+      "appid": "com.flasskamp.compete",
+      "version_code": 42,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3-fix",
+      "commit": "2f157dcb7469dd2c1511737e5b5a2c96c2a2bb7a",
+      "timestamp": 1759178687,
       "reproducible": true,
       "error": null
     }
@@ -19415,6 +19471,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpc5bxj11_/outputs:/outputs', '--volume', '/tmp/tmpc5bxj11_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=v2.7.0', '--env', 'APP_COMMIT=256555179f66f03f96eea45787127364192a0697', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "9456ef18f48328d4d0224e99b0046599a4481ae69865503538bc1e3dd54f4a2c": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.1/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29314197,
+      "version_name": "2.7.1 (29314197) fdroid",
+      "tag": "v2.7.1",
+      "commit": "6c0b2c55a03ab4cd93b93f29c25ea593512d863d",
+      "timestamp": 1759154072,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpd5g7htl9/outputs:/outputs', '--volume', '/tmp/tmpd5g7htl9/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=v2.7.1', '--env', 'APP_COMMIT=6c0b2c55a03ab4cd93b93f29c25ea593512d863d', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -20083,6 +20153,20 @@
       "tag": "3.5.4",
       "commit": "f6213cc2df9a82af1ef784c377dd5755bd1a2177",
       "timestamp": 1759070660,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b2896d2936b94cb988b30c225034296b4af2e88ae1f0b34f59d44ef2fadcfc8e": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.5/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2521354,
+      "version_name": "3.5.5",
+      "tag": "3.5.5",
+      "commit": "f0fcaab74048532f57424b60afb700faf4352648",
+      "timestamp": 1759155304,
       "reproducible": true,
       "error": null
     }
@@ -23423,6 +23507,20 @@
       "tag": "v0.33.1",
       "commit": "d7cfabe961c8c465724329406a86bc929225b14f",
       "timestamp": 1750083198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b0583984380b9343521ca377c200907c5d43a31ee9808b5c33ad80206a632486": [
+    {
+      "repository": "https://github.com/jucktion/healthlog.git",
+      "apk_url": "https://github.com/jucktion/healthlog/releases/download/v0.33.2/Healthlog-arm64.apk",
+      "appid": "com.jucktion.healthlog",
+      "version_code": 8,
+      "version_name": "0.33.2",
+      "tag": "v0.33.2",
+      "commit": "ad9d691bb158dff5e35d8f085728b4641acf5ae9",
+      "timestamp": 1759162147,
       "reproducible": true,
       "error": null
     }
@@ -28727,6 +28825,20 @@
       "error": null
     }
   ],
+  "f90c5efec4df220efdbb834e208bbe1b1f55dfac72ef118ec85aabfacb48fb27": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.14-Silent_Hill/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 18,
+      "version_name": "0.3.14-Silent Hill",
+      "tag": "V0.3.14-Silent_Hill",
+      "commit": "bee9c5673fde8cde351a92c41ff4ea9c6f2281cf",
+      "timestamp": 1759171669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05d89b89548fbcd9654c3a43aeae0479a0605cf16487451628f7ae2a21d195ce": [
     {
       "repository": "https://github.com/cuadratico/NowiChat.git",
@@ -29871,6 +29983,20 @@
       "tag": "v1.12.1",
       "commit": "4407ea3013eeeddd4740d578923f10854495ba7a",
       "timestamp": 1754937366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "218b49621405c65acaecb120d92e359610fedd59ee2897bdc4c97c5818b0d0c3": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.13.1/orgzly-revived-fdroid-1.13.1.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 266,
+      "version_name": "1.13.1",
+      "tag": "v1.13.1",
+      "commit": "b55a0230f41202686bfa278844e8dc2e71a4d70f",
+      "timestamp": 1759155765,
       "reproducible": true,
       "error": null
     }
@@ -33739,6 +33865,20 @@
       "error": null
     }
   ],
+  "ab50c1c9d13e0f6126895732990cca4bed7669738a8e866dfe4d94992036290b": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v3.2/Quotes-app-v3-2.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 31,
+      "version_name": "3.2",
+      "tag": "v3.2",
+      "commit": "d4d535bed4a6640ad790ae93463874915646300d",
+      "timestamp": 1759172742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e2498df6bb465644e43c5ad840a7562ad4d43ef93dfdefa8728e304c19da248b": [
     {
       "repository": "https://github.com/shezik/DrawAnywhere.git",
@@ -36391,6 +36531,20 @@
       "tag": "v0.29",
       "commit": "8d26baba7a338796429dca65db74bccd903fb412",
       "timestamp": 1753817817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "504730d7f39e28d94d31bdf91991eb02481f0a0030e5e234692d84a48c82a8bb": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
+      "apk_url": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.30/app-release.apk",
+      "appid": "com.sunilpaulmathew.debloater",
+      "version_code": 30,
+      "version_name": "v0.30",
+      "tag": "v0.30",
+      "commit": "391ae149f961275478184cc889c4a1202b592f26",
+      "timestamp": 1759176488,
       "reproducible": true,
       "error": null
     }
@@ -41257,6 +41411,20 @@
       "tag": "v0.18.1",
       "commit": "fb1e09e4a04e407ee0d1281b872afa08837a47bd",
       "timestamp": 1756492462,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbd691c021f5bb4bfe3bc55d63a1d85894bbb99dc5e8c2c8bbc4624a569136f9": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.18.2/RecurringExpenseTracker_0.18.2.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 50,
+      "version_name": "0.18.2",
+      "tag": "v0.18.2",
+      "commit": "1392851139359b70f50a2b424fa786be9ee2ef31",
+      "timestamp": 1759173305,
       "reproducible": true,
       "error": null
     }
@@ -50341,6 +50509,20 @@
       "error": null
     }
   ],
+  "932a3631fcbf929faa2971ae29df80f8fe8e8e15b1bd232d593b8f8a48852ab7": [
+    {
+      "repository": "https://github.com/yamin8000/freeDictionaryApp.git",
+      "apk_url": "https://github.com/yamin8000/freeDictionaryApp/releases/download/1.7.5/io.github.yamin8000.owl-v48-n1.7.5-release.apk",
+      "appid": "io.github.yamin8000.owl",
+      "version_code": 48,
+      "version_name": "1.7.5",
+      "tag": "1.7.5",
+      "commit": "d3da2ccb330f2542bd024342d346f0d4ba0582f8",
+      "timestamp": 1759157307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d5fe4fefacef27131f4748e044956fd108cb8fd1d95d352cccff934b3ede7d64": [
     {
       "repository": "https://github.com/zyrouge/symphony.git",
@@ -57421,6 +57603,20 @@
       "tag": "v1.4.1",
       "commit": "039a540ad9dda07a0589d52d8f2abbe04af8fb2b",
       "timestamp": 1758997897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f3edba693725d3d1ce3427bf7940e84bd7a8549a116f02b769518a29a46ee422": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.4.2/tomato-v1.4.2-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 10,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "666da9d2d26082591955ad54b803beab5794a08a",
+      "timestamp": 1759156480,
       "reproducible": true,
       "error": null
     }

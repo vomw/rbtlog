@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'FIXED: 2.5.6 introduced embedded build timestamp, see https://github.com/meshtastic/Meshtastic-Android/issues/1372 (was removed with next release)'
   - 2.5.16, 2.6.24 flaky
+  - 2.7.0 + 2.7.1 fail, see https://github.com/meshtastic/Meshtastic-Android/issues/3231
 versions:
   - tag: 2.3.11
     apks:
@@ -1069,6 +1070,41 @@ versions:
           - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
           - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
           - PROF_SHA1=6d641809866d16d5310e3274195900a1a5fb019c
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/fdroid/release/app-fdroid-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.7.1
+    apks:
+      - apk_pattern: app-fdroid-release.*\.apk
+        apk_url: https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.1/app-fdroid-release.apk
+        build:
+          - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
+          - PROF_SHA1=eea831a2e727e0089ade241dde6bca5853eddf53
           - for _ in {1..10}; do
           - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
           - test -f "$PROF_FILE"
