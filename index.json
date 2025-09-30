@@ -2323,6 +2323,20 @@
       "error": null
     }
   ],
+  "4bc2644022ac2793e9d0b04adbded566b03204ba723f35ff3f6f34ac05e7d37a": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.2.9/fluffy-3.2.9-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 511,
+      "version_name": "3.2.9",
+      "tag": "3.2.9",
+      "commit": "7e473e5019e44b9ac27f32d84c371ab9aed9f7aa",
+      "timestamp": 1759256507,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -2879,6 +2893,20 @@
       "tag": "v2.16.1",
       "commit": "687c4e6cb7ddc1068b2f941a4eafa22c1c34a5fe",
       "timestamp": 1757874092,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a504170c1f97070ed9436d17506fd5d23633b8df0d5cf1257c0f29ed602f888d": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.0.0/Pachli_3.0.0_37_651d24a0_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 37,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "651d24a0ea90b93867eba1eca34ba7d704c5236c",
+      "timestamp": 1759240473,
       "reproducible": true,
       "error": null
     }
@@ -7601,6 +7629,20 @@
       "error": null
     }
   ],
+  "f2fa5d404a89c917097606cbe92d8275e5856025db0539d90d67a4292334a6c5": [
+    {
+      "repository": "https://github.com/apk-editor/APK-Explorer-Editor.git",
+      "apk_url": "https://github.com/apk-editor/APK-Explorer-Editor/releases/download/v0.32/app-full-release.apk",
+      "appid": "com.apk.editor",
+      "version_code": 32,
+      "version_name": "v0.32",
+      "tag": "v0.32",
+      "commit": "34d8abe22d5f8a1e96812a4743b21a137b6da6c9",
+      "timestamp": 1759240957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "45c70bc10c1450c5bc930ba174032f1cab35e13c206349183c4e7f2ec651b9e7": [
     {
       "repository": "https://github.com/appml/neutrinote.git",
@@ -8315,6 +8357,20 @@
       "error": null
     }
   ],
+  "04ca8b3ccd1ea9bd2482521b3ffca99b6021aeab9dd7d4faf51e4dc94af3b4a3": [
+    {
+      "repository": "https://github.com/blinskey/greek-reference.git",
+      "apk_url": "https://github.com/blinskey/greek-reference/releases/download/v1.15.0/GreekReference-release-v1.15.0.apk",
+      "appid": "com.benlinskey.greekreference",
+      "version_code": 37,
+      "version_name": "1.15.0",
+      "tag": "v1.15.0",
+      "commit": "a073d75aa74d8310009f75087cab767f8adad0b3",
+      "timestamp": 1759245438,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "647990083375c22796386082675b225934c1f951ae29c18d0c7b01f23e163e79": [
     {
       "repository": "https://github.com/DavidBerdik/Let-Me-Downgrade.git",
@@ -8969,6 +9025,20 @@
       "tag": "v13.0",
       "commit": "c2430bef906a531217fbb991320be36da65228a3",
       "timestamp": 1758635297,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "32cabf5a451166eb9a314ccc5cb5dd801e96d4ed62ce131ed1fe4928cdad32da": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v13.1/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 35,
+      "version_name": "13.1",
+      "tag": "v13.1",
+      "commit": "3fe15c6d7443ff79ddf99fc0cec0d40f43e1cbc9",
+      "timestamp": 1759245085,
       "reproducible": true,
       "error": null
     }
@@ -30771,6 +30841,20 @@
       "error": null
     }
   ],
+  "751d77f2e20b9a270202713a9c137c28f90f530c323028ecb2d2cddb7ffb1626": [
+    {
+      "repository": "https://github.com/prinzpiuz/MSM.git",
+      "apk_url": "https://github.com/prinzpiuz/MSM/releases/download/1.10.0/app-armeabi-v7a-release.apk",
+      "appid": "com.prinzpiuz.msm",
+      "version_code": 1018,
+      "version_name": "1.10.0",
+      "tag": "1.10.0",
+      "commit": "95c96ccd3d966b26c94b49e0f56f60d0cd29ff9d",
+      "timestamp": 1759244455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a118bb12013f3de4e26277d6f48122b93ccb9c5b30270f3a7b7cea0939d31aa7": [
     {
       "repository": "https://github.com/tawhidmonowar/WebCapture.git",
@@ -33357,6 +33441,20 @@
       "tag": "v7.0.9",
       "commit": "46f2e991d366e4e949b48c2650d4f3151b6df42e",
       "timestamp": 1758895744,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6354fe4874bc74acd2cbfbdabbe9b2c73588b1a82ab8ea7aba5813dd870a8ec": [
+    {
+      "repository": "https://github.com/SamAmco/track-and-graph.git",
+      "apk_url": "https://github.com/SamAmco/track-and-graph/releases/download/v7.0.10/app-release.apk",
+      "appid": "com.samco.trackandgraph",
+      "version_code": 700010,
+      "version_name": "7.0.10",
+      "tag": "v7.0.10",
+      "commit": "7ff902d442ce0e509fcade67bf0aba0f1006a024",
+      "timestamp": 1759241741,
       "reproducible": true,
       "error": null
     }
@@ -38547,6 +38645,20 @@
       "tag": "v3.0.9",
       "commit": "0a55f9fb3234ae8d2ead7ba1467b17ad45aa1830",
       "timestamp": 1756651307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2187d02ec93ee9cabc97906b54c6472d771be41c6fe6f234976a2093fcdb6053": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v4.0.0/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 8,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "efdf2c30adf4256e83b2f27adfc9a123611bd3cd",
+      "timestamp": 1759257142,
       "reproducible": true,
       "error": null
     }
@@ -45475,6 +45587,20 @@
       "error": null
     }
   ],
+  "c108a6bd5000e215371d703eeb26cd70a88761014cf61f4d42ed97878147b783": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.1.4-beta/SimpleTag_v0.1.4-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 5,
+      "version_name": "0.1.4-beta",
+      "tag": "v0.1.4-beta",
+      "commit": "6bfb0581e097aad0df3d16639389448c1424bfec",
+      "timestamp": 1759242370,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "52b0062998adbd48cfb26f2daa8d5822b672be3023a241ee4fc2b3f672fd6d3c": [
     {
       "repository": "https://github.com/supershadoe/delta.git",
@@ -47723,6 +47849,20 @@
       "tag": "1.2298",
       "commit": "26ad7bb9b087c9313b0c9e024f65b829e062e528",
       "timestamp": 1758638349,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8cbf7ca86da9f6a04db123f62313e5894f43ccedd8489cd8e49284993dc5943a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2299/FairEmail-v1.2299a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2299,
+      "version_name": "1.2299",
+      "tag": "1.2299",
+      "commit": "bc93fb2b264f6438937708d90bad3d1f8a5ad76f",
+      "timestamp": 1759242699,
       "reproducible": true,
       "error": null
     }
@@ -50761,6 +50901,20 @@
       "error": null
     }
   ],
+  "bb0e61b10508216299d8a01027ac459459d2aeeb0da642d3e51968421a0f5ee9": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6321/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6321,
+      "version_name": "6321",
+      "tag": "v6321",
+      "commit": "d1a36964ffd4843582d0c2d5106cf55004b8903b",
+      "timestamp": 1759243053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24fe8bf61626ddd2b1dd5434d564c381296bcc8f62397fa8d5d154ff1bab61f1": [
     {
       "repository": "https://github.com/fast4x/RiMusic.git",
@@ -51821,6 +51975,20 @@
       "tag": "v2.38.0",
       "commit": "b66383e9abab25ecedb0846a59acd596e7c8e7cb",
       "timestamp": 1757791672,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2f2a63a75bc42a7ff175e91d1ed4da030172b0fb78a0caddddbd96e492a90da6": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.39.0/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 153,
+      "version_name": "2.39.0",
+      "tag": "v2.39.0",
+      "commit": "0a65fb607a7235ec3b518a943fc13c1f3ac295f4",
+      "timestamp": 1759258468,
       "reproducible": true,
       "error": null
     }
@@ -54919,6 +55087,20 @@
       "error": null
     }
   ],
+  "a0635989d43ddf7263ce32cb6d5f410c7cd41b51ed9de11e45ccc701e937ec75": [
+    {
+      "repository": "https://codeberg.org/minardil/PhotoSphereGallery.git",
+      "apk_url": "https://codeberg.org/minardil/PhotoSphereGallery/releases/download/v1.1/app-release.apk",
+      "appid": "org.eagsoftware.photospheregallery",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "3a4e43034f59be9cc1de2bc455530676e5446136",
+      "timestamp": 1759258780,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -55531,6 +55713,20 @@
       "tag": "1.2.3",
       "commit": "7a5f797a2aa8b9f9f2c037627190c7f93515f025",
       "timestamp": 1758119318,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b238fd97f6001839e4149419c5ac62122eaba1513681ddce7e1faf1067bcc8a7": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.3.0/file-manager-8-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "c2482ee5dc81257f9c1929ba5db91bf8ca7ed0b5",
+      "timestamp": 1759243298,
       "reproducible": true,
       "error": null
     }
@@ -59785,6 +59981,20 @@
       "tag": "2.1.0",
       "commit": "d675f3ea8e00bb86d970832a871c2cbfac6dec19",
       "timestamp": 1749753395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e376049046b84c37795d49fb7a4e3b8798b9020a97af16bb8d7ce43fee172c9f": [
+    {
+      "repository": "https://codeberg.org/UnifiedPush/android-example.git",
+      "apk_url": "https://codeberg.org/UnifiedPush/android-example/releases/download/2.2.0/UP-Example-main.apk",
+      "appid": "org.unifiedpush.example",
+      "version_code": 29,
+      "version_name": "2.2.0",
+      "tag": "2.2.0",
+      "commit": "7cc742b45137d740e17b5f2121bcc49fad5181e6",
+      "timestamp": 1759258999,
       "reproducible": true,
       "error": null
     }
