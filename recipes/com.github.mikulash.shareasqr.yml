@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/mikulash/ShareAsQR.git
-updates: releases
+updates: disabled
 notes:
   - builds using Android Studio on Windows
+  - 2025-10-01 disabling updates as they are stuck (and disabled) in the repo due to lost signing key, see https://github.com/mikulash/ShareAsQR/issues/5
 versions:
   - tag: v1.0.3
     apks:

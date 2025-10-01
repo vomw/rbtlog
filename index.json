@@ -21187,6 +21187,20 @@
       "error": null
     }
   ],
+  "7b762102a74f34fbfa965987b87a6cd2952bdbe4880701f1bb3580cb3bbaea25": [
+    {
+      "repository": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding.git",
+      "apk_url": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding/releases/download/v2.3.1/SMS-Forwarding-002.03.01-11API-withAllLanguageTranslations-withContactName-release.apk",
+      "appid": "com.github.warren_bank.sms_automatic_forwarding",
+      "version_code": 2030111,
+      "version_name": "002.03.01-11API",
+      "tag": "v2.3.1",
+      "commit": "c7a850ddbf2fb9c977b7ca3f91c4370f7d97019b",
+      "timestamp": 1759335557,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fa6766f75d91f4eda1aa0b4ea8506c65c3a536e95ccf1f2e76722dd00923570": [
     {
       "repository": "https://github.com/warren-bank/Android-WebCast.git",
@@ -51752,6 +51766,20 @@
       "commit": "6bcf73441217993fa3f10486c2dca9e5cfbe1299",
       "timestamp": 1756652027,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
+    {
+      "repository": "https://codeberg.org/danb/retherm.git",
+      "apk_url": "https://codeberg.org/danb/retherm/releases/download/v2.0.3/retherm-v2.0.3.apk",
+      "appid": "me.danb.retherm",
+      "version_code": 8,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "f2be400d0f2744facb22bf6bbc695ed03cde9fec",
+      "timestamp": 1759333066,
+      "reproducible": true,
       "error": null
     }
   ],
