@@ -4507,6 +4507,20 @@
       "error": null
     }
   ],
+  "5b598fff7cace2277c29edee8145cf3a68704b0f0db08cc182aaad58e786dc25": [
+    {
+      "repository": "https://github.com/FrankHJCuypers/gaai.git",
+      "apk_url": "https://github.com/FrankHJCuypers/gaai/releases/download/v1.0.0/Gaai-v100000-1.0.0-36-gadca1ac-release.apk",
+      "appid": "be.cuypers_ghys.gaai",
+      "version_code": 100000,
+      "version_name": "1.0.0-36-gadca1ac",
+      "tag": "v1.0.0",
+      "commit": "adca1acfae42059c20deeed74d4a7512c8a70938",
+      "timestamp": 1759326539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -11241,6 +11255,20 @@
       "error": null
     }
   ],
+  "a5f09467a4e8d530c25e1d26a408fda35f1aa2b1b44e02b4de6ea93b4034ca05": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.10.1171-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1171,
+      "version_name": "2025.10.1171-dev",
+      "tag": "2025.10.1171-dev",
+      "commit": "f75391895bcb91c4275dbd95bd063c743521acdc",
+      "timestamp": 1759326796,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -15983,6 +16011,20 @@
       "tag": "5.0.7",
       "commit": "6bbbb390dfdaf0214f1d0cc83820f89fd736c7ca",
       "timestamp": 1756567035,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d050fd74b4fd3ce34711306f9157cfcae3fb23ffccc24ee247d6f00b9ad985ac": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.8/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 163,
+      "version_name": "5.0.8",
+      "tag": "5.0.8",
+      "commit": "f38220bc2c5a537e8f9ae4fc74afc66ed64e463f",
+      "timestamp": 1759342981,
       "reproducible": true,
       "error": null
     }
@@ -22279,6 +22321,20 @@
       "error": null
     }
   ],
+  "177a3c651581cde0cdff79d196cb34ee22366cfcc6690204564b5774e9ec3b77": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.4/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2138,
+      "version_name": "9.6.4",
+      "tag": "9.6.4",
+      "commit": "6b2c67c662d209e4c3afbad803314caaf7c1443e",
+      "timestamp": 1759352091,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -27159,6 +27215,20 @@
       "tag": "v12.6.0",
       "commit": "3a1400dc2afeb489c62fb005c47f1cbae96bbdf2",
       "timestamp": 1758825936,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b7dc417b870a10ba3ab787b2731051fcadb3b791fb422c255a1184a12c765ec3": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.7.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 128,
+      "version_name": "12.7.0",
+      "tag": "v12.7.0",
+      "commit": "85d1c28b423e6ff8eeaf500884708dd706f8854b",
+      "timestamp": 1759350712,
       "reproducible": true,
       "error": null
     }
@@ -41709,6 +41779,20 @@
       "error": null
     }
   ],
+  "462c4cce0d2ff3faa186a67b1b3141d15bf35a32ae6aa165a0a284a6ba69b701": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v1.1.5/dhbw-student-app-release-v.1.1.5.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 15,
+      "version_name": "v1.1.5",
+      "tag": "v1.1.5",
+      "commit": "5040cbca75527669909fda1c644b19691b224178",
+      "timestamp": 1759351534,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf3bafe3f0bd3904e016b655129438fac8412e7e49acfedd661b6f8a0b7ee0d": [
     {
       "repository": "https://github.com/newhinton/Round-Sync.git",
@@ -52021,6 +52105,20 @@
       "error": null
     }
   ],
+  "62a2813a260c099df18ce00684758b8120a373fa194adb199b9db54dbb281006": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.39.1/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 154,
+      "version_name": "2.39.1",
+      "tag": "v2.39.1",
+      "commit": "f777491dcd75f35b621fc0cd5a95bd855639d8ff",
+      "timestamp": 1759344652,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "86783f35d33f4977d8fb0ebd56fbd5ed7ce55ad30d0be6100364bd531bde25ed": [
     {
       "repository": "https://github.com/TheLastProject/RaiseToAnswer.git",
@@ -52409,6 +52507,20 @@
       "tag": "v1.7.2-r2",
       "commit": "34cd41f83adc636a21bc2cbe603e7ab241daf621",
       "timestamp": 1758205174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73908256f68f2c72daaee54f845ddd50b449af07287b266c3213efd6f50ce9b3": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.8.0/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 120,
+      "version_name": "1.8.0-izzy",
+      "tag": "v1.8.0",
+      "commit": "37369b615c41ea27558db78a812cb636486eae10",
+      "timestamp": 1759327219,
       "reproducible": true,
       "error": null
     }
@@ -61689,6 +61801,20 @@
       "tag": "1.8.6",
       "commit": "fa0547a173c5d21186760b67f088ea412307590c",
       "timestamp": 1757163485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "80d6fe1cefbbd7dedca56673a70288e2aaadb88a4278eb1e64a52a4fba0d8830": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.8.7/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 62,
+      "version_name": "1.8.7",
+      "tag": "1.8.7",
+      "commit": "6de1c507bef82538cb4f4c69642c654abc627838",
+      "timestamp": 1759327723,
       "reproducible": true,
       "error": null
     }
