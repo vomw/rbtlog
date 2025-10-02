@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/ArcaneChat/android.git
-updates: releases
+updates: disabled
+notes:
+  - app was removed from our repo 2025-03-06 on request of author because of GOS stuff, see https://github.com/ArcaneChat/android/issues/44
 versions:
   - tag: v1.46.16
     apks:

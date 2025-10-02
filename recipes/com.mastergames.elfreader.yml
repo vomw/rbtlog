@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/MasterGamesMG/ELFReader.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: tag is a moving target, see https://github.com/MasterGamesMG/ELFReader/issues/3'
+  - app was removed from IoD 2025-09-30
 versions:
   - tag: Android
     apks:

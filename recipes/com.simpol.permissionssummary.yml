@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/SimpolCo/Permissions-Summary.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo and account disappeared on 2025-10-02
 versions:
   - tag: v1.0.0
     apks:
