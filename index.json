@@ -2113,6 +2113,20 @@
       "error": null
     }
   ],
+  "da52a1761460ebcb6166d8dbb06edaa0b7c71278840526d233e2f50dcd73f32a": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.5.1/flicky-3.5.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 591,
+      "version_name": "3.5.1",
+      "tag": "3.5.1",
+      "commit": "6f3d96c3512697bf5d946f92b8739ff1e670f072",
+      "timestamp": 1759499287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -2363,6 +2377,20 @@
       "timestamp": 1756837299,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp41icj8fa/outputs:/outputs', '--volume', '/tmp/tmp41icj8fa/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/gezimos/inkOS.git', '--env', 'APP_TAG=v0.2', '--env', 'APP_COMMIT=2f936a78d96446e493507ada4ac512cf6690d88c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "5447e8cb726af5c534854966372c0a99a0510812136105cc2fda4b1e8a35fa13": [
+    {
+      "repository": "https://github.com/gezimos/inkOS.git",
+      "apk_url": "https://github.com/gezimos/inkOS/releases/download/v0.3/app.inkos_v0.3-Signed.apk",
+      "appid": "app.inkos",
+      "version_code": 101003,
+      "version_name": "0.3",
+      "tag": "v0.3",
+      "commit": "86cd304db66456ad21f1420b6a963f4269dbf86c",
+      "timestamp": 1759517712,
+      "reproducible": true,
+      "error": null
     }
   ],
   "a8b74b851ec84cdb3ef95da65de9c7f7d03dbff37ab0662eb1131a3762b4a453": [
@@ -2697,6 +2725,20 @@
       "tag": "1.11.1.3",
       "commit": "dc9ef280efe6ace94f476140f9ee0238dce11564",
       "timestamp": 1758478903,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5bd4c8f47443437835f81f2d673325b91cd4c07b0c3144fa606c7a1878e246d7": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.1.4/MultiLauncher-1.11.1.4-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110104,
+      "version_name": "1.11.1.4",
+      "tag": "1.11.1.4",
+      "commit": "776996e8700c5d73582f52d99cd4cec8ba2651a8",
+      "timestamp": 1759499635,
       "reproducible": true,
       "error": null
     }
@@ -7821,6 +7863,20 @@
       "tag": "v4.5.8c",
       "commit": "71cfeed0a0fae6ee01e63763a6e70f8a82f46ca0",
       "timestamp": 1758376063,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f126ad6b04536f1703d30357fc46d9231effa0ccb2bde89f919793962f1e5008": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.9/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1367,
+      "version_name": "4.5.9",
+      "tag": "v4.5.9",
+      "commit": "593fc25c853c4ef75328bfef6455f1a896481c93",
+      "timestamp": 1759499972,
       "reproducible": true,
       "error": null
     }
@@ -16799,6 +16855,20 @@
       "error": null
     }
   ],
+  "4bde7c5f517bf5bc9f9fae1aadd516098ccccca89fc96e41b6229f327a218ad8": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.10.2/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 11,
+      "version_name": "2025.10.2",
+      "tag": "2025.10.2",
+      "commit": "bb477d0f606bb6f17abd5f7ff927f11be17809ca",
+      "timestamp": 1759516129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2a708bf63718ddf0e101601bcb833f0b33055ed45cd552a3e67d7ced37ac11e8": [
     {
       "repository": "https://github.com/thomasthaddeus/QRCodeGenius.git",
@@ -21029,6 +21099,34 @@
       "tag": "v1.1.1",
       "commit": "9d1005cf482a11667fd1ff95f15fad11f76fe7e8",
       "timestamp": 1759413410,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2c750ae4691dd539dc08f7db3a3463cbcad86d0b481957c49f1ec5e7f1d29e36": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.1.2/SensorSpot-v1.1.2.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 5,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "3bba01a45c0880fe8ee14d5abc54823bb6afed78",
+      "timestamp": 1759500139,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ac10f1c184c21dfa68539fb9fdc47f30138e4201f6cc63317cb57dd7bde0225": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.2.0/SensorSpot-v1.2.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 6,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "f6b71503b71e9a48a16ce8d8cf5ca9d0dd4e9d69",
+      "timestamp": 1759516637,
       "reproducible": true,
       "error": null
     }
@@ -34297,6 +34395,20 @@
       "error": null
     }
   ],
+  "bfd3e7020cd99d9212d9023d6492bc52d312859f10a295121cc728999ca898e9": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/3.0.0/composeApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 3000,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "60030dad26f01fe37980ce6473fb771c60b1d0c4",
+      "timestamp": 1759512754,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "563a268bc436a35883d537dd9fea6985bee2adc4cefefd53b50860fb179e0611": [
     {
       "repository": "https://github.com/shub39/Grit.git",
@@ -34655,6 +34767,20 @@
       "tag": "5.0.1",
       "commit": "3930c135cc007edd4ab44e135ee43cb460a7fc3d",
       "timestamp": 1758896418,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42a09bdd1a36e86e73196bed3aad46b3d26c4ad117461bf01159f7efbe8f7d33": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.0.2/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5020,
+      "version_name": "5.0.2",
+      "tag": "5.0.2",
+      "commit": "d1f5c135f642ce1894e2d78faed99358e0328888",
+      "timestamp": 1759500786,
       "reproducible": true,
       "error": null
     }
@@ -35425,6 +35551,20 @@
       "tag": "5.0.1",
       "commit": "57d2fef78170f1c3a409651be2c07495c6c81e53",
       "timestamp": 1758809516,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a25df7e72dc98545a5514adf1cfb0b1fd2d24575effa0489b468bc506bc3b6e2": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.1.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5100,
+      "version_name": "5.1.0",
+      "tag": "5.1.0",
+      "commit": "98c9ceef2c1976e41a5e986df0c10155597c41ed",
+      "timestamp": 1759501141,
       "reproducible": true,
       "error": null
     }
@@ -38827,6 +38967,20 @@
       "tag": "v4.0.0",
       "commit": "efdf2c30adf4256e83b2f27adfc9a123611bd3cd",
       "timestamp": 1759257142,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3eac05edecda23a1141e7e0c0562935664a1babd71a14e16d7bea98d54c56885": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v4.0.1/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 9,
+      "version_name": "4.0.1",
+      "tag": "v4.0.1",
+      "commit": "ec0afc645cc5c17c1a9426d0b96c0994ff9d63b1",
+      "timestamp": 1759517166,
       "reproducible": true,
       "error": null
     }
@@ -43175,6 +43329,20 @@
       "tag": "25.9.19-5309019",
       "commit": "875c126c2fccbfc4b174e272d86756c9341df52c",
       "timestamp": 1758377454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4d095d5aa601e957ad31b10afe1fb4f0abc6bebc715b6fe28628225fc6996f51": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/25.10.3-5310003/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5310003,
+      "version_name": "25.10.3",
+      "tag": "25.10.3-5310003",
+      "commit": "ded462d2dc1bad306664e73c4ed97cc7de31861b",
+      "timestamp": 1759501644,
       "reproducible": true,
       "error": null
     }
@@ -62487,6 +62655,20 @@
       "tag": "v8.0",
       "commit": "26b178c5ceac064b58aa761e953f4f6ec1b7ec2a",
       "timestamp": 1758661255,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e436bf0ca2af9cd11e11379930c761beda6637834ad55bde05c3d6e018b2769": [
+    {
+      "repository": "https://github.com/cvzi/Lyrics.git",
+      "apk_url": "https://github.com/cvzi/Lyrics/releases/download/v9.0/lyrics13.apk",
+      "appid": "sexy.lyrics",
+      "version_code": 13,
+      "version_name": "9.0",
+      "tag": "v9.0",
+      "commit": "b7492f895fcb562edc06232554441f7d4bb2a816",
+      "timestamp": 1759502114,
       "reproducible": true,
       "error": null
     }

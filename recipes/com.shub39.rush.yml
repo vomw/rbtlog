@@ -1792,3 +1792,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 5.1.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/shub39/Rush/releases/download/5.1.0/app-release.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fossRelease/compileFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=4572a0ac9f35e3cc0dda87865e37c1ca51398ee6
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/app-release.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 45
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
