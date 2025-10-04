@@ -18477,6 +18477,20 @@
       "error": null
     }
   ],
+  "b151fdda93bd6b95f3c2853cc44c1f6fb5669b29ac3742d688bcfae2ac385b4f": [
+    {
+      "repository": "https://codeberg.org/epinez/Energize.git",
+      "apk_url": "https://codeberg.org/epinez/Energize/releases/download/v0.13.4/app-arm64-v8a-release.apk",
+      "appid": "com.flasskamp.energize",
+      "version_code": 332,
+      "version_name": "0.13.4",
+      "tag": "v0.13.4",
+      "commit": "236c23c4c0a08570e8a410a32eb57b6253da6dec",
+      "timestamp": 1759536792,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a0f87f05598821a4276339d0b729a6674d3678bdb5a481a3103c17bfea1db481": [
     {
       "repository": "https://github.com/Futsch1/medTimer.git",
@@ -53095,6 +53109,20 @@
       "tag": "v4",
       "commit": "b06b6ae227f81a4b0f8edfc74ffe3b9efd070673",
       "timestamp": 1739793698,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e9b3aa70a6d46cff68daaf621d59ea48d35e7321a2bf7195c41ecc1b2e16c56": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v12.4.1/app-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 125,
+      "version_name": "12.4.1",
+      "tag": "v12.4.1",
+      "commit": "64a4eaf9540fcd4b567a0329be692b3b06b53613",
+      "timestamp": 1759533615,
       "reproducible": true,
       "error": null
     }
