@@ -27863,6 +27863,20 @@
       "error": null
     }
   ],
+  "18a42a8c2a7ef8fe4cc131d095b65170551d0763f0d9066a615b6a59f9b52b92": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.5.0/SpeakThat-NoUpdater-v1.5.0.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 20,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "c378c3d301066fd782d7444ee29322650bb43d28",
+      "timestamp": 1759657023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -42027,6 +42041,20 @@
       "tag": "v2.4.0",
       "commit": "8a0838626bbff3f999e6f1c0c623ec036b58b4a5",
       "timestamp": 1752243606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d850e95c2ef4e7c69c08212a7fb95b6ce75f5d69416b291113200d62c7df47da": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.5.1/world_clockv2_v1.5.1_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 16,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "8aca0f57e31d39eb5295f59d624d117c3b8694ac",
+      "timestamp": 1759662056,
       "reproducible": true,
       "error": null
     }

@@ -5,6 +5,7 @@ notes:
   - 'FIXED: 2.5.6 introduced embedded build timestamp, see https://github.com/meshtastic/Meshtastic-Android/issues/1372 (was removed with next release)'
   - 2.5.16, 2.6.24 flaky
   - 2.7.0 + 2.7.1 fail, see https://github.com/meshtastic/Meshtastic-Android/issues/3231
+  - 'FIXME: for 2.7.2, remove the -unsigned from the output APK. The loop seems no longer needed either.'
 versions:
   - tag: 2.3.11
     apks:
