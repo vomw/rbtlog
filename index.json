@@ -1805,6 +1805,20 @@
       "error": null
     }
   ],
+  "703514e317128d19390798b92f819ba0cf93f8bdd739b4e65e6b329d4be16c3b": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.9.7/cclauncher-v9.9.7-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 870,
+      "version_name": "v9.9.7",
+      "tag": "v9.9.7",
+      "commit": "471ebdff0ac20328519dddc60f9fde625dbbf1cc",
+      "timestamp": 1759672102,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -2123,6 +2137,20 @@
       "tag": "3.5.1",
       "commit": "6f3d96c3512697bf5d946f92b8739ff1e670f072",
       "timestamp": 1759499287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c5074945678c7a11c5a0b0d400ce35b65761462d80dd4b0e4e9d3cdfe4dbdff1": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.5.4/flicky-3.5.4-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 621,
+      "version_name": "3.5.4",
+      "tag": "3.5.4",
+      "commit": "3c18870e6d27bf9859d1fb4a277428d2b4a1fa78",
+      "timestamp": 1759672437,
       "reproducible": true,
       "error": null
     }
@@ -2743,6 +2771,20 @@
       "error": null
     }
   ],
+  "adfcb588b40c6908a57a16ea254958e12f0ce7c4de04c388f48b60f08eb0b9de": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.1.5/MultiLauncher-1.11.1.5-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110105,
+      "version_name": "1.11.1.5",
+      "tag": "1.11.1.5",
+      "commit": "54593fc1b10aab5c40af5d88da9e15b00d0a85d1",
+      "timestamp": 1759672858,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -3047,6 +3089,20 @@
       "tag": "v1.5.2",
       "commit": "19ef24a6875da1416a1d79cfa248f0840a39ece2",
       "timestamp": 1759067268,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4b759e9b90abf9ddb1d9122d28eb6478465f562ea512c1d661773d1737bb9dd1": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.5.3/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 153,
+      "version_name": "1.5.3",
+      "tag": "v1.5.3",
+      "commit": "b1fa9f261322991a1d808498eb8bfd3631a31d35",
+      "timestamp": 1759673258,
       "reproducible": true,
       "error": null
     }
@@ -17931,6 +17987,20 @@
       "error": null
     }
   ],
+  "e2fd793cd363fc569ab9aa533f200eefb98b54f5af953b41ece2cf7052529a95": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.33.0/com.fibelatti.photowidget-v1.33-1330000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1330000,
+      "version_name": "1.33",
+      "tag": "v1.33.0",
+      "commit": "020c1efee20f1679ae7da4d73298a4f6787d0b50",
+      "timestamp": 1759673757,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -21215,6 +21285,20 @@
       "error": null
     }
   ],
+  "e85ccb04198cc52e0f064fe6b3a17b238920e75bb93f546a3743f86263ab1294": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.3.0/SensorSpot-v1.3.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "0f78240925937946b33e3eb39f20ba2b52c0160f",
+      "timestamp": 1759674192,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -22989,6 +23073,20 @@
       "tag": "v1.0.4",
       "commit": "247fa0f6d5eb639a5e2040a396cb9f14d4e09e90",
       "timestamp": 1759592875,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "932e5ad1a608b54c23139e5646c7126e52b37ca677c64037fafc1f2d8682ad01": [
+    {
+      "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
+      "apk_url": "https://github.com/Harshshah6/SaavnMp3-Android/releases/download/v1.0.5/app-release.apk",
+      "appid": "com.harsh.shah.saavnmp3",
+      "version_code": 2,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "551675fa9a82ba4309b58ea242f092c2f7f14da5",
+      "timestamp": 1759674529,
       "reproducible": true,
       "error": null
     }
@@ -25345,6 +25443,20 @@
       "error": null
     }
   ],
+  "559cc2eb3ad7b2e8732623d2f1eb61b09e9802e3edadcc56377ce2bb28a882ca": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.6.1/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768599,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "a11df326c980a2ace63ae3110acf9acac4c8b935",
+      "timestamp": 1759692446,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ee4e3ebe6b9acc73a78a0465a8bbadd28343b1f4394517d4ee5cc8eaba5d82c": [
     {
       "repository": "https://github.com/Ladsers/Passtable-Android.git",
@@ -27035,6 +27147,20 @@
       "timestamp": 1756837611,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmptd6lm3ra/outputs:/outputs', '--volume', '/tmp/tmptd6lm3ra/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/maxrave-dev/SimpMusic.git', '--env', 'APP_TAG=v0.2.20', '--env', 'APP_COMMIT=e04496222b5fec4339aafe7114b3cb93cf60c1ca', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 40m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "d329d77be5e05757b5c49decac153c93d537290aaa0e43fa3e38f625a4deb8bc": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v0.2.21/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 40,
+      "version_name": "0.2.21",
+      "tag": "v0.2.21",
+      "commit": "102873073f8ccdcd4d1db93d9dcf9ff79dd1ab94",
+      "timestamp": 1759684935,
+      "reproducible": true,
+      "error": null
     }
   ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
@@ -31723,6 +31849,20 @@
       "error": null
     }
   ],
+  "dab1ad7bc125403663c823eb1c7bf5391d9b4de9857b9b63919933a479f29a6f": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.51/1.51-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 109,
+      "version_name": "1.51",
+      "tag": "v1.51",
+      "commit": "622a9d851506d31aff38eaabd6dce184ead53eee",
+      "timestamp": 1759686523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcfb70cdb0670f858ac788e46683b348101203b6b25028c5080f712070b3ce8d": [
     {
       "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
@@ -34911,6 +35051,20 @@
       "error": null
     }
   ],
+  "3bf282c35aca715b07aff36fbe6fdc9e0fdeaa125dd52aaf06bcd49cb60146cf": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.1.0/app-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5100,
+      "version_name": "5.1.0",
+      "tag": "5.1.0",
+      "commit": "a6207d7ae97b0d015ff54ddb3431c1fdb4ca2391",
+      "timestamp": 1759675234,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -35691,6 +35845,20 @@
       "tag": "5.1.0",
       "commit": "98c9ceef2c1976e41a5e986df0c10155597c41ed",
       "timestamp": 1759501141,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f348e3c4042224346af64008ec794dd145c648b6140ac64392c7dbb6ea5b323e": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.1.1/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5110,
+      "version_name": "5.1.1",
+      "tag": "5.1.1",
+      "commit": "fb547289d61d4be43e4ec0e2a3b039022c94bc48",
+      "timestamp": 1759675667,
       "reproducible": true,
       "error": null
     }
@@ -43637,6 +43805,20 @@
       "tag": "v0.6.0",
       "commit": "634d5a5bbdfc1889ff0e7b4888bdcc26ca853c0a",
       "timestamp": 1750083733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "298e5b8c1219102b5259f55162b3aaa39c4ca6804b743707b7133b0df6d6b39b": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.7.0/ReadeckApp-0.7.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 700,
+      "version_name": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "c80662244f3b7ffdfb8d16451bfdf62651fff7e8",
+      "timestamp": 1759676208,
       "reproducible": true,
       "error": null
     }
@@ -53729,6 +53911,20 @@
       "error": null
     }
   ],
+  "5b721d5e5399bed71d606f842686d798d512ae953a426fee27a74e0cad7046cc": [
+    {
+      "repository": "https://github.com/ReneArentz/net.forestany.mediacollection.git",
+      "apk_url": "https://github.com/ReneArentz/net.forestany.mediacollection/releases/download/Media_Collection_1.0.1/Media_Collection_1.0.1.apk",
+      "appid": "net.forestany.mediacollection",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "Media_Collection_1.0.1",
+      "commit": "a0590fd0e4516ae445cae4f528d00c1092102c58",
+      "timestamp": 1759676606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f9981ad289592a8738f8e5c05be28b3f0c0ea421eb70fd234fe98575807501a0": [
     {
       "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
@@ -54257,6 +54453,20 @@
       "tag": "v1.0.2",
       "commit": "9db7722e38b84e7178824a3a0d3270c56605226e",
       "timestamp": 1759085529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2c1c59b0ff0b74fc13da1abf39f31296be2bb0c080b78226e1b29ec479ff88df": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.1.1/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 5,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "54f22525fbe14da6928d1c2dd53d2c04996cb840",
+      "timestamp": 1759676826,
       "reproducible": true,
       "error": null
     }
@@ -63747,6 +63957,20 @@
       "tag": "v0.18.0",
       "commit": "19f8ad12b41fef5b01dbb41bc66a65098194ebc1",
       "timestamp": 1759415303,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d77428335d0ec57526d04f7998eb3edad8bb8ebcaca5d6f8f050fc4e3321e161": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.19.0/WebviewKiosk_v0.19.0.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 47,
+      "version_name": "0.19.0",
+      "tag": "v0.19.0",
+      "commit": "17e7a30456eb8242fbfcab565f20b585d6dc682c",
+      "timestamp": 1759689786,
       "reproducible": true,
       "error": null
     }
