@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Harshshah6/SaavnMp3-Android.git
-updates: releases
+updates: disabled
+notes:
+  - updates are disabled in the repo as well for now, see https://github.com/Harshshah6/SaavnMp3-Android/issues/16
 versions:
   - tag: v1.0.4
     apks:

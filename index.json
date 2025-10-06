@@ -19849,6 +19849,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpd5g7htl9/outputs:/outputs', '--volume', '/tmp/tmpd5g7htl9/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/meshtastic/Meshtastic-Android.git', '--env', 'APP_TAG=v2.7.1', '--env', 'APP_COMMIT=6c0b2c55a03ab4cd93b93f29c25ea593512d863d', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "e292a832d02f73a3c12b7256614d111b3075c54a773495dfd7d14a2315821021": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/2.7.2/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319153,
+      "version_name": "2.7.2 (29319153) fdroid",
+      "tag": "2.7.2",
+      "commit": "7e7b9115c0109131f7ab45d838cc96e4e0e50099",
+      "timestamp": 1759787289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -34603,6 +34617,20 @@
       "tag": "1.1",
       "commit": "ab3b9f409089bfc62275a7b36b495dd160a5faaa",
       "timestamp": 1755482520,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1200eee24a1f15b562469d639ce4d4277431cfbcb7a84d5bee95c93b554d336": [
+    {
+      "repository": "https://github.com/shiyunjin/EasyControlNext.git",
+      "apk_url": "https://github.com/shiyunjin/EasyControlNext/releases/download/v1.0.8/app-release.apk",
+      "appid": "com.shiyunjin.easycontrolnext.app",
+      "version_code": 10008,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "742de3805b24333372637536cfd40092ae2095d7",
+      "timestamp": 1759790110,
       "reproducible": true,
       "error": null
     }
