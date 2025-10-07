@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/shiftrot/caps2ctrl.git
-updates: releases
+updates: disabled
+notes:
+  - disabled updates 2025-10-07 as repo and account disappeared
 versions:
   - tag: v1.8
     apks:
