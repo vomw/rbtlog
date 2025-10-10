@@ -1469,6 +1469,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp8p01ij6_/outputs:/outputs', '--volume', '/tmp/tmp8p01ij6_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/ericswpark/camsung.git', '--env', 'APP_TAG=1.2.0', '--env', 'APP_COMMIT=db9406266733f6dd498bfc6c1401626fbbb4d1e4', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "c6e0087ee2e5af899e3245902a21a788d8a6ddcea137825b1e25c38871be38f5": [
+    {
+      "repository": "https://github.com/ericswpark/camsung.git",
+      "apk_url": "https://github.com/ericswpark/camsung/releases/download/1.2.1/app-release.apk",
+      "appid": "android.com.ericswpark.camsung",
+      "version_code": 9,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "239ee993385c136790671b0a7d8d0f63c51f1e26",
+      "timestamp": 1760078611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7774b9273ef86e5c45185be928e03c46c355668ce36920d0dcbe3c16a8771ea7": [
     {
       "repository": "https://github.com/mlm-games/CCLauncher.git",
@@ -2823,6 +2837,20 @@
       "tag": "1.11.1.6",
       "commit": "53e761c524170697a74a45d100b6a5f6dc3a737d",
       "timestamp": 1760017821,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0ce1f4f41f5941d71bb840e4674c0686d4cac6b9f2c6d0db94468295034608df": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.2.0/MultiLauncher-1.11.2.0-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110200,
+      "version_name": "1.11.2.0",
+      "tag": "1.11.2.0",
+      "commit": "9cbbe9e19d448150e7473e458ea59619ec663314",
+      "timestamp": 1760104164,
       "reproducible": true,
       "error": null
     }
@@ -6327,6 +6355,20 @@
       "error": null
     }
   ],
+  "2277f8252a3f47aea5b6f00a698733a5e79c614483e3727eef559907928bed36": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.9.223.668-stable/Rhythm-2.9.223.668-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 29223668,
+      "version_name": "2.9.223.668",
+      "tag": "v2.9.223.668-stable",
+      "commit": "a1a6249b43b76a7b1651fd3bd213ee90eac5aa5f",
+      "timestamp": 1760120518,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -8035,6 +8077,20 @@
       "error": null
     }
   ],
+  "19e26fc14f4660469a9cb0357976a30fcafc2fbcc0b18b1204632cdd9fc03e11": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.9a/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1368,
+      "version_name": "4.5.9a",
+      "tag": "v4.5.9a",
+      "commit": "a8460c35a602cf8a96ff2b9e08816e531432bae2",
+      "timestamp": 1760111515,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -9151,6 +9207,20 @@
       "tag": "v15.3",
       "commit": "98ae1e28bec38befd0c2689c67cd405540a7fdb8",
       "timestamp": 1758376255,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "debe8c740e987a4ad21ac01dc762878f7b627ed31c6ceaf9044c9a81537aa283": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v16.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 50,
+      "version_name": "16.0",
+      "tag": "v16.0",
+      "commit": "5ffe9e8352e9572bf9cded3df07e1abd346d3a73",
+      "timestamp": 1760120898,
       "reproducible": true,
       "error": null
     }
@@ -13071,6 +13141,20 @@
       "tag": "0.9.0",
       "commit": "7519c05f218663f6bafc5a62fe74ea3cd4268149",
       "timestamp": 1756045244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8ffd883ac61bb3131c5d86e4e162ec6dabe8ded03d31a9e149633d4c06e99687": [
+    {
+      "repository": "https://github.com/CDrummond/lms-material-app.git",
+      "apk_url": "https://github.com/CDrummond/lms-material-app/releases/download/0.9.1/lms-material-release-0.9.1.apk",
+      "appid": "com.craigd.lmsmaterial.app",
+      "version_code": 901,
+      "version_name": "0.9.1",
+      "tag": "0.9.1",
+      "commit": "5513438f43eafc1fe817ea672429afa6109768ae",
+      "timestamp": 1760121622,
       "reproducible": true,
       "error": null
     }
@@ -18557,6 +18641,20 @@
       "tag": "1.30",
       "commit": "6a45b5ae7ea9e9d411fa2e6080c014544583103c",
       "timestamp": 1742838855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0de887676a81cac3a06d83dbebd4ff31a37ad9d469e744a32d8225f863cb604c": [
+    {
+      "repository": "https://github.com/Johboh/hassalarm.git",
+      "apk_url": "https://github.com/Johboh/hassalarm/releases/download/1.33/app-release.apk",
+      "appid": "com.fjun.hassalarm",
+      "version_code": 33,
+      "version_name": "1.33",
+      "tag": "1.33",
+      "commit": "9fa9435b56b9ae2a7fc2a29e1a9fc60e7fb17b84",
+      "timestamp": 1760121764,
       "reproducible": true,
       "error": null
     }
@@ -31527,6 +31625,20 @@
       "error": null
     }
   ],
+  "cd0ee7aa3ecd4db98f3d5ee71c48e7f0158563c0ebc73467e019b535319cef77": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.4.3/torrentsearch-v0.4.3.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 10,
+      "version_name": "0.4.3",
+      "tag": "v0.4.3",
+      "commit": "8399dc86b27aec98b49d9e268312eb0377aa8aac",
+      "timestamp": 1760123179,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15b1a43f113ae65f507cd7a36170ff3e6cc497cbb8b0e0e7116a157cb8486df7": [
     {
       "repository": "https://github.com/PranshulGG/WeatherMaster.git",
@@ -41053,6 +41165,20 @@
       "error": null
     }
   ],
+  "d43b1676604acb6ccf41719ea43751c929e8311921e1612f15296084a03c415c": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.8/app-foss-release.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5500,
+      "version_name": "3.3.8",
+      "tag": "v3.3.8",
+      "commit": "8a4089aa0ab199f9b56d97447d46df8279e6f2b2",
+      "timestamp": 1760104706,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -47783,6 +47909,20 @@
       "error": null
     }
   ],
+  "fcf6fdcfbce4b76d845fb45feba3b536d75ee82ba70d2e06e36cd034697db8f2": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v3.0.1-rc0/eu.darken.capod-v3.0.1-rc0-30001000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 30001000,
+      "version_name": "3.0.1-rc0",
+      "tag": "v3.0.1-rc0",
+      "commit": "5c2b66fe27805181cb4e915372caee4664c385b5",
+      "timestamp": 1760105133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5d2f0a0c17ac51df705dcde49ab6c6c2318aa6f382ed154bd20158e8280e8422": [
     {
       "repository": "https://github.com/d4rken-org/sdmaid-se.git",
@@ -49813,6 +49953,20 @@
       "error": null
     }
   ],
+  "a3e0ee23edbb2c1969040eecf3264fddb8a45c8ed9bee908c15fa72724de6bb4": [
+    {
+      "repository": "https://github.com/paroj/DSub2000.git",
+      "apk_url": "https://github.com/paroj/DSub2000/releases/download/5.6.3/DSub2000_5.6.3-floss-release.apk",
+      "appid": "github.paroj.dsub2000",
+      "version_code": 212,
+      "version_name": "5.6.3",
+      "tag": "5.6.3",
+      "commit": "b5e4b86f86843332ddbe21ba9a86adc8380dde0d",
+      "timestamp": 1760123577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15f8a0ca4b6ec0af765878239a0b5b1d5acfff16a677b432d39f6d710e51fe43": [
     {
       "repository": "https://github.com/green-green-avk/AnotherTerm.git",
@@ -49921,6 +50075,20 @@
       "tag": "v3.3",
       "commit": "dd694d2d47f05cc2efc9b416d9afa92f14578ade",
       "timestamp": 1757170175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "183ed0561d75035c0343c2c431352467f46ca7ed0cfa87ecc43df2c55d16571e": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.4/HeliBoard_3.4-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3400,
+      "version_name": "3.4",
+      "tag": "v3.4",
+      "commit": "6f0793f5964fa0e1a9e494a1cb83c37394e2cbfc",
+      "timestamp": 1760105480,
       "reproducible": true,
       "error": null
     }
@@ -51569,6 +51737,20 @@
       "tag": "3.1.1",
       "commit": "4794fe5d415965589213df70a561680f737d5874",
       "timestamp": 1759846278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "15f2f335f5a108e530781257ee3528ce5425e3cfcd31d0d440f76f63134e4b63": [
+    {
+      "repository": "https://github.com/samolego/Canta.git",
+      "apk_url": "https://github.com/samolego/Canta/releases/download/3.1.2/app-release.apk",
+      "appid": "io.github.samolego.canta",
+      "version_code": 223,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "23e912baaaf514f89d75d1e105c187eba63ae8d1",
+      "timestamp": 1760105813,
       "reproducible": true,
       "error": null
     }
@@ -54947,6 +55129,20 @@
       "error": null
     }
   ],
+  "7ec785af9c14fe1ce2b621ea8077d9316301e6138fba6cffe35f75549e7dc8a6": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.1.4/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 8,
+      "version_name": "1.1.4",
+      "tag": "v1.1.4",
+      "commit": "04a19de72547b72e084b5bece3ed096c8d24836f",
+      "timestamp": 1760106493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f37f6740d7a9b7d6fc28ddcaeddbe4dc3ccda3def4715655fc99af74d28e8fce": [
     {
       "repository": "https://github.com/AkaneTan/Gramophone.git",
@@ -56669,6 +56865,20 @@
       "error": null
     }
   ],
+  "8178ac17a093166cae18a6c134d6d26d06aff6ca53e76dff3663752ca1add156": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.6.2/calendar-12-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 12,
+      "version_name": "1.6.2",
+      "tag": "1.6.2",
+      "commit": "5c3c0baf9213a6905768fbe2c114ab5b1aa56d9c",
+      "timestamp": 1760106687,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -57971,6 +58181,20 @@
       "error": null
     }
   ],
+  "ab76d38b928e2fbc1a1835eb698b3d09251c7f22781323aa7fe4cae9bdf05445": [
+    {
+      "repository": "https://github.com/FossifyOrg/Notes.git",
+      "apk_url": "https://github.com/FossifyOrg/Notes/releases/download/1.5.0/notes-11-foss-release.apk",
+      "appid": "org.fossify.notes",
+      "version_code": 11,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "2ea1d086d919231f83ff5f6834cdc36b240f53bd",
+      "timestamp": 1760107105,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4ccca90f3e25b15d6fed23b72680329c17f57f0726e660e598b7192798ea582e": [
     {
       "repository": "https://github.com/FossifyOrg/Paint.git",
@@ -58919,6 +59143,20 @@
       "tag": "0.5.0",
       "commit": "02c94a5bdef2e0eb2e7fc443ffe1184a5030a422",
       "timestamp": 1757586845,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1de73ae4792b8d0f9eb3179cb448091beed11fc8dba5a8c174ad8419e41c4ecd": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.6.0/squeezelite-0.6.0.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 600,
+      "version_name": "0.6.0",
+      "tag": "0.6.0",
+      "commit": "eb819fd208a98226f7b556048a6274435235e9dd",
+      "timestamp": 1760123832,
       "reproducible": true,
       "error": null
     }
@@ -61665,6 +61903,34 @@
       "error": null
     }
   ],
+  "59795cb09dc4ed6b6be38c7119c2919a5a6207b73ef72967886633a115128921": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.5/stayput-app-release-0.8.5.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 6,
+      "version_name": "0.8.5",
+      "tag": "v0.8.5",
+      "commit": "4c3d0c32ada330bdb742cc8b560d8fdf1e88ad0a",
+      "timestamp": 1760098981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "921a2437ab06651ffb842e31adf661bab24d0a141f337874a3274846d209678f": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.6/stayput-app-release-0.8.6.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 7,
+      "version_name": "0.8.6",
+      "tag": "v0.8.6",
+      "commit": "a3e5af82a3ae4b4856918350f483d9688f63a09b",
+      "timestamp": 1760124219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4860b10da22d7ed51e39f80cfbdfa2947eb2e8c8e480e9cc1a9de50224e246f3": [
     {
       "repository": "https://codeberg.org/y20k/transistor.git",
@@ -61787,6 +62053,20 @@
       "tag": "v4.3.0",
       "commit": "e68da0de941950f435fe6a191d9d946e2e9c696e",
       "timestamp": 1759932814,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "432b04c4a0d19fd840d160eb1d9541d0834acfb1c068fc31da78ebaa428b2cd0": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.1/transistor-app-release-4.3.1.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 108,
+      "version_name": "4.3.1",
+      "tag": "v4.3.1",
+      "commit": "c09c6cd8c306a1810f3b8d5c731e04dee01fed66",
+      "timestamp": 1760111887,
       "reproducible": true,
       "error": null
     }
@@ -64685,6 +64965,20 @@
       "tag": "v0.21.0",
       "commit": "8d8c328e4c5f40f9ae993ef1fa26175dffdf22f0",
       "timestamp": 1759933099,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4844156d4f1b2648d721abacc8b66e708acfbc8fc35dbe895fc2d7ba3e8fa11a": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.22.1/WebviewKiosk_v0.22.1.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 51,
+      "version_name": "0.22.1",
+      "tag": "v0.22.1",
+      "commit": "d88091120171736b3d1364c6fb0c3c483c3613a1",
+      "timestamp": 1760108125,
       "reproducible": true,
       "error": null
     }
