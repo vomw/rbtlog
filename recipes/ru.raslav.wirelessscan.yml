@@ -2,7 +2,7 @@
 repository: https://github.com/atomofiron/android-wifi-seeker.git
 updates: releases
 notes:
-  - 'FIXME: 2.2.0 was built from non-existing commit'
+  - 'FIXME: 2.2.0 & 2.2.1 were built from non-existing commit, see https://github.com/atomofiron/android-wifi-seeker/issues/4 (rbtlog can handle that automatically, but when fixed we need to clean up)'
 versions:
   - tag: release-2.2.0
     apks:
@@ -15,6 +15,40 @@ versions:
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
           - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
           - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/eb223beb3066e38e6a1c6dfb490422ca45d63ae7/02ab1679b40706fecbefbd1e9bd20e0f68733326/' 'META-INF/version-control-info.textproto'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v2.2.1
+    apks:
+      - apk_pattern: wifi-seeker.*\.apk
+        apk_url: https://github.com/atomofiron/android-wifi-seeker/releases/download/v2.2.1/wifi-seeker-v2.2.1.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py -v assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/f54920f898db49c5056217fb9ee85fb7410b2b7f/6c043c772adf2d6b80530b0d0a8d03befd5d87db/' 'META-INF/version-control-info.textproto'
           - mv $OUT /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build

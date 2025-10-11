@@ -16855,6 +16855,20 @@
       "error": null
     }
   ],
+  "7b3139847b659a4c4de581e673b195d760c053a5fd1b98533d393f6579879d26": [
+    {
+      "repository": "https://gitlab.com/draekko-rand/compassnavigator.git",
+      "apk_url": "https://gitlab.com/draekko-rand/compass-navigator-binaries/-/raw/main/release/CompassNavigator-20252-20251010-1.apk",
+      "appid": "com.draekko.compassnavigator",
+      "version_code": 2025002,
+      "version_name": "2025.2",
+      "tag": "v2025.2",
+      "commit": "2bfcf680a0b996ce9d5a8a01e70058a896bad618",
+      "timestamp": 1760177763,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "917c5ba77db158a1a1a2105a33adc781d0b571c464e91ad026d5a84f7dc83260": [
     {
       "repository": "https://github.com/Mahmud0808/ColorBlendr.git",
@@ -26420,6 +26434,20 @@
       "commit": "9e41b2e76b1973edf95362c857f018d29ab7df18",
       "timestamp": 1759948557,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "cb564372709f4a47310ac4aada272551eac956db61e60c087f576cab65e1f9a7": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.4.4/alternate-arm64-v8a-v2.4.4.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 12,
+      "version_name": "2.4.4",
+      "tag": "v2.4.4",
+      "commit": "2afbe6eaa7dcaa9f5abd4bf96ac298dc8506ff26",
+      "timestamp": 1760122081,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -63621,6 +63649,20 @@
       "tag": "release-2.2.0",
       "commit": "eb223beb3066e38e6a1c6dfb490422ca45d63ae7",
       "timestamp": 1757604850,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b9538cfb192d1eb579aa93595c6e96a50101060f2fae83b78c192165ba1a54f7": [
+    {
+      "repository": "https://github.com/atomofiron/android-wifi-seeker.git",
+      "apk_url": "https://github.com/atomofiron/android-wifi-seeker/releases/download/v2.2.1/wifi-seeker-v2.2.1.apk",
+      "appid": "ru.raslav.wirelessscan",
+      "version_code": 20,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "f54920f898db49c5056217fb9ee85fb7410b2b7f",
+      "timestamp": 1760187896,
       "reproducible": true,
       "error": null
     }
