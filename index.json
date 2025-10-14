@@ -2883,6 +2883,20 @@
       "error": null
     }
   ],
+  "b46cc47e615587f3b9de732d439f3e91865704f1165c8b2dbb69da9c8caa835e": [
+    {
+      "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
+      "apk_url": "https://github.com/DroidWorksStudio/mLauncher/releases/download/1.11.2.2/MultiLauncher-1.11.2.2-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110202,
+      "version_name": "1.11.2 build 2",
+      "tag": "1.11.2.2",
+      "commit": "0c4526a8ea0335830c3cc021397589e769616d81",
+      "timestamp": 1760473273,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -6435,6 +6449,20 @@
       "tag": "v2.9.230.684-stable",
       "commit": "23345c61aedc20e13ef66df24d115bbf41cc5430",
       "timestamp": 1760380186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "350696058219cfcb283d9b1a9003631acda63f138a6ee41e0391cf7760c6e377": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.9.232.687-stable/Rhythm-2.9.232.687-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 29232687,
+      "version_name": "2.9.232.687",
+      "tag": "v2.9.232.687-stable",
+      "commit": "4e7bc66858c0e6722d68882df0f26d2f1a352913",
+      "timestamp": 1760450043,
       "reproducible": true,
       "error": null
     }
@@ -11671,6 +11699,20 @@
       "tag": "2025.10.1172",
       "commit": "d74650c37bca86428ded848cbf8c942d1d4c0cb3",
       "timestamp": 1759412881,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "50b9e52836ab86ef0b8691219cf68e0a1824c498508f96db709523af9abde51f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.10.1173/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1173,
+      "version_name": "2025.10.1173",
+      "tag": "2025.10.1173",
+      "commit": "816b2a1b8b3d0561eb30f55fdadbca74b1969050",
+      "timestamp": 1760450387,
       "reproducible": true,
       "error": null
     }
@@ -20297,6 +20339,20 @@
       "error": null
     }
   ],
+  "9472c64626b2fc8412abf759070d14a6760bd2d8af7d7268a453b362334dd213": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.3/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319219,
+      "version_name": "2.7.3 (29319219) fdroid",
+      "tag": "v2.7.3",
+      "commit": "c6be5be72faba5edf31fdd56d83e0cd58b9643f5",
+      "timestamp": 1760391412,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -21775,6 +21831,20 @@
       "error": null
     }
   ],
+  "0aef99a7fde060ec8bba8a465ea0bb213a9cc75cc3068f40330229dbf73ecc74": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.4.0/SensorSpot-v1.4.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 9,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "48a666f43416e7cdb9f3e29754ade3cc67f95b18",
+      "timestamp": 1760473811,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -23129,6 +23199,20 @@
       "tag": "9.6.5",
       "commit": "7186635b3485b4252b24083e5eba3d57461bc8b5",
       "timestamp": 1760380624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "684c506e37b5b6b7d3349f5266349a3b94e834d8c2004780e0f8de0faa6f7179": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.6/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2140,
+      "version_name": "9.6.6",
+      "tag": "9.6.6",
+      "commit": "cb92f2d0ee0cd6c1360455d64db05d3b119c83cf",
+      "timestamp": 1760450805,
       "reproducible": true,
       "error": null
     }
@@ -26003,6 +26087,20 @@
       "error": null
     }
   ],
+  "492188547e408dcb1c8f75b0cfc2878a4f9cfeb166f409bdbff0009c47339bbb": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.6.2/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768600,
+      "version_name": "2.6.2",
+      "tag": "v2.6.2",
+      "commit": "db0a2c0f2663299c14d44a06b0ef1957715a4056",
+      "timestamp": 1760451276,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ee4e3ebe6b9acc73a78a0465a8bbadd28343b1f4394517d4ee5cc8eaba5d82c": [
     {
       "repository": "https://github.com/Ladsers/Passtable-Android.git",
@@ -26713,6 +26811,20 @@
       "tag": "v2.4.5",
       "commit": "c2753fbc2fa212c6a01309af5770626a7be68ec6",
       "timestamp": 1760192335,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bfacb5907500504f4b68b234a3190e2f1d9b1ec131cccf2e6b1874bd40b3888f": [
+    {
+      "repository": "https://github.com/BioHazard786/Alternate.git",
+      "apk_url": "https://github.com/BioHazard786/Alternate/releases/download/v2.4.6/alternate-arm64-v8a-v2.4.6.apk",
+      "appid": "com.lulu786.Alternate",
+      "version_code": 14,
+      "version_name": "2.4.6",
+      "tag": "v2.4.6",
+      "commit": "4cc998f810ddf7706229fe4187232357ce7b6146",
+      "timestamp": 1760474250,
       "reproducible": true,
       "error": null
     }
@@ -34673,6 +34785,20 @@
       "tag": "v7.0.11",
       "commit": "fda6619fee80138eb44bbf8068d482cd1417df7b",
       "timestamp": 1759767372,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd502a99a17f21763daeaa6f1b6986aa6373a185439e1106352173ed809b15e4": [
+    {
+      "repository": "https://github.com/SamAmco/track-and-graph.git",
+      "apk_url": "https://github.com/SamAmco/track-and-graph/releases/download/v7.0.12/app-release.apk",
+      "appid": "com.samco.trackandgraph",
+      "version_code": 700012,
+      "version_name": "7.0.12",
+      "tag": "v7.0.12",
+      "commit": "8390f5457133d790a66d47b25a16dfd80dc2d2c2",
+      "timestamp": 1760451619,
       "reproducible": true,
       "error": null
     }
@@ -45615,6 +45741,20 @@
       "error": null
     }
   ],
+  "59d2428dc832bcef8181a062baf0f029df28fd0989f3d1aa2b8050870fca53dd": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.7.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10070012,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "d0aef60c65d4bb25aba4227adf614168ba378051",
+      "timestamp": 1760452197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -47179,6 +47319,20 @@
       "tag": "v0.2.0-beta",
       "commit": "05b98393e973f446fdfa570f88f4747a09f38896",
       "timestamp": 1759760424,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13d07ece8df435c2fa2687649e8f7bd2a6ed9d40b07d99a756614d3ac6d55216": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.2.1-beta/SimpleTag_v0.2.1-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 8,
+      "version_name": "0.2.1-beta",
+      "tag": "v0.2.1-beta",
+      "commit": "5bfa9826a783b33310944a5e764267a63983ec4a",
+      "timestamp": 1760453012,
       "reproducible": true,
       "error": null
     }
@@ -51277,6 +51431,20 @@
       "tag": "0.23.10.1",
       "commit": "c0e6fbac3a77c4060e3bc54931142847755b710a",
       "timestamp": 1760365077,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "149727a23a7064876798a3bf22ba83440e6340a709415e629a386bf3d785204f": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.10.2/freetube-0.23.10.2-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230010002,
+      "version_name": "0.23.10.2",
+      "tag": "0.23.10.2",
+      "commit": "a34a9ee2c66c526d7e28d9f3c034bd93077f820e",
+      "timestamp": 1760472373,
       "reproducible": true,
       "error": null
     }
@@ -65553,6 +65721,20 @@
       "tag": "v0.22.6",
       "commit": "3909ebd355dd0a4997cb0c5dbf6989113cbf4210",
       "timestamp": 1760279070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "565d69421bd639308cac3c1e1a702190b1c8a5992e84ab10fb9070e5a5c3f624": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.23.0/WebviewKiosk_v0.23.0.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 57,
+      "version_name": "0.23.0",
+      "tag": "v0.23.0",
+      "commit": "9771c86bc5c3da3a5d03abb3125e7b124adbaf7d",
+      "timestamp": 1760453307,
       "reproducible": true,
       "error": null
     }
