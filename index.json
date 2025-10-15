@@ -1413,6 +1413,20 @@
       "error": null
     }
   ],
+  "83b69c555c27884b7f272cc11f75c73de74d9eac14ec60c1463715f7d0dc0a11": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.18.1/Podcini.X_release_free_8.18.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 181,
+      "version_name": "8.18.1",
+      "tag": "8.18.1",
+      "commit": "acea9e97448ca5608fa329b836731cb65162beb1",
+      "timestamp": 1760528575,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -17117,6 +17131,20 @@
       "tag": "2.3.2",
       "commit": "6775fc357dc6d2d885f6be06867e0ab10d2827ef",
       "timestamp": 1719509044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "23c99ba5d10f96003bd379d659d60a3b3ee02fb4b19d3b57cede760d9b9cbab1": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.0-alpha9/EblanLauncher-v0.1.0-alpha9.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 9,
+      "version_name": "0.1.0-alpha9",
+      "tag": "v0.1.0-alpha9",
+      "commit": "0e136a9f5d6698611bbc6b5b76f3dc6a24cec93a",
+      "timestamp": 1760516264,
       "reproducible": true,
       "error": null
     }
