@@ -101,3 +101,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v12.4.4
+    apks:
+      - apk_pattern: app-arm64-release\.apk
+        apk_url: https://github.com/koiverse/ArchiveTune/releases/download/v12.4.4/app-arm64-release.apk
+        build:
+          - sed -r '/signingConfigs \{/,/^    \}/d ; s/signingConfigs.getByName\("[A-z]*"\)/null/' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleArm64Release
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/arm64/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

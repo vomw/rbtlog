@@ -4003,6 +4003,20 @@
       "error": null
     }
   ],
+  "37c9f41f09c8e8ac4d4f6d013e8e6a0ed5ed3e1f3c99694e8090cdfd852bae65": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.3.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 931,
+      "version_name": "v9.3.1",
+      "tag": "v9.3.1",
+      "commit": "c77611f2f07b3aa746cd0e23d5ea1263aff36c20",
+      "timestamp": 1760536127,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -8213,6 +8227,20 @@
       "tag": "v4.5.9a",
       "commit": "a8460c35a602cf8a96ff2b9e08816e531432bae2",
       "timestamp": 1760111515,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73f30b31112a62324ee42054aa16fba46322cb9468a6b952bb1429c171bce2c3": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.9b/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1369,
+      "version_name": "4.5.9b",
+      "tag": "v4.5.9b",
+      "commit": "476cd4d3745f31e469b9ce27bf5a3ec31143ec53",
+      "timestamp": 1760552522,
       "reproducible": true,
       "error": null
     }
@@ -29067,6 +29095,20 @@
       "error": null
     }
   ],
+  "7af88470423d1ae821fcf3a8d5ccaadc4284f0ba40235cfdb9998c78af950448": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.20.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 58,
+      "version_name": "1.20.0",
+      "tag": "v1.20.0",
+      "commit": "919fadfce9f9ce9de3c946bd890c93cb7c1c69af",
+      "timestamp": 1760552724,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -32363,6 +32405,20 @@
       "tag": "2025.06.17.1",
       "commit": "61391f9eeb56c45947a3472aeb1834199fe41019",
       "timestamp": 1750271489,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83d0c5ac10fcea2b3a65c704ca41cc82353ed1787ad2b04beb579fadf0f46399": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2025.10.13.1/2025.10.13.1-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111124,
+      "version_name": "2025.10.13.1",
+      "tag": "2025.10.13.1",
+      "commit": "8eda2043435c0d9e16e81a969b7256d70a4fd4f4",
+      "timestamp": 1760536411,
       "reproducible": true,
       "error": null
     }
@@ -39125,6 +39181,20 @@
       "error": null
     }
   ],
+  "f9a305c371d51eabed0aeb83c0cf95275172a68e7e5fdeb30d3e3a8903ed1905": [
+    {
+      "repository": "https://github.com/trustdecision/trustdevice-android.git",
+      "apk_url": "https://github.com/trustdecision/trustdevice-android/releases/download/1.1.3/TrustDevice-release-1.1.3.apk",
+      "appid": "com.trustdevice.android.demo",
+      "version_code": 12,
+      "version_name": "1.1.3",
+      "tag": "1.1.3",
+      "commit": "e12705b9edbee997c79027148e0d6ca5cfa6c416",
+      "timestamp": 1760536788,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c6f1f4508a7078585621f8fe02e4e801d16b2edd6a559e593aa674dea22172b5": [
     {
       "repository": "https://github.com/tuhinpal/cash_compass.git",
@@ -45793,6 +45863,20 @@
       "tag": "v1.7.1",
       "commit": "d0aef60c65d4bb25aba4227adf614168ba378051",
       "timestamp": 1760452197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a17936230ec462a304852563368eaf7498f10445e341291da49790a50690c5b": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.7.2/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10070022,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "93b8dd7d6800dea29849a01ceafa851c7a973f3e",
+      "timestamp": 1760553259,
       "reproducible": true,
       "error": null
     }
@@ -54443,6 +54527,20 @@
       "error": null
     }
   ],
+  "11fe213860d33f6e83cf898deeee99f9951d88c709351753c027b12af6bce556": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.8.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 122,
+      "version_name": "1.8.2-izzy",
+      "tag": "v1.8.2",
+      "commit": "534392fe257e5f585c63d6409d1ef4f19358b4c8",
+      "timestamp": 1760536988,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -54775,6 +54873,20 @@
       "tag": "v12.4.3",
       "commit": "53ecb87c51891bd6865429fc0911e9bfd74336b0",
       "timestamp": 1760194298,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4dbf568580927527076d7df2b1f454eb2479f1333826f36f014ac103b9c12baa": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v12.4.4/app-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 127,
+      "version_name": "12.4.4",
+      "tag": "v12.4.4",
+      "commit": "dbfaf52e87e485e436aca77504f3fb11d30958fd",
+      "timestamp": 1760537532,
       "reproducible": true,
       "error": null
     }
