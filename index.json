@@ -1427,6 +1427,20 @@
       "error": null
     }
   ],
+  "3e6419aeda2a15ffeabe13c3634c9b18670b6a46ca14e7d515712ca838d76422": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.19.0/Podcini.X_release_free_8.19.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 182,
+      "version_name": "8.19.0",
+      "tag": "8.19.0",
+      "commit": "25b72f2d73dff6eaa227e2838141114609645bc0",
+      "timestamp": 1760622482,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -19793,6 +19807,20 @@
       "error": null
     }
   ],
+  "21ff2006cbd45bd26bc5fdcb20d5d7450ad76efc88b1a6e746abee22c7b70301": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.19.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 134,
+      "version_name": "1.19.2",
+      "tag": "v1.19.2",
+      "commit": "28240182d02c0a74878e4a357cf3c83a73175c63",
+      "timestamp": 1760622806,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -23287,6 +23315,20 @@
       "error": null
     }
   ],
+  "40838b8ec334ff40fa1c462a36115d399de0c331abf1d942ed8ffd3b4cca4807": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.7/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2141,
+      "version_name": "9.6.7",
+      "tag": "9.6.7",
+      "commit": "344b920ff110ab8587f1efca930f89e3f921e463",
+      "timestamp": 1760623024,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -25849,6 +25891,20 @@
       "error": null
     }
   ],
+  "bec49e40530e133a936c3e2ee4125bf1add5545170fa21c4c3120d3b879796d4": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.2.0/KeePassDX-4.2.0-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 145,
+      "version_name": "4.2.0",
+      "tag": "4.2.0",
+      "commit": "208f1e97d51df3ae69cc86da79095b0456b71a0a",
+      "timestamp": 1760623432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -25943,6 +25999,20 @@
       "tag": "4.1.9",
       "commit": "1b98bd740cda9d0c6f4942e4901f1c943e391c5f",
       "timestamp": 1759775555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "477ea578c3473293496c19048873fd880ede1aa8372e6aa465695e61692b92f1": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.2.0/KeePassDX-4.2.0-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 145,
+      "version_name": "4.2.0",
+      "tag": "4.2.0",
+      "commit": "208f1e97d51df3ae69cc86da79095b0456b71a0a",
+      "timestamp": 1760623708,
       "reproducible": true,
       "error": null
     }
@@ -35444,6 +35514,20 @@
       "commit": "742de3805b24333372637536cfd40092ae2095d7",
       "timestamp": 1759790110,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e9731b82e1b57557fdcbadcd26d23c929c614b7c9b47cb350dffca5995a37e5": [
+    {
+      "repository": "https://github.com/shiyunjin/EasyControlNext.git",
+      "apk_url": "https://github.com/shiyunjin/EasyControlNext/releases/download/v1.0.9/app-release.apk",
+      "appid": "com.shiyunjin.easycontrolnext.app",
+      "version_code": 10009,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "67e22a3bea107efe8690bf5cae416cb561a486ac",
+      "timestamp": 1760553076,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -51589,6 +51673,20 @@
       "error": null
     }
   ],
+  "1e552e43807a94b3e6e3ebe93a5a7bd11aad98e4aa19187c65e7c03fdcac64ac": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.12.1/freetube-0.23.12.1-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230012001,
+      "version_name": "0.23.12.1",
+      "tag": "0.23.12.1",
+      "commit": "fa08f633f51e3c3a92ca09ad8a81415a4c0f378b",
+      "timestamp": 1760624104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -59203,6 +59301,20 @@
       "error": null
     }
   ],
+  "a0f2154bc1429dc8b879a98c3b0dc5ec66070018b0340def411352aa6f4981cc": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.7.3/phone-16-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 16,
+      "version_name": "1.7.3",
+      "tag": "1.7.3",
+      "commit": "dda289bef1517b01d6d2974c5d8b89b5e0dc3267",
+      "timestamp": 1760648373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16eb7d91a305544ef92ee26b6773db3b0913aa7c9c5b75b93916fa5ee4dfaad5": [
     {
       "repository": "https://github.com/FossifyOrg/Thank-You.git",
@@ -60277,6 +60389,20 @@
       "tag": "v1.4.3",
       "commit": "6de2bb0c8e6c62b740ba36326015969e35308359",
       "timestamp": 1760019788,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b26efaea24b6deabc37420d6124373b546ea95a1775612c1ea3db3204661c556": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.5.0-alpha01/tomato-v1.5.0-alpha01-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 12,
+      "version_name": "1.5.0-alpha01",
+      "tag": "v1.5.0-alpha01",
+      "commit": "6d58506391d054f3c5a96d874e94be23b4e75d32",
+      "timestamp": 1760624404,
       "reproducible": true,
       "error": null
     }
@@ -65903,6 +66029,20 @@
       "tag": "v0.23.0",
       "commit": "9771c86bc5c3da3a5d03abb3125e7b124adbaf7d",
       "timestamp": 1760453307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d40dab1064f7cfda9837ab998165d2b2831c59c035df52751d20de2cea96f8bf": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.2/WebviewKiosk_v0.24.2.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 60,
+      "version_name": "0.24.2",
+      "tag": "v0.24.2",
+      "commit": "4cf8bcf6245cb38eeaa46895e44d3f8661c70873",
+      "timestamp": 1760624620,
       "reproducible": true,
       "error": null
     }
