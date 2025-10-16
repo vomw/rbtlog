@@ -38775,6 +38775,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "8ebc688d20d0b0e7002f8eed98c7d105a76f1858415cdcd67cf7021851d0a4da": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.2/call-limiter-0.3.2.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 3,
+      "version_name": "0.3.2",
+      "tag": "0.3.2",
+      "commit": "a30897268ff4d4886632e6b2cb12630a0d34bec7",
+      "timestamp": 1760569470,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec1f2388c8dcea14159524b1bbd4c81a7d7830bab73fbe4efbc5e39d36e7b56": [
     {
       "repository": "https://github.com/0xf4b1/motionmate.git",
