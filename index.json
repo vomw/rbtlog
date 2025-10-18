@@ -1441,6 +1441,20 @@
       "error": null
     }
   ],
+  "3f53a84cc6ae7ff9d5256245a3617b81e05dc284ba835f0d651b9ecbdeb8e1cb": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.20.0/Podcini.X_release_free_8.20.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 183,
+      "version_name": "8.20.0",
+      "tag": "8.20.0",
+      "commit": "982b076aa1bf8b6f80a28592d879ab2feb34d94e",
+      "timestamp": 1760811711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -17275,6 +17289,20 @@
       "error": null
     }
   ],
+  "cebcaaadd5587bbf5485e25ad4acf3414c807c6f58360b40b13593a392cd00a8": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.2-alpha/EblanLauncher-v0.1.2-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 12,
+      "version_name": "0.1.2-alpha",
+      "tag": "v0.1.2-alpha",
+      "commit": "f33a5103b10cfa5aff55041d3f07e376ef676cea",
+      "timestamp": 1760812475,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpf6641ky8/outputs:/outputs', '--volume', '/tmp/tmpf6641ky8/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/JackEblan/EblanLauncher.git', '--env', 'APP_TAG=v0.1.2-alpha', '--env', 'APP_COMMIT=f33a5103b10cfa5aff55041d3f07e376ef676cea', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -25345,6 +25373,20 @@
       "error": null
     }
   ],
+  "f6a292003a1670ffa6b2a29baf66962818779a5bd59f5952693c217dec39add7": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v1.8.5/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 20,
+      "version_name": "1.8.5",
+      "tag": "v1.8.5",
+      "commit": "70e1ae986b858065b14f9270b9721ebd74768b5d",
+      "timestamp": 1760813728,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -32185,6 +32227,20 @@
       "error": null
     }
   ],
+  "8a161c824ac926d987fa9e2ee2296eca857c7b64e25167c9492117f8fbc43e31": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v7.5.0/NotallyX-7.5.0.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7500,
+      "version_name": "7.5.0",
+      "tag": "v7.5.0",
+      "commit": "9580bde87e832ff0385c2de47f068ec6c2b12ed3",
+      "timestamp": 1760814049,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39108ae0e3002847be88e4211dd999540a16e0f015218fed8b1ecde7c46cbf1": [
     {
       "repository": "https://github.com/ray-pH/Nabla-TypeMath-android.git",
@@ -34813,6 +34869,20 @@
       "tag": "v2.10.1",
       "commit": "6129b7e2776f0056471c9b17bc22edcea2c6fd73",
       "timestamp": 1749823647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e7b048400e90b2f279cb8107354d3927ab7708d9908a5bd99ff82b191f7acfd0": [
+    {
+      "repository": "https://github.com/iamr0s/Dhizuku.git",
+      "apk_url": "https://github.com/iamr0s/Dhizuku/releases/download/v2.11/Dhizuku_v2.11.apk",
+      "appid": "com.rosan.dhizuku",
+      "version_code": 17,
+      "version_name": "2.11",
+      "tag": "v2.11",
+      "commit": "c70d5cf0756146d5b18765d6c71136df947c36ef",
+      "timestamp": 1760821909,
       "reproducible": true,
       "error": null
     }
@@ -42983,6 +43053,20 @@
       "error": null
     }
   ],
+  "e9d675c2fefeb4e47ee43eb15f4cd8393c1e8c7ccb831a531cfaf00add3a974b": [
+    {
+      "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
+      "apk_url": "https://github.com/buttercookie42/DisableTargetAPIBlock/releases/download/1.2/de.buttercookie.disabletargetapiblock-1.2.apk",
+      "appid": "de.buttercookie.disabletargetapiblock",
+      "version_code": 5,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "4500fe4b13f280c60c7178cbe80af41bb169cba0",
+      "timestamp": 1760796507,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "90c6626bdf7933b88ebcbadcbabc824b4d93a21fccc3450c6fe7c21c33d0854d": [
     {
       "repository": "https://github.com/buttercookie42/SimbaDroid.git",
@@ -43049,6 +43133,20 @@
       "tag": "0.6",
       "commit": "732780341f0fda4cf2bc9009df6d038a7370702b",
       "timestamp": 1758550784,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "670d7410334d0332a7b5e82fa3fb270acd09e36f7e1c683c0ff616dde5f52607": [
+    {
+      "repository": "https://github.com/buttercookie42/SimbaDroid.git",
+      "apk_url": "https://github.com/buttercookie42/SimbaDroid/releases/download/0.7/de.buttercookie.simbadroid-0.7.apk",
+      "appid": "de.buttercookie.simbadroid",
+      "version_code": 92,
+      "version_name": "0.7",
+      "tag": "0.7",
+      "commit": "a170d7831ca77db0aea184996a6c7253d6e22a7a",
+      "timestamp": 1760801678,
       "reproducible": true,
       "error": null
     }
@@ -43487,6 +43585,20 @@
       "error": null
     }
   ],
+  "6c661fe52536fe156a7c7a8c65c290bf161c69310f9813e44d8d0ace6fa9c9c1": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.0/RecurringExpenseTracker_0.19.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 52,
+      "version_name": "0.19.0",
+      "tag": "v0.19.0",
+      "commit": "121d46e8b2517ce4fce4ca7ee3daac8a0b2d3884",
+      "timestamp": 1760815067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -43553,6 +43665,34 @@
       "tag": "v1.5.3",
       "commit": "5af6f188a7003d07ef0e971b8249a6c2cde737d2",
       "timestamp": 1760734613,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5284fcae4305c7312b380f073d22acb05369801ef9de115e31757c9696382df": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.5.4/worldclockv2_v1.5.4_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 19,
+      "version_name": "1.5.4",
+      "tag": "v1.5.4",
+      "commit": "d2f3a2d3e1af427faba14ab11b81d8eeb41a1082",
+      "timestamp": 1760796838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "92c0fc20cdc0cfd0eac2f1dee5ae2d874a53ed90359e7e186072f78dd12513d1": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.5.5/worldclockv2_v1.5.5_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 20,
+      "version_name": "1.5.5",
+      "tag": "v1.5.5",
+      "commit": "ff701e2f05d571bee5a274403f1d95a5f04134d8",
+      "timestamp": 1760815843,
       "reproducible": true,
       "error": null
     }
@@ -57971,6 +58111,20 @@
       "error": null
     }
   ],
+  "a8efc7f3ccd3add74ad3669f6823d6204d569a7c1b7067fb61e980249f420e25": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.7.0/calendar-13-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 13,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "01849aaf7117f60f3c5bf6477a772fd7958dcf59",
+      "timestamp": 1760816543,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -58555,6 +58709,20 @@
       "tag": "1.6.0",
       "commit": "605536e3f56c991d8c916ebd531587f7809e9bab",
       "timestamp": 1760035677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e542cfbfe129865f8aa3e10bfc00f4a932262cc0fe9a2f47996061c75e42b10": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.7.0/gallery-19-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 19,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "aa55b0cdf3fefc63cdc6cf1d4b46210b76e5519b",
+      "timestamp": 1760817084,
       "reproducible": true,
       "error": null
     }
@@ -59175,6 +59343,20 @@
       "error": null
     }
   ],
+  "67a66849efccef4a7197deb6b7e0d4bc36cca305db8eeee23dbfa0968d6a001d": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.4.0/musicplayer-8-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 8,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "10160bcbc20c7c05e06a5466f90ab0e7e06801f2",
+      "timestamp": 1760817796,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5bda57d71873c71342a3a27fba2ece296c7ebc864654112ee182444a2194aab9": [
     {
       "repository": "https://github.com/FossifyOrg/Notes.git",
@@ -59339,6 +59521,20 @@
       "tag": "1.1.1",
       "commit": "3c548605393210cfdcd11babbd79278b8aff63ab",
       "timestamp": 1753194085,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45852f461f6dbced0a619f770b837dfa3d10d53adaa19366a7b7e82dea7ec52a": [
+    {
+      "repository": "https://github.com/FossifyOrg/Paint.git",
+      "apk_url": "https://github.com/FossifyOrg/Paint/releases/download/1.1.2/paint-4-foss-release.apk",
+      "appid": "org.fossify.paint",
+      "version_code": 4,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "d9b4edac817aee5701f3ea8bfdfcd585f587693f",
+      "timestamp": 1760818258,
       "reproducible": true,
       "error": null
     }
@@ -60613,6 +60809,20 @@
       "tag": "v1.5.0-alpha01",
       "commit": "6d58506391d054f3c5a96d874e94be23b4e75d32",
       "timestamp": 1760624404,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "84767421926c7539956c6a27bb6f1ca73d97c7c51a77f85e7a40d80cf49b1c53": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.5.0/tomato-v1.5.0-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 13,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "e275f19d33e4962f8b5e35072bf8d3a818374fd8",
+      "timestamp": 1760797267,
       "reproducible": true,
       "error": null
     }
@@ -66439,6 +66649,20 @@
       "error": null
     }
   ],
+  "75697794d10f515fada125b5d0009845d18e4b00de113a639f2a46945b2ccb0e": [
+    {
+      "repository": "https://github.com/v4lpt/MYC.git",
+      "apk_url": "https://github.com/v4lpt/MYC/releases/download/v1.0.4/VPT.023-MYC.1.0.4.apk",
+      "appid": "v4lpt.vpt.f023.MYC",
+      "version_code": 1004,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "29889f2cb69785a8773da6a0c222ed39e602d00d",
+      "timestamp": 1760797546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e734630806f497f7f52543c363e990e6b6638d8efa98e6239ad72e818fd37395": [
     {
       "repository": "https://github.com/v4lpt/ETW.git",
@@ -67037,6 +67261,20 @@
       "tag": "2.1.8",
       "commit": "5d19855fef7409e6f2f9d725d66918fe673d57e6",
       "timestamp": 1758723793,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3fe85410fd961815835945e85d82847fec95251464503966d8a96843cb535463": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.1.9/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 48,
+      "version_name": "2.1.9",
+      "tag": "2.1.9",
+      "commit": "038071ce3e4ba9183c66df7e055e1a63a0f3d362",
+      "timestamp": 1760823621,
       "reproducible": true,
       "error": null
     }

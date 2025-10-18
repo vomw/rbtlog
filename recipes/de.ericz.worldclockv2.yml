@@ -74,3 +74,75 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.5.4
+    apks:
+      - apk_pattern: world.?clockv2.*arm64\.apk
+        apk_url: https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.5.4/worldclockv2_v1.5.4_android_arm64.apk
+        build:
+          - sed -r '/signingConfigs.release/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle
+          - FLUTTER_VERSION="$(sed -rn 's/\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/flutter-world-clock-v2/flutter-world-clock-v2
+        build_timeout:
+        build_user: eric
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.5.5
+    apks:
+      - apk_pattern: world.?clockv2.*arm64\.apk
+        apk_url: https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.5.5/worldclockv2_v1.5.5_android_arm64.apk
+        build:
+          - sed -r '/signingConfigs.release/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle
+          - FLUTTER_VERSION="$(sed -rn 's/\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/flutter-world-clock-v2/flutter-world-clock-v2
+        build_timeout:
+        build_user: eric
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
