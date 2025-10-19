@@ -4493,6 +4493,20 @@
       "error": null
     }
   ],
+  "e6ba3d752ea6010d4f269136b2237615d81c7eea051f4ff15a092e919dbf9272": [
+    {
+      "repository": "https://gitlab.com/Askanimus/qr-lager.git",
+      "apk_url": "https://gitlab.com/Askanimus/qr-lager/-/releases/1.0.0/downloads/app-release.apk",
+      "appid": "askanimus.qrlager",
+      "version_code": 10000,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "97f8dc036fcaaec53344611ba8922b5b54330aac",
+      "timestamp": 1760912575,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -51655,6 +51669,20 @@
       "tag": "v1.1.0",
       "commit": "9f0dc1426d8fcf303a5e015eee4ade9093510cc5",
       "timestamp": 1744990695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e07823dd9d1dce02dc03c3dbf40889b3b25ef66d84e573914f79889d807a36c0": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/AppVaultX.git",
+      "apk_url": "https://github.com/sunilpaulmathew/AppVaultX/releases/download/beta-v0.1/app-release.apk",
+      "appid": "in.sunilpaulmathew.appvaultx",
+      "version_code": 1,
+      "version_name": "beta-v0.1",
+      "tag": "beta-v0.1",
+      "commit": "610b124f305c6ad7314bd85e7edb55ce75fb670e",
+      "timestamp": 1760915890,
       "reproducible": true,
       "error": null
     }
