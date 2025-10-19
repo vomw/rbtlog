@@ -2617,6 +2617,20 @@
       "error": null
     }
   ],
+  "fd680753a9b9846be52e047e179454d931c60d9bec5e9dd424e840d31c3e4c76": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.15.0/Lawnicons.2.15.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 21,
+      "version_name": "2.15.0",
+      "tag": "v2.15.0",
+      "commit": "039dfbfd36ff0e342adf39feef4f0217c1a96a4d",
+      "timestamp": 1760906575,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -6561,6 +6575,20 @@
       "tag": "v2.9.238.702-stable",
       "commit": "1ba34bc9804ea1245893cc748d62c95ea4f6073e",
       "timestamp": 1760709260,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "80af58909484bcf09a7ab088f2658efae0ffd4b39b9fc72d893f0cfe7632056e": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.9.239.704-stable/Rhythm-2.9.239.704-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 29239704,
+      "version_name": "2.9.239.704",
+      "tag": "v2.9.239.704-stable",
+      "commit": "f12b41ed388d7eb57ae07e8fe34811b4d9444898",
+      "timestamp": 1760881671,
       "reproducible": true,
       "error": null
     }
@@ -29347,6 +29375,20 @@
       "error": null
     }
   ],
+  "4ec3413d8fa9aea185bca02fa9db38e003cb3f29c3b74084b81bf35c984e7e6a": [
+    {
+      "repository": "https://github.com/mirfatif/MyLocation.git",
+      "apk_url": "https://github.com/mirfatif/MyLocation/releases/download/v1.07-pro/MyLocation_v1.07-map-pro.apk",
+      "appid": "com.mirfatif.mylocation",
+      "version_code": 107,
+      "version_name": "v1.07-map",
+      "tag": "v1.07-pro",
+      "commit": "397e6944590a4ac210ee5a47990aa3dbb52ebc52",
+      "timestamp": 1760899389,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp2nefn30g/outputs:/outputs', '--volume', '/tmp/tmp2nefn30g/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/mirfatif/MyLocation.git', '--env', 'APP_TAG=v1.07-pro', '--env', 'APP_COMMIT=397e6944590a4ac210ee5a47990aa3dbb52ebc52', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "66ae7610512bcbd9692c5e7f7c2740f8a14b12598d9fadbc3122c1b67d463de0": [
     {
       "repository": "https://github.com/wardellbagby/sensor-disabler.git",
@@ -30473,6 +30515,20 @@
       "tag": "V0.3.16-Phasmophobia",
       "commit": "42c22e84a7edb5951cd466ea58248458e2f6d97b",
       "timestamp": 1760711504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "afded7d3b55d45d0e291e58f250f649affd03911a7ee7ae5c3a0608dce186256": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.16-Phasmophobia.2/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 22,
+      "version_name": "0.3.16-Phasmophobia.2",
+      "tag": "V0.3.16-Phasmophobia.2",
+      "commit": "8798ac9c3ae5876b8326a3082b778d67e0bd7549",
+      "timestamp": 1760881992,
       "reproducible": true,
       "error": null
     }
@@ -47393,6 +47449,20 @@
       "error": null
     }
   ],
+  "80a5948707d133aebc36ef4ee5bc3e04c0b15648344de364d7454bc833d8983e": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v2.0.2/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 202,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "4e71ead0848abca8df1f34e88c155a75c755cf70",
+      "timestamp": 1760899442,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b81174deddede1defe8b8f412e8f0c6bb225cddd15c4cf0253628c5c8f1ac1da": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -51209,6 +51279,20 @@
       "tag": "v3.4",
       "commit": "6f0793f5964fa0e1a9e494a1cb83c37394e2cbfc",
       "timestamp": 1760105480,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "93eaed7f368bc217fcd15487d6c58ab4e7a968de5e8af5a7607a59e8795bd149": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.5/HeliBoard_3.5-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3501,
+      "version_name": "3.5",
+      "tag": "v3.5",
+      "commit": "d8a5842b7379083f0681484f11b6484919a77eaa",
+      "timestamp": 1760882182,
       "reproducible": true,
       "error": null
     }
@@ -57971,6 +58055,20 @@
       "error": null
     }
   ],
+  "fb00eafaaf0408ca67d1898cb59ad1b5858a8b67e0e0f3ae295be603959b5cee": [
+    {
+      "repository": "https://github.com/exbin/bined-android.git",
+      "apk_url": "https://github.com/exbin/bined-android/releases/download/0.2.8/bined-android-0.2.8.apk",
+      "appid": "org.exbin.bined.editor.android",
+      "version_code": 17,
+      "version_name": "0.2.8",
+      "tag": "0.2.8",
+      "commit": "7f904c6e7ff09adcde39f91b6e782099e3b2a479",
+      "timestamp": 1760882494,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2da409d47615adfd9ab8d996a97b72c4429a7d557d9767784a048a9888df4932": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -59255,6 +59353,20 @@
       "tag": "1.4.0",
       "commit": "c3f5cc0ef9845a76e7b6b253e22db147927b8756",
       "timestamp": 1760365652,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "33a86f9c2d65389e8a1b1a7f9d6b07c176b96a29f6743c88aa5ce62acf0d2373": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.5.0/messages-17-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 17,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "9773ccb82b1f2be6eaf7dc1ed4a6ec7a4de5ee39",
+      "timestamp": 1760882596,
       "reproducible": true,
       "error": null
     }
@@ -65459,6 +65571,20 @@
       "error": null
     }
   ],
+  "3cffbf3eef73deb162fd65c957dab0ff3c5556465f1dc606ee5f012a43d35655": [
+    {
+      "repository": "https://github.com/cvzi/Lyrics.git",
+      "apk_url": "https://github.com/cvzi/Lyrics/releases/download/v10.0/lyrics14.apk",
+      "appid": "sexy.lyrics",
+      "version_code": 14,
+      "version_name": "10.0",
+      "tag": "v10.0",
+      "commit": "7652bc897eb55ab7c27e9b50e528325abb6a121d",
+      "timestamp": 1760882874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "61b85e2bd3f9ce51e2016339fff67f171f39b64899035c1237b46cb092bf3c38": [
     {
       "repository": "https://github.com/elizagamedev/android-textbender.git",
@@ -66519,6 +66645,34 @@
       "tag": "v0.24.3",
       "commit": "7c7c19e999703e506490b84ad477a1a30a551c56",
       "timestamp": 1760713896,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a20cf7dffbb3e12d7b1bc9ad3a5fde8a5e6573edff6b4902343c6fc1ed56d75": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.4/WebviewKiosk_v0.24.4.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 62,
+      "version_name": "0.24.4",
+      "tag": "v0.24.4",
+      "commit": "9fa01cff2611041db2f09ebb8dee7ca8bdd66761",
+      "timestamp": 1760883023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a208b7395e698828060698eed938a7d26592706c6b5831781644e4f8162a9e74": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.5/WebviewKiosk_v0.24.5.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 63,
+      "version_name": "0.24.5",
+      "tag": "v0.24.5",
+      "commit": "ff6093a06eb9ec27a46fad8bfbdd0d40acfb264f",
+      "timestamp": 1760899996,
       "reproducible": true,
       "error": null
     }
