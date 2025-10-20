@@ -1455,6 +1455,20 @@
       "error": null
     }
   ],
+  "4e3fd4f72218402482c1f8d496f94fab34e41b55b48aa4b9866cc098d48da062": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.21.0/Podcini.X_release_free_8.21.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 184,
+      "version_name": "8.21.0",
+      "tag": "8.21.0",
+      "commit": "471089996963fd6b0b5b5f8b2f1915b33cb965b1",
+      "timestamp": 1760968079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2631,6 +2645,20 @@
       "error": null
     }
   ],
+  "75cd9b09c2cb4a963010afa77bd767966a64cc993b3a40181021309a3ed54e9b": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.15.1/Lawnicons.2.15.1.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 22,
+      "version_name": "2.15.1",
+      "tag": "v2.15.1",
+      "commit": "ba904ca6032152fbd55e0f38b47ef39747b76d81",
+      "timestamp": 1760968487,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -2977,6 +3005,20 @@
       "tag": "1.11.2.3",
       "commit": "03ea52d7c67f25257f5ed6776f66f5088fc50497",
       "timestamp": 1760708907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "33b24ea6df0608d5ffc83c17d52e02c544566f0a2469170d0a35e679bddce412": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.2.4/MultiLauncher-1.11.2.4-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110204,
+      "version_name": "1.11.2 build 4",
+      "tag": "1.11.2.4",
+      "commit": "9dbc68009d95afa428d985837b90696d18751822",
+      "timestamp": 1760984513,
       "reproducible": true,
       "error": null
     }
@@ -66715,6 +66757,34 @@
       "tag": "v0.24.5",
       "commit": "ff6093a06eb9ec27a46fad8bfbdd0d40acfb264f",
       "timestamp": 1760899996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "86cfe0ea0b4959f4c8be1a5b12c6d25eb7165924a8c38057ab39d5524cff64d2": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.7/WebviewKiosk_v0.24.7.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 65,
+      "version_name": "0.24.7",
+      "tag": "v0.24.7",
+      "commit": "6291a8b160ec96889f84813f27d34d78e478b058",
+      "timestamp": 1760968864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76e95b79e834d600711cc276183920ae8cbf9a8c05f9e85c3c7d103faf10cff8": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.8/WebviewKiosk_v0.24.8.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 66,
+      "version_name": "0.24.8",
+      "tag": "v0.24.8",
+      "commit": "bc3005a538b0acea70b6e76ab5966570a6f06de5",
+      "timestamp": 1760984955,
       "reproducible": true,
       "error": null
     }

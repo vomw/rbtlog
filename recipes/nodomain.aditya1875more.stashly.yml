@@ -1,8 +1,9 @@
 ---
 repository: https://gitlab.com/aditya1875more/Stashly.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: v2.0.0 was built from a squashed commit, remove the corresponding inplace-fix again for the next release'
+  - updates are disabled in our repo due to signing key mismatch, no answer yet from author, so disabling here as well
 versions:
   - tag: v1.0.8
     apks:
