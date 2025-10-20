@@ -1,0 +1,38 @@
+---
+repository: https://github.com/SteveZMTstudios/calsync.git
+updates: releases
+versions:
+  - tag: v0.0.2
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/SteveZMTstudios/calsync/releases/download/v0.0.2/app-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/*unsigned.apk
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/8d6b3493e20fefba3d3e1776d714c703bd9bb61f/d4a07edb4f696a9a38e9289ccfb8dbeca982cdd0/' 'META-INF/version-control-info.textproto'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

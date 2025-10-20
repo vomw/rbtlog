@@ -3,6 +3,7 @@ repository: https://github.com/cuadratico/NowiChat.git
 updates: disabled
 notes:
   - disabled updates as they are disabled in our repo due to lost signing key
+  - stays disabled as there will be no more updates, app is going to be superseded by a successor, see https://github.com/cuadratico/NowiChat/issues/2#issuecomment-3415920461
 versions:
   - tag: V0.0.2
     apks:
