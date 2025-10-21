@@ -3023,6 +3023,20 @@
       "error": null
     }
   ],
+  "d195f1c8adcc82c564a8c6591a012b76c5ff72493549eb77c44db74f182fe947": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.2.5/MultiLauncher-1.11.2.5-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110205,
+      "version_name": "1.11.2 build 5",
+      "tag": "1.11.2.5",
+      "commit": "04a8b3a0ee8248269bf16a0f8f861c68b5a53e0a",
+      "timestamp": 1761054483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -6645,6 +6659,20 @@
       "tag": "v2.9.239.704-stable",
       "commit": "f12b41ed388d7eb57ae07e8fe34811b4d9444898",
       "timestamp": 1760881671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbb4361d88cd0a9cb76377a07b1120971f7b532a7d8beb74505571920725b6cf": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v2.9.240.706-stable/Rhythm-2.9.240.706-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 29240706,
+      "version_name": "2.9.240.706",
+      "tag": "v2.9.240.706-stable",
+      "commit": "6f92fb93ab802aef178ebd75926609f0e18ea941",
+      "timestamp": 1761054869,
       "reproducible": true,
       "error": null
     }
@@ -17401,6 +17429,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpf6641ky8/outputs:/outputs', '--volume', '/tmp/tmpf6641ky8/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/JackEblan/EblanLauncher.git', '--env', 'APP_TAG=v0.1.2-alpha', '--env', 'APP_COMMIT=f33a5103b10cfa5aff55041d3f07e376ef676cea', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "ddd4b25f09a451d679a523f3411272649f84aa670ba120c7e7e39659962bb19b": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.3-alpha/EblanLauncher-v0.1.3-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 13,
+      "version_name": "0.1.3-alpha",
+      "tag": "v0.1.3-alpha",
+      "commit": "fc5a3d684f47769c484ad7a847716ba17752f5fc",
+      "timestamp": 1761065622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -20013,6 +20055,20 @@
       "tag": "v1.19.2",
       "commit": "28240182d02c0a74878e4a357cf3c83a73175c63",
       "timestamp": 1760622806,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e9bdb568e8d3486c965386fdb5e65b20a1143f35d9118bd420a24b1b7ef41977": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.20.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 136,
+      "version_name": "1.20.0",
+      "tag": "v1.20.0",
+      "commit": "488792e0ca113ab6d6d3d2d96cb2236679fe6820",
+      "timestamp": 1761070916,
       "reproducible": true,
       "error": null
     }
@@ -42229,6 +42285,20 @@
       "error": null
     }
   ],
+  "5559f0fdd8f05ef888bd5110ed75b3961c585b389cadcd326aee365cabd2cfce": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.9/app-foss-release.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5501,
+      "version_name": "3.3.9",
+      "tag": "v3.3.9",
+      "commit": "95da769202a8cd9920d72ac46b70921e1a997cc1",
+      "timestamp": 1761056893,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -43721,6 +43791,20 @@
       "tag": "v0.19.0",
       "commit": "121d46e8b2517ce4fce4ca7ee3daac8a0b2d3884",
       "timestamp": 1760815067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "958992d3c7d1b76a9f260d86a4076bdb06995279e4a2186d091dde926df2527b": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.1/RecurringExpenseTracker_0.19.1.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 53,
+      "version_name": "0.19.1",
+      "tag": "v0.19.1",
+      "commit": "4b7f1c1cec2021e0b2fdaa57b5d1d2ffb1401e16",
+      "timestamp": 1761057446,
       "reproducible": true,
       "error": null
     }
@@ -47515,6 +47599,20 @@
       "tag": "v2.0.2",
       "commit": "4e71ead0848abca8df1f34e88c155a75c755cf70",
       "timestamp": 1760899442,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4164f1876ebb0fb61339e215a081ccf376e1a4570792e2ec2709481248258539": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v2.0.3/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 203,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "f57cebbb224182297f7371fe2937b03f525e8ccf",
+      "timestamp": 1761057916,
       "reproducible": true,
       "error": null
     }
@@ -51865,6 +51963,20 @@
       "tag": "v0.22",
       "commit": "4e777f5bdedd07f27d9f74eca89b3066604a2c39",
       "timestamp": 1758723645,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b0860d2749f96f3092c3da3e6d4e9d32690dafacbf828ca1b15cdb9bed5ee4b": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/6ae8f118c85920cf5cef4bb71242592f/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 23,
+      "version_name": "v0.23",
+      "tag": "v0.23",
+      "commit": "203baf383c4a696c8dcf332b8da7b8ccfc2c5c7b",
+      "timestamp": 1761058223,
       "reproducible": true,
       "error": null
     }
@@ -56539,6 +56651,20 @@
       "tag": "v1.1.4",
       "commit": "04a19de72547b72e084b5bece3ed096c8d24836f",
       "timestamp": 1760106493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9336e244a435306ce80cf387f614c993abdf19e1a0a9aa9f1b9fce08b483260c": [
+    {
+      "repository": "https://github.com/xabd/PrivacyScanner.git",
+      "apk_url": "https://github.com/xabd/PrivacyScanner/releases/download/v1.2.0/PrivacyScanner.apk",
+      "appid": "nodomain.xabd.privacyscanner",
+      "version_code": 9,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "8af19ebefa77e4068e7dcd22d845e5c8753eb8d6",
+      "timestamp": 1761058383,
       "reproducible": true,
       "error": null
     }
