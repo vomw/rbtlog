@@ -1469,6 +1469,20 @@
       "error": null
     }
   ],
+  "28517ee5bfc30585f4758a6521043deb2d4d9ef3e98643012341a9cdc2c95ecd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.22.0/Podcini.X_release_free_8.22.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 185,
+      "version_name": "8.22.0",
+      "tag": "8.22.0",
+      "commit": "3323ad5862374522b25c4b0d13e17f2d9f3988e7",
+      "timestamp": 1761140891,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -1903,6 +1917,20 @@
       "error": null
     }
   ],
+  "71a49a8838a78a8c84b6548958aed6b011295041e0de1129fb85c13c0c1306df": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.9.8/cclauncher-v9.9.8-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 880,
+      "version_name": "v9.9.8",
+      "tag": "v9.9.8",
+      "commit": "7c8239fb340b6ab551479f909f2cd3e5cab115c0",
+      "timestamp": 1761141247,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -2277,6 +2305,20 @@
       "tag": "3.5.7",
       "commit": "e2f2f779f2564a9e477dba5de51100f4ea998f02",
       "timestamp": 1760276873,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b24fea1a957c75c0eda1b35998f1b28f9d48d2d3ba4436c6dab20c86d747409f": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.5.8/flicky-3.5.8-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 661,
+      "version_name": "3.5.8",
+      "tag": "3.5.8",
+      "commit": "38615cc2f89649627c074aec4fead00a21bc7cc6",
+      "timestamp": 1761141574,
       "reproducible": true,
       "error": null
     }
@@ -3509,6 +3551,20 @@
       "tag": "build106.3.4",
       "commit": "d05df1269f25c118ebe8ac9d27370c4074708879",
       "timestamp": 1758980857,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c2817b4661537720b2aeb6d496497410e48e813acdb080be44429cade7860a81": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.4.0/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10640,
+      "version_name": "build106.4.0",
+      "tag": "build106.4.0",
+      "commit": "633338dcaafc23d0ee0255029730f58c0d26fbd7",
+      "timestamp": 1761141924,
       "reproducible": true,
       "error": null
     }
@@ -20143,6 +20199,20 @@
       "error": null
     }
   ],
+  "8de00c23c561cee00fefacbdf2385c79bda92d996619a9c950413b0385a2a81e": [
+    {
+      "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
+      "apk_url": "https://github.com/More-Than-Solitaire/Tabs-Lite/releases/download/v3.8.4/TabsLite.v3.8.4.apk",
+      "appid": "com.gbros.tabslite",
+      "version_code": 3840,
+      "version_name": "3.8.4",
+      "tag": "v3.8.4",
+      "commit": "67fec8817ef26731c5cef4790acfcb9db23d3145",
+      "timestamp": 1761142425,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "a9d2284ec5b0bfc7846199f2a3aeba4d9ac56927d36c807f69be202b8f3af813": [
     {
       "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
@@ -20699,6 +20769,20 @@
       "tag": "v2.7.3",
       "commit": "c6be5be72faba5edf31fdd56d83e0cd58b9643f5",
       "timestamp": 1760391412,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de5b0ab7f9b8c15e6255fa298cc840a512b4c8eed1725891d2282564aa1aaf5d": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.4/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319275,
+      "version_name": "2.7.4 (29319275) fdroid",
+      "tag": "v2.7.4",
+      "commit": "894da7a02a303279f3c228c99c1fff46f5568cc6",
+      "timestamp": 1761142773,
       "reproducible": true,
       "error": null
     }
@@ -27067,6 +27151,20 @@
       "error": null
     }
   ],
+  "52c9616c576163ec7d838c81024b089fb61f9311039bace942e6cf3ab9303880": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.9.3/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 37,
+      "version_name": "1.9.3",
+      "tag": "1.9.3",
+      "commit": "b5e3e4d9a490dba6109c24be459edf2414fee3eb",
+      "timestamp": 1761143249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fbe92ca0729611f4995c0a22fc5fe9491ae713409511fb03936eccf68bfac34": [
     {
       "repository": "https://github.com/BioHazard786/Alternate.git",
@@ -29189,6 +29287,20 @@
       "tag": "v4.5.1",
       "commit": "61ceb75d26b460726393554a9d771d0c5f736ffd",
       "timestamp": 1741987174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "67f64f013861e86b8b148bd5ae26effa418dbb3d6286c741d352226218ae8eb6": [
+    {
+      "repository": "https://github.com/m-i-n-a-r/birday.git",
+      "apk_url": "https://github.com/m-i-n-a-r/birday/releases/download/v4.7.2/Birday-472.apk",
+      "appid": "com.minar.birday",
+      "version_code": 37,
+      "version_name": "4.7.2",
+      "tag": "v4.7.2",
+      "commit": "ffbcd2197776da100c9bfc398b60b3bbdbc184ab",
+      "timestamp": 1761170208,
       "reproducible": true,
       "error": null
     }
@@ -43343,6 +43455,20 @@
       "tag": "0.7",
       "commit": "a170d7831ca77db0aea184996a6c7253d6e22a7a",
       "timestamp": 1760801678,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bf94eae049752010c38ad3ee1fbc8c210add47079365f5ae5f7fc89369e55c38": [
+    {
+      "repository": "https://github.com/buttercookie42/SimbaDroid.git",
+      "apk_url": "https://github.com/buttercookie42/SimbaDroid/releases/download/0.8/de.buttercookie.simbadroid-0.8.apk",
+      "appid": "de.buttercookie.simbadroid",
+      "version_code": 102,
+      "version_name": "0.8",
+      "tag": "0.8",
+      "commit": "f6d54fd5622e782573dc615ecfe604c48982b412",
+      "timestamp": 1761143541,
       "reproducible": true,
       "error": null
     }
@@ -63751,6 +63877,20 @@
       "error": null
     }
   ],
+  "57ef0dddcb9b135fa0d6fac4d29f65c531f69d9ba5fbbfa8daa38b4959d53230": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.2/transistor-app-release-4.3.2.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 109,
+      "version_name": "4.3.2",
+      "tag": "v4.3.2",
+      "commit": "45f2f2f940cd0f40c6fa38e0649505e21bc58bd4",
+      "timestamp": 1761143764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57443b3cdc44ed7c0f2a2754312c920315493855c8bd6ed0f333b9d04af72148": [
     {
       "repository": "https://github.com/danielyrovas/linklater.git",
@@ -64377,6 +64517,20 @@
       "tag": "v1.19.0",
       "commit": "c630edd0f6faa48fc55d4e9e08c19c4167e4c5ef",
       "timestamp": 1756839787,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdfbf509ec6a514f4bcb5f5ee891994fcb18c3a3705bf63bcee29510030c39e0": [
+    {
+      "repository": "https://github.com/Abrynos/ShoppingList.git",
+      "apk_url": "https://github.com/Abrynos/ShoppingList/releases/download/v1.20.0/app-release.apk",
+      "appid": "pl.edu.pjwstk.s999844.shoppinglist",
+      "version_code": 22,
+      "version_name": "v1.20.0",
+      "tag": "v1.20.0",
+      "commit": "43ccd67085eca2fb934c923ad791676394737cf2",
+      "timestamp": 1761157763,
       "reproducible": true,
       "error": null
     }
@@ -65795,6 +65949,20 @@
       "error": null
     }
   ],
+  "67f16a315821fd71eeeb480c5c27b21a703877a81c24cc1e4292f751721bbd0d": [
+    {
+      "repository": "https://github.com/cvzi/Lyrics.git",
+      "apk_url": "https://github.com/cvzi/Lyrics/releases/download/v10.1/lyrics15.apk",
+      "appid": "sexy.lyrics",
+      "version_code": 15,
+      "version_name": "10.1",
+      "tag": "v10.1",
+      "commit": "d212662389ee794e12a1896571f2595aa851dc14",
+      "timestamp": 1761158517,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "61b85e2bd3f9ce51e2016339fff67f171f39b64899035c1237b46cb092bf3c38": [
     {
       "repository": "https://github.com/elizagamedev/android-textbender.git",
@@ -66925,6 +67093,20 @@
       "tag": "v0.24.8",
       "commit": "bc3005a538b0acea70b6e76ab5966570a6f06de5",
       "timestamp": 1760984955,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2afe37f83d3904e7edb108c2b9d28563032f68875f17d3a2856004ea70e20856": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.9/WebviewKiosk_v0.24.9.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 67,
+      "version_name": "0.24.9",
+      "tag": "v0.24.9",
+      "commit": "be98f278013d029e8d13d0b4763d6f3d710e4a90",
+      "timestamp": 1761144011,
       "reproducible": true,
       "error": null
     }
