@@ -1945,6 +1945,20 @@
       "error": null
     }
   ],
+  "6268331d36c822b770b0efc24781da6e3de13ada77b272bdbc7722f1182d1652": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.10.1/cclauncher-v9.10.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 910,
+      "version_name": "v9.10.1",
+      "tag": "v9.10.1",
+      "commit": "564a8b73a7e833a87295c31843594bd5dfc5ca85",
+      "timestamp": 1761313678,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -8539,6 +8553,20 @@
       "error": null
     }
   ],
+  "75f822409653be07d4ea4e5a069e6ad599dc74c4ec6df7fa069a9d3e4131c79f": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.5.9d/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1371,
+      "version_name": "4.5.9d",
+      "tag": "v4.5.9d",
+      "commit": "b9b3a15e16afb3c3bf04df1fa07c4836dbe6ae83",
+      "timestamp": 1761314012,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -13131,6 +13159,20 @@
       "error": null
     }
   ],
+  "6e95c56243ddab3e8cbf80cec5102c7848380f212b97638b8b97a8fece442f42": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.4v120/PuppyGit_1.1.4.4v120_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 120,
+      "version_name": "1.1.4.4",
+      "tag": "1.1.4.4v120",
+      "commit": "061ddf04daa8ef7a620193cb32ab73b4c0b90056",
+      "timestamp": 1761314196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -17551,6 +17593,20 @@
       "tag": "v0.1.3-alpha",
       "commit": "fc5a3d684f47769c484ad7a847716ba17752f5fc",
       "timestamp": 1761065622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5096f9589305b26603614a71db877e10a4caf7a82e0ad24c012b475c7e38e895": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.4-alpha/EblanLauncher-v0.1.4-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 14,
+      "version_name": "0.1.4-alpha",
+      "tag": "v0.1.4-alpha",
+      "commit": "a3624359b97c62ba42197d18f79500fed983fe64",
+      "timestamp": 1761315187,
       "reproducible": true,
       "error": null
     }
@@ -26325,6 +26381,20 @@
       "error": null
     }
   ],
+  "fac32f3f9b688af34ae08e42b5176dc1e264b6a2dd0adc0555cce4b895a9903a": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.2.1/KeePassDX-4.2.1-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 146,
+      "version_name": "4.2.1",
+      "tag": "4.2.1",
+      "commit": "e19ad3a8ccafbff4da150004c6af88cf909c44c7",
+      "timestamp": 1761330126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -26433,6 +26503,20 @@
       "tag": "4.2.0",
       "commit": "208f1e97d51df3ae69cc86da79095b0456b71a0a",
       "timestamp": 1760623708,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a704abacde9b7ae9446b9e1008a59de496557285ae63e0e5579177cbb56346e": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.2.1/KeePassDX-4.2.1-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 146,
+      "version_name": "4.2.1",
+      "tag": "4.2.1",
+      "commit": "e19ad3a8ccafbff4da150004c6af88cf909c44c7",
+      "timestamp": 1761330522,
       "reproducible": true,
       "error": null
     }
@@ -27231,6 +27315,20 @@
       "tag": "1.9.3",
       "commit": "b5e3e4d9a490dba6109c24be459edf2414fee3eb",
       "timestamp": 1761143249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9c3671a80fed0e2a9b9ce35f3a877529346c79b5bd78c1f123206fdba4e67ff2": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.9.4/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 38,
+      "version_name": "1.9.4",
+      "tag": "1.9.4",
+      "commit": "2fa26e03e4f3c3c58edde851f41c4690f8001853",
+      "timestamp": 1761315815,
       "reproducible": true,
       "error": null
     }
@@ -32769,6 +32867,20 @@
       "tag": "v2.6.4",
       "commit": "451ccdbba7b2ce69d9d3aa3355383711f0b779e8",
       "timestamp": 1757711585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9ac8c626dc727c03e24b320a946b5ed71623e486db69e3c234e8bb5ae05ca553": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v2.6.5/WeatherMaster.2.6.5.arm64-v8a.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 26,
+      "version_name": "2.6.5",
+      "tag": "v2.6.5",
+      "commit": "15fdbf03264a2d3b33a9ae18475a92fcac05f83d",
+      "timestamp": 1761316142,
       "reproducible": true,
       "error": null
     }
@@ -40399,6 +40511,34 @@
       "error": null
     }
   ],
+  "1ebb86bcac9f7950b35e4caf5732c737c2a73da60a21e3a5c2c61445a77eb3d6": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.17.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31700,
+      "version_name": "3.17.0",
+      "tag": "v3.17.0",
+      "commit": "897b1333107c920a664a9931d47bd10e23b74492",
+      "timestamp": 1761330934,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5561063ac54edc9191e14b65cf3a0e13090b854e0442233f551e5f7de01ae4e5": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.17.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31700,
+      "version_name": "3.17.0",
+      "tag": "v3.17.0",
+      "commit": "897b1333107c920a664a9931d47bd10e23b74492",
+      "timestamp": 1761331119,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -47725,6 +47865,20 @@
       "tag": "v1.5.1",
       "commit": "1bb2dff977ff130ae154e1213647d91a89b97887",
       "timestamp": 1754444846,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ea1328864e33d23b8a42eba4b6945274e7b978007d986630aabadac6aff701b3": [
+    {
+      "repository": "https://github.com/PranavPurwar/AppLock.git",
+      "apk_url": "https://github.com/PranavPurwar/AppLock/releases/download/v2.0.0/app-release.apk",
+      "appid": "dev.pranav.applock",
+      "version_code": 200,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "039c5fc12dfb818b2f3ba09a9088071d6aeeffc6",
+      "timestamp": 1761331307,
       "reproducible": true,
       "error": null
     }
@@ -61093,6 +61247,20 @@
       "error": null
     }
   ],
+  "cdc49fbaa4b5762b67b7f5a786a100da67b91ec18662b99b0821cb79be49e0c2": [
+    {
+      "repository": "https://github.com/MaintainTeam/Hypatia.git",
+      "apk_url": "https://github.com/MaintainTeam/Hypatia/releases/download/v3.17/hypatia_v3.17.apk",
+      "appid": "org.maintainteam.hypatia",
+      "version_code": 317,
+      "version_name": "3.17",
+      "tag": "v3.17",
+      "commit": "9f3418599bd352a9f4492805c8f2e50b2bdfc7dd",
+      "timestamp": 1761316865,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e3a5905071b1bb78dd04499e9c617eb015fcd10c5afc373e5004e8d3f4def42": [
     {
       "repository": "https://github.com/JingMatrix/ChromeXt.git",
@@ -66761,6 +66929,20 @@
       "error": null
     }
   ],
+  "9efe3dd103c85ecaac25587d1f95235936b12ce209dd7a33e7f3f055dc1104ed": [
+    {
+      "repository": "https://github.com/donmor/DroidFRPD.git",
+      "apk_url": "https://github.com/donmor/DroidFRPD/releases/download/1.0.7%2B0650/DroidFRPD-1.0.7%2B0650-aarch64.apk",
+      "appid": "top.donmor.droidfrpd",
+      "version_code": 100007,
+      "version_name": "1.0.7+0650",
+      "tag": "1.0.7+0650",
+      "commit": "6d023875946dc4e2e5ab4f79ecbe66365fba8fb3",
+      "timestamp": 1761317083,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2ea79b08d0a66e0046324e15a89192bd64036813deba04d56517d95085db5a9c": [
     {
       "repository": "https://github.com/SteveZMTstudios/calsync.git",
@@ -67275,6 +67457,20 @@
       "tag": "v0.24.10",
       "commit": "cb04fb190fda3396f0abb89c85cb03a6631e2b1f",
       "timestamp": 1761240902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a7a5cf81b0c667575b67aebd8200e5920fe5cdd59ab27700a88fad662ae25e7": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.11/WebviewKiosk_v0.24.11.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 69,
+      "version_name": "0.24.11",
+      "tag": "v0.24.11",
+      "commit": "4505e9b2beeb05002bac7a4318c68731c0c0f7fd",
+      "timestamp": 1761331660,
       "reproducible": true,
       "error": null
     }
