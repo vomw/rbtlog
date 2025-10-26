@@ -170,3 +170,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.29.0
+    apks:
+      - apk_pattern: app-universal-release\.apk
+        apk_url: https://github.com/libre-tube/LibreTube/releases/download/$$TAG$$/app-universal-release.apk
+        build:
+          - git reset --soft ccdf8b6a28704cc9a6597dc6444fbf60b29abd1a
+          - sed -r '/abi \{/,/}/ { /include/d }' -i app/build.gradle.kts
+          - ./gradlew assembleRelease
+          - OUT=app/build/outputs/apk/release/app-release-unsigned.apk
+          - mv "$OUT" /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
