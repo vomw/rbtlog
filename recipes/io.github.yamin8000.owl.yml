@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/yamin8000/freeDictionaryApp.git
 updates: releases
+notes:
+  - 'FIXME: starting with 1.7.7 (not RB), JDK-21 is needed'
 versions:
   - tag: 1.7.3
     apks:
