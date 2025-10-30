@@ -12221,6 +12221,20 @@
       "error": null
     }
   ],
+  "1edaaf3881c9b8f7490873a9ddee04db43c50b224938c5871bb9975397fa82d4": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.10.1175/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1175,
+      "version_name": "2025.10.1175",
+      "tag": "2025.10.1175",
+      "commit": "ca8906b1388e21300abc7098f2b9e61dff12b419",
+      "timestamp": 1761832114,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -17845,6 +17859,20 @@
       "tag": "v0.1.6-alpha",
       "commit": "1bc714ee0fe6916c930454b4b8ed713eb18b0ab5",
       "timestamp": 1761660888,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e386cb11837193cf6bfeac25d7610c152a107606f4f8a6377aa70b6a11ecb9c": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.7-alpha/EblanLauncher-v0.1.7-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 17,
+      "version_name": "0.1.7-alpha",
+      "tag": "v0.1.7-alpha",
+      "commit": "95ee07e33822560ace56bc61638e3fed1e4cf077",
+      "timestamp": 1761832498,
       "reproducible": true,
       "error": null
     }
@@ -24071,6 +24099,20 @@
       "error": null
     }
   ],
+  "3843602ce552e452df341ee122b98446c73d6c4b35fdd5ecf6a47614970f4862": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.10/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2144,
+      "version_name": "9.6.10",
+      "tag": "9.6.10",
+      "commit": "8521832c83e41a7e9945a5f53bd5c58a280c06da",
+      "timestamp": 1761833002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -25117,6 +25159,20 @@
       "tag": "2.6.1",
       "commit": "4ab7bc90e2d85ffed36a779025ed952b0e552547",
       "timestamp": 1755879707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "153192bed9c6ee76a389048f2e3ab3affb2aa11ca9982c4b8f01c9b19dd6d733": [
+    {
+      "repository": "https://github.com/jeeneo/dejpeg.git",
+      "apk_url": "https://github.com/jeeneo/dejpeg/releases/download/release-3.0.1/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 301,
+      "version_name": "3.0.1",
+      "tag": "release-3.0.1",
+      "commit": "2ef2f6d8cab79b942817d327dfd2d7f29d6f11a1",
+      "timestamp": 1761855208,
       "reproducible": true,
       "error": null
     }
@@ -33851,6 +33907,20 @@
       "error": null
     }
   ],
+  "314ab69d9966045056e5641be027ecfc3701b6cb89c2fc49e080c00d02d872bf": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.19.0/baba_1.19.0_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025031992,
+      "version_name": "1.19.0",
+      "tag": "1.19.0",
+      "commit": "eacaf8759a7ff088d4a49d7c95e29fbe18ede9c6",
+      "timestamp": 1761852211,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -34813,6 +34883,20 @@
       "tag": "0.5.1",
       "commit": "dc5477f680a7bfdfa509747c3375389d21dc9933",
       "timestamp": 1757270683,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fa98c4d4a6890335696af04a5b22f5c7a7023aba4f0f32292a15a4b105affc19": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.5.2/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 502,
+      "version_name": "0.5.2",
+      "tag": "0.5.2",
+      "commit": "92acf2e31bb3d6c55b82ebc3be6c409801c439da",
+      "timestamp": 1761852857,
       "reproducible": true,
       "error": null
     }
@@ -36605,6 +36689,20 @@
       "tag": "1.1",
       "commit": "ab3b9f409089bfc62275a7b36b495dd160a5faaa",
       "timestamp": 1755482520,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c2a605578940cf8f99946fbfcd78ec1554b6525a3534e667ea64e98c74bb4f99": [
+    {
+      "repository": "https://github.com/shezik/DrawAnywhere.git",
+      "apk_url": "https://github.com/shezik/DrawAnywhere/releases/download/1.2/app-release.apk",
+      "appid": "com.shezik.drawanywhere",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "a4a6a04aefe792f0145b4f7567d8a31a2f5a4c3d",
+      "timestamp": 1761833527,
       "reproducible": true,
       "error": null
     }
@@ -41961,6 +42059,20 @@
       "tag": "V2.72.01",
       "commit": "96094622f47a25ac5abf69556a5baf17ff5b7bda",
       "timestamp": 1761492417,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "785ff1b86cc33510859aee8b02ae26b943e5a1df40e492b71bb027e7a44f1c35": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.72.02/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 27202,
+      "version_name": "2.72.02",
+      "tag": "V2.72.02",
+      "commit": "c2aff56a01f8b7b244b227e57249341251823a90",
+      "timestamp": 1761833749,
       "reproducible": true,
       "error": null
     }
@@ -51395,6 +51507,20 @@
       "error": null
     }
   ],
+  "40053e0fe8ac0a60677dac157fe71d7dd6a330df04b157b77af781322ab62d70": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2302/FairEmail-v1.2302a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2302,
+      "version_name": "1.2302",
+      "tag": "1.2302",
+      "commit": "c2d45d250e61bf5ce974c1305137212763f8e0cc",
+      "timestamp": 1761853186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -58153,6 +58279,20 @@
       "error": null
     }
   ],
+  "3bf27c5facee56f6a502c6672ca528c5ea3bff8696f3a9478e8c2aff2f71d120": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.4.5/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 30,
+      "version_name": "alpha-0.4.5",
+      "tag": "alpha-0.4.5",
+      "commit": "322b332ee57e0cd427dc3d55e034d46b88ac79b7",
+      "timestamp": 1761833920,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -59409,6 +59549,20 @@
       "tag": "0.2.8",
       "commit": "7f904c6e7ff09adcde39f91b6e782099e3b2a479",
       "timestamp": 1760882494,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de09b19cf985921d48959b8629ead55febddaaafc82faf2e7167ef2bc2da38b0": [
+    {
+      "repository": "https://github.com/exbin/bined-android.git",
+      "apk_url": "https://github.com/exbin/bined-android/releases/download/0.2.9/bined-android-0.2.9.apk",
+      "appid": "org.exbin.bined.editor.android",
+      "version_code": 18,
+      "version_name": "0.2.9",
+      "tag": "0.2.9",
+      "commit": "4068c8b73584267eb9ad2e7e1a7586a51143c482",
+      "timestamp": 1761834194,
       "reproducible": true,
       "error": null
     }
@@ -61369,6 +61523,20 @@
       "tag": "1.7.3",
       "commit": "dda289bef1517b01d6d2974c5d8b89b5e0dc3267",
       "timestamp": 1760648373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6d373ed5d77b696dda7a9ab833eeaa9eeabb01251a398931966401e143833bd9": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.8.0/phone-17-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 17,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "8922727bbf5ca52cec9e5dfcf5c7435ea19bd741",
+      "timestamp": 1761834314,
       "reproducible": true,
       "error": null
     }
@@ -64997,6 +65165,20 @@
       "error": null
     }
   ],
+  "76380ef067a1a5b101a62316e39fc374441861cf8ab0eff6faf9a9f9031f8077": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.7/stayput-app-release-0.8.7.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 8,
+      "version_name": "0.8.7",
+      "tag": "v0.8.7",
+      "commit": "47916b150ad8e37710b2dbe5549074016fa031f6",
+      "timestamp": 1761853698,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4860b10da22d7ed51e39f80cfbdfa2947eb2e8c8e480e9cc1a9de50224e246f3": [
     {
       "repository": "https://codeberg.org/y20k/transistor.git",
@@ -65567,6 +65749,20 @@
       "tag": "v5.5.0",
       "commit": "1a60f4943db1c06dfffa18a1aa1edba925652310",
       "timestamp": 1760294936,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "61124cdfae5e2599ef495e54e69e86035040e02601c3dfe0f9ab268a2c37e501": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.6.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 25,
+      "version_name": "5.6.0",
+      "tag": "v5.6.0",
+      "commit": "ebc4aa57434c32c4e41ad30889699c81bd051d40",
+      "timestamp": 1761853883,
       "reproducible": true,
       "error": null
     }
@@ -68507,6 +68703,20 @@
       "tag": "v0.24.17",
       "commit": "848eb6be0926a76013b537a7a66a86a7e8363925",
       "timestamp": 1761747825,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b8e41df32b1f4ccb1944e8c3f8f0aa1b958f9b4c078262d7c89b0fe567d8db5d": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.18/WebviewKiosk_v0.24.18.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 76,
+      "version_name": "0.24.18",
+      "tag": "v0.24.18",
+      "commit": "ffd7a18bf7a353a82216e79a64fb2011091dbe1f",
+      "timestamp": 1761834673,
       "reproducible": true,
       "error": null
     }
