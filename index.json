@@ -2659,6 +2659,20 @@
       "error": null
     }
   ],
+  "8e7ace72fc332188d4ef47b00824ed657c8427b978888ba4d882c71a6d4e6e6d": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.3.3/fluffy-3.3.3-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 551,
+      "version_name": "3.3.3",
+      "tag": "3.3.3",
+      "commit": "f6d813f5dae3b8ffaacfa0f0f9344d6858f740e6",
+      "timestamp": 1761943268,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -3397,6 +3411,20 @@
       "tag": "v3.0.0",
       "commit": "651d24a0ea90b93867eba1eca34ba7d704c5236c",
       "timestamp": 1759240473,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "866070b202cb7795f9c181a0c2c8f5e49e19102185717e3f6ad4a8ec27904d33": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.1.0/Pachli_3.1.0_38_665c56fc_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 38,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "665c56fc1232a900e656547afd7e05abf9d1db00",
+      "timestamp": 1761918813,
       "reproducible": true,
       "error": null
     }
@@ -20563,6 +20591,20 @@
       "error": null
     }
   ],
+  "36160b0f8072c3228c4a54a1f6e801b793cff78915bc236d60eaadd63d7b2841": [
+    {
+      "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
+      "apk_url": "https://codeberg.org/gardockt/termux-terminal-widget/releases/download/v1.3/termux-terminal-widget-v1.3.apk",
+      "appid": "com.gardockt.termuxterminalwidget",
+      "version_code": 5,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "4570122b6cd7efeee1ad78dda9121ae9ba3e4523",
+      "timestamp": 1761919328,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3bbeb57c879ba98aa34905f6fca2bfe8773af73df3dffa98604851db26bacd00": [
     {
       "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
@@ -21189,6 +21231,20 @@
       "tag": "v2.7.4",
       "commit": "894da7a02a303279f3c228c99c1fff46f5568cc6",
       "timestamp": 1761142773,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "93e8df733d24f7e36b9a75f473e0e8443fa4711fe9a61b4e5cf769a2d8ae0008": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.5/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319286,
+      "version_name": "2.7.5 (29319286) fdroid",
+      "tag": "v2.7.5",
+      "commit": "8287203db4b737b217efe3b5624f4003fba44f70",
+      "timestamp": 1761939006,
       "reproducible": true,
       "error": null
     }
@@ -24109,6 +24165,20 @@
       "tag": "9.6.10",
       "commit": "8521832c83e41a7e9945a5f53bd5c58a280c06da",
       "timestamp": 1761833002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0bf914d9cfdf8d0d5e8a70cadf94ce23b5363238d8360cd8cf46a01459bb3ca8": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.11/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2145,
+      "version_name": "9.6.11",
+      "tag": "9.6.11",
+      "commit": "7d7f12699b89bda88d573a0b104be11cd59a0397",
+      "timestamp": 1761939586,
       "reproducible": true,
       "error": null
     }
@@ -27763,6 +27833,20 @@
       "tag": "1.10.0",
       "commit": "1fde6ebd35835fbd7060a8560903da754c11bd27",
       "timestamp": 1761746618,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cba1a68385d6ec4e854c83dbb55e4a85c9f186e9c0462ae749f1e6d8811f6106": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.10.1/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 40,
+      "version_name": "1.10.1",
+      "tag": "1.10.1",
+      "commit": "c83c10d444f0fd33fdb310cd3a6a54214d4171df",
+      "timestamp": 1761940166,
       "reproducible": true,
       "error": null
     }
@@ -35517,6 +35601,20 @@
       "error": null
     }
   ],
+  "65cc945560de76d855dd5ee2dbaac9bc82f98d0b82a86c5a06685ac6896cfbe4": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.3/xed-editor-v3.2.3.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 69,
+      "version_name": "3.2.3",
+      "tag": "v3.2.3",
+      "commit": "a4a7fe8678668ba5ff7013693a9bbe01e7df10aa",
+      "timestamp": 1761933483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -41701,6 +41799,20 @@
       "error": null
     }
   ],
+  "70c4cb6cd4d8f326953761c2f3ec43d3ee2b90727d2c96ea71cf8c8d52777fe4": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v4.0.5/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 13,
+      "version_name": "4.0.5",
+      "tag": "v4.0.5",
+      "commit": "e73422bbe905870713f011440539f8c26e097cfc",
+      "timestamp": 1761919641,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -43223,6 +43335,20 @@
       "error": null
     }
   ],
+  "44f705d8e1acac748e0bd611f33fa8fd55845c4dce8cf63152dfbf7b27a7cce7": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.3.11/MediLog-3.3.11.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5503,
+      "version_name": "3.3.11",
+      "tag": "v3.3.11",
+      "commit": "2cd6714e80b48e32bf9b7b7a80b0e8fe6325f557",
+      "timestamp": 1761920189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -44057,6 +44183,20 @@
       "tag": "v1.0.4",
       "commit": "a346832e6e2b441dd058579ddebdcbafabc158d0",
       "timestamp": 1758464449,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3169ce834f8ed1b50232d502d79dad75eaf85ba84425a0f2ceb53e476731fdd": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.0.5/NeoDB-You-v1.0.5.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 7,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "a84d09aacfa8499519a2d55efd7b356fe26544e1",
+      "timestamp": 1761940488,
       "reproducible": true,
       "error": null
     }
@@ -49743,6 +49883,20 @@
       "error": null
     }
   ],
+  "9711592efeab66fc47454a628abcb88d25356d24a80de34882b2ff4cd1f921af": [
+    {
+      "repository": "https://github.com/streetcomplete/StreetMeasure.git",
+      "apk_url": "https://github.com/streetcomplete/StreetMeasure/releases/download/v1.6/StreetMeasure-v1.6.apk",
+      "appid": "de.westnordost.streetmeasure",
+      "version_code": 7,
+      "version_name": "1.6",
+      "tag": "v1.6",
+      "commit": "05f76f208df0d9c66a89082515dc7a4e0bf69efa",
+      "timestamp": 1761942703,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "824964530cfd4452e09b433b756a006cc1f68c586c51779572ab81840b75bae6": [
     {
       "repository": "https://github.com/YukiGasai/obsidian-todo-widget.git",
@@ -53725,6 +53879,20 @@
       "tag": "v1.1.0",
       "commit": "7f6857674804f13dfa98bd56d9f04d316bf51f31",
       "timestamp": 1761684086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e3765ff68cfde7b7028e969383fd87088416f49a0cc596b3299e1e1025602a31": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.0.0/de1984-v2.0.0.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 4,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "89334cb861e16bf25dfd1213fc6ace315aa36250",
+      "timestamp": 1761920656,
       "reproducible": true,
       "error": null
     }
@@ -68721,6 +68889,20 @@
       "error": null
     }
   ],
+  "2e19aaffcd2dddfa9519bd2c7298fb9ce95089d50eeb2cab24554dab2ea974f0": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.19/WebviewKiosk_v0.24.19.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 77,
+      "version_name": "0.24.19",
+      "tag": "v0.24.19",
+      "commit": "4422b85c96f542d45e861976d66489422d07e3b2",
+      "timestamp": 1761920886,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8797553a10932e04c5dd7a97075e247ec4c9150534806f8486c44d4d042b2943": [
     {
       "repository": "https://github.com/v4lpt/TPC.git",
@@ -69963,6 +70145,20 @@
       "tag": "2.0.6",
       "commit": "5d1b279cf779954323c926e608109bed9919f210",
       "timestamp": 1737744289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ab81826c5f3fed02107e2783b2feca6d456bf1aed1e0bf2cb0078b9562541eb6": [
+    {
+      "repository": "https://github.com/Yet-Zio/yetCalc.git",
+      "apk_url": "https://github.com/Yet-Zio/yetCalc/releases/download/2.0.7/yetCalc-v2.0.7.apk",
+      "appid": "yetzio.yetcalc",
+      "version_code": 23,
+      "version_name": "2.0.7",
+      "tag": "2.0.7",
+      "commit": "d7c74770c5c851a87ee26f8cafe71b2d481b4f18",
+      "timestamp": 1761921121,
       "reproducible": true,
       "error": null
     }
