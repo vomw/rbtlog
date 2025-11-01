@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/pr3y/BruceApp.git
-updates: releases
+updates: disabled
+notes:
+  - updates disabled at our repo as well due to signing issues, see https://github.com/pr3y/BruceApp/issues/6
 versions:
   - tag: v0.3
     apks:

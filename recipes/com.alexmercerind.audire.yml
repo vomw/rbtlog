@@ -33,3 +33,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.2-3
+    apks:
+      - apk_pattern: app-release-signed\.apk
+        apk_url: https://github.com/alexmercerind/audire/releases/download/$$TAG$$/app-release-signed.apk
+        build:
+          - JNI_VER=$(sed -nr 's|.*shazam-signature-jni/releases/download/([^/]+)/jniLibs.zip.*|\1|p' .github/workflows/android.yml)
+          - curl -L https://github.com/alexmercerind/shazam-signature-jni/releases/download/${JNI_VER}/jniLibs.zip -o jniLibs.zip
+          - unzip jniLibs.zip -d ./app/src/main
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
