@@ -62799,6 +62799,20 @@
       "error": null
     }
   ],
+  "5eff804f37091556493c9313848eff583bd859996c3c3835921dcb791e2e1a4b": [
+    {
+      "repository": "https://github.com/nlckysolutions/PrivacyStats.git",
+      "apk_url": "https://github.com/nlckysolutions/PrivacyStats/releases/download/v1.0.0/app-release.apk",
+      "appid": "org.nlckysolutions.privacystats",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0.0",
+      "commit": "5ddd23409e081145a4e38697cb35ab975edb4b3a",
+      "timestamp": 1762030432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "789ea9742ef3f02582270de67fc94a4e1f3d4011d043bff6af9cf2b6d38460f3": [
     {
       "repository": "https://github.com/nsh07/Tomato.git",
@@ -68351,6 +68365,20 @@
       "tag": "1.3",
       "commit": "a84cc3b05dd019c6ee4c6b304f2a8ae5cd2efdc7",
       "timestamp": 1742657983,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd6511887b3af48bdb92402fee3578b69b67dfa65eebebd8fdc976a63e3f9e94": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha01/LockscreenWidgets_3.0.0-alpha01-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 146,
+      "version_name": "3.0.0-alpha01",
+      "tag": "3.0.0-alpha01",
+      "commit": "8227decc48b159e560fd6f391e5adc9f3d0805e2",
+      "timestamp": 1762034209,
       "reproducible": true,
       "error": null
     }
