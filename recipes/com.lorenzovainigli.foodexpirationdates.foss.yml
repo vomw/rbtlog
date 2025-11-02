@@ -201,3 +201,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.8.0
+    apks:
+      - apk_pattern: FoodExpirationDates-.*-foss\.apk
+        apk_url: https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.8.0/FoodExpirationDates-2.8.0-foss.apk
+        build:
+          - git reset --soft be4edd6b6ebeabeb11ed47677a7b930efa1c4524
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fossRelease/compileFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=bea43e3cc4096c995083e4662f9ae4eacb004abe
+          - for _ in {1..10}; do
+          - ./gradlew clean build -PbuildFoss=true --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/foss/release/FoodExpirationDates-*-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_timeout: 50
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
