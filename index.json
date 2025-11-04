@@ -7307,6 +7307,20 @@
       "error": null
     }
   ],
+  "b0eb272f5c1005beb6f56aa64d4f453d7901978f4f0dbc828843e94697ca4750": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.0/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 23,
+      "version_name": "2.5.0",
+      "tag": "2.5.0",
+      "commit": "5530186725067badf44b467100f6128876468294",
+      "timestamp": 1762284262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -12345,6 +12359,20 @@
       "error": null
     }
   ],
+  "ac237f08fc4e053fab5eff477d68e65e9dcdbfaac93675c9e6ad725de46905de": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.11.1176-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1176,
+      "version_name": "2025.11.1176-dev",
+      "tag": "2025.11.1176-dev",
+      "commit": "9cce1a7e1e03605f4fbb1f2c3ebc5a9d1b243934",
+      "timestamp": 1762267717,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -17311,6 +17339,20 @@
       "tag": "5.0.9",
       "commit": "2b1352c93b5b4f3176598309a708bd10a0c9ee61",
       "timestamp": 1760709785,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "09ab5558ef8e78f95b65b3089322575fa8b06c84ca30cd5efd790a3ab022cc4d": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.10/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 165,
+      "version_name": "5.0.10",
+      "tag": "5.0.10",
+      "commit": "b9a989d3762e48fa1b8d489cfdabf6a96d8f1136",
+      "timestamp": 1762268212,
       "reproducible": true,
       "error": null
     }
@@ -24403,6 +24445,18 @@
       "timestamp": 1758636290,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/madeofpendletonwool/PinePods.git",
+      "apk_url": "https://github.com/madeofpendletonwool/PinePods/releases/download/0.8.2/pinepods-arm64-0.8.2.apk",
+      "appid": "com.gooseberrydevelopment.pinepods",
+      "version_code": 20254203,
+      "version_name": "0.8.1",
+      "tag": "0.8.2",
+      "commit": "20adb3518bab4ac0ab1165df17209b29328a89ce",
+      "timestamp": 1762268620,
+      "reproducible": true,
+      "error": null
     }
   ],
   "5cabb17375091e2ad47c5d92b2d6c96a37e5fe441ea374b0b4755a06ed481d83": [
@@ -30157,6 +30211,20 @@
       "error": null
     }
   ],
+  "7c40afffc0dae131b1837c121d13abc19880ac198e1ec9b3912776f666738b7b": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.5.3/SpeakThat-NoUpdater-v1.5.3.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 23,
+      "version_name": "1.5.3",
+      "tag": "v1.5.3",
+      "commit": "ed77b2961f363124aa6e27dafc9ad92e4bd1b095",
+      "timestamp": 1762269067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -31075,6 +31143,20 @@
       "tag": "v12.6.1",
       "commit": "9b0cabf0ddc4967eec8f86a34409a0213e1c15a1",
       "timestamp": 1762181487,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "87fef110c29e4b1221f2565fa869257f628d82c6aad46a11703971693b79ea98": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.6.2/nfc_alarm_clock_v12.6.2-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 540,
+      "version_name": "12.6.2",
+      "tag": "v12.6.2",
+      "commit": "3b57196ed48eb04fd733590472648c2295c1678f",
+      "timestamp": 1762289730,
       "reproducible": true,
       "error": null
     }
@@ -32361,6 +32443,20 @@
       "tag": "v0.37-alpha",
       "commit": "50ff65307e7ee8e88124a3bbd5e86accd998f816",
       "timestamp": 1758657703,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe5965d8db73f465d56ff4f973b1dc026cdebebb3c0ac147443c1ab315b7a0ab": [
+    {
+      "repository": "https://github.com/stud0709/OneMoreSecret.git",
+      "apk_url": "https://github.com/stud0709/OneMoreSecret/releases/download/v0.38-alpha/app-foss-release.apk",
+      "appid": "com.onemoresecret",
+      "version_code": 38,
+      "version_name": "0.38-alpha",
+      "tag": "v0.38-alpha",
+      "commit": "72c216f70ea72a2cd9ce854f6207cebf2e7924fe",
+      "timestamp": 1762269377,
       "reproducible": true,
       "error": null
     }
@@ -33915,6 +34011,20 @@
       "tag": "2025.10.13.1",
       "commit": "8eda2043435c0d9e16e81a969b7256d70a4fd4f4",
       "timestamp": 1760536411,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "160dca3445045c3af7cfe921745bc1d97369a39e14ed03c50949b411d92606ce": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2025.11.02.1/2025.11.02.1-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111125,
+      "version_name": "2025.11.02.1",
+      "tag": "2025.11.02.1",
+      "commit": "8f566b5520c2cc9f6e301be994c6877ea07e122e",
+      "timestamp": 1762282783,
       "reproducible": true,
       "error": null
     }
@@ -54231,6 +54341,34 @@
       "error": null
     }
   ],
+  "3a4af98495522051a83a7c6a9f57dc3d7965c693862423551d9248b5c2bd9055": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.2.2/de1984-v2.2.2.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 9,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "6f0173574c410585abf7857e4fbce779f88b1d08",
+      "timestamp": 1762269924,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eda48bc34a4d01ee135c2fb9f9f4d27a9260b9b51a0940d0d8736749a6dd6306": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.3.0/de1984-v2.3.0.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 10,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "d47532123d703fa95dabbf22cf590cf856c4f0ae",
+      "timestamp": 1762285843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7bdd3dd43e7a67f0ea940a836698c0336859cf7c68ce8eea2a76afe92d3a5aef": [
     {
       "repository": "https://github.com/dorumrr/privacyFlip.git",
@@ -54269,6 +54407,20 @@
       "tag": "v1.4.1",
       "commit": "4191bbf096e9d1164a0d0146c365c1b3be80be96",
       "timestamp": 1761573958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "696f414ea8691594206f38b27e09594f9bc2839b80e29817526525cae772b3fa": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v1.4.2/PrivacyFlip-v1.4.2-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 9,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "7f6f659187335b9bbf72e06b5bce9dbe8e1cee06",
+      "timestamp": 1762270187,
       "reproducible": true,
       "error": null
     }
@@ -56537,6 +56689,20 @@
       "tag": "v2.39.1",
       "commit": "f777491dcd75f35b621fc0cd5a95bd855639d8ff",
       "timestamp": 1759344652,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9287cb84e05e8bf9c6b287982376f074bab32bc1db30bec894c272d53b95c066": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.39.2/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 155,
+      "version_name": "2.39.2",
+      "tag": "v2.39.2",
+      "commit": "934d7ba041736c37a0228ee1477c1b8121a75799",
+      "timestamp": 1762286283,
       "reproducible": true,
       "error": null
     }
@@ -68659,6 +68825,20 @@
       "tag": "3.0.0-alpha02",
       "commit": "1c4b0156df23daeb6b6ccb3d1af2ec63b210ad83",
       "timestamp": 1762183227,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2eebc09c1333bb045becfc79b7f65dd25f1a497e9df63bd592e48a6f60ab4901": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha04/LockscreenWidgets_3.0.0-alpha04-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 149,
+      "version_name": "3.0.0-alpha04",
+      "tag": "3.0.0-alpha04",
+      "commit": "8a91b5638f3317f71a41e6f59e1fb425cb2ce361",
+      "timestamp": 1762270419,
       "reproducible": true,
       "error": null
     }
