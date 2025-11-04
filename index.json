@@ -15439,6 +15439,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp4k94lq9f/outputs:/outputs', '--volume', '/tmp/tmp4k94lq9f/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/DerGoogler/MMRL.git', '--env', 'APP_TAG=v5.32.44', '--env', 'APP_COMMIT=0bcd4c452842eadef6c37f2e8fd8522105c91796', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=12.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "471da2c58ca17a377a5640c4616f71d98d72ba7f5a4e282588e0c45d569d528b": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v34189/MMRL-v34189-release-official.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 34189,
+      "version_name": "v34189-release",
+      "tag": "v34189",
+      "commit": "48ef5e8ae1a2577a09d3c518e058454e80242041",
+      "timestamp": 1762257028,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -28531,6 +28545,20 @@
       "timestamp": 1752939631,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "52d7d966f1a0fa041e676a0f8ddea9980d8a90a7c44fc38e6e107f8b15fe4ab6": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.1.2/localmaterialnotes_arm64-v8av2.1.2.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 322,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "3a70de9ec74f8b6a64ccc9cbc92b14b3754c16b2",
+      "timestamp": 1762199808,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
