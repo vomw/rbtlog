@@ -7321,6 +7321,20 @@
       "error": null
     }
   ],
+  "b5eed6ff37e73f9a862c2abcdbbf60ff8bef6524a8f07e9bff8cdd6897e12010": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.1/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 24,
+      "version_name": "2.5.1",
+      "tag": "2.5.1",
+      "commit": "863561deb2804f15da57e08925195206ebd80796",
+      "timestamp": 1762354113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -9387,6 +9401,20 @@
       "tag": "v1.15.2",
       "commit": "b24a462fdbbe470b261cbf0ffb65084573ea01a2",
       "timestamp": 1759844884,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3383a342c7a6055af700160f9fcb09c29e0bce60dbf5ca6ba05c1cfdac29d5ef": [
+    {
+      "repository": "https://github.com/blinskey/greek-reference.git",
+      "apk_url": "https://github.com/blinskey/greek-reference/releases/download/v1.16.0/GreekReference-release-v1.16.0.apk",
+      "appid": "com.benlinskey.greekreference",
+      "version_code": 40,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "39356451736278fe2719788b0bc6af958fd95fd5",
+      "timestamp": 1762354277,
       "reproducible": true,
       "error": null
     }
@@ -13461,6 +13489,20 @@
       "tag": "1.1.4.4v120",
       "commit": "061ddf04daa8ef7a620193cb32ab73b4c0b90056",
       "timestamp": 1761314196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2974096f39eff43a56bc847500a092541bf715b1655238e140c24427f76ce9df": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.5v121/PuppyGit_1.1.4.5v121_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 121,
+      "version_name": "1.1.4.5",
+      "tag": "1.1.4.5v121",
+      "commit": "df57ffa5e51b64aa4af746ce7033768a318fcf59",
+      "timestamp": 1762354388,
       "reproducible": true,
       "error": null
     }
@@ -18043,6 +18085,20 @@
       "error": null
     }
   ],
+  "c5e7719fe786e5679d4ec4bb27635acc5d331d5ed5b364edd5220ca9b2f0609c": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.8-alpha/EblanLauncher-v0.1.8-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 18,
+      "version_name": "0.1.8-alpha",
+      "tag": "v0.1.8-alpha",
+      "commit": "10cda7fabf5a7ad14155fb3eb172b467320d893d",
+      "timestamp": 1762355220,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -18067,6 +18123,20 @@
       "tag": "v4.0.7",
       "commit": "4ab1f034d80c866385bdd8b47c6bd7c5cff7c1c2",
       "timestamp": 1761746402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01282f18ed10cc1f147a9f776ec7e6bbaea8668ac309f1ee4de4c6d2ae92054c": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.1.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 3,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "9ab22bfede02144e2ddf53c9bd5ff8b1a657026e",
+      "timestamp": 1762370551,
       "reproducible": true,
       "error": null
     }
@@ -33577,6 +33647,20 @@
       "tag": "v7.5.2",
       "commit": "5de1f4fe59128e6a7014f39c70e6b087126e67cc",
       "timestamp": 1761766974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f231315fa1ec57d46d917485f0873ab180bb91611e3038a5a34c2f3d00cced29": [
+    {
+      "repository": "https://github.com/PhilKes/NotallyX.git",
+      "apk_url": "https://github.com/PhilKes/NotallyX/releases/download/v7.5.3/NotallyX-7.5.3.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7530,
+      "version_name": "7.5.3",
+      "tag": "v7.5.3",
+      "commit": "26cf854bf79434f82f965b5569aa34f4d87e9c28",
+      "timestamp": 1762370817,
       "reproducible": true,
       "error": null
     }
@@ -54439,6 +54523,20 @@
       "error": null
     }
   ],
+  "479c8c60a56e61a00d07e682d2ac54465de4e809692ca246eb504b042f5591f1": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v1.4.3/PrivacyFlip-v1.4.3-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 10,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "d86fb5be103a7a97b5212cfb32d8b112d401370b",
+      "timestamp": 1762355711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -54673,6 +54771,20 @@
       "tag": "v1.20.0+111",
       "commit": "c17830babcb686ef0a55c3b01ba785e18318d62f",
       "timestamp": 1761746950,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76c7f9dea814d61c939a8c51725982de02cea39ed19cc1b45f20195f02ab0c22": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.20.1%2B115/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2115,
+      "version_name": "1.20.1",
+      "tag": "v1.20.1+115",
+      "commit": "47a87696d237ad4ab9a37cbb3482d2ba4a71bfa1",
+      "timestamp": 1762355874,
       "reproducible": true,
       "error": null
     }
@@ -55093,6 +55205,20 @@
       "tag": "1.4",
       "commit": "dbdb6cf3794013e7c9d993cae29bbf72b9640fbf",
       "timestamp": 1760365393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3e0bd0db89170a46f40bfade7bbe866f8cd6fc3e62fb3f956b1d49f1a927510e": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.5/play-on-dlna-1.5.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 6,
+      "version_name": "1.5",
+      "tag": "1.5",
+      "commit": "a408922a78240834400a4288943748ef48ad28ed",
+      "timestamp": 1762356418,
       "reproducible": true,
       "error": null
     }
@@ -60067,6 +60193,20 @@
       "error": null
     }
   ],
+  "53b465367d85106fd7dd1dade7bd951e07d82bd7adc71d33d151dcf915c63a75": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.22/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 174,
+      "version_name": "3.6.22",
+      "tag": "3.6.22",
+      "commit": "4ead6b192c4b77623c5c1923188581ea00fee108",
+      "timestamp": 1762356627,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -61117,6 +61257,20 @@
       "error": null
     }
   ],
+  "28356b104a38cc595b41db10163430142c9fb21ad3ce313e37d6eb059f65cc7b": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.8.1/gallery-21-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 21,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "f79ebb3805bbb92baf30a8f533f36612201ab49e",
+      "timestamp": 1762356800,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -61827,6 +61981,20 @@
       "tag": "1.5.0",
       "commit": "d04e4a83fb7bbef0b070981eb7de1c22f7efcfdc",
       "timestamp": 1761771845,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "287775aef2ab02e9bd2b3f891f0f7050f0c61b4df1fa049b2ba4b9082f416bd2": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.5.1/musicplayer-10-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 10,
+      "version_name": "1.5.1",
+      "tag": "1.5.1",
+      "commit": "0b742b32d714a89cd1b0b126be71132dbd1ad1e4",
+      "timestamp": 1762371225,
       "reproducible": true,
       "error": null
     }
@@ -68853,6 +69021,20 @@
       "tag": "3.0.0-alpha04",
       "commit": "8a91b5638f3317f71a41e6f59e1fb425cb2ce361",
       "timestamp": 1762270419,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d21de75cebd658152d630b4cd07ab4b7b17c0d439ff3a6920ab5a673b232e89": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha05/LockscreenWidgets_3.0.0-alpha05-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 150,
+      "version_name": "3.0.0-alpha05",
+      "tag": "3.0.0-alpha05",
+      "commit": "5a36d96379a77fcb6d7f29913cff6a6f350713a4",
+      "timestamp": 1762357220,
       "reproducible": true,
       "error": null
     }
