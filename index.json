@@ -1539,6 +1539,20 @@
       "error": null
     }
   ],
+  "a1adbaf1f1349a04250718b2a594763f8741e37e47192c364355b0b64cdc1a51": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.24.0/Podcini.X_release_free_8.24.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 190,
+      "version_name": "8.24.0",
+      "tag": "8.24.0",
+      "commit": "8e12532e477481b97dc6e4a26177c7c492fcc2d2",
+      "timestamp": 1762526886,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4797,6 +4811,20 @@
       "tag": "1.1.0",
       "commit": "7e24297b73dca55ec49e5d087b1cb0396d215684",
       "timestamp": 1762181286,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "efa25a91346141105e37e322c85784e328202df4de16a7512f48b2a4315c0f89": [
+    {
+      "repository": "https://gitlab.com/Askanimus/qr-lager.git",
+      "apk_url": "https://gitlab.com/Askanimus/qr-lager/-/releases/1.1.2/downloads/app-release.apk",
+      "appid": "askanimus.qrlager",
+      "version_code": 10102,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "4c55612052d487e077ee7eff9ecafe3aac606551",
+      "timestamp": 1762527168,
       "reproducible": true,
       "error": null
     }
@@ -15523,6 +15551,20 @@
       "error": null
     }
   ],
+  "b0388808b784c6e652fb2e79b5a359c8e7a4d667fe415aac6f54df4f00c19b66": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v34194/MMRL-v34194-release-official.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 34194,
+      "version_name": "v34194-release",
+      "tag": "v34194",
+      "commit": "4302201a7829eded75662aa911207a6783b97a5b",
+      "timestamp": 1762543343,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -18137,6 +18179,20 @@
       "tag": "v4.1.0",
       "commit": "9ab22bfede02144e2ddf53c9bd5ff8b1a657026e",
       "timestamp": 1762370551,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c6dc3b841d01b4e4f2726aa96425d2987ccfd0a67ed428e76908b898b86bbf5": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.1.3/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 4,
+      "version_name": "4.1.3",
+      "tag": "v4.1.3",
+      "commit": "611b5001beedbc76ad323901d3298f201b319b85",
+      "timestamp": 1762527318,
       "reproducible": true,
       "error": null
     }
@@ -23141,6 +23197,20 @@
       "tag": "v3.10.0",
       "commit": "97be4fd9f4202eb8c65d4ba79503b58bae00a09f",
       "timestamp": 1762020637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81f2d4f915a83abd3dd945125740bbc76a9e18af651d71d3f060eb0bba43f596": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.11.0/ExoPlayer-AirPlay-Receiver-003.11.00-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3110023,
+      "version_name": "003.11.00-23API",
+      "tag": "v3.11.0",
+      "commit": "0c07bb112ace32352f3571609875b9ecbdae3d2a",
+      "timestamp": 1762527505,
       "reproducible": true,
       "error": null
     }
@@ -28683,6 +28753,20 @@
       "timestamp": 1762199808,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "ad2f69c59be877e4e01b16b93200f28105a5a79282bd07c822a23a7ac9cdaaf7": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.1.3/localmaterialnotes_arm64-v8a_v2.1.3.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 332,
+      "version_name": "2.1.3",
+      "tag": "v2.1.3",
+      "commit": "cc4aae1a8dac7f1aa4a992bbe1d7cf30f5bf009b",
+      "timestamp": 1762527648,
+      "reproducible": true,
+      "error": null
     }
   ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
@@ -54551,6 +54635,34 @@
       "error": null
     }
   ],
+  "16860f5f168ae1c66e77e757e5d33198f69a1eca9fc60e53e4a7c12dc58c8484": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.3.4/de1984-v2.3.4.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 13,
+      "version_name": "2.3.4",
+      "tag": "v2.3.4",
+      "commit": "5cd4fd774512e51fc99b7ada6c841ca4761d227d",
+      "timestamp": 1762528221,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fcb943761ec9857cfdc1a40caedb3dd811e6e2fdcf3510c6eb72c226a433f745": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.3.5/de1984-v2.3.5.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 14,
+      "version_name": "2.3.5",
+      "tag": "v2.3.5",
+      "commit": "ee38ab5fd293d6964abf3713d54c3e3e0cf8f524",
+      "timestamp": 1762544069,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7bdd3dd43e7a67f0ea940a836698c0336859cf7c68ce8eea2a76afe92d3a5aef": [
     {
       "repository": "https://github.com/dorumrr/privacyFlip.git",
@@ -63707,6 +63819,20 @@
       "error": null
     }
   ],
+  "eb8d2aa5c9badb006b9502e3928e637857874a3c57b95d840e4ac8918ac8ff37": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.6.4/tomato-v1.6.4-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 19,
+      "version_name": "1.6.4",
+      "tag": "v1.6.4",
+      "commit": "1030dae9443c40fc782ecd512f6382c515799964",
+      "timestamp": 1762528417,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -66771,6 +66897,20 @@
       "error": null
     }
   ],
+  "cffda386e11d256304c7991e287f54bcf128abe95c9683651be0b52ede782068": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.7.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 26,
+      "version_name": "5.7.0",
+      "tag": "v5.7.0",
+      "commit": "f4a86964382e66a7566ef3b7a70f93bbb7297b01",
+      "timestamp": 1762544488,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -69161,6 +69301,20 @@
       "tag": "3.0.0-alpha06",
       "commit": "fa0fb11b2bc4c96c76d5e7406dfee7c577daa341",
       "timestamp": 1762458003,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ddb3c5a66a78742fdd58c126c5a8f3f168fdce9c4b1f99531d74c61a6089b80c": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha07-2/LockscreenWidgets_3.0.0-alpha07-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 152,
+      "version_name": "3.0.0-alpha07",
+      "tag": "3.0.0-alpha07-2",
+      "commit": "424fc159912a3069b521b6a91cd9fdfac79ccb3a",
+      "timestamp": 1762535189,
       "reproducible": true,
       "error": null
     }
