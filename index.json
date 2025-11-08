@@ -12429,6 +12429,20 @@
       "error": null
     }
   ],
+  "f61095a536a1e7a3e01fb61523b64cce40ddcc318994a59e4e036a1593d3c8db": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.11.1177-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1177,
+      "version_name": "2025.11.1177-dev",
+      "tag": "2025.11.1177-dev",
+      "commit": "e40d6eca2dff36aae4d3fde032afd597f273f1e2",
+      "timestamp": 1762613291,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -15561,6 +15575,20 @@
       "tag": "v34194",
       "commit": "4302201a7829eded75662aa911207a6783b97a5b",
       "timestamp": 1762543343,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43bc98ec87eb36e7b2651bc0d45f1257c43444486ff688c7a15efc7b87c61fb4": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v34195/MMRL-v34195-release-official.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 34195,
+      "version_name": "v34195-release",
+      "tag": "v34195",
+      "commit": "c7a32c4c889b0126b0cac49afce0b8da0d5bb434",
+      "timestamp": 1762613599,
       "reproducible": true,
       "error": null
     }
@@ -23215,6 +23243,20 @@
       "error": null
     }
   ],
+  "b98f77efad4339dc41a39b7a5979dc292dcbe6ddbcd301ff18ef6fcc0a761e0f": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.11.1/ExoPlayer-AirPlay-Receiver-003.11.01-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3110123,
+      "version_name": "003.11.01-23API",
+      "tag": "v3.11.1",
+      "commit": "8bdfa034e49e45ae213dc6b9248eb3a94fc7aa53",
+      "timestamp": 1762614209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e16f0a10ac6fe6a1fa1415370e4584f1ba0762bcd69bbe7e845e5c3a72176773": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -28599,6 +28641,20 @@
       "tag": "1.1.3",
       "commit": "5fbc7ecbc58e4792a2c1da24c2390a761c81dc76",
       "timestamp": 1761510162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d19b5291b9b0b6a1a527e05448037b17512a64b1a6695ad19fab084daf8a49b6": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Store.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Store/releases/download/1.1.4/Neo_Store_1.1.4_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1109,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "bdb5a1451803b0c61f08fd238d58a7a7cf9bd811",
+      "timestamp": 1762614353,
       "reproducible": true,
       "error": null
     }
@@ -43471,6 +43527,20 @@
       "error": null
     }
   ],
+  "0afed8fc749644e996d3610c35f5372c67e6d40b766e909c803b796e0fc807e2": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/wgtunnel/releases/download/4.1.5/wgtunnel-fdroid-v4.1.5-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 40105,
+      "version_name": "4.1.5",
+      "tag": "4.1.5",
+      "commit": "4da05e23f190833b3abf3ea8472c8e282dc548c7",
+      "timestamp": 1762614776,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "002184560de26989736ee8379af777bb945c2b8a0df907f9feac0d623d37c909": [
     {
       "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
@@ -54677,6 +54747,20 @@
       "error": null
     }
   ],
+  "ed4f9eaf7ce5f0cbdcaa2f6cff49c83c3a12cc84261c05a4a04e9437c7d24465": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.3.6/de1984-v2.3.6.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 15,
+      "version_name": "2.3.6",
+      "tag": "v2.3.6",
+      "commit": "05220817ac89d10b1208ae27594490122eb84130",
+      "timestamp": 1762615220,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7bdd3dd43e7a67f0ea940a836698c0336859cf7c68ce8eea2a76afe92d3a5aef": [
     {
       "repository": "https://github.com/dorumrr/privacyFlip.git",
@@ -61495,6 +61579,20 @@
       "error": null
     }
   ],
+  "30f80da45ce8fd272da5a6aaa6da930faf8f966b53e9ab767c2118e953594936": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.9.0/gallery-22-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 22,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "588e0bf6096bb99b795f142e07cf0af30f690d3b",
+      "timestamp": 1762615414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -65931,6 +66029,20 @@
       "error": null
     }
   ],
+  "19bebc604a1b57881f3888bf6636df5eaf9bd724e8a8a4203d8d074b1d2c647d": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.3.4/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 44,
+      "version_name": "2.3.4",
+      "tag": "2.3.4",
+      "commit": "7af19c60f88746877210db40e7c6e1c4b9bacb5e",
+      "timestamp": 1762626832,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -66067,6 +66179,20 @@
       "tag": "1.2.0",
       "commit": "5f2f86842ae8fb3a941604ea4a38e4b9720a780f",
       "timestamp": 1759856365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6051091f27d54d257f657e1efa4513d4353ffc49e46682c3a50f9780b9017414": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.2.2/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 13,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "553da0beaead92697215b6b106ce289b447b41e0",
+      "timestamp": 1762626027,
       "reproducible": true,
       "error": null
     }
@@ -67439,6 +67565,20 @@
       "tag": "v0.14.5",
       "commit": "64cdc9f0ee6224b1d5beeb5c3301a7601349e2ea",
       "timestamp": 1749824668,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3bbdd7c72fc287779d119fc490f364eaea0401f16de9bde8cb9101aeaa075dec": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.15.0/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 42,
+      "version_name": "0.15.0",
+      "tag": "v0.15.0",
+      "commit": "69b9be4ea545e9c779241eda6f1af14bccfb8478",
+      "timestamp": 1762615774,
       "reproducible": true,
       "error": null
     }
@@ -69347,6 +69487,34 @@
       "error": null
     }
   ],
+  "2fb19f42a625eea2d72355fc5a9d3b7c8cfb1ca6e2524ae135555ad1d321cb37": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/r8-fix-test/LockscreenWidgets_3.0.0-alpha07-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 152,
+      "version_name": "3.0.0-alpha07",
+      "tag": "r8-fix-test",
+      "commit": "c4e9686ea1f2a4ce6ca5e4dedb40860c81b9b424",
+      "timestamp": 1762615909,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bcdd5fdac4147c7b9adaf38d1406a110a667238089189b10d4faa7553a0e6880": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha08/LockscreenWidgets_3.0.0-alpha08-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 153,
+      "version_name": "3.0.0-alpha08",
+      "tag": "3.0.0-alpha08",
+      "commit": "57c4bb7a2d9154b2f5407236021b2e16a09502a1",
+      "timestamp": 1762629869,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -70029,6 +70197,20 @@
       "tag": "v0.24.24",
       "commit": "62845e56162a63668bf371fe376bf59b1da3123c",
       "timestamp": 1762096097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9ebdcb0bfc38fe58310248d2c7e76f41e130d1cc27cafd3e5c65f81fb4ed2687": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.25/WebviewKiosk_v0.24.25.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 83,
+      "version_name": "0.24.25",
+      "tag": "v0.24.25",
+      "commit": "05d4030ab2263693ebe97a484a14b052ed229bad",
+      "timestamp": 1762616189,
       "reproducible": true,
       "error": null
     }
