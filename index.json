@@ -25747,6 +25747,20 @@
       "error": null
     }
   ],
+  "5edf022b1a4c893cec0924d45c20894f954f762ac8a5eb9eef35e287a21d4a87": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.4-beta/PassVault-v0.4-beta-b5-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 5,
+      "version_name": "0.4-beta",
+      "tag": "v0.4-beta",
+      "commit": "405059197160d4220aca04bd1104989ca418a9e0",
+      "timestamp": 1762616895,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -68727,6 +68741,20 @@
       "tag": "3.1",
       "commit": "206e2398c4010f6ed3272a94a1ca788d030a7498",
       "timestamp": 1739906474,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7621fc5529b3cd96f077fe1b4704e7b90d6e599661f8104befc05cef62a73002": [
+    {
+      "repository": "https://github.com/mattipunkt/schmackofatz.git",
+      "apk_url": "https://github.com/mattipunkt/schmackofatz/releases/download/v2.0.4/schmackofatz-app-arm64-v8a-release.apk",
+      "appid": "space.pleura.schmackofatz",
+      "version_code": 2001,
+      "version_name": "v2.0.4",
+      "tag": "v2.0.4",
+      "commit": "812db9df829d70385f8c6212cb27b32e84b7fcc3",
+      "timestamp": 1762605345,
       "reproducible": true,
       "error": null
     }
