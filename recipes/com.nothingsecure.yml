@@ -605,3 +605,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: V0.3.17-Phasmophobia.3
+    apks:
+      - apk_pattern: Nothing[kK]\.apk
+        apk_url: https://github.com/cuadratico/NothingK/releases/download/V0.3.17-Phasmophobia.3/NothingK.apk
+        build:
+          - git reset --soft 8798ac9c3ae5876b8326a3082b778d67e0bd7549
+          - sed -r 's/0.3.10-MADiSON/0.3.10/' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
