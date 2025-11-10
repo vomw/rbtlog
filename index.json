@@ -1553,6 +1553,34 @@
       "error": null
     }
   ],
+  "dcd2f5730296a2a0ecabaf3c3ac081484cf273315771ca6988431233c8c3c1a0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.25.0/Podcini.X_release_free_8.25.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 191,
+      "version_name": "8.25.0",
+      "tag": "8.25.0",
+      "commit": "77c79a09683102e6192f4972b5e2c468f6ea8810",
+      "timestamp": 1762786096,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01628223e500cea4889cb81d7177ee4e2dee88f8a380766089d70d82a332bd8a": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/8.25.1/Podcini.X_release_free_8.25.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 192,
+      "version_name": "8.25.1",
+      "tag": "8.25.1",
+      "commit": "f21e9b0710b20e1a34c919384c363807d701e993",
+      "timestamp": 1762802678,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5875,6 +5903,20 @@
       "tag": "3.37.0",
       "commit": "617c860151332f939fcdd1606571acaaf6592f25",
       "timestamp": 1762726261,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a9f89d38aed375c7826e17eefc583b88f53bd139698626939dbc150263d3463": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.37.1/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3037001,
+      "version_name": "3.37.1",
+      "tag": "3.37.1",
+      "commit": "34502977112d39272598049413cb0bc0a7d63fae",
+      "timestamp": 1762808400,
       "reproducible": true,
       "error": null
     }
@@ -18183,6 +18225,20 @@
       "error": null
     }
   ],
+  "e1ae2d77f429f90db34f3b46feb606eb16527232b70e095f765e69b2595f74f3": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.1.9-alpha/EblanLauncher-v0.1.9-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 19,
+      "version_name": "0.1.9-alpha",
+      "tag": "v0.1.9-alpha",
+      "commit": "8fb6a352aad0b7a6d78b65b4086c1b3fe37cbc0d",
+      "timestamp": 1762786468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -18235,6 +18291,20 @@
       "tag": "v4.1.3",
       "commit": "611b5001beedbc76ad323901d3298f201b319b85",
       "timestamp": 1762527318,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e185820a16b1d11625bcc82f5c182b9517122e9d37a28afc3361b171a55cd00": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.2.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 5,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "ccfe74a6ea853bae85fc437894178e0fa211b430",
+      "timestamp": 1762786957,
       "reproducible": true,
       "error": null
     }
@@ -18501,6 +18571,20 @@
       "tag": "2025.10.5",
       "commit": "cdcc1d62f1eb5f7f09148b67ab9bfb51dbc7eb17",
       "timestamp": 1760191462,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a7e88232c1b3e7a1fd16a427a16000e6d3640dcf2f6d2fc4cf105f7cfe03660c": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.11.2/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 16,
+      "version_name": "2025.11.2",
+      "tag": "2025.11.2",
+      "commit": "3e9b3fe3352fb8803620ca2cb891808e57e53d56",
+      "timestamp": 1762787189,
       "reproducible": true,
       "error": null
     }
@@ -23281,6 +23365,20 @@
       "tag": "v3.11.1",
       "commit": "8bdfa034e49e45ae213dc6b9248eb3a94fc7aa53",
       "timestamp": 1762614209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "280b940e1c521bb7bc73a5a1b45c576c6f994f7817457d496609bc5c70f7f15d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.12.0/ExoPlayer-AirPlay-Receiver-003.12.00-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3120023,
+      "version_name": "003.12.00-23API",
+      "tag": "v3.12.0",
+      "commit": "208b1a44c33553da000f95e899ed2772ffdba2ad",
+      "timestamp": 1762787477,
       "reproducible": true,
       "error": null
     }
@@ -32023,6 +32121,20 @@
       "tag": "V0.3.17-Phasmophobia.3",
       "commit": "97e1b6828e799f0f7191a0bc424a95fb2e142664",
       "timestamp": 1762726311,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "56b68bb138584c8b98fc40e8669937de39a8e4ca36377f2ab48fc3ad387f26b7": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.17-Phasmophobia.4/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 24,
+      "version_name": "0.3.17-Phasmophobia.4",
+      "tag": "V0.3.17-Phasmophobia.4",
+      "commit": "5371562d9448fabb4df6f491cb2c94b5c9948d0e",
+      "timestamp": 1762787870,
       "reproducible": true,
       "error": null
     }
@@ -43067,6 +43179,20 @@
       "error": null
     }
   ],
+  "6321a9b613049af003dece49e7cdb27443c45c38bd48fe75191c9a5d151b6166": [
+    {
+      "repository": "https://github.com/mrwm/QRshare.git",
+      "apk_url": "https://github.com/mrwm/QRshare/releases/download/1.0.20/app-release.apk",
+      "appid": "com.wchung.qrshare",
+      "version_code": 20,
+      "version_name": "1.0.20",
+      "tag": "1.0.20",
+      "commit": "fc1430750b2a951cd9b4645654adc66810658e7a",
+      "timestamp": 1762788376,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a04c4e01db9571f595edbeeac3d32e3f63124707d37a625e9d1409a8bc19ffe8": [
     {
       "repository": "https://github.com/WirelessAlien/ZipXtract.git",
@@ -51097,6 +51223,20 @@
       "error": null
     }
   ],
+  "423a42c026f5fe646e7fd185b70ff32dbea13cc824e63c8919a26ac3f312f41f": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.0.4-rc0/eu.darken.bluemusic-v3.0.4-rc0-30004000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30004000,
+      "version_name": "3.0.4-rc0",
+      "tag": "v3.0.4-rc0",
+      "commit": "c88495db89a9bdf5df4a67772770a2267fedaf34",
+      "timestamp": 1762805162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -51681,6 +51821,20 @@
       "tag": "v1.5.2-rc0",
       "commit": "7c9524327bf3cea2987fa5bc13d6fd305851b033",
       "timestamp": 1760018596,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f8fd78d7f982ea31e81e101986922ae5501246940efaa14a318286d87fa212d": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.3-rc0/eu.darken.sdmse-v1.5.3-rc0-10503000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10503000,
+      "version_name": "1.5.3-rc0",
+      "tag": "v1.5.3-rc0",
+      "commit": "98f3b3c6ac8ea57f3e6a04386605bf3a12e5accc",
+      "timestamp": 1762806119,
       "reproducible": true,
       "error": null
     }
@@ -62923,6 +63077,20 @@
       "error": null
     }
   ],
+  "760fcf19943e112328f8fa82942532d16e9eef4630d89c4c8ec5f48b9bd9dad1": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.9.0/phone-18-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 18,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "fa46abe7b6f0c265de88ab6221c92709fb896832",
+      "timestamp": 1762788546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16eb7d91a305544ef92ee26b6773db3b0913aa7c9c5b75b93916fa5ee4dfaad5": [
     {
       "repository": "https://github.com/FossifyOrg/Thank-You.git",
@@ -63157,6 +63325,20 @@
       "tag": "1.5.0",
       "commit": "3e0a7405a4c0c990978ab29df6b591b6c577ad24",
       "timestamp": 1761773037,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ab42b9a69d9bbd53c509b7bfd81d7b386a35b1e8ef8b8d930d1c1d1314b80a5": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.5.1/voicerecorder-15-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 15,
+      "version_name": "1.5.1",
+      "tag": "1.5.1",
+      "commit": "6ef2b66d0777efb87d420dd1ce4773d8c3ffab53",
+      "timestamp": 1762788891,
       "reproducible": true,
       "error": null
     }
@@ -65339,6 +65521,20 @@
       "tag": "v0.0.9",
       "commit": "f271784135ab56237a5bce73712fa173be0a6544",
       "timestamp": 1748209585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2999e41febf09482f01700aa140f60a6100a74dff91761f63d6646ae37fddaed": [
+    {
+      "repository": "https://github.com/ranobe-org/ranobe.git",
+      "apk_url": "https://github.com/ranobe-org/ranobe/releases/download/v0.0.10/ranobe.apk",
+      "appid": "org.ranobe.ranobe",
+      "version_code": 10,
+      "version_name": "v0.0.10",
+      "tag": "v0.0.10",
+      "commit": "08db8520def5be2bb4f709d1a3f385418f81f7ad",
+      "timestamp": 1762807162,
       "reproducible": true,
       "error": null
     }
@@ -70477,6 +70673,20 @@
       "tag": "v0.24.25",
       "commit": "05d4030ab2263693ebe97a484a14b052ed229bad",
       "timestamp": 1762616189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e848abd5adec617dceb64ff110467f1922044d6bef587a61b5d56e90eefcda4": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.26/WebviewKiosk_v0.24.26.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 84,
+      "version_name": "0.24.26",
+      "tag": "v0.24.26",
+      "commit": "d51a6f82715a0a9d456d341cf7b6c2d096c232d0",
+      "timestamp": 1762789237,
       "reproducible": true,
       "error": null
     }
