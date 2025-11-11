@@ -15103,6 +15103,20 @@
       "error": null
     }
   ],
+  "8ca8e394760aeb157e1a0bc655e7937abdac8769b9ced4130f7c7179f52491af": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.10.0/OuterTune-0.10.0-core-release-70.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 70,
+      "version_name": "0.10.0",
+      "tag": "v0.10.0",
+      "commit": "501f08ccb3274e08cc4b0f39a32acac9e81dca42",
+      "timestamp": 1762826806,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f2b9e9351cf7b043069ebe0115f92382cc23fed8e1a7e0b82b04db6c6e646ee2": [
     {
       "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
@@ -28795,6 +28809,20 @@
       "tag": "1.1.4",
       "commit": "bdb5a1451803b0c61f08fd238d58a7a7cf9bd811",
       "timestamp": 1762614353,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "84fdde08749e82dbe04fb637161bae1cd5b0d6e56557e8f91bbb9ffd69110fe5": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.1.5/Neo_Store_1.1.5_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1110,
+      "version_name": "1.1.5",
+      "tag": "1.1.5",
+      "commit": "50ebf032f0e490ed870f1d93e7dd39afdfe472f2",
+      "timestamp": 1762824429,
       "reproducible": true,
       "error": null
     }
