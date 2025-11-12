@@ -3,6 +3,7 @@ repository: https://github.com/cliambrown/PillTime.git
 updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for v4.0 (manually adjusted)'
+  - 'FIXME: gradlew checksum error for v7.0, so we had to use our own gradle2; see https://github.com/cliambrown/PillTime/issues/8 for details'
 versions:
   - tag: v4.0
     apks:
@@ -81,6 +82,34 @@ versions:
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v7.0
+    apks:
+      - apk_pattern: pill_time.*\.apk
+        apk_url: https://github.com/cliambrown/PillTime/releases/download/v7.0/pill_time_v7.0.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.13 -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
           ndk:
           platform:
           platform_tools:
