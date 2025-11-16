@@ -255,3 +255,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.3.0
+    apks:
+      - apk_pattern: soundcrowd\.apk
+        apk_url: https://github.com/soundcrowd/soundcrowd/releases/download/v4.3.0/soundcrowd.apk
+        build:
+          - base64 -d > sepp <<< c2VkIC1yICdzL1lPVVItQ0xJRU5ULUlELzdtN0FwMEpDOWoxY09NM24vIDsgcy9ZT1VSLUNMSUVOVC1TRUNSRVQvdlJBZEExMDh0bHZrSnBUc0daUzhyR1o3eFRsYkowcWFaMks5c2FFenNnWT0vJyAtaSB0aWRhbC90aWRhbC9idWlsZC5ncmFkbGUKc2VkIC1yICdzL1lPVVItUkVESVJFQ1QtVVJJL3NvdW5kY3Jvd2Q6XC9cL3NvdW5kY2xvdWRcL2NhbGxiYWNrLyA7IHMvWU9VUi1DTElFTlQtU0VDUkVUL3VtVExlNWZwQkNhTjhLV3Zab2dnZmxPRWNjV0RERGpULyA7IHMvWU9VUi1DTElFTlQtSUQvOFhZa1NTSjNBSm1kbDJ1UUNLdURlVnByV3ZZT2tHd2wvJyAtaSBzb3VuZGNsb3VkL3NvdW5kY2xvdWQvYnVpbGQuZ3JhZGxlCnNlZCAtciAncy9ZT1VSLUNMSUVOVC1JRC8wR0l2a0NsdFZJdVBra3dTSkhwNk5EYjNzMHBvdFRqTEJRcjM4OERkLyA7IHMvWU9VUi1SRURJUkVDVC1VUkkvaHR0cHM6XC9cL2FwaS5iZWF0cG9ydC5jb21cL3Y0XC9hdXRoXC9vXC9wb3N0LW1lc3NhZ2VcLy8nIC1pIGJlYXRwb3J0L2JlYXRwb3J0L2J1aWxkLmdyYWRsZQo=
+          - bash sepp
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 4 --pad-like-apksigner --replace app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

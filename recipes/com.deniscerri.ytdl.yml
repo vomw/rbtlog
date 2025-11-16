@@ -323,3 +323,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.8.7
+    apks:
+      - apk_pattern: YTDLnis-.*-arm64-v8a-release\.apk
+        apk_url: https://github.com/deniscerri/ytdlnis/releases/download/v1.8.7/YTDLnis-1.8.7-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.debug/d' -i app/build.gradle
+          - chmod +x gradlew
+          - touch local.properties
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/YTDLnis-*-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
