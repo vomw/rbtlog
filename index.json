@@ -4885,6 +4885,20 @@
       "error": null
     }
   ],
+  "629fb4f3136411c15916895cc2d1852b20165686f649d1c88cf62e0b2b032ced": [
+    {
+      "repository": "https://gitlab.com/Askanimus/qr-lager.git",
+      "apk_url": "https://gitlab.com/Askanimus/qr-lager/-/releases/1.1.3/downloads/app-release.apk",
+      "appid": "askanimus.qrlager",
+      "version_code": 10103,
+      "version_name": "1.1.3",
+      "tag": "1.1.3",
+      "commit": "c8dd36d5a67ccd5819abfd85102ca7dbba0ea029",
+      "timestamp": 1763222710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9477e9877dc5d5a303a58ca38521c57052fedca88f870d1e59e7cf7e9b309d7c": [
     {
       "repository": "https://github.com/bitfireAT/davx5-ose.git",
@@ -10185,6 +10199,20 @@
       "tag": "v16.0",
       "commit": "5ffe9e8352e9572bf9cded3df07e1abd346d3a73",
       "timestamp": 1760120898,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe7ea429f60215bb3927b22a78b6758a86b6585d5b1d575c66345a2cbe950924": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v16.1/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 51,
+      "version_name": "16.1",
+      "tag": "v16.1",
+      "commit": "ededef6cbf0923c74983274f5b6406ac09d423d4",
+      "timestamp": 1763218112,
       "reproducible": true,
       "error": null
     }
@@ -18505,6 +18533,20 @@
       "error": null
     }
   ],
+  "29dfeaf6c85e41c407350d362327e3cee50f9445d6e83d4b14643018c89ac740": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.2.4/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 6,
+      "version_name": "4.2.4",
+      "tag": "v4.2.4",
+      "commit": "f6f24acfdf1a580eca6063593a95b79434821b8a",
+      "timestamp": 1763235351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -18781,6 +18823,20 @@
       "tag": "2025.11.2",
       "commit": "3e9b3fe3352fb8803620ca2cb891808e57e53d56",
       "timestamp": 1762787189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c9ff2f62a942dc18fcfd8b05ea9a8750fc67e5ca3bd42d4ee386309892bea55c": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.11.3/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 17,
+      "version_name": "2025.11.3",
+      "tag": "2025.11.3",
+      "commit": "85d2b09042627e4fdebd9c6fb8b8161f5601790c",
+      "timestamp": 1763218428,
       "reproducible": true,
       "error": null
     }
@@ -19829,6 +19885,20 @@
       "tag": "v1.33.1",
       "commit": "8749ae09e2ddcfaaa3ac63034a2a92a62dc1c2e7",
       "timestamp": 1760207613,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cef57d1a38f360bbf1c8b1556e4223ca150aec4bc06422a78425f9b05c6a9382": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.34.0/com.fibelatti.photowidget-v1.34-1340000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1340000,
+      "version_name": "1.34",
+      "tag": "v1.34.0",
+      "commit": "1e0702ee34d1c8d99fe6a0fd4f1faa22ff928958",
+      "timestamp": 1763248270,
       "reproducible": true,
       "error": null
     }
@@ -21873,6 +21943,20 @@
       "tag": "v2.7.5",
       "commit": "8287203db4b737b217efe3b5624f4003fba44f70",
       "timestamp": 1761939006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bac5ee5712b33f8ede5b6f285d0b9bc17a68d3c6a9b6e80192f964ea969eb746": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.6/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319394,
+      "version_name": "2.7.6 (29319394) fdroid",
+      "tag": "v2.7.6",
+      "commit": "e06a59829153e645c3d92e0e099b932e6bd37363",
+      "timestamp": 1763248849,
       "reproducible": true,
       "error": null
     }
@@ -26219,6 +26303,20 @@
       "tag": "v0.4-beta",
       "commit": "405059197160d4220aca04bd1104989ca418a9e0",
       "timestamp": 1762616895,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "940d9154870a3997860935864cffb1dbbba3ce1c74f2d66266ea02bad3e4ac60": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.5.0/PassVault-v0.5.0-b6-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 6,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "04686500a9dca1949f1b09b50a2e419327463ecb",
+      "timestamp": 1763218730,
       "reproducible": true,
       "error": null
     }
@@ -33241,6 +33339,20 @@
       "tag": "1.1.5",
       "commit": "b15aa42cba2da4b12bed26074a13eb0c61e51a71",
       "timestamp": 1762725964,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eff9c63e6204665db05ffce1b334ecc6af14694f72c879b472988e6944e52c83": [
+    {
+      "repository": "https://github.com/omardotdev/lumi.git",
+      "apk_url": "https://github.com/omardotdev/lumi/releases/download/1.1.7/app-release.apk",
+      "appid": "com.omardotdev.lumi",
+      "version_code": 9,
+      "version_name": "1.1.7",
+      "tag": "1.1.7",
+      "commit": "d089d99aedc9bb0054794f9ccdfd11c2e9cf63e1",
+      "timestamp": 1763218971,
       "reproducible": true,
       "error": null
     }
@@ -44339,6 +44451,20 @@
       "error": null
     }
   ],
+  "24f7ec0b7b84bfb84d405d2c9faf5f5a747d4ab1a819a1f56fe089ef1993e931": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/wgtunnel/releases/download/4.1.8/wgtunnel-fdroid-v4.1.8-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 40108,
+      "version_name": "4.1.8",
+      "tag": "4.1.8",
+      "commit": "85a27f48a292bf76b887c0900ee78b04eaea088b",
+      "timestamp": 1763219217,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "002184560de26989736ee8379af777bb945c2b8a0df907f9feac0d623d37c909": [
     {
       "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
@@ -46927,6 +47053,20 @@
       "error": null
     }
   ],
+  "aef2fc964ee1b3e6a55800d8a21718b6752f8d96bfbd2ca52a52ae9661e1c6b3": [
+    {
+      "repository": "https://codeberg.org/Starfish/Imagepipe.git",
+      "apk_url": "https://codeberg.org/Starfish/Imagepipe/releases/download/v0.74/imagepipe-build_053-version_0.74-20251115.apk",
+      "appid": "de.kaffeemitkoffein.imagepipe",
+      "version_code": 53,
+      "version_name": "0.74",
+      "tag": "v0.74",
+      "commit": "0b770cb5a0e340d0c27b820826b5bc72b087caae",
+      "timestamp": 1763239203,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ee1d4b9dfedd5e8f4afb7b81ec1a5e9791c75bd67fa9d87adb0bc5055c38d394": [
     {
       "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
@@ -48505,6 +48645,20 @@
       "tag": "v0.0.2",
       "commit": "b72bca419d997602151f23612605b6e9fd3e5f03",
       "timestamp": 1757098279,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "61ae2424c8fef1fd44d671384963533dce4a52c92e74144393dd2efbc2bd1e4c": [
+    {
+      "repository": "https://codeberg.org/bg443/BikeBridge.git",
+      "apk_url": "https://codeberg.org/bg443/BikeBridge/releases/download/v0.0.3/BikeBridge-universal-release.apk",
+      "appid": "dev.bg.bikebridge",
+      "version_code": 3,
+      "version_name": "0.0.3",
+      "tag": "v0.0.3",
+      "commit": "7ceddc1af61ad222c228581459831581f9b95e37",
+      "timestamp": 1763239345,
       "reproducible": true,
       "error": null
     }
@@ -55727,6 +55881,34 @@
       "error": null
     }
   ],
+  "bb03b89994f0659d3419865994b5c158233f2f12873222f8e717e8767860ddfb": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.4.0/de1984-v2.4.0.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 19,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "5383be324d28baba5c0a29a02934b45ae91edb08",
+      "timestamp": 1763219780,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c428590562fa367fd0c90ee7a99694413b7c561c16c24e1b9e0dffc3937d44ff": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.4.1/de1984-v2.4.1.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 20,
+      "version_name": "2.4.1",
+      "tag": "v2.4.1",
+      "commit": "2ff424dc0e4a72ebee96f6d0e160b1e9b9c5e77d",
+      "timestamp": 1763239721,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0c72f2a38ea211431706b1d2316bd7fd01f859529ab196dcb371fb9b040f8889": [
     {
       "repository": "https://github.com/dorumrr/happytaxes.git",
@@ -59013,6 +59195,20 @@
       "tag": "v12.4.5",
       "commit": "1fcf700e1d31251cc0a0799bf59a82f328ab890e",
       "timestamp": 1761508454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cb2abebc54d19d47c70599244bc54dbd6e6f44d4e7560b12e26947ab10c6d7cd": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v12.4.6/app-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 129,
+      "version_name": "12.4.6",
+      "tag": "v12.4.6",
+      "commit": "2bc4e0fcdd05249ab9669760662d23815636d49b",
+      "timestamp": 1763220029,
       "reproducible": true,
       "error": null
     }
@@ -70761,6 +70957,34 @@
       "error": null
     }
   ],
+  "0434f69f10185b812a64bd15c58ab94baffa700dd28298eee37f4630565b220b": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha15/LockscreenWidgets_3.0.0-alpha15-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 160,
+      "version_name": "3.0.0-alpha15",
+      "tag": "3.0.0-alpha15",
+      "commit": "d34479bd6c1965b4c4d9245d847aeea92c2d9e51",
+      "timestamp": 1763220628,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e5b65f08b322747dd097d80b37774ff6539de5985c8b326a2498c158442418b": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha16/LockscreenWidgets_3.0.0-alpha16-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 161,
+      "version_name": "3.0.0-alpha16",
+      "tag": "3.0.0-alpha16",
+      "commit": "7457367543706692b00ccff3b339d271b1a2c935",
+      "timestamp": 1763240133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -71513,6 +71737,20 @@
       "tag": "v0.24.29",
       "commit": "d0ed9a40f54dd6a424a714fb4e5518b85f1cadb3",
       "timestamp": 1763136249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76db4131eb85dfdcccde9fa7b150d0e9d1e58d85cabc9dd0991b16772eefb3c4": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.30/WebviewKiosk_v0.24.30.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 88,
+      "version_name": "0.24.30",
+      "tag": "v0.24.30",
+      "commit": "fb2c3ef4eb82e7c2fb41ee1cbf528183a6d0ac9d",
+      "timestamp": 1763220974,
       "reproducible": true,
       "error": null
     }
