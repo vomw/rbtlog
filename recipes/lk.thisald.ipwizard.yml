@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v0.0.1
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: IP.Wizard.*\.apk
         apk_url: https://github.com/thisal-d/ip-wizard/releases/download/v0.0.1/IP.Wizard.-.v0.0.1.apk
         build:
           - git reset --soft d82dc965fec1ab889d82d826144f7d594c33ae31

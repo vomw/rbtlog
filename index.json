@@ -3261,6 +3261,20 @@
       "error": null
     }
   ],
+  "a8343864c9d51e7f27010b88b04ab55a56033382c8adcfeb61cd45f8e832e761": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.2.6/MultiLauncher-1.11.2.6-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110206,
+      "version_name": "1.11.2 build 6",
+      "tag": "1.11.2.6",
+      "commit": "8d77aae63fb94accb6c882eb7ae02e5efee1e79a",
+      "timestamp": 1763390883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -4909,6 +4923,20 @@
       "tag": "1.1.3",
       "commit": "c8dd36d5a67ccd5819abfd85102ca7dbba0ea029",
       "timestamp": 1763222710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5d5f3dae43e8c71bb7c11e5ab8dda3cf919c16262ca749a73459df4ad5443803": [
+    {
+      "repository": "https://gitlab.com/Askanimus/qr-lager.git",
+      "apk_url": "https://gitlab.com/Askanimus/qr-lager/-/releases/1.1.4/downloads/app-release.apk",
+      "appid": "askanimus.qrlager",
+      "version_code": 10104,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "89c14be7e55f5247f0dbdc778c87cb0a7fd3ea35",
+      "timestamp": 1763391258,
       "reproducible": true,
       "error": null
     }
@@ -9051,6 +9079,20 @@
       "tag": "v4.5.9e",
       "commit": "e25b5fbf03c23c85561c9c986792e71854feadc1",
       "timestamp": 1762020302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45bd208c766a7fe93e6912932800f4110e8bbd42231b69ccf9bd50abf9ba5536": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.0/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1373,
+      "version_name": "4.6.0",
+      "tag": "v4.6.0",
+      "commit": "2bf2f09439dddaa91d25cbef01cc9b60352a886f",
+      "timestamp": 1763391455,
       "reproducible": true,
       "error": null
     }
@@ -15635,6 +15677,20 @@
       "error": null
     }
   ],
+  "9c2eae017fe21906b75d4c63d676c1db16a8bbb9da537c7cda60a258b48b8572": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.14.2/daily-you-arm64-v8a-v2.14.2.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20140022,
+      "version_name": "2.14.2",
+      "tag": "v2.14.2",
+      "commit": "a642766877b912aab69a27cda7a4d18021acc353",
+      "timestamp": 1763391597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -18669,6 +18725,20 @@
       "tag": "1.2",
       "commit": "19365414f5f71c617e5c7e7a3351c8df111c53e3",
       "timestamp": 1748207392,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a22623c5eed46f4912f373e5fd58fdff9d37173ae1d33cbc00839f05736fa8e": [
+    {
+      "repository": "https://github.com/CachoCh/iperf3AndroidClient.git",
+      "apk_url": "https://github.com/CachoCh/iperf3AndroidClient/releases/download/1.3/iperf3client_1.3.apk",
+      "appid": "com.example.iperf3client",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "f6ed1982796045d029e007831400bef52b823246",
+      "timestamp": 1763407204,
       "reproducible": true,
       "error": null
     }
@@ -22881,6 +22951,20 @@
       "error": null
     }
   ],
+  "8daa0a5f93b82c2958452c67e93725218216498c8a7952b20a79c7aaca7e76c2": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.4.1/com.github.livingwithhippos.unchained-v1.4.1.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 54,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "aefd4447a9862e81c2cf127ed86ef06b07123f8c",
+      "timestamp": 1763407467,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a327aa7d88ed34a4fd5de5cbf5f6701df5c9e1f8c26ea3ee1b41f64529dc5c3": [
     {
       "repository": "https://github.com/mikulash/ShareAsQR.git",
@@ -23523,6 +23607,20 @@
       "error": null
     }
   ],
+  "47d0cc8bc09ad196e2c892f7e77421302abfdc9697953dc249cf06a97910a985": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.4.1/SensorSpot-v1.4.1.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 10,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "43f5ec34478a68fc6ecc7487a78651a9e26694a8",
+      "timestamp": 1763407978,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -23729,6 +23827,20 @@
       "tag": "v3.12.0",
       "commit": "208b1a44c33553da000f95e899ed2772ffdba2ad",
       "timestamp": 1762787477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "253fd6646457469463f6579e9f74243bfde5e187e04f68fc5cca027698d5bccb": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.12.1/ExoPlayer-AirPlay-Receiver-003.12.01-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3120123,
+      "version_name": "003.12.01-23API",
+      "tag": "v3.12.1",
+      "commit": "4e458cfa5e30c25c4056ec83120ad02ff3e92885",
+      "timestamp": 1763392210,
       "reproducible": true,
       "error": null
     }
@@ -26349,6 +26461,20 @@
       "error": null
     }
   ],
+  "8c250c1920caf9c26d1fda4a24dd32c19af53d9514b63f49527f4d4faad1023d": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.6.0-beta/PassVault-v0.6.0-beta-b7-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 7,
+      "version_name": "0.6.0-beta",
+      "tag": "v0.6.0-beta",
+      "commit": "79baa72ed892396324efb498f1ab090c6f07e6e3",
+      "timestamp": 1763408459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -26359,6 +26485,20 @@
       "tag": "v4.0.1m-build150",
       "commit": "891b2cf56a287c445e103f9b00b27fdc4e640313",
       "timestamp": 1754783361,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1d4955c594009e7ca2cdee6b752800edec4e8e365f8a18c8ebaf7feb60a46f1": [
+    {
+      "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
+      "apk_url": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android/releases/download/v4.5.0m-build204/Atomic-v450-b204.apk",
+      "appid": "com.jlindemann.science",
+      "version_code": 204,
+      "version_name": "4.5.0m",
+      "tag": "v4.5.0m-build204",
+      "commit": "38172e4cfcf584510b8327aa8ba99f47fb5032b0",
+      "timestamp": 1763413113,
       "reproducible": true,
       "error": null
     }
@@ -45011,6 +45151,20 @@
       "error": null
     }
   ],
+  "f9fd8d2e2c35954587360a25d4bf5b376dec04e446d87d40987d685de886bce9": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.4.1/MediLog-3.4.1.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5505,
+      "version_name": "3.4.1",
+      "tag": "v3.4.1",
+      "commit": "ad142f5d7b53da6e2981ec02ac1fa4222a516ea0",
+      "timestamp": 1763411685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fdff0e3ce7602b6f7ce0b382dd8ddb908756511d296e1a70d478874c02f914f": [
     {
       "repository": "https://gitlab.com/toz12/PublicArtExplorer.git",
@@ -56021,6 +56175,20 @@
       "error": null
     }
   ],
+  "12acbcc1a604ac05a88c313b0011c056dd391036407862cf9d590b5df5004fb8": [
+    {
+      "repository": "https://github.com/dorumrr/happytaxes.git",
+      "apk_url": "https://github.com/dorumrr/happytaxes/releases/download/v1.0.3/happytaxes-v1.0.3.apk",
+      "appid": "io.github.dorumrr.happytaxes",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "d8b2ae61dcdb66630a29e16c50c546e5b2c48a3f",
+      "timestamp": 1763410488,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7bdd3dd43e7a67f0ea940a836698c0336859cf7c68ce8eea2a76afe92d3a5aef": [
     {
       "repository": "https://github.com/dorumrr/privacyFlip.git",
@@ -64631,6 +64799,20 @@
       "error": null
     }
   ],
+  "9805dad315a801686868f05a34aae08fa9e9fcff046d041496e42c99ba62dd65": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.8.0/floccus-build-v5.8.0.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5008000,
+      "version_name": "5.8.0",
+      "tag": "v5.8.0",
+      "commit": "4229acc353c04ed9df0d02a48ea4cc683cb0f90f",
+      "timestamp": 1763411147,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -68098,6 +68280,20 @@
       "commit": "7c4f7e05550c53ff2035fec69d17e9dbdf15545b",
       "timestamp": 1763150124,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "d011686ba6943e2c19905af2cf0e258a9b145a4a4e53a227b6f115c89f3dd580": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.5/transistor-app-release-4.3.5.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 112,
+      "version_name": "4.3.5",
+      "tag": "v4.3.5",
+      "commit": "1554a7d7f04e6bf04bbe1afe524d800096c7576f",
+      "timestamp": 1763392663,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -71891,6 +72087,20 @@
       "tag": "v0.24.30",
       "commit": "fb2c3ef4eb82e7c2fb41ee1cbf528183a6d0ac9d",
       "timestamp": 1763220974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6c99ff8fcb0b9c5ec81f6b37e495fd08de6f9da736670c7920fe71811105ce9": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.31/WebviewKiosk_v0.24.31.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 89,
+      "version_name": "0.24.31",
+      "tag": "v0.24.31",
+      "commit": "807c26f572abdfd518f732b03fd395902b457097",
+      "timestamp": 1763392909,
       "reproducible": true,
       "error": null
     }
