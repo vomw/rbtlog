@@ -1,0 +1,36 @@
+---
+repository: https://github.com/thisal-d/ip-wizard.git
+updates: releases
+versions:
+  - tag: v0.0.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/thisal-d/ip-wizard/releases/download/v0.0.1/IP.Wizard.-.v0.0.1.apk
+        build:
+          - git reset --soft d82dc965fec1ab889d82d826144f7d594c33ae31
+          - sed -r '/signingConfigs.(debug|release)/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

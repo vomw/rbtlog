@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/Tre_brock/OpenSEPTAmap.git
-updates: releases
+updates: disabled
+notes:
+  - disabled updates as source repo was archived 2025-10-28
 versions:
   - tag: '1.1'
     apks:

@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/regulad/closecircuit.git
-updates: releases
+updates: disabled
+notes:
+  - disabled updates as source repo was archived 2025-11-07
 versions:
   - tag: v1.0.1
     apks:
