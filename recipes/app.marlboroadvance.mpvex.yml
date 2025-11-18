@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.0
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: mpvEx-arm64-v8a.*\.apk
         apk_url: https://github.com/marlboro-advance/mpvEx/releases/download/v1.0.0/mpvEx-arm64-v8a-v1.0.0.apk
         build:
           - sed -r 's/include\(.*/include("arm64-v8a")/' -i app/build.gradle.kts

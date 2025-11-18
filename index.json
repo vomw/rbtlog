@@ -2071,6 +2071,20 @@
       "error": null
     }
   ],
+  "8120cd3a2f5818b77bb267c8df68143346640268b7533adc18689b1ed52df808": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.10.8/cclauncher-v9.10.8-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 980,
+      "version_name": "v9.10.8",
+      "tag": "v9.10.8",
+      "commit": "42cf1da65790519b4f8b4a84aaddbdfdf403e29e",
+      "timestamp": 1763477277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -14361,6 +14375,20 @@
       "error": null
     }
   ],
+  "0b275ac4d9cbb9dbfb85c94a017a7d9bc5fc68b25c7af3de332e4ca87c7c74d0": [
+    {
+      "repository": "https://github.com/CominAtYou/BatteryTile.git",
+      "apk_url": "https://github.com/Solarphlare/BatteryTile/releases/download/v1.9.0/batterytile-1.9.0.apk",
+      "appid": "com.cominatyou.batterytile.standalone",
+      "version_code": 18,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "722ac477fc564f1228e82d6d4894a0c01cbdd7c2",
+      "timestamp": 1763495695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a357f7449b5f01d437b59a7b19c9b23da06ed1a32d6cc6f5516836808e88ce4": [
     {
       "repository": "https://github.com/CDrummond/lms-material-app.git",
@@ -26489,6 +26517,20 @@
       "error": null
     }
   ],
+  "2b3d4945187b236f7e78ed763f1b65e228874dbc4a6f1c33c45a96dbf98dbfd3": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.6.0/PassVault-v0.6.0-b9-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 9,
+      "version_name": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "d0099aa5e8100f3df03d3df9bd87c577ae0ab62d",
+      "timestamp": 1763477605,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -33479,6 +33521,20 @@
       "tag": "v1.3.2",
       "commit": "88c02d8e7fe0419ff131bdb6c538a2661fd21db4",
       "timestamp": 1760298163,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "63d09b933cf35cbad8e5780d2701226003be93c1d246b53a9fb5e968a5dc7260": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v1.3.3/app-arm64-v8a-default-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20093,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "448629863000fa23d8101dfd153f90ca20e8883f",
+      "timestamp": 1763496175,
       "reproducible": true,
       "error": null
     }
@@ -42859,6 +42915,34 @@
       "error": null
     }
   ],
+  "f6da63a497cb8041d3bec4286112030ed6d19acdcdd38210a8f237e9ba82c325": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.18.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31800,
+      "version_name": "3.18.0",
+      "tag": "v3.18.0",
+      "commit": "a1add8d1f619981c3d27a80cce8aba71662c3b1f",
+      "timestamp": 1763477892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "25b069acc7c3ae1635fd253efbd13304ed0808663f4f994072030ec8bb943c86": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.18.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31800,
+      "version_name": "3.18.0",
+      "tag": "v3.18.0",
+      "commit": "a1add8d1f619981c3d27a80cce8aba71662c3b1f",
+      "timestamp": 1763478061,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -46755,6 +46839,20 @@
       "tag": "v0.19.1",
       "commit": "4b7f1c1cec2021e0b2fdaa57b5d1d2ffb1401e16",
       "timestamp": 1761057446,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "82b7531934243d7e39751a3f2850be7f094a4d589b73fc8c996a00ea73577e81": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.2/RecurringExpenseTracker_0.19.2.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 54,
+      "version_name": "0.19.2",
+      "tag": "v0.19.2",
+      "commit": "f4a241bbc629da6bfe437eae1b6f3a1568b9f14c",
+      "timestamp": 1763478234,
       "reproducible": true,
       "error": null
     }
@@ -56171,6 +56269,20 @@
       "tag": "v2.4.2",
       "commit": "778e905fdfaacbe02667677030e70e605734c75b",
       "timestamp": 1763306031,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "492409a8d7af0049d3a385e557c93d5dfa1c0fc46c730f046c2c90e42af7d5b6": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.4.3/de1984-v2.4.3.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 22,
+      "version_name": "2.4.3",
+      "tag": "v2.4.3",
+      "commit": "f7d960c0414f6ab8af58659aa9614183caf4a8fc",
+      "timestamp": 1763478685,
       "reproducible": true,
       "error": null
     }
@@ -70757,6 +70869,20 @@
       "tag": "v1.0.4",
       "commit": "f96cda62532bdb9becac2f51c7ace13342cf262c",
       "timestamp": 1763396890,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c537a584c2ccb88b7b1e3818bf6c9be92cc0e01114ee6b743e6426774b3dcddb": [
+    {
+      "repository": "https://github.com/nikhilmwarrier/anthology.git",
+      "apk_url": "https://github.com/nikhilmwarrier/anthology/releases/download/v1.0.5/Anthology-1.0.5.apk",
+      "appid": "systems.nik.anthology",
+      "version_code": 10005,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "41f22b31a9b1656d90d28eacd9c70339b4106ba1",
+      "timestamp": 1763478956,
       "reproducible": true,
       "error": null
     }

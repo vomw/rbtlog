@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/knighthat/Kreate.git
 updates: releases
+notes:
+  - 'FIXME: APK name will change after 1.8.4, see https://gitlab.com/IzzyOnDroid/repo/-/issues/897 (we take the universal one then)'
 versions:
   - tag: v1.2.0
     apks:
