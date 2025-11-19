@@ -7923,6 +7923,20 @@
       "error": null
     }
   ],
+  "e8ae51aebafe257d1325a23e43425be73dc08076a4375bae11ff4691488f7e5d": [
+    {
+      "repository": "https://github.com/AKS-Labs/CloudGallery.git",
+      "apk_url": "https://github.com/AKS-Labs/CloudGallery/releases/download/v0.4/app-release.apk",
+      "appid": "com.akslabs.cloudgallery",
+      "version_code": 4,
+      "version_name": "0.4",
+      "tag": "v0.4",
+      "commit": "a0e92be6a8e67a298b7943bb45a9c23827ae9da7",
+      "timestamp": 1763566442,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3382ba776d0256611df9db3209ab7e4dad79c15955c731b462b8dc65bd612a28": [
     {
       "repository": "https://github.com/farfromrefug/OSS-Dict.git",
@@ -44671,6 +44685,20 @@
       "tag": "2.0",
       "commit": "000988ed721daec74aacbcfd6021dfdd81ee81bb",
       "timestamp": 1724341447,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c65db56f8d459cb66307add2fbe52fc15b206017754e9c1167495b3c893fcfe8": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.7/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2047,
+      "version_name": "1.5.7",
+      "tag": "v1.5.7",
+      "commit": "fc38807197144c99e0179764e02002d4dc0f8594",
+      "timestamp": 1763504050,
       "reproducible": true,
       "error": null
     }

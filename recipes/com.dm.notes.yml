@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dmitrijkotov634/android-notes.git
-updates: releases
+updates: disabled
+notes:
+  - no longer maintained, and also removed from IzzyOnDroid, see https://codeberg.org/IzzyOnDroid/EverythingElse/issues/15
 versions:
   - tag: 1.5.1
     apks:
