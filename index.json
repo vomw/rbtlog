@@ -1595,6 +1595,20 @@
       "error": null
     }
   ],
+  "ac90720a16bf9002274c4c14c28f430384bd2578bb32c2f2eb4efa7f3deb6d7d": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.0.0/Podcini.X_release_free_9.0.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 195,
+      "version_name": "9.0.0",
+      "tag": "9.0.0",
+      "commit": "2a7854ee558f3745cc901f83dc40708036a233c3",
+      "timestamp": 1763752915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -9191,6 +9205,20 @@
       "tag": "v4.6.0",
       "commit": "2bf2f09439dddaa91d25cbef01cc9b60352a886f",
       "timestamp": 1763391455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3884b4d4b0900a70bbf70909a325273a976728b3152d924457f722ae46a5d5ad": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.0a/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1374,
+      "version_name": "4.6.0a",
+      "tag": "v4.6.0a",
+      "commit": "2dbf7a000633a546a966eedf5ae143a849f28c46",
+      "timestamp": 1763736498,
       "reproducible": true,
       "error": null
     }
@@ -18687,6 +18715,20 @@
       "error": null
     }
   ],
+  "86bb2abac7f5ea2e577ddefc1d94fe69c8a7ee402400240deb61b8b9834d99e0": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.2.2-alpha/EblanLauncher-v0.2.2-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 22,
+      "version_name": "0.2.2-alpha",
+      "tag": "v0.2.2-alpha",
+      "commit": "21a5c73b243b2eb2d08c4d5a2d07d4484b750613",
+      "timestamp": 1763736665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -25343,6 +25385,20 @@
       "error": null
     }
   ],
+  "859afffc8884f3c021807106c402caa991218efb0ad0b80be5c04486c0a4d63c": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.6.14/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2148,
+      "version_name": "9.6.14",
+      "tag": "9.6.14",
+      "commit": "dee015f1b24b66149f03b558858900f9ebac3a90",
+      "timestamp": 1763737173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -26709,6 +26765,20 @@
       "tag": "v0.7.0",
       "commit": "cb73a3cd33ec9abcc3f8f4059542fbe0ec920aaf",
       "timestamp": 1763671675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f28b175851a07e91334a60bcb76f4c6a33102feb9347e92a4a1c9e9c4a3041be": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.7.1/PassVault-v0.7.0-b11-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 11,
+      "version_name": "0.7.0",
+      "tag": "v0.7.1",
+      "commit": "6dce17d8dbcd9a5cc093a12989d3cc2562c4c030",
+      "timestamp": 1763753585,
       "reproducible": true,
       "error": null
     }
@@ -31527,6 +31597,20 @@
       "error": null
     }
   ],
+  "f5ad79075238a976bd281ff9ca6da6e366f664d444322b6363d62ec31029a1ca": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.6.0/SpeakThat-NoUpdater-v1.6.0.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 24,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "11a5af19e5ead838cd0d422f1bf502c60de32242",
+      "timestamp": 1763737721,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -32053,6 +32137,20 @@
       "tag": "v1.1.11",
       "commit": "541a06ed9baf170163a1d30bc4632e69f71e353d",
       "timestamp": 1757084599,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49d89ed9d5c4de5e445d5ccedf2592863a67a3e5859154ad199bd2857fd6399b": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.12/MBCompass_v1.1.12_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 13,
+      "version_name": "1.1.12",
+      "tag": "v1.1.12",
+      "commit": "127f8a329dcf3e9e01a7c679e1ceb73661f0c6f0",
+      "timestamp": 1763745442,
       "reproducible": true,
       "error": null
     }
@@ -34053,6 +34151,20 @@
       "tag": "v1.3.2",
       "commit": "dd610013324b8c5b5b36f69f7501069f0b44a82b",
       "timestamp": 1760711714,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "96145536aa8d46d97a4a52e20fe0edef6be6a5c8b08c8ee7e99dd7aeba3a9851": [
+    {
+      "repository": "https://github.com/Fandroid745/Open-notes.git",
+      "apk_url": "https://github.com/Fandroid745/Open-notes/releases/download/v1.3.3/app-release.apk",
+      "appid": "com.opennotes",
+      "version_code": 7,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "ee472cf2cfdf457f21d73d64a52d99323d5afb42",
+      "timestamp": 1763754195,
       "reproducible": true,
       "error": null
     }
@@ -38533,6 +38645,20 @@
       "tag": "v2.1.0",
       "commit": "1fae5a6488cc060acdc5e3215d4be99a3cec6122",
       "timestamp": 1763652435,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "100b27ad4cf9e6e17c48557bb2b24592a053b6bc354ad3ecde96c5990c73b081": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v2.1.1/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 36,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "4052029041e6c9a5adc6b1d027a1f9394e524fd1",
+      "timestamp": 1763738237,
       "reproducible": true,
       "error": null
     }
@@ -49251,6 +49377,20 @@
       "error": null
     }
   ],
+  "608f9c584206bca4e842570ed728483e29219a5252ca3383723ef8ad333d3e8e": [
+    {
+      "repository": "https://codeberg.org/bg443/BikeBridge.git",
+      "apk_url": "https://codeberg.org/bg443/BikeBridge/releases/download/v0.0.4/BikeBridge-universal-release.apk",
+      "appid": "dev.bg.bikebridge",
+      "version_code": 4,
+      "version_name": "0.0.4",
+      "tag": "v0.0.4",
+      "commit": "80e80fbb55a1d9314eae2c6262357451a9c8f0eb",
+      "timestamp": 1763757860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6ffa58ebc0c4c9a88c5abaf4c59f6da4125a279e9c9c30d4b581f4e1bf91c20d": [
     {
       "repository": "https://codeberg.org/bg443/JetBird.git",
@@ -59115,6 +59255,20 @@
       "error": null
     }
   ],
+  "70cc1b0b2c89e2309fdc5155a8851b4cbd51e69ff6e51149ded20323c6acc834": [
+    {
+      "repository": "https://github.com/TheLastProject/ShareToInputStick.git",
+      "apk_url": "https://github.com/TheLastProject/ShareToInputStick/releases/download/v3.8.0/app-release.apk",
+      "appid": "me.hackerchick.sharetoinputstick",
+      "version_code": 26,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "d68e49e74de944e62b6ab7a04e4bf83eb676556c",
+      "timestamp": 1763738490,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "93a6bf261a6b639129b3df1136a51abf212dac2b5753b9d53cbe63bcb222f1f3": [
     {
       "repository": "https://github.com/knighthat/Kreate.git",
@@ -65985,6 +66139,20 @@
       "tag": "v1.6.5",
       "commit": "56b68aeef4112283a17968dd28b85b8ae8595be6",
       "timestamp": 1762724753,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb8d52f9ec0cbb1725cbfa7dace2b218eb0c75bd1b2e300019231327bd020406": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.6.6/tomato-v1.6.6-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 21,
+      "version_name": "1.6.6",
+      "tag": "v1.6.6",
+      "commit": "7d88067923fb5aeca7134fd2debf5d4b387dd8ac",
+      "timestamp": 1763738692,
       "reproducible": true,
       "error": null
     }
