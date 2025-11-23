@@ -3,7 +3,7 @@ repository: https://github.com/LibChecker/LibChecker.git
 updates: releases
 notes:
   - 'FIXNEEDED: upstream inserts build timestamp (we can find the used one via dex diff), see https://github.com/LibChecker/LibChecker/issues/1409#issuecomment-2519779456'
-  - FIXME 2.5.1 failed due to differences in M7.json (unpinned dependencies) and versionName not matching (commit hash appended, but lenght differs). Timestamp was removed, so that sed can go with the next release.
+  - FIXME 2.5.1, 2.5.2, 2.5.3 failed due to differences in M7.json (unpinned dependencies) –  and 2.5.1 also with versionName not matching (commit hash appended, but lenght differs). Timestamp was removed, so that sed can go with the next release. See https://github.com/LibChecker/LibChecker/issues/1760
 versions:
   - tag: 2.5.0
     apks:
@@ -71,6 +71,35 @@ versions:
         apk_url: https://github.com/LibChecker/LibChecker/releases/download/2.5.2/LibChecker-2.5.2.985368c-2441-foss-release.apk
         build:
           - sed -r 's/Instant.now\(\).toString\(\)/"2024-09-04T12:30:42.417658Z"/' -i build-logic/src/main/kotlin/Projects.kt
+          - chmod +x gradlew
+          - ./gradlew :app:assembleFossRelease
+          - mv app/build/outputs/apk/foss/release/LibChecker-*-foss-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.5.3
+    apks:
+      - apk_pattern: LibChecker-.*-foss-release\.apk
+        apk_url: https://github.com/LibChecker/LibChecker/releases/download/2.5.3/LibChecker-2.5.3.3f5abd2-2515-foss-release.apk
+        build:
           - chmod +x gradlew
           - ./gradlew :app:assembleFossRelease
           - mv app/build/outputs/apk/foss/release/LibChecker-*-foss-release.apk /outputs/unsigned.apk
