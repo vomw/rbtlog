@@ -1609,6 +1609,20 @@
       "error": null
     }
   ],
+  "cd95459c5d6b741b9cd22270293bf3a0d727152ff710f4aad45943bcd02758fd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.1.0/Podcini.X_release_free_9.1.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 196,
+      "version_name": "9.1.0",
+      "tag": "9.1.0",
+      "commit": "8457a0f2e67c628ecbe8b9047b3bc973f391ac53",
+      "timestamp": 1764012260,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2907,6 +2921,20 @@
       "tag": "v2.15.1",
       "commit": "ba904ca6032152fbd55e0f38b47ef39747b76d81",
       "timestamp": 1760968487,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdb6132353f510ee426bed6a239b9a81aee5fc23824221dc5fc1528c4631154f": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.16.0/Lawnicons.2.16.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 23,
+      "version_name": "2.16.0",
+      "tag": "v2.16.0",
+      "commit": "1001bf63ddcca8efe1acc0ed8eca49439969f0f1",
+      "timestamp": 1763995693,
       "reproducible": true,
       "error": null
     }
@@ -5259,6 +5287,20 @@
       "tag": "v4.5.5-ose",
       "commit": "f0f9f58e49d22e3319c7dff709dfb59e17046c23",
       "timestamp": 1761659665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ff93a8a01370474680fc2742fbe2010c3b935839eefac3ed9318d7aedadb63e": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.6-ose/davx5-ose-4.5.6-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405060004,
+      "version_name": "4.5.6-ose",
+      "tag": "v4.5.6-ose",
+      "commit": "365364aa896febed65ced4183479eb8ec34f7ea0",
+      "timestamp": 1763996124,
       "reproducible": true,
       "error": null
     }
@@ -23957,6 +23999,20 @@
       "error": null
     }
   ],
+  "980306359e8e8d15faff689e7b4de5952920edee456258d2d5b2ff998777bc29": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.6.3/SensorSpot-v1.6.3.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 15,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "6d65decd57c3ee19566af96e155fe44b64deb87a",
+      "timestamp": 1764013390,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -24191,6 +24247,20 @@
       "tag": "v3.13.0",
       "commit": "28c7756be8fb8bae4632d89fc961ce36f2478fe7",
       "timestamp": 1763910079,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5be5daf8a7ee1c04cbbb5db6f5d5ab4f895bdc720afcf702b96ad782351aef29": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.13.1/ExoPlayer-AirPlay-Receiver-003.13.01-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3130123,
+      "version_name": "003.13.01-23API",
+      "tag": "v3.13.1",
+      "commit": "eb7086ed89eeb8ceae91521f6a2c70d7d6001ff0",
+      "timestamp": 1764005981,
       "reproducible": true,
       "error": null
     }
@@ -33385,6 +33455,20 @@
       "error": null
     }
   ],
+  "6da8f6d35391a3f3a9368fc26e9f5877b798dd0f5a2d24e9ef97865a5935e84a": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.19-Stardew_Valley.1/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 28,
+      "version_name": "0.3.19-Stardew_Valley.1",
+      "tag": "V0.3.19-Stardew_Valley.1",
+      "commit": "38b8e6fb80da969a7dd1765cad0fd8e02b5fa627",
+      "timestamp": 1763996971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05d89b89548fbcd9654c3a43aeae0479a0605cf16487451628f7ae2a21d195ce": [
     {
       "repository": "https://github.com/cuadratico/NowiChat.git",
@@ -37039,6 +37123,20 @@
       "error": null
     }
   ],
+  "dae75df0f1b84a61735f27c2da98c3282abc0e7fdbfce3fd8de3747d69d87e33": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.5.4/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 504,
+      "version_name": "0.5.4",
+      "tag": "0.5.4",
+      "commit": "ac030f4c5bb87c9c7cebb98ddf05ab9cc6ec547e",
+      "timestamp": 1763997186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": [
     {
       "repository": "https://github.com/rifsxd/process-hook.git",
@@ -38841,6 +38939,20 @@
       "tag": "v2.1.1",
       "commit": "4052029041e6c9a5adc6b1d027a1f9394e524fd1",
       "timestamp": 1763738237,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f03ffbac73c7dcfda064f252c718f22264c226755aba1e7f5f2299ea76d45bf2": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v2.1.2/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 37,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "9f4f7f0f7cd64f5a77a67ad8dffa0b57ff19bd39",
+      "timestamp": 1764013834,
       "reproducible": true,
       "error": null
     }
@@ -50259,6 +50371,34 @@
       "error": null
     }
   ],
+  "7199db8b988ce8675a3a3ef598d56cbadd9f75eb598bf1fa83ab85ea95632db0": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.8.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10080012,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "3686e8705af62edac2d89bf84fb7a194134657e9",
+      "timestamp": 1763945447,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "0dc561012aaaec9df4a76f16a0a9d4d4c8304d2376c0d7dae1544f2507a5e8e7": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.8.2/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10080022,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "30b200db2f42fe6e97fc245f0dfface808240d05",
+      "timestamp": 1763973943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -57347,6 +57487,20 @@
       "tag": "v1.5.0",
       "commit": "a0ce0a96ee94d0dcc348bae244aa940963d9c642",
       "timestamp": 1763909047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "74116d7a1f5348fb115070238deb0caf8b24cf44f350c6c680e74d539c7897a2": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.6.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 7,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "56159362fb753a0cad0b3f36201bfe3ae208f669",
+      "timestamp": 1763997536,
       "reproducible": true,
       "error": null
     }
@@ -67161,6 +67315,20 @@
       "tag": "1.6.9",
       "commit": "fd8245d8c4cd167174fd9a67132f2ddebacafd88",
       "timestamp": 1755960727,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4b40a1fff63cb095e747ddd859120b499d1b6fa62b0ab6b808b1899a732bb728": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.6.10/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 66,
+      "version_name": "1.6.10",
+      "tag": "1.6.10",
+      "commit": "584999f760c463f36a717e635f587a9b6005394e",
+      "timestamp": 1764014472,
       "reproducible": true,
       "error": null
     }
