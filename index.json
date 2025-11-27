@@ -1637,6 +1637,20 @@
       "error": null
     }
   ],
+  "8cef8ce0e4ccc4bd103f6d2f3eaf17719e992540793de16d57fcb097793be284": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.2.1/Podcini.X_release_free_9.2.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 198,
+      "version_name": "9.2.1",
+      "tag": "9.2.1",
+      "commit": "819456970e91ce970a125d61ecf8af967c377108",
+      "timestamp": 1764254927,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2529,6 +2543,20 @@
       "tag": "3.6.3",
       "commit": "0f89fd285a7e07efb8cccf9ad590aedc49aaf0ca",
       "timestamp": 1761400491,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "295409346776d7b08d2fe7537bb0f0380334ff699ec931ec94241bd892fd48a3": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.7.2/flicky-3.7.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 721,
+      "version_name": "3.7.2",
+      "tag": "3.7.2",
+      "commit": "531f6c5a8ec2708b7720027d4af86876fe738014",
+      "timestamp": 1764255356,
       "reproducible": true,
       "error": null
     }
@@ -5315,6 +5343,20 @@
       "tag": "v4.5.6-ose",
       "commit": "365364aa896febed65ced4183479eb8ec34f7ea0",
       "timestamp": 1763996124,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e45615c2d515f5fb882fc8fd6222fe307e21ea5577f5d8c0b3a168a188f9a06": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.6.1-ose/davx5-ose-4.5.6.1-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405060100,
+      "version_name": "4.5.6.1-ose",
+      "tag": "v4.5.6.1-ose",
+      "commit": "84b9a14ba1435f00ae9d6ea3cef3f04703e20bfd",
+      "timestamp": 1764255744,
       "reproducible": true,
       "error": null
     }
@@ -23357,6 +23399,20 @@
       "error": null
     }
   ],
+  "478175f179708b25b9c180c1de021084154d6c334a0bbeea4a0916f36a2a1034": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.5.0/com.github.livingwithhippos.unchained-v1.5.0.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 55,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "3c44108aea4c6e83b3283184c4554667586bef7d",
+      "timestamp": 1764256267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a327aa7d88ed34a4fd5de5cbf5f6701df5c9e1f8c26ea3ee1b41f64529dc5c3": [
     {
       "repository": "https://github.com/mikulash/ShareAsQR.git",
@@ -26699,6 +26755,20 @@
       "error": null
     }
   ],
+  "fbcafce63323dac32da75364fc89489371f80e735f686e3de48cb3b384226e8d": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.4.0/Tyr-1.4.0-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 10,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "01786e55ac3677a8f117690fe79d52a0266aa8a8",
+      "timestamp": 1764257416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -27115,6 +27185,20 @@
       "tag": "v0.8.0-beta01",
       "commit": "5e93caca6fb0309e12ae13b9fe11e590249201ca",
       "timestamp": 1764087377,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8776a905629a26793f0f74b43a473097a9a2ba88ff72888efc57e9b1aebea883": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.8.0-beta02/PassVault-v0.8.0-beta02-b14-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 14,
+      "version_name": "0.8.0-beta02",
+      "tag": "v0.8.0-beta02",
+      "commit": "93ad14f43aeddcf78eed1075fd9ef5b279f63c0b",
+      "timestamp": 1764265294,
       "reproducible": true,
       "error": null
     }
@@ -46955,6 +47039,20 @@
       "error": null
     }
   ],
+  "39f069e680c004d3dc40067e7aea9d3554b965890523c362a2ef4fbdf7ea99bc": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.57/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 57,
+      "version_name": "0.1.57",
+      "tag": "0.1.57",
+      "commit": "719ba6ebabb519342a16f26ca43a22830119af59",
+      "timestamp": 1764256985,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -49769,6 +49867,20 @@
       "error": null
     }
   ],
+  "546e9162e1afd40c490359f94fd4adb058297ee4d617f61735645fc0b58af7d6": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.14.1/nextplayer-v0.14.1-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 42,
+      "version_name": "0.14.1",
+      "tag": "v0.14.1",
+      "commit": "62dc0b5682ff582aa82129336e387c589d1363e7",
+      "timestamp": 1764257447,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6ac85dff0501a8f9d0b0e27bbace7a10f5630b53188d2cc0d984d63ba8f658a": [
     {
       "repository": "https://github.com/Bartuzen/qBitController.git",
@@ -51305,6 +51417,20 @@
       "tag": "2.2.0",
       "commit": "2d94bbbf44eb12c3136d7c26657da179917565b9",
       "timestamp": 1762874321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5d196e55b2c69153ea20d6ff2e884ec47e7cd493b60d6b1346200b678349f142": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.3.0/Photok-2.3.0-standalone.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 49,
+      "version_name": "2.3.0",
+      "tag": "2.3.0",
+      "commit": "a1b5f8152ec97f8cc41d994a00939c78eba8ee1d",
+      "timestamp": 1764257834,
       "reproducible": true,
       "error": null
     }
@@ -63385,6 +63511,20 @@
       "error": null
     }
   ],
+  "6023c1308cfc36feb092c075e850614b40f05545f3b57163d0e99c1011785d43": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.23/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 175,
+      "version_name": "3.6.23",
+      "tag": "3.6.23",
+      "commit": "e1c1c817476fcc48c5683a27262b6e9db0acdd95",
+      "timestamp": 1764258240,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -68605,6 +68745,20 @@
       "error": null
     }
   ],
+  "de0a2a7bf602682cfa45a97d71cd9c8f2c7fa9fa1bc4b24f4048c7bd3a5edad4": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.5/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 26,
+      "version_name": "2.5.5",
+      "tag": "v2.5.5",
+      "commit": "87bcd72f70fa544e7a69817db68c7bfccc6b4c33",
+      "timestamp": 1764258567,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ff2d42be6815e8cdae4f0a5d282afa46d043badb8bcc13a701f27d70334842a1": [
     {
       "repository": "https://github.com/TeamNewPipe/NewPipe.git",
@@ -73613,6 +73767,20 @@
       "tag": "v0.24.36",
       "commit": "d185aa8e0ea9163e1cfedbc10c5c05eaadff0a6d",
       "timestamp": 1764085665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd231b3bf33eec42058740f273191484b2931963c24b9c916128188ec47494cd": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.38/WebviewKiosk_v0.24.38.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 96,
+      "version_name": "0.24.38",
+      "tag": "v0.24.38",
+      "commit": "b9d725458a1e9e4b1d3f7e2c9edc2ff602852fbe",
+      "timestamp": 1764258836,
       "reproducible": true,
       "error": null
     }

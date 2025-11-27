@@ -1,0 +1,42 @@
+---
+repository: https://github.com/JB-SelfCompany/Tyr.git
+updates: releases
+notes:
+  - contains binaries (app/libs/yggmail.aar)
+  - 'FIXME: v1.4.0 was built from a dirty tree; base64 + patch need to be removed again for the next release, see https://github.com/JB-SelfCompany/Tyr/issues/1 '
+versions:
+  - tag: 1.4.0
+    apks:
+      - apk_pattern: Tyr.*arm64-v8a\.apk
+        apk_url: https://github.com/JB-SelfCompany/Tyr/releases/download/1.4.0/Tyr-1.4.0-arm64-v8a.apk
+        build:
+          - git reset --soft 678af49f814cdc3f8423f19a700b83afc36ba0f1
+          - base64 -d > mani.patch <<< ZGlmZiAtLWdpdCBhL0FuZHJvaWRNYW5pZmVzdC54bWwgYi9BbmRyb2lkTWFuaWZlc3QueG1sLmZpeGVkCmluZGV4IDYwZjZkODEuLjA0ZDkzYTAgMTAwNjQ0Ci0tLSBhL0FuZHJvaWRNYW5pZmVzdC54bWwKKysrIGIvQW5kcm9pZE1hbmlmZXN0LnhtbC5maXhlZApAQCAtMTAsOSArMTAsOSBAQAogICAgIDwhLS0gUXVlcnkgaW5zdGFsbGVkIHBhY2thZ2VzIChBbmRyb2lkIDExKykgLS0+CiAgICAgPHF1ZXJpZXM+CiAgICAgICAgIDxwYWNrYWdlIGFuZHJvaWQ6bmFtZT0iY29tLmI0NHQubWVzc2VuZ2VyIiAvPgotICAgICAgICA8cGFja2FnZSBhbmRyb2lkOm5hbWU9ImNvbS5naXRodWIuYXJjYW5lY2hhdCIgLz4gICAgICAgIAogICAgICAgICA8cGFja2FnZSBhbmRyb2lkOm5hbWU9ImNoYXQuZGVsdGEiIC8+CiAgICAgICAgIDxwYWNrYWdlIGFuZHJvaWQ6bmFtZT0iY2hhdC5kZWx0YS5saXRlIiAvPgorICAgICAgICA8cGFja2FnZSBhbmRyb2lkOm5hbWU9ImNvbS5naXRodWIuYXJjYW5lY2hhdCIgLz4KICAgICAgICAgPGludGVudD4KICAgICAgICAgICAgIDxhY3Rpb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIgLz4KICAgICAgICAgICAgIDxkYXRhIGFuZHJvaWQ6c2NoZW1lPSJkY2xvZ2luIiAvPgo=
+          - patch app/src/main/AndroidManifest.xml mani.patch
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py --version 9.0-milestone-1 -v assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/Tyr-1.4.0-arm64-v8a.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+            - patch
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
