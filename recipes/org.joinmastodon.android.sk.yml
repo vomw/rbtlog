@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/sk22/megalodon.git
-updates: releases
+updates: disabled
+notes:
+  - sunset; removed from repo 2025-11-15. superseded by org.joinmastodon.android.moshinda
 versions:
   - tag: v2.1.6+fork.110
     apks:

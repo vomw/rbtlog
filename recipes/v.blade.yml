@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/vhaudiquet/BladePlayer.git
-updates: releases
+updates: disabled
+notes:
+  - removed from repo 2025-10-06 as no longer maintained and meanwhile broken
 versions:
   - tag: v2.2.2
     apks:

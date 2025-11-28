@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/accelforce/Yuito.git
-updates: releases
+updates: disabled
+notes:
+  - removed from repo 2025-11-15 as unmaintained and partly broken
 versions:
   - tag: v4.7.0
     apks:
