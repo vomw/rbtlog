@@ -3499,6 +3499,20 @@
       "error": null
     }
   ],
+  "187327d38f8ccb4fd60eb4e56e5b435509ae563f572d4fa1bf2bf0f6a18face5": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v5.3.3/Olauncher-v5.3.3.apk",
+      "appid": "app.olauncher",
+      "version_code": 94,
+      "version_name": "v5.3.3",
+      "tag": "v5.3.3",
+      "commit": "2f1d2529c6e3c195f3894d35ff0d5868fa675e28",
+      "timestamp": 1764444113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -20449,6 +20463,20 @@
       "error": null
     }
   ],
+  "161ccac0e2d43c036ad7c7d5e4e25aedb15991e4890279bed3333c6ae6d70020": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.35.1/com.fibelatti.photowidget-v1.35.1-1350100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1350100,
+      "version_name": "1.35.1",
+      "tag": "v1.35.1",
+      "commit": "861e51b74feb36e6f672c6737b70c4bd3214b252",
+      "timestamp": 1764427733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -23437,6 +23465,20 @@
       "tag": "v1.5.0",
       "commit": "3c44108aea4c6e83b3283184c4554667586bef7d",
       "timestamp": 1764256267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65603517cb67bdb0c80b5b38a9e14a492b22c91a56371850799ed75a7e1ce0f8": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.5.1/com.github.livingwithhippos.unchained-v1.5.1.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 56,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "3d926637645003b7d64f6bd27db05ba43ff8f812",
+      "timestamp": 1764428184,
       "reproducible": true,
       "error": null
     }
@@ -26807,6 +26849,20 @@
       "tag": "1.4.0",
       "commit": "01786e55ac3677a8f117690fe79d52a0266aa8a8",
       "timestamp": 1764257416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a67c65426e12be4d89606939e9f8428013863ceb57e72685ce8b8b268ecb933": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.4.1/Tyr-1.4.1-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 11,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "ca226eebe5e654c26031b8b4af186945a4d50377",
+      "timestamp": 1764446684,
       "reproducible": true,
       "error": null
     }
@@ -55913,6 +55969,20 @@
       "error": null
     }
   ],
+  "60962d34d5506bff70ee4fa571da6a605cd153ea54a59476ea797529b28fe566": [
+    {
+      "repository": "https://github.com/SimonMarquis/SleepTimer.git",
+      "apk_url": "https://github.com/SimonMarquis/SleepTimer/releases/download/1.3.3/app-release.apk",
+      "appid": "fr.smarquis.sleeptimer",
+      "version_code": 13300,
+      "version_name": "1.3.3",
+      "tag": "1.3.3",
+      "commit": "5500ef89d1877c5cd8cb098394d504b7839c6e39",
+      "timestamp": 1764428627,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "753af9763149e67b4381374ce34dba072f2b6e7ff4cc2723d06a709777300357": [
     {
       "repository": "https://github.com/paroj/DSub2000.git",
@@ -56077,6 +56147,20 @@
       "tag": "v3.5",
       "commit": "d8a5842b7379083f0681484f11b6484919a77eaa",
       "timestamp": 1760882182,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "980ec88dc74c9caac5658df6fdd3d0a98e8805a39ad24674d83b4ac7a8cf4be8": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.6/HeliBoard_3.6-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3603,
+      "version_name": "3.6",
+      "tag": "v3.6",
+      "commit": "f8ec91a982835911cc224fa99434c3396d4cd562",
+      "timestamp": 1764428766,
       "reproducible": true,
       "error": null
     }
