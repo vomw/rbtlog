@@ -17301,6 +17301,20 @@
       "error": null
     }
   ],
+  "6c1d155e16f5df4bc5c4cce765160c59ec8b9c002e25eb581532c56f2da8a787": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.17/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 40,
+      "version_name": "0.6.17",
+      "tag": "0.6.17",
+      "commit": "0105ea4ac875c2acd1af198e0a306d1f3c477f54",
+      "timestamp": 1764470265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -58202,6 +58216,20 @@
       "commit": "58480a65ccd253c24938ac301727bdefe93b87ea",
       "timestamp": 1764359394,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "d00811c5c22a2911166ec5df22b33ee0ae5a7c1d79530057584671626e37d391": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.8.1/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 11,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "4cecced87b51bfc3511e414a125b64d5ca0d5178",
+      "timestamp": 1764444383,
+      "reproducible": false,
       "error": null
     }
   ],

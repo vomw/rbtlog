@@ -2,7 +2,7 @@
 repository: https://codeberg.org/Loowiz/PhotoSwooper.git
 updates: releases
 notes:
-  - 'FIXME: 2025.11.4 needed NDK for stripping. Remove for the next release if dev decides to disable stripping (https://codeberg.org/Loowiz/PhotoSwooper/issues/71#issuecomment-8462253)'
+  - 'FIXME: 2025.11.4 needed NDK for stripping. Remove for the next release as dev now disabled stripping (https://codeberg.org/Loowiz/PhotoSwooper/issues/71#issuecomment-8462253)'
 versions:
   - tag: 2025.3.1_beta
     apks:

@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/patzly/tack-android.git
 updates: releases
+notes:
+  - consider failed RBs as failed for now, see https://github.com/patzly/tack-android/issues/87#issuecomment-3591773963
 versions:
   - tag: v4.5.0
     apks:
