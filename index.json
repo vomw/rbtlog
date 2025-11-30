@@ -1665,6 +1665,20 @@
       "error": null
     }
   ],
+  "a0501fd3fec4b6949e942248eedad165ca73b56243bdbc019c89242700f8386b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.4.1/Podcini.X_release_free_9.4.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 201,
+      "version_name": "9.4.1",
+      "tag": "9.4.1",
+      "commit": "974b775f516dea62c7dee09a81d68f6b1bc71842",
+      "timestamp": 1764514103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3513,6 +3527,20 @@
       "error": null
     }
   ],
+  "9c0ce21cd90f23c722c0540aee81cbce1635c590c6d9171e8a7d07712ac94338": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v5.3.4/Olauncher-v5.3.4.apk",
+      "appid": "app.olauncher",
+      "version_code": 95,
+      "version_name": "v5.3.4",
+      "tag": "v5.3.4",
+      "commit": "8d47515aef78dd6c03f7e9ecd064785723dc85f5",
+      "timestamp": 1764514508,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -3649,6 +3677,20 @@
       "tag": "v3.1.0",
       "commit": "665c56fc1232a900e656547afd7e05abf9d1db00",
       "timestamp": 1761918813,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "23069527be14224fbde2f1ee6008fad56220ceef64ddc3bd1faefb12c07a7c1b": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.2.0/Pachli_3.2.0_39_c9fe7439_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 39,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "c9fe74393f62bf52a59e01b2c8cb19c2f3e58a9a",
+      "timestamp": 1764530532,
       "reproducible": true,
       "error": null
     }
@@ -16895,6 +16937,20 @@
       "error": null
     }
   ],
+  "2e07f7fece2addefafb93935a047951bb99079d671e3996f881ee884751afec6": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.39/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 39,
+      "version_name": "0.0.39",
+      "tag": "0.0.39",
+      "commit": "abad91499979646f3f49db17f2b8f5acb97ce481",
+      "timestamp": 1764514739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -18239,6 +18295,20 @@
       "error": null
     }
   ],
+  "4d29e55e260307779c9bcf50bcf0bc08ad089c453bc4ddfa0f283fde7923ab56": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.11/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 166,
+      "version_name": "5.0.11",
+      "tag": "5.0.11",
+      "commit": "900de0364e5d0110417c22e1d08a97636ea94700",
+      "timestamp": 1764515104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -19425,6 +19495,20 @@
       "tag": "2025.11.4",
       "commit": "3158e468d1e34983ee466507b85912e0123d0da8",
       "timestamp": 1764064075,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42da2ad95bfa7ea0fd2a65d827b01b2be2b6ebb7522480ae3c337457d1a9dbd9": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2025.11.5/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 20,
+      "version_name": "2025.11.5",
+      "tag": "2025.11.5",
+      "commit": "f3764b2ffbc4b113699069510ca4d24e1e58a8b1",
+      "timestamp": 1764534981,
       "reproducible": true,
       "error": null
     }
@@ -22577,6 +22661,20 @@
       "error": null
     }
   ],
+  "498927e893c8cc50d70dc8b363d9b3cc6a4c2535df740caa883e6d56ac0aec6d": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.8/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319501,
+      "version_name": "2.7.8 (29319501) fdroid",
+      "tag": "v2.7.8",
+      "commit": "89e82ede593bf159c4ef59cc8f2956e0a3085e35",
+      "timestamp": 1764515541,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -23025,6 +23123,20 @@
       "error": null
     }
   ],
+  "68ecf94cbbc994f1b22acb20e49911bf3533e24434f905509a4007199822ea2e": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.6/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2603019,
+      "version_name": "2.18.6-Verdana-oss",
+      "tag": "2.18.6",
+      "commit": "5d20a7c1757848ba7a025426d962f3371a0fc07e",
+      "timestamp": 1764516102,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -23273,6 +23385,20 @@
       "tag": "3.5.5",
       "commit": "f0fcaab74048532f57424b60afb700faf4352648",
       "timestamp": 1759155304,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d8bb1187d0d333c53c9fa7216e0f46c2fed65064a2bb61582fe7399246274863": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.6/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2601811,
+      "version_name": "3.5.6",
+      "tag": "3.5.6",
+      "commit": "ee947ffeff32eafb743d1c238bfaa1424ba02edc",
+      "timestamp": 1764516300,
       "reproducible": true,
       "error": null
     }
@@ -25861,6 +25987,20 @@
       "error": null
     }
   ],
+  "ff9f4787a057e493c4eedc8984eaf03721d07328a7bfbddd60348e5c13c4e7ed": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.7.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2149,
+      "version_name": "9.7.0",
+      "tag": "9.7.0",
+      "commit": "eb8322b588e3108d677a76a7ba99ee3336cc12d0",
+      "timestamp": 1764516492,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -26895,6 +27035,20 @@
       "error": null
     }
   ],
+  "11dc3ffc9759305ef1af840824a00973b18ab22df75a5e76af1c49d3569c1d86": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.4.2/Tyr-1.4.2-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 12,
+      "version_name": "1.4.2",
+      "tag": "1.4.2",
+      "commit": "1a65628cd83c7f58c7ad93e17cb004ae77835d39",
+      "timestamp": 1764531424,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -27339,6 +27493,20 @@
       "tag": "v0.8.0-beta02",
       "commit": "93ad14f43aeddcf78eed1075fd9ef5b279f63c0b",
       "timestamp": 1764265294,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5aceaacfa3fbe4b397aed7a13baab8720b50c3aac47bd3f46683a58950204dd4": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.8.0/PassVault-v0.8.0-b15-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 15,
+      "version_name": "0.8.0",
+      "tag": "v0.8.0",
+      "commit": "ff09f5653d802062d871eb80d773829e4826d4ce",
+      "timestamp": 1764531650,
       "reproducible": true,
       "error": null
     }
@@ -31723,6 +31891,20 @@
       "error": null
     }
   ],
+  "b13d36857bae6068ba431445ac58a5b610b6ead95a14feceeb9bbff680f8f76d": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.7.1/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 129,
+      "version_name": "12.7.1",
+      "tag": "v12.7.1",
+      "commit": "85c7037ebd18c052f85614b3407a9079789f6281",
+      "timestamp": 1764532278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -33815,6 +33997,20 @@
       "tag": "V0.3.19-Stardew_Valley.1",
       "commit": "38b8e6fb80da969a7dd1765cad0fd8e02b5fa627",
       "timestamp": 1763996971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d339d5209ffb01afb9dcc7a882c19255388cd9b53884ac11124d93889154e164": [
+    {
+      "repository": "https://github.com/cuadratico/NothingK.git",
+      "apk_url": "https://github.com/cuadratico/NothingK/releases/download/V0.3.19-Stardew_Valley.2/NothingK.apk",
+      "appid": "com.nothingsecure",
+      "version_code": 29,
+      "version_name": "0.3.19-Stardew_Valley.2",
+      "tag": "V0.3.19-Stardew_Valley.2",
+      "commit": "513ea133123d260f8172f8afeec72ba2835d95eb",
+      "timestamp": 1764517212,
       "reproducible": true,
       "error": null
     }
@@ -38887,6 +39083,20 @@
       "error": null
     }
   ],
+  "68a3ddd2c2acf895b2ed2e730683811f1fca905cd3dddc76a46dc32008c321ad": [
+    {
+      "repository": "https://github.com/SamAmco/track-and-graph.git",
+      "apk_url": "https://github.com/SamAmco/track-and-graph/releases/download/v8.1.2/app-release.apk",
+      "appid": "com.samco.trackandgraph",
+      "version_code": 800003,
+      "version_name": "8.1.2",
+      "tag": "v8.1.2",
+      "commit": "0351bb19d6fb42075c00a9f57c83c109fae386c3",
+      "timestamp": 1764517433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "77d62bdf25411d58bf2a019d3bcd73960daffff58aad1f999dc7426c1bc869df": [
     {
       "repository": "https://github.com/SamLeatherdale/OpenLinkWith.git",
@@ -42267,6 +42477,20 @@
       "tag": "v4.0.1",
       "commit": "b9f3ae23d5d3fc57136814e388749cedbcbc2e3d",
       "timestamp": 1757703506,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b2dc1520af688f1036aafe2bbaf8b6bae94e3009e804b912041cc57901433ff": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.1.0/GreenStash-v4.1.0.apk",
+      "appid": "com.starry.greenstash",
+      "version_code": 410,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "f27ab210e7c9f7f97e231d9d0975dd01b74d53d8",
+      "timestamp": 1764517938,
       "reproducible": true,
       "error": null
     }
@@ -45819,6 +46043,20 @@
       "tag": "v1.5.7",
       "commit": "fc38807197144c99e0179764e02002d4dc0f8594",
       "timestamp": 1763504050,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f6cf263061e79ce52661f4216ec1ebfdc32593c6d6dd791fb1814cf73f6f175": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.8/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2048,
+      "version_name": "1.5.8",
+      "tag": "v1.5.8",
+      "commit": "4b6f24c0d70c83e010b8f3f9f8ececac045a4999",
+      "timestamp": 1764532766,
       "reproducible": true,
       "error": null
     }
@@ -58244,6 +58482,20 @@
       "commit": "4cecced87b51bfc3511e414a125b64d5ca0d5178",
       "timestamp": 1764444383,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "474ee8894cab6004969f774d030b9b8e3c52a02b066e81f252fb7e8d1445c097": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.8.1.1/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 12,
+      "version_name": "1.8.1.1",
+      "tag": "v1.8.1.1",
+      "commit": "6ed1e2007e9af277baffa4801a7f200162b025e1",
+      "timestamp": 1764518358,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -72017,6 +72269,20 @@
       "tag": "3.3.1",
       "commit": "bd03fd1efc234db226752adbbbecaae22f7508cc",
       "timestamp": 1752856973,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8b59fa12e14dd5850ba67022f5786d2f5411c333378c77651fbf979c7ec92bfd": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.4.0/image-toolbox-3.4.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 191,
+      "version_name": "3.4.0",
+      "tag": "3.4.0",
+      "commit": "e8a806133f5d032bf9b396ebc39c5eed77584047",
+      "timestamp": 1764538466,
       "reproducible": true,
       "error": null
     }
