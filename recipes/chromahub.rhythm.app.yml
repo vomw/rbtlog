@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/cromaguy/Rhythm.git
 updates: releases
+notes:
+  - 'FIXME: v3.1.268.770 had embedded timestamps, corresponding line needs to be removed again for next release (https://github.com/cromaguy/Rhythm/issues/123)'
 versions:
   - tag: v2.1.100.7-beta
     apks:
@@ -672,6 +674,38 @@ versions:
       - apk_pattern: Rhythm-.*\.apk
         apk_url: https://github.com/cromaguy/Rhythm/releases/download/v2.9.243.718-stable/Rhythm-2.9.243.718-release.apk
         build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/Rhythm-*-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v3.1.268.770-stable
+    apks:
+      - apk_pattern: Rhythm-.*\.apk
+        apk_url: https://github.com/cromaguy/Rhythm/releases/download/v3.1.268.770-stable/Rhythm-3.1.268.770-release.apk
+        build:
+          - sed -r 's/\$\{timestampFormat.format\(buildTime\)\}/2025-12-01 17:10:00/ ; s/\$\{buildTime.time\}/1764609000365/ ; s/\$\{dateFormat.format\(buildTime\)\}/2025-12-01/' -i app/build.gradle.kts
+          - base64 -d > private.properties <<< Q0FOVkFTX0FQSV9LRVk9c2stcGF4c2VuaXgtUnFCNkx0X2JVZXUyTjNqYVZmdkYtclhzei04ZkxOTW9adFdYR0JmSFBRMUc3ZXViCg==
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - find . -name '*.apk'

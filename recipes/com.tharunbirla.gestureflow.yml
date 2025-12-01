@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/tharunbirla/GestureFlow.git
-updates: releases
+updates: disabled
+notes:
+  - updates disabled in repo as well due to signing key mismatch, see https://github.com/tharunbirla/GestureFlow/issues/8
 versions:
   - tag: v1.0
     apks:
