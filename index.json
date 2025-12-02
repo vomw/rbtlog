@@ -1679,6 +1679,20 @@
       "error": null
     }
   ],
+  "07fb692ac77bc82c77bc08de92423d8b9dce405fce990389a8c4e60bf0a812ec": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.5.0/Podcini.X_release_free_9.5.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 202,
+      "version_name": "9.5.0",
+      "tag": "9.5.0",
+      "commit": "2302178b6e84071b67a5c48a5183c08e59476fe6",
+      "timestamp": 1764686965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -7485,6 +7499,20 @@
       "tag": "v3.1.268.770-stable",
       "commit": "96bba4040ebee260a602164c40e2a57c06fc471a",
       "timestamp": 1764619986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd5a463e3ea983026c908e8200b818083a8c45cd9bf1ef0928485595cfd45ae2": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.2.269.774-stable/Rhythm-3.2.269.774-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 32269774,
+      "version_name": "3.2.269.774",
+      "tag": "v3.2.269.774-stable",
+      "commit": "f4c4507124683b2d60a994daea856377ea5640d3",
+      "timestamp": 1764705722,
       "reproducible": true,
       "error": null
     }
@@ -20673,6 +20701,20 @@
       "error": null
     }
   ],
+  "efde28bf8b677c10bcf2fe2d4b1de158d74e8cac3d3315655c2b6d38008ea1d1": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.35.2/com.fibelatti.photowidget-v1.35.2-1350200-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1350200,
+      "version_name": "1.35.2",
+      "tag": "v1.35.2",
+      "commit": "a5b4d8e327a84d84785db1d860398439fac37c60",
+      "timestamp": 1764687316,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -24545,6 +24587,20 @@
       "error": null
     }
   ],
+  "3a7e9cb656f6aed97b94a1bbe59ae7e2edc36a203c1cf1342ea210f663ddd84c": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.7.1/SensorSpot-v1.7.1.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 19,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "61cd23da2c7bd477aa78d5032652fa280245acfd",
+      "timestamp": 1764687707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -26643,6 +26699,20 @@
       "error": null
     }
   ],
+  "72457f77e6c684c149c361e9e1fcc740bf1b70a3c5266b9df4b54eba47dcf563": [
+    {
+      "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
+      "apk_url": "https://github.com/Harshshah6/SaavnMp3-Android/releases/download/v1.0.13/Melotune-1.0.13-nofirebaseRelease.apk",
+      "appid": "com.harsh.shah.saavnmp3",
+      "version_code": 7,
+      "version_name": "1.0.13",
+      "tag": "v1.0.13",
+      "commit": "3ef05635d441dca072f1f61565cc9ee700ff18ff",
+      "timestamp": 1764687991,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4d8352ab1748951737186088d331a6d04344725477aef0ae89344640c8810dad": [
     {
       "repository": "https://github.com/oliexdev/openWorkout.git",
@@ -27647,6 +27717,34 @@
       "tag": "v0.8.0",
       "commit": "ff09f5653d802062d871eb80d773829e4826d4ce",
       "timestamp": 1764531650,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca7c168cc7a27906dfc31adbf1b1441f7e245a3fb7242c949abf1493bcefc4fe": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.9.0/PassVault-v0.8.0-b15-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 15,
+      "version_name": "0.8.0",
+      "tag": "v0.9.0",
+      "commit": "bf5aa76fd8d322a22adab4808570b0f729413be9",
+      "timestamp": 1764688174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c0db716fa09a95fbc4069963b19bac310e7f8c1dee5ed977d4f98ae0445cbddf": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v0.9.1/PassVault-v0.9.1-b16-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 16,
+      "version_name": "0.9.1",
+      "tag": "v0.9.1",
+      "commit": "7a69ea1ee5317f9b6be907cd2786c9e4246fa002",
+      "timestamp": 1764703354,
       "reproducible": true,
       "error": null
     }
@@ -36367,6 +36465,20 @@
       "error": null
     }
   ],
+  "fca4ad26e32a11adb151da2568ff50acf09a9c07da29cfbca59d50f3756c8ec8": [
+    {
+      "repository": "https://github.com/prinzpiuz/MSM.git",
+      "apk_url": "https://github.com/prinzpiuz/MSM/releases/download/1.11.0/app-armeabi-v7a-release.apk",
+      "appid": "com.prinzpiuz.msm",
+      "version_code": 1020,
+      "version_name": "1.11.0",
+      "tag": "1.11.0",
+      "commit": "288fb13e9c445a08fb28b7847a56d7d9df3b8f43",
+      "timestamp": 1764688426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a118bb12013f3de4e26277d6f48122b93ccb9c5b30270f3a7b7cea0939d31aa7": [
     {
       "repository": "https://github.com/tawhidmonowar/WebCapture.git",
@@ -41693,6 +41805,20 @@
       "tag": "v2.2.4",
       "commit": "54197445b960f66c12d15368886e51332631149b",
       "timestamp": 1759952439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9acab1c1e7d947d2025ba3a9a0efcff5a2c4596ffa95236291be03bfe7580d36": [
+    {
+      "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
+      "apk_url": "https://github.com/SimonHalvdansson/Harmonic-HN/releases/download/v2.2.5/app-release.apk",
+      "appid": "com.simon.harmonichackernews",
+      "version_code": 70,
+      "version_name": "2.2.5",
+      "tag": "v2.2.5",
+      "commit": "a6c6744ddb394c7e29ae717f714d078bee2f0625",
+      "timestamp": 1764703646,
       "reproducible": true,
       "error": null
     }
@@ -51379,6 +51505,20 @@
       "error": null
     }
   ],
+  "8b173e35f4b2b94fb7ec5e854dbfc4931c1307819290a8ab8ebd57d4ffecc85d": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090012,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "46fdd705a55197c4ed6a1006de1015f677e27aa8",
+      "timestamp": 1764688959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -55619,6 +55759,20 @@
       "error": null
     }
   ],
+  "f418f34ea8166e30658ff02385a3e2dba99eeef34fe19a5ab2f1e664fc67dc35": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2306/FairEmail-v1.2306a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2306,
+      "version_name": "1.2306",
+      "tag": "1.2306",
+      "commit": "8c99d4ecbeaae03e1cbf4978e2931dbd272a3fb7",
+      "timestamp": 1764689647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -57785,6 +57939,20 @@
       "error": null
     }
   ],
+  "e30cd40b3b44a015076ce067b700e84c6d59da5041c62489635002d43aca2278": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.6.0/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 11,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "f853f5f34c03a99d689fee2c8a43d211a46fb30d",
+      "timestamp": 1764703911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -58187,6 +58355,20 @@
       "tag": "v2.4.8",
       "commit": "0ae98ae01f4f0af9c019b542d38b9db641b38b2e",
       "timestamp": 1764606262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "76df9ee23e34ea19c363e77c8e95e5715d081b04c65bef2423cd144fed42b44f": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.4.9/de1984-v2.4.9.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 28,
+      "version_name": "2.4.9",
+      "tag": "v2.4.9",
+      "commit": "fc694184d0c62c9c214c8c935a667f0011f92d74",
+      "timestamp": 1764690015,
       "reproducible": true,
       "error": null
     }
@@ -75503,6 +75685,20 @@
       "tag": "2.1.10",
       "commit": "45bbc0f463aab70fc5624f2c431ebf483b26cde7",
       "timestamp": 1762198553,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b8cc3e62fbe8b7d326706f3ab0f7b96ae4e5c7287df89dd23b3a5982b3bb3754": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.2.0/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 52,
+      "version_name": "2.2.0",
+      "tag": "2.2.0",
+      "commit": "fc85d078bcb84accd1f66bf8e968c6686a356abb",
+      "timestamp": 1764704355,
       "reproducible": true,
       "error": null
     }
