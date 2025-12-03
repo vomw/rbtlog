@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/cromaguy/Rhythm.git
 updates: releases
+notes:
+  - 'FIXME: remove the private.properties with the next build, it is no longer needed'
 versions:
   - tag: v2.1.100.7-beta
     apks:
