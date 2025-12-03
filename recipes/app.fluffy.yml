@@ -544,3 +544,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 3.3.5
+    apks:
+      - apk_pattern: fluffy.*universal\.apk
+        apk_url: https://github.com/mlm-games/Fluffy/releases/download/3.3.5/fluffy-3.3.5-universal.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - ./gradlew assembleRelease -PenableApkSplits -PtargetAbi=arm64-v8a
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/fluffy-*-universal.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
