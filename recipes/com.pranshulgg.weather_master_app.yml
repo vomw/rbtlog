@@ -76,3 +76,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v2.6.6
+    apks:
+      - apk_pattern: WeatherMaster.*arm64-v8a\.apk
+        apk_url: https://github.com/PranshulGG/WeatherMaster/releases/download/v2.6.6/WeatherMaster.2.6.6.arm64-v8a.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d; /create\("release"\) \{/,/^        \}/d ; /load\(FileInputStream\(keyPropertiesFile\)\)/d' -i android/app/build.gradle.kts
+          - base64 -d > .env <<< QVBJX1RPS0VOPTFiNTAxMjBlODlmOGYxMTY5ZGRjNTVlZjhhOTMxZjc1MWIyMGQ4Zjg0ZTM3Njk5ZDg1OGU3ZWNjN2JiNjBjZDEwNjJmODg1YmJkNmM3N2I1CkFQSV9LRVlfV0VBVEhFUkFQST1mMWRkMTcxMWM3ODE0YTc2YWI2NDE4NDgyNTIyMDcKQVBJX0tFWV9PUEVOUk9VVEVSPXNrLW9yLXYxLTg0MGNkNjZkYjE4ZDc1NDY0NGIwYmUxYWQ2OWMwYmQ5ZmI0MTZiNmY2Njk5NDYwY2Y3MzA4N2NmNjZjYmVmYWUK
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ .([0-9\.]*).*?/\1/p' .github/workflows/flutter_build.yml | head -n 1)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/WeatherMaster/WeatherMaster
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

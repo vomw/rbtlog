@@ -1707,6 +1707,20 @@
       "error": null
     }
   ],
+  "1e3d7d4d9e2061b990619e74675fbb5a4b615cd6365c0a38b3276e938d047b96": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.6.0/Podcini.X_release_free_9.6.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 204,
+      "version_name": "9.6.0",
+      "tag": "9.6.0",
+      "commit": "916a64e6c538e0190c35078b6fa989e013e28b02",
+      "timestamp": 1764876134,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -19233,6 +19247,20 @@
       "error": null
     }
   ],
+  "ae525d9cac64dcebfccca5a134b4bad749c1fb29e9f0f19d507ded93e674542e": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.2.4-alpha/EblanLauncher-v0.2.4-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 24,
+      "version_name": "0.2.4-alpha",
+      "tag": "v0.2.4-alpha",
+      "commit": "f71fa99470319c7a53ae80772059ad177c4bd6b2",
+      "timestamp": 1764859746,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -21159,6 +21187,20 @@
       "tag": "v3.11.4",
       "commit": "0897264a898f35719b1dd9bb00b6d68a49014618",
       "timestamp": 1762959777,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1fa2afe04d3acb01d78b0513c589ce670584618e3c1e7b3557f889b19f36bb0": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.11.5/com.fibelatti.pinboard-v3.11.5-3110500-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3110500,
+      "version_name": "3.11.5",
+      "tag": "v3.11.5",
+      "commit": "1105f8e7c30fd27d46706cdd7448c5a2e81226de",
+      "timestamp": 1764860295,
       "reproducible": true,
       "error": null
     }
@@ -36451,6 +36493,20 @@
       "error": null
     }
   ],
+  "bcdba5c01f202225c7bcd77fc1c723faf2db7ef63aebacf557fbb4b70b16771b": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.4.4/torrentsearch-v0.4.4.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 11,
+      "version_name": "0.4.4",
+      "tag": "v0.4.4",
+      "commit": "7eeb543e9d5c5caee590c95685c8d138b31cba4b",
+      "timestamp": 1764876613,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15b1a43f113ae65f507cd7a36170ff3e6cc497cbb8b0e0e7116a157cb8486df7": [
     {
       "repository": "https://github.com/PranshulGG/WeatherMaster.git",
@@ -36475,6 +36531,20 @@
       "tag": "v2.6.5",
       "commit": "15fdbf03264a2d3b33a9ae18475a92fcac05f83d",
       "timestamp": 1761316142,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a1f418e644b76d7c5d31913815440e06ae709e97529fbe6dfdbee1750991c48d": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v2.6.6/WeatherMaster.2.6.6.arm64-v8a.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 27,
+      "version_name": "2.6.6",
+      "tag": "v2.6.6",
+      "commit": "9923096f64ee6af3f3a6248e5395199c289d9cf2",
+      "timestamp": 1764860742,
       "reproducible": true,
       "error": null
     }
@@ -39233,6 +39303,20 @@
       "tag": "v1.2.8",
       "commit": "e36bd4fe26f0556cee4e25f374c5412f62fd27a7",
       "timestamp": 1764168982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3bbce23394266429651a0b97759ded5a9da8bbf17c4ffb0104c6c4b87900fcc2": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.2.9/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 129,
+      "version_name": "1.2.9",
+      "tag": "v1.2.9",
+      "commit": "7e77e85cb7eb39296c1c7ac442459be03ff4364b",
+      "timestamp": 1764861602,
       "reproducible": true,
       "error": null
     }
@@ -44143,6 +44227,20 @@
       "tag": "1.1.3",
       "commit": "e12705b9edbee997c79027148e0d6ca5cfa6c416",
       "timestamp": 1760536788,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39e3e03e306700460fb4eaa80a26d060ffd66c64dfb919a699742ef8bbda36a2": [
+    {
+      "repository": "https://github.com/trustdecision/trustdevice-android.git",
+      "apk_url": "https://github.com/trustdecision/trustdevice-android/releases/download/1.1.4/TrustDevice-release-1.1.4.apk",
+      "appid": "com.trustdevice.android.demo",
+      "version_code": 114,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "c76fb78ae3618be3b6f45e791f7a35649e933883",
+      "timestamp": 1764861906,
       "reproducible": true,
       "error": null
     }
@@ -54989,6 +55087,20 @@
       "error": null
     }
   ],
+  "b701c0f91036ae0526a75917cafbaf9ed91992be0c51d3b68fb9dd392adfae19": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.5-rc0/eu.darken.sdmse-v1.5.5-rc0-10505000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10505000,
+      "version_name": "1.5.5-rc0",
+      "tag": "v1.5.5-rc0",
+      "commit": "3f4fa33ed8db92d3bdb678ebcf5dacc8df1e6a6f",
+      "timestamp": 1764862107,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -58527,6 +58639,20 @@
       "error": null
     }
   ],
+  "aa7552cb6a71ef457f332c53fb139622ae33b08a51f50878de6c6ba4c0479daf": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.5.1/de1984-v2.5.1.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 30,
+      "version_name": "2.5.1",
+      "tag": "v2.5.1",
+      "commit": "f4d0763fb05942fa37f5b6ef6c1ab73b206b498c",
+      "timestamp": 1764862738,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0c72f2a38ea211431706b1d2316bd7fd01f859529ab196dcb371fb9b040f8889": [
     {
       "repository": "https://github.com/dorumrr/happytaxes.git",
@@ -58719,6 +58845,20 @@
       "tag": "v2.0.4",
       "commit": "97d1fc0b16a3bc9dbf9fd2fa57c8271018db5e68",
       "timestamp": 1764790826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7651c3cafa064d8474c3ceb244736d68ad52becdd2251128da4d9cbc97d65203": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.0.5/PrivacyFlip-v2.0.5-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 16,
+      "version_name": "2.0.5",
+      "tag": "v2.0.5",
+      "commit": "696d209714c01e1c0ed22247be2195173f4148d7",
+      "timestamp": 1764863115,
       "reproducible": true,
       "error": null
     }
@@ -59111,6 +59251,34 @@
       "tag": "v1.8.1.1",
       "commit": "6ed1e2007e9af277baffa4801a7f200162b025e1",
       "timestamp": 1764518358,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "28666237bf584181d553258d45097ed3beba1c89d7cabefc229bf9a757dd4080": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.9.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 13,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "8d972a3865e6e90fb0c57a5d510950466de354cc",
+      "timestamp": 1764863307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cc3e138ac5380c3ccb17b61aac498687c67507782bca1ad0b5dbec11b6c58c17": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.10.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 14,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "504051798f24245399fd170d129431105e3bef19",
+      "timestamp": 1764877026,
       "reproducible": true,
       "error": null
     }
@@ -60973,6 +61141,20 @@
       "tag": "v1.0.6+5",
       "commit": "8728c26972208a0fef6ae19ffed67ea2f0b326a0",
       "timestamp": 1764762745,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ccb7344cd73d57d76dd14b9dc23be8441c529ce724348bc774d67172a4388dc2": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.7%2B6/rsm_v1.0.7%2B6_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2006,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7+6",
+      "commit": "a95b39205746ea042fa8183a2e2eaaf84342cf14",
+      "timestamp": 1764863560,
       "reproducible": true,
       "error": null
     }
@@ -68309,6 +68491,20 @@
       "tag": "v1.6.6",
       "commit": "7d88067923fb5aeca7134fd2debf5d4b387dd8ac",
       "timestamp": 1763738692,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f7ca2d570cb1f2eef32e1da133a17c24371364abf586f07e2cefb976e50c52c": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.7.0/tomato-v1.7.0-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 22,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "41a51c85fa09dde445034a0c84962558b67adcf1",
+      "timestamp": 1764864044,
       "reproducible": true,
       "error": null
     }
