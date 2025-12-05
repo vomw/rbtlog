@@ -1,8 +1,9 @@
 ---
-repository: https://github.com/PhilKes/NotallyX.git
+repository: https://github.com/Crustack/NotallyX.git
 updates: releases
 notes:
   - in v6.0 author put the wrong checksum into gradle-wrapper.properties, see https://github.com/PhilKes/NotallyX/issues/71
+  - 'FIXME: Repo moved to https://github.com/Crustack/NotallyX so apk_url needs to be adjusted'
 versions:
   - tag: v6.0
     apks:
