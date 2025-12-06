@@ -1735,6 +1735,20 @@
       "error": null
     }
   ],
+  "06a13ee5614133046f59f218afe4a47c73f84b75b5424b24064af5210f2ae26e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.6.2/Podcini.X_release_free_9.6.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 206,
+      "version_name": "9.6.2",
+      "tag": "9.6.2",
+      "commit": "54603673bfc59561a989fb4d9c2a52df9ed08a49",
+      "timestamp": 1765032456,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2907,6 +2921,20 @@
       "tag": "3.3.5",
       "commit": "3f32f2622e51a9871520a5982f98c7fb8cd012e6",
       "timestamp": 1764773658,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c8930001613d65a506275da2b951d98a6db0bd9ca71a4bfdde8dddabdcd5b5d5": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.4.1/fluffy-3.4.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 581,
+      "version_name": "3.4.1",
+      "tag": "3.4.1",
+      "commit": "4d578afe6095fed1afb2ae89f68017a9c6446362",
+      "timestamp": 1765032859,
       "reproducible": true,
       "error": null
     }
@@ -7625,6 +7653,20 @@
       "tag": "v3.2.269.774-stable",
       "commit": "f4c4507124683b2d60a994daea856377ea5640d3",
       "timestamp": 1764705722,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "831e25fd68a8367f7f1ba9508738a514f64e47c38d4862e1c03d0e3da8853052": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.3.275.784-stable/Rhythm-3.3.275.784-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 33275784,
+      "version_name": "3.3.275.784",
+      "tag": "v3.3.275.784-stable",
+      "commit": "e0856cf92159794c9fc6cbe7effef90c18165b19",
+      "timestamp": 1765051974,
       "reproducible": true,
       "error": null
     }
@@ -14945,6 +14987,20 @@
       "tag": "v1.9.0",
       "commit": "722ac477fc564f1228e82d6d4894a0c01cbdd7c2",
       "timestamp": 1763495695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "53fc42f2ff9be055ced239eb89f4985d1a0623111fe2c1f7179315a4930112b2": [
+    {
+      "repository": "https://github.com/CominAtYou/BatteryTile.git",
+      "apk_url": "https://github.com/Solarphlare/BatteryTile/releases/download/v2.0.0/batterytile-2.0.0.apk",
+      "appid": "com.cominatyou.batterytile.standalone",
+      "version_code": 20,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "e2f3a4995552314c8086b96b1274ac6598a79cc1",
+      "timestamp": 1765033230,
       "reproducible": true,
       "error": null
     }
@@ -26839,6 +26895,20 @@
       "error": null
     }
   ],
+  "7cf6eb11cbe74161028ceb35db4f8c7b7d0a9ad5bf50afe2d12ac237b49a7f43": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.10.1/NeverTooManyBooks-7.10.1.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 114,
+      "version_name": "7.10.1",
+      "tag": "v7.10.1",
+      "commit": "2ce974a6a209e350ac5b13f49b70d507905a116f",
+      "timestamp": 1765048937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "34403cada77e2aad7c6fc9bac1f22d07d6b60089d6a95ceca3fc41ee09741473": [
     {
       "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
@@ -32839,6 +32909,20 @@
       "tag": "v1.6.0",
       "commit": "11a5af19e5ead838cd0d422f1bf502c60de32242",
       "timestamp": 1763737721,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "19e665f197c4d013d8ac1b74048e067062aae949ec75a18e972959881f60b9ff": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.6.1/SpeakThat-NoUpdater-v1.6.1.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 25,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "853c74aac7595d95dc06c063edaaf602cd003ec8",
+      "timestamp": 1765033383,
       "reproducible": true,
       "error": null
     }
@@ -48159,6 +48243,20 @@
       "error": null
     }
   ],
+  "846cd380d9d7fc815b3b83019b084770e8fd535a62183d9fc491e67ee64cd9fa": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.58/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 58,
+      "version_name": "0.1.58",
+      "tag": "0.1.58",
+      "commit": "9a54eb8072b185c0636e63c78043b2d5e291a9ab",
+      "timestamp": 1765049263,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -52569,6 +52667,20 @@
       "error": null
     }
   ],
+  "3f332d9d064c944c3359c4fbc8c82295bc1ae5ba4bca3e96917cd36d7fa5480e": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.3.1/Photok-2.3.1-FOSS.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 50,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "f9f7ea2b856b82241089aa3839bfb049a61bf7c6",
+      "timestamp": 1765053805,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -53489,6 +53601,20 @@
       "tag": "v8.0.1",
       "commit": "7c4450e1913951656b35eeb1deb468282e62e726",
       "timestamp": 1762441195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "10d5d9e1356ffaddb5fe05a0f7c3a6e925d6274de75eadf0946028059b6e86c9": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v9.0.0/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 900,
+      "version_name": "9.0.0",
+      "tag": "v9.0.0",
+      "commit": "0578f3d7dbb1734a163de1e45db8038de62b0a64",
+      "timestamp": 1765049800,
       "reproducible": true,
       "error": null
     }
@@ -59031,6 +59157,20 @@
       "error": null
     }
   ],
+  "bd76aed7fea1d795ccdadcb51b92fee948ab2a8a90d6878e5019da5783856ab9": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.0.8/PrivacyFlip-v2.0.8-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 19,
+      "version_name": "2.0.8",
+      "tag": "v2.0.8",
+      "commit": "726651835437ee14e3b6655ed152cca43c867964",
+      "timestamp": 1765033937,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -61323,6 +61463,20 @@
       "tag": "v1.0.7+6",
       "commit": "a95b39205746ea042fa8183a2e2eaaf84342cf14",
       "timestamp": 1764863560,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6cb99b7d69f62e78c00564235a88868b6086092cede6dc6e37f85b11413b796": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.8%2B7/rsm_v1.0.8%2B7_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2007,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8+7",
+      "commit": "593822a6fe9ca9a17e0e69a6f47ca50e5ce26629",
+      "timestamp": 1765050135,
       "reproducible": true,
       "error": null
     }
@@ -75447,6 +75601,20 @@
       "tag": "v0.24.40",
       "commit": "94c9acadcbd64c90bcf210d9c4844422e3495e4a",
       "timestamp": 1764343864,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "85a6ac6e16cebc063ec29f44a27e3d16b059c8e7fe26766d238d7fc66a3fe6d1": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.41/WebviewKiosk_v0.24.41.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 99,
+      "version_name": "0.24.41",
+      "tag": "v0.24.41",
+      "commit": "151c914407c9e1b2dc5225ddb6c3724060efa79f",
+      "timestamp": 1765034178,
       "reproducible": true,
       "error": null
     }
