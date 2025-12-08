@@ -5599,6 +5599,20 @@
       "error": null
     }
   ],
+  "e43e8b4cb84d176370ab3a4bde79de149ade0de7de74cb663d6431f52c547464": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.7-ose/davx5-ose-4.5.7-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405070001,
+      "version_name": "4.5.7-ose",
+      "tag": "v4.5.7-ose",
+      "commit": "9eb70a55643752212d90c071680c330e1810f462",
+      "timestamp": 1765205289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -7709,6 +7723,20 @@
       "tag": "v3.3.275.784-stable",
       "commit": "e0856cf92159794c9fc6cbe7effef90c18165b19",
       "timestamp": 1765051974,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0a8eb756ad42b628b77c5f8519680a348f47357977977b946199748c0c577ec8": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.4.276.788-stable/Rhythm-3.4.276.788-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 34276788,
+      "version_name": "3.4.276.788",
+      "tag": "v3.4.276.788-stable",
+      "commit": "cfeb08a993f41530caa3e5fe8b150eb8aa22ef3e",
+      "timestamp": 1765221757,
       "reproducible": true,
       "error": null
     }
@@ -24699,6 +24727,20 @@
       "error": null
     }
   ],
+  "b208c397002110d75a64d557bc7453a83a3033d0124adf21d97dc61e0b0e65a8": [
+    {
+      "repository": "https://github.com/UmerCodez/SensaGram.git",
+      "apk_url": "https://github.com/UmerCodez/SensaGram/releases/download/v1.5.2/SensaGram-v1.5.2.apk",
+      "appid": "com.github.umer0586.sensagram",
+      "version_code": 10,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "edfc5dbb03c033b86f905b643265b6dffcae5768",
+      "timestamp": 1765222819,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7bd1af3f28b88bda24cb9fa0b666e728cabfbe15b96b37948fcf164fe5e0d2f3": [
     {
       "repository": "https://github.com/UmerCodez/SensorSpot.git",
@@ -28179,6 +28221,20 @@
       "tag": "v1.0.0-beta01",
       "commit": "5942ab0bd9650b552e8c67dba59b263fdc352cee",
       "timestamp": 1765121592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac03c33533eca66d46f348805e5d24549c225ac31c6dffb3380f73d7e584cd0c": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.0.0/PassVault-v1.0.0-b18-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 18,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "e6eb52d5635c5d09d70f307348f90f8205536507",
+      "timestamp": 1765206059,
       "reproducible": true,
       "error": null
     }
@@ -35243,6 +35299,20 @@
       "tag": "1.5.7",
       "commit": "a2da491e59323294d6c4bd724dabf4fd0ff42897",
       "timestamp": 1752776653,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd16d835ac615f773b5323be1f15e4647584c3a69f9b63ea617cabef1c4f5021": [
+    {
+      "repository": "https://github.com/nvllz/stepsy.git",
+      "apk_url": "https://github.com/nvllz/stepsy/releases/download/1.5.8/app-release.apk",
+      "appid": "com.nvllz.stepsy",
+      "version_code": 17,
+      "version_name": "1.5.8",
+      "tag": "1.5.8",
+      "commit": "8144bba855743b19823df39bd1aa4b28411ba68a",
+      "timestamp": 1765223082,
       "reproducible": true,
       "error": null
     }
@@ -43293,6 +43363,20 @@
       "error": null
     }
   ],
+  "bd1c9f96ce2a0a31f2d29d84cbd4eb2e28a1301d687b5f19688558b24d13ebdd": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/3.1.1/CM_3.1.1.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 40000,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "859b7c1ca9c8bdf07eb4b6481caf6f5de5fa2dba",
+      "timestamp": 1765223402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5257d93e46852565175ae0cf413e81cf031ad28f69b4991e5b4e852362c3b4c": [
     {
       "repository": "https://github.com/albu-razvan/Stario.git",
@@ -47597,6 +47681,20 @@
       "tag": "v3.4.1",
       "commit": "ad142f5d7b53da6e2981ec02ac1fa4222a516ea0",
       "timestamp": 1763411685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a7fe03f6c40ad50b025401cac033faf70ead59452f482dc3b23b792cc0ef87b": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.5.0/MediLog-3.5.0.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5506,
+      "version_name": "3.5.0",
+      "tag": "v3.5.0",
+      "commit": "b044844fbb89416317a1d0b9d9385e4ee4c07da6",
+      "timestamp": 1765223837,
       "reproducible": true,
       "error": null
     }
@@ -59689,6 +59787,20 @@
       "error": null
     }
   ],
+  "4fbcab722cc7d53b8548e873f7ff82e25484ad89ec1016143dc799fd42d35293": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.22.2%2B129/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2129,
+      "version_name": "1.22.2",
+      "tag": "v1.22.2+129",
+      "commit": "ed98fa38d7010ed6ed60e865a033c623b4314501",
+      "timestamp": 1765206264,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -60483,6 +60595,20 @@
       "tag": "25.11.1",
       "commit": "203dbfa60222dc3025d706bb91035073bfa3d4cf",
       "timestamp": 1763134540,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3826ef9a60f0ec7d311cc633892d83da6b1f9145dbffd8cf65c746c0904ce24": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/25.12/gitnote-release-25.12.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 13,
+      "version_name": "25.12",
+      "tag": "25.12",
+      "commit": "2da8a2ac39779a4a61e219cdfe01563e7ca4c7d0",
+      "timestamp": 1765206882,
       "reproducible": true,
       "error": null
     }
@@ -62009,6 +62135,20 @@
       "tag": "v2.39.2",
       "commit": "934d7ba041736c37a0228ee1477c1b8121a75799",
       "timestamp": 1762286283,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "97a6b4840a3067a8690684a5588c9874cd4707689ad5ffdfd8ec18baa05c0dcb": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.40.0/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 156,
+      "version_name": "2.40.0",
+      "tag": "v2.40.0",
+      "commit": "479fce68d5bd51463bf2b24c2c8a79c79ef7a9f1",
+      "timestamp": 1765217399,
       "reproducible": true,
       "error": null
     }
@@ -72343,6 +72483,20 @@
       "error": null
     }
   ],
+  "0d04825a7a38ac8c406f2526e5a283b57214a1da20497a314712c218c6a30994": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.10.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 29,
+      "version_name": "5.10.0",
+      "tag": "v5.10.0",
+      "commit": "d0a1e5c717881dda23192f4d371f5788835bb479",
+      "timestamp": 1765207284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -75013,6 +75167,20 @@
       "tag": "3.0.0-alpha17",
       "commit": "f53978261a714086e768925971f74f445df7b37e",
       "timestamp": 1764608205,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "91c78102ac1ccfa20cf9d5dd465a4055aecdc01cfb80724cbc051474cb78d21b": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha18/LockscreenWidgets_3.0.0-alpha18-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 163,
+      "version_name": "3.0.0-alpha18",
+      "tag": "3.0.0-alpha18",
+      "commit": "1715da22cc545fe555d9f04601a817edd9cd7081",
+      "timestamp": 1765207536,
       "reproducible": true,
       "error": null
     }
