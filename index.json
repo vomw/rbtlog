@@ -1763,6 +1763,20 @@
       "error": null
     }
   ],
+  "2af18a9e66226c232b29313746af1a16e66513c0e76ea1b1954ad982e4dd7cde": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.0/Podcini.X_release_free_9.8.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 208,
+      "version_name": "9.8.0",
+      "tag": "9.8.0",
+      "commit": "fc1fc1299c996c9ca43c8b3a9c60ab22da1b6088",
+      "timestamp": 1765308177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2249,6 +2263,20 @@
       "tag": "v9.10.8",
       "commit": "42cf1da65790519b4f8b4a84aaddbdfdf403e29e",
       "timestamp": 1763477277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ba3032aecbd7f9a361b6c433631076c288e2dfb1ff40e80dc8496c06b33b920e": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v9.10.9/cclauncher-v9.10.9-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 990,
+      "version_name": "v9.10.9",
+      "tag": "v9.10.9",
+      "commit": "960237e30c3ca69f7391c3a4914351b18e44f21c",
+      "timestamp": 1765308699,
       "reproducible": true,
       "error": null
     }
@@ -3845,6 +3873,20 @@
       "tag": "v3.2.3",
       "commit": "32c0cfecbfd821591e4c8e479e57544d9a4e4fe9",
       "timestamp": 1764946524,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c782ff8e2b2ba13bb32c6b6bdfe13c533bd414de45f18eec90a9467da467d113": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.2.4/Pachli_3.2.4_43_b6540667_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 43,
+      "version_name": "3.2.4",
+      "tag": "v3.2.4",
+      "commit": "b65406677334015f0042c40ec82ad7c3e74911b5",
+      "timestamp": 1765291778,
       "reproducible": true,
       "error": null
     }
@@ -5609,6 +5651,20 @@
       "tag": "v4.5.7-ose",
       "commit": "9eb70a55643752212d90c071680c330e1810f462",
       "timestamp": 1765205289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d387499e8a11a35a38d820ff90668a597ef1dc0128d71d52ec681e368e139150": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.7.1-ose/davx5-ose-4.5.7.1-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405070100,
+      "version_name": "4.5.7.1-ose",
+      "tag": "v4.5.7.1-ose",
+      "commit": "e7b88f9aa859bae3a98f04b45ff7ae2c87e852d9",
+      "timestamp": 1765292369,
       "reproducible": true,
       "error": null
     }
@@ -8339,6 +8395,20 @@
       "tag": "79",
       "commit": "22f40fdbcbaae7557021f87194362398be68f9f9",
       "timestamp": 1763822872,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "632606f037493e633ff597dbf86aa31a230f8c734fda4f791551a25f7caa49d4": [
+    {
+      "repository": "https://github.com/smswithoutborders/RelaySMS-Android.git",
+      "apk_url": "https://github.com/smswithoutborders/RelaySMS-Android/releases/download/80/0.39.0.apk",
+      "appid": "com.afkanerd.sw0b",
+      "version_code": 80,
+      "version_name": "0.39.0",
+      "tag": "80",
+      "commit": "38af31b882cac4fbb0c1af80ffa7e2e2d461deb7",
+      "timestamp": 1765292707,
       "reproducible": true,
       "error": null
     }
@@ -19121,6 +19191,34 @@
       "error": null
     }
   ],
+  "3292a824d276cc5fd9844ab11528b6b5e6ae70b7b567329be23b6e3452971c16": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.2.2/MyQuran-v1.2.2-arm64-v8a-63-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 63,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "76252aa3d93617b2057919c1505da8971961775a",
+      "timestamp": 1765270921,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e1f1894e017d86cae7565043d2b5c20b7af2e4b7a31cdfad70a4e58e9ee339aa": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.2.3/MyQuran-v1.2.3-arm64-v8a-73-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 73,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "e6aa033e7dee744a95df19b9b302de1429218a20",
+      "timestamp": 1765282009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -24993,6 +25091,20 @@
       "error": null
     }
   ],
+  "bc240b31b7294a187749663b784bf7ee330b7a13bb6f34e181934178e060445b": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.9.0/SensorSpot-v1.9.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 21,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "10c2e685b0d2b956e7e6ac9d090be92f5c2f7b79",
+      "timestamp": 1765309193,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -27063,6 +27175,20 @@
       "error": null
     }
   ],
+  "f25e57a77b36cd1bc09e5b3d9daf9ff701b4d257660656c4e58a97ec6ca1e725": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.10.2/NeverTooManyBooks-7.10.2.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 115,
+      "version_name": "7.10.2",
+      "tag": "v7.10.2",
+      "commit": "07617d5dff3127223ba95b9abf36b4ce99a3615b",
+      "timestamp": 1765293284,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "34403cada77e2aad7c6fc9bac1f22d07d6b60089d6a95ceca3fc41ee09741473": [
     {
       "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
@@ -27325,6 +27451,20 @@
       "tag": "v2.1.0",
       "commit": "ad51f885fa660a1bc96c7fa37457b60b6688d589",
       "timestamp": 1734718486,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3336b43a04cf7e4776449b2ae4eaa4420237f4ad1a479c31718a3dc68ad87a44": [
+    {
+      "repository": "https://github.com/abdalmoniem/Caffeinate.git",
+      "apk_url": "https://github.com/abdalmoniem/Caffeinate/releases/download/v2.2.0/com.hifnawy.caffeinate.release_release_v2.2.0.apk",
+      "appid": "com.hifnawy.caffeinate",
+      "version_code": 36,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "6d3896c5dbb818a0d2dbd56b97561849d4c5ccca",
+      "timestamp": 1765293480,
       "reproducible": true,
       "error": null
     }
@@ -27717,6 +27857,20 @@
       "tag": "1.5.3",
       "commit": "cd3f7dc632d797220320f77a625b46e741fa3e19",
       "timestamp": 1765121136,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b482fef27959bbdcc364a2fca04495aa2dee16cf8e9f34e53f1c801f0d99187f": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.5.4/Tyr-1.5.4-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 18,
+      "version_name": "1.5.4",
+      "tag": "1.5.4",
+      "commit": "9442ece6aaf203433e66c0ca47fd273d30660ef7",
+      "timestamp": 1765293636,
       "reproducible": true,
       "error": null
     }
@@ -28235,6 +28389,20 @@
       "tag": "v1.0.0",
       "commit": "e6eb52d5635c5d09d70f307348f90f8205536507",
       "timestamp": 1765206059,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c801f4f4956bf21ac3c8a4eb5a58602b425e2f74682887807a5b376d533d2d87": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.1.0/PassVault-v1.1.0-b19-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 19,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "1be07f95ef72829ecd4291541b537a4c9dded05d",
+      "timestamp": 1765309635,
       "reproducible": true,
       "error": null
     }
@@ -29089,6 +29257,20 @@
       "tag": "v1.9.1",
       "commit": "1db4c13d7bf8d0bffa69dca73ce4474dfea4d43c",
       "timestamp": 1763672104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ce2e3b5b62b3e31e9f48b492ff2a8c5aff08442a99e2a65c65e5a874aa625c8a": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.0/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 26,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "4a7cdbb4baddaecc23bc4572d46801510cc98a8c",
+      "timestamp": 1765310104,
       "reproducible": true,
       "error": null
     }
@@ -38719,6 +38901,20 @@
       "error": null
     }
   ],
+  "d5b34d79e3f2233dc04d09efb10bcc847d84144d9638e3df44568afcca4adc10": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.2.8/taskmanager-v1.2.8.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 25,
+      "version_name": "1.2.6",
+      "tag": "v1.2.8",
+      "commit": "883d93b7fe2f30e784512d5f039b21212414f3d8",
+      "timestamp": 1765294176,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -42915,6 +43111,20 @@
       "error": null
     }
   ],
+  "4f983e4dd34e249793818bd6b42e5cf42fde62f30357854238ceaec8b2000ca1": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/3.6.4/CC_3.6.4.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 40001,
+      "version_name": "3.6.4",
+      "tag": "3.6.4",
+      "commit": "fdc543ce4d29b9b60d4257d2c8588ae209d2fc5f",
+      "timestamp": 1765300639,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -43373,6 +43583,20 @@
       "tag": "3.1.1",
       "commit": "859b7c1ca9c8bdf07eb4b6481caf6f5de5fa2dba",
       "timestamp": 1765223402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5882690daac8ca4e772262286040a45d5510e20f68a43406ae9c4e64c3071948": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/3.1.2/CM_3.1.2.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 40001,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "1310267eaa6b1dbc5fcb36f952be2b49e2e361e0",
+      "timestamp": 1765294666,
       "reproducible": true,
       "error": null
     }
@@ -55689,6 +55913,20 @@
       "error": null
     }
   ],
+  "49c278275149adfd3dcc51b15e22818d5545b10ea1249bd9d31d588e5028b350": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.6-rc0/eu.darken.sdmse-v1.5.6-rc0-10506000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10506000,
+      "version_name": "1.5.6-rc0",
+      "tag": "v1.5.6-rc0",
+      "commit": "86acd57a380e28b14ef82c098afd7dca0af3d9e7",
+      "timestamp": 1765294976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -61859,6 +62097,20 @@
       "error": null
     }
   ],
+  "66d5f1afe6b3b08980847fa0d605d057f7f27f8c6aac544913fc4404554a10c2": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.10%2B9/rsm_v1.0.10%2B9_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2009,
+      "version_name": "1.0.10",
+      "tag": "v1.0.10+9",
+      "commit": "512213e68ada62c54a543cb4920164752a2bfbf3",
+      "timestamp": 1765295526,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -63409,6 +63661,20 @@
       "tag": "2.2.0",
       "commit": "0efbe58d6846f2e04ce10afa8e2e9cfce57609f0",
       "timestamp": 1759415120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7da2dd1b17b51dcacde3f2fa4e8cba5aa5345630c4618827d21de551a82dbb55": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/2.2.1/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 13,
+      "version_name": "2.2.1",
+      "tag": "2.2.1",
+      "commit": "b734eac95df37582b3b30a40191edbf2bbfd3222",
+      "timestamp": 1765310526,
       "reproducible": true,
       "error": null
     }
@@ -69233,6 +69499,20 @@
       "tag": "v1.7.0",
       "commit": "41a51c85fa09dde445034a0c84962558b67adcf1",
       "timestamp": 1764864044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9c9e6cafa97d3aed320db74e7eab1413ab36ae74024069be7766ce1769a6dcb2": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.7.1/tomato-v1.7.1-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 23,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "7a83b39b492969d2e8b025e4578a30275930d214",
+      "timestamp": 1765295911,
       "reproducible": true,
       "error": null
     }
@@ -76049,6 +76329,20 @@
       "tag": "v0.24.41",
       "commit": "151c914407c9e1b2dc5225ddb6c3724060efa79f",
       "timestamp": 1765034178,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e9b0ff9eea30613a70659fcbd818f81d47223d4728650cfea659c46ca9eefc6e": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.42/WebviewKiosk_v0.24.42.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 100,
+      "version_name": "0.24.42",
+      "tag": "v0.24.42",
+      "commit": "f0035b79841cc608b2d955738ea0d9ef158a2b28",
+      "timestamp": 1765296155,
       "reproducible": true,
       "error": null
     }
