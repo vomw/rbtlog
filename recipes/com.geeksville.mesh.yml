@@ -5,6 +5,7 @@ notes:
   - 'FIXED: 2.5.6 introduced embedded build timestamp, see https://github.com/meshtastic/Meshtastic-Android/issues/1372 (was removed with next release)'
   - 2.5.16, 2.6.24 flaky
   - 2.7.0 + 2.7.1 fail, see https://github.com/meshtastic/Meshtastic-Android/issues/3231
+  - 'FIXME: v2.7.9 has a build-time depending ID in assets/datadog.buildId (https://github.com/meshtastic/Meshtastic-Android/issues/3231#issuecomment-3648147411)'
 versions:
   - tag: 2.3.11
     apks:
@@ -1321,6 +1322,37 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.7.9
+    apks:
+      - apk_pattern: app-fdroid-release.*\.apk
+        apk_url: https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.9/app-fdroid-release.apk
+        build:
+          - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 16 fix-files app/build/outputs/apk/fdroid/release/app-fdroid-release*.apk 'sed s/.*/9a0d192c-a700-44f1-8070-57ea21ffd7e0/' 'assets/datadog.buildId'
+          - mv app/build/outputs/apk/fdroid/release/app-fdroid-release*.apk /outputs/unsigned.apk
+        build_home_dir: /home/builder
+        build_repo_dir: /home/builder/work/Meshtastic-Android/Meshtastic-Android
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
           image: ubuntu:jammy
           jdk: openjdk-21-jdk-headless
           ndk:

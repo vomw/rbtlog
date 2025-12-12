@@ -1805,6 +1805,20 @@
       "error": null
     }
   ],
+  "7881f336e9cfa1f8cfb3a4faab287c82856f87599038d99adc7749e180925254": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.3/Podcini.X_release_free_9.8.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 211,
+      "version_name": "9.8.3",
+      "tag": "9.8.3",
+      "commit": "8241fd0424d7c5e7e507617e46c1ab5f671927e1",
+      "timestamp": 1765550960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -8623,6 +8637,20 @@
       "error": null
     }
   ],
+  "5961643d3cf3e6266eb1ece0e5bf38b9c5e9550935bbb3318ddd6e4d591333fe": [
+    {
+      "repository": "https://github.com/AKS-Labs/CloudGallery.git",
+      "apk_url": "https://github.com/AKS-Labs/CloudGallery/releases/download/v0.5/app-release.apk",
+      "appid": "com.akslabs.cloudgallery",
+      "version_code": 5,
+      "version_name": "0.5",
+      "tag": "v0.5",
+      "commit": "25862b82efbe4511cca03fa5ac674534fa300f90",
+      "timestamp": 1765567359,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3382ba776d0256611df9db3209ab7e4dad79c15955c731b462b8dc65bd612a28": [
     {
       "repository": "https://github.com/farfromrefug/OSS-Dict.git",
@@ -9835,6 +9863,20 @@
       "tag": "v4.6.0a",
       "commit": "2dbf7a000633a546a966eedf5ae143a849f28c46",
       "timestamp": 1763736498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ad3a9ba78a037b79b9ca0b996d625fe36feff262994b00765df2ebd69dddc103": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.0b/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1375,
+      "version_name": "4.6.0b",
+      "tag": "v4.6.0b",
+      "commit": "eb72c95ec88ca6f1c3d2e16caab93e1d056a0426",
+      "timestamp": 1765567711,
       "reproducible": true,
       "error": null
     }
@@ -19667,6 +19709,20 @@
       "error": null
     }
   ],
+  "58b47e0fd78ad50d680023ecd3995d66cb4e8515ddd5dcf1ddb6e629844d699e": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.2.7-alpha/EblanLauncher-v0.2.7-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 27,
+      "version_name": "0.2.7-alpha",
+      "tag": "v0.2.7-alpha",
+      "commit": "5868281931a775f873d76723328f7402d64d27bf",
+      "timestamp": 1765551216,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -22633,6 +22689,20 @@
       "error": null
     }
   ],
+  "ef6bf66adf9c8131549e07ce0bba361b5a1297ac9ee2793c0102d962c9c472ca": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.2/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 142,
+      "version_name": "1.21.2",
+      "tag": "v1.21.2",
+      "commit": "d56905d169301850611dd6fdd99cede3939b15e4",
+      "timestamp": 1765551706,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -23357,6 +23427,20 @@
       "tag": "v2.7.8",
       "commit": "89e82ede593bf159c4ef59cc8f2956e0a3085e35",
       "timestamp": 1764515541,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45e18b9d7d91a568fd564da38483f7330aed4d16f5398b12305479e1da957bc2": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.9/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319572,
+      "version_name": "2.7.9 (29319572) fdroid",
+      "tag": "v2.7.9",
+      "commit": "5006fa37fae41212aee66961b4c4e8cc94bb487d",
+      "timestamp": 1765573637,
       "reproducible": true,
       "error": null
     }
@@ -28505,6 +28589,20 @@
       "error": null
     }
   ],
+  "97f0d88c454dc04d8abdd2c98969826884650d7c029ef067d79e166dbc92f65d": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.2.1/PassVault-v1.2.1-b21-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 21,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "1247ca93aaa2721f30634008ccd7a06032800e5f",
+      "timestamp": 1765552007,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -31525,6 +31623,20 @@
       "tag": "1.1.5",
       "commit": "50ebf032f0e490ed870f1d93e7dd39afdfe472f2",
       "timestamp": 1762824429,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "90684269da6584d7b1467c92f9a6a1f2e5f77ec2a378a314b0ff2277a93ac94e": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.0/Neo_Store_1.2.0-rc08_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1200,
+      "version_name": "1.2.0-rc08",
+      "tag": "1.2.0",
+      "commit": "0bfafd3b43d7e65e264425d0c30e5ac1f45923fd",
+      "timestamp": 1765552205,
       "reproducible": true,
       "error": null
     }
@@ -39587,6 +39699,20 @@
       "error": null
     }
   ],
+  "0fcb81da77b56e121240a2017047e56c9ccb1ba8f8a776f477b250b8f52c2734": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.5/xed-editor-v3.2.5.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 74,
+      "version_name": "3.2.5",
+      "tag": "v3.2.5",
+      "commit": "94ba7bd9ba4462e81321ecde5103e338f4d1c54e",
+      "timestamp": 1765552659,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -42481,6 +42607,20 @@
       "error": null
     }
   ],
+  "4280e62a8d5587f07f1d5bdd96b98fcf8cebc2b2344dcce0cc4c75ef44b066f8": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.4.2/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5420,
+      "version_name": "5.4.2",
+      "tag": "5.4.2",
+      "commit": "5add17d38810ea599a79dabad3307d77fb1ed73a",
+      "timestamp": 1765552947,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -43989,6 +44129,20 @@
       "tag": "v4.7.0",
       "commit": "ebbcb461945861691a96d3e3d7394409a94a8725",
       "timestamp": 1765466373,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81113304fc838f47c28ba0c764bdc3d9db045c33d166af7cddc20599f4b126ca": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/Myne.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/Myne/releases/download/v4.7.1/Myne-v4.7.1.apk",
+      "appid": "com.starry.myne",
+      "version_code": 471,
+      "version_name": "4.7.1",
+      "tag": "v4.7.1",
+      "commit": "7ef3ef9091cb69048772b91a18694de0151b1d9a",
+      "timestamp": 1765553301,
       "reproducible": true,
       "error": null
     }
@@ -47499,6 +47653,20 @@
       "tag": "v1.5.8",
       "commit": "4b6f24c0d70c83e010b8f3f9f8ececac045a4999",
       "timestamp": 1764532766,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "084148a311f905f48c243720234f28f3d1228e0a3080927cc24edcf0ca4d76c2": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.9/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2049,
+      "version_name": "1.5.9",
+      "tag": "v1.5.9",
+      "commit": "07aea414ce2fa8d2bc19d1fd459dcda48298fe26",
+      "timestamp": 1765568788,
       "reproducible": true,
       "error": null
     }
@@ -51155,6 +51323,20 @@
       "error": null
     }
   ],
+  "1d02086d418fd9f63776848dd291479942df1d82f92697346397abd5687dbc18": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.2/GlucoDataHandler_2.2.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1166,
+      "version_name": "2.2",
+      "tag": "2.2",
+      "commit": "229a85e2b5d7b033130ea6d4708a67a175471b0f",
+      "timestamp": 1765482254,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -52705,6 +52887,20 @@
       "tag": "v1.9.2",
       "commit": "73d48c2aa67cfd87b7442d3c767f46e97676dab8",
       "timestamp": 1764775215,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3f640011dd02f8458a9feb73a39219a53afcd0b861cb0d2c234b8aacd811acc": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.4/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090042,
+      "version_name": "1.9.4",
+      "tag": "v1.9.4",
+      "commit": "0feee4d9d584af5087109a264890c2f492f29569",
+      "timestamp": 1765553817,
       "reproducible": true,
       "error": null
     }
@@ -62391,6 +62587,20 @@
       "error": null
     }
   ],
+  "78e69db7b4aea22cbaf9bf269512f188310172d5e9cf9571908000173a1b5907": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.13%2B12/rsm_v1.0.13%2B12_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2012,
+      "version_name": "1.0.13",
+      "tag": "v1.0.13+12",
+      "commit": "15ad2cefd9fa70e9c3c2b2449134eda2d2c10980",
+      "timestamp": 1765554381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -64263,6 +64473,20 @@
       "tag": "25091201",
       "commit": "f82aa00f5bf5487e779ddbcf975a2023713a9de0",
       "timestamp": 1757688219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "41314400d1b87937087c17f54703b7908f5ad79ac7746d32f9ae60e5bc918351": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/redd-focus-android/releases/download/25121201/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 25121201,
+      "version_name": "0.8.0",
+      "tag": "25121201",
+      "commit": "7ab493495f0db591d1a42a39075ed93f49b9bc93",
+      "timestamp": 1765564999,
       "reproducible": true,
       "error": null
     }

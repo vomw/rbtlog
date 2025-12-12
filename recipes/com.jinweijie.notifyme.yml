@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/jinweijie/notify-me.git
-updates: releases
+updates: disabled
+notes:
+  - app removed from IzzyOnDroid
 versions:
   - tag: release-1.2.1
     apks:
