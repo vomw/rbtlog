@@ -45,8 +45,8 @@ class Error(Exception):
     """Base class for errors."""
 
 
-def latest_release(repository: str, forge_type: Optional[str], apk_patterns: List[str], *,
-                   verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release(repository: str, forge_type: Optional[str], release_pattern: Optional[str],
+                   apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs."""
     if repository.endswith(".git"):
         repository = repository[:-4]
@@ -65,11 +65,11 @@ def latest_release(repository: str, forge_type: Optional[str], apk_patterns: Lis
                                       "set forge_type in your recipe.")
 
     if forge_type in ["forgejo", "gitea"]:
-        tag, apk_urls = latest_release_forgejo(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_forgejo(url, release_pattern, apk_patterns, verbose=verbose)
     elif forge_type == "github":
-        tag, apk_urls = latest_release_github(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_github(url, release_pattern, apk_patterns, verbose=verbose)
     elif forge_type == "gitlab":
-        tag, apk_urls = latest_release_gitlab(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_gitlab(url, release_pattern, apk_patterns, verbose=verbose)
     else:
         raise NotImplementedError(f"Unsupported forge: {forge_type}")
     if not set(apk_urls) == set(apk_patterns):
@@ -79,9 +79,11 @@ def latest_release(repository: str, forge_type: Optional[str], apk_patterns: Lis
 
 # FIXME: for now, we assume Gitea and Forgejo are compatible. If this ever
 # changes, this needs to be split into multiple functions
-def latest_release_forgejo(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                         verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_forgejo(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                           apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from Gitea/Forgejo."""
+    if release_pattern:
+        raise NotImplementedError("Support for regex release pattern filtering for Forgejo is not yet implemented")
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
     data = forgejo_latest_release(url.hostname, namespace, project, verbose=verbose)
@@ -95,9 +97,11 @@ def latest_release_forgejo(url: urllib.parse.ParseResult, apk_patterns: List[str
     return tag, apk_urls
 
 
-def latest_release_github(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                          verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_github(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                          apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitHub."""
+    if release_pattern:
+        raise NotImplementedError("Support for regex release pattern filtering for GitHub is not yet implemented")
     namespace, project = url.path.strip("/").split("/")
     data = github_latest_release(namespace, project, verbose=verbose)
     tag = data["tag_name"]
@@ -110,9 +114,11 @@ def latest_release_github(url: urllib.parse.ParseResult, apk_patterns: List[str]
     return tag, apk_urls
 
 
-def latest_release_gitlab(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                          verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_gitlab(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                          apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitLab."""
+    if release_pattern:
+        raise NotImplementedError("Support for regex release pattern filtering for GitLab is not yet implemented")
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
     data = gitlab_latest_release(url.hostname, namespace, project, verbose=verbose)
@@ -253,9 +259,10 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, always_updat
         if checkonly := updates.startswith("checkonly:"):
             updates = updates.replace("checkonly:", "", 1)
         try:
-            if updates == "releases":
+            if updates.startswith("releases"):
+                release_pattern = updates.replace("releases:", "", 1) if ":" in updates else None
                 apk_patterns = [apk["apk_pattern"] for apk in recipe["versions"][-1]["apks"]]
-                tag, apk_urls = latest_release(repository, forge_type, apk_patterns, verbose=verbose)
+                tag, apk_urls = latest_release(repository, forge_type, release_pattern, apk_patterns, verbose=verbose)
                 if verbose:
                     for apk_url in apk_urls.values():
                         print(f"Found tag {tag!r} with APK URL {apk_url!r}.", file=sys.stderr)
