@@ -27,7 +27,8 @@ GITHUB_DOT_COM = "github.com"
 GITLAB_DOT_COM = "gitlab.com"
 
 # host, namespace, project
-GITEA_RELEASE = "https://{}/api/v1/repos/{}/{}/releases/latest"
+GITEA_RELEASES = "https://{}/api/v1/repos/{}/{}/releases"
+GITEA_LATEST_RELEASE = "https://{}/api/v1/repos/{}/{}/releases/latest"
 # namespace, project
 GITHUB_RELEASES = "https://api.github.com/repos/{}/{}/releases"
 GITHUB_LATEST_RELEASE = "https://api.github.com/repos/{}/{}/releases/latest"
@@ -83,11 +84,9 @@ def latest_release(repository: str, forge_type: Optional[str], release_pattern: 
 def latest_release_forgejo(url: urllib.parse.ParseResult, release_pattern: Optional[str],
                            apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from Gitea/Forgejo."""
-    if release_pattern:
-        raise NotImplementedError("Support for regex release pattern filtering for Forgejo is not yet implemented")
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
-    data = forgejo_latest_release(url.hostname, namespace, project, verbose=verbose)
+    data = forgejo_latest_release(url.hostname, namespace, project, release_pattern, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -162,15 +161,29 @@ def latest_tag(repository: str, tag_pattern: str, *, quiet: bool = False,
 
 
 # FIXME: retry, configure timeout, gitea vs forgejo
-def forgejo_latest_release(host: str, namespace: str, project: str, *,
-                         verbose: bool = False) -> Dict[Any, Any]:
+def forgejo_latest_release(host: str, namespace: str, project: str, release_pattern: Optional[str], *,
+                           verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from Gitea/Forgejo API."""
-    url = GITEA_RELEASE.format(host, namespace, project)
+    url = GITEA_RELEASES.format(host, namespace, project) if release_pattern else GITEA_LATEST_RELEASE.format(host, namespace, project)
     if verbose:
         print(f"Checking {url!r}...", file=sys.stderr)
     with requests.get(url, timeout=60) as response:
         response.raise_for_status()
-        return response.json()      # type: ignore[no-any-return]
+
+        # If we don't need to filter we're done here
+        if not release_pattern:
+            return response.json()      # type: ignore[no-any-return]
+
+        # Otherwise, figure out which tag matches
+        for release in response.json():
+            # Ignore prereleases
+            if release["prerelease"]:
+                continue
+
+            if re.fullmatch(release_pattern, release["tag_name"]):
+                return release      # type: ignore[no-any-return]
+        else:
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern}")
 
 
 # FIXME: retry, configure timeout
