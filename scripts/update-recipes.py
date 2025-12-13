@@ -178,7 +178,7 @@ def forgejo_latest_release(host: str, namespace: str, project: str, release_patt
             if re.fullmatch(release_pattern, release["tag_name"]):
                 return release      # type: ignore[no-any-return]
         else:
-            raise Error(f"Could not find a release with a tag matching pattern {release_pattern}")
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 # FIXME: retry, configure timeout
@@ -204,7 +204,7 @@ def github_latest_release(namespace: str, project: str, release_pattern: Optiona
             if re.fullmatch(release_pattern, release["tag_name"]):
                 return release      # type: ignore[no-any-return]
         else:
-            raise Error(f"Could not find a release with a tag matching pattern {release_pattern}")
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 # FIXME: retry, configure timeout, token (!?)
@@ -241,7 +241,7 @@ def gitlab_latest_release(host: str, namespace: str, project: str, release_patte
             if re.fullmatch(release_pattern, release["tag_name"]):
                 return {**release, "_project_id": project_id}
         else:
-            raise Error(f"Could not find a release with a tag matching pattern {release_pattern}")
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 def load_recipe(recipe_file: str) -> Dict[Any, Any]:
