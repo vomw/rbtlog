@@ -33,14 +33,14 @@ GITEA_LATEST_RELEASE = "https://{}/api/v1/repos/{}/{}/releases/latest"
 GITHUB_RELEASES = "https://api.github.com/repos/{}/{}/releases"
 GITHUB_LATEST_RELEASE = "https://api.github.com/repos/{}/{}/releases/latest"
 # host, namespace, project
+GITLAB_PROJECT = "https://{}/api/v4/projects/{}%2F{}"
+GITLAB_RELEASES = "https://{}/api/v4/projects/{}%2F{}/releases"
 GITLAB_LATEST_RELEASE = "https://{}/api/v4/projects/{}%2F{}/releases/permalink/latest"
 
 # host, project_id, upload
 GITLAB_UPLOAD = "https://{}/-/project/{}/uploads/{}"
 # hash/filename
 GITLAB_UPLOAD_RX = re.compile(r"\(/uploads/([0-9a-f]{32}/[^/)]+)\)")
-# project_id
-GITLAB_RELEASES_PROJECT_ID_RX = re.compile(r"/api/v4/projects/(\d+)/releases/")
 
 
 class Error(Exception):
@@ -115,11 +115,9 @@ def latest_release_github(url: urllib.parse.ParseResult, release_pattern: Option
 def latest_release_gitlab(url: urllib.parse.ParseResult, release_pattern: Optional[str],
                           apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitLab."""
-    if release_pattern:
-        raise NotImplementedError("Support for regex release pattern filtering for GitLab is not yet implemented")
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
-    data = gitlab_latest_release(url.hostname, namespace, project, verbose=verbose)
+    data = gitlab_latest_release(url.hostname, namespace, project, release_pattern, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -135,10 +133,7 @@ def latest_release_gitlab(url: urllib.parse.ParseResult, release_pattern: Option
             continue
         for upload in GITLAB_UPLOAD_RX.findall(data["description"]):
             if re.fullmatch(apk_pattern, upload.rsplit("/", 1)[-1]):
-                if not (m := re.search(GITLAB_RELEASES_PROJECT_ID_RX, data["_url"])):
-                    raise Error("Could not determine project ID from URL")
-                project_id = int(m.group(1))
-                apk_urls[apk_pattern] = GITLAB_UPLOAD.format(url.hostname, project_id, upload)
+                apk_urls[apk_pattern] = GITLAB_UPLOAD.format(url.hostname, data["_project_id"], upload)
                 break
     return tag, apk_urls
 
@@ -213,15 +208,40 @@ def github_latest_release(namespace: str, project: str, release_pattern: Optiona
 
 
 # FIXME: retry, configure timeout, token (!?)
-def gitlab_latest_release(host: str, namespace: str, project: str, *,
+def gitlab_latest_release(host: str, namespace: str, project: str, release_pattern: Optional[str], *,
                           verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from GitLab API."""
-    url = GITLAB_LATEST_RELEASE.format(host, namespace, project)
+    project_url = GITLAB_PROJECT.format(host, namespace, project)
+    url = GITLAB_RELEASES.format(host, namespace, project) if release_pattern else GITLAB_LATEST_RELEASE.format(host, namespace, project)
+
+    # First, retrieve the GitLab project ID
+    if verbose:
+        print(f"Retrieving project ID for permalink info from {url!r}...", file=sys.stderr)
+    with requests.get(project_url, timeout=60) as response:
+        response.raise_for_status()
+
+        project_id = response.json()["id"]
+
+    # Then, actually check for the update
     if verbose:
         print(f"Checking {url!r}...", file=sys.stderr)
     with requests.get(url, timeout=60) as response:
         response.raise_for_status()
-        return {**response.json(), "_url": response.url}
+
+        # If we don't need to filter we're done here
+        if not release_pattern:
+            return {**response.json(), "_project_id": project_id}
+
+        # Otherwise, figure out which tag matches
+        for release in response.json():
+            # Ignore prereleases
+            if release["upcoming_release"]:
+                continue
+
+            if re.fullmatch(release_pattern, release["tag_name"]):
+                return {**release, "_project_id": project_id}
+        else:
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern}")
 
 
 def load_recipe(recipe_file: str) -> Dict[Any, Any]:
