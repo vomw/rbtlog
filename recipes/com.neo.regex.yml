@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/NeoUtils/NeoRegex.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: M7.json timestamp issue, see https://github.com/NeoUtils/NeoRegex/issues/76 '
+  - not yet added to our repo, waiting for fastlane, and no activity for half a year, hence disabled for now
 versions:
   - tag: v3.2.0
     apks:

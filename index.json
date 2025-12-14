@@ -1833,6 +1833,20 @@
       "error": null
     }
   ],
+  "a4c67085df5798ffb99e34679f06f1d91331b7ccb6e811dec91c49921a49e777": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.5/Podcini.X_release_free_9.8.5_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 213,
+      "version_name": "9.8.5",
+      "tag": "9.8.5",
+      "commit": "1ef04c90bfb21bd1febc236d801ff6d71bf4fa1d",
+      "timestamp": 1765740160,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3229,6 +3243,20 @@
       "tag": "v1.0.0",
       "commit": "b7a83529469ad9a2b445552b331f157907d2dc9b",
       "timestamp": 1763427172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c83f7b22569c6127e2ccc1f52fa0e1b6de2ff83d7cac5a583c0ffb647041ab0b": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.1.0/mpvEx-arm64-v8a-v1.1.0.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 112,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "5f931f66952436e94eee4019f1c30d218d6b14bc",
+      "timestamp": 1765723727,
       "reproducible": true,
       "error": null
     }
@@ -7905,6 +7933,20 @@
       "tag": "v3.5.278.792-stable",
       "commit": "bd1b92cc9af730842abdf48c5e4287a497c22bf9",
       "timestamp": 1765653736,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "90a760246422132542ec698a40c62e6618f9ee79f3fc22798f9e7e0d3120f6b5": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.5.280.795-stable/Rhythm-3.5.280.795-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 35280795,
+      "version_name": "3.5.280.795",
+      "tag": "v3.5.280.795-stable",
+      "commit": "4dedbbaee6b7168dc9a44decaa2d1da050166528",
+      "timestamp": 1765724200,
       "reproducible": true,
       "error": null
     }
@@ -22773,6 +22815,20 @@
       "error": null
     }
   ],
+  "ae1b4ebe9c8bb19d5d90e4838b6ff27891bc18a0c2172fa3f42d2e26c2a563fd": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.3/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 143,
+      "version_name": "1.21.3",
+      "tag": "v1.21.3",
+      "commit": "19bd468460d930575a30317f80c9540152070199",
+      "timestamp": 1765724619,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -28137,6 +28193,20 @@
       "tag": "1.5.4",
       "commit": "9442ece6aaf203433e66c0ca47fd273d30660ef7",
       "timestamp": 1765293636,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43ff74cf70e9765a063c29425205fde0c35a076ec67fdaa49f3ccd64d2bdaf0a": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.5.5/Tyr-1.5.5-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 19,
+      "version_name": "1.5.5",
+      "tag": "1.5.5",
+      "commit": "fa2acc87e55301f80d3d08b873d4dda9573a82b9",
+      "timestamp": 1765724925,
       "reproducible": true,
       "error": null
     }
@@ -36797,6 +36867,20 @@
       "tag": "release-1.15.0",
       "commit": "78be3cec204e4cf56f1da1ce8ef09e69836f274e",
       "timestamp": 1746280677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7054f6e6beb81cb35c3cd6254b3df59215c5f4d647a5703c7b51e062aae91d01": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.16.0/dahdidahdit-1.16.0.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1160001,
+      "version_name": "1.16.0",
+      "tag": "release-1.16.0",
+      "commit": "cc3310aebd060e15b0be39d99ba2c2aedf1043e5",
+      "timestamp": 1765729849,
       "reproducible": true,
       "error": null
     }
@@ -47839,6 +47923,20 @@
       "error": null
     }
   ],
+  "db0b72c05e4bedae7ff91ca6356393d49b1d6ba532c6f45451fc5ad7ea7b08d8": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.10/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2050,
+      "version_name": "1.5.10",
+      "tag": "v1.5.10",
+      "commit": "14181309aa238e4bdc09a626cb991bd645501a93",
+      "timestamp": 1765725380,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "75000ff6d8f3898c8f3eaf1945cfc1d26bf0d9ef6beb844beaab07c39a47e345": [
     {
       "repository": "https://github.com/wgtunnel/wgtunnel.git",
@@ -53069,6 +53167,20 @@
       "tag": "v1.9.4",
       "commit": "0feee4d9d584af5087109a264890c2f492f29569",
       "timestamp": 1765553817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b8f0a636549faa74711e4f0b7f5aff0676c427e597d9778e1531f923fc2223f7": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.6/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090062,
+      "version_name": "1.9.6",
+      "tag": "v1.9.6",
+      "commit": "b923e5a4a9b83e53b3a2169fdc05bda0b0a843a5",
+      "timestamp": 1765726117,
       "reproducible": true,
       "error": null
     }
@@ -60641,6 +60753,20 @@
       "error": null
     }
   ],
+  "0313c799599a73039cf530ad3a5dc03299d40677e293d9c8a237a10379f96334": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.22.6%2B133/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2133,
+      "version_name": "1.22.6",
+      "tag": "v1.22.6+133",
+      "commit": "776f38f204f1c8cfa6e983702ac12bb204f56658",
+      "timestamp": 1765726825,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -60805,6 +60931,20 @@
       "tag": "v1.13.0",
       "commit": "1f0a6d9170c0d2010ea5f717dde325b959f6f348",
       "timestamp": 1765639828,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c01c6d7fa0df0629c4e24a9acf69fe56cc86571d83ba4609e6a4969e4711ed74": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.14.1/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 19,
+      "version_name": "1.14.1",
+      "tag": "v1.14.1",
+      "commit": "243476ed231c04c7e104ce57e9a6feb0a5b551c4",
+      "timestamp": 1765727700,
       "reproducible": true,
       "error": null
     }
@@ -62783,6 +62923,20 @@
       "error": null
     }
   ],
+  "62eab27386cdcca6786925e49745246d21d7db8e6c57b75c2324b54a7e7cd48a": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.14%2B13/rsm_v1.0.14%2B13_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2013,
+      "version_name": "1.0.14",
+      "tag": "v1.0.14+13",
+      "commit": "35957262de413a7e5812ea64578a254efd7e6ecf",
+      "timestamp": 1765728052,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -63549,6 +63703,20 @@
       "tag": "v1.8.4",
       "commit": "d08dd104c93c91abb29a147c1204405a3aaf8ed9",
       "timestamp": 1763135340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8cb9c18529eec65719529b38041decfbbb83b0fe96539a7f9351416dd9b64e67": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.8.5/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 125,
+      "version_name": "1.8.5-izzy",
+      "tag": "v1.8.5",
+      "commit": "c5663be0cc51ccc20ba0bb22c7a49dde4d8992ac",
+      "timestamp": 1765747114,
       "reproducible": true,
       "error": null
     }
@@ -64347,6 +64515,20 @@
       "tag": "2.2.1",
       "commit": "b734eac95df37582b3b30a40191edbf2bbfd3222",
       "timestamp": 1765310526,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7b3e2a9d450aab2b9c93821d7c1936ee9570745ea9515c697cbb3657b1023dda": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/2.2.2/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 14,
+      "version_name": "2.2.2",
+      "tag": "2.2.2",
+      "commit": "b9f66b84b51f68392861e47f832e05909674fe5c",
+      "timestamp": 1765742038,
       "reproducible": true,
       "error": null
     }
@@ -76221,6 +76403,20 @@
       "error": null
     }
   ],
+  "4177e61da4645cad7af701ca8336f0278d9b669d8b8d05083444b675f3691b3b": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0/LockscreenWidgets_3.0.0-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 164,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "0d205381f2dee1feb5275c2865f3d749eb5e876a",
+      "timestamp": 1765728523,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -77113,6 +77309,20 @@
       "tag": "v0.24.44",
       "commit": "568ec10c3ee599d088eaf5e48c734ac7ba1a208e",
       "timestamp": 1765640225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9f2369a02ecf2b04b7164a211e2c6f925bfba566ed1d6ec79641e45a4e365c91": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.45/WebviewKiosk_v0.24.45.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 103,
+      "version_name": "0.24.45",
+      "tag": "v0.24.45",
+      "commit": "8f4668db2a52379abcbcad6598dc498ff2939772",
+      "timestamp": 1765728930,
       "reproducible": true,
       "error": null
     }
