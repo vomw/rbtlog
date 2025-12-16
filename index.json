@@ -1847,6 +1847,34 @@
       "error": null
     }
   ],
+  "f005f07f320af1090eb26f6964e35ed6627cd693f6edb7f69948f2c36b6de9d8": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.6/Podcini.X_release_free_9.8.6_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 214,
+      "version_name": "9.8.6",
+      "tag": "9.8.6",
+      "commit": "df15b1064a740b7abbcef72813337957d2c90fef",
+      "timestamp": 1765810097,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "955ed1d432bb3b38352a0deff4d3393e8f27c34d957a47da84ff5604ebf297c7": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.7/Podcini.X_release_free_9.8.7_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 215,
+      "version_name": "9.8.7",
+      "tag": "9.8.7",
+      "commit": "7ed50a19254bca4fcf14b609b96c486cd6cdb3bd",
+      "timestamp": 1765826592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3061,6 +3089,20 @@
       "tag": "3.4.3",
       "commit": "c6dee363381aaaa10ee5de010a200353b88611ab",
       "timestamp": 1765637675,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e46eaa18021be3273806b86948981ae3fddd9249f8501479118a53d5081d4d30": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.5.1/fluffy-3.5.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 611,
+      "version_name": "3.5.1",
+      "tag": "3.5.1",
+      "commit": "a5e7c75cd013b2c88d5942b6a2c7a5f841d715d3",
+      "timestamp": 1765810470,
       "reproducible": true,
       "error": null
     }
@@ -4955,6 +4997,20 @@
       "error": null
     }
   ],
+  "205e71f3bc9812453534be06ce3e9c9a5899e6c3348184047c514147f16e810a": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.4.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 941,
+      "version_name": "v9.4.1",
+      "tag": "v9.4.1",
+      "commit": "6cad06cdefd895c153d8e53df425c75acf2218e7",
+      "timestamp": 1765826990,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -6845,6 +6901,20 @@
       "error": null
     }
   ],
+  "f49a576cd7e109fd658d5592e30d9937b65b32113956e94e9e0d45ce768eca40": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.5.0/UmihiMusic.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 10500,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "142eb74535baf4273435b329c3296ba3f424a7e9",
+      "timestamp": 1765819843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99e27283edaff5676f299e8267996ea66f2d189090c2ecbcd38230ec1cb45ae0": [
     {
       "repository": "https://github.com/mvmike/min-cal-widget.git",
@@ -7947,6 +8017,20 @@
       "tag": "v3.5.280.795-stable",
       "commit": "4dedbbaee6b7168dc9a44decaa2d1da050166528",
       "timestamp": 1765724200,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44055294ef0ea61564eaecdff8ae88a5c63bea86ba1c72bb436babdd14d6807d": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.6.284.801-stable/Rhythm-3.6.284.801-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 36284801,
+      "version_name": "3.6.284.801",
+      "tag": "v3.6.284.801-stable",
+      "commit": "67d960426a1f9c6051c50a1c94976c959141e9ab",
+      "timestamp": 1765827373,
       "reproducible": true,
       "error": null
     }
@@ -28785,6 +28869,20 @@
       "error": null
     }
   ],
+  "630fc25b61f9ef87a1925cbe9d417516ce671ad25263e082ed547ed3b4476bf9": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.3.0/PassVault-v1.3.0-b22-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 22,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "6e3167e01b60b6b7112ac10f9e50dae2450e79e8",
+      "timestamp": 1765812065,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -44945,6 +45043,20 @@
       "error": null
     }
   ],
+  "54fb88f61aae5d02a1fa7b8d1902dd5eb7cc5eb2ba6dbdafe9068510642f5a9c": [
+    {
+      "repository": "https://github.com/tharunbirla/IntruderSelfie.git",
+      "apk_url": "https://github.com/tharunbirla/IntruderSelfie/releases/download/v1.1/app-release.apk",
+      "appid": "com.tharunbirla.intruderselfie",
+      "version_code": 2,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "574e95eb4353cc42c7a06ce3af975c8d0bf9e97b",
+      "timestamp": 1765744052,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpavfyuwo4/outputs:/outputs', '--volume', '/tmp/tmpavfyuwo4/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/tharunbirla/IntruderSelfie.git', '--env', 'APP_TAG=v1.1', '--env', 'APP_COMMIT=574e95eb4353cc42c7a06ce3af975c8d0bf9e97b', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "f4ba44e259d8afa9d9c4a624f1e6a4782acd1f22f1895dfc5df5a5552b4bb9f7": [
     {
       "repository": "https://github.com/thatsmanmeet/Clipboard-Cleaner.git",
@@ -50721,6 +50833,20 @@
       "error": null
     }
   ],
+  "2e8280edf92927b5f680489c4ffe4041563ef295940e0a6217e8531e947a2d46": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.21.5/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 206,
+      "version_name": "2.21.5",
+      "tag": "v2.21.5",
+      "commit": "eb8e35989ab3b7f0a39456194084f4d25f35b3d7",
+      "timestamp": 1765812386,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca1d4f1786c5876900afb8d77d1fe3d06e7fc26eb5b6186c5e69684fa7538e7e": [
     {
       "repository": "https://codeberg.org/Starfish/Imagepipe.git",
@@ -55955,6 +56081,20 @@
       "error": null
     }
   ],
+  "0d6551485662fdf2c8230e2cdfd11ae6aa2dc6249be8e2d7ecf6590bed47c564": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.1.0-rc0/eu.darken.bluemusic-v3.1.0-rc0-30100000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30100000,
+      "version_name": "3.1.0-rc0",
+      "tag": "v3.1.0-rc0",
+      "commit": "52ccf756ebba9810d0584bf1115ebee8b7210f46",
+      "timestamp": 1765812810,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -57505,6 +57645,20 @@
       "tag": "1.2306",
       "commit": "8c99d4ecbeaae03e1cbf4978e2931dbd272a3fb7",
       "timestamp": 1764689647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e1e0f240517f0477a1c2b937c991aa55a3e1a999f0b41cf42e4154509e31cfc4": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2307/FairEmail-v1.2307a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2307,
+      "version_name": "1.2307",
+      "tag": "1.2307",
+      "commit": "9a827f35c6ac123a5eae25efdbc23d41b36485ce",
+      "timestamp": 1765813382,
       "reproducible": true,
       "error": null
     }
@@ -60189,6 +60343,20 @@
       "tag": "v2.6.1",
       "commit": "092786d6651b7c6f4cb7c7a41f9bc6528adc62fa",
       "timestamp": 1765467538,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac064a48dee902c33fdf9bc5ba517e5bbed7e9c936aff81afa5e6bb7c1807ff6": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.6.2/de1984-v2.6.2.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 33,
+      "version_name": "2.6.2",
+      "tag": "v2.6.2",
+      "commit": "baf6b4ecf79dfef9972b3e5f14a31f6387a15fe6",
+      "timestamp": 1765813782,
       "reproducible": true,
       "error": null
     }
