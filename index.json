@@ -1875,6 +1875,20 @@
       "error": null
     }
   ],
+  "9e0ddbc63dca642044d778ae20f87bbaac69bca9e2159820835477ee13063b4f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.8.8/Podcini.X_release_free_9.8.8_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 216,
+      "version_name": "9.8.8",
+      "tag": "9.8.8",
+      "commit": "ccee9db47d5630f8ae43d4f79dd2d711b12a569d",
+      "timestamp": 1765896516,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -19037,6 +19051,20 @@
       "error": null
     }
   ],
+  "3b63a1e88b83085d8c46e225213e3c83b1eab2c059220113a67519a7de3a972d": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.12/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 167,
+      "version_name": "5.0.12",
+      "tag": "5.0.12",
+      "commit": "145026b687b8c8f5d339d22bcff6dc4882d2f477",
+      "timestamp": 1765896943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -27595,6 +27623,20 @@
       "error": null
     }
   ],
+  "9446e39cc008396fff0274a4909ad5c69999fa6e0a5ce7beaecf494c2f654a6e": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.10.3/NeverTooManyBooks-7.10.3.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 116,
+      "version_name": "7.10.3",
+      "tag": "v7.10.3",
+      "commit": "0c039dad02062f667c4c8232967b3ddc781ead28",
+      "timestamp": 1765913187,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "34403cada77e2aad7c6fc9bac1f22d07d6b60089d6a95ceca3fc41ee09741473": [
     {
       "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
@@ -29747,6 +29789,20 @@
       "tag": "v2.0.0",
       "commit": "4a7cdbb4baddaecc23bc4572d46801510cc98a8c",
       "timestamp": 1765310104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f109e11f4c44319a8596613f281204e1ef07d08666cb0087fee7c2b36167b9e1": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.1/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 27,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "bd750a7f791dc5aa939c2df331351512d44f4f8c",
+      "timestamp": 1765897693,
       "reproducible": true,
       "error": null
     }
@@ -33791,6 +33847,20 @@
       "tag": "v1.6.1",
       "commit": "853c74aac7595d95dc06c063edaaf602cd003ec8",
       "timestamp": 1765033383,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a017c563850e6940d05a719494dd7f2648deb02f1453ec4ffc1326a233946c2e": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.6.2/SpeakThat-NoUpdater-v1.6.2.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 26,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "c54d0f54330f6a387e89a40a75e16220b1b3bb4d",
+      "timestamp": 1765897958,
       "reproducible": true,
       "error": null
     }
@@ -51757,6 +51827,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "328938dba4af8e19b53705a605d030330add9ed0d819a5ff3eebb4e8be40eb79": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.2.1/GlucoDataHandler_2.2.1.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1169,
+      "version_name": "2.2.1",
+      "tag": "2.2.1",
+      "commit": "d09b8559420abafbf4de1ed4a56a408b38dd9a25",
+      "timestamp": 1765927818,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -51866,6 +51950,20 @@
       "commit": "ba14f7855ffbc6752fe7ef1a717f5b609a821d3b",
       "timestamp": 1765153196,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "c5f4a4b3106a7514102525537a435cade840564b315dcfe985643099e350f020": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.1.2/MedicalCalendarLog-1.1.2-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 24,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "5643b4318572ffda7915e88115fceb6bb76145b8",
+      "timestamp": 1765882289,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -67375,6 +67473,20 @@
       "error": null
     }
   ],
+  "6bfbe97d101c4858aa09f843ff62e10cd4a2d64fea814d583148bb4b0b0949ca": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.9.0/calendar-16-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 16,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "ef00acd7fa9b7d08166caacab8b673b2ba94fcd0",
+      "timestamp": 1765908445,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -67613,6 +67725,20 @@
       "error": null
     }
   ],
+  "c494c178bb9ffb3b3c6954aa520fc2c1be83e87aba62112da0aa76b2a61f69ea": [
+    {
+      "repository": "https://github.com/FossifyOrg/Clock.git",
+      "apk_url": "https://github.com/FossifyOrg/Clock/releases/download/1.5.0/clock-9-foss-release.apk",
+      "appid": "org.fossify.clock",
+      "version_code": 9,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "d85eb996676e48edb1c503384b18d349150c6e8d",
+      "timestamp": 1765909192,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "568ac7597064bdaec690571a2e5d263441f4cc495ca220a90015a9922a875e72": [
     {
       "repository": "https://github.com/FossifyOrg/Contacts.git",
@@ -67753,6 +67879,20 @@
       "error": null
     }
   ],
+  "18d2acd6962bcf857535298a5c24676fd3724f010b764fc8a0008dda30d53f20": [
+    {
+      "repository": "https://github.com/FossifyOrg/Contacts.git",
+      "apk_url": "https://github.com/FossifyOrg/Contacts/releases/download/1.5.0/contacts-12-foss-release.apk",
+      "appid": "org.fossify.contacts",
+      "version_code": 12,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "d12e4bbc88b64791f0c0b6085216ffbd78bc5525",
+      "timestamp": 1765909566,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -67861,6 +68001,20 @@
       "tag": "1.4.0",
       "commit": "7a4adb87830b747417e0c09c19821a0404b5dcc8",
       "timestamp": 1761769372,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fc9976114e9244cbb3834cd1626ca293fa5411dfddb7d56a6bc4b4f9b085a8fe": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.5.0/file-manager-11-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 11,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "67d77b34311c0a7132cbc49716ab309b9b3ad7f7",
+      "timestamp": 1765909679,
       "reproducible": true,
       "error": null
     }
@@ -68089,6 +68243,20 @@
       "error": null
     }
   ],
+  "c76aa85788c6122430eb8b3078918da5f47762981bb9ce6a5cfaa3e6d6a16001": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.10.0/gallery-24-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 24,
+      "version_name": "1.10.0",
+      "tag": "1.10.0",
+      "commit": "f67ba43a4f6341ce4335e58c775c52174218f110",
+      "timestamp": 1765909968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -68257,6 +68425,20 @@
       "error": null
     }
   ],
+  "73ce4a0eddc20bf009b48938be4f761c1a7c80b1865bb9a2838490e54a8095ec": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.7.0/launcher-13-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 13,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "f18f65d634be136f9d5083a92bb41e657b65fb79",
+      "timestamp": 1765910181,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef86f07df15e4d5056f5a9ad962754fd5872680810b90a82ee1e72a779de4a14": [
     {
       "repository": "https://github.com/FossifyOrg/Keyboard.git",
@@ -68397,6 +68579,20 @@
       "error": null
     }
   ],
+  "26f20e99813a5fa99b824776364d9d9951aef8d29495d332f4858342060c12bc": [
+    {
+      "repository": "https://github.com/FossifyOrg/Keyboard.git",
+      "apk_url": "https://github.com/FossifyOrg/Keyboard/releases/download/1.7.0/keyboard-11-foss-release.apk",
+      "appid": "org.fossify.keyboard",
+      "version_code": 11,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "9f2ace26e751f96c11525b3d8c7087d835e79ff6",
+      "timestamp": 1765910516,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "779378fb3e2c4ef9d449e68042a1cbee72d58d2355975ced438a7902f41a41d8": [
     {
       "repository": "https://github.com/FossifyOrg/Calculator.git",
@@ -68463,6 +68659,20 @@
       "tag": "1.2.0",
       "commit": "42f951c3b69940d810d1e0b406dc4a60897f7f6c",
       "timestamp": 1761771197,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "42cdad7933094fcdaa1bf6d30f0220e05c78dedbb97d31e72e3b706bd8a6d40e": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calculator.git",
+      "apk_url": "https://github.com/FossifyOrg/Calculator/releases/download/1.3.0/calculator-9-foss-release.apk",
+      "appid": "org.fossify.math",
+      "version_code": 9,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "4c7df09bea47727092ada65fd303b87158ae36e4",
+      "timestamp": 1765910725,
       "reproducible": true,
       "error": null
     }
@@ -68691,6 +68901,20 @@
       "error": null
     }
   ],
+  "8608f2ed063bcd215a961c2b800c14173486752e958b45dc77662c59576b6e88": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.7.0/messages-19-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 19,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "03d1a51a94f94b8d62a1536f43b0a7d22a368926",
+      "timestamp": 1765910866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -68841,6 +69065,20 @@
       "tag": "1.6.0",
       "commit": "e6ec812fcb60c504c8cd417ab8a53929c440dd43",
       "timestamp": 1762701827,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "45aa812b57a347b5a14d4e3c9a317778d21608ae8e1c7d944e8bcb9edcae52d0": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.7.0/musicplayer-12-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 12,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "00fcc48ffecf86bc68dd1760b14bdf9ef820a74c",
+      "timestamp": 1765911141,
       "reproducible": true,
       "error": null
     }
@@ -69055,6 +69293,20 @@
       "error": null
     }
   ],
+  "9cc2c5051bbcb78bc41ac244ec893d1d9ea4fba6a241825614dd44efa6114a70": [
+    {
+      "repository": "https://github.com/FossifyOrg/Paint.git",
+      "apk_url": "https://github.com/FossifyOrg/Paint/releases/download/1.3.0/paint-6-foss-release.apk",
+      "appid": "org.fossify.paint",
+      "version_code": 6,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "1bfcc9b1908805b56db36b54d74a95be85af295f",
+      "timestamp": 1765911273,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "76bd2675848c78b54c341c68f68d9818281a4970deb738671dafda88eb163e17": [
     {
       "repository": "https://github.com/FossifyOrg/Phone.git",
@@ -69261,6 +69513,20 @@
       "tag": "1.9.0",
       "commit": "fa46abe7b6f0c265de88ab6221c92709fb896832",
       "timestamp": 1762788546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c2da65cc191067220c88f9b4034a3d4ddab4705021df782f1196f9a82c03364a": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.10.0/phone-19-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 19,
+      "version_name": "1.10.0",
+      "tag": "1.10.0",
+      "commit": "01ae69d6d040ed7e9bfa4c2c9d4f482fc2887b42",
+      "timestamp": 1765911782,
       "reproducible": true,
       "error": null
     }
@@ -69513,6 +69779,20 @@
       "tag": "1.5.1",
       "commit": "6ef2b66d0777efb87d420dd1ce4773d8c3ffab53",
       "timestamp": 1762788891,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a402357b273af7107ff0894a379482efb48094303a9fc2b01ca64428195fb6a3": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.6.0/voicerecorder-16-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 16,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "8de303d057ac79f1774726da08382ac01b5c7a8b",
+      "timestamp": 1765928530,
       "reproducible": true,
       "error": null
     }
@@ -77523,6 +77803,20 @@
       "error": null
     }
   ],
+  "461055cde1994398aa85f7a51fc3e453a651a35aa233563c2bbf5cfd3227d0b8": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.24.46/WebviewKiosk_v0.24.46.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 104,
+      "version_name": "0.24.46",
+      "tag": "v0.24.46",
+      "commit": "240846f29e9afd52e6305d94e74be40f11d21ce6",
+      "timestamp": 1765900965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8797553a10932e04c5dd7a97075e247ec4c9150534806f8486c44d4d042b2943": [
     {
       "repository": "https://github.com/v4lpt/TPC.git",
@@ -78345,6 +78639,20 @@
       "tag": "2.2.0",
       "commit": "fc85d078bcb84accd1f66bf8e968c6686a356abb",
       "timestamp": 1764704355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a96666f5dbaf41a828051ad6640d92ded8f8dde18a6339a1991a663eb71ee01c": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.2.1/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 53,
+      "version_name": "2.2.1",
+      "tag": "2.2.1",
+      "commit": "987f6946e3974a21eb6ff55014f4a769eda1111b",
+      "timestamp": 1765901287,
       "reproducible": true,
       "error": null
     }
