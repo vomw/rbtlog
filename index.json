@@ -36423,6 +36423,20 @@
       "error": null
     }
   ],
+  "6c2e9237cbdfaccb7b0f8bee2e492a4152f3e1bae194097ce50d57fe472fee61": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/5G.git",
+      "apk_url": "https://github.com/OpenAppsLabs/5G/releases/download/v1.0.0/app-release.apk",
+      "appid": "com.openappslabs.fiveg",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "1b9f4afab3958c05b3b0846444027ffa02984ee9",
+      "timestamp": 1765970767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "81f2bb6ce251753b6bc2c70b696dbc30db0d041b8f86fc74722994252b4d5bf2": [
     {
       "repository": "https://github.com/OpenAppsLabs/Jotter.git",
@@ -58079,6 +58093,20 @@
       "tag": "v.1.1",
       "commit": "2a0a1cc662de4c001606e43646dae5fed6ba1c1c",
       "timestamp": 1721483958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
+    {
+      "repository": "https://github.com/hxreborn/remember-my-sort.git",
+      "apk_url": "https://github.com/hxreborn/remember-my-sort/releases/download/v1.2.2/app-release.apk",
+      "appid": "eu.hxreborn.remembermysort",
+      "version_code": 122,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "07c537c4e607eca53a438667d60c8382b61356b1",
+      "timestamp": 1765976736,
       "reproducible": true,
       "error": null
     }
