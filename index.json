@@ -6831,6 +6831,20 @@
       "error": null
     }
   ],
+  "f0ac720e54678e78e7f6ad0886259875430bc85fdb2a2b9417fa634155c9008d": [
+    {
+      "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
+      "apk_url": "https://github.com/Moustachauve/WLED-Android/releases/download/v6.0.0/wled-6.0.0-46.apk",
+      "appid": "ca.cgagnier.wlednativeandroid",
+      "version_code": 46,
+      "version_name": "6.0.0",
+      "tag": "v6.0.0",
+      "commit": "ecc817a06c371c34e731cd641cebb92defb7ead3",
+      "timestamp": 1765941190,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf0f3ad4c5c75e023cc692403ffa54702649b1c89267e30ce9525dfb38263bf": [
     {
       "repository": "https://github.com/ClassicDIY/ClassicMonitor.git",
@@ -20825,6 +20839,34 @@
       "tag": "v2.0.0",
       "commit": "ae8bdc3f915a485fce8963e164e7e5ba050a23a4",
       "timestamp": 1759002239,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bfd9e5e7313b12e05ad21426b0d83df9393088b56de9954035e281eb7df49748": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v3.0.1/FadCam-v3.0.1-armeabi-v7a.apk",
+      "appid": "com.fadcam",
+      "version_code": 31,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "fc66919b7b6d5055d12359751ec16f8f0f83491e",
+      "timestamp": 1765938903,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b51e7002591f758e1b86e63bb6a472c1efe48b015190249745e2bb16a34f1f1": [
+    {
+      "repository": "https://github.com/anonfaded/FadCam.git",
+      "apk_url": "https://github.com/anonfaded/FadCam/releases/download/v3.0.1/FadCam-v3.0.1-arm64-v8a.apk",
+      "appid": "com.fadcam",
+      "version_code": 31,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "fc66919b7b6d5055d12359751ec16f8f0f83491e",
+      "timestamp": 1765939308,
       "reproducible": true,
       "error": null
     }
@@ -51964,6 +52006,20 @@
       "commit": "5643b4318572ffda7915e88115fceb6bb76145b8",
       "timestamp": 1765882289,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "1b41cde065e07957c011d2b471af2ed624b1fe97c9a61d19f15700bf12a12192": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.2.2/MedicalCalendarLog-1.2.2-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 27,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "ca6d69339e85651bf5ac2df0dca621ff936c5a20",
+      "timestamp": 1765940113,
+      "reproducible": true,
       "error": null
     }
   ],
