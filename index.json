@@ -1889,6 +1889,20 @@
       "error": null
     }
   ],
+  "f24c13d1cd57b82c403f4d161d1020d69684a8cd656e0a55307f80a09e2323bf": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.9.0/Podcini.X_release_free_9.9.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 217,
+      "version_name": "9.9.0",
+      "tag": "9.9.0",
+      "commit": "233bbd2191113f7ec5920a1fec9ca5d9e17027e6",
+      "timestamp": 1765982977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -13801,6 +13815,20 @@
       "error": null
     }
   ],
+  "b669db8af9a5fa9a419074ffe577e4966a5d293607e040b8e7df09c7aa52ab8d": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.12.1181-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1181,
+      "version_name": "2025.12.1181-dev",
+      "tag": "2025.12.1181-dev",
+      "commit": "dee2641fb0bdfe0459e361f467d70bd82e985671",
+      "timestamp": 1765983351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -19537,6 +19565,20 @@
       "tag": "v1.2.3",
       "commit": "e6aa033e7dee744a95df19b9b302de1429218a20",
       "timestamp": 1765282009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8ed577291bb43a09711e4fa10689caae22b9a687d1efb4122d1c1dcceac42b4c": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.2.4/MyQuran-v1.2.4-arm64-v8a-83-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 83,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "ae589a031cf4914153df88f4da2e6dc333e4424c",
+      "timestamp": 1765999356,
       "reproducible": true,
       "error": null
     }
@@ -28379,6 +28421,20 @@
       "error": null
     }
   ],
+  "006349ac608cac494d1f8103f1377f98a5ae325780d3223d9fd7e812fa27159a": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.6.0/Tyr-1.6.0-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 20,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "46629ba888b54a2576db4fc1538c3f2b507952a1",
+      "timestamp": 1765983774,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -34535,6 +34591,20 @@
       "error": null
     }
   ],
+  "141a48afacbc0c1a3c4eb6a0c0ab271516037fcd3a07f0114e16bdb4be69e486": [
+    {
+      "repository": "https://github.com/dead8309/Kizzy.git",
+      "apk_url": "https://github.com/dead8309/Kizzy/releases/download/6.2/app-release.apk",
+      "appid": "com.my.kizzy",
+      "version_code": 14,
+      "version_name": "6.2",
+      "tag": "6.2",
+      "commit": "c59f81b43e9b6ae9c14dd8926a4d5753fb6eedd9",
+      "timestamp": 1766003958,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "20021d120e970e46ffc1a8bb03fb9fb02861bdb59f650958b32a2a532268c2a2": [
     {
       "repository": "https://github.com/tuhin733/SwiftNotes.git",
@@ -36461,6 +36531,20 @@
       "tag": "v1.2.2",
       "commit": "75a31daf8704d214f76d1065411431e02278c11b",
       "timestamp": 1765029589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "921c7838f44c1826bea85f5b084903828c4035b4669e5d9cbdac2e508f83f025": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v1.2.3/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 6,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "202c1aa939cf2e8b0a18a40c094214ac8ce3d395",
+      "timestamp": 1765985022,
       "reproducible": true,
       "error": null
     }
@@ -46359,6 +46443,34 @@
       "error": null
     }
   ],
+  "b7c51a94744cbcbf279e6718dd3b45c4b980f14b0e11e13f799fe1cbaf73dc45": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.19.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31900,
+      "version_name": "3.19.0",
+      "tag": "v3.19.0",
+      "commit": "166fe2b9cc7c11eea8702fa421c6634a73be6d4d",
+      "timestamp": 1766000434,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a0d1fcadd7d7ffc10552905b51d123be05987d0e0c52634bfcb38acdea9c72de": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.19.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 31900,
+      "version_name": "3.19.0",
+      "tag": "v3.19.0",
+      "commit": "166fe2b9cc7c11eea8702fa421c6634a73be6d4d",
+      "timestamp": 1766000633,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -47027,6 +47139,20 @@
       "tag": "v4.0.8",
       "commit": "b15168edd36b098b411753cd0236970489cd8d70",
       "timestamp": 1764185709,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "630f05fdc628c14a7549d85263ba64a92fcba440f48b05cfe8717a56dc3bd244": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v4.0.9/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 17,
+      "version_name": "4.0.9",
+      "tag": "v4.0.9",
+      "commit": "656c0a6e48500465f53755e851db7ede59f21eaf",
+      "timestamp": 1765985330,
       "reproducible": true,
       "error": null
     }
@@ -49671,6 +49797,20 @@
       "error": null
     }
   ],
+  "e050de3b273e7b339ab2e7946bbf5b880849b11db7f60a8c9b44b71daeb0f23b": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.61/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 61,
+      "version_name": "0.1.61",
+      "tag": "0.1.61",
+      "commit": "2f725c01e492f91cae2164ac377d7190fd87925c",
+      "timestamp": 1766000834,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -50493,6 +50633,20 @@
       "tag": "v2.4.0",
       "commit": "8a0838626bbff3f999e6f1c0c623ec036b58b4a5",
       "timestamp": 1752243606,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "14445e3423e0285fa11f70c21611034ea6a78e85382b1e4d60ff17311696d88e": [
+    {
+      "repository": "https://github.com/scheibler/TactileClock.git",
+      "apk_url": "https://github.com/scheibler/TactileClock/releases/download/v2.5.0/TactileClock_v2.5.0.apk",
+      "appid": "de.eric_scheibler.tactileclock",
+      "version_code": 13,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "872e74ce117c37aa63f4d7b06a880914ee910ef3",
+      "timestamp": 1765985915,
       "reproducible": true,
       "error": null
     }
@@ -52037,6 +52191,20 @@
       "error": null
     }
   ],
+  "069ed2f90a9af90e1996a926c19c62753daadcb31eb0e627c686d940332554d9": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.2.5/MedicalCalendarLog-1.2.5-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 30,
+      "version_name": "1.2.5",
+      "tag": "1.2.5",
+      "commit": "56cf8ab65d8382e057abfdeb1ec07d5a77151e05",
+      "timestamp": 1765986056,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "97351a70202de6e6d3f07ea2e671ccccd18bb1653462098522ef93adfcb34a34": [
     {
       "repository": "https://github.com/PaulWoitaschek/Voice.git",
@@ -53503,6 +53671,20 @@
       "tag": "v1.9.6",
       "commit": "b923e5a4a9b83e53b3a2169fdc05bda0b0a843a5",
       "timestamp": 1765726117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81fea5cd9ee3f03b49e7d75ae492672b2ddea15fdda2f11a6f2646d6d69a1bf6": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.8/app-arm64-v8a-release-unsigned-signed.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090082,
+      "version_name": "1.9.8",
+      "tag": "v1.9.8",
+      "commit": "ddfdd68579352d07e8ea9d27a029a13a6ba394a2",
+      "timestamp": 1765990052,
       "reproducible": true,
       "error": null
     }
@@ -56931,6 +57113,20 @@
       "tag": "v1.5.6-rc0",
       "commit": "86acd57a380e28b14ef82c098afd7dca0af3d9e7",
       "timestamp": 1765294976,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fb08abbf69224c35e2b779b805fed1313a37eee8a974c0e5790ee778da9b38c2": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.5.7-rc0/eu.darken.sdmse-v1.5.7-rc0-10507000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10507000,
+      "version_name": "1.5.7-rc0",
+      "tag": "v1.5.7-rc0",
+      "commit": "f03c62632a1ea8697be032d9ee4cd0092f3e8a8b",
+      "timestamp": 1765986317,
       "reproducible": true,
       "error": null
     }
@@ -60638,6 +60834,20 @@
       "commit": "d84370379385f28ca61521ea619e4886c5c8ba88",
       "timestamp": 1764949982,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "d699341f0088eeb22d24329a96c2437e25b46675495877305ece693e2265d759": [
+    {
+      "repository": "https://github.com/dorumrr/happytaxes.git",
+      "apk_url": "https://github.com/dorumrr/happytaxes/releases/download/v1.0.7/happytaxes-v1.0.7.apk",
+      "appid": "io.github.dorumrr.happytaxes",
+      "version_code": 8,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "bb5f50cdf378058f5f82856caca78c21cbfa840e",
+      "timestamp": 1766001357,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -69905,6 +70115,20 @@
       "tag": "v1.2.1",
       "commit": "a3a71f8574222f805fa0667cf4701cd786a3c525",
       "timestamp": 1765654281,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "30886cdd7783dbbc74e4601aa8ca41109433e64405cf2cf8a9646a804e7e50f3": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.2.2/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 4,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "e986b9d9773f5346753e835ea4204304c27f57e8",
+      "timestamp": 1766001831,
       "reproducible": true,
       "error": null
     }
