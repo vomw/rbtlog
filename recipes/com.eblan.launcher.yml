@@ -742,3 +742,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.2.8-alpha
+    apks:
+      - apk_pattern: EblanLauncher-v.*\.apk
+        apk_url: https://github.com/JackEblan/EblanLauncher/releases/download/v0.2.8-alpha/EblanLauncher-v0.2.8-alpha.apk
+        build:
+          - mkdir -p ~/.gradle
+          - cp .github/ci-gradle.properties ~/.gradle/gradle.properties
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=b46012f7af0fdd92ab943483dfbfd4965d2003fe
+          - for _ in {1..1}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus: 4
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/EblanLauncher/EblanLauncher
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
