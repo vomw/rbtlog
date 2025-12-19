@@ -3,6 +3,7 @@ repository: https://github.com/libre-tube/LibreTube.git
 updates: releases
 notes:
   - since v0.27.0, all builds are byte-identical. So for the next releases, all but the universal one were removed, see https://github.com/libre-tube/LibreTube/issues/6455#issuecomment-2613442439
+  - after v0.29.1, support for per-ABI build will be removed entirely (see https://github.com/libre-tube/LibreTube/pull/8002) and the APK renamed. Check if we can drop the sed command then as well.
 versions:
   - tag: v0.27.0
     apks:

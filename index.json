@@ -8469,6 +8469,20 @@
       "error": null
     }
   ],
+  "970d5b54551398f296274e39b42b9b5a9e18a4c199d795d778b15463c052a209": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.2/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 25,
+      "version_name": "2.5.2",
+      "tag": "2.5.2",
+      "commit": "beff4eba81ec67aedbd5911aad16e0dc9ccaaa76",
+      "timestamp": 1766155824,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmp1swwc7w2/outputs:/outputs', '--volume', '/tmp/tmp1swwc7w2/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/adamff-dev/spam-call-blocker-app.git', '--env', 'APP_TAG=2.5.2', '--env', 'APP_COMMIT=beff4eba81ec67aedbd5911aad16e0dc9ccaaa76', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -16569,6 +16583,20 @@
       "tag": "v0.10.0",
       "commit": "501f08ccb3274e08cc4b0f39a32acac9e81dca42",
       "timestamp": 1762826806,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "115a5df8e5f9aecbb4c7e65b8b8ea5053fb64e5111b3116e01bae803426d138c": [
+    {
+      "repository": "https://github.com/DD3Boh/OuterTune.git",
+      "apk_url": "https://github.com/OuterTune/OuterTune/releases/download/v0.10.1/OuterTune-0.10.1-core-release-71.apk",
+      "appid": "com.dd3boh.outertune",
+      "version_code": 71,
+      "version_name": "0.10.1",
+      "tag": "v0.10.1",
+      "commit": "dd399658b39dc44a6a82c46ee295e77a5a0e3d22",
+      "timestamp": 1766155856,
       "reproducible": true,
       "error": null
     }
@@ -44595,6 +44623,20 @@
       "error": null
     }
   ],
+  "2ef72cf09ef2826f37109ee1c88e61937069ee1490c3b33bc9376a6d259e2426": [
+    {
+      "repository": "https://github.com/sosauce/CuteMusic.git",
+      "apk_url": "https://github.com/sosauce/CuteMusic/releases/download/v3.1.4/CM_3.1.4.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 40003,
+      "version_name": "3.1.4",
+      "tag": "v3.1.4",
+      "commit": "3a06ebfde8a9302449fc1d244210c5a237b998d7",
+      "timestamp": 1766169967,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5257d93e46852565175ae0cf413e81cf031ad28f69b4991e5b4e852362c3b4c": [
     {
       "repository": "https://github.com/albu-razvan/Stario.git",
@@ -48507,6 +48549,34 @@
       "tag": "4.1.8",
       "commit": "85a27f48a292bf76b887c0900ee78b04eaea088b",
       "timestamp": 1763219217,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f3074094539702ad6fb4476abc3d0f8cfa85abf4c810d14715dafd63c1fbc8b7": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/wgtunnel/releases/download/4.2.0/wgtunnel-fdroid-v4.2.0-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 40200,
+      "version_name": "4.2.0",
+      "tag": "4.2.0",
+      "commit": "394188b55ffd801976be1499e735ad791f01ae62",
+      "timestamp": 1766157172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b6da86837eca6575e49fd97515492f1842772c0aded074ec17b9162f6a6a4f64": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/wgtunnel/releases/download/4.2.1/wgtunnel-fdroid-v4.2.1-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 40201,
+      "version_name": "4.2.1",
+      "tag": "4.2.1",
+      "commit": "16d0642a51115309d1d9761e391d93b0056bdcab",
+      "timestamp": 1766172219,
       "reproducible": true,
       "error": null
     }
@@ -53825,6 +53895,20 @@
       "tag": "v1.9.8",
       "commit": "ddfdd68579352d07e8ea9d27a029a13a6ba394a2",
       "timestamp": 1765990052,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbeb42aef142e7d0c7e12d5a23abeae51a4abdf39e16ac3beaa56084067de89d": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.9/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090092,
+      "version_name": "1.9.9",
+      "tag": "v1.9.9",
+      "commit": "e6d7a5d7e899299ae38ea6c0f265424cc597fc62",
+      "timestamp": 1766157742,
       "reproducible": true,
       "error": null
     }
@@ -61201,6 +61285,20 @@
       "error": null
     }
   ],
+  "317467aface9a75fdc95f1b88b0f558c348c5fdd4c36917a5e3cdee55f5e31de": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.0.9/PrivacyFlip-v2.0.9-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 20,
+      "version_name": "2.0.9",
+      "tag": "v2.0.9",
+      "commit": "f727053e83a0bdf31a2131d04f58d7325a02eef7",
+      "timestamp": 1766158846,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -63703,6 +63801,20 @@
       "tag": "v1.0.14+13",
       "commit": "35957262de413a7e5812ea64578a254efd7e6ecf",
       "timestamp": 1765728052,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1891076b0baa13a330861ecc5643510b1cfa883349578d4e3e42e68e72257c1c": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.15%2B14/rsm_v1.0.15%2B14_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2014,
+      "version_name": "1.0.15",
+      "tag": "v1.0.15+14",
+      "commit": "3a4d94de2cb0f9fa92ba64a303ce4c4172c2f737",
+      "timestamp": 1766176446,
       "reproducible": true,
       "error": null
     }
