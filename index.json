@@ -1917,6 +1917,34 @@
       "error": null
     }
   ],
+  "d93ee46c71e9e972e4c59b455659d36bfacead43fd5e72edf791f6900dc9cdb9": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.10.1/Podcini.X_release_free_9.10.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 220,
+      "version_name": "9.10.1",
+      "tag": "9.10.1",
+      "commit": "57f3ab9a8ce2c7b8517e7d6cc68922675b781aa7",
+      "timestamp": 1766242165,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d62f5a07f23088a251b9576d7450766ef29da5a9a4f791982d6332baa2892f4f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.10.2/Podcini.X_release_free_9.10.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 221,
+      "version_name": "9.10.2",
+      "tag": "9.10.2",
+      "commit": "2575be138dac8e24208b3b791deb363ae2bce972",
+      "timestamp": 1766258552,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6873,6 +6901,20 @@
       "error": null
     }
   ],
+  "fd9aa175347b3e843c82a802b1fc6b1b82aa94ebd088c0272a3768f881fcc21e": [
+    {
+      "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
+      "apk_url": "https://github.com/Moustachauve/WLED-Android/releases/download/v6.0.1/wled-6.0.1-47.apk",
+      "appid": "ca.cgagnier.wlednativeandroid",
+      "version_code": 47,
+      "version_name": "6.0.1",
+      "tag": "v6.0.1",
+      "commit": "52b1e643e1beac9780c6aff604794344e02c9e83",
+      "timestamp": 1766242555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf0f3ad4c5c75e023cc692403ffa54702649b1c89267e30ce9525dfb38263bf": [
     {
       "repository": "https://github.com/ClassicDIY/ClassicMonitor.git",
@@ -8091,6 +8133,20 @@
       "error": null
     }
   ],
+  "025112c32dd1151da4437ba89bc36ed3164b4193f9d991f2c02976cb23462132": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.7.291.812-stable/Rhythm-3.7.291.812-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 37291812,
+      "version_name": "3.7.291.812",
+      "tag": "v3.7.291.812-stable",
+      "commit": "604a2316b0e2e67ba72b79a612178448fe13ee09",
+      "timestamp": 1766258988,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -8481,6 +8537,20 @@
       "timestamp": 1766155824,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmp1swwc7w2/outputs:/outputs', '--volume', '/tmp/tmp1swwc7w2/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/adamff-dev/spam-call-blocker-app.git', '--env', 'APP_TAG=2.5.2', '--env', 'APP_COMMIT=beff4eba81ec67aedbd5911aad16e0dc9ccaaa76', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
+    }
+  ],
+  "3a796305fc0db3cce908e03f6c01ef4117f25a11efa19cd41b609b3683fb5b6a": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.3/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 25,
+      "version_name": "2.5.3",
+      "tag": "2.5.3",
+      "commit": "f718c156c4c150e4d534f8ec34c433aca17878c6",
+      "timestamp": 1766242975,
+      "reproducible": true,
+      "error": null
     }
   ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
@@ -48483,6 +48553,20 @@
       "error": null
     }
   ],
+  "08718f224b3caf0ff0c4505cd9c0b3aa1c0fd17073358de2ac3184bed3093d30": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.11/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2051,
+      "version_name": "1.5.11",
+      "tag": "v1.5.11",
+      "commit": "aa6aa5cce91bb67920bea8faeda37cc578f8d949",
+      "timestamp": 1766259531,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "75000ff6d8f3898c8f3eaf1945cfc1d26bf0d9ef6beb844beaab07c39a47e345": [
     {
       "repository": "https://github.com/wgtunnel/wgtunnel.git",
@@ -50791,6 +50875,20 @@
       "error": null
     }
   ],
+  "6b0cce850b34c438a832b1ccace98ebfc8a3e1b74d8e7da6e727da7697d2fe79": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.3/RecurringExpenseTracker_0.19.3.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 55,
+      "version_name": "0.19.3",
+      "tag": "v0.19.3",
+      "commit": "a88720c646153be24f905fe97db07cd40f6448aa",
+      "timestamp": 1766243206,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -51977,6 +52075,20 @@
       "tag": "v1.3.0",
       "commit": "b5bf6610043ecd21b0d818d5f689c055e6cf7422",
       "timestamp": 1746368984,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f791be4391159d3d3d13b4719279a5f557b69425685e01bc3178048c17aa70b5": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.0.0/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20000,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "58972bbd877b1e771a8ccf922d6a58eb5a1ab045",
+      "timestamp": 1766243637,
       "reproducible": true,
       "error": null
     }
@@ -70735,6 +70847,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "5bc2154bcbfc741f6a0a8924f2c75cff1783d30ce2d92d6608ff4d2125655a65": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.8.3/floccus-build-v5.8.3.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5008003,
+      "version_name": "5.8.3",
+      "tag": "v5.8.3",
+      "commit": "e0bf7cf68a24ed09cdd8c6cf36bc81e039d3ccb8",
+      "timestamp": 1766244128,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -74793,6 +74919,20 @@
       "error": null
     }
   ],
+  "21ba5ea33c14a970aa25c1fd16820169e2cf7d260ae6d3fb42f42c31cef54643": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.11.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 30,
+      "version_name": "5.11.0",
+      "tag": "v5.11.0",
+      "commit": "f5844b6ac10b4c5e27e0d86afbcaf51438e51f46",
+      "timestamp": 1766244475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -78443,6 +78583,20 @@
       "tag": "v0.25.0",
       "commit": "46868134c1ec46ec0d800af4b8ffa18defec2467",
       "timestamp": 1766071821,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e1cc03c40d05f8f672f94b99b7cbf598ca8ffbfb0dc4ff071d0efd00acdf1be": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.25.1/WebviewKiosk_v0.25.1.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 106,
+      "version_name": "0.25.1",
+      "tag": "v0.25.1",
+      "commit": "0e326a2857a99942cf9345e2777218460e7dfffc",
+      "timestamp": 1766244843,
       "reproducible": true,
       "error": null
     }
