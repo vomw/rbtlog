@@ -6,6 +6,7 @@ notes:
   - per-ABI builds since v0.2.11
   - JARs MediaServiceCore/SharedModules/appupdatechecker[2]/libs/melautils.jar ffmpeg-kit/ffmpeg-kit-release.aar
   - RB broken since v0.2.20, see https://github.com/maxrave-dev/SimpMusic/issues/1094#issuecomment-3241623465
+  - v1.0.1 had its FOSS APKs withdrawn due to crash-at-start, see https://github.com/maxrave-dev/SimpMusic/issues/1539
 versions:
   - tag: v0.2.3-hf2
     apks:

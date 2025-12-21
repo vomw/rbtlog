@@ -1945,6 +1945,20 @@
       "error": null
     }
   ],
+  "d54db63c451372a523440afba0d88b5031e179bf39d4092c49b86903dbcc19e8": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/9.11.0/Podcini.X_release_free_9.11.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 222,
+      "version_name": "9.11.0",
+      "tag": "9.11.0",
+      "commit": "b933efbd136067144b1f461f8cb82e412b22df7b",
+      "timestamp": 1766328476,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5501,6 +5515,20 @@
       "error": null
     }
   ],
+  "539df17098096f458df8af3aa558e07a6de0618a6ff44f61ae07302ff8ac714f": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.007/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211007,
+      "version_name": "2.11.007",
+      "tag": "2.11.007",
+      "commit": "d89bf0f863d0afbbab30f2e173863ebe27a13988",
+      "timestamp": 1766328876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6ba3d752ea6010d4f269136b2237615d81c7eea051f4ff15a092e919dbf9272": [
     {
       "repository": "https://gitlab.com/Askanimus/qr-lager.git",
@@ -6253,6 +6281,20 @@
       "tag": "20",
       "commit": "4da74e87ca650c13613c4b42ff7b78321309efda",
       "timestamp": 1743086836,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e8223ed5350c023cefb8e3fcbb1f2215ec06d488155a7c073a839716ea738c5": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/21/biz.binarysolutions.healthybatterycharging-2.1-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 21,
+      "version_name": "2.1",
+      "tag": "21",
+      "commit": "18709b09bb152830b64b66fbeb0f73314f436ebf",
+      "timestamp": 1766345328,
       "reproducible": true,
       "error": null
     }
@@ -8143,6 +8185,20 @@
       "tag": "v3.7.291.812-stable",
       "commit": "604a2316b0e2e67ba72b79a612178448fe13ee09",
       "timestamp": 1766258988,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1bce63496ac0bab5d5af0b1e2c9156a3737f686c6b174959dddd677bab5ad01e": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.8.292.815-stable/Rhythm-3.8.292.815-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 38292815,
+      "version_name": "3.8.292.815",
+      "tag": "v3.8.292.815-stable",
+      "commit": "097a22e901d86b7ab6408d73cab4a68bad2e5f1a",
+      "timestamp": 1766329107,
       "reproducible": true,
       "error": null
     }
@@ -17315,6 +17371,20 @@
       "error": null
     }
   ],
+  "20ea131a2f44d52131f27392eac9212217cdc89e9b877b831384a4d77e3d04bc": [
+    {
+      "repository": "https://github.com/DerGoogler/MMRL.git",
+      "apk_url": "https://github.com/MMRLApp/MMRL/releases/download/v34265/MMRL-v34265-release-official.apk",
+      "appid": "com.dergoogler.mmrl",
+      "version_code": 34265,
+      "version_name": "v34265-release",
+      "tag": "v34265",
+      "commit": "120f7651358b048d9e89870df3ed83c40603d097",
+      "timestamp": 1766329543,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3da96d0230b8aac4659eb7bfefc997376f360b967d303c0c961cb89c9b4a2866": [
     {
       "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
@@ -20139,6 +20209,20 @@
       "tag": "v0.2.8-alpha",
       "commit": "2ad4ad9612e882924ad399f5ee55ea53c0e209cc",
       "timestamp": 1766069843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dff5e3f75a411f507e89122f804f72a835ce0ad56134694b36c6a6b11bca63e4": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.2.9-alpha/EblanLauncher-v0.2.9-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 29,
+      "version_name": "0.2.9-alpha",
+      "tag": "v0.2.9-alpha",
+      "commit": "fc88c1564633cd17c87fb10517e5efed13bd2eca",
+      "timestamp": 1766330308,
       "reproducible": true,
       "error": null
     }
@@ -23189,6 +23273,20 @@
       "tag": "v1.21.3",
       "commit": "19bd468460d930575a30317f80c9540152070199",
       "timestamp": 1765724619,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9bca17f397c920acbae3935bd86acc7aab7d92ae3d1fccea1cf76c5f1dba2d77": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.4/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 144,
+      "version_name": "1.21.4",
+      "tag": "v1.21.4",
+      "commit": "d0b100b995eb781685d83e09c701c7c1c37800a4",
+      "timestamp": 1766330856,
       "reproducible": true,
       "error": null
     }
@@ -27355,6 +27453,20 @@
       "tag": "9.7.1",
       "commit": "5ceb8455561382bee0c7b39481a0e1daa77ac09d",
       "timestamp": 1765481382,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4e2dc11665984105c33c1d4d025dab1e8ca0637a2620a7cdc63755d65805189b": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.7.2/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2151,
+      "version_name": "9.7.2",
+      "tag": "9.7.2",
+      "commit": "c0c529492fb00b9148329a46c61e592ab7b7737b",
+      "timestamp": 1766331160,
       "reproducible": true,
       "error": null
     }
@@ -33917,6 +34029,20 @@
       "tag": "3.55.2",
       "commit": "1fbd1f465071db3d1da14a632d97d17f8660ee66",
       "timestamp": 1764603956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d167b5e2fd9f62e184e35d455c7568fa12626875bfa5934f69a1dff67a1a0c22": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/michaldrabik/showly/releases/download/3.56.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 920,
+      "version_name": "3.56.0",
+      "tag": "3.56.0",
+      "commit": "46c6775b11f16241c74cc2baa7cbe0522a61378a",
+      "timestamp": 1766331677,
       "reproducible": true,
       "error": null
     }
@@ -46916,6 +47042,20 @@
       "commit": "823dad5ae0a0460ef7269465ca81114fbbc2ba8d",
       "timestamp": 1758896810,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "5320f099c71f481f6e82a80f27ed3986b39c43342fb18c8d260d02d98b6b9333": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1702/thor-v1.70.2-foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1702,
+      "version_name": "1.70.2-foss",
+      "tag": "Thor_v1702",
+      "commit": "2afe3c6cabccab9a5401331bc602d62f78f78f5f",
+      "timestamp": 1766320409,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -60419,6 +60559,20 @@
       "error": null
     }
   ],
+  "d8087a51bb467c7fed872695b85558b8b986c2969d8cc40b0997d5d454ce3ca1": [
+    {
+      "repository": "https://github.com/auag0/HideMockLocation.git",
+      "apk_url": "https://github.com/auag0/HideMockLocation/releases/download/v1.2.2/app-release.apk",
+      "appid": "io.github.auag0.hidemocklocation",
+      "version_code": 5,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "34a72ff6bdb484a98114ebcc1d4aac006710f954",
+      "timestamp": 1766333220,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a72ece58d97e8dd2130db1fb4d24f5a7050065986b58f63f9405ff87c3a0da56": [
     {
       "repository": "https://github.com/stevep99/keyboard-layout-companion.git",
@@ -67865,6 +68019,20 @@
       "error": null
     }
   ],
+  "1c2ca02d5d7e857c70e75ae705f2119541d878db5f2e0624237ece9c702d0cfe": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v1.2.3/DragonLauncher-v1.2.3.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 17,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "4a52e6af12d66bdda6ab01d7db86b995dcf961cc",
+      "timestamp": 1766332291,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -70549,6 +70717,20 @@
       "tag": "v1.2.2",
       "commit": "e986b9d9773f5346753e835ea4204304c27f57e8",
       "timestamp": 1766001831,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "02430dff4e2f262cb6dcb714530d6ae98dbdaa0ea527dee38b02b5bd4a6799c4": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.3.0/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 5,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "036c8886719791ad7c0f174518bcfc838e2b3874",
+      "timestamp": 1766332572,
       "reproducible": true,
       "error": null
     }
