@@ -3793,6 +3793,20 @@
       "error": null
     }
   ],
+  "051e3020c74532d2d46b7ff3bde897358c78bc1a6c51769f7e840b3ce543e6ab": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.2.8/MultiLauncher-1.11.2.8-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110208,
+      "version_name": "1.11.2 build 8",
+      "tag": "1.11.2.8",
+      "commit": "c1e9e4486100db49f5a7dca53b99a10dc38abcfc",
+      "timestamp": 1766414887,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -5525,6 +5539,20 @@
       "tag": "2.11.007",
       "commit": "d89bf0f863d0afbbab30f2e173863ebe27a13988",
       "timestamp": 1766328876,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "18a13f126f03620054b9e90281e8c54f13706e0376efd203f785f4b8b86b5d7c": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.008/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211008,
+      "version_name": "2.11.008",
+      "tag": "2.11.008",
+      "commit": "8f6d91872d19371439190c14ec207259a7f2a3e0",
+      "timestamp": 1766415359,
       "reproducible": true,
       "error": null
     }
@@ -19835,6 +19863,20 @@
       "error": null
     }
   ],
+  "5c1c6f55521583eb17756b29e8e085d57e828229217f528643b5fcc29ce81ab1": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.2.5/MyQuran-v1.2.5-arm64-v8a-93-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 93,
+      "version_name": "1.2.5",
+      "tag": "v1.2.5",
+      "commit": "61d9a25bb0ea0c30d1bad5560e323d2e8c9b7772",
+      "timestamp": 1766415614,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -25591,6 +25633,20 @@
       "tag": "v3.5.0",
       "commit": "4a3a214324e83a5ad505b256337e5d9b3d6bce00",
       "timestamp": 1764617641,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "af168ee3c018a0b0a0dcc1e59f21915e38fce86976ae592d7b5446905eef4f8b": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.5.2/DroidPad-v3.5.2.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 36,
+      "version_name": "3.5.2",
+      "tag": "v3.5.2",
+      "commit": "e45623ff83a93f09f6f5ff42d1f821faf4f59c1e",
+      "timestamp": 1766416067,
       "reproducible": true,
       "error": null
     }
@@ -46247,6 +46303,20 @@
       "error": null
     }
   ],
+  "139825fc269486033dabc4c539319e1828c7834f15b1f8147e5410609c8fba4a": [
+    {
+      "repository": "https://github.com/TrianguloY/URLCheck.git",
+      "apk_url": "https://github.com/TrianguloY/URLCheck/releases/download/v3.4.1/URLCheck-3.4.1.apk",
+      "appid": "com.trianguloy.urlchecker",
+      "version_code": 46,
+      "version_name": "3.4.1",
+      "tag": "v3.4.1",
+      "commit": "e8627ffa28ee417a0f3c5125589e56103ed03315",
+      "timestamp": 1766431367,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1cc73d984dc930003214017145f7edc41b21e7aee8237e94723736ed95f0a262": [
     {
       "repository": "https://github.com/trustdecision/trustdevice-android.git",
@@ -48759,6 +48829,20 @@
       "tag": "v1.5.11",
       "commit": "aa6aa5cce91bb67920bea8faeda37cc578f8d949",
       "timestamp": 1766259531,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "255d32d61b8c295b571640a5bf5aa1b0bc1d994b96fabb6bd63ed9372e65b80a": [
+    {
+      "repository": "https://github.com/darkmoonight/Zest.git",
+      "apk_url": "https://github.com/darkmoonight/Zest/releases/download/v1.5.12/zest-arm64-v8a-release.apk",
+      "appid": "com.yoshi.todark",
+      "version_code": 2052,
+      "version_name": "1.5.12",
+      "tag": "v1.5.12",
+      "commit": "5de230df2df6f3a796e5ceea5e57d7713e865cbd",
+      "timestamp": 1766416490,
       "reproducible": true,
       "error": null
     }
@@ -52849,6 +52933,20 @@
       "error": null
     }
   ],
+  "f8e8464c3e5ab66bba14896b77c6d78a0dc2bbdcf796cc934cd24c4a612af7aa": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/25.12.1-5312001/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5312001,
+      "version_name": "25.12.1",
+      "tag": "25.12.1-5312001",
+      "commit": "05554b74bb3c937066e152073332f27ab4d3fb84",
+      "timestamp": 1766417013,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -56903,6 +57001,20 @@
       "tag": "v0.5.3-rc0",
       "commit": "b2616cd29c92a832234ea931281a72aeb07e2b24",
       "timestamp": 1755200913,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbc0792a1b22d9ef83b8c5c47e3b050174589f2b458fbd90fe8f225dd4633589": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.5.4-rc0/eu.darken.apl-v0.5.4-rc0-504000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 504000,
+      "version_name": "0.5.4-rc0",
+      "tag": "v0.5.4-rc0",
+      "commit": "c0d6aba6e8214d4658b77bca55e3826bdb38b500",
+      "timestamp": 1766417643,
       "reproducible": true,
       "error": null
     }
@@ -68089,6 +68201,20 @@
       "error": null
     }
   ],
+  "82adcf2040a6514fdd121ff45cab15bcfa374bc846227bb345bf77648dab8979": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v1.2.4/DragonLauncher-v1.2.4.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 18,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "a4910cd654908421124eabc16d43921a01adc0ea",
+      "timestamp": 1766426862,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -71893,6 +72019,20 @@
       "tag": "v1.7.1",
       "commit": "7a83b39b492969d2e8b025e4578a30275930d214",
       "timestamp": 1765295911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eee329938a0223eae41590f38f6b9fe9f94353f6d17089d9a76468b4293a0896": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.8.0/tomato-v1.8.0-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 24,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "aa17079f7e92d8c0b719c666e5f4a05b1b123bb8",
+      "timestamp": 1766431530,
       "reproducible": true,
       "error": null
     }
@@ -78835,6 +78975,20 @@
       "tag": "v0.25.1",
       "commit": "0e326a2857a99942cf9345e2777218460e7dfffc",
       "timestamp": 1766244843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31b8cdeb3410a3c42fa60ff31694865eacaa64cb18df7800160d2ab81c2247ac": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.25.2/WebviewKiosk_v0.25.2.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 107,
+      "version_name": "0.25.2",
+      "tag": "v0.25.2",
+      "commit": "bf8deb0298839e0ceef464fa2effb66a6b43437a",
+      "timestamp": 1766418496,
       "reproducible": true,
       "error": null
     }
