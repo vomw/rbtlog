@@ -8203,6 +8203,20 @@
       "error": null
     }
   ],
+  "4b58bcf0b5640290d77161d6ac16e44f530e91997ccb5abbc58b33ee6b2ae641": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.8.292.816-stable/Rhythm-3.8.292.816-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 38292816,
+      "version_name": "3.8.292.816",
+      "tag": "v3.8.292.816-stable",
+      "commit": "4fdbbdd26e6b857d930791798b5c05fcb0502064",
+      "timestamp": 1766410103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -8605,6 +8619,20 @@
       "tag": "2.5.3",
       "commit": "f718c156c4c150e4d534f8ec34c433aca17878c6",
       "timestamp": 1766242975,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "69ac81138acbb283e2100c523d64a5870553caa34980dd635154f881324114ea": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.4/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 26,
+      "version_name": "2.5.4",
+      "tag": "2.5.4",
+      "commit": "cf52c9352f231115dd948947c7025bb8981ecab4",
+      "timestamp": 1766364294,
       "reproducible": true,
       "error": null
     }
@@ -37245,6 +37273,20 @@
       "tag": "v1.19.3",
       "commit": "cea547dcac5d4dba62070da0a8b3bc2a981aa43e",
       "timestamp": 1739203919,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ddf20312a65babc5e022351b5acc92c3e0d878b99fc14bcaeee0add9ca8edc07": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.0.1/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1008,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "d26856d8dae6ee17d279212e01e0eef137cfabec",
+      "timestamp": 1766408803,
       "reproducible": true,
       "error": null
     }
