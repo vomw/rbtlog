@@ -66,3 +66,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v0.75
+    apks:
+      - apk_pattern: imagepipe.*\.apk
+        apk_url: https://codeberg.org/Starfish/Imagepipe/releases/download/v0.75/imagepipe-build_054-version_0.75-20251223.apk
+        build:
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 gradlew.py/gradlew.py -v assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+            - openjdk-11-jdk-headless
+          image: debian:bullseye-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

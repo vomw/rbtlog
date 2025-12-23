@@ -8245,6 +8245,34 @@
       "error": null
     }
   ],
+  "78f70605119c22b287934bd873f6116a6148b401b5340434a2e7b36e84fec290": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.8.293.818-stable/Rhythm-3.8.293.818-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 38293818,
+      "version_name": "3.8.293.818",
+      "tag": "v3.8.293.818-stable",
+      "commit": "4dc53922f68b57c09351e20754e9d49489b6386c",
+      "timestamp": 1766501416,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3cee1a8013b52047c8794f866103efc655ae07fc1e17f91ff65bb21ae7035611": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v3.8.293.819-stable/Rhythm-3.8.293.819-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 38293819,
+      "version_name": "3.8.293.819",
+      "tag": "v3.8.293.819-stable",
+      "commit": "251ef633ad5aab76e71959eca81b7926d515ddd2",
+      "timestamp": 1766517726,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -14063,6 +14091,20 @@
       "tag": "2025.12.1181-dev",
       "commit": "dee2641fb0bdfe0459e361f467d70bd82e985671",
       "timestamp": 1765983351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24b94828402ae35b368d62ead81d6d49d69506024ce6184f6446959b66b81204": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.12.1182/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1182,
+      "version_name": "2025.12.1182",
+      "tag": "2025.12.1182",
+      "commit": "a8eba32ad3488d266689f94b16ccd74c0588ef8b",
+      "timestamp": 1766501813,
       "reproducible": true,
       "error": null
     }
@@ -20311,6 +20353,20 @@
       "error": null
     }
   ],
+  "105f5784c687aff3b2d3169629594efcde2a58b4a146c0c9db64b442c66a1782": [
+    {
+      "repository": "https://github.com/JackEblan/EblanLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EblanLauncher/releases/download/v0.3.0-alpha/EblanLauncher-v0.3.0-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 30,
+      "version_name": "0.3.0-alpha",
+      "tag": "v0.3.0-alpha",
+      "commit": "876824df3e2202eac7bfb661454d29d07bc355ca",
+      "timestamp": 1766502137,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -20447,6 +20503,20 @@
       "tag": "v4.5.0",
       "commit": "d426c08cddf938cfea3c4b59e35ebb2beae96374",
       "timestamp": 1765638159,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdb7a5105cd7b65e907c55d5c85e512757adc5af1e4ab33cdd7b5dc98d64dbd9": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.6.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 11,
+      "version_name": "4.6.0",
+      "tag": "v4.6.0",
+      "commit": "ccea7674bd2811c5ddcfa214a73eaa62b1b421b3",
+      "timestamp": 1766502664,
       "reproducible": true,
       "error": null
     }
@@ -47185,6 +47255,20 @@
       "error": null
     }
   ],
+  "f8b38bec8fc220d590092bb3f6642ba31f1833541bdcdbb2aa52655278cc9b7d": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1706/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1706,
+      "version_name": "1.70.6-foss",
+      "tag": "Thor_v1706",
+      "commit": "75d66db38a8908adb5b4290bb8d2adb5207fa414",
+      "timestamp": 1766520385,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -51757,6 +51841,20 @@
       "error": null
     }
   ],
+  "3d7722f8b950ec6feed486c6cc99dcd59a27b17714c06107bbf1f92f78cc8de5": [
+    {
+      "repository": "https://codeberg.org/Starfish/Imagepipe.git",
+      "apk_url": "https://codeberg.org/Starfish/Imagepipe/releases/download/v0.75/imagepipe-build_054-version_0.75-20251223.apk",
+      "appid": "de.kaffeemitkoffein.imagepipe",
+      "version_code": 54,
+      "version_name": "0.75",
+      "tag": "v0.75",
+      "commit": "34ff01113ff5e99f7fddebe8e031254e02a55b44",
+      "timestamp": 1766502918,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ee1d4b9dfedd5e8f4afb7b81ec1a5e9791c75bd67fa9d87adb0bc5055c38d394": [
     {
       "repository": "https://codeberg.org/Starfish/TinyWeatherForecastGermany.git",
@@ -52537,6 +52635,20 @@
       "tag": "v1.0",
       "commit": "3d63d3a5c447c5f69e5fa4afd4838fca47fc80fc",
       "timestamp": 1761731407,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "32136c1ae80ac2de1924d95762840a80bea22663b8ef0fc112f6318af0d54139": [
+    {
+      "repository": "https://codeberg.org/mepi0011/OpeningHoursManager.git",
+      "apk_url": "https://codeberg.org/mepi0011/OpeningHoursManager/releases/download/v1.1/OpeningHoursManager_signed.apk",
+      "appid": "de.mepi0011.openinghoursmanager",
+      "version_code": 10001,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "b3d891813209201cbe7d47fd66ec345d8af9ec19",
+      "timestamp": 1766503028,
       "reproducible": true,
       "error": null
     }
@@ -54315,6 +54427,20 @@
       "tag": "v1.9.9",
       "commit": "e6d7a5d7e899299ae38ea6c0f265424cc597fc62",
       "timestamp": 1766157742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2426c80bea7015fd2f585aacce7a793773eb7fb4a1f4ce5a0b94ec1d9d430e95": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.10/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090102,
+      "version_name": "1.9.10",
+      "tag": "v1.9.10",
+      "commit": "4f08aba000fb0c31a4f8e6d10b8968223cdeb83b",
+      "timestamp": 1766503346,
       "reproducible": true,
       "error": null
     }
@@ -64253,6 +64379,20 @@
       "error": null
     }
   ],
+  "becac2c9104a65ee7175ce583cb599cf816efd791ee861b65262b833dcc6fb2a": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.17%2B16/rsm_v1.0.17%2B16_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2016,
+      "version_name": "1.0.17",
+      "tag": "v1.0.17+16",
+      "commit": "87b2fc885810bf731d2eab0cf09148122a34d2cc",
+      "timestamp": 1766504177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -68211,6 +68351,20 @@
       "tag": "v1.2.4",
       "commit": "a4910cd654908421124eabc16d43921a01adc0ea",
       "timestamp": 1766426862,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f7d8de440954164a396abaccde3f994a227bcb8b8a67c1e3fab83a099706b0b8": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v1.2.5/DragonLauncher-v1.2.5.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 19,
+      "version_name": "1.2.5",
+      "tag": "v1.2.5",
+      "commit": "808685c7bc22b1e2d0eb786a2ac6a900a8d8bc33",
+      "timestamp": 1766504617,
       "reproducible": true,
       "error": null
     }
@@ -78989,6 +79143,20 @@
       "tag": "v0.25.2",
       "commit": "bf8deb0298839e0ceef464fa2effb66a6b43437a",
       "timestamp": 1766418496,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "db16b234f4006d51bc721d1701770d61c3c08a104b396ad19c31ffedc2929516": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.25.3/WebviewKiosk_v0.25.3.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 108,
+      "version_name": "0.25.3",
+      "tag": "v0.25.3",
+      "commit": "4833fe741920f5eb58281ab1ff2ad6947eb90444",
+      "timestamp": 1766504905,
       "reproducible": true,
       "error": null
     }
