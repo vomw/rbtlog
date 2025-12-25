@@ -1959,6 +1959,20 @@
       "error": null
     }
   ],
+  "d57c7ba8b6139603643363d3e8d03cf066e072b2c5352747165829eb119235d0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.0.1/Podcini.X_release_free_10.0.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 224,
+      "version_name": "10.0.1",
+      "tag": "10.0.1",
+      "commit": "99c77806519caff3a643ec22b69fdfe93474ee25",
+      "timestamp": 1766587892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4447,6 +4461,20 @@
       "tag": "build106.4.2",
       "commit": "a1950fc2f4fbc0ba7d67004fd4f8dda12a2f2d68",
       "timestamp": 1763674278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bf07d8a63396b4ce54cfc640d7a9b5a479641f09622d021643f1bbfaffe0015a": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.4.3/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10643,
+      "version_name": "build106.4.3",
+      "tag": "build106.4.3",
+      "commit": "690e7c0bb7018226c04a4266b8a1312130ff146a",
+      "timestamp": 1766588713,
       "reproducible": true,
       "error": null
     }
@@ -15551,6 +15579,20 @@
       "error": null
     }
   ],
+  "61db1976f9e47f28700825942cfed0a373cbed9ac0d4006faefd21de34e19fef": [
+    {
+      "repository": "https://github.com/LSPosed/CorePatch.git",
+      "apk_url": "https://github.com/LSPosed/CorePatch/releases/download/4.8/app-release.apk",
+      "appid": "com.coderstory.toolkit",
+      "version_code": 2045,
+      "version_name": "4.8",
+      "tag": "4.8",
+      "commit": "ead987f75378af28d26b602d594f255769e10d7e",
+      "timestamp": 1766621817,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dfadd82ff077889af1ae5b495a1e72919a8ea1422774792ee8b16332414804d": [
     {
       "repository": "https://github.com/cogwheel0/luci-mobile.git",
@@ -18067,6 +18109,20 @@
       "tag": "0.0.39",
       "commit": "abad91499979646f3f49db17f2b8f5acb97ce481",
       "timestamp": 1764514739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "949818de39045f646ee675a532941011558293f608edd6ee8467c1bbe9c0f91e": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.40/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 40,
+      "version_name": "0.0.40",
+      "tag": "0.0.40",
+      "commit": "75d17e7880b6fa062b4b6e8931b9eb71c86a470b",
+      "timestamp": 1766589170,
       "reproducible": true,
       "error": null
     }
@@ -23455,6 +23511,20 @@
       "tag": "v1.21.4",
       "commit": "d0b100b995eb781685d83e09c701c7c1c37800a4",
       "timestamp": 1766330856,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c54031d8f689f4ae4a78c45b946c79e84bbeaee1ee90a17d5bcb7e353297b271": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.5/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 145,
+      "version_name": "1.21.5",
+      "tag": "v1.21.5",
+      "commit": "26d756a4c48efbc3449257f4f2b88e339caef6d6",
+      "timestamp": 1766589524,
       "reproducible": true,
       "error": null
     }
@@ -29999,6 +30069,20 @@
       "tag": "v1.2.0",
       "commit": "a5ba5f94badd09cb0baa3c2bf23f296aa6a4eb7d",
       "timestamp": 1763067441,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9256934e9b156c2b68e688e4e69f7e59ac043a5d856eeb6f442cfcf3402eae1": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.3.0/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 130,
+      "version_name": "v1.3.0",
+      "tag": "v1.3.0",
+      "commit": "5e105075dacd8430844aa7f699e304aa49fc8aae",
+      "timestamp": 1766589993,
       "reproducible": true,
       "error": null
     }
@@ -40217,6 +40301,20 @@
       "error": null
     }
   ],
+  "891a0c65a03b0a85db08469101ecdff0ffdf6ff263351467229b0284ee34c4bd": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.2.9/taskmanager-v1.2.9.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 29,
+      "version_name": "1.2.9",
+      "tag": "v1.2.9",
+      "commit": "7e9eb5ebe9d1c2debaad59a3392fb0f2b2ac2a1a",
+      "timestamp": 1766590605,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -41277,6 +41375,20 @@
       "tag": "v1.2.9",
       "commit": "7e77e85cb7eb39296c1c7ac442459be03ff4364b",
       "timestamp": 1764861602,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fe1655590eb33363f1bc0b309f62e157d8accd7a53205a982fa13809c5113015": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.3.0/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 130,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "e94fd68f2ea9eecd17c5bc1f3b1b1bfa6a9f1030",
+      "timestamp": 1766591020,
       "reproducible": true,
       "error": null
     }
@@ -52947,6 +53059,20 @@
       "error": null
     }
   ],
+  "a0c9ab3463b401e10a257c26cfe2a83a093a2a073a8a45b891d0823c769cdbb0": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.3.0/MedicalCalendarLog-1.3.0-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 32,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "4a15ad520291aaddda2c0e0bd8f9eb9bfd764d3a",
+      "timestamp": 1766604564,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "97351a70202de6e6d3f07ea2e671ccccd18bb1653462098522ef93adfcb34a34": [
     {
       "repository": "https://github.com/PaulWoitaschek/Voice.git",
@@ -58849,6 +58975,20 @@
       "tag": "1.2307",
       "commit": "9a827f35c6ac123a5eae25efdbc23d41b36485ce",
       "timestamp": 1765813382,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ffc532ac6cb5ef58ae0b4ad8069dc75213fad56a68cc18332e778d160851de25": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2308/FairEmail-v1.2308a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2308,
+      "version_name": "1.2308",
+      "tag": "1.2308",
+      "commit": "398eff3a3136a3253b17224ca86dd3a66a516b58",
+      "timestamp": 1766593862,
       "reproducible": true,
       "error": null
     }
@@ -68411,6 +68551,20 @@
       "error": null
     }
   ],
+  "3c660fd6bd07b9cd1441e71df37870d2bc93694c0b86b5871d67041573e3e91d": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v1.2.6/DragonLauncher-v1.2.6.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 20,
+      "version_name": "1.2.6",
+      "tag": "v1.2.6",
+      "commit": "5553ffaa67e8afee62a78ae33bca05405860b482",
+      "timestamp": 1766604910,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -71711,6 +71865,20 @@
       "tag": "0.6.0",
       "commit": "eb819fd208a98226f7b556048a6274435235e9dd",
       "timestamp": 1760123832,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c5c598cce7ca0be1753e54ae75fd39d8570ef89440674c5e692010d58abb5361": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.7.0/squeezelite-0.7.0.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 700,
+      "version_name": "0.7.0",
+      "tag": "0.7.0",
+      "commit": "5f1c80d0ce538dfda7779344a8f7d6851989dd85",
+      "timestamp": 1766592770,
       "reproducible": true,
       "error": null
     }
@@ -79199,6 +79367,20 @@
       "tag": "v0.25.3",
       "commit": "4833fe741920f5eb58281ab1ff2ad6947eb90444",
       "timestamp": 1766504905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07cf902315b1a7f665db33aff275af24da50ff4fe558c0673f80b4c2fff89a4f": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.25.4/WebviewKiosk_v0.25.4.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 109,
+      "version_name": "0.25.4",
+      "tag": "v0.25.4",
+      "commit": "4027cb6b255b73bd6d88bca08baf8bf3aaaee22b",
+      "timestamp": 1766593183,
       "reproducible": true,
       "error": null
     }
