@@ -1987,6 +1987,34 @@
       "error": null
     }
   ],
+  "be3870339e2dcf363d994b238d23f5183336c620e769abd48d50fa51b9fa5d26": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.2.0/Podcini.X_release_free_10.2.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 226,
+      "version_name": "10.2.0",
+      "tag": "10.2.0",
+      "commit": "45102df8c676abeed85f9541a947b1ad72176d42",
+      "timestamp": 1766760479,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1bfa06008c483fa5a258a3cb47e53d3f6342622db0e6231088cf642261af96cb": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.2.1/Podcini.X_release_free_10.2.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 227,
+      "version_name": "10.2.1",
+      "tag": "10.2.1",
+      "commit": "f95481060218e17e18bf806aae7a465f587c7857",
+      "timestamp": 1766783796,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5189,6 +5217,20 @@
       "tag": "v9.4.1",
       "commit": "6cad06cdefd895c153d8e53df425c75acf2218e7",
       "timestamp": 1765826990,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "278d42af98c51c6beedcfef247271512d36887f8a624b5a3d299d22d65886150": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.5.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 950,
+      "version_name": "v9.5.0",
+      "tag": "v9.5.0",
+      "commit": "7795c7f4513aedc3fa18ff3acaa763db17d8677d",
+      "timestamp": 1766783931,
       "reproducible": true,
       "error": null
     }
@@ -15789,6 +15831,20 @@
       "error": null
     }
   ],
+  "69b994c346f1c616f2e457355ad510a68cfb073fd79e7a70cb9ebce0e9f951ee": [
+    {
+      "repository": "https://github.com/coleblvck/MethodCall.git",
+      "apk_url": "https://github.com/coleblvck/MethodCall/releases/download/1.0.2/app-release.apk",
+      "appid": "com.coleblvck.methodcall",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "1.0.2",
+      "commit": "efeae3189997a023b23d97dd03f14f804dfd8b38",
+      "timestamp": 1766761026,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -18165,6 +18221,20 @@
       "tag": "0.0.40",
       "commit": "75d17e7880b6fa062b4b6e8931b9eb71c86a470b",
       "timestamp": 1766589170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3ca2cd5adfbd0291e1abdde1c3baa4a5309e8a34336fa53c6fb75f0fbf72869d": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.41/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 41,
+      "version_name": "0.0.41",
+      "tag": "0.0.41",
+      "commit": "787f3c1ed3ff08175c4513199142653f69272daa",
+      "timestamp": 1766761344,
       "reproducible": true,
       "error": null
     }
@@ -29037,6 +29107,20 @@
       "error": null
     }
   ],
+  "2d451ba37ba31d22f4c3ba1cdcce4a4fb5f23d23600df1ba3b2213a6c22717e2": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.7.0/Tyr-1.7.0-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 21,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "3704dd3a9d5d754d70c4026ab203b245d986f5b4",
+      "timestamp": 1766761703,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -34673,6 +34757,20 @@
       "tag": "2.1",
       "commit": "86cf9c672b8ef7d0bb2a409c16e621c1d90d96ff",
       "timestamp": 1766672795,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "418732dcf0dc7caf00faa698080e17a29c87d74dd45a77465685dc48d900911d": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.2/auto-light-22.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 2,
+      "version_name": "2.2",
+      "tag": "2.2",
+      "commit": "1167072e0758333d9e6680b307933dc38e8f4124",
+      "timestamp": 1766777753,
       "reproducible": true,
       "error": null
     }
@@ -49295,6 +49393,20 @@
       "error": null
     }
   ],
+  "1857218f9a5024ff45ed455b8ba041cb70586abc0bcb2c63c129dd5b4b5fde0e": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/wgtunnel/releases/download/4.2.2/wgtunnel-fdroid-v4.2.2-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 40202,
+      "version_name": "4.2.2",
+      "tag": "4.2.2",
+      "commit": "b641539af84c7044ec836f54eb6c6f65f118f6fc",
+      "timestamp": 1766761947,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "002184560de26989736ee8379af777bb945c2b8a0df907f9feac0d623d37c909": [
     {
       "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
@@ -55993,6 +56105,20 @@
       "tag": "v2.0.4",
       "commit": "e2c65f96fecaad314f34765125e9e343edf9cff3",
       "timestamp": 1762196715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "278e6e8464a8fda3b9f1d876bc4199b4fe4148d490117543f03a2d304aec9f2c": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v3.0.0/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 300,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "2d32cc76708fb06aa93fb22cfc017a4c48ecfc33",
+      "timestamp": 1766766593,
       "reproducible": true,
       "error": null
     }
@@ -71415,6 +71541,20 @@
       "tag": "v1.3.0",
       "commit": "036c8886719791ad7c0f174518bcfc838e2b3874",
       "timestamp": 1766332572,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "acad2d4a0dd09461051d3f0eb8a832dc392f8e6d26f72f8fdde4de692c08b30f": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.4.0/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 6,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "dce38bf35ae6b24158283e86d5f5cfaf3a28146a",
+      "timestamp": 1766777912,
       "reproducible": true,
       "error": null
     }

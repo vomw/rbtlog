@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/PranavPurwar/Reef.git
 updates: releases
+notes:
+  - 'FIXME: v3.0.0 needed its versioning adjusted via sed, remove that line again with the next release'
 versions:
   - tag: v1.1.1
     apks:
@@ -240,6 +242,36 @@ versions:
         apk_url: https://github.com/PranavPurwar/Reef/releases/download/v2.0.5/Reef-release.apk
         build:
           - git checkout d4e4b1116a51297f94c500a44dbce9eb0fc3cc58
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv Reef/build/outputs/apk/release/Reef-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v3.0.0
+    apks:
+      - apk_pattern: Reef-release\.apk
+        apk_url: https://github.com/PranavPurwar/Reef/releases/download/v3.0.0/Reef-release.apk
+        build:
+          - sed -r 's/versionCode = 205/versionCode = 300/ ; s/versionName = "2.0.5"/versionName = "3.0.0"/' -i Reef/build.gradle.kts
           - ./gradlew assembleRelease
           - find . -name '*.apk'
           - mv Reef/build/outputs/apk/release/Reef-release-unsigned.apk /outputs/unsigned.apk
