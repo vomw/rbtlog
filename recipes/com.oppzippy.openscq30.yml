@@ -456,3 +456,47 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.1.0
+    apks:
+      - apk_pattern: openscq30-android-arm64-v8a\.apk
+        apk_url: https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.1.0/openscq30-android-arm64-v8a.apk
+        build:
+          - RUSTUP_VER="$(grep rustup .build-tool-versions | awk '{print $2}')"
+          - RUST_TOOLCHAIN="$(grep -E 'rust\b' .build-tool-versions | awk '{print $2}')"
+          - CARGO_VER="$(grep cargo-ndk .build-tool-versions | awk '{print $2}')"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP_VER
+          - export ANDROID_NDK=/opt/sdk/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain=$RUST_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install cargo-ndk --version $CARGO_VER
+          - cd android
+          - ./gradlew assembleRelease-arm64-v8a
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release-arm64-v8a/app-release-arm64-v8a-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/OpenSCQ30/OpenSCQ30
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - make
+            - g++
+            - cmake
+            - protobuf-compiler
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
