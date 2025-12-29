@@ -34467,6 +34467,20 @@
       "error": null
     }
   ],
+  "714590224125d30507d1c32375a0753d5ea0b354d3736808411be87ea1414843": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.8.0-stable/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 130,
+      "version_name": "12.8.0-stable",
+      "tag": "v12.8.0-stable",
+      "commit": "019c33fd03c07672e71192d71c7c79f04a13ce1b",
+      "timestamp": 1767039639,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -67635,6 +67649,20 @@
       "tag": "v1.2.1",
       "commit": "aac16f9866859cc91f49e1a9008a7b7b80f6632e",
       "timestamp": 1761662172,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "27427c6af5807c6f19e9dc68d4e57e2eae827f338e772eeea5099a72b2ea8948": [
+    {
+      "repository": "https://github.com/interstellar-app/interstellar.git",
+      "apk_url": "https://github.com/interstellar-app/interstellar/releases/download/v0.11.1/interstellar-android-arm64-v8a.apk",
+      "appid": "one.jwr.interstellar",
+      "version_code": 2023,
+      "version_name": "0.11.1",
+      "tag": "v0.11.1",
+      "commit": "378e8b032c6a6d587400e882e795770f9ba2ed66",
+      "timestamp": 1767028995,
       "reproducible": true,
       "error": null
     }

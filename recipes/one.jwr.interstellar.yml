@@ -1,0 +1,47 @@
+---
+repository: https://github.com/interstellar-app/interstellar.git
+updates: releases
+notes:
+  - https://github.com/interstellar-app/interstellar/issues/205#issuecomment-2954201550
+versions:
+  - tag: v0.11.1
+    apks:
+      - apk_pattern: interstellar-android-arm64-v8a\.apk
+        apk_url: https://github.com/interstellar-app/interstellar/releases/download/v0.11.1/interstellar-android-arm64-v8a.apk
+        build:
+          - sed -r 's/signingConfig = keystorePropertiesFile.*/signingConfig = null/' -i android/app/build.gradle
+          - FLUTTER_VERSION="$(sed -rn 's/\s*\bflutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=${HOME}/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter pub global activate cider
+          - find . -name "cider"
+          - echo .pub-cache/bin/cider version ${APP_TAG:1}+19
+          - sed -r "s/version:\ 0.0.0/version:\ ${APP_TAG:1}\+2019/" -i pubspec.yaml
+          - flutter/bin/flutter pub run build_runner build
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/interstellar/interstellar
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
