@@ -34915,6 +34915,20 @@
       "error": null
     }
   ],
+  "f5fefa524aaf09875eed32a89b861b178e53b5db6f09fd3a67898961c19d1dfa": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Sleep.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Sleep/releases/download/1.3/auto-sleep-13.apk",
+      "appid": "com.mine.autosleep",
+      "version_code": 1,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "4e8cf85034e548a85e2f2cc9fda44265bd7e09d6",
+      "timestamp": 1767000402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54dadc50f3ef0e67a7aca80aa54bcf43799d94889f56fae005ed892284ddab4": [
     {
       "repository": "https://github.com/VaibhavLakhera/minimo.git",
@@ -35221,6 +35235,20 @@
       "timestamp": 1760899389,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp2nefn30g/outputs:/outputs', '--volume', '/tmp/tmp2nefn30g/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/mirfatif/MyLocation.git', '--env', 'APP_TAG=v1.07-pro', '--env', 'APP_COMMIT=397e6944590a4ac210ee5a47990aa3dbb52ebc52', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "39acd748cbea56237f57b3351a79d948322f69188dbf8db2d68f119b0164af23": [
+    {
+      "repository": "https://github.com/monuk7735/nope-remote.git",
+      "apk_url": "https://github.com/monuk7735/nope-remote/releases/download/v1.1/NopeRemote-v1.1.apk",
+      "appid": "com.monuk7735.nope.remote",
+      "version_code": 11,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "352666ea34b4e2900d484dd87fb071e9f010f1da",
+      "timestamp": 1766957586,
+      "reproducible": true,
+      "error": null
     }
   ],
   "66ae7610512bcbd9692c5e7f7c2740f8a14b12598d9fadbc3122c1b67d463de0": [
@@ -54081,6 +54109,20 @@
       "error": null
     }
   ],
+  "d0d5d3e66f70ee1c2972ed50b0630588029167e30bf4f9dc6c00ad6994591fb5": [
+    {
+      "repository": "https://git.myservermanager.com/varakh/fbmobile.git",
+      "apk_url": "https://git.myservermanager.com/varakh/fbmobile/releases/download/1.6.8+26/app-arm64-v8a-release.apk",
+      "appid": "de.varakh.fbmobile",
+      "version_code": 2026,
+      "version_name": "1.6.8",
+      "tag": "1.6.8+26",
+      "commit": "7e54b2c79a0eeaf669605d95ba6b981829120ce3",
+      "timestamp": 1767008786,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6ac85dff0501a8f9d0b0e27bbace7a10f5630b53188d2cc0d984d63ba8f658a": [
     {
       "repository": "https://github.com/Bartuzen/qBitController.git",
@@ -54679,6 +54721,20 @@
       "tag": "v1.1.1",
       "commit": "9b6bf0495466c3745f8a9536713b129c78a86e95",
       "timestamp": 1766786060,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d0b5e79976d690877d9489900ba89e8a25d1391361ac3f0f46555e7f68ca208": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.1.2/simple-notes-sync-v1.1.2-fdroid-universal.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 4,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "85625b4f6786aa575a92e66871603b58df23444d",
+      "timestamp": 1766998998,
       "reproducible": true,
       "error": null
     }
