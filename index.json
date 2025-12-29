@@ -2029,6 +2029,20 @@
       "error": null
     }
   ],
+  "a645af2cec78b3374cacdbfe508b8235af21e651d0daa0699c2df9ce5c0ea9e5": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.2.3/Podcini.X_release_free_10.2.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 229,
+      "version_name": "10.2.3",
+      "tag": "10.2.3",
+      "commit": "b7b9881171458ede593d9007c51ad5be38b093d8",
+      "timestamp": 1767037489,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3943,6 +3957,20 @@
       "tag": "1.11.3.1",
       "commit": "aebcaf1284d93eea9398de85cb261e8f0589ab01",
       "timestamp": 1766847371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "979642c2e1020946055dec41b2d49f181018208feade8c9f636c52809a73b406": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.3.2/MultiLauncher-1.11.3.2-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110302,
+      "version_name": "1.11.3 build 2",
+      "tag": "1.11.3.2",
+      "commit": "9729918c7ed1e0ced5198c6ecdc6ef6b53b29bff",
+      "timestamp": 1767019780,
       "reproducible": true,
       "error": null
     }
@@ -6267,6 +6295,20 @@
       "tag": "v1.1.0",
       "commit": "0d0f0f8f0650ca8592374b9635ad072861e32a54",
       "timestamp": 1765480965,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bc4eb78bcf01297d3867754c4609d69272d53b74862d5d890615de5da136de76": [
+    {
+      "repository": "https://github.com/FrankHJCuypers/gaai.git",
+      "apk_url": "https://github.com/FrankHJCuypers/gaai/releases/download/v1.1.1/Gaai-v101001-1.1.1-13-g497ea25-release.apk",
+      "appid": "be.cuypers_ghys.gaai",
+      "version_code": 101001,
+      "version_name": "1.1.1-13-g497ea25",
+      "tag": "v1.1.1",
+      "commit": "497ea25875592bae102a81cf6fc0e54d8858a585",
+      "timestamp": 1767036598,
       "reproducible": true,
       "error": null
     }
@@ -9519,6 +9561,20 @@
       "error": null
     }
   ],
+  "efc4934b3374da3a7df34d5679270cb2b6c83119309d0d1fa1da3c0deed50b8e": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.8.0/80/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 80,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0/80",
+      "commit": "cd207b6a11461cf552fd2652ef021b89c20db123",
+      "timestamp": 1767036959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e680e00d49947d6ad22e907b8baacfcaa3f0361bbffb376a84f0cd37d3e890d9": [
     {
       "repository": "https://github.com/alexmercerind/audire.git",
@@ -10521,6 +10577,20 @@
       "tag": "v4.6.0b",
       "commit": "eb72c95ec88ca6f1c3d2e16caab93e1d056a0426",
       "timestamp": 1765567711,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9d1cac127fc0c4e8b4399188b53e409d1a8917d1c736158625dbf7904b468f36": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.0c/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1376,
+      "version_name": "4.6.0c",
+      "tag": "v4.6.0c",
+      "commit": "5d81f8dccbb74178d7b7fae5ea9ce069624afe8b",
+      "timestamp": 1767020229,
       "reproducible": true,
       "error": null
     }
@@ -18295,6 +18365,20 @@
       "error": null
     }
   ],
+  "421c1f0889d60c4abf66e86de65e63a3544861647204e42d3e7e1c876644df99": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.42/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 42,
+      "version_name": "0.0.42",
+      "tag": "0.0.42",
+      "commit": "b5629d7a7d45412347b0064d47d42aaf6bff96b8",
+      "timestamp": 1767037174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -18725,6 +18809,20 @@
       "tag": "0.6.17",
       "commit": "0105ea4ac875c2acd1af198e0a306d1f3c477f54",
       "timestamp": 1764470265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dbae5404f87e18e66fe69b69fdc2f05042e529a27377d60357741c8c9614e527": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.18/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 41,
+      "version_name": "0.6.18",
+      "tag": "0.6.18",
+      "commit": "6e8574d047285790eeb50ccc75e422f8a3ce63ee",
+      "timestamp": 1767037531,
       "reproducible": true,
       "error": null
     }
@@ -25209,6 +25307,20 @@
       "error": null
     }
   ],
+  "fe9c6faefefe5c33b3dd6dc4c077c403dbf4fef211f50afece1cad862bddc777": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.7/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2652329,
+      "version_name": "3.5.7",
+      "tag": "3.5.7",
+      "commit": "73e67ffede4be8ef3ea34fccde653fa6cfb3eaa8",
+      "timestamp": 1767020415,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c8c1917bb6e2f85f0fdc297ed1484ec10bfb6babdad860b49a560a226c792c1c": [
     {
       "repository": "https://github.com/gouravkhunger/QuotesApp.git",
@@ -27943,6 +28055,20 @@
       "tag": "9.7.3",
       "commit": "d38e2c6ec0d6c68477c63bd976b399b71cc3bb78",
       "timestamp": 1766933288,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c506166e32296e23983c08b4994a3b6a65000817eba391ccb6d7b79088bb798f": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.7.4/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2153,
+      "version_name": "9.7.4",
+      "tag": "9.7.4",
+      "commit": "1bce950e5af41d541f160278d6a17096d709cf03",
+      "timestamp": 1767020616,
       "reproducible": true,
       "error": null
     }
@@ -35237,6 +35363,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp2nefn30g/outputs:/outputs', '--volume', '/tmp/tmp2nefn30g/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/mirfatif/MyLocation.git', '--env', 'APP_TAG=v1.07-pro', '--env', 'APP_COMMIT=397e6944590a4ac210ee5a47990aa3dbb52ebc52', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "ae05e9045252519901ff4306e0aac921a7d7239d79efaa2e4d2abe34c510f199": [
+    {
+      "repository": "https://github.com/mirfatif/MyLocation.git",
+      "apk_url": "https://github.com/mirfatif/MyLocation/releases/download/v1.08-foss/MyLocation_v1.08-foss.apk",
+      "appid": "com.mirfatif.mylocation",
+      "version_code": 108,
+      "version_name": "v1.08-foss",
+      "tag": "v1.08-foss",
+      "commit": "4a0401d53e304240281890cb540258e2555b33f1",
+      "timestamp": 1767032058,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "39acd748cbea56237f57b3351a79d948322f69188dbf8db2d68f119b0164af23": [
     {
       "repository": "https://github.com/monuk7735/nope-remote.git",
@@ -35247,6 +35387,20 @@
       "tag": "v1.1",
       "commit": "352666ea34b4e2900d484dd87fb071e9f010f1da",
       "timestamp": 1766957586,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6e8967c0d2c656e9110b38dc0bb8a203547c7a109c328b27b31730da041a189": [
+    {
+      "repository": "https://github.com/monuk7735/nope-remote.git",
+      "apk_url": "https://github.com/monuk7735/nope-remote/releases/download/v1.2/NopeRemote-v1.2.apk",
+      "appid": "com.monuk7735.nope.remote",
+      "version_code": 12,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "79b7216cc79b3c9f77964372846168e582650c86",
+      "timestamp": 1767038034,
       "reproducible": true,
       "error": null
     }
@@ -47829,6 +47983,20 @@
       "error": null
     }
   ],
+  "7e752f64b28e302dda18bb7b871f7ec498d7ef4e688f77327aea55e923baf959": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1707/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1707,
+      "version_name": "1.70.7-foss",
+      "tag": "Thor_v1707",
+      "commit": "42ecbe24f7f2dd80e23edfe44ec310a2b6fa4d25",
+      "timestamp": 1767021214,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -51057,6 +51225,20 @@
       "error": null
     }
   ],
+  "003877a53d0bb17c15280b37a57364dc84ddcdc871ac848e2fa66e47f596a58c": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.63/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 63,
+      "version_name": "0.1.63",
+      "tag": "0.1.63",
+      "commit": "6cfa0dd48d706e33f3216a895ba886e3913d51a9",
+      "timestamp": 1767021617,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -51907,6 +52089,20 @@
       "tag": "v2.5.0",
       "commit": "872e74ce117c37aa63f4d7b06a880914ee910ef3",
       "timestamp": 1765985915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b89c67a34bb8b5146987a4522ac6d34dbac9aaadd92c9007021fa41b242423cd": [
+    {
+      "repository": "https://github.com/scheibler/TactileClock.git",
+      "apk_url": "https://github.com/scheibler/TactileClock/releases/download/v2.5.1/TactileClock_v2.5.1.apk",
+      "appid": "de.eric_scheibler.tactileclock",
+      "version_code": 14,
+      "version_name": "2.5.1",
+      "tag": "v2.5.1",
+      "commit": "43134158b986c7ba408e79898b10d99326ecd7f8",
+      "timestamp": 1767022198,
       "reproducible": true,
       "error": null
     }
@@ -53545,6 +53741,20 @@
       "tag": "1.3.2",
       "commit": "03be7d8d0f1999307371ac7614c5088e66195bd3",
       "timestamp": 1766693835,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a96cd0a4c1e2cace8a0b0acc0375ed46e63d792c892d3f6e9538b302d198574d": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.3.4/MedicalCalendarLog-1.3.4-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 37,
+      "version_name": "1.3.4",
+      "tag": "1.3.4",
+      "commit": "99a4f869b8c3c3e89715b36ba20b748d184db7d9",
+      "timestamp": 1767022371,
       "reproducible": true,
       "error": null
     }
@@ -63159,6 +63369,20 @@
       "error": null
     }
   ],
+  "7249d71f178e80f7be6e9a3e8fcd4ad5b728cd1ab82ccd7f9e3c31eddb1e11d1": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.7/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90607,
+      "version_name": "9.6.7",
+      "tag": "v9.6.7",
+      "commit": "b293c8bdf5c64aa5b467237ab24e8f3eba9df40f",
+      "timestamp": 1767022755,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcece554a290eca0ae224c7d86cb0a2c3f34b6d5ce1ad85f1f5f1dca5f6190ba": [
     {
       "repository": "https://github.com/Leonidius20/BeatInspector.git",
@@ -70589,6 +70813,20 @@
       "tag": "1.7.0",
       "commit": "9f2ace26e751f96c11525b3d8c7087d835e79ff6",
       "timestamp": 1765910516,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a692ed4ecec687f51317c676741721c61a9327c1c1c9c588dd5601b91cd69299": [
+    {
+      "repository": "https://github.com/FossifyOrg/Keyboard.git",
+      "apk_url": "https://github.com/FossifyOrg/Keyboard/releases/download/1.8.0/keyboard-12-foss-release.apk",
+      "appid": "org.fossify.keyboard",
+      "version_code": 12,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "0483fdc1393b7eb38bc2882fb7af4e69507bdb40",
+      "timestamp": 1767038448,
       "reproducible": true,
       "error": null
     }
@@ -79155,6 +79393,20 @@
       "tag": "v0.0.2.1",
       "commit": "0606662c4c92c0f3b8b4287a215e97a67830ac75",
       "timestamp": 1761230182,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c12a600bdf7ac0cffb65e018d109ae07d2661ba36431c3b9f3741cabb7fb626": [
+    {
+      "repository": "https://github.com/SteveZMTstudios/calsync.git",
+      "apk_url": "https://github.com/SteveZMTstudios/calsync/releases/download/v0.1.7/calsync-0.1.7-foss-arm64-v8a.apk",
+      "appid": "top.stevezmt.calsync",
+      "version_code": 132,
+      "version_name": "0.1.7-foss",
+      "tag": "v0.1.7",
+      "commit": "c82a385eaa11e8ad24e137a36f33b645b1d6e0e9",
+      "timestamp": 1767022410,
       "reproducible": true,
       "error": null
     }

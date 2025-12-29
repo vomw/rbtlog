@@ -69,3 +69,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.1.7
+    apks:
+      - apk_pattern: calsync.*foss-arm64-v8a\.apk
+        apk_url: https://github.com/SteveZMTstudios/calsync/releases/download/v0.1.7/calsync-0.1.7-foss-arm64-v8a.apk
+        build:
+          - export GRADLE_OPTS="-Xmx3g"
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease -PabiFilter=arm64-v8a
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/*foss-arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/calsync/calsync
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
