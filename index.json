@@ -4297,6 +4297,20 @@
       "error": null
     }
   ],
+  "0a2c0354ad6e0a7263b1c3e8d202327730d25c7ec112afd43f704fc4f84dffce": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.3.0/Pachli_3.3.0_44_7dec2bb5_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 44,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "7dec2bb5b89cfdab299c07853fe8de65a020143b",
+      "timestamp": 1767122565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8d8633ea354a92687fe3af94c1c2cc4ec5c50d4e7c5509d8f32e16b5b7e990cc": [
     {
       "repository": "https://github.com/msbelaid/PlugBrain.git",
@@ -9417,6 +9431,20 @@
       "tag": "v1.1.2/70",
       "commit": "b4f10cbe131d9257cb904aeaee158eb1dad59e48",
       "timestamp": 1750254934,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38a82b2fd1050faa4e4c38b0d46377fdb5cbe26bb104d92495b1f8d84f2fed4a": [
+    {
+      "repository": "https://github.com/farfromrefug/OSS-Dict.git",
+      "apk_url": "https://github.com/farfromrefug/OSS-Dict/releases/download/v1.1.3/71/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 71,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3/71",
+      "commit": "02bfe0bed204382cb0a06e8c218cd3ca10e87dcd",
+      "timestamp": 1767123471,
       "reproducible": true,
       "error": null
     }
@@ -22353,6 +22381,20 @@
       "error": null
     }
   ],
+  "5533e70616d000f554428fe25db3e6a06394e8618faf3cd00a8a0515361ebd68": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.36.0/com.fibelatti.photowidget-v1.36-1360000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1360000,
+      "version_name": "1.36",
+      "tag": "v1.36.0",
+      "commit": "f91515fb0ceb16ebb5a5da27cf44b174e9a9a6b6",
+      "timestamp": 1767123650,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -24579,6 +24621,20 @@
       "error": null
     }
   ],
+  "1980e04348ae0855f2f5d9e85a3004dfe04e452093011b73a5d3506cd90abafc": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.10/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319661,
+      "version_name": "2.7.10 (29319661) fdroid",
+      "tag": "v2.7.10",
+      "commit": "31776096208f138e9ea722cbb81ab8a1abcc7fda",
+      "timestamp": 1767130368,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -25037,6 +25093,20 @@
       "tag": "2.18.6",
       "commit": "5d20a7c1757848ba7a025426d962f3371a0fc07e",
       "timestamp": 1764516102,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3fc77d2e1bb8e17d646b6e9dc57a149e2c8e8d54483922b6968622ec828d572f": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.7/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2653595,
+      "version_name": "2.18.7-Verdana-oss",
+      "tag": "2.18.7",
+      "commit": "f252747de737c9f16eda28c6c2c9378ff93035de",
+      "timestamp": 1767124163,
       "reproducible": true,
       "error": null
     }
@@ -29327,6 +29397,20 @@
       "tag": "1.7.0",
       "commit": "3704dd3a9d5d754d70c4026ab203b245d986f5b4",
       "timestamp": 1766761703,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "01b63902d3a772c79c1d988a4158bc86c7cd4210688151f7361b7d47c5dd0f1a": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.7.1/Tyr-1.7.1-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 22,
+      "version_name": "1.7.1",
+      "tag": "1.7.1",
+      "commit": "ed3c5f1d93bc51675fda3745880f86fe7198028a",
+      "timestamp": 1767124354,
       "reproducible": true,
       "error": null
     }
@@ -34481,6 +34565,20 @@
       "error": null
     }
   ],
+  "dd502f21b10f05b567150a0835b0b6ba7075c560dd69c131b503dd4cf272b3d8": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.8.1/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 131,
+      "version_name": "12.8.1",
+      "tag": "v12.8.1",
+      "commit": "c86787db9715ee6f2e86affb0b648cb755ce6c09",
+      "timestamp": 1767124637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aa4fe78a33a9914332c4858aef7c821b3b82997fc95aac61d4ad16ee09a1c274": [
     {
       "repository": "https://github.com/michaldrabik/showly-2.0.git",
@@ -34985,6 +35083,20 @@
       "error": null
     }
   ],
+  "51f4306aa7cf0e10c8ea7a512f8fb96c1ff7c3e8397a454c1112c8b1b61f22d9": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.6.3/SpeakThat-NoUpdater-v1.6.3.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 38,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "35217ac3ab0751dd64f0acd1b7bc3515b13cbbf1",
+      "timestamp": 1767123905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -35051,6 +35163,20 @@
       "tag": "2.3",
       "commit": "7481ecf6123e86c9f6e046459616ce38dd5017a0",
       "timestamp": 1766847803,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5b33e859639da60852c690bcc4aa4b293f35672b917c236cce97267c87980a0": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.4/auto-light-24.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 6,
+      "version_name": "2.4",
+      "tag": "2.4",
+      "commit": "210e86e77374b104a728379e1ca76637f5592930",
+      "timestamp": 1767125480,
       "reproducible": true,
       "error": null
     }
@@ -39807,6 +39933,20 @@
       "tag": "v1.53",
       "commit": "ef0c07a8c26124810f92757987a91237f027e22d",
       "timestamp": 1766847899,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "99cf887243de5bcb8036e5aed3f3ab1ae999600c0a5f92e230c04c2dc3bc473c": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.54/1.54-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 125,
+      "version_name": "1.54",
+      "tag": "v1.54",
+      "commit": "1442ecbdeefbca26b08d7bce867ea9d56bb266f2",
+      "timestamp": 1767125619,
       "reproducible": true,
       "error": null
     }
@@ -48011,6 +48151,20 @@
       "error": null
     }
   ],
+  "539673922a2b8471667cb19cccdd086588d138f159e4e43a9ccb501d34d6d551": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/Thor_v1709/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1709,
+      "version_name": "1.70.9-foss",
+      "tag": "Thor_v1709",
+      "commit": "b840bafcfbb141725e9b689d39777f6c01126cd7",
+      "timestamp": 1767126140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -48473,6 +48627,20 @@
       "error": null
     }
   ],
+  "088f08f3a43e1aa6c15bf9d25b5dc57b998d039a8050b94bf8d72ca1bdd11a8a": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v5.0.0/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 18,
+      "version_name": "5.0.0",
+      "tag": "v5.0.0",
+      "commit": "33da315722f72e4d2c81c0c3a45eadd18d143cfa",
+      "timestamp": 1767126465,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -48567,6 +48735,20 @@
       "tag": "0.3.1.1",
       "commit": "14427bb5746adfbd2fcd590285864cff4d7769bb",
       "timestamp": 1750860471,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "562652de2bbb9846020c3d129cfbc1f0d2851f8b68afc8feb694050d95bd8c7b": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.3.2/0.3.2.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 18,
+      "version_name": "0.3.2",
+      "tag": "0.3.2",
+      "commit": "b1e4cd587ade569fa6212d83476b82f138d79037",
+      "timestamp": 1767129385,
       "reproducible": true,
       "error": null
     }
@@ -55789,6 +55971,34 @@
       "error": null
     }
   ],
+  "4c43111cb622e5de15688129c6191777cd8858585dd2c8097bbafbf8f368e5d5": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.0/findroid-v1.0.0-libre-arm64-v8a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 30,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "c9fcefb871eb7eed4a727033e0c38ef6e2aff737",
+      "timestamp": 1767127550,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ab43f1c8fe361947427fa66439e4a10b50db06fb19bcf365e0e4ecead7b59bc6": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.0/findroid-v1.0.0-libre-armeabi-v7a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 30,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "c9fcefb871eb7eed4a727033e0c38ef6e2aff737",
+      "timestamp": 1767128105,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10a3b875a9ee5abca45fd5d283f3764c26bfcc223b518698c44b2c4c30a3d325": [
     {
       "repository": "https://github.com/leonlatsch/Photok.git",
@@ -60685,6 +60895,20 @@
       "error": null
     }
   ],
+  "fe5cf9970e1ce90743e3cf2b4f1f45e204181fb5e2d4b58d0663a94336419c7d": [
+    {
+      "repository": "https://github.com/paroj/DSub2000.git",
+      "apk_url": "https://github.com/paroj/DSub2000/releases/download/5.7.0/DSub2000_5.7.0-floss-release.apk",
+      "appid": "github.paroj.dsub2000",
+      "version_code": 213,
+      "version_name": "5.7.0",
+      "tag": "5.7.0",
+      "commit": "caf7131c302c6ff123aed1fd3bc82f07adb06f3b",
+      "timestamp": 1767128695,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "15f8a0ca4b6ec0af765878239a0b5b1d5acfff16a677b432d39f6d710e51fe43": [
     {
       "repository": "https://github.com/green-green-avk/AnotherTerm.git",
@@ -63397,6 +63621,20 @@
       "error": null
     }
   ],
+  "ce3a4ef150c22bca113f1e0d9113eba06e4d43e2a1fae20dd95af64dec4b9466": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.8/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90608,
+      "version_name": "9.6.8",
+      "tag": "v9.6.8",
+      "commit": "4e11d3d2d2776a2f015a84342aeead619a2ec5d9",
+      "timestamp": 1767128915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcece554a290eca0ae224c7d86cb0a2c3f34b6d5ce1ad85f1f5f1dca5f6190ba": [
     {
       "repository": "https://github.com/Leonidius20/BeatInspector.git",
@@ -65675,6 +65913,20 @@
       "tag": "v2.40.0",
       "commit": "479fce68d5bd51463bf2b24c2c8a79c79ef7a9f1",
       "timestamp": 1765217399,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d875f74116dfef5b830983e54200051c2b2ac1760076973f3a76ad48f0002263": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.41.0/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 157,
+      "version_name": "2.41.0",
+      "tag": "v2.41.0",
+      "commit": "2c0efcb2c3bc59fb5d0107caa8993d7c2d77c8a6",
+      "timestamp": 1767129548,
       "reproducible": true,
       "error": null
     }
