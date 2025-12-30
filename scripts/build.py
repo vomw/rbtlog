@@ -217,6 +217,13 @@ def url_with_replacements(apk_url: str, tag: str, tag_pattern: Optional[str]) ->
             url = url.replace(f"$$TAG:{i + 1}$$", group)
     return url
 
+def clean_log(log: str):
+    env_secrets = ["CODEBERG_APIKEY", "GITHUB_APIKEY", "GITLAB_APIKEY"]
+    for secret in env_secrets:
+        offender = os.environ.get(secret)
+        if offender:
+            log = re.sub(offender, "********", log)
+    return log
 
 # FIXME
 def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *,
@@ -259,6 +266,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
                 result["build_log"] += e.stdout.decode()
                 raise
             finally:
+                result["build_log"] = clean_log(result["build_log"])
                 if verbose:
                     print(f"--- BEGIN BUILD LOG ---\n{result['build_log']}\n"
                           "--- END BUILD LOG ---", file=sys.stderr)
@@ -291,6 +299,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         error = f"axml error: {e}"
     except Error as e:
         error = str(e)
+    error = clean_log(error)
     if verbose:
         print(f"Error: {error}", file=sys.stderr)
     return dict(result, error=error)
@@ -376,6 +385,10 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         PROVISIONING_PLATFORM=recipe.provisioning.platform or "",
         PROVISIONING_PLATFORM_TOOLS=recipe.provisioning.platform_tools or "",
         PROVISIONING_TOOLS=recipe.provisioning.tools or "",
+        # warning: add secrets to clean_log too
+        RBTLOG_CODEBERG_APIKEY=os.environ.get("CODEBERG_APIKEY",""),
+        RBTLOG_GITHUB_APIKEY=os.environ.get("GITHUB_APIKEY",""),
+        RBTLOG_GITLAB_APIKEY=os.environ.get("GITLAB_APIKEY",""),
         VERIFY_GIT=verify_git,
         VERIFY_GRADLE_WRAPPER=verify_gradle_wrapper,
         WINDOWS_LIKE=windows_like)
