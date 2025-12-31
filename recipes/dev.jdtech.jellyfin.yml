@@ -110,3 +110,54 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.1
+    apks:
+      - apk_pattern: findroid-.*-libre-arm64-v8a\.apk
+        apk_url: https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.1/findroid-v1.0.1-libre-arm64-v8a.apk
+        build:
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("arm64-v8a")/ }' -i app/phone/build.gradle.kts
+          - ./gradlew :app:phone:assembleLibreRelease
+          - OUT=app/phone/build/outputs/apk/libre/release/findroid-*-libre-arm64-v8a.apk
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools: &id002
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+      - apk_pattern: findroid-.*-libre-armeabi-v7a\.apk
+        apk_url: https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.1/findroid-v1.0.1-libre-armeabi-v7a.apk
+        build:
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("armeabi-v7a")/ }' -i app/phone/build.gradle.kts
+          - ./gradlew :app:phone:assembleLibreRelease
+          - OUT=app/phone/build/outputs/apk/libre/release/findroid-*-libre-armeabi-v7a.apk
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools: *id002
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

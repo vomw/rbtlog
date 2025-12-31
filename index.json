@@ -2041,6 +2041,32 @@
       "timestamp": 1767037489,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.2.3-0/Podcini.X_release_free_10.2.3_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 229,
+      "version_name": "10.2.3",
+      "tag": "10.2.3-0",
+      "commit": "83717bcfa7738801900d1d0462da0a270710f2ea",
+      "timestamp": 1767192511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "529b3f574c45ae5534db010b49cd55475e24e28557791dd35a0efcab0922b829": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.2.4/Podcini.X_release_free_10.2.4_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 230,
+      "version_name": "10.2.4",
+      "tag": "10.2.4",
+      "commit": "147b09e6b5c81c9a731308d983d72e8fd6450a10",
+      "timestamp": 1767208945,
+      "reproducible": true,
+      "error": null
     }
   ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
@@ -2963,6 +2989,20 @@
       "tag": "3.7.2",
       "commit": "531f6c5a8ec2708b7720027d4af86876fe738014",
       "timestamp": 1764255356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8f9f586e9c559225d9a3a54563424e0c82bef771672090304be8ab8001bca902": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/3.8.2/flicky-3.8.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 741,
+      "version_name": "3.8.2",
+      "tag": "3.8.2",
+      "commit": "1d34b99ef28e09157fc07e46ec68f566fbfc478a",
+      "timestamp": 1767209353,
       "reproducible": true,
       "error": null
     }
@@ -31641,6 +31681,20 @@
       "error": null
     }
   ],
+  "548257e0c60dc7fed98502d35eb4bed701d8dc80e3764a878116f5c8ef484f26": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.0/KeePassDX-4.3.0-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 151,
+      "version_name": "4.3.0",
+      "tag": "4.3.0",
+      "commit": "8283d59fba1e72e06096685d4dd01b5266bd3095",
+      "timestamp": 1767192902,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -31805,6 +31859,20 @@
       "tag": "4.2.4",
       "commit": "3ba56677ba8eba57114278156cbf3bf2e227ca7b",
       "timestamp": 1763132686,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c65a05222c6aa42378ded8fcd5959ad1a1a185c25b51af9522f99098861cc8b": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.0/KeePassDX-4.3.0-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 151,
+      "version_name": "4.3.0",
+      "tag": "4.3.0",
+      "commit": "8283d59fba1e72e06096685d4dd01b5266bd3095",
+      "timestamp": 1767193208,
       "reproducible": true,
       "error": null
     }
@@ -56027,6 +56095,34 @@
       "error": null
     }
   ],
+  "3804fad9db4aadd8b8a05dec1f4c34694538b4aa89d7bded194eebc656527fbe": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.1/findroid-v1.0.1-libre-arm64-v8a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 31,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "f35146a496ede04d338bf439aced84ed4192084f",
+      "timestamp": 1767209811,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "863390faa99e268fab04068418c737bf7d809be7893bd4a9d9647da2014b22cb": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.1/findroid-v1.0.1-libre-armeabi-v7a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 31,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "f35146a496ede04d338bf439aced84ed4192084f",
+      "timestamp": 1767210367,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10a3b875a9ee5abca45fd5d283f3764c26bfcc223b518698c44b2c4c30a3d325": [
     {
       "repository": "https://github.com/leonlatsch/Photok.git",
@@ -63551,6 +63647,20 @@
       "error": null
     }
   ],
+  "f8dc89d2501c7a8bce909a76f7764dde26a998ac8652a4db60ba67fcfa4da850": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.15.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 21,
+      "version_name": "1.15.0",
+      "tag": "v1.15.0",
+      "commit": "e6a23289ef649febd3f1ff982d92920ce4e3ff26",
+      "timestamp": 1767193534,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0b8db3b323186eb08e83e6bc5779084495269292b4bf63b9a571c873ecd868f8": [
     {
       "repository": "https://github.com/Husseinfo/interfast.git",
@@ -63659,6 +63769,20 @@
       "tag": "v9.6.8",
       "commit": "4e11d3d2d2776a2f015a84342aeead619a2ec5d9",
       "timestamp": 1767128915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9de4fcb16df826e31c7dec285a003d47015e96ef4cdc9d0fc7cdcc19ad3125f": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.9/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90609,
+      "version_name": "9.6.9",
+      "tag": "v9.6.9",
+      "commit": "9fc2ade7a6868321d1799b63cfe4583976c2b9fe",
+      "timestamp": 1767193879,
       "reproducible": true,
       "error": null
     }
@@ -65969,6 +66093,20 @@
       "tag": "v2.41.0",
       "commit": "2c0efcb2c3bc59fb5d0107caa8993d7c2d77c8a6",
       "timestamp": 1767129548,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "03e0400a3cbf7476d65ad91604034d69407d2374e58e09cfd93eef8e43b39c6d": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.41.1/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 158,
+      "version_name": "2.41.1",
+      "tag": "v2.41.1",
+      "commit": "68d5dcd5f32b1d0da679098c73ff7db5d204d096",
+      "timestamp": 1767210929,
       "reproducible": true,
       "error": null
     }
@@ -72455,6 +72593,20 @@
       "error": null
     }
   ],
+  "383f5470ce0734bceb9e2ef343b049647a46f394fa833389c4e557a48e849484": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.4.2/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 8,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "4a0da0a0178a2f8c80d1331fbc1d08db4688942e",
+      "timestamp": 1767194365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cafdbf639fe3749b156f74bddca6738527818950ad77a41a4e0c1534d3cba942": [
     {
       "repository": "https://github.com/floccusaddon/floccus.git",
@@ -73067,6 +73219,20 @@
       "tag": "0.7.0",
       "commit": "5f1c80d0ce538dfda7779344a8f7d6851989dd85",
       "timestamp": 1766592770,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b44af6aee1730887b383af5b7702e37221d8e6d46d4d80a3c9275b7b6c5751b": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.7.1/squeezelite-0.7.1.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 701,
+      "version_name": "0.7.1",
+      "tag": "0.7.1",
+      "commit": "87a6e0e7132f65ef7a7e9a71707d0dd54f045c95",
+      "timestamp": 1767194766,
       "reproducible": true,
       "error": null
     }
@@ -76877,6 +77043,20 @@
       "error": null
     }
   ],
+  "5c37cac7c7bd18e80be29d029fe2695c73fe5db7adf0a027252cf5740b5b90fe": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.12.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 31,
+      "version_name": "5.12.0",
+      "tag": "v5.12.0",
+      "commit": "63835c274805fb8c162f8a0e7d8d2dc725701f4e",
+      "timestamp": 1767195162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -78025,6 +78205,20 @@
       "error": null
     }
   ],
+  "50fb78b052d3a9f172f926f748e78b124fa99dd9397272ff6ac72fc7c5a9421a": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.0/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 65,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "8d00be60c5b051fd2a2d51cb5a4f2c8b4881d4dd",
+      "timestamp": 1767195522,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58aaa2fe59af915f1fe88a560d472bd9aa68ebb75ae7f30444dd8081384ed136": [
     {
       "repository": "https://github.com/BlueCat300/XposedAppSettings.git",
@@ -78599,6 +78793,20 @@
       "error": null
     }
   ],
+  "f74d2d3d2a48b9813561170b99ed93e17b89a1822927a8d57193c1c1e376859f": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.3.1/flickboard-v0.3.1-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 104,
+      "version_name": "0.3.1",
+      "tag": "v0.3.1",
+      "commit": "10c1a5092648e257008766e5c8fc6a5897ae2011",
+      "timestamp": 1767195834,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "efe83dc8e9fbeedd3ea44f7bb585f84bd4a296dcbd3ca326cd3eb021d9b99de3": [
     {
       "repository": "https://github.com/cvzi/Lyrics.git",
@@ -79001,6 +79209,20 @@
       "tag": "0.1.8",
       "commit": "d554522b470a1b3611dd9db9cf8a61f93d6e2d88",
       "timestamp": 1743690202,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "604b5d8451818443a299f7f860377d05ec200cca9fc0bc77aef752dffab5bb5d": [
+    {
+      "repository": "https://github.com/khaled-0/Syncara.git",
+      "apk_url": "https://github.com/khaled-0/Syncara/releases/download/0.1.9/app-arm64-v8a-release.apk",
+      "appid": "syncara.app",
+      "version_code": 2010,
+      "version_name": "0.1.9",
+      "tag": "0.1.9",
+      "commit": "d29bca95162978632f1d53d2cb1e353d1b46ab2f",
+      "timestamp": 1767202870,
       "reproducible": true,
       "error": null
     }
@@ -79673,6 +79895,20 @@
       "tag": "3.0.1",
       "commit": "6aa13cb016fc21b9dad78eb6c6defb7296ffa9e8",
       "timestamp": 1766864742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de7bff77e343952948465ffbe51c2ecf9cbd54a8369ac1556f0e2e9077d3e90e": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.2/LockscreenWidgets_3.0.2-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 166,
+      "version_name": "3.0.2",
+      "tag": "3.0.2",
+      "commit": "961d11210d4eb5c4874bf5dbb600ffccbb6ef2b8",
+      "timestamp": 1767196219,
       "reproducible": true,
       "error": null
     }
@@ -81143,6 +81379,20 @@
       "tag": "2.3.2",
       "commit": "36236fcafd3c4ec294768864f06f15ce6356f955",
       "timestamp": 1760714174,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21cd8485ac0e5d06ae7562c27bc0ae0f9510c70b6fc3cedb3f90f7d480a89aea": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.4.0/aucards-2.4.0.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 19,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "97fb0b8b8d4b9053645a56bb2c00b187621f617f",
+      "timestamp": 1767196559,
       "reproducible": true,
       "error": null
     }

@@ -397,3 +397,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.3.1
+    apks:
+      - apk_pattern: flickboard-.*\.apk
+        apk_url: https://codeberg.org/natkr/flickboard/releases/download/v0.3.1/flickboard-v0.3.1-plain-release.apk
+        build:
+          - DEX_FILE=app/build/intermediates/dex/plainRelease/minifyPlainReleaseWithR8/classes.dex
+          - DEX_SHA1=06dfb2406cb32b53de35d9f1e8a5c01a871e3d5b
+          - for _ in {1..10}; do
+          - ./gradlew clean assemblePlainRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$DEX_FILE" | cut -d' ' -f1 )" = "$DEX_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/plain/release/flickboard-*-plain-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus: 8
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - openjdk-17-jdk-headless
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
