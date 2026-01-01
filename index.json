@@ -19833,6 +19833,20 @@
       "error": null
     }
   ],
+  "3aade96e9cf1544130045d65fab2f099550eed4f0fc5834907f3ed602873f02f": [
+    {
+      "repository": "https://github.com/devshield-tech/botox-android.git",
+      "apk_url": "https://github.com/devshield-tech/botox-android/releases/download/v1.0.39/app-release.apk",
+      "appid": "com.destructo.botox",
+      "version_code": 27,
+      "version_name": "1.0.27",
+      "tag": "v1.0.39",
+      "commit": "f7e00b9e14cedc00db146954dba785f952878ad5",
+      "timestamp": 1767282314,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bda80e0f7a0caabdb5f07b1d1deb2e41e093585bdcc6c976e5dbd9794f1f5bd9": [
     {
       "repository": "https://github.com/Baltasarq/nadamillas.git",
@@ -64021,6 +64035,20 @@
       "tag": "v1.5.1",
       "commit": "97e9f71a46690f119eafcb8e8a57b88bdcbd666c",
       "timestamp": 1756490506,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d899214f4b22801e27fe00cda1cf41c2e572a4f03f241e53110f0455bdcc48d1": [
+    {
+      "repository": "https://github.com/codehasan/Current-Activity.git",
+      "apk_url": "https://github.com/codehasan/Current-Activity/releases/download/v2.0.0/app-global-release.apk",
+      "appid": "io.github.ratul.topactivity",
+      "version_code": 23,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "0d27033277261d4852ea098064f9bf8a6e763b5e",
+      "timestamp": 1767277331,
       "reproducible": true,
       "error": null
     }
