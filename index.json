@@ -2069,6 +2069,20 @@
       "error": null
     }
   ],
+  "ca17db10f7b48cb1def65de713adedfe071954bb955da6b0e592b13833dbad4f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.3.0/Podcini.X_release_free_10.3.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 231,
+      "version_name": "10.3.0",
+      "tag": "10.3.0",
+      "commit": "2e62152a9d7b7e0189465309d608790b85cf2d5f",
+      "timestamp": 1767295346,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2569,6 +2583,20 @@
       "tag": "v9.10.9",
       "commit": "960237e30c3ca69f7391c3a4914351b18e44f21c",
       "timestamp": 1765308699,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cbbcbe94e64d7dc0ff6eb2e7483b3650d6a58e99d6e3b35a30b3cb25f301bbe6": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.0.3/cclauncher-v10.0.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1020,
+      "version_name": "v10.0.3",
+      "tag": "v10.0.3",
+      "commit": "966f5bbd9331f95e4d1440b303ae4855e974d6f7",
+      "timestamp": 1767278895,
       "reproducible": true,
       "error": null
     }
@@ -3315,6 +3343,20 @@
       "error": null
     }
   ],
+  "bc255bb0820ce46d6c39b3b3ee7ed069337e84d0638d90e0bbca2f40bdfb3441": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/3.6.2/fluffy-3.6.2-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 631,
+      "version_name": "3.6.2",
+      "tag": "3.6.2",
+      "commit": "301e4db7f1351bd522ee92c027fa5439c38b4c31",
+      "timestamp": 1767293152,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -3549,6 +3591,20 @@
       "tag": "v1.2.0",
       "commit": "0de21d61d6ae766683d6f07da2068154908a0508",
       "timestamp": 1766846883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dc4ef753240a6f5fd4c317caae49fc8c0d81ea403a5eb8695cf965196df19f0b": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.1/mpvEx-arm64-v8a-v1.2.1.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 132,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "0cf2d0ae2f70fd881f1b03fde740293f8d731196",
+      "timestamp": 1767279335,
       "reproducible": true,
       "error": null
     }
@@ -5551,6 +5607,20 @@
       "tag": "v1.5.1",
       "commit": "cc3a7199c53853009cde6acb6c306947f934fe2e",
       "timestamp": 1749145415,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "158055b64af9cb5b536eb9e961bd27c6017eb2b2d1988746f33d4726fdb6303c": [
+    {
+      "repository": "https://github.com/traced-it/traced-it-android.git",
+      "apk_url": "https://github.com/traced-it/traced-it-android/releases/download/v1.6.0/app.traced_it.apk",
+      "appid": "app.traced_it",
+      "version_code": 14,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "af223e170ae74471cbd2accce273d7a4751735d4",
+      "timestamp": 1767297983,
       "reproducible": true,
       "error": null
     }
@@ -9639,6 +9709,34 @@
       "tag": "v1.8.0/80",
       "commit": "cd207b6a11461cf552fd2652ef021b89c20db123",
       "timestamp": 1767036959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "da2d32278a41e11f27db467f52fa5ac58ad84b66e4c7b2e205a042d35543d5fc": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.8.1/81/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 81,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1/81",
+      "commit": "299d38c758a3284ae47c790f8951dbaadfbd877f",
+      "timestamp": 1767279882,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "290bbd15fda83360be40e156afe8f1df8c1e41e801c61dd7a01807e23ae4cbef": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.8.2/82/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 82,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2/82",
+      "commit": "8a808e6fc633edda3c5c07b9da4e0a99806a2d9e",
+      "timestamp": 1767295783,
       "reproducible": true,
       "error": null
     }
@@ -14411,6 +14509,20 @@
       "tag": "2025.12.1182",
       "commit": "a8eba32ad3488d266689f94b16ccd74c0588ef8b",
       "timestamp": 1766501813,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a87eb9f7b8810bbd856d2217be3192d7687e9eeac52209729608d759ede12557": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2025.12.1183/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1183,
+      "version_name": "2025.12.1183",
+      "tag": "2025.12.1183",
+      "commit": "1de6513d0eecea35e068fdfc92e4be29faf7e060",
+      "timestamp": 1767280062,
       "reproducible": true,
       "error": null
     }
@@ -20823,6 +20935,20 @@
       "tag": "v0.3.2-alpha",
       "commit": "41d2ef378596a0c756e24cd310750839fbbb38b5",
       "timestamp": 1766953670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c39879a733589bcde87d7018496fe61455d20c99dae6ab7688a27c75948312f0": [
+    {
+      "repository": "https://github.com/JackEblan/EinsteinLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EinsteinLauncher/releases/download/v0.3.3-alpha/EinsteinLauncher-v0.3.3-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 33,
+      "version_name": "0.3.3-alpha",
+      "tag": "v0.3.3-alpha",
+      "commit": "f1569c39cd011d71e4b364ea519365e6de1d0066",
+      "timestamp": 1767280488,
       "reproducible": true,
       "error": null
     }
@@ -35277,6 +35403,20 @@
       "error": null
     }
   ],
+  "03e4a883a855881810abce07dc76de6932ffbbfcdd657efad461b25c351f8aee": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.5/auto-light-25.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 7,
+      "version_name": "2.5",
+      "tag": "2.5",
+      "commit": "aeace3fcd05ed949133b890292d93238745ad301",
+      "timestamp": 1767281064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5fefa524aaf09875eed32a89b861b178e53b5db6f09fd3a67898961c19d1dfa": [
     {
       "repository": "https://github.com/The-First-King/Auto-Sleep.git",
@@ -35287,6 +35427,20 @@
       "tag": "1.3",
       "commit": "4e8cf85034e548a85e2f2cc9fda44265bd7e09d6",
       "timestamp": 1767000402,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6e7421fcb9a089cce063b4a5e30cb5be393ea32c85d0d152d75b90b1657cdb8": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Sleep.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Sleep/releases/download/2.0/auto-sleep-20.apk",
+      "appid": "com.mine.autosleep",
+      "version_code": 3,
+      "version_name": "2.0",
+      "tag": "2.0",
+      "commit": "d53b1be1152571bd3b1756856bbbb6e2663b410d",
+      "timestamp": 1767281157,
       "reproducible": true,
       "error": null
     }
@@ -41727,6 +41881,20 @@
       "error": null
     }
   ],
+  "ada2bbe1085ecd0a8430265cb1cb50f308e18cb6403f0f2259f74666b55fa861": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.6/xed-editor-v3.2.6.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 80,
+      "version_name": "3.2.6",
+      "tag": "v3.2.6",
+      "commit": "1225961c03f4303b34c50fca9dbf38bbfc07c4ca",
+      "timestamp": 1767281262,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -43109,6 +43277,20 @@
       "tag": "v3.4",
       "commit": "7dddf1f87564306ea563cf8936a3efe1b217b830",
       "timestamp": 1764185095,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f91ca47da9062cece7c642827c1d66652f8ce26e6242dc80ebf31c111b9bddc5": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v3.5/Quotes-app-v3.5.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 34,
+      "version_name": "3.5",
+      "tag": "v3.5",
+      "commit": "e91cfe35f67939d48cf69f7a586caba110ba8d11",
+      "timestamp": 1767281711,
       "reproducible": true,
       "error": null
     }
@@ -44911,6 +45093,20 @@
       "tag": "V1.0.18",
       "commit": "b880c965385c993c7d03b30a355511d0fc1035c7",
       "timestamp": 1763133249,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b2b7c994b0dcfb8921d39b70ebcb03fa0c1a7f74f8b50cb946713017fa60afd1": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/Release/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2022,
+      "version_name": "1.0.19",
+      "tag": "Release",
+      "commit": "dd73e5ab62431cb31382548dcd2e94d5b935b904",
+      "timestamp": 1767289772,
       "reproducible": true,
       "error": null
     }
@@ -54075,6 +54271,20 @@
       "tag": "1.3.4",
       "commit": "99a4f869b8c3c3e89715b36ba20b748d184db7d9",
       "timestamp": 1767022371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "79795e2478a66f05038e5f5b57e4051c9f27565da113f46f9f883dc44d197fef": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/1.3.5/MedicalCalendarLog-1.3.5-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 38,
+      "version_name": "1.3.5",
+      "tag": "1.3.5",
+      "commit": "3996325145a201391508b8bc5aec0a8b9f946e24",
+      "timestamp": 1767283026,
       "reproducible": true,
       "error": null
     }
@@ -66643,6 +66853,20 @@
       "error": null
     }
   ],
+  "fc6b8534baa2c01852f53e59d0512a70338b42e4fb8780b221eb4c6d69f6cf73": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.9.0/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 126,
+      "version_name": "1.9.0-izzy",
+      "tag": "v1.9.0",
+      "commit": "244eb40d496e2cec4eb54cc7c2ee07ddffc377fd",
+      "timestamp": 1767298715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -73797,6 +74021,20 @@
       "error": null
     }
   ],
+  "b317e7683b5a8309934884aa5b5286f2f438414052b05066fd323ae023693c02": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.8.1/tomato-v1.8.1-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 25,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "3be75e789816bf3ab94777ff170c468895731744",
+      "timestamp": 1767296062,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -74521,6 +74759,20 @@
       "tag": "1.6.10",
       "commit": "584999f760c463f36a717e635f587a9b6005394e",
       "timestamp": 1764014472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d4c182263a63f65a2d24f36c7dfc2d38d66b09bc222397c6dc0962c87fa0ea41": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.7.0/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 68,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "2a4667a6037262c9de3692ce900db349c117888f",
+      "timestamp": 1767283330,
       "reproducible": true,
       "error": null
     }
@@ -77655,6 +77907,20 @@
       "tag": "v0.16.2",
       "commit": "3c5b571dac97c078cad12e4f955e9101f0770e7b",
       "timestamp": 1764170952,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8c9844a8108a69ca75f245d6a4f7fbada8260b55a3c54487460d7c5c856007fc": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.16.3/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 46,
+      "version_name": "0.16.3",
+      "tag": "v0.16.3",
+      "commit": "d2cb8fdef3ff9989430229bb13e4a221f435dc00",
+      "timestamp": 1767283472,
       "reproducible": true,
       "error": null
     }

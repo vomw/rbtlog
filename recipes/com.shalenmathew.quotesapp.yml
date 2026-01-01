@@ -188,3 +188,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.5
+    apks:
+      - apk_pattern: Quotes.*\.apk
+        apk_url: https://github.com/shalenMathew/Quotes-app/releases/download/v3.5/Quotes-app-v3.5.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="app/build/outputs/apk/release/*unsigned.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-files $OUT 'sed -r s/"generated":"[^"]+Z"/"generated":"2025-11-03T13:53:15.73Z"/' 'res/M7.json'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
