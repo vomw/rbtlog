@@ -3609,6 +3609,20 @@
       "error": null
     }
   ],
+  "99639e06d9ca6ce013b446fec6aeb96bb6623eea290b1caeb68f7cf225e8b9e2": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.2/mpvEx-arm64-v8a-v1.2.2.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1222,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "36f2f1a25dec8359b2a1aeb44febe26afb02cc20",
+      "timestamp": 1767365291,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -9737,6 +9751,20 @@
       "tag": "v1.8.2/82",
       "commit": "8a808e6fc633edda3c5c07b9da4e0a99806a2d9e",
       "timestamp": 1767295783,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a267ba1190c72496b1a7417a71d6f3e4ee50b4dda36b0d6e559394a07ccb3745": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.9.0/83/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 83,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0/83",
+      "commit": "24ebc8523f11d0f110611099a08dd58dbc4a502f",
+      "timestamp": 1767381742,
       "reproducible": true,
       "error": null
     }
@@ -17845,6 +17873,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpsi6ud0gh/outputs:/outputs', '--volume', '/tmp/tmpsi6ud0gh/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/deniscerri/ytdlnis.git', '--env', 'APP_TAG=v1.8.7', '--env', 'APP_COMMIT=4c2306206b5cd7fb7ed66d8ac92a35c55371a7fa', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "d90aecb59994a44176163d270db39c1d841d0bba484e8bdce1af05d4d91d9cac": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.7.1/YTDLnis-1.8.7.1-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108070104,
+      "version_name": "1.8.7.1",
+      "tag": "v1.8.7.1",
+      "commit": "d3e1067ab662f5a29ebca2bc01479b6d00730a55",
+      "timestamp": 1767381982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fa49d98dddb55826ce08997ce030f3d6679c39ac4b14296354d65b8bda4cbd7d": [
     {
       "repository": "https://github.com/DerGoogler/MMRL.git",
@@ -19941,6 +19983,20 @@
       "tag": "5.0.12",
       "commit": "145026b687b8c8f5d339d22bcff6dc4882d2f477",
       "timestamp": 1765896943,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "24046ea6768816af0b85d6f6524d1bcea126710cb1874a07ac6a68778617c4a5": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.13/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 168,
+      "version_name": "5.0.13",
+      "tag": "5.0.13",
+      "commit": "4934bab5de3e19100a60d1cdc256619bf7bf87e0",
+      "timestamp": 1767382475,
       "reproducible": true,
       "error": null
     }
@@ -24055,6 +24111,20 @@
       "tag": "v1.21.5",
       "commit": "26d756a4c48efbc3449257f4f2b88e339caef6d6",
       "timestamp": 1766589524,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a4335c4fa088d4c7b3cc95952ae9ff8f2cc237360a190f8e01a53aaa6d461c29": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.6/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 146,
+      "version_name": "1.21.6",
+      "tag": "v1.21.6",
+      "commit": "259c736cdd78a747770908ef512d6499f0caea9c",
+      "timestamp": 1767365800,
       "reproducible": true,
       "error": null
     }
@@ -30211,6 +30281,20 @@
       "error": null
     }
   ],
+  "8c6cd82afefe9b623289b5d383853d1f8d953f86f2fa2b9af74d6ee22b1a1a33": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.5.0/PassVault-v1.5.0-b27-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 27,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "39766d9bad8c1052e04685d756267b0deae1ed3c",
+      "timestamp": 1767366113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -30739,6 +30823,20 @@
       "tag": "v1.3.1",
       "commit": "fc1e0a8faff7b877ad09efe00449f3f6c1d938b7",
       "timestamp": 1766692865,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9056fa7a74a6e148ca025057b70f7d0edf6bc4b56a93010f6b184036cc9e13a2": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.3.6/photos_signed_release.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 136,
+      "version_name": "v1.3.6",
+      "tag": "v1.3.6",
+      "commit": "7f4e1d2feb99566ada98f84865677c62f550994f",
+      "timestamp": 1767366426,
       "reproducible": true,
       "error": null
     }
@@ -35823,6 +35921,20 @@
       "error": null
     }
   ],
+  "d1204bfa3160f42811fedd431e0a71ce399d43d233b3ebbe7a078a7a22eb3012": [
+    {
+      "repository": "https://github.com/monuk7735/nope-remote.git",
+      "apk_url": "https://github.com/monuk7735/nope-remote/releases/download/v2.1/NopeRemote-v2.1.apk",
+      "appid": "com.monuk7735.nope.remote",
+      "version_code": 21,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "2283c0bd1aafee536c4b5612ba8d7b708c386f0c",
+      "timestamp": 1767382938,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "66ae7610512bcbd9692c5e7f7c2740f8a14b12598d9fadbc3122c1b67d463de0": [
     {
       "repository": "https://github.com/wardellbagby/sensor-disabler.git",
@@ -38615,6 +38727,20 @@
       "tag": "v1.14.0",
       "commit": "1097b592ff70e00d99f250d3c254e2185940c149",
       "timestamp": 1764789841,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71554719a893ed31f885701ae8f57cf7017c638dfb2cb5b06b08e918c8bd562e": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.15.0/orgzly-revived-fdroid-1.15.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 270,
+      "version_name": "1.15.0",
+      "tag": "v1.15.0",
+      "commit": "9d7612e1da24345b099e0139e97626221f0942e6",
+      "timestamp": 1767367006,
       "reproducible": true,
       "error": null
     }
@@ -64039,6 +64165,20 @@
       "error": null
     }
   ],
+  "789164aa17e4014667b8f01c3185f71b485d8377149e78b8967a888cfd83ee4a": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.10/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90610,
+      "version_name": "9.6.10",
+      "tag": "v9.6.10",
+      "commit": "6eadb1c3250bbe3eedc17503522a63236ff28609",
+      "timestamp": 1767367340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcece554a290eca0ae224c7d86cb0a2c3f34b6d5ce1ad85f1f5f1dca5f6190ba": [
     {
       "repository": "https://github.com/Leonidius20/BeatInspector.git",
@@ -73513,6 +73653,20 @@
       "tag": "0.7.1",
       "commit": "87a6e0e7132f65ef7a7e9a71707d0dd54f045c95",
       "timestamp": 1767194766,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a2b4a276f002cdac279407a8788c51e044bd55a3fea257ce9773a3002a0d9f5": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.8.0/squeezelite-0.8.0.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 800,
+      "version_name": "0.8.0",
+      "tag": "0.8.0",
+      "commit": "8928470ddca4b1703ce0c8ad1f541c44b0e11edd",
+      "timestamp": 1767383383,
       "reproducible": true,
       "error": null
     }
