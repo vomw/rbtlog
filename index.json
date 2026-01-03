@@ -2083,6 +2083,20 @@
       "error": null
     }
   ],
+  "066704ad06f5c2bd3ca67d181a05b5b12b7594f3a798219b36659e9f5df43051": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.3.1/Podcini.X_release_free_10.3.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 232,
+      "version_name": "10.3.1",
+      "tag": "10.3.1",
+      "commit": "c64ddb53761a7b632f3b53c7352490d27dc610f7",
+      "timestamp": 1767468180,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -8029,6 +8043,20 @@
       "tag": "v1.1.0",
       "commit": "5972eedc4c412caf1c2e0371c1843900155b83dc",
       "timestamp": 1753549441,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cb3d444b2343c009a112142c4d97b49e85290b197b651be3c0ee582c6654b3ad": [
+    {
+      "repository": "https://github.com/gfroerli/app-android.git",
+      "apk_url": "https://github.com/gfroerli/app-android/releases/download/v1.1.1/gfroerli-android-1.1.1.apk",
+      "appid": "ch.coredump.watertemp.zh",
+      "version_code": 19,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "0267b5f1feb28745a4a16419876436b1e83445d9",
+      "timestamp": 1767457659,
       "reproducible": true,
       "error": null
     }
@@ -24129,6 +24157,20 @@
       "error": null
     }
   ],
+  "93b00ca8ff5fed914b2566df85d116309740407f52f709a3b67e38f7f4ddbb3f": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.7/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 147,
+      "version_name": "1.21.7",
+      "tag": "v1.21.7",
+      "commit": "a03d7d5e08bb7a483b32a491c3d8326e3625473b",
+      "timestamp": 1767468691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -28923,6 +28965,20 @@
       "error": null
     }
   ],
+  "638db26e710b8ffb7820eb99592566e5fa56246217d173584cc5f8481f8c884f": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.11.0/NeverTooManyBooks-7.11.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 117,
+      "version_name": "7.11.0",
+      "tag": "v7.11.0",
+      "commit": "f51b17d04f8d29fb2798dba20000e7f9f71c7605",
+      "timestamp": 1767452101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "34403cada77e2aad7c6fc9bac1f22d07d6b60089d6a95ceca3fc41ee09741473": [
     {
       "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
@@ -30837,6 +30893,20 @@
       "tag": "v1.3.6",
       "commit": "7f4e1d2feb99566ada98f84865677c62f550994f",
       "timestamp": 1767366426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6392e5fb5248dcd8adef008560a1aa94d9cd0f41bedca5ed43999cc632761f1c": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.3.8/photos_signed_release_arm64-v8a.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 138,
+      "version_name": "v1.3.8",
+      "tag": "v1.3.8",
+      "commit": "a622932fc65e968e4bad5f5807957b55d19f374d",
+      "timestamp": 1767458009,
       "reproducible": true,
       "error": null
     }
@@ -33287,6 +33357,20 @@
       "tag": "8.3.15",
       "commit": "a02445d365ad7391f74a93d5d1f8ccedf0304710",
       "timestamp": 1766950924,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca277ef63c720f79ba6a08bb07434b266c9947abd9005a92d6b384b444d19686": [
+    {
+      "repository": "https://github.com/NeoApplications/Neo-Backup.git",
+      "apk_url": "https://github.com/NeoApplications/Neo-Backup/releases/download/8.3.16/Neo_Backup_8.3.16_release.apk",
+      "appid": "com.machiav3lli.backup",
+      "version_code": 8329,
+      "version_name": "8.3.16",
+      "tag": "8.3.16",
+      "commit": "da373260bd8f750cd7c36d5531e33c9b3bcf441e",
+      "timestamp": 1767452977,
       "reproducible": true,
       "error": null
     }
@@ -35837,6 +35921,20 @@
       "error": null
     }
   ],
+  "aa696de443856ed7999c78ebda35013bc219d9082835635e3b82a44227c760be": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.21.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 63,
+      "version_name": "1.21.0",
+      "tag": "v1.21.0",
+      "commit": "2dd9ce966a45d197ce2260873106f5fd998406de",
+      "timestamp": 1767453380,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -38153,6 +38251,20 @@
       "tag": "v1.1.0",
       "commit": "3a5491b6a1c9166e2df720b8e364b8f9adeacca9",
       "timestamp": 1766695271,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "955dbbe80ecf7265b8373572ed2b4cf366ef0a4c36541766ee6a234cbaa03dd9": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/5G.git",
+      "apk_url": "https://github.com/OpenAppsLabs/5G/releases/download/v1.1.1/app-release.apk",
+      "appid": "com.openappslabs.fiveg",
+      "version_code": 3,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "25c3b21d25355f13e1a2ce9ccde14fa7042f1059",
+      "timestamp": 1767453709,
       "reproducible": true,
       "error": null
     }
@@ -43295,6 +43407,20 @@
       "error": null
     }
   ],
+  "6216f9afe10b245a8ca4b0d29f2eb14083acf4035a31d9db15755faf8acda8f2": [
+    {
+      "repository": "https://github.com/duckniii/SeekPrivacy.git",
+      "apk_url": "https://github.com/duckniii/SeekPrivacy/releases/download/v2.0/seekprivacy-app2-0-release.apk",
+      "appid": "com.seeker.seekprivacy",
+      "version_code": 3,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "b44e88be816cb2e9a42885b5d93d5103507437fb",
+      "timestamp": 1767462870,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec3a42feec29d67a664e26e9c89f78e577a75e8328a643b048b313ca762e33a": [
     {
       "repository": "https://github.com/sergenious/MediaBrowserAndroid.git",
@@ -45247,6 +45373,18 @@
       "tag": "Release",
       "commit": "dd73e5ab62431cb31382548dcd2e94d5b935b904",
       "timestamp": 1767289772,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.19/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2022,
+      "version_name": "1.0.19",
+      "tag": "V1.0.19",
+      "commit": "dd73e5ab62431cb31382548dcd2e94d5b935b904",
+      "timestamp": 1767469076,
       "reproducible": true,
       "error": null
     }
@@ -56767,6 +56905,20 @@
       "error": null
     }
   ],
+  "c275301c4dffa09c7954d75a9409f3ea4f1b740ad7d44b61e785be5c9ae94aa4": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.4.0/Photok-2.4.0-FOSS.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 51,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "9fa4b246a111e6daea6749ad1d8fe3e8ce690f52",
+      "timestamp": 1767469826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -57881,6 +58033,20 @@
       "tag": "v0.3.0-beta",
       "commit": "b926815486616c226a81d979280f9a550502c469",
       "timestamp": 1764342204,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "59472c68119350b42cacf51213838f2128c212cc09a66946fff9b22d5e6a59a9": [
+    {
+      "repository": "https://github.com/sergcam/SimpleTag.git",
+      "apk_url": "https://github.com/sergcam/SimpleTag/releases/download/v0.3.1-beta/SimpleTag_0.3.1-beta.apk",
+      "appid": "dev.secam.simpletag",
+      "version_code": 10,
+      "version_name": "0.3.1-beta",
+      "tag": "v0.3.1-beta",
+      "commit": "87e3383721e77429a97b79910d6e6ba87eb9d7c6",
+      "timestamp": 1767458628,
       "reproducible": true,
       "error": null
     }
@@ -63843,6 +64009,20 @@
       "error": null
     }
   ],
+  "1f4801bf4580b7cbe3320a42b310a5723ae36e3a393b96bda6e4b87c9e46fb58": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.22.8%2B135/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2135,
+      "version_name": "1.22.8",
+      "tag": "v1.22.8+135",
+      "commit": "1b54f17ba24929844731bc51dbb1adcccbcd4931",
+      "timestamp": 1767454336,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -66191,6 +66371,20 @@
       "tag": "v1.0.17+16",
       "commit": "87b2fc885810bf731d2eab0cf09148122a34d2cc",
       "timestamp": 1766504177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd2e64eef516071a1c988cae3f51114291c76688b9260be5ff5117073696403b": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.18%2B17/rsm_v1.0.18%2B17_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2017,
+      "version_name": "1.0.18",
+      "tag": "v1.0.18+17",
+      "commit": "731928081335f2f46d66d7de45e65e1d4524e5d2",
+      "timestamp": 1767455292,
       "reproducible": true,
       "error": null
     }
@@ -70251,6 +70445,20 @@
       "tag": "v1.2.7",
       "commit": "f4c5fd931f62dd80f0b3f81cf095c0c02d4f1731",
       "timestamp": 1766934417,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1a33a2287f3a7958674cbd4e958c200f4ca67b004517afb72a6cb7cf748bb45": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.0.0/DragonLauncher-v2.0.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 23,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "e89a793b01b3a2664056c51470d518dffbc83929",
+      "timestamp": 1767470242,
       "reproducible": true,
       "error": null
     }
@@ -78093,6 +78301,20 @@
       "error": null
     }
   ],
+  "504647d9ac91e7e393a90f2beeb1d2af8eefc490ece64446727e8b0aed4954f7": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.16.4/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 47,
+      "version_name": "0.16.4",
+      "tag": "v0.16.4",
+      "commit": "a766d4644ad51ce18d643933912b78784266aa37",
+      "timestamp": 1767455754,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c29c3b7fce2d8343740ce7d48b1316a4f8214ee2f4bb2577bd8e56fa2283eb17": [
     {
       "repository": "https://github.com/iamrasel/crushr.git",
@@ -80385,6 +80607,20 @@
       "tag": "3.0.2",
       "commit": "961d11210d4eb5c4874bf5dbb600ffccbb6ef2b8",
       "timestamp": 1767196219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a7344cbafe5520d17367b2bbf09aae12856780914c5cd22a796f2a1c1077726": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.1.0/LockscreenWidgets_3.1.0-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 168,
+      "version_name": "3.1.0",
+      "tag": "3.1.0",
+      "commit": "20db16efd456f7444fa4d8167747e1a8d0697a07",
+      "timestamp": 1767470672,
       "reproducible": true,
       "error": null
     }
