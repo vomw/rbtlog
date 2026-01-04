@@ -62,3 +62,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.2.0
+    apks:
+      - apk_pattern: simple-notes-sync.*fdroid-universal\.apk
+        apk_url: https://github.com/inventory69/simple-notes-sync/releases/download/v1.2.0/simple-notes-sync-v1.2.0-fdroid-universal.apk
+        build:
+          - cd android
+          - ./gradlew assembleFdroidRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/fdroid/release/app-fdroid-universal-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

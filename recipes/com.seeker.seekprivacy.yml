@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/duckniii/SeekPrivacy.git
 updates: releases
+notes:
+  -'FIXME: v2.0.1 was built from dirty tree, remove sed with next release'
 versions:
   - tag: v1.5
     apks:
@@ -36,6 +38,36 @@ versions:
       - apk_pattern: seekprivacy-app.*release\.apk
         apk_url: https://github.com/duckniii/SeekPrivacy/releases/download/v2.0/seekprivacy-app2-0-release.apk
         build:
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.0.1
+    apks:
+      - apk_pattern: seekprivacy-app.*release\.apk
+        apk_url: https://github.com/duckniii/SeekPrivacy/releases/download/v2.0.1/seekprivacy-app2-0-1-release.apk
+        build:
+          - sed -r 's/SeekPrivacy needs Storage permissions to manage your encrypted files safely/Below Android 13 SeekPrivacy needs Storage permissions to manage your encrypted files safely/' -i app/src/main/java/com/seeker/SeekPrivacy/DashboardActivity.kt
           - ./gradlew assembleRelease
           - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
