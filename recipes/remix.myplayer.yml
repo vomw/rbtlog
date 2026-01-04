@@ -1,0 +1,37 @@
+---
+repository: https://github.com/rRemix/APlayer.git
+updates: releases
+versions:
+  - tag: v2.0.1.0.0
+    apks:
+      - apk_pattern: APlayer.*nonGoogle-withoutUpdater-release\.apk
+        apk_url: https://github.com/rRemix/APlayer/releases/download/v2.0.1.0.0/APlayer-v2.0.1.0-nonGoogle-withoutUpdater-release.apk
+        build:
+          - git reset --soft 6262739c4af6601302906e7f518e44e1296aadbb
+          - sed -r '/signingConfigs\["releaseConfig"\]/d' -i app/build.gradle.kts
+          - base64 -d > local.properties <<< TEFTVEZNX0FQSV9LRVk9OGY2YTM5MTNlYTA2Zjc4MzY0ZmExOTUzYzRkYWQ5NDIK
+          - chmod +x gradlew
+          - ./gradlew assembleNonGoogleWithoutUpdaterRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/nonGoogleWithoutUpdater/release/APlayer-*-nonGoogle-withoutUpdater-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
