@@ -2097,6 +2097,20 @@
       "error": null
     }
   ],
+  "7d525b350cf9092316fe6962832de2286988e7b18779ceeeb5956ba8fb5b6f26": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.3.2/Podcini.X_release_free_10.3.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 233,
+      "version_name": "10.3.2",
+      "tag": "10.3.2",
+      "commit": "b9ff6e6645957157ec7478815671a9e0d45b333e",
+      "timestamp": 1767644176,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -14625,6 +14639,20 @@
       "error": null
     }
   ],
+  "4c8820e7b924fb6a26653b444ef3db9ee53995be1428e87795b1708916a8fffb": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.01.1184-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1184,
+      "version_name": "2026.01.1184-dev",
+      "tag": "2026.01.1184-dev",
+      "commit": "1eed4fc130fb4c500e7fb27f22f38b0aa3a3b1d4",
+      "timestamp": 1767624602,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -17785,6 +17813,20 @@
       "tag": "v2.16.0",
       "commit": "3309a3a610c66a033f77b68fa7f7aa2156637acf",
       "timestamp": 1767538889,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e8070f09410f8ea10af1a04c6d7b165ad111f3c520aee734ae608f4d9e359e00": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.16.1/daily-you-arm64-v8a-v2.16.1.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20160012,
+      "version_name": "2.16.1",
+      "tag": "v2.16.1",
+      "commit": "4fbecd5044c694092e6596bedbf23adfae5b8d71",
+      "timestamp": 1767625040,
       "reproducible": true,
       "error": null
     }
@@ -24336,6 +24378,20 @@
       "commit": "67fec8817ef26731c5cef4790acfcb9db23d3145",
       "timestamp": 1761142425,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "d3fe7f2a36c4b4581cb5eb385d1849eda94b0f367198a00971d85c090d7de61c": [
+    {
+      "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
+      "apk_url": "https://github.com/More-Than-Solitaire/Tabs-Lite/releases/download/v3.8.6/TabsLite.v3.8.6.apk",
+      "appid": "com.gbros.tabslite",
+      "version_code": 3860,
+      "version_name": "3.8.6",
+      "tag": "v3.8.6",
+      "commit": "49ecbe709c2f002408d689c59799d683f8c0602a",
+      "timestamp": 1767642822,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -30995,6 +31051,20 @@
       "error": null
     }
   ],
+  "0b3e06ec3fe6780795412004d736fa273bef317c5ea7ea189c4c69f671917fd1": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v1.3.9/photos_signed_release_arm64-v8a.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 139,
+      "version_name": "v1.3.9",
+      "tag": "v1.3.9",
+      "commit": "8c4cbb2581f88272043c079eadc71327aff35b54",
+      "timestamp": 1767641542,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
     {
       "repository": "https://github.com/kaleedtc/Privacium.git",
@@ -33625,6 +33695,20 @@
       "timestamp": 1765552205,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "5df96b0c0f32a5263dbdd0878e2a80f161ac5a1ec575632b79a127101e351082": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.1/Neo_Store_1.2.1_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1201,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "73a5fc9c94e0cef8eff6a19e2c29f5c76742c499",
+      "timestamp": 1767625788,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpvqg216xw/outputs:/outputs', '--volume', '/tmp/tmpvqg216xw/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/NeoApplications/Neo-Store.git', '--env', 'APP_TAG=1.2.1', '--env', 'APP_COMMIT=73a5fc9c94e0cef8eff6a19e2c29f5c76742c499', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=build-essential,cmake,ninja-build', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
@@ -39091,6 +39175,20 @@
       "tag": "release-1.16.0",
       "commit": "cc3310aebd060e15b0be39d99ba2c2aedf1043e5",
       "timestamp": 1765729849,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8a50f03e897bb1dbfd2fc1917fcaa32f81d2a996aa92ff3d09d071a93cba6797": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.17.0/dahdidahdit-1.17.0.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1170001,
+      "version_name": "1.17.0",
+      "tag": "release-1.17.0",
+      "commit": "1b98b5b280878dd853c149426e7cd48a48ed4cab",
+      "timestamp": 1767642130,
       "reproducible": true,
       "error": null
     }
@@ -47545,6 +47643,20 @@
       "error": null
     }
   ],
+  "f3c59da17f3a19520e9b5b95be738af11d2df51da9b5b15fe9b67fa3b9c9c02c": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.5/call-limiter-0.3.5.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 6,
+      "version_name": "0.3.5",
+      "tag": "0.3.5",
+      "commit": "938f7a91c0df237f4fb01ba6c8b6a942bec71164",
+      "timestamp": 1767643651,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec1f2388c8dcea14159524b1bbd4c81a7d7830bab73fbe4efbc5e39d36e7b56": [
     {
       "repository": "https://github.com/0xf4b1/motionmate.git",
@@ -55911,6 +56023,34 @@
       "error": null
     }
   ],
+  "39a9011b4da55fa5e6dd4a7e9f0315b5385b19b627afdee2262adbae0f858b38": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.2.1/simple-notes-sync-v1.2.1-fdroid-universal.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 6,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "015b90d56e848830d0bf954655101c651382c5e9",
+      "timestamp": 1767626427,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a5f9cf5b89db82c6ff28ac728a0309b9e67a2d7df41d1881eb0766121d7baa9f": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.2.2/simple-notes-sync-v1.2.2-fdroid-universal.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 7,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "62423f5a5b0f3142f2bfffee974a75f416a33812",
+      "timestamp": 1767642624,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -57642,6 +57782,20 @@
       "commit": "2d32cc76708fb06aa93fb22cfc017a4c48ecfc33",
       "timestamp": 1766766593,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "1f9056e585bc5664296ad69a68120befaa4a9e8c7bddae48140f4607afc909b6": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v3.0.1/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 301,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "4e1600dc7b97dd0907f25a7b2915dd7028490d76",
+      "timestamp": 1767559625,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -73483,6 +73637,20 @@
       "tag": "v1.4.2",
       "commit": "4a0da0a0178a2f8c80d1331fbc1d08db4688942e",
       "timestamp": 1767194365,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6f8c1c8f82f6ae3a8e5d154b70a2e5fbdda5c68d0ebcd9074e3277fc49d608b2": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.4.3/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 9,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "d41738bafe10abe8ddfdebc30af3c657aa2d00dd",
+      "timestamp": 1767626666,
       "reproducible": true,
       "error": null
     }
