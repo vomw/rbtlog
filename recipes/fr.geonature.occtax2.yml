@@ -64,3 +64,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 2.7.3
+    apks:
+      - apk_pattern: occtax-.*\.apk
+        apk_url: https://github.com/PnX-SI/gn_mobile_occtax/releases/download/2.7.3/occtax-2.7.3-release.rotate.apk
+        build:
+          - git reset --soft 6e129273d4c65fc010f617807c36903545734126
+          - sed -r '/signingConfigs.release/d' -i occtax/build.gradle
+          - sed -r 's/new Date\(\)\.getTime\(\)/1731849775420/' -i occtax/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv occtax/build/outputs/apk/release/occtax-*-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

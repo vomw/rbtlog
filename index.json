@@ -2111,6 +2111,20 @@
       "error": null
     }
   ],
+  "407d7cc3a1c9d71a2cd6d0a7b9a601a1010666f53d2e78e36735ba51c83bb4fc": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.4.0/Podcini.X_release_free_10.4.0_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 234,
+      "version_name": "10.4.0",
+      "tag": "10.4.0",
+      "commit": "c10a5f32ef2a0f7df126180bd0ff97fd282aed79",
+      "timestamp": 1767813784,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2639,6 +2653,20 @@
       "tag": "v10.1.1",
       "commit": "2fc8d26c7ce4768a566018059a5c8f59f0832ed4",
       "timestamp": 1767538113,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "02a9df33ce907f7c66a5e9efa7c56efac69877f82acdbc0919ba24e93a17d44f": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.2.1/cclauncher-v10.2.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1040,
+      "version_name": "v10.2.1",
+      "tag": "v10.2.1",
+      "commit": "f9afc5e754997e746bba6ec37a3d7acbda68553d",
+      "timestamp": 1767814327,
       "reproducible": true,
       "error": null
     }
@@ -3689,6 +3717,20 @@
       "tag": "v1.2.3",
       "commit": "35cd4ccc911280623366468143f054034c62ad98",
       "timestamp": 1767554569,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "503e07f88ca2a8cdd2a3fdf79d9e662ab6710bfdeef1e1cbf9020d6c8641086a": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.4/mpvEx-arm64-v8a-v1.2.4.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1242,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "62e38565776d73abf82a11c1721c9d888654c0f5",
+      "timestamp": 1767814765,
       "reproducible": true,
       "error": null
     }
@@ -4823,6 +4865,20 @@
       "tag": "build106.4.3",
       "commit": "690e7c0bb7018226c04a4266b8a1312130ff146a",
       "timestamp": 1766588713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c7abf72a8e9b83067695be5f3c1e9482be34b8b6026edf299ec6da0cb1e46829": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.4.5/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10645,
+      "version_name": "build106.4.5",
+      "tag": "build106.4.5",
+      "commit": "628c99c2bbcef62306bb29d5d43ea83ce5009639",
+      "timestamp": 1767815422,
       "reproducible": true,
       "error": null
     }
@@ -8733,6 +8789,20 @@
       "error": null
     }
   ],
+  "2a12d1e3e9810602b9a08e8996c01ddca73fb28512ea50f529b05c80c7875f47": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.0.308.848-stable/Rhythm-4.0.308.848-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 40308848,
+      "version_name": "4.0.308.848",
+      "tag": "v4.0.308.848-stable",
+      "commit": "c2cdb2ccbdfe5e27e7721e1f4e33018a793d4fc8",
+      "timestamp": 1767817346,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -9415,6 +9485,20 @@
       "tag": "v1.0.1",
       "commit": "1f162c4d4e3c02e59595ba2e6f65178bc87d1ee6",
       "timestamp": 1766346539,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b7dac3bcf2c73489761a8a728e7e5ec0b23f2888cec1e170def4ad1fb4d45ed": [
+    {
+      "repository": "https://github.com/ahmedthebest31/PureLink-Android.git",
+      "apk_url": "https://github.com/ahmedthebest31/PureLink-Android/releases/download/v2.0.0/PureLink-v2.0.0.apk",
+      "appid": "com.ahmedsamy.purelink",
+      "version_code": 3,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "57627794f3f3726e22921d33112ae78251a3f6e7",
+      "timestamp": 1767805873,
       "reproducible": true,
       "error": null
     }
@@ -14677,6 +14761,20 @@
       "tag": "2026.01.1184-dev",
       "commit": "1eed4fc130fb4c500e7fb27f22f38b0aa3a3b1d4",
       "timestamp": 1767624602,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a2e24bce21481130d91f7212feb8ef13358a7de718cb0fd0bafa2032697c421f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.01.1185-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1185,
+      "version_name": "2026.01.1185-dev",
+      "tag": "2026.01.1185-dev",
+      "commit": "2b8854bfc1b11aac1a0de902d13d034ede66558f",
+      "timestamp": 1767818069,
       "reproducible": true,
       "error": null
     }
@@ -26667,6 +26765,20 @@
       "tag": "v3.5.2",
       "commit": "e45623ff83a93f09f6f5ff42d1f821faf4f59c1e",
       "timestamp": 1766416067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d3bb8b8bd1b055379cbe4d4c18d91ff139c6985328c99dca764071c1b3806feb": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.5.4/DroidPad-v3.5.4.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 38,
+      "version_name": "3.5.4",
+      "tag": "v3.5.4",
+      "commit": "208bdc34d51d5272f9d85f4be119b93305fef22a",
+      "timestamp": 1767818654,
       "reproducible": true,
       "error": null
     }
@@ -48875,6 +48987,34 @@
       "error": null
     }
   ],
+  "9bb7a11c0d92f147b7020465745628349bc477b0ee587f6c96a6e354b652cbb6": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.20.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32000,
+      "version_name": "3.20.0",
+      "tag": "v3.20.0",
+      "commit": "e4c9d0e9867a33ef2edffec082fd26d197b1baa5",
+      "timestamp": 1767819124,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d1ec494162fb776b2901076a8dd0367199400ad5e70bc87fa20471b42da4d7c": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.20.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32000,
+      "version_name": "3.20.0",
+      "tag": "v3.20.0",
+      "commit": "e4c9d0e9867a33ef2edffec082fd26d197b1baa5",
+      "timestamp": 1767819366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -49039,6 +49179,20 @@
       "tag": "v.1.4.9",
       "commit": "91389aadd6576697532ac571bc28aa500f909d07",
       "timestamp": 1759932525,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6fdd9c802efe019602ec2d3aceda04d1762b19fa916d069e95dd0b1ea68f6e0b": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.10/chooser-v1.4.10.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 24,
+      "version_name": "1.4.10",
+      "tag": "v.1.4.10",
+      "commit": "6e459962c60c2e0a902f4a0ea0c4b8ee8ae38d11",
+      "timestamp": 1767819613,
       "reproducible": true,
       "error": null
     }
@@ -56219,6 +56373,20 @@
       "error": null
     }
   ],
+  "81703909df95c1a456574e86554b348c1e40b019ac13d0defe9c07f5cabc95c1": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.3.0/simple-notes-sync-v1.3.0-fdroid-universal.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "2a56dd812816fee0ff414daa97222eb3d2bf276d",
+      "timestamp": 1767819981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -61955,6 +62123,20 @@
       "error": null
     }
   ],
+  "28c20fff9944df4de4f4d40a3e0435b229de5aaf1d9c763156adf45ff7be5e1b": [
+    {
+      "repository": "https://github.com/PnX-SI/gn_mobile_occtax.git",
+      "apk_url": "https://github.com/PnX-SI/gn_mobile_occtax/releases/download/2.7.3/occtax-2.7.3-release.rotate.apk",
+      "appid": "fr.geonature.occtax2",
+      "version_code": 3324,
+      "version_name": "2.7.3",
+      "tag": "2.7.3",
+      "commit": "9856bd4aeb59257c2d2789f502ad6d72c97def14",
+      "timestamp": 1767820308,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "086855d6a0bbae5a5bbefebe4ccf64d4da3109abd85ed1c0e60c6c0235cc0868": [
     {
       "repository": "https://github.com/tyrex-team/senslogs.git",
@@ -65577,6 +65759,20 @@
       "error": null
     }
   ],
+  "9376627cf13b2e7b119d017505fc9afafb8066b0f29d8eab44e73ae18745fd98": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.01.1/gitnote-release-26.01.1.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 15,
+      "version_name": "26.01.1",
+      "tag": "26.01.1",
+      "commit": "2eb40fb09de56dfa6060429e4bebab425ecd0c42",
+      "timestamp": 1767820716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bb5616daa155025b9e7bc4defcdb2774af1bc3bfb67ec54aeade0352743c6ea1": [
     {
       "repository": "https://github.com/yamin8000/freeDictionaryApp.git",
@@ -67799,6 +67995,20 @@
       "tag": "v1.9.0",
       "commit": "244eb40d496e2cec4eb54cc7c2ee07ddffc377fd",
       "timestamp": 1767298715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee139177fee72649bddd8cdd42f5a48ddad81bce593c9487d5c6c1def649b3bd": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.9.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 128,
+      "version_name": "1.9.2-izzy",
+      "tag": "v1.9.2",
+      "commit": "d2e948776d5cc39e7bd2f9a5500c932cf030bb44",
+      "timestamp": 1767821385,
       "reproducible": true,
       "error": null
     }
@@ -70865,6 +71075,20 @@
       "tag": "3.6.24",
       "commit": "7c6e66e1080c5e315066f2b20aadd5d1e88146ca",
       "timestamp": 1764607767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "238bebde5c8c9d17c7e97d8946af7b2e3b29ce134e25315688f5f57151558739": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.26/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 178,
+      "version_name": "3.6.26",
+      "tag": "3.6.26",
+      "commit": "7bc4f0f71322b4542f91a561b6f2863ee28cb69f",
+      "timestamp": 1767822263,
       "reproducible": true,
       "error": null
     }
