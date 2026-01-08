@@ -2671,6 +2671,20 @@
       "error": null
     }
   ],
+  "5a3f3f605f956734a641861b037af3fff13ad1924497501e25924fc0dc2c04a9": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.2.2/cclauncher-v10.2.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1050,
+      "version_name": "v10.2.2",
+      "tag": "v10.2.2",
+      "commit": "d0eae71d845812f1ff50da6b699a4356c105c1b9",
+      "timestamp": 1767883815,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -7471,6 +7485,20 @@
       "timestamp": 1766242555,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "be21db4815e5f451c55588f060d73fcec866da596f3a567836f80a24f4f089de": [
+    {
+      "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
+      "apk_url": "https://github.com/Moustachauve/WLED-Android/releases/download/v6.1.0/wled-6.1.0-48.apk",
+      "appid": "ca.cgagnier.wlednativeandroid",
+      "version_code": 48,
+      "version_name": "6.1.0",
+      "tag": "v6.1.0",
+      "commit": "0f2295bb77c78e8566699afcdf1cd7ebb91ba11a",
+      "timestamp": 1767900181,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp735uele9/outputs:/outputs', '--volume', '/tmp/tmp735uele9/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Moustachauve/WLED-Native-Android.git', '--env', 'APP_TAG=v6.1.0', '--env', 'APP_COMMIT=0f2295bb77c78e8566699afcdf1cd7ebb91ba11a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "2bf0f3ad4c5c75e023cc692403ffa54702649b1c89267e30ce9525dfb38263bf": [
@@ -31653,6 +31681,20 @@
       "error": null
     }
   ],
+  "f6107a46e6b9b2ddb91371cace13bf7f560cca286e4471bbc2664f7f647f8aa4": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.3/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 29,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "6363127326569797e22962ce9eba4f720439375f",
+      "timestamp": 1767885439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -39273,6 +39315,20 @@
       "tag": "v1.15.0",
       "commit": "9d7612e1da24345b099e0139e97626221f0942e6",
       "timestamp": 1767367006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a2c3341ce3ddc7f0a65205e4863c40fc9bceceed33af18912d1e1802cac966fa": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.16.0/orgzly-revived-fdroid-1.16.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 272,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "c27c94b0c845f661964fc28528b17df7e5be76f5",
+      "timestamp": 1767885748,
       "reproducible": true,
       "error": null
     }
@@ -58149,6 +58205,20 @@
       "error": null
     }
   ],
+  "ba80ebdc0e31136292d5819056dbb488950d532da0e1f076090e590a6c01d1a5": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/PranavPurwar/Reef/releases/download/v3.0.3/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 303,
+      "version_name": "3.0.3",
+      "tag": "v3.0.3",
+      "commit": "544686cca366eb91192b599a2974eea504b13b05",
+      "timestamp": 1767886100,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b81174deddede1defe8b8f412e8f0c6bb225cddd15c4cf0253628c5c8f1ac1da": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -71107,6 +71177,20 @@
       "error": null
     }
   ],
+  "2bbc23e3cea300d48cfb6f8067c1ed5a7c2c8ae36c736ddb47c8474126a2fe21": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.27/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 179,
+      "version_name": "3.6.27",
+      "tag": "3.6.27",
+      "commit": "884f56f8bdad9acaf86453a256c16e64e51545ea",
+      "timestamp": 1767886430,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -81311,104 +81395,6 @@
       "error": null
     }
   ],
-  "fd6511887b3af48bdb92402fee3578b69b67dfa65eebebd8fdc976a63e3f9e94": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha01/LockscreenWidgets_3.0.0-alpha01-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 146,
-      "version_name": "3.0.0-alpha01",
-      "tag": "3.0.0-alpha01",
-      "commit": "8227decc48b159e560fd6f391e5adc9f3d0805e2",
-      "timestamp": 1762034209,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "e4421e090289239e99e018c8c1fe29bdceb02977edff12fb4779eb1de0eb1221": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha02/LockscreenWidgets_3.0.0-alpha02-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 147,
-      "version_name": "3.0.0-alpha02",
-      "tag": "3.0.0-alpha02",
-      "commit": "1c4b0156df23daeb6b6ccb3d1af2ec63b210ad83",
-      "timestamp": 1762183227,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "2eebc09c1333bb045becfc79b7f65dd25f1a497e9df63bd592e48a6f60ab4901": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha04/LockscreenWidgets_3.0.0-alpha04-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 149,
-      "version_name": "3.0.0-alpha04",
-      "tag": "3.0.0-alpha04",
-      "commit": "8a91b5638f3317f71a41e6f59e1fb425cb2ce361",
-      "timestamp": 1762270419,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "8d21de75cebd658152d630b4cd07ab4b7b17c0d439ff3a6920ab5a673b232e89": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha05/LockscreenWidgets_3.0.0-alpha05-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 150,
-      "version_name": "3.0.0-alpha05",
-      "tag": "3.0.0-alpha05",
-      "commit": "5a36d96379a77fcb6d7f29913cff6a6f350713a4",
-      "timestamp": 1762357220,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "18d910ea1dd0bad9b4491fd96b0f89b53519b63fe723ffd0c81dc332cf74d854": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha06/LockscreenWidgets_3.0.0-alpha06-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 151,
-      "version_name": "3.0.0-alpha06",
-      "tag": "3.0.0-alpha06",
-      "commit": "fa0fb11b2bc4c96c76d5e7406dfee7c577daa341",
-      "timestamp": 1762458003,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "ddb3c5a66a78742fdd58c126c5a8f3f168fdce9c4b1f99531d74c61a6089b80c": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.0.0-alpha07-2/LockscreenWidgets_3.0.0-alpha07-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 152,
-      "version_name": "3.0.0-alpha07",
-      "tag": "3.0.0-alpha07-2",
-      "commit": "424fc159912a3069b521b6a91cd9fdfac79ccb3a",
-      "timestamp": 1762535189,
-      "reproducible": true,
-      "error": null
-    }
-  ],
-  "2fb19f42a625eea2d72355fc5a9d3b7c8cfb1ca6e2524ae135555ad1d321cb37": [
-    {
-      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
-      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/r8-fix-test/LockscreenWidgets_3.0.0-alpha07-release.apk",
-      "appid": "tk.zwander.lockscreenwidgets",
-      "version_code": 152,
-      "version_name": "3.0.0-alpha07",
-      "tag": "r8-fix-test",
-      "commit": "c4e9686ea1f2a4ce6ca5e4dedb40860c81b9b424",
-      "timestamp": 1762615909,
-      "reproducible": true,
-      "error": null
-    }
-  ],
   "bcdd5fdac4147c7b9adaf38d1406a110a667238089189b10d4faa7553a0e6880": [
     {
       "repository": "https://github.com/zacharee/LockscreenWidgets.git",
@@ -81587,6 +81573,20 @@
       "tag": "3.1.0",
       "commit": "20db16efd456f7444fa4d8167747e1a8d0697a07",
       "timestamp": 1767470672,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "64c24a52501507651bae71a38d8469f330292276c9992f5e1c00b5b1179b9b8e": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.1.1/LockscreenWidgets_3.1.1-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 169,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "4ec43779312017abcefd58e870572dea5c0dd7a1",
+      "timestamp": 1767886642,
       "reproducible": true,
       "error": null
     }
