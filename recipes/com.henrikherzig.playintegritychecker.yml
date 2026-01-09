@@ -1,0 +1,37 @@
+---
+repository: https://github.com/herzhenr/spic-android.git
+updates: releases
+versions:
+  - tag: v1.4.0
+    apks:
+      - apk_pattern: spic-.*\.apk
+        apk_url: https://github.com/herzhenr/spic-android/releases/download/v1.4.0/spic-v1.4.0.apk
+        build:
+          - base64 -d > local.properties <<< YXBpX2tleT1BSXphU3lDcDVOelBfM2RMVUVYRlgzX2UzT3hTZXFyQWNqX05KeDgKYmFzZTY0X29mX2VuY29kZWRfZGVjcnlwdGlvbl9rZXk9RTZxb01uTmFCQm5raTlTMzk4blFWYmxqbDZFMVRHbW94Tkkvc0JLRTdNdz0KYmFzZTY0X29mX2VuY29kZWRfdmVyaWZpY2F0aW9uX2tleT1NRmt3RXdZSEtvWkl6ajBDQVFZSUtvWkl6ajBEQVFjRFFnQUV3QkdDL0lNQkdMNm1heFl6RE5ua0Q0aXpYZXdxWDJmQzk5aFJ0REtTOGhVMzgvZllodVJ4YjlycHZFVmUrUlBBVzRlaFAwbTlOdjYxSGpkSVloUUF0QT09Cg==
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files app/build/outputs/apk/release/app-release-unsigned.apk 'sed s/"generated":"[^"]*"/"generated":"2023-02-09T21:20:38.115Z"/' 'res/iz.json'
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
