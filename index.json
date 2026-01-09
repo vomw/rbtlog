@@ -17131,6 +17131,20 @@
       "error": null
     }
   ],
+  "4612c21ffef19f36d8be587b86618d9d96115fc741f755dae5adbec1a234106e": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v1.14.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 114000000,
+      "version_name": "1.14.0",
+      "tag": "v1.14.0",
+      "commit": "0705a11a4593ced5f7e0ccd52ddaf94336e46e60",
+      "timestamp": 1767921250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -32937,6 +32951,20 @@
       "tag": "1.6",
       "commit": "ea1e1a7e7479ed6ea9266803d3819bec371df64a",
       "timestamp": 1741533908,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0adf008f30254fe50d6a114abae0489b7808c8208b9642b8ec6f64c9d47c6ec4": [
+    {
+      "repository": "https://codeberg.org/LezSoft/Presents.git",
+      "apk_url": "https://codeberg.org/LezSoft/Presents/releases/download/v3.0.1+23/Presents_v3.0.1+23_arm64-v8a.apk",
+      "appid": "com.lezsoft.presents",
+      "version_code": 2023,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1+23",
+      "commit": "59a23cb1fee8bb16d0b1d237b451cb1d2eb22c43",
+      "timestamp": 1767903078,
       "reproducible": true,
       "error": null
     }
