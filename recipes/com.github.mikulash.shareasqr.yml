@@ -1,9 +1,10 @@
 ---
 repository: https://github.com/mikulash/ShareAsQR.git
-updates: disabled
+updates: releases
 notes:
   - builds using Android Studio on Windows
   - 2025-10-01 disabling updates as they are stuck (and disabled) in the repo due to lost signing key, see https://github.com/mikulash/ShareAsQR/issues/5
+  - 2026-01-09 enabling updates again as issue was solved
 versions:
   - tag: v1.0.3
     apks:
@@ -43,6 +44,7 @@ versions:
       - apk_pattern: share_as_qr\.apk
         apk_url: https://github.com/mikulash/ShareAsQR/releases/download/$$TAG$$/share_as_qr.apk
         build:
+          - git checkout 3884f097f650ce9ef67c8e36e53557130d2ac5c3
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git

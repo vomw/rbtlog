@@ -26239,16 +26239,16 @@
       "error": null
     }
   ],
-  "8e30dd8db40053f3e7f920d96cae34327b719c0cc89191ef99ecfe7ad351158b": [
+  "96bc34f8a4ed2271a0161a56e6b766642da81132a0258f6b15d59c60ed524f07": [
     {
       "repository": "https://github.com/mikulash/ShareAsQR.git",
       "apk_url": "https://github.com/mikulash/ShareAsQR/releases/download/v1.0.4/share_as_qr.apk",
       "appid": "com.github.mikulash.shareasqr",
-      "version_code": 3,
-      "version_name": "1.0.3",
+      "version_code": 4,
+      "version_name": "1.0.4",
       "tag": "v1.0.4",
       "commit": "20afa9aa4b93d1a199c44f2977f047cbf9cf8173",
-      "timestamp": 1755973298,
+      "timestamp": 1767963026,
       "reproducible": true,
       "error": null
     }
@@ -47835,6 +47835,20 @@
       "tag": "v1.1",
       "commit": "41c509944002d54b7ad9a07a5d2b0bfc7e3a3c0f",
       "timestamp": 1760712084,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3acbb7b0d3447da898aafd6b635f9aa03ff643b614525cf4e7f23d7c2cd6805": [
+    {
+      "repository": "https://github.com/tharunbirla/GestureFlow.git",
+      "apk_url": "https://github.com/tharunbirla/GestureFlow/releases/download/v1.2/app-release.apk",
+      "appid": "com.tharunbirla.gestureflow",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "0ea91d7ade48d5bd6e3c7e8bf07ef84ce730fd2f",
+      "timestamp": 1767963774,
       "reproducible": true,
       "error": null
     }
