@@ -2125,6 +2125,34 @@
       "error": null
     }
   ],
+  "fcd1950867869ae4df586eeb7abc3c8ac38cc936eaf7c2b24ad04127e7862d5f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.4.1/Podcini.X_release_free_10.4.1_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 235,
+      "version_name": "10.4.1",
+      "tag": "10.4.1",
+      "commit": "30aca6553737a96e22f719febf26fa637d8ab453",
+      "timestamp": 1767970133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "351d2ef3cd253ebccb3316b3e1549d02a73a19acc37906bde411636cb5a422f6": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.4.2/Podcini.X_release_free_10.4.2_arm64-v8a.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 236,
+      "version_name": "10.4.2",
+      "tag": "10.4.2",
+      "commit": "99047ecc66c5a40351ffb7b989ff660bacd6831b",
+      "timestamp": 1767986568,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2681,6 +2709,34 @@
       "tag": "v10.2.2",
       "commit": "d0eae71d845812f1ff50da6b699a4356c105c1b9",
       "timestamp": 1767883815,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f1a5d98fc0ca995ed9e39b1d086ab5deb70045cc4f0071971ca517940453e7b8": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.3.2/cclauncher-v10.3.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1070,
+      "version_name": "v10.3.2",
+      "tag": "v10.3.2",
+      "commit": "467b92d108ead14046fa1c40df88f6506856b239",
+      "timestamp": 1767970575,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "064f245a43896a698e30a812bdbcc40b24bb943cd9c4b66c7f15d285ca2770c7": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.3.4/cclauncher-v10.3.4-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1090,
+      "version_name": "v10.3.4",
+      "tag": "v10.3.4",
+      "commit": "a0a6547b12c04cbb5d7bbe4bb696f068926a740b",
+      "timestamp": 1767987133,
       "reproducible": true,
       "error": null
     }
@@ -3745,6 +3801,20 @@
       "tag": "v1.2.4",
       "commit": "62e38565776d73abf82a11c1721c9d888654c0f5",
       "timestamp": 1767814765,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6e1e12b44f61b07f1f1e0add1356d2f0360c395e5acbec3a3b3b93815945d9c": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.5/mpvEx-arm64-v8a-v1.2.5.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1262,
+      "version_name": "1.2.6",
+      "tag": "v1.2.5",
+      "commit": "757c85c55e33cbd7a2cc6eede28efb7b39fb8b04",
+      "timestamp": 1767987601,
       "reproducible": true,
       "error": null
     }
@@ -20309,6 +20379,20 @@
       "error": null
     }
   ],
+  "9a971d8cd1d8fe310d91df1d585dcc9c1d114e0c5465107a5f22570787469090": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.0.14/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 169,
+      "version_name": "5.0.14",
+      "tag": "5.0.14",
+      "commit": "80d3169aef91a1dd4ff307a7e0b686a7ae664ae4",
+      "timestamp": 1767970935,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3aade96e9cf1544130045d65fab2f099550eed4f0fc5834907f3ed602873f02f": [
     {
       "repository": "https://github.com/devshield-tech/botox-android.git",
@@ -21327,6 +21411,20 @@
       "tag": "v0.3.4-alpha",
       "commit": "fdaf9b7d2314a55698102b08163837ebaef68f46",
       "timestamp": 1767711719,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0047b825c9c43b0887cdf12367b2600249105908a3884cda1c5735cad2755e42": [
+    {
+      "repository": "https://github.com/JackEblan/EinsteinLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EinsteinLauncher/releases/download/v0.3.5-alpha/EinsteinLauncher-v0.3.5-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 35,
+      "version_name": "0.3.5-alpha",
+      "tag": "v0.3.5-alpha",
+      "commit": "7570497579ad327be7d967f38a35acd71a818e92",
+      "timestamp": 1767971408,
       "reproducible": true,
       "error": null
     }
@@ -24461,6 +24559,20 @@
       "tag": "v1.21.7",
       "commit": "a03d7d5e08bb7a483b32a491c3d8326e3625473b",
       "timestamp": 1767468691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "386977aaa1f22b1d5aa75fcff2475a9cf8833262e79aa4a6aaaad796387ca35d": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.8/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 148,
+      "version_name": "1.21.8",
+      "tag": "v1.21.8",
+      "commit": "7ec9809ddf6549f135daaf94513417b455c07dd2",
+      "timestamp": 1767972049,
       "reproducible": true,
       "error": null
     }
@@ -30715,6 +30827,20 @@
       "error": null
     }
   ],
+  "15a11a048f5f4c6db65b87718b0649e5dbfddd57023b28c6fc097a2b6190f007": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.6.1/PassVault-v1.6.1-b29-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 29,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "9ac881a983837b50e2046c9997166d72462a7f0e",
+      "timestamp": 1767972392,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -35025,6 +35151,20 @@
       "error": null
     }
   ],
+  "07485c49c7b9d40eb5ecdbf2f6cc3f037971bcaefdd4e3eb1deb1b144130fc90": [
+    {
+      "repository": "https://github.com/meenbeese/Chronos.git",
+      "apk_url": "https://github.com/meenbeese/Chronos/releases/download/v2026.1.0/app-release.apk",
+      "appid": "com.meenbeese.chronos",
+      "version_code": 15,
+      "version_name": "2026.1.0",
+      "tag": "v2026.1.0",
+      "commit": "8136e70d2743ebaffcf1b37d0a75d37304f1e802",
+      "timestamp": 1767972758,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "02dd9f909b315c0f2b41401f24909357bf4894b906b4d23f731a8ca5603c8cd7": [
     {
       "repository": "https://github.com/EmmaTellblom/Mensinator.git",
@@ -35455,6 +35595,20 @@
       "tag": "v12.8.1",
       "commit": "c86787db9715ee6f2e86affb0b648cb755ce6c09",
       "timestamp": 1767124637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b378a83b8442dc2b8cada00f067e2ab254b3fe58c77505ffacf01ed1df998617": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.9.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 132,
+      "version_name": "12.9.0",
+      "tag": "v12.9.0",
+      "commit": "acd98676344143811b35a5f5102ff11e734005e1",
+      "timestamp": 1767988321,
       "reproducible": true,
       "error": null
     }
@@ -36407,6 +36561,20 @@
       "tag": "v1.21.0",
       "commit": "2dd9ce966a45d197ce2260873106f5fd998406de",
       "timestamp": 1767453380,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "66113fc1efa2ba4be113ddd04b166b763fc6c0135eda6ad4609d7b6128ea9e75": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.22.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 64,
+      "version_name": "1.22.0",
+      "tag": "v1.22.0",
+      "commit": "4620e65e9c3b810bd9d45fc09386f3ce5f8dd104",
+      "timestamp": 1767988980,
       "reproducible": true,
       "error": null
     }
@@ -52761,6 +52929,20 @@
       "error": null
     }
   ],
+  "3975db195f347319981677d0b6b4edb8082058ee9afc44e3891be5831b8bc189": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.0.6/NeoDB-You-v1.0.6.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 8,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "be254841f3167c88ad30c9841a64bf353e332af4",
+      "timestamp": 1767973285,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c292c1eaaf2191473699ce2b40c324dc9698b65637d95f3a449fd8aae61d0f49": [
     {
       "repository": "https://codeberg.org/blindcoder/hackersdietoffline.git",
@@ -56481,6 +56663,20 @@
       "tag": "v1.3.0",
       "commit": "2a56dd812816fee0ff414daa97222eb3d2bf276d",
       "timestamp": 1767819981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0406a5ba0c318b4144b97d2b5c647407cb4e8c01436822b3be2961cded4fa745": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.3.1/simple-notes-sync-v1.3.1-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 9,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "cf1142afa2d6ec13b854e6d413296464ef7d2466",
+      "timestamp": 1767990322,
       "reproducible": true,
       "error": null
     }
@@ -64513,6 +64709,20 @@
       "error": null
     }
   ],
+  "12ab095ca159b8e25bb1ff738a4cdf8ff8fc7a6c6d12dbbe1fe51d286d803e53": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.1.0/PrivacyFlip-v2.1.0-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 21,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "f95399601634ff323bc77532dddafa5448983c5b",
+      "timestamp": 1767973696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -71229,6 +71439,20 @@
       "tag": "3.6.27",
       "commit": "884f56f8bdad9acaf86453a256c16e64e51545ea",
       "timestamp": 1767886430,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "69f452804e9cb2d47599277e5ecf527b0ee8e9090de4943a79ec2edc4ebe3acb": [
+    {
+      "repository": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill.git",
+      "apk_url": "https://github.com/cagnulein/QZCompanionNordictrackTreadmill/releases/download/3.6.29/QZCompanionNordictrackTreadmill.apk",
+      "appid": "org.cagnulein.qzcompanionnordictracktreadmill",
+      "version_code": 181,
+      "version_name": "3.6.29",
+      "tag": "3.6.29",
+      "commit": "ccf358c61e2897af6a7921aa0b6d1be2d2f0f8f8",
+      "timestamp": 1767973928,
       "reproducible": true,
       "error": null
     }

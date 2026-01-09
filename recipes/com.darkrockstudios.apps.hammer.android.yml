@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.14.0
     apks:
-      - apk_pattern: android-release\.apk
+      - apk_pattern: hammer\.apk
         apk_url: https://github.com/Wavesonics/hammer-editor/releases/download/v1.14.0/hammer.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i android/build.gradle.kts
