@@ -3641,3 +3641,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 10.4.3
+    apks:
+      - apk_pattern: Podcini.X_release_free_.*_arm64-v8a\.apk
+        apk_url: https://github.com/XilinJia/Podcini.X/releases/download/10.4.3/Podcini.X_release_free_10.4.3_arm64-v8a.apk
+        build:
+          - sed -r '/signingConfigs\["releaseConfig"\]/d ; /create\("releaseConfig"\) \{/,/^        \}/d ; /wearable/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleFreeRelease
+          - mv app/build/outputs/apk/free/release/Podcini.X_release_free_*_arm64-v8a.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
