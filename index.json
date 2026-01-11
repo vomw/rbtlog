@@ -8313,6 +8313,20 @@
       "error": null
     }
   ],
+  "57de55e52764f73b7b6568ff026a6cb2abd90a7ea71440859a1cb36d13dce063": [
+    {
+      "repository": "https://github.com/gfroerli/app-android.git",
+      "apk_url": "https://github.com/gfroerli/app-android/releases/download/v1.1.2/gfroerli-android-1.1.2.apk",
+      "appid": "ch.coredump.watertemp.zh",
+      "version_code": 20,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "b6bbfe159e86b6d0c24d764be07033e76d6c4c80",
+      "timestamp": 1768153154,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b8e7de72eda614fc71e8f3880297224ba5bca03649d26ef931a501b05d12077c": [
     {
       "repository": "https://github.com/famoser/Mensa.git",
@@ -10101,6 +10115,20 @@
       "tag": "v1.9.0/83",
       "commit": "24ebc8523f11d0f110611099a08dd58dbc4a502f",
       "timestamp": 1767381742,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6c1bc47415c4ee1f0ae297e78146161259e6d20fbdf635614b62e44ee63df83f": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.10.0/84/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 84,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0/84",
+      "commit": "86d9573f366fd020b5ac9a8804da0cd3326bcf7f",
+      "timestamp": 1768143002,
       "reproducible": true,
       "error": null
     }
@@ -11975,6 +12003,20 @@
       "tag": "2.26",
       "commit": "12be8805679fe121b1f65786bf93b9f9c5ec6f9d",
       "timestamp": 1764082135,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2bfc62baf76d5e2349a88921a328044be81ea7cb20eac84b7be0e2a4110c90e": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.28/Clock_2.28-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2031,
+      "version_name": "2.28",
+      "tag": "2.28",
+      "commit": "63fc0f7ada3794e7fbcbfa8961ad9ea8abc4cd53",
+      "timestamp": 1768159377,
       "reproducible": true,
       "error": null
     }
@@ -17257,6 +17299,34 @@
       "error": null
     }
   ],
+  "17857d5e99508bcf8a36ead8112ae79cafec281c0b53ba1ffbb3d9adef81d6c9": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v2.0.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 200000000,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "807df5f60770bd5312049c0d52f46aaafba9805c",
+      "timestamp": 1768143146,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2632e2db5aefbfd299c1ef01a0e8b62e5192d131ddb4e9627665c265140e6d33": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v2.0.1/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 200010000,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "81f4c46f77450c57456dd1dcf03f0ac092d9aba3",
+      "timestamp": 1768159615,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -21089,6 +21159,20 @@
       "tag": "v2.0.3",
       "commit": "66fbf146e78bae94d9572de418306076370fa2b0",
       "timestamp": 1758902076,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "855ee9b6e4a672cc35e596e44e449b80e0e27cbd11c0b738f83f9d7529667588": [
+    {
+      "repository": "https://github.com/Mahmud0808/ColorBlendr.git",
+      "apk_url": "https://github.com/Mahmud0808/ColorBlendr/releases/download/v2.1/ColorBlendr.v2.1.apk",
+      "appid": "com.drdisagree.colorblendr",
+      "version_code": 39,
+      "version_name": "v2.1",
+      "tag": "v2.1",
+      "commit": "3f138d697b0e1056083c60f35d73e77229726966",
+      "timestamp": 1768143567,
       "reproducible": true,
       "error": null
     }
@@ -53041,6 +53125,20 @@
       "error": null
     }
   ],
+  "f08fc1b22b03b77220e99ecbddd0f0ca537a14c31f88f26b69dcedd17c18213a": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.0.7/NeoDB-You-v1.0.7.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 9,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "2a10ff166d053f0f30f5b89502fd72ee3540f665",
+      "timestamp": 1768143865,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c292c1eaaf2191473699ce2b40c324dc9698b65637d95f3a449fd8aae61d0f49": [
     {
       "repository": "https://codeberg.org/blindcoder/hackersdietoffline.git",
@@ -55533,6 +55631,20 @@
       "error": null
     }
   ],
+  "c5674b83634971b4441e4cc52c6ca8873ab65c38b41eca4e85a1fb5a7e60fcd1": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/2.0.1/MedicalCalendarLog-2.0.1-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 41,
+      "version_name": "2.0.1",
+      "tag": "2.0.1",
+      "commit": "55b20d671083d053ebb75ddf6447ee1b5f3f10ad",
+      "timestamp": 1768160317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "97351a70202de6e6d3f07ea2e671ccccd18bb1653462098522ef93adfcb34a34": [
     {
       "repository": "https://github.com/PaulWoitaschek/Voice.git",
@@ -56807,6 +56919,20 @@
       "error": null
     }
   ],
+  "d098e032bb547ff82acacde93fec9f1fd1497e32e8b5b6da0abef020fc657fdc": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.4.0/simple-notes-sync-v1.4.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 11,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "dee85233b6d7e78cf062318bda6f66ce9370840a",
+      "timestamp": 1768165164,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -57993,6 +58119,20 @@
       "tag": "2.4.1",
       "commit": "469e26ea5271ea202df97aa2ff63fe0cf741c208",
       "timestamp": 1767541948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e10dce64aa0ed40533cf1e94c3eb552c0104f165d487d01fa8d5c6946c9d510f": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.4.2/photok-2.4.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 53,
+      "version_name": "2.4.2",
+      "tag": "2.4.2",
+      "commit": "b6dc12a9848ab53cfa844a16a367bd305eca712f",
+      "timestamp": 1768163613,
       "reproducible": true,
       "error": null
     }
@@ -76651,6 +76791,20 @@
       "error": null
     }
   ],
+  "20579e8f4a1c296d4296eb2021ae35e618428cff87d3ea82d3d73855635d85d2": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.7.2/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 70,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "32d9c6a8b62bbb4bb903428964e58bf0096d0da0",
+      "timestamp": 1768160716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f799bcf762ff5d3048bc627aa318eb1e50d314ea724bf908b93df985ce893377": [
     {
       "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
@@ -79883,6 +80037,20 @@
       "error": null
     }
   ],
+  "ad02e37822c734fae17bb8b6e78eedebd20e8ecb2e10c62b157794aa2d8fe955": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.0.3.0/APlayer-v2.0.3.0-nonGoogle-withoutUpdater-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 20300,
+      "version_name": "2.0.3.0",
+      "tag": "v2.0.3.0",
+      "commit": "129c052ea35fd09332cafff5dfd38db85d4d6254",
+      "timestamp": 1768144110,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "27e1087a7acd8bd67881ea9132a9c77450f81385dfc91003044122055b76dc7a": [
     {
       "repository": "https://github.com/rkkr/simple-keyboard.git",
@@ -80481,6 +80649,20 @@
       "tag": "1.9.0",
       "commit": "8d00be60c5b051fd2a2d51cb5a4f2c8b4881d4dd",
       "timestamp": 1767195522,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "78feac0abb2a2e0ad5621a8a457ce9cd6a62930ced61c863e753769a4a49305d": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.1/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 66,
+      "version_name": "1.9.1",
+      "tag": "1.9.1",
+      "commit": "1d688c6f28238e3681df36c0fcb5e5a07621cf8b",
+      "timestamp": 1768144462,
       "reproducible": true,
       "error": null
     }
