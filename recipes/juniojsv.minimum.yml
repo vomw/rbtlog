@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/JunioJsv/minimum.git
-updates: releases
+updates: disabled
+notes:
+  - app moved to minimum-flutter, but lacks specification for Flutter version etc, see https://github.com/JunioJsv/minimum-flutter/issues/1#issuecomment-3734406161
 versions:
   - tag: v1.6.0
     apks:

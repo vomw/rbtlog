@@ -67131,6 +67131,20 @@
       "error": null
     }
   ],
+  "22f40a3f5f6737e4f0aeb7986b5bda546bae3d5c77d225466f557118bcaa5f1e": [
+    {
+      "repository": "https://github.com/kittoku/Open-SSTP-Client.git",
+      "apk_url": "https://github.com/kittoku/Open-SSTP-Client/releases/download/v1.9.2.1/osc-1.9.2.1.apk",
+      "appid": "kittoku.osc",
+      "version_code": 44,
+      "version_name": "1.9.2.1",
+      "tag": "v1.9.2.1",
+      "commit": "7bf807cde8834e9a22b66dda9f751a28198535e7",
+      "timestamp": 1768130433,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05205d9d303f606d51ce0f8cfe4b1217a0e2cfb95ab65ba0bd9a98f582411999": [
     {
       "repository": "https://github.com/ksh-b/raven.git",
@@ -67701,6 +67715,20 @@
       "tag": "v1.0.18+17",
       "commit": "731928081335f2f46d66d7de45e65e1d4524e5d2",
       "timestamp": 1767455292,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1c160a406333a87a3b65b9e096497b34635ee8caf7e241894f879f28cb86cf4b": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.20%2B19/rsm_v1.0.20%2B19_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2019,
+      "version_name": "1.0.20",
+      "tag": "v1.0.20+19",
+      "commit": "ae0f09725ac46a1c52aeb846fd828feb268f94d8",
+      "timestamp": 1768085592,
       "reproducible": true,
       "error": null
     }
