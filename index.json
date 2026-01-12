@@ -39051,6 +39051,20 @@
       "error": null
     }
   ],
+  "d60bb7bc45fca76a069156205bf6e18e7eb00b156ca3d93f126ae6fd40e249c5": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Coffee.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Coffee/releases/download/v1.1.0/app-release.apk",
+      "appid": "com.openappslabs.coffee",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "6e05d549acd9d912aa552d1239fa848a43b05d96",
+      "timestamp": 1768239219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6c2e9237cbdfaccb7b0f8bee2e492a4152f3e1bae194097ce50d57fe472fee61": [
     {
       "repository": "https://github.com/OpenAppsLabs/5G.git",
@@ -48533,6 +48547,20 @@
       "tag": "1.0.1",
       "commit": "3308cb4707e1eda52eb716d9a43f27d9b1a5ef58",
       "timestamp": 1750256870,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e8e5fbebf29fb64edce0ade0f0db06334dadccb3f7b035444b530bd9756b3b14": [
+    {
+      "repository": "https://github.com/solkin/appteka-android.git",
+      "apk_url": "https://github.com/solkin/appteka-android/releases/download/v18.2/appteka-18.2-972.apk",
+      "appid": "com.tomclaw.appsend",
+      "version_code": 972,
+      "version_name": "18.2",
+      "tag": "v18.2",
+      "commit": "2cca8192d8cece4e30e0b96530629d062f4c10c9",
+      "timestamp": 1768220037,
       "reproducible": true,
       "error": null
     }
