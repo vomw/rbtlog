@@ -34283,6 +34283,18 @@
       "timestamp": 1767625788,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpvqg216xw/outputs:/outputs', '--volume', '/tmp/tmpvqg216xw/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/NeoApplications/Neo-Store.git', '--env', 'APP_TAG=1.2.1', '--env', 'APP_COMMIT=73a5fc9c94e0cef8eff6a19e2c29f5c76742c499', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=build-essential,cmake,ninja-build', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    },
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.1/Neo_Store_1.2.1_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1201,
+      "version_name": "1.2.1",
+      "tag": "1.2.1",
+      "commit": "73a5fc9c94e0cef8eff6a19e2c29f5c76742c499",
+      "timestamp": 1768178626,
+      "reproducible": true,
+      "error": null
     }
   ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
