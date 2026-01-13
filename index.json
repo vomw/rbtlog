@@ -3217,6 +3217,20 @@
       "error": null
     }
   ],
+  "831ef2d119ff9e696356a8453cf7e659920856c2115423653ac700c83790f32f": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.0.1/flicky-4.0.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 791,
+      "version_name": "4.0.1",
+      "tag": "4.0.1",
+      "commit": "d2d620c8d983d8153fb51bd6166dd7de75ecceb8",
+      "timestamp": 1768315802,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -19161,6 +19175,20 @@
       "error": null
     }
   ],
+  "8e77291a000e096ee3dfbf168608a303ffb45d863eaa46c374cc10b1d8eac801": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.43/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 43,
+      "version_name": "0.0.43",
+      "tag": "0.0.43",
+      "commit": "b1089f57a0dd17eb257ec9ce3ce7c31be8ff1573",
+      "timestamp": 1768316094,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -21243,6 +21271,20 @@
       "tag": "v2.1",
       "commit": "3f138d697b0e1056083c60f35d73e77229726966",
       "timestamp": 1768143567,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c8902de58417fd27d77e72a4987bf41f6ea54e9580c41fab30d6fa329e035242": [
+    {
+      "repository": "https://github.com/Mahmud0808/ColorBlendr.git",
+      "apk_url": "https://github.com/Mahmud0808/ColorBlendr/releases/download/v2.1.1/ColorBlendr.v2.1.1.apk",
+      "appid": "com.drdisagree.colorblendr",
+      "version_code": 40,
+      "version_name": "v2.1.1",
+      "tag": "v2.1.1",
+      "commit": "93b2dd4813cba7cad16e800064b5789865bf2660",
+      "timestamp": 1768302681,
       "reproducible": true,
       "error": null
     }
@@ -23663,6 +23705,20 @@
       "tag": "v3.12.0",
       "commit": "70e1657043a636cec6eab48460965e0ffc4adf3e",
       "timestamp": 1766086680,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "013ff127230e1822a9ab53c7a21ab0f5e41636d49ee612df8ab19843f9b0e80b": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.12.1/com.fibelatti.pinboard-v3.12.1-3120100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3120100,
+      "version_name": "3.12.1",
+      "tag": "v3.12.1",
+      "commit": "2ea8768440a6b5f76ad21ca42c084ee4f67d9571",
+      "timestamp": 1768332189,
       "reproducible": true,
       "error": null
     }
@@ -29287,6 +29343,20 @@
       "error": null
     }
   ],
+  "01b7ab0111d5750d0b9ef7adedfdd8b8aa08cd776a706214f39fb994735fc6f9": [
+    {
+      "repository": "https://github.com/grmasa/Sound-Toggle.git",
+      "apk_url": "https://github.com/grmasa/Sound-Toggle/releases/download/V1.2.1/SoundToggle-release.apk",
+      "appid": "com.grmasa.soundtoggle",
+      "version_code": 8,
+      "version_name": "1.2.1",
+      "tag": "V1.2.1",
+      "commit": "fe4c1cf847a97d35a4b7a596895f2b6017d124d8",
+      "timestamp": 1768316561,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6a6f1cfa7eaaf9db96929d0ef7716ca91db0795f5e1b2caca5175133035c5f3c": [
     {
       "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
@@ -31089,6 +31159,20 @@
       "tag": "v1.6.1",
       "commit": "9ac881a983837b50e2046c9997166d72462a7f0e",
       "timestamp": 1767972392,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "911ac70b2059e32673c2d39352cdba12b8fb2b8dab57c8665c5ee8d0f23b22f0": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.7.0/PassVault-v1.7.0-b30-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 30,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "7a4fd7590b1982dce32ee2f266708439b286c690",
+      "timestamp": 1768332755,
       "reproducible": true,
       "error": null
     }
@@ -36391,6 +36475,20 @@
       "tag": "v1.6.3",
       "commit": "35217ac3ab0751dd64f0acd1b7bc3515b13cbbf1",
       "timestamp": 1767123905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "66886e4d3faff61601072af2e8191a2ac53ef511fbe67b3be6311c006e1b1145": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.6.4/SpeakThat-NoUpdater-v1.6.4.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 42,
+      "version_name": "1.6.4",
+      "tag": "v1.6.4",
+      "commit": "759309643cc2ec0af5091c414379630bcb9f288b",
+      "timestamp": 1768333210,
       "reproducible": true,
       "error": null
     }
@@ -58051,6 +58149,34 @@
       "error": null
     }
   ],
+  "b203e55e0a197ef56195740fc843a9e8aca1e686a8dbacf7e19c7cf494510155": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.2/findroid-v1.0.2-libre-arm64-v8a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 32,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "e66f8fe699700ddadc99090cd539554870fd59f6",
+      "timestamp": 1768316673,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49f863a01cd412ec1faf46e278847d7bee42dd477b07dbf08048c145a97c5e54": [
+    {
+      "repository": "https://github.com/jarnedemeulemeester/findroid.git",
+      "apk_url": "https://github.com/jarnedemeulemeester/findroid/releases/download/v1.0.2/findroid-v1.0.2-libre-armeabi-v7a.apk",
+      "appid": "dev.jdtech.jellyfin",
+      "version_code": 32,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "e66f8fe699700ddadc99090cd539554870fd59f6",
+      "timestamp": 1768317311,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "10a3b875a9ee5abca45fd5d283f3764c26bfcc223b518698c44b2c4c30a3d325": [
     {
       "repository": "https://github.com/leonlatsch/Photok.git",
@@ -66415,6 +66541,20 @@
       "error": null
     }
   ],
+  "c110873120e7bbd01f8e14680b0662afe77d05f9f0803f8ede149857feb46cec": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.2/SMS2Email-v1.1.2-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 15,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "34583b768feb62c4cb4308f98b35b6588b7df3c7",
+      "timestamp": 1768317958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -72085,6 +72225,20 @@
       "error": null
     }
   ],
+  "63dbfbfcb93f13dcd7ebbd5c3aef7c27bf8c7ab8b83b28454b0661ba0ef40d59": [
+    {
+      "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
+      "apk_url": "https://codeberg.org/minardil/BasicCashFlow/releases/download/v2.0/app-release.apk",
+      "appid": "org.eagsoftware.basiccashflow",
+      "version_code": 2,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "3970fa653ae75ad40a43a8f7bc968a29d22c3af6",
+      "timestamp": 1768318175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b2911595bb759f634cd4f8b3bd5ab0f06ed8605f48e01f3d3a8258b5a1a0ce47": [
     {
       "repository": "https://codeberg.org/minardil/laundrynotes.git",
@@ -72277,6 +72431,20 @@
       "tag": "v2.0.2",
       "commit": "16243b53eb4dfced5b6bd89b9488fdb20301d50e",
       "timestamp": 1767714920,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "123178855d3d322760b80d62366cde7059a735570ce8fe30301eb83666f2d395": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.1.0/DragonLauncher-v2.1.0-unsigned.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 26,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "83bc566f5c8969f7b499672c51d95a03fe8df552",
+      "timestamp": 1768318308,
       "reproducible": true,
       "error": null
     }
@@ -74965,6 +75133,20 @@
       "tag": "oss-141",
       "commit": "26df1912afa1f6832f9bdea71702f17e52d9f5cd",
       "timestamp": 1767729772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c5efb996c51112cf67588cd98a5a00c58f06eafc718cdde7f4dd5cb7d3c1bca": [
+    {
+      "repository": "https://github.com/frknkrc44/HMA-OSS.git",
+      "apk_url": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-147/HMA-OSS-oss-147-release.apk",
+      "appid": "org.frknkrc44.hma_oss",
+      "version_code": 7304630,
+      "version_name": "oss-147",
+      "tag": "oss-147",
+      "commit": "6d9706437c905d188bde95416fb0c9c21ddc8c89",
+      "timestamp": 1768318563,
       "reproducible": true,
       "error": null
     }
