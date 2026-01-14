@@ -1,0 +1,43 @@
+---
+repository: https://github.com/jhelumcorp/gyawun.git
+updates: releases
+notes:
+  - asked upstream for adding Flutter version to their pubspec.yaml etc, see https://github.com/sheikhhaziq/gyawun/issues/242
+versions:
+  - tag: 2.0.15
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/sheikhhaziq/gyawun/releases/download/2.0.15/app-arm64-v8a-release.apk
+        build:
+          - git checkout 6f1ca2037f2bbf96bac9b3468e4267fbe890257d
+          - sed -r '/signingConfigs.(debug|release)/d ; /signingConfigs \{/,/^   \}/d' -i android/app/build.gradle
+          - FLUTTER_VERSION="3.35.6"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/sheikhhaziq
+        build_repo_dir: /home/sheikhhaziq/Work/gyawun
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
