@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/nktnet1/middor.git
 updates: releases
+notes:
+  - 'FIXME: native library stripping has been disabled for future releases (https://github.com/nktnet1/middor/pull/8), remove ndk then'
 versions:
   - tag: v0.1.4
     apks:
