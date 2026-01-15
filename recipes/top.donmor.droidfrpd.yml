@@ -85,3 +85,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.0.7+0660
+    apks:
+      - apk_pattern: DroidFRPD-.*-aarch64\.apk
+        apk_url: https://github.com/donmor/DroidFRPD/releases/download/1.0.7%2B0660/DroidFRPD-1.0.7%2B0660-aarch64.apk
+        build:
+          - ln -s $ANDROID_HOME/cmdline-tools/${PROVISIONING_CMDLINE_TOOLS_VERSION} $ANDROID_HOME/cmdline-tools/latest
+          - GO_VERSION=$(grep -o '^go\ [0-9]*\.[0-9]*.*' frp/go.mod | sed 's/go\ //g')
+          - wget -q -O /tmp/go.tar.gz https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz
+          - sha256sum -c <<< "dea9ca38a0b852a74e81c26134671af7c0fbe65d81b0dc1c5bfe22cf7d4c8858  /tmp/go.tar.gz"
+          - tar -C "$HOME" -xzf /tmp/go.tar.gz && rm -f /tmp/go.tar.gz
+          - export PATH="$PATH:${HOME}/go/bin" GOBIN="${HOME}/go/bin"
+          - make purge_sdk
+          - make install_sdk
+          - make arm64
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace app/release/app-release-aarch64-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/DroidFRPD/DroidFRPD
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - make
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
