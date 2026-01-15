@@ -1,0 +1,40 @@
+---
+repository: https://github.com/KashCal/KashCal.git
+updates: releases
+notes:
+  - 'FIXME: v20.10.5 needed the hash for its non-existing commit fixed; remove the sed with the next release'
+versions:
+  - tag: v20.10.5
+    apks:
+      - apk_pattern: KashCal-.*-release\.apk
+        apk_url: https://github.com/KashCal/KashCal/releases/download/v20.10.5/KashCal-20.10.5-release.apk
+        build:
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign --page-size 16 fix-files app/build/outputs/apk/release/app-release-unsigned.apk 'sed s/d2a54d5d3d98de3d8dc7836d4ffed7b81b6bc8f6/516b87408666df64523d9b8aea9953c7dc0c4d8d/' 'META-INF/version-control-info.textproto'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
