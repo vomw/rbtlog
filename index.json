@@ -21205,6 +21205,20 @@
       "error": null
     }
   ],
+  "b4b5c339dca9132f48ef328797be3931682ca520f32b89ccc80451028b7f5971": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.4.3/MyQuran-v1.4.3-arm64-v8a-133-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 133,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "56e8a37bcd03e4aeb7e446d63a0fc0b0d40422fe",
+      "timestamp": 1768574912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -21747,6 +21761,20 @@
       "tag": "v0.3.5-alpha",
       "commit": "7570497579ad327be7d967f38a35acd71a818e92",
       "timestamp": 1767971408,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "575dd52ddd9540fbd9b82fd175e4f6c15ba43436ca032e0fa6c9b16f6c5448eb": [
+    {
+      "repository": "https://github.com/JackEblan/EinsteinLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EinsteinLauncher/releases/download/v0.3.6-alpha/EinsteinLauncher-v0.3.6-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 36,
+      "version_name": "0.3.6-alpha",
+      "tag": "v0.3.6-alpha",
+      "commit": "3d7325fe9fedfb82e6d222a5add1e9ac5ea6b1f0",
+      "timestamp": 1768575292,
       "reproducible": true,
       "error": null
     }
@@ -32997,6 +33025,20 @@
       "error": null
     }
   ],
+  "1b37a052c796e5de391f86b8239a0756333efd8305d623d23198d975867fab08": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.2/KeePassDX-4.3.2-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 153,
+      "version_name": "4.3.2",
+      "tag": "4.3.2",
+      "commit": "60fea86e69ed9eeaaad2d163e68f4adfc3d1029d",
+      "timestamp": 1768575912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -33189,6 +33231,20 @@
       "tag": "4.3.1",
       "commit": "0d56966061d17ef5c9c2f4719eac48636510b160",
       "timestamp": 1767714216,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "60e670ede236251d9046223172a4403e71a384429f419a12e47c8a6ab5d815ce": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.2/KeePassDX-4.3.2-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 153,
+      "version_name": "4.3.2",
+      "tag": "4.3.2",
+      "commit": "60fea86e69ed9eeaaad2d163e68f4adfc3d1029d",
+      "timestamp": 1768576314,
       "reproducible": true,
       "error": null
     }
@@ -46411,6 +46467,20 @@
       "error": null
     }
   ],
+  "61a90c377342e72c9095e93860b3e2c384d01e21df180b89689315f2bb9874bd": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.5.0/app-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5500,
+      "version_name": "5.5.0",
+      "tag": "5.5.0",
+      "commit": "fbd893810bbb641c6580a817c796b85afa3fc26d",
+      "timestamp": 1768576670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -47833,6 +47903,20 @@
       "tag": "v2.12",
       "commit": "17b4023209363e3ca31112d3ab0cac199379d692",
       "timestamp": 1768506169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e24e14446bae8fac49e385f0ea4a67652d34e272412c61af0644c0790fa5c7ab": [
+    {
+      "repository": "https://github.com/albu-razvan/Stario.git",
+      "apk_url": "https://github.com/albu-razvan/Stario/releases/download/v2.13/Stario-v2.13.apk",
+      "appid": "com.stario.launcher",
+      "version_code": 94,
+      "version_name": "2.13",
+      "tag": "v2.13",
+      "commit": "f70c9b2d631fc65d8a42c280f053b99980b38c5c",
+      "timestamp": 1768591396,
       "reproducible": true,
       "error": null
     }
@@ -51349,6 +51433,20 @@
       "error": null
     }
   ],
+  "88b5506f3e33fa018b8859ac602cf1e31c212144adb3a0a198efa3928ab1dbf7": [
+    {
+      "repository": "https://github.com/WirelessAlien/ZipXtract.git",
+      "apk_url": "https://github.com/WirelessAlien/ZipXtract/releases/download/v7.1/zipxtract-v7.1.apk",
+      "appid": "com.wirelessalien.zipxtract",
+      "version_code": 25,
+      "version_name": "7.1",
+      "tag": "v7.1",
+      "commit": "85d89627f663f7692cc7f8ee1c9b889703a08eb6",
+      "timestamp": 1768584816,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde61cda06a70d65d979c6e69067491f483917707511511c295cbb0be102a267": [
     {
       "repository": "https://github.com/XayahSuSuSu/Android-DataBackup.git",
@@ -53497,6 +53595,20 @@
       "tag": "0.1.65",
       "commit": "97d8d646e59c22b1dcfce6b98507125836070db8",
       "timestamp": 1768057126,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31c9817ceb4911ff387fe20d9625f496afbeae3a7d3985f723808a5839344904": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.66/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 66,
+      "version_name": "0.1.66",
+      "tag": "0.1.66",
+      "commit": "51f6c8d0101f0ec6655672dbfabaa1d0ee641104",
+      "timestamp": 1768591752,
       "reproducible": true,
       "error": null
     }
@@ -64023,6 +64135,20 @@
       "error": null
     }
   ],
+  "9c438d7153116d084c2a71e398dd656629c146169923fc37357e4da69814d83c": [
+    {
+      "repository": "https://github.com/DP-Hridayan/aShellYou.git",
+      "apk_url": "https://github.com/DP-Hridayan/aShellYou/releases/download/v7.1.0/aShellYou-v7.1.0-release.apk",
+      "appid": "in.hridayan.ashell",
+      "version_code": 58,
+      "version_name": "v7.1.0",
+      "tag": "v7.1.0",
+      "commit": "56f54626ecab7ace12f1002e3e32a25abd128129",
+      "timestamp": 1768592351,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b4a72afaa4bb67166efe8998e1b9c8dd88b064a52de9f3c38a7d5a93d6ea09a8": [
     {
       "repository": "https://github.com/DP-Hridayan/Driftly.git",
@@ -65687,6 +65813,20 @@
       "error": null
     }
   ],
+  "377b97b3117760fe412a11b93c7c70194371e6a242392380a366276aef9add89": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.1.1/PrivacyFlip-v2.1.1-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 22,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "590aafac6d4fa2ab941440e5817f31f8ac2ab4db",
+      "timestamp": 1768577451,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -66859,6 +66999,20 @@
       "tag": "v1.1.4",
       "commit": "a15c311d146e9c5f666dfb41c741c4ad7352ca0d",
       "timestamp": 1768491561,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb8783df233012fe72fb0a283fe5d63135dd97de248f7d947790f2482590fe48": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.5/SMS2Email-v1.1.5-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 18,
+      "version_name": "1.1.5",
+      "tag": "v1.1.5",
+      "commit": "de191c1208710cbc1ee2df9ecf77c916996dfe78",
+      "timestamp": 1768577707,
       "reproducible": true,
       "error": null
     }
@@ -68903,6 +69057,20 @@
       "tag": "v2.41.4",
       "commit": "008b5254c62e66b33b09d874150509738b96a6b2",
       "timestamp": 1767570543,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ebd7f3d4fdee90739258d78ee00641c41d5cbae87b5e56803cb70a8902d0c25b": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.41.5/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 162,
+      "version_name": "2.41.5",
+      "tag": "v2.41.5",
+      "commit": "f1087573dce12466ef2eb4e39d0120f67f09c94e",
+      "timestamp": 1768578059,
       "reproducible": true,
       "error": null
     }
@@ -83083,6 +83251,20 @@
       "tag": "3.1.1",
       "commit": "4ec43779312017abcefd58e870572dea5c0dd7a1",
       "timestamp": 1767886642,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b2d5576e58728eef3b064ae4b50b3f26ca8f1ca6823aa6c8fe79d09357ff56a7": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/3.1.2/LockscreenWidgets_3.1.2-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 170,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "d788fe274e625cd7398780ee3832635fbb4fd4d1",
+      "timestamp": 1768578396,
       "reproducible": true,
       "error": null
     }
