@@ -126,10 +126,10 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
-  - tag: v2.1.1
+  - tag: v2.1.2
     apks:
       - apk_pattern: hammer\.apk
-        apk_url: https://github.com/Wavesonics/hammer-editor/releases/download/v2.1.1/hammer.apk
+        apk_url: https://github.com/Wavesonics/hammer-editor/releases/download/v2.1.2/hammer.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i android/build.gradle.kts
           - export RELEASE_STORE_FILE=/dev/null RELEASE_STORE_PASSWORD=RELEASE_STORE_PASSWORD RELEASE_KEY_ALIAS=RELEASE_KEY_ALIAS RELEASE_KEY_PASSWORD=RELEASE_KEY_PASSWORD

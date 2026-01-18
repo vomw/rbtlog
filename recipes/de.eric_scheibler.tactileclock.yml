@@ -133,3 +133,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.6.0
+    apks:
+      - apk_pattern: TactileClock.*\.apk
+        apk_url: https://github.com/scheibler/TactileClock/releases/download/v2.6.0/TactileClock_v2.6.0.apk
+        build:
+          - git reset --soft 9ee6a5cad3bb3d28a1803ee0375dac03785d2ccf
+          - chmod +x gradlew
+          - echo "storePassword=password" > app/empty.keystore
+          - echo "keyAlias=alias" >> app/empty.keystore
+          - echo "keyPassword=password" >> app/empty.keystore
+          - echo "storeFile=/dev/null" >> app/empty.keystore
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

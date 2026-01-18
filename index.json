@@ -2181,6 +2181,20 @@
       "error": null
     }
   ],
+  "59031c38f2dc979a70005048b9d387be6d2089ab4794ac876a11df0fe640c2a0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.5.0/Podcini.X-free-arm64-v8a-10.5.0.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 239,
+      "version_name": "10.5.0",
+      "tag": "10.5.0",
+      "commit": "5dace733a33f27f9bbb5f26dbddb4d00fef0599e",
+      "timestamp": 1768767011,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2765,6 +2779,20 @@
       "tag": "v10.3.4",
       "commit": "a0a6547b12c04cbb5d7bbe4bb696f068926a740b",
       "timestamp": 1767987133,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c82b5781053861bcd7eb830f7f4795ae605226a672f2acaebe48077ec06aaeff": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.4.2/cclauncher-v10.4.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1110,
+      "version_name": "v10.4.2",
+      "tag": "v10.4.2",
+      "commit": "199811bf553fcff1479493c8d8e80ce285283e6b",
+      "timestamp": 1768761194,
       "reproducible": true,
       "error": null
     }
@@ -5719,6 +5747,20 @@
       "tag": "v9.5.0",
       "commit": "7795c7f4513aedc3fa18ff3acaa763db17d8677d",
       "timestamp": 1766783931,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "04abf2ca634602436ef16da1a8ff57224c4ac4c50cf11ffc6353d927cc3073f9": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.5.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 951,
+      "version_name": "v9.5.1",
+      "tag": "v9.5.1",
+      "commit": "5d5097bf84b9ef12f65512b0375bb48575bc1544",
+      "timestamp": 1768764156,
       "reproducible": true,
       "error": null
     }
@@ -9050,7 +9092,7 @@
       "version_name": "4.0.312.858",
       "tag": "v4.0.312.858-stable",
       "commit": "2e9063ab6936a9aaaf59af71bceac9bde512b5dd",
-      "timestamp": 1768678143,
+      "timestamp": 1768748169,
       "reproducible": true,
       "error": null
     }
@@ -15096,7 +15138,7 @@
       "version_name": "2026.01.1186",
       "tag": "2026.01.1186",
       "commit": "9fe877b9981e8267d4262d6959809042022b2bff",
-      "timestamp": 1768661663,
+      "timestamp": 1768748493,
       "reproducible": true,
       "error": null
     }
@@ -17509,16 +17551,16 @@
       "error": null
     }
   ],
-  "5c91996efaeea96ed2e3f48d45d9cfb6ec364ab2d5676d7e13d91b8e88adc36a": [
+  "f8efa5f5daf2ebf526420a9139cc142a574f310f80045fcc7b3418251295c168": [
     {
       "repository": "https://github.com/Wavesonics/hammer-editor.git",
-      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v2.1.1/hammer.apk",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v2.1.2/hammer.apk",
       "appid": "com.darkrockstudios.apps.hammer.android",
-      "version_code": 201010000,
-      "version_name": "2.1.1",
-      "tag": "v2.1.1",
-      "commit": "6142df4311733e213caf42a8391bd45fe96f530f",
-      "timestamp": 1768661997,
+      "version_code": 201020000,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "eb1b36394b5c324be8d5157b6ff08e1389f375f3",
+      "timestamp": 1768748784,
       "reproducible": true,
       "error": null
     }
@@ -21821,6 +21863,20 @@
       "error": null
     }
   ],
+  "e07629377ec9aaebad803700b6b36cbbc58f15a72a43cf759215852e5e7034fc": [
+    {
+      "repository": "https://github.com/JackEblan/EinsteinLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EinsteinLauncher/releases/download/v0.3.7-alpha/EinsteinLauncher-v0.3.7-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 37,
+      "version_name": "0.3.7-alpha",
+      "tag": "v0.3.7-alpha",
+      "commit": "710768a9870e1dfe07b5f9aab85135b9e451065c",
+      "timestamp": 1768749154,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -25020,7 +25076,7 @@
       "version_name": "1.21.9",
       "tag": "v1.21.9",
       "commit": "6c4c3a49c09fd577129f937359b3600b014b0e30",
-      "timestamp": 1768662552,
+      "timestamp": 1768749701,
       "reproducible": true,
       "error": null
     }
@@ -31373,6 +31429,20 @@
       "error": null
     }
   ],
+  "787318a5e87fe434946b101e916a81ef8a06d5ee753940b847ea9aeacf9dde67": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.7.1/PassVault-v1.7.1-b32-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 32,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "83128e4d80dd7cd6d513c1f959f4f9c0a13f067d",
+      "timestamp": 1768749907,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -36195,6 +36265,20 @@
       "tag": "v12.10.0",
       "commit": "bbe18ec4f8db24f39dc75b101c1ddbfadfcd2c67",
       "timestamp": 1768489827,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dfbb4026430e399a399099773f6a3b740be33df995510f309629c6b1464462ae": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.12.0/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 135,
+      "version_name": "12.12.0",
+      "tag": "v12.12.0",
+      "commit": "1bd5ddb99ef27a03cd6401e5d5ccda15680abc7d",
+      "timestamp": 1768750119,
       "reproducible": true,
       "error": null
     }
@@ -44856,7 +44940,7 @@
       "version_name": "1.4",
       "tag": "v1.4",
       "commit": "8e94c093506d3e419b43a9718effae7540c80ab6",
-      "timestamp": 1768663034,
+      "timestamp": 1768750549,
       "reproducible": true,
       "error": null
     }
@@ -46560,7 +46644,7 @@
       "version_name": "5.5.1",
       "tag": "5.5.1",
       "commit": "1a5a9f5c4d174302e667fa683f3c5f84515005fd",
-      "timestamp": 1768663276,
+      "timestamp": 1768750742,
       "reproducible": true,
       "error": null
     }
@@ -50856,7 +50940,7 @@
       "version_name": "5.0.2",
       "tag": "v5.0.2",
       "commit": "d5c4a96951f7c7d866ee6933d19fd454c95ed52e",
-      "timestamp": 1768663657,
+      "timestamp": 1768751098,
       "reproducible": true,
       "error": null
     }
@@ -53720,7 +53804,7 @@
       "version_name": "0.1.67",
       "tag": "0.1.67",
       "commit": "908bce3a5fa1b899c08334f6040b034cfaa17337",
-      "timestamp": 1768678727,
+      "timestamp": 1768751928,
       "reproducible": true,
       "error": null
     }
@@ -54617,6 +54701,20 @@
       "tag": "v2.5.1",
       "commit": "43134158b986c7ba408e79898b10d99326ecd7f8",
       "timestamp": 1767022198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ef213043e4fdc9eeb4d556f325bb07aa3b54eb0cf413ea4e01fe0617351789a7": [
+    {
+      "repository": "https://github.com/scheibler/TactileClock.git",
+      "apk_url": "https://github.com/scheibler/TactileClock/releases/download/v2.6.0/TactileClock_v2.6.0.apk",
+      "appid": "de.eric_scheibler.tactileclock",
+      "version_code": 15,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "661454761d8b46801fd5938d4da3af9783278b4c",
+      "timestamp": 1768764707,
       "reproducible": true,
       "error": null
     }
@@ -57696,7 +57794,7 @@
       "version_name": "1.5.0",
       "tag": "v1.5.0",
       "commit": "ef6e939567927fb61300267263772b3654e703a8",
-      "timestamp": 1768664112,
+      "timestamp": 1768752412,
       "reproducible": true,
       "error": null
     }
@@ -58439,6 +58537,20 @@
       "tag": "v1.2.9",
       "commit": "a2b6b00458e234727198a3ca7385187ef50c164e",
       "timestamp": 1765122458,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3060d00ac5d278affb7c625a0fc2560953b321fe5b4a1a0648abdea3ee96d892": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.3.0/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23272,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "3ad00812dd408ee6bb025475ae7f67b8f2825f76",
+      "timestamp": 1768761666,
       "reproducible": true,
       "error": null
     }
@@ -59977,6 +60089,34 @@
       "tag": "v9.0.1",
       "commit": "7042640cfc8df64ff697846cf9f608172813ff4e",
       "timestamp": 1768075141,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd9740fc11b4ee3166cd8f469cae07f018a4d8c97adcaf5a35f66a0d8bea7c04": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v9.0.2/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 902,
+      "version_name": "9.0.2",
+      "tag": "v9.0.2",
+      "commit": "df7e38aa36df65a2bd7b054bf2dc4cb6c75204af",
+      "timestamp": 1768752954,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d74fdb74b3aabd37fe90b001f68721b0ed3b447496a9db3d58ab5c0ad72b3e3": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v9.0.3/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 903,
+      "version_name": "9.0.3",
+      "tag": "v9.0.3",
+      "commit": "fcd639d9101a1bd84b0957f4b7a728fe895b33c4",
+      "timestamp": 1768764974,
       "reproducible": true,
       "error": null
     }
@@ -73079,6 +73219,20 @@
       "error": null
     }
   ],
+  "daa662387f6c4d2685da9def67cb42fb91d2ceed9c366dd7b1693da04bb0919d": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.2.0/DragonLauncher-v2.2.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 28,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "52a9e5a5a295a2b952b4dea7427975f0e14aa47a",
+      "timestamp": 1768765381,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -75893,6 +76047,20 @@
       "error": null
     }
   ],
+  "8fb1d5568e457027f6c7ec2c1ecc39d9fdce468cf9aa658e2983df886378052e": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.5.0/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 11,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "aed91696e0631e41076fb960923c6ce5d13cee58",
+      "timestamp": 1768753188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cafdbf639fe3749b156f74bddca6738527818950ad77a41a4e0c1534d3cba942": [
     {
       "repository": "https://github.com/floccusaddon/floccus.git",
@@ -76742,7 +76910,7 @@
       "version_name": "12.0.0",
       "tag": "12.0.0",
       "commit": "45fe2d9cef9de56beaadf44b5bbe749b06402c4a",
-      "timestamp": 1768664935,
+      "timestamp": 1768753560,
       "reproducible": true,
       "error": null
     }
@@ -78045,6 +78213,20 @@
       "tag": "v20.10.5",
       "commit": "d2a54d5d3d98de3d8dc7836d4ffed7b81b6bc8f6",
       "timestamp": 1768441153,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3b698502d28e3be5cece87c1eaf11470162a91eb9b73f4e492e009fcb13f3e72": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v20.10.12/KashCal-20.10.12-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 235,
+      "version_name": "20.10.12",
+      "tag": "v20.10.12",
+      "commit": "04b57a2e4c7b717549a9a7c4e05a799c18558b38",
+      "timestamp": 1768764915,
       "reproducible": true,
       "error": null
     }
@@ -79363,6 +79545,20 @@
       "error": null
     }
   ],
+  "2a9c22af6f0aba0a5b23c3e035e769727790148bec4dfb9b1cd098d2991c043b": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.3.5/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 46,
+      "version_name": "2.3.5",
+      "tag": "2.3.5",
+      "commit": "db43de9d6540fec741e5b3190c994f597380c41b",
+      "timestamp": 1768753867,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -79513,6 +79709,20 @@
       "tag": "1.2.2",
       "commit": "553da0beaead92697215b6b106ce289b447b41e0",
       "timestamp": 1762626027,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "075bfedc1f5e11e8bd387f913ea0619a17aa90b299d41f57eb26ddc9709e010b": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.2.3/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 15,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "e2e5266d3247c1d734e1aa1985afb63bb7294589",
+      "timestamp": 1768754258,
       "reproducible": true,
       "error": null
     }
@@ -82732,7 +82942,7 @@
       "version_name": "1.6.1",
       "tag": "v1.6.1",
       "commit": "e7bd199dfbdd006995d1176ff2c348d67e898060",
-      "timestamp": 1768665216,
+      "timestamp": 1768754528,
       "reproducible": true,
       "error": null
     }
@@ -83432,7 +83642,7 @@
       "version_name": "3.1.3",
       "tag": "3.1.3",
       "commit": "d85dad85c17a117f35762c8c6fcbef7c9fa90918",
-      "timestamp": 1768665585,
+      "timestamp": 1768754868,
       "reproducible": true,
       "error": null
     }
