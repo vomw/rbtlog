@@ -3,6 +3,7 @@ repository: https://github.com/jhelumcorp/gyawun.git
 updates: releases
 notes:
   - asked upstream for adding Flutter version to their pubspec.yaml etc, see https://github.com/sheikhhaziq/gyawun/issues/242
+  - 'FIXME: Flutter version will be in .fvmrc starting with the release following 2.0.15'
 versions:
   - tag: 2.0.15
     apks:
