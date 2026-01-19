@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/PranshulGG/RecordMaster.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: remove the sed for versionCode adjustment with the next release'
+  - upstream repo was archived
 versions:
   - tag: v1.0.0
     apks:

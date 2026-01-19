@@ -6619,6 +6619,20 @@
       "error": null
     }
   ],
+  "05ecb202298dec89a30745c799b832c9a63a1c55417329e4b5b46a00b7c82bb2": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.8-ose/davx5-ose-4.5.8-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405080003,
+      "version_name": "4.5.8-ose",
+      "tag": "v4.5.8-ose",
+      "commit": "40741f52e1e087d5edcc48c117b6762ec1c3441b",
+      "timestamp": 1768834248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -23961,6 +23975,20 @@
       "error": null
     }
   ],
+  "b74c07eb13df70edba4dc767cafbf8a578840d7312393cb4a13563bf7f589ceb": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.12.2/com.fibelatti.pinboard-v3.12.2-3120200-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3120200,
+      "version_name": "3.12.2",
+      "tag": "v3.12.2",
+      "commit": "d1ad4079eb68679c8456e5a346ed70a3c8f97f2a",
+      "timestamp": 1768851793,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -27451,6 +27479,20 @@
       "tag": "v3.5.4",
       "commit": "208bdc34d51d5272f9d85f4be119b93305fef22a",
       "timestamp": 1767818654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "968026201952bf947470672e969bafadb9e5006ac01bce1353405540499361f5": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.6.0/DroidPad-v3.6.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 39,
+      "version_name": "3.6.0",
+      "tag": "v3.6.0",
+      "commit": "106218f3ec3208fe6d60412fba29bcc7807ffc9e",
+      "timestamp": 1768835322,
       "reproducible": true,
       "error": null
     }
@@ -46955,6 +46997,20 @@
       "error": null
     }
   ],
+  "724d342edb277fbb9ec9bec4f56fa9ad98a17e01dc69eae7aa275c943225a7eb": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.20/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2023,
+      "version_name": "1.0.20",
+      "tag": "V1.0.20",
+      "commit": "8ad01d80c3b9addf6e894a9a3c4bbd7c2aa200d3",
+      "timestamp": 1768835720,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -50171,6 +50227,34 @@
       "tag": "v3.20.0",
       "commit": "e4c9d0e9867a33ef2edffec082fd26d197b1baa5",
       "timestamp": 1767819366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "89ff46a485534cb659a0f43c0d9d1c3b874588e8bc759ffee8464dc68dd0794f": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.21.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32100,
+      "version_name": "3.21.0",
+      "tag": "v3.21.0",
+      "commit": "e0390245b6afba10f6aba60238c9d10707e75b33",
+      "timestamp": 1768836538,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e3a9e5d4eba2a02958a9b8c36dacb5cf1f9c65de9ff924b2600003014cd0e4e": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.21.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32100,
+      "version_name": "3.21.0",
+      "tag": "v3.21.0",
+      "commit": "e0390245b6afba10f6aba60238c9d10707e75b33",
+      "timestamp": 1768836698,
       "reproducible": true,
       "error": null
     }
@@ -55979,6 +56063,20 @@
       "error": null
     }
   ],
+  "e7599d1b6e3f928bb000733e847cc9dbad2351aa8465c9a9ce564573ecf0e515": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.0.2/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20020,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "d71e5fd6c8c6a153f17bdd73cbb3322ae0f687fb",
+      "timestamp": 1768836870,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
     {
       "repository": "https://github.com/Tetr4/CompassTile.git",
@@ -58247,6 +58345,20 @@
       "error": null
     }
   ],
+  "57b66605ba8b883b23373041abf20efb1d09fbde8a194232bcb4d5d72112ad21": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.9.13/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10090132,
+      "version_name": "1.9.13",
+      "tag": "v1.9.13",
+      "commit": "2075c4e5ef00f273731e1a28dfa69bc35fa3475f",
+      "timestamp": 1768837326,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -58593,6 +58705,20 @@
       "tag": "v1.3.0",
       "commit": "3ad00812dd408ee6bb025475ae7f67b8f2825f76",
       "timestamp": 1768761666,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "984a1b1d1ece60de55ad740bf3ad14a93c9001cdb0bceb634c74d8ba5e79c6cd": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.3.2/app-armeabi-v7a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23292,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "6077400d3ea9d05012f5ee52b69d24066ce1c521",
+      "timestamp": 1768857772,
       "reproducible": true,
       "error": null
     }
@@ -66691,6 +66817,20 @@
       "tag": "v1.15.0",
       "commit": "e6a23289ef649febd3f1ff982d92920ce4e3ff26",
       "timestamp": 1767193534,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "526b63760fe2c727e51d406087f63e8f04340307e045d983b44e50ed5913d172": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.16.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 22,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "6c45e52eae59a6ae1f34b747777034776e827955",
+      "timestamp": 1768838825,
       "reproducible": true,
       "error": null
     }
@@ -76411,6 +76551,20 @@
       "error": null
     }
   ],
+  "bcb6ff9a372f0209c1874238489d693f0cce10e4927d5cef10555b1bbde55a6e": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.8.4/floccus-build-v5.8.4.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5008004,
+      "version_name": "5.8.4",
+      "tag": "v5.8.4",
+      "commit": "1fe83aebd13e31bbd4fefc6f69c46261584e2a66",
+      "timestamp": 1768853911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -78269,6 +78423,20 @@
       "tag": "v20.10.12",
       "commit": "04b57a2e4c7b717549a9a7c4e05a799c18558b38",
       "timestamp": 1768764915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fb1ccb0baf5f85966d038e2e6fb1daf16ee7fc8f8132d4af3057967713c7b6e7": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v20.10.13/KashCal-20.10.13-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 236,
+      "version_name": "20.10.13",
+      "tag": "v20.10.13",
+      "commit": "1dc2f30be59d3624d269901c13fb5159322b2338",
+      "timestamp": 1768854461,
       "reproducible": true,
       "error": null
     }
@@ -84749,6 +84917,20 @@
       "tag": "v0.25.7",
       "commit": "94c0e6e9ec223f2663a568a11e7ec519268a90f3",
       "timestamp": 1768241201,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec88c5076f4bcbcff13d05c42e0e28849dc0fdc89660bfcc9ed8dba38df94057": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.25.8/WebviewKiosk_v0.25.8.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 113,
+      "version_name": "0.25.8",
+      "tag": "v0.25.8",
+      "commit": "ecdc9d4e25e02aa85a44a9aee291fb9c11b63f83",
+      "timestamp": 1768839190,
       "reproducible": true,
       "error": null
     }

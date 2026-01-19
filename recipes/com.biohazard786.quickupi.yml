@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.1.0
     apks:
-      - apk_pattern: aquick-upi.*\.apk
+      - apk_pattern: quick-upi.*\.apk
         apk_url: https://github.com/BioHazard786/quick-upi/releases/download/v1.1.0/quick-upi-v1.1.0.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts

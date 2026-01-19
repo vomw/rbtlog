@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/jeeneo/fonts.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo has been archived
 versions:
   - tag: v1.2
     apks:
