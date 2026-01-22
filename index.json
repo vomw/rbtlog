@@ -2209,6 +2209,20 @@
       "error": null
     }
   ],
+  "58fcb0d849b3d50c438c07575348b5c51958d3e3efbcd11eba2707fab0324779": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.6.1/Podcini.X-free-arm64-v8a-10.6.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 241,
+      "version_name": "10.6.1",
+      "tag": "10.6.1",
+      "commit": "4aa300bef459cb5fd28baa38004dc6a726071e43",
+      "timestamp": 1769023443,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -11317,6 +11331,20 @@
       "tag": "v4.6.0c",
       "commit": "5d81f8dccbb74178d7b7fae5ea9ce069624afe8b",
       "timestamp": 1767020229,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ccd3d6615d065ad574a27654dd2a4f36578a789294665fa12baf66c4f1bfb33b": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.0d/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1377,
+      "version_name": "4.6.0d",
+      "tag": "v4.6.0d",
+      "commit": "b2755c965d275a818264ba6fd7f036c9d3d91ec5",
+      "timestamp": 1769006921,
       "reproducible": true,
       "error": null
     }
@@ -21947,6 +21975,20 @@
       "error": null
     }
   ],
+  "8e38c6b892b7ec1875b46386488b700495efdc41bc3df6cea35782d2ec38f610": [
+    {
+      "repository": "https://github.com/JackEblan/EinsteinLauncher.git",
+      "apk_url": "https://github.com/JackEblan/EinsteinLauncher/releases/download/v0.3.8-alpha/EinsteinLauncher-v0.3.8-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 38,
+      "version_name": "0.3.8-alpha",
+      "tag": "v0.3.8-alpha",
+      "commit": "bad913b1b854306dffedafa9eb493863858c3825",
+      "timestamp": 1769007948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -23593,6 +23635,20 @@
       "tag": "v1.36.0",
       "commit": "f91515fb0ceb16ebb5a5da27cf44b174e9a9a6b6",
       "timestamp": 1767123650,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a0cfb8cc2e2c58729b1c297c7dadcdc12347eb2f8879f1790e1842e0fa96d1cd": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.37.0/com.fibelatti.photowidget-v1.37-1370000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1370000,
+      "version_name": "1.37",
+      "tag": "v1.37.0",
+      "commit": "a34c750b0dffbaba62b31f6b2cd7cdb81840fa82",
+      "timestamp": 1769039228,
       "reproducible": true,
       "error": null
     }
@@ -34103,6 +34159,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpy5ruffe6/outputs:/outputs', '--volume', '/tmp/tmpy5ruffe6/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Droid-ify/client.git', '--env', 'APP_TAG=v0.6.6', '--env', 'APP_COMMIT=53ca19f3978453d241a6b9655c0008d8ecebdb69', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "8e0053eb7995e9aa3c5bbb280975d942408491da48fb3f4900467212430556d6": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.6.8/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 680,
+      "version_name": "0.6.8",
+      "tag": "v0.6.8",
+      "commit": "ff0f6c66c8a22a9a9dc7244cbc3ff651ebe20e19",
+      "timestamp": 1769038140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "73b0076b9005341778eb2b27cb4b31a47e4d13b498aa2a3a2bf560f6fdc4794d": [
     {
       "repository": "https://github.com/Iamlooker/Kenko.git",
@@ -39457,6 +39527,20 @@
       "error": null
     }
   ],
+  "807e88cd8a244e3b5b0c876e9a55f2178549dd375829122a33a78f0023f0c7f0": [
+    {
+      "repository": "https://github.com/Oksigenia/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.7.1/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 2018,
+      "version_name": "3.7.1",
+      "tag": "v3.7.1",
+      "commit": "ff622851e326c4b62201e7f78060245d321e747c",
+      "timestamp": 1769008550,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -44605,6 +44689,20 @@
       "tag": "v1.0.7",
       "commit": "76742790abd08196858c834ba728b6b314e4066a",
       "timestamp": 1768922154,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9f8ec4f7ac1a8376bc1bd607b4f2826303b9faee3584a5dcb2f1a74f3c860b26": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.9/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 10,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "68c255af48381761871368f116f582f894b7fe9f",
+      "timestamp": 1769009075,
       "reproducible": true,
       "error": null
     }
@@ -54887,6 +54985,20 @@
       "error": null
     }
   ],
+  "4cc20c10800cd81bcab8ff4315df5cf65b0e95237e9dd0f62ae660f2a7535293": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.4/RecurringExpenseTracker_0.19.4.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 56,
+      "version_name": "0.19.4",
+      "tag": "v0.19.4",
+      "commit": "255b3dbaa4b12bfed5e18532c4e5a82bfb3a32c0",
+      "timestamp": 1769027322,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -58075,6 +58187,20 @@
       "tag": "v1.6.0",
       "commit": "1d010d0034aa536db72f0563e0029a20289592a1",
       "timestamp": 1768922426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3488abaadd46ead97dc6a05626ac31208ab247014c34364d8ec3717b241ef083": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.6.1/simple-notes-sync-v1.6.1-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 15,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "d524bc715d156db1fb2de62986db4746b7826b85",
+      "timestamp": 1769009943,
       "reproducible": true,
       "error": null
     }
@@ -66789,6 +66915,20 @@
       "tag": "v1.23.3+142",
       "commit": "a5078c703229657d981b1a79c359301c15c770be",
       "timestamp": 1768058847,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d24fb12fdd96d47db73d95dd74954fad874f3e09784cd95d7f4eb6a5bf65e8d4": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.23.6%2B145/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2145,
+      "version_name": "1.23.6",
+      "tag": "v1.23.6+145",
+      "commit": "3f7f741ce8d1e7c28527f7fea40e3a5ce25e3325",
+      "timestamp": 1769010307,
       "reproducible": true,
       "error": null
     }
@@ -77685,6 +77825,20 @@
       "error": null
     }
   ],
+  "491ea2ae561714bee308797c5bfed166f23ecee590ad444f970839d7ca6d678c": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.8.2/tomato-v1.8.2-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 26,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "c9027901af38584ae152ac65af167d03a2eb30aa",
+      "timestamp": 1769011564,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -78675,6 +78829,20 @@
       "tag": "v20.11.5",
       "commit": "642fc0e318eece037264b423055fa88b739c6db8",
       "timestamp": 1768923509,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a660b5e7cb288a61aceee12d8244ef2cb9179a5de0cd0ee578a7ee34bbe16ac": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v20.11.7/KashCal-20.11.7-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 244,
+      "version_name": "20.11.7",
+      "tag": "v20.11.7",
+      "commit": "0f9147617896ad233cdcb041de243a557437de7b",
+      "timestamp": 1769028798,
       "reproducible": true,
       "error": null
     }
@@ -82411,6 +82579,20 @@
       "tag": "1.9.1",
       "commit": "1d688c6f28238e3681df36c0fcb5e5a07621cf8b",
       "timestamp": 1768144462,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f579108d8a929c509bbcf09839a54913c76a63200f4a2507fe5aafb4e6b43178": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.2/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 67,
+      "version_name": "1.9.2",
+      "tag": "1.9.2",
+      "commit": "a4d611a4b53984c6cd977b6e4e78222de09c0eb5",
+      "timestamp": 1769043363,
       "reproducible": true,
       "error": null
     }
