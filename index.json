@@ -2223,6 +2223,20 @@
       "error": null
     }
   ],
+  "81e73d8b74591e7945c7f636e7f011cb9f0cbad5ef798da41981e96c5f01be6b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.7.0/Podcini.X-free-arm64-v8a-10.7.0.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 242,
+      "version_name": "10.7.0",
+      "tag": "10.7.0",
+      "commit": "45ad370e680dd5c8c238ce4f95b6adbf35582cc1",
+      "timestamp": 1769093323,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2821,6 +2835,20 @@
       "tag": "v10.4.2",
       "commit": "199811bf553fcff1479493c8d8e80ce285283e6b",
       "timestamp": 1768761194,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3432eba35e14a1ed7567fe6101cb9d304ce166f454c0913eb7b3d34e73b615c6": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.5.2/cclauncher-v10.5.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1130,
+      "version_name": "v10.5.2",
+      "tag": "v10.5.2",
+      "commit": "74c6b782d885568c1780db40621812ea7d022293",
+      "timestamp": 1769093738,
       "reproducible": true,
       "error": null
     }
@@ -15493,6 +15521,20 @@
       "error": null
     }
   ],
+  "20f24fe3df50f820ce33eb8ee5e96400f187e859a187a3e638a0dc5b04b6d419": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v2.2.2/sefirah-2.2.2.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 20,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "782f4b22e10572193554df4f16474d900c361f44",
+      "timestamp": 1769024045,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -25221,6 +25263,20 @@
       "error": null
     }
   ],
+  "1a43ade08bb666fe00cb6f7a2839a5a89932af44d3b053ef2f37ea5f79e785f6": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.10/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 150,
+      "version_name": "1.21.10",
+      "tag": "v1.21.10",
+      "commit": "fc2dc1b0a875af7a68ffe0bbfe555e9566fcd425",
+      "timestamp": 1769094705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -32615,6 +32671,20 @@
       "tag": "v2.0.3",
       "commit": "6363127326569797e22962ce9eba4f720439375f",
       "timestamp": 1767885439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6ba089a7fbfa15210ea0377fa419f2bc19a7a6ac1d410f3fe3a56ed74a6b0a55": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.4/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 30,
+      "version_name": "2.0.4",
+      "tag": "v2.0.4",
+      "commit": "a2cd0cece63df94d4759cd18048b1f8e2bb145d6",
+      "timestamp": 1769094992,
       "reproducible": true,
       "error": null
     }
@@ -41417,6 +41487,20 @@
       "error": null
     }
   ],
+  "c9ce26d1a614f7f826df25b892e9ae8c8b12356927c2f1d67438e73f9b844787": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v2.7.0/WeatherMaster.2.7.0.arm64-v8a.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 28,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "3a1030f3e2c2e30fa9d0ca67c0957d57ff518985",
+      "timestamp": 1769095219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e344e5280853357dd0d1f3bd855fc610365efdd7bdaf0af4f4739707b89403cb": [
     {
       "repository": "https://github.com/JoshAtticus/Compressor.git",
@@ -41427,6 +41511,20 @@
       "tag": "1.1.0",
       "commit": "ff2cda3c8ac79b5526fbd35b54257db3a74e77c7",
       "timestamp": 1769012289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e31d396c41508554d7166eb0a17306aa574a8b370fefcfadb54a53b425b814af": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.1.1/Compressor-1.1.1.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 6,
+      "version_name": "1.1.1",
+      "tag": "1.1.1",
+      "commit": "59236fa5bf8cca17d9c7ee3ca7db9aed38b68bc1",
+      "timestamp": 1769096235,
       "reproducible": true,
       "error": null
     }
@@ -63885,6 +63983,20 @@
       "error": null
     }
   ],
+  "c6d61c3fec5f29486bd804929cad8aff3f86a79296406d2c083eed4746c22d4b": [
+    {
+      "repository": "https://github.com/EXALAB/AnLinux-Adfree.git",
+      "apk_url": "https://github.com/EXALAB/AnLinux-Adfree/releases/download/v6.70/app-release.apk",
+      "appid": "exa.lnx.a",
+      "version_code": 670,
+      "version_name": "6.70 Stable",
+      "tag": "v6.70",
+      "commit": "3d09f76673c54e31f8f7a34f4beaa21d51038c49",
+      "timestamp": 1769096480,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24efce208caec55908bb63c7a6fa1388e65eb5fedfb2d4bdf09bbe9d5cc59e75": [
     {
       "repository": "https://github.com/2bllw8/anemo.git",
@@ -66551,6 +66663,20 @@
       "tag": "v2.1.1",
       "commit": "590aafac6d4fa2ab941440e5817f31f8ac2ab4db",
       "timestamp": 1768577451,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a6bc1d617c3aba30a410beabaa13216f6863677d1af2fc0778feafbe6b5f5617": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.1.2/PrivacyFlip-v2.1.2-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 23,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "2b387271e456c082851f49d9a7744f9ca9b0a124",
+      "timestamp": 1769110615,
       "reproducible": true,
       "error": null
     }
@@ -72309,6 +72435,20 @@
       "error": null
     }
   ],
+  "0041d5147b4db0c614dfe92f1d6f3c476f9be7c0dfd52742ebed557daa4302ec": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.4.7/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 32,
+      "version_name": "alpha-0.4.7",
+      "tag": "alpha-0.4.7",
+      "commit": "f1bba44bca236c5dc59a41001d8bf91f28389f0d",
+      "timestamp": 1769096618,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -73761,6 +73901,20 @@
       "tag": "v2.2.1",
       "commit": "e18b3e20e7e1bfd6c9bfba0afa85b586eb8bf217",
       "timestamp": 1768923147,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "85684a190dcec74ec0f78df4bf8cacb588fea00454320eeccdc28d701bb97206": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.2.2/DragonLauncher-v2.2.2.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 30,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "2c5cfd0032b98c3c8f6459ce8b14baa4d4766903",
+      "timestamp": 1769096978,
       "reproducible": true,
       "error": null
     }
@@ -76589,6 +76743,20 @@
       "tag": "v1.5.0",
       "commit": "aed91696e0631e41076fb960923c6ce5d13cee58",
       "timestamp": 1768753188,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "05cad73ce5e1603c5c1535cb5e0d43a06bf3b12a04bcf10f126101ffb1e83719": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.5.2/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 13,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "ec98f20fd8c11c3fff40d1b7ee0f34185894df12",
+      "timestamp": 1769097398,
       "reproducible": true,
       "error": null
     }
