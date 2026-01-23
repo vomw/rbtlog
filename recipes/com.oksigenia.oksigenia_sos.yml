@@ -1,8 +1,8 @@
 ---
-repository: https://github.com/Oksigenia/oksigenia-sos.git
+repository: https://github.com/OksigeniaSL/oksigenia-sos.git
 updates: releases
 notes:
-  - Flutter version should be in pubspec.yaml with the next release
+  - 'FIXME: Cleanup: Flutter version should be in pubspec.yaml with the next release, sed no longer needed'
 versions:
   - tag: v3.6.2
     apks:
