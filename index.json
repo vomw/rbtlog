@@ -6297,6 +6297,20 @@
       "error": null
     }
   ],
+  "94eadf637ef4e4e6bf26f8d1a4dc7d4160c3706a3fcdcc4fcd9c0b10eeeefcec": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.009/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211009,
+      "version_name": "2.11.009",
+      "tag": "2.11.009",
+      "commit": "6462ace011fd0bd9db2b87bb9bc809b0270abe5e",
+      "timestamp": 1769371089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6ba3d752ea6010d4f269136b2237615d81c7eea051f4ff15a092e919dbf9272": [
     {
       "repository": "https://gitlab.com/Askanimus/qr-lager.git",
@@ -7105,6 +7119,20 @@
       "tag": "22",
       "commit": "815279958e481964cd672314ce3dfbbaca21c185",
       "timestamp": 1769266094,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5f4046a1b78c536ffad0f28e003425054c1865327f6fbbe3daf1ba1b003a3bd8": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/23/biz.binarysolutions.healthybatterycharging-2.1.2-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 23,
+      "version_name": "2.1.2",
+      "tag": "23",
+      "commit": "d2f99ced606aa0ed0e6e06cfdd798facb4b95012",
+      "timestamp": 1769352504,
       "reproducible": true,
       "error": null
     }
@@ -22325,6 +22353,20 @@
       "error": null
     }
   ],
+  "80e7d51e45a3201041bf52aa03a0be42e118ab622ce92d61f651c3cb79ba592b": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.9.3/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 15,
+      "version_name": "4.9.3",
+      "tag": "v4.9.3",
+      "commit": "23f58439bae0a22365c3038defd164df4f77021f",
+      "timestamp": 1769373665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -22839,6 +22881,20 @@
       "tag": "v2.0.7",
       "commit": "dd1405c67737601b27530533feeebf73711fe47e",
       "timestamp": 1760364436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1fb13ea1550faea54a7ac5b84c72f109a32a6667ed23f2163aa26c94d1599e76": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.1.1-70/LogFox-v2.1.1-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 70,
+      "version_name": "v2.1.1",
+      "tag": "v2.1.1-70",
+      "commit": "a85ed9fa60eb17e69e73cbd09d092271fcbce2d3",
+      "timestamp": 1769375690,
       "reproducible": true,
       "error": null
     }
@@ -25385,6 +25441,20 @@
       "tag": "v1.21.10",
       "commit": "fc2dc1b0a875af7a68ffe0bbfe555e9566fcd425",
       "timestamp": 1769094705,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0d9d1482b1beea6e2876b781af19674a540a363753add04598eae9760f29c22c": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.21.11/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 151,
+      "version_name": "1.21.11",
+      "tag": "v1.21.11",
+      "commit": "12aeab2acd3c13ebb7d615d352e53a0ff31700fb",
+      "timestamp": 1769352599,
       "reproducible": true,
       "error": null
     }
@@ -28141,6 +28211,20 @@
       "error": null
     }
   ],
+  "ec82208037dfc2c61a5440dbf194005b3cba0faefa80b1a861a10c9267a8aa84": [
+    {
+      "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
+      "apk_url": "https://github.com/warren-bank/Android-AirPlay-Client/releases/download/v0.5.7/AirPlay-Client-000.05.07-14API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.airplay_client",
+      "version_code": 50714,
+      "version_name": "000.05.07-14API",
+      "tag": "v0.5.7",
+      "commit": "56495378cd3680851bdabe55eb3f9e2930e2abfa",
+      "timestamp": 1769369364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d22d44a84f7717ad28e1141dd250f4532547c4441c230a8a64b52997754999f7": [
     {
       "repository": "https://github.com/warren-bank/Android-Bonjour-WebRTC.git",
@@ -28375,6 +28459,20 @@
       "tag": "v3.13.1",
       "commit": "eb7086ed89eeb8ceae91521f6a2c70d7d6001ff0",
       "timestamp": 1764005981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12dc91c36c658f7899d297e624ffadb9da78a8fa4499980948b19b47faf05749": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.13.2/ExoPlayer-AirPlay-Receiver-003.13.02-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3130223,
+      "version_name": "003.13.02-23API",
+      "tag": "v3.13.2",
+      "commit": "aa929dc4ea02a6ffe2300401d2a9c08ff968cb64",
+      "timestamp": 1769352858,
       "reproducible": true,
       "error": null
     }
@@ -32965,6 +33063,20 @@
       "tag": "1.4",
       "commit": "ea22b1c587d5a9cc04df3d0ec4845e85dd6ded38",
       "timestamp": 1734199610,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6d652bdf7c72127fa651b5a83594ba2810edef3e08fbc62ddefe4a92b3de0fd1": [
+    {
+      "repository": "https://github.com/Kin69/EasyNotes.git",
+      "apk_url": "https://github.com/Kin69/EasyNotes/releases/download/1.7.1/EasyNotes.apk",
+      "appid": "com.kin.easynotes",
+      "version_code": 14,
+      "version_name": "1.7-fdroid",
+      "tag": "1.7.1",
+      "commit": "b242f98aadd936b16d1b0fa222c718c36ea5318f",
+      "timestamp": 1769377137,
       "reproducible": true,
       "error": null
     }
@@ -54775,6 +54887,20 @@
       "error": null
     }
   ],
+  "4e26ee33d394978f272ccde00fddb80e48bcf7e307d5da84b3c1c76cf25d8439": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.4.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.4.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 97,
+      "version_name": "16.4.0",
+      "tag": "16.4.0",
+      "commit": "5a9bd6edd834682eabdbd69d8f53f556bde68f69",
+      "timestamp": 1769373597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -57697,6 +57823,20 @@
       "tag": "1.3.6",
       "commit": "dd85aa83974afdba4e82e67d8ebcf613aaa91744",
       "timestamp": 1769274214,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb4e0a2c9ab6c22eaaea0b18d708246dc14ee20dda91017bc3ef1310a9cb5a14": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/1.3.7/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 68,
+      "version_name": "1.3.7",
+      "tag": "1.3.7",
+      "commit": "5bb8c2eb16d4045fa9040d02b0037361b0715429",
+      "timestamp": 1769369990,
       "reproducible": true,
       "error": null
     }
