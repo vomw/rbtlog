@@ -3959,6 +3959,20 @@
       "error": null
     }
   ],
+  "7e036c5fe20674043d05c7fb69c8b027f8d98bf04b97f76a366a7547c0c381b2": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.7/mpvEx-fdroid-v1.2.7.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1272,
+      "version_name": "1.2.7-fdroid",
+      "tag": "v1.2.7",
+      "commit": "ae03fd539690c39304d968bec488490d9d34bbe1",
+      "timestamp": 1769346745,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -15265,6 +15279,20 @@
       "tag": "2026.01.1187",
       "commit": "63a4a0149e7a432903565c3acc3b456b2b8ef250",
       "timestamp": 1768920524,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9ed91ecd19d4bf92b3ccdd45d5b1f318ad5a5dcecc8ef851a6e7600b092a33c6": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.01.1188/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1188,
+      "version_name": "2026.01.1188",
+      "tag": "2026.01.1188",
+      "commit": "c26d45086f3e129ab85080f71601e3a2286c3fff",
+      "timestamp": 1769310077,
       "reproducible": true,
       "error": null
     }
@@ -35137,6 +35165,20 @@
       "error": null
     }
   ],
+  "8515be544517bf82298aba5ea6dd2e71cec1416fa7f4f551b279bc441444e0d6": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.2/Neo_Store_1.2.2_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1205,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "b24b91af6b7f2af151d0a68c3bac52397ffbeb58",
+      "timestamp": 1769313123,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
     {
       "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
@@ -36671,6 +36713,20 @@
       "tag": "v12.12.2",
       "commit": "249d6686d59e7bf2540827bb2e1557b4c39b274e",
       "timestamp": 1769180394,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "72c37fe62d185089d18f7044f957939e3aefe1a710d31cd25d2781c71239ed2d": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/mostafaalagamy/Metrolist/releases/download/v12.12.3/Metrolist.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 138,
+      "version_name": "12.12.3",
+      "tag": "v12.12.3",
+      "commit": "1f3c0ea9e67c67d0969f03db07664a80f9549f71",
+      "timestamp": 1769310665,
       "reproducible": true,
       "error": null
     }
@@ -39765,6 +39821,20 @@
       "error": null
     }
   ],
+  "8d0d9d9a37b8e8d57c5e192809133d83c71f078b5c90c0ec2bcc953c3959f89d": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.8.3/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 32803,
+      "version_name": "3.8.3",
+      "tag": "v3.8.3",
+      "commit": "807f192bc2d6bf91d2436736ce187212e47871df",
+      "timestamp": 1769311530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -41721,6 +41791,20 @@
       "tag": "v0.10.5",
       "commit": "301f432861c679b8bacb3393d1dcccce21b9e461",
       "timestamp": 1764423981,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "950c0851b52f735727f7b42a977cf584505e5c672d2236dc20f4f4d2a0988d4a": [
+    {
+      "repository": "https://github.com/RoBoT095/printnotes.git",
+      "apk_url": "https://github.com/RoBoT095/printnotes/releases/download/v0.10.6/app-arm64-v8a-release.apk",
+      "appid": "com.printnotes.printnotes",
+      "version_code": 2015,
+      "version_name": "0.10.6",
+      "tag": "v0.10.6",
+      "commit": "1bead6721b810a9485a878a2307fb3b96a745b7a",
+      "timestamp": 1769311790,
       "reproducible": true,
       "error": null
     }
@@ -51613,6 +51697,20 @@
       "tag": "v5.0.2",
       "commit": "d5c4a96951f7c7d866ee6933d19fd454c95ed52e",
       "timestamp": 1768751098,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7c4bd6ef2ed6ba5a2730ea83e8b00ce86405bf063c634e357d62fd13ef24d965": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v5.0.3/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 21,
+      "version_name": "5.0.3",
+      "tag": "v5.0.3",
+      "commit": "a34d872cb4524c2b2197970103a1da1794479236",
+      "timestamp": 1769312355,
       "reproducible": true,
       "error": null
     }
