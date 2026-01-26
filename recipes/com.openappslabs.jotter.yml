@@ -1,6 +1,9 @@
 ---
 repository: https://github.com/OpenAppsLabs/Jotter.git
 updates: releases
+notes:
+  - v2.0.0 failed, was built using JDK 23 on Windows 10, see https://github.com/OpenAppsLabs/Jotter/issues/70
+  - v2.0.1 the same, built from a non-existing commit even
 versions:
   - tag: v1.2.1
     apks:
@@ -68,6 +71,68 @@ versions:
       - apk_pattern: app-release\.apk
         apk_url: https://github.com/OpenAppsLabs/Jotter/releases/download/v1.2.3/app-release.apk
         build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.0.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/OpenAppsLabs/Jotter/releases/download/v2.0.0/app-release.apk
+        build:
+          - git reset --soft 2c079b36c75e91ffc968e3b199ac65deaa2325ee
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.0.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/OpenAppsLabs/Jotter/releases/download/v2.0.1/app-release.apk
+        build:
+          - git reset --soft 1ed532f31c859c88271f44e74c9ad25663e320ab
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - find . -name '*.apk'

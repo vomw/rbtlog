@@ -5135,6 +5135,20 @@
       "error": null
     }
   ],
+  "ee6966be9a99b16300519ce21b3673197d8f39df76bb338dfb10c98169783518": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.5.0/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10650,
+      "version_name": "build106.5.0",
+      "tag": "build106.5.0",
+      "commit": "15e19c94f3d4c43a7d51e4a0e4981754294ad373",
+      "timestamp": 1769439006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -28239,6 +28253,20 @@
       "error": null
     }
   ],
+  "e2bafbced6e79b675570ca4b8efcf0f18b6c25da82d7714286acec0ec542bd9d": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Bonjour-WebRTC.git",
+      "apk_url": "https://github.com/warren-bank/Android-Bonjour-WebRTC/releases/download/v01.04.01/Bonjour-WebRTC-001.04.01-21API-withAllLanguageTranslations-arm64-v8a-release.apk",
+      "appid": "com.github.warren_bank.bonjour_webrtc",
+      "version_code": 1040121,
+      "version_name": "001.04.01-21API",
+      "tag": "v01.04.01",
+      "commit": "8b2cace594f98a6e7d9d94633e6886f9c62062c6",
+      "timestamp": 1769456634,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfc0b5f2fdc1ad082e3b693b69d856b413dc2eb6336bc2fe1bc43d2ed69b257d": [
     {
       "repository": "https://github.com/warren-bank/Android-Bookmarks.git",
@@ -28557,6 +28585,20 @@
       "tag": "v2.1.4",
       "commit": "90ebdecc9c67ab6f470871e04cdc704723d383e4",
       "timestamp": 1739288777,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3a712f4a832ca5db203544bb98b85f09cfeff8bb07e7cea29511fc68a56f444a": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver.git",
+      "apk_url": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver/releases/download/v2.1.5/Slideshow-Screensaver-002.01.05-17API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.slideshow_screensaver",
+      "version_code": 2010517,
+      "version_name": "002.01.05-17API",
+      "tag": "v2.1.5",
+      "commit": "7c8a44d1722db584446e13d0372dd154cdf522b9",
+      "timestamp": 1769451770,
       "reproducible": true,
       "error": null
     }
@@ -39975,6 +40017,20 @@
       "error": null
     }
   ],
+  "953bf94276e0e262b1ed8fa52345b2f20aeca2a1367c5d1c07708a5ae2b768ab": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.9.0/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 32900,
+      "version_name": "3.9.0",
+      "tag": "v3.9.0",
+      "commit": "ca4f6d6728a7174aacdfb2609c548248c3923f71",
+      "timestamp": 1769439667,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -40351,6 +40407,34 @@
       "timestamp": 1765985022,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "c950fbd224951e56317b8bd42c9bc15517fe07a921e6cb296b9a8ee32e07da36": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v2.0.0/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 7,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "af7b03b58f9c2ebf9513a2323b1837cbf987b67f",
+      "timestamp": 1769372866,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "c1a0240dfdd5dc91112ce79c2d433416ff0a9b456b2f9f92905fa184162a1a08": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v2.0.1/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 8,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "f719e6f3838f54590ea6aa30492afd1558d58f1f",
+      "timestamp": 1769455518,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpi_3g45x6/outputs:/outputs', '--volume', '/tmp/tmpi_3g45x6/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/OpenAppsLabs/Jotter.git', '--env', 'APP_TAG=v2.0.1', '--env', 'APP_COMMIT=f719e6f3838f54590ea6aa30492afd1558d58f1f', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
   "0f6596ac22a4ab18a06849817c10513d7b3a16bb53e5a9c4423b3b7505897f99": [
@@ -41931,6 +42015,20 @@
       "tag": "1.1.3",
       "commit": "6eba214ef72caf7ac135df206c386316b31cb36d",
       "timestamp": 1769278367,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1b7f5f7965a638744b2cdf7ba29bbb34529360d10c1ae1ec4d17c1717fe8ad25": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.2.0/Compressor-1.2.0.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 9,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "810c63140d2dff3d8501b4eb0dda3bc7c648d693",
+      "timestamp": 1769453438,
       "reproducible": true,
       "error": null
     }
@@ -49920,6 +50018,20 @@
       "commit": "938f7a91c0df237f4fb01ba6c8b6a942bec71164",
       "timestamp": 1767643651,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "df47e91aa41aea89a033185cb0257e99b2ad0d0bb488cd02bbded465d4d78379": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.6/call-limiter-0.3.6.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 7,
+      "version_name": "0.3.6",
+      "tag": "0.3.6",
+      "commit": "d12d10770424fc0ed51589104883c36566de3940",
+      "timestamp": 1769196520,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -73051,6 +73163,20 @@
       "error": null
     }
   ],
+  "6fe214f71ab566cb9e4ebe48bc1fe63d44edd219e5d9416cc7ee89f76b97027d": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.4.8/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 33,
+      "version_name": "alpha-0.4.8",
+      "tag": "alpha-0.4.8",
+      "commit": "f109f9f3f4abc0f227effa44f663a0b4c81883a5",
+      "timestamp": 1769440962,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -79421,6 +79547,20 @@
       "error": null
     }
   ],
+  "c4e3476a265199eac70459e2de73295abbe4aff8ede3517073bb52207964c245": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.7.3/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 71,
+      "version_name": "1.7.3",
+      "tag": "1.7.3",
+      "commit": "2cd5a434a3af850b52e9368971e67b6c9a149694",
+      "timestamp": 1769441269,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f799bcf762ff5d3048bc627aa318eb1e50d314ea724bf908b93df985ce893377": [
     {
       "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
@@ -79659,6 +79799,20 @@
       "error": null
     }
   ],
+  "0b1da83b329e79da35b32652735248ab8b0c9f36488ffdceaf313ecfe3466593": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v21.1.6/KashCal-21.1.6-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 322,
+      "version_name": "21.1.6",
+      "tag": "v21.1.6",
+      "commit": "672225788fa6e2124f26a21a5da0b2f186294369",
+      "timestamp": 1769453811,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -79835,6 +79989,20 @@
       "tag": "v0.28.0",
       "commit": "089672ba26d55dedd87337ae3b1c07b0eadd96ba",
       "timestamp": 1754321231,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "18d82768f949275d045b472e8b593415563c78f4d3ddbd0db663705defba718a": [
+    {
+      "repository": "https://github.com/polymorphicshade/Tubular.git",
+      "apk_url": "https://github.com/polymorphicshade/Tubular/releases/download/v0.28.1/tubular_v0.28.1.apk",
+      "appid": "org.polymorphicshade.tubular",
+      "version_code": 1006,
+      "version_name": "0.28.1",
+      "tag": "v0.28.1",
+      "commit": "534e33767d7bd907efea0a98c950a19af7e7c78c",
+      "timestamp": 1769441467,
       "reproducible": true,
       "error": null
     }
@@ -82131,6 +82299,20 @@
       "tag": "v5.12.0",
       "commit": "63835c274805fb8c162f8a0e7d8d2dc725701f4e",
       "timestamp": 1767195162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "77a5d585cc867909eab252b3fd1ef863656a71e9244395d03b5e2e87c3cccf04": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v5.13.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 32,
+      "version_name": "5.13.0",
+      "tag": "v5.13.0",
+      "commit": "85f08305317dffad0b6aac436ef097a7f199a68c",
+      "timestamp": 1769459154,
       "reproducible": true,
       "error": null
     }
