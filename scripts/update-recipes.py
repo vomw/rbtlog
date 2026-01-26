@@ -27,26 +27,28 @@ GITHUB_DOT_COM = "github.com"
 GITLAB_DOT_COM = "gitlab.com"
 
 # host, namespace, project
-GITEA_RELEASE = "https://{}/api/v1/repos/{}/{}/releases/latest"
+GITEA_RELEASES = "https://{}/api/v1/repos/{}/{}/releases"
+GITEA_LATEST_RELEASE = "https://{}/api/v1/repos/{}/{}/releases/latest"
 # namespace, project
+GITHUB_RELEASES = "https://api.github.com/repos/{}/{}/releases"
 GITHUB_LATEST_RELEASE = "https://api.github.com/repos/{}/{}/releases/latest"
 # host, namespace, project
+GITLAB_PROJECT = "https://{}/api/v4/projects/{}%2F{}"
+GITLAB_RELEASES = "https://{}/api/v4/projects/{}%2F{}/releases"
 GITLAB_LATEST_RELEASE = "https://{}/api/v4/projects/{}%2F{}/releases/permalink/latest"
 
 # host, project_id, upload
 GITLAB_UPLOAD = "https://{}/-/project/{}/uploads/{}"
 # hash/filename
 GITLAB_UPLOAD_RX = re.compile(r"\(/uploads/([0-9a-f]{32}/[^/)]+)\)")
-# project_id
-GITLAB_RELEASES_PROJECT_ID_RX = re.compile(r"/api/v4/projects/(\d+)/releases/")
 
 
 class Error(Exception):
     """Base class for errors."""
 
 
-def latest_release(repository: str, forge_type: Optional[str], apk_patterns: List[str], *,
-                   verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release(repository: str, forge_type: Optional[str], release_pattern: Optional[str],
+                   apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs."""
     if repository.endswith(".git"):
         repository = repository[:-4]
@@ -65,11 +67,11 @@ def latest_release(repository: str, forge_type: Optional[str], apk_patterns: Lis
                                       "set forge_type in your recipe.")
 
     if forge_type in ["forgejo", "gitea"]:
-        tag, apk_urls = latest_release_forgejo(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_forgejo(url, release_pattern, apk_patterns, verbose=verbose)
     elif forge_type == "github":
-        tag, apk_urls = latest_release_github(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_github(url, release_pattern, apk_patterns, verbose=verbose)
     elif forge_type == "gitlab":
-        tag, apk_urls = latest_release_gitlab(url, apk_patterns, verbose=verbose)
+        tag, apk_urls = latest_release_gitlab(url, release_pattern, apk_patterns, verbose=verbose)
     else:
         raise NotImplementedError(f"Unsupported forge: {forge_type}")
     if not set(apk_urls) == set(apk_patterns):
@@ -79,12 +81,12 @@ def latest_release(repository: str, forge_type: Optional[str], apk_patterns: Lis
 
 # FIXME: for now, we assume Gitea and Forgejo are compatible. If this ever
 # changes, this needs to be split into multiple functions
-def latest_release_forgejo(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                         verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_forgejo(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                           apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from Gitea/Forgejo."""
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
-    data = forgejo_latest_release(url.hostname, namespace, project, verbose=verbose)
+    data = forgejo_latest_release(url.hostname, namespace, project, release_pattern, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -95,11 +97,11 @@ def latest_release_forgejo(url: urllib.parse.ParseResult, apk_patterns: List[str
     return tag, apk_urls
 
 
-def latest_release_github(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                          verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_github(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                          apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitHub."""
     namespace, project = url.path.strip("/").split("/")
-    data = github_latest_release(namespace, project, verbose=verbose)
+    data = github_latest_release(namespace, project, release_pattern, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -110,12 +112,12 @@ def latest_release_github(url: urllib.parse.ParseResult, apk_patterns: List[str]
     return tag, apk_urls
 
 
-def latest_release_gitlab(url: urllib.parse.ParseResult, apk_patterns: List[str], *,
-                          verbose: bool = False) -> Tuple[str, Dict[str, str]]:
+def latest_release_gitlab(url: urllib.parse.ParseResult, release_pattern: Optional[str],
+                          apk_patterns: List[str], *, verbose: bool = False) -> Tuple[str, Dict[str, str]]:
     """Get latest release tag & APK URLs from GitLab."""
     namespace, project = url.path.strip("/").split("/")
     assert url.hostname is not None
-    data = gitlab_latest_release(url.hostname, namespace, project, verbose=verbose)
+    data = gitlab_latest_release(url.hostname, namespace, project, release_pattern, verbose=verbose)
     tag = data["tag_name"]
     apk_urls = {}
     for apk_pattern in apk_patterns:
@@ -131,10 +133,7 @@ def latest_release_gitlab(url: urllib.parse.ParseResult, apk_patterns: List[str]
             continue
         for upload in GITLAB_UPLOAD_RX.findall(data["description"]):
             if re.fullmatch(apk_pattern, upload.rsplit("/", 1)[-1]):
-                if not (m := re.search(GITLAB_RELEASES_PROJECT_ID_RX, data["_url"])):
-                    raise Error("Could not determine project ID from URL")
-                project_id = int(m.group(1))
-                apk_urls[apk_pattern] = GITLAB_UPLOAD.format(url.hostname, project_id, upload)
+                apk_urls[apk_pattern] = GITLAB_UPLOAD.format(url.hostname, data["_project_id"], upload)
                 break
     return tag, apk_urls
 
@@ -157,39 +156,92 @@ def latest_tag(repository: str, tag_pattern: str, *, quiet: bool = False,
 
 
 # FIXME: retry, configure timeout, gitea vs forgejo
-def forgejo_latest_release(host: str, namespace: str, project: str, *,
-                         verbose: bool = False) -> Dict[Any, Any]:
+def forgejo_latest_release(host: str, namespace: str, project: str, release_pattern: Optional[str], *,
+                           verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from Gitea/Forgejo API."""
-    url = GITEA_RELEASE.format(host, namespace, project)
+    url = GITEA_RELEASES.format(host, namespace, project) if release_pattern else GITEA_LATEST_RELEASE.format(host, namespace, project)
     if verbose:
         print(f"Checking {url!r}...", file=sys.stderr)
     with requests.get(url, timeout=60) as response:
         response.raise_for_status()
-        return response.json()      # type: ignore[no-any-return]
+
+        # If we don't need to filter we're done here
+        if not release_pattern:
+            return response.json()      # type: ignore[no-any-return]
+
+        # Otherwise, figure out which tag matches
+        for release in response.json():
+            # Ignore prereleases
+            if release["prerelease"]:
+                continue
+
+            if re.fullmatch(release_pattern, release["tag_name"]):
+                return release      # type: ignore[no-any-return]
+        else:
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 # FIXME: retry, configure timeout
-def github_latest_release(namespace: str, project: str, *, verbose: bool = False) -> Dict[Any, Any]:
+def github_latest_release(namespace: str, project: str, release_pattern: Optional[str], *, verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from GitHub API."""
-    url = GITHUB_LATEST_RELEASE.format(namespace, project)
+    url = GITHUB_RELEASES.format(namespace, project) if release_pattern else GITHUB_LATEST_RELEASE.format(namespace, project)
     headers = dict(Authorization=f"token {GITHUB_TOKEN}") if GITHUB_TOKEN else {}
     if verbose:
         print(f"Checking {url!r}...", file=sys.stderr)
     with requests.get(url, headers=headers, timeout=60) as response:
         response.raise_for_status()
-        return response.json()      # type: ignore[no-any-return]
+
+        # If we don't need to filter we're done here
+        if not release_pattern:
+            return response.json()      # type: ignore[no-any-return]
+
+        # Otherwise, figure out which tag matches
+        for release in response.json():
+            # Ignore prereleases
+            if release["prerelease"]:
+                continue
+
+            if re.fullmatch(release_pattern, release["tag_name"]):
+                return release      # type: ignore[no-any-return]
+        else:
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 # FIXME: retry, configure timeout, token (!?)
-def gitlab_latest_release(host: str, namespace: str, project: str, *,
+def gitlab_latest_release(host: str, namespace: str, project: str, release_pattern: Optional[str], *,
                           verbose: bool = False) -> Dict[Any, Any]:
     """Get latest release from GitLab API."""
-    url = GITLAB_LATEST_RELEASE.format(host, namespace, project)
+    project_url = GITLAB_PROJECT.format(host, namespace, project)
+    url = GITLAB_RELEASES.format(host, namespace, project) if release_pattern else GITLAB_LATEST_RELEASE.format(host, namespace, project)
+
+    # First, retrieve the GitLab project ID
+    if verbose:
+        print(f"Retrieving project ID for permalink info from {url!r}...", file=sys.stderr)
+    with requests.get(project_url, timeout=60) as response:
+        response.raise_for_status()
+
+        project_id = response.json()["id"]
+
+    # Then, actually check for the update
     if verbose:
         print(f"Checking {url!r}...", file=sys.stderr)
     with requests.get(url, timeout=60) as response:
         response.raise_for_status()
-        return {**response.json(), "_url": response.url}
+
+        # If we don't need to filter we're done here
+        if not release_pattern:
+            return {**response.json(), "_project_id": project_id}
+
+        # Otherwise, figure out which tag matches
+        for release in response.json():
+            # Ignore prereleases
+            if release["upcoming_release"]:
+                continue
+
+            if re.fullmatch(release_pattern, release["tag_name"]):
+                return {**release, "_project_id": project_id}
+        else:
+            raise Error(f"Could not find a release with a tag matching pattern {release_pattern} (only page 1 of the URL gets checked, so results might be incomplete)")
 
 
 def load_recipe(recipe_file: str) -> Dict[Any, Any]:
@@ -253,9 +305,10 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, always_updat
         if checkonly := updates.startswith("checkonly:"):
             updates = updates.replace("checkonly:", "", 1)
         try:
-            if updates == "releases":
+            if updates.startswith("releases"):
+                release_pattern = updates.replace("releases:", "", 1) if ":" in updates else None
                 apk_patterns = [apk["apk_pattern"] for apk in recipe["versions"][-1]["apks"]]
-                tag, apk_urls = latest_release(repository, forge_type, apk_patterns, verbose=verbose)
+                tag, apk_urls = latest_release(repository, forge_type, release_pattern, apk_patterns, verbose=verbose)
                 if verbose:
                     for apk_url in apk_urls.values():
                         print(f"Found tag {tag!r} with APK URL {apk_url!r}.", file=sys.stderr)
