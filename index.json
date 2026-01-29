@@ -2251,6 +2251,20 @@
       "error": null
     }
   ],
+  "16f1c2619abcdc689cd97e132945a9718291878926c4999104b7c7e638816af9": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.8.1/Podcini.X-free-arm64-v8a-10.8.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 244,
+      "version_name": "10.8.1",
+      "tag": "10.8.1",
+      "commit": "e2b3f7c980f93539ca5bbbf82cb856a2a2fb33bd",
+      "timestamp": 1769698103,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -2863,6 +2877,20 @@
       "tag": "v10.5.2",
       "commit": "74c6b782d885568c1780db40621812ea7d022293",
       "timestamp": 1769093738,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a7e5d5a85b16466adf11bc7aee38fcb96ade2b7caee8de5b35e4601691dba250": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.5.3/cclauncher-v10.5.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1140,
+      "version_name": "v10.5.3",
+      "tag": "v10.5.3",
+      "commit": "34d90456dcd737eb1ac08bde8abe527814c1825b",
+      "timestamp": 1769698527,
       "reproducible": true,
       "error": null
     }
@@ -4809,6 +4837,20 @@
       "tag": "v3.3.0",
       "commit": "7dec2bb5b89cfdab299c07853fe8de65a020143b",
       "timestamp": 1767122565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c12f8b5d00f152499b47da796d875920d1460516d243bc5c30bfe0ef7371a0bc": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.3.1/Pachli_3.3.1_45_9d1a9000_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 45,
+      "version_name": "3.3.1",
+      "tag": "v3.3.1",
+      "commit": "9d1a9000360446096b6a4936f5b0d2af607cedf7",
+      "timestamp": 1769698868,
       "reproducible": true,
       "error": null
     }
@@ -17439,6 +17481,20 @@
       "error": null
     }
   ],
+  "60be364a465c5d0de9f59d8039057dcb7f3e9ae2d5042feeb763292b6c1be98e": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.48/networksurvey-1.48-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 105,
+      "version_name": "1.48",
+      "tag": "v1.48",
+      "commit": "9384164914132bda9a26a3369c16033ad2ef2675",
+      "timestamp": 1769715689,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -21061,6 +21117,34 @@
       "tag": "5.1.0",
       "commit": "e4962975af5e8812fada777dfc4012197b19f4fe",
       "timestamp": 1769179725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "614bbffdbec4a8e55675797029cddde611d63474e959368345299dea54b3fb70": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.1/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 171,
+      "version_name": "5.1.1",
+      "tag": "5.1.1",
+      "commit": "0db2aa9847f5757e69b09c51dce5af01c08d278a",
+      "timestamp": 1769628185,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp2neyge8_/outputs:/outputs', '--volume', '/tmp/tmp2neyge8_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/dessalines/thumb-key.git', '--env', 'APP_TAG=5.1.1', '--env', 'APP_COMMIT=0db2aa9847f5757e69b09c51dce5af01c08d278a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "3027a0f0d3d7a27f6372b8719354e760ff542fc2cf5138224201b0f0052a9f64": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.2/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 172,
+      "version_name": "5.1.2",
+      "tag": "5.1.2",
+      "commit": "a7faf6e84af805c4a194e6789749a9ea45de41be",
+      "timestamp": 1769640105,
       "reproducible": true,
       "error": null
     }
@@ -28335,6 +28419,20 @@
       "error": null
     }
   ],
+  "6567dd9204d59aa6a5a259d8b08a33800987bfbf887ef5963d1bf6b33eacd142": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.12.0/SensorSpot-v1.12.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 24,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "8d88967de458310c1570f9bd1857423f911a5171",
+      "timestamp": 1769716289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -35499,6 +35597,20 @@
       "error": null
     }
   ],
+  "1009b11bb293f320b856148f1a89698cc415980a7b6277718c8be5b1a60bfbb7": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.3/Neo_Store_1.2.3_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1206,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "db8330a66ddc0afb57f19bdf7e680b864b8f82e6",
+      "timestamp": 1769716750,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "261427ebccd721127377593b6404d689cf382bd57d73166f5733e64ec787164d": [
     {
       "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
@@ -42101,6 +42213,20 @@
       "error": null
     }
   ],
+  "bab29f0044a247aa815abea5a926367e2ab78a14d6963fbacd3db43b033c6123": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.4.8/torrentsearch-v0.4.8.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 15,
+      "version_name": "0.4.8",
+      "tag": "v0.4.8",
+      "commit": "3ee15964b0978ee3892ec85649afd7192344cb9c",
+      "timestamp": 1769702654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a419bda9933f3df9da6455536e0af76b60f005f93b0900a2a8886b13a8a95238": [
     {
       "repository": "https://github.com/PranshulGG/RecordMaster.git",
@@ -42237,6 +42363,20 @@
       "tag": "1.3.0",
       "commit": "bfcf7edc0be1e9e73cb80d57a68296d4a6cc169b",
       "timestamp": 1769612738,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4085857b273238c88005bd91ddf2aadf124f18f4ef829b9ebae5cbda4b5f5195": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.3.1/Compressor-1.3.1.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 11,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "39771a342de6c161f7e797e30f03df81e694b502",
+      "timestamp": 1769700019,
       "reproducible": true,
       "error": null
     }
@@ -52607,6 +52747,20 @@
       "error": null
     }
   ],
+  "7598ad1bfbbc45afe5f4a39de6a42143d8e1df4162a240ce8a71a9486bf64e65": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.72.04/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 272034,
+      "version_name": "2.72.04",
+      "tag": "V2.72.04",
+      "commit": "2fc4773c9d3e1e1c27b6a2d2683e39e34aceb111",
+      "timestamp": 1769723498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -61659,6 +61813,20 @@
       "error": null
     }
   ],
+  "1e7e9fcf9d3125422211b314c0da98c4673559da36317097db110cc5e8c4f433": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v9.0.4/app-release.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 904,
+      "version_name": "9.0.4",
+      "tag": "v9.0.4",
+      "commit": "5822ddef2df2c6e12505cb2481f4db6ddc789125",
+      "timestamp": 1769718176,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -64751,6 +64919,20 @@
       "error": null
     }
   ],
+  "c06b805e296d35b2f9e496e01b843a3e4d90dd1f5d31dbc596d705630c2ce015": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.3.0/phdp-v1.3.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10150,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "eda72e020d28fffcda963fa84e217517aad80660",
+      "timestamp": 1769700294,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
     {
       "repository": "https://github.com/hxreborn/remember-my-sort.git",
@@ -66903,6 +67085,20 @@
       "error": null
     }
   ],
+  "c37c99cc87a24f39c7dd7d7885041e31f261e536095dc49de48583dc62eac9d1": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.7.0/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 13,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "f63083e2be7b64db085f42c76250ec53ea64706f",
+      "timestamp": 1769722905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -68971,6 +69167,20 @@
       "tag": "v1.1.5",
       "commit": "de191c1208710cbc1ee2df9ecf77c916996dfe78",
       "timestamp": 1768577707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "26d7c9e2666003122c8daf6f24ee94b5330e48f09d213fe1de268f4d90754e48": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.6/SMS2Email-v1.1.6-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 19,
+      "version_name": "1.1.6",
+      "tag": "v1.1.6",
+      "commit": "1e398f25740d38c3b3b82b175f4744768c0ae916",
+      "timestamp": 1769700711,
       "reproducible": true,
       "error": null
     }
@@ -80407,6 +80617,20 @@
       "tag": "v0.28.1",
       "commit": "534e33767d7bd907efea0a98c950a19af7e7c78c",
       "timestamp": 1769441467,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a27d46005e85e57a6ac7a1e8aca4f9d97025f9860a36b6766ba4195f50391804": [
+    {
+      "repository": "https://github.com/polymorphicshade/Tubular.git",
+      "apk_url": "https://github.com/polymorphicshade/Tubular/releases/download/v0.28.2/tubular_v0.28.2.apk",
+      "appid": "org.polymorphicshade.tubular",
+      "version_code": 1007,
+      "version_name": "0.28.2",
+      "tag": "v0.28.2",
+      "commit": "317af054fe4580bf9a8abeaabff7af70286f016d",
+      "timestamp": 1769700974,
       "reproducible": true,
       "error": null
     }

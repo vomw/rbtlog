@@ -551,3 +551,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.3.1
+    apks:
+      - apk_pattern: Pachli.*blueGithub_release-signed\.apk
+        apk_url: https://github.com/pachli/pachli-android/releases/download/v3.3.1/Pachli_3.3.1_45_9d1a9000_blueGithub_release-signed.apk
+        build:
+          - PROF_FILE=app/build/intermediates/binary_art_profile/blueGithubRelease/compileBlueGithubReleaseArtProfile/baseline.prof
+          - PROF_SHA1=021472111397b32fe85734af12511602c51a719d
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleBlueGithubRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/blueGithub/release/Pachli_*_blueGithub_release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
