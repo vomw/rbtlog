@@ -25905,6 +25905,20 @@
       "error": null
     }
   ],
+  "9c5a408410be2a3f7fb0aed1c43aa01afbd8c01d2f6e049232f5058072ccd773": [
+    {
+      "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
+      "apk_url": "https://github.com/More-Than-Solitaire/Tabs-Lite/releases/download/v4.1.0/TabsLite.v4.1.0.apk",
+      "appid": "com.gbros.tabslite",
+      "version_code": 4100,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "ed84e6e5b00c127344e0ca6cd4084617e172f5f7",
+      "timestamp": 1770020428,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a9d2284ec5b0bfc7846199f2a3aeba4d9ac56927d36c807f69be202b8f3af813": [
     {
       "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
@@ -31815,6 +31829,20 @@
       "tag": "release-3.4.2",
       "commit": "01bb25b482049a1457a9fb53e53b15efd7e5460f",
       "timestamp": 1768241337,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b46ed74e412c460a8df604b566760d09be6b3c0925c5c53a1883f2aa0b76732": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-3.4.3/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 343,
+      "version_name": "3.4.3",
+      "tag": "release-3.4.3",
+      "commit": "e7a95796498922eb0fef50e9b8a6d00308ce0b69",
+      "timestamp": 1770018730,
       "reproducible": true,
       "error": null
     }
