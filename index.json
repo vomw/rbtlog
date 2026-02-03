@@ -2307,6 +2307,20 @@
       "error": null
     }
   ],
+  "85e40f6e9acc565da830f526b9c5596cf4a59005eb95aaa55d3189db992359a4": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.8.7/Podcini.X-free-arm64-v8a-10.8.7.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 250,
+      "version_name": "10.8.7",
+      "tag": "10.8.7",
+      "commit": "31cff612f2c6d0b5b1e487f82ff3be14fcdf9ecf",
+      "timestamp": 1770130494,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4557,6 +4571,20 @@
       "tag": "1.11.3.4",
       "commit": "2f64613dd37b589f505eaa7739d5e125b8abb201",
       "timestamp": 1768407302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d7ebb836e00a96dfe8e21b5d8f2d206991f500b10239db0cd8a91fdeb22338a7": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.3.5/MultiLauncher-1.11.3.5-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110305,
+      "version_name": "1.11.3 Build 5",
+      "tag": "1.11.3.5",
+      "commit": "8b7d85a6ddebf6cffa559df520ed36e8e4135659",
+      "timestamp": 1770139020,
       "reproducible": true,
       "error": null
     }
@@ -8173,6 +8201,20 @@
       "error": null
     }
   ],
+  "aa844805a006c760c54f9128e211a7ca6afc0de460c556175050429bd8aceb3f": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.19.0/min-cal-widget-v2.19.0.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 93,
+      "version_name": "2.19.0",
+      "tag": "v2.19.0",
+      "commit": "d201f18d7870109d976df94576957a11c7a5df7c",
+      "timestamp": 1770154036,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -10787,6 +10829,20 @@
       "tag": "v2.6.8",
       "commit": "b1c628825d84817954cf644c7e9c7851a375ef38",
       "timestamp": 1770128142,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5aa2c830c31f76f534fba7f7068c3f576d7402f431ec80b8210765bf6a5ef672": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/v2.6.12/notifications-recovery-2.6.12.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 46,
+      "version_name": "2.6.12",
+      "tag": "v2.6.12",
+      "commit": "5b74bc832f5181fc0dfa5bff7c819a8687da626d",
+      "timestamp": 1770155467,
       "reproducible": true,
       "error": null
     }
@@ -22715,6 +22771,20 @@
       "error": null
     }
   ],
+  "bc9a76187f4aa1ed80eceeef7d2631009868f336facdf347341fe14a4a48a2b6": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.9.8/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 17,
+      "version_name": "4.9.8",
+      "tag": "v4.9.8",
+      "commit": "eaac728a2651bfb0a1642663ebfa4235fcd8de18",
+      "timestamp": 1770131798,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -26661,6 +26731,20 @@
       "error": null
     }
   ],
+  "dffba5518ce3cdf74227c1579e09a3844c4c27e802fed6bea9f5b71ebb8023bd": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.12/app-fdroid-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29319940,
+      "version_name": "2.7.12 (29319940) fdroid",
+      "tag": "v2.7.12",
+      "commit": "7c7e46ecc480ebcf45fc65a33e9f39963a4fec94",
+      "timestamp": 1770139548,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bc1855cb6ace0ca14365403df0279b3aa3929c8a85e80502038a088317761edd": [
     {
       "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
@@ -28307,6 +28391,20 @@
       "error": null
     }
   ],
+  "f161c7b02d00559b361ef733b317f824bc76be1b36de1c49f6694662c6428c27": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.8.0/DroidPad-v3.8.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 42,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "458ccbfa8d9d629be87f794882285912d6dd8de1",
+      "timestamp": 1770148049,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a145bd1bbdd6fa9333ebf8ef8e93e11fbfd43e62a7cf3049f04dad05cb5805d0": [
     {
       "repository": "https://github.com/UmerCodez/SensaGram.git",
@@ -28653,6 +28751,20 @@
       "tag": "v1.12.0",
       "commit": "8d88967de458310c1570f9bd1857423f911a5171",
       "timestamp": 1769716289,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3224c8479d4b5f67b80765d08bfecfd01dc3afd243c7f7a8f60fb7e72c3cc149": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.13.0/SensorSpot-v1.13.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 25,
+      "version_name": "1.13.0",
+      "tag": "v1.13.0",
+      "commit": "29029d5dba186096a8af7c3da62d5c3ffcce9f24",
+      "timestamp": 1770148766,
       "reproducible": true,
       "error": null
     }
@@ -40659,6 +40771,20 @@
       "error": null
     }
   ],
+  "1302394d787786e118b22da8681a591851af78b7f6aab26330787d5201abd7af": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.9.2/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 32902,
+      "version_name": "3.9.2",
+      "tag": "v3.9.2",
+      "commit": "dc4a9e24ed81c9ba042a38c3e18347924e807587",
+      "timestamp": 1770132109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -42783,6 +42909,20 @@
       "tag": "1.3.3",
       "commit": "cf4c3e8d7715cb3e4765922d829d0d9e2203314a",
       "timestamp": 1769807385,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a23960677d9aae19cd4ee196d3c45fd0eae7b48127edf86b700326beee774e51": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.4.0/Compressor-1.4.0.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 14,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "79e093639552eab18f925edad046583d8f54971e",
+      "timestamp": 1770132587,
       "reproducible": true,
       "error": null
     }
@@ -50873,6 +51013,20 @@
       "error": null
     }
   ],
+  "57c4523029e172e5f6af5e4e1417ee59b95c7317bb8cb48d0d7257b43b6b1a90": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.7/call-limiter-0.3.7.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 8,
+      "version_name": "0.3.7",
+      "tag": "0.3.7",
+      "commit": "abcf1e75e44442288263d5aaae53ba863acf004b",
+      "timestamp": 1769894410,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3ec1f2388c8dcea14159524b1bbd4c81a7d7830bab73fbe4efbc5e39d36e7b56": [
     {
       "repository": "https://github.com/0xf4b1/motionmate.git",
@@ -57223,6 +57377,20 @@
       "error": null
     }
   ],
+  "7b6c531d8b15efb626e26903f241977d038eac03b42267ebf89bbca255180106": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.22.0/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 209,
+      "version_name": "2.22.0",
+      "tag": "v2.22.0",
+      "commit": "3eedd9e7e22329f87e0722cfc9f320e5535a1bd3",
+      "timestamp": 1770151018,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca1d4f1786c5876900afb8d77d1fe3d06e7fc26eb5b6186c5e69684fa7538e7e": [
     {
       "repository": "https://codeberg.org/Starfish/Imagepipe.git",
@@ -58633,6 +58801,20 @@
       "tag": "25.12.1-5312001",
       "commit": "05554b74bb3c937066e152073332f27ab4d3fb84",
       "timestamp": 1766417013,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a5f1eec303fbd7f5c2a31d48d660d01d846043e524744ff6a81fd2a0d3e7f06": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.2.3-5402003/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5402003,
+      "version_name": "26.2.3",
+      "tag": "26.2.3-5402003",
+      "commit": "a68e064dc4f80846e1a031d24854677f3213f386",
+      "timestamp": 1770140285,
       "reproducible": true,
       "error": null
     }
@@ -62457,6 +62639,20 @@
       "error": null
     }
   ],
+  "d8f4c13523a9de243137b387a7c6440868cfcafe29ff68303109cf16c232d865": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v10.1.0/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1010,
+      "version_name": "10.1.0-free",
+      "tag": "v10.1.0",
+      "commit": "dafbe5e463a243d7724a9e777d5cf379f72a2b37",
+      "timestamp": 1770156646,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -63547,6 +63743,20 @@
       "error": null
     }
   ],
+  "af85d35d05f553970b4492057f1618f62d7f14b84d849ee2bc5c76bada3ae1b0": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.5.5-rc0/eu.darken.apl-v0.5.5-rc0-505000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 505000,
+      "version_name": "0.5.5-rc0",
+      "tag": "v0.5.5-rc0",
+      "commit": "6546241ec886408ca394b5bc3592c93e77e33790",
+      "timestamp": 1770154657,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -63641,6 +63851,20 @@
       "tag": "v3.1.0-rc0",
       "commit": "52ccf756ebba9810d0584bf1115ebee8b7210f46",
       "timestamp": 1765812810,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e9b031ad41a1ba162da75e653d6f4a0187a312526cea66d6be5ab77999db30c": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.1.1-rc0/eu.darken.bluemusic-v3.1.1-rc0-30101000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30101000,
+      "version_name": "3.1.1-rc0",
+      "tag": "v3.1.1-rc0",
+      "commit": "5eb2f7919bf7411d61cbc942eefcb660d81642fe",
+      "timestamp": 1770152249,
       "reproducible": true,
       "error": null
     }
@@ -77207,6 +77431,20 @@
       "error": null
     }
   ],
+  "3efeff5acf95a51957d59d815669bb85969636c8c5e41e7a0822ba2ba41caa7c": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.12.0/gallery-26-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 26,
+      "version_name": "1.12.0",
+      "tag": "1.12.0",
+      "commit": "187883293dfb5ea4f69967928a1fcaf7223fb6df",
+      "timestamp": 1770133339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -77399,6 +77637,20 @@
       "tag": "1.8.0",
       "commit": "5f24d81608f7f0e3b2cdea9148e766204fb40667",
       "timestamp": 1769987246,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12ae4d2f2c37a02599a4cf966a8a105132779aa897bc21854b86696f2e31a15d": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.9.0/launcher-15-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 15,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "d53c75650b9305ba776c30f4be742cbd04e66eb0",
+      "timestamp": 1770133769,
       "reproducible": true,
       "error": null
     }
@@ -78617,6 +78869,20 @@
       "tag": "1.11.0",
       "commit": "d7a1c31970a5b83662638fd0e730edf3f5ab8fae",
       "timestamp": 1769990331,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1ad08467034e5138a6e68f03b6e150f0bb010dfcbf490ff3d2bd4822b755728": [
+    {
+      "repository": "https://github.com/FossifyOrg/Phone.git",
+      "apk_url": "https://github.com/FossifyOrg/Phone/releases/download/1.11.1/phone-22-foss-release.apk",
+      "appid": "org.fossify.phone",
+      "version_code": 22,
+      "version_name": "1.11.1",
+      "tag": "1.11.1",
+      "commit": "7de52a31a4d3cfc53e6cbc298a17ffca4e69141e",
+      "timestamp": 1770153114,
       "reproducible": true,
       "error": null
     }
@@ -84681,6 +84947,20 @@
       "error": null
     }
   ],
+  "41767fc8c233164124933a67ec6859209c354ed07afbefc07c3967903e7b879b": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.0.5.0/2-APlayer-v2.0.5.0-foss-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 20500,
+      "version_name": "2.0.5.0",
+      "tag": "v2.0.5.0",
+      "commit": "34d4ea78c582a117d5d7993117e19f39860adf73",
+      "timestamp": 1770158595,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "27e1087a7acd8bd67881ea9132a9c77450f81385dfc91003044122055b76dc7a": [
     {
       "repository": "https://github.com/rkkr/simple-keyboard.git",
@@ -85643,6 +85923,20 @@
       "tag": "3.5.2",
       "commit": "5354c91896b9e0f6800dd4299449c66d665576ac",
       "timestamp": 1766862374,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1005cb1990ffbaaa32e4e32b5416f4ca57bc061786c2e2231313b9faf2f3cb05": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.6.0/image-toolbox-3.6.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 203,
+      "version_name": "3.6.0",
+      "tag": "3.6.0",
+      "commit": "f63359f8e6d9b3dc959a51d11a0bd2fef1ac2575",
+      "timestamp": 1770141454,
       "reproducible": true,
       "error": null
     }

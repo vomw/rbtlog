@@ -201,3 +201,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.1.1-rc0
+    apks:
+      - apk_pattern: eu.darken.bluemusic-.*FOSS-RELEASE\.apk
+        apk_url: https://github.com/d4rken-org/bluemusic/releases/download/v3.1.1-rc0/eu.darken.bluemusic-v3.1.1-rc0-30101000-FOSS-RELEASE.apk
+        build:
+          - sed -r '/signingConfigs\[/d ; /setupCredentials/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/eu.darken.bluemusic-*-FOSS-RELEASE.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
