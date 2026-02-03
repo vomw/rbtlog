@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Ethanscharlie/Cash-On-Track.git
-updates: releases
+updates: disabled
+notes:
+  - updates disabled as signing key changed, and hence updates are disabled in our repo as well
 versions:
   - tag: v1.0
     apks:

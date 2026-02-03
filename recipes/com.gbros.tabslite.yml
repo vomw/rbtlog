@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/More-Than-Solitaire/Tabs-Lite.git
-updates: releases
+updates: disabled
 notes:
   - v3.6.5 broke RB by switching to JDK 23 (non-LTS), see https://github.com/More-Than-Solitaire/Tabs-Lite/issues/142
+  - updates disabled, as since v4.0.1 the app ships with proprietary dependencies, and thus has updates disabled in our repo as well
 versions:
   - tag: v3.5.2
     apks:
