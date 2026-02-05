@@ -2321,6 +2321,20 @@
       "error": null
     }
   ],
+  "1ac182bd21799d18aa748f9b88b5d95848eed5c7e84cac69a3cf4211441da20a": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.8.8/Podcini.X-free-arm64-v8a-10.8.8.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 251,
+      "version_name": "10.8.8",
+      "tag": "10.8.8",
+      "commit": "27064c7d7bd452140f5772337ed9c7de99cc1c0c",
+      "timestamp": 1770216582,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6881,6 +6895,20 @@
       "tag": "v4.5.8-ose",
       "commit": "40741f52e1e087d5edcc48c117b6762ec1c3441b",
       "timestamp": 1768834248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d79448eb7cef1f11e092c81dd17517cc53284309de6e64a343d5d7e564ff8ae9": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.9-ose/davx5-405090005-4.5.9-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405090005,
+      "version_name": "4.5.9-ose",
+      "tag": "v4.5.9-ose",
+      "commit": "915cf730278ac856aaec5c7435d72c907a7ca231",
+      "timestamp": 1770242399,
       "reproducible": true,
       "error": null
     }
@@ -12693,6 +12721,20 @@
       "error": null
     }
   ],
+  "bd253d1f1fdce9199439817483f71d11914b620ab2531802dea8bcbe835a73ec": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v7.3/OwnDroid-v7.3.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 42,
+      "version_name": "7.3",
+      "tag": "v7.3",
+      "commit": "180af50baad8327c53ed4115a0dc5cc353c78db9",
+      "timestamp": 1770225845,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "14b6f58fee9e52326bfbbc22f6ae42644ebc9e1273d0179a9d6dcdf269c78bbb": [
     {
       "repository": "https://github.com/BioHazard786/quick-upi.git",
@@ -15629,6 +15671,20 @@
       "tag": "2026.01.1188",
       "commit": "c26d45086f3e129ab85080f71601e3a2286c3fff",
       "timestamp": 1769310077,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b3f49881249b145cd91aaa751e779ec5134e330cc81f572bc2163b3cbd71b22b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1189/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1189,
+      "version_name": "2026.02.1189",
+      "tag": "2026.02.1189",
+      "commit": "2a906c8a8b059939836c7eabcf516d175b1864f7",
+      "timestamp": 1770217344,
       "reproducible": true,
       "error": null
     }
@@ -25919,6 +25975,20 @@
       "error": null
     }
   ],
+  "fa341cf6a03dca17c510f6c5ceaccd7dc0e838a6c9eef372d60737362ecf7081": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.0/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 152,
+      "version_name": "1.22.0",
+      "tag": "v1.22.0",
+      "commit": "bc5a6588dd7312e1d97770b2030b8ad13d0f618f",
+      "timestamp": 1770217710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -28405,6 +28475,20 @@
       "error": null
     }
   ],
+  "489b78de763cce1f9483ca8029414472e521454b5e4216ff4aaaa2922172f260": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.9.0/DroidPad-v3.9.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 43,
+      "version_name": "3.9.0",
+      "tag": "v3.9.0",
+      "commit": "c920527d10a5b0a94bea45419c5c80d3ae4f1735",
+      "timestamp": 1770234533,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a145bd1bbdd6fa9333ebf8ef8e93e11fbfd43e62a7cf3049f04dad05cb5805d0": [
     {
       "repository": "https://github.com/UmerCodez/SensaGram.git",
@@ -28769,6 +28853,20 @@
       "error": null
     }
   ],
+  "c37ccebd7f3e200e7945e7c44465aca2c747358f53aaf14c22fae6a43d1883f9": [
+    {
+      "repository": "https://github.com/UmerCodez/SensorSpot.git",
+      "apk_url": "https://github.com/UmerCodez/SensorSpot/releases/download/v1.14.0/SensorSpot-v1.14.0.apk",
+      "appid": "com.github.umercodez.sensorspot",
+      "version_code": 26,
+      "version_name": "1.14.0",
+      "tag": "v1.14.0",
+      "commit": "2973655ffc3009fccfba4d1bbbce3966c8fb1ae0",
+      "timestamp": 1770235178,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f65df1a281b58d62ffe639ed7521912fd88717b792e472c955ae80d3f994ff58": [
     {
       "repository": "https://github.com/warren-bank/Android-AirPlay-Client.git",
@@ -28867,6 +28965,20 @@
       "error": null
     }
   ],
+  "aea951419ad821d88324fa98e2cdfdcd2024506bfdff569235178b5df6ce130c": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Bonjour-WebRTC.git",
+      "apk_url": "https://github.com/warren-bank/Android-Bonjour-WebRTC/releases/download/v01.05.01/Bonjour-WebRTC-001.05.01-21API-withAllLanguageTranslations-arm64-v8a-release.apk",
+      "appid": "com.github.warren_bank.bonjour_webrtc",
+      "version_code": 1050121,
+      "version_name": "001.05.01-21API",
+      "tag": "v01.05.01",
+      "commit": "4fd619a3fab5f52274bae6116067bde8243c4def",
+      "timestamp": 1770218022,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfc0b5f2fdc1ad082e3b693b69d856b413dc2eb6336bc2fe1bc43d2ed69b257d": [
     {
       "repository": "https://github.com/warren-bank/Android-Bookmarks.git",
@@ -28891,6 +29003,20 @@
       "tag": "002.00.04-09API",
       "commit": "a67e5e47e8960586acf464478c72aa5bb355d8ed",
       "timestamp": 1742229651,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "11ef0ebf6847f1cf92542407b32fb156eefd3852f720ac44302479fafb1793c6": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Bookmarks.git",
+      "apk_url": "https://github.com/warren-bank/Android-Bookmarks/releases/download/002.00.05-09API/Bookmarks-002.00.05-09API-withUserRuntimePermissions-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.bookmarks",
+      "version_code": 2000509,
+      "version_name": "002.00.05-09API",
+      "tag": "002.00.05-09API",
+      "commit": "9aa59a4c6c5bab60903c34dca8d195bf0bf477e7",
+      "timestamp": 1770218130,
       "reproducible": true,
       "error": null
     }
@@ -29213,6 +29339,20 @@
       "tag": "v2.1.5",
       "commit": "7c8a44d1722db584446e13d0372dd154cdf522b9",
       "timestamp": 1769451770,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bbffdfbab58cc34233d3b12a7d6d61bfaa980d11e76d160450f5ed7cbbb4c961": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver.git",
+      "apk_url": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver/releases/download/v2.1.6/Slideshow-Screensaver-002.01.06-17API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.slideshow_screensaver",
+      "version_code": 2010617,
+      "version_name": "002.01.06-17API",
+      "tag": "v2.1.6",
+      "commit": "37d2d367438128893e672ccb7b040399f2d56c79",
+      "timestamp": 1770218226,
       "reproducible": true,
       "error": null
     }
@@ -29829,6 +29969,48 @@
       "tag": "v04.13.00",
       "commit": "fcb46e74af14c7e0efe1ab6cb385e5c64b07b58c",
       "timestamp": 1742138916,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "de59e30bc1b4349d2fb77eb857c6bcbeaeb684b052f2f203f75d99a5a6cd2e49": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.01/WebMonkey-004.13.01-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130111,
+      "version_name": "004.13.01-11API",
+      "tag": "v04.13.01",
+      "commit": "0834b5c703e0d2246003661f55b7f2acd02c74d4",
+      "timestamp": 1770228288,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5ab7fc86735d5ed327d3c704e0686f4f881ea859a3d899ce15f5be71b8675d9": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.01/WebMonkey-004.13.01-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130111,
+      "version_name": "004.13.01-11API",
+      "tag": "v04.13.01",
+      "commit": "0834b5c703e0d2246003661f55b7f2acd02c74d4",
+      "timestamp": 1770228404,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e0b19ade33076c9c7c5e98242c04566232bfdd653664e5fad6bac07b5b6b9cbe": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.01/WebMonkey-004.13.01-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130111,
+      "version_name": "004.13.01-11API",
+      "tag": "v04.13.01",
+      "commit": "0834b5c703e0d2246003661f55b7f2acd02c74d4",
+      "timestamp": 1770228514,
       "reproducible": true,
       "error": null
     }
@@ -32180,6 +32362,34 @@
       "commit": "ab4078f21c5cffbe293dac80eec41df21a3ac1e6",
       "timestamp": 1768400858,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "ea2b0ea9e09a2f933328961cb9bc01835180c28b303015de5ce6e9f21bc74665": [
+    {
+      "repository": "https://github.com/jhelumcorp/gyawun.git",
+      "apk_url": "https://github.com/sheikhhaziq/gyawun_music/releases/download/v2.0.16/gyawun-v2.0.16-arm64-v8a.apk",
+      "appid": "com.jhelum.gyawun",
+      "version_code": 2109,
+      "version_name": "2.0.16",
+      "tag": "v2.0.16",
+      "commit": "21531a29f8a44e314bf3634283bf696ff28903f4",
+      "timestamp": 1769085622,
+      "reproducible": false,
+      "error": null
+    }
+  ],
+  "7d7b8e1209a01742f299507a77ce029109b2b27302bbd47fc228fd813df1a447": [
+    {
+      "repository": "https://github.com/jhelumcorp/gyawun.git",
+      "apk_url": "https://github.com/sheikhhaziq/gyawun_music/releases/download/v2.0.17/gyawun-v2.0.17-arm64-v8a.apk",
+      "appid": "com.jhelum.gyawun",
+      "version_code": 2115,
+      "version_name": "2.0.17",
+      "tag": "v2.0.17",
+      "commit": "3ef9965608c4274f70b91fd1851bef0eaef63ebe",
+      "timestamp": 1770253487,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -38143,6 +38353,20 @@
       "error": null
     }
   ],
+  "e39ae0a6f6eaadbd63c35d606d8b61886d02ef705ed746b194f825b8658040c6": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.7.0/SpeakThat-NoUpdater-v1.7.0.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 43,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "25cb4a2528325629e1312cd8e0ad87329ec18808",
+      "timestamp": 1770218769,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -40781,6 +41005,20 @@
       "tag": "v3.9.2",
       "commit": "dc4a9e24ed81c9ba042a38c3e18347924e807587",
       "timestamp": 1770132109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e5cd101b94e25b2a1bce2ccc75fb6fe142fe150e7540c5c2d0477543c6eae151": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.9.3-rc1/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 32903,
+      "version_name": "3.9.3",
+      "tag": "v3.9.3-rc1",
+      "commit": "f587e24db72f4e110e1ad0f9e03b51925d0a35f4",
+      "timestamp": 1770219014,
       "reproducible": true,
       "error": null
     }
@@ -51195,6 +51433,20 @@
       "error": null
     }
   ],
+  "fc4008aeb676ae7937c6ef48bc93cff6793955e7d613dd1434fea5f30287cf88": [
+    {
+      "repository": "https://github.com/solkin/appteka-android.git",
+      "apk_url": "https://github.com/solkin/appteka-android/releases/download/v18.3/appteka-18.3-992.apk",
+      "appid": "com.tomclaw.appsend",
+      "version_code": 992,
+      "version_name": "18.3",
+      "tag": "v18.3",
+      "commit": "f86aa98da758c5f4b78bab5dee42755fa75d2c2c",
+      "timestamp": 1770220549,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpqovrbthy/outputs:/outputs', '--volume', '/tmp/tmpqovrbthy/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/solkin/appteka-android.git', '--env', 'APP_TAG=v18.3', '--env', 'APP_COMMIT=f86aa98da758c5f4b78bab5dee42755fa75d2c2c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
+    }
+  ],
   "3ff0106b340d8cce51eda87209380ca707d4cbb574c8760987fdead53d35cf62": [
     {
       "repository": "https://github.com/solkin/mandarin-android.git",
@@ -58819,6 +59071,20 @@
       "error": null
     }
   ],
+  "798f6164504c6b3ec8e19cd33dd8a46e249aefd9006e3fcf370a70e40ace5b5e": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.2.4-5402004/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5402004,
+      "version_name": "26.2.4",
+      "tag": "26.2.4-5402004",
+      "commit": "f2374fbf85580ec245436166a5d7e0a122809736",
+      "timestamp": 1770236156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -59291,6 +59557,20 @@
       "tag": "v0.15.1",
       "commit": "ce6f9be52830124a1ef8ce0d1171ebc1204b7302",
       "timestamp": 1769982151,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "20589988149fb7a738516736230b47367347757381600b2be5365aed67219ff3": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.15.2/nextplayer-v0.15.2-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 49,
+      "version_name": "0.15.2",
+      "tag": "v0.15.2",
+      "commit": "a67b8e96f95398e6ce3c58b2de080b0675c81693",
+      "timestamp": 1770220579,
       "reproducible": true,
       "error": null
     }
@@ -60145,6 +60425,20 @@
       "tag": "v1.7.1",
       "commit": "45f528ea0e430867489b6eba60c38d5e2d241f4a",
       "timestamp": 1770064631,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "452670a39d5f3f47e0562e58ae1eef57a31f9ecf5cf7e86008c78ab3dae20ad8": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.7.2/simple-notes-sync-v1.7.2-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 19,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "e9e4b8785355d625cf73b293ad2d2394acf7bce0",
+      "timestamp": 1770237003,
       "reproducible": true,
       "error": null
     }
@@ -61503,6 +61797,20 @@
       "tag": "2.4.2",
       "commit": "b6dc12a9848ab53cfa844a16a367bd305eca712f",
       "timestamp": 1768163613,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a1ea2ce60554cb744dac34cf2c4aae069eca6ed04a7cbc7c379127a9a10d3bca": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.4.3/photok-2.4.3-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 54,
+      "version_name": "2.4.3",
+      "tag": "2.4.3",
+      "commit": "47e181ce0595157ff7d97fead4cd898c877f2b95",
+      "timestamp": 1770237485,
       "reproducible": true,
       "error": null
     }
@@ -63757,6 +64065,20 @@
       "error": null
     }
   ],
+  "d620ce01d2930b2cd21e6c2b161248a8c18676ccaaee9b91fd88eaf9a12892df": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.5.6-rc0/eu.darken.apl-v0.5.6-rc0-506000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 506000,
+      "version_name": "0.5.6-rc0",
+      "tag": "v0.5.6-rc0",
+      "commit": "4b3ed60d186e40f757cdb3486b0b040497af4032",
+      "timestamp": 1770220992,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -65811,6 +66133,20 @@
       "tag": "v1.4.2",
       "commit": "b2006204d8a6ff290c2e8a3356c180895b69e822",
       "timestamp": 1770065040,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3196e317cb36f9afdd179563ba42561c0a03776d12b0a386330d81d67ccad49": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.5.0/phdp-v1.5.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10167,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "e5663a37b0bf8932fe0d914ae6f52a3d25cd7b61",
+      "timestamp": 1770238002,
       "reproducible": true,
       "error": null
     }
@@ -69993,6 +70329,20 @@
       "tag": "1.5",
       "commit": "a408922a78240834400a4288943748ef48ad28ed",
       "timestamp": 1762356418,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f81e15a4961e0f7e5abe77f5331859c9219f5c75ebef2c848ead4edb30fa3c3c": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.6/play-on-dlna-1.6.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 7,
+      "version_name": "1.6",
+      "tag": "1.6",
+      "commit": "dc8a2f9bf7151c4a4e0d03d320e1a41468bfb8eb",
+      "timestamp": 1770238764,
       "reproducible": true,
       "error": null
     }
@@ -76591,6 +76941,20 @@
       "error": null
     }
   ],
+  "8754e2adbe0368b99fa5e58d0d2e8a140d9d8763f87dcdde2b279ac94f04caca": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.10.2/calendar-19-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 19,
+      "version_name": "1.10.2",
+      "tag": "1.10.2",
+      "commit": "d56d449a815002fef1c14e3348d4a87e9bbbf6dd",
+      "timestamp": 1770221393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -81757,6 +82121,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpgktn5uax/outputs:/outputs', '--volume', '/tmp/tmpgktn5uax/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/KashCal/KashCal.git', '--env', 'APP_TAG=v21.5.7', '--env', 'APP_COMMIT=ad7fb084958e60c91244d8f9fb14a962afb98edd', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
+  "fecf53f1a7d8f0a28f63f8c2bd3701ddde430decb3e765e851dea7139d2f087d": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v21.5.8/KashCal-21.5.8-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 352,
+      "version_name": "21.5.8",
+      "tag": "v21.5.8",
+      "commit": "f5d90d1ac277564814f90af7703cb9ad0ad73430",
+      "timestamp": 1770221837,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -85937,6 +86315,20 @@
       "tag": "3.6.0",
       "commit": "f63359f8e6d9b3dc959a51d11a0bd2fef1ac2575",
       "timestamp": 1770141454,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f615a618c8b48a686b1f7ec771f7acb40b8bf9a296cfea6554fbeeff18cd0722": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.6.1/image-toolbox-3.6.1-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 204,
+      "version_name": "3.6.1",
+      "tag": "3.6.1",
+      "commit": "2c03464bcbc8c309f618ad53396d39f158fef66f",
+      "timestamp": 1770222324,
       "reproducible": true,
       "error": null
     }
