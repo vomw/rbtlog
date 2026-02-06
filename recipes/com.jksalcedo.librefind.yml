@@ -31,3 +31,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.0-beta11
+    apks:
+      - apk_pattern: librefind.*-release\.apk
+        apk_url: https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta11/librefind-v1.0.0-beta11-release.apk
+        build:
+          - base64 -d > sedo <<< c2VkIC1yICdzL1NVUEFCQVNFX0tFWT0uKi9TVVBBQkFTRV9LRVk9ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1aeWJXNTBaMnhsWW10NmEyWm9jbkZrWjJKdElpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTmpnNU1EazVPVGNzSW1WNGNDSTZNakE0TkRRNE5UazVOMzAuRTVIMVdGR2JnQmRGeWpVY0RFN0hnM2FqbXhnWGVHUXlYalFRZjNJZV9EQS8nIC1pIGFwcC9zcmMvbWFpbi9hc3NldHMvc3VwYWJhc2UucHJvcGVydGllcwo=
+          - bash sedo
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/librefind-*-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
