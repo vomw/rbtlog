@@ -17831,6 +17831,20 @@
       "error": null
     }
   ],
+  "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.02.04/simplequizfr-release-v2026.02.04.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 2,
+      "version_name": "2026.02.04",
+      "tag": "v2026.02.04",
+      "commit": "f9e18fd964cd9db8eea21823ed6afb6f130f59ac",
+      "timestamp": 1770394446,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -32585,6 +32599,20 @@
       "tag": "2.8",
       "commit": "9186c43fa303d78bd7c13cc3cb443d14a42d37b5",
       "timestamp": 1739312824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "efb5e688e6ee46f5e94a35cebf38503368ff98b2d77fe7907dc4bdfd7a413664": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta10/librefind-v1.0.0-beta10-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 10,
+      "version_name": "1.0.0-beta10",
+      "tag": "v1.0.0-beta10",
+      "commit": "be232b6edf0e3901ed5b9a685b3d8d7ca267f24f",
+      "timestamp": 1770327040,
       "reproducible": true,
       "error": null
     }
