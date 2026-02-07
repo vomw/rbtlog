@@ -2363,6 +2363,20 @@
       "error": null
     }
   ],
+  "a547596b8d095ac0953281c996a7c20b4290368248729bb98fec3c2d92135515": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/10.9.1/Podcini.X-free-arm64-v8a-10.9.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 254,
+      "version_name": "10.9.1",
+      "tag": "10.9.1",
+      "commit": "f4f0165b7f320bf68035efaae516f5a1234a663d",
+      "timestamp": 1770475769,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3035,6 +3049,34 @@
       "error": null
     }
   ],
+  "653b9a5288e0c325cb938b2d307a3a78631ef5799a070a38a1f11873b826f013": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.5.8/cclauncher-v10.5.8-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1190,
+      "version_name": "v10.5.8",
+      "tag": "v10.5.8",
+      "commit": "97b2d0f06d421b836f0a4575c1ec085a4d7b24eb",
+      "timestamp": 1770476232,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee01683cea85c8a5fe1ef31299a1a0d8d56473873fef8fc73ff4bd47aecf68e7": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.6.1/cclauncher-v10.6.1-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1200,
+      "version_name": "v10.6.1",
+      "tag": "v10.6.1",
+      "commit": "a594f3d463efae7fa01a7fac2eee689ea1afb6f4",
+      "timestamp": 1770492546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -3497,6 +3539,20 @@
       "error": null
     }
   ],
+  "580cc720c1612d44d6002bac6414f35bbef3df1a0f4457a84e7f22d1b90ee5e4": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.1.2/flicky-4.1.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 811,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "c54f33a990b421629b679ea216d52a1e31df2003",
+      "timestamp": 1770490145,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -3815,6 +3871,20 @@
       "tag": "3.6.2",
       "commit": "301e4db7f1351bd522ee92c027fa5439c38b4c31",
       "timestamp": 1767293152,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3d58058be00b1db0c5ff3c9bd31bad5a5a3601feda03115c72acd681ee7ff388": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.0.1/fluffy-4.0.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 641,
+      "version_name": "4.0.1",
+      "tag": "4.0.1",
+      "commit": "6196ed002fa51a73c307c26a2a6c9fe5c4ebecc6",
+      "timestamp": 1770490614,
       "reproducible": true,
       "error": null
     }
@@ -20127,6 +20197,20 @@
       "error": null
     }
   ],
+  "f50be1852251b88f0d2c46f91cbe9319d861b509a45018a8c2af24433c40d212": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.44/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 44,
+      "version_name": "0.0.44",
+      "tag": "0.0.44",
+      "commit": "096dd35ac36f18c32cea181618f0ca6cd9843d41",
+      "timestamp": 1770493062,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -20571,6 +20655,20 @@
       "tag": "0.6.18",
       "commit": "6e8574d047285790eeb50ccc75e422f8a3ce63ee",
       "timestamp": 1767037531,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65114f4fd78cf48cc98f61d260a77d0ba962c8881e976bf200818c372965b97d": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.19/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 42,
+      "version_name": "0.6.19",
+      "tag": "0.6.19",
+      "commit": "17f8f9d48f112ee0f4322b01328d779f6746a05d",
+      "timestamp": 1770493478,
       "reproducible": true,
       "error": null
     }
@@ -21579,6 +21677,20 @@
       "tag": "5.1.2",
       "commit": "a7faf6e84af805c4a194e6789749a9ea45de41be",
       "timestamp": 1769640105,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9a78bf5318ce133a8f5003c55a988bacc5946204e54ffb223f3f18273d51bdb7": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.3/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 173,
+      "version_name": "5.1.3",
+      "tag": "5.1.3",
+      "commit": "4ff837c559e9a3ee25fb650bc0e5d1d7edf6c0f6",
+      "timestamp": 1770493961,
       "reproducible": true,
       "error": null
     }
@@ -29581,6 +29693,20 @@
       "error": null
     }
   ],
+  "ee992619a9914330da2d45ecef44e7478ad36593ab9a46b3602d58db7b314f0a": [
+    {
+      "repository": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding.git",
+      "apk_url": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding/releases/download/v2.3.3/SMS-Forwarding-002.03.03-11API-withAllLanguageTranslations-withContactName-release.apk",
+      "appid": "com.github.warren_bank.sms_automatic_forwarding",
+      "version_code": 2030311,
+      "version_name": "002.03.03-11API",
+      "tag": "v2.3.3",
+      "commit": "d4afb1807cfafdb9e86731b8fedf0c4e18ee973a",
+      "timestamp": 1770477547,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fa6766f75d91f4eda1aa0b4ea8506c65c3a536e95ccf1f2e76722dd00923570": [
     {
       "repository": "https://github.com/warren-bank/Android-WebCast.git",
@@ -32435,6 +32561,20 @@
       "error": null
     }
   ],
+  "d98dfa09a60d4d8cdbc8eefd575955852c6bc27f9fa36290bf52a4178ca61c39": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-3.5.0/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 350,
+      "version_name": "3.5.0",
+      "tag": "release-3.5.0",
+      "commit": "b4de1a6a69d86b977f11d6db12fe4b62fdf95835",
+      "timestamp": 1770494825,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp49zljvix/outputs:/outputs', '--volume', '/tmp/tmp49zljvix/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/dryerlint/dejpeg.git', '--env', 'APP_TAG=release-3.5.0', '--env', 'APP_COMMIT=b4de1a6a69d86b977f11d6db12fe4b62fdf95835', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=27.3.13750724', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "0074947d77b5e7e2a2835ab6c2fdb2175b0c9f0d8fb73071bb293730a388bf30": [
     {
       "repository": "https://github.com/jeeneo/fonts.git",
@@ -32543,6 +32683,20 @@
       "tag": "0.0.84",
       "commit": "d06eef5d98e16938be552d86a9066c5f6907693b",
       "timestamp": 1758636856,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c8245039c45d121fc5812bba8057c9b75baf04e8bdd778e3d0b807f6d55d31d0": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.85/app-release.apk",
+      "appid": "com.jerboa",
+      "version_code": 85,
+      "version_name": "0.0.85",
+      "tag": "0.0.85",
+      "commit": "f469861d95afe615775bbb5e84c92cd3705e04d8",
+      "timestamp": 1770495231,
       "reproducible": true,
       "error": null
     }
@@ -41331,6 +41485,20 @@
       "error": null
     }
   ],
+  "f28d4006b090a4a8000bd47b4ef2753ab20352512d46b615d32f1b526f13bd17": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v3.9.4/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 32904,
+      "version_name": "3.9.4",
+      "tag": "v3.9.4",
+      "commit": "e86f504239a0b55f6020b31d7efbd51b2934646b",
+      "timestamp": 1770477872,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -44271,6 +44439,20 @@
       "error": null
     }
   ],
+  "6a03b16f5b7bb4cf48e5032cca7a1314b6cd985430609806a11a7a488d3704b6": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.55/1.55-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 133,
+      "version_name": "1.55",
+      "tag": "v1.55",
+      "commit": "f78081352d9b24784d37dd883a8f1799eb9ae617",
+      "timestamp": 1770488438,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bcfb70cdb0670f858ac788e46683b348101203b6b25028c5080f712070b3ce8d": [
     {
       "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
@@ -46469,6 +46651,20 @@
       "error": null
     }
   ],
+  "16c4c5b7abe7d5ded9a005353775edb6c514678fc9dccdc3bea1a9afab90ee40": [
+    {
+      "repository": "https://github.com/Rve27/RvKernel-Manager.git",
+      "apk_url": "https://github.com/Rve27/RvKernel-Manager/releases/download/v1.3.1/app-release.apk",
+      "appid": "com.rve.rvkernelmanager",
+      "version_code": 131,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "a574ed6e6c7a6c5c4b05c0c4426198baa51910f9",
+      "timestamp": 1770479618,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c13727b2e85e94e32ab7f1f4e50ab5fe26640ba0dc508fd89614cfb996441ac9": [
     {
       "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
@@ -46843,6 +47039,20 @@
       "tag": "v1.0.11",
       "commit": "484ad73c0b69394dab8e80a26898668f10859671",
       "timestamp": 1769981533,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4c9c7efabb010f8e58c6df51892c2df39edb970997b8cc533dc7cd7a7d230ab8": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.12/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 13,
+      "version_name": "1.0.12",
+      "tag": "v1.0.12",
+      "commit": "8103f46a763e47e53a2c4a116ac0d45fc9a98b8f",
+      "timestamp": 1770495883,
       "reproducible": true,
       "error": null
     }
@@ -47323,6 +47533,20 @@
       "error": null
     }
   ],
+  "0f34758a8c325555788675c305053dae2fa31ade8495b18eb4f07285839d507d": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v3.0.3/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 41,
+      "version_name": "3.0.3",
+      "tag": "v3.0.3",
+      "commit": "60ac9b9dd186e6121392820b3b5216d51dad6fec",
+      "timestamp": 1770479863,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9db3586f0f1aa32cf587d4a30aef3dbe38d6ab0533f3fcc8ebfd7ff664916385": [
     {
       "repository": "https://github.com/duckniii/SeekPrivacy.git",
@@ -47543,6 +47767,20 @@
       "tag": "v4.1",
       "commit": "0defa15c407241c6524ef27767b651bb41b42210",
       "timestamp": 1769282954,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12053d13847d9cb4854fc3834634906d38de1f955f797bdd6aee5793f2328621": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v4.2/Quotes-app-v4.2.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 37,
+      "version_name": "4.2",
+      "tag": "v4.2",
+      "commit": "ee47e69e7bf4dfedefb630b7ea2735f688cef1b6",
+      "timestamp": 1770496284,
       "reproducible": true,
       "error": null
     }
@@ -58063,6 +58301,20 @@
       "error": null
     }
   ],
+  "bcb2a0eb92d988f1e478c0882cb9de07f247033ffabb1a8edd8746b8363e4045": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.22.1/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 210,
+      "version_name": "2.22.1",
+      "tag": "v2.22.1",
+      "commit": "6363bdcb64fc169b33d02f061c2d854d92995a02",
+      "timestamp": 1770496740,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca1d4f1786c5876900afb8d77d1fe3d06e7fc26eb5b6186c5e69684fa7538e7e": [
     {
       "repository": "https://codeberg.org/Starfish/Imagepipe.git",
@@ -58297,6 +58549,20 @@
       "tag": "v2.6.0",
       "commit": "a670e2f649d0a442647e47eaeda0034fc6b648be",
       "timestamp": 1749234219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2ac3a97bf5dec6bff791b6e9d29a8109a03429f9f7e6c4597895796223e3d32e": [
+    {
+      "repository": "https://github.com/Kaiserdragon2/IconRequest.git",
+      "apk_url": "https://github.com/Kaiserdragon2/IconRequest/releases/download/v2.8.0/IconRequest-v2.8.0.apk",
+      "appid": "de.kaiserdragon.iconrequest",
+      "version_code": 32,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "4c2217c8615edc935439c44d133e136da0ec8910",
+      "timestamp": 1770491368,
       "reproducible": true,
       "error": null
     }
@@ -58773,6 +59039,20 @@
       "tag": "v2.0.3",
       "commit": "1ae8fb749e91048d7a2d6cd74889831b00a39d4d",
       "timestamp": 1769894912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ba576127614e71e2f65d97a8213d74b22fbb76aa985c54109659170d168607d0": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.0.4/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20040,
+      "version_name": "2.0.4",
+      "tag": "v2.0.4",
+      "commit": "fc532fa5d585eef66e9d47a651f149ab7b1fff57",
+      "timestamp": 1770497176,
       "reproducible": true,
       "error": null
     }
@@ -59991,6 +60271,20 @@
       "tag": "v0.15.2",
       "commit": "a67b8e96f95398e6ce3c58b2de080b0675c81693",
       "timestamp": 1770220579,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2062764a0ff23cccc8551a45f9bcf1301834ffa73482f0287291b34d414e5eb4": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.15.4/nextplayer-v0.15.4-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 51,
+      "version_name": "0.15.4",
+      "tag": "v0.15.4",
+      "commit": "7013dd41bf683d9858b607ceff32b6ee4163dab7",
+      "timestamp": 1770480221,
       "reproducible": true,
       "error": null
     }
@@ -66249,6 +66543,20 @@
       "error": null
     }
   ],
+  "7a490c6700d0266940b7e811d20590d73355d8c7735030f60e0a74845b9c4dbd": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2311/FairEmail-v1.2311a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2311,
+      "version_name": "1.2311",
+      "tag": "1.2311",
+      "commit": "f7998f299cbbfadd18d7ba2cee0565ebe2d6c0dd",
+      "timestamp": 1770480584,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -66595,6 +66903,20 @@
       "tag": "v1.5.0",
       "commit": "e5663a37b0bf8932fe0d914ae6f52a3d25cd7b61",
       "timestamp": 1770238002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c69f944a7ab8f3dcb3e255aeda625f544f44e7c89cbd92d50bea0204e0797eb1": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.6.0/phdp-v1.6.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10174,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "927cea9dbc9c27a7f8b131252980534927af8412",
+      "timestamp": 1770480965,
       "reproducible": true,
       "error": null
     }
@@ -69993,6 +70315,20 @@
       "tag": "v1.23.6+145",
       "commit": "3f7f741ce8d1e7c28527f7fea40e3a5ce25e3325",
       "timestamp": 1769010307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2b8b4a5e760c994b752462aca81777a8b32a9d76ac99f70eea5e147a1bfe94c4": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.23.8%2B148/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2148,
+      "version_name": "1.23.8",
+      "tag": "v1.23.8+148",
+      "commit": "0377402aa9e92be22f3698d622d4017d71f16300",
+      "timestamp": 1770481361,
       "reproducible": true,
       "error": null
     }
@@ -78285,6 +78621,20 @@
       "error": null
     }
   ],
+  "ca47570b59b3dfcc4840666c98d81d62190418d6ece5b9b24f275dd61dda9bf7": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.13.0/gallery-27-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 27,
+      "version_name": "1.13.0",
+      "tag": "1.13.0",
+      "commit": "28699c8a54d154f9f501a7090f29b71299f4b498",
+      "timestamp": 1770488878,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -81561,6 +81911,20 @@
       "error": null
     }
   ],
+  "77e71341fa9472d93fb3cceab3a05fd25fe632ad978a8df52f72ba225996fbc5": [
+    {
+      "repository": "https://github.com/nsh07/Tomato.git",
+      "apk_url": "https://github.com/nsh07/Tomato/releases/download/v1.8.4/tomato-v1.8.4-release.apk",
+      "appid": "org.nsh07.pomodoro",
+      "version_code": 28,
+      "version_name": "1.8.4",
+      "tag": "v1.8.4",
+      "commit": "7ff442401be89090b07092ce825c2b36c4c72ae7",
+      "timestamp": 1770489667,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a8b4793f30033ae6e8a27a6ae6a9689a27ae0fd5483c986a8affcee45e958abb": [
     {
       "repository": "https://github.com/nsh07/WikiReader.git",
@@ -82649,6 +83013,20 @@
       "tag": "v22.1.4",
       "commit": "464b65e1cd556a11b8d4b8132e1f134a7ef93895",
       "timestamp": 1770395299,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8fdafbea2a2bd4ecc47e92991d1d0042b6a5f5a6ea73ba50c2d8512af3fc0dc7": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v22.1.9/KashCal-22.1.9-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 363,
+      "version_name": "22.1.9",
+      "tag": "v22.1.9",
+      "commit": "0688753d24b5563c8e72187b5f7318f8188126bd",
+      "timestamp": 1770483227,
       "reproducible": true,
       "error": null
     }
