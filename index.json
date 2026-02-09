@@ -13435,6 +13435,20 @@
       "error": null
     }
   ],
+  "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
+    {
+      "repository": "https://github.com/BKK31/budgetlens.git",
+      "apk_url": "https://github.com/BKK31/budgetlens/releases/download/v3.1.1/app-arm64-v8a-release.apk",
+      "appid": "com.budget.lens",
+      "version_code": 2007,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "08ce88ef0c61f54b38be14a073063d7fdafaf905",
+      "timestamp": 1770659915,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "114343fb8d313e379e08a3bb8373a904ec530134678f17b74e7bd738f4c7823c": [
     {
       "repository": "https://github.com/by-architect/Operator.git",
@@ -43417,6 +43431,20 @@
       "error": null
     }
   ],
+  "95dbe021fd11a38181ac90dacc137228dab60c197b44ca15db0c7eeec46fa453": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.0.6/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2011,
+      "version_name": "3.0.6",
+      "tag": "v3.0.6",
+      "commit": "1e17e4a71a6a4c772dc75aa9d11eae609652d0d5",
+      "timestamp": 1770630243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da4ad5504e424cea84b91f672513b7417d07dd8a0087cd78f2d3d2db88b3f610": [
     {
       "repository": "https://gitlab.com/narektor/batt.git",
@@ -72429,6 +72457,20 @@
       "tag": "v0.6.76",
       "commit": "4170f169cdd4273ec3ecb391c75f09c258c68dd2",
       "timestamp": 1742669733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a245d993783bb997a0bee7a3c941969a4ea42cd1ed524cd12be16b27089db9ae": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/0.0.60/RiPlay-foss-release-0.0.60.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 60,
+      "version_name": "0.0.60",
+      "tag": "0.0.60",
+      "commit": "21cc074b450a0518ef60a90429717d9a42802995",
+      "timestamp": 1770647272,
       "reproducible": true,
       "error": null
     }
