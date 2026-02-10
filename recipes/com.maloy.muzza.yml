@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Maloy-Android/Muzza.git
-updates: releases
+updates: disabled
+notes:
+  - disabled in our repo as signing key changed, and new key was not yet verified
 versions:
   - tag: v0.7.2
     apks:

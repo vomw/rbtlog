@@ -278,3 +278,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.7.0
+    apks:
+      - apk_pattern: UmihiMusic\.apk
+        apk_url: https://github.com/ilianoKokoro/umihi-music/releases/download/v1.7.0/UmihiMusic.apk
+        build:
+          - sed -r '/keystoreProperties.load/d ; /signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew clean assembleRelease -Pbeta=false --no-build-cache --no-configuration-cache --no-daemon -PgitHash=${APP_COMMIT}
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/umihi-music/umihi-music
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

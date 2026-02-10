@@ -6,7 +6,7 @@ notes:
 versions:
   - tag: 0.0.60
     apks:
-      - apk_pattern: RiPlay-base-release.*\.apk
+      - apk_pattern: RiPlay-foss-release.*\.apk
         apk_url: https://github.com/fast4x/RiPlay/releases/download/0.0.60/RiPlay-foss-release-0.0.60.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i composeApp/build.gradle.kts
