@@ -43137,6 +43137,20 @@
       "error": null
     }
   ],
+  "2333573a550b90ad4e0ca69a09a959272b3239c40d1060ddb3cc49db1b94e009": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnife.git",
+      "apk_url": "https://github.com/potatameister/PaperKnife/releases/download/v1.0.4/paperknife-v1.0.4.apk",
+      "appid": "com.paperknife.app",
+      "version_code": 10004,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "1a673278a1ca715cbb65acd1d0b356e533dd1bf9",
+      "timestamp": 1770898301,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -77175,6 +77189,20 @@
       "tag": "v6.1.1",
       "commit": "bec38bc952237ba585423551668e3cfa2c883f31",
       "timestamp": 1770075585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7915acf59813e2654fa5b20d1a0f57f5522964b5e6f5e2096d8f89c9545589af": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.1.2/breezy-weather-v6.1.2_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60102,
+      "version_name": "6.1.2",
+      "tag": "v6.1.2",
+      "commit": "ca3359031688d91c26421d4da4aea08b2a5e0546",
+      "timestamp": 1770904832,
       "reproducible": true,
       "error": null
     }

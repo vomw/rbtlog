@@ -1,0 +1,44 @@
+---
+repository: https://github.com/potatameister/PaperKnife.git
+updates: releases
+versions:
+  - tag: v1.0.4
+    apks:
+      - apk_pattern: koremd.*\.apk
+        apk_url: https://github.com/potatameister/PaperKnife/releases/download/v1.0.4/paperknife-v1.0.4.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-x64.tar.xz
+          - sha256sum -c <<< '00bbd05e306ea68b6e13e17360d0e2f680b493ef95f2fea1c4296ff7437530bc  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v22.20.0-linux-x64/bin"
+          - npm install
+          - npm ci
+          - npm run build
+          - npx -y @capacitor/assets generate --android
+          - npx cap sync android
+          - cd android
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/PaperKnife/PaperKnife
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - xz-utils
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
