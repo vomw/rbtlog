@@ -43249,6 +43249,20 @@
       "error": null
     }
   ],
+  "ef31cd13f1b79071b2c6435160d9038c47a1a7ea1473e78f5a9a3089c90db979": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnife.git",
+      "apk_url": "https://github.com/potatameister/PaperKnife/releases/download/v1.0.5/paperknife-v1.0.5.apk",
+      "appid": "com.paperknife.app",
+      "version_code": 10005,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "50f089ffac635ee8986f8a6a173d8da0c6634b00",
+      "timestamp": 1770948037,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -44239,6 +44253,20 @@
       "tag": "1.4.0",
       "commit": "79e093639552eab18f925edad046583d8f54971e",
       "timestamp": 1770132587,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e6afd0fb2738887d9f2e7f63242e234e2dbb7e04e36436130b625ad8632ad5bc": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.5.0/Compressor-1.5.0.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 15,
+      "version_name": "1.5.0",
+      "tag": "1.5.0",
+      "commit": "f800b486a79f20adc1cc6e2463cfcb5b17e5f5f2",
+      "timestamp": 1770947064,
       "reproducible": true,
       "error": null
     }
@@ -64999,6 +65027,20 @@
       "tag": "1.0.0",
       "commit": "86c1767d27806fd8075dfc38e6d381a0394fd8c5",
       "timestamp": 1748252947,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12ed8ab43c4d888d104d1db2ef67bf335fdf3a5281c29ebcd17b4f42752166c1": [
+    {
+      "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
+      "apk_url": "https://yaky.dev/files/android-usb-cam-viewer/v1.2.2/usb_camera_viewer_release.apk",
+      "appid": "dev.yaky.usbcamviewer",
+      "version_code": 122,
+      "version_name": "1.2.2",
+      "tag": "1.2.2",
+      "commit": "47e4a95c42155334b74cbe5fc0b8f17ea19a7e83",
+      "timestamp": 1770953061,
       "reproducible": true,
       "error": null
     }
@@ -91831,6 +91873,20 @@
       "tag": "2.3.0",
       "commit": "74d89750704bbfcf7063a4a5414cb0f57b88241b",
       "timestamp": 1768923958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "82f44df2b7504f6fd57705f87ffdf5005746c55d78712f9518e1d94e6d6945b5": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.3.1/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 58,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "506fb627e0daa0f3688eae0e3629a0ecf07f9f26",
+      "timestamp": 1770947273,
       "reproducible": true,
       "error": null
     }
