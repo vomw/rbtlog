@@ -3105,6 +3105,20 @@
       "error": null
     }
   ],
+  "65fe893c804599262b79ed7b4e7070a5021bc767a6d734e797676431945de7e7": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.6.2/cclauncher-v10.6.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1210,
+      "version_name": "v10.6.2",
+      "tag": "v10.6.2",
+      "commit": "d99d9305b93a6cd5c11f7b45f1704a071df0f430",
+      "timestamp": 1771014855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -11334,6 +11348,20 @@
       "commit": "02faeeeead0e0a5f47fe21590940b372db3f38e0",
       "timestamp": 1755805579,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "977e01f6506199315a402e9b0f10d2773f69e6c063f44fd5bcaef25089a2a308": [
+    {
+      "repository": "https://github.com/Lennoard/SysctlGUI.git",
+      "apk_url": "https://github.com/Lennoard/SysctlGUI/releases/download/v3.1.0/sysctgui-v3.1.0.apk",
+      "appid": "com.androidvip.sysctlgui",
+      "version_code": 23,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "63a22d27f02efc76f1d3129a28af75259b0b84d8",
+      "timestamp": 1771002410,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -23191,6 +23219,20 @@
       "error": null
     }
   ],
+  "c2613afc4f5069f6541f0fe6bcbb04356f9080fdd6760d7318e5b8e2a4894924": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.4.3-alpha/YagniLauncher-v0.4.3-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 43,
+      "version_name": "0.4.3-alpha",
+      "tag": "v0.4.3-alpha",
+      "commit": "e2d9ca405b997350e4f311fb426b96139a02f8a6",
+      "timestamp": 1771001021,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -29189,6 +29231,20 @@
       "error": null
     }
   ],
+  "817f25cbe6820b503712aabacb9e67177aeabcaa9130bca09880b4b4148fa309": [
+    {
+      "repository": "https://github.com/umer0586/DroidPad.git",
+      "apk_url": "https://github.com/UmerCodez/DroidPad/releases/download/v3.11.0/DroidPad-v3.11.0.apk",
+      "appid": "com.github.umer0586.droidpad",
+      "version_code": 45,
+      "version_name": "3.11.0",
+      "tag": "v3.11.0",
+      "commit": "92b2699765a676cd5ce55449c6e269c92fa87dda",
+      "timestamp": 1771011195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a145bd1bbdd6fa9333ebf8ef8e93e11fbfd43e62a7cf3049f04dad05cb5805d0": [
     {
       "repository": "https://github.com/UmerCodez/SensaGram.git",
@@ -32085,6 +32141,20 @@
       "error": null
     }
   ],
+  "dfbfa4ad3def157ea57d08226ac819228994a266ac8a0ef821f36c934b57494a": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.13.0/NeverTooManyBooks-7.13.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 119,
+      "version_name": "7.13.0",
+      "tag": "v7.13.0",
+      "commit": "15ed8f7852c1c06f6c9b16764fe27a98a66ef738",
+      "timestamp": 1770994532,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "34403cada77e2aad7c6fc9bac1f22d07d6b60089d6a95ceca3fc41ee09741473": [
     {
       "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
@@ -33037,6 +33107,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp49zljvix/outputs:/outputs', '--volume', '/tmp/tmp49zljvix/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/dryerlint/dejpeg.git', '--env', 'APP_TAG=release-3.5.0', '--env', 'APP_COMMIT=b4de1a6a69d86b977f11d6db12fe4b62fdf95835', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=27.3.13750724', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
+  "64e826c861c6f13581fd5872a570f4f3c47187cc7a89ecd752e2569ed6bf4270": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-3.5.1/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 351,
+      "version_name": "3.5.1",
+      "tag": "release-3.5.1",
+      "commit": "4864f2784e1766e0ddf5bdd18256f93188f6cd9f",
+      "timestamp": 1771003860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0074947d77b5e7e2a2835ab6c2fdb2175b0c9f0d8fb73071bb293730a388bf30": [
     {
       "repository": "https://github.com/jeeneo/fonts.git",
@@ -33355,6 +33439,20 @@
       "tag": "v1.0.0-beta12",
       "commit": "1b770d7a8a5955d5eeac8a9c1cf655bf0c2f6c7c",
       "timestamp": 1770673503,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fa1ea2919f4f315c64476d8346b0b6f3253e2cc90327c705221a11df49f340e7": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta13/librefind-v1.0.0-beta13-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 13,
+      "version_name": "1.0.0-beta13",
+      "tag": "v1.0.0-beta13",
+      "commit": "a4a9ff74662e19ef4960cff48edb367a1b1bbd09",
+      "timestamp": 1771011599,
       "reproducible": true,
       "error": null
     }
@@ -36281,6 +36379,20 @@
       "tag": "v0.6.8",
       "commit": "ff0f6c66c8a22a9a9dc7244cbc3ff651ebe20e19",
       "timestamp": 1769038140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a6d1bc64838a5983b2461910442f10a4811e4bed5e37a422f3b8c6b7c14586d": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.7.0/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 700,
+      "version_name": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "e8d3c1473481f124677e24a33107495082832790",
+      "timestamp": 1771016090,
       "reproducible": true,
       "error": null
     }
@@ -46189,6 +46301,20 @@
       "error": null
     }
   ],
+  "de1e8072ad6bb9f24655bedb421bb2e44f6f8a6288a525ff1d230e6fc1b5cd85": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.3.1/taskmanager-v1.3.1.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 31,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "37fba2c3ba9bd5d81be51dd7128c431932569b3e",
+      "timestamp": 1771012860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -54033,6 +54159,20 @@
       "tag": "Thor_v1709",
       "commit": "b840bafcfbb141725e9b689d39777f6c01126cd7",
       "timestamp": 1767126140,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d8e74aa9e9d49cf8fc0fc03a5244f9f72b210a1de1cfe0c71bcfd212541b539": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.71.1/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1711,
+      "version_name": "1.71.1-foss",
+      "tag": "v1.71.1",
+      "commit": "9f74176390e9c7fdd97c1978f0449527ecd92047",
+      "timestamp": 1770999788,
       "reproducible": true,
       "error": null
     }
@@ -65045,6 +65185,20 @@
       "error": null
     }
   ],
+  "b62a23671e42c7e57e909957cca6c65a227f8aa7b4fd666e02afcafdfb1d5354": [
+    {
+      "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
+      "apk_url": "https://yaky.dev/files/android-usb-cam-viewer/v1.2.3/usb_camera_viewer_release.apk",
+      "appid": "dev.yaky.usbcamviewer",
+      "version_code": 123,
+      "version_name": "1.2.3",
+      "tag": "1.2.3",
+      "commit": "bfff4e67776c4b750f15070fb27a0221d047ff38",
+      "timestamp": 1770995495,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ca7822c290510d987cdc7df358fa4ef01b50601f91e1e99c2d96d8677140d367": [
     {
       "repository": "https://github.com/zacharee/InstallWithOptions.git",
@@ -67785,6 +67939,20 @@
       "tag": "v1.7.0",
       "commit": "d62e58d31b7491ee383faa34cc52409b11bcd424",
       "timestamp": 1770839797,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c15eeb06f0e76e8583798f6e2a878fc486dad387199186c69472dbbbdf063c8e": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.8.1/phdp-v1.8.1-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10195,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "62b8470184a039850fea2833f73cdc4f4015c5c0",
+      "timestamp": 1771013267,
       "reproducible": true,
       "error": null
     }
@@ -84189,6 +84357,20 @@
       "tag": "v22.5.7",
       "commit": "10d0ac2a10a5646c4adb2c39a965e762c90b74db",
       "timestamp": 1770915720,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c91f9467dabfc8b20d7cef66a494fe4244134d4ae0c389a04fb56fb8990addf8": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v22.5.9/KashCal-22.5.9-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 393,
+      "version_name": "22.5.9",
+      "tag": "v22.5.9",
+      "commit": "1fc9d6685685d98dd651d25e28ec3cd4cdc38fd2",
+      "timestamp": 1770995602,
       "reproducible": true,
       "error": null
     }

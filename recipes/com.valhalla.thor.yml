@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/trinadhthatakula/Thor.git
 updates: releases
+notes:
+  - 'FIXME: v1.71.1 had versioning updated without committing it; remove that sed again with the next release, see https://github.com/trinadhthatakula/Thor/issues/118 '
 versions:
   - tag: Thor_v1600
     apks:
@@ -265,6 +267,41 @@ versions:
           image: ubuntu:jammy
           jdk: openjdk-21-jdk-headless
           ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.71.1
+    apks:
+      - apk_pattern: foss-release\.apk
+        apk_url: https://github.com/trinadhthatakula/Thor/releases/download/v1.71.1/foss-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - sed -r 's/initialVersionCode=1710/initialVersionCode=1711/' -i gradle.properties
+          - chmod +x gradlew
+          - base64 -d > local.properties <<< QVBJX1VSTD1odHRwczovL3BsYXktaW50ZWdyaXR5LWNoZWNrZXItc2VydmVyLXRyaW5hZGgtdGhhdGFrdWxhcy1wcm9qZWN0cy52ZXJjZWwuYXBwL2FwaS9jaGVjaz90b2tlbj0K
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/app-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
           platform:
           platform_tools:
           tools:
