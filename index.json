@@ -33457,6 +33457,20 @@
       "error": null
     }
   ],
+  "e5d6b7c8572e6349dbfd2dc019d38fde96b7a23be80ca708f76dec850bd4a819": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta14/librefind-v1.0.0-beta14-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 14,
+      "version_name": "1.0.0-beta14",
+      "tag": "v1.0.0-beta14",
+      "commit": "913ac3c0b399bc7d4d8d1dd3564a9760d8a39a94",
+      "timestamp": 1771080986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5edf022b1a4c893cec0924d45c20894f954f762ac8a5eb9eef35e287a21d4a87": [
     {
       "repository": "https://github.com/jksalcedo/PassVault.git",
@@ -35991,6 +36005,20 @@
       "error": null
     }
   ],
+  "7b774fe90aeb8f85c02a69c44c434a12d4f294a93aaab677b407ab3354747217": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.6.3/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768601,
+      "version_name": "2.6.3",
+      "tag": "v2.6.3",
+      "commit": "1824460f7eb4a592162784c3c5d2b4f8fb1babd3",
+      "timestamp": 1771097184,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3ee4e3ebe6b9acc73a78a0465a8bbadd28343b1f4394517d4ee5cc8eaba5d82c": [
     {
       "repository": "https://github.com/Ladsers/Passtable-Android.git",
@@ -36519,6 +36547,20 @@
       "tag": "v2.8.0",
       "commit": "cbd0fa3dcaf402946f55e36871f4a8934e455453",
       "timestamp": 1762114723,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "be25de8b5f0e7405fbdf758ace92e14fd941930105bc302d17d61931cba0a17e": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.8.1/FoodExpirationDates-2.8.1-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 44,
+      "version_name": "2.8.1-foss",
+      "tag": "v2.8.1",
+      "commit": "b5c7eb4640ca0fbf4b010ab6d01305bb1a024bc4",
+      "timestamp": 1771099373,
       "reproducible": true,
       "error": null
     }
@@ -43375,6 +43417,20 @@
       "error": null
     }
   ],
+  "151fc39ab214a727b6cdac78fd9b5edc852f2aff680621e76917008068efe64e": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnife.git",
+      "apk_url": "https://github.com/potatameister/PaperKnife/releases/download/v1.0.7/paperknife-fdroid-v1.0.7.apk",
+      "appid": "com.paperknife.app",
+      "version_code": 10007,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "7f6d202d2df8d8c92ad5cbcf7b6e1e04126cb3da",
+      "timestamp": 1771089577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -43987,6 +44043,20 @@
       "tag": "v1.0.9",
       "commit": "cb0518210f6882ce662faa11a279f64c1d40e526",
       "timestamp": 1770400913,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0b3d612feb18588a9473cd5541febacc6327fd4da32eee434db89d4badf9ac16": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.0/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2020,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "38b4a382d78f41e04774a3026e1c13a0e3b37214",
+      "timestamp": 1771081460,
       "reproducible": true,
       "error": null
     }
@@ -54821,6 +54891,20 @@
       "error": null
     }
   ],
+  "24851be6e9e50db7b646c2b80969817c070e11cb841a81ed57c4a7427d2c5464": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.3.3/refs.tags.0.3.3.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 19,
+      "version_name": "0.3.3",
+      "tag": "0.3.3",
+      "commit": "45288e6d5f80e5c090786a92e97b0c71aed9d1cc",
+      "timestamp": 1771100812,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6fe6966c0798355f24a97f4d82d55b35dc17411f2dc3460ee6d6b9d8f20b8bb": [
     {
       "repository": "https://github.com/w2sv/WiFi-Widget.git",
@@ -64655,6 +64739,20 @@
       "error": null
     }
   ],
+  "1ef5e4dcfde3a2b5baf95f9b2fa6e74ca8e3d06333c9f1fd5bb10f7f3ae5b9cc": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v10.1.5/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1015,
+      "version_name": "10.1.5-free",
+      "tag": "v10.1.5",
+      "commit": "26dbfcad3ea1ac0f38b75fa91e81923eb6a4049e",
+      "timestamp": 1771082049,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -71645,6 +71743,20 @@
       "tag": "v1.18.0",
       "commit": "60eeb8b74f85993e9dea9b7bf36d55dd23c53fb9",
       "timestamp": 1770914732,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0123fcb3f9687f853569ae8e63582896d076895ba37d209f933a01ca9c09e00e": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.19.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 27,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "f42ea1da9c83e72fc51e180786d78767d3f7491f",
+      "timestamp": 1771098031,
       "reproducible": true,
       "error": null
     }
@@ -81715,6 +81827,20 @@
       "error": null
     }
   ],
+  "5a32f0b8a6b6f079e624791cfed6d6d25dc20942a6c9137ff3aa69ff0914b46d": [
+    {
+      "repository": "https://github.com/frknkrc44/HMA-OSS.git",
+      "apk_url": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-157/HMA-OSS-oss-157-release.apk",
+      "appid": "org.frknkrc44.hma_oss",
+      "version_code": 7304640,
+      "version_name": "oss-157",
+      "tag": "oss-157",
+      "commit": "fd85f29949cadf31748bf1cd42dea6038a138c43",
+      "timestamp": 1771082210,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b56aee826ed64d3d4dbfa78de6d3350e813b01817b75d94499257028de5a1bc8": [
     {
       "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
@@ -84389,6 +84515,20 @@
       "error": null
     }
   ],
+  "0f91c1ce3a6a3185bf591f788f10a1886759c273f7eabcac118b29c77738d84c": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v22.5.13/KashCal-22.5.13-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 397,
+      "version_name": "22.5.13",
+      "tag": "v22.5.13",
+      "commit": "33638c6b1833b6471b7063d0842dd98c0f8e6a2f",
+      "timestamp": 1771082355,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -86235,6 +86375,20 @@
       "error": null
     }
   ],
+  "889d321939f9ad29448a38aee2c1617e20b9a55a712de97bc1fb2df2a1c9ecde": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.8/stayput-app-release-0.8.8.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 9,
+      "version_name": "0.8.8",
+      "tag": "v0.8.8",
+      "commit": "83d58e43cd8ff8c1c3ae6541a2785dc97424424f",
+      "timestamp": 1771082658,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4860b10da22d7ed51e39f80cfbdfa2947eb2e8c8e480e9cc1a9de50224e246f3": [
     {
       "repository": "https://codeberg.org/y20k/transistor.git",
@@ -86427,6 +86581,20 @@
       "tag": "v4.3.5",
       "commit": "1554a7d7f04e6bf04bbe1afe524d800096c7576f",
       "timestamp": 1763392663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9a8aa817827d978a2634eb6138e75c86cfd2ef49abb077c2fa11c3273281f4be": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.6/transistor-app-release-4.3.6.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 113,
+      "version_name": "4.3.6",
+      "tag": "v4.3.6",
+      "commit": "83698de3fd02a2756b84fdead42353c97cb9e162",
+      "timestamp": 1771098372,
       "reproducible": true,
       "error": null
     }
@@ -88055,6 +88223,20 @@
       "error": null
     }
   ],
+  "0d15ce3c30e88501edeb45c41c998b8034b927deb6ed68c45fa287c37dbe4175": [
+    {
+      "repository": "https://github.com/Crazy-Marvin/VacationDays.git",
+      "apk_url": "https://github.com/Crazy-Marvin/VacationDays/releases/download/v17.2/VacationDays-17.2-release.apk",
+      "appid": "rocks.poopjournal.vacationdays",
+      "version_code": 19,
+      "version_name": "17.2",
+      "tag": "v17.2",
+      "commit": "14b63800d77db494d109676b5f09af56e4973efe",
+      "timestamp": 1771088726,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "39e7232ab201e23c89be5f409fab88d431f9645bffc9650916d06889dc32ab67": [
     {
       "repository": "https://github.com/v1tzor/TimePlanner.git",
@@ -88331,6 +88513,20 @@
       "tag": "1.9.2",
       "commit": "a4d611a4b53984c6cd977b6e4e78222de09c0eb5",
       "timestamp": 1769043363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "55b4daeb860de3172becd7482980f2b12678630108d3428cbc59651b74d4bd8f": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.3/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 68,
+      "version_name": "1.9.3",
+      "tag": "1.9.3",
+      "commit": "98fdf2bf89564f5765899f040d873cb64102e143",
+      "timestamp": 1771082927,
       "reproducible": true,
       "error": null
     }
@@ -92491,6 +92687,20 @@
       "timestamp": 1766694488,
       "reproducible": false,
       "error": null
+    }
+  ],
+  "0b7aae5c0ac242e68d3d8fe29f185e3fa430bac5b00a3551d1c2f0959345e6d0": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v6.2.0/Tack-Android-v6.2.0.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 390,
+      "version_name": "6.2.0",
+      "tag": "v6.2.0",
+      "commit": "9c3bda3bc584f1462c6d4f6f5fc501fb591bdb3c",
+      "timestamp": 1771098631,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpa6gegqdp/outputs:/outputs', '--volume', '/tmp/tmpa6gegqdp/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/patzly/tack-android.git', '--env', 'APP_TAG=v6.2.0', '--env', 'APP_COMMIT=9c3bda3bc584f1462c6d4f6f5fc501fb591bdb3c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=4.0.2', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "0b3522594949e4d0a0b9bcb1af4ab9f25d48293563f584ac9606169cf848fdd3": [
