@@ -1,0 +1,37 @@
+---
+repository: https://github.com/SwiftStagRime/ScriptRunner_for_Termux.git
+updates: releases
+notes:
+  - RB now. Asked dev to disable stripping, see https://gitlab.com/IzzyOnDroid/repo/-/issues/972#note_3080062645
+versions:
+  - tag: v1.5.5
+    apks:
+      - apk_pattern: ScriptRunnerForTermux-arm64-v8a-release\.apk
+        apk_url: https://github.com/SwiftStagRime/ScriptRunner_for_Termux/releases/download/v1.5.5/ScriptRunnerForTermux-arm64-v8a-release.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py -v assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

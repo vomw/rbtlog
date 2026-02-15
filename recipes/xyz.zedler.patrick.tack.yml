@@ -3,6 +3,7 @@ repository: https://github.com/patzly/tack-android.git
 updates: releases
 notes:
   - consider failed RBs as failed for now, see https://github.com/patzly/tack-android/issues/87#issuecomment-3591773963
+  - 'FIXME: next release needs openjdk-21-jdk-headless – and we should use :app:assembleRelease to skip the wear part'
 versions:
   - tag: v4.5.0
     apks:
