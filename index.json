@@ -3973,6 +3973,20 @@
       "error": null
     }
   ],
+  "1b70b0979387351e1b82cc8e334a2163cb640277ff2ca7a64a5f3557c41ed9e9": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.1.1/fluffy-4.1.1-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 671,
+      "version_name": "4.1.1",
+      "tag": "4.1.1",
+      "commit": "065138702ab23a00ac77623afb05233ee6527936",
+      "timestamp": 1771270181,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -4823,6 +4837,20 @@
       "tag": "1.11.3.5",
       "commit": "8b7d85a6ddebf6cffa559df520ed36e8e4135659",
       "timestamp": 1770139020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "afbb1e8e1b1035d1370891b74418ca9b7d362d98707ccd0af3da2872ec746b6e": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.4.2/MultiLauncher-1.11.4.2-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110402,
+      "version_name": "1.11.4 Build 2",
+      "tag": "1.11.4.2",
+      "commit": "a03845d223668c64c67617f98daf5c645480a338",
+      "timestamp": 1771257844,
       "reproducible": true,
       "error": null
     }
@@ -6477,6 +6505,20 @@
       "timestamp": 1755698571,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpwewhn4te/outputs:/outputs', '--volume', '/tmp/tmpwewhn4te/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.12.0', '--env', 'APP_COMMIT=f19b9e7a5d4fe299241a9b601ad80132d42ed597', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/rexo', '--env', 'BUILD_REPO_DIR=/home/rexo/Repos/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/rexo && timeout 10m su build /scripts/provision.sh && cd /home/rexo/Repos/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "100ecfde1e465df4cb794af391f65fa4535832ad624a35ec913944ded20061f6": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.13.0/Clerotri-v0.13.0-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 19,
+      "version_name": "0.13.0",
+      "tag": "v0.13.0",
+      "commit": "db858537976ae1169c4657513458896f5d4beb9a",
+      "timestamp": 1771258131,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmp9c2ncwp_/outputs:/outputs', '--volume', '/tmp/tmp9c2ncwp_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.13.0', '--env', 'APP_COMMIT=db858537976ae1169c4657513458896f5d4beb9a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
   "3ac7e975419e365f6538d77a8dd4650c07800a860c3a7d847333c136c5f65ae5": [
@@ -9699,6 +9741,20 @@
       "error": null
     }
   ],
+  "7877bfe19c44d14764000010959d4c06de98b281e7bf921d271f4416c89cb915": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.2.330.900-stable/Rhythm-4.2.330.900-github-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 42330900,
+      "version_name": "4.2.330.900-gh",
+      "tag": "v4.2.330.900-stable",
+      "commit": "600622920ec1bba6d617786371fd87b9c2da3004",
+      "timestamp": 1771273023,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -12563,6 +12619,20 @@
       "tag": "4.7.5",
       "commit": "9ccbd62df037d8358dc42740f02368719085f38b",
       "timestamp": 1755612380,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3f951c00a3d86d10a086e642826e77b103a30e279e9387a2b2e7b97a3e01051d": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://gitlab.com/-/project/6922885/uploads/2ee95ec85244b45cc860b63ec7a10ad6/AuroraStore-4.8.1.apk",
+      "appid": "com.aurora.store",
+      "version_code": 73,
+      "version_name": "4.8.1",
+      "tag": "4.8.1",
+      "commit": "b095b66f7af02427fffa14d92803afea28b6e5aa",
+      "timestamp": 1771271198,
       "reproducible": true,
       "error": null
     }
@@ -16151,6 +16221,20 @@
       "error": null
     }
   ],
+  "9897c7c78d757ccad4b23ca0c39bf311a2b5f7943e2fe38bc7cf3a038e6b6ff8": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1193-dev/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1193,
+      "version_name": "2026.02.1193-dev",
+      "tag": "2026.02.1193-dev",
+      "commit": "cc18739a67769756bc31d8e1a2774bb0a84bae28",
+      "timestamp": 1771259360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -17309,6 +17393,20 @@
       "tag": "1.1.4.5v121",
       "commit": "df57ffa5e51b64aa4af746ce7033768a318fcf59",
       "timestamp": 1762354388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d53e47afaaab9eb86e04b0981f9670ca0362f96f5cf86c75f5544a31c206601": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.6v122/PuppyGit_1.1.4.6v122_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 122,
+      "version_name": "1.1.4.6",
+      "tag": "1.1.4.6v122",
+      "commit": "34609e27a04ff30cd9dfcfb40e5acd4b7ae7293a",
+      "timestamp": 1771259582,
       "reproducible": true,
       "error": null
     }
@@ -37737,6 +37835,34 @@
       "error": null
     }
   ],
+  "8d8945e91f2395d9bc77537d8b2309431d06d0f9101379ed88b1d8ce2a4db95e": [
+    {
+      "repository": "https://github.com/mardous/BoomingMusic.git",
+      "apk_url": "https://github.com/mardous/BoomingMusic/releases/download/v1.2.0/BoomingMusic-1.2.0-fdroid-release.apk",
+      "appid": "com.mardous.booming",
+      "version_code": 1200300,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "974bfe954428eff045c135a16839863ae20c3395",
+      "timestamp": 1771260118,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7d8d0be0e8bd990cd105f8a4ed4cf460e1d4b298afd3680d96c03d91aa3bfda7": [
+    {
+      "repository": "https://github.com/mardous/BoomingMusic.git",
+      "apk_url": "https://github.com/mardous/BoomingMusic/releases/download/v1.2.1/BoomingMusic-1.2.1-fdroid-release.apk",
+      "appid": "com.mardous.booming",
+      "version_code": 1210300,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "5ede41df55380388ade271128c444c18a4800902",
+      "timestamp": 1771271747,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8ddeb65c4546a1473676f30aa7cc121689b3052500b10713008f1a746ab4a014": [
     {
       "repository": "https://github.com/forzzzzz/Calculator-You.git",
@@ -50925,6 +51051,20 @@
       "tag": "v2.2.5",
       "commit": "a6c6744ddb394c7e29ae717f714d078bee2f0625",
       "timestamp": 1764703646,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "963e93abd0667a1fcd30b096967c1c6fdcbff1dac84b4a2b4d277bedded44a9a": [
+    {
+      "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
+      "apk_url": "https://github.com/SimonHalvdansson/Harmonic-HN/releases/download/v2.2.6/app-release.apk",
+      "appid": "com.simon.harmonichackernews",
+      "version_code": 71,
+      "version_name": "2.2.6",
+      "tag": "v2.2.6",
+      "commit": "845dc2effc906b17b6e4fd9df86b7be7b0e22556",
+      "timestamp": 1771272240,
       "reproducible": true,
       "error": null
     }
@@ -65005,6 +65145,20 @@
       "error": null
     }
   ],
+  "441b22d374aff821423ec3dc9b3749e4bb3248a7edffbd0cfd0f6f3abae94d98": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v10.1.6/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1016,
+      "version_name": "10.1.6-free",
+      "tag": "v10.1.6",
+      "commit": "e41e749a3d5c92eb019926a3ee5c89877be234fa",
+      "timestamp": 1771260529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -66501,6 +66655,20 @@
       "error": null
     }
   ],
+  "b9a5b765b7067ce16ded2b1db6eed1cd0475136fac9396b9b8ee96cf852a6efa": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v3.0.5-rc0/eu.darken.capod-v3.0.5-rc0-30005000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 30005000,
+      "version_name": "3.0.5-rc0",
+      "tag": "v3.0.5-rc0",
+      "commit": "6b3f431e9e5935715ba7e3947c7ef27ec47897ae",
+      "timestamp": 1771260665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5d2f0a0c17ac51df705dcde49ab6c6c2318aa6f382ed154bd20158e8280e8422": [
     {
       "repository": "https://github.com/d4rken-org/sdmaid-se.git",
@@ -67911,6 +68079,20 @@
       "tag": "1.2311",
       "commit": "f7998f299cbbfadd18d7ba2cee0565ebe2d6c0dd",
       "timestamp": 1770480584,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d454b2166c4405068e32363ac5c50a7fb2a66a465828be73d9f09fc122cc02d3": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2312/FairEmail-v1.2312a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2312,
+      "version_name": "1.2312",
+      "tag": "1.2312",
+      "commit": "9c581caba120146c3067af3ac9fbab3cd58b2887",
+      "timestamp": 1771266536,
       "reproducible": true,
       "error": null
     }
@@ -76601,6 +76783,20 @@
       "tag": "v1.2.23",
       "commit": "c3802c1fdd84bc8991a59d2f1da8c578f835ea7e",
       "timestamp": 1749234356,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "27ef4b0a30f2a157614e17ae1604c81347ae6ae45118c632cffd78e06d86e714": [
+    {
+      "repository": "https://github.com/nhirokinet/bluelineconsole.git",
+      "apk_url": "https://github.com/nhirokinet/bluelineconsole/releases/download/v1.2.24/bluelineconsole-1.2.24.apk",
+      "appid": "net.nhiroki.bluelineconsole",
+      "version_code": 43,
+      "version_name": "1.2.24",
+      "tag": "v1.2.24",
+      "commit": "ecda623620998f57e7a062b122a0d27efc01b4ea",
+      "timestamp": 1771272491,
       "reproducible": true,
       "error": null
     }
