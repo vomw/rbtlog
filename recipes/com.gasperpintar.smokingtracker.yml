@@ -1,0 +1,38 @@
+---
+repository: https://github.com/pintargasper/SmokingTracker.git
+updates: releases
+versions:
+  - tag: v1.4.1
+    apks:
+      - apk_pattern: smoking-tracker.*\.apk
+        apk_url: https://github.com/pintargasper/SmokingTracker/releases/download/v1.4.1/smoking-tracker.v1.4.1.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="app/build/outputs/apk/release/app-release-unsigned.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines "$OUT" 'res/A4.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
