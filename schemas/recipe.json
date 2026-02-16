@@ -22,7 +22,7 @@
     },
     "allow_prereleases": {
       "description": "when using releases update mode: should prereleases be allowed (not required, default: False)",
-      "type": "bool"
+      "type": "boolean"
     },
     "labels": {
       "description": "labels (not required)",
