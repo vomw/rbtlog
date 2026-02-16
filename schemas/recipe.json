@@ -20,6 +20,10 @@
       "type": "string",
       "pattern": "^((checkonly:)?(releases|releases:.*|tags:.*)|manual|disabled)$"
     },
+    "allow_prereleases": {
+      "description": "when using releases update mode: should prereleases be allowed (not required, default: False)",
+      "type": "bool"
+    },
     "labels": {
       "description": "labels (not required)",
       "type": "array",
