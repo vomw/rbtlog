@@ -1,6 +1,6 @@
 ---
 repository: https://github.com/green-green-avk/AnotherTerm.git
-updates: tags:(MkIIIv\d+_release)
+updates: releases:(MkIIIv\d+_release)
 versions:
   - tag: MkIIIv87_release
     apks:
