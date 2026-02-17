@@ -3,6 +3,7 @@ repository: https://github.com/Kwasow/Musekit.git
 updates: releases
 notes:
   - up to 1.4.0 versionCode was generated based on buildtime unix timestamp, see https://github.com/Kwasow/Musekit/blob/main/app/build.gradle.kts#L7 – https://github.com/Kwasow/Musekit/issues/9
+  - 'FIXME: releases after v2.6.3 will need apksigner padding with page size 16, see https://github.com/Kwasow/Musekit/issues/139#issuecomment-3915084448 '
 versions:
   - tag: v1.3.1
     apks:
