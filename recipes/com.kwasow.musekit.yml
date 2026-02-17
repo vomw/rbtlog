@@ -3,7 +3,8 @@ repository: https://github.com/Kwasow/Musekit.git
 updates: releases
 notes:
   - up to 1.4.0 versionCode was generated based on buildtime unix timestamp, see https://github.com/Kwasow/Musekit/blob/main/app/build.gradle.kts#L7 – https://github.com/Kwasow/Musekit/issues/9
-  - 'FIXME: releases after v2.6.3 will need apksigner padding with page size 16, see https://github.com/Kwasow/Musekit/issues/139#issuecomment-3915084448 '
+  - releases after v2.6.3 will need apksigner padding with page size 16, see https://github.com/Kwasow/Musekit/issues/139#issuecomment-3915084448
+  - v2.6.4 seemingly flaky (baseline.prof)
 versions:
   - tag: v1.3.1
     apks:
@@ -462,6 +463,36 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.6.4
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/Kwasow/Musekit/releases/download/v2.6.4/app-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus: 4
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Musekit/Musekit
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
           image: ubuntu:noble
           jdk: openjdk-21-jdk-headless
           ndk:

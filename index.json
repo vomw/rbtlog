@@ -2419,6 +2419,20 @@
       "error": null
     }
   ],
+  "ecbbdc1a540246b453d2cc804cf7e4a604abb88c6518dc776f7c80da6ff7aa09": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.9.4/Podcini.X-free-arm64-v8a-10.9.4.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 257,
+      "version_name": "10.9.4",
+      "tag": "v10.9.4",
+      "commit": "4be6cea83379f586b48fb7a40c5cdd4c89db1251",
+      "timestamp": 1771356764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -13337,6 +13351,20 @@
       "error": null
     }
   ],
+  "a27df5d56ede98c64151654f89f16d3046718ea8e24c0b309d1ba9167f109ffe": [
+    {
+      "repository": "https://github.com/blankdotdev/sidestep.git",
+      "apk_url": "https://github.com/blankdotdev/sidestep/releases/download/v1.2.2/app-release.apk",
+      "appid": "com.blankdev.sidestep",
+      "version_code": 14,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "05d46479871e89421c429b3f5e30a22948802fb5",
+      "timestamp": 1771340307,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -16231,6 +16259,20 @@
       "tag": "2026.02.1193-dev",
       "commit": "cc18739a67769756bc31d8e1a2774bb0a84bae28",
       "timestamp": 1771259360,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31e2981d99942a10eb1e08cde6c1ba48b2e232fb937b5cd85ee328de467241c8": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1194/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1194,
+      "version_name": "2026.02.1194",
+      "tag": "2026.02.1194",
+      "commit": "8f00a1080a19dc6fa656a6a7f897c85cdab1b985",
+      "timestamp": 1771340469,
       "reproducible": true,
       "error": null
     }
@@ -31835,6 +31877,20 @@
       "error": null
     }
   ],
+  "93420e17b3448581e9aa0b4dd9445c93bcf022d4cc661ad140bdf056d6216754": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.8.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2157,
+      "version_name": "9.8.1",
+      "tag": "9.8.1",
+      "commit": "87d5a5d0c86a5cd744fb457e02f2826462258178",
+      "timestamp": 1771340687,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -33397,6 +33453,20 @@
       "tag": "release-3.5.1",
       "commit": "4864f2784e1766e0ddf5bdd18256f93188f6cd9f",
       "timestamp": 1771003860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1422ac9b4e60458f867a2bb8c16d243801030f4f8da2c56a0683db20b330ad4b": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-3.5.2/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 352,
+      "version_name": "3.5.2",
+      "tag": "release-3.5.2",
+      "commit": "aa4df3eefeb4180c750b229a844b58dd7949c3ba",
+      "timestamp": 1771341213,
       "reproducible": true,
       "error": null
     }
@@ -36296,6 +36366,20 @@
       "commit": "1824460f7eb4a592162784c3c5d2b4f8fb1babd3",
       "timestamp": 1771097184,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "076a668eac9f9835cf41f77745c1d4909e3996e8335b67a5e8cdf36db3eaef7d": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.6.4/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768602,
+      "version_name": "2.6.4",
+      "tag": "v2.6.4",
+      "commit": "d3d7ea68d478b7b4424b7db77b7765e58dc4b8ee",
+      "timestamp": 1771358941,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -44411,6 +44495,20 @@
       "error": null
     }
   ],
+  "8ab82e929ebd55698bb961df61d3d5c9a4a9444cc72656692fc3036857ba56b4": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.2/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2022,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "5a41dad331f4df36999b82692943da9dc4896a5f",
+      "timestamp": 1771341521,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1eae44c4e4a2d523a771c873f8ae7f5cb7481b21ed4845807ff7dfd52dbb6bf8": [
     {
       "repository": "https://github.com/phstudio2/FreeTV.git",
@@ -48271,6 +48369,20 @@
       "tag": "v1.0.12",
       "commit": "8103f46a763e47e53a2c4a116ac0d45fc9a98b8f",
       "timestamp": 1770495883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2bb2bcbab26608fde40b203a2d7964aaeb9850bcedec8f825a4a9e14ffb1add4": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.13/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 14,
+      "version_name": "1.0.13",
+      "tag": "v1.0.13",
+      "commit": "2193a61c88caf93a6a77c6e5be03dd7faaa7c755",
+      "timestamp": 1771353987,
       "reproducible": true,
       "error": null
     }
@@ -54345,6 +54457,34 @@
       "error": null
     }
   ],
+  "8ec7a93e8fb783238e8ad4b0f0ac0d17b38088d8816eaa0ac0c03062307659c4": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.23.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32300,
+      "version_name": "3.23.0",
+      "tag": "v3.23.0",
+      "commit": "7d58ca8370f6279b4627010ad93e32d16f9ce3b7",
+      "timestamp": 1771357297,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "729cf5fec3d869ca882228cd51eed46370f2dce7df6344ce5c3622788b5d0d00": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.23.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32300,
+      "version_name": "3.23.0",
+      "tag": "v3.23.0",
+      "commit": "7d58ca8370f6279b4627010ad93e32d16f9ce3b7",
+      "timestamp": 1771357483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -58185,6 +58325,20 @@
       "tag": "0.1.67",
       "commit": "908bce3a5fa1b899c08334f6040b034cfaa17337",
       "timestamp": 1768751928,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "47b03f9332f21e12c129018182faecd78ff5b6806d2de0e0b3dc3ca2536cc9bd": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.68/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 68,
+      "version_name": "0.1.68",
+      "tag": "0.1.68",
+      "commit": "bbfb338ec2b5420365585c6eec80bf0febf21ab0",
+      "timestamp": 1771342102,
       "reproducible": true,
       "error": null
     }
@@ -62613,6 +62767,20 @@
       "error": null
     }
   ],
+  "eb6f3decc904587b1435cf3ac0da1dc5073af0eb55cacbaaea2fd269c850e27e": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.8.2/simple-notes-sync-v1.8.2-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 22,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "391c7e5ed0026fbbae3fc201992b57dbad607fbc",
+      "timestamp": 1771342455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -65197,6 +65365,20 @@
       "tag": "v10.1.6",
       "commit": "e41e749a3d5c92eb019926a3ee5c89877be234fa",
       "timestamp": 1771260529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a4715780643bc4ff5dce788d7cde5191bbe4a2d29687e43220849738d844a3f6": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v10.1.7/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1017,
+      "version_name": "10.1.7-free",
+      "tag": "v10.1.7",
+      "commit": "a16c99f1f28bccb159dd65784db137ff937a7ec0",
+      "timestamp": 1771342685,
       "reproducible": true,
       "error": null
     }
@@ -73133,6 +73315,20 @@
       "error": null
     }
   ],
+  "9baf64901f94c4d5bbc73f4cf51d33be952b14657bff377638bdd3c3951387bc": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.10/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 11,
+      "version_name": "1.10",
+      "tag": "v1.10",
+      "commit": "fc287d0a975a814823b84886998d18e73fe36282",
+      "timestamp": 1771357686,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fef05226b5e6810a14ae571104d5c153053667ee9f19f784700621c10fb23168": [
     {
       "repository": "https://github.com/wiiznokes/gitnote.git",
@@ -79293,6 +79489,20 @@
       "error": null
     }
   ],
+  "cfb81c8c6186715426f0cc6cd6c1af0ec10feb50301a2a5e38704b15ee904810": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.5.2/DragonLauncher-v2.5.2.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 39,
+      "version_name": "2.5.2",
+      "tag": "v2.5.2",
+      "commit": "883a1158f1c7acec1d43f353c6e7e85113bf8a2e",
+      "timestamp": 1771342911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -79653,6 +79863,20 @@
       "tag": "1.10.2",
       "commit": "d56d449a815002fef1c14e3348d4a87e9bbbf6dd",
       "timestamp": 1770221393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2acbd47fa2abc6dd4846e406ed2fd60c5c01b8613158d10e012135923ee24894": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.10.3/calendar-20-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 20,
+      "version_name": "1.10.3",
+      "tag": "1.10.3",
+      "commit": "b269b99bb7152f126677278b486de24f6f1050ff",
+      "timestamp": 1771343239,
       "reproducible": true,
       "error": null
     }
@@ -80245,6 +80469,20 @@
       "error": null
     }
   ],
+  "9e97d2faf55fb2702386c3dc51e38a6b073781016b125701d3ab668419a70008": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.6.1/file-manager-13-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 13,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "6879b7871a10057df197b73508835c8772d98e47",
+      "timestamp": 1771343883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "573adb736b5cd42629720d241aa71db36410a292341e8718f04466b487928902": [
     {
       "repository": "https://github.com/FossifyOrg/Gallery.git",
@@ -80525,6 +80763,20 @@
       "error": null
     }
   ],
+  "ae7e699599e81f70e2b82626bb1dfa883fe096cd938387133e123c116e5641d9": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.13.1/gallery-28-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 28,
+      "version_name": "1.13.1",
+      "tag": "1.13.1",
+      "commit": "b28299dc33821eee8d108a9880ce87876cf31443",
+      "timestamp": 1771352866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "724a171fef6a0d521915978b7a9db637704260cb823dc51b23ce7e0283b9c319": [
     {
       "repository": "https://github.com/FossifyOrg/Launcher.git",
@@ -80731,6 +80983,20 @@
       "tag": "1.9.0",
       "commit": "d53c75650b9305ba776c30f4be742cbd04e66eb0",
       "timestamp": 1770133769,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a603d3d510482feafd73d52a93a1ea9baefd2ca0aae329a14cbf0e21f43638e3": [
+    {
+      "repository": "https://github.com/FossifyOrg/Launcher.git",
+      "apk_url": "https://github.com/FossifyOrg/Launcher/releases/download/1.10.0/launcher-16-foss-release.apk",
+      "appid": "org.fossify.home",
+      "version_code": 16,
+      "version_name": "1.10.0",
+      "tag": "1.10.0",
+      "commit": "2191e6401681065fcbc1ffdb85e951764e9b1269",
+      "timestamp": 1771344651,
       "reproducible": true,
       "error": null
     }
@@ -81459,6 +81725,20 @@
       "tag": "1.8.0",
       "commit": "50bc57f2a0301d1cd9881305faf3abd9d834749f",
       "timestamp": 1769988996,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b5d0ce367544df1ac162adf71d642878c5b963a304ca0ddf8f8556f07bbba79b": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.8.1/musicplayer-14-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 14,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "b81deb8c6b953152b6964ccebb55ae3fed445415",
+      "timestamp": 1771344916,
       "reproducible": true,
       "error": null
     }
@@ -82257,6 +82537,20 @@
       "tag": "1.7.0",
       "commit": "ed6de9a1030fe13f06e69ae113889f269e164e18",
       "timestamp": 1769990851,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd4ebc4b85fefb43a68126d8704d38222e88ef3205b3666e7a2fa00b325a696b": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.7.1/voicerecorder-18-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 18,
+      "version_name": "1.7.1",
+      "tag": "1.7.1",
+      "commit": "16031bbab5d790d87ed0926489c5a60d9afabf5d",
+      "timestamp": 1771352383,
       "reproducible": true,
       "error": null
     }
@@ -85057,6 +85351,20 @@
       "tag": "v22.5.15",
       "commit": "9ae8639e12a3ccf7cdd7c001dad3fce8d924524b",
       "timestamp": 1771172364,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "38d50e6ee11b28074a698dcf91f9259214b293177a1ba7488add77bf9955ef79": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.0.0/KashCal-23.0.0-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 408,
+      "version_name": "23.0.0",
+      "tag": "v23.0.0",
+      "commit": "99317ee554cb0295b6bf47acbd24398ee891c885",
+      "timestamp": 1771345412,
       "reproducible": true,
       "error": null
     }
