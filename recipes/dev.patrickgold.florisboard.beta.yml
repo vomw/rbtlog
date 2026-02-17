@@ -1,6 +1,7 @@
 ---
 repository: https://github.com/florisboard/florisboard.git
-updates: tags:v(.*)
+updates: releases:v(.*)
+allow_prereleases: true
 versions:
   - tag: v0.5.0-beta02
     apks:
