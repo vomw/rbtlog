@@ -1,0 +1,48 @@
+---
+repository: https://github.com/dongdongbh/Mindwtr.git
+updates: releases
+notes:
+  - update recipe from https://github.com/dongdongbh/Mindwtr/blob/main/docs/izzyonandroid.yml when ready
+labels:
+  - expo
+  - react-native
+versions:
+  - tag: v0.6.16
+    apks:
+      - apk_pattern: mindwtr-.*-foss\.apk
+        apk_url: https://github.com/dongdongbh/Mindwtr/releases/download/v0.6.16/mindwtr-0.6.16-foss.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-x64.tar.xz
+          - sha256sum -c <<< '00bbd05e306ea68b6e13e17360d0e2f680b493ef95f2fea1c4296ff7437530bc  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v22.20.0-linux-x64/bin"
+          - npm install --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix packages/core
+          - bash apps/mobile/scripts/fdroid_prep.sh
+          - npm install --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix apps/mobile
+          - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace apps/mobile/build/mindwtr-*-arm64-v8a-foss.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Mindwtr/Mindwtr
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '19.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
+            sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
