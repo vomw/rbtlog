@@ -1,8 +1,8 @@
 ---
 repository: https://github.com/mirfatif/MyLocation.git
-updates: releases
+updates: releases:v.*-foss
 notes:
-  - 'FIXME: v1.0.7 cannot be built, see https://github.com/mirfatif/MyLocation/issues/24 => it’s not the FOSS build; adjust the `apk_pattern` to `MyLocation.*\d\.apk` to avoid picking up pro releases'
+  - ignore -pro tags as we only want the foss variant
 versions:
   - tag: v1.06
     apks:
