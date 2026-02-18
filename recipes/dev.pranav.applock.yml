@@ -1,8 +1,6 @@
 ---
-repository: https://github.com/PranavPurwar/AppLock.git
-updates: disabled
-notes:
-  - updates disabled 2026-02-17 (also at our repo) as all releases are gone
+repository: https://github.com/aload0/AppLock.git
+updates: releases
 versions:
   - tag: v1.2
     apks:
