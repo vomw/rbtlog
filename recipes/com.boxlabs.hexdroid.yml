@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.5.3
     apks:
-      - apk_pattern: hexdroid.*\.apk
+      - apk_pattern: app-release\.apk
         apk_url: https://github.com/boxlabss/HexDroid/releases/download/v1.5.3/app-release.apk
         build:
           - chmod +x gradlew

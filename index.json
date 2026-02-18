@@ -3637,6 +3637,20 @@
       "error": null
     }
   ],
+  "9608538b39fa292dba65935b2c94635784505953cbff530d26691a3ae88a7fa9": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.2.2/flicky-4.2.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 831,
+      "version_name": "4.2.2",
+      "tag": "4.2.2",
+      "commit": "61d0b808fee230820ec518e870027a1d4df21c69",
+      "timestamp": 1771437749,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -4001,6 +4015,20 @@
       "error": null
     }
   ],
+  "77b745cd400c7032656eaaf041fffbbdd74e36e18778923d3d282c959d2f469b": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.1.2/fluffy-4.1.2-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 681,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "4489ba33c5053f9fc486048c692b14dd639ba28e",
+      "timestamp": 1771426368,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -4207,6 +4235,20 @@
       "tag": "v2.17.0",
       "commit": "b555da0a2e927a39d0dcca3b53c804bf14053214",
       "timestamp": 1771167626,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a62d24c9d098b1e851175c7c84ebf73ac2bf7e54e8b1c0db84a9497735d52efe": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.17.1/Lawnicons.2.17.1.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 25,
+      "version_name": "2.17.1",
+      "tag": "v2.17.1",
+      "commit": "18035759e37e4bc90d3f475976057b97f498904d",
+      "timestamp": 1771426545,
       "reproducible": true,
       "error": null
     }
@@ -4977,6 +5019,20 @@
       "tag": "v5.3.4",
       "commit": "8d47515aef78dd6c03f7e9ecd064785723dc85f5",
       "timestamp": 1764514508,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "09a33eb1e95f0a33227050e233d84ebe36740a31de96db5deb9499f727ea83fc": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v6.2.18/Olauncher-v6.2.18.apk",
+      "appid": "app.olauncher",
+      "version_code": 97,
+      "version_name": "v6.2.18",
+      "tag": "v6.2.18",
+      "commit": "5b354e65e224e62faaf65498a652703ea23e7e4a",
+      "timestamp": 1771426973,
       "reproducible": true,
       "error": null
     }
@@ -13561,6 +13617,20 @@
       "error": null
     }
   ],
+  "229d0a55c2bb0c0d3776b17a83a4e7d107ceda4b427636685f938105b4c3e079": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v17.2/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 54,
+      "version_name": "17.2",
+      "tag": "v17.2",
+      "commit": "97595bc90aded5ee796186e9f54d7bfdcf1bef21",
+      "timestamp": 1771442909,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebaa64f149c71dd9a14ced90ff418156032161771a1f045479dc48d37e24a2ee": [
     {
       "repository": "https://github.com/you-apps/WallYou.git",
@@ -13697,6 +13767,20 @@
       "tag": "v13.1",
       "commit": "3fe15c6d7443ff79ddf99fc0cec0d40f43e1cbc9",
       "timestamp": 1759245085,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9eee84f61427e648346190743c329000fc9b9a95beb0a0db0169631fd1949b46": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v14.0/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 36,
+      "version_name": "14.0",
+      "tag": "v14.0",
+      "commit": "e2cf5370c1ed4089fb78efc5544aef595b5df72a",
+      "timestamp": 1771427335,
       "reproducible": true,
       "error": null
     }
@@ -16287,6 +16371,20 @@
       "tag": "2026.02.1194",
       "commit": "8f00a1080a19dc6fa656a6a7f897c85cdab1b985",
       "timestamp": 1771340469,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b92b1123ed38f1c2a9485de285ac7325f5db6aec025a2a6548f4511aa268496": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1195/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1195,
+      "version_name": "2026.02.1195",
+      "tag": "2026.02.1195",
+      "commit": "f39d550dde35fa1608a22a3e5cc941ff7e13bead",
+      "timestamp": 1771427510,
       "reproducible": true,
       "error": null
     }
@@ -37125,6 +37223,20 @@
       "error": null
     }
   ],
+  "ecc10a27b25b37959a3f3d407c98ca9606001c7fb105d9486d596d3266966e0c": [
+    {
+      "repository": "https://github.com/ninjinskii/Cavity.git",
+      "apk_url": "https://github.com/ninjinskii/Cavity/releases/download/1.11.0/cavity.apk",
+      "appid": "com.louis.app.cavity",
+      "version_code": 42,
+      "version_name": "1.11.0",
+      "tag": "1.11.0",
+      "commit": "d82503069f59ed6c6c49717a72de0d460682c738",
+      "timestamp": 1771427852,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6fbe92ca0729611f4995c0a22fc5fe9491ae713409511fb03936eccf68bfac34": [
     {
       "repository": "https://github.com/BioHazard786/Alternate.git",
@@ -37637,6 +37749,20 @@
       "tag": "1.2.3",
       "commit": "db8330a66ddc0afb57f19bdf7e680b864b8f82e6",
       "timestamp": 1769716750,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "827a966af5a6cdb6361639b5ef270e7b2765052128ca843b62b91f00cdcc98b9": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.4/Neo_Store_1.2.4_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1207,
+      "version_name": "1.2.4",
+      "tag": "1.2.4",
+      "commit": "1a6ce2a9fdf692516ffd2e515ed0ff8498d96ca2",
+      "timestamp": 1771437974,
       "reproducible": true,
       "error": null
     }
@@ -43823,6 +43949,20 @@
       "error": null
     }
   ],
+  "dc990bf1064a1e15224107b317572d1f3c7a4c1ffcb8500a6c1eb81c49a70ca4": [
+    {
+      "repository": "https://github.com/matthiasjordan/dahdidahdit.git",
+      "apk_url": "https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.18.0/dahdidahdit-1.18.0.apk",
+      "appid": "com.paddlesandbugs.dahdidahdit",
+      "version_code": 1180001,
+      "version_name": "1.18.0",
+      "tag": "release-1.18.0",
+      "commit": "9d0b6a13e8faa044d38de04c9bede3e4fe9ba829",
+      "timestamp": 1771443246,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2333573a550b90ad4e0ca69a09a959272b3239c40d1060ddb3cc49db1b94e009": [
     {
       "repository": "https://github.com/potatameister/PaperKnife.git",
@@ -47477,6 +47617,20 @@
       "error": null
     }
   ],
+  "b1c77f383211ab4e538be8bffee60866180562435724251b878797e8033f4e4c": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.7/xed-editor-v3.2.7.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 83,
+      "version_name": "3.2.7",
+      "tag": "v3.2.7",
+      "commit": "b3f0f4031063b5e99dbb22c818a0db388d45416d",
+      "timestamp": 1771428611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -48397,6 +48551,20 @@
       "tag": "v1.0.13",
       "commit": "2193a61c88caf93a6a77c6e5be03dd7faaa7c755",
       "timestamp": 1771353987,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4482d21fd1b11d8ed26cc534dec328bc0ab18fc62d713743a9417d0961cb87e8": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.14/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 15,
+      "version_name": "1.0.14",
+      "tag": "v1.0.14",
+      "commit": "96697efa0acda1807f54906b616de26fba16d9c9",
+      "timestamp": 1771429058,
       "reproducible": true,
       "error": null
     }
@@ -49891,6 +50059,20 @@
       "tag": "5.5.53",
       "commit": "85dbcc16fb871948ddd530d7e9a9cb24dd473c47",
       "timestamp": 1770753444,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0746542b3d2a2e3a07d9d78eaab590442741a1ad3b2871c12cfd016e58610f54": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.6.0/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5600,
+      "version_name": "5.6.0",
+      "tag": "5.6.0",
+      "commit": "7f1de6dd8d92ef31e42cf063021f77affd54aefa",
+      "timestamp": 1771429447,
       "reproducible": true,
       "error": null
     }
@@ -54929,6 +55111,20 @@
       "tag": "1.2.2",
       "commit": "2fa743a5e049a38aae407687cfb92f1adead8e5b",
       "timestamp": 1726336585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9074f94bd4aed779396b7cc29ff589b60de6f5aeb8384968d6f940625b52f814": [
+    {
+      "repository": "https://github.com/viktorholk/push-notifications-api.git",
+      "apk_url": "https://github.com/viktorholk/push-notifications-api/releases/download/1.3.0/app-release.apk",
+      "appid": "com.viktorholk.apipushnotifications",
+      "version_code": 10,
+      "version_name": "1.3.0",
+      "tag": "1.3.0",
+      "commit": "faab9d7d0d6fa637bd58bc785630e14e5ef17363",
+      "timestamp": 1771429936,
       "reproducible": true,
       "error": null
     }
@@ -63719,6 +63915,20 @@
       "error": null
     }
   ],
+  "9a8df38eafca453e9a2072231396ead0ba92be7ff273bfea0e60d7a0aab4b621": [
+    {
+      "repository": "https://github.com/itsvic-dev/parcel.git",
+      "apk_url": "https://github.com/itsvic-dev/parcel/releases/download/v1.5.0/app-release.apk",
+      "appid": "dev.itsvic.parceltracker",
+      "version_code": 10500000,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "5a9cb5730812a521f2b803aa98e82271a5e76a64",
+      "timestamp": 1771430045,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f27df9a55ae0f4cf2b504d952c2027daad40223759ad580485cb67da7dc34375": [
     {
       "repository": "https://github.com/JahidHasanCO/BMI-Calculator.git",
@@ -65393,6 +65603,20 @@
       "tag": "v10.1.7",
       "commit": "a16c99f1f28bccb159dd65784db137ff937a7ec0",
       "timestamp": 1771342685,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c51319ad091a422ea6d92099bb90f24e5eaf74b4f0f8d375c1eb72f060de975b": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v10.1.8/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1018,
+      "version_name": "10.1.8-free",
+      "tag": "v10.1.8",
+      "commit": "cf601e33f145346145fcbc2ab41eacd58cc55757",
+      "timestamp": 1771430182,
       "reproducible": true,
       "error": null
     }
@@ -79517,6 +79741,20 @@
       "error": null
     }
   ],
+  "652aad6c9338707559604e727dc62b48936efd82e68742883a8982c446bf6ee8": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.5.3/DragonLauncher-v2.5.3.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 40,
+      "version_name": "2.5.3",
+      "tag": "v2.5.3",
+      "commit": "b07de84db06ee51bb0376c42a57269915e882fd6",
+      "timestamp": 1771430344,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -82663,6 +82901,20 @@
       "tag": "oss-157",
       "commit": "fd85f29949cadf31748bf1cd42dea6038a138c43",
       "timestamp": 1771082210,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "afa03331a9e572ede6bdffb7eac873653b576cda81057e4f2d6152023b91085c": [
+    {
+      "repository": "https://github.com/frknkrc44/HMA-OSS.git",
+      "apk_url": "https://github.com/frknkrc44/HMA-OSS/releases/download/oss-158/HMA-OSS-oss-158-release.apk",
+      "appid": "org.frknkrc44.hma_oss",
+      "version_code": 7304641,
+      "version_name": "oss-158",
+      "tag": "oss-158",
+      "commit": "2539c4eeae9c5c866804996b6a305b04cb264a2a",
+      "timestamp": 1771443467,
       "reproducible": true,
       "error": null
     }
@@ -90011,6 +90263,20 @@
       "tag": "v0.3.1",
       "commit": "10c1a5092648e257008766e5c8fc6a5897ae2011",
       "timestamp": 1767195834,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44ec87c4e89cca72b9c389c2d4976ef7ae5b70d3316e6ee5030b28ecb0ca4eb3": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.3.2/flickboard-v0.3.2-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 107,
+      "version_name": "0.3.2",
+      "tag": "v0.3.2",
+      "commit": "c2ae703379915cb3580a6f1ce99792be64c6f6a1",
+      "timestamp": 1771443783,
       "reproducible": true,
       "error": null
     }
