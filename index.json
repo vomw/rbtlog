@@ -2433,6 +2433,20 @@
       "error": null
     }
   ],
+  "df26b66d77581ff021480e4043c94cae6242ee663a4bb7d78e8b2872ca7ac70e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.9.5/Podcini.X-free-arm64-v8a-10.9.5.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 258,
+      "version_name": "10.9.5",
+      "tag": "v10.9.5",
+      "commit": "a9901a18e6849051dcebe068da612c5ef5a0bcf0",
+      "timestamp": 1771529704,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4029,6 +4043,20 @@
       "error": null
     }
   ],
+  "4cff2344c63d9ec276608c1644f482257d4b258c9771c1117e57bf0bf243b4f4": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.1.3/fluffy-4.1.3-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 691,
+      "version_name": "4.1.3",
+      "tag": "4.1.3",
+      "commit": "6fca9378ac5108d2f9abb85573c5d14622de0a18",
+      "timestamp": 1771512700,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -5621,6 +5649,20 @@
       "tag": "build106.5.0",
       "commit": "15e19c94f3d4c43a7d51e4a0e4981754294ad373",
       "timestamp": 1769439006,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "974d041cc2ed1d8028ca9d38b0a87b04c61f8fc1b2f91ff4159ff61f83f49fb7": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build106.5.1/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10651,
+      "version_name": "build106.5.1",
+      "tag": "build106.5.1",
+      "commit": "57e1f51da7adbdc095341567841f857e56676cf4",
+      "timestamp": 1771513107,
       "reproducible": true,
       "error": null
     }
@@ -13785,6 +13827,20 @@
       "error": null
     }
   ],
+  "62b2d791516a55476167ee734d0f8b4b86b7b4bb3eae3c479fe2fb0b19b29c95": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v14.1/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 37,
+      "version_name": "14.1",
+      "tag": "v14.1",
+      "commit": "0ca8fa074dd476ef86eaf3db69a8029335b896de",
+      "timestamp": 1771513713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c0c47b0143a06d9bd653dbb8962bf8d6356880001699689223a7f07a55a441a0": [
     {
       "repository": "https://github.com/bojko108/mobile-tile-server.git",
@@ -18503,6 +18559,20 @@
       "error": null
     }
   ],
+  "1a34803f37c196d281ea1e858812083fcf4adcc34f614a7cf8d7b24264435900": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.49/networksurvey-1.49-cdr-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 107,
+      "version_name": "1.49",
+      "tag": "v1.49",
+      "commit": "ed41dab9cb9f6eaaa85bb2955292aff88a2a32e1",
+      "timestamp": 1771528363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
     {
       "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
@@ -20851,6 +20921,20 @@
       "tag": "0.0.44",
       "commit": "096dd35ac36f18c32cea181618f0ca6cd9843d41",
       "timestamp": 1770493062,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "182240e6db67a10c67507d454e49bc14a3c7b4420f124215f4e21fc7d3c4c84f": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.45/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 45,
+      "version_name": "0.0.45",
+      "tag": "0.0.45",
+      "commit": "19d60370e9897b88d0087000dbb9d331ce59a25c",
+      "timestamp": 1771530244,
       "reproducible": true,
       "error": null
     }
@@ -27109,6 +27193,20 @@
       "error": null
     }
   ],
+  "b3d9c65ccbcd2a22bb3f1818746e6db9503e213fae56a7b7529e40a76e7e7fec": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.5/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 157,
+      "version_name": "1.22.5",
+      "tag": "v1.22.5",
+      "commit": "09ccc00c28c14901ea31255494c436ec29532229",
+      "timestamp": 1771533418,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -30197,6 +30295,20 @@
       "error": null
     }
   ],
+  "1a96c47e8bb431f00396f0a7422e287af30ea6301d710adc90c9e6b4a66de254": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Bonjour-WebRTC.git",
+      "apk_url": "https://github.com/warren-bank/Android-Bonjour-WebRTC/releases/download/v01.05.02/Bonjour-WebRTC-001.05.02-21API-withAllLanguageTranslations-arm64-v8a-release.apk",
+      "appid": "com.github.warren_bank.bonjour_webrtc",
+      "version_code": 1050221,
+      "version_name": "001.05.02-21API",
+      "tag": "v01.05.02",
+      "commit": "b00739a9dbfbbbb69629cb87207cda8b875bd5e2",
+      "timestamp": 1771514363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfc0b5f2fdc1ad082e3b693b69d856b413dc2eb6336bc2fe1bc43d2ed69b257d": [
     {
       "repository": "https://github.com/warren-bank/Android-Bookmarks.git",
@@ -30459,6 +30571,20 @@
       "tag": "v3.14.0",
       "commit": "e95383025425849793519c1bafcbc54f4bf3d406",
       "timestamp": 1769978501,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "465e2367dc5436f1ce07fc1210aea45df0d5df72e1229ae6bcf4097428ce2389": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.14.1/ExoPlayer-AirPlay-Receiver-003.14.01-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3140123,
+      "version_name": "003.14.01-23API",
+      "tag": "v3.14.1",
+      "commit": "8e5b5416551871112ad272e19509c11bc1f20ee4",
+      "timestamp": 1771514417,
       "reproducible": true,
       "error": null
     }
@@ -31271,6 +31397,48 @@
       "tag": "v04.13.01",
       "commit": "0834b5c703e0d2246003661f55b7f2acd02c74d4",
       "timestamp": 1770228514,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a07732059afa2cca5a8487799187836929538ba5ee36c6a2c246f56d17de94c": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.02/WebMonkey-004.13.02-11API-english-noAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130211,
+      "version_name": "004.13.02-11API",
+      "tag": "v04.13.02",
+      "commit": "6427f3eaac7c6e027fff598b4b5c131574170dab",
+      "timestamp": 1771514728,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65fef280e24d2c15c443f654e44b334a5e6cfa249f0576805cca4c3f8695b603": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.02/WebMonkey-004.13.02-11API-english-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130211,
+      "version_name": "004.13.02-11API",
+      "tag": "v04.13.02",
+      "commit": "6427f3eaac7c6e027fff598b4b5c131574170dab",
+      "timestamp": 1771514803,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "22743e26a23335b5b2b31a71fc9e089f37cac3279b0521d4d40f1d5bc0c13738": [
+    {
+      "repository": "https://github.com/warren-bank/Android-WebMonkey.git",
+      "apk_url": "https://github.com/warren-bank/Android-WebMonkey/releases/download/v04.13.02/WebMonkey-004.13.02-11API-withAllLanguageTranslations-withAdBlock-release.apk",
+      "appid": "com.github.warren_bank.webmonkey",
+      "version_code": 4130211,
+      "version_name": "004.13.02-11API",
+      "tag": "v04.13.02",
+      "commit": "6427f3eaac7c6e027fff598b4b5c131574170dab",
+      "timestamp": 1771514886,
       "reproducible": true,
       "error": null
     }
@@ -33929,6 +34097,20 @@
       "tag": "v1.0.0-beta14",
       "commit": "913ac3c0b399bc7d4d8d1dd3564a9760d8a39a94",
       "timestamp": 1771080986,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1028e7d4b3ff862f3d20589edf8ce0779eb23267a71c3a878c6749447af585a9": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta15/librefind-v1.0.0-beta15-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 15,
+      "version_name": "1.0.0-beta15",
+      "tag": "v1.0.0-beta15",
+      "commit": "9d9abf841e2fd964e690cd7a21e7e4dea5f73d1f",
+      "timestamp": 1771533741,
       "reproducible": true,
       "error": null
     }
@@ -45069,6 +45251,20 @@
       "error": null
     }
   ],
+  "f93f6c39e090ebeefb5bde32aa94dab2e29f76a8c298c362a95b26472bdc1b43": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.5.2/Compressor-1.5.2.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 17,
+      "version_name": "1.5.2",
+      "tag": "1.5.2",
+      "commit": "e61e08917f84e38ae638a5f760818df4659cb5d9",
+      "timestamp": 1771514977,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6f4069cd31db7669dd6657c126d76a0fa758826056e3f2f2bdfdbe735ab99134": [
     {
       "repository": "https://github.com/RoBoT095/printnotes.git",
@@ -50073,6 +50269,20 @@
       "tag": "5.6.0",
       "commit": "7f1de6dd8d92ef31e42cf063021f77affd54aefa",
       "timestamp": 1771429447,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5072e0ca492a2f40e1d58a604d2e7452676f12e2ff4709462f3c6c80545a6076": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.6.1/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5610,
+      "version_name": "5.6.1",
+      "tag": "5.6.1",
+      "commit": "311b1264aa987dfcdec902878ffe77ab0dac09cc",
+      "timestamp": 1771515127,
       "reproducible": true,
       "error": null
     }
@@ -66893,6 +67103,20 @@
       "error": null
     }
   ],
+  "733759abc6b25bf93c61082a5ffb0aefc4da0994318f30dfa1abc7e2b1b4bddb": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.1.3-rc0/eu.darken.bluemusic-v3.1.3-rc0-30103000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30103000,
+      "version_name": "3.1.3-rc0",
+      "tag": "v3.1.3-rc0",
+      "commit": "b6227fdf58c09f0422f6d0c4ddea45f540a63716",
+      "timestamp": 1771515783,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -69759,6 +69983,20 @@
       "tag": "5.7.1",
       "commit": "1a44cc93d69f5d023ec5a84edc40f3a673933407",
       "timestamp": 1770675969,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9a8a9b373208e148eb146c27b2a1e9d0c7766eeca5df873359cdb95c28b0fa6d": [
+    {
+      "repository": "https://github.com/paroj/DSub2000.git",
+      "apk_url": "https://github.com/paroj/DSub2000/releases/download/5.7.2/DSub2000_5.7.2-floss-release.apk",
+      "appid": "github.paroj.dsub2000",
+      "version_code": 215,
+      "version_name": "5.7.2",
+      "tag": "5.7.2",
+      "commit": "316f2a7b602eb4b9c14a69af2fe432415ca3fa58",
+      "timestamp": 1771516002,
       "reproducible": true,
       "error": null
     }
@@ -90809,6 +91047,20 @@
       "tag": "v0.6.16",
       "commit": "a9aa677ff2506e0b0861163c08625a96972c9050",
       "timestamp": 1771347837,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a1adda78652531e1ec025b81c785b7e3e59366e3d5c933ad2bc84bcdd6ffdb60": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.6.17/mindwtr-0.6.17-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 37,
+      "version_name": "0.6.17",
+      "tag": "v0.6.17",
+      "commit": "1ca0033d0c295d807dce2bcfafb26effc8d756f7",
+      "timestamp": 1771531478,
       "reproducible": true,
       "error": null
     }

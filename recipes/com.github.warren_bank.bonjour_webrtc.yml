@@ -128,3 +128,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v01.05.02
+    apks:
+      - apk_pattern: Bonjour-WebRTC-.*-withAllLanguageTranslations-arm64-v8a-release\.apk
+        apk_url: https://github.com/warren-bank/Android-Bonjour-WebRTC/releases/download/v01.05.02/Bonjour-WebRTC-001.05.02-21API-withAllLanguageTranslations-arm64-v8a-release.apk
+        build:
+          - cd android-studio-project
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.9 -v assembleWithAllLanguageTranslationsRelease
+          - mv Bonjour-WebRTC/build/outputs/apk/withAllLanguageTranslations/release/Bonjour-WebRTC-*-withAllLanguageTranslations-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
