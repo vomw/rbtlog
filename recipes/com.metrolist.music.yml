@@ -4,6 +4,7 @@ updates: disabled
 notes:
   - v11.6.0 failed RB, see https://github.com/mostafaalagamy/Metrolist/issues/544
   - updates are disabled temporarily also in our repo, as v13.0.0 introduces multiple offending libs (ML Kit & friends), see https://github.com/MetrolistGroup/Metrolist/issues/2774
+  - not yet re-enabled, as vor v13.1.1 build fails horribly, see https://github.com/MetrolistGroup/Metrolist/issues/544#issuecomment-3926999755
 versions:
   - tag: v10.8.0
     apks:
