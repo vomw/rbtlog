@@ -1388,3 +1388,47 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.10.0
+    apks:
+      - apk_pattern: app-arm64-v8a-.*\.apk
+        apk_url: https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.10.0/app-arm64-v8a-foss.apk
+        build:
+          - sed -r '/signingConfigs.(debug|release)/d' -i android/app/build.gradle
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v24.13.1/node-v24.13.1-linux-x64.tar.xz
+          - sha256sum -c <<< '30215f90ea3cd04dfbc06e762c021393fa173a1d392974298bbc871a8e461089  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v24.13.1-linux-x64/bin:${HOME}/.node/bin"
+          - export GRADLE_USER_HOME=/opt/gradle
+          - export UNSIGNED_APK=1
+          - export NODE_OPTIONS="--openssl-legacy-provider --max_old_space_size=4096"
+          - npm install --global corepack@latest
+          - corepack enable pnpm
+          - pnpm install --frozen-lockfile
+          - pnpm rebuild lightningcss
+          - bash ./scripts/android_build.sh prod-foss
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /workspace/wafrn
+        build_repo_dir: /workspace/wafrn/wafrn-rn
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/android
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
