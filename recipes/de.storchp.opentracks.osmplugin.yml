@@ -1,0 +1,45 @@
+---
+repository: https://codeberg.org/OpenTracksApp/OSMDashboard.git
+updates: releases
+notes:
+  - instead of calling gradlew directly, we could also call ./release.sh to match upstream
+  - was flaky, but shaker can now be removed
+versions:
+  - tag: v6.6.4
+    apks:
+      - apk_pattern: de.storchp.opentracks.osmplugin_.*\.apk
+        apk_url: https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.6.4/de.storchp.opentracks.osmplugin_6.6.4.apk
+        build:
+          - DEX_FILE=build/intermediates/dex/fullRelease/mergeDexFullRelease/classes2.dex
+          - DEX_SHA1=7a4556a762df612732836d9dc43cbfc0fd486f67
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFullRelease --no-build-cache --no-configuration-cache --no-daemon --no-parallel
+          - find . -name 'classes2.dex'
+          - test -f "$DEX_FILE"
+          - if [ "$( sha1sum "$DEX_FILE" | cut -d' ' -f1 )" = "$DEX_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv build/outputs/apk/full/release/de.storchp.opentracks.osmplugin_*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

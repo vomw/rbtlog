@@ -664,7 +664,7 @@ versions:
           verify_gradle_wrapper: true
   - tag: v2.5.4
     apks:
-      - apk_pattern: DragonLauncher.*\.apk
+      - apk_pattern: DragonLauncher-v[\d\.]*\.apk
         apk_url: https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.5.4/DragonLauncher-v2.5.4.apk
         build:
           - export FDROID_BUILD=1

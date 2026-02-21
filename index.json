@@ -62123,6 +62123,34 @@
       "error": null
     }
   ],
+  "b646e6d41a56cbee265688c49961d936091bdf1fc08fbc1c18c9b4d79949fbf1": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.6.4/de.storchp.opentracks.osmplugin_6.6.4.apk",
+      "appid": "de.storchp.opentracks.osmplugin",
+      "version_code": 66,
+      "version_name": "6.6.4",
+      "tag": "v6.6.4",
+      "commit": "e117604b46b185b0229f24cd1d3fe92c2b8eb051",
+      "timestamp": 1771629436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f00cdfc01ac2a91709b52d1d1446273912721141004520ed2c20d8c8d1628f2": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.6.4/de.storchp.opentracks.osmplugin.offline_6.6.4.apk",
+      "appid": "de.storchp.opentracks.osmplugin.offline",
+      "version_code": 66,
+      "version_name": "6.6.4",
+      "tag": "v6.6.4",
+      "commit": "e117604b46b185b0229f24cd1d3fe92c2b8eb051",
+      "timestamp": 1771630712,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e290e4e217d162db3bda73753821580f45ee32d27e05aecdb0cb1f6f44cd5b60": [
     {
       "repository": "https://github.com/synyx/MeeRoo.git",
