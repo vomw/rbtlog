@@ -2447,6 +2447,20 @@
       "error": null
     }
   ],
+  "a5f0f375c2436112a335fd4ac6fd9b33b6d471a8987fc34e9329b5b7e46622ee": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.10.0-pre/Podcini.X-free-arm64-v8a-10.10.0.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 260,
+      "version_name": "10.10.0",
+      "tag": "v10.10.0-pre",
+      "commit": "5d0d20a95bba10af42cc7beec695c738a7c2e67e",
+      "timestamp": 1771701897,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -16473,6 +16487,20 @@
       "error": null
     }
   ],
+  "d2ea37a8446c8aa0233fa92014908bc1f4e3e7e000303688e8b8fe2f80dc7ed1": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1197/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1197,
+      "version_name": "2026.02.1197",
+      "tag": "2026.02.1197",
+      "commit": "ad2c43f127f14a7bb1780ff94cd8bbe85b6e6e6e",
+      "timestamp": 1771685486,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -23065,6 +23093,20 @@
       "error": null
     }
   ],
+  "1a60b1273bd67089c717a13b86d1548a50e28928a6efad7c833186e473295d41": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.5.0/MyQuran-v1.5.0-arm64-v8a-153-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 153,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "d8b797d99639d006243bde669ee5730f78849def",
+      "timestamp": 1771685826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -23747,6 +23789,20 @@
       "tag": "v0.4.4-alpha",
       "commit": "447196a73e531f97129c4cf674161ecf5e57dc25",
       "timestamp": 1771168518,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9c8158754626aa349f51dcc090e8f01f2bb4ad7802ea3fff7385fcd89c11013": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.4.5-alpha/YagniLauncher-v0.4.5-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 45,
+      "version_name": "0.4.5-alpha",
+      "tag": "v0.4.5-alpha",
+      "commit": "df2c175d65299a888564608e24339ec9ec472c48",
+      "timestamp": 1771686778,
       "reproducible": true,
       "error": null
     }
@@ -27273,6 +27329,20 @@
       "tag": "v1.22.5",
       "commit": "09ccc00c28c14901ea31255494c436ec29532229",
       "timestamp": 1771533418,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81a200f288dd01944647eb165acab3b0031f59502214dbbf3e50e1ae6345999a": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.6/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 158,
+      "version_name": "1.22.6",
+      "tag": "v1.22.6",
+      "commit": "78a7c85edbd488bad0c840d9a3783f6b9bb47fe3",
+      "timestamp": 1771687012,
       "reproducible": true,
       "error": null
     }
@@ -35557,6 +35627,20 @@
       "error": null
     }
   ],
+  "793689cd11dad55dbcec406c4d3a0fe01a35e5fe2dae03c7db90928728e3aa46": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.6/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 32,
+      "version_name": "2.0.6",
+      "tag": "v2.0.6",
+      "commit": "e3ecf691954a0066aba3476fb6d5f2cd38951321",
+      "timestamp": 1771702713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -40257,6 +40341,20 @@
       "error": null
     }
   ],
+  "24dca2fdb7e666b2bcb8975ede4b45280b37e81fdf8d2bca4ff824d323429db3": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.7.3/SpeakThat-NoUpdater-v1.7.3.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 46,
+      "version_name": "1.7.3",
+      "tag": "v1.7.3",
+      "commit": "2ea216db3f08a6918c59f3bffaf53c2181a0c0f4",
+      "timestamp": 1771699027,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -43431,6 +43529,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpi_3g45x6/outputs:/outputs', '--volume', '/tmp/tmpi_3g45x6/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/OpenAppsLabs/Jotter.git', '--env', 'APP_TAG=v2.0.1', '--env', 'APP_COMMIT=f719e6f3838f54590ea6aa30492afd1558d58f1f', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
+  "9004e522e73bcf2e687acde0aaff7b945da07e16f6a202bb1d3fa25b0390ccc6": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v2.1.0/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 9,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "c6b2e399a7a1b936c626c664247395293536dcc2",
+      "timestamp": 1771703055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0f6596ac22a4ab18a06849817c10513d7b3a16bb53e5a9c4423b3b7505897f99": [
     {
       "repository": "https://github.com/Theta-Limited/OpenAthenaAndroid.git",
@@ -43893,6 +44005,20 @@
       "error": null
     }
   ],
+  "037d234274c8598e7bb24f9d679fb7d418f355dd381f6dc65a792c1d1996eae2": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.5.0/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1015,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "ddaa0869033c11f1250fa4057238d7877c7fe3a5",
+      "timestamp": 1771688287,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -44281,6 +44407,20 @@
       "tag": "v1.0.7",
       "commit": "7f6d202d2df8d8c92ad5cbcf7b6e1e04126cb3da",
       "timestamp": 1771089577,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fcde496e172e9e53bf94e5f4fdd4cfb985bb5f76887050e35f977470940f4c51": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnife.git",
+      "apk_url": "https://github.com/potatameister/PaperKnife/releases/download/v1.0.9/paperknife-lite-v1.0.9.apk",
+      "appid": "com.paperknife.app",
+      "version_code": 10009,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "4fc51c51ba5df035baa22ca07b0c7419120e9fbf",
+      "timestamp": 1771695653,
       "reproducible": true,
       "error": null
     }
@@ -44841,6 +44981,20 @@
       "tag": "v7.8.0",
       "commit": "9aaa2f3f4316c6138ee2c04ba00965f30a6ea4c0",
       "timestamp": 1771616170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d96a4eab5a971039a7c930467a1c769e530bad4a03b59241bb88513a7f6f1da6": [
+    {
+      "repository": "https://github.com/Crustack/NotallyX.git",
+      "apk_url": "https://github.com/Crustack/NotallyX/releases/download/v7.8.1/NotallyX-7.8.1.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7810,
+      "version_name": "7.8.1",
+      "tag": "v7.8.1",
+      "commit": "271c2ba087899792cb08ca535f4eeb0a225413c4",
+      "timestamp": 1771688786,
       "reproducible": true,
       "error": null
     }
@@ -65245,6 +65399,20 @@
       "error": null
     }
   ],
+  "31f966843a143d323241e69f5247d78774359676801ed3bfc8542d66d788d5ea": [
+    {
+      "repository": "https://github.com/aload0/AppLock.git",
+      "apk_url": "https://github.com/aload0/AppLock/releases/download/v2.2.3/app-release.apk",
+      "appid": "dev.pranav.applock",
+      "version_code": 223,
+      "version_name": "2.2.3",
+      "tag": "v2.2.3",
+      "commit": "4a0effcb75ec4fd23c67576787c9a05d5908145a",
+      "timestamp": 1771689388,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fcd00744ca9c368dd3cd869ca72981729bad838a2306aa6c567c8d3bc2300f72": [
     {
       "repository": "https://github.com/PranavPurwar/Reef.git",
@@ -66023,6 +66191,20 @@
       "tag": "v10.1.8",
       "commit": "cf601e33f145346145fcbc2ab41eacd58cc55757",
       "timestamp": 1771430182,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c782388e19bf3fa47b7500b421587c52873176855108b0285b82114bd4a14097": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v11.0.0/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1100,
+      "version_name": "11.0.0-free",
+      "tag": "v11.0.0",
+      "commit": "6e55ebd2002913cbd4cde020dc4ea836a7b50707",
+      "timestamp": 1771703414,
       "reproducible": true,
       "error": null
     }
@@ -69287,6 +69469,20 @@
       "error": null
     }
   ],
+  "d9f698b0377c3ea03b0627d53f13c6ec7ad542d9b8d6b97b4e5a9c31ee907f69": [
+    {
+      "repository": "https://github.com/hxreborn/cleanshare.git",
+      "apk_url": "https://github.com/hxreborn/cleanshare/releases/download/v2.0.1/app-release.apk",
+      "appid": "eu.hxreborn.cleanshare",
+      "version_code": 201,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "bdf2d7ce7274aab95b9f3bde6cf78369b4e84465",
+      "timestamp": 1771689559,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5ead5832723cc440963c6bc494e7deb3dfda8226515ddd077fab059f474b5ba5": [
     {
       "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
@@ -69409,6 +69605,20 @@
       "tag": "v1.8.1",
       "commit": "62b8470184a039850fea2833f73cdc4f4015c5c0",
       "timestamp": 1771013267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cfd2072779e643ee4cea39eee0f1eef31ad7f4d70876fb4c1caf417761aa2af0": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.8.2/phdp-v1.8.2-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10201,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "0923093cab14b9fb6845543d924b3d5d7d752c21",
+      "timestamp": 1771689759,
       "reproducible": true,
       "error": null
     }
@@ -74907,6 +75117,20 @@
       "tag": "v0.7.67",
       "commit": "4191810b10a944b5058e55553d176328bf592664",
       "timestamp": 1770859258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a13ebf95f49c8a65c2d52237ee2da09d8bde56f0bed3f0f2796dd15d7aba4550": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.68/RiPlay-foss-release-0.7.68.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 68,
+      "version_name": "0.7.68",
+      "tag": "v0.7.68",
+      "commit": "4323f7685c3ca46740046b78b0ee8dfdf65b3d15",
+      "timestamp": 1771703750,
       "reproducible": true,
       "error": null
     }
@@ -86167,6 +86391,20 @@
       "error": null
     }
   ],
+  "1ee6557981b4f237779e85df84cfbe3c0ccacceab2fa89f4d48a28f550fca842": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.1.2/KashCal-23.1.2-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 411,
+      "version_name": "23.1.2",
+      "tag": "v23.1.2",
+      "commit": "9bf9e51675103f8a4b7b2bb4ffc597f1be0f294c",
+      "timestamp": 1771704398,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -87001,6 +87239,20 @@
       "tag": "v2.5.6",
       "commit": "8848e5de71bbac388efc40ddde86462a3e5e79b0",
       "timestamp": 1767544334,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e8bce5715f1fcf33fa215a354323a0de6a0751cd922bd8a3f466e9e2a0c3fd99": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.7/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 28,
+      "version_name": "2.5.7",
+      "tag": "v2.5.7",
+      "commit": "30601993dcd87b43a3f55041241dd9dee903b1e5",
+      "timestamp": 1771690574,
       "reproducible": true,
       "error": null
     }
