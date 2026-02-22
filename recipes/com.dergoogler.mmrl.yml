@@ -320,3 +320,42 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v34292
+    apks:
+      - apk_pattern: MMRL-.*-release-official\.apk
+        apk_url: https://github.com/MMRLApp/MMRL/releases/download/v34292/MMRL-v34292-release-official.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/officialRelease/compileOfficialReleaseArtProfile/baseline.prof
+          - PROF_SHA1=f3546e30c2400e40800bdbc26b25dc8d87c35d84
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleOfficialRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/official/release/MMRL-*-release-official.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
