@@ -1,6 +1,9 @@
 ---
 repository: https://github.com/muhammadhaseebiqbal-dev/QuranMajeed.git
 updates: releases
+allow_prereleases: true
+notes:
+  - 'FIXME: temporarily allowing pre-releases until 1.0.3 has been corrected to full release, see https://codeberg.org/IzzyOnDroid/repodata/issues/15#issuecomment-10916429 '
 versions:
   - tag: v1.0.3
     apks:

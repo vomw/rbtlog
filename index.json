@@ -2489,6 +2489,20 @@
       "error": null
     }
   ],
+  "63ae0de966a47274bcb4c55ca848865986d0a7cf1589bf139c89bc9af9c612d1": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.10.2/Podcini.X-free-arm64-v8a-10.10.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 262,
+      "version_name": "10.10.2",
+      "tag": "v10.10.2",
+      "commit": "7c52e267dee5e9e704e1e8b9dbb9f70658cc91ff",
+      "timestamp": 1771858530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -12647,6 +12661,20 @@
       "tag": "427",
       "commit": "62294e781e5d9ca8a926c9ab4c8ce91c7030aca3",
       "timestamp": 1770838044,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c43cb35875cc5069dcd0a0b740cd0504162072fa2d5d19e59ca0562b638df241": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/428/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 428,
+      "version_name": "4.28 GH",
+      "tag": "428",
+      "commit": "cabe12b1a0f62f614c29d3d49c5a1835c8a4cd54",
+      "timestamp": 1771874942,
       "reproducible": true,
       "error": null
     }
@@ -24801,6 +24829,20 @@
       "error": null
     }
   ],
+  "1e305006296a3cf5b44336529bd83dcf6a73778a2fbe242ccfb223a50080dbe0": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.1.7-76/LogFox-2.1.7-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 76,
+      "version_name": "2.1.7",
+      "tag": "v2.1.7-76",
+      "commit": "44472e1c4911d01c54d39da8f55d00b7e6fda3c3",
+      "timestamp": 1771858959,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7ec7b797e0b5d0bf754b0e67ac31d216ea65ad5f28a15cca5fab6a46634f5977": [
     {
       "repository": "https://github.com/anonfaded/FadCam.git",
@@ -25761,6 +25803,20 @@
       "tag": "v1.37.0",
       "commit": "a34c750b0dffbaba62b31f6b2cd7cdb81840fa82",
       "timestamp": 1769039228,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c9a94b57daabb09854063387c3573e869f6819980ded975411889897929d9b25": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.38.0/com.fibelatti.photowidget-v1.38-1380000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1380000,
+      "version_name": "1.38",
+      "tag": "v1.38.0",
+      "commit": "83819e6177c07bac19d3b85a5e084ff0d453d7e4",
+      "timestamp": 1771859169,
       "reproducible": true,
       "error": null
     }
@@ -34059,6 +34115,20 @@
       "error": null
     }
   ],
+  "fdbd5aa3f99209cffe320689a09d59fda805b755980f7b704d211e3fcd5ade05": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-3.6.0/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 360,
+      "version_name": "3.6.0",
+      "tag": "release-3.6.0",
+      "commit": "e57c293a333d8b4a63b6a85a6e99f2bc15a4e9de",
+      "timestamp": 1771879160,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0074947d77b5e7e2a2835ab6c2fdb2175b0c9f0d8fb73071bb293730a388bf30": [
     {
       "repository": "https://github.com/jeeneo/fonts.git",
@@ -34755,6 +34825,20 @@
       "tag": "v1.8.0",
       "commit": "537b20cc5263ce88c91a54b39bd5a4e26dacb420",
       "timestamp": 1769893070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0431359856699cd21c61bd4b90d2fecb374245e449c7ba15b5405c99a517ec2f": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v1.9.0/PassVault-v1.9.0-b35-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 35,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "32d45e5aaa8fa2b84bafb996a9001c6b5236ee84",
+      "timestamp": 1771876055,
       "reproducible": true,
       "error": null
     }
@@ -47701,6 +47785,20 @@
       "error": null
     }
   ],
+  "5c8a53cbd6435d19526db3aad7f7bbe03e5d92dd74987036cebd92e0ff65d0d4": [
+    {
+      "repository": "https://github.com/RohitKushvaha01/TaskManager.git",
+      "apk_url": "https://github.com/RohitKushvaha01/TaskManager/releases/download/v1.3.4/taskmanager-v1.3.4.apk",
+      "appid": "com.rk.taskmanager",
+      "version_code": 34,
+      "version_name": "1.3.4",
+      "tag": "v1.3.4",
+      "commit": "3beb5c552d9cc243788e92d9ee72f10c5979b3d1",
+      "timestamp": 1771859479,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eef955ac646d144991645b9a32083af2a9cb1807673f5dd1bb1796ecb0ba9925": [
     {
       "repository": "https://github.com/RohitKushvaha01/ReTerminal.git",
@@ -50773,6 +50871,20 @@
       "tag": "5.6.2",
       "commit": "124003faadbd3bc1b25a755f97b4872556b936d5",
       "timestamp": 1771600672,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "00c8ef7f25624aa14d9e178fb13c1ebbad48093f29952c7f1762b7b8e9e06f9a": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.7.0/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5700,
+      "version_name": "5.7.0",
+      "tag": "5.7.0",
+      "commit": "a26b507d918d7f95159ad8db639c33acced2a572",
+      "timestamp": 1771876395,
       "reproducible": true,
       "error": null
     }
@@ -64251,6 +64363,20 @@
       "error": null
     }
   ],
+  "0f06c20fed4a7982de30ed69f3865295617403d3fa782e685a047d705a6540a8": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.10.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10100012,
+      "version_name": "1.10.1",
+      "tag": "v1.10.1",
+      "commit": "24dd2909eb549a6a53e7a0001f4f9c4b563518e6",
+      "timestamp": 1771859669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -65199,6 +65325,20 @@
       "tag": "2.5.0",
       "commit": "3c8e4e97f442b5a7c9530a57a76eb5d03de539f8",
       "timestamp": 1771776748,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d8a2d52754215f7b96091c29a6ec1280c3552c4d06218cbed58406aea520f15d": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.5.1/photok-2.5.1-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 56,
+      "version_name": "2.5.1",
+      "tag": "2.5.1",
+      "commit": "d84b12f796324a965dea7d5248e945e074df61a5",
+      "timestamp": 1771876833,
       "reproducible": true,
       "error": null
     }
@@ -66499,6 +66639,20 @@
       "tag": "v11.0.1",
       "commit": "b209fd29ba300feed33c1c6d26488d6abe82c290",
       "timestamp": 1771789834,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aaf7caccc20ffbea66b2e191b8e9b97a35bcf6779d08ed84977c3aca4c8eb17b": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v11.0.2/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1102,
+      "version_name": "11.0.2-free",
+      "tag": "v11.0.2",
+      "commit": "06aad75fe96239e6e5a3b305197b9f0b0003acd6",
+      "timestamp": 1771877189,
       "reproducible": true,
       "error": null
     }
@@ -68037,6 +68191,20 @@
       "tag": "v3.0.5-rc0",
       "commit": "6b3f431e9e5935715ba7e3947c7ef27ec47897ae",
       "timestamp": 1771260665,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7d84e221a0e43b7d66244bd3e04b1fc998ec5fb4603dab4caeb78e9f47f7d242": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v3.1.0-rc0/eu.darken.capod-v3.1.0-rc0-30100000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 30100000,
+      "version_name": "3.1.0-rc0",
+      "tag": "v3.1.0-rc0",
+      "commit": "576c6db8d006a2f9f7b9449cce0d0adbc003e3ac",
+      "timestamp": 1771860190,
       "reproducible": true,
       "error": null
     }
@@ -69787,6 +69955,20 @@
       "tag": "v2.0.1",
       "commit": "bdf2d7ce7274aab95b9f3bde6cf78369b4e84465",
       "timestamp": 1771689559,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "722898af99c89c7019bc79b88c5af30960a4bebb460c3b4e291b17a1f3325f9d": [
+    {
+      "repository": "https://github.com/hxreborn/cleanshare.git",
+      "apk_url": "https://github.com/hxreborn/cleanshare/releases/download/v2.0.3/app-release.apk",
+      "appid": "eu.hxreborn.cleanshare",
+      "version_code": 203,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "afcea3f246abc84904e3f54a4976a851e7fda144",
+      "timestamp": 1771880937,
       "reproducible": true,
       "error": null
     }
@@ -79167,6 +79349,20 @@
       "error": null
     }
   ],
+  "af322f243e469f54b2e540a92c8b145bdc229b6e61a7e071256a0fdc4b2133e4": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.5.1/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 35,
+      "version_name": "alpha-0.5.1",
+      "tag": "alpha-0.5.1",
+      "commit": "ccb4348e8eb4963218c7e4c54255d31759d9ab43",
+      "timestamp": 1771860712,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -87971,6 +88167,20 @@
       "error": null
     }
   ],
+  "ac0646ca697961006fa00937fb4f514fedd4a8b261a53b69fe0ceeb493b8fef6": [
+    {
+      "repository": "https://codeberg.org/UnifiedPush/fcm-distributor.git",
+      "apk_url": "https://codeberg.org/UnifiedPush/fcm-distributor/releases/download/2.1.0/fcm-distributor.apk",
+      "appid": "org.unifiedpush.distributor.fcm",
+      "version_code": 23,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "bc4e9f049677057b3caeaafb66ef4e47caa44900",
+      "timestamp": 1771872565,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bf4b7903408d4c91432ab5179139d6ebe646956411d55a728c09e9cc3784bf93": [
     {
       "repository": "https://codeberg.org/NextPush/nextpush-android.git",
@@ -88167,6 +88377,20 @@
       "error": null
     }
   ],
+  "9138bf322c4568aca8d5878821f9a006d7d5bb4c3e8b9de99f36f6212f249c48": [
+    {
+      "repository": "https://codeberg.org/NextPush/nextpush-android.git",
+      "apk_url": "https://codeberg.org/NextPush/nextpush-android/releases/download/2.4.0/nextpush.apk",
+      "appid": "org.unifiedpush.distributor.nextpush",
+      "version_code": 50,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "76093703a32609cb03ecb8345d2b1727df3d4174",
+      "timestamp": 1771861206,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c369a3420574a687af01475ce73093f1183d09862e904c7fa7ae42e65a5c96ce": [
     {
       "repository": "https://codeberg.org/Sunup/android.git",
@@ -88331,6 +88555,20 @@
       "tag": "1.2.3",
       "commit": "e2e5266d3247c1d734e1aa1985afb63bb7294589",
       "timestamp": 1768754258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d3a3c8da1470e8a55ec53fd0601f42c4e8ee7055b079764d86c94231230f16d9": [
+    {
+      "repository": "https://codeberg.org/Sunup/android.git",
+      "apk_url": "https://codeberg.org/Sunup/android/releases/download/1.3.1/sunup.apk",
+      "appid": "org.unifiedpush.distributor.sunup",
+      "version_code": 20,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "387f9360418424b96839f6745d550877a359366d",
+      "timestamp": 1771861538,
       "reproducible": true,
       "error": null
     }
