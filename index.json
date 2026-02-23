@@ -9321,6 +9321,20 @@
       "error": null
     }
   ],
+  "27bc7d71e588f0941c7c4d150af9f0c447c3134028d8a4bc2de753c106eae44b": [
+    {
+      "repository": "https://github.com/fflopsi/mensa-zh.git",
+      "apk_url": "https://github.com/fflopsi/mensa-zh/releases/download/v2.1.0/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 60,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "c235408cdc4be474678ec745cc91e38f9a1e9bf4",
+      "timestamp": 1771848855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "00e485bbea3399a0609e05f9b4d406169791534f45e5b7bf7ffdacf7773681a2": [
     {
       "repository": "https://github.com/ICTrust/PObY-A.git",
@@ -33135,6 +33149,20 @@
       "error": null
     }
   ],
+  "d34e70ade99c6646cf2b8a7408b9db13915c6fa7d5c4bcb7ab9e7cbc0b45b79a": [
+    {
+      "repository": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed.git",
+      "apk_url": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/releases/download/v1.0.3/app-release.apk",
+      "appid": "com.haseeb.quranapp",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "c14312e63a2982fb0c80fd0017002a51a07e40f2",
+      "timestamp": 1771866118,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4d8352ab1748951737186088d331a6d04344725477aef0ae89344640c8810dad": [
     {
       "repository": "https://github.com/oliexdev/openWorkout.git",
@@ -37303,6 +37331,20 @@
       "tag": "0.4.2",
       "commit": "ae9cf6ac9d00336550b39177a003e0d77886e1f0",
       "timestamp": 1741104725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ff7b4871bfa9a283f6c65ae4bad65a85bd26875da374ae06cae019c91644fe5": [
+    {
+      "repository": "https://github.com/Sanmeet007/logger.git",
+      "apk_url": "https://github.com/Sanmeet007/logger/releases/download/v3.4.2/logger-v3.4.2.apk",
+      "appid": "com.logger.app",
+      "version_code": 62,
+      "version_name": "3.4.2",
+      "tag": "v3.4.2",
+      "commit": "772f8df9cfaaa31cca3512e3f256aadafdfb58c9",
+      "timestamp": 1771864368,
       "reproducible": true,
       "error": null
     }
