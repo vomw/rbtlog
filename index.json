@@ -6717,6 +6717,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmp9c2ncwp_/outputs:/outputs', '--volume', '/tmp/tmp9c2ncwp_/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.13.0', '--env', 'APP_COMMIT=db858537976ae1169c4657513458896f5d4beb9a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "0f96b1fcf46447d54a485daba1d88a62ae2fd22a0278b6d43d00d24d463f80ca": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.13.1/Clerotri-v0.13.1-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 20,
+      "version_name": "0.13.1",
+      "tag": "v0.13.1",
+      "commit": "7a834c4aafb20e5bb14a089352519b54ea1301c2",
+      "timestamp": 1771944749,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpwxzyan3j/outputs:/outputs', '--volume', '/tmp/tmpwxzyan3j/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.13.1', '--env', 'APP_COMMIT=7a834c4aafb20e5bb14a089352519b54ea1301c2', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
   "3ac7e975419e365f6538d77a8dd4650c07800a860c3a7d847333c136c5f65ae5": [
     {
       "repository": "https://github.com/vitamin-caig/zxtune.git",
@@ -18769,6 +18783,20 @@
       "error": null
     }
   ],
+  "aaa9a7997df606927119edd0bc6111dd9568959a82549a9051b61a40924baa8a": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.02.22/simplequizfr-release-v2026.02.22.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 4,
+      "version_name": "2026.02.22",
+      "tag": "v2026.02.22",
+      "commit": "ed3f1e19d77770d993e51e5f6520f11a30faa4b8",
+      "timestamp": 1771789001,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -19913,6 +19941,20 @@
       "tag": "v4.4.1",
       "commit": "71270e6a31c5951882190415523f4b116996f824",
       "timestamp": 1770390806,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d83fda902a5eb307e4145209327f797493ef1c49ae10e2d758080d3147eea750": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v4.4.2/easter_eggs_4.4.2_71-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 71,
+      "version_name": "4.4.2",
+      "tag": "v4.4.2",
+      "commit": "5e0c86d80c422999b16dca0877ebfceaeb9e2f34",
+      "timestamp": 1771946179,
       "reproducible": true,
       "error": null
     }
@@ -23443,6 +23485,20 @@
       "error": null
     }
   ],
+  "afa76fc0d46281ab39ac53e3a8304fc841cb80bc7f090c7abfa8d9b961de6939": [
+    {
+      "repository": "https://github.com/greenbugx/Hongeet.git",
+      "apk_url": "https://github.com/greenbugx/Hongeet/releases/download/v1.5.1%2B16/Hongeet_v1.5.1%2B16_arm64-v8a.apk",
+      "appid": "com.dxku.hongit",
+      "version_code": 2016,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1+16",
+      "commit": "0eda46c709421a3ec78417bb54752dd2b3ea6a2e",
+      "timestamp": 1771946654,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "23c99ba5d10f96003bd379d659d60a3b3ee02fb4b19d3b57cede760d9b9cbab1": [
     {
       "repository": "https://github.com/JackEblan/EblanLauncher.git",
@@ -24843,6 +24899,20 @@
       "error": null
     }
   ],
+  "5904117da9b93b6c87df2544e3d198bae7c555d358ce504d6c4fe2c851ec52af": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.1.8-77/LogFox-2.1.8-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 77,
+      "version_name": "2.1.8",
+      "tag": "v2.1.8-77",
+      "commit": "4f3fbe9b3d36674adb765f0811ddf90850df3f61",
+      "timestamp": 1771947755,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7ec7b797e0b5d0bf754b0e67ac31d216ea65ad5f28a15cca5fab6a46634f5977": [
     {
       "repository": "https://github.com/anonfaded/FadCam.git",
@@ -25817,6 +25887,20 @@
       "tag": "v1.38.0",
       "commit": "83819e6177c07bac19d3b85a5e084ff0d453d7e4",
       "timestamp": 1771859169,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e08adb15424b7cac5740e503c9e099b2b0ce3979ed74c441fc25547d4b56c95e": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.38.1/com.fibelatti.photowidget-v1.38.1-1380100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1380100,
+      "version_name": "1.38.1",
+      "tag": "v1.38.1",
+      "commit": "d66d12783e9409dacf2a7b8b299ec2b385641c8f",
+      "timestamp": 1771961425,
       "reproducible": true,
       "error": null
     }
@@ -27581,6 +27665,20 @@
       "tag": "v1.4.1",
       "commit": "1ad1fa4aeddcf307d71c5a8524d637c8fa7deded",
       "timestamp": 1771282485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f66af16b5bdb8b0a4fe546a07e76177754442e292a1a4837de70f1f572612927": [
+    {
+      "repository": "https://github.com/pintargasper/SmokingTracker.git",
+      "apk_url": "https://github.com/pintargasper/SmokingTracker/releases/download/v1.4.2/smoking-tracker.v1.4.2.apk",
+      "appid": "com.gasperpintar.smokingtracker",
+      "version_code": 9,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "4f74e48574e49e473acd69d5ba2dd09e5619b964",
+      "timestamp": 1771947969,
       "reproducible": true,
       "error": null
     }
@@ -32521,6 +32619,20 @@
       "error": null
     }
   ],
+  "b44555c3d7a6a35a209cda11245d0fcaeef0e38eef0eedf1d9c83baa83e720de": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.8.2/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2158,
+      "version_name": "9.8.2",
+      "tag": "9.8.2",
+      "commit": "1463c461147dd3e7056c14394bf485e3e947d978",
+      "timestamp": 1771948171,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -33215,6 +33327,20 @@
       "tag": "v1.0.3",
       "commit": "c14312e63a2982fb0c80fd0017002a51a07e40f2",
       "timestamp": 1771866118,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cd49f155af93e15124d1c2b05ca8e4f4e511806d2e36dcd8417fb02da9cadc18": [
+    {
+      "repository": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed.git",
+      "apk_url": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/releases/download/v1.0.4/app-release.apk",
+      "appid": "com.haseeb.quranapp",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "3fdbb24a95d422ebf3a7ae76debec085b39b535f",
+      "timestamp": 1771956221,
       "reproducible": true,
       "error": null
     }
@@ -41111,6 +41237,20 @@
       "error": null
     }
   ],
+  "d32fe74775a6a079f3bc966343c8bd074016bad67981aab79fae8a7f6e84a308": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.23.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 67,
+      "version_name": "1.23.0",
+      "tag": "v1.23.0",
+      "commit": "c4c165ad369f6f0a54c3ebe475287a53077321be",
+      "timestamp": 1771955464,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -45387,6 +45527,20 @@
       "tag": "v1.1.2",
       "commit": "5a41dad331f4df36999b82692943da9dc4896a5f",
       "timestamp": 1771341521,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "29974269a514ee63f3cdf9f94c894dde641113eab3c2081a0d966b53056880f4": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.3/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2023,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "d6e768c94496002c672bdcc2ec4ca5c19a238667",
+      "timestamp": 1771961950,
       "reproducible": true,
       "error": null
     }
@@ -60261,6 +60415,20 @@
       "error": null
     }
   ],
+  "bb4c17cb956cbe21c9b76629f6a62f6092fd7cb52a1e9215d2d2d7a9953babca": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.19.7/RecurringExpenseTracker_0.19.7.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 59,
+      "version_name": "0.19.7",
+      "tag": "v0.19.7",
+      "commit": "1cc33f9186f5bf31f854d57295a46356782f396f",
+      "timestamp": 1771962481,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5df28eb14c0b5deaec48849abb176731b5054229d83cd26df7d8185c257d5eff": [
     {
       "repository": "https://github.com/Yanndroid/NotiNotes.git",
@@ -60915,6 +61083,20 @@
       "tag": "v2.22.3",
       "commit": "89e784ded9a7577ba4aae4a1ce284938965b0cbd",
       "timestamp": 1770580663,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4ad66fee0cb921a587bca6335e3fad5567b9cc5e6d837a9114e237f68cbd08d9": [
+    {
+      "repository": "https://github.com/Traewelldroid/traewelldroid.git",
+      "apk_url": "https://github.com/Traewelldroid/traewelldroid/releases/download/v2.23.0/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 213,
+      "version_name": "2.23.0",
+      "tag": "v2.23.0",
+      "commit": "09ed467e3571a9d8997ce2bdf364b62b721621c9",
+      "timestamp": 1771949428,
       "reproducible": true,
       "error": null
     }
@@ -66653,6 +66835,20 @@
       "tag": "v11.0.2",
       "commit": "06aad75fe96239e6e5a3b305197b9f0b0003acd6",
       "timestamp": 1771877189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7df63936ad69f563ebfe8c07e39552736b8a41f62aa04a3ddb31b2a4ee0fdc36": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v11.0.3/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1103,
+      "version_name": "11.0.3-free",
+      "tag": "v11.0.3",
+      "commit": "3b7e5ca6f4816909177e864571b68bf38edfdd0a",
+      "timestamp": 1771962914,
       "reproducible": true,
       "error": null
     }
@@ -74935,6 +75131,20 @@
       "tag": "1.7.8",
       "commit": "f6573ff6735a30c938304697fb36d621aae4b953",
       "timestamp": 1761661755,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5cff65e111fa3643d61ca4574ca052dfdb93b420718f29f4351a33b30ff14ebe": [
+    {
+      "repository": "https://github.com/yamin8000/freeDictionaryApp.git",
+      "apk_url": "https://github.com/yamin8000/freeDictionaryApp/releases/download/1.7.9/io.github.yamin8000.owl-v52-n1.7.9-release.apk",
+      "appid": "io.github.yamin8000.owl",
+      "version_code": 52,
+      "version_name": "1.7.9",
+      "tag": "1.7.9",
+      "commit": "c69e71540c4eaf2cecad7bbe3769a8f62afa7bfb",
+      "timestamp": 1771955965,
       "reproducible": true,
       "error": null
     }
@@ -92199,6 +92409,20 @@
       "error": null
     }
   ],
+  "2be3629468045904a7940e63e2b9fc699aa6233dbc858e3af9eba1a4728c21a9": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.6.21/mindwtr-0.6.21-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 41,
+      "version_name": "0.6.21",
+      "tag": "v0.6.21",
+      "commit": "e9232ee451c1ecd0da832e9865a34ab581f076e7",
+      "timestamp": 1771877962,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -92881,6 +93105,20 @@
       "tag": "4.0.0-alpha01",
       "commit": "76832f5afc5fc084a1aaed3a71ebc4fce7e59f11",
       "timestamp": 1771779647,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "aae859680bcbbd206e7081d2e1ea7c24a10aa7112a850e68b0cddc36801db6aa": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha03/LockscreenWidgets_4.0.0-alpha03-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 176,
+      "version_name": "4.0.0-alpha03",
+      "tag": "4.0.0-alpha03",
+      "commit": "ef593b98fe52d62b1be5b041f81945037e4baedf",
+      "timestamp": 1771956448,
       "reproducible": true,
       "error": null
     }
