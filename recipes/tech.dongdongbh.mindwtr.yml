@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
-notes:
-  - 'FIXME: recipe needs update, see https://github.com/dongdongbh/Mindwtr/commit/384077683a10a143501fc83cae6628600834a2d9#diff-b838d63f3ab2b58b2a37479d1cd18599f365c89a52ad0ee1ded2ecfa23ccae7b & https://github.com/dongdongbh/Mindwtr/issues/206 '
 labels:
   - expo
   - react-native
@@ -175,6 +173,47 @@ versions:
           - npm install --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix packages/core
           - bash apps/mobile/scripts/fdroid_prep.sh
           - npm install --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix apps/mobile
+          - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace apps/mobile/build/mindwtr-*-arm64-v8a-foss.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Mindwtr/Mindwtr
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v0.6.22
+    apks:
+      - apk_pattern: mindwtr-.*-foss\.apk
+        apk_url: https://github.com/dongdongbh/Mindwtr/releases/download/v0.6.22/mindwtr-0.6.22-foss.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v24.13.1/node-v24.13.1-linux-x64.tar.xz
+          - sha256sum -c <<< '30215f90ea3cd04dfbc06e762c021393fa173a1d392974298bbc871a8e461089  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v24.13.1-linux-x64/bin"
+          - base64 -d > sedo <<< ZXhwb3J0IERST1BCT1hfQVBQX0tFWT0iN29iODJ6ZzBseDBhcmtwIgo=
+          - source sedo
+          - npm ci --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix packages/core
+          - bash apps/mobile/scripts/fdroid_prep.sh
+          - npm ci --workspaces=false --legacy-peer-deps --no-audit --no-fund --prefix apps/mobile
           - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
           - find . -name '*.apk'
           - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git

@@ -2503,6 +2503,20 @@
       "error": null
     }
   ],
+  "611003ff47c0c241b0aa67a8f2b5454d9170d898f0fed2dd5a86bebc85909b52": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.10.3/Podcini.X-free-arm64-v8a-10.10.3.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 263,
+      "version_name": "10.10.3",
+      "tag": "v10.10.3",
+      "commit": "e43ce2b0d09b7b848bd03d46374feeacfb19100b",
+      "timestamp": 1772031100,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6447,6 +6461,20 @@
       "tag": "v9.5.1",
       "commit": "5d5097bf84b9ef12f65512b0375bb48575bc1544",
       "timestamp": 1768764156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c547af9c17a21535c5f9964bd2a430988b9021192e95b6501b0bc77bf5c504a5": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.5.2/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 952,
+      "version_name": "v9.5.2",
+      "tag": "v9.5.2",
+      "commit": "2af267083f536903e67dc30ba9f588d351d49475",
+      "timestamp": 1772048167,
       "reproducible": true,
       "error": null
     }
@@ -12913,6 +12941,20 @@
       "tag": "v3.4.1",
       "commit": "491a81584dd184d9f21b283ccd2ced5c6e3ef0c0",
       "timestamp": 1754232258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5b9d496d21c5938bdd733b01583516d27cd556db0749357f58baa648ef8ef804": [
+    {
+      "repository": "https://github.com/beemdevelopment/Aegis.git",
+      "apk_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.2/aegis-v3.4.2.apk",
+      "appid": "com.beemdevelopment.aegis",
+      "version_code": 81,
+      "version_name": "3.4.2",
+      "tag": "v3.4.2",
+      "commit": "59d5c640d6a2d0d16f243dbdd735758eed65bc63",
+      "timestamp": 1772031666,
       "reproducible": true,
       "error": null
     }
@@ -23275,6 +23317,20 @@
       "error": null
     }
   ],
+  "00078c9abd914805d81b4455a661eba0257db027e282e7515e6186d2d41f69b7": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.6.0/MyQuran-v1.6.0-arm64-v8a-163-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 163,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "7e88fe47efe5455c678ffb8fa1a7afcffd99a7a2",
+      "timestamp": 1772031834,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -24909,6 +24965,20 @@
       "tag": "v2.1.8-77",
       "commit": "4f3fbe9b3d36674adb765f0811ddf90850df3f61",
       "timestamp": 1771947755,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c1e9fd26abb83b5fd2ba72f9a30276f10fdc0e582e5eaba748fa38c1d110b1a9": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.1.9-78/LogFox-2.1.9-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 78,
+      "version_name": "2.1.9",
+      "tag": "v2.1.9-78",
+      "commit": "9f265ee3a6a30d98514d08fba48184f4d159c925",
+      "timestamp": 1772032354,
       "reproducible": true,
       "error": null
     }
@@ -34615,6 +34685,20 @@
       "tag": "v1.0.0-beta15",
       "commit": "9d9abf841e2fd964e690cd7a21e7e4dea5f73d1f",
       "timestamp": 1771533741,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "276b8f87e67eaea28a7fbddc5e5654f3f0cca32f7f219d97fb7a6ff2f63422b3": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta16/librefind-v1.0.0-beta16-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 16,
+      "version_name": "1.0.0-beta16",
+      "tag": "v1.0.0-beta16",
+      "commit": "c4ca222904eb3c99b5c2c719dc81cbc5fee96b11",
+      "timestamp": 1772048543,
       "reproducible": true,
       "error": null
     }
@@ -52861,6 +52945,20 @@
       "error": null
     }
   ],
+  "f6d0df75c334a1fd03cb1694188eca72b9d028f8ffb298b804012a597a47e90b": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/CuteCalc/releases/download/v3.7.0/CC_3.7.0.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 40003,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "fb9ae41f9738d96284f0bb76e0ba9a64677d1705",
+      "timestamp": 1772032563,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -56985,6 +57083,20 @@
       "tag": "V2.72.051",
       "commit": "e3463c6db95bcbbe13164e1aa199ac75e18f077f",
       "timestamp": 1770829556,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "57b470eb0813894d2e76eae8f396e72f7750b271e583a8ef8c9c04031de2c6f1": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.73.000/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 273000,
+      "version_name": "2.73.000",
+      "tag": "V2.73.000",
+      "commit": "25f2dccc0fce3ca9c27429226604362b9aca65dd",
+      "timestamp": 1772032769,
       "reproducible": true,
       "error": null
     }
@@ -61983,6 +62095,20 @@
       "error": null
     }
   ],
+  "821c71eda949d0627393727a6462f2ac573c0381547ed384ce740096bd58a7c8": [
+    {
+      "repository": "https://github.com/deltazefiro/Amarok-Hider.git",
+      "apk_url": "https://github.com/deltazefiro/Amarok-Hider/releases/download/v0.10.1/Amarok-v0.10.1-foss.apk",
+      "appid": "deltazero.amarok.foss",
+      "version_code": 124,
+      "version_name": "0.10.1",
+      "tag": "v0.10.1",
+      "commit": "7111d2e1cfd964ae6dd16b6bb6207bf36928a44f",
+      "timestamp": 1772033084,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "67577388e7076b12720ada65f40e485996c5af0b810f32e31ba88443c79c8b64": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -66867,6 +66993,20 @@
       "error": null
     }
   ],
+  "11269b1c3c686ef29a4a3eafd3077102399ae287a8fdcc388cf506b5cd938bd5": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v11.1.0/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1110,
+      "version_name": "11.1.0-free",
+      "tag": "v11.1.0",
+      "commit": "d79bfac39aaa6a2447f5e5bbfbaa3ce2ea546e6e",
+      "timestamp": 1772033187,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -68013,6 +68153,34 @@
       "error": null
     }
   ],
+  "b7e1b96a84d01c3edd94a08c02e9b5ac2bf6acbea49181e6b0d6b6bfd7830c6b": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.6.0-rc0/eu.darken.apl-v0.6.0-rc0-600000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 600000,
+      "version_name": "0.6.0-rc0",
+      "tag": "v0.6.0-rc0",
+      "commit": "c0aedd856886fcb512bab4d09bc73abdad420f63",
+      "timestamp": 1772033404,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6dedd3738ea21808e17bc43c2e26e7cddcebb5b701f1135b5c0430c41322a878": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.6.1-rc0/eu.darken.apl-v0.6.1-rc0-601000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 601000,
+      "version_name": "0.6.1-rc0",
+      "tag": "v0.6.1-rc0",
+      "commit": "5514de0acb84727a8933edff9651d4d66511f1ba",
+      "timestamp": 1772049029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1f8f27d2c9a5b2bd57aeb273f815663fe89d8586467bf54b8cd704c228438163": [
     {
       "repository": "https://github.com/d4rken-org/bluemusic.git",
@@ -68891,6 +69059,20 @@
       "tag": "v1.5.7-rc0",
       "commit": "f03c62632a1ea8697be032d9ee4cd0092f3e8a8b",
       "timestamp": 1765986317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c93ddd308a4ea1823b325918f38130a0627ad056e00e18ce19a2be62d7d7237c": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.6.2-rc1/eu.darken.sdmse-v1.6.2-rc1-10602010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10602010,
+      "version_name": "1.6.2-rc1",
+      "tag": "v1.6.2-rc1",
+      "commit": "d98992fac23d6a40852493e06f55485d0632d959",
+      "timestamp": 1772041038,
       "reproducible": true,
       "error": null
     }
@@ -77511,6 +77693,20 @@
       "tag": "v1.9.2",
       "commit": "d2e948776d5cc39e7bd2f9a5500c932cf030bb44",
       "timestamp": 1767821385,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1b2da40b2fe1c301399f4fe70e911adec871135f26fdcd5b1f3216846e2c9a29": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v1.9.3/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 129,
+      "version_name": "1.9.3-izzy",
+      "tag": "v1.9.3",
+      "commit": "4f480b91399a615f67166580c5a7d5d3711b9986",
+      "timestamp": 1772034346,
       "reproducible": true,
       "error": null
     }
@@ -92448,6 +92644,20 @@
       "commit": "e9232ee451c1ecd0da832e9865a34ab581f076e7",
       "timestamp": 1771877962,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "7474e98871f7f3fc0c05c7cf22fe2b1365e72b33b0efc1af0d72bd4a0774f9c1": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.6.22/mindwtr-0.6.22-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 42,
+      "version_name": "0.6.22",
+      "tag": "v0.6.22",
+      "commit": "2f3fb21be87841db4eb793b59db9f7e84b65db34",
+      "timestamp": 1772053106,
+      "reproducible": true,
       "error": null
     }
   ],
