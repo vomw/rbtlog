@@ -45153,6 +45153,20 @@
       "error": null
     }
   ],
+  "f601f5bd160f539a631b01ee637bac33464503ffafd7a2d660ab29d863525501": [
+    {
+      "repository": "https://github.com/bjoernch/pgpmailer.git",
+      "apk_url": "https://github.com/bjoernch/pgpmailer/releases/download/v1.2.4/app-release.apk",
+      "appid": "com.pgpmailer",
+      "version_code": 10204,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "9b9f43f1b89377af07dd62d80394c70ccb680a36",
+      "timestamp": 1772126279,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1719cfb8e819c0fe6e706dac29da61e74c10c8c8be4f126e643f5752033b02d7": [
     {
       "repository": "https://github.com/PhilKes/NotallyX.git",
@@ -67509,6 +67523,20 @@
       "error": null
     }
   ],
+  "af2d447e867d64cacdfa8d69d578213d9d4549c796482c5fc367de51055839f5": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v3.0.0/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2057,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "e730bde73dbeaf5e6b9d81b28cdb0d628cc5c776",
+      "timestamp": 1772065064,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
     {
       "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
@@ -70711,6 +70739,20 @@
       "tag": "v1.8",
       "commit": "daf5140338dfa4c73a7f73ec91018bc864b5de29",
       "timestamp": 1754836217,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f913c5c04646bada0e789e0c1087477739c60d1e9ad19240cc4ea2673e034afe": [
+    {
+      "repository": "https://github.com/ThomasNowProductions/YAM-Launcher.git",
+      "apk_url": "https://github.com/ThomasNowProductions/YAM-Launcher/releases/download/v2.1/yamlauncher-2.1.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 15,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "424b19f9889c7f127176f09a738fda3da7e89797",
+      "timestamp": 1772055922,
       "reproducible": true,
       "error": null
     }
