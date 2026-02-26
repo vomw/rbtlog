@@ -32703,6 +32703,20 @@
       "error": null
     }
   ],
+  "eff2a2ad5306b90f782ebaac40ae2f97fad4b189c3d60ae71cf5fd0244af92d7": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.8.3/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2159,
+      "version_name": "9.8.3",
+      "tag": "9.8.3",
+      "commit": "ce791447413e8f3c4051170212601c7a7920badb",
+      "timestamp": 1772118324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -41349,6 +41363,20 @@
       "error": null
     }
   ],
+  "847781d60eb404726d9303dabcdf0f42ec4fb00c92a9eb93e5809eaad172b6ba": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.23.1/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 68,
+      "version_name": "1.23.1",
+      "tag": "v1.23.1",
+      "commit": "f37a38e594b298d89600aba769a8c6bc2a294b6c",
+      "timestamp": 1772137014,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -45919,6 +45947,20 @@
       "tag": "v2.7.0",
       "commit": "3a1030f3e2c2e30fa9d0ca67c0957d57ff518985",
       "timestamp": 1769095219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e599bc967f7230b756b91d3582b5fecb517a899b78a3a66d1438629e150c3c19": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v2.7.1/WeatherMaster.2.7.1.arm64-v8a.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 29,
+      "version_name": "2.7.1",
+      "tag": "v2.7.1",
+      "commit": "aabd72976eebc01dc1e18acb1f7a54748aff3f92",
+      "timestamp": 1772134360,
       "reproducible": true,
       "error": null
     }
@@ -51151,6 +51193,20 @@
       "tag": "5.7.0",
       "commit": "a26b507d918d7f95159ad8db639c33acced2a572",
       "timestamp": 1771876395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ea6b2954fda3ab151eb7be31dc9b4b2464794d6ca98fa73eecd322903b6739f8": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.7.1/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5710,
+      "version_name": "5.7.1",
+      "tag": "5.7.1",
+      "commit": "556d5773221e017134d83eae4f43b8f061922823",
+      "timestamp": 1772119409,
       "reproducible": true,
       "error": null
     }
@@ -64237,6 +64293,20 @@
       "error": null
     }
   ],
+  "fb18d4a37c5b8f17167861504e7ecdbc5aa27546871a1747a8b343bbed5a7c9a": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.9.0/simple-notes-sync-v1.9.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 23,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "9712c5dc77247ad281bfb71fd4225645c28d13eb",
+      "timestamp": 1772120067,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -64709,6 +64779,20 @@
       "tag": "v1.10.1",
       "commit": "24dd2909eb549a6a53e7a0001f4f9c4b563518e6",
       "timestamp": 1771859669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39c37117c761a3ef98a2f99b2cb478684a1d357baae77e865b945c130425171b": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.11.0/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10110002,
+      "version_name": "1.11.0",
+      "tag": "v1.11.0",
+      "commit": "ef665e620098faddd92e1b605a785c02cb5ae129",
+      "timestamp": 1772120215,
       "reproducible": true,
       "error": null
     }
@@ -65675,6 +65759,20 @@
       "tag": "2.5.1",
       "commit": "d84b12f796324a965dea7d5248e945e074df61a5",
       "timestamp": 1771876833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e46e60b93173dd29c11a2028bcb5b41f69f579e44c748948e209aab7f8a1072": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.6.0/photok-2.6.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 57,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "bfadca332167bace68bf01bb99f7c51e1b601d47",
+      "timestamp": 1772120671,
       "reproducible": true,
       "error": null
     }
@@ -67017,6 +67115,20 @@
       "tag": "v11.1.0",
       "commit": "d79bfac39aaa6a2447f5e5bbfbaa3ce2ea546e6e",
       "timestamp": 1772033187,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "83bcb124b0e24b3ae09ded6dc64077f9b19c3cc779554e36793fe8a2c9ee8c95": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v11.1.1/Flip2DND-Free.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1111,
+      "version_name": "11.1.1-free",
+      "tag": "v11.1.1",
+      "commit": "9c2a6d27112d4e0967b4e5eb0e370cdadccb962e",
+      "timestamp": 1772120823,
       "reproducible": true,
       "error": null
     }
@@ -93403,6 +93515,20 @@
       "error": null
     }
   ],
+  "a1bdba5c7f75eb24f81a45e6188d3556b874ccb7cc49b52a43d76cd70c3cbb4f": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha04/LockscreenWidgets_4.0.0-alpha04-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 177,
+      "version_name": "4.0.0-alpha04",
+      "tag": "4.0.0-alpha04",
+      "commit": "6ef9ddfc8038d367233afb503e122abd431531d1",
+      "timestamp": 1772121762,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -94491,6 +94617,20 @@
       "tag": "v0.26.0",
       "commit": "98e1ddae2a5c0142e481869e021537d516938cf5",
       "timestamp": 1769269127,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "50ca8009fa6739301639ebc820fe1037eefa835fcfcf2b5a8bb2dedb8ca03d53": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.1/WebviewKiosk_v0.26.1.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 115,
+      "version_name": "0.26.1",
+      "tag": "v0.26.1",
+      "commit": "131821559192e5e9e2042484c0b3b3ede3eb0fe1",
+      "timestamp": 1772122078,
       "reproducible": true,
       "error": null
     }
