@@ -23625,6 +23625,20 @@
       "error": null
     }
   ],
+  "7603753a93a28c29c3b114b8fe0785f155141fcaf93b01d38f375d033bf6aebf": [
+    {
+      "repository": "https://github.com/greenbugx/Hongeet.git",
+      "apk_url": "https://github.com/greenbugx/Hongeet/releases/download/v1.6.0%2B17/hongeet_v1.6.0+17_izzy_arm64-v8a.apk",
+      "appid": "com.dxku.hongit",
+      "version_code": 2017,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0+17",
+      "commit": "789c125d76788a18923a3a3e8e1f458d3aebcd21",
+      "timestamp": 1772298696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "23c99ba5d10f96003bd379d659d60a3b3ee02fb4b19d3b57cede760d9b9cbab1": [
     {
       "repository": "https://github.com/JackEblan/EblanLauncher.git",
@@ -56469,6 +56483,20 @@
       "tag": "v3.3",
       "commit": "c0ca18c48bab63ffff56c160406d156ccca2647d",
       "timestamp": 1744915880,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "294b74d163fc0b867fdc154e6e6147047cd67976a5f9c0d6ecdd752a0daa5363": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v1.1.1/NerdCalci-v1.1.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 111,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "0e84ba440c5be7c15fb0a26d6e1eca2098f0b162",
+      "timestamp": 1772294173,
       "reproducible": true,
       "error": null
     }
