@@ -2531,6 +2531,20 @@
       "error": null
     }
   ],
+  "917201c6837c55257e6f48a350d0da4c25c7743f81034326e6504cc7d1de37d7": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.11.2/Podcini.X-free-arm64-v8a-10.11.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 266,
+      "version_name": "10.11.2",
+      "tag": "v10.11.2",
+      "commit": "7546cf38c5fa4ca660b21cea847ef98e55ecbfbe",
+      "timestamp": 1772290265,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3773,6 +3787,20 @@
       "tag": "4.2.3",
       "commit": "46e15550dc2c40ccf6295a8837b2e88bac8b84a4",
       "timestamp": 1771772810,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0cbbc14092ae12379004ad7ad2297f688fcc405ed173abc8a28138701f7732dc": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.3.1/flicky-4.3.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 851,
+      "version_name": "4.3.1",
+      "tag": "4.3.1",
+      "commit": "56306735bd9620de16db51eb251f6e5358ea45ec",
+      "timestamp": 1772290527,
       "reproducible": true,
       "error": null
     }
@@ -14191,6 +14219,20 @@
       "error": null
     }
   ],
+  "490429f5befacb75ce5f752b46c60e65be797337ba1bac52a1e1f3eec61f5828": [
+    {
+      "repository": "https://github.com/BKK31/budgetlens.git",
+      "apk_url": "https://github.com/BKK31/budgetlens/releases/download/v3.1.2/app-arm64-v8a-release.apk",
+      "appid": "com.budget.lens",
+      "version_code": 2008,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "5dafc3db073d45fa176219172b1e6d1d66aaaa52",
+      "timestamp": 1772308234,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "114343fb8d313e379e08a3bb8373a904ec530134678f17b74e7bd738f4c7823c": [
     {
       "repository": "https://github.com/by-architect/Operator.git",
@@ -14257,6 +14299,20 @@
       "tag": "v12.3.0",
       "commit": "b996476926cb819d6c98eb761affeb7074870998",
       "timestamp": 1769633555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7630ec86a73375d28185a2ce98b3d676207aaaae05765d97a80eb092da51bc2e": [
+    {
+      "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
+      "apk_url": "https://github.com/mi-g-alex/Telegram-Monet/releases/download/v12.4.0/Telegram.Monet.12.4.0.apk",
+      "appid": "com.c3r5b8.telegram_monet",
+      "version_code": 26022818,
+      "version_name": "12.4.0",
+      "tag": "v12.4.0",
+      "commit": "c96bdbdbd9540bb9a9a347f9cde362194a6566fb",
+      "timestamp": 1772309187,
       "reproducible": true,
       "error": null
     }
@@ -17915,6 +17971,20 @@
       "error": null
     }
   ],
+  "bf626512c7b2409eef80d01a6bdcca3c1e02508c47f41c010f4beb0321a134c8": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.7v123/PuppyGit_1.1.4.7v123_release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 123,
+      "version_name": "1.1.4.7",
+      "tag": "1.1.4.7v123",
+      "commit": "44d7b980ebfeee2a2eba4fe6ba688e484fdbf2ea",
+      "timestamp": 1772290861,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -18906,6 +18976,20 @@
       "commit": "ed3f1e19d77770d993e51e5f6520f11a30faa4b8",
       "timestamp": 1771789001,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "bf4100d53ce623534694e08d52727dd459141d0cafccae3353a5448d4954a79f": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.02.28/simplequizfr-release-v2026.02.28.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 5,
+      "version_name": "2026.02.28",
+      "tag": "v2026.02.28",
+      "commit": "72486aac99bd7a6cdf47ff9f965fa009b0e7723d",
+      "timestamp": 1772307556,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -24409,6 +24493,20 @@
       "error": null
     }
   ],
+  "0780c871a0dc5a94ae26941da8a8739d4b6df9a5f1e89725a4881b5e20cf559e": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.12.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 21,
+      "version_name": "4.12.0",
+      "tag": "v4.12.0",
+      "commit": "88c2129cd48b32bc99e64ce86147a8e343d61596",
+      "timestamp": 1772307824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -27833,6 +27931,20 @@
       "tag": "v1.4.2",
       "commit": "4f74e48574e49e473acd69d5ba2dd09e5619b964",
       "timestamp": 1771947969,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f496e71492f3288060c84b5dc894b7642bed4df72b423d70c85aeb49fbde2891": [
+    {
+      "repository": "https://github.com/pintargasper/SmokingTracker.git",
+      "apk_url": "https://github.com/pintargasper/SmokingTracker/releases/download/v1.4.3/smoking-tracker.v1.4.3.apk",
+      "appid": "com.gasperpintar.smokingtracker",
+      "version_code": 10,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "5368954a50d2bf45d9a147ed7082f9361c1d3d56",
+      "timestamp": 1772291465,
       "reproducible": true,
       "error": null
     }
@@ -36229,6 +36341,20 @@
       "error": null
     }
   ],
+  "db5490a7dc856f007d810669c4a370159d81ee24c7ffe39f85731a7ce67d7474": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.0.7/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 33,
+      "version_name": "2.0.7",
+      "tag": "v2.0.7",
+      "commit": "a347c9d52a6545a236bcea33be87bb90a158f99d",
+      "timestamp": 1772308121,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de8c43e411a9b92b29da7fd97b15e54f3bc5f2d7f0beac65d5335f57e3cf6c34": [
     {
       "repository": "https://github.com/KamWithK/AnkiconnectAndroid.git",
@@ -41517,6 +41643,20 @@
       "error": null
     }
   ],
+  "cf2811ec156befffda517c55b1484eb8433b5b5f7289469e4961f795432d625a": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.23.2/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 69,
+      "version_name": "1.23.2",
+      "tag": "v1.23.2",
+      "commit": "348330d7d3936a33dacd79e1117d184afc2a99f8",
+      "timestamp": 1772308426,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -45849,6 +45989,20 @@
       "tag": "v3.0.6",
       "commit": "1e17e4a71a6a4c772dc75aa9d11eae609652d0d5",
       "timestamp": 1770630243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b7bfce238364310675658ff11548f5b2bc586435db17686d567b8380cc34980e": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.0.7/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2012,
+      "version_name": "3.0.7",
+      "tag": "v3.0.7",
+      "commit": "b538bfe22a88a4f5641c964ab138ffa3219f85e1",
+      "timestamp": 1772309414,
       "reproducible": true,
       "error": null
     }
@@ -51351,6 +51505,20 @@
       "error": null
     }
   ],
+  "da8609c97000adaeeef6969f6a336658a39d2befd42d1b345b44d9384c9a543d": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.7.2/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5720,
+      "version_name": "5.7.2",
+      "tag": "5.7.2",
+      "commit": "e8047c0569d445057c643c913d852d9f43045eb3",
+      "timestamp": 1772291658,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -56301,6 +56469,20 @@
       "tag": "v1.71.4",
       "commit": "58ece4f64e52e0f3a319b1bcfc9eacff9276050e",
       "timestamp": 1771336177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bb6645e4a434d40eb8e8d54d41a0813f241ea091fc360e6d49835759e9c8c6b8": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.71.7/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1717,
+      "version_name": "1.71.7-foss",
+      "tag": "v1.71.7",
+      "commit": "e8da6c7109910b418068b0fa6ebb38bea72db9df",
+      "timestamp": 1772292216,
       "reproducible": true,
       "error": null
     }
@@ -75345,6 +75527,20 @@
       "error": null
     }
   ],
+  "3fd06aa5c634ed5c30defb96b2d970500066059884c4cc8aaf8f4186fc9594d1": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.12/SMS2Email-v1.1.12-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 25,
+      "version_name": "1.1.12",
+      "tag": "v1.1.12",
+      "commit": "2d81bb7338f4345687baa7c97bad5f49588991ce",
+      "timestamp": 1772292398,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -92227,6 +92423,20 @@
       "error": null
     }
   ],
+  "31576531638b507181992f68ed2b1e703fde4b264f0eb73a902f627e4a30c0f2": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.7.0/image-toolbox-3.7.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 211,
+      "version_name": "3.7.0",
+      "tag": "3.7.0",
+      "commit": "8d8e6f8213ee6953e4c7c5c35f8102e10e42469f",
+      "timestamp": 1772310384,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8edbbc20a8dcaceaa3fe4117b11466f522d2130a6b47c61ad10de92cc09af32e": [
     {
       "repository": "https://github.com/Wohlstand/ADLMIDI-Player-Java.git",
@@ -93805,6 +94015,34 @@
       "tag": "4.0.0-alpha04",
       "commit": "6ef9ddfc8038d367233afb503e122abd431531d1",
       "timestamp": 1772121762,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ae3f7082923034de18c1bd5ae88462a363d77b9359d0734a5d539bab02923791": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha05/LockscreenWidgets_4.0.0-alpha05-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 178,
+      "version_name": "4.0.0-alpha05",
+      "tag": "4.0.0-alpha05",
+      "commit": "bff2344853c6341de80c14ea35cde06cb7274dcf",
+      "timestamp": 1772293180,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e3c3d0c316b5a83a4ea388f16a2f2e33ca2fdd1d1adf7844483b131b3d80339": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha06/LockscreenWidgets_4.0.0-alpha06-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 179,
+      "version_name": "4.0.0-alpha06",
+      "tag": "4.0.0-alpha06",
+      "commit": "5f8dafd35efc8ec0fef302296a3366ad52d31e9d",
+      "timestamp": 1772314062,
       "reproducible": true,
       "error": null
     }
