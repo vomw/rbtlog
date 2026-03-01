@@ -4561,6 +4561,20 @@
       "error": null
     }
   ],
+  "7a4ab6b9e23e700d2f8b8c73c79ba4e885ab2544e7d8c25ecdd8226d7729706e": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.8/mpvEx-fdroid-v1.2.8.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1282,
+      "version_name": "1.2.8-fdroid",
+      "tag": "v1.2.8",
+      "commit": "7b08aea7763daadd53124b3f2cef715618ea7b2f",
+      "timestamp": 1772403065,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -14247,6 +14261,20 @@
       "error": null
     }
   ],
+  "8a017840eefae0b513656db6c25c9f2a8841ba461ef0e38c14e45abb898ca998": [
+    {
+      "repository": "https://github.com/BKK31/budgetlens.git",
+      "apk_url": "https://github.com/BKK31/budgetlens/releases/download/v3.2.0/app-arm64-v8a-release.apk",
+      "appid": "com.budget.lens",
+      "version_code": 2009,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "864c7dee62e8516da7e5e6c4b25fdbe2f4c8e7f8",
+      "timestamp": 1772395493,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "114343fb8d313e379e08a3bb8373a904ec530134678f17b74e7bd738f4c7823c": [
     {
       "repository": "https://github.com/by-architect/Operator.git",
@@ -16809,6 +16837,20 @@
       "error": null
     }
   ],
+  "b3b04eca8311678f6f352dd89fed7a741b1e70b96f91cd0a637a0c4f7ea76715": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.02.1198/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1198,
+      "version_name": "2026.02.1198",
+      "tag": "2026.02.1198",
+      "commit": "ab7da9d2d7a2fd26f6e5248ae72d1722c1bd319d",
+      "timestamp": 1772376693,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -19007,6 +19049,20 @@
       "error": null
     }
   ],
+  "fd96d0ccc75e56b57f52d49d6925b3e70a0f8f3bff254d312f8a31f710c37bb6": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.03.01/simplequizfr-release-v2026.03.01.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 6,
+      "version_name": "2026.03.01",
+      "tag": "v2026.03.01",
+      "commit": "14add806464e95d7fe9852620493de357232e9c4",
+      "timestamp": 1772377305,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0a08c557dd77c385b4f41a31b23d1188da19fe52f5f7baf84695f758fb077fb2": [
     {
       "repository": "https://github.com/Red-LinuxClick/android.git",
@@ -19479,6 +19535,20 @@
       "tag": "v1.4",
       "commit": "41e5adf687461e8400d6741c7b7a82917a38e8dc",
       "timestamp": 1753040302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13348d4bfd169640b0945e00f9a728910c21dae5ab94c1ddea1e75702d4e329c": [
+    {
+      "repository": "https://github.com/darusc/Mousedroid.git",
+      "apk_url": "https://github.com/darusc/Mousedroid/releases/download/v1.5-beta/Mousedroid.apk",
+      "appid": "com.darusc.mousedroid",
+      "version_code": 4,
+      "version_name": "1.5",
+      "tag": "v1.5-beta",
+      "commit": "4d29a9f66e43038564c910ebfe50f58bba876680",
+      "timestamp": 1772398849,
       "reproducible": true,
       "error": null
     }
@@ -27875,6 +27945,20 @@
       "tag": "v1.22.7",
       "commit": "7e5431700e87b65153f4602411d20b6a4462a8a7",
       "timestamp": 1771773826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fbadd62754fb78f623ef3565d0a6c428ac671c6c7ba7f8c94eca91775eeaa524": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.8/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 160,
+      "version_name": "1.22.8",
+      "tag": "v1.22.8",
+      "commit": "bb10d955763d7eecede4c1351e2e44f227688835",
+      "timestamp": 1772391187,
       "reproducible": true,
       "error": null
     }
@@ -46021,6 +46105,20 @@
       "error": null
     }
   ],
+  "845fdd23c30478793735ff77bd3bf4447b40ffc43633f2da4aba0762def5a756": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.0.8/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2013,
+      "version_name": "3.0.8",
+      "tag": "v3.0.8",
+      "commit": "c6514a90d8a59d04e4d2d35537071199be1c2d4a",
+      "timestamp": 1772378630,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da4ad5504e424cea84b91f672513b7417d07dd8a0087cd78f2d3d2db88b3f610": [
     {
       "repository": "https://gitlab.com/narektor/batt.git",
@@ -52735,6 +52833,20 @@
       "error": null
     }
   ],
+  "f1ed028325d396daec69eb6077c63f1c8e866fd0487f505be0eaeb234b654408": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.22/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2025,
+      "version_name": "1.0.22",
+      "tag": "V1.0.22",
+      "commit": "3d5b744ed2c175a8e395149f2646a081c23f3189",
+      "timestamp": 1772379196,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -53011,6 +53123,20 @@
       "tag": "v1.9",
       "commit": "b6200abd61909bd5797aab2bbae0b2d019b7fbf8",
       "timestamp": 1766693662,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b04f769a470924dfe2baa0e767280af17d749f35ed448d38842bb81fe87c7c2b": [
+    {
+      "repository": "https://github.com/SlaVcE14/JsonList.git",
+      "apk_url": "https://github.com/SJ14Apps/JsonList/releases/download/v1.10/JsonList_1.10.apk",
+      "appid": "com.sjapps.jsonlist",
+      "version_code": 1000,
+      "version_name": "1.10",
+      "tag": "v1.10",
+      "commit": "2a9c930505f1f129c5e24139779da3b0f37f7d72",
+      "timestamp": 1772397141,
       "reproducible": true,
       "error": null
     }
@@ -54961,6 +55087,20 @@
       "error": null
     }
   ],
+  "83e6b1ad0a7a9adb2bcdb6916fd29c7cbdc194d009619f320507112a7740384f": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.8/call-limiter-0.3.8.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 9,
+      "version_name": "0.3.8",
+      "tag": "0.3.8",
+      "commit": "d33e51a9b9432dcc5b9356eb339b20008988fd0d",
+      "timestamp": 1772379734,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ec1f2388c8dcea14159524b1bbd4c81a7d7830bab73fbe4efbc5e39d36e7b56": [
     {
       "repository": "https://github.com/0xf4b1/motionmate.git",
@@ -56693,6 +56833,20 @@
       "tag": "v1.1.1",
       "commit": "0e84ba440c5be7c15fb0a26d6e1eca2098f0b162",
       "timestamp": 1772294173,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "13a35e0149e60daa3cea1c8e94b520ce3b55b7eebd7556bea33462799ab64e26": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v1.2.0/NerdCalci-v1.2.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 120,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "4582035eeda6cc571fe7f32da23362dc04272cd8",
+      "timestamp": 1772379798,
       "reproducible": true,
       "error": null
     }
@@ -62459,6 +62613,20 @@
       "error": null
     }
   ],
+  "e056e463010c93fe988e9838f633db188a5333e34cddf24887cb182fd2db7b92": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.0.6/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20060,
+      "version_name": "2.0.6",
+      "tag": "v2.0.6",
+      "commit": "4523ce7a9ecdb803b18fe3795467a77f398a3d3a",
+      "timestamp": 1772397414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
     {
       "repository": "https://github.com/Tetr4/CompassTile.git",
@@ -64699,6 +64867,20 @@
       "error": null
     }
   ],
+  "3550005b4f6999727bf0d9ce965de4dcbfbbde4eeca06f5b8c8d146e0ec52925": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v1.10.0/simple-notes-sync-v1.10.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 24,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "0962a01a5a1e8461bea5d809ccdd5c3f3a3253c7",
+      "timestamp": 1772398020,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -66849,6 +67031,20 @@
       "tag": "v3.0.4",
       "commit": "a3fe77cf4b03a246d403b9e5885c4fdd91fd2a96",
       "timestamp": 1769527623,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21e6badcb6373ed56a455410067cedc0c5493cab68a7ef33f4bc1e922555cb91": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/aload0/Reef/releases/download/v4.0.0/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 400,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "81d953252517cf4074fd05039cf2f8d7345e1336",
+      "timestamp": 1772398475,
       "reproducible": true,
       "error": null
     }
@@ -72045,6 +72241,20 @@
       "error": null
     }
   ],
+  "43cb9e0f5bf7e407d47a23302abf6ce16babe4893f06165eeaa107e15b5b161a": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/Helium314/HeliBoard/releases/download/v3.7/HeliBoard_3.7-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3701,
+      "version_name": "3.7",
+      "tag": "v3.7",
+      "commit": "267ffbf9523581d94b99ff7901b0dcf92e3ce186",
+      "timestamp": 1772380018,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ea62905803e60c5723c9f2d4ab6368f894b3f50f06f456935185306ee4eb67e7": [
     {
       "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
@@ -75317,6 +75527,20 @@
       "error": null
     }
   ],
+  "5a646d366905c0be2033aa270b008b3ef79fda99fbc95988445b0f430283a1ed": [
+    {
+      "repository": "https://github.com/samolego/Canta.git",
+      "apk_url": "https://github.com/samolego/Canta/releases/download/v3.2.2/app-release.apk",
+      "appid": "io.github.samolego.canta",
+      "version_code": 225,
+      "version_name": "3.2.2",
+      "tag": "v3.2.2",
+      "commit": "6c35181143c0af36a0a61badf4ed5cec550a7772",
+      "timestamp": 1772380453,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cbee7872042ec8dd628bd24963c352252f2c7d71afdd71fb6e600231ef8e81d8": [
     {
       "repository": "https://github.com/scovillo/playondlna.git",
@@ -78341,6 +78565,20 @@
       "error": null
     }
   ],
+  "e7cd91040f6d7cf91fd7d6966e8521f7ada6da50defcfc08a12282442b14ecb7": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.0.0/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 130,
+      "version_name": "2.0.0-izzy",
+      "tag": "v2.0.0",
+      "commit": "61f12634b5198db450600db8d484ac310b638280",
+      "timestamp": 1772392911,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -79163,6 +79401,20 @@
       "tag": "2.2.2",
       "commit": "b9f66b84b51f68392861e47f832e05909674fe5c",
       "timestamp": 1765742038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8a9f34b3f709c6d546c4ef9434e133a937aed42a1a6a38d9e8aeeaf7ddd4619f": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/3.0.0/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 15,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "6a5b772ddf063cac8159418eba65f4e06205664c",
+      "timestamp": 1772391672,
       "reproducible": true,
       "error": null
     }
@@ -82061,6 +82313,20 @@
       "tag": "v2.5.4",
       "commit": "94f8f6b943e0f64a267c9871aac3ce66de42d8b8",
       "timestamp": 1771617530,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a2e94520028836751b8cbdb861e9b8b0ee62063239c84817446335848bd5015b": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.6.0/DragonLauncher-v2.6.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 42,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "1073986be578fc368ae3a03504845317d3e31ebd",
+      "timestamp": 1772403785,
       "reproducible": true,
       "error": null
     }
@@ -85393,6 +85659,20 @@
       "tag": "v1.6.0",
       "commit": "223a0a4fb60d0d68e2bd0c388a7f1433f6f9d5cb",
       "timestamp": 1771778708,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c7d409bc4fc4e83b67b96a9aa34a163c7387dce756cfc0f8b7862086c94a9388": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.6.1/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 16,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "644a73ebf34c37378bdcdf2df074971736e53f8f",
+      "timestamp": 1772400150,
       "reproducible": true,
       "error": null
     }
@@ -93319,6 +93599,20 @@
       "error": null
     }
   ],
+  "cd1be462503db0a330947f3dee631bd0b8cb215a521f1873a445be665e76708c": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.0/mindwtr-0.7.0-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 43,
+      "version_name": "0.7.0",
+      "tag": "v0.7.0",
+      "commit": "371f411c4136f452af7e6068cdf42fd38c7ec407",
+      "timestamp": 1772381427,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -94057,6 +94351,34 @@
       "tag": "4.0.0-alpha06",
       "commit": "5f8dafd35efc8ec0fef302296a3366ad52d31e9d",
       "timestamp": 1772314062,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e5b5885163586a0a5481a29df6dcb3c17b98d2cb9cecc782be9f2065e3c4565": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha08/LockscreenWidgets_4.0.0-alpha08-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 181,
+      "version_name": "4.0.0-alpha08",
+      "tag": "4.0.0-alpha08",
+      "commit": "ae1ae3e87b40bdd18ee629022c9ce3333ad02c00",
+      "timestamp": 1772382055,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "850d91e555c8952c089bc11c389c25f7ff9939380795a670556d77dc2ce9bceb": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha09/LockscreenWidgets_4.0.0-alpha09-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 182,
+      "version_name": "4.0.0-alpha09",
+      "tag": "4.0.0-alpha09",
+      "commit": "d315bcdf443e7cafa7fb35ce9c867da7defe3f33",
+      "timestamp": 1772400517,
       "reproducible": true,
       "error": null
     }
