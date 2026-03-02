@@ -3273,6 +3273,34 @@
       "error": null
     }
   ],
+  "1b572993f0a566213a24ca3e0ec07b2ac2de232396e64e4c2879689da51ad018": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.7.2/cclauncher-v10.7.2-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1250,
+      "version_name": "v10.7.2",
+      "tag": "v10.7.2",
+      "commit": "5204330e818708f37e3adc4687f94bf0eb7f5168",
+      "timestamp": 1772463080,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "384b0137b4d73fb8be08bf03a1908cb46bf9d69b45e4d956e055ab7a965531b5": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.7.3/cclauncher-v10.7.3-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1260,
+      "version_name": "v10.7.3",
+      "tag": "v10.7.3",
+      "commit": "75bcf1d6696bebf2150560abb7e605bedca81e8c",
+      "timestamp": 1772480593,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -11015,6 +11043,20 @@
       "error": null
     }
   ],
+  "d1548bf337ead512e9091c2c430e2469a39d3249402b1a231e4621501a692783": [
+    {
+      "repository": "https://github.com/AKS-Labs/CloudGallery.git",
+      "apk_url": "https://github.com/AKS-Labs/CloudGallery/releases/download/v0.6/app-release.apk",
+      "appid": "com.akslabs.cloudgallery",
+      "version_code": 6,
+      "version_name": "0.6",
+      "tag": "v0.6",
+      "commit": "87ecddbed6699981d9f9ff4a1a47d08673b51d8c",
+      "timestamp": 1772463309,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3382ba776d0256611df9db3209ab7e4dad79c15955c731b462b8dc65bd612a28": [
     {
       "repository": "https://github.com/farfromrefug/OSS-Dict.git",
@@ -12047,6 +12089,20 @@
       "tag": "v1.0.4",
       "commit": "c232b3057dd300896cd165e8c58ed426572b3502",
       "timestamp": 1771167858,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5369759ba995feb240c004ee57460efe834d51ee4f3b4a17c001eb44ef963577": [
+    {
+      "repository": "https://github.com/antoniegil/Astronia.git",
+      "apk_url": "https://github.com/antoniegil/Astronia/releases/download/v1.0.5/Astronia-1.0.5-universal-release.apk",
+      "appid": "com.antoniegil.astronia",
+      "version_code": 10500,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "610d4ad734cd727efc20693f8894b49becf01cbf",
+      "timestamp": 1772463496,
       "reproducible": true,
       "error": null
     }
@@ -19091,6 +19147,20 @@
       "error": null
     }
   ],
+  "8286f56237b17c6603339138e0c83a0cccd7375ceee6213d0ce68af981dffcf5": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android/-/raw/a5fc623a74b341ebeff34b1b45065deaa82fc84e/compiled/WiFiAudioStreaming-0.2.0-beta.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 2,
+      "version_name": "0.2.0-beta",
+      "tag": "v0.2.0-beta",
+      "commit": "a5fc623a74b341ebeff34b1b45065deaa82fc84e",
+      "timestamp": 1772486681,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "91593d060b428dfd34424b3d2a164870ac262af06e19080962691b5becab335a": [
     {
       "repository": "https://github.com/cworld1/notie.git",
@@ -24325,6 +24395,20 @@
       "error": null
     }
   ],
+  "e90c2cf3bb1d50745cb89cb6233e418cd9140bbaa9b382fa0095978cd56f004e": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.4.6-alpha/YagniLauncher-v0.4.6-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 46,
+      "version_name": "0.4.6-alpha",
+      "tag": "v0.4.6-alpha",
+      "commit": "e0fa2019347dab30e8956ed7775e09bf4f670dae",
+      "timestamp": 1772463622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -24601,6 +24685,20 @@
       "tag": "v4.12.0",
       "commit": "88c2129cd48b32bc99e64ce86147a8e343d61596",
       "timestamp": 1772307824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9c1918a066d167946011e8f403896957a51fe0a519a92ca80ce57c76b485d346": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.12.4/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 22,
+      "version_name": "4.12.4",
+      "tag": "v4.12.4",
+      "commit": "3086a8b9f9148537b7f8a5c8f3e135228db19a2a",
+      "timestamp": 1772463854,
       "reproducible": true,
       "error": null
     }
@@ -25259,6 +25357,20 @@
       "tag": "v2.1.9-78",
       "commit": "9f265ee3a6a30d98514d08fba48184f4d159c925",
       "timestamp": 1772032354,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "34bd7ff3e367f16cf36a299adb1872da34a5ed8934514d3c73687bf8633ccdc4": [
+    {
+      "repository": "https://github.com/F0x1d/LogFox.git",
+      "apk_url": "https://github.com/F0x1d/LogFox/releases/download/v2.1.10-79/LogFox-2.1.10-release.apk",
+      "appid": "com.f0x1d.logfox",
+      "version_code": 79,
+      "version_name": "2.1.10",
+      "tag": "v2.1.10-79",
+      "commit": "81cdb54996cb493b1c8d8d96e3b958b9776becea",
+      "timestamp": 1772464027,
       "reproducible": true,
       "error": null
     }
@@ -33035,6 +33147,20 @@
       "tag": "9.8.4",
       "commit": "8e7e08efa66477ba9c333367c1466717628b8143",
       "timestamp": 1772205278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ae681c809378e4474a4fb3134dfbec40239b64e4a6931b95f11b4db8159f058f": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.8.5/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2161,
+      "version_name": "9.8.5",
+      "tag": "9.8.5",
+      "commit": "8da62d2c9f90ea85f05d89e85c824359d6b1f889",
+      "timestamp": 1772464320,
       "reproducible": true,
       "error": null
     }
@@ -44355,6 +44481,20 @@
       "error": null
     }
   ],
+  "606e6476a7885c22f75aa4598c0bf09c15e9436749bfd1d60af47a458086e3c6": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Coffee.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Coffee/releases/download/v1.2.0/app-release.apk",
+      "appid": "com.openappslabs.coffee",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "4c35df47fc6cbfb55c16f5647fa199c695024d4b",
+      "timestamp": 1772464867,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6c2e9237cbdfaccb7b0f8bee2e492a4152f3e1bae194097ce50d57fe472fee61": [
     {
       "repository": "https://github.com/OpenAppsLabs/5G.git",
@@ -52861,6 +53001,20 @@
       "error": null
     }
   ],
+  "bdcbec1ca243abf59d0c643dfe95bcdc357d34ee8a3f25e196cbe2bcaf22c1db": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/v1.0.24/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2027,
+      "version_name": "1.0.24",
+      "tag": "v1.0.24",
+      "commit": "dcee30787decb8aaaf96471d56295c7a42472873",
+      "timestamp": 1772485184,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -56861,6 +57015,20 @@
       "tag": "v1.2.0",
       "commit": "4582035eeda6cc571fe7f32da23362dc04272cd8",
       "timestamp": 1772379798,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fb9f16cd18aa39fd7a8a29f408c4ec6337c260130cde8d226305ede0c6bde85c": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v1.5.1/NerdCalci-v1.5.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 151,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "a1a3a3d198827371e4daf81a7015052494c03faa",
+      "timestamp": 1772465067,
       "reproducible": true,
       "error": null
     }
@@ -71289,6 +71457,20 @@
       "error": null
     }
   ],
+  "cdb1f49022830ee9d9bc5c64cde875f39a7144f442a4ec478cbb574a153ce93a": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.9.0/phdp-v1.9.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10207,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "aa085513b6b387295dbba4de02d6164be72e63d5",
+      "timestamp": 1772465219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
     {
       "repository": "https://github.com/hxreborn/remember-my-sort.git",
@@ -73549,6 +73731,20 @@
       "tag": "1.7.2",
       "commit": "20dab494337e4f51bee31443c4ef0699d1047ba6",
       "timestamp": 1770394554,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b1e9f68934bb67a933b4b66669cdf8a5645722d1434ba319fd3b7f3778625bd8": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.8.0/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 16,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "0b626e7a277dfaf533520ebacbd5ab7a83b6d201",
+      "timestamp": 1772481793,
       "reproducible": true,
       "error": null
     }
@@ -81995,6 +82191,20 @@
       "error": null
     }
   ],
+  "51c2f5d367ac033ec7f4ed735c1b01ae1ee396ae8178333ad668bf7fe8dc2ea7": [
+    {
+      "repository": "https://codeberg.org/minardil/laundrynotes.git",
+      "apk_url": "https://codeberg.org/minardil/laundrynotes/releases/download/v2.1/app-release.apk",
+      "appid": "org.eagsoftware.laundrynotes",
+      "version_code": 4,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "b7e773443457b0ce2dbb2c0a35efb0eb946d0280",
+      "timestamp": 1772482325,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8adaa0c6f6f3408b21b990f36abe75f21777cc37ce374aa5edc0075e1cbecc4f": [
     {
       "repository": "https://codeberg.org/minardil/PhotoSphereGallery.git",
@@ -82355,6 +82565,20 @@
       "tag": "v2.6.0",
       "commit": "1073986be578fc368ae3a03504845317d3e31ebd",
       "timestamp": 1772403785,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e06caaed87cda2291b44585af5212f66d1a08f43878e0701a668cf369ebe2fb": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.6.1/DragonLauncher-v2.6.1.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 43,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "1894a5c7f2a2055af7c6a5763904659f2e890937",
+      "timestamp": 1772465542,
       "reproducible": true,
       "error": null
     }
@@ -88361,6 +88585,20 @@
       "tag": "v2.5.5",
       "commit": "6237c1eb6c30594817d00e48d77b09d08c0e977c",
       "timestamp": 1766952698,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8d63dc2e832df94a164bfb307bfb8eb69723de079a87083d4039620694406c10": [
+    {
+      "repository": "https://github.com/owntracks/android.git",
+      "apk_url": "https://github.com/owntracks/android/releases/download/v2.5.6/owntracks-release-oss-420506008.apk",
+      "appid": "org.owntracks.android",
+      "version_code": 420506008,
+      "version_name": "2.5.6",
+      "tag": "v2.5.6",
+      "commit": "189cdd01986ffce16cdf31f74e334eaea0d19462",
+      "timestamp": 1772482811,
       "reproducible": true,
       "error": null
     }
@@ -94411,6 +94649,20 @@
       "error": null
     }
   ],
+  "b0a591268fbe085dd7a1c7b1987d98acf048efad18ba8502455a27792c37a833": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha10/LockscreenWidgets_4.0.0-alpha10-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 183,
+      "version_name": "4.0.0-alpha10",
+      "tag": "4.0.0-alpha10",
+      "commit": "a7843e20609a9a0ec2826b8dbaf8cd3dd96a7c42",
+      "timestamp": 1772483851,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -95531,6 +95783,20 @@
       "error": null
     }
   ],
+  "805c002f09b48188daf243b2c59749aaf015f4e0752977af51d22fb347850da7": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.3/WebviewKiosk_v0.26.3.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 117,
+      "version_name": "0.26.3",
+      "tag": "v0.26.3",
+      "commit": "02571ece1c8d1a1652e7d7101927463c196f54e6",
+      "timestamp": 1772466860,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8797553a10932e04c5dd7a97075e247ec4c9150534806f8486c44d4d042b2943": [
     {
       "repository": "https://github.com/v4lpt/TPC.git",
@@ -96423,6 +96689,20 @@
       "tag": "2.3.1",
       "commit": "506fb627e0daa0f3688eae0e3629a0ecf07f9f26",
       "timestamp": 1770947273,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fff3bf4f947816c14a8a14e43376e7682a645521233dd793666759452359a62e": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.3.2/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 59,
+      "version_name": "2.3.2",
+      "tag": "2.3.2",
+      "commit": "99c0b57cda35a70575a6f1c110217c6e277957a3",
+      "timestamp": 1772485021,
       "reproducible": true,
       "error": null
     }

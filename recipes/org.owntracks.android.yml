@@ -117,3 +117,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.5.6
+    apks:
+      - apk_pattern: owntracks-release-oss-.*\.apk
+        apk_url: https://github.com/owntracks/android/releases/download/v2.5.6/owntracks-release-oss-420506008.apk
+        build:
+          - sed -r 's/(versionName.) 2.5.5/\1 2.5.6/ ; s/(versionCode.) 420505020/\1 420506008/' -i latest-version.yaml
+          - export VERSION_CODE="$( grep versionCode latest-version.yaml | awk '{print $NF}' )"
+          - cd project
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/ossRelease/compileOssReleaseArtProfile/baseline.prof
+          - PROF_SHA1=b7aba04adc647cbda95a26589cd9b4a2351acc7b
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleOssRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/oss/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
