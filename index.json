@@ -4603,6 +4603,20 @@
       "error": null
     }
   ],
+  "fb8a88553ae7c7faab072494bb6c044f6536e57d1aa319239a1f8051f188f840": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.8-hotfix/mpvEx-fdroid-v1.2.8-hotfix.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1282,
+      "version_name": "1.2.8-fdroid",
+      "tag": "v1.2.8-hotfix",
+      "commit": "8661155154776a58f55b585239f9cf1ebaeec9f9",
+      "timestamp": 1772561909,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -10143,6 +10157,20 @@
       "tag": "v4.2.332.902",
       "commit": "64935e30d08d895160e8a5117891be01ab091323",
       "timestamp": 1772204744,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f41a09f55b32e3fbf908f0ae0523e7514c979a3f99fcf7687ebf1223f345f9f8": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.2.334.905-stable/Rhythm-4.2.334.905-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 42334905,
+      "version_name": "4.2.334.905-gh",
+      "tag": "v4.2.334.905-stable",
+      "commit": "de78da739cd5fcd764d0e5704f0d5a01c8674893",
+      "timestamp": 1772532916,
       "reproducible": true,
       "error": null
     }
@@ -40365,6 +40393,20 @@
       "tag": "v2.0",
       "commit": "e29d11edaa5600dcb7ca736f90d6afff4a2a01a7",
       "timestamp": 1743347816,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c4bd83e19787fe2a58aa2537abf90ebfdd1ad7b7a2b9843ad185fe8c43b24a80": [
+    {
+      "repository": "https://github.com/potatameister/MetaPurge.git",
+      "apk_url": "https://github.com/potatameister/MetaPurge/releases/download/v1.0/MetaPurge-1.0.apk",
+      "appid": "com.metapurge.app",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "72e846cf2a6211609fd21f4289de3e5026ae3a59",
+      "timestamp": 1772548040,
       "reproducible": true,
       "error": null
     }
