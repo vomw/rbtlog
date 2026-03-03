@@ -23681,6 +23681,20 @@
       "error": null
     }
   ],
+  "4a59f3c7674b490d72d2fed1197946b75aae0b4f24bd46753cefc3a034b6f67e": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.7.1/MyQuran-v1.7.1-arm64-v8a-183-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 183,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "b1c845705525a181123c45c74dc7f190edf6c571",
+      "timestamp": 1772550177,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -35207,6 +35221,20 @@
       "error": null
     }
   ],
+  "cbffc901bf097bb8bcb17bfdc9afc468d44435f11cf5a3158847929a5fc839b2": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta17/librefind-v1.0.0-beta17-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 100010,
+      "version_name": "1.0.0-beta17",
+      "tag": "v1.0.0-beta17",
+      "commit": "a536764930a86e8d8bda3d3ec6d8295320b38693",
+      "timestamp": 1772569141,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5edf022b1a4c893cec0924d45c20894f954f762ac8a5eb9eef35e287a21d4a87": [
     {
       "repository": "https://github.com/jksalcedo/PassVault.git",
@@ -39651,6 +39679,20 @@
       "tag": "v0.1.4_20251221",
       "commit": "fa2a19aed72772102ce9eda7a2fd7f23f49d2aea",
       "timestamp": 1770562763,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5dcd4d9a88564b2818f16b0cf75957cfa1c5f96e7e2e0168747af4d7fdcb5ade": [
+    {
+      "repository": "https://github.com/Masterisk-F/StationAccessSupporter.git",
+      "apk_url": "https://github.com/Masterisk-F/StationAccessSupporter/releases/download/v0.1.5-v20260227/app-arm64-v8a-release.apk",
+      "appid": "com.masterisk_f.accesssupporter",
+      "version_code": 6,
+      "version_name": "0.1.5-v20260227",
+      "tag": "v0.1.5-v20260227",
+      "commit": "7c892b4778a0ba51dd820897ae84f95f20c16467",
+      "timestamp": 1772550798,
       "reproducible": true,
       "error": null
     }
@@ -51827,6 +51869,20 @@
       "error": null
     }
   ],
+  "83ba678f4824e3eefe3c90bd446a441761cfe9cb1be68d0be3da0eff938e39fc": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.7.3/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5730,
+      "version_name": "5.7.3",
+      "tag": "5.7.3",
+      "commit": "a4a63ca3adb6a9c3cbc8b67d74e9ad93ab1a0da6",
+      "timestamp": 1772550934,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -57075,6 +57131,20 @@
       "error": null
     }
   ],
+  "5a3fe9378c47edd3302301b7dd12f4754d4fcd9e703970a390779cc9166301f8": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v1.6.0/NerdCalci-v1.6.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 160,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "624c755ecb2fe474f03a87d3224d1bbc2a073c39",
+      "timestamp": 1772566429,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -58901,6 +58971,20 @@
       "tag": "0.0.4",
       "commit": "25e2f2cead48ab3cc57ee3347276be4bb6b21053",
       "timestamp": 1770309511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48e9e5dea171aba004b7bf13302933ed1daf4496185f0053a99fcc7726d473df": [
+    {
+      "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
+      "apk_url": "https://codeberg.org/ItsZariep/OpenNavBar/releases/download/0.0.5/opennavbar-0.0.5.apk",
+      "appid": "com.zariep.opennavbar",
+      "version_code": 5,
+      "version_name": "0.0.5",
+      "tag": "0.0.5",
+      "commit": "53f05d0121bfba2610e8eae4de4dc972b34213f8",
+      "timestamp": 1772561579,
       "reproducible": true,
       "error": null
     }
@@ -66575,6 +66659,20 @@
       "error": null
     }
   ],
+  "b2d40c6f447cb3bfadeac1c1eccb8727c568bd6d41b6cd762185922a3af9e6ae": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/2.7.0/photok-2.7.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 58,
+      "version_name": "2.7.0",
+      "tag": "2.7.0",
+      "commit": "515c42e6b3ab93dd9204a5ffc687b42640b91255",
+      "timestamp": 1772551536,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -70053,6 +70151,20 @@
       "tag": "v1.6.2-rc1",
       "commit": "d98992fac23d6a40852493e06f55485d0632d959",
       "timestamp": 1772041038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "92e9e92311166b25f451770bd668c49e35a733199f70688b9014914eca57cd75": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.6.3-rc0/eu.darken.sdmse-v1.6.3-rc0-10603000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10603000,
+      "version_name": "1.6.3-rc0",
+      "tag": "v1.6.3-rc0",
+      "commit": "f7ce9f5739598ddb2b16fca106331ddbab149f30",
+      "timestamp": 1772551724,
       "reproducible": true,
       "error": null
     }
@@ -82621,6 +82733,20 @@
       "tag": "v2.6.1",
       "commit": "1894a5c7f2a2055af7c6a5763904659f2e890937",
       "timestamp": 1772465542,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5186008a0959d6d8a8a63d824617941077c1050ef5dfb3dd286cdfce7724887d": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.6.2/DragonLauncher-v2.6.2.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 44,
+      "version_name": "2.6.2",
+      "tag": "v2.6.2",
+      "commit": "d0cf5210a2337415505ec64848b441a317f18f38",
+      "timestamp": 1772566771,
       "reproducible": true,
       "error": null
     }
