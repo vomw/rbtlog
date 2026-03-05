@@ -13869,6 +13869,20 @@
       "error": null
     }
   ],
+  "30d12e780fbdf80df6abb5471fd8247cd63d9ae0a9844488aee6ce9549da52b0": [
+    {
+      "repository": "https://github.com/blankdotdev/sidestep.git",
+      "apk_url": "https://github.com/blankdotdev/sidestep/releases/download/v1.2.3/app-release.apk",
+      "appid": "com.blankdev.sidestep",
+      "version_code": 15,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "b81fd178d4edf7056d8c5f0aecc4bb9f88c8d1e0",
+      "timestamp": 1772722313,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -17240,6 +17254,20 @@
       "commit": "68db99c74b74f0cde9285ec0f3ba571a97b3c326",
       "timestamp": 1770389957,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "fb4b095773dd81b1bb0b3882630cb54948dd04802bb0416b2a80c4efa603e939": [
+    {
+      "repository": "https://github.com/shrimqy/Sefirah-Android.git",
+      "apk_url": "https://github.com/shrimqy/Sefirah-Android/releases/download/v2.4.0/sefirah-2.4.0.apk",
+      "appid": "com.castle.sefirah",
+      "version_code": 27,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "45b9dd9bab5bdac1b9c06e98ff59a5fa9aca0a0f",
+      "timestamp": 1772738741,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -23723,6 +23751,34 @@
       "error": null
     }
   ],
+  "12f2550aa9b2d26990c181f81a0f8ff09f98f4de67809d1a5f90de14d39c2fc5": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.7.2/MyQuran-v1.7.2-arm64-v8a-193-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 193,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "33e6681b38c212f2b1ecb709c60f88bb8744f97c",
+      "timestamp": 1772722470,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b039d1b76ad0ac55421f60c7ec37136ca389e86c1b7a46dad1e3bc89c38d27d1": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.7.3/MyQuran-v1.7.3-arm64-v8a-203-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 203,
+      "version_name": "1.7.3",
+      "tag": "v1.7.3",
+      "commit": "939dfc1082d36e3448e886b6c034edf80b9714ca",
+      "timestamp": 1772739498,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -26447,6 +26503,20 @@
       "tag": "v1.38.2",
       "commit": "1f8527cd59866388a9476d9b4e6ae78a25219a59",
       "timestamp": 1772636277,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e32e9b3210fa8a2248d6ffe127e963e0eeb8bba5143f3a3c55b78f7bc26c390": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.38.3/com.fibelatti.photowidget-v1.38.3-1380300-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1380300,
+      "version_name": "1.38.3",
+      "tag": "v1.38.3",
+      "commit": "00690133e7b93bc516bd5532dc8ef0022536e1d1",
+      "timestamp": 1772723003,
       "reproducible": true,
       "error": null
     }
@@ -45265,6 +45335,20 @@
       "error": null
     }
   ],
+  "4277474dc04ca33327643cf268300fcc0869fa0c99f68a2bdc9c7ec8686d88e2": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.5.1/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1016,
+      "version_name": "2.5.1",
+      "tag": "v2.5.1",
+      "commit": "52907806b7e0e9c48c0ab6eea08c5ff0ba921442",
+      "timestamp": 1772723327,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -46255,6 +46339,20 @@
       "tag": "v7.8.1",
       "commit": "271c2ba087899792cb08ca535f4eeb0a225413c4",
       "timestamp": 1771688786,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a502a6815e5730b17b9321e7b9481797891d5acac34e5a69412192309d7a314a": [
+    {
+      "repository": "https://github.com/Crustack/NotallyX.git",
+      "apk_url": "https://github.com/Crustack/NotallyX/releases/download/v7.9.0/NotallyX-7.9.0.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 7900,
+      "version_name": "7.9.0",
+      "tag": "v7.9.0",
+      "commit": "cd9c8970c66d8720b9550f8620299cb8ff834f19",
+      "timestamp": 1772740037,
       "reproducible": true,
       "error": null
     }
@@ -52877,6 +52975,20 @@
       "error": null
     }
   ],
+  "bea9a5cf323422f8b2583edaad0742bbc85130d91cc9a7ddb104ccba135fd7a1": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.7.0/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5700,
+      "version_name": "5.7.0",
+      "tag": "5.7.0",
+      "commit": "7d22d9b64cd930a8e7c75dc463a1b6e5ed204c92",
+      "timestamp": 1772723833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -53417,6 +53529,20 @@
       "tag": "v1.0.1",
       "commit": "a53f3f40399325c3652396be564e01e8030c242e",
       "timestamp": 1772714930,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d1c732bfd90a5e2d86b13c5efcc1b459032b6da45d266a8312866440539a1a63": [
+    {
+      "repository": "https://github.com/sinan-q/My_Diary.git",
+      "apk_url": "https://github.com/sinan-q/My_Diary/releases/download/v1.0.2/MyDiary-v1.0.2.apk",
+      "appid": "com.sinxn.mydiary",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "36a483adcee6f0e72d1d81efc4831fe1f849ccde",
+      "timestamp": 1772740476,
       "reproducible": true,
       "error": null
     }
@@ -56851,6 +56977,20 @@
       "error": null
     }
   ],
+  "798a36297308138f59a9b8c51d077b5e65fca2dc6756f8e344f9698b7ff5c184": [
+    {
+      "repository": "https://github.com/UrAvgCode/Chooser.git",
+      "apk_url": "https://github.com/UrAvgCode/Chooser/releases/download/v.1.4.11/chooser-v1.4.11.apk",
+      "appid": "com.uravgcode.chooser",
+      "version_code": 25,
+      "version_name": "1.4.11",
+      "tag": "v.1.4.11",
+      "commit": "7534bb97979044618d0f87d671d3aceea3b5a288",
+      "timestamp": 1772724324,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fc559baac9666bd427255779a82965938a4120cc0f13bd3eae0f493f94f1e749": [
     {
       "repository": "https://github.com/trinadhthatakula/Thor.git",
@@ -57257,6 +57397,20 @@
       "error": null
     }
   ],
+  "d3d7cb058ead79881350e2dc1b0c0cebb4e95e2f4fe58b2635ea266a2f5e3ea2": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v1.8.0/NerdCalci-v1.8.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 180,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "6754af657cd6593f26552f415b1251c8d04d3931",
+      "timestamp": 1772724504,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -57631,6 +57785,20 @@
       "tag": "v5.0.4",
       "commit": "d50dad1a98ae42074777ec4260449d5fd2f4d44f",
       "timestamp": 1772652576,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "360169a0efd9d6c6473a2330f86f48b78ceb12507a03f8148b51f329b66a15ae": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v5.0.6/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 65,
+      "version_name": "5.0.6",
+      "tag": "v5.0.6",
+      "commit": "b188caf855c0015d75a680807a4d32e2987666a5",
+      "timestamp": 1772740767,
       "reproducible": true,
       "error": null
     }
@@ -64573,6 +64741,20 @@
       "error": null
     }
   ],
+  "f759f716d6c050d49139eb105ab05c3ec406fc5a3c2542256003994119d9b873": [
+    {
+      "repository": "https://codeberg.org/bg443/BikeBridge.git",
+      "apk_url": "https://codeberg.org/bg443/BikeBridge/releases/download/v0.0.6/BikeBridge-universal-release.apk",
+      "appid": "dev.bg.bikebridge",
+      "version_code": 6,
+      "version_name": "0.0.6",
+      "tag": "v0.0.6",
+      "commit": "5fac5401b24287e95664ceb91ac9d44b1dcbfafe",
+      "timestamp": 1772741739,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6ffa58ebc0c4c9a88c5abaf4c59f6da4125a279e9c9c30d4b581f4e1bf91c20d": [
     {
       "repository": "https://codeberg.org/bg443/JetBird.git",
@@ -68225,6 +68407,20 @@
       "error": null
     }
   ],
+  "0529ed3d2cb1d52ff34ecff01324774456639659a5056995afa6ce2369d69b3b": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v12.0.3/Flip2DND.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1203,
+      "version_name": "12.0.3-free",
+      "tag": "v12.0.3",
+      "commit": "feab4668135a7dca0ccd8a8c68126527fdb4b904",
+      "timestamp": 1772725427,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -71779,6 +71975,20 @@
       "error": null
     }
   ],
+  "6e043e955008e4ed21c7c07a437749ad98c613eb499855b46a20c2b808398910": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v1.10.0/phdp-v1.10.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 10219,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "888432f4f5cd7f33d812611430959dcee66bcffe",
+      "timestamp": 1772742029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
     {
       "repository": "https://github.com/hxreborn/remember-my-sort.git",
@@ -73691,6 +73901,20 @@
       "tag": "0.23.12.1",
       "commit": "fa08f633f51e3c3a92ca09ad8a81415a4c0f378b",
       "timestamp": 1760624104,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1cb1ef9da5dd23fccf26b9aae5b1e79f2f1cd68c3e9e909164a82e0cb9a7c63e": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.14.1/freetube-0.23.14.1-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230014001,
+      "version_name": "0.23.14.1",
+      "tag": "0.23.14.1",
+      "commit": "543a8fd8fd43f71b1fb37e948644c2909fec6ff3",
+      "timestamp": 1772742552,
       "reproducible": true,
       "error": null
     }
@@ -77007,6 +77231,20 @@
       "tag": "v6329",
       "commit": "8a34191af444ff91070514e180d10f1ee703e849",
       "timestamp": 1766071545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "044ad02a7e0716d7bd3da0f80dd4a25c93723474aeb3daa06c8449b64ac07079": [
+    {
+      "repository": "https://github.com/treehouses/remote.git",
+      "apk_url": "https://github.com/treehouses/remote/releases/download/v6330/remote.apk",
+      "appid": "io.treehouses.remote",
+      "version_code": 6330,
+      "version_name": "6330",
+      "tag": "v6330",
+      "commit": "68e8e3e2be41a7a2026b3edee0bb98fb27f38afb",
+      "timestamp": 1772725717,
       "reproducible": true,
       "error": null
     }
@@ -88865,6 +89103,20 @@
       "tag": "v23.1.9",
       "commit": "475af8c2b6df1af15d37cc8a820d8d3090e34f1f",
       "timestamp": 1772638054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "00229832d44add1565aa48e236a7da2e9f65a98975711f8f6d8c1bc95e014c2a": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.1.16/KashCal-23.1.16-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 425,
+      "version_name": "23.1.16",
+      "tag": "v23.1.16",
+      "commit": "1363dff9f82a45818e8e2b17556598116ddddf69",
+      "timestamp": 1772725910,
       "reproducible": true,
       "error": null
     }
