@@ -5639,6 +5639,20 @@
       "error": null
     }
   ],
+  "91098e08efb8f06944af946c9767f7b471e7a6f719118dcf43b53d1309f996d9": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v4.5.0/app-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 17,
+      "version_name": "4.5.0",
+      "tag": "v4.5.0",
+      "commit": "08acce672d3b47517ced7290a8d52fb327aef952",
+      "timestamp": 1772818419,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -92546,6 +92560,20 @@
       "commit": "255638e946c1803241928dbb2f47a6a3b0dd38e2",
       "timestamp": 1772135122,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "1d6e528fda994d6f1303774cbf9d22ac7a9d3fee56b0bbae03d3297d44d50849": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.0.8.0/2-APlayer-v2.0.8.0-foss-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 20800,
+      "version_name": "2.0.8.0",
+      "tag": "v2.0.8.0",
+      "commit": "4b09c3473f1b93fbf7a3147faed326432dda0a95",
+      "timestamp": 1772797558,
+      "reproducible": true,
       "error": null
     }
   ],
