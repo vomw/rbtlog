@@ -3,7 +3,6 @@ repository: https://github.com/patzly/tack-android.git
 updates: releases
 notes:
   - consider failed RBs as failed for now, see https://github.com/patzly/tack-android/issues/87#issuecomment-3591773963
-  - 'FIXME: next release needs openjdk-21-jdk-headless – and we should use :app:assembleRelease to skip the wear part'
 versions:
   - tag: v4.5.0
     apks:
@@ -351,6 +350,33 @@ versions:
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v6.3.0
+    apks:
+      - apk_pattern: Tack-Android-.*\.apk
+        apk_url: https://github.com/patzly/tack-android/releases/download/v6.3.0/Tack-Android-v6.3.0.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew :app:assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake: 4.0.2
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
           ndk:
           platform:
           platform_tools:

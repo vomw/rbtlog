@@ -5653,6 +5653,20 @@
       "error": null
     }
   ],
+  "c5c42fb11c53da717101c96e81cbddc0d6e8ed4cfe9a807214ee454f90c61ca4": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v4.7.0/app-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 20,
+      "version_name": "4.7.0",
+      "tag": "v4.7.0",
+      "commit": "3ddd8aab4a84948ecbba9dd8dffee703ae4ddb54",
+      "timestamp": 1772895173,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -8603,6 +8617,20 @@
       "tag": "3.38.0",
       "commit": "98c36221cf3cc081555ab0ad95eea8eca9f3be7a",
       "timestamp": 1768230573,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8cf56a1883f8791db041c65369b0017f13bd090c5376348d58bd776f0ece13fc": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.39.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3039000,
+      "version_name": "3.39.0",
+      "tag": "3.39.0",
+      "commit": "d8c4c00969fe7c21976027540100d14e2b2b5ab1",
+      "timestamp": 1772911489,
       "reproducible": true,
       "error": null
     }
@@ -24895,6 +24923,20 @@
       "tag": "v4.12.4",
       "commit": "3086a8b9f9148537b7f8a5c8f3e135228db19a2a",
       "timestamp": 1772463854,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "602e772c1f9c6605f8bb988cfe0ff140262701a07ad25291b3e6d64b6ca59eeb": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.12.6/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 23,
+      "version_name": "4.12.6",
+      "tag": "v4.12.6",
+      "commit": "7a17e91690127009d72929f6671b382d17261e07",
+      "timestamp": 1772895703,
       "reproducible": true,
       "error": null
     }
@@ -42705,6 +42747,20 @@
       "error": null
     }
   ],
+  "295425e1fcdc1838c4c7c6e5b2542ee79b09e60a1dfa221146d7395fffd80c68": [
+    {
+      "repository": "https://github.com/Nandanrmenon/florid.git",
+      "apk_url": "https://github.com/Nandanrmenon/florid/releases/download/v1.1.2%2B12/florid-v1.1.2%2B12-arm64-v8a.apk",
+      "appid": "com.nahnah.florid",
+      "version_code": 2012,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2+12",
+      "commit": "a78ffb1b4c6e975d451ba5869440652169545961",
+      "timestamp": 1772834175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "20021d120e970e46ffc1a8bb03fb9fb02861bdb59f650958b32a2a532268c2a2": [
     {
       "repository": "https://github.com/tuhin733/SwiftNotes.git",
@@ -47851,6 +47907,20 @@
       "tag": "v1.55",
       "commit": "f78081352d9b24784d37dd883a8f1799eb9ae617",
       "timestamp": 1770488438,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "78ccb504c0f7e1bc96be081f1275c9eba6a9ce5432cb20e5062a2163e685ac63": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.56/1.56-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 137,
+      "version_name": "1.56",
+      "tag": "v1.56",
+      "commit": "656a530d915050e17d9196acd8e54ff1078da125",
+      "timestamp": 1772896614,
       "reproducible": true,
       "error": null
     }
@@ -56907,6 +56977,34 @@
       "error": null
     }
   ],
+  "295af6a31e5a86267d569f0b57c5a7916e239c69bd75396a3b89e675437ae013": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.23.1/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32301,
+      "version_name": "3.23.1",
+      "tag": "v3.23.1",
+      "commit": "532434219ede2b1cf9dcc73a9ac1946020191093",
+      "timestamp": 1772911939,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a0b59f162e7a385d0158b390d279adc1f14719b9fe505abeb42713744c08d9e1": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v3.23.1/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 32301,
+      "version_name": "3.23.1",
+      "tag": "v3.23.1",
+      "commit": "532434219ede2b1cf9dcc73a9ac1946020191093",
+      "timestamp": 1772912135,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -57547,6 +57645,34 @@
       "tag": "v2.0.1",
       "commit": "8a31c5a472d8187dfbc67e8107d5c9789383fa69",
       "timestamp": 1772826170,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "94d71adf0ca6cf94cd1e99c595b8035f1d7e37728ad6eecb9c6c430a44467ec9": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.1.0/NerdCalci-v2.1.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 210,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "b20c4cf4821cf79b0b2391a4a72a75cc475374aa",
+      "timestamp": 1772896961,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ae5e176e8bd13cd000005a067e014e95585790d48ea777572bf50f8f3b0d7c6e": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.2.1/NerdCalci-v2.2.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 221,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "1b2d2f2dc976df50847f11d89a7775cb7b69da36",
+      "timestamp": 1772912335,
       "reproducible": true,
       "error": null
     }
@@ -64363,6 +64489,20 @@
       "error": null
     }
   ],
+  "f64141dd5a08a40e05f754a5de79eae37c5df94bfa44e4a450d550e57ec6031d": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v.6.7.0/de.storchp.opentracks.osmplugin_6.7.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin",
+      "version_code": 68,
+      "version_name": "6.7.0",
+      "tag": "v.6.7.0",
+      "commit": "1e95b8a65e065ee79b3a8a1416151a47118996a5",
+      "timestamp": 1772897467,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f00cdfc01ac2a91709b52d1d1446273912721141004520ed2c20d8c8d1628f2": [
     {
       "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
@@ -64387,6 +64527,20 @@
       "tag": "v6.6.5",
       "commit": "14653a76af3ab7ca8c858dc23c95058e0397aff3",
       "timestamp": 1771776387,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a69009e2d4ebc8f43e404a456f131dae0609543646143d10c7f396614849091": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v.6.7.0/de.storchp.opentracks.osmplugin.offline_6.7.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin.offline",
+      "version_code": 68,
+      "version_name": "6.7.0",
+      "tag": "v.6.7.0",
+      "commit": "1e95b8a65e065ee79b3a8a1416151a47118996a5",
+      "timestamp": 1772897218,
       "reproducible": true,
       "error": null
     }
@@ -64443,6 +64597,20 @@
       "tag": "1.3.7",
       "commit": "5bb8c2eb16d4045fa9040d02b0037361b0715429",
       "timestamp": 1769369990,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f6e36b8250e784ccd427319f97ff1bf4b08e5f837fa47f2e628dcccc106e6523": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/1.9.9/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 100,
+      "version_name": "1.9.9",
+      "tag": "1.9.9",
+      "commit": "21aec7a960536bca963488e9d42bdcdacfb22864",
+      "timestamp": 1772898020,
       "reproducible": true,
       "error": null
     }
@@ -76759,6 +76927,20 @@
       "error": null
     }
   ],
+  "136dcc83f5f5149e7388280f4d34bd80d39bdcaab4b1f71ebc78d63ac20d3eb5": [
+    {
+      "repository": "https://github.com/SwiftStagRime/ScriptRunner_for_Termux.git",
+      "apk_url": "https://github.com/SwiftStagRime/ScriptRunner_for_Termux/releases/download/v1.6.0/ScriptRunnerForTermux-arm64-v8a-release.apk",
+      "appid": "io.github.swiftstagrime.termuxrunner",
+      "version_code": 160,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "2f77d3f3f828e57ee0291aca32b9ca5dba8234d8",
+      "timestamp": 1772898340,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c1ea21ca153c664107d82abb4ccff07edf4ec6b62054a7ddaabcade348319047": [
     {
       "repository": "https://github.com/teccheck/FastLyrics.git",
@@ -77819,6 +78001,20 @@
       "tag": "v0.7.69",
       "commit": "0d4ccb640b370dd55d4512b4965a12fb95bc7251",
       "timestamp": 1772221611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1ae2dfdfdffab37f4defa01b21019534c4d345275fe6c3aaccbc52e948420f2a": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.70/RiPlay-foss-release-0.7.70.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 70,
+      "version_name": "0.7.70",
+      "tag": "v0.7.70",
+      "commit": "39b23b23a8f052bbe6bca7f9d65664060b0fd5bf",
+      "timestamp": 1772898691,
       "reproducible": true,
       "error": null
     }
@@ -94677,6 +94873,20 @@
       "error": null
     }
   ],
+  "9e2d4e1f8f3b3c2fd13e0b1968856131afda50d113ddf987d7d00f91ce4118a4": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.2/mindwtr-0.7.2-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 46,
+      "version_name": "0.7.2",
+      "tag": "v0.7.2",
+      "commit": "fbeccbdc8cb07f088fb387c0a1c2dffc3effa685",
+      "timestamp": 1772899315,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -97937,6 +98147,20 @@
       "timestamp": 1771098631,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpa6gegqdp/outputs:/outputs', '--volume', '/tmp/tmpa6gegqdp/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/patzly/tack-android.git', '--env', 'APP_TAG=v6.2.0', '--env', 'APP_COMMIT=9c3bda3bc584f1462c6d4f6f5fc501fb591bdb3c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=4.0.2', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
+  "80e9f7ec3e9954139b8627f7df67c18fa636d3c5887188c722262b84c69e6149": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v6.3.0/Tack-Android-v6.3.0.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 400,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "637082af10bc91cec9e9891c0598d889ddb1d30d",
+      "timestamp": 1772916258,
+      "reproducible": true,
+      "error": null
     }
   ],
   "0b3522594949e4d0a0b9bcb1af4ab9f25d48293563f584ac9606169cf848fdd3": [
