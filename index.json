@@ -5667,6 +5667,20 @@
       "error": null
     }
   ],
+  "e6cbbaad467b76ec66aeb7c6fc8a2b0d6d29a61d81e784ecc19d4d8969700ce8": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v4.8.0/app-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 21,
+      "version_name": "4.8.0",
+      "tag": "v4.8.0",
+      "commit": "6e0523a067a8f0f6a9095f1d83bff7abeaacff32",
+      "timestamp": 1772972485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -83517,6 +83531,20 @@
       "tag": "v2.6.2",
       "commit": "d0cf5210a2337415505ec64848b441a317f18f38",
       "timestamp": 1772566771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3da925506e21eeeef35627d917828f4a365266c7e6d0d5baaf3e9721d56b328a": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v2.7.0-Glowel/DragonLauncher-v2.7.0-Glowel.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 45,
+      "version_name": "2.7.0 (Glowel)",
+      "tag": "v2.7.0-Glowel",
+      "commit": "da0eecbb0a9e7ad6b67819967e83a5a428947d50",
+      "timestamp": 1772928050,
       "reproducible": true,
       "error": null
     }
