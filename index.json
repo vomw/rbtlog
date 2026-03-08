@@ -13,6 +13,20 @@
       "error": null
     }
   ],
+  "9624e54b805f392f8d9ea48cbb4be6ff4b6d999e5f619ee35aec85af5b1805c7": [
+    {
+      "repository": "https://github.com/naive-HA/UpnpKino.git",
+      "apk_url": "https://github.com/naive-HA/UpnpKino/releases/download/2.2.2/UPnP.Kino.v2.2.2.apk",
+      "appid": "acab.naiveha.upnpkino",
+      "version_code": 5,
+      "version_name": "2.2.2",
+      "tag": "2.2.2",
+      "commit": "c17ffee6bd9c1cd909cace971d78a6225cd1075d",
+      "timestamp": 1772977972,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -2545,6 +2559,20 @@
       "error": null
     }
   ],
+  "3f3409b8f6acb7ed165ffaab1e2e4aaaa40555c3da86335c4c2723cc758c6317": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.11.3/Podcini.X-free-arm64-v8a-10.11.3.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 267,
+      "version_name": "10.11.3",
+      "tag": "v10.11.3",
+      "commit": "705fc58ff280911e0f2fc99cefdb6a7de0f110ef",
+      "timestamp": 1772978123,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4225,6 +4253,20 @@
       "error": null
     }
   ],
+  "533ba87fd40227ef41901a5ff85048f5ac63924c554312d906c69679b6f4a6e2": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.1.6/fluffy-4.1.6-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 721,
+      "version_name": "4.1.6",
+      "tag": "4.1.6",
+      "commit": "8e38e013e2daef65b317aa562fae264ab510977d",
+      "timestamp": 1772978486,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -5677,6 +5719,20 @@
       "tag": "v4.8.0",
       "commit": "6e0523a067a8f0f6a9095f1d83bff7abeaacff32",
       "timestamp": 1772972485,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e28514e5f082f311f90a2389af9aacaea3b6ec9f5f57d340ea010ff4afa8327": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v4.9.1/app-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 23,
+      "version_name": "4.9.1",
+      "tag": "v4.9.1",
+      "commit": "c22ee01ca1526db48f4b23cc6d2b82a79a3e563c",
+      "timestamp": 1772998453,
       "reproducible": true,
       "error": null
     }
@@ -14415,6 +14471,20 @@
       "error": null
     }
   ],
+  "45c6f18bddb891ebed576433fff2a8a9726c10b6f502e92d47587086876218dd": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.5.5/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 11,
+      "version_name": "1.5.5",
+      "tag": "v1.5.5",
+      "commit": "9cfc86eb3ca4bc45bdeda3d0783e6f492dd45d59",
+      "timestamp": 1772978814,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
     {
       "repository": "https://github.com/BKK31/budgetlens.git",
@@ -17029,6 +17099,20 @@
       "tag": "2026.02.1198",
       "commit": "ab7da9d2d7a2fd26f6e5248ae72d1722c1bd319d",
       "timestamp": 1772376693,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2844303b3d2addc4fe8d740a2a7fe979e45cd66f2efb3b37b80e526dc8a12c6b": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.03.1199/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1199,
+      "version_name": "2026.03.1199",
+      "tag": "2026.03.1199",
+      "commit": "40a3da45ebec55ed2b3bc3f82851c7c6a0569b59",
+      "timestamp": 1773007752,
       "reproducible": true,
       "error": null
     }
@@ -25305,6 +25389,20 @@
       "error": null
     }
   ],
+  "39dcf455e99c74c36da30df06e360cb73c1fb1f3653906bb1161adc605167450": [
+    {
+      "repository": "https://codeberg.org/Loowiz/PhotoSwooper.git",
+      "apk_url": "https://codeberg.org/Loowiz/PhotoSwooper/releases/download/2026.3.1/photoswooper-release.apk",
+      "appid": "com.example.photoswooper",
+      "version_code": 23,
+      "version_name": "2026.3.1",
+      "tag": "2026.3.1",
+      "commit": "a93139dfc6b038f9cf0d796227d7c12baad0b6d9",
+      "timestamp": 1772980472,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2a708bf63718ddf0e101601bcb833f0b33055ed45cd552a3e67d7ced37ac11e8": [
     {
       "repository": "https://github.com/thomasthaddeus/QRCodeGenius.git",
@@ -29545,6 +29643,20 @@
       "error": null
     }
   ],
+  "89106aa855639d32407badf98a3cec05ac37f94061522ca8d6637dc41dd6c9b2": [
+    {
+      "repository": "https://github.com/enteraname74/SoulSearching.git",
+      "apk_url": "https://github.com/enteraname74/SoulSearching/releases/download/v0.15.0/com.github.enteraname74.soulsearching_0.15.0.apk",
+      "appid": "com.github.enteraname74.soulsearching",
+      "version_code": 35,
+      "version_name": "0.15.0",
+      "tag": "v0.15.0",
+      "commit": "1464a4933d2a19aa02ae1f32ff7a3a9f5ccb212b",
+      "timestamp": 1773000366,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5775c2d786cd604851a1b45927855c79c59cfc5cbc7b9146a657e3358e1a039f": [
     {
       "repository": "https://github.com/frimtec/pikett-assist.git",
@@ -33441,6 +33553,34 @@
       "tag": "9.8.5",
       "commit": "8da62d2c9f90ea85f05d89e85c824359d6b1f889",
       "timestamp": 1772464320,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6ba176314553e9f5a7db8360a171abe70d60fdce60b73f3e3632cdb52f2bc890": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.9.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2162,
+      "version_name": "9.9.0",
+      "tag": "9.9.0",
+      "commit": "e7308975f127120be3ee6ca1d00e8298cb815c40",
+      "timestamp": 1772981047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a09d4b4b63653480868f8c746c9175a302ca8fbe0fbe487829cb43f450576a6f": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/9.9.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2163,
+      "version_name": "9.9.1",
+      "tag": "9.9.1",
+      "commit": "bb53cbff16be385a937dd4406102b81f0c74db96",
+      "timestamp": 1773000893,
       "reproducible": true,
       "error": null
     }
@@ -57691,6 +57831,34 @@
       "error": null
     }
   ],
+  "478c2d5ede869a072c83dad738b0c5613f4f343bb9e33d5ef3134c4da7d25a44": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.3.0/NerdCalci-v2.3.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 230,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "2b65d3974c367a9e978fdcf3ac642a52fa883533",
+      "timestamp": 1772981838,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6b0b5d85b160baf5e09b6667fad128a84ab06919ba9b7551498e88ff96ba1324": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.4.1/NerdCalci-v2.4.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 241,
+      "version_name": "2.4.1",
+      "tag": "v2.4.1",
+      "commit": "53595780793523b0f54000088f804db6a200653f",
+      "timestamp": 1773001535,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -58567,6 +58735,20 @@
       "tag": "V2.73.001",
       "commit": "03a9b83232074ca3e2a25454d98fbbc68ed876cf",
       "timestamp": 1772220664,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a7872c3ab44c2399c88e306a881b71dc375e1dc5b89a05e801e22ea6d3223bb1": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V2.73.002/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 273002,
+      "version_name": "2.73.002",
+      "tag": "V2.73.002",
+      "commit": "56093723c3c850341b20fbb0b2e7bcaba3947e72",
+      "timestamp": 1773003905,
       "reproducible": true,
       "error": null
     }
@@ -77095,6 +77277,20 @@
       "error": null
     }
   ],
+  "dc12d9df3e1c26a362765bf4b791f7081a6a0b8fc6ef7caf194632b50099de66": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.11/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 12,
+      "version_name": "1.11",
+      "tag": "v1.11",
+      "commit": "55852324699f3d545145d6e49d24cafd0b0c615a",
+      "timestamp": 1773003117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fef05226b5e6810a14ae571104d5c153053667ee9f19f784700621c10fb23168": [
     {
       "repository": "https://github.com/wiiznokes/gitnote.git",
@@ -89527,6 +89723,20 @@
       "error": null
     }
   ],
+  "e8f50608ad28fd03af62f168e36eb92f8ba69fa5319fcb42b3bbf4b4540933ce": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.2.1/KashCal-23.2.1-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 434,
+      "version_name": "23.2.1",
+      "tag": "v23.2.1",
+      "commit": "dd572b3b268d5ae236a96f1271c51d819a619505",
+      "timestamp": 1772982475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -92857,6 +93067,20 @@
       "error": null
     }
   ],
+  "0a86a11dbdf1462526e4b0f470f7e751bcd7d32c0527ee9ec088d04230ee65b1": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.17.0/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 48,
+      "version_name": "0.17.0",
+      "tag": "v0.17.0",
+      "commit": "a26a76799b36ae612d911ff0431d94c988dea14a",
+      "timestamp": 1773003545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c29c3b7fce2d8343740ce7d48b1316a4f8214ee2f4bb2577bd8e56fa2283eb17": [
     {
       "repository": "https://github.com/iamrasel/crushr.git",
@@ -95713,6 +95937,20 @@
       "error": null
     }
   ],
+  "1caa5ed4b1012a7b81222b82786f348bc8371d969287d93774d4c55a9f1dacbb": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha14/LockscreenWidgets_4.0.0-alpha14-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 187,
+      "version_name": "4.0.0-alpha14",
+      "tag": "4.0.0-alpha14",
+      "commit": "8f2e25824c8a0d7df5919fa4a4016d8527ad519e",
+      "timestamp": 1773012710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb10da82b56c3a1e6524c7f46ae844055fe8c042fa447b0f8d6ea147b5a5f5bd": [
     {
       "repository": "https://github.com/donmor/DroidFRPD.git",
@@ -98187,6 +98425,20 @@
       "tag": "v6.3.0",
       "commit": "637082af10bc91cec9e9891c0598d889ddb1d30d",
       "timestamp": 1772916258,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "31ca6b89974377271b00b01b61c698a54b838f911ade5a11b9eb7a273d2c7b95": [
+    {
+      "repository": "https://github.com/patzly/tack-android.git",
+      "apk_url": "https://github.com/patzly/tack-android/releases/download/v6.3.1/Tack-Android-v6.3.1.apk",
+      "appid": "xyz.zedler.patrick.tack",
+      "version_code": 410,
+      "version_name": "6.3.1",
+      "tag": "v6.3.1",
+      "commit": "e650ca682561d1122711d57e37bda4a08235c798",
+      "timestamp": 1772982926,
       "reproducible": true,
       "error": null
     }
