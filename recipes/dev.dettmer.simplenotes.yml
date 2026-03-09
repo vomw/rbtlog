@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/inventory69/simple-notes-sync.git
-updates: disabled
-notes:
-  - disabled as repo and Github account disappeared on 2026-03-04
+updates: releases
 versions:
   - tag: v1.1.1
     apks:
