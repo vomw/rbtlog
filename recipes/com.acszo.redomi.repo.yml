@@ -103,3 +103,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.4.1
+    apks:
+      - apk_pattern: redomi-release-no-updater\.apk
+        apk_url: https://github.com/acszo/Redomi/releases/download/$$TAG$$/redomi-release-no-updater.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - echo -e "storeFile=/dev/null\nstorePassword=storePass\nkeyAlias=alias\nkeyPassword=keypass" >> keystore.properties
+          - chmod +x gradlew
+          - ./gradlew assembleRepoRelease
+          - mv app/build/outputs/apk/repo/release/redomi-release-no-updater.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
