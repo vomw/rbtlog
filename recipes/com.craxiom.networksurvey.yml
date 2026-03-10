@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/christianrowlands/android-network-survey.git
 updates: releases
+notes:
+  - 'FIXME: switching to ABI builds after v1.50, apk_pattern will be networksurvey-.*-cdr-arm64-v8a-release.apk'
 versions:
   - tag: v1.30.2
     apks:

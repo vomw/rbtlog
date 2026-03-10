@@ -133,3 +133,46 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.7
+    apks:
+      - apk_pattern: Anthology.*\.apk
+        apk_url: https://github.com/nikhilmwarrier/anthology/releases/download/v1.0.7/Anthology-v1.0.7.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v24.14.0/node-v24.14.0-linux-x64.tar.xz
+          - sha256sum -c <<< '41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v24.14.0-linux-x64/bin:${HOME}/.node/bin"
+          - npm install --global corepack@latest
+          - corepack enable pnpm
+          - corepack use pnpm@latest-9
+          - pnpm install
+          - pnpm run build
+          - pnpm cap sync
+          - pushd android
+          - chmod +x gradlew
+          - ./gradlew clean assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/anthology/anthology
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
