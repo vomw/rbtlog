@@ -41,6 +41,20 @@
       "error": null
     }
   ],
+  "633b20780ec94505f8ae36c54ae3d8d81de05272216cad5d7cc73468c30ef059": [
+    {
+      "repository": "https://github.com/naive-HA/UpnpKino.git",
+      "apk_url": "https://github.com/naive-HA/UpnpKino/releases/download/2.2.3/UPnP.Kino.v2.2.3.apk",
+      "appid": "acab.naiveha.upnpkino",
+      "version_code": 6,
+      "version_name": "2.2.3",
+      "tag": "2.2.3",
+      "commit": "cd8752d308259f0ffe1b7920d1d1b73c8670f410",
+      "timestamp": 1773255611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -4673,6 +4687,20 @@
       "error": null
     }
   ],
+  "3895123ffeb1b29e5bc51522c93eee757cf9e2e510f5929ec6eb8e7f50c33361": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.2.9/mpvEx-fdroid-v1.2.9.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1292,
+      "version_name": "1.2.9-fdroid",
+      "tag": "v1.2.9",
+      "commit": "8cf95471ba5955abe716077ab8d6c2af88b19ce6",
+      "timestamp": 1773237086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -5761,6 +5789,20 @@
       "tag": "v4.10.0",
       "commit": "f35cfe23cc8b6b7697a003457c808da7b4fdbe1c",
       "timestamp": 1773085339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "553896df7f6d2192efa8656b2bdf67f6a35b378f5ef664516e1e3d3ef3cf4cc6": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v4.11.0/app-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 26,
+      "version_name": "4.11.0",
+      "tag": "v4.11.0",
+      "commit": "150cdb5b122e4daced7d1eb074ed03d3c1915466",
+      "timestamp": 1773237881,
       "reproducible": true,
       "error": null
     }
@@ -10441,6 +10483,20 @@
       "error": null
     }
   ],
+  "8b495f03f74ed309d186967d1693c293954f3d9ed637c27e0324e5fe1dd6cfb3": [
+    {
+      "repository": "https://github.com/BURG3R5/FileFlow.git",
+      "apk_url": "https://github.com/BURG3R5/FileFlow/releases/download/v1.2.0/FileFlow_v1.2.0.apk",
+      "appid": "co.adityarajput.fileflow",
+      "version_code": 4,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "b8b276fe20cc238edaf2b7e65152d4e45af3fb94",
+      "timestamp": 1773238198,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c15bedae371fa28004936f4f6a07bf6570729014e614c29bba6f38bad6ca78f8": [
     {
       "repository": "https://github.com/Abizer-R/QuickEdit-Photo-Editor.git",
@@ -13137,6 +13193,20 @@
       "tag": "429",
       "commit": "610ed96eb124c5b4827daa34cdf961067da7fa7e",
       "timestamp": 1773171309,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44be8620a4c1091f2bcb4addfb110d1c00ba590d66dcaf9dc8f0ea4a9284c807": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/430/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 430,
+      "version_name": "4.30 GH",
+      "tag": "430",
+      "commit": "6224551d0bc909330b8c4c18c378136e8771d0a0",
+      "timestamp": 1773238439,
       "reproducible": true,
       "error": null
     }
@@ -21131,6 +21201,20 @@
       "tag": "v1.8.7.2",
       "commit": "27bdde9a425aa87fa39a0aa9406b9e65c77e2754",
       "timestamp": 1767555252,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "69482f3ba04e3a801832813e05cb8b0f70b2deb9d5c785962835b230d2445abc": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.8/YTDLnis-1.8.8-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108080004,
+      "version_name": "1.8.8",
+      "tag": "v1.8.8",
+      "commit": "e61a644bd03f44cf297c3e6757cc15d58e4ad62f",
+      "timestamp": 1773257465,
       "reproducible": true,
       "error": null
     }
@@ -35851,6 +35935,20 @@
       "error": null
     }
   ],
+  "71fa38e46329d8405069467040443fdb931bdc7a6b4db3227d35452730bc1501": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v1.0.0-beta18/app-release-unsigned.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 100028,
+      "version_name": "1.0.0-beta18",
+      "tag": "v1.0.0-beta18",
+      "commit": "97b2f4e4f7f9c9adb24164b86b45b5a43ba9360d",
+      "timestamp": 1773259534,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5edf022b1a4c893cec0924d45c20894f954f762ac8a5eb9eef35e287a21d4a87": [
     {
       "repository": "https://github.com/jksalcedo/PassVault.git",
@@ -47823,6 +47921,20 @@
       "tag": "v1.1.8",
       "commit": "ab8263e2c81cf1d8419e19fb37a77fd9e0b3e6dc",
       "timestamp": 1773160585,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "daa47f3665008c363cb2219885780a972cc0bb00b60dcb72d9a5617d34c7fee1": [
+    {
+      "repository": "https://github.com/PYU224/koremd.git",
+      "apk_url": "https://github.com/PYU224/koremd/releases/download/v1.1.8.2/koremd-v1.1.8.2.apk",
+      "appid": "com.pyu.koremd",
+      "version_code": 16,
+      "version_name": "1.1.8.2",
+      "tag": "v1.1.8.2",
+      "commit": "0ec7265bbb70d0af5c78acb19c167dcf6f327437",
+      "timestamp": 1773238917,
       "reproducible": true,
       "error": null
     }
@@ -90321,6 +90433,20 @@
       "tag": "v23.2.1",
       "commit": "dd572b3b268d5ae236a96f1271c51d819a619505",
       "timestamp": 1772982475,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d2b8a8af25ed7821bd9033a61f1d183a492241f202a6cc29134bf84a42a379cd": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.3.0/KashCal-23.3.0-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 440,
+      "version_name": "23.3.0",
+      "tag": "v23.3.0",
+      "commit": "dd477299bb5348f8447728639cd5b2047d913ac3",
+      "timestamp": 1773239179,
       "reproducible": true,
       "error": null
     }

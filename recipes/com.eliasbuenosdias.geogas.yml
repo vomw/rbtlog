@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/eliasbuenosdias/GeoGas.git
-updates: releases
+updates: disabled
+notes:
+  - updates temporarily disabled due to signing issues upstream (also disabled in our repo)
 versions:
   - tag: v1.0.0
     apks:
