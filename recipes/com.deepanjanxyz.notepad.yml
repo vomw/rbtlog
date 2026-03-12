@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/deepanjanxyz/notepad.git
-updates: releases
+updates: disabled
+notes:
+  - repo & Github account disappeared 2026-03-12
 versions:
   - tag: v1.0.2
     apks:

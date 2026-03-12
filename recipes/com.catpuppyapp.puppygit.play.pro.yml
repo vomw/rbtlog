@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/catpuppyapp/PuppyGit.git
 updates: releases
+notes:
+  - 'FIXME: switching to app-arm64-v8a-release.apk with next release, see https://github.com/catpuppyapp/PuppyGit/issues/126 '
 versions:
   - tag: 1.0.8.0v56
     apks:
