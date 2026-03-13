@@ -12833,6 +12833,20 @@
       "error": null
     }
   ],
+  "e4b2adcd58fe7377c8d832ece0c4d9a09671b8b77c469ed4dd1594fa3dd1527c": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.1a/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1380,
+      "version_name": "4.6.1a",
+      "tag": "v4.6.1a",
+      "commit": "f0865064f957ae1946f791c7f2ac1376a1e33203",
+      "timestamp": 1773409896,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -18723,6 +18737,20 @@
       "tag": "v10.0",
       "commit": "44b66278a705b140089e6a0ef8e303720f34b35f",
       "timestamp": 1763041905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "39e0311af0b668fbd76c7e9bead0617eda8cea8276da2d8a099da0121b9b922e": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v11.0/pill_time_v.11.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 11,
+      "version_name": "11.0",
+      "tag": "v11.0",
+      "commit": "a77585cdd4e1287a7c422f92c2205bbaf3e759f5",
+      "timestamp": 1773434940,
       "reproducible": true,
       "error": null
     }
@@ -30231,6 +30259,20 @@
       "error": null
     }
   ],
+  "06ec9c778292eb70652acde1690046bce3783b840d42ed72e02596f888db4f4b": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.18.8/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2754140,
+      "version_name": "2.18.8-Verdana-oss",
+      "tag": "2.18.8",
+      "commit": "907407d1ae3efa7e8939c983b7c65b4dba919355",
+      "timestamp": 1773410005,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -30507,6 +30549,20 @@
       "tag": "3.5.7",
       "commit": "73e67ffede4be8ef3ea34fccde653fa6cfb3eaa8",
       "timestamp": 1767020415,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3477c37b8d083cda6e744a5f3aa3a06c7b06e12f7295e42b90bec282b1c88651": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.5.8/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2752843,
+      "version_name": "3.5.8",
+      "tag": "3.5.8",
+      "commit": "8f8a38a182749b6a04e44bd9388380c36d2101ac",
+      "timestamp": 1773410093,
       "reproducible": true,
       "error": null
     }
@@ -33945,6 +34001,20 @@
       "tag": "9.9.1",
       "commit": "bb53cbff16be385a937dd4406102b81f0c74db96",
       "timestamp": 1773000893,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f95e847aa05a562c0712b5b9bf33692aeef41af26f73e4796b4df7b120b65c14": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2164,
+      "version_name": "10.0.0",
+      "tag": "10.0.0",
+      "commit": "85c399ca825d911d9d009ebc30cb2eb314c3f90b",
+      "timestamp": 1773410165,
       "reproducible": true,
       "error": null
     }
@@ -43405,6 +43475,34 @@
       "error": null
     }
   ],
+  "c4a0c6a8c5c009526b090ebbd7f0ec4ddcc96775dc10af9d7e6ac45477aaa7e3": [
+    {
+      "repository": "https://github.com/Nandanrmenon/florid.git",
+      "apk_url": "https://github.com/Nandanrmenon/florid/releases/download/v1.2.0%2B14/florid-v1.2.0%2B14-arm64-v8a.apk",
+      "appid": "com.nahnah.florid",
+      "version_code": 2014,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0+14",
+      "commit": "9a391a4496d21026f7527b8e80ea45a24dbb9ea7",
+      "timestamp": 1773410597,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1d4da9e505155b79673dd3cf6e55a8e4fa98593cb6d5830345ec851856d5a3e9": [
+    {
+      "repository": "https://github.com/Nandanrmenon/florid.git",
+      "apk_url": "https://github.com/Nandanrmenon/florid/releases/download/v1.2.1%2B15/florid-v1.2.1%2B15-arm64-v8a.apk",
+      "appid": "com.nahnah.florid",
+      "version_code": 2015,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1+15",
+      "commit": "ee3ee9efb373a52f5ab6ce8980675c12bc0d4877",
+      "timestamp": 1773430799,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "20021d120e970e46ffc1a8bb03fb9fb02861bdb59f650958b32a2a532268c2a2": [
     {
       "repository": "https://github.com/tuhin733/SwiftNotes.git",
@@ -48033,6 +48131,20 @@
       "tag": "v1.1.8.2",
       "commit": "0ec7265bbb70d0af5c78acb19c167dcf6f327437",
       "timestamp": 1773238917,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b33a2ecd903b0a69f2f8a4c87b0682545cd98647048c21ceba20bfe74f4b059f": [
+    {
+      "repository": "https://github.com/PYU224/koremd.git",
+      "apk_url": "https://github.com/PYU224/koremd/releases/download/v1.1.8.3/koremd-v1.1.8.3.apk",
+      "appid": "com.pyu.koremd",
+      "version_code": 17,
+      "version_name": "1.1.8.3",
+      "tag": "v1.1.8.3",
+      "commit": "dbd40b32762ff9b2223f3e772e0271d30a6fef7e",
+      "timestamp": 1773411473,
       "reproducible": true,
       "error": null
     }
@@ -58499,6 +58611,20 @@
       "tag": "v2.4.5",
       "commit": "02825589d1f9685fec251e6a69e98e31e850f7e5",
       "timestamp": 1773324429,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "280c8cdd72ecf2a473aed9cdcfb67a94682568587f27c913fca891fe4ad0e12e": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.4.6/NerdCalci-v2.4.6.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 246,
+      "version_name": "2.4.6",
+      "tag": "v2.4.6",
+      "commit": "334ec4b985e9a4b46760a8b28023530e8ca66cfd",
+      "timestamp": 1773411603,
       "reproducible": true,
       "error": null
     }
@@ -69695,6 +69821,20 @@
       "error": null
     }
   ],
+  "77adf8177ea0dca9f95a6a510159fa1ccba700174a8045ae2feb7cdafb24be7e": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v12.0.6/Flip2DND.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1206,
+      "version_name": "12.0.6-free",
+      "tag": "v12.0.6",
+      "commit": "a8366861712189a65f80ced7637d8e2806632660",
+      "timestamp": 1773431571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -70893,6 +71033,20 @@
       "tag": "v0.7.0-rc0",
       "commit": "4abde1256764ff634d09d07ab428d34c9acc6f18",
       "timestamp": 1773156798,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3cdc888f3aebcecafbb6abd0adfce925e4f119ed09387503c4fe5f86cef07509": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.8.0-rc0/eu.darken.apl-v0.8.0-rc0-800000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 800000,
+      "version_name": "0.8.0-rc0",
+      "tag": "v0.8.0-rc0",
+      "commit": "2b8cb6835f9a0205482a7606ecfa13c78896842d",
+      "timestamp": 1773431941,
       "reproducible": true,
       "error": null
     }
@@ -77977,6 +78131,20 @@
       "error": null
     }
   ],
+  "3e88f7187b0700e137f30e790800759344da26a6d927c957f583738a72843cd6": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.17/SMS2Email-v1.1.17-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 30,
+      "version_name": "1.1.17",
+      "tag": "v1.1.17",
+      "commit": "3a22f70f7dd50d04a683c170dbccefc5705be766",
+      "timestamp": 1773412129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -78351,6 +78519,20 @@
       "tag": "26.01.1",
       "commit": "2eb40fb09de56dfa6060429e4bebab425ecd0c42",
       "timestamp": 1767820716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "82fd15982211c1b99a412dba0fe39c6ecf3e93ac4cd83381bbc825703a4eb337": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.03/gitnote-release-26.03.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 16,
+      "version_name": "26.03",
+      "tag": "26.03",
+      "commit": "e238074ee68171cdd7eea05a4f389390464fbf26",
+      "timestamp": 1773433211,
       "reproducible": true,
       "error": null
     }
@@ -82005,6 +82187,20 @@
       "tag": "25121201",
       "commit": "7ab493495f0db591d1a42a39075ed93f49b9bc93",
       "timestamp": 1765564999,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "44214eadac0f3641cc62854c6cfa5f0f13d96774ee37158e733212ae19e1ceb6": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/redd-focus-android/releases/download/26031301/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 26031301,
+      "version_name": "0.8.1",
+      "tag": "26031301",
+      "commit": "9718200128a4400cc7c93286befd5d0e9a2a4bcd",
+      "timestamp": 1773434489,
       "reproducible": true,
       "error": null
     }
@@ -95891,6 +96087,20 @@
       "tag": "v1.6.1",
       "commit": "e7bd199dfbdd006995d1176ff2c348d67e898060",
       "timestamp": 1768754528,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6925d17fa24a972e827f9c1a819a73313a5e8af454d1e6eb117d00d2c14c8cf6": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.6.2/stasis-client-android-v1.6.2.apk",
+      "appid": "stasis.client.android",
+      "version_code": 12,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "c5dad553e9663f201b124c1a2b5d1295edfee5a4",
+      "timestamp": 1773412267,
       "reproducible": true,
       "error": null
     }
