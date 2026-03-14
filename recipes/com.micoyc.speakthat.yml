@@ -2,7 +2,7 @@
 repository: https://github.com/mitchib1440/SpeakThat.git
 updates: releases
 notes:
-  - 'FIXME: v1.7.5 needed timestamp adjustment for aboutLibraries '
+  - 'FIXED: v1.7.5 needed timestamp adjustment for aboutLibraries '
 versions:
   - tag: v1.2.0
     apks:
@@ -770,6 +770,40 @@ versions:
           - OUT="app/build/outputs/apk/store/release/SpeakThat-NoUpdater-*.apk"
           - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines $OUT 'assets/*json' 'assets/*txt'
           - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed -r s/"generated":"[^"]*"/"generated":"2026-03-04T13:22:21.132Z"/' 'res/M7.json'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.7.6
+    apks:
+      - apk_pattern: SpeakThat-NoUpdater.*\.apk
+        apk_url: https://github.com/mitchib1440/SpeakThat/releases/download/v1.7.6/SpeakThat-NoUpdater-v1.7.6.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.14.2 -v assembleStoreRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="app/build/outputs/apk/store/release/SpeakThat-NoUpdater-*.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-newlines $OUT 'assets/*json' 'assets/*txt'
           - mv $OUT /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build
