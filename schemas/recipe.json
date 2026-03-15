@@ -226,6 +226,12 @@
                     "verify_gradle_wrapper"
                   ],
                   "additionalProperties": false
+                },
+                "secrets": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
                 }
               },
               "required": [

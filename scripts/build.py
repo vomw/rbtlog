@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 import argparse
+import builtins
 import dataclasses
 import functools
 import hashlib
@@ -38,6 +39,18 @@ PROVISION_ROOT_TIMEOUT = int(os.environ.get("RBTLOG_PROVISION_ROOT_TIMEOUT") or 
 PROVISION_TIMEOUT = int(os.environ.get("RBTLOG_PROVISION_TIMEOUT") or 10)
 BUILD_TIMEOUT = int(os.environ.get("RBTLOG_BUILD_TIMEOUT") or 20)
 PODMAN_USE_TASKSET = os.environ.get("RBTLOG_PODMAN_USE_TASKSET") not in ("0", "no", "false")
+
+# Store all requested secrets for easy cleanup
+SECRETS = []
+
+def print(*args, **kwargs):
+    """
+    Override print function to ensure that all known secrets are stripped
+    from any output.
+    """
+    args = [clean_log(arg) for arg in args]
+
+    builtins.print(*args, **kwargs)
 
 
 class Error(Exception):
@@ -97,6 +110,7 @@ class BuildRecipe:
     build_timeout: Optional[int]
     build_user: str
     provisioning: Provisioning
+    secrets: Dict[str, str]
 
     def for_json(self) -> Dict[str, Any]:
         return dict(
@@ -104,7 +118,9 @@ class BuildRecipe:
             apk_url=self.apk_url, build=self.build, build_cpus=self.build_cpus,
             build_dirs=self.build_dirs, build_home_dir=self.build_home_dir,
             build_repo_dir=self.build_repo_dir, build_timeout=self.build_timeout,
-            build_user=self.build_user, provisioning=self.provisioning.for_json())
+            build_user=self.build_user,
+            provisioning=self.provisioning.for_json(),
+            secrets=self.secrets)
 
 
 @dataclass(frozen=True)
@@ -179,6 +195,7 @@ def parse_yaml(recipe_file: str, *, validate: bool = True) -> AppRecipe:
                         verify_git=prov.get("verify_git", True),
                         verify_gradle_wrapper=prov["verify_gradle_wrapper"],
                         windows_like=prov.get("windows_like", False)),
+                    secrets=apk.get("secrets", {})
                 ))
         return AppRecipe(repository=data["repository"], updates=data["updates"],
                          versions=tuple(versions))
@@ -216,6 +233,17 @@ def url_with_replacements(apk_url: str, tag: str, tag_pattern: Optional[str]) ->
         for i, group in enumerate(m.groups("")):
             url = url.replace(f"$$TAG:{i + 1}$$", group)
     return url
+
+
+def clean_log(log: str):
+    """
+    Remove all values of environment variables starting with the secret prefix from the
+    logs."""
+    for secret in SECRETS:
+        # Only try to remove value if it's not only whitespace
+        if secret and not secret.isspace():
+            log = log.replace(secret, "********")
+    return log
 
 
 # FIXME
@@ -259,6 +287,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
                 result["build_log"] += e.stdout.decode()
                 raise
             finally:
+                result["build_log"] = clean_log(result["build_log"])
                 if verbose:
                     print(f"--- BEGIN BUILD LOG ---\n{result['build_log']}\n"
                           "--- END BUILD LOG ---", file=sys.stderr)
@@ -291,6 +320,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         error = f"axml error: {e}"
     except Error as e:
         error = str(e)
+    error = clean_log(error)
     if verbose:
         print(f"Error: {error}", file=sys.stderr)
     return dict(result, error=error)
@@ -356,7 +386,9 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
     verify_git = "yes" if recipe.provisioning.verify_git else "no"
     verify_gradle_wrapper = "yes" if recipe.provisioning.verify_gradle_wrapper else "no"
     windows_like = "yes" if recipe.provisioning.windows_like else "no"
-    return dict(
+
+    # Create base environment list
+    build_env = dict(
         ANDROID_HOME=recipe.provisioning.android_home,
         APP_REPOSITORY=recipe.repository,
         APP_TAG=recipe.tag,
@@ -379,6 +411,21 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         VERIFY_GIT=verify_git,
         VERIFY_GRADLE_WRAPPER=verify_gradle_wrapper,
         WINDOWS_LIKE=windows_like)
+
+    # Add all given keys under recipe.secrets with a "SECRET" prefix to the
+    # environment
+    for secret_name, secret_env_var in recipe.secrets.items():
+        try:
+            secret_value = os.environ[secret_env_var]
+            build_env[f"SECRET_{secret_name}"] = secret_value
+            SECRETS.append(secret_value)
+        except KeyError:
+            raise Error(f"Bad recipe or host state: Secret {secret_name} is "
+            f"linked to host environment variable {secret_env_var}, but "
+            f"{secret_env_var} does not exist.")
+
+    # Return build_env
+    return build_env
 
 
 # FIXME: configure retries
