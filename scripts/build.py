@@ -218,6 +218,17 @@ def url_with_replacements(apk_url: str, tag: str, tag_pattern: Optional[str]) ->
     return url
 
 
+def clean_log(recipe: BuildRecipe, log: str):
+    """
+    Remove all values of environment variables starting with SECRET_ from the
+    logs."""
+    for name, value in os.environ.items():
+        # Only try to remove value if it's not only whitespace
+        if value and not value.isspace():
+            log = re.sub(value, "********", log)
+    return log
+
+
 # FIXME
 def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *,
                        commit: Optional[str] = None, apk_url: Optional[str] = None,
@@ -259,6 +270,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
                 result["build_log"] += e.stdout.decode()
                 raise
             finally:
+                result["build_log"] = clean_log(result["build_log"])
                 if verbose:
                     print(f"--- BEGIN BUILD LOG ---\n{result['build_log']}\n"
                           "--- END BUILD LOG ---", file=sys.stderr)
@@ -291,6 +303,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         error = f"axml error: {e}"
     except Error as e:
         error = str(e)
+    error = clean_log(error)
     if verbose:
         print(f"Error: {error}", file=sys.stderr)
     return dict(result, error=error)
@@ -356,7 +369,9 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
     verify_git = "yes" if recipe.provisioning.verify_git else "no"
     verify_gradle_wrapper = "yes" if recipe.provisioning.verify_gradle_wrapper else "no"
     windows_like = "yes" if recipe.provisioning.windows_like else "no"
-    return dict(
+
+    # Create base environment list
+    build_env = dict(
         ANDROID_HOME=recipe.provisioning.android_home,
         APP_REPOSITORY=recipe.repository,
         APP_TAG=recipe.tag,
@@ -379,6 +394,14 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         VERIFY_GIT=verify_git,
         VERIFY_GRADLE_WRAPPER=verify_gradle_wrapper,
         WINDOWS_LIKE=windows_like)
+
+    # Add all given keys under recipe.secrets with a "SECRET" prefix to the
+    # environment
+    for secret_name, secret_env_var in recipe.get("secrets", {}).items():
+        build_env[f"SECRET_{secret_name}"] = os.environ[secret_env_var]
+
+    # Return build_env
+    return build_env
 
 
 # FIXME: configure retries

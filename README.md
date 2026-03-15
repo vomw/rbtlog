@@ -70,6 +70,29 @@ to).  Anyone running their own rebuilder instance should evaluate the risks
 involved.  We do not recommend building untrusted apps without further
 safeguards.
 
+rbtlog also allows specifying secrets in the build recipe. While these
+will be redacted from the output logs, care should still be taken that
+the secrets will not leak due to other circumstances such as a process
+in the build outputting the secret in another format (such as base64),
+the build process (maliciously) uploading the secret somewhere or the
+secret being reversible either due to comparing to known output
+("compiling footer" -> "compiling *******ter"), etc. Secrets should be
+used sparingly and be as short-lived and low-permission as possible.
+
+<details><summary>Details</summary>Example:
+<pre>
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          ..
+        secrets:
+          some_key: SOMEKEY
+          very_secret: TOPSECRET
+</pre>
+
+would make the environment variables <code>SOMEKEY</code> and <code>TOPSECRET</code> from the host available to the recipe running inside the container as <code>SECRET_some_key</code> respectively <code>SECRET_very_secret</code>.
+</details>
+
 ## Scripts
 
 The scripts in `scripts/` provide the rebuilder component.
