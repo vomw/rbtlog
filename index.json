@@ -10483,6 +10483,20 @@
       "error": null
     }
   ],
+  "37378b2b505570579bf0652966284935f57443ff44975fca6f8db83449fef266": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.4.347.928-stable/Rhythm-4.4.347.928-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 44347928,
+      "version_name": "4.4.347.928-gh",
+      "tag": "v4.4.347.928-stable",
+      "commit": "b960d73bb2679fe6e0ba437ae412adf5cb680e11",
+      "timestamp": 1773582719,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -18825,6 +18839,20 @@
       "error": null
     }
   ],
+  "b69a6ac335a872243e0189e93c7ce017c3ecc18c33f0c28754e60cdc1f995d53": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v12.0/pill_time_v12.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 12,
+      "version_name": "12.0",
+      "tag": "v12.0",
+      "commit": "1546f95374c253360d8b285476e684d612789166",
+      "timestamp": 1773603512,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "82d5ff3b76adc1ca65cda98402ae0d01c7f185db3a56f57bdbeae927dc0fa6d0": [
     {
       "repository": "https://github.com/ClusterM/usb-serial-telnet-server.git",
@@ -21145,6 +21173,20 @@
       "tag": "v2.17.3",
       "commit": "33950fdda2c10fd4ca93aabebfdf597b0f6ad3d0",
       "timestamp": 1772818478,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "debfb15bb0aefbe85446cedb2cd543bc82115d3c095cee5af1f3339cf06db33d": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.18.0/daily-you-arm64-v8a-v2.18.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20180002,
+      "version_name": "2.18.0",
+      "tag": "v2.18.0",
+      "commit": "a8d6781270a888a7b6eb50505aa247d4f8caa06a",
+      "timestamp": 1773583302,
       "reproducible": true,
       "error": null
     }
@@ -34089,6 +34131,20 @@
       "error": null
     }
   ],
+  "385e96969aa2dc30943a5653b0fe968fa97e3474dcc27ce6ace13be22457f1da": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.1/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2165,
+      "version_name": "10.0.1",
+      "tag": "10.0.1",
+      "commit": "8180fa63d0410bafd9f1f6683daeb6d2d6f7ba44",
+      "timestamp": 1773583910,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -36159,6 +36215,20 @@
       "error": null
     }
   ],
+  "734f2e3a2adc30cfee610992eb6d93b8843a98dfd5cf5c47cec7e0335f419ed2": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v0.19.0/librefind-v0.19.0-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 1900300,
+      "version_name": "0.19.0",
+      "tag": "v0.19.0",
+      "commit": "a29783aa23cc1ef7b046090c3be79239a30338be",
+      "timestamp": 1773591408,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5edf022b1a4c893cec0924d45c20894f954f762ac8a5eb9eef35e287a21d4a87": [
     {
       "repository": "https://github.com/jksalcedo/PassVault.git",
@@ -36645,6 +36715,20 @@
       "tag": "v3.0.8",
       "commit": "1e2bc775fdc0b24e8ebbfd5aefe07f7eb18c0c1d",
       "timestamp": 1771774709,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2f9c92c113cd6ad06c6095bfef8ea0fb08fa9810939b88dbaab37f28ccd552d4": [
+    {
+      "repository": "https://github.com/NoWakeLock/NoWakeLock.git",
+      "apk_url": "https://github.com/NoWakeLock/NoWakeLock/releases/download/v3.0.9/NoWakeLock-3.0.9.apk",
+      "appid": "com.js.nowakelock",
+      "version_code": 86,
+      "version_name": "3.0.9",
+      "tag": "v3.0.9",
+      "commit": "13f39a6d689be12fc018978fee8d43291a2f7f36",
+      "timestamp": 1773584394,
       "reproducible": true,
       "error": null
     }
@@ -41233,6 +41317,20 @@
       "tag": "v1.0.4",
       "commit": "e0954e8bd82d62c403907b30bcec4c319b788279",
       "timestamp": 1772206529,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e58664f0ee32e73a5833c90d234cd5c9bcb0004b1e887109a0594185fe9ad5a7": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v1.1.0/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 47,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "1959c12a20e3d61f5f81a3fd1fbd6a0899857f77",
+      "timestamp": 1773584550,
       "reproducible": true,
       "error": null
     }
@@ -54109,6 +54207,20 @@
       "error": null
     }
   ],
+  "8751909e187338cf7ce0b03d9fa00eec9e6f1694adafb36c16dfdf1eaa6935a8": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V1.0.2/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 2003,
+      "version_name": "1.0.2",
+      "tag": "V1.0.2",
+      "commit": "129b103beb8550ed2c282b4a981c890f8c8fc360",
+      "timestamp": 1773585042,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -55717,6 +55829,20 @@
       "error": null
     }
   ],
+  "baaded67053c02af696dc5f50c170bc933c55a1bafdb01ee36b2cd71f8654c2b": [
+    {
+      "repository": "https://github.com/albu-razvan/Stario.git",
+      "apk_url": "https://github.com/albu-razvan/Stario/releases/download/v2.15/Stario-v2.15.apk",
+      "appid": "com.stario.launcher",
+      "version_code": 96,
+      "version_name": "2.15",
+      "tag": "v2.15",
+      "commit": "6bc7a51d79999908d1866a3313a2b4023bcc5b55",
+      "timestamp": 1773603715,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cef3175ef6bcbbe74bf13c2191e59d20f71c54ddd8db1115444732b4d32a980f": [
     {
       "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
@@ -56217,6 +56343,20 @@
       "tag": "v51",
       "commit": "eaade710eae8cca2f5ed4fe98210532bcd5d3b48",
       "timestamp": 1757428316,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5e6bc1336d0c32d78f485e6f30b6dcf539708fc3b499c718353ee62e2777e174": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v52/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 273,
+      "version_name": "52",
+      "tag": "v52",
+      "commit": "beb43a4bd4f29c38b1b9cb528a2becab1a057eff",
+      "timestamp": 1773609048,
       "reproducible": true,
       "error": null
     }
@@ -58765,6 +58905,20 @@
       "tag": "v2.4.7",
       "commit": "87fe57e6822a1afefc5097f661ba1b6703b3c0f4",
       "timestamp": 1773498162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "944fc9a209b25ad3c9de1c998e767760b2d8d581ee0d46d68ba75a77ed375186": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.4.8/NerdCalci-v2.4.8.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 248,
+      "version_name": "2.4.8",
+      "tag": "v2.4.8",
+      "commit": "cd257432c69bdbfea0430afb8cd38434d515ee22",
+      "timestamp": 1773585515,
       "reproducible": true,
       "error": null
     }
@@ -70659,6 +70813,20 @@
       "error": null
     }
   ],
+  "e448eb297733b7a194b27f47b502f2ae14d17b97e98b799925eb3dc0e15f937f": [
+    {
+      "repository": "https://github.com/zacharee/InstallWithOptions.git",
+      "apk_url": "https://github.com/zacharee/InstallWithOptions/releases/download/0.9.2/InstallWithOptions_0.9.2-release.apk",
+      "appid": "dev.zwander.installwithoptions",
+      "version_code": 27,
+      "version_name": "0.9.2",
+      "tag": "0.9.2",
+      "commit": "2687850f06a28306b268b7f48a7329440cb41400",
+      "timestamp": 1773585669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfa0bd6f657a58474c8b6cfdd9f060e310aeecab439bcff52905d575f70a5cb0": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -74005,6 +74173,20 @@
       "error": null
     }
   ],
+  "e3f58fc12632bb961d1a303de76a1d8cbccdc8eb32fe1db43fe6559edded0835": [
+    {
+      "repository": "https://github.com/2bllw8/anemo.git",
+      "apk_url": "https://github.com/2bllw8/anemo/releases/download/v2.7.1/app-release.apk",
+      "appid": "exe.bbllw8.anemo",
+      "version_code": 18,
+      "version_name": "2.7.1",
+      "tag": "v2.7.1",
+      "commit": "05497d1a8d60a8d5281e265e922ea8063c76be44",
+      "timestamp": 1773585778,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b02296dd7bb626f5ba46cf30d59a41ed452a0e573be3e8837d05b09e8f9beee4": [
     {
       "repository": "https://github.com/Semper-Viventem/MetaRadar.git",
@@ -74519,6 +74701,20 @@
       "tag": "5.7.2",
       "commit": "316f2a7b602eb4b9c14a69af2fe432415ca3fa58",
       "timestamp": 1771516002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cac7017afcb422181ad04b7bb97f322a825663316382fe81b2b472132e10d60a": [
+    {
+      "repository": "https://github.com/paroj/DSub2000.git",
+      "apk_url": "https://github.com/paroj/DSub2000/releases/download/5.7.3/DSub2000_5.7.3-floss-release.apk",
+      "appid": "github.paroj.dsub2000",
+      "version_code": 216,
+      "version_name": "5.7.3",
+      "tag": "5.7.3",
+      "commit": "0254324ed7a4356ca7a55dda93e7616068d95f79",
+      "timestamp": 1773585849,
       "reproducible": true,
       "error": null
     }
@@ -77497,6 +77693,20 @@
       "tag": "v1.19.0",
       "commit": "f42ea1da9c83e72fc51e180786d78767d3f7491f",
       "timestamp": 1771098031,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c8eb8bf1fe958e64bd1a896896f0bf2175cafe60e013a409e0e583750e68b73e": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
+      "apk_url": "https://codeberg.org/Gonbei774/CalisthenicsMemory/releases/download/v1.20.0/app-release.apk",
+      "appid": "io.github.gonbei774.calisthenicsmemory",
+      "version_code": 28,
+      "version_name": "1.20.0",
+      "tag": "v1.20.0",
+      "commit": "5699ab365f3bdef620dd52606c609c01f4a5bcb5",
+      "timestamp": 1773586041,
       "reproducible": true,
       "error": null
     }
@@ -81197,6 +81407,20 @@
       "error": null
     }
   ],
+  "e33ff5ea4ff6ed50ff0024d4485ab80efadd5f16432d6087a637c6b9c5c291bb": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.1.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 133,
+      "version_name": "2.1.2-izzy",
+      "tag": "v2.1.2",
+      "commit": "6aec10e7c33d5a43c62a483c9cdb5eb051b21091",
+      "timestamp": 1773586669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -82383,6 +82607,20 @@
       "tag": "26031401",
       "commit": "cd45115ee6f3197ab9717351d2579e872d623e71",
       "timestamp": 1773519497,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "615bb63e514ee2c439041e4cbc3e8a51aa3f7a96690624cc6189e3e3ef472564": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/redd-focus-android/releases/download/26031507/app-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 26031507,
+      "version_name": "0.9.0",
+      "tag": "26031507",
+      "commit": "f0ade66f362ca90740cf1048a94a79cced73d93c",
+      "timestamp": 1773610288,
       "reproducible": true,
       "error": null
     }
@@ -90549,6 +90787,20 @@
       "error": null
     }
   ],
+  "710610c636d901006e1a8fb94a4148d4f0adbb2be4ac7a66ca0a338d61a692e8": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.7.4/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 72,
+      "version_name": "1.7.4",
+      "tag": "1.7.4",
+      "commit": "f26fb51b7f29feadc541c96de36203fdd2b12602",
+      "timestamp": 1773587250,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f799bcf762ff5d3048bc627aa318eb1e50d314ea724bf908b93df985ce893377": [
     {
       "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
@@ -95601,6 +95853,20 @@
       "error": null
     }
   ],
+  "dc1712ad31188d8a9a02b92baadb430168656b6057361c0b4e007ba375f7cd67": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.7.1/image-toolbox-3.7.1-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 216,
+      "version_name": "3.7.1",
+      "tag": "3.7.1",
+      "commit": "aab44cae29cd71ec627f1f01c73380b5502a2fbd",
+      "timestamp": 1773587352,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8edbbc20a8dcaceaa3fe4117b11466f522d2130a6b47c61ad10de92cc09af32e": [
     {
       "repository": "https://github.com/Wohlstand/ADLMIDI-Player-Java.git",
@@ -96539,6 +96805,20 @@
       "error": null
     }
   ],
+  "03583818718074d0f4166c8ca7d6adf558f147688b45eae2df6e99c6e11897c9": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.3/mindwtr-0.7.3-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 47,
+      "version_name": "0.7.3",
+      "tag": "v0.7.3",
+      "commit": "bdbd2c8834a4692f30fd93fe440fef3c9fd6a98f",
+      "timestamp": 1773588187,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -97347,6 +97627,20 @@
       "tag": "4.0.0-alpha14",
       "commit": "8f2e25824c8a0d7df5919fa4a4016d8527ad519e",
       "timestamp": 1773012710,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6a48928014528e2656e00c3325187838fe69988611fc422de39056601a185d77": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.0-alpha15/LockscreenWidgets_4.0.0-alpha15-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 188,
+      "version_name": "4.0.0-alpha15",
+      "tag": "4.0.0-alpha15",
+      "commit": "05c990b9a0b1edf33ebbc95395bb1f1508ce3333",
+      "timestamp": 1773588983,
       "reproducible": true,
       "error": null
     }
