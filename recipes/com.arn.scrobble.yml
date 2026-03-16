@@ -251,3 +251,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '432'
+    apks:
+      - apk_pattern: pano-scrobbler-android-universal\.apk
+        apk_url: https://github.com/kawaiiDango/pano-scrobbler/releases/download/432/pano-scrobbler-android-universal.apk
+        build:
+          - base64 -d > local.properties <<< bGFzdGZtLmtleT1hZDc0ZjQxZjc1NjY5MTE2MDkyM2RiYjU1MjE5YzdjYgpsYXN0Zm0uc2VjcmV0PTlhNmJmNmYzYmVlMzc4Mjc5Yjc5ZWIxNDhkYmE0NWM4CnNwb3RpZnkucmVmcmVzaFRva2VuPU9XSmtOamhoTVRRNU1EVXdORGsxTm1Fd09EUm1OVE0yTmpWa01qRmhZV002TmpVM01tRTNPVEZoWVRoak5EUXdaVGc0TkdSaFpEVmxOakZtWVRJeU56RVw9Cg==
+          - chmod +x gradlew
+          - ./gradlew assembleReleaseGithub
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/releaseGithub/pano-scrobbler-releaseGithub-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

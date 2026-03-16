@@ -27,6 +27,20 @@
       "error": null
     }
   ],
+  "3e6f95f0932d83f7c3e16ade9eab2ad1e662d763e9f28914879231b1cf0a7a3f": [
+    {
+      "repository": "https://github.com/naive-HA/subrosa.git",
+      "apk_url": "https://github.com/naive-HA/subrosa/releases/download/1.0.8/subrosa.1.0.8.apk",
+      "appid": "acab.naiveha.subrosa",
+      "version_code": 5,
+      "version_name": "1.0.8",
+      "tag": "1.0.8",
+      "commit": "6ae4025b5bc26f21ed6a5f58176bc8b6ddc51e7f",
+      "timestamp": 1773669455,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99424835225eed0e49c6a9656de066fa3f3b52b9dab6dd3230bcdda167a8e7cf": [
     {
       "repository": "https://github.com/naive-HA/UpnpKino.git",
@@ -65,6 +79,20 @@
       "tag": "2.2.3",
       "commit": "cd8752d308259f0ffe1b7920d1d1b73c8670f410",
       "timestamp": 1773255611,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "55a6ef727b6df98493e4af90effab52b71f937081fb639daf1aef82791e925d6": [
+    {
+      "repository": "https://github.com/naive-HA/UpnpKino.git",
+      "apk_url": "https://github.com/naive-HA/UpnpKino/releases/download/2.3.0/UPnP.Kino.v2.3.0.apk",
+      "appid": "acab.naiveha.upnpkino",
+      "version_code": 8,
+      "version_name": "2.3.0",
+      "tag": "2.3.0",
+      "commit": "cfe69460408ee2148d8c6e676a5d26873c0065c2",
+      "timestamp": 1773669578,
       "reproducible": true,
       "error": null
     }
@@ -13323,6 +13351,20 @@
       "error": null
     }
   ],
+  "106cc60f8ecccc6be7d927e96f4102fde3644e5b87ae00d042612f0419d650fc": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/432/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 432,
+      "version_name": "4.32 GH",
+      "tag": "432",
+      "commit": "7ead1bae571cc05f7ebbb975740a7f52ebc2d2bc",
+      "timestamp": 1773669671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -24675,6 +24717,20 @@
       "error": null
     }
   ],
+  "b71f16b2188ad1d650699f77687a30cfd1d4a2c6eb4d36e10818d59d17068748": [
+    {
+      "repository": "https://github.com/greenbugx/Hongeet.git",
+      "apk_url": "https://github.com/greenbugx/Hongeet/releases/download/v1.8.0%2B19/hongeet_v1.8.0%2B19_izzy_arm64-v8a.apk",
+      "appid": "com.dxku.hongit",
+      "version_code": 2019,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0+19",
+      "commit": "b8078c1a159cd08fe51013bb226d2bef79db530a",
+      "timestamp": 1773669866,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "23c99ba5d10f96003bd379d659d60a3b3ee02fb4b19d3b57cede760d9b9cbab1": [
     {
       "repository": "https://github.com/JackEblan/EblanLauncher.git",
@@ -27235,6 +27291,20 @@
       "error": null
     }
   ],
+  "6a0bda487f273491e71e752d0e3574105225c9f983233024eaa2ff699113b4ea": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.39.1/com.fibelatti.photowidget-v1.39.1-1390100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1390100,
+      "version_name": "1.39.1",
+      "tag": "v1.39.1",
+      "commit": "cfa316f85f59af3366911a3009e584ea096119c8",
+      "timestamp": 1773670468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -27791,6 +27861,20 @@
       "tag": "1.35",
       "commit": "50a6e1d41c1a555c06090b66a9401ed8597bb05c",
       "timestamp": 1764603189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8c20aa984446843c59ef094cc51c916da0ca580809411c41c784f48cdfce6499": [
+    {
+      "repository": "https://github.com/Johboh/hassalarm.git",
+      "apk_url": "https://github.com/Johboh/hassalarm/releases/download/1.36/app-release.apk",
+      "appid": "com.fjun.hassalarm",
+      "version_code": 36,
+      "version_name": "1.36",
+      "tag": "1.36",
+      "commit": "cba0b87eaf1ed0b257f9a4811d0163a3bde620ec",
+      "timestamp": 1773690119,
       "reproducible": true,
       "error": null
     }
@@ -43713,6 +43797,20 @@
       "error": null
     }
   ],
+  "bc998e5af8b7f2d4fd3a8627b99ccab9d7c6a541a1e78fc39fc2ffd649693eff": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.1/IrisChat.apk",
+      "appid": "com.nemesis.irischat",
+      "version_code": 1,
+      "version_name": "1.1",
+      "tag": "v1.1",
+      "commit": "b58aaa0ef415aea5bb5be854180ceb676f0abb92",
+      "timestamp": 1773686395,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "51e1ffa0b834088b233f97aa89d69678fe38870fc7ea2619c9e54cb9ee2c384f": [
     {
       "repository": "https://github.com/umutcamliyurt/MockTraffic.git",
@@ -55955,6 +56053,20 @@
       "error": null
     }
   ],
+  "d7caaebc3ef1dcb521423f7701868a5c2366fc88482264ab63b1bbc09f9caf45": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/GreenStash.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/GreenStash/releases/download/v4.3.0/GreenStash-v4.3.0.apk",
+      "appid": "com.starry.greenstash",
+      "version_code": 430,
+      "version_name": "4.3.0",
+      "tag": "v4.3.0",
+      "commit": "73011a66596b6542e33f96e8eaa4f2de64dd3b7e",
+      "timestamp": 1773686761,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd8536c04b2f54d60211dddabb7083705f5d3205508cf89764852b60305f4858": [
     {
       "repository": "https://github.com/Pool-Of-Tears/Myne.git",
@@ -56357,6 +56469,20 @@
       "tag": "v52",
       "commit": "beb43a4bd4f29c38b1b9cb528a2becab1a057eff",
       "timestamp": 1773609048,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4f82a6cd03f58b1bbf333cd97a52601579590e5a603f14d33b7cd71f5c1fbd14": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v53/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 274,
+      "version_name": "53",
+      "tag": "v53",
+      "commit": "a7fd7776da74c3c496494dd4723057d4834e3e4a",
+      "timestamp": 1773671047,
       "reproducible": true,
       "error": null
     }
@@ -58919,6 +59045,20 @@
       "tag": "v2.4.8",
       "commit": "cd257432c69bdbfea0430afb8cd38434d515ee22",
       "timestamp": 1773585515,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "97ac0cc1d537629d58c07bec3d52f2cc0d61f76f2e299585d5b57d2c6f40560e": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.4.9/NerdCalci-v2.4.9.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 249,
+      "version_name": "2.4.9",
+      "tag": "v2.4.9",
+      "commit": "93743dae202b1333b545b240189caf8f3906fbb4",
+      "timestamp": 1773690459,
       "reproducible": true,
       "error": null
     }
@@ -65735,6 +65875,20 @@
       "error": null
     }
   ],
+  "874e64e3027adedca186e208de03f6d195ee04ade08ec94a9ae4291be4867042": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.9.0/ReadeckApp-0.9.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 900,
+      "version_name": "0.9.0",
+      "tag": "v0.9.0",
+      "commit": "a7b41daae78ce0147aed9ddb8c46e1ed3f2d2bdb",
+      "timestamp": 1773671236,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
     {
       "repository": "https://github.com/sal0max/currencies.git",
@@ -70125,6 +70279,20 @@
       "tag": "v12.0.6",
       "commit": "a8366861712189a65f80ced7637d8e2806632660",
       "timestamp": 1773431571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "273a99c7e770a6a53c36475231d3157eb5e72d44e9c2e29c9a421b900f5a8008": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v12.0.7/Flip2DND.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1207,
+      "version_name": "12.0.7-free",
+      "tag": "v12.0.7",
+      "commit": "9269a6203659adfc286d6959e87162173571b0ba",
+      "timestamp": 1773690777,
       "reproducible": true,
       "error": null
     }
@@ -99853,6 +100021,20 @@
       "tag": "v0.3.3",
       "commit": "a52d70a8097ad81bba7c8b0eefc7647ee0debeda",
       "timestamp": 1757704709,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0f3ccb3b280d34c9bf8311b1712c9665fd13f55e64a0a96afb98b78eeabbc703": [
+    {
+      "repository": "https://codeberg.org/phileix/ddns-android.git",
+      "apk_url": "https://codeberg.org/phileix/ddns-android/releases/download/v0.4.0/ddns-updater-v0.4.0.apk",
+      "appid": "xyz.philei.ddnsupdater",
+      "version_code": 11,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "43f70429d2b04be39f37ede1d2c64427124fe98f",
+      "timestamp": 1773671398,
       "reproducible": true,
       "error": null
     }
