@@ -74621,6 +74621,20 @@
       "error": null
     }
   ],
+  "8fea060db360203a366ab783b344dc16d354545cfc1b44bf1b58020c5a9abc84": [
+    {
+      "repository": "https://github.com/256x/launcher.git",
+      "apk_url": "https://github.com/256x/launcher/releases/download/v1.0.8/literallauncher_v1.0.8.apk",
+      "appid": "fumi.day.literallauncher",
+      "version_code": 8,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "70c875ebb575d218bc3f370bccdb106840529c33",
+      "timestamp": 1773659544,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b93e21f977ab5f74d42287153ae8ab0a278b8a1062d2dc2932d0b54965524fbf": [
     {
       "repository": "https://github.com/daisukiKaffuChino/RebootNya.git",
@@ -77861,6 +77875,20 @@
       "tag": "v9.6.11",
       "commit": "db98cfd31b22f9c08fa841089ef795a9a088f9fe",
       "timestamp": 1772220857,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8ccc05da19cafcaf3eace9ef4576892d1ccb281ec7286d0db3b10c085ce4b320": [
+    {
+      "repository": "https://github.com/Legandy/EnigmaBridge.git",
+      "apk_url": "https://github.com/Legandy/EnigmaBridge/releases/download/1.2/EnigmaBridge-v1.2.apk",
+      "appid": "io.github.legandy.enigmabridge",
+      "version_code": 3,
+      "version_name": "1.2",
+      "tag": "1.2",
+      "commit": "84dbb09b1068b6b9b33597fc064deb72c8082b2e",
+      "timestamp": 1773682165,
       "reproducible": true,
       "error": null
     }
