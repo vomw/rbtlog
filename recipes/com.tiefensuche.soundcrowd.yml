@@ -321,3 +321,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.3.2
+    apks:
+      - apk_pattern: soundcrowd\.apk
+        apk_url: https://github.com/soundcrowd/soundcrowd/releases/download/v4.3.2/soundcrowd.apk
+        build:
+          - base64 -d > sepp <<< ZXhwb3J0IEJFQVRQT1JUX0NMSUVOVF9JRD0iMEdJdmtDbHRWSXVQa2t3U0pIcDZORGIzczBwb3RUakxCUXIzODhEZCIKZXhwb3J0IEJFQVRQT1JUX1JFRElSRUNUX1VSST0iaHR0cHM6Ly9hcGkuYmVhdHBvcnQuY29tL3Y0L2F1dGgvby9wb3N0LW1lc3NhZ2UvIgpleHBvcnQgU09VTkRDTE9VRF9DTElFTlRfSUQ9IjhYWWtTU0ozQUptZGwydVFDS3VEZVZwcld2WU9rR3dsIgpleHBvcnQgU09VTkRDTE9VRF9DTElFTlRfU0VDUkVUPSJ1bVRMZTVmcEJDYU44S1d2Wm9nZ2ZsT0VjY1dERERqVCIKZXhwb3J0IFNPVU5EQ0xPVURfUkVESVJFQ1RfVVJJPSJzb3VuZGNyb3dkOi8vc291bmRjbG91ZC9jYWxsYmFjayIKZXhwb3J0IFRJREFMX0NMSUVOVF9JRD0iZlgySnhkbW50WldLMGl4VCIKZXhwb3J0IFRJREFMX0NMSUVOVF9TRUNSRVQ9IjFObjlBZkRBanhyZ0pGSmJLTldMZUF5S0dWR21JTnVYUFBMSFZYQXZ4QWc9Igo=
+          - source sepp
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 4 --pad-like-apksigner --replace app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

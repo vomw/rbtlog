@@ -2643,6 +2643,20 @@
       "error": null
     }
   ],
+  "dc471a8e7816e4907a07202d929f05ceabedd6649220d03bf8cb81b2d1e871e5": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.12.1/Podcini.X-free-arm64-v8a-10.12.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 269,
+      "version_name": "10.12.1",
+      "tag": "v10.12.1",
+      "commit": "f10a7af8b5e128f15c4c4d95bfad76fa17b6eb16",
+      "timestamp": 1773755483,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5873,6 +5887,20 @@
       "tag": "v4.13.1",
       "commit": "1591f608eeadf594e55bae4043a18a66eaaff618",
       "timestamp": 1773508993,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9d8f8b02d980730b69c8cd439f10c8b823c5c922322b0166482526dbb190b1e6": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v5.1.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 31,
+      "version_name": "5.1.0",
+      "tag": "v5.1.0",
+      "commit": "7dade4d3331c3c089d447cc20476eb5a9b39d894",
+      "timestamp": 1773778586,
       "reproducible": true,
       "error": null
     }
@@ -11767,6 +11795,20 @@
       "tag": "v1.10.0/84",
       "commit": "86d9573f366fd020b5ac9a8804da0cd3326bcf7f",
       "timestamp": 1768143002,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e5b8a7730659d61c3f209970de20067a74f878124933cc135be95c2bc597382": [
+    {
+      "repository": "https://github.com/farfromrefug/EnforceDoze.git",
+      "apk_url": "https://github.com/farfromrefug/EnforceDoze/releases/download/v1.10.1/85/app-release.apk",
+      "appid": "com.akylas.enforcedoze",
+      "version_code": 85,
+      "version_name": "1.10.1",
+      "tag": "v1.10.1/85",
+      "commit": "06434e63f4a7e58132ed0239d05a9801aadcbb64",
+      "timestamp": 1773755745,
       "reproducible": true,
       "error": null
     }
@@ -25259,6 +25301,20 @@
       "tag": "v0.4.7-alpha",
       "commit": "cac4fef713e756746b9a32f348ae8e6411007416",
       "timestamp": 1772810235,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3daac265bad981fb87a00e3c7dc6f6a58e54336cedc7bf1eea045052852b8b2f": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.4.8-alpha/YagniLauncher-v0.4.8-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 48,
+      "version_name": "0.4.8-alpha",
+      "tag": "v0.4.8-alpha",
+      "commit": "9c5a669a487480c7156562efe3b7db5441e48f08",
+      "timestamp": 1773755841,
       "reproducible": true,
       "error": null
     }
@@ -42665,6 +42721,20 @@
       "error": null
     }
   ],
+  "2ce827e76cbb33d16390d52e9b2a3bd8cd1bc2029824249f317c1811865eaa43": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.7.7/SpeakThat-NoUpdater-v1.7.7.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 51,
+      "version_name": "1.7.7",
+      "tag": "v1.7.7",
+      "commit": "efbd3549e87e638bc6e048afa72f6019c3fbda78",
+      "timestamp": 1773776397,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -47529,6 +47599,20 @@
       "tag": "v7.9.1",
       "commit": "c8df26effddf053f3d3c5dd5c7d3ade1829a4d09",
       "timestamp": 1772810507,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f414e946435f98c2f2d7e53cef8a194ccab9838b6fd45e71cfeb20ba0aff265f": [
+    {
+      "repository": "https://github.com/Crustack/NotallyX.git",
+      "apk_url": "https://github.com/Crustack/NotallyX/releases/download/v7.10.0/NotallyX-7.10.0.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 71000,
+      "version_name": "7.10.0",
+      "tag": "v7.10.0",
+      "commit": "9508b70bd32d4f515d3cc83de8c3c19294e09385",
+      "timestamp": 1773756074,
       "reproducible": true,
       "error": null
     }
@@ -52447,6 +52531,20 @@
       "error": null
     }
   ],
+  "c3d69b1917312e3fef7884173ddf9db3a0b0dc1956dc3945460fc0f82787c74f": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v4.3/Quotes-app-v4.3.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 38,
+      "version_name": "4.3",
+      "tag": "v4.3",
+      "commit": "12042779d12068373f188da6efef09f6e986ef82",
+      "timestamp": 1773756439,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d63f5f50a5e435bc8cb506d42cf9c2d53761f9e73721ad8c7fae51e2732665a2": [
     {
       "repository": "https://github.com/shynoiddev/FireWall-Blocks.git",
@@ -57145,6 +57243,20 @@
       "error": null
     }
   ],
+  "602355fb3794997923b6d9360f134f2fcac9415c0744bfa947cb6bf4d0281886": [
+    {
+      "repository": "https://github.com/soundcrowd/soundcrowd.git",
+      "apk_url": "https://github.com/soundcrowd/soundcrowd/releases/download/v4.3.2/soundcrowd.apk",
+      "appid": "com.tiefensuche.soundcrowd",
+      "version_code": 85,
+      "version_name": "4.3.2-release",
+      "tag": "v4.3.2",
+      "commit": "cfc4fcb4a67b6704f9a0f11b82c500312e19102e",
+      "timestamp": 1773758942,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "df3961fd882594edce427849877bde2d6756a5683165f2258c77481a530aaa87": [
     {
       "repository": "https://github.com/tiendnm/zukulock.git",
@@ -59059,6 +59171,34 @@
       "tag": "v2.4.9",
       "commit": "93743dae202b1333b545b240189caf8f3906fbb4",
       "timestamp": 1773690459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "699183748e5d0417d70dcaf3dad164a2b8856e612cb85861cb87b17de1d68103": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.6.0/NerdCalci-v2.6.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 260,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "2cb1a9db783e9d568e163cb85e5781a6aa850523",
+      "timestamp": 1773756764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2571c441fbb4a5d3da8eab03ebb92986a86ac07ed6ffb98f3de6cac8299bf48c": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.6.1/NerdCalci-v2.6.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 261,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "be3b1220c2f684058f3dbfcdc992b77d4767f160",
+      "timestamp": 1773776730,
       "reproducible": true,
       "error": null
     }
@@ -74243,6 +74383,20 @@
       "error": null
     }
   ],
+  "d2385f89ffdb53ebd7b5b481a1539c10379e33a0382f9f14238cf73ad42ec5a4": [
+    {
+      "repository": "https://github.com/ThomasNowProductions/YAM-Launcher.git",
+      "apk_url": "https://github.com/ThomasNowProductions/YAM-Launcher/releases/download/v2.2/yamlauncher-2.2.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 16,
+      "version_name": "2.2",
+      "tag": "v2.2",
+      "commit": "a27ead3f6891eed9029bf91a1fc257bf5e31fce4",
+      "timestamp": 1773756878,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "12bfd45ff2f0c67881bd808ea2d17129161b732d7271d79cf000f84117006d98": [
     {
       "repository": "https://github.com/rafareborn/biometric-bypass.git",
@@ -74281,6 +74435,20 @@
       "tag": "v1.0.2",
       "commit": "5aa9b81007694a528045699763e45c502b06f865",
       "timestamp": 1768058243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "842b6f0ea74df37d0e0902ef10314d552ef4fce8b1fc41ebda379b97424c8445": [
+    {
+      "repository": "https://github.com/rafareborn/biometric-bypass.git",
+      "apk_url": "https://github.com/hxreborn/biometric-bypass/releases/download/v2.0.0/app-release.apk",
+      "appid": "eu.rafareborn.biometricbypass",
+      "version_code": 200,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "e4aaa4b29fba3865cac19fae77dee97ce23e95f5",
+      "timestamp": 1773777066,
       "reproducible": true,
       "error": null
     }
@@ -78047,6 +78215,20 @@
       "error": null
     }
   ],
+  "dabbd8c03cd802b0677f1a3a0208d81f51b7396223d9eeb71802c4388d4e522d": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.13/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90613,
+      "version_name": "9.6.13",
+      "tag": "v9.6.13",
+      "commit": "6d08f48481e63a3d77c53805764af07ffd210513",
+      "timestamp": 1773756985,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "8ccc05da19cafcaf3eace9ef4576892d1ccb281ec7286d0db3b10c085ce4b320": [
     {
       "repository": "https://github.com/Legandy/EnigmaBridge.git",
@@ -78505,6 +78687,20 @@
       "tag": "1.6",
       "commit": "dc8a2f9bf7151c4a4e0d03d320e1a41468bfb8eb",
       "timestamp": 1770238764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "75dab8d5d2d7b744fbe6785ffcead3585737fd85f8c530a9b08997629d46f71a": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.7/play-on-dlna-1.7.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 8,
+      "version_name": "1.7",
+      "tag": "1.7",
+      "commit": "5f52c414a4f8c42c4826a9dd0e4411c34a6e27c9",
+      "timestamp": 1773757342,
       "reproducible": true,
       "error": null
     }
@@ -82453,6 +82649,20 @@
       "tag": "3.0.0",
       "commit": "6a5b772ddf063cac8159418eba65f4e06205664c",
       "timestamp": 1772391672,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "21795ffe13609d7e6b2befb22dbf9c8a22b11340b2acbde0b2035154542af6b1": [
+    {
+      "repository": "https://github.com/dfyockey/RomanDigital.git",
+      "apk_url": "https://github.com/dfyockey/RomanDigital/releases/download/3.0.1/romandigital.apk",
+      "appid": "net.diffengine.romandigitalclock",
+      "version_code": 16,
+      "version_name": "3.0.1",
+      "tag": "3.0.1",
+      "commit": "e0b4afc1e805f2641d3d3a3af2dc1f5f5120f099",
+      "timestamp": 1773757727,
       "reproducible": true,
       "error": null
     }
@@ -97011,6 +97221,20 @@
       "tag": "v0.7.3",
       "commit": "bdbd2c8834a4692f30fd93fe440fef3c9fd6a98f",
       "timestamp": 1773588187,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c8fa5cb8e38fc7f89e0071df2914976fd097921470a97c8c266b6524d17f1d1": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.4/mindwtr-0.7.4-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 48,
+      "version_name": "0.7.4",
+      "tag": "v0.7.4",
+      "commit": "06014dce157a22ef77a6c7695edd8f058af5cfb4",
+      "timestamp": 1773759167,
       "reproducible": true,
       "error": null
     }

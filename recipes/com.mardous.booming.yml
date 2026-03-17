@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/mardous/BoomingMusic.git
-updates: releases
+updates: disabled
+notes:
+  - disabled 2026-03-17 as repo has disappeared
 versions:
   - tag: v1.0.2
     apks:
