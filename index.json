@@ -2657,6 +2657,20 @@
       "error": null
     }
   ],
+  "f85245363ca097386d7dfc0957e78b2c17fc3afb81a0b5851af1900fbe14a883": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.12.2/Podcini.X-free-arm64-v8a-10.12.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 270,
+      "version_name": "10.12.2",
+      "tag": "v10.12.2",
+      "commit": "b3111980250a63345bb94c1508fa3b26f67d45ac",
+      "timestamp": 1773863009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -3941,6 +3955,20 @@
       "tag": "4.3.1",
       "commit": "56306735bd9620de16db51eb251f6e5358ea45ec",
       "timestamp": 1772290527,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ae4356b305f1b3ce94c1a34a6ebd4b04105322ae9c451cd7e2dc51cd7910da9a": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.3.4/flicky-4.3.4-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 881,
+      "version_name": "4.3.4",
+      "tag": "4.3.4",
+      "commit": "b9927e709bc2c3de5392ee762e0b354a11075386",
+      "timestamp": 1773841866,
       "reproducible": true,
       "error": null
     }
@@ -25333,6 +25361,20 @@
       "error": null
     }
   ],
+  "cf941d06cd59024605e83d9f30329498b4fde580574e3a352d375799d0f90a4f": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.4.9-alpha/YagniLauncher-v0.4.9-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 49,
+      "version_name": "0.4.9-alpha",
+      "tag": "v0.4.9-alpha",
+      "commit": "0d51cb62f515b91e333ea80641ec2d8114d888f5",
+      "timestamp": 1773842098,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -39211,6 +39253,20 @@
       "error": null
     }
   ],
+  "c6f9828863d5497cb59ac981266b67014773c896dce9c4fad08abbeeb674d1ca": [
+    {
+      "repository": "https://github.com/UrbanVue/linked_camera.git",
+      "apk_url": "https://github.com/UrbanVue/linked_camera/releases/download/v1.3/linked-camera-v1.3.apk",
+      "appid": "com.linkedcamera.app",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "v1.3",
+      "commit": "93328fa3a29729e3fce9af837e4d413110a270f3",
+      "timestamp": 1773869436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "691f91f559acf2898e51359d5df2585ec126201faf86df1bec578809864b9212": [
     {
       "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
@@ -43849,6 +43905,20 @@
       "tag": "v1.2.1+15",
       "commit": "ee3ee9efb373a52f5ab6ce8980675c12bc0d4877",
       "timestamp": 1773430799,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ea23d2cf39f8e65765aefd670cdc1fe7fe67a5661266162de79160c5effb9399": [
+    {
+      "repository": "https://github.com/Nandanrmenon/florid.git",
+      "apk_url": "https://github.com/Nandanrmenon/florid/releases/download/1.3.0%2B16/florid-1.3.0%2B16-arm64-v8a.apk",
+      "appid": "com.nahnah.florid",
+      "version_code": 2016,
+      "version_name": "1.3.0",
+      "tag": "1.3.0+16",
+      "commit": "45e762b9b9040494a05b1988e24fb8d3b6fd3ea5",
+      "timestamp": 1773863640,
       "reproducible": true,
       "error": null
     }
@@ -48678,6 +48748,20 @@
       "commit": "4d45fd6fb9e91c50fad446788a0a0f5347e6dcd5",
       "timestamp": 1771782313,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "a042ff781543841bb2f223e68a71fe1b9388ee209a30b1301c4b95a397e130cc": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2026.03.18.1/2026.03.18.1-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111130,
+      "version_name": "2026.03.18.1",
+      "tag": "2026.03.18.1",
+      "commit": "6f6a0a72762221125aaeb2c622d590d8c0c7aaa2",
+      "timestamp": 1773864377,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -54385,6 +54469,20 @@
       "tag": "5.7.0",
       "commit": "7d22d9b64cd930a8e7c75dc463a1b6e5ed204c92",
       "timestamp": 1772723833,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f45b7d4395ed6de374e97978c8a161d71559fb0eabc960544c44395edbb422da": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.7.1/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5710,
+      "version_name": "5.7.1",
+      "tag": "5.7.1",
+      "commit": "8c62fc3ad07a68df1c0825a9efd7780cb3fe2bea",
+      "timestamp": 1773842855,
       "reproducible": true,
       "error": null
     }
@@ -66253,6 +66351,20 @@
       "error": null
     }
   ],
+  "40e6aca728eb2e1c81f3e4fe0b250025eba07e17b30df6f5f67ab1a2375c4361": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/2.0.0/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 102,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "b244af8f9e51c4eb16297a43264836f4b0fb74ed",
+      "timestamp": 1773864929,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "452e321ee5f48030331edd5e55ca936ddd2b20488ced726ad96d467fc04ca5e5": [
     {
       "repository": "https://github.com/nfcgate/nfcgate.git",
@@ -74005,6 +74117,20 @@
       "error": null
     }
   ],
+  "00de4b0bcb8f49961841dfd7e53513e02861da1f27bc5a9318f0b29dfa22142f": [
+    {
+      "repository": "https://github.com/hxreborn/cleanshare.git",
+      "apk_url": "https://github.com/hxreborn/cleanshare/releases/download/v3.0.0/app-release.apk",
+      "appid": "eu.hxreborn.cleanshare",
+      "version_code": 300,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "a7b9ed6ffef06ac087cb92fb1c42dd3a780e1b37",
+      "timestamp": 1773867209,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5ead5832723cc440963c6bc494e7deb3dfda8226515ddd077fab059f474b5ba5": [
     {
       "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
@@ -74173,6 +74299,20 @@
       "error": null
     }
   ],
+  "4d4b90546dca2938391df2dcdecd8e312f922569ec5620a02201c25bf21f564b": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.0.0/phdp-v2.0.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 20228,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "1a8399ce1131a24fb8a66cf588a46c9ab902303b",
+      "timestamp": 1773868419,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
     {
       "repository": "https://github.com/hxreborn/remember-my-sort.git",
@@ -74225,6 +74365,20 @@
       "tag": "v2.0.1",
       "commit": "ef31320fd495b2d8ac23b42eff4fbfc6d6ef601c",
       "timestamp": 1773157644,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eed044f80e8cd94065660086c284d6a38cd9ab8a20a801def27b390cb31bec34": [
+    {
+      "repository": "https://github.com/hxreborn/remember-my-sort.git",
+      "apk_url": "https://github.com/hxreborn/remember-my-sort/releases/download/v3.0.0/app-release.apk",
+      "appid": "eu.hxreborn.remembermysort",
+      "version_code": 300,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "df217274040f5b3aebe2f364dade13ba07b13051",
+      "timestamp": 1773856413,
       "reproducible": true,
       "error": null
     }
@@ -76211,6 +76365,20 @@
       "tag": "0.23.14.1",
       "commit": "543a8fd8fd43f71b1fb37e948644c2909fec6ff3",
       "timestamp": 1772742552,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ec9f3f06ec627b20b8076dc15e24afdc83ebdc20ac9b8c5ad0f070659f002af8": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.23.15.1/freetube-0.23.15.1-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 230015001,
+      "version_name": "0.23.15.1",
+      "tag": "0.23.15.1",
+      "commit": "bffe9620d23f47016304b5e2e499cd9af2c12326",
+      "timestamp": 1773843324,
       "reproducible": true,
       "error": null
     }
@@ -78733,6 +78901,20 @@
       "error": null
     }
   ],
+  "e8c4f1cd6726b8c367a798aebeff5d6a4e737326c95f44e3eaa13c1ea721babd": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.8/play-on-dlna-1.8.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 9,
+      "version_name": "1.8",
+      "tag": "1.8",
+      "commit": "bb5f389a073f60965651c084a6dc8878f13398aa",
+      "timestamp": 1773843474,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0d4ee776c3bdae0d3c328d53a0717409c30498719d393a5e924a821d247683e8": [
     {
       "repository": "https://github.com/SMS2Email/SMS2Email.git",
@@ -80101,6 +80283,20 @@
       "tag": "v0.7.70",
       "commit": "39b23b23a8f052bbe6bca7f9d65664060b0fd5bf",
       "timestamp": 1772898691,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "bd2d275132b52c7afee973c4ab9e931a51e5a013e69f13d3c0204ff104d5c299": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.71/RiPlay-foss-release-0.7.71.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 71,
+      "version_name": "0.7.71",
+      "tag": "v0.7.71",
+      "commit": "0f4cfa3d3d69af5ffd450b8a2ac24c864adf03b3",
+      "timestamp": 1773843776,
       "reproducible": true,
       "error": null
     }
@@ -82243,6 +82439,20 @@
       "tag": "v12.4.7",
       "commit": "91126d6ab46aae110e0ea6c0673000cfc06beabe",
       "timestamp": 1769081151,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "235524ac631e60c3c9ea13e3973287d3bc8265454e85b30f6e362e3d16d3c9a3": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v13.0.0/app-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 131,
+      "version_name": "13.0.0",
+      "tag": "v13.0.0",
+      "commit": "ec9d0a6900ab09857557d028dfacb4df04ae5833",
+      "timestamp": 1773856070,
       "reproducible": true,
       "error": null
     }
@@ -94519,6 +94729,20 @@
       "tag": "v5.16.0",
       "commit": "3b0a87a88b9b26049f3868bf34675a862e549fd4",
       "timestamp": 1770825808,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b35a6df14ae956acdbcc93f1cafcb7abf742b6336b7cc270b1a1549764c369be": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.0.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 37,
+      "version_name": "6.0.0",
+      "tag": "v6.0.0",
+      "commit": "cc6d7ffc4a04d1a9c869a4bed9fdf087d4cb8e04",
+      "timestamp": 1773865671,
       "reproducible": true,
       "error": null
     }
