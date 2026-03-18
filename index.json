@@ -56977,6 +56977,20 @@
       "error": null
     }
   ],
+  "8d1f069a431a3ea14f65a027f28453cc565196ae6cb3acabaa5012394f58556b": [
+    {
+      "repository": "https://github.com/thssnm/mindfulness-reminder.git",
+      "apk_url": "https://github.com/thssnm/mindfulness-reminder/releases/download/v1.1.1/app-arm64-v8a-release.apk",
+      "appid": "com.theissenmatthias.mindfulness_reminder",
+      "version_code": 2005,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "76cace55395f020c53b0a9254f19cb34d2f4e225",
+      "timestamp": 1773772460,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7385ca1cca2defdcb763d4f3fe7c15699760e6102758b9f941357ba066e214f6": [
     {
       "repository": "https://github.com/neoblackxt/AnyWebView.git",
@@ -95107,6 +95121,20 @@
       "tag": "v0.17.0",
       "commit": "a26a76799b36ae612d911ff0431d94c988dea14a",
       "timestamp": 1773003545,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "56f3c57a2593c9b9cb1715c136b66c1548ebc139a7c3d93556fec8770e418770": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.17.2/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 50,
+      "version_name": "0.17.2",
+      "tag": "v0.17.2",
+      "commit": "33fd381e84cdffec23e362f7fa91c910cc8b83d0",
+      "timestamp": 1773833062,
       "reproducible": true,
       "error": null
     }
