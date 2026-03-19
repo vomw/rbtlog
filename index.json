@@ -2671,6 +2671,20 @@
       "error": null
     }
   ],
+  "0edc8ada8bf6b9d1879c36dbe1b5773420cb1e946382e2abac99086a43270957": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.12.3/Podcini.X-free-arm64-v8a-10.12.3.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 271,
+      "version_name": "10.12.3",
+      "tag": "v10.12.3",
+      "commit": "e7931d7518398567b5adf479a7122a131b22522a",
+      "timestamp": 1773949321,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5929,6 +5943,20 @@
       "tag": "v5.1.0",
       "commit": "7dade4d3331c3c089d447cc20476eb5a9b39d894",
       "timestamp": 1773778586,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ab3baf7db9a3e74e422ba8ebc04fdd51178f5c6dabfdf58a258dd42f932bfb42": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v5.2.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 32,
+      "version_name": "5.2.0",
+      "tag": "v5.2.0",
+      "commit": "3695bbcfafc80185a4cb1a39531d944c6e7b413b",
+      "timestamp": 1773949971,
       "reproducible": true,
       "error": null
     }
@@ -19777,6 +19805,20 @@
       "error": null
     }
   ],
+  "f11b6f6c8a4265adf5c67fb168e8852aa2d1402882cdac844c027d2aea034fda": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.51/networksurvey-1.51-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 20110,
+      "version_name": "1.51",
+      "tag": "v1.51",
+      "commit": "9916d5564ea44ba698a18fcd728ce052004bd56a",
+      "timestamp": 1773953168,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
     {
       "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
@@ -25371,6 +25413,20 @@
       "tag": "v0.4.9-alpha",
       "commit": "0d51cb62f515b91e333ea80641ec2d8114d888f5",
       "timestamp": 1773842098,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "af65969c01ec4d06f4846281a4a3761fec86bf6e71e0bde3dd041cbc7947beea": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.0-alpha/YagniLauncher-v0.5.0-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 50,
+      "version_name": "0.5.0-alpha",
+      "tag": "v0.5.0-alpha",
+      "commit": "cbc06f9519a254d75878b248f67f940be302da00",
+      "timestamp": 1773928309,
       "reproducible": true,
       "error": null
     }
@@ -39533,6 +39589,20 @@
       "error": null
     }
   ],
+  "ca46b96cbadba42d126caebf94136c1aa6de05440fb38cd4937a64652362313d": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.7.1/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 710,
+      "version_name": "0.7.1",
+      "tag": "v0.7.1",
+      "commit": "95f470df604b59064c0ad2b498cb2e14e7846ad0",
+      "timestamp": 1773928559,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "73b0076b9005341778eb2b27cb4b31a47e4d13b498aa2a3a2bf560f6fdc4794d": [
     {
       "repository": "https://github.com/Iamlooker/Kenko.git",
@@ -47837,6 +47907,20 @@
       "tag": "v1.1.4",
       "commit": "3f7307cf0068bdc4f3b8fd9e6c2c32cc9cb33050",
       "timestamp": 1773153371,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "233ee990a45a23477cb754d1775959e7365a29f9aacd971589902703847b05ff": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.5/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2025,
+      "version_name": "1.1.5",
+      "tag": "v1.1.5",
+      "commit": "971d42fd207ae29099e2ab31caa669b83ca1187b",
+      "timestamp": 1773928935,
       "reproducible": true,
       "error": null
     }
@@ -57103,6 +57187,20 @@
       "error": null
     }
   ],
+  "9cec042f67a9497f1ceccfa54f0d53630aa492c699cc76f5c99d0602a4efda4f": [
+    {
+      "repository": "https://github.com/thssnm/mindfulness-reminder.git",
+      "apk_url": "https://github.com/thssnm/mindfulness-reminder/releases/download/v1.1.2/app-arm64-v8a-release.apk",
+      "appid": "com.theissenmatthias.mindfulness_reminder",
+      "version_code": 2006,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "239f47696613804496429e88827ef507e39f5b7e",
+      "timestamp": 1773929341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7385ca1cca2defdcb763d4f3fe7c15699760e6102758b9f941357ba066e214f6": [
     {
       "repository": "https://github.com/neoblackxt/AnyWebView.git",
@@ -59325,6 +59423,20 @@
       "tag": "v2.6.1",
       "commit": "be3b1220c2f684058f3dbfcdc992b77d4767f160",
       "timestamp": 1773776730,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "03a68ba6c2cc0c5ec21e6d12b1e1813cb45b67ba228b6f2b7ad19d2b7a5126d1": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v2.7.0/NerdCalci-v2.7.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 270,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "49e2530a96b0979c743465f91755b048ee9f50a6",
+      "timestamp": 1773950435,
       "reproducible": true,
       "error": null
     }
@@ -72801,6 +72913,20 @@
       "error": null
     }
   ],
+  "ec75ba21540f1e05f5bdad1c6fd7714ce781fe17a65b7c1d3ad56691f425efcc": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.6.5-rc0/eu.darken.sdmse-v1.6.5-rc0-10605000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10605000,
+      "version_name": "1.6.5-rc0",
+      "tag": "v1.6.5-rc0",
+      "commit": "0f36c101554564c40183574e4a52a19779f330f4",
+      "timestamp": 1773950805,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -75150,6 +75276,20 @@
       "commit": "70c875ebb575d218bc3f370bccdb106840529c33",
       "timestamp": 1773659544,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "e228efa7e2f34bbff5607c071d42cd50497813163740fa3ac47478a1c2c9cff2": [
+    {
+      "repository": "https://github.com/256x/launcher.git",
+      "apk_url": "https://github.com/256x/launcher/releases/download/v1.1.0/literallauncher_v1.1.0.apk",
+      "appid": "fumi.day.literallauncher",
+      "version_code": 10,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "a92e9aa77188a3dd0e47f78d23664f8f125377d7",
+      "timestamp": 1773929725,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -82047,6 +82187,20 @@
       "tag": "v2.1.2",
       "commit": "6aec10e7c33d5a43c62a483c9cdb5eb051b21091",
       "timestamp": 1773586669,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c44e30728a7a15866bedd86387818418083a2dbf4eec38a7e712719bbcbb8bb9": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.1.3/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 134,
+      "version_name": "2.1.3-izzy",
+      "tag": "v2.1.3",
+      "commit": "d6817429c59faec1b120b51fd0bfcbe70072ea0b",
+      "timestamp": 1773934004,
       "reproducible": true,
       "error": null
     }
@@ -97515,6 +97669,20 @@
       "tag": "v0.7.4",
       "commit": "06014dce157a22ef77a6c7695edd8f058af5cfb4",
       "timestamp": 1773759167,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "51401699900c8aba58b87d3f1c5270dbb1a99bf88400d13811e43faba36c66b9": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.5/mindwtr-0.7.5-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 49,
+      "version_name": "0.7.5",
+      "tag": "v0.7.5",
+      "commit": "e791e0cf95ee1d8322cdff995424f703ba4f4eac",
+      "timestamp": 1773934904,
       "reproducible": true,
       "error": null
     }
