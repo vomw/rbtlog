@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/tymwitko/Recents.git
 updates: releases
-notes:
-  - asked to disable native library stripping, so we can remove NDK again
 versions:
   - tag: v1.0.4
     apks:
