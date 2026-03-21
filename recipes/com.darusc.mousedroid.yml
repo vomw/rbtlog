@@ -1,8 +1,8 @@
 ---
 repository: https://github.com/darusc/Mousedroid.git
 notes:
-  - 'FIXME: hold back as signing key changed, waiting for fix at https://github.com/darusc/Mousedroid/issues/33 '
-updates: releases
+  - 'FIXME: hold back as signing key changed, waiting for fix at https://github.com/darusc/Mousedroid/issues/33 (updates disabled now as it has been a week without response)'
+updates: disabled
 versions:
   - tag: v1.4
     apks:

@@ -41,6 +41,20 @@
       "error": null
     }
   ],
+  "9b76b75e0a531f932835c3be7786a83c125148f9125bbac3fe8210da03ba2755": [
+    {
+      "repository": "https://github.com/naive-HA/subrosa.git",
+      "apk_url": "https://github.com/naive-HA/subrosa/releases/download/1.0.9/subrosa.1.0.9.apk",
+      "appid": "acab.naiveha.subrosa",
+      "version_code": 6,
+      "version_name": "1.0.9",
+      "tag": "1.0.9",
+      "commit": "8212d65cf44618360dc35fcbd598fddee137fe1c",
+      "timestamp": 1774101086,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "99424835225eed0e49c6a9656de066fa3f3b52b9dab6dd3230bcdda167a8e7cf": [
     {
       "repository": "https://github.com/naive-HA/UpnpKino.git",
@@ -2695,6 +2709,20 @@
       "tag": "v10.13.0",
       "commit": "e6fa6cd130bf500b4762377280d0c6f5f49b39d8",
       "timestamp": 1774039912,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d49fb2b561099cda99c8eec0220fbbdbc5d40078a98c0796b5e881d1008eb80f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.13.1/Podcini.X-free-arm64-v8a-10.13.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 273,
+      "version_name": "10.13.1",
+      "tag": "v10.13.1",
+      "commit": "4308f51222e6256c18c260915a2e962bca2a4986",
+      "timestamp": 1774121833,
       "reproducible": true,
       "error": null
     }
@@ -6003,6 +6031,20 @@
       "error": null
     }
   ],
+  "0b67aed964488eb924ec6c3308ebb1bfc511062cad4d1192f1f8576bd9a2a52c": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v5.2.1/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 33,
+      "version_name": "5.2.1",
+      "tag": "v5.2.1",
+      "commit": "afc5759c87d2ba64fa5786cd28d3c937d25aba8a",
+      "timestamp": 1774122477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9233,6 +9275,20 @@
       "tag": "v1.8.0",
       "commit": "041ebe67f053f9c9cd61255ce88d00b24f4da685",
       "timestamp": 1773323778,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f54b23117c762dc119ff53ef198d199beafd92f2376cb9f10d2fccf247e49c17": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.9.0/UmihiMusic.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 10900,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "5a19aa78ad9aa3f18cfd7fcdd8a32707deedf7bf",
+      "timestamp": 1774101205,
       "reproducible": true,
       "error": null
     }
@@ -14961,6 +15017,20 @@
       "error": null
     }
   ],
+  "85a2f00b73a3dfee2b99cf6d074b6e88c12a67ce3e30eb616e5ec265b6ec24e8": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.5.7/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 13,
+      "version_name": "1.5.7",
+      "tag": "v1.5.7",
+      "commit": "112baf5593afaba6342af41265c03a6991186942",
+      "timestamp": 1774116477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
     {
       "repository": "https://github.com/BKK31/budgetlens.git",
@@ -19983,6 +20053,20 @@
       "tag": "v0.2.0-beta",
       "commit": "a5fc623a74b341ebeff34b1b45065deaa82fc84e",
       "timestamp": 1772486681,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f23a066488b611d4a75a860bbb6b81dbe69d8e256135a2ad52896bec59d06618": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v0.3.0-beta/wifi-audio-streaming-v0.3.0-beta.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 3,
+      "version_name": "0.3.0-beta",
+      "tag": "v0.3.0-beta",
+      "commit": "6b8d431bbf5f71183c2cf62cb6ed5f44cecd95ae",
+      "timestamp": 1774125507,
       "reproducible": true,
       "error": null
     }
@@ -25497,6 +25581,20 @@
       "tag": "v0.5.1-alpha",
       "commit": "750a08bfeb1b7640dad5d3db2bd5d93d8fa61b37",
       "timestamp": 1774015399,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dbdbf9ab8f5e9e26da61ee87aa83ec14b27ceab6273fd3e7a30bb07a9ff735bc": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.2-alpha/YagniLauncher-v0.5.2-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 52,
+      "version_name": "0.5.2-alpha",
+      "tag": "v0.5.2-alpha",
+      "commit": "523d6663222c4fde859855816e7cec66b6aab66a",
+      "timestamp": 1774101900,
       "reproducible": true,
       "error": null
     }
@@ -56949,6 +57047,20 @@
       "error": null
     }
   ],
+  "bc20e7cf76a5707a9b84face90be7358e7b18e54aed29c4bfd75083de7767614": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v54/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 275,
+      "version_name": "54",
+      "tag": "v54",
+      "commit": "9afff4258f391a059e23026ecf98b1128896912a",
+      "timestamp": 1774122972,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -58765,6 +58877,20 @@
       "tag": "v1.0.5",
       "commit": "acae385c328f18d68492d7d2992a510a860a3aec",
       "timestamp": 1773504341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0ca78398216b1dede14180d3acffc44ab4cd50aebe28c69f0e768e0a69f2ff1a": [
+    {
+      "repository": "https://github.com/tymwitko/Recents.git",
+      "apk_url": "https://github.com/tymwitko/Recents/releases/download/v1.0.7/app-release.apk",
+      "appid": "com.tymwitko.recents",
+      "version_code": 11,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "9a786ede59c1aa090399c89c058065425995f097",
+      "timestamp": 1774102152,
       "reproducible": true,
       "error": null
     }
@@ -67905,6 +68031,20 @@
       "error": null
     }
   ],
+  "4a2fe89c1a65693998fa3326a3a53de3ee5fc5a44e12e6f1c44c821e31911830": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.0.0/simple-notes-sync-v2.0.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 27,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "4d827ae249e8af99ffb19a35c4940c28fbafc5c4",
+      "timestamp": 1774102264,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -71273,6 +71413,20 @@
       "timestamp": 1760278810,
       "reproducible": true,
       "error": null
+    }
+  ],
+  "b24bc181fe64586aed9c867e45a34ef88aedb1bfe3646ea746dcea965f7bacd4": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v1.4.4/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 9,
+      "version_name": "1.4.4",
+      "tag": "v1.4.4",
+      "commit": "06d6ffaaa660e4f5c0af6475afd8a6c947c69c76",
+      "timestamp": 1774123443,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
@@ -75433,6 +75587,20 @@
       "error": null
     }
   ],
+  "7c8bd377cc55817cecbfc4b67f7fc1f5d0bf94742e996b0ef25e7c3f9b3de656": [
+    {
+      "repository": "https://github.com/oupson/jxlviewer.git",
+      "apk_url": "https://github.com/oupson/jxlviewer/releases/download/0.5.1/app-universal-release.apk",
+      "appid": "fr.oupson.jxlviewer",
+      "version_code": 7,
+      "version_name": "0.5.1",
+      "tag": "0.5.1",
+      "commit": "16b95a730008c18ce71f43fa40993f1442b8914f",
+      "timestamp": 1774123702,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "05a9833f7d31ef7e67ac977958c8e7aabd9e1c609e376dbff66a9e4c70849278": [
     {
       "repository": "https://github.com/richoux/les_sons_en_francais.git",
@@ -75514,6 +75682,20 @@
       "commit": "a92e9aa77188a3dd0e47f78d23664f8f125377d7",
       "timestamp": 1773929725,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "2102034d5fd347e93a1351134662955c28c4fba5a11cfc1800763d874cee1151": [
+    {
+      "repository": "https://github.com/256x/launcher.git",
+      "apk_url": "https://github.com/256x/launcher/releases/download/v1.1.1/literallauncher_v1.1.1.apk",
+      "appid": "fumi.day.literallauncher",
+      "version_code": 11,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "4d0076804bddfbc2f29e2a40972260ad60e5a1d7",
+      "timestamp": 1774103149,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -78327,6 +78509,20 @@
       "error": null
     }
   ],
+  "a37fd6b9539f21deba8514b8eb985d2515c44abb69762c8a18bb20bc36b4939f": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.23.11%2B151/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2151,
+      "version_name": "1.23.11",
+      "tag": "v1.23.11+151",
+      "commit": "fdc948a948001a5816456f78cd78eecc765e7f05",
+      "timestamp": 1774103339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -79471,6 +79667,20 @@
       "tag": "v1.1.17",
       "commit": "3a22f70f7dd50d04a683c170dbccefc5705be766",
       "timestamp": 1773412129,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c4d05dc895893bc31e6e4ef85b45a2bbc891b268a43ba3a36cea5a6bb5392ab5": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.18/SMS2Email-v1.1.18-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 31,
+      "version_name": "1.1.18",
+      "tag": "v1.1.18",
+      "commit": "7c2cecdaa2f07adbbaec3fc9a08e5936e0536650",
+      "timestamp": 1774103980,
       "reproducible": true,
       "error": null
     }
