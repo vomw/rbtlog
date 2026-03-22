@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.5
     apks:
-      - apk_pattern: app-universal-release\.apk
+      - apk_pattern: velune-universal-release\.apk
         apk_url: https://github.com/nikhilvishwakarma00/Velune/releases/download/v1.0.5/velune-universal-release.apk
         build:
           - git reset --soft d5a5fa89dd3e568ffe44f022e4c948c628c3350f
