@@ -57677,6 +57677,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "2fdb22c1c5cf62a849c16dd9f973f7792c65ba834fdd1ec4880faebd59ca28a0": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.0.5/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 15,
+      "version_name": "2.0.5",
+      "tag": "v2.0.5",
+      "commit": "6023cd90b65468edd4d8deecadd31b39099977ee",
+      "timestamp": 1774289768,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8ebc688d20d0b0e7002f8eed98c7d105a76f1858415cdcd67cf7021851d0a4da": [
     {
       "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
@@ -79223,6 +79237,20 @@
       "error": null
     }
   ],
+  "0bb15c04c198b1caa46fcd449fdf0aed9ed17e43cc9ffbf2613a57add5b541e1": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.6.14/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90614,
+      "version_name": "9.6.14",
+      "tag": "v9.6.14",
+      "commit": "2c5833df7783e0f0dcaeea743ee86f6aaaaf18ba",
+      "timestamp": 1774267608,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8ccc05da19cafcaf3eace9ef4576892d1ccb281ec7286d0db3b10c085ce4b320": [
     {
       "repository": "https://github.com/Legandy/EnigmaBridge.git",
@@ -94001,6 +94029,20 @@
       "tag": "v1.3",
       "commit": "447045c503c174a41e2405c8c63f4bd4c0410643",
       "timestamp": 1771602432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a3f4c9c8d544525f4a35812e2780d4be1881b838d076c3203e00fe720c6b48f4": [
+    {
+      "repository": "https://github.com/TheGandabherunda/OpenJot.git",
+      "apk_url": "https://github.com/TheGandabherunda/OpenJot/releases/download/v1.0.0/app-arm64-v8a-release.apk",
+      "appid": "org.thegandabherunda.openjot",
+      "version_code": 2001,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "bcac59a2fa476f1311d9384c6f73bf763355f964",
+      "timestamp": 1774279805,
       "reproducible": true,
       "error": null
     }
