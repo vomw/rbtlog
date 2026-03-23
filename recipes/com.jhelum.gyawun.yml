@@ -1,11 +1,12 @@
 ---
 repository: https://github.com/jhelumcorp/gyawun.git
-updates: releases
+updates: disabled
 notes:
   - asked upstream for adding Flutter version to their pubspec.yaml etc, see https://github.com/sheikhhaziq/gyawun/issues/242
   - Flutter version will be in .fvmrc starting with the release following 2.0.15
   - build for v2.0.16 fails entirely, see https://github.com/sheikhhaziq/gyawun_music/issues/242#issuecomment-3782027992
   - 'FIXME: remove sed for pubspec.yaml with next release'
+  - all updates disabled for now, as dev does not respond (neither to the NonFreeComp introduced with v2.0.18)
 versions:
   - tag: 2.0.15
     apks:

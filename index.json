@@ -2727,6 +2727,20 @@
       "error": null
     }
   ],
+  "15bd99fd4b2c330123021ace6b51009d09719d61c9d586678eafe3afbd48eb84": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.13.2/Podcini.X-free-arm64-v8a-10.13.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 274,
+      "version_name": "10.13.2",
+      "tag": "v10.13.2",
+      "commit": "374bc88775d3600711d01b90cb6472cadc3e3600",
+      "timestamp": 1774273931,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -20141,6 +20155,34 @@
       "error": null
     }
   ],
+  "9620efe2698bdcdc6044d14a31f270fe34269680197f64dac8ba8c69f90504b1": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v0.3.2-beta/wifi-audio-streaming-v0.3.2-beta.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 5,
+      "version_name": "0.3.2-beta",
+      "tag": "v0.3.2-beta",
+      "commit": "0260d60150d8aef2dac8d66875175ca0a4766d55",
+      "timestamp": 1774274185,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d5a0c2a737a33860c58baf917e251fc432e1179f1922cc985ff3aa3340e3c56c": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v0.3.3-beta/wifi-audio-streaming-v0.3.3-beta.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 6,
+      "version_name": "0.3.3-beta",
+      "tag": "v0.3.3-beta",
+      "commit": "a391907da7bb4a5c32e5614d5e1f5334d822a7a4",
+      "timestamp": 1774294638,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "91593d060b428dfd34424b3d2a164870ac262af06e19080962691b5becab335a": [
     {
       "repository": "https://github.com/cworld1/notie.git",
@@ -25665,6 +25707,20 @@
       "tag": "v0.5.2-alpha",
       "commit": "523d6663222c4fde859855816e7cec66b6aab66a",
       "timestamp": 1774101900,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e8dab58ed0e0ec91633f352e4c532c28043d7263df3f57b611683873ca20c76": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.3-alpha/YagniLauncher-v0.5.3-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 53,
+      "version_name": "0.5.3-alpha",
+      "tag": "v0.5.3-alpha",
+      "commit": "ff033a480ad5ff00317512de1a28671ed171ce4e",
+      "timestamp": 1774274334,
       "reproducible": true,
       "error": null
     }
@@ -31695,6 +31751,20 @@
       "error": null
     }
   ],
+  "bc6164c576154dd4183b7b96fbfead520d52852522082abfe1e27ed675f2768d": [
+    {
+      "repository": "https://github.com/tmo1/sms-ie.git",
+      "apk_url": "https://github.com/tmo1/sms-ie/releases/download/v2.9.0/com.github.tmo1.sms_ie-v2.9.0-standard-release.apk",
+      "appid": "com.github.tmo1.sms_ie",
+      "version_code": 10114,
+      "version_name": "2.9.0-standard",
+      "tag": "v2.9.0",
+      "commit": "ece9118a52a53ed1e3e93abb296d49548a56df66",
+      "timestamp": 1774274579,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "574c03b881378a7b0d90bc5825d79bc7a2d16299a15463088fc5db50e18df13f": [
     {
       "repository": "https://github.com/umer0586/DroidPad.git",
@@ -35399,6 +35469,20 @@
       "tag": "v1.0.14",
       "commit": "038bbbdf288fff94ed65734c554a6e1214a9be72",
       "timestamp": 1770912336,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0f399a8d80181f58b5454f2ea2ae9a26e91fa688d7f4e0d03364b396e2e149c5": [
+    {
+      "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
+      "apk_url": "https://github.com/Harshshah6/SaavnMp3-Android/releases/download/v1.0.15/Melotune-1.0.15-nofirebaseRelease.apk",
+      "appid": "com.harsh.shah.saavnmp3",
+      "version_code": 9,
+      "version_name": "1.0.15",
+      "tag": "v1.0.15",
+      "commit": "d49ecbd22745bf01c410f6d714bc71c40a7f31a8",
+      "timestamp": 1774294978,
       "reproducible": true,
       "error": null
     }
@@ -48373,6 +48457,20 @@
       "error": null
     }
   ],
+  "195f0b42a57d8f0884cfe53e9e941509ca222d46f575354bb03b6bbc9a6737c9": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.1.1/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2015,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "3aa9ac6a63d99df6becea39edfe8950adcac11ec",
+      "timestamp": 1774295345,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da4ad5504e424cea84b91f672513b7417d07dd8a0087cd78f2d3d2db88b3f610": [
     {
       "repository": "https://gitlab.com/narektor/batt.git",
@@ -57635,6 +57733,20 @@
       "error": null
     }
   ],
+  "6ddcdc9b6146acf65267e4006fa46b99575599fd04cedd8a95c3c3a18ef6b57f": [
+    {
+      "repository": "https://github.com/thssnm/mindfulness-reminder.git",
+      "apk_url": "https://github.com/thssnm/mindfulness-reminder/releases/download/v1.1.6/app-arm64-v8a-release.apk",
+      "appid": "com.theissenmatthias.mindfulness_reminder",
+      "version_code": 2010,
+      "version_name": "1.1.6",
+      "tag": "v1.1.6",
+      "commit": "25988dfe7f1c81465d9132402238d09c325543fe",
+      "timestamp": 1774274706,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5208908a89de1bd73774210dae139e8f147b81d6808793003380912398b748a3": [
     {
       "repository": "https://github.com/thssnm/remind-me.git",
@@ -59945,6 +60057,20 @@
       "error": null
     }
   ],
+  "7dea3b974b416b748b22f4dc9884d37122cae7d20347aa7434250732d18e837d": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.0.1/NerdCalci-v3.0.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 301,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "cc85e04016b086bf5e6e85f9b4ac86704ccdb1e2",
+      "timestamp": 1774275145,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -60039,6 +60165,20 @@
       "tag": "v1.05.1",
       "commit": "54c1605de7d5bc83f62a13364b8efea53173447e",
       "timestamp": 1768413830,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6e86a10d1f3ace2257f61fbec96f1913c6f582894c448b44ff847248c73ff283": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.06.0/amethyst-fdroid-arm64-v8a-v1.06.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 433,
+      "version_name": "1.06.0",
+      "tag": "v1.06.0",
+      "commit": "7af1be736343fc3a146ffce6cb6f27a9b02948e3",
+      "timestamp": 1774297999,
       "reproducible": true,
       "error": null
     }
@@ -72703,6 +72843,20 @@
       "error": null
     }
   ],
+  "b4d3db4f7f6bfadc3d290bf673ec6f475d538e5370e5e803a84149d5c36cff21": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.2.2-rc1/eu.darken.bluemusic-v3.2.2-rc1-30202010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30202010,
+      "version_name": "3.2.2-rc1",
+      "tag": "v3.2.2-rc1",
+      "commit": "6bc886b64f5ba8b245395a5230082e19ddf70ad5",
+      "timestamp": 1774275270,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -72983,6 +73137,20 @@
       "error": null
     }
   ],
+  "0ff2f71155f38dadb537769c0a27882e89148fb358a710f03e7b08db13335974": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v4.0.3-rc0/eu.darken.capod-v4.0.3-rc0-40003000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 40003000,
+      "version_name": "4.0.3-rc0",
+      "tag": "v4.0.3-rc0",
+      "commit": "9d6ec2b6bbe12d67660a1460a0883d5b643212d7",
+      "timestamp": 1774275574,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -73007,6 +73175,20 @@
       "tag": "v2.0.0-rc0",
       "commit": "df43e8555259c9116498b100daebf9d2148fd510",
       "timestamp": 1774048684,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a8daa60e3e94ae93cf60aa3ad865d90fa63eb90e4f42404b968e29a7b11b7929": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.0.1-rc1/eu.darken.myperm-v2.0.1-rc1-20001010-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20001010,
+      "version_name": "2.0.1-rc1",
+      "tag": "v2.0.1-rc1",
+      "commit": "6716fe169db78b54d1ddae41be7658339339d0ec",
+      "timestamp": 1774296826,
       "reproducible": true,
       "error": null
     }
@@ -75822,6 +76004,20 @@
       "commit": "16b95a730008c18ce71f43fa40993f1442b8914f",
       "timestamp": 1774123702,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "7312f85e046413a0724649cb93f621b29b0032b74bb52e934cb48b3161820e27": [
+    {
+      "repository": "https://github.com/oupson/jxlviewer.git",
+      "apk_url": "https://github.com/oupson/jxlviewer/releases/download/0.5.2/app-universal-release.apk",
+      "appid": "fr.oupson.jxlviewer",
+      "version_code": 8,
+      "version_name": "0.5.2",
+      "tag": "0.5.2",
+      "commit": "3240dcedc41929eac723b8df2c783e8b721163a9",
+      "timestamp": 1774297385,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -92859,6 +93055,20 @@
       "error": null
     }
   ],
+  "cf643fa544ad17fec0f237105b1aee6d541fd78546af95ce969003d6290dd653": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.3.2/KashCal-23.3.2-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 442,
+      "version_name": "23.3.2",
+      "tag": "v23.3.2",
+      "commit": "f6f80bc41dfaa2c97aed1e96f5b17d99efda491c",
+      "timestamp": 1774276074,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -97085,6 +97295,20 @@
       "error": null
     }
   ],
+  "09748924220e3decc18487bd5ab2188d205043ef32937291a2275fdba2450ffd": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.5/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 70,
+      "version_name": "1.9.5",
+      "tag": "1.9.5",
+      "commit": "35dd64004eb642fa2c251833b5d83df8285d49ca",
+      "timestamp": 1774276712,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58aaa2fe59af915f1fe88a560d472bd9aa68ebb75ae7f30444dd8081384ed136": [
     {
       "repository": "https://github.com/BlueCat300/XposedAppSettings.git",
@@ -98439,6 +98663,20 @@
       "tag": "v0.7.5",
       "commit": "e791e0cf95ee1d8322cdff995424f703ba4f4eac",
       "timestamp": 1773934904,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fca6aba8c201494fe3e56f3aef502f5923eabc4ef85c1606513313350e425e32": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.6/mindwtr-0.7.6-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 50,
+      "version_name": "0.7.6",
+      "tag": "v0.7.6",
+      "commit": "deeefc827474bbabd1d58a4e13422590ad9026df",
+      "timestamp": 1774276956,
       "reproducible": true,
       "error": null
     }

@@ -843,3 +843,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v23.3.2
+    apks:
+      - apk_pattern: KashCal-.*-release\.apk
+        apk_url: https://github.com/KashCal/KashCal/releases/download/v23.3.2/KashCal-23.3.2-release.apk
+        build:
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
