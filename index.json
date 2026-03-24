@@ -111,6 +111,20 @@
       "error": null
     }
   ],
+  "3aa5acd1c69d18fc0cff26f0d61014c53f70aa9e3a71336df3f27a008e99881a": [
+    {
+      "repository": "https://github.com/naive-HA/UpnpKino.git",
+      "apk_url": "https://github.com/naive-HA/UpnpKino/releases/download/3.0.0/UPnP.Kino.v3.0.0.apk",
+      "appid": "acab.naiveha.upnpkino",
+      "version_code": 10,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "20e3514e41c6793b301b7e64d3a573a749df838c",
+      "timestamp": 1774375256,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -2737,6 +2751,20 @@
       "tag": "v10.13.2",
       "commit": "374bc88775d3600711d01b90cb6472cadc3e3600",
       "timestamp": 1774273931,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9abe06a47cdb35e96e04b994a8c93c88c965546deb7d3682a34da2ade3e816f6": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.14.0/Podcini.X-free-arm64-v8a-10.14.0.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 275,
+      "version_name": "10.14.0",
+      "tag": "v10.14.0",
+      "commit": "32fddc98eece0c2403b2b689c7e79dda1e67fe75",
+      "timestamp": 1774360287,
       "reproducible": true,
       "error": null
     }
@@ -13323,6 +13351,20 @@
       "error": null
     }
   ],
+  "ba991071aff9d7033f86e673e645bd708bccb2453efea7bf3db32864723f10ad": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/3.0.0/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 2020,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "979dd123636352eda91e24ab1503eaa4c1dc69b5",
+      "timestamp": 1774360616,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -17775,6 +17817,20 @@
       "error": null
     }
   ],
+  "03ee4ea66a402ba812a05d1938ab10e47cd401d5e57df4729759c764001d49b2": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/v2026.03.1203/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1203,
+      "version_name": "2026.03.1203",
+      "tag": "v2026.03.1203",
+      "commit": "7374f781dd132090a5175dcee4d1e67c9ea077d2",
+      "timestamp": 1774361269,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -21345,6 +21401,20 @@
       "error": null
     }
   ],
+  "62e91c9381474c3ff458e84dcb6a75c1747ee1955cda1b83bed4e230b691dfe2": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v4.4.4/easter_eggs_4.4.4_73-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 73,
+      "version_name": "4.4.4",
+      "tag": "v4.4.4",
+      "commit": "e1afdd2eec46cdc0a9bf133744b72e23c345328b",
+      "timestamp": 1774361516,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1a6bc842db822289625042e94a9949ff5e3472649f5191e7ad1326192b56a663": [
     {
       "repository": "https://github.com/deepanjanxyz/notepad.git",
@@ -21607,6 +21677,20 @@
       "tag": "v2.18.0",
       "commit": "a8d6781270a888a7b6eb50505aa247d4f8caa06a",
       "timestamp": 1773583302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "525cb636c875675617fcca96b7bc1113176990edd2e07f13a4aebb64a974e572": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.19.0/daily-you-arm64-v8a-v2.19.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20190002,
+      "version_name": "2.19.0",
+      "tag": "v2.19.0",
+      "commit": "9a4f076dfd881f654e86137903654338836ee4d2",
+      "timestamp": 1774362007,
       "reproducible": true,
       "error": null
     }
@@ -25721,6 +25805,20 @@
       "tag": "v0.5.3-alpha",
       "commit": "ff033a480ad5ff00317512de1a28671ed171ce4e",
       "timestamp": 1774274334,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "73a90502719ab4d907b084258abc5be06b140aec7aeb28b5a9e393df4420bd45": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.4-alpha/YagniLauncher-v0.5.4-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 54,
+      "version_name": "0.5.4-alpha",
+      "tag": "v0.5.4-alpha",
+      "commit": "626ac76c229d4a9dd1d90d0e43b76c904115833a",
+      "timestamp": 1774362660,
       "reproducible": true,
       "error": null
     }
@@ -39603,6 +39701,20 @@
       "error": null
     }
   ],
+  "1dcc0af803f7812956eefe66406c1440bc1327f13cdbcf5c4df9a8b8e49fd9d0": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/LeanBitLab/LtvLauncher/releases/download/v3.2.1/LTvLauncher-arm64-v8a-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 4100,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "074f31c5c8ce69d2ab5ef07d9bec828e6c453e55",
+      "timestamp": 1774371620,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8131c0529cc5c1e6b66e3badfcb9b3fe65d44e01af49ba6dba8be45fca8fdb15": [
     {
       "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
@@ -48481,6 +48593,20 @@
       "tag": "v3.1.1",
       "commit": "3aa9ac6a63d99df6becea39edfe8950adcac11ec",
       "timestamp": 1774295345,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4406cfc63760b4a572c18ed1643e187fec7e22ac1dc05910041f3e3bcade2883": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.1.2/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2016,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "3b25eaa510b02d1c5413b0a0f9a3b6ad109c0409",
+      "timestamp": 1774381139,
       "reproducible": true,
       "error": null
     }
@@ -57775,6 +57901,20 @@
       "error": null
     }
   ],
+  "39c4884a9e22402e186682c43ff3fbd3c993a25d41d79719220071fdcaef318f": [
+    {
+      "repository": "https://github.com/thssnm/remind-me.git",
+      "apk_url": "https://github.com/thssnm/remind-me/releases/download/v1.0.5/app-arm64-v8a-release.apk",
+      "appid": "com.theissenmatthias.remind_me",
+      "version_code": 2006,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "12f51f06ce48042e7ab7e768f081f2056008ee01",
+      "timestamp": 1774381863,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "7385ca1cca2defdcb763d4f3fe7c15699760e6102758b9f941357ba066e214f6": [
     {
       "repository": "https://github.com/neoblackxt/AnyWebView.git",
@@ -57813,6 +57953,34 @@
       "tag": "v2.0.5",
       "commit": "6023cd90b65468edd4d8deecadd31b39099977ee",
       "timestamp": 1774289768,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9e8da267726bc556bc804f241775fe5edb841456aabf58d222a4911bbba6171b": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.0.7/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 17,
+      "version_name": "2.0.7",
+      "tag": "v2.0.7",
+      "commit": "59eba97d1c569d5b509fc5e3f689281c69eb0904",
+      "timestamp": 1774362913,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c18f5ea6f28ddf7a4b808beb2f078bd459a052e16713654fc3dcccc22cd1b5b1": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.0.9/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 19,
+      "version_name": "2.0.9",
+      "tag": "v2.0.9",
+      "commit": "41113b1bb36f2bc84bd8b840ba79dff04788bc9f",
+      "timestamp": 1774382314,
       "reproducible": true,
       "error": null
     }
@@ -60193,6 +60361,20 @@
       "tag": "v1.06.0",
       "commit": "7af1be736343fc3a146ffce6cb6f27a9b02948e3",
       "timestamp": 1774297999,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "650ddc262fc5c46675853d5bd389d65dcfe1ada439e948b03f3cefe9598af512": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.06.1/amethyst-fdroid-arm64-v8a-v1.06.1.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 433,
+      "version_name": "1.06.1",
+      "tag": "v1.06.1",
+      "commit": "7874893938868512cbca0adc9e38634d03025911",
+      "timestamp": 1774363028,
       "reproducible": true,
       "error": null
     }
@@ -67035,6 +67217,18 @@
       "timestamp": 1772897467,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.7.0/de.storchp.opentracks.osmplugin_6.7.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin",
+      "version_code": 68,
+      "version_name": "6.7.0",
+      "tag": "v6.7.0",
+      "commit": "1e95b8a65e065ee79b3a8a1416151a47118996a5",
+      "timestamp": 1774382784,
+      "reproducible": true,
+      "error": null
     }
   ],
   "4f00cdfc01ac2a91709b52d1d1446273912721141004520ed2c20d8c8d1628f2": [
@@ -67075,6 +67269,18 @@
       "tag": "v.6.7.0",
       "commit": "1e95b8a65e065ee79b3a8a1416151a47118996a5",
       "timestamp": 1772897218,
+      "reproducible": true,
+      "error": null
+    },
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.7.0/de.storchp.opentracks.osmplugin.offline_6.7.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin.offline",
+      "version_code": 68,
+      "version_name": "6.7.0",
+      "tag": "v6.7.0",
+      "commit": "1e95b8a65e065ee79b3a8a1416151a47118996a5",
+      "timestamp": 1774382542,
       "reproducible": true,
       "error": null
     }
@@ -68895,6 +69101,20 @@
       "tag": "v1.11.0",
       "commit": "ef665e620098faddd92e1b605a785c02cb5ae129",
       "timestamp": 1772120215,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a0fc2fb26fbd818173d5b8aab37b6c1ace6674298b81f380638a489c3083aaa": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.12.0/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10120002,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "56d7ccdaa0ba1a832b00d3a1364e2a406a393ea4",
+      "timestamp": 1774383031,
       "reproducible": true,
       "error": null
     }
@@ -97977,6 +98197,20 @@
       "tag": "v0.3.2",
       "commit": "c2ae703379915cb3580a6f1ce99792be64c6f6a1",
       "timestamp": 1771443783,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ed8a4953e54990c6a8bd3bb60b57a628e78de7b72f8428b55d6ac75e4374837": [
+    {
+      "repository": "https://codeberg.org/natkr/flickboard.git",
+      "apk_url": "https://codeberg.org/natkr/flickboard/releases/download/v0.3.3/flickboard-v0.3.3-plain-release.apk",
+      "appid": "se.nullable.flickboard",
+      "version_code": 109,
+      "version_name": "0.3.3",
+      "tag": "v0.3.3",
+      "commit": "1de76b8baa8fdc9d8e05cf017fa26b6c20fb6ca7",
+      "timestamp": 1774383936,
       "reproducible": true,
       "error": null
     }

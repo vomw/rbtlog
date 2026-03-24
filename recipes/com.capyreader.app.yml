@@ -5996,3 +5996,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2026.03.1203
+    apks:
+      - apk_pattern: app-free-release\.apk
+        apk_url: https://github.com/jocmp/capyreader/releases/download/v2026.03.1203/app-free-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/freeRelease/compileFreeReleaseArtProfile/baseline.prof
+          - PROF_SHA1=ab001225b53e56a12da5a49a49d6ece1110925ae
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFreeRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/free/release/app-free-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
