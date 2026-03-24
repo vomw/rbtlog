@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dietrichmax/colota.git
 updates: releases
+labels:
+  - react-native
 versions:
   - tag: v1.4.0
     apks:
