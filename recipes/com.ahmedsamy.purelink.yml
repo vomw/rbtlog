@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/ahmedthebest31/PureLink-Android.git
-updates: releases
+updates: disabled
+notes:
+  - APK missing at releases, see https://github.com/ahmedthebest31/PureLink-Android/issues/8
 versions:
   - tag: v1.0.1
     apks:

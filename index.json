@@ -5821,6 +5821,20 @@
       "error": null
     }
   ],
+  "d8ee42d3ab1c43d6723b3006ad954ce35a156a90e758b409a7aaeec982eba86e": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.5.0/Pachli_3.5.0_47_a6daf4d4_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 47,
+      "version_name": "3.5.0",
+      "tag": "v3.5.0",
+      "commit": "a6daf4d4f44935ddc8698ead212611834b2c60af",
+      "timestamp": 1774533208,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8d8633ea354a92687fe3af94c1c2cc4ec5c50d4e7c5509d8f32e16b5b7e990cc": [
     {
       "repository": "https://github.com/msbelaid/PlugBrain.git",
@@ -6111,6 +6125,20 @@
       "tag": "v5.3.0",
       "commit": "68e1cb1ec961dc2180d436d7c13ca7d6db55a553",
       "timestamp": 1774208350,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a75a8635b50e476897641cb579488d9b70638fa49c8289cdb560881d7aa0792": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v5.4.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 35,
+      "version_name": "5.4.0",
+      "tag": "v5.4.0",
+      "commit": "4f73df9ad04497cb6931924267c9bf81333557d7",
+      "timestamp": 1774533467,
       "reproducible": true,
       "error": null
     }
@@ -12821,6 +12849,20 @@
       "error": null
     }
   ],
+  "690798e92200b034a45a0880510580a55c4893d91ec46f57d7c95965b2996c09": [
+    {
+      "repository": "https://github.com/antoniegil/Astronia.git",
+      "apk_url": "https://github.com/antoniegil/Astronia/releases/download/v1.0.6/Astronia-1.0.6-universal-release.apk",
+      "appid": "com.antoniegil.astronia",
+      "version_code": 10600,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "80de00a0dc4d460d27c152abd16d1f4f4fe1f5ae",
+      "timestamp": 1774533848,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8a4a93a460e15e1ddab8702d0b7fdfa8f456980401befc29fbaf2ff78cb5692f": [
     {
       "repository": "https://github.com/apk-editor/APK-Explorer-Editor.git",
@@ -13697,6 +13739,20 @@
       "tag": "432",
       "commit": "7ead1bae571cc05f7ebbb975740a7f52ebc2d2bc",
       "timestamp": 1773669671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "02a7c8d255c2dd9a92521e4661a4b0aff533ce57b1be5cbf8793b8f141548fd1": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/435/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 435,
+      "version_name": "4.35 GH",
+      "tag": "435",
+      "commit": "716e698ed03df727a5643585a3b53edc5f6120ce",
+      "timestamp": 1774533988,
       "reproducible": true,
       "error": null
     }
@@ -26195,6 +26251,20 @@
       "tag": "v4.12.6",
       "commit": "7a17e91690127009d72929f6671b382d17261e07",
       "timestamp": 1772895703,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8135fac4975a2c2ab1063e5dbc9fa2d0d6abb88b874ecb021c1eb90368d390d4": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.13.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 24,
+      "version_name": "4.13.0",
+      "tag": "v4.13.0",
+      "commit": "1beeab28a6820dda44df3bcefbaee727e9eaf693",
+      "timestamp": 1774534220,
       "reproducible": true,
       "error": null
     }
@@ -44035,6 +44105,20 @@
       "error": null
     }
   ],
+  "ccfcd2a6c7978ed2c473999f55c8624cf8ded96e6c8b15ec6c6eee494aba7bbe": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.24.0/app-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 73,
+      "version_name": "1.24.0",
+      "tag": "v1.24.0",
+      "commit": "5a58ae1bb3c239e4c6af54aa511fb7fc995f789c",
+      "timestamp": 1774534363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -45121,6 +45205,20 @@
       "tag": "v1.0.5",
       "commit": "dd06f5a171292889c68cc3f4996da5d2b9f9628f",
       "timestamp": 1774143718,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "3d7fb0e157af073878658a24665929c1f7c3498ef6818713b9d55f7d3650f8bf": [
+    {
+      "repository": "https://github.com/nikhilvishwakarma00/Velune.git",
+      "apk_url": "https://github.com/nikhilvishwakarma00/Velune/releases/download/v1.0.6/velune-universal-release.apk",
+      "appid": "com.nikhil.yt",
+      "version_code": 6,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "91a02c20f0ba7eeb1f372e485927f0330b811a33",
+      "timestamp": 1774553991,
       "reproducible": true,
       "error": null
     }
@@ -48595,6 +48693,20 @@
       "error": null
     }
   ],
+  "6055d5d658b9941b0a4b0a8b9e1f4e757161bf36d820bde8af0b8e04224dd594": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.6/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2026,
+      "version_name": "1.1.6",
+      "tag": "v1.1.6",
+      "commit": "1ecf95c19de4750c95d749742ad6f52e20bee3a5",
+      "timestamp": 1774534480,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1eae44c4e4a2d523a771c873f8ae7f5cb7481b21ed4845807ff7dfd52dbb6bf8": [
     {
       "repository": "https://github.com/phstudio2/FreeTV.git",
@@ -49558,6 +49670,20 @@
       "commit": "6f6a0a72762221125aaeb2c622d590d8c0c7aaa2",
       "timestamp": 1773864377,
       "reproducible": false,
+      "error": null
+    }
+  ],
+  "050e9d150283df31d01f90abb5e7bde48cf911836ec33bf261630d753007b25f": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2026.03.26.2/2026.03.26.2-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111132,
+      "version_name": "2026.03.26.2",
+      "tag": "2026.03.26.2",
+      "commit": "359cef65e1a6c6161ead427da3885e29b44dd56d",
+      "timestamp": 1774535534,
+      "reproducible": true,
       "error": null
     }
   ],
@@ -54373,6 +54499,20 @@
       "error": null
     }
   ],
+  "8e86b2978be3c33be9d623b12adbaed2d61c5c964c43285847bb5b7e3d10946d": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.8.2/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5820,
+      "version_name": "5.8.2",
+      "tag": "5.8.2",
+      "commit": "0ff02cd7ebf18380c19f946b901cb6cad4df909b",
+      "timestamp": 1774535856,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -55307,6 +55447,20 @@
       "tag": "5.7.1",
       "commit": "8c62fc3ad07a68df1c0825a9efd7780cb3fe2bea",
       "timestamp": 1773842855,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5fc83552e6d09f49e3154b510164276bb8dc8520d140456d2e9e0336652387ed": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.7.2/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5720,
+      "version_name": "5.7.2",
+      "tag": "5.7.2",
+      "commit": "4529d6e8c4cb3a29199b0ef037cfbe6916b63371",
+      "timestamp": 1774550217,
       "reproducible": true,
       "error": null
     }
@@ -57993,6 +58147,20 @@
       "tag": "v1.1.6",
       "commit": "25988dfe7f1c81465d9132402238d09c325543fe",
       "timestamp": 1774274706,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9f602cf32abdc524a90276c3ba7302e5993ec495373ddf78424471301993d219": [
+    {
+      "repository": "https://github.com/thssnm/mindfulness-reminder.git",
+      "apk_url": "https://github.com/thssnm/mindfulness-reminder/releases/download/v1.1.7/app-arm64-v8a-release.apk",
+      "appid": "com.theissenmatthias.mindfulness_reminder",
+      "version_code": 2011,
+      "version_name": "1.1.7",
+      "tag": "v1.1.7",
+      "commit": "695d71ccfc452d7da310e2823de9b5490aa5a965",
+      "timestamp": 1774536783,
       "reproducible": true,
       "error": null
     }
@@ -68763,6 +68931,20 @@
       "tag": "v2.0.0",
       "commit": "4d827ae249e8af99ffb19a35c4940c28fbafc5c4",
       "timestamp": 1774102264,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a4d2ea061955dd4e33fb1837ac3a365bcf9fe18366b4baa32cbb61efa0d19ecf": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.1.0/simple-notes-sync-v2.1.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 28,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "b5c86935f6ca3d04cc0367d438e99cf0d7de1b96",
+      "timestamp": 1774537272,
       "reproducible": true,
       "error": null
     }
@@ -80515,6 +80697,20 @@
       "tag": "v1.1.18",
       "commit": "7c2cecdaa2f07adbbaec3fc9a08e5936e0536650",
       "timestamp": 1774103980,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2e5541ed8ffe2aef25152d816a1e242af047237110eb09f455e2fafdd1fdde10": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.19/SMS2Email-v1.1.19-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 32,
+      "version_name": "1.1.19",
+      "tag": "v1.1.19",
+      "commit": "02a63eb44c2ef105c6a698e627e077c5afed5d6a",
+      "timestamp": 1774537416,
       "reproducible": true,
       "error": null
     }
@@ -93887,6 +94083,20 @@
       "error": null
     }
   ],
+  "e043525087f11b1e3c55bac94cb5803f5e59f6e0668c1d10588fc2eb6948660d": [
+    {
+      "repository": "https://github.com/ranobe-org/ranobe.git",
+      "apk_url": "https://github.com/ranobe-org/ranobe/releases/download/v0.0.11/ranobe.apk",
+      "appid": "org.ranobe.ranobe",
+      "version_code": 11,
+      "version_name": "v0.0.11",
+      "tag": "v0.0.11",
+      "commit": "97fb3420861eb576a917cb9ea013bf3dc3f6be8a",
+      "timestamp": 1774554631,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "d1ff3d50d6ea2a5458d8985ca86642776408cbf9824746aecc651a8d847e47f4": [
     {
       "repository": "https://github.com/RevEngiSquad/revengi-app.git",
@@ -99105,6 +99315,20 @@
       "tag": "v0.7.6",
       "commit": "deeefc827474bbabd1d58a4e13422590ad9026df",
       "timestamp": 1774276956,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "43812d6dc202504573dad27a4ca5bbacf9ee91da33e4951c8e3cc85dbaedf89a": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.7/mindwtr-0.7.7-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 51,
+      "version_name": "0.7.7",
+      "tag": "v0.7.7",
+      "commit": "e185fe6b804235be2418e6c55c27ca1d0cbe23d5",
+      "timestamp": 1774537546,
       "reproducible": true,
       "error": null
     }
