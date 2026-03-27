@@ -61187,6 +61187,20 @@
       "error": null
     }
   ],
+  "7afa5bbc659c2cc840ff17f87c66e506e991ae2a4018d9216e2ba2ace13cd008": [
+    {
+      "repository": "https://github.com/w2sv/WiFi-Widget.git",
+      "apk_url": "https://github.com/w2sv/WiFi-Widget/releases/download/1.8.0/1.8.0.apk",
+      "appid": "com.w2sv.wifiwidget",
+      "version_code": 70,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "05ed4b83ece4df68b8d48af88c86f7129653f375",
+      "timestamp": 1774579747,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3497941e3ad91adddaf495c563a314739b1e8703dcebb6a7852a817543fbdb35": [
     {
       "repository": "https://github.com/watea/RadioUpnp.git",
@@ -76417,6 +76431,20 @@
       "tag": "v0.32.1-beta",
       "commit": "867af66772f1e298913dcdbef623fce1c95f3265",
       "timestamp": 1768058536,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "579fbf16642061a3b5bd127a8342e366adbec67cec38221e00bfe49827bd9ebe": [
+    {
+      "repository": "https://github.com/Chill-Astro/FOSS-Root-Checker.git",
+      "apk_url": "https://github.com/Chill-Astro/FOSS-Root-Checker/releases/download/v36.23.1.0/app-offline-release.apk",
+      "appid": "foss.chillastro.root.checker.offline",
+      "version_code": 1,
+      "version_name": "v36.23.1.0-OFFLINE",
+      "tag": "v36.23.1.0",
+      "commit": "444a8eeecd9c00510fc1d99de0cca9cbfc2a8b5d",
+      "timestamp": 1774583183,
       "reproducible": true,
       "error": null
     }
