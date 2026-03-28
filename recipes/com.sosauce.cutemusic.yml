@@ -1240,3 +1240,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.1.7
+    apks:
+      - apk_pattern: CM_.*\.apk
+        apk_url: https://github.com/sosauce/CuteMusic/releases/download/v3.1.7/CM_3.1.7.apk
+        build:
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=dfdadb514e7b560b81eeb643e4b6ec28a198b8b5
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/release/CM_*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
