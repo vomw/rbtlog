@@ -1,5 +1,5 @@
 ---
-repository: https://github.com/sosauce/CuteMusic.git
+repository: https://github.com/sosauce/Chocola.git
 updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for v1.3.0 (manually adjusted)'
@@ -1255,6 +1255,42 @@ versions:
           - fi
           - done
           - mv app/build/outputs/apk/release/CM_*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v4.0.0
+    apks:
+      - apk_pattern: Chocola_.*\.apk
+        apk_url: https://github.com/sosauce/Chocola/releases/download/v4.0.0/Chocola_4.0.0.apk
+        build:
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=b7b7222c0a3501cef469a266a58b7a628af7b753
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/Chocola_*.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
         build_timeout: 30

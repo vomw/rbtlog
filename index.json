@@ -6157,6 +6157,20 @@
       "error": null
     }
   ],
+  "cc06b2f1eb119bf89569424739f3367d13c4db8c2f7ae597953d57f7eb4eda84": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.1.1/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 38,
+      "version_name": "6.1.1",
+      "tag": "v6.1.1",
+      "commit": "b476acea7d741ed3f10b4b5e8338949e8161ec76",
+      "timestamp": 1774809409,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -10889,6 +10903,20 @@
       "error": null
     }
   ],
+  "babe6010e025d9a0055ccb0796bf7ecdfdf584052af7a23c0d3cbb08d9054a57": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.5.351.942-stable/Rhythm-4.5.351.942-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 45351942,
+      "version_name": "4.5.351.942-gh",
+      "tag": "v4.5.351.942-stable",
+      "commit": "1184ef5e6cca96c0fe4ec93fee6014b412a90d90",
+      "timestamp": 1774792639,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -14789,6 +14817,20 @@
       "tag": "v1.2.4",
       "commit": "1a4d5e74d426f7aa5f063506b97b3511897e48c5",
       "timestamp": 1774706716,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8eec7437cfda087acdf25944427dcd427bd7400746b86192686bfa16f790ad0b": [
+    {
+      "repository": "https://github.com/blankdotdev/sidestep.git",
+      "apk_url": "https://github.com/blankdotdev/sidestep/releases/download/v1.2.5/app-release.apk",
+      "appid": "com.blankdev.sidestep",
+      "version_code": 17,
+      "version_name": "1.2.5",
+      "tag": "v1.2.5",
+      "commit": "f1e93b1bc633c50bee08586ad3755996f344edc0",
+      "timestamp": 1774809992,
       "reproducible": true,
       "error": null
     }
@@ -19771,6 +19813,20 @@
       "tag": "v1.4.0",
       "commit": "64aea3c717e623854fcf203f82b4279a5186f0d8",
       "timestamp": 1773849562,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "07ba8cbfc3537b30eb583484c9e55551da1a03cb1fe387800464f9de103b00f8": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.5.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 30,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "2b617205343501186957df8c247d8a81b241c11c",
+      "timestamp": 1774793824,
       "reproducible": true,
       "error": null
     }
@@ -25117,6 +25173,20 @@
       "tag": "v1.7.5",
       "commit": "d0cd40c26c00136c0c4675181195d822bf6a0941",
       "timestamp": 1773066070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9de78a5d76f2d81892c6406a12aaf8bca69d5959bd9dd60980ff07d758989194": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.7.6/MyQuran-v1.7.6-arm64-v8a-233-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 233,
+      "version_name": "1.7.6",
+      "tag": "v1.7.6",
+      "commit": "80d91c15fdab5141a5b840cce9b21cbe945763e8",
+      "timestamp": 1774794149,
       "reproducible": true,
       "error": null
     }
@@ -43825,6 +43895,20 @@
       "error": null
     }
   ],
+  "89b8397e51f5cc2218e3ec8796445af12baa12ffcbbd84296be59a1bc91e339a": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.6/auto-light-26.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 8,
+      "version_name": "2.6",
+      "tag": "2.6",
+      "commit": "fc1dedc24be478df64fde137840a87cfbe9b310e",
+      "timestamp": 1774794958,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b8bdc761c0163fc0ae6153d47ac3bd1f521dd635d16fb6b41da158a4ea488f4a": [
     {
       "repository": "https://github.com/The-First-King/Auto-Off-Bluetooth.git",
@@ -56681,6 +56765,20 @@
       "error": null
     }
   ],
+  "dc7216ea61174f801b7fff99b9a3e0ac669080ead1e51243dbebb0bae6839bcf": [
+    {
+      "repository": "https://github.com/sosauce/CuteCalc.git",
+      "apk_url": "https://github.com/sosauce/Vanilla/releases/download/v4.0.0/Vanilla_4.0.0.apk",
+      "appid": "com.sosauce.cutecalc",
+      "version_code": 50000,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "280a31364f7818131ef129c634e3aafbe978bf46",
+      "timestamp": 1774814219,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e39df3151cda4eab25a711c258d649c22b01a5f1c73cbe62af7600413dca3663": [
     {
       "repository": "https://github.com/sosauce/CuteMusic.git",
@@ -57223,6 +57321,20 @@
       "tag": "v3.1.7",
       "commit": "d23e35de594ae6b946c1a3db7bf3d61b928b4c91",
       "timestamp": 1774707084,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "79b8adbdbc9186ecfe61a3d455e214735a71e28a55036872379343f5e8161147": [
+    {
+      "repository": "https://github.com/sosauce/Chocola.git",
+      "apk_url": "https://github.com/sosauce/Chocola/releases/download/v4.0.0/Chocola_4.0.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 50000,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "f7f61b22e0fbc1bee371d6c010d1c468cfcf3c0a",
+      "timestamp": 1774814722,
       "reproducible": true,
       "error": null
     }
@@ -57899,6 +58011,20 @@
       "error": null
     }
   ],
+  "0d4ed8e4220fa19a2eea0f031bf0d10799d6794ab90f786d2d804f279a8de2d8": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v56/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 277,
+      "version_name": "56",
+      "tag": "v56",
+      "commit": "facc74a4ff5deaecfc4c86240afb0c63c717ca58",
+      "timestamp": 1774810322,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -58483,6 +58609,20 @@
       "tag": "v2.1.1",
       "commit": "b3243695d76464e19caa559230987434d5e37b2d",
       "timestamp": 1774729839,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "690a7501f2e6cc1b54e2d006d9385b72290a4a41ef6f9637e3663a7ff6ee9f8b": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.0/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 24,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "6e204f5c4a863a32d8b1849bd10d28d6d420161e",
+      "timestamp": 1774795021,
       "reproducible": true,
       "error": null
     }
@@ -60779,6 +60919,20 @@
       "tag": "v3.1.0",
       "commit": "e456734f3a30e368fbb96b45d64a91039780a91e",
       "timestamp": 1774640199,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d954300bba09600c5bae2a475a2fd60e5f969251a96d481ba9ce810948ae4d7d": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.1.1/NerdCalci-v3.1.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 311,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "8f8d8ba77b862570c5e62903fb70805f8660e173",
+      "timestamp": 1774795124,
       "reproducible": true,
       "error": null
     }
@@ -72669,6 +72823,20 @@
       "error": null
     }
   ],
+  "81bb2caffc9e0314989ac29d5ee5e0316f7b355fa2d7bda62c6e2befbd0955ab": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v2.0.1/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 12,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "074bd6e78abab7901527e577c3313f3f4096df2a",
+      "timestamp": 1774795248,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -75819,6 +75987,20 @@
       "error": null
     }
   ],
+  "bee8e47c6986d95f075955ec83f6920c74643998ff9f2a760a4f8d9d55f61b9f": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.102.1-alpha16/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 21,
+      "version_name": "0.102.1-alpha16",
+      "tag": "v0.102.1-alpha16",
+      "commit": "4bb6223ea137ce2e2a3441e1e6a5a7f456c6ccb4",
+      "timestamp": 1774810849,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -77313,6 +77495,20 @@
       "tag": "v3.8",
       "commit": "5fc17509638ac584ad026587f9040681068261bf",
       "timestamp": 1773173652,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4cccf4943ad4e5fce218ec47153c57a783c56b12a3c18d82ff0d36686efb837d": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/HeliBorg/HeliBoard/releases/download/v3.9/HeliBoard_3.9-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 3901,
+      "version_name": "3.9",
+      "tag": "v3.9",
+      "commit": "98932242f54b3da14618eb81a90cd9f8eda10f84",
+      "timestamp": 1774795377,
       "reproducible": true,
       "error": null
     }
@@ -82279,6 +82475,20 @@
       "tag": "v0.7.71",
       "commit": "0f4cfa3d3d69af5ffd450b8a2ac24c864adf03b3",
       "timestamp": 1773843776,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c30e75561cde93e87be3b04930430d7914bda57cd908e98e7500c651385fd8fd": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.72/RiPlay-foss-release-0.7.72.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 72,
+      "version_name": "0.7.72",
+      "tag": "v0.7.72",
+      "commit": "764a19ead34b4bab352f032f2776f1d62df82543",
+      "timestamp": 1774795720,
       "reproducible": true,
       "error": null
     }
@@ -102213,6 +102423,20 @@
       "tag": "2.5.0",
       "commit": "8dbb6376c2341cc65195b4109e57a1edc888add8",
       "timestamp": 1769993038,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0db1130f5a8e1e1233b45de478c3f8ea204bfff1a3708f964011bdaaafb8a1be": [
+    {
+      "repository": "https://github.com/vadimerenkov/Aucards.git",
+      "apk_url": "https://github.com/vadimerenkov/Aucards/releases/download/2.6.0/aucards-2.6.0.apk",
+      "appid": "vadimerenkov.aucards",
+      "version_code": 21,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "5137a1a210067e2255fa616e430588f1321e3cde",
+      "timestamp": 1774813016,
       "reproducible": true,
       "error": null
     }
