@@ -77219,6 +77219,20 @@
       "error": null
     }
   ],
+  "545b3b6862f8b93c52840ba49cb5bcd9097a80103927e53305bebc4f22f32bcb": [
+    {
+      "repository": "https://github.com/256x/memo.git",
+      "apk_url": "https://github.com/256x/memo/releases/download/v1.0.2/literalmemo_v1.0.2.apk",
+      "appid": "fumi.day.literalmemo",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "38749efaad2fb181fb55b8970aa0df05f71b0498",
+      "timestamp": 1774888398,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b93e21f977ab5f74d42287153ae8ab0a278b8a1062d2dc2932d0b54965524fbf": [
     {
       "repository": "https://github.com/daisukiKaffuChino/RebootNya.git",
@@ -92079,6 +92093,20 @@
       "tag": "3.0.1",
       "commit": "5f2ed41debacb407452d67d0044a14163e10851a",
       "timestamp": 1754506283,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f2bfd69f077c978330bbbbb958cb26a9072268cd6f10e06d7278eedefbed0522": [
+    {
+      "repository": "https://github.com/HotarunIchijou/Nouto.git",
+      "apk_url": "https://github.com/HotarunIchijou/Nouto/releases/download/1.0.0/app-release.apk",
+      "appid": "org.kaorun.nouto",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "135f0f577ce3778570fbd8704b7a3bfc01c5157d",
+      "timestamp": 1774819107,
       "reproducible": true,
       "error": null
     }
