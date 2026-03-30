@@ -3539,6 +3539,20 @@
       "error": null
     }
   ],
+  "3549a084f112b5d8e9f196dac62ceea91763cf34de6d907caaf76921aaccf5c7": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.7.4/cclauncher-v10.7.4-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1270,
+      "version_name": "v10.7.4",
+      "tag": "v10.7.4",
+      "commit": "95f7f86a78ef117402e9f9ebbc4bed05e8d6bf44",
+      "timestamp": 1774878671,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -10917,6 +10931,20 @@
       "error": null
     }
   ],
+  "747e60215930ecab76b95b1ddfa8a77094d4f06be19e37e961222ddab4a0abbd": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.5.353.950-stable/Rhythm-4.5.353.950-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 45353950,
+      "version_name": "4.5.353.950-gh",
+      "tag": "v4.5.353.950-stable",
+      "commit": "cc6e84fab84b8a8be1173472513736d19844dc0d",
+      "timestamp": 1774904820,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -15335,6 +15363,20 @@
       "tag": "v1.5.7",
       "commit": "112baf5593afaba6342af41265c03a6991186942",
       "timestamp": 1774116477,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "762968d30bafda57d56978cb4e25bd9277fbf6c0987ea5b56610e799af72193d": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.5.8/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 14,
+      "version_name": "1.5.8",
+      "tag": "v1.5.8",
+      "commit": "0372f2495af1316c97e581805f67bbe1387aeebf",
+      "timestamp": 1774878836,
       "reproducible": true,
       "error": null
     }
@@ -20387,6 +20429,20 @@
       "tag": "v2026.03.22",
       "commit": "f4540e2f736546ffb10f2c600ada2d134e4d353e",
       "timestamp": 1774208830,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5adac1516796e98d420b32d209cea060072c26ec225960a3ee3df26fe2abf4d3": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.03.30/simplequizfr-release-v2026.03.30.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 8,
+      "version_name": "2026.03.30",
+      "tag": "v2026.03.30",
+      "commit": "97fba8257c56f9e2da4f013806e784c4eed53f8e",
+      "timestamp": 1774898842,
       "reproducible": true,
       "error": null
     }
@@ -26087,6 +26143,20 @@
       "error": null
     }
   ],
+  "95de898a41d7bb15db022cbe42d025f8c057c51e4094fc6c17e3f6ffec908786": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.5-alpha/YagniLauncher-v0.5.5-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 55,
+      "version_name": "0.5.5-alpha",
+      "tag": "v0.5.5-alpha",
+      "commit": "0468bcad678c21e1c3b27f78898f8231aeed88c4",
+      "timestamp": 1774899317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -28139,6 +28209,20 @@
       "tag": "v1.39.1",
       "commit": "cfa316f85f59af3366911a3009e584ea096119c8",
       "timestamp": 1773670468,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5f14b79a848d724b065947beaf18cd6762d10dd11f0f3d3c55386f2c00756648": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.40.0/com.fibelatti.photowidget-v1.40-1400000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1400000,
+      "version_name": "1.40",
+      "tag": "v1.40.0",
+      "commit": "4ccb2db411b1fa9e0c00d3335b0fb89a366fd276",
+      "timestamp": 1774899048,
       "reproducible": true,
       "error": null
     }
@@ -36661,6 +36745,20 @@
       "error": null
     }
   ],
+  "2e479b6681327e03951ff78955053c54aedbe874d344cf15165c018634417a2d": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.7.3/Tyr-1.7.3-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 24,
+      "version_name": "1.7.3",
+      "tag": "1.7.3",
+      "commit": "e9cbdadc738f535708e3bc58e98e081b55870a5a",
+      "timestamp": 1774899561,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -43919,6 +44017,20 @@
       "tag": "1.5",
       "commit": "7bfa3c9b0d226b1cf57407c7b27e43034aa7e41a",
       "timestamp": 1768438457,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c6a88c8c4240734a9c1b1691febdaca8168bc1a8c9d3f7156925f4a09feee1d1": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Off-Bluetooth.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Off-Bluetooth/releases/download/1.6/auto-off-bluetooth-16.apk",
+      "appid": "com.mine.autooffbluetooth",
+      "version_code": 7,
+      "version_name": "1.6",
+      "tag": "1.6",
+      "commit": "537f973358003a0a4c53c2352ce52f8539b98805",
+      "timestamp": 1774899892,
       "reproducible": true,
       "error": null
     }
@@ -60937,6 +61049,20 @@
       "error": null
     }
   ],
+  "e1b1519a472070bd9259f14c37222498d5803df204f737afcb1a2142a202b044": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.1.2/NerdCalci-v3.1.2.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 312,
+      "version_name": "3.1.2",
+      "tag": "v3.1.2",
+      "commit": "fc7e000732c70da54bd0484e1160e21b3e35236d",
+      "timestamp": 1774900043,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -68375,6 +68501,20 @@
       "error": null
     }
   ],
+  "e136f522109b2428733ee1dc632f0ca258695abf8160482c83cdbd46e5d9d329": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.16.2/nextplayer-v0.16.2-universal.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 55,
+      "version_name": "0.16.2",
+      "tag": "v0.16.2",
+      "commit": "df07c9cfbac8e694a5412d8e700583634cd3346b",
+      "timestamp": 1774879628,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3181a37e07ce7a18caf8117192666a150add16da2129d39e0aa1d03d4ec06929": [
     {
       "repository": "https://github.com/Animesh-Varma/Sigil.git",
@@ -69393,6 +69533,20 @@
       "tag": "v2.1.0",
       "commit": "b5c86935f6ca3d04cc0367d438e99cf0d7de1b96",
       "timestamp": 1774537272,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "232054b7c101965b7bac294e55f33c4ed6736d6e7548d130bb46bc0e0fe2af7b": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.2.0/simple-notes-sync-v2.2.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 29,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "d24d2f248d0f7db7d991548886193b5045da6b15",
+      "timestamp": 1774900576,
       "reproducible": true,
       "error": null
     }
@@ -84257,6 +84411,20 @@
       "error": null
     }
   ],
+  "bd6852f404ad644955aa7bfbb3d1cc7865f938d55ea77402b324363d337df3c2": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.1.4/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 135,
+      "version_name": "2.1.4-izzy",
+      "tag": "v2.1.4",
+      "commit": "6570228f1e03b2152f4918dfc346b6e4c4f4890c",
+      "timestamp": 1774901048,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
     {
       "repository": "https://github.com/rosuH/EasyWatermark.git",
@@ -94295,6 +94463,20 @@
       "error": null
     }
   ],
+  "ba1b9fbc19305bcdb1678181f246d7c54d7cd8a6100402a90513ff5af9993892": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.3.6/KashCal-23.3.6-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 446,
+      "version_name": "23.3.6",
+      "tag": "v23.3.6",
+      "commit": "751ab17a3f7a74f645278d9273dec3f7daab76aa",
+      "timestamp": 1774901892,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -97835,6 +98017,20 @@
       "error": null
     }
   ],
+  "22b6442c71741534ef0c5d419b0ba4abfe57cb5fff84069c738277bfc50c0f19": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.0.9.0/2-APlayer-v2.0.9.0-foss-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 20900,
+      "version_name": "2.0.9.0",
+      "tag": "v2.0.9.0",
+      "commit": "83c653e9e61f9b0a0a83bcf6f8a55e36fdd61faf",
+      "timestamp": 1774880767,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "27e1087a7acd8bd67881ea9132a9c77450f81385dfc91003044122055b76dc7a": [
     {
       "repository": "https://github.com/rkkr/simple-keyboard.git",
@@ -99945,6 +100141,20 @@
       "tag": "v0.7.7",
       "commit": "e185fe6b804235be2418e6c55c27ca1d0cbe23d5",
       "timestamp": 1774537546,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "87d98512795ad46488e55461db961514bc9e480bcd96d021a1a337caf4335081": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.8/mindwtr-0.7.8-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 52,
+      "version_name": "0.7.8",
+      "tag": "v0.7.8",
+      "commit": "d241ebe6f5a70801fbd8d3ebcc265038eb696d4d",
+      "timestamp": 1774881117,
       "reproducible": true,
       "error": null
     }
