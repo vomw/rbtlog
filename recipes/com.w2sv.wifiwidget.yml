@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/w2sv/WiFi-Widget.git
 updates: releases
+notes:
+  - 'FIXME: after 1.8.1, library stripping will be disabled upstream (based on F_DROID_RELEASE env var), so NDK can be removed again. See: https://github.com/w2sv/WiFi-Widget/issues/210#issuecomment-4164876989 '
 versions:
   - tag: 1.6.4
     apks:

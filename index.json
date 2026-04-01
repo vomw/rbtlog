@@ -36563,6 +36563,20 @@
       "error": null
     }
   ],
+  "338b4d26430cf002c777da5c6a58de7ceea851faaed6f33a52159e101e4ca21e": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.68/fire2kodi_v0.68.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 20,
+      "version_name": "0.68",
+      "tag": "v0.68",
+      "commit": "92cf5189df5f0db8747b3e0fdf5d121571b56e85",
+      "timestamp": 1775041772,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -67833,6 +67847,20 @@
       "error": null
     }
   ],
+  "b1be5d7526c21ed0268a7cd8d920060cf3569727e02c5ff4ddfe96cd84f9ac22": [
+    {
+      "repository": "https://codeberg.org/svewa/MedicalCalendarLog.git",
+      "apk_url": "https://codeberg.org/svewa/MedicalCalendarLog/releases/download/2.0.6/MedicalCalendarLog-2.0.6-signed.apk",
+      "appid": "de.ntdote.medicalcalendarlog",
+      "version_code": 49,
+      "version_name": "2.0.6",
+      "tag": "2.0.6",
+      "commit": "6cb397fdbeea1ef1a42224fb7965a73dcd19626a",
+      "timestamp": 1775040867,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "97351a70202de6e6d3f07ea2e671ccccd18bb1653462098522ef93adfcb34a34": [
     {
       "repository": "https://github.com/PaulWoitaschek/Voice.git",
@@ -86353,6 +86381,20 @@
       "tag": "v0.11.2",
       "commit": "e1420b71d6bb6e476d9537ecd0a1f474d1fcff23",
       "timestamp": 1770738920,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e137dbd01726ac63d9405059c8a36d45a687765f9846c3a3c5e77c5725224b7": [
+    {
+      "repository": "https://github.com/Wafler1/transportia.git",
+      "apk_url": "https://github.com/Wafler1/transportia/releases/download/v1.0.3%2B4/transportia-arm64-v8a-1.0.3+4.apk",
+      "appid": "one.wafler.transportia",
+      "version_code": 2004,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3+4",
+      "commit": "b6c777841e1932dd1f637314f49faa81605ca180",
+      "timestamp": 1775004339,
       "reproducible": true,
       "error": null
     }
