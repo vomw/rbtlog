@@ -5471,6 +5471,20 @@
       "error": null
     }
   ],
+  "cd6a00ccbf8cf89d5cf09a210c43858c8e2129f4edcf18281742626f86693cad": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v0.10/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10,
+      "version_name": "0.10",
+      "tag": "v0.10",
+      "commit": "cf60f3f71932880a915063c50040794d778020cd",
+      "timestamp": 1775067898,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -19939,6 +19953,20 @@
       "tag": "v1.5.0",
       "commit": "2b617205343501186957df8c247d8a81b241c11c",
       "timestamp": 1774793824,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "721522faa0ced17435ed1264622c36b69db6bbfb7332232be219532fcd85bb78": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.5.1/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 31,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "89ab111ef8207dfe30dc16be917e18291b592b57",
+      "timestamp": 1775053996,
       "reproducible": true,
       "error": null
     }
@@ -36843,6 +36871,20 @@
       "error": null
     }
   ],
+  "3edfff0e7bf3e6a8564eaac153f343c037372618d39d5f6bbdb4625db507d40f": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.7.4/Tyr-1.7.4-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 25,
+      "version_name": "1.7.4",
+      "tag": "1.7.4",
+      "commit": "d74209201d9489b969f0c20abefa5649fd6c258d",
+      "timestamp": 1775061282,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "112a30ee772d4eae531fd5cbbfc802daa181faae810fdbe6aeb676c1e5039339": [
     {
       "repository": "https://github.com/jeeneo/dejpeg.git",
@@ -39741,6 +39783,20 @@
       "error": null
     }
   ],
+  "2736afecd2dedd0102001f7353fd18ee55625fb1f72ad696d7f64b54f8bbabaf": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.3/KeePassDX-4.3.3-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 154,
+      "version_name": "4.3.3",
+      "tag": "4.3.3",
+      "commit": "e0af98a97784edef3b7b8c15aaf67d9b7c129d16",
+      "timestamp": 1775068400,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -39947,6 +40003,20 @@
       "tag": "4.3.2",
       "commit": "60fea86e69ed9eeaaad2d163e68f4adfc3d1029d",
       "timestamp": 1768576314,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "03d1874d3f64d4a42af7b403f76fc1f34bc9b61aacf4e50c20c8f3e0ddf047aa": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.3.3/KeePassDX-4.3.3-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 154,
+      "version_name": "4.3.3",
+      "tag": "4.3.3",
+      "commit": "e0af98a97784edef3b7b8c15aaf67d9b7c129d16",
+      "timestamp": 1775068840,
       "reproducible": true,
       "error": null
     }
@@ -43359,6 +43429,20 @@
       "tag": "v13.3.0",
       "commit": "89060fca00f2f8849e9f6b0c2b9ddb799f102c8e",
       "timestamp": 1773057013,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "49244341b20b726aa24b300a644c920faa432792d212d9f2a31c168615d5fd6c": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/MetrolistGroup/Metrolist/releases/download/v13.4.0/Metrolist-izzy.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 144,
+      "version_name": "13.4.0",
+      "tag": "v13.4.0",
+      "commit": "b288a5e7088703b0e49bd5a634527b4db13c6ba8",
+      "timestamp": 1775063111,
       "reproducible": true,
       "error": null
     }
@@ -61217,6 +61301,20 @@
       "error": null
     }
   ],
+  "3bba1dcea2f4c43d75229357f6346547816c9348a6afc91255ba82e1326dc2ef": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.2.0/NerdCalci-v3.2.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 320,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "23d23b40da0a5fc8669f914bd7f4258604574e82",
+      "timestamp": 1775054955,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -61367,6 +61465,20 @@
       "tag": "v1.07.2",
       "commit": "8e4ee7a61875f1eaed5518ce28e9913dd89a31e2",
       "timestamp": 1774966608,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a8f13b29a7a8e204f07efb8b6077c13981e5bf8e0a2f07366ccec010ad095a3d": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.07.5/amethyst-fdroid-arm64-v8a-v1.07.5.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 441,
+      "version_name": "1.07.5",
+      "tag": "v1.07.5",
+      "commit": "cd11503b1e08fa86cb406a2dc70095ce0f8a5bf8",
+      "timestamp": 1775055100,
       "reproducible": true,
       "error": null
     }
@@ -66023,6 +66135,20 @@
       "tag": "v2.0.1",
       "commit": "1ee4a2dcbe67cae8890e370075c28b3925ff5eff",
       "timestamp": 1774033089,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5c278ee3072506b0d12da8c3b15a263eafded64c39d85b1e2ca76b51ca2e5653": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v2.0.3/dhbw-student-app-release-v2.0.3.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 22,
+      "version_name": "v2.0.2",
+      "tag": "v2.0.3",
+      "commit": "b6a48728fe730abe34bc91878c80efd6dbf9592c",
+      "timestamp": 1775081790,
       "reproducible": true,
       "error": null
     }
@@ -77555,6 +77681,20 @@
       "error": null
     }
   ],
+  "1f42bb8b7a31dbe7c29dd2a8d3d87736686b28daca699ca626345c404687bd3f": [
+    {
+      "repository": "https://github.com/SimonMarquis/SleepTimer.git",
+      "apk_url": "https://github.com/SimonMarquis/SleepTimer/releases/download/1.4.1/app-release.apk",
+      "appid": "fr.smarquis.sleeptimer",
+      "version_code": 14100,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "ef7a345a52f26dec178fc9816088df11b7f730c7",
+      "timestamp": 1775055537,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8fea060db360203a366ab783b344dc16d354545cfc1b44bf1b58020c5a9abc84": [
     {
       "repository": "https://github.com/256x/launcher.git",
@@ -78333,6 +78473,20 @@
       "tag": "beta-v0.1",
       "commit": "610b124f305c6ad7314bd85e7edb55ce75fb670e",
       "timestamp": 1760915890,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fd88ae3e0edc50a1d96e3b44c5b5400df889269b294b436c38c532acf8ba06a6": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/AppVaultX.git",
+      "apk_url": "https://github.com/sunilpaulmathew/AppVaultX/releases/download/beta-v0.2/app-release.apk",
+      "appid": "in.sunilpaulmathew.appvaultx",
+      "version_code": 2,
+      "version_name": "beta-v0.2",
+      "tag": "beta-v0.2",
+      "commit": "ea4371475cd49fd9f642de952a17797d5ca19127",
+      "timestamp": 1775055723,
       "reproducible": true,
       "error": null
     }
@@ -83039,6 +83193,20 @@
       "error": null
     }
   ],
+  "5d547b89207977cc1a17ceef41871b299947bfd25c08cc79a94fc4f0b1749cad": [
+    {
+      "repository": "https://github.com/kittoku/Open-SSTP-Client.git",
+      "apk_url": "https://github.com/kittoku/Open-SSTP-Client/releases/download/v1.9.3/osc-1.9.3.apk",
+      "appid": "kittoku.osc",
+      "version_code": 45,
+      "version_name": "1.9.3",
+      "tag": "v1.9.3",
+      "commit": "2b91c3e8057e1b6d5320e037e3dd81c236baaf7a",
+      "timestamp": 1775055790,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "05205d9d303f606d51ce0f8cfe4b1217a0e2cfb95ab65ba0bd9a98f582411999": [
     {
       "repository": "https://github.com/ksh-b/raven.git",
@@ -85909,6 +86077,20 @@
       "error": null
     }
   ],
+  "aa474906821bf44c128a1118d7ff0437ce658e5260d3ecd9585510081b7987b8": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/redd-focus-android/releases/download/26033101/app-standard-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 26033101,
+      "version_name": "0.9.1",
+      "tag": "26033101",
+      "commit": "acf27b7501c804dba23cf564cd2aaafbb64e863a",
+      "timestamp": 1775062021,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "60ac1dd606f1f0c51d317c57cf9611a9b03d8b82207de2f9e56a6e4913e0c601": [
     {
       "repository": "https://github.com/ohmae/dms-explorer.git",
@@ -86913,6 +87095,20 @@
       "tag": "alpha-0.6.1",
       "commit": "f06d0af933b429e4a4ebf1b7eff9844f8c5531c1",
       "timestamp": 1773499267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7fbc6b1bd825d6d37668187aa68f772a6fdd8f4febaced6bd2141180e12dc34a": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.6.2/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 38,
+      "version_name": "alpha-0.6.2",
+      "tag": "alpha-0.6.2",
+      "commit": "1b85ece9bbf6bc81228e2d98d7776d32832a322c",
+      "timestamp": 1775055870,
       "reproducible": true,
       "error": null
     }
@@ -97541,6 +97737,20 @@
       "error": null
     }
   ],
+  "31efe7bdba9353175d157aa2317f9d7c73e4fb4117951904f45657b580a4dce3": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.1.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 38,
+      "version_name": "6.1.0",
+      "tag": "v6.1.0",
+      "commit": "08c9f36b94fb59c7ef8981647aebd694f74bd7ae",
+      "timestamp": 1775069674,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -100533,6 +100743,20 @@
       "tag": "v2.1.5",
       "commit": "c95bda01c3a51f39e615935a57702a33cb528445",
       "timestamp": 1756653960,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "df8ca44bb501ad990a6de529d61b600b5f81e9edde94961a91d038d6f0329f09": [
+    {
+      "repository": "https://github.com/techlore/Plexus-app.git",
+      "apk_url": "https://github.com/techlore/Plexus-app/releases/download/v2.1.7/Plexus_v2.1.7.apk",
+      "appid": "tech.techlore.plexus",
+      "version_code": 217,
+      "version_name": "2.1.7",
+      "tag": "v2.1.7",
+      "commit": "cc998660237e800a60287eb80c3f27a9b1e3a760",
+      "timestamp": 1775056024,
       "reproducible": true,
       "error": null
     }
