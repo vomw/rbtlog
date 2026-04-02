@@ -48469,6 +48469,20 @@
       "error": null
     }
   ],
+  "cf1e122c13065f4f6da3a614ba80bf9614d4ad9dec1ee9ab6fc95d761b68e47f": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnifePlus.git",
+      "apk_url": "https://github.com/potatameister/PaperKnifePlus/releases/download/v1.0/PaperKnife+.apk",
+      "appid": "com.paperknifeplus.app",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "6ccd61928a7886ec800acbe6ade527528d04026b",
+      "timestamp": 1775133653,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6e96225b15b2dd4cec96cbf6cd7fb010e788a0c5ed56beda029234cbde11985b": [
     {
       "repository": "https://github.com/hardalgorithm/ParanoidsPal-PrivacyLock.git",
@@ -80627,6 +80641,20 @@
       "tag": "v1.23.11+151",
       "commit": "fdc948a948001a5816456f78cd78eecc765e7f05",
       "timestamp": 1774103339,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e47c9af46258cdd401555158f6a57503770564d87de7ef08b373c8a381444ec6": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.5.10/auraninja-1.5.10-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12510,
+      "version_name": "1.5.10",
+      "tag": "1.5.10",
+      "commit": "7d66cf471b588ba95693adea3cda2aacbc932108",
+      "timestamp": 1775142225,
       "reproducible": true,
       "error": null
     }
