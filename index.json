@@ -3581,6 +3581,20 @@
       "error": null
     }
   ],
+  "4329422707e996cc40fc1abad78f9a442cf9e163ce389a8778c3faaf888d4798": [
+    {
+      "repository": "https://github.com/mlm-games/CCLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CCLauncher/releases/download/v10.7.5/cclauncher-v10.7.5-arm64-v8a.apk",
+      "appid": "app.cclauncher",
+      "version_code": 1280,
+      "version_name": "v10.7.5",
+      "tag": "v10.7.5",
+      "commit": "ac393435a2e2c4e1b27ad83d4290e7e28e616f77",
+      "timestamp": 1775137883,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4f04589afe4ed6327cdb1f824c2cf5be6ec05ef44308e56650a80c4abae7472e": [
     {
       "repository": "https://github.com/mlm-games/CLauncher.git",
@@ -14789,6 +14803,20 @@
       "tag": "v0.4.8",
       "commit": "b2ca7583e87f59ee0a2e4823d25f6b8a5276a075",
       "timestamp": 1755957436,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5baf78bf3a88d777baf55da8cd2f6ad475aea18d42976955e66e5858cc856b8f": [
+    {
+      "repository": "https://github.com/JoestarLabs/CerberusTiles.git",
+      "apk_url": "https://github.com/JoestarLabs/CerberusTiles/releases/download/v0.5.0/cerberus_tiles-release-v0.5.0.apk",
+      "appid": "com.bl4ckswordsman.cerberustiles",
+      "version_code": 23,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "88b6363efdf15f61e15bc58b08e644d53ebb9c0b",
+      "timestamp": 1775138446,
       "reproducible": true,
       "error": null
     }
@@ -30131,6 +30159,20 @@
       "error": null
     }
   ],
+  "54a869d4b934a85c69d96df58ebb765d7114f376d45bee73e0429fdab5f0dd0a": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.10/MedTimer-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 162,
+      "version_name": "1.22.10",
+      "tag": "v1.22.10",
+      "commit": "ce769f5673b0b5af30b034fe53cc292daa02777b",
+      "timestamp": 1775155637,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -33681,6 +33723,20 @@
       "error": null
     }
   ],
+  "fbe76ce218dcb72565868be61f7dc3770de373ba375c1388b2fa319680f7a6b4": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.02/Mock-my-GPS-002.04.02-03API-withAllLanguageTranslations-withAospLocationProviders-release.apk",
+      "appid": "com.github.warren_bank.mock_location",
+      "version_code": 2040203,
+      "version_name": "002.04.02-03API",
+      "tag": "service/v02.04.02",
+      "commit": "dcb6e92dbe39bd4eddd9748d6dc9100278b762c1",
+      "timestamp": 1775154362,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ec2ca27af800fe0884127607eea29ce3f6c41da8d00b2e90aa6fb96b3a73c2ce": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -33695,6 +33751,20 @@
       "error": null
     }
   ],
+  "c2a6df87cbcbf9e25bc7b3c8d42f85240dab0e657d92f716db2aaa3caba69f0b": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.02/Mock-my-GPS-UnifiedNlp-Backend-002.04.02-09API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.service.microg_nlp_backend",
+      "version_code": 2040209,
+      "version_name": "002.04.02-09API",
+      "tag": "service/v02.04.02",
+      "commit": "dcb6e92dbe39bd4eddd9748d6dc9100278b762c1",
+      "timestamp": 1775154092,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab507fa9df43122570c58db362831e9c30049495bca56c07d7d1b88f5b1d017c": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -33705,6 +33775,20 @@
       "tag": "service/v02.04.01",
       "commit": "5fc452e2f619e22d93020adb4529defa756a5f20",
       "timestamp": 1731549474,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0bbbf2a813c7b61821bc8df52bad94f198e6aed68a228c0964b79fc31b74e065": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.02/Mock-Silently-002.04.02-01API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.silently",
+      "version_code": 2040201,
+      "version_name": "002.04.02-01API",
+      "tag": "service/v02.04.02",
+      "commit": "dcb6e92dbe39bd4eddd9748d6dc9100278b762c1",
+      "timestamp": 1775154256,
       "reproducible": true,
       "error": null
     }
@@ -36881,6 +36965,20 @@
       "tag": "1.7.4",
       "commit": "d74209201d9489b969f0c20abefa5649fd6c258d",
       "timestamp": 1775061282,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b4ae73d687722a16cf459bb2da9c2248560741b986266add7ecb48704c29b431": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.7.5/Tyr-1.7.5-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 26,
+      "version_name": "1.7.5",
+      "tag": "1.7.5",
+      "commit": "e02ecda2fe837f7976b7b4c0b5b63761ec22c413",
+      "timestamp": 1775138696,
       "reproducible": true,
       "error": null
     }
@@ -40269,6 +40367,20 @@
       "tag": "v2.6.4",
       "commit": "d3d7ea68d478b7b4424b7db77b7765e58dc4b8ee",
       "timestamp": 1771358941,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7f8ddf42690b5ccddb4dbf7dee0ad16b658c560db13b92e22cf2de60a2f753b7": [
+    {
+      "repository": "https://github.com/Kwasow/Musekit.git",
+      "apk_url": "https://github.com/Kwasow/Musekit/releases/download/v2.6.5/app-release.apk",
+      "appid": "com.kwasow.musekit",
+      "version_code": 1721768603,
+      "version_name": "2.6.5",
+      "tag": "v2.6.5",
+      "commit": "43403f2d6c867a877e341155309314394d179871",
+      "timestamp": 1775139287,
       "reproducible": true,
       "error": null
     }
@@ -48707,6 +48819,20 @@
       "error": null
     }
   ],
+  "9bae04da9cee33b464a31f27bdb900ea25357c25ad3d60d6585b4171205a5ca3": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.5.1/youtubeConverter-3.5.1-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 39,
+      "version_name": "3.5.1",
+      "tag": "v3.5.1",
+      "commit": "e30efd5a53635bc754637100dde38becfa0be51d",
+      "timestamp": 1775139430,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f601f5bd160f539a631b01ee637bac33464503ffafd7a2d660ab29d863525501": [
     {
       "repository": "https://github.com/bjoernch/pgpmailer.git",
@@ -49291,6 +49417,20 @@
       "tag": "v1.1.6",
       "commit": "1ecf95c19de4750c95d749742ad6f52e20bee3a5",
       "timestamp": 1774534480,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4af510ebab05709450dfa8569f972ff6c40f78711d8be207ed9e6efcb0ed2270": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.7/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2027,
+      "version_name": "1.1.7",
+      "tag": "v1.1.7",
+      "commit": "92aaeeb07cde7fa3ca99006542e9c85262774188",
+      "timestamp": 1775139622,
       "reproducible": true,
       "error": null
     }
@@ -50579,6 +50719,20 @@
       "tag": "1.20.0",
       "commit": "ed70001bc0132523e89a9c3f541ebeb1ee43b8eb",
       "timestamp": 1768921555,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2a705d9a983be33d4f1a557f4306d8836a9428b5465e295a541d4339b2f40007": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.20.1/baba_1.20.1_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025032081,
+      "version_name": "1.20.1",
+      "tag": "1.20.1",
+      "commit": "9a5c2312a1bc1955089e6f3a3958f857026fa2ec",
+      "timestamp": 1775140009,
       "reproducible": true,
       "error": null
     }
@@ -61329,6 +61483,20 @@
       "error": null
     }
   ],
+  "1d3b3d029a174bd403e3556ad7ddf12958f9ba715ff03ed6c95597e7cfbf8131": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.3.0/NerdCalci-v3.3.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 330,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "14d91d753a0fd78ccaeb9f42ec7d36946352b4a3",
+      "timestamp": 1775140243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -61493,6 +61661,20 @@
       "tag": "v1.07.5",
       "commit": "cd11503b1e08fa86cb406a2dc70095ce0f8a5bf8",
       "timestamp": 1775055100,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cdcb8fbde754c7298ac016608f50dd800646452911d2b91d3dea28476c70e91f": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.08.0/amethyst-fdroid-arm64-v8a-v1.08.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 442,
+      "version_name": "1.08.0",
+      "tag": "v1.08.0",
+      "commit": "9587026abccdfcfb360f5c9fcb3747365482d7a4",
+      "timestamp": 1775140371,
       "reproducible": true,
       "error": null
     }
@@ -74433,6 +74615,20 @@
       "error": null
     }
   ],
+  "45519fd1196ad08a5a2e6cfa14eda43ca48a413fff0ee27fdbe70fd6eb27e075": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.2.3-rc0/eu.darken.bluemusic-v3.2.3-rc0-30203000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30203000,
+      "version_name": "3.2.3-rc0",
+      "tag": "v3.2.3-rc0",
+      "commit": "99f27ea57474effe2e30bfa847878cd9aece035f",
+      "timestamp": 1775141066,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -74765,6 +74961,20 @@
       "tag": "v2.0.1-rc1",
       "commit": "6716fe169db78b54d1ddae41be7658339339d0ec",
       "timestamp": 1774296826,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f9e01d8e67d187d4779c32f5f90a932081d3dbd740c26a737edd083a01f59f1c": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.0.2-rc0/eu.darken.myperm-v2.0.2-rc0-20002000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20002000,
+      "version_name": "2.0.2-rc0",
+      "tag": "v2.0.2-rc0",
+      "commit": "a8876e493dbfa25df63fa1400e3212387aaa10b1",
+      "timestamp": 1775158556,
       "reproducible": true,
       "error": null
     }
@@ -77776,6 +77986,20 @@
       "commit": "38749efaad2fb181fb55b8970aa0df05f71b0498",
       "timestamp": 1774888398,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "22b0ca9e1acd6c69d2d8a7772e7c17697a7e6961e7ec99585e1e8b5ec8cd8157": [
+    {
+      "repository": "https://github.com/256x/memo.git",
+      "apk_url": "https://github.com/256x/memo/releases/download/v1.0.4/literalmemo_v1.0.4.apk",
+      "appid": "fumi.day.literalmemo",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "v1.0.4",
+      "commit": "d7312db8a043327099b342c864817d0c526f1814",
+      "timestamp": 1775069363,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -100341,6 +100565,20 @@
       "error": null
     }
   ],
+  "3dda1414dda9e2682ebd8f488bdc4ca8f05107e4aa53d3c5cc324f3f3c0638f1": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.7.1/stasis-client-android-v1.7.1.apk",
+      "appid": "stasis.client.android",
+      "version_code": 14,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "cc292027febd11debb0deac155180b766901e8de",
+      "timestamp": 1775141432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a530c7051a118fd62016403a37cde8402b662600e6b61c65a9898827164e6d74": [
     {
       "repository": "https://gitlab.com/Teo77/hiddensettings.git",
@@ -100673,6 +100911,20 @@
       "tag": "v0.7.8",
       "commit": "d241ebe6f5a70801fbd8d3ebcc265038eb696d4d",
       "timestamp": 1774881117,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a218fb564f3aa5215fcbfce35c7a82ba1e684cd17caa01f0b79387e33f6fa799": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.7.9/mindwtr-0.7.9-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 53,
+      "version_name": "0.7.9",
+      "tag": "v0.7.9",
+      "commit": "42af271487d2c256fbd194d381fd9f37f7fd6a89",
+      "timestamp": 1775156677,
       "reproducible": true,
       "error": null
     }
@@ -103641,6 +103893,20 @@
       "tag": "2.3.2",
       "commit": "99c0b57cda35a70575a6f1c110217c6e277957a3",
       "timestamp": 1772485021,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "61d4a4208ebfb03b31e455ef7119c075e2f4196091eafa340e96b5da38185a9e": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.3.3/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 60,
+      "version_name": "2.3.3",
+      "tag": "2.3.3",
+      "commit": "6895e037c9f17192ce76704768fb3e02c21841ec",
+      "timestamp": 1775157671,
       "reproducible": true,
       "error": null
     }
