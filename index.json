@@ -2811,6 +2811,20 @@
       "error": null
     }
   ],
+  "1b5ae68c46180e4e1465134c957d9f4299368db1e82603c44e761aa32f699470": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.14.6/Podcini.X-free-arm64-v8a-10.14.6.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 281,
+      "version_name": "10.14.6",
+      "tag": "v10.14.6",
+      "commit": "75e829dd2679fa018b5d1ebbd868706a87e1ada2",
+      "timestamp": 1775242106,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6253,6 +6267,20 @@
       "timestamp": 1774809409,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "c8d456b3685e8a58c6ad5612542127b2340a5f76771bbf7a83ecf31a29386133": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.1.5/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 42,
+      "version_name": "6.1.5",
+      "tag": "v6.1.5",
+      "commit": "7f2cac2e31002d1be43104020270893b971dcfdb",
+      "timestamp": 1775227642,
+      "reproducible": true,
+      "error": null
     }
   ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
@@ -13645,6 +13673,20 @@
       "error": null
     }
   ],
+  "00a17677c78e751353e534b5c978607143ddc0e332365e03cd6f8f7d33a86a3e": [
+    {
+      "repository": "https://github.com/3slam11/noted.git",
+      "apk_url": "https://github.com/3slam11/noted/releases/download/3.1.1/noted-arm64-v8a.apk",
+      "appid": "com.app.noted",
+      "version_code": 2021,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "eda5454313c2a1b43a0e9423479b88cd46b03edd",
+      "timestamp": 1775224910,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "64a213813b86111bae674b05453311c0c46ae372e8f5ae975de500a938b46f7b": [
     {
       "repository": "https://github.com/Arijit-05/Fomodoro.git",
@@ -15171,6 +15213,20 @@
       "error": null
     }
   ],
+  "3a0ba6cc59d63865c22a71f0794d92b4de44353f0ec39d8aca875bf33fed96cf": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v18.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 55,
+      "version_name": "18.0",
+      "tag": "v18.0",
+      "commit": "a4e5839108a44657465adc1827163c5ffe48088a",
+      "timestamp": 1775225296,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ebaa64f149c71dd9a14ced90ff418156032161771a1f045479dc48d37e24a2ee": [
     {
       "repository": "https://github.com/you-apps/WallYou.git",
@@ -15335,6 +15391,20 @@
       "tag": "v14.1",
       "commit": "0ca8fa074dd476ef86eaf3db69a8029335b896de",
       "timestamp": 1771513713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "252614c39e02d1abb53f1ee5e700770bb9f51d1b84f8bb8b76978488cc776bbe": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v15.0/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 38,
+      "version_name": "15.0",
+      "tag": "v15.0",
+      "commit": "0a7d81b8371bb3229e42efa26b5419cce3a8374f",
+      "timestamp": 1775228981,
       "reproducible": true,
       "error": null
     }
@@ -18193,6 +18263,20 @@
       "error": null
     }
   ],
+  "3c825826e38873e05fa6c1d74747a71434ebc655dc7699cd52b348338f4ae440": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/v2026.04.1204/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1204,
+      "version_name": "2026.04.1204",
+      "tag": "v2026.04.1204",
+      "commit": "bc9b15de68f789c7f7ce1505d14749f3629e897e",
+      "timestamp": 1775225586,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -20667,6 +20751,20 @@
       "tag": "v0.3.3-beta",
       "commit": "a391907da7bb4a5c32e5614d5e1f5334d822a7a4",
       "timestamp": 1774294638,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5361ec56f8484baca1a6fcdd112b0e0ac9f455b74aa3aed63ba4748a07b55c0d": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v0.4.0-beta/wifi-audio-streaming-v0.4.0-beta.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 7,
+      "version_name": "0.4.0-beta",
+      "tag": "v0.4.0-beta",
+      "commit": "0c0a42f2a333c9413b36de22117281c7cc7040cf",
+      "timestamp": 1775225800,
       "reproducible": true,
       "error": null
     }
@@ -26657,6 +26755,20 @@
       "tag": "v1.0.1",
       "commit": "80751e3e3339a5aba3fbfe38fa598c2efdf275fd",
       "timestamp": 1773273390,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8da3d9af9961f30f92e8ae490eb47524e0a1e09d1295d2dce88364665f6d927e": [
+    {
+      "repository": "https://github.com/eliasbuenosdias/GeoGas.git",
+      "apk_url": "https://github.com/eliasbuenosdias/GeoGas/releases/download/v1.0.2/GeoGas-1.0.2.apk",
+      "appid": "com.eliasbuenosdias.geogas",
+      "version_code": 5,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "df9c97a9537fd76450d362e1a275fad4ee5efb71",
+      "timestamp": 1775225926,
       "reproducible": true,
       "error": null
     }
@@ -36227,6 +36339,20 @@
       "error": null
     }
   ],
+  "957fbd12fc8681017364e1ed299ac1685b338e454655017d9ac04931cd5f0c6d": [
+    {
+      "repository": "https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder.git",
+      "apk_url": "https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/releases/download/v3.0/app-release.apk",
+      "appid": "com.haseeb.recorder",
+      "version_code": 4,
+      "version_name": "3.0",
+      "tag": "v3.0",
+      "commit": "6e6391b31e8a09a30e697ce436af05e59541c9a6",
+      "timestamp": 1775226018,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4d8352ab1748951737186088d331a6d04344725477aef0ae89344640c8810dad": [
     {
       "repository": "https://github.com/oliexdev/openWorkout.git",
@@ -37231,6 +37357,20 @@
       "tag": "release-4.0.0",
       "commit": "0e11b3ee44d4904f264b1908b4da8dbb4ab32b6a",
       "timestamp": 1774447430,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "d514031d04ba4ebf92e0f0d8dc1032608126d7faaed3d0c560f4945e030ac482": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-4.0.1/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 401,
+      "version_name": "4.0.1",
+      "tag": "release-4.0.1",
+      "commit": "5dd442cdfe5c6a43160cba7e8b833838cdc1dc0c",
+      "timestamp": 1775226088,
       "reproducible": true,
       "error": null
     }
@@ -44329,6 +44469,20 @@
       "error": null
     }
   ],
+  "b05df9c3406141b22f1c74fd5c5fe8d9949b6cc45c57492fddc46c2802aa6f48": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.7/auto-light-27.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 9,
+      "version_name": "2.7",
+      "tag": "2.7",
+      "commit": "ddc0d176bec6da46206bc359d1ee538f6118be37",
+      "timestamp": 1775226319,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b8bdc761c0163fc0ae6153d47ac3bd1f521dd635d16fb6b41da158a4ea488f4a": [
     {
       "repository": "https://github.com/The-First-King/Auto-Off-Bluetooth.git",
@@ -44787,6 +44941,20 @@
       "tag": "v1.24.0",
       "commit": "5a58ae1bb3c239e4c6af54aa511fb7fc995f789c",
       "timestamp": 1774534363,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0699b039106a63e15c827fa86afa6f058eff763926c2f7279225697b66cef953": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.25.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 80,
+      "version_name": "1.25.0",
+      "tag": "v1.25.0",
+      "commit": "62dbf05d2588635d3760fa435681912f4d4b588e",
+      "timestamp": 1775242830,
       "reproducible": true,
       "error": null
     }
@@ -56277,6 +56445,20 @@
       "error": null
     }
   ],
+  "7894c45af8c8272c97d5b5c296b36d495fc4cf25fd666816636f60c22331a08c": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V1.0.3/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 2004,
+      "version_name": "1.0.3",
+      "tag": "V1.0.3",
+      "commit": "4c5c57248ebd41c34cea45d7befaea605916fbf3",
+      "timestamp": 1775241764,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -57013,6 +57195,20 @@
       "tag": "1.3.3",
       "commit": "7c5b16032351b5c35de3947706a4b414a8fcd54a",
       "timestamp": 1764618029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9efdc39d85bb0ed7c0d45f014225a466a66dd76c23011c252da7f216f6002bde": [
+    {
+      "repository": "https://gitlab.com/sobuu/sobuu.git",
+      "apk_url": "https://gitlab.com/sobuu/sobuu/-/releases/1.4.0/downloads/Sobuu-1.4.0.apk",
+      "appid": "com.sobuumedia.sobuu",
+      "version_code": 10,
+      "version_name": "1.4.0",
+      "tag": "1.4.0",
+      "commit": "dd4ea95e2b1dad7d675213d9bc9127ef7a394556",
+      "timestamp": 1775246053,
       "reproducible": true,
       "error": null
     }
@@ -60485,6 +60681,34 @@
       "tag": "v3.23.1",
       "commit": "532434219ede2b1cf9dcc73a9ac1946020191093",
       "timestamp": 1772912135,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ecb296cde336b98556c3adc206860119aea652cf3ff878ccb223bbab996447a0": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.0.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40000,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "ccf07637d3691393cf66e583c137ab5224253182",
+      "timestamp": 1775226432,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ac49a96bcc1a1deda49507c032cfe8dc5f46481f91c5091459dd28a29da2f57a": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.0.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40000,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "ccf07637d3691393cf66e583c137ab5224253182",
+      "timestamp": 1775226504,
       "reproducible": true,
       "error": null
     }
@@ -67581,6 +67805,20 @@
       "error": null
     }
   ],
+  "367e6ed0bb309eb1c9caac6356d77e7f1a01f17125205afa2e5290317910ec19": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.0.9/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20090,
+      "version_name": "2.0.9",
+      "tag": "v2.0.9",
+      "commit": "b4b09c10a12a6794492b717088ad3b23ab75da9a",
+      "timestamp": 1775242383,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
     {
       "repository": "https://github.com/Tetr4/CompassTile.git",
@@ -67885,6 +68123,20 @@
       "tag": "2.3",
       "commit": "93ac002f5185e35767f5cdfb80733776211df9c0",
       "timestamp": 1774464589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2beb8508da5245dc624db05eea11f7079a00967b7961680a4888cb5b01bc5cff": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.3.1/GlucoDataHandler_2.3.1.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1182,
+      "version_name": "2.3.1",
+      "tag": "2.3.1",
+      "commit": "64abba20e6e9ca97ee3102ba4dcf9becf064e940",
+      "timestamp": 1775229259,
       "reproducible": true,
       "error": null
     }
@@ -77023,6 +77275,20 @@
       "error": null
     }
   ],
+  "dd11e01e3e5a152c00e8c2cec585414769323864e553080a0c69fb2962e53952": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.1.0/phdp-v2.1.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 21000,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "a68f60ebb3547a96cbc4c18809a8a1c83297c9a9",
+      "timestamp": 1775227186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6dff8017e6f83c50e2d94b1499d129a5ad15a77bebb56e19830455efbe17b7d2": [
     {
       "repository": "https://github.com/hxreborn/remember-my-sort.git",
@@ -77663,6 +77929,20 @@
       "tag": "v36.23.1.0",
       "commit": "444a8eeecd9c00510fc1d99de0cca9cbfc2a8b5d",
       "timestamp": 1774583183,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fc8cae3ad8a3b7b5b8d4b4cf4255a2f99416c08d38d0dcab79886c9a84953953": [
+    {
+      "repository": "https://github.com/Chill-Astro/FOSS-Root-Checker.git",
+      "apk_url": "https://github.com/Chill-Astro/FOSS-Root-Checker/releases/download/v36.23.2.0/app-offline-release.apk",
+      "appid": "foss.chillastro.root.checker.offline",
+      "version_code": 2,
+      "version_name": "v36.23.2.0-OFFLINE",
+      "tag": "v36.23.2.0",
+      "commit": "03814a9b316f76da1744a95b2702f592b3d33084",
+      "timestamp": 1775242913,
       "reproducible": true,
       "error": null
     }
@@ -80907,6 +81187,34 @@
       "tag": "1.5.10",
       "commit": "7d66cf471b588ba95693adea3cda2aacbc932108",
       "timestamp": 1775142225,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "141f50ab4ecacb95163042565d36ffd49d5f0c0e258dffa95b31eceb883d8a83": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.5.11/auraninja-1.5.11-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12511,
+      "version_name": "1.5.11",
+      "tag": "1.5.11",
+      "commit": "4cb46b2fcf9fb3c033ac535dc282bc514da8c5ce",
+      "timestamp": 1775227317,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5a635dd8e4348bc315ee4fa27d32faf8ae9c0c5a40acbf973934fa53efaeb6f4": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.1/auraninja-1.6.1-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12601,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "0b7164ac8672550a2ac49a4cc7abd3327f30edfe",
+      "timestamp": 1775243200,
       "reproducible": true,
       "error": null
     }
@@ -87393,6 +87701,20 @@
       "error": null
     }
   ],
+  "7096b64df06730ab49f47eb2d5a130cefc629b0522ca357cc3e1d224a431fb69": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.6.3/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 39,
+      "version_name": "alpha-0.6.3",
+      "tag": "alpha-0.6.3",
+      "commit": "273c67496f40bc664d85804b3a68a9ef6e46bc10",
+      "timestamp": 1775228012,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -92849,6 +93171,20 @@
       "tag": "v2.6.3",
       "commit": "d92e6e9dc368d13769753b3f2fe2c799c2317f94",
       "timestamp": 1747493773,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ebd4ee1bdd954e81b59113e68009e9ae3cb5f0cb666f1e4b1862e6936f0adfbb": [
+    {
+      "repository": "https://github.com/jellyfin/jellyfin-android.git",
+      "apk_url": "https://github.com/jellyfin/jellyfin-android/releases/download/v2.6.4/jellyfin-android-v2.6.4-libre-release.apk",
+      "appid": "org.jellyfin.mobile",
+      "version_code": 2060499,
+      "version_name": "2.6.4",
+      "tag": "v2.6.4",
+      "commit": "9d8544b955304b3d9620b88c4219b02b3eb85e8d",
+      "timestamp": 1775243160,
       "reproducible": true,
       "error": null
     }
@@ -100253,6 +100589,20 @@
       "tag": "v10.2",
       "commit": "df7c7eb4ef0f1bd2f0943f0a6eb209e37ab17be5",
       "timestamp": 1764776474,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0f85e696daa888b4810e40e1526e5d7db59ddb7566ba3dd86c4e52b802cf33ad": [
+    {
+      "repository": "https://github.com/cvzi/Lyrics.git",
+      "apk_url": "https://github.com/cvzi/Lyrics/releases/download/v11.1/lyrics18.apk",
+      "appid": "sexy.lyrics",
+      "version_code": 18,
+      "version_name": "11.1",
+      "tag": "v11.1",
+      "commit": "07f4e0bdfc6b94c8b11d588f83493882975c04b8",
+      "timestamp": 1775243929,
       "reproducible": true,
       "error": null
     }

@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/Chill-Astro/FOSS-Root-Checker.git
 updates: releases
-notes:
-  - 'FIXME: remove the git checkout/reset plus the toolVendor lines for the next build'
 versions:
   - tag: v36.23.1.0
     apks:
@@ -12,6 +10,36 @@ versions:
           - git checkout 51451979f13b4becc26abf74ca40e410ce3dc35a
           - git reset --soft aed4084f471f036fcafc7078973a3523fe93e17c
           - sed -r '/toolchainVendor/d' -i gradle/gradle-daemon-jvm.properties
+          - chmod +x gradlew
+          - ./gradlew assembleOfflineRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/offline/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v36.23.2.0
+    apks:
+      - apk_pattern: app-offline-release\.apk
+        apk_url: https://github.com/Chill-Astro/FOSS-Root-Checker/releases/download/v36.23.2.0/app-offline-release.apk
+        build:
           - chmod +x gradlew
           - ./gradlew assembleOfflineRelease
           - find . -name '*.apk'
