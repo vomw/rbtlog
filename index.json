@@ -2825,6 +2825,20 @@
       "error": null
     }
   ],
+  "2966c3ac7914951fc59136b91ff6f3a394c860156e14820a6879e6f637d317ff": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.14.7/Podcini.X-free-arm64-v8a-10.14.7.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 282,
+      "version_name": "10.14.7",
+      "tag": "v10.14.7",
+      "commit": "0c0398769208f30d735e3239282549ad0e3e5353",
+      "timestamp": 1775327084,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -11827,6 +11841,20 @@
       "error": null
     }
   ],
+  "b5d44a6ed2afd8d59bcbff23ed578e25e1cee45474adb47cfb0c50204920aa1d": [
+    {
+      "repository": "https://github.com/ahmedthebest31/PureLink-Android.git",
+      "apk_url": "https://github.com/ahmedthebest31/PureLink-Android/releases/download/v3.0.0/PureLink-v3.0.0.apk",
+      "appid": "com.ahmedsamy.purelink",
+      "version_code": 4,
+      "version_name": "3.0.0",
+      "tag": "v3.0.0",
+      "commit": "651052ba5badb1a85d38470152e2926ac82f11ec",
+      "timestamp": 1775320700,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "059d0ab37559df28f01b0c8abed5c39f6edc7b865674ae9ccf7368860f5392f2": [
     {
       "repository": "https://github.com/aicodix/assempix.git",
@@ -18275,6 +18303,18 @@
       "timestamp": 1775225586,
       "reproducible": true,
       "error": null
+    },
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.04.1204/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1204,
+      "version_name": "2026.04.1204",
+      "tag": "2026.04.1204",
+      "commit": "bc9b15de68f789c7f7ce1505d14749f3629e897e",
+      "timestamp": 1775310685,
+      "reproducible": true,
+      "error": null
     }
   ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
@@ -22221,6 +22261,20 @@
       "tag": "v2.19.0",
       "commit": "9a4f076dfd881f654e86137903654338836ee4d2",
       "timestamp": 1774362007,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "91cc895a8367c210482ca1580b59897c9744912cc879e5378521780ea18de1ba": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.19.1/daily-you-arm64-v8a-v2.19.1.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20190012,
+      "version_name": "2.19.1",
+      "tag": "v2.19.1",
+      "commit": "87cc7edb4cdc9ae9938cd320665e40b5450c18a6",
+      "timestamp": 1775310959,
       "reproducible": true,
       "error": null
     }
@@ -33863,6 +33917,20 @@
       "error": null
     }
   ],
+  "87c419bfc8d0167c6c8a26f029d101db1dc302718427d6dbda63f014afb189e3": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.03/Mock-my-GPS-002.04.03-03API-withAllLanguageTranslations-withAospLocationProviders-release.apk",
+      "appid": "com.github.warren_bank.mock_location",
+      "version_code": 2040303,
+      "version_name": "002.04.03-03API",
+      "tag": "service/v02.04.03",
+      "commit": "cf1cb2d1445cd1df13759dc44dd9239fef716db1",
+      "timestamp": 1775312047,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ec2ca27af800fe0884127607eea29ce3f6c41da8d00b2e90aa6fb96b3a73c2ce": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -33891,6 +33959,20 @@
       "error": null
     }
   ],
+  "cdd3e2d631ec0bd3afb1e687a249735270a1a4ef31f6ede5c829efa393bc1d6e": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.03/Mock-my-GPS-UnifiedNlp-Backend-002.04.03-09API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.service.microg_nlp_backend",
+      "version_code": 2040309,
+      "version_name": "002.04.03-09API",
+      "tag": "service/v02.04.03",
+      "commit": "cf1cb2d1445cd1df13759dc44dd9239fef716db1",
+      "timestamp": 1775311948,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab507fa9df43122570c58db362831e9c30049495bca56c07d7d1b88f5b1d017c": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -33915,6 +33997,20 @@
       "tag": "service/v02.04.02",
       "commit": "dcb6e92dbe39bd4eddd9748d6dc9100278b762c1",
       "timestamp": 1775154256,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eaaa71d6d43780f749a0113ff2ccdbbb9d42fbb478547be914022b2f2a10e641": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.03/Mock-Silently-002.04.03-01API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.silently",
+      "version_code": 2040301,
+      "version_name": "002.04.03-01API",
+      "tag": "service/v02.04.03",
+      "commit": "cf1cb2d1445cd1df13759dc44dd9239fef716db1",
+      "timestamp": 1775312002,
       "reproducible": true,
       "error": null
     }
@@ -46091,6 +46187,20 @@
       "error": null
     }
   ],
+  "b9337209d898a409695807bc18519c7f1789c3c199116305550325eb54a1dadc": [
+    {
+      "repository": "https://github.com/nikhilvishwakarma00/Velune.git",
+      "apk_url": "https://github.com/nikhilvishwakarma00/Velune/releases/download/v1.0.7/velune-universal-release.apk",
+      "appid": "com.nikhil.yt",
+      "version_code": 7,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "901a3810f19f651ecfd042191e77e93bd016fc00",
+      "timestamp": 1775325843,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "58335376cef98186b2fe4275528fd55d6304341f4f5cb6e247f5242879145108": [
     {
       "repository": "https://github.com/NimaKhajehpour/MyMood.git",
@@ -55493,6 +55603,34 @@
       "error": null
     }
   ],
+  "08934ca7512ac745adf105de5f64583889f36caf256abb9d40f562aa4f7211db": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.8.3/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5830,
+      "version_name": "5.8.3",
+      "tag": "5.8.3",
+      "commit": "55f062ac694206abf1c53bfa81556c98d189006f",
+      "timestamp": 1775312189,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1646b92ac55bcb65252277a1b89d0d6c734d4d67e9e2ce4379c633c1e8617598": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.8.4/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5840,
+      "version_name": "5.8.4",
+      "tag": "5.8.4",
+      "commit": "7085855b8d6cd0afac9bfa0bf7f8f307d064f820",
+      "timestamp": 1775329071,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -56445,6 +56583,20 @@
       "error": null
     }
   ],
+  "08465aed8b81076e3a01100ce025732b00a85c6202c19e6efde4c056276ce8e7": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.7.3/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5730,
+      "version_name": "5.7.3",
+      "tag": "5.7.3",
+      "commit": "2e47c9acdff5c27b18c24b86bb5ac10ca6a980c8",
+      "timestamp": 1775325337,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -57265,6 +57417,20 @@
       "tag": "1.4.0",
       "commit": "dd4ea95e2b1dad7d675213d9bc9127ef7a394556",
       "timestamp": 1775246053,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1b30f7baccdedb1ac39c399c46cdef2ed15135fec90ad0e249cbf1b26e8a19d6": [
+    {
+      "repository": "https://gitlab.com/sobuu/sobuu.git",
+      "apk_url": "https://gitlab.com/sobuu/sobuu/-/releases/1.4.1/downloads/Sobuu-1.4.1.apk",
+      "appid": "com.sobuumedia.sobuu",
+      "version_code": 11,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "cf4c550a23f65daf5286a4c3becbdee70beb0796",
+      "timestamp": 1775313090,
       "reproducible": true,
       "error": null
     }
@@ -59393,6 +59559,20 @@
       "tag": "v2.2.0",
       "commit": "6e204f5c4a863a32d8b1849bd10d28d6d420161e",
       "timestamp": 1774795021,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "48abe000aaf2fcb9e9098b9079b8f32b7868a66e433c1d979c8635f99266e9af": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.3/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 27,
+      "version_name": "2.2.3",
+      "tag": "v2.2.3",
+      "commit": "71356df892ccc1bf0da7c424281aba588f7fd69d",
+      "timestamp": 1775327885,
       "reproducible": true,
       "error": null
     }
@@ -61773,6 +61953,34 @@
       "tag": "v3.3.0",
       "commit": "14d91d753a0fd78ccaeb9f42ec7d36946352b4a3",
       "timestamp": 1775140243,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ba3e12a9170167b4da76d0fcc12643291d4477cb27e2f9f50730dae1ad8a8474": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.4.1/NerdCalci-v3.4.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 341,
+      "version_name": "3.4.1",
+      "tag": "v3.4.1",
+      "commit": "6ec259529f472282a65a628a5f4734961796d4a0",
+      "timestamp": 1775313312,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca1ac72dedd19f76169e86c05de68ee7f759c060f35c51d0a7e4a24a672fdf95": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.4.2/NerdCalci-v3.4.2.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 342,
+      "version_name": "3.4.2",
+      "tag": "v3.4.2",
+      "commit": "c940ce77b87e0d91c291d4ac4b7210fbb9a0412e",
+      "timestamp": 1775328135,
       "reproducible": true,
       "error": null
     }
@@ -70965,6 +71173,20 @@
       "error": null
     }
   ],
+  "1a367fe1480dc637fe554c82d5ab92b4ca33452f548447381d28d4fe69e855fd": [
+    {
+      "repository": "https://github.com/Fabi019/hid-barcode-scanner.git",
+      "apk_url": "https://github.com/Fabi019/hid-barcode-scanner/releases/download/v2.2.1/app-universal-release.apk",
+      "appid": "dev.fabik.bluetoothhid",
+      "version_code": 57,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "08681c7d74751d3e95462af8e6b15f5d8c92d401",
+      "timestamp": 1775313443,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "32cd6b138707552e170ff2485ff2bb5d6dc9091cdb13bb31d10654a75026c203": [
     {
       "repository": "https://github.com/ImranR98/Obtainium.git",
@@ -79639,6 +79861,20 @@
       "error": null
     }
   ],
+  "f1a35d822222a35aec617e906460b97966a100af725ba0fb9796ddd7d73c0277": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.24.0.1/freetube-0.24.0.1-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 240000001,
+      "version_name": "0.24.0.1",
+      "tag": "0.24.0.1",
+      "commit": "920aa3179614037e703df3e8c4f7019aa67a1aee",
+      "timestamp": 1775313578,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -81285,6 +81521,20 @@
       "tag": "1.6.1",
       "commit": "0b7164ac8672550a2ac49a4cc7abd3327f30edfe",
       "timestamp": 1775243200,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e1490825c30d28c694657705e82ee603d5da7a25966bca627802d9be74fcb84": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.3/auraninja-1.6.3-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12603,
+      "version_name": "1.6.3",
+      "tag": "1.6.3",
+      "commit": "0af3b60f7071a8ff6d76a705b4fb11a3cac23b52",
+      "timestamp": 1775314459,
       "reproducible": true,
       "error": null
     }
@@ -85919,6 +86169,20 @@
       "tag": "v13.0.0",
       "commit": "ec9d0a6900ab09857557d028dfacb4df04ae5833",
       "timestamp": 1773856070,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7e40c282bef46a61b88dfb80c1fc8a599e03b112f198684b81810267a266c7a3": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v13.1.0/app-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 132,
+      "version_name": "13.1.0",
+      "tag": "v13.1.0",
+      "commit": "7852244188c868a7152540ddd73d3e150deaa058",
+      "timestamp": 1775315002,
       "reproducible": true,
       "error": null
     }
@@ -93199,6 +93463,20 @@
       "tag": "v5.8.6",
       "commit": "5c692fe7f031b1fd9ccb0af12851407856369910",
       "timestamp": 1769182857,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a96b28c8eba267d867de485066192f116579f10e8fb37db740d9e0ee00fe1632": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.9.0/floccus-build-v5.9.0.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5009000,
+      "version_name": "5.9.0",
+      "tag": "v5.9.0",
+      "commit": "5120ecc588ce7be438179b06c3a954ab7457d5ec",
+      "timestamp": 1775328534,
       "reproducible": true,
       "error": null
     }
