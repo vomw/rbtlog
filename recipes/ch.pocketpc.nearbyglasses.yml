@@ -2,7 +2,8 @@
 repository: https://github.com/yjeanrenaud/yj_nearbyglasses.git
 updates: releases
 notes:
-  - 'FIXME: v.1.0.5 had its build.gradle accidentally replaced by app/build.gradle. Need to remove the initial checkout before the next release; see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/44 '
+  - 'FIXED: v.1.0.5 had its build.gradle accidentally replaced by app/build.gradle. Need to remove the initial checkout before the next release; see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/44 '
+  - v1.0.6 was built 16 commits after the tag /o\
 versions:
   - tag: v1.0.4
     apks:
@@ -47,6 +48,40 @@ versions:
           - gradlew.py/gradlew.py -v assembleRelease
           - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.0.6
+    apks:
+      - apk_pattern: yj_nearbyglasses.*\.apk
+        apk_url: https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.6/yj_nearbyglasses_1.0.6-izziFdroid.apk
+        build:
+          - git checkout c59cbf3151b34f8fd00cc7bcd49cc1c1569db0b3
+          - rm -rf .git
+          - cd Android
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py -v assembleIzziFdroid
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/izziFdroid/*unsigned.apk /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build
         build_repo_dir: /build/repo

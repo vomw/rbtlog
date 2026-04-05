@@ -101,3 +101,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: service/v02.04.04
+    apks:
+      - apk_pattern: Mock-my-GPS-.*withAllLanguageTranslations-withAospLocationProviders-release\.apk
+        apk_url: https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.04.04/Mock-my-GPS-002.04.04-04API-withAllLanguageTranslations-withAospLocationProviders-release.apk
+        build:
+          - cd android-studio-project
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py --version 8.9 -v :Mock-my-GPS:assembleWithAllLanguageTranslationsWithAospLocationProvidersRelease
+          - mv Mock-my-GPS/build/outputs/apk/withAllLanguageTranslationsWithAospLocationProviders/release/Mock-my-GPS-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
