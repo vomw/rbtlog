@@ -72,10 +72,10 @@ versions:
           verify_gradle_wrapper: false
   - tag: v1.0.6
     apks:
-      - apk_pattern: yj_nearbyglasses.*\.apk
-        apk_url: https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.6/yj_nearbyglasses_1.0.6-izziFdroid.apk
+      - apk_pattern: yj_nearbyglasses.*\d\.apk
+        apk_url: https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.6/yj_nearbyglasses_1.0.6.apk
         build:
-          - git checkout c59cbf3151b34f8fd00cc7bcd49cc1c1569db0b3
+          - git checkout 4bb1345162d796410e18b3b08b7b2b3a82df5b6f
           - rm -rf .git
           - cd Android
           - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
