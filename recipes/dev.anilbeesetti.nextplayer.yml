@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/anilbeesetti/nextplayer.git
 updates: releases
+notes:
+  - 'FIXME: need to switch to arm64 build with next release (after 0.16.2)'
 versions:
   - tag: v0.11.1
     apks:
