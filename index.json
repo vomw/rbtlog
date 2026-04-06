@@ -7879,6 +7879,34 @@
       "error": null
     }
   ],
+  "c57334dedb01074cd816ee0c46c7f3895fb492a679bd72b03432f2a66399db04": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.011/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211011,
+      "version_name": "2.11.011",
+      "tag": "2.11.011",
+      "commit": "a91d6da8990e40ff74f63ff3c166b388ba0d7767",
+      "timestamp": 1775483501,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0bdafb823df0cf9a7d12401f2fd8723727c4047838a5e9a7890f62b4f23bc12a": [
+    {
+      "repository": "https://gitlab.com/Askanimus/arbeitszeitkonto.git",
+      "apk_url": "https://gitlab.com/Askanimus/arbeitszeitkonto/-/releases/2.11.012/downloads/app-release.apk",
+      "appid": "askanimus.arbeitszeiterfassung2",
+      "version_code": 211012,
+      "version_name": "2.11.012",
+      "tag": "2.11.012",
+      "commit": "55af19805b25763247dca18bea79804ad1ecd794",
+      "timestamp": 1775500603,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "e6ba3d752ea6010d4f269136b2237615d81c7eea051f4ff15a092e919dbf9272": [
     {
       "repository": "https://gitlab.com/Askanimus/qr-lager.git",
@@ -14093,6 +14121,20 @@
       "error": null
     }
   ],
+  "b62b6e1ff22ab61617ce1d902af7f5f8da95ef6a3e38da382948b08edc6a1dc7": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/436/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 436,
+      "version_name": "4.36 GH",
+      "tag": "436",
+      "commit": "61388ec6c2bdb90b1caa7a7218ee98e3c4f47767",
+      "timestamp": 1775483622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -14831,6 +14873,20 @@
       "tag": "v8.0",
       "commit": "1a7bb7cfab55ccc37ca464155662907e5dabb867",
       "timestamp": 1773064975,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4c90bc8595f8ca4f5f6ef3e1ed24f132416680a0616a6046065b79132ca15a72": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v8.1/OwnDroid-v8.1.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 44,
+      "version_name": "8.1",
+      "tag": "v8.1",
+      "commit": "c19927b2abc8ee7741e910dcf6eefc9a6d86fa80",
+      "timestamp": 1775483817,
       "reproducible": true,
       "error": null
     }
@@ -19983,6 +20039,20 @@
       "error": null
     }
   ],
+  "1bdc47d5b48afffd37948a9f5638ae6a5f3d4d02ca01ae36143588284b979996": [
+    {
+      "repository": "https://github.com/LSPosed/CorePatch.git",
+      "apk_url": "https://github.com/LSPosed/CorePatch/releases/download/4.9/app-release.apk",
+      "appid": "com.coderstory.toolkit",
+      "version_code": 2047,
+      "version_name": "4.9",
+      "tag": "4.9",
+      "commit": "c691400c070f45e1fb8f0dcfcf8c136868e81eb1",
+      "timestamp": 1775483931,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3dfadd82ff077889af1ae5b495a1e72919a8ea1422774792ee8b16332414804d": [
     {
       "repository": "https://github.com/cogwheel0/luci-mobile.git",
@@ -25017,6 +25087,20 @@
       "tag": "v1.3.9",
       "commit": "9e01133e1f997a8524e9138a3899e81e39545195",
       "timestamp": 1751491202,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "081ad0179cff46ed7f3a515f532ac96ffe1377800c28272388ff976084b3c001": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.4.0/nadamillas-1.4.0.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 38,
+      "version_name": "1.4.0.20260404",
+      "tag": "v1.4.0",
+      "commit": "0b6affcfab222df461df266595ba7b7050feb009",
+      "timestamp": 1775483981,
       "reproducible": true,
       "error": null
     }
@@ -32201,6 +32285,20 @@
       "error": null
     }
   ],
+  "b3c59458c100a5080a86ff111ee354e3e7e3cab94e8fba1503e2931dc5902529": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.7.0/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2793817,
+      "version_name": "3.7.0",
+      "tag": "3.7.0",
+      "commit": "fb707d2a4f15777d4c6230ebf166a35dded6a24d",
+      "timestamp": 1775500889,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c8c1917bb6e2f85f0fdc297ed1484ec10bfb6babdad860b49a560a226c792c1c": [
     {
       "repository": "https://github.com/gouravkhunger/QuotesApp.git",
@@ -32459,6 +32557,20 @@
       "tag": "v1.6.0",
       "commit": "83afffde4f7fa88bf31de9e2931efaaf90e94f08",
       "timestamp": 1775415725,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4cf371b6247f192e8f4c8d364e71c96d52c61cd9e750a36229a89931b0516323": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.6.1/app-release.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 58,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "f9e2ad5dc2ad31516dfd68a1cb6afe887d82ef59",
+      "timestamp": 1775484050,
       "reproducible": true,
       "error": null
     }
@@ -48677,6 +48789,20 @@
       "error": null
     }
   ],
+  "792788bc899e43750ce48dc9a35fd424f5c2aff2b4ab37e072a927c1bce45f85": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.6.1/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1018,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "369947f434e689cc3a0b3b8df5b8d69684f10615",
+      "timestamp": 1775484302,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -54105,6 +54231,20 @@
       "tag": "v1.0.14",
       "commit": "96697efa0acda1807f54906b616de26fba16d9c9",
       "timestamp": 1771429058,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "15901859e2c5fd38f75f349b535fb81738caa8a439075610a1a41181470c9ca6": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.17/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 18,
+      "version_name": "1.0.17",
+      "tag": "v1.0.17",
+      "commit": "e27a61e7e04616529efb04f4d5928cb87a8ab13f",
+      "timestamp": 1775484876,
       "reproducible": true,
       "error": null
     }
@@ -78757,6 +78897,20 @@
       "error": null
     }
   ],
+  "352047e82044916976658f1bf62c76c3538af6affd8647141e18253de447a062": [
+    {
+      "repository": "https://github.com/256x/launcher.git",
+      "apk_url": "https://github.com/256x/launcher/releases/download/v1.2.0/literallauncher_v1.2.0.apk",
+      "appid": "fumi.day.literallauncher",
+      "version_code": 14,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "26523ca835ac2d4665b558bc192f27787f4db24e",
+      "timestamp": 1775485123,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "545b3b6862f8b93c52840ba49cb5bcd9097a80103927e53305bebc4f22f32bcb": [
     {
       "repository": "https://github.com/256x/memo.git",
@@ -81787,6 +81941,20 @@
       "tag": "1.6.7",
       "commit": "f5590580db1bd3e2d880104303bfe6400e292fb8",
       "timestamp": 1775404896,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0e824f81cf1be49c424aec288bcfd379efc4574193000dec33be7b3ab8754097": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.8/auraninja-1.6.8-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12608,
+      "version_name": "1.6.8",
+      "tag": "1.6.8",
+      "commit": "47833be4746b0d227346250bea5e3def8b58d2ce",
+      "timestamp": 1775485217,
       "reproducible": true,
       "error": null
     }
@@ -96225,6 +96393,20 @@
       "error": null
     }
   ],
+  "dbc4e84987d91a1e3e0c0b2510933678efcf2aa2a370abdba37bab48486db93f": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.4.0/KashCal-23.4.0-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 449,
+      "version_name": "23.4.0",
+      "tag": "v23.4.0",
+      "commit": "7fe6dfbe3a16d8ac5eb30ed760cdcc544f094893",
+      "timestamp": 1775486120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -101973,6 +102155,20 @@
       "tag": "v0.7.9",
       "commit": "42af271487d2c256fbd194d381fd9f37f7fd6a89",
       "timestamp": 1775156677,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "92c913e6b2f060d552ddbd77e3e7bf5e17dfe0850d7f7df4bc976ab092ae58df": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.0/mindwtr-0.8.0-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 54,
+      "version_name": "0.8.0",
+      "tag": "v0.8.0",
+      "commit": "7a1efdcdc28e9110f58b02b95aaefd547ed08380",
+      "timestamp": 1775486463,
       "reproducible": true,
       "error": null
     }
