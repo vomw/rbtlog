@@ -837,3 +837,45 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 0.24.0.2
+    apks:
+      - apk_pattern: freetube-.*-Android\.apk
+        apk_url: https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/$$TAG$$/freetube-$$TAG$$-Android.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v24.14.1/node-v24.14.1-linux-x64.tar.xz
+          - sha256sum -c <<< '84d38715d449447117d05c3e71acd78daa49d5b1bfa8aacf610303920c3322be  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v24.14.1-linux-x64/bin:${HOME}/.node/bin"
+          - npm config set prefix "${HOME}/.node"
+          - npm install -g yarn
+          - sed -r '/version/ { s/"[0-9.]+"/"'"${APP_TAG}"'"/ }' -i package.json
+          - yarn ci
+          - yarn pack:botGuardScript:android
+          - yarn pack:android
+          - cd android
+          - sed -r '/release \{/,/}/ { /signingConfig/d }' -i app/build.gradle.kts
+          - sed -r 's/"FreeTube Android"/"FreeTube"/' -i settings.gradle.kts
+          - sed -r 's/FreeTube Android/FreeTube/' -i app/src/main/res/values/strings.xml
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
