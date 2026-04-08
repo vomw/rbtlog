@@ -65,7 +65,7 @@ def add_builds(log_data: Dict[Any, Any], builds: List[Dict[Any, Any]]) -> Dict[A
 
 # FIXME
 def update_log(backend: str, *recipes: str, batch: Optional[int] = None,
-               keep_apks: Optional[str] = None, verbose: bool = False) -> None:
+               cache_dir: Optional[str] = None, keep_apks: Optional[str] = None, verbose: bool = False) -> None:
     """Update log."""
     built = 0
     for recipe_file in recipes:
@@ -92,8 +92,9 @@ def update_log(backend: str, *recipes: str, batch: Optional[int] = None,
         if verbose:
             print(f"Building {to_build!r}...", file=sys.stderr)
         verb = ("--verbose",) if verbose else ()
+        cache_dir = ("--cache-dir", cache_dir) if cache_dir else ()
         keep = ("--keep-apks", keep_apks) if keep_apks else ()
-        args = (EXE, os.path.join("scripts", "build.py"), *verb, *keep, "--", backend, *to_build)
+        args = (EXE, os.path.join("scripts", "build.py"), *verb, *cache_dir, *keep, "--", backend, *to_build)
         output = subprocess.run(args, check=True, stdout=subprocess.PIPE).stdout.decode()
         builds = json.loads(output)
         save_log(log_file, add_builds(load_log(log_file, appid), builds))
@@ -107,11 +108,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="update log")
     parser.add_argument("-v", "--verbose", action="store_true")
     parser.add_argument("--batch", metavar="N", type=int, help="stop after N builds")
+    parser.add_argument("--cache-dir", metavar="DIR", help="save provisioning cache in DIR")
     parser.add_argument("--keep-apks", metavar="DIR", help="save APKs in DIR")
     parser.add_argument("backend", choices=backends, help="backend")
     parser.add_argument("recipes", metavar="RECIPE", nargs="*", help="recipe")
     args = parser.parse_args()
-    update_log(args.backend, *args.recipes, batch=args.batch, keep_apks=args.keep_apks,
+    update_log(args.backend, *args.recipes, batch=args.batch, cache_dir=args.cache_dir, keep_apks=args.keep_apks,
                verbose=args.verbose)
 
 # vim: set tw=80 sw=4 sts=4 et fdm=marker :
