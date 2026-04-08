@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/grmasa/Sound-Toggle.git
-updates: releases
+updates: disabled
+note:
+  - disabled because of unsolved issues with wrong signing key
 versions:
   - tag: v1.0.4
     apks:

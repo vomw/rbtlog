@@ -2853,6 +2853,20 @@
       "error": null
     }
   ],
+  "420eb5f12b276ef6fdce91dcb8a6057468e722fcade090505d7dd958f52a1fec": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.14.10/Podcini.X-free-arm64-v8a-10.14.10.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 285,
+      "version_name": "10.14.10",
+      "tag": "v10.14.10",
+      "commit": "149f2cf389ae5dd9811cd683acf13c846d7a91fc",
+      "timestamp": 1775656348,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5555,6 +5569,20 @@
       "error": null
     }
   ],
+  "c7af1449ab1bb362a311969a1763a0f5f782964fa4912e8a5a732155808958f9": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v0.11/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 11,
+      "version_name": "0.11",
+      "tag": "v0.11",
+      "commit": "049c3b80362aff064ca6f5b5b3b722e7eea8b19b",
+      "timestamp": 1775667754,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -7625,6 +7653,20 @@
       "timestamp": 1771944749,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpwxzyan3j/outputs:/outputs', '--volume', '/tmp/tmpwxzyan3j/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.13.1', '--env', 'APP_COMMIT=7a834c4aafb20e5bb14a089352519b54ea1301c2', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
+    }
+  ],
+  "1d86e4c2cc3999c0f63e9d83722b8bbd35c208cfb87e98078a00e9eff700fbe9": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.14.0/Clerotri-v0.14.0-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 21,
+      "version_name": "0.14.0",
+      "tag": "v0.14.0",
+      "commit": "8ecf3cc88395415d9472be0f61f0003537a55b58",
+      "timestamp": 1775500524,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmphzf1zwuy/outputs:/outputs', '--volume', '/tmp/tmphzf1zwuy/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.14.0', '--env', 'APP_COMMIT=8ecf3cc88395415d9472be0f61f0003537a55b58', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1."
     }
   ],
   "3ac7e975419e365f6538d77a8dd4650c07800a860c3a7d847333c136c5f65ae5": [
@@ -11165,6 +11207,20 @@
       "tag": "v4.6.360.966-stable",
       "commit": "410933cd9a8987b8c1dc614ac2c5727f129cd406",
       "timestamp": 1775587090,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ee149ce63ae1057d94c6e382a5690bf487bb02485d757629494a8bf616a347aa": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.6.360.967-stable/Rhythm-4.6.360.967-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 46360967,
+      "version_name": "4.6.360.967-gh",
+      "tag": "v4.6.360.967-stable",
+      "commit": "4101df84509ad9e3fed156a91ff30e0c9a7d38a3",
+      "timestamp": 1775657239,
       "reproducible": true,
       "error": null
     }
@@ -20795,6 +20851,20 @@
       "error": null
     }
   ],
+  "fb248e03c4f03ccc0b024f187e23f42f2857dd241d36dc125ea3c8a24f7c8e3e": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.52/networksurvey-1.52-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 20111,
+      "version_name": "1.52",
+      "tag": "v1.52",
+      "commit": "3a9bfc550237a810e4c4982f7464768b6c19f761",
+      "timestamp": 1775679054,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
     {
       "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
@@ -21085,6 +21155,20 @@
       "tag": "1.2",
       "commit": "cca7b102c68096fd4bfe15636bf4b9668b6d5db1",
       "timestamp": 1775428184,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "25668881a3d950596be873524a1d45c64c6ccdb6e5bd47ad9b0a2dfd0c494b2f": [
+    {
+      "repository": "https://github.com/DaKlok/BibleLockScreen.git",
+      "apk_url": "https://github.com/DaKlok/BibleLockScreen/releases/download/1.3/app-release.apk",
+      "appid": "com.daklok.biblelockscreen",
+      "version_code": 4,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "884185837dc4e8b855744d99992aecf8fd94b2cd",
+      "timestamp": 1775657646,
       "reproducible": true,
       "error": null
     }
@@ -32047,6 +32131,20 @@
       "error": null
     }
   ],
+  "0c9575f60628952ca3584039b889425b90e2cfff873e4dd5085f454ff245d860": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.19.0/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2795966,
+      "version_name": "2.19.0-Windsor-oss",
+      "tag": "2.19.0",
+      "commit": "2435680098a3d9a9da3dcefc0c67213417f8cde1",
+      "timestamp": 1775658178,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "bd030a674ca5161973eb846ebc4929a4fec04fa2942478517292c252573a6fd0": [
     {
       "repository": "https://github.com/frimtec/secure-sms-proxy.git",
@@ -34267,6 +34365,20 @@
       "error": null
     }
   ],
+  "2362b869f63311ee8f70333607bf9a26453561a8a0a87f014f604a7283c46584": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.00/Mock-my-GPS-002.05.00-04API-withAllLanguageTranslations-withAospLocationProviders-noBackupRestore-release.apk",
+      "appid": "com.github.warren_bank.mock_location",
+      "version_code": 2050004,
+      "version_name": "002.05.00-04API",
+      "tag": "service/v02.05.00",
+      "commit": "8514773d535e096fb1562c6e40a20c4917196900",
+      "timestamp": 1775681120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ec2ca27af800fe0884127607eea29ce3f6c41da8d00b2e90aa6fb96b3a73c2ce": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -34323,6 +34435,20 @@
       "error": null
     }
   ],
+  "adb7527709cc385fb77b0f8cf0dd5bb64f55f4da114c5bb4dcf2751f3dd4dfcf": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.00/Mock-my-GPS-UnifiedNlp-Backend-002.05.00-09API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.service.microg_nlp_backend",
+      "version_code": 2050009,
+      "version_name": "002.05.00-09API",
+      "tag": "service/v02.05.00",
+      "commit": "8514773d535e096fb1562c6e40a20c4917196900",
+      "timestamp": 1775658267,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab507fa9df43122570c58db362831e9c30049495bca56c07d7d1b88f5b1d017c": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -34375,6 +34501,20 @@
       "tag": "service/v02.04.04",
       "commit": "cd76812b38b0cb03e0ffe54c27ece981b9b1b488",
       "timestamp": 1775398092,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0b70860fc5ed67a83a5fd7b5c9abe3e5839432483a3c098df38c149e07829cd8": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.00/Mock-Silently-002.05.00-01API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.silently",
+      "version_code": 2050001,
+      "version_name": "002.05.00-01API",
+      "tag": "service/v02.05.00",
+      "commit": "8514773d535e096fb1562c6e40a20c4917196900",
+      "timestamp": 1775658322,
       "reproducible": true,
       "error": null
     }
@@ -36045,6 +36185,20 @@
       "error": null
     }
   ],
+  "9d5edc9aa1ea32fc6c7b5fe6229e41571a00d6e519498bfcc2dfd2fe76b0b9ce": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.4/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2168,
+      "version_name": "10.0.4",
+      "tag": "10.0.4",
+      "commit": "61a05febcf9ae1db02c884d0ed4e57a81f876fec",
+      "timestamp": 1775673581,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -37593,6 +37747,20 @@
       "tag": "1.7.5",
       "commit": "e02ecda2fe837f7976b7b4c0b5b63761ec22c413",
       "timestamp": 1775138696,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "41b677be386b3b6d837824079fc04974e70fbb7df0bd79df6464f01fccd2c355": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.8.0/Tyr-1.8.0-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 27,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "985621080282be298f99143f15152f2e978a1be2",
+      "timestamp": 1775674214,
       "reproducible": true,
       "error": null
     }
@@ -48929,6 +49097,20 @@
       "error": null
     }
   ],
+  "d6aba13cb9002846357738d60e0f0b89821b5026f51fc95a16bd55e18e5faf2c": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.6.2/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1019,
+      "version_name": "2.6.2",
+      "tag": "v2.6.2",
+      "commit": "a286c9ecc933f11acf9358ef382b1ab2326f3227",
+      "timestamp": 1775659749,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -49597,6 +49779,20 @@
       "tag": "v3.6.0",
       "commit": "54811e1fd89e90fe28827631cc7c0038dc36ce24",
       "timestamp": 1775591622,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a01e652e465b0d822c996e8f12e369f2348f0de91f6720ea69a612678816b14d": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.7.0/youtubeConverter-3.7.0-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 41,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "82d7c40bf067a15a8385c205b56958cac8219e4e",
+      "timestamp": 1775674644,
       "reproducible": true,
       "error": null
     }
@@ -59139,6 +59335,20 @@
       "tag": "v0.30",
       "commit": "391ae149f961275478184cc889c4a1202b592f26",
       "timestamp": 1759176488,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8798867a2446b88e51666efc0a6b756e600327873177d50ad050480d2b72f7ce": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
+      "apk_url": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.31/app-release.apk",
+      "appid": "com.sunilpaulmathew.debloater",
+      "version_code": 31,
+      "version_name": "v0.31",
+      "tag": "v0.31",
+      "commit": "6f94baaac70a63f1fc8e6b4dbcf4ec2081bf5a94",
+      "timestamp": 1775679745,
       "reproducible": true,
       "error": null
     }
@@ -70697,6 +70907,20 @@
       "error": null
     }
   ],
+  "445295a05dc88b226d1f513ed937dbc307815abe8beb0eb94f5879022c89ebd6": [
+    {
+      "repository": "https://github.com/minburg/outspoke.git",
+      "apk_url": "https://github.com/minburg/outspoke/releases/download/v0.1.2/outspoke-0.1.2-arm64-v8a.apk",
+      "appid": "dev.brgr.outspoke",
+      "version_code": 32,
+      "version_name": "0.1.2",
+      "tag": "v0.1.2",
+      "commit": "e76ff5e717c0bfd6b3aa3eb52b4a7ae53209f280",
+      "timestamp": 1775660224,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "53def9285ea8ef40e14cbb50067cd0869d82828fe8c9640f388181567fb80df0": [
     {
       "repository": "https://github.com/chukfinley/Better-Bahn.git",
@@ -75677,6 +75901,20 @@
       "error": null
     }
   ],
+  "a1a0b063765854f4b62509d103c9ebf1a0f31aa1b0a0f75376535e6b44e245f1": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.2.4-rc0/eu.darken.bluemusic-v3.2.4-rc0-30204000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30204000,
+      "version_name": "3.2.4-rc0",
+      "tag": "v3.2.4-rc0",
+      "commit": "101818be41829e361bec3cbab4f09e690e2a1628",
+      "timestamp": 1775660333,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -76023,6 +76261,20 @@
       "tag": "v2.0.2-rc0",
       "commit": "a8876e493dbfa25df63fa1400e3212387aaa10b1",
       "timestamp": 1775158556,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "addce2ac77aeb9aa8270c1bc57632737101c9195c3f74359d196b02ebcf3dbc5": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.0.3-rc0/eu.darken.myperm-v2.0.3-rc0-20003000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20003000,
+      "version_name": "2.0.3-rc0",
+      "tag": "v2.0.3-rc0",
+      "commit": "c5ce15572cc2abe6dc1e8f1634e4ef06e48ac1b1",
+      "timestamp": 1775660699,
       "reproducible": true,
       "error": null
     }
@@ -79131,6 +79383,20 @@
       "tag": "v1.1.1",
       "commit": "3825691274962e46d8dde2222321b1e3fc1880e4",
       "timestamp": 1775414406,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8292b1f3a39428f5849afc9158049ff0b218910c675f64f1507a8fa14ae079c7": [
+    {
+      "repository": "https://github.com/256x/memo.git",
+      "apk_url": "https://github.com/256x/memo/releases/download/v1.1.2/literalmemo_v1.1.2.apk",
+      "appid": "fumi.day.literalmemo",
+      "version_code": 11,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "0a5b5548781013caff08714421c5e680640e65a2",
+      "timestamp": 1775676789,
       "reproducible": true,
       "error": null
     }
@@ -82781,6 +83047,20 @@
       "tag": "v1.2.1",
       "commit": "c98bb901a68b4da52296af0e6c0cddfff85566a0",
       "timestamp": 1775592571,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "fa81513ed7319942bb669a6dd9e65be02283ac0a72d22d0626e2e79213c0c900": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.2.2/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 31,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "409c6310298a1738ec2276ee1d81e169d8085a52",
+      "timestamp": 1775675277,
       "reproducible": true,
       "error": null
     }
@@ -89977,6 +90257,20 @@
       "tag": "v2.0",
       "commit": "3970fa653ae75ad40a43a8f7bc968a29d22c3af6",
       "timestamp": 1768318175,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1739b54535ea6984f6d98c9dccfcc19bb7858fe679152e44a7e8f35de174c165": [
+    {
+      "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
+      "apk_url": "https://codeberg.org/minardil/BasicCashFlow/releases/download/v3.0/app-release.apk",
+      "appid": "org.eagsoftware.basiccashflow",
+      "version_code": 3,
+      "version_name": "3.0",
+      "tag": "v3.0",
+      "commit": "41a4dffc0f5fbc3020bbc47c0ec0d8a717652337",
+      "timestamp": 1775660922,
       "reproducible": true,
       "error": null
     }
