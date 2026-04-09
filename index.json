@@ -9545,6 +9545,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp735uele9/outputs:/outputs', '--volume', '/tmp/tmp735uele9/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/Moustachauve/WLED-Native-Android.git', '--env', 'APP_TAG=v6.1.0', '--env', 'APP_COMMIT=0f2295bb77c78e8566699afcdf1cd7ebb91ba11a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124."
     }
   ],
+  "eac28275f870d6f3dc1d4a1d643a98b50fa61839941e1dad6790686eff37c4d5": [
+    {
+      "repository": "https://github.com/Moustachauve/WLED-Native-Android.git",
+      "apk_url": "https://github.com/Moustachauve/WLED-Android/releases/download/v7.0.0/wled-7.0.0-51.apk",
+      "appid": "ca.cgagnier.wlednativeandroid",
+      "version_code": 51,
+      "version_name": "7.0.0",
+      "tag": "v7.0.0",
+      "commit": "f663b522fb1f851d1ddf1601df66b6de1e8175d9",
+      "timestamp": 1775730186,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2bf0f3ad4c5c75e023cc692403ffa54702649b1c89267e30ce9525dfb38263bf": [
     {
       "repository": "https://github.com/ClassicDIY/ClassicMonitor.git",
@@ -13349,6 +13363,20 @@
       "tag": "v0.32",
       "commit": "34d8abe22d5f8a1e96812a4743b21a137b6da6c9",
       "timestamp": 1759240957,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "811947d046746b79b8e2fc275fb6e4c852d60435ff0a44e13f93280ef98c21b8": [
+    {
+      "repository": "https://github.com/rumboalla/apkupdater.git",
+      "apk_url": "https://github.com/rumboalla/apkupdater/releases/download/0.0.591-ci/com.apkupdater.ci-release.apk",
+      "appid": "com.apkupdater.ci",
+      "version_code": 591,
+      "version_name": "0.0.591",
+      "tag": "0.0.591-ci",
+      "commit": "63df38a111caecb4d99a76f01e8607ad13c95ec5",
+      "timestamp": 1775736432,
       "reproducible": true,
       "error": null
     }
