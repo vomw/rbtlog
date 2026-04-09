@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/anilbeesetti/nextplayer.git
 updates: releases
-notes:
-  - 'FIXME: need to switch to arm64 build with next release (after 0.16.2)'
 versions:
   - tag: v0.11.1
     apks:
@@ -399,6 +397,37 @@ versions:
           - ./gradlew assembleRelease
           - find . -name '*.apk'
           - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.16.3
+    apks:
+      - apk_pattern: nextplayer-.*-arm64-v8a\.apk
+        apk_url: https://github.com/anilbeesetti/nextplayer/releases/download/v0.16.3/nextplayer-v0.16.3-arm64-v8a.apk
+        build:
+          - sed -i -e 's/isUniversalApk = true/isUniversalApk = false/' app/build.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*arm64*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
         build_user: build

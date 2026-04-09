@@ -2867,6 +2867,20 @@
       "error": null
     }
   ],
+  "a2e92dcf0b8ffcd81dcf6bbeb6fe49f4f264a81694a31a0addbb29fc29543851": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v10.14.11/Podcini.X-free-arm64-v8a-10.14.11.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 286,
+      "version_name": "10.14.11",
+      "tag": "v10.14.11",
+      "commit": "87cf4d782d647b5b2e5c04d2cec7921be446225f",
+      "timestamp": 1775742661,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5747,6 +5761,20 @@
       "tag": "v6.3.15",
       "commit": "53b76ca14ed2623628648ee928107e0dad186f22",
       "timestamp": 1774975713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "eb110a855e0040cb08fec545017c2623eb8536211a14f372d7528ff28edf4fce": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v6.4.2/Olauncher-v6.4.2.apk",
+      "appid": "app.olauncher",
+      "version_code": 105,
+      "version_name": "v6.4.2",
+      "tag": "v6.4.2",
+      "commit": "6c20f31d39e86a79ba97be472c7f02e187526a5a",
+      "timestamp": 1775742870,
       "reproducible": true,
       "error": null
     }
@@ -15311,6 +15339,20 @@
       "error": null
     }
   ],
+  "e3947c3ecd735196f5af9a9d9a60694210d3b4bcca0578fa9d32064308f3f69c": [
+    {
+      "repository": "https://github.com/you-apps/ClockYou.git",
+      "apk_url": "https://github.com/you-apps/ClockYou/releases/download/v10.0/app-release.apk",
+      "appid": "com.bnyro.clock",
+      "version_code": 19,
+      "version_name": "10.0",
+      "tag": "v10.0",
+      "commit": "f3cfd09ab533277dae5f5b9121087d4b4e71bb81",
+      "timestamp": 1775759670,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a008b12be29b6ca83cd33d7ee973f7eab81d60420c57ffbcffa2a51b06fa45ca": [
     {
       "repository": "https://github.com/you-apps/TranslateYou.git",
@@ -21201,6 +21243,20 @@
       "error": null
     }
   ],
+  "cdaee39cbf6de70563408f2cd6550446802082c1547807db352e7ba3127d130b": [
+    {
+      "repository": "https://github.com/DaKlok/BibleLockScreen.git",
+      "apk_url": "https://github.com/DaKlok/BibleLockScreen/releases/download/1.4/app-release.apk",
+      "appid": "com.daklok.biblelockscreen",
+      "version_code": 5,
+      "version_name": "1.4",
+      "tag": "1.4",
+      "commit": "d502caeaece16e8109bf28cd1b4d403ddf59bdb1",
+      "timestamp": 1775742968,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "0e0c3826304c057129407e3157e0b2b28317ff8032975444ab6139f373c070d1": [
     {
       "repository": "https://github.com/drmfinlay/tts-util-app.git",
@@ -21393,6 +21449,20 @@
       "tag": "v4.3.2",
       "commit": "b0b0a23aa8f4bbede7187b182f4fc6eceb41e22e",
       "timestamp": 1771603501,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b828ea0fe1f98704e17307c09ba3181b4bfcf8da5709ae303979f0b8a1c4a2a9": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/ghostbyte-dev/pixelix/releases/download/v4.3.3/pixelix_v4.3.3.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 37,
+      "version_name": "4.3.3",
+      "tag": "v4.3.3",
+      "commit": "38ff19604206b1f2b19a36425e45185eb2f9596f",
+      "timestamp": 1775752372,
       "reproducible": true,
       "error": null
     }
@@ -23619,6 +23689,20 @@
       "tag": "0.0.45",
       "commit": "19d60370e9897b88d0087000dbb9d331ce59a25c",
       "timestamp": 1771530244,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cf1d04a39671997d8d6ef2288fa326dd2f91c1a1d0fcf673d2ad2bffcb8063b8": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.46/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 46,
+      "version_name": "0.0.46",
+      "tag": "0.0.46",
+      "commit": "ccddff4053b303b67e6ae7dec809ce2d82846772",
+      "timestamp": 1775743578,
       "reproducible": true,
       "error": null
     }
@@ -26809,6 +26893,20 @@
       "tag": "v0.5.7-alpha",
       "commit": "a5612d79765527e7c8b4c67c92e1f0b4c64651a6",
       "timestamp": 1775589798,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ca830b1cf50761d57d93d6ba8788bd6c070ab28dc6c2041c104d97e91c59404e": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.5.8-alpha/YagniLauncher-v0.5.8-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 58,
+      "version_name": "0.5.8-alpha",
+      "tag": "v0.5.8-alpha",
+      "commit": "758b269545582ec45a50e91ffa6d82c482ab861b",
+      "timestamp": 1775743782,
       "reproducible": true,
       "error": null
     }
@@ -37509,6 +37607,20 @@
       "tag": "v1.5.6",
       "commit": "0f829409a06da32997ed3ef46ed73eed3a268d47",
       "timestamp": 1754420406,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2d1c2761c6e5b0a96a78ca93b6a47fe80a1ffb41b2aa51a266d8b9353492486a": [
+    {
+      "repository": "https://github.com/StellarSand/IYPS.git",
+      "apk_url": "https://github.com/StellarSand/IYPS/releases/download/v1.5.8/IYPS_v1.5.8.apk",
+      "appid": "com.iyps",
+      "version_code": 158,
+      "version_name": "1.5.8",
+      "tag": "v1.5.8",
+      "commit": "d954307b1e3cd2c47a09ac660b4bbcaa8f769fde",
+      "timestamp": 1775744299,
       "reproducible": true,
       "error": null
     }
@@ -57701,6 +57813,20 @@
       "error": null
     }
   ],
+  "993b40aed8e58749038775c1091e014a7b92d24035f16a791c001062fd12dae7": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.26/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2029,
+      "version_name": "1.0.26",
+      "tag": "V1.0.26",
+      "commit": "0b175f88c4bddd065ded083ba13493845a226b0d",
+      "timestamp": 1775744595,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -60305,6 +60431,20 @@
       "error": null
     }
   ],
+  "0d42a2824be7455bb3d1bfaa07301d7693c9b536262551a7018ca62065f8f06b": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.5/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 29,
+      "version_name": "2.2.5",
+      "tag": "v2.2.5",
+      "commit": "95a7a3ebed1e462899630ed9fa05437f84940fbb",
+      "timestamp": 1775745058,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8ebc688d20d0b0e7002f8eed98c7d105a76f1858415cdcd67cf7021851d0a4da": [
     {
       "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
@@ -62727,6 +62867,34 @@
       "error": null
     }
   ],
+  "e41e856156fc9c9251e0225a715036a218ade6af6e80fe071cccba9ee514a051": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.5.0/NerdCalci-v3.5.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 350,
+      "version_name": "3.5.0",
+      "tag": "v3.5.0",
+      "commit": "d66b717df9a3c4103cc142daeb5bb1ed32b9d51b",
+      "timestamp": 1775745183,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2616c3108e1f0b78b4989f574cc49976090af14aad297128e6f133f0396e3b78": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.6.0/NerdCalci-v3.6.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 360,
+      "version_name": "3.6.0",
+      "tag": "v3.6.0",
+      "commit": "a0977362c1b976ec8996d963691e54ffd2b95f50",
+      "timestamp": 1775760195,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -63743,6 +63911,20 @@
       "tag": "V2.73.002",
       "commit": "56093723c3c850341b20fbb0b2e7bcaba3947e72",
       "timestamp": 1773003905,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0eb6fc65a5b479ae53e505e0816ec4b252ec29df7438ee37b868af0ff4600422": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V3.00.000/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 300000,
+      "version_name": "3.00.000",
+      "tag": "V3.00.000",
+      "commit": "2bed25860f7d6af346604df1ffc19f0ae07f2a17",
+      "timestamp": 1775745377,
       "reproducible": true,
       "error": null
     }
@@ -70319,6 +70501,20 @@
       "error": null
     }
   ],
+  "c462c736bb989265c4a06d4e384571bb02ad7613a32cbccb9e88c3b5a4108bcc": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.16.3/nextplayer-v0.16.3-arm64-v8a.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 56,
+      "version_name": "0.16.3",
+      "tag": "v0.16.3",
+      "commit": "0c471064198f2655efa6138bf46ea8cabd56e8a0",
+      "timestamp": 1775762027,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3181a37e07ce7a18caf8117192666a150add16da2129d39e0aa1d03d4ec06929": [
     {
       "repository": "https://github.com/Animesh-Varma/Sigil.git",
@@ -76251,6 +76447,20 @@
       "error": null
     }
   ],
+  "e7a08a8436b740b78141fd89912ebefb962084bf9a38291aa20bbe5c57026f7f": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.0.1-rc0/eu.darken.capod-v5.0.1-rc0-50001000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50001000,
+      "version_name": "5.0.1-rc0",
+      "tag": "v5.0.1-rc0",
+      "commit": "7883dcbafb913f8cff7f2d72316f7d03dd4d00aa",
+      "timestamp": 1775745699,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -76835,6 +77045,20 @@
       "tag": "v1.6.5-rc0",
       "commit": "0f36c101554564c40183574e4a52a19779f330f4",
       "timestamp": 1773950805,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f885d7cea2e9c125426209fff561a2a0fae6144f998bad1fc1ee57e33af7a575": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.7.0-rc0/eu.darken.sdmse-v1.7.0-rc0-10700000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10700000,
+      "version_name": "1.7.0-rc0",
+      "tag": "v1.7.0-rc0",
+      "commit": "5f1078ea1286f93f4f414f15f4899d5b80bb1191",
+      "timestamp": 1775745931,
       "reproducible": true,
       "error": null
     }
