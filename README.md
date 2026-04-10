@@ -99,7 +99,7 @@ status messages and a build log on stderr.
 
 ```bash
 $ scripts/build.py --help
-usage: build.py [-h] [-v] [--keep-apks DIR] [--local] {podman,docker} [SPEC ...]
+usage: build.py [-h] [-v] [--cache-dir DIR] [--keep-apks DIR] [--local] {podman,docker} [SPEC ...]
 
 build apps from recipes
 
@@ -110,6 +110,7 @@ positional arguments:
 options:
   -h, --help       show this help message and exit
   -v, --verbose
+  --cache-dir DIR  save provisioning cache in DIR
   --keep-apks DIR  save APKs in DIR
   --local          allow APPID:TAG:[COMMIT]:[APK|none] build SPECs
 
@@ -188,7 +189,7 @@ build them, and adds the resulting output to `logs/<appid>.json`.
 
 ```bash
 $ scripts/update-log.py --help
-usage: update-log.py [-h] [-v] [--batch N] [--keep-apks DIR] {podman,docker} [RECIPE ...]
+usage: update-log.py [-h] [-v] [--batch N] [--cache-dir DIR] [--keep-apks DIR] {podman,docker} [RECIPE ...]
 
 update log
 
@@ -200,6 +201,7 @@ options:
   -h, --help       show this help message and exit
   -v, --verbose
   --batch N        stop after N builds
+  --cache-dir DIR  save provisioning cache in DIR
   --keep-apks DIR  save APKs in DIR
 
 $ scripts/update-log.py -v docker recipes/*.yml

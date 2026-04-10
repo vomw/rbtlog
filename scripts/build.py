@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # encoding: utf-8
 # SPDX-FileCopyrightText: 2025 FC (Fay) Stegerman <flx@obfusk.net>
+# SPDX-FileCopyrightText: 2025-2026 Sylvia van Os <sylvia@hackerchick.me>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 import argparse
@@ -42,6 +43,11 @@ PODMAN_USE_TASKSET = os.environ.get("RBTLOG_PODMAN_USE_TASKSET") not in ("0", "n
 
 class Error(Exception):
     """Base class for errors."""
+
+
+@dataclass(frozen=True)
+class CacheDirs:
+    cmdline_tools: str
 
 
 @dataclass(frozen=True)
@@ -221,7 +227,7 @@ def url_with_replacements(apk_url: str, tag: str, tag_pattern: Optional[str]) ->
 # FIXME
 def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *,
                        commit: Optional[str] = None, apk_url: Optional[str] = None,
-                       keep_apks: Optional[str] = None, verbose: bool = False) -> Dict[Any, Any]:
+                       cache_dir: Optional[str] = None, keep_apks: Optional[str] = None, verbose: bool = False) -> Dict[Any, Any]:
     """Build recipe with backend (e.g. podman/docker)."""
     cpu_count = os.cpu_count()
     if cpu_count and recipe.build_cpus and recipe.build_cpus > cpu_count:
@@ -239,7 +245,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         if not commit:
             commit = result["commit"] = tag_to_commit(recipe.repository, recipe.tag)
         with tempfile.TemporaryDirectory() as tmpdir:
-            outputs, scripts = prepare_tmpdir(recipe, tmpdir)
+            outputs, scripts, cache_dirs = prepare_tmpdir(recipe, tmpdir, cache_dir, verbose=verbose)
             if recipe.apk_url:
                 signed_sha, vercode, vername = download_apk(
                     recipe.apk_url, appid, tmpdir, allow_local=bool(apk_url), verbose=verbose)
@@ -247,7 +253,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
                               upstream_signed_apk_sha256=signed_sha)
             if backend in (BuildBackend.PODMAN, BuildBackend.DOCKER):
                 pull_cmd = (backend.name.lower(), "pull", "--", recipe.provisioning.image)
-                run_cmd = podman_docker_cmd(recipe, backend, commit, outputs=outputs, scripts=scripts)
+                run_cmd = podman_docker_cmd(recipe, backend, cache_dirs, commit, outputs=outputs, scripts=scripts, verbose=verbose)
                 commands = [pull_cmd, run_cmd]
             else:
                 raise NotImplementedError(f"Unknown backend: {backend}")
@@ -296,20 +302,67 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
     return dict(result, error=error)
 
 
-def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str) -> Tuple[str, str]:
+def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> CacheDirs:
+    r"""
+    Prepare cache directories for commonly reused components (currently only cmdline_tools but can be extended).
+
+    If cache_dir is None, this cache has the same lifecycle as tmpdir. However, if cache_dir is defined, data will be persisted in cache_dir.
+
+    """
+    keep_cache = cache_dir != None
+    if not cache_dir:
+        cache_dir = tempfile.TemporaryDirectory().name
+    cache_dir_cmdline_tools = os.path.join(cache_dir, "cmdline_tools")
+    cache_dir_cmdline_tool = os.path.join(cache_dir_cmdline_tools, provisioning.cmdline_tools.version)
+    if not os.path.exists(cache_dir_cmdline_tool):
+        os.makedirs(cache_dir_cmdline_tool, 0o755)    # allow reading from within container
+    cache_dir_cmdline_tool_file = os.path.join(cache_dir_cmdline_tool, "tools.zip")
+    cache_exists = False
+    if os.path.exists(cache_dir_cmdline_tool_file):
+        sha256 = sha256_file(cache_dir_cmdline_tool_file)
+        if sha256 == provisioning.cmdline_tools.sha256:
+            cache_exists = True
+            if verbose:
+                print(f"Found valid local cache for version {provisioning.cmdline_tools.version!r} of cmdline_tools", file=sys.stderr)
+        else:
+            if verbose:
+                print(f"Local cache for version {provisioning.cmdline_tools.version!r} of cmdline_tools did not match sha256sum {provisioning.cmdline_tools.sha256!r}, deleting...", file=sys.stderr)
+            os.remove(cache_dir_cmdline_tool_file)
+    if not cache_exists:
+        if not is_http_url(provisioning.cmdline_tools.url):
+            raise Error(f"Non-http(s) URL for cmdline_tools: {provisioning.cmdline_tools.url!r}")
+        if verbose:
+            print(f"Downloading version {provisioning.cmdline_tools.version!r} of cmdline_tools from {provisioning.cmdline_tools.url!r}...", file=sys.stderr)
+        sha256 = download_file_with_retries(provisioning.cmdline_tools.url, cache_dir_cmdline_tool_file, retries=5, verbose=verbose)
+        if sha256 != provisioning.cmdline_tools.sha256:
+            raise Error(f"Expected cmdline_tools to have {provisioning.cmdline_tools.sha256!r} as sha256, but got {sha256}")
+    # copy to tmpdir to not leak host path during the build
+    shutil.copytree(cache_dir_cmdline_tool, os.path.join(tmpdir, "cmdline_tools"))
+    if not keep_cache:
+        shutil.rmtree(cache_dir)
+    return CacheDirs(
+        cmdline_tools=os.path.join(tmpdir, "cmdline_tools")
+    )
+
+
+def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> Tuple[str, str, CacheDirs]:
     """Prepare directories and scripts in tmpdir."""
     outputs = os.path.join(tmpdir, "outputs")
     scripts = os.path.join(tmpdir, "scripts")
+    cache = os.path.join(tmpdir, "cache")
     provision_root_sh = os.path.join(scripts, "provision-root.sh")
     provision_sh = os.path.join(scripts, "provision.sh")
     build_sh = os.path.join(scripts, "build.sh")
     os.chmod(tmpdir, 0o700)     # private
     os.mkdir(outputs)
     os.mkdir(scripts)
+    os.mkdir(cache)
     os.chmod(outputs, 0o777)    # allow writing from within container
     os.chmod(scripts, 0o755)    # allow reading from within container
+    os.chmod(cache, 0o755)      # allow reading from within container
     shutil.copyfile(os.path.join("scripts", "provision-root.sh"), provision_root_sh)
     shutil.copyfile(os.path.join("scripts", "provision.sh"), provision_sh)
+    cache_dirs = prepare_cache(recipe.provisioning, cache, cache_dir, verbose=verbose)
     os.chmod(provision_root_sh, 0o755)
     os.chmod(provision_sh, 0o755)
     with open(build_sh, "w", encoding="utf-8") as fh:
@@ -318,12 +371,12 @@ def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str) -> Tuple[str, str]:
                  '${PROVISIONING_CMDLINE_TOOLS_VERSION}/bin"\n')
         fh.write(recipe.build + "\n")
     os.chmod(build_sh, 0o755)
-    return outputs, scripts
+    return outputs, scripts, cache_dirs
 
 
 # FIXME: configure provisioning timeout in recipe?
-def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, commit: str, *,
-                      outputs: str, scripts: str) -> Tuple[str, ...]:
+def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cache_dirs: CacheDirs, commit: str, *,
+                      outputs: str, scripts: str, verbose: bool = False) -> Tuple[str, ...]:
     """Create podman/docker run command line from recipe."""
     if not recipe.build_cpus:
         taskset: List[str] = []
@@ -343,10 +396,18 @@ def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, commit: str, *
         f"cd {benv['BUILD_REPO_DIR']}",
         f"timeout {timeout}m su {benv['BUILD_USER']} /scripts/build.sh",
     ]
+    container_cache_dirs = []
+    container_cache_prefix = "/rbtlog_cache/"
+    for field in dataclasses.fields(cache_dirs):
+        cache_host_directory = getattr(cache_dirs, field.name)
+        cache_container_directory = os.path.join(container_cache_prefix, field.name)
+        container_cache_dirs.extend(["--volume", f"{cache_host_directory}:{cache_container_directory}:ro"])
+        env.extend(["--env", f"PROVISIONING_{field.name.upper()}_RO_CACHE_PATH={cache_container_directory}"])
     return (
         *taskset, backend.name.lower(), "run", "--rm",
         "--volume", f"{outputs}:/outputs",
         "--volume", f"{scripts}:/scripts:ro",
+        *container_cache_dirs,
         *env, *cpus, "--", recipe.provisioning.image,
         "bash", "-c", " && ".join(cmd))
 
@@ -368,7 +429,6 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         PROVISIONING_BUILD_TOOLS=recipe.provisioning.build_tools or "",
         PROVISIONING_CMAKE=recipe.provisioning.cmake or "",
         PROVISIONING_CMDLINE_TOOLS_VERSION=recipe.provisioning.cmdline_tools.version,
-        PROVISIONING_CMDLINE_TOOLS_URL=recipe.provisioning.cmdline_tools.url,
         PROVISIONING_CMDLINE_TOOLS_SHA256=recipe.provisioning.cmdline_tools.sha256,
         PROVISIONING_EXTRA_PACKAGES=",".join(recipe.provisioning.extra_packages),
         PROVISIONING_JDK=recipe.provisioning.jdk,
@@ -469,7 +529,7 @@ def keep_apk(appid: str, rev: str, output_dir: str, apkfile: str, sha256: str, *
 
 
 # FIXME
-def build(backend: str, *specs: str, keep_apks: Optional[str] = None,
+def build(backend: str, *specs: str, cache_dir: Optional[str] = None, keep_apks: Optional[str] = None,
           local: bool = False, verbose: bool = False) -> int:
     """Parse YAML & build apps."""
     bb = BuildBackend.__members__[backend.upper()]
@@ -496,7 +556,7 @@ def build(backend: str, *specs: str, keep_apks: Optional[str] = None,
         if build_recipes:
             for br in build_recipes:
                 out = build_with_backend(bb, appid, br, commit=commit, apk_url=apk_url,
-                                         keep_apks=keep_apks, verbose=verbose)
+                                         cache_dir=cache_dir, keep_apks=keep_apks, verbose=verbose)
                 outputs.append(out)
                 if not out["upstream_signed_apk_sha256"] and apk_url != NOAPK:
                     errors += 1
@@ -603,6 +663,7 @@ if __name__ == "__main__":
     backends = [name.lower() for name in BuildBackend.__members__]
     parser = argparse.ArgumentParser(description="build apps from recipes")
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("--cache-dir", metavar="DIR", help="save provisioning cache in DIR")
     parser.add_argument("--keep-apks", metavar="DIR", help="save APKs in DIR")
     parser.add_argument("--local", action="store_true",
                         help="allow APPID:TAG:[COMMIT]:[APK|none] build SPECs")
@@ -612,7 +673,7 @@ if __name__ == "__main__":
     if args.keep_apks and not os.path.isdir(args.keep_apks):
         print(f"Error: {args.keep_apks!r} is not an existing directory", file=sys.stderr)
         sys.exit(1)
-    elif build(args.backend, *args.specs, keep_apks=args.keep_apks, local=args.local,
+    elif build(args.backend, *args.specs, cache_dir=args.cache_dir, keep_apks=args.keep_apks, local=args.local,
                verbose=args.verbose) != 0:
         sys.exit(1)
 
