@@ -4211,6 +4211,20 @@
       "error": null
     }
   ],
+  "ab784f0dd7f43e5e3639cf3dd4daf9aaf096dae8a35de9fafd2fce59160241eb": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.3.5/flicky-4.3.5-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 891,
+      "version_name": "4.3.5",
+      "tag": "4.3.5",
+      "commit": "431db0d8034bc8191d3166e7a62ba1835b51e71b",
+      "timestamp": 1775830341,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -11267,6 +11281,20 @@
       "error": null
     }
   ],
+  "ab15a5e2ee18f89d7dd3cd1dd4db13a3ef10e8b7d5754cf34a7a617459e8f76a": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v4.6.361.969-stable/Rhythm-4.6.361.969-github-universal-release.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 46361969,
+      "version_name": "4.6.361.969-gh",
+      "tag": "v4.6.361.969-stable",
+      "commit": "6487cf0f82f2503e66c415fcb102990c9b840c55",
+      "timestamp": 1775846255,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp9s45a_3y/outputs:/outputs', '--volume', '/tmp/tmp9s45a_3y/scripts:/scripts:ro', '--volume', '/tmp/tmp9s45a_3y/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/cromaguy/Rhythm.git', '--env', 'APP_TAG=v4.6.361.969-stable', '--env', 'APP_COMMIT=6487cf0f82f2503e66c415fcb102990c9b840c55', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1."
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -13335,6 +13363,20 @@
       "tag": "v1.0.6",
       "commit": "80de00a0dc4d460d27c152abd16d1f4f4fe1f5ae",
       "timestamp": 1774533848,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "2cda66c742a0a2bbea7d0bddfd931cba210231b33f0368dc94cabe432850dc44": [
+    {
+      "repository": "https://github.com/antoniegil/Astronia.git",
+      "apk_url": "https://github.com/antoniegil/Astronia/releases/download/v1.0.7/Astronia-1.0.7-universal-release.apk",
+      "appid": "com.antoniegil.astronia",
+      "version_code": 10710,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "152533a68ed8c558b94671b90a7d7dabdf3613f6",
+      "timestamp": 1775830896,
       "reproducible": true,
       "error": null
     }
@@ -15881,6 +15923,20 @@
       "tag": "v1.5.8",
       "commit": "0372f2495af1316c97e581805f67bbe1387aeebf",
       "timestamp": 1774878836,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b55c90885964146014cd5b1917c86caad95e63b379524d128106ec073dc4e88d": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.5.9/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 15,
+      "version_name": "1.5.9",
+      "tag": "v1.5.9",
+      "commit": "417f46dbc7606120e814cbc74765384df9a9458f",
+      "timestamp": 1775831109,
       "reproducible": true,
       "error": null
     }
@@ -20445,6 +20501,20 @@
       "error": null
     }
   ],
+  "763a54e177c4e925c4c924be22c80e3b4eeff110fe8d503ed38603792870d25d": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.6.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 32,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "be4893a24d56ecfcba4ecd0c876ef6ced0606fc3",
+      "timestamp": 1775831707,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -23707,6 +23777,20 @@
       "error": null
     }
   ],
+  "2b19301beae8c2f0c21a80089c858cf305531030593332e5c1041fae19dac95d": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.47/app-release.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 47,
+      "version_name": "0.0.47",
+      "tag": "0.0.47",
+      "commit": "625f04b7e739c7ec49af9d8d2d6fd164c27a713e",
+      "timestamp": 1775846414,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -24165,6 +24249,20 @@
       "tag": "0.6.19",
       "commit": "17f8f9d48f112ee0f4322b01328d779f6746a05d",
       "timestamp": 1770493478,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "489ec8686f538f6159dc02f7620ad152f4f0b2bd9a49e490c54a83af2db3ad89": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.20/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 43,
+      "version_name": "0.6.20",
+      "tag": "0.6.20",
+      "commit": "da9a8e33afc39f640e9556f6a3eea88a46c6e804",
+      "timestamp": 1775846741,
       "reproducible": true,
       "error": null
     }
@@ -25229,6 +25327,20 @@
       "tag": "5.1.6",
       "commit": "c64670d84d3cd71f3ff664314f98b5a74da0e6f0",
       "timestamp": 1775589354,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "ff18e65467811f78313faf9c0b3c8f35d971c3d017cbf2f50f29214c76906ace": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.7/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 177,
+      "version_name": "5.1.7",
+      "tag": "5.1.7",
+      "commit": "8b5f89a319d3a1d3bc66bb0957e67cc339a719b0",
+      "timestamp": 1775847080,
       "reproducible": true,
       "error": null
     }
@@ -34505,6 +34617,20 @@
       "error": null
     }
   ],
+  "5e2df68c4849dadb4e920f216880f58996f60f01033de3f92bebf8639215ea6e": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.01/Mock-my-GPS-002.05.01-04API-withAllLanguageTranslations-withAospLocationProviders-noBackupRestore-release.apk",
+      "appid": "com.github.warren_bank.mock_location",
+      "version_code": 2050104,
+      "version_name": "002.05.01-04API",
+      "tag": "service/v02.05.01",
+      "commit": "33784829253c2a048d7b2f9fd08c93ac396138b0",
+      "timestamp": 1775832152,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ec2ca27af800fe0884127607eea29ce3f6c41da8d00b2e90aa6fb96b3a73c2ce": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -34575,6 +34701,20 @@
       "error": null
     }
   ],
+  "541177613e1ddcf25c6bfdc328be85ac6525d0e903acef51ee17cab0fe1e5790": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.01/Mock-my-GPS-UnifiedNlp-Backend-002.05.01-09API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.service.microg_nlp_backend",
+      "version_code": 2050109,
+      "version_name": "002.05.01-09API",
+      "tag": "service/v02.05.01",
+      "commit": "33784829253c2a048d7b2f9fd08c93ac396138b0",
+      "timestamp": 1775832036,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ab507fa9df43122570c58db362831e9c30049495bca56c07d7d1b88f5b1d017c": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -34641,6 +34781,20 @@
       "tag": "service/v02.05.00",
       "commit": "8514773d535e096fb1562c6e40a20c4917196900",
       "timestamp": 1775658322,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6ec52aa7e9e6b14a841ff8bc6c8fe476db905803f24dfd1429ebf22e10c30ea6": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.01/Mock-Silently-002.05.01-01API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.silently",
+      "version_code": 2050101,
+      "version_name": "002.05.01-01API",
+      "tag": "service/v02.05.01",
+      "commit": "33784829253c2a048d7b2f9fd08c93ac396138b0",
+      "timestamp": 1775832090,
       "reproducible": true,
       "error": null
     }
@@ -37117,6 +37271,20 @@
       "tag": "v3.0",
       "commit": "6e6391b31e8a09a30e697ce436af05e59541c9a6",
       "timestamp": 1775226018,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "daf3eaf42129578e498c0d2f52b660ec51e0f39958aed2d2429b96e8be1dbd76": [
+    {
+      "repository": "https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder.git",
+      "apk_url": "https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/releases/download/v3.1/app-release.apk",
+      "appid": "com.haseeb.recorder",
+      "version_code": 5,
+      "version_name": "3.1",
+      "tag": "v3.1",
+      "commit": "28aaaf6aa8ba23351382f297c1fde796b0a01011",
+      "timestamp": 1775832218,
       "reproducible": true,
       "error": null
     }
@@ -41513,6 +41681,20 @@
       "tag": "v0.1.4",
       "commit": "01dc4f34524c7c496202715f332736e1de1f5a86",
       "timestamp": 1775258904,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "5ff87ac75de81686a32c3bab7a56c6a673849ce4a7bc935ddbf82515738ae18a": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.1.5/storii-v0.1.5-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2036,
+      "version_name": "0.1.5",
+      "tag": "v0.1.5",
+      "commit": "99ddd74b375493a57071d3877f89aed5d836cad1",
+      "timestamp": 1775840055,
       "reproducible": true,
       "error": null
     }
@@ -49933,6 +50115,20 @@
       "tag": "v3.7.0",
       "commit": "82d7c40bf067a15a8385c205b56958cac8219e4e",
       "timestamp": 1775674644,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "58eb39e13b545830fbfc59aa50f4bdbb3b5a34125bfddce77c9fdb66d45fd444": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.7.2/youtubeConverter-3.7.2-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 43,
+      "version_name": "3.7.2",
+      "tag": "v3.7.2",
+      "commit": "fcc21049e3415029c51485a8ea2f272e1784c8b2",
+      "timestamp": 1775833616,
       "reproducible": true,
       "error": null
     }
@@ -62895,6 +63091,20 @@
       "error": null
     }
   ],
+  "79c539dd5d7fb414105d20057712dddad8661786b066fe8ff01a64336d367692": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.7.0/NerdCalci-v3.7.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 370,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "0b973dde491281015ebe63f395c5d7712d47116e",
+      "timestamp": 1775834343,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -69787,6 +69997,34 @@
       "tag": "26.2.4-5402004",
       "commit": "f2374fbf85580ec245436166a5d7e0a122809736",
       "timestamp": 1770236156,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "674d7ca67585ea33fa862bac21e5ed1bb8c7b0bf7cd4322420a26477166dc054": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.4.1-5404001/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5404001,
+      "version_name": "26.4.1",
+      "tag": "26.4.1-5404001",
+      "commit": "bb35e5e4abf0b7ea91378361d7d5cef9ebe9b586",
+      "timestamp": 1775834480,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "6968f324b223b4f6483751078c008311d80abab1a0463bb8300c91643d4491dd": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.4.2-5404002/app-github-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5404002,
+      "version_name": "26.4.2",
+      "tag": "26.4.2-5404002",
+      "commit": "34bc6399207e5b54b5601b69ebea5a8d36d08b24",
+      "timestamp": 1775847639,
       "reproducible": true,
       "error": null
     }
@@ -79583,6 +79821,20 @@
       "error": null
     }
   ],
+  "0c34f0c14dda3e7b141c633a06364adc75e43d672edf891b633874ad6b133760": [
+    {
+      "repository": "https://github.com/256x/launcher.git",
+      "apk_url": "https://github.com/256x/launcher/releases/download/v1.3.0/literallauncher_v1.3.0.apk",
+      "appid": "fumi.day.literallauncher",
+      "version_code": 15,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "d48d424ef25222a4c5502bfa1649b5cf50f1f833",
+      "timestamp": 1775834733,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "545b3b6862f8b93c52840ba49cb5bcd9097a80103927e53305bebc4f22f32bcb": [
     {
       "repository": "https://github.com/256x/memo.git",
@@ -82659,6 +82911,20 @@
       "error": null
     }
   ],
+  "2e0a52590d7f546a2a00fa646bbb7ae0148839ed78213fec56edf6460ac05ee6": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.9/auraninja-1.6.9-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12609,
+      "version_name": "1.6.9",
+      "tag": "1.6.9",
+      "commit": "42def78fd900a66b893a5f5470bde6efdc556f92",
+      "timestamp": 1775853150,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -83331,6 +83597,20 @@
       "error": null
     }
   ],
+  "e62fe19e025c79288a64b050ad67870021c6a9982c2a6d36a5fde380e3211e2a": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.3.0/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 32,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "52aeab169e2ffc0979497ed4edc174fdf35e12f6",
+      "timestamp": 1775848286,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -83537,6 +83817,20 @@
       "tag": "v0.1.28",
       "commit": "c4649378889a2f36be464aa031a1d259acce78a5",
       "timestamp": 1775593361,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "65a60b24b690d36122783add8955a41e0350f1f5acf6b17b5d28ef25a92fe894": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.30/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1030,
+      "version_name": "0.1.30",
+      "tag": "v0.1.30",
+      "commit": "21ee80e54e4f7a2c62348814c3ed903a053bff1d",
+      "timestamp": 1775848703,
       "reproducible": true,
       "error": null
     }
@@ -83961,6 +84255,20 @@
       "error": null
     }
   ],
+  "757e9c5a722dbbee8e955053b70c436735683820c41ddc9457139e220da89cba": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.21/SMS2Email-v1.1.21-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 34,
+      "version_name": "1.1.21",
+      "tag": "v1.1.21",
+      "commit": "9a65f35af4b82d686d7b2b4ac3126d1a07fbcf41",
+      "timestamp": 1775835987,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -84042,6 +84350,20 @@
       "commit": "2f77d3f3f828e57ee0291aca32b9ca5dba8234d8",
       "timestamp": 1772898340,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "050354027bf9637bb731da5cdbe886adcfcd0bdd70b9d2a131b76afef4ba7814": [
+    {
+      "repository": "https://github.com/SwiftStagRime/ScriptRunner_for_Termux.git",
+      "apk_url": "https://github.com/SwiftStagRime/ScriptRunner_for_Termux/releases/download/v1.7.0/ScriptRunnerForTermux-arm64-v8a-release.apk",
+      "appid": "io.github.swiftstagrime.termuxrunner",
+      "version_code": 170,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "2f913d7819f4db283f90c3991ff25ab4f97fdee2",
+      "timestamp": 1775852135,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -94727,6 +95049,20 @@
       "error": null
     }
   ],
+  "093b4db2d8c0e156fa61f0fa495f6354871235bfcf5406e1f57b6b746f923750": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.9.1/floccus-build-v5.9.1.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5009001,
+      "version_name": "5.9.1",
+      "tag": "v5.9.1",
+      "commit": "4fa23ae773474d77919bd7e1cbab631a5bca9bd3",
+      "timestamp": 1775836393,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -97215,6 +97551,20 @@
       "tag": "v23.4.0",
       "commit": "7fe6dfbe3a16d8ac5eb30ed760cdcc544f094893",
       "timestamp": 1775486120,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "9b21de9afbcbaefa309618dc35ad3223fdf933586473c47bc4a91f39c98f0572": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.4.2/KashCal-23.4.2-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 451,
+      "version_name": "23.4.2",
+      "tag": "v23.4.2",
+      "commit": "70ed921dd36417eebaaf71c50d45c07de121c4f5",
+      "timestamp": 1775836572,
       "reproducible": true,
       "error": null
     }
@@ -102635,6 +102985,20 @@
       "error": null
     }
   ],
+  "148f807ff7fba085780a2ce002e6efe400a313a0c9e916cd83be80d0b1e1b920": [
+    {
+      "repository": "https://github.com/sndnv/stasis.git",
+      "apk_url": "https://github.com/sndnv/stasis/releases/download/v1.7.4/stasis-client-android-v1.7.4.apk",
+      "appid": "stasis.client.android",
+      "version_code": 17,
+      "version_name": "1.7.4",
+      "tag": "v1.7.4",
+      "commit": "d8233c6380c084cf793493dce25cca6e1a93baf8",
+      "timestamp": 1775837508,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a530c7051a118fd62016403a37cde8402b662600e6b61c65a9898827164e6d74": [
     {
       "repository": "https://gitlab.com/Teo77/hiddensettings.git",
@@ -102995,6 +103359,20 @@
       "tag": "v0.8.0",
       "commit": "7a1efdcdc28e9110f58b02b95aaefd547ed08380",
       "timestamp": 1775486463,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4483d827372fcd5b584eca7acd0d374bba649b8c2948eda2f7484e9394737ad4": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.1/mindwtr-0.8.1-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 55,
+      "version_name": "0.8.1",
+      "tag": "v0.8.1",
+      "commit": "6e3afa680199e4c9bcaf102565152ce5480e226a",
+      "timestamp": 1775837667,
       "reproducible": true,
       "error": null
     }
@@ -105039,6 +105417,20 @@
       "tag": "v0.26.6",
       "commit": "eda26c825dc2d7a203daac5d987e7b82b917afe4",
       "timestamp": 1774621425,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "8e73bc68ea539c8148d17de367488be4c4a246b509dcda09d1415e1865297789": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.7/WebviewKiosk_v0.26.7.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 121,
+      "version_name": "0.26.7",
+      "tag": "v0.26.7",
+      "commit": "1bba433893af4a58928e00b83ffdaef4f60fe9e8",
+      "timestamp": 1775838370,
       "reproducible": true,
       "error": null
     }
