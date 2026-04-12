@@ -19927,6 +19927,20 @@
       "error": null
     }
   ],
+  "b2ca1e0eed070a23917727d9f48f1c59996620e650e9342f14911e2cda4daa82": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.4.9v125/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 125,
+      "version_name": "1.1.4.9",
+      "tag": "1.1.4.9v125",
+      "commit": "2b874b5a8d7cfffeeb5cdc09937c232e71fb6169",
+      "timestamp": 1776002199,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "cfb8ae2dabe9328117503b2962356869a31cfad154cc6437d8539b819cb9cd1b": [
     {
       "repository": "https://github.com/catpuppyapp/SshKeyMan.git",
@@ -27397,6 +27411,20 @@
       "tag": "v4.13.0",
       "commit": "1beeab28a6820dda44df3bcefbaee727e9eaf693",
       "timestamp": 1774534220,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a061a066d235ab343903ca61db2f440b2b431d54685c278e84fa11125a047b03": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.14.1/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 25,
+      "version_name": "4.14.1",
+      "tag": "v4.14.1",
+      "commit": "1e5cd0aa1fb0dbd36a61c32e84314042f1fd4b58",
+      "timestamp": 1776002823,
       "reproducible": true,
       "error": null
     }
@@ -39291,6 +39319,20 @@
       "error": null
     }
   ],
+  "ebb2c31589f53022670ac1fa2134f4622d67956d391e3ccdb9def16b26173bd1": [
+    {
+      "repository": "https://github.com/JAY01-CYBER/M3-Play.git",
+      "apk_url": "https://github.com/JAY01-CYBER/M3-Play/releases/download/v3.0.6/app-universal-release.apk",
+      "appid": "com.j.m3play",
+      "version_code": 139,
+      "version_name": "3.0.6",
+      "tag": "v3.0.6",
+      "commit": "811bf0366c4e64b854233adbf4a2f9e3e91114ff",
+      "timestamp": 1776004467,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b2b72ad44957fa68b9e92e36e944c2934e8c9ceb2d3fccdc7ecf0c92c644e127": [
     {
       "repository": "https://github.com/NoWakeLock/NoWakeLock.git",
@@ -49195,6 +49237,20 @@
       "error": null
     }
   ],
+  "6b59bd2a7d474c5799985f7416f76756b3fafb76ef6949a5f4d9de077df06281": [
+    {
+      "repository": "https://github.com/Fandroid745/Open-notes.git",
+      "apk_url": "https://github.com/Fandroid745/Open-notes/releases/download/v1.3.4/app-release.apk",
+      "appid": "com.opennotes",
+      "version_code": 8,
+      "version_name": "1.3.4",
+      "tag": "v1.3.4",
+      "commit": "e783deb6403ae08bdb51c98e609ccad09ec10ee1",
+      "timestamp": 1776003035,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "6d5de420b3247c3ab31df2977b92153497ca9303e9b8f200914bb3a6cdb5cdfb": [
     {
       "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
@@ -50997,6 +51053,20 @@
       "tag": "v3.2.0",
       "commit": "86056aa94f907d23de012b88e6dfdb28def118c2",
       "timestamp": 1775927874,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "75cb72f1a2f80f54586903682f1e85b1ac8140be6cb34341bdad8bf29eb70e36": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v3.2.1/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2018,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "6f2b1c061e4d8e5c875c222258fc9288ce5c75ef",
+      "timestamp": 1776011996,
       "reproducible": true,
       "error": null
     }
@@ -58187,6 +58257,20 @@
       "tag": "V1.0.26",
       "commit": "0b175f88c4bddd065ded083ba13493845a226b0d",
       "timestamp": 1775744595,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "a065901dece8e0e37d4563a5ef38a5fd684db7ff22f15ab44e13fed1bbfab61f": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.27/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2030,
+      "version_name": "1.0.27",
+      "tag": "V1.0.27",
+      "commit": "24b8d39dc1272253ce0cfde281da3d57f68f5ca2",
+      "timestamp": 1776012800,
       "reproducible": true,
       "error": null
     }
@@ -65897,6 +65981,20 @@
       "tag": "v3.6.3",
       "commit": "0982e3bb01f47521875793fe1966ea3044d258f1",
       "timestamp": 1770916770,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0b082d5580b4100b98fff411082dc02b09e8645a97a9f1c941508aba1c7e25db": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.6.4/MediLog-3.6.4.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5521,
+      "version_name": "3.6.4",
+      "tag": "v3.6.4",
+      "commit": "381a3752b2ee63918484b6f33e040183fc2abfcd",
+      "timestamp": 1776013823,
       "reproducible": true,
       "error": null
     }
@@ -80143,6 +80241,20 @@
       "error": null
     }
   ],
+  "b878fdbd7fa7a16d63cffe0e62e526363907da7e978fd32851cc12fa86537df2": [
+    {
+      "repository": "https://github.com/256x/memo.git",
+      "apk_url": "https://github.com/256x/memo/releases/download/v1.1.3/literalmemo_v1.1.3.apk",
+      "appid": "fumi.day.literalmemo",
+      "version_code": 12,
+      "version_name": "1.1.3",
+      "tag": "v1.1.3",
+      "commit": "b97939736a4f068d2c2af737ab9bc9b333d60aad",
+      "timestamp": 1776013982,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "b93e21f977ab5f74d42287153ae8ab0a278b8a1062d2dc2932d0b54965524fbf": [
     {
       "repository": "https://github.com/daisukiKaffuChino/RebootNya.git",
@@ -85753,6 +85865,20 @@
       "error": null
     }
   ],
+  "2742573d42087d4548d577e1a3432b9566de173a3e536e79f4e26ec3e3edc65a": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.74/RiPlay-foss-release-0.7.74.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 74,
+      "version_name": "0.7.74",
+      "tag": "v0.7.74",
+      "commit": "f5452752326f9a5ac305f98d6b152e72bbcf41f2",
+      "timestamp": 1776007278,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -89841,6 +89967,20 @@
       "error": null
     }
   ],
+  "68c26ccdb3b4c5cb9dc2289c11ebbb93ada238f923933537358d5ec053bd51a0": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.6.5/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 41,
+      "version_name": "alpha-0.6.5",
+      "tag": "alpha-0.6.5",
+      "commit": "e8f72f87db6fa12e5a1c02321d8f416e18544596",
+      "timestamp": 1776007842,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -91195,6 +91335,20 @@
       "tag": "v1.1",
       "commit": "3a4e43034f59be9cc1de2bc455530676e5446136",
       "timestamp": 1759258780,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "58bea03814bd99e9876cef6d87e360670217384e2a5d3acd41ebec0517889adb": [
+    {
+      "repository": "https://codeberg.org/minardil/PhotoSphereGallery.git",
+      "apk_url": "https://codeberg.org/minardil/PhotoSphereGallery/releases/download/v2.0/app-release.apk",
+      "appid": "org.eagsoftware.photospheregallery",
+      "version_code": 3,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "94077fc5d21b65fde923d96373b17af54719836e",
+      "timestamp": 1776014992,
       "reproducible": true,
       "error": null
     }
@@ -97821,6 +97975,20 @@
       "error": null
     }
   ],
+  "42d7ce62bc626c35f1e30388486aa6d09cfe54bb15c02d1a38ff21586b5adc6d": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.4.12/KashCal-23.4.12-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 461,
+      "version_name": "23.4.12",
+      "tag": "v23.4.12",
+      "commit": "57c770470a6070a573d84804c5f12250e1a62b47",
+      "timestamp": 1776009029,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -98851,6 +99019,20 @@
       "tag": "v0.28.4",
       "commit": "21b37b5fa4ddf625d14a4999aa2b8b8cac3550e9",
       "timestamp": 1773070162,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "12e28bdeeec5a9512ec550ba233dc890276f4e73e757ca0e787acede42dc6c1c": [
+    {
+      "repository": "https://github.com/TeamNewPipe/NewPipe.git",
+      "apk_url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.28.5/NewPipe_v0.28.5.apk",
+      "appid": "org.schabi.newpipe",
+      "version_code": 1010,
+      "version_name": "0.28.5",
+      "tag": "v0.28.5",
+      "commit": "1ce1dbe73ce718780237570681bfd9db158d1b10",
+      "timestamp": 1776009366,
       "reproducible": true,
       "error": null
     }

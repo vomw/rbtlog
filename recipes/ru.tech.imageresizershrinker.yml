@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'WARN: since v3.1.1, uses ~25 GB RAM on build'
   - 3.3.0 always runs into timeout; 4 builds, all identical, but with an off-by-one in baseline.prof
+  - 'FIXME: has library stipping disabled now, so NDK can be removed again'
 versions:
   - tag: 2.9.0
     apks:
