@@ -7445,6 +7445,20 @@
       "error": null
     }
   ],
+  "2ebf055b2de5d814753fd406cdf3331297944dc2817227f94af5e239278668e9": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.5.6/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 956,
+      "version_name": "v9.5.6",
+      "tag": "v9.5.6",
+      "commit": "0ce17f8ef92ab15ecc65c5698dea151a902c83e8",
+      "timestamp": 1776027275,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -14943,6 +14957,20 @@
       "tag": "2.28",
       "commit": "63fc0f7ada3794e7fbcbfa8961ad9ea8abc4cd53",
       "timestamp": 1768159377,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "140f8a6ca7db357004d7809e951de10e011b44d71c7b52f02aec922a1158eba9": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.29/Clock_2.29-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2032,
+      "version_name": "2.29",
+      "tag": "2.29",
+      "commit": "07674caabb298f0cbb19a5a4e7a75843918315cb",
+      "timestamp": 1776020513,
       "reproducible": true,
       "error": null
     }
@@ -36603,6 +36631,20 @@
       "timestamp": 1775673581,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "5e17b282c33f09955594ed7a09ea519e8e46139d63779ec1c34e095decb6d5a0": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.5/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2169,
+      "version_name": "10.0.5",
+      "tag": "10.0.5",
+      "commit": "361d05206ef3d066b9a89a060a27b9d5d5392bbc",
+      "timestamp": 1776024343,
+      "reproducible": false,
+      "error": null
     }
   ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
@@ -75733,6 +75775,20 @@
       "error": null
     }
   ],
+  "7871cab88b815a646a8e675824a9fed702cf1bdebb06b4b314d207742ce297f0": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v3.0.1/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2058,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "a9df356efa036328e58640c16ea2ee027580dd23",
+      "timestamp": 1775934235,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
     {
       "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
@@ -91731,6 +91787,20 @@
       "error": null
     }
   ],
+  "df4d8a03c23cfdae45a058562235c8ac40d0ec2b46615dc9cde7d60ca5961a10": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v3.0.0/DragonLauncher-v3.0.0-debuggable.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 49,
+      "version_name": "3.0.0 (Hydra)-beta",
+      "tag": "v3.0.0",
+      "commit": "1f6f1f6a3efedb45fe76ac03ddc47ee6cd1f64dc",
+      "timestamp": 1776022764,
+      "reproducible": false,
+      "error": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -102785,6 +102855,20 @@
       "tag": "v2.3.1",
       "commit": "35081b763f8cd7dfc028c22f4a99a1c1b8cb4792",
       "timestamp": 1752677367,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "dc313d3ef8aa4cb15a00e46ee5de5ba76d943e15a11d1d9cf1b64a7023a8b23b": [
+    {
+      "repository": "https://github.com/Arctosoft/Valv-Android.git",
+      "apk_url": "https://github.com/Arctosoft/Valv-Android/releases/download/v2.4.0/Vault_40_2.4.0_release.apk",
+      "appid": "se.arctosoft.vault",
+      "version_code": 40,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "a0761a1d7e7f26918d64a9b1c75a71070924c896",
+      "timestamp": 1776029447,
       "reproducible": true,
       "error": null
     }
