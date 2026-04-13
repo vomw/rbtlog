@@ -1144,3 +1144,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v13.4.1
+    apks:
+      - apk_pattern: Metrolist-izzy\.apk
+        apk_url: https://github.com/MetrolistGroup/Metrolist/releases/download/v13.4.1/Metrolist-izzy.apk
+        build:
+          - base64 -d > sedo <<< ZXhwb3J0IExBU1RGTV9BUElfS0VZPSJiY2VmMjBiZTgwZTRkYTUzZmE2ZjY4YjU2MTI1YTdhMSIgTEFTVEZNX1NFQ1JFVD0iNDgzOTk0OTQ4N2Q1ZGE1ZDY5OTA1ZTliNjNjNDRhZGEiCg==
+          - source sedo
+          - pushd app
+          - bash generate_proto.sh
+          - popd
+          - ./gradlew clean assembleIzzyRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/izzy/release/app-izzy-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Metrolist/Metrolist
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - protobuf-compiler
+            - python3
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

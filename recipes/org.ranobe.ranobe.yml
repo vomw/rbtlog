@@ -3,6 +3,7 @@ repository: https://github.com/ranobe-org/ranobe.git
 updates: releases
 notes:
   - v0.0.7 was built from dirty tree and needed versionCode/versionName adjusted. v0.0.8 has the same issue, but in addition, the commit it was built from does not exist; see https://github.com/ranobe-org/ranobe/issues/38
+  - v0.0.14 failed as seemingly files are missing ('package org.ranobe.ranobe.worker does not exist'), no explanation given; https://github.com/ranobe-org/ranobe/issues/58
 versions:
   - tag: v0.0.7
     apks:
@@ -124,6 +125,35 @@ versions:
       - apk_pattern: ranobe\.apk
         apk_url: https://github.com/ranobe-org/ranobe/releases/download/v0.0.11/ranobe.apk
         build:
+          - touch local.properties
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.0.14
+    apks:
+      - apk_pattern: ranobe\.apk
+        apk_url: https://github.com/ranobe-org/ranobe/releases/download/v0.0.14/ranobe.apk
+        build:
+          - git reset --soft aefc65b4ccd89d6d7b28f20e1554725b342008c6
           - touch local.properties
           - chmod +x gradlew
           - ./gradlew assembleRelease
