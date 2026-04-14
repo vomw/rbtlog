@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder.git
-updates: releases
+updates: disabled
+notes:
+  - app was removed from our repo as it violates our AI policy, see https://codeberg.org/IzzyOnDroid/repodata/issues/135#issuecomment-12988152
 versions:
   - tag: v2.0
     apks:

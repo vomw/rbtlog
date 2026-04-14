@@ -6451,6 +6451,20 @@
       "error": null
     }
   ],
+  "4dd5b559d52a18947b5ebb275aaad1423ccef196f0d5a744f41e9c9ac4303e8f": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.2.2/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 46,
+      "version_name": "6.2.2",
+      "tag": "v6.2.2",
+      "commit": "3e90132ae908cf6cbf25808f422f8494b723cdf0",
+      "timestamp": 1776192771,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9583,6 +9597,20 @@
       "tag": "v1.0.4",
       "commit": "84e914979c60411facc7185c651524a21b92101d",
       "timestamp": 1776088713,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "cf86ca899d660fb02933f6523057aca40f488b21cdaa9ca277a10088bbe7dbae": [
+    {
+      "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
+      "apk_url": "https://github.com/weslley75/AudioOutputSwitcher/releases/download/v1.0.9/app-release.apk",
+      "appid": "br.com.wasystems.audiooutputswitcher",
+      "version_code": 10,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "5efd5b6440f5007da7c219632e249e4222754f0c",
+      "timestamp": 1776174712,
       "reproducible": true,
       "error": null
     }
@@ -36717,6 +36745,20 @@
       "error": null
     }
   ],
+  "09a5c2b5dcb21bbae1f7a8933637b35e6d89e8ea96e1143471677b5252c15081": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.6/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2170,
+      "version_name": "10.0.6",
+      "tag": "10.0.6",
+      "commit": "1b8e866efef0d45a34940fbd8d8b86a37a7c6056",
+      "timestamp": 1776174834,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -38321,6 +38363,20 @@
       "tag": "1.8.0",
       "commit": "985621080282be298f99143f15152f2e978a1be2",
       "timestamp": 1775674214,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "c3f2c48b8576b4d91f268ce886db3af383da488f494f80abbcae08b1106300d3": [
+    {
+      "repository": "https://github.com/JB-SelfCompany/Tyr.git",
+      "apk_url": "https://github.com/JB-SelfCompany/Tyr/releases/download/1.8.1/Tyr-1.8.1-arm64-v8a.apk",
+      "appid": "com.jbselfcompany.tyr",
+      "version_code": 28,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "6062991379a68739145b5649097819ebbabd4481",
+      "timestamp": 1776175600,
       "reproducible": true,
       "error": null
     }
@@ -43417,6 +43473,20 @@
       "error": null
     }
   ],
+  "aafe779fc0bb43186457577c68479f9d78c5213c22e98f56c60cedb21d913dac": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.1.4/localmaterialnotes_arm64-v8a_v2.1.4.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 342,
+      "version_name": "2.1.4",
+      "tag": "v2.1.4",
+      "commit": "71ea24d4f5622140814396c52c45bdb9b20b1f61",
+      "timestamp": 1776105788,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpyojodf5y/outputs:/outputs', '--volume', '/tmp/tmpyojodf5y/scripts:/scripts:ro', '--volume', '/tmp/tmpyojodf5y/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/maelchiotti/LocalMaterialNotes.git', '--env', 'APP_TAG=v2.1.4', '--env', 'APP_COMMIT=71ea24d4f5622140814396c52c45bdb9b20b1f61', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/LocalMaterialNotes/LocalMaterialNotes', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl,gcc-multilib,libc-dev,make,libclang-dev', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=27.0.12077973', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/LocalMaterialNotes/LocalMaterialNotes && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 2."
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -45793,6 +45863,20 @@
       "tag": "2.7",
       "commit": "ddc0d176bec6da46206bc359d1ee538f6118be37",
       "timestamp": 1775226319,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "b0e84749a409e5a55343d257aa26d23bf641d25e0789531853e98ed52b4abd32": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.8/auto-light-28.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 10,
+      "version_name": "2.8",
+      "tag": "2.8",
+      "commit": "1756fd754bdb5ed433539507371d22a569bf9627",
+      "timestamp": 1776176429,
       "reproducible": true,
       "error": null
     }
@@ -48925,6 +49009,20 @@
       "tag": "1.1.7",
       "commit": "d089d99aedc9bb0054794f9ccdfd11c2e9cf63e1",
       "timestamp": 1763218971,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "1a8e052c0204725102673a7a0b3ea7dbf584c9d91298d31d6b1c283117f2afb1": [
+    {
+      "repository": "https://github.com/omardotdev/lumi.git",
+      "apk_url": "https://github.com/omardotdev/lumi/releases/download/1.2.0/app-release.apk",
+      "appid": "com.omardotdev.lumi",
+      "version_code": 10,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "668b1668ff27987d11d181548a4a4ca1c391af85",
+      "timestamp": 1776176476,
       "reproducible": true,
       "error": null
     }
@@ -58415,6 +58513,20 @@
       "error": null
     }
   ],
+  "b18925aaa4086d1b3c7b0984cacc79aa5476935301d1166c86df3d1dbbf138f1": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.28/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 2031,
+      "version_name": "1.0.28",
+      "tag": "V1.0.28",
+      "commit": "e2eaebbc85df440895aed81d09a5fa39daf20e4e",
+      "timestamp": 1776176592,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "817a337dc571d01d0c8039adc7286789a8978d9424030f375cd0bd903eb4ea33": [
     {
       "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
@@ -59685,6 +59797,20 @@
       "tag": "v4.0.0",
       "commit": "f7f61b22e0fbc1bee371d6c010d1c468cfcf3c0a",
       "timestamp": 1774814722,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "7b0e9f727a54dae88f02c0822a2e948abfdb95cda59d1f704026bfe62a4102e6": [
+    {
+      "repository": "https://github.com/sosauce/Chocola.git",
+      "apk_url": "https://github.com/sosauce/Chocola/releases/download/v4.1.0/Chocola_4.1.0.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 50001,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "0b3a55a3d17fc96a9306dd82723414d037d3338b",
+      "timestamp": 1776177201,
       "reproducible": true,
       "error": null
     }
@@ -61341,6 +61467,20 @@
       "error": "subprocess failed: Command '('podman', 'run', '--network=host', '--rm', '--volume', '/tmp/tmpqovrbthy/outputs:/outputs', '--volume', '/tmp/tmpqovrbthy/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/solkin/appteka-android.git', '--env', 'APP_TAG=v18.3', '--env', 'APP_COMMIT=f86aa98da758c5f4b78bab5dee42755fa75d2c2c', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 128."
     }
   ],
+  "8c433e474e5c22fb15b1be1f561ee9f1c0123f150aeca984f8bcbdc054dc1f68": [
+    {
+      "repository": "https://github.com/solkin/appteka-android.git",
+      "apk_url": "https://github.com/solkin/appteka-android/releases/download/v18.4.1/appteka-18.4.1-1012.apk",
+      "appid": "com.tomclaw.appsend",
+      "version_code": 1012,
+      "version_name": "18.4.1",
+      "tag": "v18.4.1",
+      "commit": "ae1a4e9fc5647bf08286135afba8a6754aea05b0",
+      "timestamp": 1776177391,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "3ff0106b340d8cce51eda87209380ca707d4cbb574c8760987fdead53d35cf62": [
     {
       "repository": "https://github.com/solkin/mandarin-android.git",
@@ -62821,6 +62961,20 @@
       "tag": "v1.71.7",
       "commit": "e8da6c7109910b418068b0fa6ebb38bea72db9df",
       "timestamp": 1772292216,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "81483ca98d1ca4b0dc05e7f7966e433f8507201b28c5f5809c07854bbe9d6b02": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.80.6/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1806,
+      "version_name": "1.80.6-foss",
+      "tag": "v1.80.6",
+      "commit": "4b0a02bd30fb5ddd47e9d249d4de8c5fccbd1933",
+      "timestamp": 1776177592,
       "reproducible": true,
       "error": null
     }
@@ -71747,6 +71901,20 @@
       "error": null
     }
   ],
+  "06ac69fda4f2b140b49a1c5d167960274b60dc1c975379bc2b65e253ce520f03": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.5.0/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 351,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "8dc47047e29777c45c772b739912583753b42847",
+      "timestamp": 1776193329,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -76867,6 +77035,20 @@
       "error": null
     }
   ],
+  "d50d4e44375db62b15529b92b21a38160d4dc87f313afb7889b608728e6e0e11": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.3.1-rc0/eu.darken.bluemusic-v3.3.1-rc0-30301000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30301000,
+      "version_name": "3.3.1-rc0",
+      "tag": "v3.3.1-rc0",
+      "commit": "6d4382ae1e16a6e6776d325b07e0c376e9e2f51f",
+      "timestamp": 1776193955,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -77773,6 +77955,20 @@
       "tag": "v1.7.0-rc0",
       "commit": "5f1078ea1286f93f4f414f15f4899d5b80bb1191",
       "timestamp": 1775745931,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "0771d4430591677673fa26ed44b69b9799770149d0d89389e94e2488c49d00b5": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.7.1-rc0/eu.darken.sdmse-v1.7.1-rc0-10701000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10701000,
+      "version_name": "1.7.1-rc0",
+      "tag": "v1.7.1-rc0",
+      "commit": "2814ab117e734cd42aded38c020a136bf78b7cfb",
+      "timestamp": 1776177925,
       "reproducible": true,
       "error": null
     }
@@ -83429,6 +83625,34 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "ff631200b525ec90f482ec57f675826ac03289c98281bf22a36f2bee67793388": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.10/auraninja-1.6.10-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12610,
+      "version_name": "1.6.10",
+      "tag": "1.6.10",
+      "commit": "b65c8ce37d774226b3de08627dbae0c5c9417070",
+      "timestamp": 1776178572,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "6feadb4fd9ca4a19bbdad1b01f611892a9238bba0ad33fd867997e8d8451a04c": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.11/auraninja-1.6.11-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12611,
+      "version_name": "1.6.11",
+      "tag": "1.6.11",
+      "commit": "e9a3d1c7b536cb8af79906e907ba31b724f35774",
+      "timestamp": 1776194778,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -84350,6 +84574,20 @@
       "commit": "82aa6d1b9f9c043f75c83084051fc59c65bcbbbd",
       "timestamp": 1775934895,
       "reproducible": true,
+      "error": null
+    }
+  ],
+  "adf0d55f817e6e35b08e6213fcf088c9d8e0ba214c88ed6437af0129b936c1ae": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.36/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1036,
+      "version_name": "0.1.36",
+      "tag": "v0.1.36",
+      "commit": "8efd396b74d2dd77f994178cdcf5d4d2fced1b58",
+      "timestamp": 1776107760,
+      "reproducible": false,
       "error": null
     }
   ],
@@ -98185,6 +98423,20 @@
       "error": null
     }
   ],
+  "cb8d7abb5fe6d116defe9e419810c5ee25c689d7cd9c0c1006323ba1cc1e436b": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.4.18/KashCal-23.4.18-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 467,
+      "version_name": "23.4.18",
+      "tag": "v23.4.18",
+      "commit": "4397823c1e7e2392f45efe7ed6a09a03d21cd974",
+      "timestamp": 1776179811,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -104101,6 +104353,20 @@
       "tag": "v0.8.2",
       "commit": "67b6b16a21c19c0a92f2a3d73fc8b30d1637134c",
       "timestamp": 1775927589,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "f90139f18e4d1f84a8d2903a115535768ae29f52efd6737ba2cdd34247de56ad": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.3/mindwtr-0.8.3-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 57,
+      "version_name": "0.8.3",
+      "tag": "v0.8.3",
+      "commit": "2021f266655111fcfa4362af1e890f6cf605c7b4",
+      "timestamp": 1776195642,
       "reproducible": true,
       "error": null
     }

@@ -1310,3 +1310,41 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.7.1-rc0
+    apks:
+      - apk_pattern: eu.darken.sdmse-.*\.apk
+        apk_url: https://github.com/d4rken-org/sdmaid-se/releases/download/v1.7.1-rc0/eu.darken.sdmse-v1.7.1-rc0-10701000-FOSS-RELEASE.apk
+        build:
+          - sed -r '/signingConfigs\[/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fossRelease/compileFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=553b31657c0c5eece18ae0acf5d927ce9857d872
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFossRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/foss/release/eu.darken.sdmse-*-FOSS-RELEASE.apk /outputs/unsigned.apk
+        build_timeout: 40
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
