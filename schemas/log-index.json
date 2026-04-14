@@ -60,6 +60,13 @@
             "string",
             "null"
           ]
+        },
+        "maintainer_notes": {
+          "description": "optional notes manually entered by the rbtlog maintainer",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "required": [
@@ -72,7 +79,8 @@
         "commit",
         "timestamp",
         "reproducible",
-        "error"
+        "error",
+        "maintainer_notes"
       ],
       "additionalProperties": false
     }

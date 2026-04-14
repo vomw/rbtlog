@@ -288,6 +288,13 @@
                 "null"
               ],
               "pattern": "^[0-9a-f]{64}$"
+            },
+            "maintainer_notes": {
+              "description": "optional notes manually entered by the rbtlog maintainer",
+              "type": [
+                "string",
+                "null"
+              ]
             }
           },
           "required": [
