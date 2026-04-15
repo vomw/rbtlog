@@ -4897,6 +4897,20 @@
       "error": null
     }
   ],
+  "3b52a4ac35981302e17cbc2d4a98a0387ff71c1057366f5e50dd7b9da3010d8a": [
+    {
+      "repository": "https://github.com/lone-cloud/prism-android.git",
+      "apk_url": "https://github.com/lone-cloud/prism-android/releases/download/v1.2.0/prism.apk",
+      "appid": "app.lonecloud.prism",
+      "version_code": 10200,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "bb3e082f3a8ed723b9029922371676712243858c",
+      "timestamp": 1776277511,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "4adbf7d76db699e647709a7f5ecde2725a5b16219ef9895ad786dc05f435f392": [
     {
       "repository": "https://github.com/marlboro-advance/mpvEx.git",
@@ -16063,6 +16077,20 @@
       "tag": "v1.5.9",
       "commit": "417f46dbc7606120e814cbc74765384df9a9458f",
       "timestamp": 1775831109,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "e63c55e0b71d3a88ae7d9d09d62a1ae2210fc44342cb60d8d2c59cc5eeb8c4e4": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.0/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 16,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "62b854b70266538878bf8fc46e69c83c31418fa4",
+      "timestamp": 1776261104,
       "reproducible": true,
       "error": null
     }
@@ -36773,6 +36801,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "77e8955df1ecaa3d2e542e88b1a97ee6d5a7c002e8ddb553cedb9f5d22491e2a": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.7/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2171,
+      "version_name": "10.0.7",
+      "tag": "10.0.7",
+      "commit": "253e563994bf91f1ca8404dab83aa4ee08622236",
+      "timestamp": 1776261701,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -37397,6 +37439,20 @@
       "tag": "v7.15.0",
       "commit": "742cdf1fc41410cc01b80a6b0201f5ce01150ed6",
       "timestamp": 1775590459,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "734fc4e25696b04f325e5882ac2221b88f73c2d68d4a00d6645d9920497bc553": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v7.16.0/NeverTooManyBooks-7.16.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 122,
+      "version_name": "7.16.0",
+      "tag": "v7.16.0",
+      "commit": "ab8d3da6b10ec43f490ebf69f93296e5b7b12d81",
+      "timestamp": 1776288883,
       "reproducible": true,
       "error": null
     }
@@ -50595,6 +50651,20 @@
       "error": null
     }
   ],
+  "3aca4aabcacfbde087279b4656a5e04b0b9410dfc6ced2e7f678776a72a08817": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.8.1/youtubeConverter-3.8.1-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 45,
+      "version_name": "3.8.1",
+      "tag": "v3.8.1",
+      "commit": "ef5a2b9e50999d1197202d1778d70c431e31fb62",
+      "timestamp": 1776263114,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f601f5bd160f539a631b01ee637bac33464503ffafd7a2d660ab29d863525501": [
     {
       "repository": "https://github.com/bjoernch/pgpmailer.git",
@@ -52523,6 +52593,20 @@
       "tag": "1.20.1",
       "commit": "9a5c2312a1bc1955089e6f3a3958f857026fa2ec",
       "timestamp": 1775140009,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "440ba16b593bdb9f3c796be41bb1f4a7ece953db717a326795946205fac09508": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.21.0/baba_1.21.0_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025032087,
+      "version_name": "1.21.0",
+      "tag": "1.21.0",
+      "commit": "9dd195fe32b79354d708b738a69f14648a2b0607",
+      "timestamp": 1776263820,
       "reproducible": true,
       "error": null
     }
@@ -63679,6 +63763,34 @@
       "error": null
     }
   ],
+  "0659a50bef55c794cdd640117e2dda846f5b3cd763b18ce8b8192649ff553e80": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.7.2/NerdCalci-v3.7.2.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 372,
+      "version_name": "3.7.2",
+      "tag": "v3.7.2",
+      "commit": "a0154786105c312a8e584bd6dc756e2c232203ae",
+      "timestamp": 1776264092,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "4457133ab5b1b7747d70dba74dc4095b1a17ffa62ff9d594374be520b497cb1a": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v3.8.0/NerdCalci-v3.8.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 380,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "496b95b20c7d1f01ec0553a214dfdcd2a5ed434b",
+      "timestamp": 1776279101,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -72023,6 +72135,20 @@
       "tag": "v0.1.2",
       "commit": "e76ff5e717c0bfd6b3aa3eb52b4a7ae53209f280",
       "timestamp": 1775660224,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "71187a0599f5df059e83611cbb758f53bf251be1444a4456f53c4cbf4e9d0583": [
+    {
+      "repository": "https://github.com/minburg/outspoke.git",
+      "apk_url": "https://github.com/minburg/outspoke/releases/download/v0.1.3/outspoke-0.1.3-arm64-v8a.apk",
+      "appid": "dev.brgr.outspoke",
+      "version_code": 42,
+      "version_name": "0.1.3",
+      "tag": "v0.1.3",
+      "commit": "395b591f54c1abb99689714fca2cea9170fcceba",
+      "timestamp": 1776279423,
       "reproducible": true,
       "error": null
     }
@@ -82059,6 +82185,20 @@
       "error": null
     }
   ],
+  "23d397a83e8b38c653cb98a9511ef45d4db1e0caadd811576f9e7783d03a3bf4": [
+    {
+      "repository": "https://github.com/auag0/HideMockLocation.git",
+      "apk_url": "https://github.com/auag0/HideMockLocation/releases/download/v2.0.0/app-release.apk",
+      "appid": "io.github.auag0.hidemocklocation",
+      "version_code": 6,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "09aa77f25b6a57144a10260f4926d094e4401ad2",
+      "timestamp": 1776274476,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "a72ece58d97e8dd2130db1fb4d24f5a7050065986b58f63f9405ff87c3a0da56": [
     {
       "repository": "https://github.com/stevep99/keyboard-layout-companion.git",
@@ -83681,6 +83821,20 @@
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
     }
   ],
+  "2279b87c699f344555b503bfb9599fe8fab2ae2433c52cffb54e0549d7c6e1cc": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.6.13/auraninja-1.6.13-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12613,
+      "version_name": "1.6.13",
+      "tag": "1.6.13",
+      "commit": "970d33ebe609786a1549635aa15f6e8bf977e0d8",
+      "timestamp": 1776286461,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "c4f725b15f6a152c2d901696bfc03956c5f28c79edeb03694f359f2e07b0f0bf": [
     {
       "repository": "https://codeberg.org/Gonbei774/CalisthenicsMemory.git",
@@ -84363,6 +84517,20 @@
       "tag": "v1.3.0",
       "commit": "52aeab169e2ffc0979497ed4edc174fdf35e12f6",
       "timestamp": 1775848286,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "af100fd458fc4561160e770c159f701cc013314e6719080475dfe88b76a5e899": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.4.0/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 34,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "b36f7d30c454f512090c820c42cfff285dca5272",
+      "timestamp": 1776275980,
       "reproducible": true,
       "error": null
     }
@@ -97807,6 +97975,20 @@
       "error": null
     }
   ],
+  "0fae31584fd91cf2a3c65dcead087e7123a3a82bb2e780da303707fc101cf5c8": [
+    {
+      "repository": "https://codeberg.org/nuclearfog/Apollo.git",
+      "apk_url": "https://codeberg.org/nuclearfog/Apollo/releases/download/1.7.6/app-release.apk",
+      "appid": "org.nuclearfog.apollo",
+      "version_code": 74,
+      "version_name": "1.7.6",
+      "tag": "1.7.6",
+      "commit": "116657f5af25e08d7402fd811b109957649ed952",
+      "timestamp": 1776265423,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "f799bcf762ff5d3048bc627aa318eb1e50d314ea724bf908b93df985ce893377": [
     {
       "repository": "https://codeberg.org/nuclearfog/Nittterify.git",
@@ -98461,6 +98643,20 @@
       "tag": "v23.4.18",
       "commit": "4397823c1e7e2392f45efe7ed6a09a03d21cd974",
       "timestamp": 1776179811,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "786b4ce8a6d76b9d1cb308fe11d626d41447a808a0dc6328004032ab99a86351": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.4.19/KashCal-23.4.19-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 468,
+      "version_name": "23.4.19",
+      "tag": "v23.4.19",
+      "commit": "2475fbdfe986b3e9d2a69bd7542e33c4ff21e6aa",
+      "timestamp": 1776265500,
       "reproducible": true,
       "error": null
     }
@@ -100517,6 +100713,20 @@
       "tag": "v0.8.8",
       "commit": "83d58e43cd8ff8c1c3ae6541a2785dc97424424f",
       "timestamp": 1771082658,
+      "reproducible": true,
+      "error": null
+    }
+  ],
+  "063cd006a8e5e6d3c7d8f27085456e25ae19ec6b529935f850eafa08268b0d3b": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.9/stayput-app-release-0.8.9.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 10,
+      "version_name": "0.8.9",
+      "tag": "v0.8.9",
+      "commit": "80eaec1105d0af3499f572719a82108e1d224999",
+      "timestamp": 1776265791,
       "reproducible": true,
       "error": null
     }
