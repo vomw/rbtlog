@@ -35863,6 +35863,20 @@
       "error": null
     }
   ],
+  "1a55225c5d6d8e165fb196d72f1a0b2ba5e15ec0a88fdaefad3929279e1336e0": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.0.0/CrystalPad-v1.0.0.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "daa836b8eedf6b3b8398ee70ea4435e9777d6945",
+      "timestamp": 1776250151,
+      "reproducible": true,
+      "error": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -76067,6 +76081,20 @@
       "timestamp": 1775934235,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset"
+    }
+  ],
+  "392c7d5f8dd8eaa95b807ddf20d893c599b7275bef6f12190ed474fd2ccd3eef": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v3.0.6/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2063,
+      "version_name": "3.0.6",
+      "tag": "v3.0.6",
+      "commit": "280e7ed370bd4c51a176f21bcad5f6cb5b238ce3",
+      "timestamp": 1776207241,
+      "reproducible": true,
+      "error": null
     }
   ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
