@@ -240,7 +240,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         appid=appid, version_code=None, version_name=None, tag=recipe.tag, commit=commit,
         recipe=recipe.for_json(), timestamp=int(time.time()), cpu_count=cpu_count,
         reproducible=None, error=None, build_log="", upstream_signed_apk_sha256=None,
-        built_unsigned_apk_sha256=None, signature_copied_apk_sha256=None)
+        built_unsigned_apk_sha256=None, signature_copied_apk_sha256=None, maintainer_notes=None)
     try:
         if not commit:
             commit = result["commit"] = tag_to_commit(recipe.repository, recipe.tag)

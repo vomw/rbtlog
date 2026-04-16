@@ -30,8 +30,14 @@ def process_log(log_file: str, data: Dict[Any, Any]) -> None:
             recipe = log["recipe"]
             entry = dict(repository=recipe["repository"], apk_url=recipe["apk_url"])
             for k in ("appid", "version_code", "version_name", "tag",
-                      "commit", "timestamp", "reproducible", "error"):
-                entry[k] = log[k]
+                      "commit", "timestamp", "reproducible", "error", "maintainer_notes"):
+                try:
+                    entry[k] = log[k]
+                except KeyError:
+                    if k == "maintainer_notes":
+                        entry[k] = None
+                    else:
+                        raise Exception(f"Missing required field {k} in log {log_file}")
             data[sha256].append(entry)
 
 
