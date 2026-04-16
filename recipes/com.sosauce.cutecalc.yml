@@ -681,3 +681,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.0.1
+    apks:
+      - apk_pattern: Vanilla_.*\.apk
+        apk_url: https://github.com/sosauce/Vanilla/releases/download/v4.0.1/Vanilla_4.0.1.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=e7372ee88a117c2cb57c929597bf82a8e480d4c9
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/Vanilla_*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
