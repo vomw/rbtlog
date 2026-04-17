@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/umutcamliyurt/IrisChat.git
-updates: releases
+updates: disabled
 notes:
   - v1.0 was built outside the git tree, so .git had to be removed for RB, see https://github.com/umutcamliyurt/IrisChat/issues/2
+  - repo disappeared in early 4/2026, and did not show up again (2026-04-17)
 versions:
   - tag: v1.0
     apks:

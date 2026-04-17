@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/abdallahmehiz/mpvKt.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo was archived 2026-03-30
 versions:
   - tag: v0.1.1
     apks:

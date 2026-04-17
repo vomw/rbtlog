@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/greenbugx/Hongeet.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo was archived 2026-04-13
 versions:
   - tag: v1.4.0+14
     apks:
