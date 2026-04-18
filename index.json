@@ -30094,6 +30094,21 @@
       "maintainer_notes": null
     }
   ],
+  "63e635c603d15df8546bc8189f3d26f09b136625bf96dc056b8f0bc4b336a5d0": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v1.0.1/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 5,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "0308d292afdc18551da07604c9c9b0aefab12bc2",
+      "timestamp": 1776525971,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e825497ee0ed33b0b7acf59b627f1d17e148182b83149abc0c3268f5e1b356b4": [
     {
       "repository": "https://github.com/F0x1d/LogFox.git",
@@ -93077,6 +93092,21 @@
       "tag": "v0.7.74",
       "commit": "f5452752326f9a5ac305f98d6b152e72bbcf41f2",
       "timestamp": 1776007278,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "778eef98a62b81ff63c891b7eb697e67187b4bae8adc97c24a51c7b65c93b29d": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.75/RiPlay-foss-release-0.7.75.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 75,
+      "version_name": "0.7.75",
+      "tag": "v0.7.75",
+      "commit": "0e6f28ebecc727f7c6b2d36163ae432f321cda77",
+      "timestamp": 1776527339,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
