@@ -1,8 +1,8 @@
 ---
 repository: https://github.com/thomasthaddeus/QRCodeGenius.git
-updates: releases
+updates: disabled
 notes:
-  - 'FIXME: no gradle-wrapper.jar, see https://github.com/thomasthaddeus/QRCodeGenius/issues/29'
+  - new package name, but MLKit & Co inside
 versions:
   - tag: V1.0.1
     apks:
