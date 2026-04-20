@@ -6987,6 +6987,21 @@
       "maintainer_notes": null
     }
   ],
+  "a30d9c36a1faf3ee55a370ff12bf6767df6d8fa5a1864db731d844c50c2530f8": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.2.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 3,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "558dc395466baaf40ef32d52da274d229c303d50",
+      "timestamp": 1776693674,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -94417,6 +94432,21 @@
       "maintainer_notes": null
     }
   ],
+  "f8406b7ec0302ff27638eb9ea7ef4a143cc054bce0d1aa3ca3592b52ea6817f5": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.24%2B23/rsm_v1.0.24%2B23_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2023,
+      "version_name": "1.0.24",
+      "tag": "v1.0.24+23",
+      "commit": "afb9a0dab52d59e4dfc02e7893bd963601953521",
+      "timestamp": 1776701800,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "build id embedded in native library"
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -113100,6 +113130,21 @@
       "tag": "v0.8.4",
       "commit": "9ce56196b3cc11891b25e9492cc83cf899b97c6e",
       "timestamp": 1776441059,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "74865516b841c8d32ad0f898f623da0f7a75a6a3931be94673d502dc3e0c56e5": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.5/mindwtr-0.8.5-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 59,
+      "version_name": "0.8.5",
+      "tag": "v0.8.5",
+      "commit": "0e240a11c5f41f712e4d8299b20eb27d33b89666",
+      "timestamp": 1776700381,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
