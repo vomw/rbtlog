@@ -526,3 +526,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: build107.0.1
+    apks:
+      - apk_pattern: app-github-release\.apk
+        apk_url: https://github.com/Hamza417/Inure/releases/download/build107.0.1/app-github-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleGithubRelease
+          - mv app/build/outputs/apk/github/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Inure/Inure
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

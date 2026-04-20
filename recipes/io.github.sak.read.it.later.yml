@@ -1,9 +1,10 @@
 ---
 repository: https://github.com/sak96/read_later.git
-updates: releases
+updates: disabled
 notes:
   - build takes 20+ min to just reach gradlew, then another 15 min
   - versions for SDK (platform), NDK, etc can be found in .build-tool-versions
+  - temp disabled due to build issues, see https://github.com/sak96/read_later/issues/2#issuecomment-4276513781
 versions:
   - tag: v0.1.26
     apks:
