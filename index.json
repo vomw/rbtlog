@@ -3147,6 +3147,36 @@
       "maintainer_notes": null
     }
   ],
+  "53ff6d11e6006438a61f56249f152784a090bb7e327c1ab0908b6f82957316bb": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.0.3/Podcini.X-free-arm64-v8a-11.0.3.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 292,
+      "version_name": "11.0.3",
+      "tag": "v11.0.3",
+      "commit": "e9b52cc8953ff62126a42f042cfb0317d25c5517",
+      "timestamp": 1776779536,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "34f2a838bf9f06a8e69e81094ea025baec92787678cdc14e3d5b2aa56d2f5fb0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.0.4/Podcini.X-free-arm64-v8a-11.0.4.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 293,
+      "version_name": "11.0.4",
+      "tag": "v11.0.4",
+      "commit": "c4c473ea5167f848ec33ef1e2b9a72e86c953f41",
+      "timestamp": 1776801308,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6052,6 +6082,21 @@
       "tag": "1.11.4.2",
       "commit": "a03845d223668c64c67617f98daf5c645480a338",
       "timestamp": 1771257844,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "613b1e4b016e280df17fee5b6fdf43adac0f74f06df6d813bd3ed317dc73669a": [
+    {
+      "repository": "https://github.com/CodeWorksCreativeHub/mLauncher.git",
+      "apk_url": "https://github.com/CodeWorksCreativeHub/mLauncher/releases/download/1.11.4.3/MultiLauncher-1.11.4.3-Signed.apk",
+      "appid": "app.mlauncher",
+      "version_code": 1110403,
+      "version_name": "1.11.4 Build 3",
+      "tag": "1.11.4.3",
+      "commit": "e5ea6ee668f363df3af590a46d939dc19330391a",
+      "timestamp": 1776780086,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -11437,6 +11482,21 @@
       "tag": "v2.1.0",
       "commit": "c235408cdc4be474678ec745cc91e38f9a1e9bf4",
       "timestamp": 1771848855,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cd7b75715eb4e8f3df6532fc780c05a7cfd45c2388e7046bb42d23bb8b09d6ba": [
+    {
+      "repository": "https://github.com/fflopsi/mensa-zh.git",
+      "apk_url": "https://github.com/fflopsi/mensa-zh/releases/download/v2.2.0/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 70,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "90f160b25087587540bd38d958d3f362f0070eb8",
+      "timestamp": 1776787314,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25971,6 +26031,21 @@
       "maintainer_notes": null
     }
   ],
+  "85d0e65ad2dfaaebe33228e95ff87ad8fadcad43b70a1c589f8d8b00d4b16a29": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.53/habit-maker-fdroid-0.0.53.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 5301,
+      "version_name": "0.0.53-fdroid",
+      "tag": "0.0.53",
+      "commit": "21d79534db26e024cec392a2db0e4abccf920cfc",
+      "timestamp": 1776789876,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -29489,6 +29564,21 @@
       "tag": "v0.6.2-alpha",
       "commit": "22a2b97498c848a68c2065a9a1f7d6b5d9a71d3b",
       "timestamp": 1776693862,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "60f79439d7ca7a41588f605e0710af074483b0b1cb9819df1593c13085ac0df6": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.6.3-alpha/YagniLauncher-v0.6.3-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 63,
+      "version_name": "0.6.3-alpha",
+      "tag": "v0.6.3-alpha",
+      "commit": "d1511c8da2590bfaf30a186191e4a81b27d39fd8",
+      "timestamp": 1776780989,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35848,6 +35938,36 @@
       "maintainer_notes": null
     }
   ],
+  "622373a45fa8d1d84ef5b2a741b876adc20002408f97246424be233c6948a668": [
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v31.0/app-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 66,
+      "version_name": "31.0",
+      "tag": "v31.0",
+      "commit": "3282b694bcaff42dcdf5f2970a64a383f1ddcfef",
+      "timestamp": 1776787686,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "97b6bf54b762f5ce207a959676283d6779b7887765e2094e43e3d630a12263fa": [
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v31.1/app-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 67,
+      "version_name": "31.1",
+      "tag": "v31.1",
+      "commit": "a51a4ca131628780b9f1e67935d36f576af18960",
+      "timestamp": 1776797486,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "589df162746cbec6aa27438a2c5173bedcb620ac7ab6a0fa6af8e59535c25ec5": [
     {
       "repository": "https://github.com/LivingWithHippos/unchained-android.git",
@@ -35963,6 +36083,21 @@
       "tag": "v1.6.1",
       "commit": "f9e2ad5dc2ad31516dfd68a1cb6afe887d82ef59",
       "timestamp": 1775484050,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9070e9fb6f74dadd9e466548563e2d6aa857433b4706d54937998d08122e5e4d": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.7.0/com.github.livingwithhippos.unchained-v1.7.0.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 59,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "558dda4155f74f3da427717896f9aa36561bad3d",
+      "timestamp": 1776802032,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54931,6 +55066,21 @@
       "maintainer_notes": null
     }
   ],
+  "fb7bc566a7d6db03dd9bc96102525ae07a9e7914e3e1f927d65e7f7a5c016c06": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.10.3/youtubeConverter-3.10.3-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 51,
+      "version_name": "3.10.3",
+      "tag": "v3.10.3",
+      "commit": "21164157555ff72d87da636e6c40a52d7a4454ee",
+      "timestamp": 1776781504,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f601f5bd160f539a631b01ee637bac33464503ffafd7a2d660ab29d863525501": [
     {
       "repository": "https://github.com/bjoernch/pgpmailer.git",
@@ -62022,6 +62172,21 @@
       "maintainer_notes": null
     }
   ],
+  "f025f78d9b3898efc3248d82c0eed78e4d8e97d602fa31d945b9db9ed868a474": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.9.1/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5910,
+      "version_name": "5.9.1",
+      "tag": "5.9.1",
+      "commit": "24b984de9e7f40dc7bb6089ba7e6411259bf948e",
+      "timestamp": 1776797932,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -63067,6 +63232,21 @@
       "tag": "5.8.0",
       "commit": "d91f23e945a5b40602fb58f593c3309a35a765cc",
       "timestamp": 1776453539,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6b66c624ad547441ea1809b6c420d8bea1a5d71b24f505de7bd80390917eecd1": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.8.1/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5810,
+      "version_name": "5.8.1",
+      "tag": "5.8.1",
+      "commit": "a81f370822f388acc18b7ebb52a70ea76982e632",
+      "timestamp": 1776798400,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -76859,6 +77039,21 @@
       "tag": "v0.10.0",
       "commit": "5331ceed235935f48b8c641a2703c8070951336d",
       "timestamp": 1776538422,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4702199e89cf566dda975d82a5355338ba2c1613313f08acbb7af63f5d75d3a6": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.10.1/ReadeckApp-0.10.1.apk",
+      "appid": "de.readeckapp",
+      "version_code": 1001,
+      "version_name": "0.10.1",
+      "tag": "v0.10.1",
+      "commit": "c6a1bb5c572bcf3e4814215f4628f00429b714f5",
+      "timestamp": 1776782123,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -91597,6 +91792,21 @@
       "maintainer_notes": null
     }
   ],
+  "d34c86648f374a1595161c54130eea2e5744aa02b545ca4e52d2efe28214eff5": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.4.1/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 35,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "8a15676bc36e1c82a03dd9ddc081545884ffbec4",
+      "timestamp": 1776788001,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -94597,6 +94807,21 @@
       "maintainer_notes": "build id embedded in native library"
     }
   ],
+  "2ed1292bda4a6df0e14eec653cf9f6c7ea9ef704853fdfd1a4a781e671265e05": [
+    {
+      "repository": "https://github.com/biplobsd/running_services_monitor.git",
+      "apk_url": "https://github.com/biplobsd/running_services_monitor/releases/download/v1.0.25%2B24/rsm_v1.0.25%2B24_arm64-v8a.apk",
+      "appid": "me.biplobsd.rsm",
+      "version_code": 2024,
+      "version_name": "1.0.25",
+      "tag": "v1.0.25+24",
+      "commit": "a32d8352ce1c0a44c1140c38d73747ff66402c3d",
+      "timestamp": 1776788252,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5c6d7eda268d9b5cc4770bf449e408be1865c0bc87171425e4a3bd469adb0188": [
     {
       "repository": "https://codeberg.org/danb/retherm.git",
@@ -96137,6 +96362,21 @@
       "tag": "v13.1.0",
       "commit": "7852244188c868a7152540ddd73d3e150deaa058",
       "timestamp": 1775315002,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "108d59f5313cc07315c86449d4e684251f3520fdc021e8e0caf94fec25ddb354": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v13.2.0/app-mobile-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 133,
+      "version_name": "13.2.0",
+      "tag": "v13.2.0",
+      "commit": "1d6d7dc4836d578bf086feb2d841ecf0ad16cad7",
+      "timestamp": 1776803912,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -112515,6 +112755,21 @@
       "tag": "1.6.0",
       "commit": "54b4c297f2378252a297c957530012fffffb92a5",
       "timestamp": 1775790074,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a22a01c6a973b2c161adac0df1f97b0d8a10d6ee56d5cca7fa76e8d0ccc25c28": [
+    {
+      "repository": "https://github.com/shub39/Momentum.git",
+      "apk_url": "https://github.com/shub39/Momentum/releases/download/1.6.1/app-foss-arm64-v8a-release.apk",
+      "appid": "shub39.momentum",
+      "version_code": 1610,
+      "version_name": "1.6.1",
+      "tag": "1.6.1",
+      "commit": "e7284ac800c4a946b1beb2f8352f90e2344d3c65",
+      "timestamp": 1776798930,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
