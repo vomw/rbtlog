@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/256x/memo.git
-updates: releases
+updates: disabled
+notes:
+  - app was removed again 2026-04-21, see https://codeberg.org/IzzyOnDroid/repodata/issues/131#issuecomment-13004016
 versions:
   - tag: v1.0.2
     apks:
