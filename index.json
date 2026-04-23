@@ -3192,6 +3192,21 @@
       "maintainer_notes": null
     }
   ],
+  "e83a1449ac91b0760dd6f2d8cbf6cf82be8e07dfb5395126257efdf9e20bba40": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.0.6/Podcini.X-free-arm64-v8a-11.0.6.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 295,
+      "version_name": "11.0.6",
+      "tag": "v11.0.6",
+      "commit": "75ed9724157be4c8474d8257df8b4b025f77a387",
+      "timestamp": 1776952344,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -5347,6 +5362,21 @@
       "tag": "v1.2.0",
       "commit": "bb3e082f3a8ed723b9029922371676712243858c",
       "timestamp": 1776277511,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d675e2e98920cb7399ba59302fcf4cd707b7d9d1cf56c95d3c41b26ff99e1ab1": [
+    {
+      "repository": "https://github.com/lone-cloud/prism-android.git",
+      "apk_url": "https://github.com/lone-cloud/prism-android/releases/download/v1.2.1/prism.apk",
+      "appid": "app.lonecloud.prism",
+      "version_code": 10201,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "7fc146a7429e83a22d9943cc2c3cbfc726b9dc66",
+      "timestamp": 1776952544,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -40779,6 +40809,21 @@
       "maintainer_notes": null
     }
   ],
+  "3016245b6b501297bcb6bbe96244363ce685ef94900527b711f3fbeef909f583": [
+    {
+      "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
+      "apk_url": "https://github.com/Harshshah6/SaavnMp3-Android/releases/download/v1.0.16/Melotune-1.0.16-nofirebaseRelease.apk",
+      "appid": "com.harsh.shah.saavnmp3",
+      "version_code": 10,
+      "version_name": "1.0.16",
+      "tag": "v1.0.16",
+      "commit": "167d25e0b8d8c9009060760bae7c1567638f7a4e",
+      "timestamp": 1776952678,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d34e70ade99c6646cf2b8a7408b9db13915c6fa7d5c4bcb7ab9e7cbc0b45b79a": [
     {
       "repository": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed.git",
@@ -42169,6 +42214,21 @@
       "tag": "0.0.85",
       "commit": "f469861d95afe615775bbb5e84c92cd3705e04d8",
       "timestamp": 1770495231,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b882228149c17c56a24c4b7225b64cf121a9ef153d2bfe57d2dcdac391c7b1c2": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.86/jerboa-fdroid-0.0.86.apk",
+      "appid": "com.jerboa",
+      "version_code": 86,
+      "version_name": "0.0.86-fdroid",
+      "tag": "0.0.86",
+      "commit": "0f5f09181776316faa514b32ce34b9db3941ddb4",
+      "timestamp": 1776974274,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49035,6 +49095,21 @@
       "tag": "v13.4.1",
       "commit": "d3de55d3f8b6132294770010c2d338ce6a0073f8",
       "timestamp": 1776089824,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e68e0edde54fc6e8fa63e74ac7404391e24ab62d17241a19d6cd33c938a41f6": [
+    {
+      "repository": "https://github.com/mostafaalagamy/Metrolist.git",
+      "apk_url": "https://github.com/MetrolistGroup/Metrolist/releases/download/v13.4.2/Metrolist-izzy.apk",
+      "appid": "com.metrolist.music",
+      "version_code": 146,
+      "version_name": "13.4.2",
+      "tag": "v13.4.2",
+      "commit": "884c90675e3a9c7088215ec93d9fe70fb68f0174",
+      "timestamp": 1776952959,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -64000,6 +64075,21 @@
       "maintainer_notes": null
     }
   ],
+  "2838e3bb4f8445f6023c086a6e7cbdc5943feb39d4e96f70d4feca3358cf8832": [
+    {
+      "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
+      "apk_url": "https://github.com/SimonHalvdansson/Harmonic-HN/releases/download/v2.3.1/app-release.apk",
+      "appid": "com.simon.harmonichackernews",
+      "version_code": 73,
+      "version_name": "2.3.1",
+      "tag": "v2.3.1",
+      "commit": "65c80810d2fe1624c72032e9604e50a5e9505a5f",
+      "timestamp": 1776953221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "351a973cc09c5aa835d9db0ae2258aacc16880fe7b28432c91adc720fc4d5fde": [
     {
       "repository": "https://github.com/SimpolCo/Permissions-Summary.git",
@@ -65995,6 +66085,21 @@
       "maintainer_notes": null
     }
   ],
+  "6b31b6f3ba15ae0361c597a3615e9eea3f572a0efd3a425293b830d2e643486c": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v57/app-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 278,
+      "version_name": "57",
+      "tag": "v57",
+      "commit": "eaed3c001cd6cca318602f80a91f69aebc287554",
+      "timestamp": 1776969675,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -66785,6 +66890,21 @@
       "tag": "0.3.8",
       "commit": "d33e51a9b9432dcc5b9356eb339b20008988fd0d",
       "timestamp": 1772379734,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "852f0270713e8a0e04ac4765f917abb10f086444db721ff1cb338bc0feae67f0": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.9/call-limiter-0.3.9.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 10,
+      "version_name": "0.3.9",
+      "tag": "0.3.9",
+      "commit": "8b109b7b4798b1624cba8d36e1c0f0c8854b96b6",
+      "timestamp": 1776953712,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -88584,6 +88704,21 @@
       "maintainer_notes": null
     }
   ],
+  "cf369f5e2f792b6007e9a947ed5efbfdeba2fa064a82d0b6b490b36698bf973f": [
+    {
+      "repository": "https://github.com/DP-Hridayan/Driftly.git",
+      "apk_url": "https://github.com/DP-Hridayan/Driftly/releases/download/v1.9.0/Driftly-v1.9.0-release.apk",
+      "appid": "in.hridayan.driftly",
+      "version_code": 14,
+      "version_name": "v1.9.0",
+      "tag": "v1.9.0",
+      "commit": "748a468afa94031f9f060f82be3dfa9fd70ae721",
+      "timestamp": 1776971006,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9db14a176a89240b49a34cfe238c9a14a56874623535ace38e0fcac9dd7a3925": [
     {
       "repository": "https://github.com/DP-Hridayan/XMLForge.git",
@@ -92792,6 +92927,21 @@
       "tag": "v1.1.21",
       "commit": "9a65f35af4b82d686d7b2b4ac3126d1a07fbcf41",
       "timestamp": 1775835987,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c46c81367a7e611bed3480b7fb6e77f4864e315dc8329684c514f14bd2dae111": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.22/SMS2Email-v1.1.22-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 35,
+      "version_name": "1.1.22",
+      "tag": "v1.1.22",
+      "commit": "d8a5a13fe603ff0b61fdbfa003c3f4d6c494e60e",
+      "timestamp": 1776953789,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -100552,6 +100702,21 @@
       "maintainer_notes": null
     }
   ],
+  "d65fb9c18f6f6b82465d7eff3a154079ea3b9012d7b373f97c5825f6f6cdd809": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v3.1.0/DragonLauncher-v3.1.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 50,
+      "version_name": "3.1.0 (Wither)",
+      "tag": "v3.1.0",
+      "commit": "78c521ebadb45e4ff93a2a5362e936c1e7f5fed9",
+      "timestamp": 1776961865,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -107422,6 +107587,21 @@
       "maintainer_notes": null
     }
   ],
+  "1764a4a65a83610e1c2454c11845a6efa5c2199e697fb6cad026b09c32763630": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.6.4/KashCal-23.6.4-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 492,
+      "version_name": "23.6.4",
+      "tag": "v23.6.4",
+      "commit": "41e3911b6ab4764edf77527994a88c22096d8121",
+      "timestamp": 1776953924,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -113835,6 +114015,21 @@
       "tag": "v0.8.5",
       "commit": "0e240a11c5f41f712e4d8299b20eb27d33b89666",
       "timestamp": 1776700381,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1fba8168b60f25ab5b3f9f5b4d5e78729b240f14605ef970d90550c93238bd64": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.6/mindwtr-0.8.6-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 60,
+      "version_name": "0.8.6",
+      "tag": "v0.8.6",
+      "commit": "bc79f86f32ddf4f6291fac8d3f96231677524e0e",
+      "timestamp": 1776954225,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
