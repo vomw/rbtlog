@@ -382,3 +382,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 2026.04.24.2
+    apks:
+      - apk_pattern: .*release\.apk
+        apk_url: https://github.com/AlfaazPlus/QuranApp/releases/download/$$TAG$$/$$TAG$$-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=app/build/outputs/apk/release/*release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'META-INF/services/*' 'assets/chapter_info/*' 'assets/prebuilt_translations/en_the_clear_quran/en_the_clear_quran.json' 'assets/prebuilt_translations/ur_junagarhi/ur_junagarhi.json' 'assets/quran_meta.json' 'assets/science/*.json' 'assets/science/*.js' 'assets/science/*.css' 'assets/science/topics/en/botany.html' 'assets/scripts/script_indopak.json' 'assets/scripts/script_noorehuda.json' 'assets/tafsir/*' 'assets/verses/type*/*' 'assets/verses/type*/*/*' 'assets/quranapp-exported-data-v1.json' 'assets/verses/major_sins/*/major_sins.json' 'assets/verses/major_sins/map.json'
+          - reproducible-apk-tools/fix-compresslevel.py $OUT fixed.apk 6 assets/tafsir/tafsir_page.css
+          - reproducible-apk-tools/zipalign.py --page-size 16 --replace fixed.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
