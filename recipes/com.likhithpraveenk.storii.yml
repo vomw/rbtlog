@@ -177,3 +177,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v0.2.4
+    apks:
+      - apk_pattern: storii-.*-arm64\.apk
+        apk_url: https://github.com/likhithpraveenk/storii/releases/download/v0.2.4/storii-v0.2.4-arm64.apk
+        build:
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ .([0-9\.]*).*?/\1/p' .github/workflows/release.yml | head -n 1)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/*arm64*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/storii/storii
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

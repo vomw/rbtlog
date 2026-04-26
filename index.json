@@ -5112,6 +5112,21 @@
       "maintainer_notes": null
     }
   ],
+  "671201392de72ff73b79aaea694c8803450ff98a35a9f85ccff0348de3ae8b78": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.1.8/fluffy-4.1.8-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 741,
+      "version_name": "4.1.8",
+      "tag": "4.1.8",
+      "commit": "27965f87a2b176ade3b9b62ed4b4d41e6009ef14",
+      "timestamp": 1777211560,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -5392,6 +5407,21 @@
       "tag": "v1.2.1",
       "commit": "7fc146a7429e83a22d9943cc2c3cbfc726b9dc66",
       "timestamp": 1776952544,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e5c712df939ae92ced75affcb9908a08867ea042f47efc30769f7d0bdef931b1": [
+    {
+      "repository": "https://github.com/lone-cloud/prism-android.git",
+      "apk_url": "https://github.com/lone-cloud/prism-android/releases/download/v1.2.2/prism.apk",
+      "appid": "app.lonecloud.prism",
+      "version_code": 10202,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "f522f881c4cfd132e71e29bf91b84d676679d9c1",
+      "timestamp": 1777211776,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -7092,6 +7122,21 @@
       "maintainer_notes": null
     }
   ],
+  "752b32748e6689c62c1527cedd1dbad805b79a6fb33a9f320aee45a244d98f04": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.3.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 47,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "6e31646678e0cf1e8ff545547c8d7068a1691892",
+      "timestamp": 1777211942,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a30d9c36a1faf3ee55a370ff12bf6767df6d8fa5a1864db731d844c50c2530f8": [
     {
       "repository": "https://github.com/pass-with-high-score/universal-installer.git",
@@ -7117,6 +7162,21 @@
       "tag": "v1.3.0",
       "commit": "9716c32d920fb047447d6da046545e666186a715",
       "timestamp": 1776715469,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5930f0759e7f73006a72eaa894ff787ded66185397bf6b7c91b44f177b7ac35a": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.4.0/app-full-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 5,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "837b0b9d118ba6ea98716f9deecf5d2d8697a2f6",
+      "timestamp": 1777212507,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -14227,6 +14287,21 @@
       "tag": "v2.6.12",
       "commit": "5b74bc832f5181fc0dfa5bff7c819a8687da626d",
       "timestamp": 1770155467,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "42f3a530b8e4dbfc68c3e6ae50ea5f88cf9e7d65abb8a528c1680f1891a0adfc": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/v2.6.13/notifications-recovery-2.6.13.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 47,
+      "version_name": "2.6.13",
+      "tag": "v2.6.13",
+      "commit": "ec197fd3ca431b4ee0cafb74fd310d8e6f888fac",
+      "timestamp": 1777212681,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32012,6 +32087,21 @@
       "maintainer_notes": null
     }
   ],
+  "a63b9d90720ace5f4e3dd4645157d71ac1af47c6c638f61977127a4a1a2523e6": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.41.1/com.fibelatti.photowidget-v1.41.1-1410100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1410100,
+      "version_name": "1.41.1",
+      "tag": "v1.41.1",
+      "commit": "3232119c34105a412f4b916e79f8ed79e21ea19c",
+      "timestamp": 1777212820,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -45729,6 +45819,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca4a30b7508d385aed26a5838e0e19e80c74745294a7c7dcf551dc23b598d8bf": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/LeanBitLab/LtvLauncher/releases/download/v2026.04.26/LTvLauncher-arm64-v8a-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8102,
+      "version_name": "2026.04.26",
+      "tag": "v2026.04.26",
+      "commit": "c43e4d6cf0cd5b64e4973bf37e3ec747bd66e56b",
+      "timestamp": 1777218657,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8131c0529cc5c1e6b66e3badfcb9b3fe65d44e01af49ba6dba8be45fca8fdb15": [
     {
       "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
@@ -45904,6 +46009,21 @@
       "tag": "v0.2.3",
       "commit": "411a76c2b3653bee57fd1384ce77a993ff0692f5",
       "timestamp": 1776884303,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e884cdd4bbec42d083f5592e48f39143ca782fb9d174e42dd48ff7e2176ba84": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.2.4/storii-v0.2.4-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2041,
+      "version_name": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "3da4d31475e5e0bc057614170d97471bab5df70c",
+      "timestamp": 1777214295,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -47282,6 +47402,21 @@
       "tag": "1.2.5",
       "commit": "aad236635fd5ef61353ab51104c2bd72be694cb5",
       "timestamp": 1774637413,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ba0f8c361c35bc07f291a9403d53dec430013afcbd14190ab0c323f752421ee5": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.2.6/Neo_Store_1.2.6_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1209,
+      "version_name": "1.2.6",
+      "tag": "1.2.6",
+      "commit": "004539109c80eb590b5202711da62227c81c65e6",
+      "timestamp": 1777220329,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -63657,6 +63792,21 @@
       "maintainer_notes": null
     }
   ],
+  "5626dd381691e6a501d158a7954851b9491ea67fe34ae10357815b1335cc0e7a": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.8.2/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5820,
+      "version_name": "5.8.2",
+      "tag": "5.8.2",
+      "commit": "4d7daceb060896303283c00f2b40397d1f69fced",
+      "timestamp": 1777215598,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -77792,6 +77942,21 @@
       "maintainer_notes": null
     }
   ],
+  "b2ce88ce15e126de011c383780394d30c805865484dca8a337f81b5035e29dc6": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.9.0/de.storchp.opentracks.osmplugin_6.9.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin",
+      "version_code": 70,
+      "version_name": "6.9.0",
+      "tag": "v6.9.0",
+      "commit": "c783c37edb3eb8056d089fef646d2d6aff5eb907",
+      "timestamp": 1777229969,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4f00cdfc01ac2a91709b52d1d1446273912721141004520ed2c20d8c8d1628f2": [
     {
       "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
@@ -77860,6 +78025,21 @@
       "tag": "v6.8.0",
       "commit": "9f45fed5b342aa7566a992b6a79d988f47c790e6",
       "timestamp": 1777040516,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a075d8aa0a9dd57277392e6b33cc55a82007b2d4acfcd82d44391b81511032fc": [
+    {
+      "repository": "https://codeberg.org/OpenTracksApp/OSMDashboard.git",
+      "apk_url": "https://codeberg.org/OpenTracksApp/OSMDashboard/releases/download/v6.9.0/de.storchp.opentracks.osmplugin.offline_6.9.0.apk",
+      "appid": "de.storchp.opentracks.osmplugin.offline",
+      "version_code": 70,
+      "version_name": "6.9.0",
+      "tag": "v6.9.0",
+      "commit": "c783c37edb3eb8056d089fef646d2d6aff5eb907",
+      "timestamp": 1777229725,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84836,6 +85016,21 @@
       "maintainer_notes": null
     }
   ],
+  "49f07ad0126f5cab773f151c99adc5b64742995b8dbc8b76ac66d4a04bace43a": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.1.1-rc0/eu.darken.capod-v5.1.1-rc0-50101000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50101000,
+      "version_name": "5.1.1-rc0",
+      "tag": "v5.1.1-rc0",
+      "commit": "70d9432b2bab2f9d8fac82c4855b12e4d958cca8",
+      "timestamp": 1777216096,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -84906,6 +85101,21 @@
       "tag": "v2.0.3-rc0",
       "commit": "c5ce15572cc2abe6dc1e8f1634e4ef06e48ac1b1",
       "timestamp": 1775660699,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7c2bc64a5547d110a25d07fcce65f60d2eb90c7ec6a90dec6f76e9aaedbd3792": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.1.0-rc0/eu.darken.myperm-v2.1.0-rc0-20100000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20100000,
+      "version_name": "2.1.0-rc0",
+      "tag": "v2.1.0-rc0",
+      "commit": "f33d1303ab7a946f82d7bd678ca53ce6e79401f2",
+      "timestamp": 1777216606,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -87171,6 +87381,21 @@
       "tag": "v2.1.0",
       "commit": "a68f60ebb3547a96cbc4c18809a8a1c83297c9a9",
       "timestamp": 1775227186,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "da80603474c8ffdc33f203b6430c9fba31942a93d90e7eb6079cf70aefcdc40f": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.2.0/phdp-v2.2.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 22000,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "6860f60e508409cb49435ada66cbf8b45ba8365f",
+      "timestamp": 1777216840,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -97762,6 +97987,21 @@
       "maintainer_notes": null
     }
   ],
+  "7b8cdd67124c95c70d25c0069d55bae9e581158116696d2be60204956b2507f1": [
+    {
+      "repository": "https://github.com/ReneArentz/net.forestany.mediacollection.git",
+      "apk_url": "https://github.com/ReneArentz/net.forestany.mediacollection/releases/download/Media_Collection_1.0.4/Media_Collection_1.0.4.apk",
+      "appid": "net.forestany.mediacollection",
+      "version_code": 5,
+      "version_name": "1.0.4",
+      "tag": "Media_Collection_1.0.4",
+      "commit": "9bab0ccbd527daa07f6b8c43eb4aa9403b6db3c6",
+      "timestamp": 1777216987,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "Build IDs embedded to native libraries"
+    }
+  ],
   "f9981ad289592a8738f8e5c05be28b3f0c0ea421eb70fd234fe98575807501a0": [
     {
       "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
@@ -101222,6 +101462,21 @@
       "tag": "v3.1.2",
       "commit": "87827af3795e7156e49c8ad9c5df0377be2b2f58",
       "timestamp": 1777133210,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bcde852c5280d613017fe70cf072752c5a5b2f11e95fcb25b6a4451ec9233948": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v3.1.3/DragonLauncher-v3.1.3.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 53,
+      "version_name": "3.1.3 (Wither)",
+      "tag": "v3.1.3",
+      "commit": "138313ab3178af588f02c589d173028132c8c34d",
+      "timestamp": 1777217165,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111215,6 +111470,21 @@
       "maintainer_notes": null
     }
   ],
+  "d8cd7d5ec46e24ab3843abc039c0b41276991b7f3756fc361a2e175b854516df": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.2.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 39,
+      "version_name": "6.2.0",
+      "tag": "v6.2.0",
+      "commit": "b93db5c958a92dc284bd2f45b95d92fb6d7ea32f",
+      "timestamp": 1777217568,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -115530,6 +115800,21 @@
       "tag": "4.0.0",
       "commit": "548d005fd4300e8ca2d2867c9c56d914ab663773",
       "timestamp": 1774042935,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ecb22e192c652473fc94a80f22ff4ff54483b0e07aac773ed77c02d91a15745c": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.0.1/LockscreenWidgets_4.0.1-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 191,
+      "version_name": "4.0.1",
+      "tag": "4.0.1",
+      "commit": "4ed14e54ff21619035c76b1baff6f74f858fc2a0",
+      "timestamp": 1777230310,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
