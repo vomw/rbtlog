@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/BKK31/pixel-gallery.git
 updates: releases
+notes:
+  - 'FIXME: remove the sed for error=>println with the next release, it was applied upstream now'
 versions:
   - tag: v3.0.6
     apks:

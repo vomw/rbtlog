@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/DP-Hridayan/aShellYou.git
 updates: releases
+notes:
+  - 'FIXME: next release after v7.1.0 will need assembleGithubRelease, see https://github.com/DP-Hridayan/aShellYou/issues/205#issuecomment-4321820937 '
 versions:
   - tag: v6.1.0
     apks:
