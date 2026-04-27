@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/antoniegil/Astronia.git
 updates: releases
+notes:
+  - 'FIXME: APK size doubled with v1.0.7, so we need to switch to arm64 with the next release'
 versions:
   - tag: v1.0.3
     apks:
