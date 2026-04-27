@@ -56836,6 +56836,21 @@
       "maintainer_notes": null
     }
   ],
+  "e108451d9d89e63e75e8e2efa244fc59bfa4753f008810ef65627457dce7b6d2": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.5.3/Compressor-1.5.3.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 18,
+      "version_name": "1.5.3",
+      "tag": "1.5.3",
+      "commit": "aa452b420f3a033509a5a5dd5d702515b15e64ff",
+      "timestamp": 1777232258,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "upstream accidentally included an additional file not checked in to the repo"
+    }
+  ],
   "6f4069cd31db7669dd6657c126d76a0fa758826056e3f2f2bdfdbe735ab99134": [
     {
       "repository": "https://github.com/RoBoT095/printnotes.git",
