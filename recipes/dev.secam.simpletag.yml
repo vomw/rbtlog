@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/sergcam/SimpleTag.git
 updates: releases
+notes:
+  - 'FIXME: v0.3.2-beta was built with local changes, remove the sed again for the next release'
 versions:
   - tag: v0.1.0-beta
     apks:
@@ -285,6 +287,36 @@ versions:
             version: '19.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.3.2-beta
+    apks:
+      - apk_pattern: SimpleTag.*\.apk
+        apk_url: https://github.com/sergcam/SimpleTag/releases/download/v0.3.2-beta/SimpleTag_0.3.2-beta.apk
+        build:
+          - sed -r 's/versionCode = 10/versionCode = 11/ ; s/versionName = "0.3.1/versionName = "0.3.2/' -i app/build.gradle.kts
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/SimpleTag*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
