@@ -56146,6 +56146,21 @@
       "maintainer_notes": "baseline mismatch (optimizer)"
     }
   ],
+  "1264b8c6af5a5cb5b06597b4b6a7727a3436abe6287b2190ad2b261bec96e7bc": [
+    {
+      "repository": "https://github.com/Crustack/NotallyX.git",
+      "apk_url": "https://github.com/Crustack/NotallyX/releases/download/v7.11.1/NotallyX-7.11.1.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 71110,
+      "version_name": "7.11.1",
+      "tag": "v7.11.1",
+      "commit": "8b052cd82b30865e3f834a5b668d3a4867ef0ab8",
+      "timestamp": 1777338143,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e39108ae0e3002847be88e4211dd999540a16e0f015218fed8b1ecde7c46cbf1": [
     {
       "repository": "https://github.com/ray-pH/Nabla-TypeMath-android.git",
