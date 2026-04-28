@@ -3222,6 +3222,21 @@
       "maintainer_notes": null
     }
   ],
+  "55859d12b3917adedbf4cd612b2a3671f57ae1b2c7a3c943efecf308997a4c7c": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.0.9/Podcini.X-free-arm64-v8a-11.0.9.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 299,
+      "version_name": "11.0.9",
+      "tag": "v11.0.9",
+      "commit": "01980fa82824bb1dc4ef6d68fe6d6a726f99263b",
+      "timestamp": 1777391559,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -13767,6 +13782,21 @@
       "maintainer_notes": null
     }
   ],
+  "c13585508c93b1ab66f3964a60bd7101d715ddef53db835cfc52305d61f0c9d8": [
+    {
+      "repository": "https://github.com/farfromrefug/OSS-Dict.git",
+      "apk_url": "https://github.com/Akylas/OSS-Dict/releases/download/v2.0.0/73/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 73,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0/73",
+      "commit": "427b3e961cf2a529b27117d476870da93209236e",
+      "timestamp": 1777384453,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "68402d9c3e3261a0bfe1d09727a323349ecd03fcd86b7392811c50d381cce237": [
     {
       "repository": "https://github.com/farfromrefug/EnforceDoze.git",
@@ -17660,6 +17690,21 @@
       "tag": "v1.6.0",
       "commit": "62b854b70266538878bf8fc46e69c83c31418fa4",
       "timestamp": 1776261104,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "062b1fc8e84fa8bf160bff48ccddd38db0ca49d637dbdc3ff5d62505341b4c4d": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.1/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 17,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "641439038c11562de370714cf218d588e7b2dce2",
+      "timestamp": 1777384536,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -23166,6 +23211,21 @@
       "maintainer_notes": null
     }
   ],
+  "8b437d09f974ac1fcd19de79b81f0a175fad96e91c91d60b1f819d3029662466": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.53/networksurvey-1.53-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 112002,
+      "version_name": "1.53",
+      "tag": "v1.53",
+      "commit": "717b2b908bc8559d5780b9e41da437de7105bee6",
+      "timestamp": 1777384732,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
     {
       "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
@@ -25111,6 +25171,21 @@
       "tag": "v2.19.2",
       "commit": "590722d8d621d154623b83da9037ef8801829d1f",
       "timestamp": 1776089105,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e0baf9d06613edcfa6ee14c322ee9686811f603132c9468c52a1b6c128d3ff62": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.20.0/daily-you-arm64-v8a-v2.20.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20200002,
+      "version_name": "2.20.0",
+      "tag": "v2.20.0",
+      "commit": "e23905eade5b72abd4676c0494846228b749e22d",
+      "timestamp": 1777391607,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32642,6 +32717,21 @@
       "maintainer_notes": null
     }
   ],
+  "d48f879b9392fa13dcf92ffcafb64c496485a7765f0bd0e33117dff6b3b8c4ee": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.14.0/com.fibelatti.pinboard-v3.14-3140000-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3140000,
+      "version_name": "3.14",
+      "tag": "v3.14.0",
+      "commit": "816dfebd58ecfd17a077f92c4544a1ce6145f9d1",
+      "timestamp": 1777385613,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -36047,6 +36137,21 @@
       "maintainer_notes": null
     }
   ],
+  "1d626f54326cc6e1b88967d770cdd4b001e48a021b208012e68fae6a8f3d40cb": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.7.1/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2824861,
+      "version_name": "3.7.1",
+      "tag": "3.7.1",
+      "commit": "eb2c5a4ecf752ae42c3cc97859e663c7e3c1c61d",
+      "timestamp": 1777385820,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c8c1917bb6e2f85f0fdc297ed1484ec10bfb6babdad860b49a560a226c792c1c": [
     {
       "repository": "https://github.com/gouravkhunger/QuotesApp.git",
@@ -39246,6 +39351,21 @@
       "tag": "v1.0.0",
       "commit": "daa836b8eedf6b3b8398ee70ea4435e9777d6945",
       "timestamp": 1776250151,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "af1650e80136fa7be444fea0a9197c72b01ea013d5ad11bdb36c52c16c331af1": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.1.0/Crystalpad-v1.1.0.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 2,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "8532701e7f4f4ff094579845e2c816c37d83927f",
+      "timestamp": 1777402186,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -63972,6 +64092,21 @@
       "maintainer_notes": null
     }
   ],
+  "3eaf45b7305c7f40b121a88adc602ddd8ce4a43432999c6f8988d6b2b7850d8f": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.9.0/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5900,
+      "version_name": "5.9.0",
+      "tag": "5.9.0",
+      "commit": "a48d1b0370f6f5deac9ac0f48579a577d904ba88",
+      "timestamp": 1777403226,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -67355,6 +67490,21 @@
       "tag": "v2.2.5",
       "commit": "95a7a3ebed1e462899630ed9fa05437f84940fbb",
       "timestamp": 1775745058,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d85fd1aced9fc25f59a0e4a650e84cd79f98cf10bb5035bfd279ec2bfbdf6d95": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.6/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 30,
+      "version_name": "2.2.6",
+      "tag": "v2.2.6",
+      "commit": "6a755e1c84e586a2920ecc3185499d6a6d7f1b9e",
+      "timestamp": 1777385910,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -88826,6 +88976,21 @@
       "maintainer_notes": null
     }
   ],
+  "4fe934164e29d6f15af7f93dea407ecc115d16a52196ef79e50d1dbeda6d64c0": [
+    {
+      "repository": "https://github.com/daisukiKaffuChino/RebootNya.git",
+      "apk_url": "https://github.com/daisukiKaffuChino/RebootNya/releases/download/1.8.0/RebootNya_1.8.0.apk",
+      "appid": "github.daisukikaffuchino.rebootnya",
+      "version_code": 260428,
+      "version_name": "1.8.0",
+      "tag": "1.8.0",
+      "commit": "7e986145af5b6a59bc9090411db56ec46b220250",
+      "timestamp": 1777392133,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "753af9763149e67b4381374ce34dba072f2b6e7ff4cc2723d06a709777300357": [
     {
       "repository": "https://github.com/paroj/DSub2000.git",
@@ -92762,6 +92927,21 @@
       "tag": "v9.6.14",
       "commit": "2c5833df7783e0f0dcaeea743ee86f6aaaaf18ba",
       "timestamp": 1774267608,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f827224717448a31eb6fdac88c5205117458126f8cda06fa8e546a54c073dd71": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.7/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90700,
+      "version_name": "9.7",
+      "tag": "v9.7",
+      "commit": "a5ce8162251ef7d825190602b75cfcd756708a9f",
+      "timestamp": 1777386039,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98432,6 +98612,21 @@
       "tag": "1.7.3",
       "commit": "21ef2038d89cb60bfb7e3bc544c4c645eddf69a8",
       "timestamp": 1756754121,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b3c06259645947bc2cfdb8678762b3e5f9799aff9066ebc59d29b3cd02eb5517": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.8.1/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 222,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "be8e69e5e8b76084008804ecfe196e407503fd95",
+      "timestamp": 1777394761,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -106477,6 +106672,21 @@
       "maintainer_notes": null
     }
   ],
+  "244a31c6d0dfaf00fb784d5f8ba04057a72ade890e691ef5d0157f9358b8b52d": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/13.0.0-rc3/13.0.0-rc3.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 1297,
+      "version_name": "13.0.0-rc3",
+      "tag": "13.0.0-rc3",
+      "commit": "271421aad046e37d965ddf93af6cbba5008f80f0",
+      "timestamp": 1777386788,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -108677,6 +108887,21 @@
       "tag": "v23.6.12",
       "commit": "c23e2cb0a9d1c0e73d8800035d9416e7d4130a0d",
       "timestamp": 1777301065,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c0520f6b532a76521d61cf23f509316e7faf04778d82c2c1034b003477a21ae6": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.6.13/KashCal-23.6.13-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 501,
+      "version_name": "23.6.13",
+      "tag": "v23.6.13",
+      "commit": "e42eda13c4d87873d680f548bd95118d91c92103",
+      "timestamp": 1777387072,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
