@@ -4,6 +4,7 @@ updates: releases
 notes:
   - v1.7.0 failed RB, see https://github.com/shub39/Rush/issues/6#issuecomment-2289413126
   - v2.3.8 is flaky, added the shaker
+  - 'FIXME: next release after 5.9.0 has foojay removed again, and library stripping disabled; remove sed and ndk before building'
 versions:
   - tag: 0.7.0
     apks:
