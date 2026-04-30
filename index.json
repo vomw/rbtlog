@@ -7212,6 +7212,21 @@
       "maintainer_notes": null
     }
   ],
+  "964715d54b1e133ee688d3947328c0f9d64f44fdceb0e31cfbe44c5f4a401f7c": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.5.0/app-full-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 6,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "965444669255e465dd39a02fba1cb4ee299c5f70",
+      "timestamp": 1777557162,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -11692,6 +11707,21 @@
       "tag": "v2.2.0",
       "commit": "90f160b25087587540bd38d958d3f362f0070eb8",
       "timestamp": 1776787314,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7485dbb6405fc78bf70cf3e6adc472864793094fe9eeed2c12e354a4e44d7061": [
+    {
+      "repository": "https://github.com/fflopsi/mensa-zh.git",
+      "apk_url": "https://github.com/fflopsi/mensa-zh/releases/download/v2.2.1/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 71,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "c4442cfac83ddbe2e5a0c1005ebd49e052c38fc8",
+      "timestamp": 1777557483,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -22716,6 +22746,21 @@
       "maintainer_notes": null
     }
   ],
+  "525f37370e7de688570e841ba157f5cf25d99e89fd84cd1624d1e54b54da3e57": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.7.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 34,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "7bdc84c2e190c6b64542becf9a7d6a0f96af4b3f",
+      "timestamp": 1777573877,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -32817,6 +32862,21 @@
       "tag": "v1.4.7",
       "commit": "039de12d7ef297301970b01fa2f78d4064c4e151",
       "timestamp": 1777051653,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d74f6d05e1125a6733203a84381feea9dc82c1ad8472f19e4454b13c7e96ba6f": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.4.8/FixupXer-v1.4.8-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 26,
+      "version_name": "1.4.8",
+      "tag": "v1.4.8",
+      "commit": "a04d9a28ae42c428f5d06d8db1df077feaaeade2",
+      "timestamp": 1777574704,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -44109,6 +44169,21 @@
       "maintainer_notes": null
     }
   ],
+  "57af8540025caf54245795b5db4c2459630b20065dea0af1d0466218bc8fc80c": [
+    {
+      "repository": "https://github.com/kaleedtc/Nitterium.git",
+      "apk_url": "https://github.com/kaleedtc/Nitterium/releases/download/v1.3.0/app-release.apk",
+      "appid": "com.kaleedtc.nitterium",
+      "version_code": 8,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "52aaf5ed3fddc988d6a16f59fe436d4323322412",
+      "timestamp": 1777557750,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
     {
       "repository": "https://github.com/kaleedtc/Privacium.git",
@@ -54331,6 +54406,21 @@
       "maintainer_notes": null
     }
   ],
+  "56419400c8de834419334c9e9d5f0d6f59ee4e341880f5f4ff6fe724ec68c8e5": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Coffee.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Coffee/releases/download/v1.3.0/app-release.apk",
+      "appid": "com.openappslabs.coffee",
+      "version_code": 4,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "ec13bbd1655c044e2b921a8366b194f404c39c23",
+      "timestamp": 1777495002,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6c2e9237cbdfaccb7b0f8bee2e492a4152f3e1bae194097ce50d57fe472fee61": [
     {
       "repository": "https://github.com/OpenAppsLabs/5G.git",
@@ -54476,6 +54566,21 @@
       "tag": "v2.1.0",
       "commit": "c6b2e399a7a1b936c626c664247395293536dcc2",
       "timestamp": 1771703055,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1c41bbdd81b5bc15537a1a5e32b5e262056efba8b58b2a50f2bd0213bcc872d1": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v2.2.0/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 10,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "a6defbcf5b0682faa75899bdf09e6ecb6ae08410",
+      "timestamp": 1777558065,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55061,6 +55166,21 @@
       "tag": "v2.6.2",
       "commit": "a286c9ecc933f11acf9358ef382b1ab2326f3227",
       "timestamp": 1775659749,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "211a724a13f10e7ee387aa9e73239be2a0df6db3694615db7d674e6949451b8a": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.7.0/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1020,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "9ec6e6e896c5d1cf52de00f64bfec207f37cdb13",
+      "timestamp": 1777558377,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -61901,6 +62021,21 @@
       "tag": "v3.0",
       "commit": "567592e492fe6aeddde126cf82dd3773e7c2b1a3",
       "timestamp": 1777484538,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "227f0e303668516c7ac5e3e453f38d8d15aacad62ed1255b6dd6bfb983d7d660": [
+    {
+      "repository": "https://github.com/duckniii/SeekPrivacy.git",
+      "apk_url": "https://github.com/duckniii/SeekPrivacy/releases/download/v3.0.1/seekprivacy-v3.0.1-release.apk",
+      "appid": "com.seeker.seekprivacy",
+      "version_code": 6,
+      "version_name": "3.0.1",
+      "tag": "v3.0.1",
+      "commit": "e47424a5c761e35f34d649f8510dea0603003892",
+      "timestamp": 1777577801,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -91072,6 +91207,21 @@
       "maintainer_notes": null
     }
   ],
+  "7fd79fbda81c50626c15fbe9fb5d32d06d75d43c822ed82fed201b03d95e8dac": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.9.0/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 17,
+      "version_name": "1.9.0",
+      "tag": "1.9.0",
+      "commit": "82f51b3a1d86ae5a0691ca6971cdab2a84f15224",
+      "timestamp": 1777575496,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e33a3cce10489f70696d12a5238c37b576bc1a9acb3ac908b0323262802654": [
     {
       "repository": "https://github.com/devhyper/open-video-editor.git",
@@ -93377,6 +93527,21 @@
       "tag": "v1.5.0",
       "commit": "bdab3e96c1ba0b48526de9a833d6f7c23ec40be9",
       "timestamp": 1777143890,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b702de2d9edb6b381dcf7e88a9220e0a3bec85731c00c26eaa4dfdc3ff6283bb": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.5.1/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 37,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "1b2f606e226905dbcca2f5a476f2acfb54a7addc",
+      "timestamp": 1777575904,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -110525,6 +110690,21 @@
       "maintainer_notes": null
     }
   ],
+  "adee003cb2d6512c36889c8c90d41ed80b9b0a69739ac3479253186820aef055": [
+    {
+      "repository": "https://github.com/TheGandabherunda/OpenJot.git",
+      "apk_url": "https://github.com/TheGandabherunda/OpenJot/releases/download/v1.1.1/app-arm64-v8a-release.apk",
+      "appid": "org.thegandabherunda.openjot",
+      "version_code": 2003,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "386b579e4bcc35a19da7193158346d18b52bd5eb",
+      "timestamp": 1777558917,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f412f5fc31cb1e268deca4a12ebebe765d4fb4fd80cfc39c6052015b5c793708": [
     {
       "repository": "https://github.com/traccar/traccar-manager-android.git",
@@ -117930,6 +118110,21 @@
       "tag": "v0.26.8",
       "commit": "a781eeb9b0d12c933f47b8fa76181a575946fc0b",
       "timestamp": 1776091268,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "980fbc3f362beba6998f370753124a699a570c270793931e403dc489640a9fb4": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.9/WebviewKiosk_v0.26.9.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 123,
+      "version_name": "0.26.9",
+      "tag": "v0.26.9",
+      "commit": "e778fe243db766297e9b850486167ad0e613a063",
+      "timestamp": 1777560056,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -188,3 +188,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.2.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/fflopsi/mensa-zh/releases/download/v2.2.1/app-release.apk
+        build:
+          - base64 -d > api.properties <<< WkZWX0FQSV9LRVk9IlkyMXZOblZ1WXpOck1uQndlREIxY3paeVpIRnVPV3R0Y3pwbGJYSTRiSFU0Um01RU5pdE1XVVJEV1hsblFuWTRiek5TUmtsaFdVcEliMmh4TldkSVQzbFBOa1oxYlVaSFdVeGFSazVtUjJncldteElORzg1SzBSYSIK
+          - sed -r '/(toolchainUrl|toolchainVendor=JETBRAINS)/d' -i gradle/gradle-daemon-jvm.properties
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
