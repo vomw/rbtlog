@@ -8337,6 +8337,21 @@
       "maintainer_notes": null
     }
   ],
+  "d3f74c5cbd90d24b807c0f343ec141fe45f03103d517acb3de03f3c542e5f0b0": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.6.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 961,
+      "version_name": "v9.6.1",
+      "tag": "v9.6.1",
+      "commit": "4c221f261c03524e01c185d641d9b638bc6f1376",
+      "timestamp": 1777589149,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3f81b44ef9b63bf5f05b70a8f4aa9444991b7a248a5abfd9fdccce78991fd3db": [
     {
       "repository": "https://github.com/SuhasDissa/You-Tune.git",
@@ -81990,6 +82005,21 @@
       "maintainer_notes": null
     }
   ],
+  "7a48b61e61b63cb8a18e5235df3a31cca0831da01421c1b3ea92a8e6abbbb2df": [
+    {
+      "repository": "https://github.com/mariinkys/OpenPillReminder.git",
+      "apk_url": "https://github.com/mariinkys/OpenPillReminder/releases/download/1.0.1/OpenPillReminder-1.0.1.apk",
+      "appid": "dev.mariinkys.OpenPillReminder",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "1.0.1",
+      "commit": "d8dc1eee36a67725253c0d727216213927a1934b",
+      "timestamp": 1777589925,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "467aec1b05a12c5cf16906b0581e89062df6413dbbb84c5ad6aef580ed57673b": [
     {
       "repository": "https://github.com/LibrePass/LibrePass-Android.git",
@@ -112458,6 +112488,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "986034327dc44ef0507969f07e592f93482deaa8d9c7bb69c2faec61c2dc6815": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.2.1/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 40,
+      "version_name": "6.2.1",
+      "tag": "v6.2.1",
+      "commit": "4110e1879ab409c4b7ad3de113724466d721d54c",
+      "timestamp": 1777559824,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "dirty build"
     }
   ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
