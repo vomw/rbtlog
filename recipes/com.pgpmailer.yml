@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/bjoernch/pgpmailer.git
-updates: releases
+updates: disabled
+notes:
+  - disabled as the repo disappeared around the last week of 4/2026
 versions:
   - tag: v1.2.4
     apks:
