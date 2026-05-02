@@ -3252,6 +3252,21 @@
       "maintainer_notes": null
     }
   ],
+  "06bb74bb7b3dcb9582784e32d511ba48c415b932e032f7a6bec552dbeb6b8a2f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.1.2/Podcini.X-free-arm64-v8a-11.1.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 302,
+      "version_name": "11.1.2",
+      "tag": "v11.1.2",
+      "commit": "434b0156f72641bdec956ec2c4fd65d2074d9b92",
+      "timestamp": 1777730108,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -7182,6 +7197,21 @@
       "maintainer_notes": null
     }
   ],
+  "150eb5ef63c96b1da1ec9890912fa20dd5ffa08f16588d660f077e77752beafc": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.4.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 48,
+      "version_name": "6.4.0",
+      "tag": "v6.4.0",
+      "commit": "a48dc90cc3c98b547823719b8fd5d20441390e77",
+      "timestamp": 1777738549,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a30d9c36a1faf3ee55a370ff12bf6767df6d8fa5a1864db731d844c50c2530f8": [
     {
       "repository": "https://github.com/pass-with-high-score/universal-installer.git",
@@ -8680,6 +8710,21 @@
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmphzf1zwuy/outputs:/outputs', '--volume', '/tmp/tmphzf1zwuy/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.14.0', '--env', 'APP_COMMIT=8ecf3cc88395415d9472be0f61f0003537a55b58', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": null
+    }
+  ],
+  "fc1f32cef8107c7de2508b5801d486b08bcd569fa1588e08c31668a90856d73f": [
+    {
+      "repository": "https://github.com/upryzing/clerotri.git",
+      "apk_url": "https://github.com/upryzing/clerotri/releases/download/v0.14.1/Clerotri-v0.14.1-arm64-v8a.apk",
+      "appid": "app.upryzing.clerotri",
+      "version_code": 22,
+      "version_name": "0.14.1",
+      "tag": "v0.14.1",
+      "commit": "2d41bbb209967e6f09628e5994a39c6a715e17a8",
+      "timestamp": 1777746341,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpm_ecua8b/outputs:/outputs', '--volume', '/tmp/tmpm_ecua8b/scripts:/scripts:ro', '--volume', '/tmp/tmpm_ecua8b/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/upryzing/clerotri.git', '--env', 'APP_TAG=v0.14.1', '--env', 'APP_COMMIT=2d41bbb209967e6f09628e5994a39c6a715e17a8', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/clerotri/clerotri', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=xz-utils', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/clerotri/clerotri && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 124.",
+      "maintainer_notes": "build fails"
     }
   ],
   "3ac7e975419e365f6538d77a8dd4650c07800a860c3a7d847333c136c5f65ae5": [
@@ -32972,6 +33017,21 @@
       "maintainer_notes": null
     }
   ],
+  "7997f683ece48b0260e2fae361ff9e78eb51ba543341f3cf7ac26a7890dec007": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.4.9/FixupXer-v1.4.9-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 27,
+      "version_name": "1.4.9",
+      "tag": "v1.4.9",
+      "commit": "ae14e7d087bcb2b32b740d79deea8b61a677601e",
+      "timestamp": 1777747591,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -42009,6 +42069,21 @@
       "maintainer_notes": null
     }
   ],
+  "60663a0de807a6e62ecb6a5f2fd698ba0634f1db996606e8a3ceae4571d430d8": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.70/fire2kodi_v0.70.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 22,
+      "version_name": "0.70",
+      "tag": "v0.70",
+      "commit": "093c22a362be4cc5db53f92dff3023bd04b59f9d",
+      "timestamp": 1777732179,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -50210,6 +50285,21 @@
       "maintainer_notes": null
     }
   ],
+  "b56cfa1410b3e847466a40350b6cd2c6ef25cb97da3024a77d3d3edc4ce4605b": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/trakt/showly/releases/download/3.58.1/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 923,
+      "version_name": "3.58.1",
+      "tag": "3.58.1",
+      "commit": "ec897b65b1b55c18ce24a755f83f894f422e559a",
+      "timestamp": 1777732302,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "26ba37d6e317438d594ed1061b2576bc98d86feb321e2e63399650048839f9ec": [
     {
       "repository": "https://github.com/mitchib1440/SpeakThat.git",
@@ -51718,6 +51808,21 @@
       "tag": "v1.1.12",
       "commit": "127f8a329dcf3e9e01a7c679e1ceb73661f0c6f0",
       "timestamp": 1763745442,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "74b66a1965676b984300d523165d892fa27c67eaf958abdde7c839accda6f088": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.15/MBCompass_v1.1.15_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 16,
+      "version_name": "1.1.15",
+      "tag": "v1.1.15",
+      "commit": "5cab4510dd6822d9c583f76ba95fc63772218d98",
+      "timestamp": 1777732498,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -63507,6 +63612,21 @@
       "maintainer_notes": null
     }
   ],
+  "e36f1d225b59db819f4578ef2383c544628fe548477f4604e9c87c92e5482ff6": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.9.2/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5920,
+      "version_name": "5.9.2",
+      "tag": "5.9.2",
+      "commit": "0f5f00174552b51060d70bb1b677b12b4dd72056",
+      "timestamp": 1777739101,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -64597,6 +64717,21 @@
       "tag": "5.9.0",
       "commit": "a48d1b0370f6f5deac9ac0f48579a577d904ba88",
       "timestamp": 1777403226,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "aab4dafdc438e51d3fa06a6712198e7d8974cbf389356659c10f1a54503cf1f4": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/5.9.1/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 5910,
+      "version_name": "5.9.1",
+      "tag": "5.9.1",
+      "commit": "74a8e7e317e6e671c75f8308d1caa6686aa89d81",
+      "timestamp": 1777754065,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70870,6 +71005,21 @@
       "maintainer_notes": null
     }
   ],
+  "8b1bc949f959577aac13d7cd7c8fe8ed0f43b2ad70ffa84351b80ab1ffa1e6b7": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.0.0/NerdCalci-v4.0.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 400,
+      "version_name": "4.0.0",
+      "tag": "v4.0.0",
+      "commit": "03cbd6795f310df7838f977d0f18403795f8c3eb",
+      "timestamp": 1777747936,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -74146,6 +74296,21 @@
       "tag": "v1.0.4",
       "commit": "e62a9b41403a55fe62fef1a713f8612fe9f2b22d",
       "timestamp": 1771692345,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "35f5431543ba6508e098f730eebc4c609b661cbc64c01f6a7c9f010ac51f2b90": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/iZakirSheikh/Gallery/releases/download/v1.0.5/app-community-release-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 78,
+      "version_name": "1.0.5-foss",
+      "tag": "v1.0.5",
+      "commit": "9e29495615557b5a03917f3a98d0854366e0e210",
+      "timestamp": 1777738724,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77524,6 +77689,21 @@
       "maintainer_notes": null
     }
   ],
+  "e9f01cb9e6e4ed81529606d0a11595f9581c167ceb76461f6eed46ab0b6dae5a": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.1.0/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20100,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "b57bbec505dd62f143c755750f017f0320661b3a",
+      "timestamp": 1777740236,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5c3b749b86250b97e5f1b8222d5dbbc9f9efb986b707ead2182a90dea37ce19b": [
     {
       "repository": "https://github.com/Tetr4/CompassTile.git",
@@ -79960,6 +80140,21 @@
       "tag": "v1.5.0",
       "commit": "8dc47047e29777c45c772b739912583753b42847",
       "timestamp": 1776193329,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3b07e18fd49bb1dc330d0cf017f40cb1ca9229be7e6adecd9158ed019819f8b4": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.5.1/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 361,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "b5133cae54ba4b247bb49df3721b454d297e1144",
+      "timestamp": 1777733613,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84791,6 +84986,21 @@
       "maintainer_notes": null
     }
   ],
+  "d92b2a3aeee410c0322150d4dbf8232f7b726e16be24e93d341166ff28d30f73": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.1-2/LemmyRedirect_1.15.1-release-signed.apk",
+      "appid": "dev.zwander.lemmyredirect",
+      "version_code": 44,
+      "version_name": "1.15.1",
+      "tag": "1.15.1-2",
+      "commit": "848a1a077e0b8c62363074706818ddd96e9ac1e2",
+      "timestamp": 1777751053,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1677127be4118f22edee092893b57931b159b56f493771297688aadd58624f66": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -84836,6 +85046,21 @@
       "maintainer_notes": null
     }
   ],
+  "f8e064253c659828f5de2f794a734b16b70fcc4ca504f6df9e8bcb00da0d602c": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.1-2/MastodonRedirect_1.15.1-release-signed.apk",
+      "appid": "dev.zwander.mastodonredirect",
+      "version_code": 44,
+      "version_name": "1.15.1",
+      "tag": "1.15.1-2",
+      "commit": "848a1a077e0b8c62363074706818ddd96e9ac1e2",
+      "timestamp": 1777751485,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c20d6b49f0413c9a0dde9fd50df0256b648dbc3c2612a98021dd23cbc06214d6": [
     {
       "repository": "https://github.com/zacharee/MastodonRedirect.git",
@@ -84876,6 +85101,21 @@
       "tag": "1.15.0",
       "commit": "858fee52dee8fc67ff2968553ef15e7e88815ae8",
       "timestamp": 1754588657,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6aafd44f7730afc15f9d13b5c5c05d83cbea651a2f1ea0ba8f30b7ad9ef2174d": [
+    {
+      "repository": "https://github.com/zacharee/MastodonRedirect.git",
+      "apk_url": "https://github.com/zacharee/MastodonRedirect/releases/download/1.15.1-2/PeerTubeRedirect_1.15.1-release-signed.apk",
+      "appid": "dev.zwander.peertuberedirect",
+      "version_code": 44,
+      "version_name": "1.15.1",
+      "tag": "1.15.1-2",
+      "commit": "848a1a077e0b8c62363074706818ddd96e9ac1e2",
+      "timestamp": 1777751882,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86006,6 +86246,21 @@
       "maintainer_notes": null
     }
   ],
+  "4b2dd63c9661b397c3e8b9b0fb8b1798acba5d4f0e55b62693d00dd630cdc012": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.1.3-rc0/eu.darken.capod-v5.1.3-rc0-50103000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50103000,
+      "version_name": "5.1.3-rc0",
+      "tag": "v5.1.3-rc0",
+      "commit": "39922df79206c1c95e4805e78351b5d6eadcd5a0",
+      "timestamp": 1777734174,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -86091,6 +86346,21 @@
       "tag": "v2.1.0-rc0",
       "commit": "f33d1303ab7a946f82d7bd678ca53ce6e79401f2",
       "timestamp": 1777216606,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c389d2c24d70c7b8843cac444306aeceb8679fd78fc3ae71848fdd6d4e50c58": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.1.1-rc0/eu.darken.myperm-v2.1.1-rc0-20101000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20101000,
+      "version_name": "2.1.1-rc0",
+      "tag": "v2.1.1-rc0",
+      "commit": "7f00995ff6b0120e7bf02278658c456eec57b92e",
+      "timestamp": 1777734469,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94777,6 +95047,21 @@
       "maintainer_notes": null
     }
   ],
+  "638614ad2628b9b8ecc9c667f9a414dea176bfa01f517d0dab7e23af613ed5ac": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.23/SMS2Email-v1.1.23-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 36,
+      "version_name": "1.1.23",
+      "tag": "v1.1.23",
+      "commit": "81896da1730ea6f1aee93a4099d2be4fd7b647d7",
+      "timestamp": 1777734720,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -96377,6 +96662,21 @@
       "tag": "v1.10.1",
       "commit": "fb19a21a5b7598c7551b4ffe9815b0a9f115f8f3",
       "timestamp": 1777472112,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "eaae3fc3b238d28567a661be6bd57df57aa293bfb2cfeed74cb78397672cb5ca": [
+    {
+      "repository": "https://github.com/kittoku/Open-SSTP-Client.git",
+      "apk_url": "https://github.com/kittoku/Open-SSTP-Client/releases/download/v1.10.2/osc-1.10.2.apk",
+      "appid": "kittoku.osc",
+      "version_code": 49,
+      "version_name": "1.10.2",
+      "tag": "v1.10.2",
+      "commit": "13f417b243988f8b6f137c661a0aed31e23d0ab5",
+      "timestamp": 1777734869,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -109717,6 +110017,21 @@
       "maintainer_notes": null
     }
   ],
+  "4220ee1b1cdab8d26595619767fbbaf96da994cffc9494470cdc629fae52f0ec": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.6.22/KashCal-23.6.22-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 510,
+      "version_name": "23.6.22",
+      "tag": "v23.6.22",
+      "commit": "0a0ebbdafcd3095dfbcd03f3e00aced5afb2bc1c",
+      "timestamp": 1777735582,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -116270,6 +116585,21 @@
       "maintainer_notes": null
     }
   ],
+  "87e5e8dc1edb5d59b04cc3e3a6e33b6e052616ffbc002be92db7967f1a5b9477": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.8.9/mindwtr-0.8.9-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 63,
+      "version_name": "0.8.9",
+      "tag": "v0.8.9",
+      "commit": "5fab448deeb5ad26a9d4c02e38a06bc32ef71918",
+      "timestamp": 1777739578,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -117273,6 +117603,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "VCS status details embedded with native libs"
+    }
+  ],
+  "e7025550cf40cef6f94beb1f9bf38c0adca361e34e31ab7ef98b783882432c30": [
+    {
+      "repository": "https://github.com/donmor/DroidFRPD.git",
+      "apk_url": "https://github.com/donmor/DroidFRPD/releases/download/1.1.0%2B0670/DroidFRPD-1.1.0%2B0670-aarch64.apk",
+      "appid": "top.donmor.droidfrpd",
+      "version_code": 101000,
+      "version_name": "1.1.0+0670",
+      "tag": "1.1.0+0670",
+      "commit": "a38329d0bfd355d9d5bca282830f6ce6382bc76a",
+      "timestamp": 1777737040,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpi1d9eukx/outputs:/outputs', '--volume', '/tmp/tmpi1d9eukx/scripts:/scripts:ro', '--volume', '/tmp/tmpi1d9eukx/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/usr/local/lib/android/sdk', '--env', 'APP_REPOSITORY=https://github.com/donmor/DroidFRPD.git', '--env', 'APP_TAG=1.1.0+0670', '--env', 'APP_COMMIT=a38329d0bfd355d9d5bca282830f6ce6382bc76a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/DroidFRPD/DroidFRPD', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=make,xz-utils,python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/DroidFRPD/DroidFRPD && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": null
     }
   ],
   "2ea79b08d0a66e0046324e15a89192bd64036813deba04d56517d95085db5a9c": [

@@ -199,3 +199,42 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.14.1
+    apks:
+      - apk_pattern: Clerotri-.*-arm64-v8a\.apk
+        apk_url: https://github.com/upryzing/clerotri/releases/download/v0.14.1/Clerotri-v0.14.1-arm64-v8a.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v24.15.0/node-v24.15.0-linux-x64.tar.xz
+          - sha256sum -c <<< '472655581fb851559730c48763e0c9d3bc25975c59d518003fc0849d3e4ba0f6  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v24.15.0-linux-x64/bin:${HOME}/.node/bin"
+          - npm config set prefix "${HOME}/.node"
+          - corepack enable
+          - yarn install && npx react-native-asset
+          - yarn android-release:bundle
+          - yarn android-release:apk
+          - find . -name '*.apk'
+          - mv android/app/build/outputs/apk/release/*arm64-v8a*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/clerotri/clerotri
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
