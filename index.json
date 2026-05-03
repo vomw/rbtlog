@@ -3267,6 +3267,21 @@
       "maintainer_notes": null
     }
   ],
+  "fffb818d0fe08e5f117edf0bffe5dcb502876605829b0f192cfd855092ef2498": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.1.3/Podcini.X-free-arm64-v8a-11.1.3.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 303,
+      "version_name": "11.1.3",
+      "tag": "v11.1.3",
+      "commit": "1d75bebe276fb61ff67db93e7da4cd47bdafe5a0",
+      "timestamp": 1777816355,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -22861,6 +22876,21 @@
       "tag": "v1.7.0",
       "commit": "7bdc84c2e190c6b64542becf9a7d6a0f96af4b3f",
       "timestamp": 1777573877,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "06a8f2b3a6f5d493932ff7449a565281f44ac4f891fe0fc5ae064747831cdfac": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.7.1/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 35,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "e4308bc43bf7c366d714a968c2ed759d23dff1c5",
+      "timestamp": 1777816554,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -44334,6 +44364,21 @@
       "maintainer_notes": null
     }
   ],
+  "25b78d2e098f8096fd296650ea79845f0665e09ea125f54a05ccde6b6c5e8c90": [
+    {
+      "repository": "https://github.com/greykaizen/khushu.git",
+      "apk_url": "https://github.com/greykaizen/khushu/releases/download/v0.24.9/app-fdroid-release.apk",
+      "appid": "com.kaizen.khushu",
+      "version_code": 83,
+      "version_name": "0.24.9",
+      "tag": "v0.24.9",
+      "commit": "906ebbabb912c71531a19b2088912f33e27e101f",
+      "timestamp": 1777838541,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cc8ff2b9f848f84cb25e3d44a5a03ecf18f2c233bb2298600d340955bd97c57c": [
     {
       "repository": "https://github.com/kaleedtc/Nitterium.git",
@@ -48390,6 +48435,21 @@
       "tag": "v1.2.2",
       "commit": "99c7c5c7e945c46201d07a35fe6cf50afa6644b1",
       "timestamp": 1777290434,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a9b87f8ccba1ef123280ff50b2079076ed6c8d54f856b1f7b719722e0dc06ecc": [
+    {
+      "repository": "https://github.com/mardous/BoomingMusic.git",
+      "apk_url": "https://github.com/mardous/BoomingMusic/releases/download/v1.3.0/BoomingMusic-1.3.0-fdroid-arm64-v8a.apk",
+      "appid": "com.mardous.booming",
+      "version_code": 1300300,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "fb9734b0cfb5dda1077883007ca29c09e3d28024",
+      "timestamp": 1777823681,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58211,6 +58271,21 @@
       "tag": "2026.04.29.3",
       "commit": "cbb6359ad068e847907fca82d69972cc41fbc67c",
       "timestamp": 1777481373,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bec4a26579917edba7eccaa69ff558dc628db5e0fed8f62fd66d0b10440f788b": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2026.05.03.1/2026.05.03.1-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111140,
+      "version_name": "2026.05.03.1",
+      "tag": "2026.05.03.1",
+      "commit": "6ec56bb9cbcfe9fa2e8ca730f1d21bd7da68d4ef",
+      "timestamp": 1777816965,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -71020,6 +71095,21 @@
       "maintainer_notes": null
     }
   ],
+  "4e35b46e9b93ced417906b56462dd47ed15a88f0c15434d3657dbf22a5beb4cc": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.0.2/NerdCalci-v4.0.2.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 402,
+      "version_name": "4.0.2",
+      "tag": "v4.0.2",
+      "commit": "c8330f1b99e8c308a13c395b3c4820e4018e03b6",
+      "timestamp": 1777817687,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -78889,6 +78979,21 @@
       "maintainer_notes": null
     }
   ],
+  "474e038efd512ad3eca24dec6be3d593a9786e9e71eafbbd21de6d3ac68d8939": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.11.0/ReadeckApp-0.11.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 1100,
+      "version_name": "0.11.0",
+      "tag": "v0.11.0",
+      "commit": "3add2c25a7a0f8988053485520059994f6ba64e2",
+      "timestamp": 1777833225,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
     {
       "repository": "https://github.com/sal0max/currencies.git",
@@ -83248,6 +83353,21 @@
       "maintainer_notes": null
     }
   ],
+  "6e84d28568bab44fc79f5621a5e38851aeeb153f77539547d58c45925fae59fc": [
+    {
+      "repository": "https://github.com/PranavPurwar/Reef.git",
+      "apk_url": "https://github.com/aload0/Reef/releases/download/v4.2.0/Reef-release.apk",
+      "appid": "dev.pranav.reef",
+      "version_code": 420,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "ef8c0d87b1c55280c6eb1562f40b767bbcc1dbfb",
+      "timestamp": 1777843832,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b81174deddede1defe8b8f412e8f0c6bb225cddd15c4cf0253628c5c8f1ac1da": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -86276,6 +86396,21 @@
       "maintainer_notes": null
     }
   ],
+  "1680d7fe11dd079b3a06d189696d0d3f1e6e7134949a1b6460d1c2165ac734a2": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.1.4-rc0/eu.darken.capod-v5.1.4-rc0-50104000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50104000,
+      "version_name": "5.1.4-rc0",
+      "tag": "v5.1.4-rc0",
+      "commit": "d541de8c38c572b68d5fe231c61d37609c189538",
+      "timestamp": 1777834255,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -86391,6 +86526,21 @@
       "tag": "v0.16.0-rc0",
       "commit": "5633c7fa60397e93fc9af6249ba5992ecad6b9aa",
       "timestamp": 1771522784,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bdf84635693beaa552a4db6794b34983a52bc661795511694d28cafd99cfe5ad": [
+    {
+      "repository": "https://github.com/d4rken-org/octi.git",
+      "apk_url": "https://github.com/d4rken-org/octi/releases/download/v1.0.1-rc0/eu.darken.octi-v1.0.1-rc0-10001000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.octi",
+      "version_code": 10001000,
+      "version_name": "1.0.1-rc0",
+      "tag": "v1.0.1-rc0",
+      "commit": "662241fcc4b817ea6fe22a0fa30ea3556fcda34e",
+      "timestamp": 1777843915,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101092,6 +101242,21 @@
       "maintainer_notes": null
     }
   ],
+  "429cc93b92491cae841014945834bca77a0e8069f4dbd075036452ff4fd95c6f": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.6.8/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 44,
+      "version_name": "alpha-0.6.8",
+      "tag": "alpha-0.6.8",
+      "commit": "30504b8f1f0859d13b9274143f17925dfc8c9a20",
+      "timestamp": 1777817840,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -110062,6 +110227,21 @@
       "maintainer_notes": null
     }
   ],
+  "45c55ac1a5a3d7419c5a698f7dbfb22d270e5bcca8fa00c72f97d71bebdaac26": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.6.25/KashCal-23.6.25-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 513,
+      "version_name": "23.6.25",
+      "tag": "v23.6.25",
+      "commit": "674a51e070d7505a1a397e7332e42ac2dd7b2454",
+      "timestamp": 1777818152,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -110430,6 +110610,21 @@
       "tag": "v1.2.2",
       "commit": "a66cca188cf067f077c9f7398ea1cd33781be86c",
       "timestamp": 1758811277,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "35ab62123c45fb79479b34366214ad00c5bdfc5bc8a362f0bc2ab2faed80e7a3": [
+    {
+      "repository": "https://github.com/ProjectSolutus/Pomozen.git",
+      "apk_url": "https://github.com/TheGandabherunda/Pomozen/releases/download/v1.2.3/app-arm64-v8a-release.apk",
+      "appid": "org.projectsolutus.pomozen",
+      "version_code": 3123,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "bc9190136a262ddceff59252e4a02bbd946a7763",
+      "timestamp": 1777825338,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
