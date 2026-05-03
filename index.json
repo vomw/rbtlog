@@ -76789,6 +76789,21 @@
       "maintainer_notes": null
     }
   ],
+  "53bd8f1a73c7aa13284d210e9f6a7ce20e6254cee8e68e51f84b2cc57cc2d67f": [
+    {
+      "repository": "https://codeberg.org/traewelldroid/traewelldroid.git",
+      "apk_url": "https://codeberg.org/traewelldroid/traewelldroid/releases/download/v2.24.2/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 221,
+      "version_name": "2.24.2",
+      "tag": "v2.24.2",
+      "commit": "52800d2e7b49f26800f6b3fa42a0ea8b155d32dc",
+      "timestamp": 1777765758,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ca1d4f1786c5876900afb8d77d1fe3d06e7fc26eb5b6186c5e69684fa7538e7e": [
     {
       "repository": "https://codeberg.org/Starfish/Imagepipe.git",
@@ -101687,6 +101702,21 @@
       "tag": "v6.1.3",
       "commit": "f6cf57687ea6084a9ac408687cbdacf545f8d781",
       "timestamp": 1770925254,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bfde995e9119e8a11df483c826df831a80b6a077c048930eb9cae928f4de02e4": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.2.0/breezy-weather-v6.2.0_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60200,
+      "version_name": "6.2.0",
+      "tag": "v6.2.0",
+      "commit": "c342320fe7c1a9f5f80869e2bc25f299cffba1a4",
+      "timestamp": 1777761399,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
