@@ -83,18 +83,18 @@
                   "type": "array",
                   "items": {
                     "type": "string",
-                    "pattern": "^(/[a-zA-Z0-9_-]+)+$"
+                    "pattern": "^(/[a-zA-Z0-9_.-]+)+$"
                   }
                 },
                 "build_home_dir": {
                   "description": "home directory for the build user",
                   "type": "string",
-                  "pattern": "^(/[a-zA-Z0-9_-]+)+$"
+                  "pattern": "^(/[a-zA-Z0-9_.-]+)+$"
                 },
                 "build_repo_dir": {
                   "description": "directory the repo is cloned to and the build is run in",
                   "type": "string",
-                  "pattern": "^(/[a-zA-Z0-9_-]+)+$"
+                  "pattern": "^(/[a-zA-Z0-9_.-]+)+$"
                 },
                 "build_timeout": {
                   "description": "build timeout in minutes (not required, default: null)",
