@@ -1,10 +1,6 @@
 ---
 repository: https://codeberg.org/UnifiedPush/fcm-distributor.git
 updates: releases
-notes:
-  - 'FIXME: the two bundletool lines can be removed with the next release, see https://codeberg.org/UnifiedPush/fcm-distributor/issues/17#issuecomment-10921532 '
-labels:
-  - bundletool
 versions:
   - tag: 1.5.3
     apks:
@@ -93,6 +89,33 @@ versions:
         build:
           - wget -qO bundletool.jar https://github.com/google/bundletool/releases/download/1.18.2/bundletool-all-1.18.2.jar
           - sha256sum -c <<< '378b5434cd1378bef6b2bc527b8c7f0ff2584b273830335bce54d6d0813c8584  bundletool.jar'
+          - ./gradlew reproduceUniversal
+          - unzip -p universal.apks universal.apk > /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - unzip
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.1.1
+    apks:
+      - apk_pattern: fcm-distributor\.apk
+        apk_url: https://codeberg.org/UnifiedPush/fcm-distributor/releases/download/2.1.1/fcm-distributor.apk
+        build:
           - ./gradlew reproduceUniversal
           - unzip -p universal.apks universal.apk > /outputs/unsigned.apk
         build_home_dir: /build
