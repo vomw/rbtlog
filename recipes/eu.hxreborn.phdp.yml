@@ -478,3 +478,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.3.0
+    apks:
+      - apk_pattern: phdp.*release\.apk
+        apk_url: https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.3.0/phdp-v2.3.0-release.apk
+        build:
+          - IFS='.' read -r MAJOR MINOR PATCH _ <<< ${APP_TAG#v}
+          - ./gradlew :app:assembleRelease -Pversion.name=${APP_TAG#v} -Pversion.code=$((MAJOR * 10000 + MINOR * 1000 + PATCH))
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/phdp-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
