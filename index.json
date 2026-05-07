@@ -7332,6 +7332,21 @@
       "maintainer_notes": null
     }
   ],
+  "5d4d404196ce26fdf88e2335b98f527a031071e5e1e4c32788df86f00312d6d2": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.6.3/app-full-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 10,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "0436d866c613f1e1e12b0cbd79e0f1e850b61115",
+      "timestamp": 1778153164,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9772,6 +9787,21 @@
       "tag": "v1.2.1",
       "commit": "ec4dae30539d151626f7be76c0ef19c7e5f32ff6",
       "timestamp": 1773064673,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6ae811bb4fb11f21eb39f032898e8f28f3b303f196218cdebec6132b37c634a9": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v18.1.3%2B37/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 2037,
+      "version_name": "18.1.3",
+      "tag": "v18.1.3+37",
+      "commit": "909b9aa85f448244c940df9d6bb570a17b36983e",
+      "timestamp": 1778109024,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82000,6 +82030,21 @@
       "tag": "v1.13.1",
       "commit": "1a871e4527aef0d0096d88d6be91376b76183e06",
       "timestamp": 1778100366,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fe0c032f9d63b356a5429278dae3cbba46c31b47666eb3680613ba9433725879": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.13.2/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10130022,
+      "version_name": "1.13.2",
+      "tag": "v1.13.2",
+      "commit": "8b3c48ee1c0371d06ae89f51b7134d8cd2995079",
+      "timestamp": 1778149638,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
