@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v18.1.3+37
     apks:
-      - apk_pattern: Bitscoper_CyberKit-ARM64_V8A\.apk
+      - apk_pattern: Bitscoper_CyberKit-ARM64_V8A-Signed\.apk
         apk_url: https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v18.1.3%2B37/Bitscoper_CyberKit-ARM64_V8A-Signed.apk
         build:
           - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle.kts

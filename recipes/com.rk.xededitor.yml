@@ -1,10 +1,11 @@
 ---
 repository: https://github.com/Xed-Editor/Xed-Editor.git
-updates: releases
+updates: disabled
 notes:
   - v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed
   - v2.5.0 had uncommitted changes applied after the release tag and hence is not RB
   - v3.1.0 ff use flavor fdroid, see https://github.com/Xed-Editor/Xed-Editor/issues/598
+  - v3.2.8 is a pretty mess, see https://github.com/Xed-Editor/Xed-Editor/issues/1359
 versions:
   - tag: v2.1.0
     apks:
