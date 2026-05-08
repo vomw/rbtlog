@@ -1,6 +1,6 @@
 ---
 repository: https://github.com/Xed-Editor/Xed-Editor.git
-updates: disabled
+updates: releases
 notes:
   - v2.4.2 was built right before committing the last changes, soft reset to embedded commit hash was needed
   - v2.5.0 had uncommitted changes applied after the release tag and hence is not RB
@@ -1000,6 +1000,35 @@ versions:
     apks:
       - apk_pattern: xed-editor-.*\.apk
         apk_url: https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.7/xed-editor-v3.2.7.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Xed-Editor/Xed-Editor
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v3.2.9
+    apks:
+      - apk_pattern: xed-editor-.*\.apk
+        apk_url: https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.2.9/xed-editor-v3.2.9.apk
         build:
           - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
           - chmod +x gradlew
