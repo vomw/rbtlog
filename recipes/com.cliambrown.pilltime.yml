@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for v4.0 (manually adjusted)'
   - 'FIXED: gradlew checksum error for v7.0, so we had to use our own gradle2; see https://github.com/cliambrown/PillTime/issues/8 for details'
+  - 'FIXME: remove JDK-17 again with the next release following v16.0, see https://github.com/cliambrown/PillTime/issues/23#issuecomment-4410051681 '
 versions:
   - tag: v4.0
     apks:

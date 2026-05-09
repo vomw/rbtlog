@@ -444,3 +444,47 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: '26.05'
+    apks:
+      - apk_pattern: gitnote-release.*\.apk
+        apk_url: https://github.com/wiiznokes/gitnote/releases/download/26.05/gitnote-release-26.05.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - sed -r '/create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - RUSTUP="1.28.2"
+          - RUST_TOOLCHAIN="$(cat app/src/main/rust/RUST_VERSION)"
+          - NDK_VERSION="$(cat app/src/main/rust/NDK_VERSION)"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target aarch64-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - wget -q "https://dl.google.com/android/repository/android-ndk-${NDK_VERSION}-linux.zip"
+          - unzip -q "./android-ndk-${NDK_VERSION}-linux.zip"
+          - echo "ndk.dir=$(pwd)/android-ndk-${NDK_VERSION}" >> local.properties
+          - make SOURCE_DATE_EPOCH=0 NDK_PATH="$(pwd)/android-ndk-${NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin" DEBUG=0 -C app/src/main/rust build_install
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
+          - gradlew.py/gradlew.py -v assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/gitnote/gitnote
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+            - git-lfs
+            - build-essential
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

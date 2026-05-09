@@ -3,6 +3,7 @@ repository: https://github.com/fibelatti/photo-widget.git
 updates: releases
 notes:
   - 'FIXED: 1.14.0+1.15.0 have huge differences (ca 10 kB) in M7.json (aboutLibraries)'
+  - 'FIXME: remove JETBRAINS sed for next release (fixed upstream)'
 versions:
   - tag: v1.13.0
     apks:

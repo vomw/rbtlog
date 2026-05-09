@@ -3342,6 +3342,21 @@
       "maintainer_notes": null
     }
   ],
+  "c59e898fddad6d53dbcb2b0a286aa825601037f021cf09442c4e205e368e1c8b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.1.8/Podcini.X-free-arm64-v8a-11.1.8.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 308,
+      "version_name": "11.1.8",
+      "tag": "v11.1.8",
+      "commit": "38cd5573bc6ca0d79ab118f9f4fb5887fd05623d",
+      "timestamp": 1778334762,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -6357,6 +6372,21 @@
       "maintainer_notes": null
     }
   ],
+  "c8ba7afdbc46ce2005a18e42818323e4b02dacf0abe6bf31193c128738a63a09": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.0.0/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10000,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "ec909ca2056f96e68e4ba0e3de583a42192aa8f5",
+      "timestamp": 1778334975,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -7372,6 +7402,21 @@
       "tag": "v1.6.3",
       "commit": "0436d866c613f1e1e12b0cbd79e0f1e850b61115",
       "timestamp": 1778153164,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a209be4b6d6b0ad28f2b78a35ae30a79e47bf4f857caf4727f29ce617721a79e": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.7.1/app-full-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 12,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "53551aee7f2e89721e21f27b8442310b39d4ff7e",
+      "timestamp": 1778335632,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25671,6 +25716,36 @@
       "maintainer_notes": null
     }
   ],
+  "2e80a0192b175d5b9df42551ed7d8641d7d36095c6c5d640b9c62c5804e1f79e": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.21.0/daily-you-arm64-v8a-v2.21.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20210002,
+      "version_name": "2.21.0",
+      "tag": "v2.21.0",
+      "commit": "7d9646c5e635fdb30530f44558396ee8c8d8145e",
+      "timestamp": 1778342872,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "build ID embedded into native library"
+    }
+  ],
+  "7ccc0b1ab1dacbb1a2d96c5dcd86f5a0b0f2bfca54ab4eb52b8cdb0681478c27": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.21.1/daily-you-arm64-v8a-v2.21.1.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20210012,
+      "version_name": "2.21.1",
+      "tag": "v2.21.1",
+      "commit": "27a4be488d4b35004ce0bda2ec315ad5411419e4",
+      "timestamp": 1778361357,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -34902,6 +34977,21 @@
       "tag": "v1.22.12",
       "commit": "3e91201c70d36ab5f39041fdbe2b90b277a66003",
       "timestamp": 1778016154,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "30e65d77f4b431e6112e1e4d62ee9c214fa6dfeac0e76191c771a0966b642133": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.13/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 168,
+      "version_name": "1.22.13",
+      "tag": "v1.22.13",
+      "commit": "fbc382448152877a2c17f7d4ebe81974ff0012ec",
+      "timestamp": 1778351875,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -45534,6 +45624,21 @@
       "maintainer_notes": null
     }
   ],
+  "06f0bb2663948db8c87874473a1e63e3b7a125e5dbeb50c9fac07e5950286acc": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.8.0/kelani-sbd-tracker-v0.8.0.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 23,
+      "version_name": "0.8.0",
+      "tag": "v0.8.0",
+      "commit": "0abbaaa6549bd49504c1326fb51f9fffff189619",
+      "timestamp": 1778336443,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -49260,6 +49365,21 @@
       "tag": "v0.1.6-v20260331",
       "commit": "28f388bf407b48290122536e7ee905b7738bab71",
       "timestamp": 1776884983,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "64269a8dc19f96c12a44d7c860a8d51f6b4472e3e7e351760621368d8a050e82": [
+    {
+      "repository": "https://github.com/Masterisk-F/StationAccessSupporter.git",
+      "apk_url": "https://github.com/Masterisk-F/StationAccessSupporter/releases/download/v0.1.7-v20260507/app-arm64-v8a-release.apk",
+      "appid": "com.masterisk_f.accesssupporter",
+      "version_code": 8,
+      "version_name": "0.1.7-v20260507",
+      "tag": "v0.1.7-v20260507",
+      "commit": "c8a74b275a9d00d26bc62f93a09938cdfbe59360",
+      "timestamp": 1778336553,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -64482,6 +64602,21 @@
       "maintainer_notes": null
     }
   ],
+  "79f1a1fe5367412a37e2c2ce7cc859b6eb9aba87e7d55a72e1bbadb0dfdd67d3": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/5.9.22/app-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 5922,
+      "version_name": "5.9.22",
+      "tag": "5.9.22",
+      "commit": "325630895c3bae45bfd7456ea779e77d221996ba",
+      "timestamp": 1778336635,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -65637,6 +65772,21 @@
       "maintainer_notes": null
     }
   ],
+  "d8723f565afc12ba00b277bb82da93f3f1997c311c0e8507037a11988cb4ec49": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.1.12/app-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6112,
+      "version_name": "6.1.12",
+      "tag": "6.1.12",
+      "commit": "9f46f2e864476baab398dbc4b0ad43f6dc0bfc96",
+      "timestamp": 1778344151,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -65708,6 +65858,21 @@
       "commit": "a0b8ca021fd966ce38f0ec158d771a9f1519882a",
       "timestamp": 1775304448,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9a79f3fa5dfcaaafe0ba21c8500b8eb3401e2080adaab5a87e88fc44717fa678": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V1.0.6/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 2007,
+      "version_name": "1.0.6",
+      "tag": "V1.0.6",
+      "commit": "5a4867f547456ccac7c7e16a1a30a599f2b9321f",
+      "timestamp": 1778359155,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -66126,6 +66291,21 @@
       "commit": "a59dd2aff71cb96739577e88c9de663bdb73632c",
       "timestamp": 1776874615,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3ceb2c94cfa04eda55c4e0d6fdca6f568e038dca0793e57ef27852d773d952b1": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.30/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 332,
+      "version_name": "1.0.30",
+      "tag": "V1.0.30",
+      "commit": "624ac777f6ea276d2dbe88898dec40a89d155993",
+      "timestamp": 1778352263,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -85796,6 +85976,21 @@
       "maintainer_notes": null
     }
   ],
+  "cad8b0b24cbebb8e8cc5b041a278622c9d61a9567a37cfb71fedd1435be64310": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v2.0.2/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 13,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "50173bc5227cddc40468dfc99bd6bd643cc45f84",
+      "timestamp": 1778339058,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "de226dfb9e613d4cfd770443753c0471a31f17f15a5e87de560e77bbf989a9ae": [
     {
       "repository": "https://github.com/spieglt/FlyingCarpet.git",
@@ -96397,6 +96592,21 @@
       "maintainer_notes": null
     }
   ],
+  "4a51120fa9c095148f0c3d5731e078388803475a623c941ef77b667fe23788b9": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.25/SMS2Email-v1.1.25-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 38,
+      "version_name": "1.1.25",
+      "tag": "v1.1.25",
+      "commit": "3e74608b9434cf36a57e8e3e24cf690b34cf337f",
+      "timestamp": 1778339221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -96857,6 +97067,21 @@
       "tag": "26.03",
       "commit": "e238074ee68171cdd7eea05a4f389390464fbf26",
       "timestamp": 1773433211,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4f80a3963a5488b420c9bcb9cd627bc38b25b8fa8d75425cd12a5594f0b607ef": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.05/gitnote-release-26.05.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 17,
+      "version_name": "26.05",
+      "tag": "26.05",
+      "commit": "3826fd0aaae2814b44e89c457099d7bb9cf3c859",
+      "timestamp": 1778339364,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -97819,6 +98044,21 @@
       "timestamp": 1777545174,
       "reproducible": true,
       "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c2f876cfbb66965efa6ef7fd60d9bd522e8e57ee9bdcb4d478e00180ff9ac5e9": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.78/RiPlay-foss-release-0.7.78.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 78,
+      "version_name": "0.7.78",
+      "tag": "v0.7.78",
+      "commit": "7b2a7eebde4ca1e1905ba8935a0fd296405a8cd1",
+      "timestamp": 1778353162,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp3ouyuuef/outputs:/outputs', '--volume', '/tmp/tmp3ouyuuef/scripts:/scripts:ro', '--volume', '/tmp/tmp3ouyuuef/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiPlay.git', '--env', 'APP_TAG=v0.7.78', '--env', 'APP_COMMIT=7b2a7eebde4ca1e1905ba8935a0fd296405a8cd1', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:trixie-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": null
     }
   ],
@@ -101267,6 +101507,21 @@
       "tag": "v0.7.72",
       "commit": "9a8dd76429ce17248c715f85a002737cc37239b1",
       "timestamp": 1739823290,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "70413f48d407b6df05d1266c2f28c5023e1026bd634e350f6f5b2d46ec03bee2": [
+    {
+      "repository": "https://github.com/ohmae/dms-explorer.git",
+      "apk_url": "https://github.com/ohmae/dms-explorer/releases/download/v0.7.73/DmsExplorer-0.7.73.apk",
+      "appid": "net.mm2d.dmsexplorer",
+      "version_code": 773,
+      "version_name": "0.7.73",
+      "tag": "v0.7.73",
+      "commit": "aa4bf85c87de1972e70dd7152e3c57c7c300f006",
+      "timestamp": 1778343634,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111457,6 +111712,21 @@
       "maintainer_notes": null
     }
   ],
+  "dc475dad1b95064f90d70107d7ea079b96ff47236a5b3b86ed974c76489e7555": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.4/KashCal-23.7.4-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 522,
+      "version_name": "23.7.4",
+      "tag": "v23.7.4",
+      "commit": "81c9aeeffb57f6169fc628c36558d37aab4bb3a8",
+      "timestamp": 1778354013,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -112623,6 +112893,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "e56ef6280b700696172797f94513ffd3f9aae9349945a2f06e235ec24446be58": [
+    {
+      "repository": "https://github.com/TeamNewPipe/NewPipe.git",
+      "apk_url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.28.6/NewPipe_v0.28.6.apk",
+      "appid": "org.schabi.newpipe",
+      "version_code": 1011,
+      "version_name": "0.28.6",
+      "tag": "v0.28.6",
+      "commit": "6c65949f5b0be66432f03462e0083fe76c5c0019",
+      "timestamp": 1778354768,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "signing issues"
     }
   ],
   "bf2ae64719a8432bb1213f5ff277acbb379e84e4104720c047025d7536511520": [
