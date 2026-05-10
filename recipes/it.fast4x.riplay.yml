@@ -434,3 +434,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.7.78.1
+    apks:
+      - apk_pattern: RiPlay-foss-release.*\.apk
+        apk_url: https://github.com/fast4x/RiPlay/releases/download/v0.7.78.1/RiPlay-foss-release-0.7.78.1.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i androidApp/build.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/foss/release/RiPlay-foss-release-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

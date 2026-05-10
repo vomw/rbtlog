@@ -15730,6 +15730,21 @@
       "maintainer_notes": null
     }
   ],
+  "e52a30b4c9d1107232e75c8d17f44a41e9a91c329f26f25c7c003db3785ef8fe": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.1b/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1381,
+      "version_name": "4.6.1b",
+      "tag": "v4.6.1b",
+      "commit": "de4768491861296f0a05071824c7179ddbe90dc3",
+      "timestamp": 1778412322,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -98059,6 +98074,21 @@
       "timestamp": 1778353162,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp3ouyuuef/outputs:/outputs', '--volume', '/tmp/tmp3ouyuuef/scripts:/scripts:ro', '--volume', '/tmp/tmp3ouyuuef/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/fast4x/RiPlay.git', '--env', 'APP_TAG=v0.7.78', '--env', 'APP_COMMIT=7b2a7eebde4ca1e1905ba8935a0fd296405a8cd1', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:trixie-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": null
+    }
+  ],
+  "8c919e30d7bffd46d48230812717c6453997e60683b7acfe2d0d69b4f691ff78": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.78.1/RiPlay-foss-release-0.7.78.1.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 79,
+      "version_name": "0.7.78.1",
+      "tag": "v0.7.78.1",
+      "commit": "1aa698f16632651ed3608a21ae1ff2aece3916c5",
+      "timestamp": 1778415683,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
