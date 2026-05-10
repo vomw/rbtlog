@@ -3,7 +3,6 @@ repository: https://github.com/fibelatti/photo-widget.git
 updates: releases
 notes:
   - 'FIXED: 1.14.0+1.15.0 have huge differences (ca 10 kB) in M7.json (aboutLibraries)'
-  - 'FIXME: remove JETBRAINS sed for next release (fixed upstream)'
 versions:
   - tag: v1.13.0
     apks:
@@ -1571,6 +1570,32 @@ versions:
         apk_url: https://github.com/fibelatti/photo-widget/releases/download/v1.42.2/com.fibelatti.photowidget-v1.42.2-1420200-release.apk
         build:
           - sed -r '/toolchainVendor=JETBRAINS/d' -i gradle/gradle-daemon-jvm.properties
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.42.3
+    apks:
+      - apk_pattern: com\.fibelatti\.photowidget-.*-release\.apk
+        apk_url: https://github.com/fibelatti/photo-widget/releases/download/v1.42.3/com.fibelatti.photowidget-v1.42.3-1420300-release.apk
+        build:
           - ./gradlew assembleRelease
           - mv app/build/outputs/apk/release/*release-unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
