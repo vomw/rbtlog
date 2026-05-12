@@ -3387,6 +3387,21 @@
       "maintainer_notes": null
     }
   ],
+  "3a44bd19114cbadcd8b0c032290918bc1f0a2ea376a4fa5b21aba5ec68f8efb9": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.1.11/Podcini.X-free-arm64-v8a-11.1.11.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 311,
+      "version_name": "11.1.11",
+      "tag": "v11.1.11",
+      "commit": "73af0e35c2cb9e2535f9b203d0cc6db182af1f4a",
+      "timestamp": 1778615618,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -14187,6 +14202,21 @@
       "maintainer_notes": null
     }
   ],
+  "0e937421e824e4eec42a117dc4c77f4bc270cc0fac43334618fd8687ec801462": [
+    {
+      "repository": "https://github.com/farfromrefug/OSS-Dict.git",
+      "apk_url": "https://github.com/Akylas/OSS-Dict/releases/download/v2.0.1/74/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 74,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1/74",
+      "commit": "60fdc3525e8a968aee4b0d76d3fbfc90ad30ea7d",
+      "timestamp": 1778611189,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "68402d9c3e3261a0bfe1d09727a323349ecd03fcd86b7392811c50d381cce237": [
     {
       "repository": "https://github.com/farfromrefug/EnforceDoze.git",
@@ -21141,6 +21171,21 @@
       "maintainer_notes": null
     }
   ],
+  "433fa6e20f88e026714c3bce26849fd9d45e6f521234105ebd4f709c08235d5f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.05.1209/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1209,
+      "version_name": "2026.05.1209",
+      "tag": "2026.05.1209",
+      "commit": "9b723853820949df32a93795a0e4278e15b26b01",
+      "timestamp": 1778594741,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -23073,6 +23118,21 @@
       "timestamp": 1761598838,
       "reproducible": true,
       "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1759d2f38d1afc082b0e9b4a6b4c5c4445edb913f7d023387103d3648566aae2": [
+    {
+      "repository": "https://codeberg.org/coleblvck/AntiiQ.git",
+      "apk_url": "https://codeberg.org/coleblvck/AntiiQ/releases/download/2.0.0/app-arm64-v8a-release.apk",
+      "appid": "com.coleblvck.antiiq",
+      "version_code": 2019,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "a09e20ea4acbe1349c2307d03f43f899c2b37990",
+      "timestamp": 1778522533,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpuyhpddqr/outputs:/outputs', '--volume', '/tmp/tmpuyhpddqr/scripts:/scripts:ro', '--volume', '/tmp/tmpuyhpddqr/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/coleblvck/AntiiQ.git', '--env', 'APP_TAG=2.0.0', '--env', 'APP_COMMIT=a09e20ea4acbe1349c2307d03f43f899c2b37990', '--env', 'BUILD_USER=blvck', '--env', 'BUILD_HOME_DIR=/home/blvck', '--env', 'BUILD_REPO_DIR=/home/blvck/flutter_builds/AntiiQ', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/blvck && timeout 10m su blvck /scripts/provision.sh && cd /home/blvck/flutter_builds/AntiiQ && timeout 20m su blvck /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": null
     }
   ],
@@ -36167,6 +36227,21 @@
       "maintainer_notes": null
     }
   ],
+  "d67bdbf11ab2666cecda8223603cfcced7919b9571e4a04237f43b8cd9f8f267": [
+    {
+      "repository": "https://github.com/AEFeinstein/mtg-familiar.git",
+      "apk_url": "https://github.com/AEFeinstein/mtg-familiar/releases/download/v3.9.16/com.gelakinetic.mtgfam_3.9.16_16b5824-release.apk",
+      "appid": "com.gelakinetic.mtgfam",
+      "version_code": 99,
+      "version_name": "3.9.16",
+      "tag": "v3.9.16",
+      "commit": "16b5824b549f46eb4b5176f851d3fd18a3665aa0",
+      "timestamp": 1778606263,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4ff9a69e6ee507152892ab4d54356c6f9cbc1a865d9a1c97f41bd9e373018665": [
     {
       "repository": "https://github.com/6eero/NewPass.git",
@@ -45799,6 +45874,21 @@
       "tag": "v0.8.2",
       "commit": "1ec14797847a12a2e5d34bf84e0328d0eaeb1f76",
       "timestamp": 1778509557,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "eb98e580ef657255c65cb0cf21e481ad3264ac81b897819597f6c74a78473b77": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.8.3/kelani-sbd-tracker-v0.8.3.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 26,
+      "version_name": "0.8.3",
+      "tag": "v0.8.3",
+      "commit": "efb449647dbec38ab1147563f4161fafb0aa8c7c",
+      "timestamp": 1778596580,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56116,6 +56206,21 @@
       "maintainer_notes": null
     }
   ],
+  "29161d2a558e7bf01582b90ec705ebf70ed96e1a50978949fdc737001d6e1731": [
+    {
+      "repository": "https://github.com/Fandroid745/Open-notes.git",
+      "apk_url": "https://github.com/Fandroid745/Open-notes/releases/download/v1.3.7/app-release.apk",
+      "appid": "com.opennotes",
+      "version_code": 11,
+      "version_name": "1.3.7",
+      "tag": "v1.3.7",
+      "commit": "87315271a26bf698b5c9d8d83e2816637e75cda1",
+      "timestamp": 1778611379,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6d5de420b3247c3ab31df2977b92153497ca9303e9b8f200914bb3a6cdb5cdfb": [
     {
       "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
@@ -57461,6 +57566,21 @@
       "tag": "v3.13.0",
       "commit": "73a15b6f2a204ad6309f22c72669db6de73d422c",
       "timestamp": 1778438293,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "74cae30312e7dedd472cdc90cd005edef2023b8a14a11667ea7f1148335be338": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.13.1/youtubeConverter-3.13.1-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 57,
+      "version_name": "3.13.1",
+      "tag": "v3.13.1",
+      "commit": "3674f5d29178ea580de795718746018f6e642d1e",
+      "timestamp": 1778596714,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -66561,6 +66681,21 @@
       "commit": "624ac777f6ea276d2dbe88898dec40a89d155993",
       "timestamp": 1778352263,
       "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "75facf722d054132b92ceef2f6e91d40bc2de0eaa894e7206b5d572ecb9cdbe5": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.31/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 342,
+      "version_name": "1.0.31",
+      "tag": "V1.0.31",
+      "commit": "978102fcd9e631c105205a8812c8a3a5d1645559",
+      "timestamp": 1778607091,
+      "reproducible": true,
       "error": null,
       "maintainer_notes": null
     }
@@ -75856,6 +75991,21 @@
       "tag": "v1.0.5",
       "commit": "9e29495615557b5a03917f3a98d0854366e0e210",
       "timestamp": 1777738724,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e02d7f3dff52b25caaed385413d68c7f8bf687d42d35a57bd32febfe653960a": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/iZakirSheikh/Gallery/releases/download/v1.0.6/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 79,
+      "version_name": "1.0.6-foss",
+      "tag": "v1.0.6",
+      "commit": "e730b18741a2d53fefd2c31d189dde677061fa90",
+      "timestamp": 1778608363,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -93409,6 +93559,21 @@
       "tag": "v2.3.0",
       "commit": "b495c40a4da2117002c838910bcc9fa897a472c3",
       "timestamp": 1776438679,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f74c113ddd134901988339e1822cc3b19fb57991544206789422068dd89e907a": [
+    {
+      "repository": "https://github.com/auag0/HideMockLocation.git",
+      "apk_url": "https://github.com/auag0/HideMockLocation/releases/download/v2.3.1/app-release.apk",
+      "appid": "io.github.auag0.hidemocklocation",
+      "version_code": 11,
+      "version_name": "2.3.1",
+      "tag": "v2.3.1",
+      "commit": "6b9adb7cce1602d6e1230138af592bc463744010",
+      "timestamp": 1778597700,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116120,6 +116285,21 @@
       "maintainer_notes": null
     }
   ],
+  "5d3f27b6678658c1b6222c632736d07124f4a5a59c437848d127cc4e29d45791": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.17.3/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 51,
+      "version_name": "0.17.3",
+      "tag": "v0.17.3",
+      "commit": "8559f4ea543aef758787b0ca3f2d9672c73c31b8",
+      "timestamp": 1778597814,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c29c3b7fce2d8343740ce7d48b1316a4f8214ee2f4bb2577bd8e56fa2283eb17": [
     {
       "repository": "https://github.com/iamrasel/crushr.git",
@@ -117945,6 +118125,21 @@
       "tag": "1.6.1",
       "commit": "e7284ac800c4a946b1beb2f8352f90e2344d3c65",
       "timestamp": 1776798930,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b00bd970c6a5b45d8866f7b279e6b8dabda07683fed59984525ad8cce3c18ac2": [
+    {
+      "repository": "https://github.com/shub39/Momentum.git",
+      "apk_url": "https://github.com/shub39/Momentum/releases/download/1.7.0/app-foss-arm64-v8a-release.apk",
+      "appid": "shub39.momentum",
+      "version_code": 1700,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "f9ccb0ee25169a693f0743e6354d02ea6e8cc232",
+      "timestamp": 1778608899,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -119927,6 +120122,21 @@
       "timestamp": 1777737040,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpi1d9eukx/outputs:/outputs', '--volume', '/tmp/tmpi1d9eukx/scripts:/scripts:ro', '--volume', '/tmp/tmpi1d9eukx/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/usr/local/lib/android/sdk', '--env', 'APP_REPOSITORY=https://github.com/donmor/DroidFRPD.git', '--env', 'APP_TAG=1.1.0+0670', '--env', 'APP_COMMIT=a38329d0bfd355d9d5bca282830f6ce6382bc76a', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/DroidFRPD/DroidFRPD', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=make,xz-utils,python3', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/DroidFRPD/DroidFRPD && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": null
+    }
+  ],
+  "d1a68c0215bce92bc1a4a0afff88887a8040bee0f0fdcc1f68d3777d8a41d1c9": [
+    {
+      "repository": "https://github.com/donmor/DroidFRPD.git",
+      "apk_url": "https://github.com/donmor/DroidFRPD/releases/download/1.1.1%2B0670/DroidFRPD-1.1.1%2B0670-aarch64.apk",
+      "appid": "top.donmor.droidfrpd",
+      "version_code": 101001,
+      "version_name": "1.1.1+0670",
+      "tag": "1.1.1+0670",
+      "commit": "4fec59a44bb35aba9717ed7bc6557bc8b32072e6",
+      "timestamp": 1778616551,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
