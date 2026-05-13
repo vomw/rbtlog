@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/JackEblan/YagniLauncher.git
 updates: releases
+notes:
+  - 'FIXME: with the next release after 0.6.6-alpha, foojay-sed and NDK can be removed again (see https://github.com/JackEblan/YagniLauncher/issues/780)'
 labels:
   - flaky
 versions:
