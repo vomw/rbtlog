@@ -7,8 +7,8 @@ notes:
   - sed -r 's/val abiCodes =.+$/val abiCodes = mapOf("armeabi-v7a" to 5)/ ; s/isUniversalApk = true/isUniversalApk = false/' -i buildSrc/src/main/kotlin/plugin/AppConfigurer.kt (produces different dex etc)
   - use "-Pandroid.injected.build.abi=armeabi-v7a" to build a single ABI, see https://github.com/kiwix/kiwix-android/issues/4128#issuecomment-2566396846 (produces different dex etc)
   - first RB for each version will fail. Diff the manifest then, adjust the addition to BASE_VERSION_CODE with the difference and run again; see https://github.com/kiwix/kiwix-android/issues/4120#issuecomment-2659462249
-  - 'FIXME: set KIWIX_ANDROID_RELEASE_DATE to automatically adjust versionCode: export KIWIX_ANDROID_RELEASE_DATE="$(git log -1 --format=%cd --date=format:%Y-%m-%d $(git describe --tags --abbrev=0 $APP_TAG))"'
-  - 'FIXME: next release needs env APK_BUILD=true to be set, see https://github.com/kiwix/kiwix-android/pull/4274#issuecomment-2775396148 '
+  - 'FIXED: set KIWIX_ANDROID_RELEASE_DATE to automatically adjust versionCode: export KIWIX_ANDROID_RELEASE_DATE="$(git log -1 --format=%cd --date=format:%Y-%m-%d $(git describe --tags --abbrev=0 $APP_TAG))"'
+  - 'FIXED: next release needs env APK_BUILD=true to be set, see https://github.com/kiwix/kiwix-android/pull/4274#issuecomment-2775396148 '
 versions:
   - tag: 3.14.0
     apks:
@@ -32,6 +32,38 @@ versions:
             version: '12.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v3.14.1
+    apks:
+      - apk_pattern: .*armeabi-v7a-standalone\.apk
+        apk_url: https://github.com/kiwix/kiwix-android/releases/download/$$TAG$$/$$TAG$$-armeabi-v7a-standalone.apk
+        build:
+          - export TAG=$APP_TAG
+          - GRADLE_VERSION="$(sed -rn 's/distributionUrl.*gradle-([0-9.]+).*\.zip/\1/p' gradle/wrapper/gradle-wrapper.properties)"
+          - export KIWIX_ANDROID_RELEASE_DATE="$(git log -1 --format=%cd --date=format:%Y-%m-%d $(git describe --tags --abbrev=0 $APP_TAG))"
+          - export APK_BUILD=true
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version $GRADLE_VERSION -v assembleStandalone -PdisableSigning
+          - mv app/build/outputs/apk/standalone/*-armeabi-v7a-standalone.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
           extra_packages:
             - python3
           image: debian:bookworm-slim
