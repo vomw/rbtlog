@@ -23856,6 +23856,21 @@
       "maintainer_notes": null
     }
   ],
+  "ad9f9738ebcfeae653be4db0ccdf47e957ba62f23f16a9324a28675a80ae7477": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.54/networksurvey-1.54-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 113002,
+      "version_name": "1.54",
+      "tag": "v1.54",
+      "commit": "77be2dfdff27f7dfa0d55b48cb7ce92540231ca2",
+      "timestamp": 1778869576,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "df4dae422d7f5d44e581552c4fbf64e7c7fadcf1f752b1a7efd29f212a34aef4": [
     {
       "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
@@ -24736,6 +24751,21 @@
       "tag": "v3.0.0",
       "commit": "14fbb67a6e9a4aaa243f61ff0f6dba5a2201f0da",
       "timestamp": 1778783683,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0005e3e43fe9bffd188efb79cb1cd744ac1e4ad0b43decc047da472bdadb5126": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.0.2/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 300020000,
+      "version_name": "3.0.2",
+      "tag": "v3.0.2",
+      "commit": "5281b2a6f07a16f3332ee981a3b52777ed2f33d0",
+      "timestamp": 1778857824,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35267,6 +35297,21 @@
       "maintainer_notes": null
     }
   ],
+  "62cde19b807b68f1c88f3a5f229c657914d343587840dadd84b17f719597c0c3": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.17/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 172,
+      "version_name": "1.22.17",
+      "tag": "v1.22.17",
+      "commit": "39bd28476d49e7ff188534d056a8781e22bacf08",
+      "timestamp": 1778854872,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -37448,6 +37493,21 @@
       "tag": "v31.1",
       "commit": "a51a4ca131628780b9f1e67935d36f576af18960",
       "timestamp": 1776797486,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b08f42fa5780a645a383c6381e3e587b90d331c3699fc4465629c4abb93590f7": [
+    {
+      "repository": "https://github.com/libre-tube/LibreTube.git",
+      "apk_url": "https://github.com/libre-tube/LibreTube/releases/download/v31.2/app-release.apk",
+      "appid": "com.github.libretube",
+      "version_code": 68,
+      "version_name": "31.2",
+      "tag": "v31.2",
+      "commit": "5047512ac225be68cad96ebdf3d1428d6d51e214",
+      "timestamp": 1778855216,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -46009,6 +46069,21 @@
       "tag": "v0.8.6",
       "commit": "5c13308c57efa1b542a29236c190e5fe27ebac05",
       "timestamp": 1778767634,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5e2042ee551d5e34a58c8416f278b8bca5e5d722866cb50e372c2138987ed5b9": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.8.7/kelani-sbd-tracker-v0.8.7.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 30,
+      "version_name": "0.8.7",
+      "tag": "v0.8.7",
+      "commit": "35bc43f12db93a489c104c8a0ea7c8dcac6a8a41",
+      "timestamp": 1778855438,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -57761,6 +57836,21 @@
       "tag": "v3.13.2",
       "commit": "629c70bb20c80c1d3bcccb97361de8d317dfbb6a",
       "timestamp": 1778697261,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9cb8d2138822bc928b845acd9f5acb4cc5107beea29bfffc53f8b0c83a40821d": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.13.3/youtubeConverter-3.13.3-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 59,
+      "version_name": "3.13.3",
+      "tag": "v3.13.3",
+      "commit": "5449a60ba5dddda67285b084ed4f182c511b10fe",
+      "timestamp": 1778855551,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82275,6 +82365,21 @@
       "maintainer_notes": null
     }
   ],
+  "b256da4389ecd5e0fc1816d59755b784c3c75ad1a71acb8df6daca2c4b925743": [
+    {
+      "repository": "https://github.com/minburg/outspoke.git",
+      "apk_url": "https://github.com/minburg/outspoke/releases/download/v0.2.2/outspoke-0.2.2-arm64-v8a.apk",
+      "appid": "dev.brgr.outspoke",
+      "version_code": 72,
+      "version_name": "0.2.2",
+      "tag": "v0.2.2",
+      "commit": "234b52d3839e26e3ec0d547ffaae05d56c8e3b8c",
+      "timestamp": 1778869980,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "53def9285ea8ef40e14cbb50067cd0869d82828fe8c9640f388181567fb80df0": [
     {
       "repository": "https://github.com/chukfinley/Better-Bahn.git",
@@ -85015,6 +85120,21 @@
       "tag": "v1.2.1",
       "commit": "c3ec8885cf46b341d16a15a4cda7f4f0e8c8d969",
       "timestamp": 1778811074,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "79ed6cd76c72b6329f8d9a4f47a250ee0aaeac656a4a741c5f67b8efce6871fe": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.3.0/Musicaxs-1.3.0.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 10,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "6a156bdb6166210b0f2cbb69d650ac05efff50e9",
+      "timestamp": 1778870237,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90761,6 +90881,21 @@
       "maintainer_notes": null
     }
   ],
+  "05312d0d82e5ac47092ba27acf041bbc66cfac7f618c394cad1789a29aa38e4c": [
+    {
+      "repository": "https://github.com/hxreborn/cleanshare.git",
+      "apk_url": "https://github.com/hxreborn/cleanshare/releases/download/v3.1.1/app-release.apk",
+      "appid": "eu.hxreborn.cleanshare",
+      "version_code": 311,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "b0fd3c9cc0e46b4255ac2c7c5738141603f62965",
+      "timestamp": 1778855839,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ead5832723cc440963c6bc494e7deb3dfda8226515ddd077fab059f474b5ba5": [
     {
       "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
@@ -92962,6 +93097,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "a95a68a90f3d92da9c42e92c685ab1b2063604397448e14a35d5cdfeeb305b76": [
+    {
+      "repository": "https://github.com/DP-Hridayan/aShellYou.git",
+      "apk_url": "https://github.com/DP-Hridayan/aShellYou/releases/download/v7.3.0/aShellYou-v7.3.0-github-release.apk",
+      "appid": "in.hridayan.ashell",
+      "version_code": 61,
+      "version_name": "v7.3.0",
+      "tag": "v7.3.0",
+      "commit": "6bc5f2198614e95118d515e6ce2b0455faaae9c1",
+      "timestamp": 1778870524,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "aboutLibraries generated at build time"
     }
   ],
   "b4a72afaa4bb67166efe8998e1b9c8dd88b064a52de9f3c38a7d5a93d6ea09a8": [
@@ -96527,6 +96677,21 @@
       "tag": "v1.5.1",
       "commit": "1b2f606e226905dbcca2f5a476f2acfb54a7addc",
       "timestamp": 1777575904,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a1b38be98213528fd98d5447dc3a4a366c191b91138ffdf393b49a50a4f125da": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.6.1/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 39,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "68e41d4ae3c4658462e811b36f69bbb773294061",
+      "timestamp": 1778856320,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -102697,6 +102862,21 @@
       "maintainer_notes": null
     }
   ],
+  "504eb88c5a90031dcb146e24390aafea0685e9678165dc7cf70e369a9409e004": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Gadgetbridge.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/download/0.91.1/gadgetbridge-0.91.1.apk",
+      "appid": "nodomain.freeyourgadget.gadgetbridge",
+      "version_code": 248,
+      "version_name": "0.91.1",
+      "tag": "0.91.1",
+      "commit": "028fb0ef4698697a7faee35603db928aaae8cebd",
+      "timestamp": 1778856570,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2028fcb49f68e6855c6ff62bad99a15448840d448915a94a2dfb86ec5de8f047": [
     {
       "repository": "https://codeberg.org/Freeyourgadget/Internethelper.git",
@@ -105617,6 +105797,21 @@
       "tag": "v3.1.3",
       "commit": "138313ab3178af588f02c589d173028132c8c34d",
       "timestamp": 1777217165,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9fcddb4f975e71245924da04a4ee466e516a996297c03e78ffb4ba6521038ad0": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v3.2.0/DragonLauncher-v3.2.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 54,
+      "version_name": "3.2.0 (Worm)",
+      "tag": "v3.2.0",
+      "commit": "ee9c2c4c850b847393219645f36eb47011f2c0e4",
+      "timestamp": 1778860778,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -110392,6 +110587,21 @@
       "maintainer_notes": null
     }
   ],
+  "3c4e751d158db088c798527676b2c35b17ceba9af06b9e54ac8cad55b6e0a3f1": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/13.0.0/13.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 1300,
+      "version_name": "13.0.0",
+      "tag": "13.0.0",
+      "commit": "447c9977a6571e36b717081bec872562dff6a1d1",
+      "timestamp": 1778871236,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -112817,6 +113027,21 @@
       "tag": "v2.5.6",
       "commit": "189cdd01986ffce16cdf31f74e334eaea0d19462",
       "timestamp": 1772482811,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d9037fe161915b7741d91ad41ea3e64ddc5392cbbda578ce7ccf981b273ea678": [
+    {
+      "repository": "https://github.com/owntracks/android.git",
+      "apk_url": "https://github.com/owntracks/android/releases/download/v2.5.9/owntracks-release-oss-420509001.apk",
+      "appid": "org.owntracks.android",
+      "version_code": 420509001,
+      "version_name": "2.5.9",
+      "tag": "v2.5.9",
+      "commit": "9dc39fcb7e85c617bb63307774a0ed75ccc559bd",
+      "timestamp": 1778879715,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

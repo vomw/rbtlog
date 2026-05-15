@@ -4,6 +4,7 @@ updates: releases
 notes:
   - build is flaky
   - v2.5.4 needed manual adjustment for VERSION_CODE
+  - 'FIXME: remove the explicit VERSION_CODE again with the next release after 2.5.9 (see https://github.com/owntracks/android/issues/2243)'
 versions:
   - tag: v2.5.3
     apks:
@@ -138,6 +139,44 @@ versions:
           - mv app/build/outputs/apk/oss/release/*unsigned.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.5.9
+    apks:
+      - apk_pattern: owntracks-release-oss-.*\.apk
+        apk_url: https://github.com/owntracks/android/releases/download/v2.5.9/owntracks-release-oss-420509001.apk
+        build:
+          - export VERSION_CODE=420509001
+          - cd project
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/ossRelease/compileOssReleaseArtProfile/baseline.prof
+          - PROF_SHA1=6abd5056da62ec2b7b8a6e6f33a7c7b2759ef589
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleOssRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/oss/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
         build_user: build
         provisioning:
           android_home: /opt/sdk
