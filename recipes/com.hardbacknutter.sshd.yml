@@ -1,0 +1,34 @@
+---
+repository: https://github.com/tfonteyn/Sshd4a.git
+updates: releases
+versions:
+  - tag: v1.12.1
+    apks:
+      - apk_pattern: Sshd4a-.*\.apk
+        apk_url: https://github.com/tfonteyn/Sshd4a/releases/download/v1.12.1/Sshd4a-1.12.1.apk
+        build:
+          - sed -r '/signingConfigs.release/d ; /signingConfigs \{/,/^    \}/d' -i app/build.gradle
+          - ./build.sh
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/Sshd4a-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake: 4.1.2
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
