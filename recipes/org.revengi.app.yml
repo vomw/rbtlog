@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/RevEngiSquad/revengi-app.git
 updates: releases
+notes:
+  - 'FIXME: after 1.3.0, values for RUSTUP and RUST_TOOLCHAIN can be found at the head of .github/workflows/release.yml'
 versions:
   - tag: v1.0.2
     apks:
@@ -294,6 +296,57 @@ versions:
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.3.0-fix
+    apks:
+      - apk_pattern: RevEngi-Android-arm64\.apk
+        apk_url: https://github.com/RevEngiSquad/revengi-app/releases/download/v1.3.0-fix/RevEngi-Android-arm64.apk
+        build:
+          - sed -r '/create\("release"\) \{/,/        \}/d' -i android/app/build.gradle.kts
+          - sed -r '/signingConfigs.getByName/d' -i android/app/build.gradle.kts
+          - RUSTUP="1.29.0"
+          - RUST_TOOLCHAIN="1.95.0"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target aarch64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install cargo-ndk
+          - pushd android/yarax_android/yarax_patches
+          - make update-yarax
+          - popd
+          - pushd android/yarax_android/
+          - cargo ndk -t arm64-v8a -o jniLibs/ build --release
+          - popd
+          - FLUTTER_VERSION="$(sed -rn 's/\s*\bFLUTTER_VERSION:\s\"\^?([0-9.]+)\"\s*$/\1/p' .github/workflows/release.yml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/revengi-app/revengi-app
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - curl
+            - build-essential
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 27.3.13750724
           platform:
           platform_tools:
           tools:
