@@ -3402,6 +3402,21 @@
       "maintainer_notes": null
     }
   ],
+  "08ffa40d5bd8d3c12de44187db1cf341baa9d557dd9069149944932f1a737be2": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.1.12/Podcini.X-free-arm64-v8a-11.1.12.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 312,
+      "version_name": "11.1.12",
+      "tag": "v11.1.12",
+      "commit": "37d28faf2f8a450973216847f8a3f5b1edce904f",
+      "timestamp": 1778939753,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -9697,6 +9712,21 @@
       "tag": "v4.5.10-ose",
       "commit": "2e88eee9d3c48d50c987568d442d8232b8fa9018",
       "timestamp": 1773349998,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "be8c16095250fd055816ac85c01e95b8a14a0906ea93982715817facc6654653": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.12-ose/davx5-405120004-4.5.12-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405120004,
+      "version_name": "4.5.12-ose",
+      "tag": "v4.5.12-ose",
+      "commit": "a529ef3c88e98af89a630c82249b7f57c8250a23",
+      "timestamp": 1778955932,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -33797,6 +33827,21 @@
       "maintainer_notes": null
     }
   ],
+  "367d1c8f733be4da5858b2447aeb9d3394a5a8450335bf511de6ab7a2d7b6b62": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.5.1/FixupXer-v1.5.1-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 29,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "c0f170c75198e06b2c7f38427ebf792a15fe88ec",
+      "timestamp": 1778940076,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -45249,6 +45294,21 @@
       "maintainer_notes": null
     }
   ],
+  "c702af93a1e147cacb52594dcbf8c023c8375141d681f71a3b3d63f8c1ea68cc": [
+    {
+      "repository": "https://github.com/greykaizen/khushu.git",
+      "apk_url": "https://github.com/greykaizen/khushu/releases/download/v0.24.10/app-fdroid-release.apk",
+      "appid": "com.kaizen.khushu",
+      "version_code": 84,
+      "version_name": "0.24.10",
+      "tag": "v0.24.10",
+      "commit": "ea6dba1af13a92c6e246f8535e0a20b279d0af37",
+      "timestamp": 1778940204,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cc8ff2b9f848f84cb25e3d44a5a03ecf18f2c233bb2298600d340955bd97c57c": [
     {
       "repository": "https://github.com/kaleedtc/Nitterium.git",
@@ -55906,6 +55966,21 @@
       "maintainer_notes": null
     }
   ],
+  "abb02148099be366a21b34da064184feded5cc97843ce23ffe53b16052091439": [
+    {
+      "repository": "https://github.com/OmGodse/Notally.git",
+      "apk_url": "https://github.com/OmGodse/Notally/releases/download/v6.2/Notally.v6.2.apk",
+      "appid": "com.omgodse.notally",
+      "version_code": 57,
+      "version_name": "6.2",
+      "tag": "v6.2",
+      "commit": "dd68a196dc1436dcac0fcce1dc019d3fdca3ad5f",
+      "timestamp": 1778959842,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fb87fb502bf55fe8dc0a89d251ebbe840b648aba91b6f9670d6b8610e57125f6": [
     {
       "repository": "https://github.com/stud0709/OneMoreSecret.git",
@@ -57086,6 +57161,21 @@
       "tag": "v1.18.0",
       "commit": "c21c58568c1a054ccc6a6fc85bcf7f1db9862392",
       "timestamp": 1771185932,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7aed4f4042f81ea5f2576b256d084e7fad9cfc44b39f0e05ac26a198f5191b63": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.20.0/orgzly-revived-fdroid-1.20.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 282,
+      "version_name": "1.20.0",
+      "tag": "v1.20.0",
+      "commit": "e80c06b23a3c090e5035a54ba23fb969f212b169",
+      "timestamp": 1778946592,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -59786,6 +59876,21 @@
       "tag": "2026.05.03.1",
       "commit": "6ec56bb9cbcfe9fa2e8ca730f1d21bd7da68d4ef",
       "timestamp": 1777816965,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "214e6185bd69ad2a3024b36b59606568c610c26ae7eed2c949488e16a6315d4e": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2026.05.13.2/2026.05.13.2-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111142,
+      "version_name": "2026.05.13.2",
+      "tag": "2026.05.13.2",
+      "commit": "439058329f05ea79d649047b0ba73cbcf3b9bec1",
+      "timestamp": 1778956633,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70015,6 +70120,21 @@
       "maintainer_notes": null
     }
   ],
+  "724b43ccdc87d6da88e5c991cf1c80433a991d348552386fa6947715ae072531": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.8/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 32,
+      "version_name": "2.2.8",
+      "tag": "v2.2.8",
+      "commit": "81ddad07d18abf1ef405ab2f74f970f02c6eec1b",
+      "timestamp": 1778941279,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8ebc688d20d0b0e7002f8eed98c7d105a76f1858415cdcd67cf7021851d0a4da": [
     {
       "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
@@ -73030,6 +73150,21 @@
       "maintainer_notes": null
     }
   ],
+  "2ab8d0034e0168e5771c172a6a73864c9ed9bcd2d095bb240aea138453f32605": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.6.0/NerdCalci-v4.6.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 460,
+      "version_name": "4.6.0",
+      "tag": "v4.6.0",
+      "commit": "86d73f15b28d9a4a97592a87c16b6ee50a8b5a39",
+      "timestamp": 1778957165,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -73115,6 +73250,21 @@
       "tag": "v1.2.1",
       "commit": "ed66237ff18884e8fc63cb1f7779b52f511b2785",
       "timestamp": 1746972751,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "16c2a9b2af32939f1ee03b18b52d83b395a2b0bec6ac6b738ce7898367e2093e": [
+    {
+      "repository": "https://github.com/VishnuSanal/RemindMe.git",
+      "apk_url": "https://github.com/VishnuSanal/RemindMe/releases/download/v1.3.0/remind-me-v1.3.0.apk",
+      "appid": "com.vishnu.remindme",
+      "version_code": 8,
+      "version_name": "v1.3.0",
+      "tag": "v1.3.0",
+      "commit": "2a4af735fa9c6dddafe471553510437b981889ae",
+      "timestamp": 1778957500,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -73220,6 +73370,36 @@
       "tag": "v1.08.0",
       "commit": "9587026abccdfcfb360f5c9fcb3747365482d7a4",
       "timestamp": 1775140371,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d55d2cdf9ec6f24a1348fa5084068da8ce9eaade1dabf6acfef4d6c8aa125503": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.09.1/amethyst-fdroid-arm64-v8a-v1.09.1.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 444,
+      "version_name": "1.09.1",
+      "tag": "v1.09.1",
+      "commit": "5a30b10a778f661ae5ea8950a54a6b5ec45df748",
+      "timestamp": 1778941391,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a67e7089a8325d8d9bbeac6a56616079d085289f5debae913dcafcb761392cc": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.09.2/amethyst-fdroid-arm64-v8a-v1.09.2.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 445,
+      "version_name": "1.09.2",
+      "tag": "v1.09.2",
+      "commit": "f108ba9050aedf805f399d5b7c52b96a2f31c5ba",
+      "timestamp": 1778957748,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78014,6 +78194,21 @@
       "tag": "v0.20.2",
       "commit": "b05007274e0836c14a359b7124708172cec892a1",
       "timestamp": 1774982609,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d6adfe9fb4135fa114e58f97364631602586de44ba577e3b3701d03fcb2a59ac": [
+    {
+      "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
+      "apk_url": "https://github.com/DennisBauer/RecurringExpenseTracker/releases/download/v0.21.0/RecurringExpenseTracker_0.21.0.apk",
+      "appid": "de.dbauer.expensetracker",
+      "version_code": 64,
+      "version_name": "0.21.0",
+      "tag": "v0.21.0",
+      "commit": "5bdaa8c89561c598aef3c882a08f6f81650aac2d",
+      "timestamp": 1778942188,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82875,6 +83070,21 @@
       "maintainer_notes": null
     }
   ],
+  "d239fb5d7b5d7fa55edcbb602a672c8746480987baa65e4f3bffc5ad58ac693b": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.5.0/simple-notes-sync-v2.5.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 33,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "8d95f6ee69358974988cbdb36121e832b03dc1c4",
+      "timestamp": 1778942402,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -85150,6 +85360,21 @@
       "tag": "v1.3.0",
       "commit": "6a156bdb6166210b0f2cbb69d650ac05efff50e9",
       "timestamp": 1778870237,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "092f954b8ef9b3cc988b557d9388a76ce2750b34ffa5b16156ed88c0c4f17139": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.3.1/Musicaxs-1.3.1.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 11,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "9eb5f2d0073eecd5262cabe6230da60fb1bd4590",
+      "timestamp": 1778942551,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -88811,6 +89036,21 @@
       "maintainer_notes": null
     }
   ],
+  "a82805e269cc0aba2422ee8eff5d2ba979d3a1a21e0fb45d027a893d206893f5": [
+    {
+      "repository": "https://github.com/d4rken-org/octi.git",
+      "apk_url": "https://github.com/d4rken-org/octi/releases/download/v1.0.4-rc0/eu.darken.octi-v1.0.4-rc0-10004000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.octi",
+      "version_code": 10004000,
+      "version_name": "1.0.4-rc0",
+      "tag": "v1.0.4-rc0",
+      "commit": "72f400be2dce47bc6f280d455b3ff46d617f89ee",
+      "timestamp": 1778942667,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5d2f0a0c17ac51df705dcde49ab6c6c2318aa6f382ed154bd20158e8280e8422": [
     {
       "repository": "https://github.com/d4rken-org/sdmaid-se.git",
@@ -89391,6 +89631,21 @@
       "tag": "v1.7.2-rc0",
       "commit": "822e7b646fa71fb3cf702b444cf280752540220f",
       "timestamp": 1777646122,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4451ff32770d3120a9d970d4dd80286479c7698db5c2f892b30325ecc19fdacb": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.7.3-rc0/eu.darken.sdmse-v1.7.3-rc0-10703000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10703000,
+      "version_name": "1.7.3-rc0",
+      "tag": "v1.7.3-rc0",
+      "commit": "bed605e84efb2b21d56d7437f49fb6b52a5fa447",
+      "timestamp": 1778943082,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -100477,6 +100732,21 @@
       "maintainer_notes": null
     }
   ],
+  "bd6ca8ec343ccbd974cf9f0719cff55a9d1001106c7190a6bab42dff9f77c536": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.42.1/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 166,
+      "version_name": "2.42.1",
+      "tag": "v2.42.1",
+      "commit": "b675ad785decaf5304a63bae65c918108550d4cf",
+      "timestamp": 1778943561,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "86783f35d33f4977d8fb0ebd56fbd5ed7ce55ad30d0be6100364bd531bde25ed": [
     {
       "repository": "https://github.com/TheLastProject/RaiseToAnswer.git",
@@ -105827,6 +106097,21 @@
       "tag": "v3.2.0",
       "commit": "ee9c2c4c850b847393219645f36eb47011f2c0e4",
       "timestamp": 1778860778,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "274a41f8988c029f5f8ce6f8a11cc061b6ba4e61160197dceb3949c122aeeab4": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/v3.2.1/DragonLauncher-v3.2.1.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 55,
+      "version_name": "3.2.1 (Worm)",
+      "tag": "v3.2.1",
+      "commit": "2ee75fade665cf208e384b0941ec92e9a44de9ee",
+      "timestamp": 1778943880,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116255,6 +116540,21 @@
       "maintainer_notes": null
     }
   ],
+  "42e5566e3742c17e2810f9607d652692cbaf0bf4fd7042454e9e7e95f65d4869": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.3.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 42,
+      "version_name": "6.3.0",
+      "tag": "v6.3.0",
+      "commit": "6f0dd70639df0ed9135a773292e13bbbe9b8b66e",
+      "timestamp": 1778946017,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -116970,6 +117270,21 @@
       "tag": "v0.17.3",
       "commit": "8559f4ea543aef758787b0ca3f2d9672c73c31b8",
       "timestamp": 1778597814,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1643109a58b1b936fcb8c4b0422632c1946343a6ec6ef054109ae597b6baadf0": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.17.4/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 52,
+      "version_name": "0.17.4",
+      "tag": "v0.17.4",
+      "commit": "b30a9c2182d83406f45363e534045a716b14c53e",
+      "timestamp": 1778959228,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -118290,6 +118605,21 @@
       "tag": "3.8.0",
       "commit": "2c707eacbba5099ee6c49b77cce12a87f6e78775",
       "timestamp": 1775940561,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a49862cec4e8e6b8c1ffcb065ce828fc21af070b0c6637cf809fe3f50ee554cb": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/3.9.0/image-toolbox-3.9.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 232,
+      "version_name": "3.9.0-foss",
+      "tag": "3.9.0",
+      "commit": "c7260aa8d34bc98d9a8beeb69426022377c0843a",
+      "timestamp": 1778963198,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
