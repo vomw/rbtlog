@@ -11967,6 +11967,21 @@
       "maintainer_notes": null
     }
   ],
+  "322ec20b57f7d9679b7b665ad725ef7de6f29380596cdf1fd7a742e7de28f5db": [
+    {
+      "repository": "https://github.com/gfroerli/app-android.git",
+      "apk_url": "https://github.com/gfroerli/app-android/releases/download/v1.1.4/gfroerli-android-1.1.4-arm64-v8a.apk",
+      "appid": "ch.coredump.watertemp.zh",
+      "version_code": 22,
+      "version_name": "1.1.4",
+      "tag": "v1.1.4",
+      "commit": "c52560e3c950405dda1c636299f09de6d55ab2bd",
+      "timestamp": 1778982698,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b8e7de72eda614fc71e8f3880297224ba5bca03649d26ef931a501b05d12077c": [
     {
       "repository": "https://github.com/famoser/Mensa.git",
@@ -15860,6 +15875,21 @@
       "tag": "v4.6.1b",
       "commit": "de4768491861296f0a05071824c7179ddbe90dc3",
       "timestamp": 1778412322,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2fe993c6f60b5d9a31125ee110c584025f3167e12c992511f9738d27b1f40261": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.2/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1382,
+      "version_name": "4.6.2",
+      "tag": "v4.6.2",
+      "commit": "18473311e5311a21082ae40140ae648896274dfd",
+      "timestamp": 1778983970,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

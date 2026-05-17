@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/gfroerli/app-android.git
 updates: releases
-notes:
-  - 'FIXME: v1.1.2 was built from non-existing commit; remove work-around with next release'
 versions:
   - tag: v1.0.5
     apks:
@@ -114,6 +112,35 @@ versions:
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
           extra_packages:
             - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.1.4
+    apks:
+      - apk_pattern: gfroerli-android-.*arm64-v8a\.apk
+        apk_url: https://github.com/gfroerli/app-android/releases/download/v1.1.4/gfroerli-android-1.1.4-arm64-v8a.apk
+        build:
+          - base64 -d > app/secrets.properties <<< Z2Zyb2VybGlfYXBpX2tleV9wdWJsaWM9dWFtZWxIcWJjeUxNcmxnMWlFUmZ0OVp4UkFTVEtLNkdxYkxUVjFJZzRpN0l5bEt4Z2pydVRvT0ZwUVBnM0FKUgptYXBib3hfYWNjZXNzX3Rva2VuPXBrLmV5SjFJam9pWTI5eVpXUjFiWEJqYUNJc0ltRWlPaUpqYVc5emRqRmhZell3TURJM2RubHRNalZzWXpkeFpHaHRJbjAuZU9mUFNrSnlXTXoxZEh6SlpySHVWdwo=
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-arm64-v8a*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
