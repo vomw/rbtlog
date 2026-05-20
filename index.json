@@ -96757,6 +96757,21 @@
       "maintainer_notes": "embedded build IDs in libdartjni.so (Flutter bug)"
     }
   ],
+  "80b37da9e1bf692a5ed2242302eed5662aa9e7eb237845921c8ce1c1c4399d29": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.24.2%2B156/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2156,
+      "version_name": "1.24.2",
+      "tag": "v1.24.2+156",
+      "commit": "bea05a7b4b6c4ec33d091f52405ca1e48d0e8587",
+      "timestamp": 1779276420,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e47c9af46258cdd401555158f6a57503770564d87de7ef08b373c8a381444ec6": [
     {
       "repository": "https://github.com/Giuig/auraninja.git",
@@ -104087,6 +104102,21 @@
       "tag": "v0.6.1",
       "commit": "5ecd05abc11bf381c74394dfb4b73b566c1f69a7",
       "timestamp": 1779135829,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e1781df1b4631a19f518376bf6afa557c193cd8532f3c0919b077d6cb77e48f1": [
+    {
+      "repository": "https://codeberg.org/neonbranch/treasurehunt.git",
+      "apk_url": "https://codeberg.org/neonbranch/treasurehunt/releases/download/v0.6.2/treasurehunt-0.6.2.apk",
+      "appid": "nodomain.neonbranch.treasurehunt",
+      "version_code": 79,
+      "version_name": "0.6.2",
+      "tag": "v0.6.2",
+      "commit": "af725a1f9127a872a0f3de8867379a8697b5e987",
+      "timestamp": 1779226402,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
