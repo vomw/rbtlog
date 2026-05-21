@@ -102,6 +102,8 @@ class BuildRecipe:
     build_repo_dir: str
     build_timeout: Optional[int]
     build_user: str
+    provision_root_timeout: Optional[int]
+    provision_timeout: Optional[int]
     provisioning: Provisioning
 
     def for_json(self) -> Dict[str, Any]:
@@ -110,7 +112,8 @@ class BuildRecipe:
             apk_url=self.apk_url, build=self.build, build_cpus=self.build_cpus,
             build_dirs=self.build_dirs, build_home_dir=self.build_home_dir,
             build_repo_dir=self.build_repo_dir, build_timeout=self.build_timeout,
-            build_user=self.build_user, provisioning=self.provisioning.for_json())
+            build_user=self.build_user, provision_root_timeout=self.provision_root_timeout,
+            provision_timeout=self.provision_timeout, provisioning=self.provisioning.for_json())
 
 
 @dataclass(frozen=True)
@@ -166,6 +169,8 @@ def parse_yaml(recipe_file: str, *, validate: bool = True) -> AppRecipe:
                     build_repo_dir=apk["build_repo_dir"],
                     build_timeout=apk.get("build_timeout"),
                     build_user=apk["build_user"],
+                    provision_root_timeout=apk.get("provision_root_timeout"),
+                    provision_timeout=apk.get("provision_timeout"),
                     provisioning=Provisioning(
                         android_home=prov["android_home"],
                         build_tools=prov["build_tools"],
@@ -374,7 +379,6 @@ def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str, cache_dir: Optional[str] = 
     return outputs, scripts, cache_dirs
 
 
-# FIXME: configure provisioning timeout in recipe?
 def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cache_dirs: CacheDirs, commit: str, *,
                       outputs: str, scripts: str, verbose: bool = False) -> Tuple[str, ...]:
     """Create podman/docker run command line from recipe."""
@@ -385,16 +389,18 @@ def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cache_dirs: Ca
         taskset, cpus = ["taskset", "--cpu-list", f"0-{recipe.build_cpus - 1}"], []
     else:
         taskset, cpus = [], ["--cpus", f"{recipe.build_cpus}"]
-    timeout = int(recipe.build_timeout or BUILD_TIMEOUT)
+    build_timeout = int(recipe.build_timeout or BUILD_TIMEOUT)
+    provision_root_timeout = int(recipe.provision_root_timeout or PROVISION_ROOT_TIMEOUT)
+    provision_timeout = int(recipe.provision_timeout or PROVISION_TIMEOUT)
     env, benv = [], build_env(recipe, commit)
     for k, v in benv.items():
         env.extend(["--env", f"{k}={v}"])
     cmd = [
-        f"timeout {PROVISION_ROOT_TIMEOUT}m /scripts/provision-root.sh",
+        f"timeout {provision_root_timeout}m /scripts/provision-root.sh",
         f"cd {benv['BUILD_HOME_DIR']}",
-        f"timeout {PROVISION_TIMEOUT}m su {benv['BUILD_USER']} /scripts/provision.sh",
+        f"timeout {provision_timeout}m su {benv['BUILD_USER']} /scripts/provision.sh",
         f"cd {benv['BUILD_REPO_DIR']}",
-        f"timeout {timeout}m su {benv['BUILD_USER']} /scripts/build.sh",
+        f"timeout {build_timeout}m su {benv['BUILD_USER']} /scripts/build.sh",
     ]
     container_cache_dirs = []
     container_cache_prefix = "/rbtlog_cache/"
