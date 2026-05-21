@@ -56281,6 +56281,21 @@
       "maintainer_notes": null
     }
   ],
+  "01b0ef8b2d7f36615d570a79ec5346a2d172a1bd62ee1a34b7b68535ca31b308": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v2.0.4/app-arm64-v8a-default-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20143,
+      "version_name": "2.0.4",
+      "tag": "v2.0.4",
+      "commit": "29b483dd619f39575bc53fee9bfab6dacf0e3e96",
+      "timestamp": 1779325412,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -72440,6 +72455,21 @@
       "tag": "v1.4.1",
       "commit": "e163cba8a77fe2504f0a579fc0492188a112587c",
       "timestamp": 1779219354,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "42e0f6ef6247b64343f572266b110a5996eb204fa1114386b9da817dad25c0a0": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.2.1/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 6,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "cb42a6ec569d10ad468df241e877fa32eb9de205",
+      "timestamp": 1779364415,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
