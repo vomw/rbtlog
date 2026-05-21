@@ -3447,6 +3447,21 @@
       "maintainer_notes": null
     }
   ],
+  "87b20700935cf0d42e1c35afb6a41d0d6a75c7763b6795a14aa9c2f9909c3c7d": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.2.2/Podcini.X-free-arm64-v8a-11.2.2.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 315,
+      "version_name": "11.2.2",
+      "tag": "v11.2.2",
+      "commit": "30356a42610feddb854546ef571aa020fb5234d2",
+      "timestamp": 1779371512,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -4882,6 +4897,21 @@
       "tag": "4.3.5",
       "commit": "431db0d8034bc8191d3166e7a62ba1835b51e71b",
       "timestamp": 1775830341,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8c4b6054b8c949684637a21639dfcfb2a4e6e6de8734906cbc3a34d9b21144e4": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.4.1/flicky-4.4.1-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 931,
+      "version_name": "4.4.1",
+      "tag": "4.4.1",
+      "commit": "2444753db149556bcbfbf07ccf9fff2a224aa8ef",
+      "timestamp": 1779371744,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -43314,6 +43344,21 @@
       "maintainer_notes": null
     }
   ],
+  "caad9bc3a69288fa84b6925b98706372d749b1f515075353fb99f7e17f7396d1": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.72/fire2kodi_v0.72.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 24,
+      "version_name": "0.72",
+      "tag": "v0.72",
+      "commit": "8251276a8636cdb7b9ef2cee215f641083bf7f7c",
+      "timestamp": 1779387949,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -45729,6 +45774,21 @@
       "maintainer_notes": null
     }
   ],
+  "3cd89615805e2e852186cb617213047deebb56329b7c4938ed3fec4a0f2c3196": [
+    {
+      "repository": "https://github.com/kaleedtc/Nitterium.git",
+      "apk_url": "https://github.com/kaleedtc/Nitterium/releases/download/v1.5.1/app-release.apk",
+      "appid": "com.kaleedtc.nitterium",
+      "version_code": 11,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "88fc53ded0fc811c3d2abd3aa2d123aed92a3720",
+      "timestamp": 1779388090,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
     {
       "repository": "https://github.com/kaleedtc/Privacium.git",
@@ -46550,6 +46610,21 @@
       "commit": "9549cebf7dcc31b6d80473b25112660dd2459a16",
       "timestamp": 1779199482,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7472b232dbfcececcf726456cd216449101cb2c8f29508f19f4f829e3f07422f": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.9.3/kelani-sbd-tracker-v0.9.3.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 36,
+      "version_name": "0.9.3",
+      "tag": "v0.9.3",
+      "commit": "0a53ce5ef3a6751dc72bfaae360a108452c3d841",
+      "timestamp": 1779374321,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -74140,6 +74215,21 @@
       "maintainer_notes": null
     }
   ],
+  "d8d689b16db8251a9f10920de3c6e3b48c355a2b85d180b973d1e5d536886ef5": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.11.0/amethyst-fdroid-arm64-v8a-v1.11.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 447,
+      "version_name": "1.11.0",
+      "tag": "v1.11.0",
+      "commit": "e0abc4a22437ca7c5cbee29ac25f31828a33dc88",
+      "timestamp": 1779374623,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9c16cbfceb948a869b30940a74c97d2de8647fbdb5c803d94a6ef09dc2e6c082": [
     {
       "repository": "https://github.com/vivizzz007/vivi-music.git",
@@ -74480,6 +74570,21 @@
       "tag": "v6.0.0",
       "commit": "3bff27b4b8d4271869004ad8722fa0bfba7d25f7",
       "timestamp": 1776848047,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6a66184cc98e9782bab1faf253aeffb829ccaf196563779f86566ab27a45732e": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v6.0.1/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 70,
+      "version_name": "6.0.1",
+      "tag": "v6.0.1",
+      "commit": "c026fa19a87680b19875ee39a26a6d67f3cc10e7",
+      "timestamp": 1779372293,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86260,6 +86365,21 @@
       "tag": "v1.5.1",
       "commit": "eef172a027ec91e729d2c28553e6a8bc1c727f02",
       "timestamp": 1779216222,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cfce7696f60b9437e24b664449ad7608ec72e790535fd6f1fcec8d890d72e7ef": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.5.2/Musicaxs-1.5.2.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 15,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "77f5bfbc386404b2317a2c2da3a90946b53b8204",
+      "timestamp": 1779372860,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111442,6 +111562,21 @@
       "maintainer_notes": null
     }
   ],
+  "f34324ab2556c0b4e82f19ed3201aa732be654c082bc221139c5af3f46f454c0": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/6.0.0/Autu-Mandu_6.0.0.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 600,
+      "version_name": "6.0.0",
+      "tag": "6.0.0",
+      "commit": "c65ea673c13079f95a8de3c3a05c2f66d9ce9a78",
+      "timestamp": 1779376425,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ca954d55488756a0c38e0faa77a5a9d99cf7b6ad1709524a57f3ab7a4f29df19": [
     {
       "repository": "https://github.com/juanro49/FeedTV.git",
@@ -114392,6 +114527,21 @@
       "tag": "v23.7.18",
       "commit": "54700128493e43780080a2ce828c2a5e92ee565c",
       "timestamp": 1779130574,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "af31a35fba74f346629195f7d77f1a8a25ea20e986a28ef55f2ad5fd212d644c": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.31/KashCal-23.7.31-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 549,
+      "version_name": "23.7.31",
+      "tag": "v23.7.31",
+      "commit": "0718274910fc2796d0f5975c811a2885fe2e5ed0",
+      "timestamp": 1779373064,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
