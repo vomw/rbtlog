@@ -104,6 +104,20 @@
                   "description": "build user name",
                   "type": "string"
                 },
+                "provision_root_timeout": {
+                  "description": "provision root timeout in minutes (not required, default: null)",
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "provision_timeout": {
+                  "description": "provision timeout in minutes (not required, default: null)",
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
                 "provisioning": {
                   "type": "object",
                   "properties": {
