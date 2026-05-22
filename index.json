@@ -3462,6 +3462,21 @@
       "maintainer_notes": null
     }
   ],
+  "01eccc4c35f1243a16818160925ca11e04b1cdb1c6133e51243afbbeb38454a3": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.2.2.1/Podcini.X-free-arm64-v8a-11.2.2.1.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 316,
+      "version_name": "11.2.2.1",
+      "tag": "v11.2.2.1",
+      "commit": "7a645fd045ead1b07a92151055fe412c7d4c2ef6",
+      "timestamp": 1779458003,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -10342,6 +10357,21 @@
       "tag": "23",
       "commit": "d2f99ced606aa0ed0e6e06cfdd798facb4b95012",
       "timestamp": 1769352504,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1fbf5172325c75654b0bffa117894f806ff61b7e8fb10d29f511ce58503b2a67": [
+    {
+      "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
+      "apk_url": "https://github.com/vbresan/HealthyBatteryCharging/releases/download/24/biz.binarysolutions.healthybatterycharging-2.1.3-release.apk",
+      "appid": "biz.binarysolutions.healthybatterycharging",
+      "version_code": 24,
+      "version_name": "2.1.3",
+      "tag": "24",
+      "commit": "637465e9f3aba814e1c4f7f183a46bd9061f0bbb",
+      "timestamp": 1779474445,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -17815,6 +17845,21 @@
       "maintainer_notes": null
     }
   ],
+  "f98d80c94944088f632d5bb5f014fe895332f591e7020ac04d4ffca8655eb4e6": [
+    {
+      "repository": "https://github.com/you-apps/ClockYou.git",
+      "apk_url": "https://github.com/you-apps/ClockYou/releases/download/v10.2/app-release.apk",
+      "appid": "com.bnyro.clock",
+      "version_code": 22,
+      "version_name": "10.2",
+      "tag": "v10.2",
+      "commit": "9c4cdfc6d860d522be0dd00e21ea12ac881baaa2",
+      "timestamp": 1779474563,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a008b12be29b6ca83cd33d7ee973f7eab81d60420c57ffbcffa2a51b06fa45ca": [
     {
       "repository": "https://github.com/you-apps/TranslateYou.git",
@@ -18440,6 +18485,21 @@
       "tag": "v1.6.2",
       "commit": "3ed78f8d368c043b6701c877b15b247368f496a1",
       "timestamp": 1778092826,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c58886d687156bfa4d2b89031637a6cae45be3caf166b930b8c84af55058f21b": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.3/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 19,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "20bfd1cfb7656edf4a0fb58189f6b83bdd00fe6e",
+      "timestamp": 1779474866,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -22756,6 +22816,21 @@
       "tag": "1.1.4.9v125",
       "commit": "2b874b5a8d7cfffeeb5cdc09937c232e71fb6169",
       "timestamp": 1776002199,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2897df02cf66a90e96629a19d5b03ad34198b05fd495126c5a7596c00ba38047": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.5.0v126/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 126,
+      "version_name": "1.1.5.0",
+      "tag": "1.1.5.0v126",
+      "commit": "0a745a2d46c42a1801e4c50d9494f4c7f424cb65",
+      "timestamp": 1779458317,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -27396,6 +27471,21 @@
       "maintainer_notes": null
     }
   ],
+  "12cd58777e9345f14e464996af1fd06dde29261733f44a6f5d9704fcfd828f49": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.55/habit-maker-fdroid-0.0.55.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 5501,
+      "version_name": "0.0.55-fdroid",
+      "tag": "0.0.55",
+      "commit": "83fdc98bab4c959a5a7cfe85784376ad7d94c430",
+      "timestamp": 1779475264,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -27901,6 +27991,21 @@
       "tag": "0.6.20",
       "commit": "da9a8e33afc39f640e9556f6a3eea88a46c6e804",
       "timestamp": 1775846741,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e471831382758b3fb492bf50d51e52fbd00fe877d80d005d74df4a09928431ec": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.21/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 44,
+      "version_name": "0.6.21",
+      "tag": "0.6.21",
+      "commit": "12cab728a56cd8d3c00dd901168917115a59139c",
+      "timestamp": 1779458855,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -29071,6 +29176,21 @@
       "tag": "5.1.8",
       "commit": "e579827316965b3936238edd039249ea8fa21558",
       "timestamp": 1777661500,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "56db7acdac14b5960b4147d21fdb8757764fa55e509c56f5cfec3d1d72287cea": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.9/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 179,
+      "version_name": "5.1.9",
+      "tag": "5.1.9",
+      "commit": "05b0ad9224f9c00b8f297beeda62fdf38d8d2d21",
+      "timestamp": 1779475550,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35637,6 +35757,21 @@
       "tag": "v1.22.17",
       "commit": "39bd28476d49e7ff188534d056a8781e22bacf08",
       "timestamp": 1778854872,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b115ed1c08693bd30f80e05570b4b208f674c3d61c95b863747ca4d50d579866": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.22.18/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 173,
+      "version_name": "1.22.18",
+      "tag": "v1.22.18",
+      "commit": "10e1882e7a64af8f38e0a806c60a6b9b4e59a0d6",
+      "timestamp": 1779475921,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -46639,6 +46774,21 @@
       "tag": "v0.9.4",
       "commit": "27a4515315d240d2e92b3f34fe3ef3b0c8be3b59",
       "timestamp": 1779394678,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3fc257240aab516b90e6639ebc915c08876db630a3a756c12f9c23f13fd9462a": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.9.5/kelani-sbd-tracker-v0.9.5.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 38,
+      "version_name": "0.9.5",
+      "tag": "v0.9.5",
+      "commit": "6cf68beee5a7a6688a666f54f4082c71ea877ed3",
+      "timestamp": 1779479010,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -69730,6 +69880,21 @@
       "maintainer_notes": null
     }
   ],
+  "d5eb1548f33c4861c600d2e6965061dd0e555d4cabbe52ef0e992f80a48d633b": [
+    {
+      "repository": "https://github.com/Pool-Of-Tears/Myne.git",
+      "apk_url": "https://github.com/Pool-Of-Tears/Myne/releases/download/v4.9.1/Myne-v4.9.1.apk",
+      "appid": "com.starry.myne",
+      "version_code": 491,
+      "version_name": "4.9.1",
+      "tag": "v4.9.1",
+      "commit": "3bc46bc1a2d8aa349d4ff07e1c71d536b581089a",
+      "timestamp": 1779476874,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4d5ddac73de505e650b681f05e6c4045e33763e84ef34894677a6112d6bc83e1": [
     {
       "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
@@ -72425,6 +72590,36 @@
       "tag": "v4.0.1",
       "commit": "b8cd95cfcc9dbfe3f6c5d46715ae27b8009cf1ee",
       "timestamp": 1777645318,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f57ae2e329eaf56f32bb0f4162b3b2d8955e427b204abebb7e647f7d017b3af5": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40100,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "54db221b285765a2f5e4d31ba20e445edaa26163",
+      "timestamp": 1779477271,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a83b1c9aa764783576f8d2d86065a33cfe68cbf52e7ed338e8e034403394a93c": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40100,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "54db221b285765a2f5e4d31ba20e445edaa26163",
+      "timestamp": 1779477433,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84045,6 +84240,21 @@
       "maintainer_notes": null
     }
   ],
+  "4592f02b0b031a05905dbf21509e9c5e5b92b61ec291ebd6d48f2fbaebab9c77": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.5.2/simple-notes-sync-v2.5.2-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 36,
+      "version_name": "2.5.2",
+      "tag": "v2.5.2",
+      "commit": "1324f7c016569ce84f8fd96df3010c2b14679416",
+      "timestamp": 1779459736,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -93266,6 +93476,21 @@
       "maintainer_notes": null
     }
   ],
+  "ebc63664f8935e84c7817ad6c601434089dd4874d158c4ca4196682a839f4e23": [
+    {
+      "repository": "https://github.com/PnX-SI/gn_mobile_occtax.git",
+      "apk_url": "https://github.com/PnX-SI/gn_mobile_occtax/releases/download/2.8.0/occtax-2.8.0-release.apk",
+      "appid": "fr.geonature.occtax2",
+      "version_code": 3370,
+      "version_name": "2.8.0",
+      "tag": "2.8.0",
+      "commit": "917c637ab4b307dd5d638d338c56704edfccddad",
+      "timestamp": 1779477611,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "086855d6a0bbae5a5bbefebe4ccf64d4da3109abd85ed1c0e60c6c0235cc0868": [
     {
       "repository": "https://github.com/tyrex-team/senslogs.git",
@@ -94417,6 +94642,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "aboutLibraries generated at build time"
+    }
+  ],
+  "0ff9a694fcdb2dafd5661cac285a49b4541c7b33bc38e8e1aebaffa5a48e34b2": [
+    {
+      "repository": "https://github.com/DP-Hridayan/aShellYou.git",
+      "apk_url": "https://github.com/DP-Hridayan/aShellYou/releases/download/v7.4.0/aShellYou-v7.4.0-fdroid-release.apk",
+      "appid": "in.hridayan.ashell",
+      "version_code": 62,
+      "version_name": "v7.4.0",
+      "tag": "v7.4.0",
+      "commit": "a4f9f2b9c7c8b49395a32b60a8e22595c79cabba",
+      "timestamp": 1779460097,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "b4a72afaa4bb67166efe8998e1b9c8dd88b064a52de9f3c38a7d5a93d6ea09a8": [
@@ -95687,6 +95927,21 @@
       "tag": "1.9.0",
       "commit": "82f51b3a1d86ae5a0691ca6971cdab2a84f15224",
       "timestamp": 1777575496,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "47a7f94120d4048d552f7f4358cf85291854d00fc1c9e55d4b2acf113eb7bf5a": [
+    {
+      "repository": "https://github.com/deprec8/EnigmaDroid.git",
+      "apk_url": "https://github.com/deprec8/EnigmaDroid/releases/download/1.9.1/app-release.apk",
+      "appid": "io.github.deprec8.enigmadroid",
+      "version_code": 18,
+      "version_name": "1.9.1",
+      "tag": "1.9.1",
+      "commit": "85a1c9bef989b09f8b585f4ca712368d6f88926a",
+      "timestamp": 1779477914,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114562,6 +114817,21 @@
       "maintainer_notes": null
     }
   ],
+  "c3915211802baa2fd10371f63047acb4c735fd5132fc9501d436576f0817393d": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.36/KashCal-23.7.36-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 554,
+      "version_name": "23.7.36",
+      "tag": "v23.7.36",
+      "commit": "5a3c3a7c49880348f88ee042ddcc35c5a05a7ebe",
+      "timestamp": 1779460437,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -118725,6 +118995,21 @@
       "tag": "v2.0.9.0",
       "commit": "83c653e9e61f9b0a0a83bcf6f8a55e36fdd61faf",
       "timestamp": 1774880767,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e1e627fc2563ba427629e3cd97ea19f6b4a5d6fed44d9e371aee2b480495d675": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.1.0.0/2-APlayer-v2.1.0.0-foss-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 21000,
+      "version_name": "2.1.0.0",
+      "tag": "v2.1.0.0",
+      "commit": "3e1889f181535a3bc2da23231e045e9ceea6c571",
+      "timestamp": 1779464017,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -123810,6 +124095,21 @@
       "tag": "v0.26.11",
       "commit": "28a8e646f01be0912336d47176d196979f33d10c",
       "timestamp": 1779288704,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6d0793f86b9e9958374d383713d97188828d94d505cc04d1595535782c84845d": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.12/WebviewKiosk_v0.26.12.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 126,
+      "version_name": "0.26.12",
+      "tag": "v0.26.12",
+      "commit": "be290e45b596f5e167a55d76d6f4b31b76e33949",
+      "timestamp": 1779461199,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
