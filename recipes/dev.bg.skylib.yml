@@ -1,0 +1,34 @@
+---
+repository: https://codeberg.org/bg443/Skylib.git
+updates: releases
+versions:
+  - tag: v1.0.0
+    apks:
+      - apk_pattern: Skylib-release\.apk
+        apk_url: https://codeberg.org/bg443/Skylib/releases/download/$$TAG$$/Skylib-release.apk
+        build:
+          - sed -r '/org.gradle.toolchains.foojay-resolver-convention/d' -i settings.gradle.kts
+          - sed -r '/foojay/d ; /JETBRAINS/d' -i gradle/gradle-daemon-jvm.properties
+          - ./gradlew :androidApp:assembleRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace androidApp/build/outputs/apk/release/androidApp-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

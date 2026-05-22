@@ -64891,6 +64891,21 @@
       "maintainer_notes": null
     }
   ],
+  "324c3a47ff6e915bb860ae376ee8e6884e3ea7b9c42275bce18a0528e3d6cdb0": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.1.1/app-foss-release.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10101,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "801a754030b5942e76398af0970213d60c3bb72a",
+      "timestamp": 1779486952,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -83635,6 +83650,21 @@
       "tag": "v1.1.1",
       "commit": "f28efba8a6500c9362f1572f0fb99b7c79c8c715",
       "timestamp": 1738879475,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bc21246230a0d057b249578e0978b69e64792a1451b3ed12933674884a686be4": [
+    {
+      "repository": "https://codeberg.org/bg443/Skylib.git",
+      "apk_url": "https://codeberg.org/bg443/Skylib/releases/download/v1.0.0/Skylib-release.apk",
+      "appid": "dev.bg.skylib",
+      "version_code": 1,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "b9c7e850e33362d9293e9316ebff5e58e0e0880d",
+      "timestamp": 1779489770,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
