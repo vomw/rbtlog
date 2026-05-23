@@ -36,3 +36,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.3c
+    apks:
+      - apk_pattern: app-.*elease\.apk
+        apk_url: https://github.com/helcel-net/keepass-fidelity/releases/download/1.3c/app-signedRelease.apk
+        build:
+          - sdkmanager --sdk_root=/usr/local/lib/android/sdk 'ndk;25.2.9519653'
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle
+          - echo -e "keyAlias=alias\nkeyPassword=keypass\nstorePassword=storepass\nstoreFile=keystore.properties" > app/keystore.properties
+          - bash patch_submodule.sh
+          - VERSION_CODE=$(git rev-list --count HEAD)
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -PVERSION_CODE=$VERSION_CODE
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/keepass-fidelity/keepass-fidelity
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_git: false
+          verify_gradle_wrapper: true
