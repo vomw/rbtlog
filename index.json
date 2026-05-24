@@ -54903,6 +54903,21 @@
       "maintainer_notes": null
     }
   ],
+  "75841c5b4e32c118563fa8f7679f4cb66ed6a433208d501e7c99d3919b1ae817": [
+    {
+      "repository": "https://github.com/nikhilvishwakarma00/Velune.git",
+      "apk_url": "https://github.com/nikhilvishwakarma00/Velune/releases/download/v1.1.2/velune-universal-release.apk",
+      "appid": "com.nikhil.yt",
+      "version_code": 10,
+      "version_name": "1.1.2 ",
+      "tag": "v1.1.2",
+      "commit": "ef6e9dad3564edd2e4db855f8e9340fb4a41c84d",
+      "timestamp": 1779563485,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "dirty build"
+    }
+  ],
   "58335376cef98186b2fe4275528fd55d6304341f4f5cb6e247f5242879145108": [
     {
       "repository": "https://github.com/NimaKhajehpour/MyMood.git",
@@ -68150,6 +68165,21 @@
       "tag": "V1.0.31",
       "commit": "978102fcd9e631c105205a8812c8a3a5d1645559",
       "timestamp": 1778607091,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "688af30143df327a476fb10992f0d353d8f02c49be2c741efb1462e5a43d16ff": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.33/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 3602,
+      "version_name": "1.0.33",
+      "tag": "V1.0.33",
+      "commit": "a3a35b4510b4199f10c9824c83faf601e0d0440a",
+      "timestamp": 1779617716,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98927,6 +98957,21 @@
       "tag": "v0.1.55",
       "commit": "44a26c0fa25c079d1c145aaf324f7f8e7568e49b",
       "timestamp": 1777317716,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8b304cbd3d888bdd8b8f453502940ee75fe2bee2b678b4df64f69d52fe6d7960": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.57/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1057,
+      "version_name": "0.1.57",
+      "tag": "v0.1.57",
+      "commit": "b90d24a26fd7126d5dd06a9154b931368a981d6d",
+      "timestamp": 1779625367,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

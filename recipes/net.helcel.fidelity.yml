@@ -1,6 +1,9 @@
 ---
 repository: https://github.com/helcel-net/keepass-fidelity.git
 updates: releases
+notes:
+  - 1.3c+ use KeePassDX as submodule, hence verify_git=false; further, the crypto module needs NDK 25.2.9519653 to build, while the rest needs 28.2.13676358 to strip (1 MB) of debug info from native libs
+  - 'FIXME: with the release following 1.3c, NDK 25.2.9519653 will be defined in the app itself, so we can drop the sdkmanager call from the recipe again (just keeping NDK 28.2 to match GH runners for library stripping)'
 versions:
   - tag: 1.2d
     apks:
