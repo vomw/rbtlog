@@ -46,8 +46,24 @@ class Error(Exception):
 
 
 @dataclass(frozen=True)
-class CacheDirs:
-    cmdline_tools: str
+class CachedTool:
+    """Cached tool."""
+    name: str
+    file_name: str
+    version: str
+    url: str
+    sha256: str
+
+    def for_json(self) -> Dict[str, Any]:
+        return dict(name=self.name, file_name=self.file_name,
+                    version=self.version, url=self.url, sha256=self.sha256)
+
+
+@dataclass(frozen=True)
+class CachedToolWithCacheDir:
+    """Cached tool with cache dir information."""
+    cache_dir: str
+    cached_tool: CachedTool
 
 
 @dataclass(frozen=True)
@@ -66,6 +82,7 @@ class Provisioning:
     """Provisioning data."""
     android_home: str
     build_tools: Optional[str]
+    cached_tools: list[CachedTool]
     cmake: Optional[str]
     cmdline_tools: Download
     extra_packages: Tuple[str, ...]
@@ -81,8 +98,9 @@ class Provisioning:
 
     def for_json(self) -> Dict[str, Any]:
         return dict(
-            android_home=self.android_home, build_tools=self.build_tools, cmake=self.cmake,
-            cmdline_tools=self.cmdline_tools.for_json(), extra_packages=self.extra_packages,
+            android_home=self.android_home, build_tools=self.build_tools,
+            cached_tools=[cached_tool.for_json() for cached_tool in self.cached_tools],
+            cmake=self.cmake, cmdline_tools=self.cmdline_tools.for_json(), extra_packages=self.extra_packages,
             image=self.image, jdk=self.jdk, ndk=self.ndk, platform=self.platform,
             platform_tools=self.platform_tools, tools=self.tools, verify_git=self.verify_git,
             verify_gradle_wrapper=self.verify_gradle_wrapper, windows_like=self.windows_like)
@@ -174,6 +192,16 @@ def parse_yaml(recipe_file: str, *, validate: bool = True) -> AppRecipe:
                     provisioning=Provisioning(
                         android_home=prov["android_home"],
                         build_tools=prov["build_tools"],
+                        cached_tools=[
+                            CachedTool(
+                                name=cached_tool["name"],
+                                file_name=cached_tool["file_name"],
+                                version=cached_tool["version"],
+                                url=cached_tool["url"],
+                                sha256=cached_tool["sha256"]
+                            )
+                            for cached_tool in prov.get("cached_tools", [])
+                        ],
                         cmake=prov["cmake"],
                         cmdline_tools=Download(
                             version=prov["cmdline_tools"]["version"],
@@ -250,7 +278,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
         if not commit:
             commit = result["commit"] = tag_to_commit(recipe.repository, recipe.tag)
         with tempfile.TemporaryDirectory() as tmpdir:
-            outputs, scripts, cache_dirs = prepare_tmpdir(recipe, tmpdir, cache_dir, verbose=verbose)
+            outputs, scripts, cached_tools_with_cache_dir = prepare_tmpdir(recipe, tmpdir, cache_dir, verbose=verbose)
             if recipe.apk_url:
                 signed_sha, vercode, vername = download_apk(
                     recipe.apk_url, appid, tmpdir, allow_local=bool(apk_url), verbose=verbose)
@@ -258,7 +286,7 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
                               upstream_signed_apk_sha256=signed_sha)
             if backend in (BuildBackend.PODMAN, BuildBackend.DOCKER):
                 pull_cmd = (backend.name.lower(), "pull", "--", recipe.provisioning.image)
-                run_cmd = podman_docker_cmd(recipe, backend, cache_dirs, commit, outputs=outputs, scripts=scripts, verbose=verbose)
+                run_cmd = podman_docker_cmd(recipe, backend, cached_tools_with_cache_dir, commit, outputs=outputs, scripts=scripts, verbose=verbose)
                 commands = [pull_cmd, run_cmd]
             else:
                 raise NotImplementedError(f"Unknown backend: {backend}")
@@ -307,50 +335,63 @@ def build_with_backend(backend: BuildBackend, appid: str, recipe: BuildRecipe, *
     return dict(result, error=error)
 
 
-def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> CacheDirs:
+def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> dict[str, CachedToolWithCacheDir]:
     r"""
-    Prepare cache directories for commonly reused components (currently only cmdline_tools but can be extended).
+    Prepare cache directories for commonly reused components.
 
     If cache_dir is None, this cache has the same lifecycle as tmpdir. However, if cache_dir is defined, data will be persisted in cache_dir.
 
     """
+    cached_tools = provisioning.cached_tools
+    cached_tools.append(
+        CachedTool(
+            name="cmdline_tools",
+            file_name="tools.zip",
+            version=provisioning.cmdline_tools.version,
+            url=provisioning.cmdline_tools.url,
+            sha256=provisioning.cmdline_tools.sha256
+        )
+    )
     keep_cache = cache_dir != None
     if not cache_dir:
         cache_dir = tempfile.TemporaryDirectory().name
-    cache_dir_cmdline_tools = os.path.join(cache_dir, "cmdline_tools")
-    cache_dir_cmdline_tool = os.path.join(cache_dir_cmdline_tools, provisioning.cmdline_tools.version)
-    if not os.path.exists(cache_dir_cmdline_tool):
-        os.makedirs(cache_dir_cmdline_tool, 0o755)    # allow reading from within container
-    cache_dir_cmdline_tool_file = os.path.join(cache_dir_cmdline_tool, "tools.zip")
-    cache_exists = False
-    if os.path.exists(cache_dir_cmdline_tool_file):
-        sha256 = sha256_file(cache_dir_cmdline_tool_file)
-        if sha256 == provisioning.cmdline_tools.sha256:
-            cache_exists = True
+    cached_tools_with_cache_dir = {}
+    for cached_tool in cached_tools:
+        if cached_tool.name.lower() in cached_tools_with_cache_dir.keys():
+            raise Error(f"Cached tool name {cached_tool.name} is not unique. Cached tool names must be unique.", file=sys.stderr)
+        cache_dir_tool = os.path.join(cache_dir, cached_tool.name)
+        cache_dir_tool_version = os.path.join(cache_dir_tool, cached_tool.version)
+        if not os.path.exists(cache_dir_tool_version):
+            os.makedirs(cache_dir_tool_version, 0o755)    # allow reading from within container
+        cache_dir_tool_version_file = os.path.join(cache_dir_tool_version, cached_tool.file_name)
+        cache_exists = False
+        if os.path.exists(cache_dir_tool_version_file):
+            sha256 = sha256_file(cache_dir_tool_version_file)
+            if sha256 == cached_tool.sha256:
+                cache_exists = True
+                if verbose:
+                    print(f"Found valid local cache for version {cached_tool.version!r} of {cached_tool.name!r}", file=sys.stderr)
+            else:
+                if verbose:
+                    print(f"Local cache for version {cached_tool.version!r} of {cached_tool.name!r} did not match sha256sum {cached_tool.sha256!r}, deleting...", file=sys.stderr)
+                os.remove(cache_dir_tool_version_file)
+        if not cache_exists:
+            if not is_http_url(cached_tool.url):
+                raise Error(f"Non-http(s) URL for {cached_tool.name!r}: {cached_tool.url!r}")
             if verbose:
-                print(f"Found valid local cache for version {provisioning.cmdline_tools.version!r} of cmdline_tools", file=sys.stderr)
-        else:
-            if verbose:
-                print(f"Local cache for version {provisioning.cmdline_tools.version!r} of cmdline_tools did not match sha256sum {provisioning.cmdline_tools.sha256!r}, deleting...", file=sys.stderr)
-            os.remove(cache_dir_cmdline_tool_file)
-    if not cache_exists:
-        if not is_http_url(provisioning.cmdline_tools.url):
-            raise Error(f"Non-http(s) URL for cmdline_tools: {provisioning.cmdline_tools.url!r}")
-        if verbose:
-            print(f"Downloading version {provisioning.cmdline_tools.version!r} of cmdline_tools from {provisioning.cmdline_tools.url!r}...", file=sys.stderr)
-        sha256 = download_file_with_retries(provisioning.cmdline_tools.url, cache_dir_cmdline_tool_file, retries=5, verbose=verbose)
-        if sha256 != provisioning.cmdline_tools.sha256:
-            raise Error(f"Expected cmdline_tools to have {provisioning.cmdline_tools.sha256!r} as sha256, but got {sha256}")
-    # copy to tmpdir to not leak host path during the build
-    shutil.copytree(cache_dir_cmdline_tool, os.path.join(tmpdir, "cmdline_tools"))
-    if not keep_cache:
-        shutil.rmtree(cache_dir)
-    return CacheDirs(
-        cmdline_tools=os.path.join(tmpdir, "cmdline_tools")
-    )
+                print(f"Downloading version {cached_tool.version!r} of {cached_tool.name!r} from {cached_tool.url!r}...", file=sys.stderr)
+            sha256 = download_file_with_retries(cached_tool.url, cache_dir_tool_version_file, retries=5, verbose=verbose)
+            if sha256 != cached_tool.sha256:
+                raise Error(f"Expected {cached_tool.name!r} to have {cached_tool.sha256!r} as sha256, but got {sha256}")
+        # copy to tmpdir to not leak host path during the build
+        shutil.copytree(cache_dir_tool_version, os.path.join(tmpdir, cached_tool.name))
+        if not keep_cache:
+            shutil.rmtree(cache_dir)
+        cached_tools_with_cache_dir[cached_tool.name.lower()] = CachedToolWithCacheDir(cache_dir=os.path.join(tmpdir, cached_tool.name), cached_tool=cached_tool)
+    return cached_tools_with_cache_dir
 
 
-def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> Tuple[str, str, CacheDirs]:
+def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str, cache_dir: Optional[str] = None, verbose: bool = False) -> Tuple[str, str, dict[str, CachedToolWithCacheDir]]:
     """Prepare directories and scripts in tmpdir."""
     outputs = os.path.join(tmpdir, "outputs")
     scripts = os.path.join(tmpdir, "scripts")
@@ -367,19 +408,19 @@ def prepare_tmpdir(recipe: BuildRecipe, tmpdir: str, cache_dir: Optional[str] = 
     os.chmod(cache, 0o755)      # allow reading from within container
     shutil.copyfile(os.path.join("scripts", "provision-root.sh"), provision_root_sh)
     shutil.copyfile(os.path.join("scripts", "provision.sh"), provision_sh)
-    cache_dirs = prepare_cache(recipe.provisioning, cache, cache_dir, verbose=verbose)
+    cached_tools_with_cache_dir = prepare_cache(recipe.provisioning, cache, cache_dir, verbose=verbose)
     os.chmod(provision_root_sh, 0o755)
     os.chmod(provision_sh, 0o755)
     with open(build_sh, "w", encoding="utf-8") as fh:
         fh.write("#!/bin/bash\nset -xeuo pipefail\n")
         fh.write('export PATH="${PATH}:${ANDROID_HOME}/cmdline-tools/'
-                 '${PROVISIONING_CMDLINE_TOOLS_VERSION}/bin"\n')
+                 '${PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION}/bin"\n')
         fh.write(recipe.build + "\n")
     os.chmod(build_sh, 0o755)
-    return outputs, scripts, cache_dirs
+    return outputs, scripts, cached_tools_with_cache_dir
 
 
-def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cache_dirs: CacheDirs, commit: str, *,
+def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cached_tools_with_cache_dir: dict[str, CachedToolWithCacheDir], commit: str, *,
                       outputs: str, scripts: str, verbose: bool = False) -> Tuple[str, ...]:
     """Create podman/docker run command line from recipe."""
     if not recipe.build_cpus:
@@ -404,11 +445,16 @@ def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cache_dirs: Ca
     ]
     container_cache_dirs = []
     container_cache_prefix = "/rbtlog_cache/"
-    for field in dataclasses.fields(cache_dirs):
-        cache_host_directory = getattr(cache_dirs, field.name)
-        cache_container_directory = os.path.join(container_cache_prefix, field.name)
+    for cached_tool_name, cached_tool_info in cached_tools_with_cache_dir.items():
+        # Replace all potentially misinterpretable characters with underscores
+        # and uppercase the env var for consistency
+        env_var_safe_cached_tool_name = re.sub(r'[^a-zA-Z0-9]', '_', cached_tool_name.upper())
+        cache_host_directory = cached_tool_info.cache_dir
+        cache_container_directory = os.path.join(container_cache_prefix, cached_tool_name)
         container_cache_dirs.extend(["--volume", f"{cache_host_directory}:{cache_container_directory}:ro"])
-        env.extend(["--env", f"PROVISIONING_{field.name.upper()}_RO_CACHE_PATH={cache_container_directory}"])
+        env.extend(["--env", f"PROVISIONING_CACHE_{env_var_safe_cached_tool_name}_PATH={os.path.join(cache_container_directory, cached_tool_info.cached_tool.file_name)}"])
+        env.extend(["--env", f"PROVISIONING_CACHE_{env_var_safe_cached_tool_name}_VERSION={cached_tool_info.cached_tool.version}"])
+        env.extend(["--env", f"PROVISIONING_CACHE_{env_var_safe_cached_tool_name}_SHA256={cached_tool_info.cached_tool.sha256}"])
     return (
         *taskset, backend.name.lower(), "run", "--rm",
         "--volume", f"{outputs}:/outputs",
@@ -434,8 +480,6 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         BUILD_DIRS=":".join(recipe.build_dirs),
         PROVISIONING_BUILD_TOOLS=recipe.provisioning.build_tools or "",
         PROVISIONING_CMAKE=recipe.provisioning.cmake or "",
-        PROVISIONING_CMDLINE_TOOLS_VERSION=recipe.provisioning.cmdline_tools.version,
-        PROVISIONING_CMDLINE_TOOLS_SHA256=recipe.provisioning.cmdline_tools.sha256,
         PROVISIONING_EXTRA_PACKAGES=",".join(recipe.provisioning.extra_packages),
         PROVISIONING_JDK=recipe.provisioning.jdk,
         PROVISIONING_NDK=recipe.provisioning.ndk or "",

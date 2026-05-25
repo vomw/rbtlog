@@ -136,6 +136,45 @@
                         "null"
                       ]
                     },
+                    "cached_tools": {
+                      "description": "optional extra (cached) tools",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "description": "name of the tool, used for the cache directory name",
+                            "type": "string"
+                          },
+                          "file_name": {
+                            "description": "file name to save downloaded file as",
+                            "type": "string"
+                          },
+                          "version": {
+                            "description": "tool version",
+                            "type": "string"
+                          },
+                          "url": {
+                            "description": "download URL",
+                            "type": "string",
+                            "pattern": "^https://.*$"
+                          },
+                          "sha256": {
+                            "description": "SHA-256 checksum (hex)",
+                            "type": "string",
+                            "pattern": "^[0-9a-f]{64}$"
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "file_name",
+                          "version",
+                          "url",
+                          "sha256"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
                     "cmake": {
                       "description": "optional Android SDK cmake version",
                       "type": [
