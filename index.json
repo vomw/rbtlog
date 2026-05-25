@@ -61531,6 +61531,21 @@
       "maintainer_notes": null
     }
   ],
+  "868dc3863ac7fe8ea552f68fee54cbea12ab56bced48f3b6a1bdfaa92b1a39b4": [
+    {
+      "repository": "https://github.com/yuroyami/syncplay-mobile.git",
+      "apk_url": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.21.10/syncplay-0.21.10-exo-only.apk",
+      "appid": "com.reddnek.syncplay",
+      "version_code": 1000021010,
+      "version_name": "0.21.10",
+      "tag": "v0.21.10",
+      "commit": "5619a316e1cf54bb0fe8407a87c725c3435e1b16",
+      "timestamp": 1779705192,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
     {
       "repository": "https://github.com/DanielRendox/GroceryGenius.git",
@@ -65186,6 +65201,21 @@
       "tag": "v1.1.1",
       "commit": "801a754030b5942e76398af0970213d60c3bb72a",
       "timestamp": 1779486952,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "274e9cd8fbab3a7609bbfa4a6ca15c3a0bec6c67f4d872c875f5ab29f7ebefb7": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.2.0/app-foss-release.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10200,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "38df79334a290cbf0787c46643de1a76a513e800",
+      "timestamp": 1779708565,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -93501,6 +93531,21 @@
       "tag": "v6.70",
       "commit": "3d09f76673c54e31f8f7a34f4beaa21d51038c49",
       "timestamp": 1769096480,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e75eb36dda10f0c801d3cc6b0f2697d0d8ca69f96b6232d46b1f6938feef42d8": [
+    {
+      "repository": "https://github.com/EXALAB/AnLinux-Adfree.git",
+      "apk_url": "https://github.com/EXALAB/AnLinux-Adfree/releases/download/v6.72/app-release.apk",
+      "appid": "exa.lnx.a",
+      "version_code": 672,
+      "version_name": "6.72 Stable",
+      "tag": "v6.72",
+      "commit": "3526d24eb3a98948e45cb226f1bbb6d7fcf4f191",
+      "timestamp": 1779707587,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
