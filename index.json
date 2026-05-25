@@ -3507,6 +3507,21 @@
       "maintainer_notes": null
     }
   ],
+  "0099ff98741161edc0ded36a0af9a9a4db5e5037c26f56f991801aad5d77e3f4": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.2.2.4/Podcini.X-free-arm64-v8a-11.2.2.4.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 319,
+      "version_name": "11.2.2.4",
+      "tag": "v11.2.2.4",
+      "commit": "be696de8d12da6d8de98079ae0b5a51aec74c909",
+      "timestamp": 1779717146,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -13387,6 +13402,21 @@
       "tag": "v1.8.0",
       "commit": "01352387746514eccb1bffd3dee30256abcaed08",
       "timestamp": 1777643729,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c8c12538346be1fba2c7d8d2714935a8bdf207ef4536d3c327967b88fceea85c": [
+    {
+      "repository": "https://github.com/BURG3R5/FileFlow.git",
+      "apk_url": "https://github.com/BURG3R5/FileFlow/releases/download/v1.9.0/FileFlow_v1.9.0.apk",
+      "appid": "co.adityarajput.fileflow",
+      "version_code": 11,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "87357def9fe16c2a47dd25423e9fcee15e6d6874",
+      "timestamp": 1779717354,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -24511,6 +24541,21 @@
       "tag": "v0.4.0-beta",
       "commit": "0c0a42f2a333c9413b36de22117281c7cc7040cf",
       "timestamp": 1775225800,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "720fecfe536824394a38e6e3e14c4a0f27d81170af1b0dd7b127e87ad77b0bbf": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v1.0/wifi-audio-streaming-v1.0.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 8,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "6a8485acc71c4493b089e8d63eec6db1b92d2b7c",
+      "timestamp": 1779717474,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -46974,6 +47019,21 @@
       "maintainer_notes": null
     }
   ],
+  "9e660b770a88026b892df9167d44cec1bf3247870775694fe76d6e2e3f00d52f": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.9.9/kelani-sbd-tracker-v0.9.9.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 42,
+      "version_name": "0.9.9",
+      "tag": "v0.9.9",
+      "commit": "6aa594d08513454bdf26fdb4bb9df6fb0b396da3",
+      "timestamp": 1779717612,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -53175,6 +53235,21 @@
       "tag": "2.11",
       "commit": "1318c57ee1d1eac9ed7f41b7586df54860de476b",
       "timestamp": 1779199574,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ab99abc5fedd72cd2f4b31ce2f7641fd95d115ac56f873e4f654d8b1e006777a": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.12/auto-light-212.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 14,
+      "version_name": "2.12",
+      "tag": "2.12",
+      "commit": "a95f003a600fa732409c8f1f74904ff90054c929",
+      "timestamp": 1779733537,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84735,6 +84810,21 @@
       "maintainer_notes": null
     }
   ],
+  "055f25a9df9ddaa8c432be094f310d9620fb660ab44aee8e2657e4b701444c75": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.6.0/simple-notes-sync-v2.6.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 37,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "8c6f55d403609fa1bbc49ba9c373935a7d160ea5",
+      "timestamp": 1779717723,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -87105,6 +87195,21 @@
       "maintainer_notes": null
     }
   ],
+  "74e3eaabccfa8252a248feb433d60f892b6c3ba1cca6d3250b307acbc89622cf": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.6.1/Musicaxs-1.6.1.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 17,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "88b11a0b803f0ce7552526453daafce51595142b",
+      "timestamp": 1779717869,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07cadccc5953f398ebe1d95c3253c99f05e99ee39496a17c7af96bbe09f6cfd6": [
     {
       "repository": "https://github.com/PranavPurwar/AppLock.git",
@@ -88388,6 +88493,21 @@
       "tag": "v12.0.9",
       "commit": "8cf30798862e1100ea325e7e4fa7e1dc7819292e",
       "timestamp": 1775398444,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f360953564c8041825165f3068480a00efd0efe12824f1208e0038dd4964c1a3": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v12.1.0/Flip2DND.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1210,
+      "version_name": "12.1.0-free",
+      "tag": "v12.1.0",
+      "commit": "70a529268c2b84a6fe627000b1cf1f16f0635c18",
+      "timestamp": 1779718012,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94196,6 +94316,21 @@
       "maintainer_notes": null
     }
   ],
+  "ad24f5ff9c0adc8529eaa80e07266b8b352a035a2eb37e75aec6797ef9234371": [
+    {
+      "repository": "https://github.com/SimonMarquis/SleepTimer.git",
+      "apk_url": "https://github.com/SimonMarquis/SleepTimer/releases/download/1.6.0/app-release.apk",
+      "appid": "fr.smarquis.sleeptimer",
+      "version_code": 16000,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "fab9dc84f4087b6393a631ef38783e24b1438ceb",
+      "timestamp": 1779733658,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8fea060db360203a366ab783b344dc16d354545cfc1b44bf1b58020c5a9abc84": [
     {
       "repository": "https://github.com/256x/launcher.git",
@@ -99862,6 +99997,21 @@
       "maintainer_notes": null
     }
   ],
+  "bc3bf1f137141abb1b7c894ef1f557cf5cb016e2496abd47054f4d4013b5c564": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.28/SMS2Email-v1.1.28-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 41,
+      "version_name": "1.1.28",
+      "tag": "v1.1.28",
+      "commit": "7f1a11e96d791136a1c567e2975cf00d9d8cd6e1",
+      "timestamp": 1779718182,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fde327f42325f8a528f4dd85059c7c992187fecef7c79d4bb2103d619a5c2162": [
     {
       "repository": "https://github.com/SoundRemote/client-android.git",
@@ -104687,6 +104837,21 @@
       "tag": "1.2b",
       "commit": "d262331d1b5cf293379bfc43e61bbe00957f875d",
       "timestamp": 1779561909,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e21c82b745990f13c76d4fb2b0b8528e82f6412e7d20a32aa32611847943f3d2": [
+    {
+      "repository": "https://github.com/helcel-net/beans.git",
+      "apk_url": "https://github.com/helcel-net/beans/releases/download/1.3a/app-signedRelease.apk",
+      "appid": "net.helcel.beans",
+      "version_code": 839,
+      "version_name": "1.3",
+      "tag": "1.3a",
+      "commit": "f8ed30cd739ba02df628191b297eca4f3e2fb3f1",
+      "timestamp": 1779718335,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -120975,6 +121140,21 @@
       "tag": "0.3.1",
       "commit": "c0800d027303468de7a3cf480ff6594dbf363e6b",
       "timestamp": 1746652011,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6b8607c6f7dc3b5a323bd7fbb93b09046a54bc30eea66f3c8f5a02dbe08aaab4": [
+    {
+      "repository": "https://codeberg.org/s1m/hw-fido2-provider.git",
+      "apk_url": "https://codeberg.org/s1m/hw-fido2-provider/releases/download/1.0.0/hwfido2provider.apk",
+      "appid": "s1m.hwfido2provider",
+      "version_code": 9,
+      "version_name": "1.0.0",
+      "tag": "1.0.0",
+      "commit": "99825da887066407382ee1d5e06f42db6dce6036",
+      "timestamp": 1779722224,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -66,3 +66,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.3a
+    apks:
+      - apk_pattern: app-signedRelease\.apk
+        apk_url: https://github.com/helcel-net/beans/releases/download/1.3a/app-signedRelease.apk
+        build:
+          - VERSION_CODE=$(git rev-list --count HEAD)
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle
+          - chmod +x gradlew
+          - echo -e "keyAlias=alias\nkeyPassword=keypass\nstorePassword=storepass\nstoreFile=keystore.properties" > app/keystore.properties
+          - ./gradlew assembleSignedRelease -PVERSION_CODE=$VERSION_CODE
+          - mv app/build/outputs/apk/signedRelease/app-signedRelease-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
