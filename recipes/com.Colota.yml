@@ -332,3 +332,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.9.0
+    apks:
+      - apk_pattern: app-foss-arm64-v8a-release\.apk
+        apk_url: https://github.com/dietrichmax/colota/releases/download/v1.9.0/app-foss-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i apps/mobile/android/app/build.gradle
+          - wget -q -O /tmp/nodejs-lts.zip -- https://nodejs.org/dist/v24.16.0/node-v24.16.0-linux-x64.tar.xz
+          - sha256sum -c <<< 'd804845d34eddc21dc1092b519d643ef40b1f58ec5dec5c22b1f4bd8fabde6c9  /tmp/nodejs-lts.zip'
+          - tar xf /tmp/nodejs-lts.zip -C /opt
+          - export PATH="${PATH}:/opt/node-v24.16.0-linux-x64/bin:${HOME}/.node/bin"
+          - npm ci
+          - npm run build -w @colota/shared
+          - sed -i 's/getHostIpAddress(),/project.properties["reactNativeDevServerIp"]?.toString() ?:\ "localhost",/' node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/kotlin/com/facebook/react/utils/AgpConfiguratorUtils.kt
+          - sed -i '/^project(rnscreens)/a add_link_options(-Wl,--build-id=none)' node_modules/react-native-screens/android/CMakeLists.txt
+          - pushd apps/mobile/android
+          - chmod +x gradlew
+          - ./gradlew clean assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/app-foss-arm64-v8a-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/colota/colota
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

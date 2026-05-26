@@ -243,3 +243,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.25
+    apks:
+      - apk_pattern: s.*\.apk
+        apk_url: https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.25/ssc-1.0.25.apk
+        build:
+          - pushd /build
+          - git clone https://github.com/teststation5/NewPipeExtractor.git NewPipeExtractor-teststation5
+          - cd NewPipeExtractor-teststation5
+          - git checkout d2337f03d934ff1f325f26dc4adb1748594f0b56
+          - popd
+          - sed -r '/storeFile file/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

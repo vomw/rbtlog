@@ -3522,6 +3522,21 @@
       "maintainer_notes": null
     }
   ],
+  "1477bee4a16265b94234c2cb7f784aa983b4bc9567c536403092121e0dc3e8ed": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.2.2.5/Podcini.X-free-arm64-v8a-11.2.2.5.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 320,
+      "version_name": "11.2.2.5",
+      "tag": "v11.2.2.5",
+      "commit": "0f6c54e8ba0692a59bf2eac342fea14b3cf01dc8",
+      "timestamp": 1779820011,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -18580,6 +18595,21 @@
       "maintainer_notes": null
     }
   ],
+  "9194bdd9fbddb8f559019bca5f4d3e43d19d57281decd19ff151bfb1716fa509": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.4/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 20,
+      "version_name": "1.6.4",
+      "tag": "v1.6.4",
+      "commit": "707856836c3740b777a5b269606482fa94e98f69",
+      "timestamp": 1779803508,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
     {
       "repository": "https://github.com/BKK31/budgetlens.git",
@@ -23706,6 +23736,21 @@
       "maintainer_notes": null
     }
   ],
+  "7fef86437b70357ffed904a7fc62d6e69c3dab5dfdaa5a8848020c1db0fe59c5": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.9.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 38,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "d24f4671416ceb7e18033ee611ca951ea1ac05a2",
+      "timestamp": 1779803705,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -26416,6 +26461,21 @@
       "tag": "v2.22.0",
       "commit": "0b6b3d5985d56bd2441259063db270fb4d05a418",
       "timestamp": 1779043989,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "21db52eaeb5b842c19ff2c0adc5290b4d4d8e187dc21061175880738e4d5029e": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.23.0/daily-you-arm64-v8a-v2.23.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20230002,
+      "version_name": "2.23.0",
+      "tag": "v2.23.0",
+      "commit": "44020ec563b9a73ceff236bec0b6525ca8d10922",
+      "timestamp": 1779820472,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31274,6 +31334,21 @@
       "tag": "v0.7.0-alpha",
       "commit": "00e7c4926883e9716f889411e659662548879d63",
       "timestamp": 1779630866,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c3b88e6e207a7fee0a43e634cb561e0d13b1bf1015f5cab912d49b3cc8e92c36": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.7.1-alpha/YagniLauncher-v0.7.1-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 71,
+      "version_name": "0.7.1-alpha",
+      "tag": "v0.7.1-alpha",
+      "commit": "4588aa60606a4b4fc7c347b59d4bd4c303609692",
+      "timestamp": 1779804861,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -57721,6 +57796,21 @@
       "maintainer_notes": null
     }
   ],
+  "f159f932a8a0b763a65b5c663ad46e1d6261d2ce83d1e21860fcdc45f4fd328a": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.25/ssc-1.0.25.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 25,
+      "version_name": "1.0.25",
+      "tag": "v1.0.25",
+      "commit": "b632d52b9b969315b2e4bc3c96c6cad346f656f3",
+      "timestamp": 1779821616,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "27043b59fbb7ad0ffa26a2b108b5b40375f29faf192f78bd349e3bc465d744e0": [
     {
       "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
@@ -70475,6 +70565,21 @@
       "tag": "v0.31",
       "commit": "6f94baaac70a63f1fc8e6b4dbcf4ec2081bf5a94",
       "timestamp": 1775679745,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5afc3dd3cf1c5eab8078dcf384242ecc3aa091785ef0a45bea113de2d5adee75": [
+    {
+      "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
+      "apk_url": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.32/app-release.apk",
+      "appid": "com.sunilpaulmathew.debloater",
+      "version_code": 32,
+      "version_name": "v0.32",
+      "tag": "v0.32",
+      "commit": "996540c5c8923e60b5a2a0bf52a86881b43b7c9f",
+      "timestamp": 1779805176,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90326,6 +90431,21 @@
       "maintainer_notes": null
     }
   ],
+  "a53a2b47ce7fe4f39b2d8f416f5f04e859c0717799fc91786156114353c11d66": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.4.2-rc0/eu.darken.bluemusic-v3.4.2-rc0-30402000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30402000,
+      "version_name": "3.4.2-rc0",
+      "tag": "v3.4.2-rc0",
+      "commit": "3489562a9708132f0e988493f1f5d87e31b389a6",
+      "timestamp": 1779805242,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -90741,6 +90861,21 @@
       "tag": "v5.1.5-rc0",
       "commit": "9d419794993ac87dec964a6910f58ce35602b18f",
       "timestamp": 1778080924,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3f500f3b5e51ac0761f0d6f03f307313c658b2c04694f817176440a4c74c38af": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.1.6-rc0/eu.darken.capod-v5.1.6-rc0-50106000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50106000,
+      "version_name": "5.1.6-rc0",
+      "tag": "v5.1.6-rc0",
+      "commit": "dd827af3cde4b610102e51ae614917aee18c154b",
+      "timestamp": 1779821841,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -115657,6 +115792,21 @@
       "maintainer_notes": null
     }
   ],
+  "40b496022e0c4aa089e12e8eb4c1b9485188c211e3e22175c51bebae8d5061d1": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.46/KashCal-23.7.46-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 564,
+      "version_name": "23.7.46",
+      "tag": "v23.7.46",
+      "commit": "b498f4734aff187fe2230e373b0c2dc4f2af1887",
+      "timestamp": 1779805624,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -122645,6 +122795,21 @@
       "maintainer_notes": null
     }
   ],
+  "0f96220b2c16b58632a200476df57fc514051a1b1d7d98ed2a3dbe58f9863538": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.9.5/mindwtr-0.9.5-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 69,
+      "version_name": "0.9.5",
+      "tag": "v0.9.5",
+      "commit": "1839a5c40e5879e180ff84a68112764139d22432",
+      "timestamp": 1779822435,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -123615,6 +123780,21 @@
       "tag": "4.1.1",
       "commit": "181c289d97ee7ac5ee75689b9f7eaad0063a5250",
       "timestamp": 1779200187,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "59501ddc76eef5c71f3e05d3597f1d7c209819f53014e57641a305c259e68ee8": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.1.2/LockscreenWidgets_4.1.2-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 195,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "73593b3f8f687b3ccbaaaf70f7fe72e19a662ad9",
+      "timestamp": 1779806871,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
