@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Nandanrmenon/florid.git
-updates: releases
+updates: disabled
+notes:
+  - updates are disabled in our repo, too, see https://codeberg.org/IzzyOnDroid/repodata/issues/181
 versions:
   - tag: v1.0.4+5
     apks:

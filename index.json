@@ -3537,6 +3537,21 @@
       "maintainer_notes": null
     }
   ],
+  "35a29e183f1177a2d010bba9accb144a9e880d862dd089b78267f4f4596227ca": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.X.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.X/releases/download/v11.2.2.6/Podcini.X-free-arm64-v8a-11.2.2.6.apk",
+      "appid": "ac.mdiq.podcini.X",
+      "version_code": 321,
+      "version_name": "11.2.2.6",
+      "tag": "v11.2.2.6",
+      "commit": "c7458447cf7edc2c6fc659e7a75cbc81c14d18b8",
+      "timestamp": 1779906338,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "131bd001f5041ece3f54b1763026eb4b37becf9e5b85d83d49520790c52f81b5": [
     {
       "repository": "https://github.com/ericswpark/camsung.git",
@@ -14512,6 +14527,21 @@
       "tag": "v2.0.2/75",
       "commit": "dfb9591a3311dfe87e270319ed14288956a8483c",
       "timestamp": 1779122964,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "40f1d2b8432cdcc7d5aac032f463072ae6a557ca7191f5c319853b0183a45abf": [
+    {
+      "repository": "https://github.com/Akylas/OSS-Dict.git",
+      "apk_url": "https://github.com/Akylas/OSS-Dict/releases/download/v2.0.3/76/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 76,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3/76",
+      "commit": "1a2f0cdd92de0f3730cf1a87a3b754631ff4e160",
+      "timestamp": 1779906792,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31354,6 +31384,21 @@
       "maintainer_notes": null
     }
   ],
+  "297dfb77a38b289416773d60ed8b2b54ac75a3939c6adce6c00b4803401e65a3": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.7.2-alpha/YagniLauncher-v0.7.2-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 72,
+      "version_name": "0.7.2-alpha",
+      "tag": "v0.7.2-alpha",
+      "commit": "c34cc7f97635df57df2f6628556a59af49481694",
+      "timestamp": 1779897165,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -32295,6 +32340,21 @@
       "commit": "7b04ec7da33a34ad87947cd15fca8220f69bb392",
       "timestamp": 1776694160,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a7b2731713ac73eb5f1eb627bf381bf8e0bffff000f439737e9699ffdb0f2a56": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.0.0-beta1/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 8,
+      "version_name": "2.0.0-beta1",
+      "tag": "v2.0.0-beta1",
+      "commit": "8ace915494b5bce8a37a52b19d13cbac97381ac8",
+      "timestamp": 1779821296,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -41261,6 +41321,21 @@
       "maintainer_notes": null
     }
   ],
+  "74cf0dbf95823a33372ea6828c66f5b97277c3842319176149bf316207e53026": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.3.0/Crystalpad-v1.3.0.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 4,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "6020edd1232bf56f7bf440aacdc2f9f3bf47f8c6",
+      "timestamp": 1779907303,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -47104,6 +47179,21 @@
       "tag": "v0.9.9",
       "commit": "6aa594d08513454bdf26fdb4bb9df6fb0b396da3",
       "timestamp": 1779717612,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f5c88aca4e6ebd09d4e18a1a11a2ae47aacbdfe4a66d74c5f490a12443dfc955": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v0.9.10/kelani-sbd-tracker-v0.9.10.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 43,
+      "version_name": "0.9.10",
+      "tag": "v0.9.10",
+      "commit": "8eadf412bc4df0eea3821cf5766ad1284f296166",
+      "timestamp": 1779897425,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -59146,6 +59236,21 @@
       "maintainer_notes": null
     }
   ],
+  "b9bad3f1434273a6b64052afe674ab03126e9c5db1623224571a16a77a890b03": [
+    {
+      "repository": "https://github.com/PGAxis/YTCnv.git",
+      "apk_url": "https://github.com/PGAxis/YTCnv/releases/download/v3.14.0/youtubeConverter-3.14.0-fdroid.apk",
+      "appid": "com.pg_axis.ytcnv",
+      "version_code": 60,
+      "version_name": "3.14.0",
+      "tag": "v3.14.0",
+      "commit": "2e975e297d192897547ba491312d05c76387b7c9",
+      "timestamp": 1779907632,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f601f5bd160f539a631b01ee637bac33464503ffafd7a2d660ab29d863525501": [
     {
       "repository": "https://github.com/bjoernch/pgpmailer.git",
@@ -60191,6 +60296,21 @@
       "tag": "v0.4.9",
       "commit": "916e94742b9a0aca16ce4392ff16f1ae3f4dc6f6",
       "timestamp": 1774706842,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3b3980c9df17d9106d672c334b6a276b4144ba60218f7dbce5372ee532f43a3c": [
+    {
+      "repository": "https://github.com/prajwalch/TorrentSearch.git",
+      "apk_url": "https://github.com/prajwalch/TorrentSearch/releases/download/v0.5.0/torrentsearch-v0.5.0.apk",
+      "appid": "com.prajwalch.torrentsearch",
+      "version_code": 17,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "895636234bd508a2bf00ad8d6ad4a6923c6711e8",
+      "timestamp": 1779897617,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -66747,6 +66867,21 @@
       "maintainer_notes": null
     }
   ],
+  "b41e5d867a39a1623127c5d881cfe02f980711d204c562f81b2ab2bfee83b018": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/6.0.0/androidApp-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 6000,
+      "version_name": "6.0.0",
+      "tag": "6.0.0",
+      "commit": "9df814e6abee1a617fb6f5f2dc7dc8fc9429a2e8",
+      "timestamp": 1779909336,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -71660,6 +71795,21 @@
       "tag": "v2.2.8",
       "commit": "81ddad07d18abf1ef405ab2f74f970f02c6eec1b",
       "timestamp": 1778941279,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "118e279c03507bd075ad7895f6d0658dbe5a94f1899d1cee32880661dc84b6d7": [
+    {
+      "repository": "https://github.com/nulldio/32steps.git",
+      "apk_url": "https://github.com/nulldio/32steps/releases/download/v2.2.9/32steps.apk",
+      "appid": "com.thirtytwo.steps",
+      "version_code": 33,
+      "version_name": "2.2.9",
+      "tag": "v2.2.9",
+      "commit": "303d6c0ec8bcd5fd80ea0812311645e0ae0b3ac3",
+      "timestamp": 1779897872,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -80119,6 +80269,21 @@
       "maintainer_notes": null
     }
   ],
+  "7f0a43a154b2ecc92734a3fc6be1aadcc69b3958f87f051ef20e16bdfa50d9f1": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.7.2/worldclockv2_v1.7.2_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 24,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "198defdf14f1d19bdae6db86e76cb583a32f273c",
+      "timestamp": 1779891204,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a3e340b77ebb0f2bd1a25aa9015d06bd0cd57c6bb1917714209cbe33041f9b": [
     {
       "repository": "https://github.com/Joinsider/dhbw.git",
@@ -80774,6 +80939,21 @@
       "tag": "v2.24.2",
       "commit": "52800d2e7b49f26800f6b3fa42a0ea8b155d32dc",
       "timestamp": 1777765758,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4a08695fc8de794778fcc7592325c2543e9e1d96a4ba507494c353bdc74c7385": [
+    {
+      "repository": "https://codeberg.org/traewelldroid/traewelldroid.git",
+      "apk_url": "https://codeberg.org/traewelldroid/traewelldroid/releases/download/v2.24.3/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 222,
+      "version_name": "2.24.3",
+      "tag": "v2.24.3",
+      "commit": "d658ea3510995d89467a056ed17ee5c968fca887",
+      "timestamp": 1779908008,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -83350,6 +83530,21 @@
       "tag": "v2.6.0",
       "commit": "1d411a42fb937a13fcc8b7139bf713dfb218e8dd",
       "timestamp": 1779211509,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "02e6e35f1991dc45762d08f3a97b01288deae7151bcbbcb2bb843d62d8cb7271": [
+    {
+      "repository": "https://github.com/nfcgate/nfcgate.git",
+      "apk_url": "https://github.com/nfcgate/nfcgate/releases/download/v2.6.1/NFCGate.2.6.1.apk",
+      "appid": "de.tu_darmstadt.seemoo.nfcgate",
+      "version_code": 17,
+      "version_name": "2.6.1",
+      "tag": "v2.6.1",
+      "commit": "b154e96cd2123140b89c75411d5626587e43e7b8",
+      "timestamp": 1779898110,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -87360,6 +87555,21 @@
       "maintainer_notes": null
     }
   ],
+  "f1e92d5c264337ed30f22eff15d85aa53f65fa610b4c3d8ba006b6c3f8cd31b7": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.7.0/Musicaxs-1.7.0.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 18,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "9e15a00b4d45f9c007fcb4e71f3b70760c0b174f",
+      "timestamp": 1779898279,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07cadccc5953f398ebe1d95c3253c99f05e99ee39496a17c7af96bbe09f6cfd6": [
     {
       "repository": "https://github.com/PranavPurwar/AppLock.git",
@@ -89376,6 +89586,21 @@
       "tag": "1.2.3",
       "commit": "bfff4e67776c4b750f15070fb27a0221d047ff38",
       "timestamp": 1770995495,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "271c2a9ed7647729b01d322b7af625cc06ee6c56001f901e2eed01c8fe0dbd82": [
+    {
+      "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
+      "apk_url": "https://yaky.dev/files/android-usb-cam-viewer/v1.2.4/usb_camera_viewer_release.apk",
+      "appid": "dev.yaky.usbcamviewer",
+      "version_code": 124,
+      "version_name": "1.2.4",
+      "tag": "1.2.4",
+      "commit": "74eb148ddad4690fb44aed5bb6b4f7139ecb5e6b",
+      "timestamp": 1779898553,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92781,6 +93006,21 @@
       "tag": "1.2316",
       "commit": "4365180cbe778259969099d6601b130ad93d8e01",
       "timestamp": 1778689340,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0b2959af8fd20710ee6d67b67c1f47ebf08c1cc14bf987662902be55097fd37a": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2317/FairEmail-v1.2317a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2317,
+      "version_name": "1.2317",
+      "tag": "1.2317",
+      "commit": "980fad4c0a847a8f54c563150f768a03633b33c6",
+      "timestamp": 1779899124,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -100502,6 +100742,21 @@
       "tag": "v1.12",
       "commit": "b67f78a48ce21650f2d0b02379b533b0382b3556",
       "timestamp": 1777471937,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "de0663e24a70e28c1fae432d317cd10802be6d7e60bc66233c60ab3e58ccb430": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.13/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 14,
+      "version_name": "1.13",
+      "tag": "v1.13",
+      "commit": "d8e7e3750caa6d1e44365b6cfaa68e639a87c225",
+      "timestamp": 1779908377,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
