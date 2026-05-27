@@ -61201,6 +61201,21 @@
       "maintainer_notes": null
     }
   ],
+  "cf5c26256c397087fe0a6ba67477179359db1a556400515ce5d3307b50f39749": [
+    {
+      "repository": "https://github.com/rajmani7584/Payload-Dumper-Android.git",
+      "apk_url": "https://github.com/rajmani7584/Payload-Dumper-Android/releases/download/v5.0/PayloadDumper-v5.0.apk",
+      "appid": "com.rajmani7584.payloaddumper",
+      "version_code": 20260526,
+      "version_name": "5.0",
+      "tag": "v5.0",
+      "commit": "546c031f34824e16eec821eeb1a753bb5714669a",
+      "timestamp": 1779829818,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "20f30054997f86a18e0cd2f4ccf9588484d45ab7b7584a5299c233e273730ffb": [
     {
       "repository": "https://gitlab.com/ravenfeld/baba.git",
@@ -84445,6 +84460,21 @@
       "tag": "1.0.3+7",
       "commit": "03580ebe3300167cf6907786c3a2caab3c03b0c3",
       "timestamp": 1758551350,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "97e7c20f05418d0a9deaa6ac9b6968d8db27808e326bc1601d551a30d30339ed": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.1.1/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 2,
+      "version_name": "1.1.1",
+      "tag": "v1.1.1",
+      "commit": "e470a97578bdd67b7c43d1569a2d47bcef2e8a8a",
+      "timestamp": 1779879727,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
