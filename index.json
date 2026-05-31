@@ -23406,6 +23406,21 @@
       "maintainer_notes": null
     }
   ],
+  "eb379dd40404b58baf377111df65f7e1be22b24a2b602b31c559b393793a8320": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v18.0/pill_time_v18.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 18,
+      "version_name": "18.0",
+      "tag": "v18.0",
+      "commit": "52be8e8d4a8f6192d1d19664a67bed4abe5e91d4",
+      "timestamp": 1780265045,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "82d5ff3b76adc1ca65cda98402ae0d01c7f185db3a56f57bdbeae927dc0fa6d0": [
     {
       "repository": "https://github.com/ClusterM/usb-serial-telnet-server.git",
@@ -58201,6 +58216,21 @@
       "maintainer_notes": null
     }
   ],
+  "ab8d87c876cb9d33d63cab2abc842282828aad05521e7479fc699d3c83e68543": [
+    {
+      "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
+      "apk_url": "https://github.com/UpAllNite-Software/simple-song-collector/releases/download/v1.0.27/ssc-1.0.27.apk",
+      "appid": "com.open.simplesongfinder",
+      "version_code": 27,
+      "version_name": "1.0.27",
+      "tag": "v1.0.27",
+      "commit": "55309761eae1384aef5fda00c88d9442e86c7ddc",
+      "timestamp": 1780259150,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "27043b59fbb7ad0ffa26a2b108b5b40375f29faf192f78bd349e3bc465d744e0": [
     {
       "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
@@ -83254,6 +83284,21 @@
       "maintainer_notes": null
     }
   ],
+  "5a9943b5ff8a237a887fac135c8163857b7e74bdf7fac8b1d968d6779c3283c9": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.5.3-5405003/app-free-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5405003,
+      "version_name": "26.5.3",
+      "tag": "26.5.3-5405003",
+      "commit": "d3e47cb154068493ad69ac94e164986a9d31d7b0",
+      "timestamp": 1780264375,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -85015,6 +85060,21 @@
       "tag": "v1.0.0",
       "commit": "b9c7e850e33362d9293e9316ebff5e58e0e0880d",
       "timestamp": 1779489770,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9ceabf7667e2b2a76c4b388ebb26b69b0ff9b90dfc67f928a00a84e3bfa217be": [
+    {
+      "repository": "https://codeberg.org/bg443/Skylib.git",
+      "apk_url": "https://codeberg.org/bg443/Skylib/releases/download/v1.0.2/Skylib-release.apk",
+      "appid": "dev.bg.skylib",
+      "version_code": 3,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "3e245c5a71810cedf1b4afe3ad7ad3dc1279276b",
+      "timestamp": 1780259417,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105127,6 +105187,21 @@
       "maintainer_notes": "checkout fails due to submodule trouble"
     }
   ],
+  "7ba8d27c28364659bea0e14057454506846c9e481b4077ee26b4c530343a39f4": [
+    {
+      "repository": "https://github.com/koiverse/ArchiveTune.git",
+      "apk_url": "https://github.com/koiverse/ArchiveTune/releases/download/v13.4.0/app-mobile-arm64-release.apk",
+      "appid": "moe.koiverse.archivetune",
+      "version_code": 135,
+      "version_name": "13.4.0",
+      "tag": "v13.4.0",
+      "commit": "3da7aa32fb38de890622d46340f20525c5a6b561",
+      "timestamp": 1780256497,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "build ID embedded with a native library"
+    }
+  ],
   "3e9f80ab4a8177d78249f45fbefaf36fb6dd34425098a71c450e127579cfb38b": [
     {
       "repository": "https://github.com/nanihadesuka/NovelDokusha.git",
@@ -105887,6 +105962,21 @@
       "tag": "1.8.2",
       "commit": "3368014314bbf155e404260bdc5e7d41cd3bcb1a",
       "timestamp": 1777472205,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c83431a7515bcc3e13f8fa4ede8f04310b9a74bd2d230744babd04e9c42f9d55": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.8.3/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 242,
+      "version_name": "1.8.3",
+      "tag": "1.8.3",
+      "commit": "505e0c1ef2485c3b2c21a46ee537ac404e9aa354",
+      "timestamp": 1780262105,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
