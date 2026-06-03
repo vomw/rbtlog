@@ -85590,6 +85590,21 @@
       "maintainer_notes": null
     }
   ],
+  "7241b397173c5d1cabdbaadc642f6287d58ac1fd4bc768630e9657b896921dd2": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.1.2/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 3,
+      "version_name": "1.1.2",
+      "tag": "v1.1.2",
+      "commit": "84a872722c6b5f39d59237c8a50af31efbdd426d",
+      "timestamp": 1780425822,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "dirty build"
+    }
+  ],
   "3d6d616414e059086255a61c7ff5e1805e6d2136916d5434e14925b5453f165c": [
     {
       "repository": "https://github.com/inventory69/simple-notes-sync.git",
