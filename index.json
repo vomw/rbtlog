@@ -7767,6 +7767,21 @@
       "maintainer_notes": null
     }
   ],
+  "01bfdc951d311ec26cc02a7b40b468bcb2056ccc4685d54bc49f20c67e1dc73e": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.8.2/app-full-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 16,
+      "version_name": "1.8.2",
+      "tag": "v1.8.2",
+      "commit": "fcc824d5fca8a3af2a99e340e9719ddcd905e9a6",
+      "timestamp": 1780597693,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -8062,6 +8077,21 @@
       "tag": "build107.0.2",
       "commit": "ac2741c6749116e1c5f4e809adce477b5e3b1d49",
       "timestamp": 1778421068,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6cc1cff1f175e27663a3b9228e934161e411f576dc9d9abe5b635491b9363846": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build107.0.3/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10703,
+      "version_name": "build107.0.3",
+      "tag": "build107.0.3",
+      "commit": "31eb2bd033207abd71a1e09fcd315c16b5348f3c",
+      "timestamp": 1780598151,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -13402,6 +13432,21 @@
       "tag": "v5.0.398.1045-stable",
       "commit": "77cb3eae74cc7cc2c7cc1271ccba9cec46fa5707",
       "timestamp": 1780576310,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dd71604e1b240a6583edd4b19f5796a20b744f81f15672854a470a39262e2b3c": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.0.400.1047-stable/Rhythm-5.0.400.1047-githubRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 504001047,
+      "version_name": "5.0.400.1047-gh",
+      "tag": "v5.0.400.1047-stable",
+      "commit": "730cea47084f5546c2d496ccfb8db9586888e62b",
+      "timestamp": 1780598725,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25341,6 +25386,21 @@
       "maintainer_notes": null
     }
   ],
+  "6dd3b0bbaf490207d2df1d713f80ec5cf7c2a41e8212402b18c3c128dab4a6ff": [
+    {
+      "repository": "https://github.com/daniebeler/pixelix.git",
+      "apk_url": "https://github.com/ghostbyte-dev/pixelix/releases/download/v4.4.1/pixelix_v4.4.1.apk",
+      "appid": "com.daniebeler.pfpixelix",
+      "version_code": 39,
+      "version_name": "4.4.1",
+      "tag": "v4.4.1",
+      "commit": "7e195fffa52a38eeba80b189bdb69f6a2823fb04",
+      "timestamp": 1780511652,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ffb39bd82975a984b93d6c1e1e1e357d15659d3d9ce1476d86284d13b7022af": [
     {
       "repository": "https://github.com/danilkinkin/buckwheat.git",
@@ -35207,6 +35267,36 @@
       "maintainer_notes": null
     }
   ],
+  "08f9b655637ca918611cf8783f1fa6195bb93fdc3d52f659cbcc9f764d6b9d4e": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.37/PrivateDnsQS-v1.37-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 40,
+      "version_name": "1.37",
+      "tag": "v1.37",
+      "commit": "7f6459c2a3cd95a5560c47089d92363481ce5bb3",
+      "timestamp": 1780581658,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5218459dbd171af1838e905eddda771611e9edb9b83d1fb2b0d19334c472bb21": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.35/PrivateDnsQS-v1.35-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 38,
+      "version_name": "1.35",
+      "tag": "v1.35",
+      "commit": "cc97c8789ab436e11762685fadc2220062f0b5dd",
+      "timestamp": 1780599582,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4c386782d0783fde8c7ac2f5f1be7b72dc7a98539841ba5baa946ab734023e4c": [
     {
       "repository": "https://codeberg.org/epinez/Compete.git",
@@ -37497,6 +37587,21 @@
       "tag": "v2.7.13",
       "commit": "7a68802bc2b8cdb9c76a77f2093aac130fc8ec05",
       "timestamp": 1771599830,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2621c3fb8114bde13d3a86c87f2b915c4455d8d8df37f9e5dcd0689c2b6980b6": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.7.14/androidApp-fdroid-arm64-v8a-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29321034,
+      "version_name": "2.7.14 (29321034) fdroid",
+      "tag": "v2.7.14",
+      "commit": "cf68c86af556cfd44d83064a1a03df6f63707014",
+      "timestamp": 1780603921,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -42791,6 +42896,21 @@
       "maintainer_notes": null
     }
   ],
+  "a11601e9ae7aebea08ec6ad4ca0cc8a21e3eadbacf17a88ee85f9599e7f4e8b2": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.0.9/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2173,
+      "version_name": "10.0.9",
+      "tag": "10.0.9",
+      "commit": "d1265b4c0c1dcd74a5a315ddba5713551629abf9",
+      "timestamp": 1780599914,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -47749,6 +47869,21 @@
       "tag": "v1.0.0",
       "commit": "8773a429f10a0462d327f7e0f96d8b07cf6f2421",
       "timestamp": 1780409514,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ef710808ab0f1c27a244d2fecf376089077d6406bbfacc5606469c1ee315f0a7": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.1.0/kelani-sbd-tracker-v1.1.0.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 48,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "a3eb3a87a6ac4cf7b1ff9f5aedb2e476a314edf4",
+      "timestamp": 1780600540,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54065,6 +54200,21 @@
       "maintainer_notes": null
     }
   ],
+  "aac99451032ade635837fb155cfc65778e032f73612b875496582d2b74abfa23": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Light.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Light/releases/download/2.13/auto-light-213.apk",
+      "appid": "com.mine.autolight",
+      "version_code": 15,
+      "version_name": "2.13",
+      "tag": "2.13",
+      "commit": "d8ab5b6ade2e4cd89c86a65e3d3d73bd63e09bd5",
+      "timestamp": 1780581822,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b8bdc761c0163fc0ae6153d47ac3bd1f521dd635d16fb6b41da158a4ea488f4a": [
     {
       "repository": "https://github.com/The-First-King/Auto-Off-Bluetooth.git",
@@ -54090,6 +54240,21 @@
       "tag": "1.6",
       "commit": "537f973358003a0a4c53c2352ce52f8539b98805",
       "timestamp": 1774899892,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ddde175a73b447b72c17918ecdbdd7a6575dcd45e6822dee31b0005c8c38d593": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Off-Bluetooth.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Off-Bluetooth/releases/download/1.7/auto-off-bluetooth-17.apk",
+      "appid": "com.mine.autooffbluetooth",
+      "version_code": 8,
+      "version_name": "1.7",
+      "tag": "1.7",
+      "commit": "d521e4db6b45c2e51b106656fb68ea99fbfe35ef",
+      "timestamp": 1780581902,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -57676,6 +57841,21 @@
       "maintainer_notes": null
     }
   ],
+  "09b03a0832e95c3aadc258b1b92508dd1011417fe34742dfc8bc476924c5ee5c": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v2.1.0/app-arm64-v8a-default-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20183,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "31133e8f69fc8df3616418f89d6c04486ce46cf9",
+      "timestamp": 1780581980,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -60481,6 +60661,21 @@
       "maintainer_notes": null
     }
   ],
+  "0f5204889e86e9cb130d07b4be60a009d421d3f4c7f8ebfc5af24dcb2cee0301": [
+    {
+      "repository": "https://github.com/Crustack/NotallyX.git",
+      "apk_url": "https://github.com/Crustack/NotallyX/releases/download/v7.11.2/NotallyX-7.11.2.apk",
+      "appid": "com.philkes.notallyx",
+      "version_code": 71120,
+      "version_name": "7.11.2",
+      "tag": "v7.11.2",
+      "commit": "0aba92922ed3662cffa10895f9989801f961fa39",
+      "timestamp": 1780583123,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e39108ae0e3002847be88e4211dd999540a16e0f015218fed8b1ecde7c46cbf1": [
     {
       "repository": "https://github.com/ray-pH/Nabla-TypeMath-android.git",
@@ -62636,6 +62831,21 @@
       "tag": "v0.21.10",
       "commit": "5619a316e1cf54bb0fe8407a87c725c3435e1b16",
       "timestamp": 1779705192,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ffcbbb297608272fb9879b52ac811b357ba5d97723ed91a70f4084c9e4d8d0bf": [
+    {
+      "repository": "https://github.com/yuroyami/syncplay-mobile.git",
+      "apk_url": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.22.1/syncplay-0.22.1-exo-only.apk",
+      "appid": "com.reddnek.syncplay",
+      "version_code": 1000022001,
+      "version_name": "0.22.1",
+      "tag": "v0.22.1",
+      "commit": "15970ae7353a556746d03e4e365319a67fb641e0",
+      "timestamp": 1780590326,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -68977,6 +69187,21 @@
       "tag": "6.3.0",
       "commit": "ab769549d9f834c396eccf165641da6b524e2c25",
       "timestamp": 1780347387,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "12997fce77071fe847136ab98cc8eeac2b540fff373d92533e7cc81b6cb9649b": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.3.2/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6320,
+      "version_name": "6.3.2",
+      "tag": "6.3.2",
+      "commit": "705b258f908a91ab15774811956bc7a7df39d4f9",
+      "timestamp": 1780600797,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90083,6 +90308,21 @@
       "tag": "v12.1.0",
       "commit": "70a529268c2b84a6fe627000b1cf1f16f0635c18",
       "timestamp": 1779718012,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "53be57e32fb98e10c35d8502039310fd912051ad2aa9c61d424825225b6d7128": [
+    {
+      "repository": "https://github.com/robinsrk/flip_2_dnd.git",
+      "apk_url": "https://github.com/robinsrk/flip_2_dnd/releases/download/v12.1.1/Flip2DND.apk",
+      "appid": "dev.robin.flip_2_dnd",
+      "version_code": 1211,
+      "version_name": "12.1.1-free",
+      "tag": "v12.1.1",
+      "commit": "cf8fde412066e36a2d6bff498decff779390fe45",
+      "timestamp": 1780585409,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -117697,6 +117937,21 @@
       "maintainer_notes": null
     }
   ],
+  "c646dcaee250593f5723f270ecbe928948519460de61ed00c43dfb0124a1a427": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.85/KashCal-23.7.85-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 603,
+      "version_name": "23.7.85",
+      "tag": "v23.7.85",
+      "commit": "854e5406e3775217d85039fd7c57f29d81e238ac",
+      "timestamp": 1780585608,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -120375,6 +120630,21 @@
       "tag": "2.1",
       "commit": "a31f65a5baed9545420b5490c1340457ac83748f",
       "timestamp": 1754933361,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b2b9dfc52b0ea62b5d4e37034dc0671d6d9359cb67ed5da844c9467f8a6fd403": [
+    {
+      "repository": "https://github.com/danielyrovas/linklater.git",
+      "apk_url": "https://github.com/danielyrovas/linklater/releases/download/2.2/linklater-release.apk",
+      "appid": "org.yrovas.linklater",
+      "version_code": 18,
+      "version_name": "2.2",
+      "tag": "2.2",
+      "commit": "52b70b2937d78d1f82de47050585b8e49bfef094",
+      "timestamp": 1780601419,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

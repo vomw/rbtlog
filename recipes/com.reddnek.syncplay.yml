@@ -37,3 +37,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.22.1
+    apks:
+      - apk_pattern: syncplay-.*-exo-only\.apk
+        apk_url: https://github.com/yuroyami/syncplay-mobile/releases/download/v0.22.1/syncplay-0.22.1-exo-only.apk
+        build:
+          - sed -r '/(foojay|toolchainVendor)/d' -i gradle/gradle-daemon-jvm.properties
+          - sed -r '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -r 's/const val exoOnly = false/const val exoOnly = true/' -i buildSrc/src/main/kotlin/AppConfig.kt
+          - base64 -d > local.properties <<< eXVyb3lhbWkua2V5S2xpcHlBcGk9TTVCakxadEhKdFg4cFNNN2Jrd0w5QTF1VFJJaVdQY2VMUmZiN1RBN1FITTlkRFZtSVhhUUxTWGs2VVlnbUk3MAo=
+          - ./gradlew assembleRelease -PexoOnly=true
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/exoOnly/release/syncplay-*-exo-only.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - autoconf
+            - pkg-config
+            - libtool
+            - ninja-build
+            - bzip2
+            - xz-utils
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
