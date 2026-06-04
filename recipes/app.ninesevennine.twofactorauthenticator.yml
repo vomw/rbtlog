@@ -1,0 +1,45 @@
+---
+repository: https://codeberg.org/979/2fa.git
+updates: releases
+versions:
+  - tag: '10013004'
+    apks:
+      - apk_pattern: twofactorauthenticator-standard-vc.*\.apk
+        apk_url: https://codeberg.org/979/2fa/releases/download/10013004/twofactorauthenticator-standard-vc-10013004.apk
+        build:
+          - RUSTUP="$(sed -rn 's/rustup\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - RUST_TOOLCHAIN="$(sed -rn 's/rustc\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - NDKVER="$(sed -rn 's/ndk\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - sdkmanager --sdk_root=/opt/sdk "ndk;${NDKVER}"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target aarch64-linux-android
+          - source $HOME/.cargo/env
+          - ./build_appcore.sh
+          - ./build_android.sh standard apk
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace android/app/build/outputs/apk/standard/release/app-standard-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /Users/macbook
+        build_repo_dir: /Users/macbook/2fa
+        build_timeout:
+        build_user: macbook
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - build-essential
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform: android-36
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

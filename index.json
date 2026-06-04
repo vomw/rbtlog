@@ -6747,6 +6747,21 @@
       "maintainer_notes": null
     }
   ],
+  "c4fc598057eca541f74d378274f380a2686ea977aa6e6e75df579651943f9110": [
+    {
+      "repository": "https://codeberg.org/979/2fa.git",
+      "apk_url": "https://codeberg.org/979/2fa/releases/download/10013004/twofactorauthenticator-standard-vc-10013004.apk",
+      "appid": "app.ninesevennine.twofactorauthenticator",
+      "version_code": 10013004,
+      "version_name": "1.1.4",
+      "tag": "10013004",
+      "commit": "0f643355022e42ca9d468661dfa25881644467dd",
+      "timestamp": 1780526909,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0f36a862947ceed50160ba3b1edfb36927469844b88a582d07b37010631321f7": [
     {
       "repository": "https://github.com/tanujnotes/Olauncher.git",
@@ -13372,6 +13387,21 @@
       "tag": "v5.0.396.1042-stable",
       "commit": "178aaa4efa9feeccee8c6c32968f77d869bb0f7d",
       "timestamp": 1780523166,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3c501d593463dc29a452030619fbadebf1f0d481259cee159e29ea3e43932ef9": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.0.398.1045-stable/Rhythm-5.0.398.1045-githubRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 503981045,
+      "version_name": "5.0.398.1045-gh",
+      "tag": "v5.0.398.1045-stable",
+      "commit": "77cb3eae74cc7cc2c7cc1271ccba9cec46fa5707",
+      "timestamp": 1780576310,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
