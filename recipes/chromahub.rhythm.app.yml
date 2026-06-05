@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/cromaguy/Rhythm.git
 updates: releases
+notes:
+  - 'FIXME: switch to fdroid flavor with the next release, as the github flavor includes a self-updater not meeting our criteria'
 versions:
   - tag: v2.1.100.7-beta
     apks:
