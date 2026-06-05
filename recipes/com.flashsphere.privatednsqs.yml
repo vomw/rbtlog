@@ -490,3 +490,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.38
+    apks:
+      - apk_pattern: PrivateDnsQS-.*-launcher-release\.apk
+        apk_url: https://github.com/flashsphere/private-dns-qs/releases/download/v1.38/PrivateDnsQS-v1.38-launcher-release.apk
+        build:
+          - echo -e "PRIVATE_DNS_QS_RELEASE_STORE_FILE=/dev/null\nPRIVATE_DNS_QS_RELEASE_STORE_PASSWORD=storePass\nPRIVATE_DNS_QS_RELEASE_KEY_ALIAS=keyAlias\nPRIVATE_DNS_QS_RELEASE_KEY_PASSWORD=keyPass" >> gradle.properties
+          - sed -r '/signingConfigs\[/d ; /create\("release"\) \{/,/        \}/d' -i app/build.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - chmod +x gradlew
+          - ./gradlew assembleLauncherRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/launcher/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

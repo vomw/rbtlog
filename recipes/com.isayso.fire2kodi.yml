@@ -450,3 +450,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.73
+    apks:
+      - apk_pattern: fire2kodi_.*\.apk
+        apk_url: https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.73/fire2kodi_v0.73.apk
+        build:
+          - git reset --soft 2e4761b7d7bdcb9e3e0df9208e76488036afc193
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

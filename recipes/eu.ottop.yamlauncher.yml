@@ -356,3 +356,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.3
+    apks:
+      - apk_pattern: yamlauncher.*\.apk
+        apk_url: https://codeberg.org/thomasboom/YAM-Launcher/releases/download/v2.3/yamlauncher-2.3.apk
+        build:
+          - git reset --soft 89422e1c590352935a79d4dc9f3549e4a0a5855e
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

@@ -782,3 +782,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.5.14-ose
+    apks:
+      - apk_pattern: davx5-([\d.-]+)-ose-release\.apk
+        apk_url: https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.14-ose/davx5-405140001-4.5.14-ose-release.apk
+        build:
+          - sed 's/configuration-cache=true/configuration-cache=false/' -i gradle.properties
+          - sed -r '/signingConfig =/d' -i app-ose/build.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - ./gradlew assembleOseRelease
+          - find . -name '*.apk'
+          - mv app-ose/build/outputs/apk/ose/release/davx5-*-ose-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

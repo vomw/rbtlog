@@ -10092,6 +10092,21 @@
       "maintainer_notes": null
     }
   ],
+  "35c25aa673721018bbf69d86e8aca952fd353d85f27ae92291dfb9e66c599ba2": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.14-ose/davx5-405140001-4.5.14-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405140001,
+      "version_name": "4.5.14-ose",
+      "tag": "v4.5.14-ose",
+      "commit": "04ae224a32fa3800ccb7a62fadd857090c3041be",
+      "timestamp": 1780667509,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -13447,6 +13462,21 @@
       "tag": "v5.0.400.1047-stable",
       "commit": "730cea47084f5546c2d496ccfb8db9586888e62b",
       "timestamp": 1780598725,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "76005a3a338c7156595fbdc341dc43d646c11f2320f46e8bbe267ff6fce01c71": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.0.402.1051-stable/Rhythm-5.0.402.1051-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 504021051,
+      "version_name": "5.0.402.1051-fdroid",
+      "tag": "v5.0.402.1051-stable",
+      "commit": "8c3258fad71b9cecd5d37398924b4e1eb109b353",
+      "timestamp": 1780692746,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25701,6 +25731,21 @@
       "maintainer_notes": null
     }
   ],
+  "15ea01aa96c1b0b18e4c7c0938d8e6cc917b36758b09b25bf912a278943ef475": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.1.3/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 301030000,
+      "version_name": "3.1.3",
+      "tag": "v3.1.3",
+      "commit": "82723313c746eb047e10296e4889946fb3c6c9b4",
+      "timestamp": 1780667838,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -26956,6 +27001,21 @@
       "tag": "v2.23.0",
       "commit": "44020ec563b9a73ceff236bec0b6525ca8d10922",
       "timestamp": 1779820472,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "896089fa3836bd00c29b83ddd24f17a3ce6a7c84732bb457816ceaaa8048007d": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v2.24.0/daily-you-arm64-v8a-v2.24.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 20240002,
+      "version_name": "2.24.0",
+      "tag": "v2.24.0",
+      "commit": "16b58affc86bf4ff8772fcf2806b1202db3ca310",
+      "timestamp": 1780668387,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35312,6 +35372,21 @@
       "maintainer_notes": null
     }
   ],
+  "8d4734b154b3c16b275f5f8920e720dcae207f4166127d54b0e5e26a7ed8efe8": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.38/PrivateDnsQS-v1.38-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 41,
+      "version_name": "1.38",
+      "tag": "v1.38",
+      "commit": "bebff5eccef09b39258fc8431651b7649488ab70",
+      "timestamp": 1780669224,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4c386782d0783fde8c7ac2f5f1be7b72dc7a98539841ba5baa946ab734023e4c": [
     {
       "repository": "https://codeberg.org/epinez/Compete.git",
@@ -38247,6 +38322,21 @@
       "tag": "2.19.1",
       "commit": "186513a0a675ff4fd9085c38ffee3630a24c87d7",
       "timestamp": 1777471399,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e1fb9dcc4c18b4f879321bc1d661baf4e82684ba8a85be8374dfd1029f703f29": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/2.19.2/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2879979,
+      "version_name": "2.19.2-Windsor-oss",
+      "tag": "2.19.2",
+      "commit": "6ca704061c8b59701b2a1d0ee9dc201a90963c98",
+      "timestamp": 1780683948,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -44424,6 +44514,21 @@
       "maintainer_notes": null
     }
   ],
+  "f5a1f8509ccab3ea061ae43de71a146b14913f575c0ab18dfc82c93ed96e2768": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.73/fire2kodi_v0.73.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 25,
+      "version_name": "0.73",
+      "tag": "v0.73",
+      "commit": "094e3086cc1785ee192f77ec4cde7555a622ade6",
+      "timestamp": 1780669412,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -45589,6 +45694,21 @@
       "tag": "v0.22.0",
       "commit": "ca015ffc58765941a99a2a661c351655e4afeb9d",
       "timestamp": 1779045041,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3adacef62318e4018cd384185a6e1118f66e5f3491c60d5a45558ecd8ee32176": [
+    {
+      "repository": "https://github.com/jksalcedo/librefind.git",
+      "apk_url": "https://github.com/jksalcedo/librefind/releases/download/v0.23.0/librefind-v0.23.0-release.apk",
+      "appid": "com.jksalcedo.librefind",
+      "version_code": 2300300,
+      "version_name": "0.23.0",
+      "tag": "v0.23.0",
+      "commit": "faf2c5103d0b9888e5828d75e429bcb719b325d1",
+      "timestamp": 1780684133,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -47899,6 +48019,21 @@
       "tag": "v1.1.0",
       "commit": "a3eb3a87a6ac4cf7b1ff9f5aedb2e476a314edf4",
       "timestamp": 1780600540,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d15b5a6ec8e6e3446ee8e737fdfb6864cb67efd76bb7fd19106038b091283d1c": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.0/kelani-sbd-tracker-v1.2.0.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 49,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "7f427d3f4029bfcdf027d931381a54f4dc205f71",
+      "timestamp": 1780684600,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62596,6 +62731,21 @@
       "maintainer_notes": null
     }
   ],
+  "ccfb735b69f0ca54addbe5de91f06b2213d6cccf4360bf0d28ebf651c95a2340": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.22.0/baba_1.22.0_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025032132,
+      "version_name": "1.22.0",
+      "tag": "1.22.0",
+      "commit": "39e70878efdd9e426fa940a56b321cd25ff42397",
+      "timestamp": 1780669621,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8a4e94eb976c4159369b70be984865e0cc0c461fb05838064b3f53a9f17fdb2e": [
     {
       "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
@@ -69815,6 +69965,21 @@
       "tag": "V1.0.34",
       "commit": "6c6b5fa0f12384e926079c2fa5f8ab06e3db43c5",
       "timestamp": 1780419796,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b4cb51b3acd41caef7f0318f3c41a09eb52278943c36afa6678ada6d49c2a233": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.35/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 3802,
+      "version_name": "1.0.35",
+      "tag": "V1.0.35",
+      "commit": "f54cf73c79ee586db350a79763d6da6f05634194",
+      "timestamp": 1780684846,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78246,6 +78411,36 @@
       "maintainer_notes": null
     }
   ],
+  "cbbf6a4b9e79cd5fa516ff2175e7168bc271bc4291705ca47370c2a3ed1f6c6d": [
+    {
+      "repository": "https://github.com/darkmoonight/Rain.git",
+      "apk_url": "https://github.com/darkmoonight/Rain/releases/download/v1.3.14/rain-arm64-v8a-release-floss.apk",
+      "appid": "com.yoshi.rain",
+      "version_code": 2047,
+      "version_name": "1.3.14",
+      "tag": "v1.3.14",
+      "commit": "1e3faf6a9719b479692200edb506dcf7e5f51246",
+      "timestamp": 1780669975,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1c714735d54bc1c411ab7cca3a3bd314bf83e1b1d005c4a9058ef80129f1d41a": [
+    {
+      "repository": "https://github.com/darkmoonight/Rain.git",
+      "apk_url": "https://github.com/darkmoonight/Rain/releases/download/v1.3.16/rain-arm64-v8a-release-floss.apk",
+      "appid": "com.yoshi.rain",
+      "version_code": 2049,
+      "version_name": "1.3.16",
+      "tag": "v1.3.16",
+      "commit": "ede3039010551184ba6fc38eaebe838b50fb208b",
+      "timestamp": 1780690609,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c65db56f8d459cb66307add2fbe52fc15b206017754e9c1167495b3c893fcfe8": [
     {
       "repository": "https://github.com/darkmoonight/Zest.git",
@@ -79621,6 +79816,21 @@
       "tag": "v1.0.6",
       "commit": "e730b18741a2d53fefd2c31d189dde677061fa90",
       "timestamp": 1778608363,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df757f5c72f2a8222ab40a0eada7dbecf0dc4a6ddb801b8375e1fb949fc2a620": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/iZakirSheikh/Gallery/releases/download/v1.0.7/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 81,
+      "version_name": "1.0.7-foss",
+      "tag": "v1.0.7",
+      "commit": "817115582ce4b1c7a89a8897ac3730402a04893d",
+      "timestamp": 1780692148,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86007,6 +86217,21 @@
       "timestamp": 1758551350,
       "reproducible": true,
       "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "255e142580fd0e80451b4f75308480a9e8e98aeac6d991dfadfbbef12e3c8ebc": [
+    {
+      "repository": "https://github.com/chukfinley/Better-Bahn.git",
+      "apk_url": "https://github.com/chukfinley/Besser-Bahn/releases/download/2.0.0%2B1/app-arm64-v8a-release.apk",
+      "appid": "dev.chuk.betterbahn",
+      "version_code": 2001,
+      "version_name": "2.0.0",
+      "tag": "2.0.0+1",
+      "commit": "e2be2f7da0fba63891dc5954b03c7b8905606cdd",
+      "timestamp": 1780686806,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpgm3v3j1j/outputs:/outputs', '--volume', '/tmp/tmpgm3v3j1j/scripts:/scripts:ro', '--volume', '/tmp/tmpgm3v3j1j/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/chukfinley/Better-Bahn.git', '--env', 'APP_TAG=2.0.0+1', '--env', 'APP_COMMIT=e2be2f7da0fba63891dc5954b03c7b8905606cdd', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/user', '--env', 'BUILD_REPO_DIR=/home/user/git/Besser-Bahn', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/user && timeout 10m su build /scripts/provision.sh && cd /home/user/git/Besser-Bahn && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": null
     }
   ],
@@ -95541,6 +95766,21 @@
       "tag": "v2.2",
       "commit": "a27ead3f6891eed9029bf91a1fc257bf5e31fce4",
       "timestamp": 1773756878,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c239e8c9b51bd34c2b86ba06e5c695e6f71b0ac0c4e9e63716dbf5132e29af8e": [
+    {
+      "repository": "https://codeberg.org/thomasboom/YAM-Launcher.git",
+      "apk_url": "https://codeberg.org/thomasboom/YAM-Launcher/releases/download/v2.3/yamlauncher-2.3.apk",
+      "appid": "eu.ottop.yamlauncher",
+      "version_code": 17,
+      "version_name": "2.3",
+      "tag": "v2.3",
+      "commit": "0087bd4c9f1b43067960118f7f83fd683cdf0358",
+      "timestamp": 1780671323,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -117997,6 +118237,21 @@
       "maintainer_notes": null
     }
   ],
+  "91461cdd17f50266ee929ba9ea1b3cba7236eb94fa6d0d694856743cb311677b": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v23.7.88/KashCal-23.7.88-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 606,
+      "version_name": "23.7.88",
+      "tag": "v23.7.88",
+      "commit": "c01785e36b4a276903fde3db4d5f1620fc0f92f1",
+      "timestamp": 1780671587,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -124040,6 +124295,21 @@
       "maintainer_notes": null
     }
   ],
+  "8d45d7226c4fab1da1e403ec29b77c2546452693e213a3164889691234403680": [
+    {
+      "repository": "https://github.com/shub39/Momentum.git",
+      "apk_url": "https://github.com/shub39/Momentum/releases/download/1.7.1/app-foss-arm64-v8a-release.apk",
+      "appid": "shub39.momentum",
+      "version_code": 1710,
+      "version_name": "1.7.1",
+      "tag": "1.7.1",
+      "commit": "c4e4c74ee0ad7fa6c74f4282c726ab9bebce0dfe",
+      "timestamp": 1780672171,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8e9dd896bca0becf366ed73dc18cc387eb5b640111bef62ef4ca8c04728c5831": [
     {
       "repository": "https://github.com/unlimish/x2vx-android.git",
@@ -125070,6 +125340,21 @@
       "tag": "v0.9.7",
       "commit": "aa089925685ec1567af6dfa5a15ad3f5ec922740",
       "timestamp": 1780427983,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "74d1b3d5673fb3f1291d2836a76557adb60f9ecfa05097ffdedce8bc0009336c": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.9.8/mindwtr-0.9.8-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 73,
+      "version_name": "0.9.8",
+      "tag": "v0.9.8",
+      "commit": "09b36e628bbf0335ea78497c77488f2ff52939a8",
+      "timestamp": 1780687007,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
