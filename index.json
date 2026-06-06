@@ -119630,6 +119630,21 @@
       "maintainer_notes": null
     }
   ],
+  "f5904a345f6612ea6fa2c8d88c0640f2e97108635067aece73d25c04fa6095c7": [
+    {
+      "repository": "https://github.com/SecUSo/Aktivpause.git",
+      "apk_url": "https://github.com/SecUSo/Aktivpause/releases/download/v1.2.6/pfa-aktivpause-to-go-release-v1.2.6.apk",
+      "appid": "org.secuso.aktivpause",
+      "version_code": 102,
+      "version_name": "1.2.6",
+      "tag": "v1.2.6",
+      "commit": "f07974daee5b29473a4727b0ee6c9ef879db19f4",
+      "timestamp": 1780755931,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ec8008b4405e7af9c6dc47af1e02086023ea0e7eed8ac90bcedccd5fbfda3eb9": [
     {
       "repository": "https://codeberg.org/SWLabs/fireflynotesapk.git",
@@ -124845,6 +124860,21 @@
       "tag": "v1.0.8",
       "commit": "d1950d1499b0e2c6ed046bb8e2c6b642573a5f79",
       "timestamp": 1774018505,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6dbf5c610e7f84a583b6ca32fc1b8c69a9300378be7d05974a51f8d4dfc5a4ac": [
+    {
+      "repository": "https://github.com/schorschii/RemotePointer-Android.git",
+      "apk_url": "https://github.com/schorschii/RemotePointer-Android/releases/download/v3.2/remotepointer.apk",
+      "appid": "systems.sieber.remotespotlight",
+      "version_code": 24,
+      "version_name": "3.2",
+      "tag": "v3.2",
+      "commit": "0bdbc4f48241b4db835beb577698dc63a05c70e6",
+      "timestamp": 1780760997,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
