@@ -11307,6 +11307,21 @@
       "maintainer_notes": null
     }
   ],
+  "a6fa0549e09abf7c34adf1a9a98afe3b9ce107b74f2518a5b724f98587e87907": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.39.1/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3039001,
+      "version_name": "3.39.1",
+      "tag": "3.39.1",
+      "commit": "43b17f26027a98bedb4acaf13149f46011af9768",
+      "timestamp": 1780753854,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c42bd4fbe5938808d5b7b733167d11ddb04983406b59c6ab8272ffcea364e5e2": [
     {
       "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
@@ -13477,6 +13492,21 @@
       "tag": "v5.0.402.1051-stable",
       "commit": "8c3258fad71b9cecd5d37398924b4e1eb109b353",
       "timestamp": 1780692746,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3faba0de5fb718277f3dd3b5f97b66cecd526ec2ad58cfbaf9769252521b54d8": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.0.403.1054-stable/Rhythm-5.0.403.1054-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 504031054,
+      "version_name": "5.0.403.1054-fdroid",
+      "tag": "v5.0.403.1054-stable",
+      "commit": "7defc8638d54d84db72c610caeec1d90915c1bd0",
+      "timestamp": 1780773208,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -17965,6 +17995,21 @@
       "maintainer_notes": null
     }
   ],
+  "e72b8be27e536aa20d8cc905ed031fea0b3ebdda76d05b0e46fcb1586ae10b27": [
+    {
+      "repository": "https://github.com/BinTianqi/OwnDroid.git",
+      "apk_url": "https://github.com/BinTianqi/OwnDroid/releases/download/v8.2/OwnDroid-v8.2.apk",
+      "appid": "com.bintianqi.owndroid",
+      "version_code": 45,
+      "version_name": "8.2",
+      "tag": "v8.2",
+      "commit": "6d4511b663021027c8195f9f2e82efdb7787d083",
+      "timestamp": 1780754248,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "14b6f58fee9e52326bfbbc22f6ae42644ebc9e1273d0179a9d6dcdf269c78bbb": [
     {
       "repository": "https://github.com/BioHazard786/quick-upi.git",
@@ -18980,6 +19025,21 @@
       "tag": "v1.6.5",
       "commit": "2ab8caad0b48f8ae2279e5d03d422b3459de13cd",
       "timestamp": 1780322141,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cb8db083e3ace6fec95f5edfee18642c03e33bc21cf14585a1ec9226fe5e23e0": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.6/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 22,
+      "version_name": "1.6.6",
+      "tag": "v1.6.6",
+      "commit": "fc32bb3f2db9eebc2bbe9a738df8a4acd45073af",
+      "timestamp": 1780754488,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32329,6 +32389,21 @@
       "maintainer_notes": null
     }
   ],
+  "25c91fff1e0b2b6491d5ceca6c3a15d1c63d970382f0aca8c44706145997b976": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.18.1/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 29,
+      "version_name": "4.18.0",
+      "tag": "v4.18.1",
+      "commit": "881618c36593ca9afa02a8deed7fc85262764703",
+      "timestamp": 1780772779,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -35502,6 +35577,21 @@
       "tag": "v3.1.5",
       "commit": "0b5e2fc3b298880ebd04a5a09ae89bd63d9d0108",
       "timestamp": 1779631316,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "56be13a3972f49f104ca857c236494722ca964054c5c105c9a143cd581fdcb08": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.1.6/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 12,
+      "version_name": "3.1.6",
+      "tag": "v3.1.6",
+      "commit": "14a462afbae14f2660413bc01b85804cc025c381",
+      "timestamp": 1780754841,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49854,6 +49944,21 @@
       "maintainer_notes": null
     }
   ],
+  "d5e4bd1e9916aec07ef05b4f81d263d59a51215f5ef37d3bd503251f6b501b69": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.2.10/storii-v0.2.10-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2047,
+      "version_name": "0.2.10",
+      "tag": "v0.2.10",
+      "commit": "e0547a684e9421e2872b87a0cbb25a3a7f750926",
+      "timestamp": 1780766335,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -58021,6 +58126,21 @@
       "maintainer_notes": null
     }
   ],
+  "3115e425d270fcd2fb339477a05b113f4e6980f5e855bd13af6cad3295fdeb8e": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v2.1.1/app-arm64-v8a-default-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 20193,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "e896262bf2f31ebcf55c6bb8a6f32b69599e5e88",
+      "timestamp": 1780767037,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -59516,6 +59636,21 @@
       "tag": "v1.20.0",
       "commit": "e80c06b23a3c090e5035a54ba23fb969f212b169",
       "timestamp": 1778946592,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d6102349ac01cd405b6dd5048c34763de390ee923814e890405b571fc948bfbc": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.21.0/orgzly-revived-fdroid-1.21.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 284,
+      "version_name": "1.21.0",
+      "tag": "v1.21.0",
+      "commit": "aafcebdec27e2bcfba412b16ac3a98dd1cf51884",
+      "timestamp": 1780761078,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -61556,6 +61691,21 @@
       "tag": "v3.2.0",
       "commit": "125b21652a1603930ae474a6f7a373a2113174fc",
       "timestamp": 1780336372,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7a8270851f217cecb99524ee5503b145c8aef3a4dd35ad154ce042c07b296d61": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.3.0/WeatherMaster.v3.3.0.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 51,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "746b7f4ee9b246ecb5b309943abc83ba0be39c30",
+      "timestamp": 1780771080,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -67031,6 +67181,21 @@
       "tag": "1.2",
       "commit": "a4a6a04aefe792f0145b4f7567d8a31a2f5a4c3d",
       "timestamp": 1761833527,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ea7c4e87a591da21b74eeec45f9f5b5b28dcfb9d00bfe90dd871dda3c337460e": [
+    {
+      "repository": "https://github.com/shezik/DrawAnywhere.git",
+      "apk_url": "https://github.com/DrawAnywhere/DrawAnywhere/releases/download/2.2/app-release.apk",
+      "appid": "com.shezik.drawanywhere",
+      "version_code": 4,
+      "version_name": "2.2",
+      "tag": "2.2",
+      "commit": "0ceb367cd7e0dd1007a6f5956f23a75084c7fb97",
+      "timestamp": 1780771495,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86295,6 +86460,21 @@
       "maintainer_notes": null
     }
   ],
+  "c35c6453000986aeffa151e71b854055c00b562b9e24c2a32e878110e018a7ef": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.2.0/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 5,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "ce3c5ce54692883380d27a9b6477ab294bfbbf9b",
+      "timestamp": 1780758668,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3d6d616414e059086255a61c7ff5e1805e6d2136916d5434e14925b5453f165c": [
     {
       "repository": "https://github.com/inventory69/simple-notes-sync.git",
@@ -90613,6 +90793,21 @@
       "maintainer_notes": null
     }
   ],
+  "556eec88634b36d153e346092349658e3c5c6d1a4ed926dab53a1397a7a644ed": [
+    {
+      "repository": "https://github.com/robinsrk/privacify.git",
+      "apk_url": "https://github.com/robinsrk/privacify/releases/download/v1.6/Privacify.apk",
+      "appid": "dev.robin.privacify",
+      "version_code": 9,
+      "version_name": "1.6",
+      "tag": "v1.6",
+      "commit": "af648ff8933625cbab1539566bfc78b00ca951fe",
+      "timestamp": 1780771817,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -94806,6 +95001,21 @@
       "tag": "1.2318",
       "commit": "96852054a5be335f6ea971c338891ec1c97044db",
       "timestamp": 1780170311,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "712545c40448954bc80f315ff3208835e9ab0f1b4fe06b57be3bcf33be546cf1": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2319/FairEmail-v1.2319a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2319,
+      "version_name": "1.2319",
+      "tag": "1.2319",
+      "commit": "0b0fe9ac1cee98620f16aef85cebf67869ca41a8",
+      "timestamp": 1780768465,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -107317,6 +107527,21 @@
       "maintainer_notes": null
     }
   ],
+  "f64f234705c81206658842b1fe730da61e5eeb9f5cc9b0d7f295c63f2b99c4b6": [
+    {
+      "repository": "https://github.com/helcel-net/beans.git",
+      "apk_url": "https://github.com/helcel-net/beans/releases/download/1.3b/app-signedRelease.apk",
+      "appid": "net.helcel.beans",
+      "version_code": 866,
+      "version_name": "1.3b",
+      "tag": "1.3b",
+      "commit": "18725261e353faf36086995c50585fea42ce73c0",
+      "timestamp": 1780772114,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "22d718805d911a486a1c5c77ea88285c04a496e001c6a544d365729f21a17cbe": [
     {
       "repository": "https://github.com/helcel-net/keepass-fidelity.git",
@@ -108887,6 +109112,21 @@
       "tag": "alpha-0.7.0",
       "commit": "36ceb2067b6ac0b916530ccb012feb408cab314e",
       "timestamp": 1780257343,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c68daaac3791b44e90946bcd1027a52c96d4874dfb0eb85fd2669d2d9da341f": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.7.1/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 49,
+      "version_name": "alpha-0.7.1",
+      "tag": "alpha-0.7.1",
+      "commit": "3b944a74ba947ec79fc15bc33af15e8037233e51",
+      "timestamp": 1780759542,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
