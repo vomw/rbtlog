@@ -1,9 +1,6 @@
 ---
 repository: https://github.com/breezy-weather/breezy-weather.git
 updates: releases
-notes:
-  - v5.3.x needed recipe adjustments, see https://github.com/breezy-weather/breezy-weather/issues/1527 – fixed with 5.4.3, see https://github.com/breezy-weather/breezy-weather/issues/1625
-  - 'FIXME: v6.2.0 needed work-around; remove the "rm" again for the next release'
 versions:
   - tag: v5.2.8
     apks:
@@ -1039,6 +1036,38 @@ versions:
         apk_url: https://github.com/breezy-weather/breezy-weather/releases/download/$$TAG$$/breezy-weather-$$TAG$$_standard.apk
         build:
           - rm app/src/main/res/values-iw/plurals.xml
+          - base64 -d > local.properties <<< YnJlZXp5LmFjY3Uua2V5PTQ2NmE0YTk1ZTJhOTQ4M2U4ZjNmYzIyZDliYjIzOTVmCmJyZWV6eS5hZW1ldC5rZXk9ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKemRXSWlPaUpoY0dsQVluSmxaWHA1ZDJWaGRHaGxjaTV2Y21jaUxDSnFkR2tpT2lJMlltUTFNVGxrWWkxbFkyVmlMVFExTVdVdE9EUXhNeTFrWkRjNU9EaGpaak14WlRVaUxDSnBjM01pT2lKQlJVMUZWQ0lzSW1saGRDSTZNVGN6TWpjeU5EVXdOeXdpZFhObGNrbGtJam9pTm1Ka05URTVaR0l0WldObFlpMDBOVEZsTFRnME1UTXRaR1EzT1RnNFkyWXpNV1UxSWl3aWNtOXNaU0k2SWlKOS5rUWtqMXRySmw3QkowNmtOdjZDSDN2LWpnWmRrVVVEa1Z5VHdISzBpMlhJCmJyZWV6eS5hdG1vYXVyYS5rZXk9ZTEzOWVkNDFmODEyMzgzZWQ4ODY3OGY4ZTdmYTc0NGYKYnJlZXp5LmF0bW9mcmFuY2Uua2V5PTNiZTJlY2IxYTU4cTZndXk2ODQ1ZjVqNjlhOWQ5ZGg2CmJyZWV6eS5hdG1vZ3JhbmRlc3Qua2V5PTF8OHdySTUzT1pQZFFHb2hnbW9Ca3dKNFNWVlZYc0JJQWFqbmxNUUl6OApicmVlenkuYXRtb2hkZi5rZXk9ZjE3MmQwZGEtZWFmMS00YTllLTg3YWYtYWEzYzZlM2U5YTcwCmJyZWV6eS5hdG1vc3VkLmtleT05MzcxZTRmOTU1MDkzMTBmNjZkYmEwODdmMmY0NjVkYwpicmVlenkuYmFpZHVpcC5rZXk9R00xZXZ1bG92R041RTQxcDZOQzcyTFczcWw1ZDBuTkcKYnJlZXp5LmJta2cua2V5PWV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNklqRmpOV0ZrWldVeFl6WTVNek0wTmpZMk4yRXpaV00wTVdSbE1qQm1aV1poTkRjeE9UTmpZemN5WkRnd01HUmlOMlptWm1GbE1XVmhZamN4WkdZeVlqUWlMQ0pwWVhRaU9qRTNNREUxT0RNek56bDkuRDFWTnBNb1RVVkZPVXVRVzB5MnZTanR0WndqMHNLQlgzM0t5cmthUk1jUQpicmVlenkuY3dhLmtleT1DV0EtQzk4N0RGQUEtN0RERS00RTU5LUIyODEtNURCMEQ5ODBEMjcxCmJyZWV6eS5lY2NjLmtleT1hM2M2MTkyYS0yMDQ4LTQ1MzItOGNiOC1kZjdjYWQ5M2ZiZjIKYnJlZXp5Lmdlb25hbWVzLmtleT1icmVlenl3ZWF0aGVyCmJyZWV6eS5tZXRpZS5rZXk9ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdFpYUXRhbmQwSWl3aWMzVmlJam94TENKcFlYUWlPakUxTWpnNE1USTJNRFVzSW1WNGNDSTZOemd6TmpBeE1qWXdOWDAuTVpTQkRrU1JHMnVXZ1hfVVZLX1BhMk9mdzFMeGpVczF6Sks3TnkwM3NCUQpicmVlenkubWYuand0S2V5PTg0YTM4ZGI4Y2RkNjYyYTI2NDJmNTI2ZjExNTg4ZTdlCmJyZWV6eS5tZi5rZXk9X19XajdkVlNUalY5WUd1MWd1dmVMeURxMGc3UzdUZlRqYUhCVFBUcE8wa2o4X18KYnJlZXp5Lm9wZW53ZWF0aGVyLmtleT1kOWM5MTAzYTc0YTQzOGVhYzA5NTJhMzRkMWI1ODBlNgo=
+          - sed -r '/abi \{/,/}/ { /include/d }' -i app/build.gradle.kts
+          - ./gradlew assembleBasicRelease -Dorg.gradle.parallel=false -Pbreezy
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/basic/release/app-basic-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v6.2.1
+    apks:
+      - apk_pattern: breezy-weather-(v[\d.]+)(-beta|-rc)?[_-]standard.apk
+        apk_url: https://github.com/breezy-weather/breezy-weather/releases/download/$$TAG$$/breezy-weather-$$TAG$$_standard.apk
+        build:
           - base64 -d > local.properties <<< YnJlZXp5LmFjY3Uua2V5PTQ2NmE0YTk1ZTJhOTQ4M2U4ZjNmYzIyZDliYjIzOTVmCmJyZWV6eS5hZW1ldC5rZXk9ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKemRXSWlPaUpoY0dsQVluSmxaWHA1ZDJWaGRHaGxjaTV2Y21jaUxDSnFkR2tpT2lJMlltUTFNVGxrWWkxbFkyVmlMVFExTVdVdE9EUXhNeTFrWkRjNU9EaGpaak14WlRVaUxDSnBjM01pT2lKQlJVMUZWQ0lzSW1saGRDSTZNVGN6TWpjeU5EVXdOeXdpZFhObGNrbGtJam9pTm1Ka05URTVaR0l0WldObFlpMDBOVEZsTFRnME1UTXRaR1EzT1RnNFkyWXpNV1UxSWl3aWNtOXNaU0k2SWlKOS5rUWtqMXRySmw3QkowNmtOdjZDSDN2LWpnWmRrVVVEa1Z5VHdISzBpMlhJCmJyZWV6eS5hdG1vYXVyYS5rZXk9ZTEzOWVkNDFmODEyMzgzZWQ4ODY3OGY4ZTdmYTc0NGYKYnJlZXp5LmF0bW9mcmFuY2Uua2V5PTNiZTJlY2IxYTU4cTZndXk2ODQ1ZjVqNjlhOWQ5ZGg2CmJyZWV6eS5hdG1vZ3JhbmRlc3Qua2V5PTF8OHdySTUzT1pQZFFHb2hnbW9Ca3dKNFNWVlZYc0JJQWFqbmxNUUl6OApicmVlenkuYXRtb2hkZi5rZXk9ZjE3MmQwZGEtZWFmMS00YTllLTg3YWYtYWEzYzZlM2U5YTcwCmJyZWV6eS5hdG1vc3VkLmtleT05MzcxZTRmOTU1MDkzMTBmNjZkYmEwODdmMmY0NjVkYwpicmVlenkuYmFpZHVpcC5rZXk9R00xZXZ1bG92R041RTQxcDZOQzcyTFczcWw1ZDBuTkcKYnJlZXp5LmJta2cua2V5PWV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNklqRmpOV0ZrWldVeFl6WTVNek0wTmpZMk4yRXpaV00wTVdSbE1qQm1aV1poTkRjeE9UTmpZemN5WkRnd01HUmlOMlptWm1GbE1XVmhZamN4WkdZeVlqUWlMQ0pwWVhRaU9qRTNNREUxT0RNek56bDkuRDFWTnBNb1RVVkZPVXVRVzB5MnZTanR0WndqMHNLQlgzM0t5cmthUk1jUQpicmVlenkuY3dhLmtleT1DV0EtQzk4N0RGQUEtN0RERS00RTU5LUIyODEtNURCMEQ5ODBEMjcxCmJyZWV6eS5lY2NjLmtleT1hM2M2MTkyYS0yMDQ4LTQ1MzItOGNiOC1kZjdjYWQ5M2ZiZjIKYnJlZXp5Lmdlb25hbWVzLmtleT1icmVlenl3ZWF0aGVyCmJyZWV6eS5tZXRpZS5rZXk9ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdFpYUXRhbmQwSWl3aWMzVmlJam94TENKcFlYUWlPakUxTWpnNE1USTJNRFVzSW1WNGNDSTZOemd6TmpBeE1qWXdOWDAuTVpTQkRrU1JHMnVXZ1hfVVZLX1BhMk9mdzFMeGpVczF6Sks3TnkwM3NCUQpicmVlenkubWYuand0S2V5PTg0YTM4ZGI4Y2RkNjYyYTI2NDJmNTI2ZjExNTg4ZTdlCmJyZWV6eS5tZi5rZXk9X19XajdkVlNUalY5WUd1MWd1dmVMeURxMGc3UzdUZlRqYUhCVFBUcE8wa2o4X18KYnJlZXp5Lm9wZW53ZWF0aGVyLmtleT1kOWM5MTAzYTc0YTQzOGVhYzA5NTJhMzRkMWI1ODBlNgo=
           - sed -r '/abi \{/,/}/ { /include/d }' -i app/build.gradle.kts
           - ./gradlew assembleBasicRelease -Dorg.gradle.parallel=false -Pbreezy
