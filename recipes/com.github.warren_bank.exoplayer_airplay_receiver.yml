@@ -563,3 +563,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.14.2
+    apks:
+      - apk_pattern: .*withAllLanguageTranslations-noDecoderExtensions-release\.apk
+        apk_url: https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.14.2/ExoPlayer-AirPlay-Receiver-003.14.02-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk
+        build:
+          - cd android-studio-project
+          - GRADLE_VERSION="$(sed -r -n 's/distributionUrl.*gradle-([0-9.]+)-.*/\1/p' gradle/wrapper/gradle-wrapper.properties)"
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version $GRADLE_VERSION -v assembleWithAllLanguageTranslationsNoDecoderExtensionsRelease
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT=ExoPlayer-AirPlay-Receiver/build/outputs/apk/withAllLanguageTranslationsNoDecoderExtensions/release/ExoPlayer-AirPlay-Receiver-*-withAllLanguageTranslations-noDecoderExtensions-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
