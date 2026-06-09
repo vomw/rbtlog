@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git
 updates: releases
+notes:
+  - starting with 1.0.0, we need ndk 28.2 for stripping, and JAVA_HOME so the build does not fail when it checks desktopApp/build.gradle.kts
 versions:
   - tag: 0.1.0-beta20
     apks:
@@ -384,6 +386,42 @@ versions:
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 1.0.0
+    apks:
+      - apk_pattern: RaccoonForFriendica-arm64-v8a-release\.apk
+        apk_url: https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/1.0.0/RaccoonForFriendica-arm64-v8a-release.apk
+        build:
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i androidApp/build.gradle.kts
+          - sed -r 's/, "x86_64"// ; s/isUniversalApk = true/isUniversalApk = false/' -i androidApp/build.gradle.kts
+          - base64 -d > core/utils/build.properties <<< c2VudHJ5X2Rzbj1odHRwczovL2Y2ZjIxMzAxM2ZhOGU4YjlkYTczNmZiMTkyNTk0YWQ4QG80NTA3OTc5NTMzNTE2ODAwLmluZ2VzdC5kZS5zZW50cnkuaW8vNDUwNzk3OTUzNTgxMDY0MAo=
+          - base64 -d > core/api/build.properties <<< aW5uZXJfdHJhbnNsYXRpb25fYXBpX3VybD1odHRwczovLzY1NS5tdGlzLndvcmtlcnMuZGV2L3RyYW5zbGF0ZQo=
+          - chmod +x gradlew
+          - export JAVA_HOME="$(dirname "$(dirname "$(realpath "$(which java)")")")"
+          - ./gradlew :androidApp:assembleRelease
+          - mv androidApp/build/outputs/apk/release/RaccoonForFriendica-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
           platform:
           platform_tools:
           tools:
