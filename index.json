@@ -6717,6 +6717,21 @@
       "maintainer_notes": null
     }
   ],
+  "0aaf2f3fe79de12ec8a79dc3a800de7e60e8d5402f50a708b30c7d689ec7d10f": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.0.2/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10002,
+      "version_name": "1.0.2",
+      "tag": "v1.0.2",
+      "commit": "5b505171b5d71470f563eb88851f5d3f38b25ec3",
+      "timestamp": 1781115910,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -9037,6 +9052,21 @@
       "tag": "v9.6.3",
       "commit": "e730062933a2a72d5d0bf129d2f79cb9801c8f17",
       "timestamp": 1780079156,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c26d3b25dc97370f3e54a84d79463a35cf2b39195df7ce2cda0b73c6a2091a2a": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.7.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 970,
+      "version_name": "v9.7.0",
+      "tag": "v9.7.0",
+      "commit": "b221d8408e0f9c066b6da7ef69912c3eb3bb0e78",
+      "timestamp": 1781116403,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -14227,6 +14257,21 @@
       "tag": "2.5.6",
       "commit": "cf52c9352f231115dd948947c7025bb8981ecab4",
       "timestamp": 1781041101,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cc839b80085a80bd3a6db6ae3d143df1ac5a9ffa757c2ced15d920c159c1883a": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.8/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 32,
+      "version_name": "2.5.8",
+      "tag": "2.5.8",
+      "commit": "88125101246aed0f03c576c380047ccaa132dbc7",
+      "timestamp": 1781116824,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26886,6 +26931,21 @@
       "maintainer_notes": null
     }
   ],
+  "3e1e80803b6649bab849d84d8d69bbc03d71e31f6a388f9c3f0acd910f30c35c": [
+    {
+      "repository": "https://github.com/mona-hrt/mona.git",
+      "apk_url": "https://github.com/mona-hrt/mona/releases/download/v1.11.0/mona-store-arm64-v8a.apk",
+      "appid": "com.deliacheminot.mona",
+      "version_code": 2011,
+      "version_name": "1.11.0",
+      "tag": "v1.11.0",
+      "commit": "e20ee1bba86a7adfb585a0537f6aa33ad3f5051d",
+      "timestamp": 1781100813,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "build ID embedded into libdartjni.so"
+    }
+  ],
   "6b4c964de9d9ec31f4e2f53a9515267f57a2be5c5ed4c1a7b2194902bd4296ac": [
     {
       "repository": "https://github.com/Demizo/Daily_You.git",
@@ -32629,6 +32689,21 @@
       "maintainer_notes": null
     }
   ],
+  "fa10c8ba84896cec1ff210e751a887a1a479524dcd6c6fe7b1b400d387e82906": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.18.2/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 30,
+      "version_name": "4.18.2",
+      "tag": "v4.18.2",
+      "commit": "a6339fbf9f50ca0e2975b56b9c335b21052a5996",
+      "timestamp": 1781102593,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -35682,6 +35757,21 @@
       "tag": "v1.38",
       "commit": "bebff5eccef09b39258fc8431651b7649488ab70",
       "timestamp": 1780669224,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5d5eea77cd532011a69e11b8abb042195d430b5f127d0fe203e758b2f512c9fe": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.39/PrivateDnsQS-v1.39-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 42,
+      "version_name": "1.39",
+      "tag": "v1.39",
+      "commit": "da8dfec91291e70b030b0b17596f5551b6579afa",
+      "timestamp": 1781102802,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -44889,6 +44979,21 @@
       "maintainer_notes": null
     }
   ],
+  "1422091a0e5e610178b6c06f4bfbacb59b623297dcadf713c3e5e4546b66b25a": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.74/fire2kodi_v0.74.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 26,
+      "version_name": "0.74",
+      "tag": "v0.74",
+      "commit": "da3c4302f609996288ae4cb3dd92189c90b776b4",
+      "timestamp": 1781117325,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "13bac35cbfae7405373f0957e3a7a8fec3f1461e70f57ec83ec0a8604c71a46b": [
     {
       "repository": "https://github.com/StellarSand/IYPS.git",
@@ -48499,6 +48604,21 @@
       "tag": "v1.2.4",
       "commit": "235a191a44d2aa22ffc90404cae41b3fedfe5950",
       "timestamp": 1781014899,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d3c8dcb97556e93efded98abcac12a2355e94102c4bc03c34084bced5ec56686": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.5/kelani-sbd-tracker-v1.2.5.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 54,
+      "version_name": "1.2.5",
+      "tag": "v1.2.5",
+      "commit": "b31f18cf17d6c9378c414dd1bc5732e696f1bc6a",
+      "timestamp": 1781103190,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70930,6 +71050,21 @@
       "maintainer_notes": "resources with mixed Windows/Unix line breaks"
     }
   ],
+  "74dfd4de891b5f522f72d555c854d119c4510b65b67d83f8ccb71e3989cc3f2c": [
+    {
+      "repository": "https://github.com/SimonHalvdansson/Harmonic-HN.git",
+      "apk_url": "https://github.com/SimonHalvdansson/Harmonic-HN/releases/download/v3.0.2/app-release.apk",
+      "appid": "com.simon.harmonichackernews",
+      "version_code": 77,
+      "version_name": "3.0.2",
+      "tag": "v3.0.2",
+      "commit": "954de2366a4627ba11ef32ed2dbfadd2e837685d",
+      "timestamp": 1781118997,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "351a973cc09c5aa835d9db0ae2258aacc16880fe7b28432c91adc720fc4d5fde": [
     {
       "repository": "https://github.com/SimpolCo/Permissions-Summary.git",
@@ -77110,6 +77245,21 @@
       "maintainer_notes": null
     }
   ],
+  "3be629d62f43478ef07d7ff369ed44d32551e60105b32fe93161f64162ec1e37": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.8.2/NerdCalci-v4.8.2.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 482,
+      "version_name": "4.8.2",
+      "tag": "v4.8.2",
+      "commit": "faa90588166da4687b275b1bceb2691d1f9f77be",
+      "timestamp": 1781103367,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -77735,6 +77885,21 @@
       "tag": "v6.0.1",
       "commit": "c026fa19a87680b19875ee39a26a6d67f3cc10e7",
       "timestamp": 1779372293,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c587ec1bf53c1192c6c5962c094616f5da56ffcedbfab5ef92d567c339defb14": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v6.0.2/vividroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 71,
+      "version_name": "6.0.2",
+      "tag": "v6.0.2",
+      "commit": "d7dc07486aa57aa551294f2e7375e8bcfe50a55c",
+      "timestamp": 1781103575,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -95861,6 +96026,21 @@
       "maintainer_notes": null
     }
   ],
+  "c7a126cc6a7881e83caf3c23efb8d501989ab739f98357386e7eea60f719e551": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2320/FairEmail-v1.2320a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2320,
+      "version_name": "1.2320",
+      "tag": "1.2320",
+      "commit": "b050de64477bd99090b124fc7cd2c7c18303299f",
+      "timestamp": 1781114532,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -96561,6 +96741,21 @@
       "tag": "v2.3.2",
       "commit": "d2abf14a02e78a03db72d7258c33e9fe640ceb3c",
       "timestamp": 1780343463,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c6506d261240de32160cb306ba80af6c1cd42267928e08961e0574a4d325db7c": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.4.0/phdp-v2.4.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 24000,
+      "version_name": "2.4.0",
+      "tag": "v2.4.0",
+      "commit": "e97a8521673c7e3fecf6c28d32e31de6344d5565",
+      "timestamp": 1781105113,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -109027,6 +109222,21 @@
       "maintainer_notes": null
     }
   ],
+  "1b8e20159f09ffc1956f255bf1612be52e16c2e579119a463e48803f5c155858": [
+    {
+      "repository": "https://codeberg.org/neonbranch/treasurehunt.git",
+      "apk_url": "https://codeberg.org/neonbranch/treasurehunt/releases/download/v0.6.3/treasurehunt-0.6.3.apk",
+      "appid": "nodomain.neonbranch.treasurehunt",
+      "version_code": 80,
+      "version_name": "0.6.3",
+      "tag": "v0.6.3",
+      "commit": "313b4e2012b8a9c69563c3f8da94907b1edac23d",
+      "timestamp": 1781122345,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d9e154e9619f81c5bc2eba3653b1c8f8255aa4e22db8b0ee71c17aecd976cec7": [
     {
       "repository": "https://github.com/synapp009/NeuroCalm.git",
@@ -120690,6 +120900,21 @@
       "tag": "v0.28.7",
       "commit": "45af64a518bfb1a29a495bfde73912b008e69601",
       "timestamp": 1779635117,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d9fb2540b3a2a0b059c73a296f0cda1c06738426d013c626dbf088aea66629b3": [
+    {
+      "repository": "https://github.com/TeamNewPipe/NewPipe.git",
+      "apk_url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.28.8/NewPipe_v0.28.8.apk",
+      "appid": "org.schabi.newpipe",
+      "version_code": 1013,
+      "version_name": "0.28.8",
+      "tag": "v0.28.8",
+      "commit": "84d7db5c1348a1a2f73c80970b977d8e1ef6a83d",
+      "timestamp": 1781105293,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

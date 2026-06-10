@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
+notes:
+  - 'FIXME: before building the next release (>0.9.9), see https://github.com/dongdongbh/Mindwtr/discussions/682#discussioncomment-17244145 for recipe adjustments'
 labels:
   - expo
   - react-native

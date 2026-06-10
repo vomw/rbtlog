@@ -772,3 +772,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v6.0.2
+    apks:
+      - apk_pattern: vividroid-universal-foss-release\.apk
+        apk_url: https://github.com/vivizzz007/vivi-music/releases/download/v6.0.2/vividroid-universal-foss-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - export VARIANT_CAP=Foss
+          - ./gradlew assembleUniversalFossRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - OUT="app/build/outputs/apk/universalFoss/release/app-universal-foss-release-unsigned.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'assets/po_token.html' 'assets/solver/*.js'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
