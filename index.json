@@ -111592,6 +111592,21 @@
       "maintainer_notes": null
     }
   ],
+  "ddff653260c7fba57dcac02dd6f82587fdda2e2a706504744e0492ed27cd0220": [
+    {
+      "repository": "https://github.com/zwc456baby/ScrcpyForAndroid.git",
+      "apk_url": "https://github.com/zwc456baby/ScrcpyForAndroid/releases/download/v1.4.1/scrcpy-scrcpy-release.apk",
+      "appid": "org.client.scrcpy",
+      "version_code": 12,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "4b2dcdfaeaa037cf5d9675a7aa03114c6d206354",
+      "timestamp": 1781184417,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "38573ada29fd37d993e43863850192d243fdb7adf6ad0395d948cb7c7ffbaa07": [
     {
       "repository": "https://codeberg.org/minardil/BasicCashFlow.git",
@@ -130635,6 +130650,21 @@
       "tag": "v1.6.0",
       "commit": "6c0cdfcf720cd0e8a48981f98b04d05072998457",
       "timestamp": 1737226256,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1073722b504de1df4c9d3a39d25f3408e4e866e348cb44b5a58cdb7caf0d9065": [
+    {
+      "repository": "https://github.com/tberghuis/FloatingCountdownTimer.git",
+      "apk_url": "https://github.com/tberghuis/FloatingCountdownTimer/releases/download/v1.50.0/app-release.apk",
+      "appid": "xyz.tberghuis.floatingtimer",
+      "version_code": 90,
+      "version_name": "1.50.0",
+      "tag": "v1.50.0",
+      "commit": "dbdfe2d512caceb110b091a8ebabea80f7499595",
+      "timestamp": 1781130258,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
