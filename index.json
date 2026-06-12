@@ -75835,6 +75835,21 @@
       "maintainer_notes": null
     }
   ],
+  "074ee55640e3863e8967c3bce125dbfc51bb19291a6dace2d7c75b0a9385ecdb": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.2/app-arm64-v8a-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 120,
+      "version_name": "1.2.0",
+      "tag": "v1.2",
+      "commit": "6d43d500cfb91794fbcd28d80bfcf07f80e2e3c4",
+      "timestamp": 1781264501,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -120080,6 +120095,21 @@
       "maintainer_notes": null
     }
   ],
+  "6bab90276ed7a4e1d4da48757fea36fd793b37d4a85efcc2100514c80793328e": [
+    {
+      "repository": "https://github.com/privacyguides/verified-apps-android.git",
+      "apk_url": "https://github.com/privacyguides/verified-apps-android/releases/download/26.6.8/VerifiedApps-26.6.8.apk",
+      "appid": "org.privacyguides.verifiedapps",
+      "version_code": 26060008,
+      "version_name": "26.6.8",
+      "tag": "26.6.8",
+      "commit": "3ce00acbc8863913a506385da00fd6b23d24e16b",
+      "timestamp": 1781260737,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1ca4978112e68eae5188710ced6ae84f1d137cf473b760ce20cebec4a831d498": [
     {
       "repository": "https://github.com/ProjectSolutus/Pomozen.git",
@@ -127005,6 +127035,21 @@
       "tag": "v0.9.8",
       "commit": "09b36e628bbf0335ea78497c77488f2ff52939a8",
       "timestamp": 1780687007,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "10dcedc366c4985c7df756ce077408a91e208807ef4738a54f26947ca8281fa9": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v0.9.10/mindwtr-0.9.10-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 79,
+      "version_name": "0.9.10",
+      "tag": "v0.9.10",
+      "commit": "0d4eca87427967ff07ec8e01987cc1196ba7fb95",
+      "timestamp": 1781224912,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
