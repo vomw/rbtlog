@@ -35852,6 +35852,21 @@
       "maintainer_notes": null
     }
   ],
+  "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.39/PrivateDnsQS-v1.39-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 42,
+      "version_name": "1.39",
+      "tag": "v1.39",
+      "commit": "da8dfec91291e70b030b0b17596f5551b6579afa",
+      "timestamp": 1781315899,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4c386782d0783fde8c7ac2f5f1be7b72dc7a98539841ba5baa946ab734023e4c": [
     {
       "repository": "https://codeberg.org/epinez/Compete.git",
