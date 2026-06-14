@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.6.2
     apks:
-      - apk_pattern: VPN-Inspector.*\.apk
+      - apk_pattern: VPN-[Ii]nspector.*\.apk
         apk_url: https://github.com/Kasumicic/vpn-inspector/releases/download/v1.6.2/VPN-Inspector-1.6.2.apk
         build:
           - ./gradlew assembleRelease

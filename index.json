@@ -5532,6 +5532,21 @@
       "maintainer_notes": null
     }
   ],
+  "149e278889148da873a220695b31ffb978082a832e438372493199f2c2dba984": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.2.2/fluffy-4.2.2-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 771,
+      "version_name": "4.2.2",
+      "tag": "4.2.2",
+      "commit": "b80b6d99d09855869cea8428a15d6a3c6170a669",
+      "timestamp": 1781461515,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -13707,6 +13722,21 @@
       "maintainer_notes": null
     }
   ],
+  "658e01da453aa27bdd591a0d251ab9a1077a1fcaa51eab85f7d50abc9fbb0180": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.1.408.1067-stable/Rhythm-5.1.408.1067-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 514081067,
+      "version_name": "5.1.408.1067-fdroid",
+      "tag": "v5.1.408.1067-stable",
+      "commit": "c09040793dabaea392917dad6a5633e9ebc9aac6",
+      "timestamp": 1781445261,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -19310,6 +19340,21 @@
       "tag": "v1.6.6",
       "commit": "fc32bb3f2db9eebc2bbe9a738df8a4acd45073af",
       "timestamp": 1780754488,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bb177055b98e958cef899ce4de5d442206314294633199160d988ca7c7ed2e35": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.7/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 23,
+      "version_name": "1.6.7",
+      "tag": "v1.6.7",
+      "commit": "a27757a3c5735595340bac59348305069c428e95",
+      "timestamp": 1781445968,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26181,6 +26226,21 @@
       "maintainer_notes": null
     }
   ],
+  "d06038b8604c7934cd97d3a185e8db6f35dacb44115a61dee5d704687d1fd9f9": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.3.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 303000000,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "cd5d01682077c6db0c0e0bdd63524fbc8d77b04d",
+      "timestamp": 1781446302,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -27081,6 +27141,21 @@
       "maintainer_notes": "build ID embedded into libdartjni.so"
     }
   ],
+  "1bff623a12fc1f58add4ba2956783655a5c05691b705d6a782ad562e30c4425e": [
+    {
+      "repository": "https://github.com/mona-hrt/mona.git",
+      "apk_url": "https://github.com/mona-hrt/mona/releases/download/v1.12.0/mona-store-arm64-v8a.apk",
+      "appid": "com.deliacheminot.mona",
+      "version_code": 2012,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "5434b6f947ea4fcac7e3a976dd420ee2e760145f",
+      "timestamp": 1781465461,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6b4c964de9d9ec31f4e2f53a9515267f57a2be5c5ed4c1a7b2194902bd4296ac": [
     {
       "repository": "https://github.com/Demizo/Daily_You.git",
@@ -27721,6 +27796,21 @@
       "tag": "v1.8.9",
       "commit": "bf90b2aca319cfe91f6f5a3ea71362425a2c4648",
       "timestamp": 1781372769,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4e95fb10efdf37eef0db8cffe0c09d14fbaf9ac8897bdea18089d63c6ceabaa0": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.8.9.1/YTDLnis-1.8.9.1-foss-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 108090104,
+      "version_name": "1.8.9.1",
+      "tag": "v1.8.9.1",
+      "commit": "08627cd9b23a70d6ce04904f3539cd8a262e4794",
+      "timestamp": 1781464666,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32429,6 +32519,21 @@
       "tag": "v0.7.4-alpha",
       "commit": "4d5aa78250e0105a4b5fe3d7d4f99de895bd234f",
       "timestamp": 1781273666,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6bffba4a006cdfa80d2d0fc4b5f17124725dc1ef76945d28cf77b3acfb9e3f69": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.7.5-alpha/YagniLauncher-v0.7.5-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 75,
+      "version_name": "0.7.5-alpha",
+      "tag": "v0.7.5-alpha",
+      "commit": "51452f8b1f7ca77140c137645256dd9ea8e93f47",
+      "timestamp": 1781446965,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -41381,6 +41486,21 @@
       "maintainer_notes": null
     }
   ],
+  "9cd269a41e17ca0ed6d683b5238f06088cb24d14b3dde1c91d3c205300730318": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.14.3/ExoPlayer-AirPlay-Receiver-003.14.03-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3140323,
+      "version_name": "003.14.03-23API",
+      "tag": "v3.14.3",
+      "commit": "7fc2ac3fc5f0d7ad88a933374d89b09c74665ffa",
+      "timestamp": 1781447295,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e16f0a10ac6fe6a1fa1415370e4584f1ba0762bcd69bbe7e845e5c3a72176773": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -44494,6 +44614,21 @@
       "tag": "v1.0.16",
       "commit": "167d25e0b8d8c9009060760bae7c1567638f7a4e",
       "timestamp": 1776952678,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d006856ecd7dc279a3a07dc864957c65e6f827057c3a3b0d0971b119700bc8ab": [
+    {
+      "repository": "https://github.com/Harshshah6/SaavnMp3-Android.git",
+      "apk_url": "https://github.com/Harshshah6/SaavnMp3-Android/releases/download/v1.0.17/Melotune-1.0.17-nofirebaseRelease.apk",
+      "appid": "com.harsh.shah.saavnmp3",
+      "version_code": 11,
+      "version_name": "1.0.17",
+      "tag": "v1.0.17",
+      "commit": "5cf0318986e8105c66006709c33e7f9986cb5972",
+      "timestamp": 1781462793,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -47709,6 +47844,21 @@
       "maintainer_notes": null
     }
   ],
+  "3afe06a69bc654691660daf289d98606482c6128ed509f8bb9f6f3c2afae8e7c": [
+    {
+      "repository": "https://github.com/kaleedtc/Nitterium.git",
+      "apk_url": "https://github.com/kaleedtc/Nitterium/releases/download/v1.5.2/app-release.apk",
+      "appid": "com.kaleedtc.nitterium",
+      "version_code": 12,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "1eb8a88d13f0336e0497e70d7b4dd1a3903f508e",
+      "timestamp": 1781463119,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c3e3a87ada12f3bac2b031d8a75cde0e319c8a5efb81c0f567ace814891e25d8": [
     {
       "repository": "https://github.com/kaleedtc/Privacium.git",
@@ -48229,6 +48379,21 @@
       "tag": "v2.0.9",
       "commit": "a823a4b0813adb7427acc7276556bb43e890b6b1",
       "timestamp": 1773353603,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "75d0f5393d32e77bb76d956c02e6260893f00ddc170c2143eb0ee5ba7ca2396b": [
+    {
+      "repository": "https://github.com/kaleedtc/Privacium.git",
+      "apk_url": "https://github.com/kaleedtc/Privacium/releases/download/v2.1.0/app-release.apk",
+      "appid": "com.kaleedtc.privacium",
+      "version_code": 36,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "367576c7aa430c3d9c7dd5c00f175dfc9744ad76",
+      "timestamp": 1781466284,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -48859,6 +49024,21 @@
       "tag": "v1.2.7",
       "commit": "2d05d98896afbdfae32cd312b4112ae49e3b13bc",
       "timestamp": 1781273911,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dc9615885ae689471e7f4835a8c9c03cd325800bf3b71e83d887a8d33c2f7936": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.8/kelani-sbd-tracker-v1.2.8.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 57,
+      "version_name": "1.2.8",
+      "tag": "v1.2.8",
+      "commit": "0439cb9804ba137c423b75877cba63b16c792043",
+      "timestamp": 1781447653,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56758,6 +56938,21 @@
       "tag": "0.18",
       "commit": "020cf8658ba32d55fb7ec20f0cb7ed6fc5b2c75b",
       "timestamp": 1777904626,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5f5eb0c6737d62bfa2ea99dd3c6ec3ec6684ce52e185886b78f03250e38bdd83": [
+    {
+      "repository": "https://github.com/ribbons/TaskerRsync.git",
+      "apk_url": "https://github.com/ribbons/TaskerRsync/releases/download/0.19/com.nerdoftheherd.tasker.rsync_0.19.apk",
+      "appid": "com.nerdoftheherd.tasker.rsync",
+      "version_code": 541,
+      "version_name": "0.19",
+      "tag": "0.19",
+      "commit": "7f53509d7a50e837ab3d85ac29d7613a00dbd433",
+      "timestamp": 1781447856,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -76210,6 +76405,21 @@
       "maintainer_notes": null
     }
   ],
+  "c79cd31b6022439f9ebe061aaa9dacb88d8314fbaae9d9107b87deedd6ed4106": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.3.1/app-arm64-v8a-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 131,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "7b0355ce2f10174a54e1bada2b4dff95b52ace14",
+      "timestamp": 1781449312,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -80136,6 +80346,21 @@
       "maintainer_notes": null
     }
   ],
+  "7f3d0b4b20279b8184d55554c86edf781e0634fd116b6e2ed61ab6d646d32416": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.0.2/wgtunnel-fdroid-v5.0.2-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50002,
+      "version_name": "5.0.2",
+      "tag": "5.0.2",
+      "commit": "6c3c6891ebe8bcaf648f6fcf610b17dbcf4950cc",
+      "timestamp": 1781449461,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -82079,6 +82304,21 @@
       "tag": "v1.1.0-rc1",
       "commit": "a52a9ade379bea88cf6e2d11345b576d077b0647",
       "timestamp": 1781378113,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "52fffc01d9b97ebaf454fb8294ed2fc81678e0c6ac83dd153ad2fda53791a36a": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.1.0-rc2/NeoDB-You-v1.1.0-rc2.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 11,
+      "version_name": "1.1.0-rc2",
+      "tag": "v1.1.0-rc2",
+      "commit": "cd8700a1133b83bfe7c8f854a35ee318fe97c115",
+      "timestamp": 1781450008,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105872,6 +106112,21 @@
       "tag": "v0.7.83",
       "commit": "04dc5717f4382fa2cbe5c9c55d25004f0382c65c",
       "timestamp": 1780426675,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1886ab94bd1205d12a0285b29c356edd502b182de4d48fa013baeeba5dead0e4": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.84/RiPlay-foss-release-0.7.84.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 85,
+      "version_name": "0.7.84",
+      "tag": "v0.7.84",
+      "commit": "fee68716e5f6ae6ea9b028fdbec13caa83268491",
+      "timestamp": 1781463716,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

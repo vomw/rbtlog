@@ -68,3 +68,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.3.1
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/umutcamliyurt/IrisChat/releases/download/v1.3.1/app-arm64-v8a-release.apk
+        build:
+          - git reset --soft cd64282e1ca9b661c8073c4329cc0f86a1afacef
+          - sed -r 's/isUniversalApk = true/isUniversalApk = false/ ; /ndk \{/,/^        \}/d' -i app/build.gradle.kts
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py --version 9.1.0 -v assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
