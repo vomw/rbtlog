@@ -10512,6 +10512,21 @@
       "maintainer_notes": null
     }
   ],
+  "901b72b3493798fb446b0e34670c66101d273d9de14d52fac70c3d65f1d17edf": [
+    {
+      "repository": "https://github.com/FrankHJCuypers/gaai.git",
+      "apk_url": "https://github.com/FrankHJCuypers/gaai/releases/download/v1.2.2/Gaai-v102002-1.2.2-23-ga154944-release.apk",
+      "appid": "be.cuypers_ghys.gaai",
+      "version_code": 102002,
+      "version_name": "1.2.2-23-ga154944",
+      "tag": "v1.2.2",
+      "commit": "a154944775e461926f9046a2639fd1cd92768dec",
+      "timestamp": 1781547901,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6ae811bb4fb11f21eb39f032898e8f28f3b303f196218cdebec6132b37c634a9": [
     {
       "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
@@ -11497,6 +11512,21 @@
       "tag": "3.39.1",
       "commit": "43b17f26027a98bedb4acaf13149f46011af9768",
       "timestamp": 1780753854,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "49f5bb90509435fa28eace29c9c37464a481eb3b6507b2bcbe77cccc697fe764": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.40.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3040000,
+      "version_name": "3.40.0",
+      "tag": "3.40.0",
+      "commit": "f52e8df3a80d817afd7cae20f708c67de0b5e2fe",
+      "timestamp": 1781531467,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25641,6 +25671,21 @@
       "maintainer_notes": null
     }
   ],
+  "95f4079f487867988f36cf7885a669170b11c8f34b64fb70266ab76c84a46efb": [
+    {
+      "repository": "https://github.com/DaKlok/BibleLockScreen.git",
+      "apk_url": "https://github.com/DaKlok/BibleLockScreen/releases/download/1.8/app-release.apk",
+      "appid": "com.daklok.biblelockscreen",
+      "version_code": 9,
+      "version_name": "1.8",
+      "tag": "1.8",
+      "commit": "e069a6f708efd0035ff31755de5b66d25e38afab",
+      "timestamp": 1781618497,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0e0c3826304c057129407e3157e0b2b28317ff8032975444ab6139f373c070d1": [
     {
       "repository": "https://github.com/drmfinlay/tts-util-app.git",
@@ -26236,6 +26281,21 @@
       "tag": "v3.3.0",
       "commit": "cd5d01682077c6db0c0e0bdd63524fbc8d77b04d",
       "timestamp": 1781446302,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ca1f30c324bfa4fdacc941e2cf485148d6ca08b012df8e759c707e5a822f7db3": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.3.1/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 303010000,
+      "version_name": "3.3.1",
+      "tag": "v3.3.1",
+      "commit": "a6a94d5517dd51eee005d8ac6a72f5c0daccac2e",
+      "timestamp": 1781618869,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32974,6 +33034,21 @@
       "maintainer_notes": null
     }
   ],
+  "40cadc4f1a1d36876203b4ab04935364c18a27e1add557ff0c3ad9d6b4f85521": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.19.0/app-degoogled-arm64-v8a-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 31,
+      "version_name": "4.19.0",
+      "tag": "v4.19.0",
+      "commit": "929ded37b4182f6bb618c4c5496fc28909dddc7e",
+      "timestamp": 1781619513,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -36047,6 +36122,21 @@
       "maintainer_notes": null
     }
   ],
+  "a8b63ca186ef064d2277187d1f2f015523f77ecfb86ee965331ffe2ea03ae12b": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.40/PrivateDnsQS-v1.40-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 43,
+      "version_name": "1.40",
+      "tag": "v1.40",
+      "commit": "f9ac8143fba62fb1d7d078b9ad8fd8641a9e8319",
+      "timestamp": 1781548699,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -36057,6 +36147,21 @@
       "tag": "v1.39",
       "commit": "da8dfec91291e70b030b0b17596f5551b6579afa",
       "timestamp": 1781315899,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "14527805686b290701d9e3c35d90fd9c7632f5971a06ab39a093a92ba868b021": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v1.40/PrivateDnsQS-v1.40-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 43,
+      "version_name": "1.40",
+      "tag": "v1.40",
+      "commit": "f9ac8143fba62fb1d7d078b9ad8fd8641a9e8319",
+      "timestamp": 1781548421,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -42761,6 +42866,21 @@
       "maintainer_notes": null
     }
   ],
+  "4dd2285fb634af2ab10452736ed24d067d349851b1d5f28faeccf2912e00cb88": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.4.1/Crystalpad-v1.4.1-release.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 6,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "20c18dfc7c52b1e091516ce11e9af28053f1fa1f",
+      "timestamp": 1781620175,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -46914,6 +47034,21 @@
       "maintainer_notes": null
     }
   ],
+  "1f6671810a8d0ee17ad6c61ce936c2edb69c708c133d8a9f7b0afa94b987ae56": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v2.0.0/PassVault-v2.0.0-b38-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 38,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "68b0bc2d3da40483eac98edb70f6529346eec1e0",
+      "timestamp": 1781548987,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -49044,6 +49179,21 @@
       "maintainer_notes": null
     }
   ],
+  "73a74353ed1ed5d67bb7b21cf94947eb4e912fed42a8955aff13c7dac71b6154": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.9/kelani-sbd-tracker-v1.2.9.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 58,
+      "version_name": "1.2.9",
+      "tag": "v1.2.9",
+      "commit": "4576e3d4201420319896b7ac2729894a3108996f",
+      "timestamp": 1781634347,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -49944,6 +50094,21 @@
       "maintainer_notes": null
     }
   ],
+  "803d779d76c62b81d2c0e2acee8938e55bc461a8a0238fcb256670b3279a1cf0": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.4.5/KeePassDX-4.4.5-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 44500,
+      "version_name": "4.4.5",
+      "tag": "4.4.5",
+      "commit": "d053f4c5e2be7dc3f4a2784e8d08b9ff8bb3e7af",
+      "timestamp": 1781549316,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -50254,6 +50419,21 @@
       "tag": "4.4.4",
       "commit": "0e29d8b85123373b55f319e27d984338cfe82a93",
       "timestamp": 1781360311,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "efccbc7722aeb93616af541a5a5137418d7eac42a36dd16391948bcfaaddcf79": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.4.5/KeePassDX-4.4.5-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 44500,
+      "version_name": "4.4.5",
+      "tag": "4.4.5",
+      "commit": "d053f4c5e2be7dc3f4a2784e8d08b9ff8bb3e7af",
+      "timestamp": 1781549748,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -52547,6 +52727,21 @@
       "timestamp": 1776105788,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpyojodf5y/outputs:/outputs', '--volume', '/tmp/tmpyojodf5y/scripts:/scripts:ro', '--volume', '/tmp/tmpyojodf5y/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/maelchiotti/LocalMaterialNotes.git', '--env', 'APP_TAG=v2.1.4', '--env', 'APP_COMMIT=71ea24d4f5622140814396c52c45bdb9b20b1f61', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/LocalMaterialNotes/LocalMaterialNotes', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl,gcc-multilib,libc-dev,make,libclang-dev', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=27.0.12077973', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/LocalMaterialNotes/LocalMaterialNotes && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 2.",
+      "maintainer_notes": null
+    }
+  ],
+  "dedb62f32114426a91a6839ded8da23dba9970de57253e60bac93cb97c97e6ac": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.1.5/localmaterialnotes_arm64-v8a_v2.1.5.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 352,
+      "version_name": "2.1.5",
+      "tag": "v2.1.5",
+      "commit": "f1f942dc6931ac5afdf6bd97e0db0cfd54bfde47",
+      "timestamp": 1781633815,
+      "reproducible": false,
+      "error": null,
       "maintainer_notes": null
     }
   ],
@@ -56105,6 +56300,21 @@
       "maintainer_notes": null
     }
   ],
+  "6ac67fcc9ec34951d26ab4719dc23be48ae2dd816158b3d65b2e901e1a1b713b": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.29.1/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 101,
+      "version_name": "1.29.1",
+      "tag": "v1.29.1",
+      "commit": "00c0a0c3334fbc0b13ef9dc0042e74c209583985",
+      "timestamp": 1781551239,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -58976,6 +59186,21 @@
       "tag": "v4.2.0",
       "commit": "32a84ab6957ab12c3664b77025354bc00542a49a",
       "timestamp": 1781377240,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9636d18c4c347754c0655db69062dc83d698f3346d7bc73cf5206ccf5133fd00": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v4.2.3/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 44003,
+      "version_name": "4.2.3",
+      "tag": "v4.2.3",
+      "commit": "86ef55dcec5eebab383e0a1f44f7f7af04d5109e",
+      "timestamp": 1781632230,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62281,6 +62506,21 @@
       "maintainer_notes": null
     }
   ],
+  "b4063e28cc8243bc0bfe2cc81c9d7aa3a58439ee04f56bc88915746886190c69": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.1.10/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2030,
+      "version_name": "1.1.10",
+      "tag": "v1.1.10",
+      "commit": "4cfb2ea919dbdb7316508ef768dfeb56be515298",
+      "timestamp": 1781552199,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1eae44c4e4a2d523a771c873f8ae7f5cb7481b21ed4845807ff7dfd52dbb6bf8": [
     {
       "repository": "https://github.com/phstudio2/FreeTV.git",
@@ -62801,6 +63041,21 @@
       "tag": "v3.3.0",
       "commit": "746b7f4ee9b246ecb5b309943abc83ba0be39c30",
       "timestamp": 1780771080,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ad5ec5799418533f143b2ca2da84a18ad6921ddeaf35a0cc1fc4515886c876d4": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.4.0/WeatherMaster.v3.4.0.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 52,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "60d53cf3438081f33ed971480c638a3a246f5fbd",
+      "timestamp": 1781640351,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -66176,6 +66431,21 @@
       "tag": "v1.0.9-a",
       "commit": "e7060fe54f59551b89587698149274e5647b3216",
       "timestamp": 1728600589,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "70d2b6ab899261264cdf18b921b8c3e6bb8a86d69de60203053e2c6514a5e885": [
+    {
+      "repository": "https://github.com/RLD-JL/Just-Listen.git",
+      "apk_url": "https://github.com/RLD-JL/Just-Listen/releases/download/v2.0.2/justlisten-foss-release.apk",
+      "appid": "com.rld.justlisten.android",
+      "version_code": 30,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "8573b132abe9f2b4ad7ab0de7f32a2f4bd251051",
+      "timestamp": 1781645124,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -76420,6 +76690,36 @@
       "maintainer_notes": null
     }
   ],
+  "b7b55431053a90a990927e73a73f9a20d48236197a22a85f8ac84bb8e3b9a083": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.3.2/app-arm64-v8a-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 132,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "29726ea3333a3118f79e8fc0f5a5096ca62f0a97",
+      "timestamp": 1781553139,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "edc76462cecb4535b4cd6f374c2fca9de8ddba200a61c6c8fd2ee58293460301": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.4/app-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 140,
+      "version_name": "1.4",
+      "tag": "v1.4",
+      "commit": "6b33cf02e622bb7e7b647ffac2a90df4da9c03fe",
+      "timestamp": 1781646435,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -80071,6 +80371,21 @@
       "tag": "v1.3.17",
       "commit": "d4fc132933e13c2b9eae57e85d204e0c2a55bc00",
       "timestamp": 1780862268,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4192a9314e7436939a17fd6ee123a1a8193702cb22037f27a96833c05ea3e9dc": [
+    {
+      "repository": "https://github.com/darkmoonight/Rain.git",
+      "apk_url": "https://github.com/darkmoonight/Rain/releases/download/v1.3.18/rain-arm64-v8a-release-floss.apk",
+      "appid": "com.yoshi.rain",
+      "version_code": 2051,
+      "version_name": "1.3.18",
+      "tag": "v1.3.18",
+      "commit": "68803418adc5d82d743c094923bde674670cc778",
+      "timestamp": 1781636087,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86029,6 +86344,21 @@
       "maintainer_notes": null
     }
   ],
+  "930b10c7fa7253909448337d047b83e27082313a098abc0226df2a995ae4eebe": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.6.1-5406001/app-free-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5406001,
+      "version_name": "26.6.1",
+      "tag": "26.6.1-5406001",
+      "commit": "c9ca70f917c62f56855532c7d3b46cf14b4d9320",
+      "timestamp": 1781639047,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0312e54f1b2201a17457ff0582252900da7d07dfae05e4cfbb4b13a9f7809fc6": [
     {
       "repository": "https://codeberg.org/qwerty287/ftpclient.git",
@@ -90505,6 +90835,21 @@
       "tag": "3.0.0",
       "commit": "8d8720ca617459e01a6fe6201a06d670f36ce344",
       "timestamp": 1781274312,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c652a5ca8cf501c118f7fd93ccbef057f982a6a47a044f29d1c96b22d33256e1": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.0.1/photok-3.0.1-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 61,
+      "version_name": "3.0.1",
+      "tag": "3.0.1",
+      "commit": "914dd7c13bb8a247ebe5ba115055124938e54896",
+      "timestamp": 1781628582,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -96846,6 +97191,21 @@
       "tag": "1.2321",
       "commit": "48094667c8921bb5ad53aa22e62c658144083be0",
       "timestamp": 1781196681,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "53d422b7710bb09fa0320c3b492d5af9f5441f9d018f0997797f27ca8b1d1c90": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2322/FairEmail-v1.2322a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2322,
+      "version_name": "1.2322",
+      "tag": "1.2322",
+      "commit": "20f23fcd833e0ea672ee84fa3e791ef5a0cfe88d",
+      "timestamp": 1781636956,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -123980,6 +124340,21 @@
       "maintainer_notes": null
     }
   ],
+  "a945543f988e07372070eb27a3790313daa07f6bf99fa03070c9eec8917b292c": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.4.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 44,
+      "version_name": "6.4.0",
+      "tag": "v6.4.0",
+      "commit": "51124c9639bd59b466dec4daccd79a59efd56221",
+      "timestamp": 1781629499,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "abbeef65166d52b0fb620a844e3089ed0efbeb6399709bd0c63d5a736f29cbaf": [
     {
       "repository": "https://weforge.xyz/partisan/Pulse.git",
@@ -127820,6 +128195,21 @@
       "maintainer_notes": null
     }
   ],
+  "d44da8ee174d7db7093eafce4add2f04aa97b2de88c4d1863d20d50a4018f3f6": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.0.0/mindwtr-1.0.0-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 80,
+      "version_name": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "dc87f5fe7f58b26c49bd82ce295fd54491891c31",
+      "timestamp": 1781553407,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -130260,6 +130650,21 @@
       "tag": "v0.26.13",
       "commit": "034ac614a2b3d8bfca1830f5ea87f40994f31112",
       "timestamp": 1781275015,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fc655835d7fb5627d7e7fbc6d573e04d8550bca2f27384d8446244acc2daf155": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.14/WebviewKiosk_v0.26.14.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 128,
+      "version_name": "0.26.14",
+      "tag": "v0.26.14",
+      "commit": "ee207059d3cd567f7ee32b53771e0316f618be06",
+      "timestamp": 1781630451,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

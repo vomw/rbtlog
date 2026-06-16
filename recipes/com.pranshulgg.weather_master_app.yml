@@ -284,3 +284,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v3.4.0
+    apks:
+      - apk_pattern: WeatherMaster.*\.apk
+        apk_url: https://github.com/PranshulGG/WeatherMaster/releases/download/v3.4.0/WeatherMaster.v3.4.0.apk
+        build:
+          - sed -ri '/(GEO_NAMES_USERNAME|MF_KEY)/d' gradle.properties
+          - base64 -d >> gradle.properties <<< R0VPX05BTUVTX1VTRVJOQU1FPXByYW5zaHVsZ2cKTUZfS0VZPV9fV2o3ZFZTVGpWOVlHdTFndXZlTHlEcTBnN1M3VGZUamFIQlRQVHBPMGtqOF9fCg==
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/WeatherMaster/WeatherMaster
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - curl
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
