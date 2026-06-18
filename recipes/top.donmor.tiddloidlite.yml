@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/donmor/TiddloidLite.git
 updates: releases
+notes:
+  - 'FIXME: add missing -i to foojay seds'
 versions:
   - tag: 1.3.3
     apks:

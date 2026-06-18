@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/yuroyami/syncplay-mobile.git
 updates: releases
+notes:
+  - 'FIXME: add missing -i to foojay seds'
 versions:
   - tag: v0.21.10
     apks:

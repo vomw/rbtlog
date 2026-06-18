@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Wavesonics/hammer-editor.git
 updates: releases
+notes:
+  - 'FIXME: add missing -i to foojay seds'
 versions:
   - tag: v1.14.0
     apks:

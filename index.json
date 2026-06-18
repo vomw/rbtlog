@@ -5817,6 +5817,21 @@
       "maintainer_notes": null
     }
   ],
+  "e830b37e1cd7cd66487492f4a1084ba086254b2b09541d729da0ec2169a73bfe": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.18.0/Lawnicons.2.18.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 26,
+      "version_name": "2.18.0",
+      "tag": "v2.18.0",
+      "commit": "74b428b747004046686cbe5e24218e958afe2eb9",
+      "timestamp": 1781720753,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "683971b7f7099aba31b715608a3ad4714acff58e8a4b2c4c5e36c6f825872db3": [
     {
       "repository": "https://github.com/lone-cloud/prism-android.git",
@@ -14082,6 +14097,21 @@
       "maintainer_notes": null
     }
   ],
+  "d10fc81fde48cc9dc697b389ae13f3c9dcdc07a5b04e811ff812f4314b95052d": [
+    {
+      "repository": "https://github.com/LibChecker/LibChecker.git",
+      "apk_url": "https://github.com/LibChecker/LibChecker/releases/download/2.5.4/LibChecker-2.5.4.5696014-2671-foss-release.apk",
+      "appid": "com.absinthe.libchecker",
+      "version_code": 2671,
+      "version_name": "2.5.4.5696014",
+      "tag": "2.5.4",
+      "commit": "56960145b968d9ac55fa07f96bf4fd903bc43d6f",
+      "timestamp": 1781708028,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": null
+    }
+  ],
   "29264ef6802760fdac2f2d3fa731a3321b241996c4962a54f557a4f0c12f2cf0": [
     {
       "repository": "https://github.com/achunt2143/W-Launcher.git",
@@ -19100,6 +19130,21 @@
       "tag": "v15.0",
       "commit": "0a7d81b8371bb3229e42efa26b5419cce3a8374f",
       "timestamp": 1775228981,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d4c54faf0e4c972425f804e1f318a518b23999dc95f34c8da7545a9132941cba": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v15.1/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 39,
+      "version_name": "15.1",
+      "tag": "v15.1",
+      "commit": "9da94bd970f96643abe8d91be0ba9771d61223e1",
+      "timestamp": 1781704523,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -27121,6 +27166,21 @@
       "tag": "v4.5.1",
       "commit": "bf3a2f406ab55b189d9aadb9f4e49beda213d81c",
       "timestamp": 1778169119,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3d2be97788e489355a623fad48d4a15576e184b045a60a305157aff23f036a56": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v5.0.0/easter_eggs_5.0.0_76-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 76,
+      "version_name": "5.0.0",
+      "tag": "v5.0.0",
+      "commit": "061726a948231f104d34b047fe778fbf094730ea",
+      "timestamp": 1781704650,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -45439,6 +45499,21 @@
       "tag": "v0.74",
       "commit": "da3c4302f609996288ae4cb3dd92189c90b776b4",
       "timestamp": 1781117325,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a757d1ca201482d5599fd100bd500d5795760a2bb2d9dc3c51c1c07fcb8287c": [
+    {
+      "repository": "https://codeberg.org/Isayso/Fire2kodi.git",
+      "apk_url": "https://codeberg.org/Isayso/Fire2kodi/releases/download/v0.80/fire2kodi_v0.80.apk",
+      "appid": "com.isayso.fire2kodi",
+      "version_code": 27,
+      "version_name": "0.80",
+      "tag": "v0.80",
+      "commit": "b071f415a34b3593ff6416efe3cfce8c001c700f",
+      "timestamp": 1781721360,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -68116,6 +68191,21 @@
       "maintainer_notes": null
     }
   ],
+  "aad340110a9bae8006355ac14bd48b84a14e66e3f2182372ea9860d212722d2f": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v3.2.3/app-release.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 46,
+      "version_name": "3.2.3",
+      "tag": "v3.2.3",
+      "commit": "f585923c42507045cf2437ab5996c67a8feeae0a",
+      "timestamp": 1781705176,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c95f8ca470b565fc3fff2249006ca4e70afbffa987140cf68ce22199afba8280": [
     {
       "repository": "https://github.com/SebiAi/GlyphPort.git",
@@ -68356,6 +68446,21 @@
       "maintainer_notes": null
     }
   ],
+  "c154bcb704a586e1e718b95a318e58a41e064df00886b24f30d908bdd8ecae73": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.2.7/app-foss-release.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10207,
+      "version_name": "1.2.7",
+      "tag": "v1.2.7",
+      "commit": "15cad472e1a55823270f0d6fae64cb5827749032",
+      "timestamp": 1781709005,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -68561,6 +68666,21 @@
       "tag": "v5.1",
       "commit": "cc3e0dbf7916413665989d370c511907b6ddde2f",
       "timestamp": 1778187805,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3a8434a80c5db15e6fb3baa3cf51f69debeb5160c920cd1117a9933702503f2f": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v5.2/Quotes-app-v5.2.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 42,
+      "version_name": "5.2",
+      "tag": "v5.2",
+      "commit": "f229e6fddd670c91dd32ef9bf850213cc01b7083",
+      "timestamp": 1781705357,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -71167,6 +71287,21 @@
       "tag": "V1.0.8",
       "commit": "3faf081982b9bd4453337d6eb08dbf43895ee545",
       "timestamp": 1779564362,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f989d7ad76370a2f9d3095265992c8323247395877d25877cc96e498ddda11b1": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V1.0.9/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 2010,
+      "version_name": "1.0.9",
+      "tag": "V1.0.9",
+      "commit": "72095b2022eeb76cae463b0b6d8278d38faa439a",
+      "timestamp": 1781722024,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78470,6 +78605,36 @@
       "tag": "v1.11.0",
       "commit": "e0abc4a22437ca7c5cbee29ac25f31828a33dc88",
       "timestamp": 1779374623,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "43cdf41a0111fd65f60325636884664168ff5db12792f260a6367b512d05e354": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.12.0/amethyst-fdroid-arm64-v8a-v1.12.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 448,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "0572b0091cf02e96a7d9063c1d47694fcbee07b4",
+      "timestamp": 1781705564,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cb0d78458d221143fe899f6a2f0e0e03f8c5cae8c6d27997b5a7d7205dec16e4": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.12.1/amethyst-fdroid-arm64-v8a-v1.12.1.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 449,
+      "version_name": "1.12.1",
+      "tag": "v1.12.1",
+      "commit": "fa5d126ba79adae6bcafc18a23aa61b25f2cb66f",
+      "timestamp": 1781722530,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -89025,6 +89190,21 @@
       "maintainer_notes": null
     }
   ],
+  "c6c75ccb16e3b6724de901f07a5b80019e3b19530138a4c89b4066ade31d8067": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.8.0/simple-notes-sync-v2.8.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 41,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "c119194062a33f787454bc30104f59dbe34c2569",
+      "timestamp": 1781706009,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -96006,6 +96186,21 @@
       "tag": "v1.7.4-rc0",
       "commit": "75e78c2ccf5d77241b001267a58a3180066be443",
       "timestamp": 1780928475,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "22d3272d3409eccf48b9b88cad66e064c58072529007e503728b39bbaad3fa35": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v1.7.5-rc0/eu.darken.sdmse-v1.7.5-rc0-10705000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 10705000,
+      "version_name": "1.7.5-rc0",
+      "tag": "v1.7.5-rc0",
+      "commit": "b57c0b145b336ecd4946c278b4f3d5c253801373",
+      "timestamp": 1781723382,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -121235,6 +121430,21 @@
       "maintainer_notes": null
     }
   ],
+  "01c7ab4cb92e1e8cae24bce9b0a8eada1b9778eee3e1ba6f719cd251e2519f76": [
+    {
+      "repository": "https://github.com/privacyguides/verified-apps-android.git",
+      "apk_url": "https://github.com/privacyguides/verified-apps-android/releases/download/26.6.12/VerifiedApps-26.6.12.apk",
+      "appid": "org.privacyguides.verifiedapps",
+      "version_code": 26060012,
+      "version_name": "26.6.12",
+      "tag": "26.6.12",
+      "commit": "12b919a370d37903aaf1b6646cc946d4d8efaddf",
+      "timestamp": 1781706159,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1ca4978112e68eae5188710ced6ae84f1d137cf473b760ce20cebec4a831d498": [
     {
       "repository": "https://github.com/ProjectSolutus/Pomozen.git",
@@ -127130,6 +127340,21 @@
       "maintainer_notes": null
     }
   ],
+  "875bbf04c477045abe65bfa5ed3eca660f53a36046f67d2aff325a77108d0514": [
+    {
+      "repository": "https://github.com/Coffee-Viking/sms-shield.git",
+      "apk_url": "https://github.com/Coffee-Viking/sms-shield/releases/download/v1.45/sms-shield_1.45.apk",
+      "appid": "ski.wischnew.shield",
+      "version_code": 145,
+      "version_name": "1.45",
+      "tag": "v1.45",
+      "commit": "324ebd78fd060693bc0267ea0ac22495f09dfe74",
+      "timestamp": 1781706255,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d2237db03b6cb0d6144b7bae7de62250b422c3ef8770ae5a088ab4e22daa169b": [
     {
       "repository": "https://github.com/slowscript/warpinator-android.git",
@@ -131700,6 +131925,21 @@
       "tag": "2.3.4",
       "commit": "285c94e3a6482ca64c7342146244762faa28a354",
       "timestamp": 1778423634,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0a853c151a44932fb03276badd03d04952932305c7048ee29a2312bff5e5178b": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.3.5/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 63,
+      "version_name": "2.3.5",
+      "tag": "2.3.5",
+      "commit": "5c0301a512f0434511502155eefc66aabf846f25",
+      "timestamp": 1781706351,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

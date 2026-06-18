@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/VoiceAudiobook/Voice.git
 updates: releases
+notes:
+  - 'FIXME: add missing -i to foojay seds'
 versions:
   - tag: 8.6.2
     apks:

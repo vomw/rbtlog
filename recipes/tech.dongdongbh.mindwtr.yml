@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
+notes:
+  - 'FIXME: remove the export for DONATION_PROMPT_ENABLED and FEEDBACK_ENDPOINT_URL with the next release (automatically set by upstream script now)'
 labels:
   - expo
   - react-native

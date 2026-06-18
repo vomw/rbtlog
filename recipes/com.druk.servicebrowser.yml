@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/andriydruk/BonjourBrowser.git
 updates: releases
+notes:
+  - 'FIXME: add missing -i to foojay seds'
 versions:
   - tag: v3.0.3
     apks:
