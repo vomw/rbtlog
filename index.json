@@ -7962,6 +7962,21 @@
       "maintainer_notes": null
     }
   ],
+  "d43cf571b47bcb2520ce821e69d32e661b1a9d5e31def341a8d12042932798c5": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.3/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 23,
+      "version_name": "1.9.3",
+      "tag": "v1.9.3",
+      "commit": "e292058950afe87838264867a4e15f2226202e66",
+      "timestamp": 1781877125,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -19160,6 +19175,21 @@
       "tag": "v15.1",
       "commit": "9da94bd970f96643abe8d91be0ba9771d61223e1",
       "timestamp": 1781704523,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "65b96a8ed2e65db1ea8fe64297bee998097f40239ccf28d35492b99a6e6493ec": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v15.2/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 40,
+      "version_name": "15.2",
+      "tag": "v15.2",
+      "commit": "b54071676fc9dcecb9a15cfa211d5ce18d992469",
+      "timestamp": 1781877331,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -39632,6 +39662,21 @@
       "maintainer_notes": null
     }
   ],
+  "8115ec24dd31ad95230e6392275d2cc3b830e6bf69b479bdd3757515f60b48e9": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.8.0/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2900184,
+      "version_name": "3.8.0",
+      "tag": "3.8.0",
+      "commit": "3e7d566f8a8d792c9048424a16695f16cc1650f2",
+      "timestamp": 1781893498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c8c1917bb6e2f85f0fdc297ed1484ec10bfb6babdad860b49a560a226c792c1c": [
     {
       "repository": "https://github.com/gouravkhunger/QuotesApp.git",
@@ -41721,6 +41766,21 @@
       "tag": "v3.14.3",
       "commit": "7fc2ac3fc5f0d7ad88a933374d89b09c74665ffa",
       "timestamp": 1781447295,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "09de87677730b5b9862f13ff683ba840ceb391d6908232565eb36f2ad682141f": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.14.4/ExoPlayer-AirPlay-Receiver-003.14.04-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3140423,
+      "version_name": "003.14.04-23API",
+      "tag": "v3.14.4",
+      "commit": "f2a11c6ba51f664a07dfa3f3f7972dd47b8fada8",
+      "timestamp": 1781877475,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -51219,6 +51279,21 @@
       "maintainer_notes": null
     }
   ],
+  "1b28d4ffb1611d64d80c73000d08a21b6d8397fb2702e47b917ac31b2a599177": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.3.0/storii-v0.3.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2050,
+      "version_name": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "24f173ebbd98feab72cfed991b0b5dbf39ae3ebf",
+      "timestamp": 1781893617,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "Flutter embedded build ID into libdartjni.so"
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -55965,6 +56040,21 @@
       "tag": "3.0",
       "commit": "7d9ac41bea20948e35c0cbc7afe60dfd8a050aea",
       "timestamp": 1781015111,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9f30749f7646cee0ea2ad0855b85cda5494092e5c78ebe74815f2d05f694b450": [
+    {
+      "repository": "https://github.com/The-First-King/Auto-Sleep.git",
+      "apk_url": "https://github.com/The-First-King/Auto-Sleep/releases/download/3.1/auto-sleep-31.apk",
+      "appid": "com.mine.autosleep",
+      "version_code": 8,
+      "version_name": "3.1",
+      "tag": "3.1",
+      "commit": "9797ea608ba5313d3978e4b7d0ca2b89e9bf0401",
+      "timestamp": 1781877637,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65741,6 +65831,21 @@
       "tag": "0.5.9",
       "commit": "8b964a4c458399a9f8bb691971a773be3b5364f8",
       "timestamp": 1779026787,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df10395241d1b045f85c97d0d8d8043c35931d4739821f990644727111e33c57": [
+    {
+      "repository": "https://github.com/RichardLuo0/global-icon-pack-android.git",
+      "apk_url": "https://github.com/RichardLuo0/global-icon-pack-android/releases/download/0.5.10/app-release.apk",
+      "appid": "com.richardluo.globalIconPack",
+      "version_code": 510,
+      "version_name": "0.5.10",
+      "tag": "0.5.10",
+      "commit": "f5fd9324f1e2619bbb7f113fe67af69bee25258a",
+      "timestamp": 1781889847,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -76720,6 +76825,36 @@
       "maintainer_notes": null
     }
   ],
+  "140f45bde0789ea99f77c35fb774352061c6a24039a3d5a10004fea9a0650bcf": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.1/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40101,
+      "version_name": "4.1.1",
+      "tag": "v4.1.1",
+      "commit": "a346680d7ad5d5a1f78842520aeab7d35b0edc9c",
+      "timestamp": 1781878429,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "717523fe179a2ae9dd4e66ef8c2647f6383bc2850cfa5b5a5db2551ac72e5c99": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.1/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40101,
+      "version_name": "4.1.1",
+      "tag": "v4.1.1",
+      "commit": "a346680d7ad5d5a1f78842520aeab7d35b0edc9c",
+      "timestamp": 1781878505,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1b2fe1a02fc07f2e615fec1ddb083e8a37a1691f4164b55db3db7d3ca08793a8": [
     {
       "repository": "https://github.com/tymwitko/Recents.git",
@@ -77360,6 +77495,21 @@
       "tag": "v1.81.5",
       "commit": "12aea0846719a793db1411c42a3b969785f409b0",
       "timestamp": 1781792996,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6e834ee57539e802fba708184db1db88e6a55ec781321fad9bb627ec31d7de1c": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.81.8/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1818,
+      "version_name": "1.81.8-foss",
+      "tag": "v1.81.8",
+      "commit": "6c0befa535899565daca755ee84384281544b984",
+      "timestamp": 1781878583,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78460,6 +78610,21 @@
       "maintainer_notes": null
     }
   ],
+  "0449c3fc24e8a9d2dc03d49cd5c828eaec11e354c87111f6532d93c616a8cffd": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.9.0/NerdCalci-v4.9.0.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 490,
+      "version_name": "4.9.0",
+      "tag": "v4.9.0",
+      "commit": "de06e32c50ec4f1ce8f9b9766584745a252fc28b",
+      "timestamp": 1781894133,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb45fe7da16fc77752609f788d835db592e2478d90de7a22b245deef27e26a0f": [
     {
       "repository": "https://github.com/VishnuSanal/RemindMe.git",
@@ -78755,6 +78920,21 @@
       "tag": "v1.12.1",
       "commit": "fa5d126ba79adae6bcafc18a23aa61b25f2cb66f",
       "timestamp": 1781722530,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "344534d74bc9e1195d46b52fd060c5eb99b12a17877dbab12361359fb9fafff3": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.12.5/amethyst-fdroid-arm64-v8a-v1.12.5.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 453,
+      "version_name": "1.12.5",
+      "tag": "v1.12.5",
+      "commit": "3d26a3d8181dc893a5f3bf20e8b0e96f5eacf794",
+      "timestamp": 1781894381,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -88665,6 +88845,21 @@
       "maintainer_notes": null
     }
   ],
+  "770c41db60454bf00e1ce99c8692d047a0b047f73dc30f98986698bf2a3f1c4e": [
+    {
+      "repository": "https://github.com/minburg/outspoke.git",
+      "apk_url": "https://github.com/minburg/outspoke/releases/download/v0.2.4/outspoke-0.2.4-arm64-v8a.apk",
+      "appid": "dev.brgr.outspoke",
+      "version_code": 92,
+      "version_name": "0.2.4",
+      "tag": "v0.2.4",
+      "commit": "e76b19044995d901ae1a588ac0ac0b9c2086b2b4",
+      "timestamp": 1781878766,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "53def9285ea8ef40e14cbb50067cd0869d82828fe8c9640f388181567fb80df0": [
     {
       "repository": "https://github.com/chukfinley/Better-Bahn.git",
@@ -88795,6 +88990,21 @@
       "tag": "v1.3.0",
       "commit": "1e14094cf0e77c7d227a6fb973d1f7e387701e72",
       "timestamp": 1781363522,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d5c3f4206464150d304c69355b2f891d942ed602f0dea843b18565e790d574cd": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.4.0/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 7,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "413ea0526369699d8d8f648157b53827a22f4a01",
+      "timestamp": 1781878890,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -91185,6 +91395,21 @@
       "maintainer_notes": null
     }
   ],
+  "ec71c3def4c54750a072cee693d51e63c9046b53824944df6587d9b3938486df": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.0.2/photok-3.0.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 62,
+      "version_name": "3.0.2",
+      "tag": "3.0.2",
+      "commit": "e53e2cf64666fc4d02128e3c1580f8872a2bbdf8",
+      "timestamp": 1781897618,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7a48b61e61b63cb8a18e5235df3a31cca0831da01421c1b3ea92a8e6abbbb2df": [
     {
       "repository": "https://github.com/mariinkys/OpenPillReminder.git",
@@ -91360,6 +91585,21 @@
       "tag": "2.2.0",
       "commit": "22e85ecb8d433d2abeefeb021d3cc8cfcc39b843",
       "timestamp": 1778099223,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e1dfbae483a8b5f77c0261fcfa943e44dcbf4e6f912a47c35fad3428700a05cd": [
+    {
+      "repository": "https://codeberg.org/mi6e4ka/openstore.git",
+      "apk_url": "https://codeberg.org/mi6e4ka/openstore/releases/download/2.2.1/app-release.apk",
+      "appid": "dev.mi6e4ka.openstore",
+      "version_code": 10275056,
+      "version_name": "2.2.1",
+      "tag": "2.2.1",
+      "commit": "74c0e35c764b1eb1fe7dd411c47967b14f958c8c",
+      "timestamp": 1781879036,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101169,6 +101409,21 @@
       "maintainer_notes": null
     }
   ],
+  "ec803f2a2e0ededffc648cf0a42ad68013bf2502362d9d73f78e21365edba000": [
+    {
+      "repository": "https://github.com/MarmadileManteater/FreeTubeAndroid.git",
+      "apk_url": "https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/0.24.1.1/freetube-0.24.1.1-Android.apk",
+      "appid": "io.freetubeapp.freetube",
+      "version_code": 240001001,
+      "version_name": "0.24.1.1",
+      "tag": "0.24.1.1",
+      "commit": "affd319ec117de915213481492e2af075414031a",
+      "timestamp": 1781879181,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f7ba2c924ae7d6bc6043f6a19e73a0e6efd2e7f083e96e4ee62b0123356b0cff": [
     {
       "repository": "https://github.com/AbdurazaaqMohammed/APKExtractor.git",
@@ -104627,6 +104882,21 @@
       "tag": "v0.1.60",
       "commit": "d6fe23fdede9136a49719738f75feb65fe150011",
       "timestamp": 1779649294,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6d8c65afe6bb37ac1a1ebfde5e79bf76f9d6bbd95b0e73c66109411f7c283e7a": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.61/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1061,
+      "version_name": "0.1.61",
+      "tag": "v0.1.61",
+      "commit": "5ff15117f0b0149c80117716c2398df442054371",
+      "timestamp": 1781879485,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111892,6 +112162,21 @@
       "maintainer_notes": null
     }
   ],
+  "838538a2e08c735b80129cf48de28840e4d5f1da5570be42c9684a7ceaba1fca": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.7.2/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 50,
+      "version_name": "alpha-0.7.2",
+      "tag": "alpha-0.7.2",
+      "commit": "44c4d79689a900d0c89fbeffe46393ec9285e770",
+      "timestamp": 1781879833,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -118207,6 +118492,21 @@
       "maintainer_notes": null
     }
   ],
+  "c669ce60d97bf5fe3642a56c1e6863ede1ca343e0148e7ea351814b00738732b": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/6.0.3/Autu-Mandu_6.0.3.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 603,
+      "version_name": "6.0.3",
+      "tag": "6.0.3",
+      "commit": "240f90773a31baad20a0213cbc46c08035c0e483",
+      "timestamp": 1781880094,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ca954d55488756a0c38e0faa77a5a9d99cf7b6ad1709524a57f3ab7a4f29df19": [
     {
       "repository": "https://github.com/juanro49/FeedTV.git",
@@ -121635,6 +121935,21 @@
       "tag": "26.6.12",
       "commit": "12b919a370d37903aaf1b6646cc946d4d8efaddf",
       "timestamp": 1781706159,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fd41d6a1013dd10e4502a89539a4ae40afc0a602cb756a9c5665086c07ab64b6": [
+    {
+      "repository": "https://github.com/privacyguides/verified-apps-android.git",
+      "apk_url": "https://github.com/privacyguides/verified-apps-android/releases/download/26.6.14/VerifiedApps-26.6.14.apk",
+      "appid": "org.privacyguides.verifiedapps",
+      "version_code": 26060014,
+      "version_name": "26.6.14",
+      "tag": "26.6.14",
+      "commit": "94804d7efffd810ce8a97db0daa6557c91ed9abe",
+      "timestamp": 1781880232,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -126885,6 +127200,21 @@
       "tag": "3.9.0",
       "commit": "c7260aa8d34bc98d9a8beeb69426022377c0843a",
       "timestamp": 1778963198,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "29638b020194f06a2fee79a1e0785609d2f260a4bac55edabddc7a31a050dab7": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/4.0.0/image-toolbox-4.0.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 241,
+      "version_name": "4.0.0-foss",
+      "tag": "4.0.0",
+      "commit": "ddd9e2d6f9dad52efaa64eccb5b316c50af4fa3d",
+      "timestamp": 1781880339,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

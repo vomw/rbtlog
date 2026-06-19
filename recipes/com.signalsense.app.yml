@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v1.0.0
     apks:
-      - apk_pattern: SignalSense\.apk
+      - apk_pattern: SignalSense.*\.apk
         apk_url: https://github.com/adithya-creation/SignalSense/releases/download/v1.0.0/SignalSense-1.0.0.apk
         build:
           - sed -r '/foojay/d' -i gradle/gradle-daemon-jvm.properties
