@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/koiverse/ArchiveTune.git
-updates: releases
+updates: disabled
+notes:
+  - updates disabled as applicationId suddenly changed, see https://github.com/ArchiveTuneApp/ArchiveTune/issues/847
 versions:
   - tag: v12.4.1
     apks:

@@ -7977,6 +7977,21 @@
       "maintainer_notes": null
     }
   ],
+  "176bd89db921414787c803114560cd83807cb7c6b465584fa4f48765ccda7669": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.4/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 24,
+      "version_name": "1.9.4",
+      "tag": "v1.9.4",
+      "commit": "1a853e1884aa2d843ecf9dc475f9e1ee63c7b5ea",
+      "timestamp": 1781979918,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -22491,6 +22506,21 @@
       "maintainer_notes": null
     }
   ],
+  "3884d138625d07b51a8b2d5c5290fd2f429b9008fda6ad2ac2d9cbc8c88104e4": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.06.1211/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1211,
+      "version_name": "2026.06.1211",
+      "tag": "2026.06.1211",
+      "commit": "9c28fb6fb00ae06ec4f4bc44fd52b1d6eb9c4f24",
+      "timestamp": 1781963510,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83d39380a58f100c7833a47f2d8bee3120228b16458527ed4154ffb75ea8c6a2": [
     {
       "repository": "https://github.com/CasparvdBroek/BLEtoMQTT.git",
@@ -23971,6 +24001,21 @@
       "tag": "1.1.1",
       "commit": "b5f08dde154942c1448c64d741b3e3edba7a3636",
       "timestamp": 1760869540,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3f6b2a3a60de40e86c578290362226b57af54e8fff960b3f82f74f5cd9913b53": [
+    {
+      "repository": "https://github.com/artnc/chronofile.git",
+      "apk_url": "https://github.com/artnc/chronofile/releases/download/1.2.0/chronofile-1.2.0.apk",
+      "appid": "com.chaidarun.chronofile",
+      "version_code": 7,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "88680cc70ac83ee07fd85eb39cef6d483ea67862",
+      "timestamp": 1781963941,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35252,6 +35297,21 @@
       "maintainer_notes": null
     }
   ],
+  "55a15941e04c2d7872cfcd67d2bb6f18158a7bd95f26abeaa0f0d254c772bd09": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.43.0/com.fibelatti.photowidget-v1.43-1430000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1430000,
+      "version_name": "1.43",
+      "tag": "v1.43.0",
+      "commit": "7efa36fc0a226277a16a2568cc4a0decb3fb6a11",
+      "timestamp": 1781964164,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -40058,6 +40118,21 @@
       "tag": "v1.7.0",
       "commit": "558dda4155f74f3da427717896f9aa36561bad3d",
       "timestamp": 1776802032,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "85238763f9d9b1271739a35ce3eed8d61a81fde2ac163d3a1830996a9a90cc5c": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.7.1/com.github.livingwithhippos.unchained-v1.7.1.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 60,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "c82a3e45a0c392adf775166de2ad8d726b9a02a3",
+      "timestamp": 1781972723,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -51294,6 +51369,21 @@
       "maintainer_notes": "Flutter embedded build ID into libdartjni.so"
     }
   ],
+  "82af8fde6d7610759ae456e677ae68a457de398acd39a2db838dc63a1f23804e": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.4.0/storii-v0.4.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2051,
+      "version_name": "0.4.0",
+      "tag": "v0.4.0",
+      "commit": "b8cefb3183592c51cb5ae39fa6253702aef3243d",
+      "timestamp": 1781984369,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -60431,6 +60521,21 @@
       "tag": "v1.3.7",
       "commit": "87315271a26bf698b5c9d8d83e2816637e75cda1",
       "timestamp": 1778611379,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "55403787a4c98812f223c7cedd9348339492860ffbb99900b5052fa96333ea1b": [
+    {
+      "repository": "https://github.com/Fandroid745/Open-notes.git",
+      "apk_url": "https://github.com/Fandroid745/Open-notes/releases/download/v1.3.8/app-release.apk",
+      "appid": "com.opennotes",
+      "version_code": 12,
+      "version_name": "1.3.8",
+      "tag": "v1.3.8",
+      "commit": "f33b3ae9a4534482caf90eb2d8ac5557049faf02",
+      "timestamp": 1781965020,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -72025,6 +72130,21 @@
       "maintainer_notes": null
     }
   ],
+  "31d1fd9587a4ddf39af5758d5dc931fb3383c445f03d45a89c751b3d9412d9e1": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.38/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 4102,
+      "version_name": "1.0.38",
+      "tag": "V1.0.38",
+      "commit": "0e25c5f74925d61af51255f584a6cbca0d2c1416",
+      "timestamp": 1781981398,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fe6024e4f876bfaa002040531aa381f45ea126909bd7089394a1b759245ec6de": [
     {
       "repository": "https://github.com/adithya-creation/SignalSense.git",
@@ -77515,6 +77635,21 @@
       "maintainer_notes": null
     }
   ],
+  "72fe54785d79b1ec276cd8ed60f9cd9490e99c296f5e3bf8f2fdf616078d575a": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.81.9-dev-82/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1819,
+      "version_name": "1.81.9-foss",
+      "tag": "v1.81.9-dev-82",
+      "commit": "f3900a028e78568307cad384fca36865e971bd15",
+      "timestamp": 1781982069,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -78935,6 +79070,21 @@
       "tag": "v1.12.5",
       "commit": "3d26a3d8181dc893a5f3bf20e8b0e96f5eacf794",
       "timestamp": 1781894381,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ed95fdb39d668ad2100ca6ff90f21617537790c8db47850f36ca36f75bc7aeea": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.12.6/amethyst-fdroid-arm64-v8a-v1.12.6.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 454,
+      "version_name": "1.12.6",
+      "tag": "v1.12.6",
+      "commit": "805f7e8e84499801bd7f3b7c892480ec104f7eb8",
+      "timestamp": 1781966823,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -81136,6 +81286,36 @@
       "tag": "5.0.2",
       "commit": "6c3c6891ebe8bcaf648f6fcf610b17dbcf4950cc",
       "timestamp": 1781449461,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cf35f92129a3fb9d91686c8dadbb18b9d44e8684c368e35a74a7418af4395631": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.0.3/wgtunnel-fdroid-v5.0.3-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50003,
+      "version_name": "5.0.3",
+      "tag": "5.0.3",
+      "commit": "daf5eebdd2dca40594772b26c5e4012e74417e86",
+      "timestamp": 1781973125,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a4938ecc2eac72578de2ced594622610b7b4d1e1ed99609ab23ed323bb6ae152": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.0.4/wgtunnel-fdroid-v5.0.4-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50004,
+      "version_name": "5.0.4",
+      "tag": "5.0.4",
+      "commit": "48a3ad64f4426ec1be878a8bec142215fb0f91d1",
+      "timestamp": 1781982374,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -89010,6 +89190,21 @@
       "maintainer_notes": null
     }
   ],
+  "caeece15ac91b1e9b58ee0cc2f90589c6c667efb15955e6e55d3d012fbe94073": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.4.1/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 8,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "29a3ddb1801738b167398fce86bd4d2196ae5bf9",
+      "timestamp": 1781982782,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3d6d616414e059086255a61c7ff5e1805e6d2136916d5434e14925b5453f165c": [
     {
       "repository": "https://github.com/inventory69/simple-notes-sync.git",
@@ -92100,6 +92295,21 @@
       "maintainer_notes": null
     }
   ],
+  "930fc1e1f8c8f1d68fc5970a029c6d6be7f039da5d471403e7439fb203ba97b0": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.10.0/Musicaxs-1.10.0.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 23,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "d3f5500a04354e9340e64ae45d1c30419ce25f3e",
+      "timestamp": 1781983003,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07cadccc5953f398ebe1d95c3253c99f05e99ee39496a17c7af96bbe09f6cfd6": [
     {
       "repository": "https://github.com/PranavPurwar/AppLock.git",
@@ -93488,6 +93698,21 @@
       "tag": "v2.2",
       "commit": "e1acff88ce7e406e01da0e52e6599b7b2a44112b",
       "timestamp": 1781034230,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0cf6efe6a5937fc6e568e08a958b5260e49f04c3707f9add0286a40f65fcd310": [
+    {
+      "repository": "https://github.com/robinsrk/privacify.git",
+      "apk_url": "https://github.com/robinsrk/privacify/releases/download/v2.3/Privacify.apk",
+      "appid": "dev.robin.privacify",
+      "version_code": 23,
+      "version_name": "2.3",
+      "tag": "v2.3",
+      "commit": "e5db8d6fe90ac9494226efcd176b7a5e10464b98",
+      "timestamp": 1781967909,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -110287,6 +110512,21 @@
       "maintainer_notes": "Build IDs embedded to native libraries"
     }
   ],
+  "d568a44af70fdee3fe976c650439e5ef3758db00509c12ac7239147d369c3078": [
+    {
+      "repository": "https://github.com/ReneArentz/net.forestany.mediacollection.git",
+      "apk_url": "https://github.com/ReneArentz/net.forestany.mediacollection/releases/download/Media_Collection_1.0.5/Media_Collection_1.0.5.apk",
+      "appid": "net.forestany.mediacollection",
+      "version_code": 6,
+      "version_name": "1.0.5",
+      "tag": "Media_Collection_1.0.5",
+      "commit": "1f5ee3984f509cebee3d24c31c73c2ab320d0eb6",
+      "timestamp": 1781968117,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f9981ad289592a8738f8e5c05be28b3f0c0ea421eb70fd234fe98575807501a0": [
     {
       "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
@@ -112172,6 +112412,21 @@
       "tag": "alpha-0.7.2",
       "commit": "44c4d79689a900d0c89fbeffe46393ec9285e770",
       "timestamp": 1781879833,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "147b1ccba9dc87805d966e7970ea7e24c58075249dfa749f60d20d511a0473e6": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.7.3/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 51,
+      "version_name": "alpha-0.7.3",
+      "tag": "alpha-0.7.3",
+      "commit": "cc3c018bd488f626f858317145a2219c3f6b5cd1",
+      "timestamp": 1781968438,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -127815,6 +128070,21 @@
       "tag": "1.7.1",
       "commit": "c4e4c74ee0ad7fa6c74f4282c726ab9bebce0dfe",
       "timestamp": 1780672171,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "daf2d8c59c00a8c422c70fb22e699cb226d45ac8b9996fff628efdd658d41257": [
+    {
+      "repository": "https://github.com/shub39/Momentum.git",
+      "apk_url": "https://github.com/shub39/Momentum/releases/download/1.7.2/app-foss-arm64-v8a-release.apk",
+      "appid": "shub39.momentum",
+      "version_code": 1720,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "c273d9ff3218271c0add141620924b0520169128",
+      "timestamp": 1781968973,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
