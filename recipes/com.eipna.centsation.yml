@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/eipna/Centsation.git
-updates: releases
+updates: disabled
+notes:
+  - package name changed, see https://github.com/mowtiie/Centsation/issues/17
 versions:
   - tag: v1.5
     apks:

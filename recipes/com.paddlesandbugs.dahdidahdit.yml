@@ -295,3 +295,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: release-1.19.0
+    apks:
+      - apk_pattern: dahdidahdit-.*\.apk
+        apk_url: https://github.com/matthiasjordan/dahdidahdit/releases/download/release-1.19.0/dahdidahdit-1.19.0.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -x :app:testReleaseUnitTest
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_timeout:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake: 3.30.5
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

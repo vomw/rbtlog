@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/s4nj1th/pocket-dhamma.git
-updates: releases
+updates: disabled
+notes:
+  - signing key changed, still waiting for verification; see https://github.com/s4nj1th/pocket-dhamma/issues/9
 versions:
   - tag: v1.1.1
     apks:
