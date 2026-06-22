@@ -6792,6 +6792,21 @@
       "maintainer_notes": null
     }
   ],
+  "f6feeb7664f8dbca9a88f081ac51e73320747624979ec2f6b3743744ce5bdd81": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.0.5/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10005,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "95aabbacd65394c365d479d04e1b4dd5416a1dee",
+      "timestamp": 1782143574,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -8007,6 +8022,21 @@
       "maintainer_notes": null
     }
   ],
+  "befd185b53521076cb6034060ef24f25b7c0c3a7c55047341dd109689cd37ade": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.6/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 26,
+      "version_name": "1.9.6",
+      "tag": "v1.9.6",
+      "commit": "1e837096263a668f009c5b89ed278fa5ab19fca5",
+      "timestamp": 1782155255,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9202,6 +9232,21 @@
       "tag": "v9.7.0",
       "commit": "b221d8408e0f9c066b6da7ef69912c3eb3bb0e78",
       "timestamp": 1781116403,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2eb1ddea1838fd7ba80ab56e07f13847943783e1931abfd566a01e998aafdea8": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.7.1/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 971,
+      "version_name": "v9.7.1",
+      "tag": "v9.7.1",
+      "commit": "63abd16f7fc2d09f8580ac01152d8627f2be9cc4",
+      "timestamp": 1782153148,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -13857,6 +13902,21 @@
       "maintainer_notes": null
     }
   ],
+  "e1ee6ece333b1e723935f5dec83546c3521cb5bb4138ca118ce63d0ed56afa87": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.1.414.1086-stable/Rhythm-5.1.414.1086-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 514141086,
+      "version_name": "5.1.414.1086-fdroid",
+      "tag": "v5.1.414.1086-stable",
+      "commit": "20613e784fa6990be4e8eaaed9b1f7ebe5c5e01f",
+      "timestamp": 1782136899,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -17960,6 +18020,21 @@
       "tag": "1.0.7",
       "commit": "e0cc9acbfa2c25a93051044536314d987a898a69",
       "timestamp": 1775598655,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4f16d69cc648006a89bb4a765a94e6e5255fd4ed904fa5f360f168ee2f4a7e99": [
+    {
+      "repository": "https://github.com/DavidBerdik/Let-Me-Downgrade.git",
+      "apk_url": "https://github.com/DavidBerdik/Let-Me-Downgrade/releases/download/1.1.0/Let-Me-Downgrade-1.1.0.apk",
+      "appid": "com.berdik.letmedowngrade",
+      "version_code": 11,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "800ca9182dca03f712b1b5e178a2a676df8f69c3",
+      "timestamp": 1782144497,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -45174,6 +45249,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca7d4be25fa18e61f33ada51cd6255e002aa63c206db12788fb81003c7db6ff4": [
+    {
+      "repository": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed.git",
+      "apk_url": "https://github.com/muhammadhaseebiqbal-dev/QuranMajeed/releases/download/v1.2.0/app-release.apk",
+      "appid": "com.haseeb.quranapp",
+      "version_code": 8,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "462918c08094d9f99f5af8716834c386cef63cbb",
+      "timestamp": 1782153704,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4311f6cdb0b088140dda8d912b912e3a6b30aabd551a571482846a66ae12a228": [
     {
       "repository": "https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder.git",
@@ -49584,6 +49674,21 @@
       "maintainer_notes": null
     }
   ],
+  "6b0b48b15b6e258b0ff17df7086bed758877bce09165c3d20568603a75bc9ca0": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.11/kelani-sbd-tracker-v1.2.11.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 60,
+      "version_name": "1.2.11",
+      "tag": "v1.2.11",
+      "commit": "b94af5f25b445fd20f020413a73d7e9d3015be7b",
+      "timestamp": 1782153997,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -51514,6 +51619,21 @@
       "tag": "v0.4.1",
       "commit": "ce5ee13455e06d897fa3e57906b09522927ca70f",
       "timestamp": 1782061832,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2a56cc5066dd5c87a541e2a478772852cd8a64d3f532536f2154fc09db5818bb": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.4.2/storii-v0.4.2-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2053,
+      "version_name": "0.4.2",
+      "tag": "v0.4.2",
+      "commit": "fe002420783bc9183182f1ca21e44893075b74ef",
+      "timestamp": 1782144559,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70407,6 +70527,21 @@
       "maintainer_notes": null
     }
   ],
+  "f5e74123d9177b075ba9f58549419348cfdf6c37cd335d85ae3b629850fb3c86": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/6.0.3/androidApp-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 6030,
+      "version_name": "6.0.3",
+      "tag": "6.0.3",
+      "commit": "0a5ae35995bdf62b8fbf193fd8d3fb29e0c30cdf",
+      "timestamp": 1782139111,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -72365,6 +72500,21 @@
       "tag": "V1.0.38",
       "commit": "0e25c5f74925d61af51255f584a6cbca0d2c1416",
       "timestamp": 1781981398,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "60b56f925eb81f8b44ca94a1cfcbd5c977296694714ba43356b071af5c338ba1": [
+    {
+      "repository": "https://github.com/sidhant947/Wallet.git",
+      "apk_url": "https://github.com/sidhant947/Wallet/releases/download/V1.0.39/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.wallet",
+      "version_code": 4202,
+      "version_name": "1.0.39",
+      "tag": "V1.0.39",
+      "commit": "8cb2f3304a265b352539d3de8884b3787cdb1152",
+      "timestamp": 1782155968,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77920,6 +78070,21 @@
       "maintainer_notes": null
     }
   ],
+  "eb31906be846f117cd88300a2fc390bb9d56bed1b354414b077f4bd33ba0db60": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.82.2/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1822,
+      "version_name": "1.82.2-foss",
+      "tag": "v1.82.2",
+      "commit": "73b5edc813545a2ffeb3425264e6d18ac204507a",
+      "timestamp": 1782154221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a77ff0906854d998a682a1748084a7fb8310c377226bdb29c533d62b3d35ee4": [
     {
       "repository": "https://github.com/VersoBit/WeatherDoge.git",
@@ -79025,6 +79190,21 @@
       "tag": "v4.9.0",
       "commit": "de06e32c50ec4f1ce8f9b9766584745a252fc28b",
       "timestamp": 1781894133,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7ae576797cc2c049a9e7d94675fca64e25f9be2dcda9114ab0ae0f41a0c4194c": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.9.1/NerdCalci-v4.9.1.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 491,
+      "version_name": "4.9.1",
+      "tag": "v4.9.1",
+      "commit": "ad00cd10618f853879b2cdb7e7c1a574ce1974f7",
+      "timestamp": 1782156554,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -83564,6 +83744,21 @@
       "tag": "v1.1.0-rc2",
       "commit": "cd8700a1133b83bfe7c8f854a35ee318fe97c115",
       "timestamp": 1781450008,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c553d9c224b9734ba308b5a7d53d6815b5bc4cf07bb2d61d83cf6b61febe295": [
+    {
+      "repository": "https://github.com/heddxh/NeoDB-You.git",
+      "apk_url": "https://github.com/heddxh/NeoDB-You/releases/download/v1.1.0-rc3/NeoDB-You-v1.1.0-rc3.apk",
+      "appid": "day.vitayuzu.neodb",
+      "version_code": 12,
+      "version_name": "1.1.0-rc3",
+      "tag": "v1.1.0-rc3",
+      "commit": "259d765bd0c0828e196f7d9bea3a1207361dff99",
+      "timestamp": 1782139655,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -103892,6 +104087,21 @@
       "tag": "v1.24.5+161",
       "commit": "07810fecef50ddc8a8933b026668f4a9df76df7a",
       "timestamp": 1780411420,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f34dd9759c164a5d57b85ca14d5c38d7c9503ad025e093b24de9ef6e68883b27": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.25.1%2B164/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2164,
+      "version_name": "1.25.1",
+      "tag": "v1.25.1+164",
+      "commit": "8b0d44a3d7bdbaecd8b0168559183a0386d1afc6",
+      "timestamp": 1782145696,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
