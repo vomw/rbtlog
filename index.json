@@ -26571,6 +26571,21 @@
       "maintainer_notes": null
     }
   ],
+  "cafa1089889a7548af12ada1a0db346c27d9390554f1b3315a37e6752a8ba00d": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.4.2%2Bserver/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 304020000,
+      "version_name": "3.4.2",
+      "tag": "v3.4.2+server",
+      "commit": "58aa8c9f87a77c06075823a3217d2b086422373d",
+      "timestamp": 1782245496,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -29121,6 +29136,21 @@
       "maintainer_notes": null
     }
   ],
+  "4895cf3af1def8f8f485069a6ecc15ccac7a12c572ea03b463b000ffad9483ee": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.56/habit-maker-fdroid-0.0.56.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 5601,
+      "version_name": "0.0.56-fdroid",
+      "tag": "0.0.56",
+      "commit": "947eec7a534fae4c0ddd6c353880adf62bea7ff7",
+      "timestamp": 1782223345,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2e651e71d546691ab93ba59f41449ebd68a62ea68f63e6488b40d0a3f61d8f50": [
     {
       "repository": "https://github.com/dessalines/rank-my-favs.git",
@@ -30826,6 +30856,21 @@
       "tag": "5.1.9",
       "commit": "05b0ad9224f9c00b8f297beeda62fdf38d8d2d21",
       "timestamp": 1779475550,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "20bb5a08fca07b5e80dc41757068b862ca40883f4fa935a93678cd7f5cb0deae": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.10/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 180,
+      "version_name": "5.1.10",
+      "tag": "5.1.10",
+      "commit": "696fddf2d65d4c0f6aaf4109539f5f5de6d1b569",
+      "timestamp": 1782223505,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32909,6 +32954,21 @@
       "tag": "v0.7.6-alpha",
       "commit": "6e239c1fc5e3b02c2f96c03424b9273708aeba43",
       "timestamp": 1781791285,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1467e988915c453a1fb2e7d214bfff3cb5574b1045aa84b22515df9d4592ce3d": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.7.7-alpha/YagniLauncher-v0.7.7-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 77,
+      "version_name": "0.7.7-alpha",
+      "tag": "v0.7.7-alpha",
+      "commit": "9d89fbcdad1f8a32b92c4b827bbdc0d939d7e698",
+      "timestamp": 1782223676,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -43346,6 +43406,21 @@
       "maintainer_notes": null
     }
   ],
+  "aff320ccda681ee68c738f978789f4dbcda316f58b90770f29c6f43a53e419a8": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.4.2/Crystalpad-v1.4.2-release.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 7,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "8390e2a02200c1ba23f1303447f98066b5d73c42",
+      "timestamp": 1782239214,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "minor glitch in a single number"
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -51364,6 +51439,21 @@
       "tag": "v2026.05.01",
       "commit": "0b7666fb09415d8d0fe41b5ed7ca98c117cfb61e",
       "timestamp": 1782077720,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a99fe98620015de46465a701292a299c4efc66ab39b83801de47976a366170fe": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/LeanBitLab/LtvLauncher/releases/download/v2026.06.21/LTvLauncher-arm64-v8a-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8104,
+      "version_name": "2026.06.21",
+      "tag": "v2026.06.21",
+      "commit": "2880efa608690f61436527c90e45511c21b51f84",
+      "timestamp": 1782239576,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62086,6 +62176,21 @@
       "maintainer_notes": null
     }
   ],
+  "3730c8f3ba52a731a02d9863ea709447681d11574d91e2f5ad5223376387882f": [
+    {
+      "repository": "https://github.com/StellarSand/Password-Monitor.git",
+      "apk_url": "https://github.com/StellarSand/Password-Monitor/releases/download/v1.0.6/PasswordMonitor_v1.0.6.apk",
+      "appid": "com.password.monitor",
+      "version_code": 106,
+      "version_name": "1.0.6",
+      "tag": "v1.0.6",
+      "commit": "299842378d6a993aa59ecf6748a8feaec16eeb92",
+      "timestamp": 1782246377,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "96691aedc91bca19202274ffa4b117f26daf5e17e5380bf99282ffcc700853fc": [
     {
       "repository": "https://github.com/Patch4Code/Logline.git",
@@ -71887,6 +71992,21 @@
       "tag": "6.4.0",
       "commit": "0f4c6e11bfae16a18d3690e05b14bf778af8e7ed",
       "timestamp": 1781368737,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6cd222043499130f0f0b695f7601229d28b5b7cc899c8c3d7b4a64c1093235a5": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.4.1/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6410,
+      "version_name": "6.4.1",
+      "tag": "6.4.1",
+      "commit": "38b879108401d8ca4f08a0d163917567d055e572",
+      "timestamp": 1782240462,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -81846,6 +81966,21 @@
       "maintainer_notes": null
     }
   ],
+  "a8cc1b05b63ca656e2a1e3ec4d18f966927f424f934f970ad9f3007de3119173": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.0.5/wgtunnel-fdroid-v5.0.5-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50005,
+      "version_name": "5.0.5",
+      "tag": "5.0.5",
+      "commit": "619e3c1cdeecfbfe22711ad4663752acec84d4f2",
+      "timestamp": 1782240946,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -90330,6 +90465,21 @@
       "maintainer_notes": null
     }
   ],
+  "722bcbe2cdbb8157de54046f74188b9d2a0f793363c861ac511797efc48132f1": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.9.0/simple-notes-sync-v2.9.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 42,
+      "version_name": "2.9.0",
+      "tag": "v2.9.0",
+      "commit": "39ef9a2929d5281f3c2b08ef954c3e77e26e2f5f",
+      "timestamp": 1782224298,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -96636,6 +96786,21 @@
       "tag": "v5.1.9-rc0",
       "commit": "fba2d3a59d89c9eac342a802fd67217995b59d93",
       "timestamp": 1781794399,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "528999cab41a7f3c851cf4d965689ddf13608d4c634f39be696d88ed3cb9c600": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.1.10-rc0/eu.darken.capod-v5.1.10-rc0-50110000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50110000,
+      "version_name": "5.1.10-rc0",
+      "tag": "v5.1.10-rc0",
+      "commit": "a91ef446861820182b0c27e16a0517627e974ea6",
+      "timestamp": 1782224486,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105752,6 +105917,21 @@
       "tag": "v0.1.62",
       "commit": "8cbb76068c02655522211425f5090db166c694dc",
       "timestamp": 1782057143,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ab2749d897da6ec9f4a5f77a3c31a9195d790ccb2a3b93da63e6fc53a3a22755": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.63/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1063,
+      "version_name": "0.1.63",
+      "tag": "v0.1.63",
+      "commit": "bbcd8d99253c47798d0b238c8e01b6b90211857d",
+      "timestamp": 1782224970,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -123630,6 +123810,21 @@
       "tag": "v2.5.8",
       "commit": "13249bbe296735145c88839bbba89e91c1fad31f",
       "timestamp": 1777144545,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e22a3a29ef4fe184a52f94238b7f6b83437c24b84ca15f2dd376314a26a3028f": [
+    {
+      "repository": "https://gitlab.com/Dacid99/pockettracker.git",
+      "apk_url": "https://gitlab.com/Dacid99/pockettracker/-/releases/v2.5.9/downloads/app-release.apk",
+      "appid": "org.sbv.pockettracker",
+      "version_code": 30,
+      "version_name": "2.5.9",
+      "tag": "v2.5.9",
+      "commit": "a71202da2b69b1bd5378cf191fbef7791d7495d5",
+      "timestamp": 1782225337,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

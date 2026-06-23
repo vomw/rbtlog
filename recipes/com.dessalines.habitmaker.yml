@@ -1558,3 +1558,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 0.0.56
+    apks:
+      - apk_pattern: habit-maker-fdroid.*\.apk
+        apk_url: https://github.com/dessalines/habit-maker/releases/download/0.0.56/habit-maker-fdroid-0.0.56.apk
+        build:
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fdroidRelease/compileFdroidReleaseArtProfile/baseline.prof
+          - PROF_SHA1=03894286e17574c9a88a465959c62a45c5013e83
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name '*aseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/fdroid/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
