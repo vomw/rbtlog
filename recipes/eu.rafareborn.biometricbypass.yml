@@ -149,3 +149,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.0.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/hxreborn/biometric-bypass/releases/download/v2.0.1/app-release.apk
+        build:
+          - pushd libxposed/api
+          - ./gradlew publishToMavenLocal --no-daemon
+          - popd
+          - pushd libxposed/service
+          - ./gradlew publishToMavenLocal --no-daemon
+          - popd
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - openjdk-17-jdk-headless
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

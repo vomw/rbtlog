@@ -8037,6 +8037,21 @@
       "maintainer_notes": null
     }
   ],
+  "d6ef46c64266ef03e401ffb05c64de81d61bfef35359bbce1763ecffd604fd41": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.7/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 27,
+      "version_name": "1.9.7",
+      "tag": "v1.9.7",
+      "commit": "f2aecd72e1bdac4e4c23e717a5d3473ae2761c60",
+      "timestamp": 1782325542,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -12082,6 +12097,21 @@
       "tag": "v1.12.3",
       "commit": "0a3a3feb203dcaf49531ab4f021ab60ba95d7c07",
       "timestamp": 1781811907,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "045252fb287912c640f7aa48a9d647a9fa4dd94badeca268039e71cf53ae1e49": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.12.4/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11204,
+      "version_name": "1.12.4-store",
+      "tag": "v1.12.4",
+      "commit": "621f66c7e9fd8dec5453436c775652e5a16b5f42",
+      "timestamp": 1782309313,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32974,6 +33004,21 @@
       "maintainer_notes": null
     }
   ],
+  "628445762641be85af8ee9eae2299cb1f9d43015adfd2c47d957242e8b429dcb": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.7.8-alpha/YagniLauncher-v0.7.8-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 78,
+      "version_name": "0.7.8-alpha",
+      "tag": "v0.7.8-alpha",
+      "commit": "15e8b423048643d9d90448ecab5b414cd0fad13e",
+      "timestamp": 1782309662,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -33990,6 +34035,21 @@
       "commit": "8ace915494b5bce8a37a52b19d13cbac97381ac8",
       "timestamp": 1779821296,
       "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df5ac02c41c0d095f4511b8f0560c240b6143d14dd3cfe369ff87effd3fcfd42": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.0.0-beta2/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 9,
+      "version_name": "2.0.0-beta2",
+      "tag": "v2.0.0-beta2",
+      "commit": "5c492543772e53992001bf48b23ecad4e37fde94",
+      "timestamp": 1782326118,
+      "reproducible": true,
       "error": null,
       "maintainer_notes": null
     }
@@ -36762,6 +36822,21 @@
       "tag": "v3.1.7",
       "commit": "6154e09516b1df87d1d77c40e3bbd8a844f65bf9",
       "timestamp": 1780857199,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "06280589a623fcd3d1dc8b33cacdfdb13e7182539a8ab632c8ddaa960525e349": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.1.8/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 14,
+      "version_name": "3.1.8",
+      "tag": "v3.1.8",
+      "commit": "4ce8d319a62d2cde09097998a9f3e378eb3a5c5f",
+      "timestamp": 1782332176,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49809,6 +49884,21 @@
       "maintainer_notes": null
     }
   ],
+  "5cf13894577ccd57eb6cfd1e687eb076a55a4f8aa8304b1bb83c8b6252c63910": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.12/kelani-sbd-tracker-v1.2.12.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 60,
+      "version_name": "1.2.12",
+      "tag": "v1.2.12",
+      "commit": "a24e838b6744dc514223772e96d3f64353af87d6",
+      "timestamp": 1782309951,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -51769,6 +51859,21 @@
       "tag": "v0.4.2",
       "commit": "fe002420783bc9183182f1ca21e44893075b74ef",
       "timestamp": 1782144559,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "43e8e1014d221fa4256bb7fe2fc71d5f4ede929a6265c1a80a8a03231807f1aa": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.4.3/storii-v0.4.3-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2054,
+      "version_name": "0.4.3",
+      "tag": "v0.4.3",
+      "commit": "892f5da5f43e5950025428317e0feb40bb40aa61",
+      "timestamp": 1782310157,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -63886,6 +63991,21 @@
       "maintainer_notes": null
     }
   ],
+  "202a1891d2fc25c5e03c64bdb47eacb51632d13f0193fd03fcc790be64059269": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.5.1/WeatherMaster.v3.5.1.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 54,
+      "version_name": "3.5.1",
+      "tag": "v3.5.1",
+      "commit": "2a17909935c449f591188fc10ea29a030ffd7413",
+      "timestamp": 1782311294,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e344e5280853357dd0d1f3bd855fc610365efdd7bdaf0af4f4739707b89403cb": [
     {
       "repository": "https://github.com/JoshAtticus/Compressor.git",
@@ -65246,6 +65366,21 @@
       "tag": "v1.57",
       "commit": "228b973578ba8966182f61dd4672b16e61407855",
       "timestamp": 1776524525,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7caf79289a86534eebbd4ac86fb2c2080ae047b0e4b69728668eeffb9a7001ac": [
+    {
+      "repository": "https://github.com/Razeeman/Android-SimpleTimeTracker.git",
+      "apk_url": "https://github.com/Razeeman/Android-SimpleTimeTracker/releases/download/v1.58/1.58-stt-base-release.apk",
+      "appid": "com.razeeman.util.simpletimetracker",
+      "version_code": 141,
+      "version_name": "1.58",
+      "tag": "v1.58",
+      "commit": "3d47215c5490f36d2c96e90a5a7bb3e1aa78a5dc",
+      "timestamp": 1782311878,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77710,6 +77845,21 @@
       "maintainer_notes": null
     }
   ],
+  "15e4a7322620ab457d54b1d9448623ca2a98506c0e0959216e09942bd5bd0030": [
+    {
+      "repository": "https://github.com/tymwitko/Recents.git",
+      "apk_url": "https://github.com/tymwitko/Recents/releases/download/v1.6.3/app-release.apk",
+      "appid": "com.tymwitko.recents",
+      "version_code": 24,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "e2de79c045b61ad23f24ecd3626a6df0bf58299e",
+      "timestamp": 1782327684,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "42e0f6ef6247b64343f572266b110a5996eb204fa1114386b9da817dad25c0a0": [
     {
       "repository": "https://github.com/ohuc/CaffeineHealth.git",
@@ -78260,6 +78410,21 @@
       "tag": "v1.82.2",
       "commit": "73b5edc813545a2ffeb3425264e6d18ac204507a",
       "timestamp": 1782154221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "52682f50c1aa2f0763a0b86628749676df970d6457143ff74109524ff06323f2": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.82.3/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1823,
+      "version_name": "1.82.3-foss",
+      "tag": "v1.82.3",
+      "commit": "7d7cde3b55255ba3c798207583e27652c58db0c7",
+      "timestamp": 1782328045,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86974,6 +87139,21 @@
       "maintainer_notes": null
     }
   ],
+  "5778655cb071045bbf061cd60b6814c11310385c3748f702ae147ee7f6ec588c": [
+    {
+      "repository": "https://codeberg.org/mepi0011/OpeningHoursManager.git",
+      "apk_url": "https://codeberg.org/mepi0011/OpeningHoursManager/releases/download/v1.2/OpeningHoursManager_signed.apk",
+      "appid": "de.mepi0011.openinghoursmanager",
+      "version_code": 10002,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "4c99a61d6514f6335ec9425649a3ef3f4b5e3532",
+      "timestamp": 1782312462,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4d1673bf7f75784da6d861bf399f404b420aac5f881bdb0cc85e64b6c28af008": [
     {
       "repository": "https://github.com/pachi81/GlucoDataHandler.git",
@@ -89475,6 +89655,21 @@
       "maintainer_notes": null
     }
   ],
+  "23bb5abd40c2b8f068b66c447d1ac92a0f9e1f903edd01f7caa6e28db693ff84": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.0/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 431,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "8f34af78d89ff971018c9334ea5207393c4d2c54",
+      "timestamp": 1782312825,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -91620,6 +91815,36 @@
       "maintainer_notes": "BUILD_ID embedded to native library"
     }
   ],
+  "d66e8bd8137b3f2596724b1602dfd7c9523b76db3e0096d5e912ffda99c7f5e6": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.5.0/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23363,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "590403a7321a010e976681584a3b4ae7fada4151",
+      "timestamp": 1782313526,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "build ID in libdartjni.so (known Flutter issue)"
+    }
+  ],
+  "8229ee1231c273020da07399f6f2a84a374a134c135e933762836c25c90dbc8a": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.5.2/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23383,
+      "version_name": "1.5.2",
+      "tag": "v1.5.2",
+      "commit": "7707ec6d472a3140e3ea5e2f376805c6bb4036e5",
+      "timestamp": 1782331245,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
     {
       "repository": "https://github.com/itsvic-dev/parcel.git",
@@ -93040,6 +93265,21 @@
       "tag": "v1.10.1",
       "commit": "24947abb387ae8e564071ab5a2e53c179ef6c350",
       "timestamp": 1782057015,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8530cfcf0780212a320297a9f78f526990219050f29f54ad784aade255065f0a": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.10.2/Musicaxs-1.10.2.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 25,
+      "version_name": "1.10.2",
+      "tag": "v1.10.2",
+      "commit": "d4dc06803264cf65e09cdf36a429b7662e2d2307",
+      "timestamp": 1782329777,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -99626,6 +99866,21 @@
       "maintainer_notes": null
     }
   ],
+  "6a0adb0851917c52dc0a3062237b194dc5301d447fddba7af9bdaf82017b6408": [
+    {
+      "repository": "https://codeberg.org/mirk0dex/BFP-Calculator.git",
+      "apk_url": "https://codeberg.org/mirk0dex/BFP-Calculator/releases/download/v1.2/BFP-Calculator-v1.2.apk",
+      "appid": "eu.mirkodi.bfpcalculator",
+      "version_code": 3,
+      "version_name": "v1.2",
+      "tag": "v1.2",
+      "commit": "f31b14285906b0dbeb0b0db7a29b4492488089d6",
+      "timestamp": 1782333732,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1a42ec7bd0b9be4b44253a67cfa557070ace8e841e656960a19c050100b3c708": [
     {
       "repository": "https://codeberg.org/ottoptj/yamlauncher.git",
@@ -99891,6 +100146,21 @@
       "tag": "v2.0.0",
       "commit": "e4aaa4b29fba3865cac19fae77dee97ce23e95f5",
       "timestamp": 1773777066,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c9c176029eb562ec68c65b65682e4bcbd5a56ee55b3b91eee61da5b407e1c2be": [
+    {
+      "repository": "https://github.com/rafareborn/biometric-bypass.git",
+      "apk_url": "https://github.com/hxreborn/biometric-bypass/releases/download/v2.0.1/app-release.apk",
+      "appid": "eu.rafareborn.biometricbypass",
+      "version_code": 201,
+      "version_name": "2.0.1",
+      "tag": "v2.0.1",
+      "commit": "abc2acd602c2946ebdcb2e9f4d4e2a2df6a7b32d",
+      "timestamp": 1782330379,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105932,6 +106202,21 @@
       "tag": "v0.1.63",
       "commit": "bbcd8d99253c47798d0b238c8e01b6b90211857d",
       "timestamp": 1782224970,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d7fca82455cb7753108d30ff7f59baddef522a896dda53c0cc961b681edbf321": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.64/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1064,
+      "version_name": "0.1.64",
+      "tag": "v0.1.64",
+      "commit": "904635fbc959cd7a346601e7c9e41b0e5bf27593",
+      "timestamp": 1782314526,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -125225,6 +125510,21 @@
       "maintainer_notes": null
     }
   ],
+  "11d3e0333af7a54f29e2fb95a35bd95d42ace7b6332e48a3de1132f86cd5ab1f": [
+    {
+      "repository": "https://codeberg.org/y20k/stayput.git",
+      "apk_url": "https://codeberg.org/y20k/stayput/releases/download/v0.8.10/stayput-app-release-0.8.10.apk",
+      "appid": "org.y20k.stayput",
+      "version_code": 11,
+      "version_name": "0.8.10",
+      "tag": "v0.8.10",
+      "commit": "684e246c255e0ec6d0e1489c5cae3f5631cda2fa",
+      "timestamp": 1782314927,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4860b10da22d7ed51e39f80cfbdfa2947eb2e8c8e480e9cc1a9de50224e246f3": [
     {
       "repository": "https://codeberg.org/y20k/transistor.git",
@@ -125445,6 +125745,21 @@
       "tag": "v4.3.6",
       "commit": "83698de3fd02a2756b84fdead42353c97cb9e162",
       "timestamp": 1771098372,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "01e630acfec37592f9372f94322c8eba514568db2899c013c8e6624923309d18": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.7/transistor-app-release-4.3.7.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 114,
+      "version_name": "4.3.7",
+      "tag": "v4.3.7",
+      "commit": "54e00bbaa8d285c4534a564724f2567e1f11ec44",
+      "timestamp": 1782315103,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

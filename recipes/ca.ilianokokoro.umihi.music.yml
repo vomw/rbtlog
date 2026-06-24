@@ -555,3 +555,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.12.4
+    apks:
+      - apk_pattern: UmihiMusic-store\.apk
+        apk_url: https://github.com/ilianoKokoro/umihi-music/releases/download/v1.12.4/UmihiMusic-store.apk
+        build:
+          - ./gradlew clean assembleStoreRelease -Pbeta=false --no-build-cache --no-configuration-cache --no-daemon -PgitHash=${APP_COMMIT}
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/store/release/UmihiMusic-store.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/umihi-music/umihi-music
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
