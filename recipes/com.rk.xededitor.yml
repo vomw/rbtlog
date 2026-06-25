@@ -1054,3 +1054,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.3.1
+    apks:
+      - apk_pattern: xed-editor-.*\.apk
+        apk_url: https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.3.1/xed-editor-v3.3.1.apk
+        build:
+          - sed -r '/(foojay|toolchainVendor)/d' -i gradle/gradle-daemon-jvm.properties
+          - sed -ri '/foojay-resolver-convention/d' settings.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Xed-Editor/Xed-Editor
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake: 4.1.2
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.13846066
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
