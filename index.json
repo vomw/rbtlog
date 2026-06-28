@@ -67846,6 +67846,21 @@
       "maintainer_notes": null
     }
   ],
+  "46cf6305fb4405425d27187a5ee84f0d8a885dcdede75b68c4cf56b67aa571aa": [
+    {
+      "repository": "https://github.com/Xed-Editor/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.3.4/xed-editor-v3.3.4.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 98,
+      "version_name": "3.3.4",
+      "tag": "v3.3.4",
+      "commit": "d0f33b344b8cd79ed73518a9476159bcfbbc5ca5",
+      "timestamp": 1782647348,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "005aef13bc96101f5725c014eeb691de0e7fb74b38b2e8f004af7cef77560bcc": [
     {
       "repository": "https://github.com/RLD-JL/Just-Listen.git",
@@ -101541,6 +101556,21 @@
       "tag": "1.6.1",
       "commit": "61ef1ad580cd2b229783a046adcf57ff2c4372ee",
       "timestamp": 1782589333,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c807873e9056f5bdbd44b2d3aee8385ee1d3f757f53d6564f9a024a5e61d69e": [
+    {
+      "repository": "https://github.com/SimonMarquis/SleepTimer.git",
+      "apk_url": "https://github.com/SimonMarquis/SleepTimer/releases/download/1.6.2/app-release.apk",
+      "appid": "fr.smarquis.sleeptimer",
+      "version_code": 16200,
+      "version_name": "1.6.2",
+      "tag": "1.6.2",
+      "commit": "17b11101136a68dfbbdd493a9cb4e6e610d598cf",
+      "timestamp": 1782641505,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
