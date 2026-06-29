@@ -50259,6 +50259,21 @@
       "maintainer_notes": null
     }
   ],
+  "49029f4acd68932fddd8387d63a25c081f1c08860d8e809ffa56c0ded0565bfd": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.2.15/kelani-sbd-tracker-v1.2.15.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 63,
+      "version_name": "1.2.15",
+      "tag": "v1.2.15",
+      "commit": "eeba3b90bdf2010bdeb23723b0958b92e8b95db0",
+      "timestamp": 1782746170,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -68458,6 +68473,21 @@
       "timestamp": 1782327284,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": null
+    }
+  ],
+  "4ffa58f3d14a319db987f56dfa0cfa67bd658f0dd6eeed4df7b023865bf1cbbe": [
+    {
+      "repository": "https://github.com/RoundSalmon4/AppVerifierBG.git",
+      "apk_url": "https://github.com/RoundSalmon4/AppVerifierBG/releases/download/v0.6.0/AppVerifierBG-0.6.0.apk",
+      "appid": "com.roundsalmon4.appverifier",
+      "version_code": 24,
+      "version_name": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "47e46e461b916bc12d3b93170a8ec5edf3a467b9",
+      "timestamp": 1782739399,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
