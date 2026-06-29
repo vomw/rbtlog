@@ -2,7 +2,7 @@
 repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
 notes:
-  - 'FIXME: remove the export for DONATION_PROMPT_ENABLED and FEEDBACK_ENDPOINT_URL with the next release (automatically set by upstream script now)'
+  - 'FIXME: remove the versionCode sed with the next release again, see https://github.com/dongdongbh/Mindwtr/issues/206#issuecomment-4837765639 '
 labels:
   - expo
   - react-native
@@ -1486,6 +1486,48 @@ versions:
           - base64 -d > sedo <<< ZXhwb3J0IERST1BCT1hfQVBQX0tFWT0iN29iODJ6ZzBseDBhcmtwIgo=
           - source sedo
           - export DONATION_PROMPT_ENABLED="true" FEEDBACK_ENDPOINT_URL='https://mindwtr-feedback.mindwtr.workers.dev'
+          - bash scripts/ci/install_core_dependencies.sh
+          - bash apps/mobile/scripts/fdroid_prep.sh
+          - bash scripts/ci/install_mobile_dependencies.sh
+          - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace apps/mobile/build/mindwtr-*-arm64-v8a-foss.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Mindwtr/Mindwtr
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.0.5
+    apks:
+      - apk_pattern: mindwtr-.*-foss\.apk
+        apk_url: https://github.com/dongdongbh/Mindwtr/releases/download/v1.0.5/mindwtr-1.0.5-foss.apk
+        build:
+          - wget -q -O /tmp/nodejs-lts.tar.xz -- https://nodejs.org/dist/v24.17.0/node-v24.17.0-linux-x64.tar.xz
+          - sha256sum -c <<< 'ab343a1b747c7cbf3630dfd7dbf818c5423fab2eb4f5ad1afc896f6bd121a917  /tmp/nodejs-lts.tar.xz'
+          - tar xf /tmp/nodejs-lts.tar.xz -C /opt
+          - export PATH="${PATH}:/opt/node-v24.17.0-linux-x64/bin"
+          - base64 -d > sedo <<< ZXhwb3J0IERST1BCT1hfQVBQX0tFWT0iN29iODJ6ZzBseDBhcmtwIgo=
+          - source sedo
+          - sed -ri 's/("versionCode". )82/\186/' apps/mobile/app.json
           - bash scripts/ci/install_core_dependencies.sh
           - bash apps/mobile/scripts/fdroid_prep.sh
           - bash scripts/ci/install_mobile_dependencies.sh
