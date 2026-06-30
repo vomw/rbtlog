@@ -100076,6 +100076,21 @@
       "maintainer_notes": null
     }
   ],
+  "0fd41b648515ae392780593b3950928a739125e52b78ccf9bc14c72ebe94f149": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2324/FairEmail-v1.2324a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2324,
+      "version_name": "1.2324",
+      "tag": "1.2324",
+      "commit": "0e6e6e3c7e566caf3326b88a8043db22f89b992e",
+      "timestamp": 1782835143,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -108122,6 +108137,21 @@
       "tag": "v0.6.2",
       "commit": "4222406e3132a456774cf3c02ea6d08ed6ea4bb4",
       "timestamp": 1741723092,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c739fc08551e924db2baa7ce2c07874a004c976507b3894a5ed4448aa1ca3c60": [
+    {
+      "repository": "https://github.com/Tiefseetauchner/tiefprompt.git",
+      "apk_url": "https://github.com/Tiefseetauchner/tiefprompt/releases/download/v1.0.3/foss_app-arm64-v8a-release.apk",
+      "appid": "io.github.tiefseetauchner.tiefprompt",
+      "version_code": 262,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "ae3b13d56a5392a4e8c869a24fd45a89c364843d",
+      "timestamp": 1782818838,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

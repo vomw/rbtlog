@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/AmrDeveloper/Turtle.git
-updates: releases
+updates: disabled
+notes:
+  - RB failed the 3rd time in a row, with ever growing differences. Updates disabled in our repo now as well, see https://github.com/AmrDeveloper/Turtle/issues/6#issuecomment-4845588301
 versions:
   - tag: 2.0.7
     apks:
