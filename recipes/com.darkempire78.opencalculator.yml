@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/Darkempire78/OpenCalc.git
-updates: releases
+updates: disabled
 notes:
   - 'FIXME: we had to fake buildConfig settings for v3.2.0, remove that "sed" again with the next build; see https://github.com/Darkempire78/OpenCalc/issues/551 '
+  - repo and Github account gone 2026-06-30
 versions:
   - tag: v3.1.4
     apks:

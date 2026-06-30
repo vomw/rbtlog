@@ -4,7 +4,6 @@ updates: releases
 notes:
   - 'FIXED: embedded commit hash mismatch for v4.0 (manually adjusted)'
   - 'FIXED: gradlew checksum error for v7.0, so we had to use our own gradle2; see https://github.com/cliambrown/PillTime/issues/8 for details'
-  - 'FIXME: remove JDK-17 again with the next release following v16.0, see https://github.com/cliambrown/PillTime/issues/23#issuecomment-4410051681 '
 versions:
   - tag: v4.0
     apks:
@@ -356,6 +355,33 @@ versions:
             sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
           extra_packages:
             - openjdk-17-jdk-headless
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v19.0
+    apks:
+      - apk_pattern: pill_time.*\.apk
+        apk_url: https://github.com/cliambrown/PillTime/releases/download/v19.0/pill_time_v19.0.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
           image: ubuntu:jammy
           jdk: openjdk-21-jdk-headless
           ndk:
