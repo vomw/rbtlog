@@ -8082,6 +8082,21 @@
       "maintainer_notes": null
     }
   ],
+  "87d091305bf9c5aa59217177aed7379cc52cedd39f8777ee8597caa1a815cacd": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.9/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 29,
+      "version_name": "1.9.9",
+      "tag": "v1.9.9",
+      "commit": "a40be7193f564e2e4c8bbc283e188f7db48c4b95",
+      "timestamp": 1782925917,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9307,6 +9322,21 @@
       "tag": "v9.7.1",
       "commit": "63abd16f7fc2d09f8580ac01152d8627f2be9cc4",
       "timestamp": 1782153148,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df13534759750416b63ace9408568a35bbdbf3341b94e77f24387b43791ac88c": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.7.2/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 972,
+      "version_name": "v9.7.2",
+      "tag": "v9.7.2",
+      "commit": "5eaa2a5382552efc278dbf7ebdab726ac25a636d",
+      "timestamp": 1782930368,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -17705,6 +17735,21 @@
       "tag": "440",
       "commit": "7b9df340e672ffb5830b64d138e9f949ae072d82",
       "timestamp": 1779042770,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e635336f4016098cdfdc37aeff5584b9b9818daf015659593807e6b1be346b1c": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/441/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 441,
+      "version_name": "4.41 GH",
+      "tag": "441",
+      "commit": "95ec05f735c0af8ad10ce6bdc42de820bf9f283a",
+      "timestamp": 1782914294,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26781,6 +26826,21 @@
       "maintainer_notes": null
     }
   ],
+  "00d25a980793e6f2ddeb6f657324e57631fb5d9110fa7afee9b610a5a3df4e6d": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.5.3/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 305030000,
+      "version_name": "3.5.3",
+      "tag": "v3.5.3",
+      "commit": "3168bc452758ad4f6cda74b7b35ee0ecb0a6e101",
+      "timestamp": 1782914529,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -27631,6 +27691,21 @@
       "tag": "v5.1.0",
       "commit": "92cfe7c8179f1b702d26dde4d415ef3e86537ff1",
       "timestamp": 1782482041,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f531584a7af9edec2cdfd885fb25cbb0def3c5e7f92cf7e55193790c3487cc1d": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v5.2.0/easter_eggs_5.2.0_78-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 78,
+      "version_name": "5.2.0",
+      "tag": "v5.2.0",
+      "commit": "8a0b1883469cbec9f66efb0a2128e712ac76781d",
+      "timestamp": 1782914862,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -38357,6 +38432,21 @@
       "maintainer_notes": null
     }
   ],
+  "65ecad9326bc45e74ac3f74a8293efebfe216e928aea665cb2f01e338a8f183c": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.24.2/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 177,
+      "version_name": "1.24.2",
+      "tag": "v1.24.2",
+      "commit": "f596980d85313e1093d0055266067b0cd7b280a7",
+      "timestamp": 1782915316,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -48579,6 +48669,21 @@
       "maintainer_notes": null
     }
   ],
+  "eeac20dc9f28b005fc7a7e5569387bf3b103496e9b930cb80b7bb22a3089f12a": [
+    {
+      "repository": "https://github.com/jvde-github/AIS-catcher-for-Android.git",
+      "apk_url": "https://github.com/jvde-github/AIS-catcher-for-Android/releases/download/v2026.07.01-9de9fa5/app-release-signed.apk",
+      "appid": "com.jvdegithub.aiscatcher",
+      "version_code": 112,
+      "version_name": "1.12",
+      "tag": "v2026.07.01-9de9fa5",
+      "commit": "9de9fa5cc3752a9e9a9ed2a205eea1d303d3fa70",
+      "timestamp": 1782915675,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7685a15df71280f709d0c35368a2e04ca7b5822c6074695d71bed408cdccb5ef": [
     {
       "repository": "https://github.com/kaajjo/LibreSudoku.git",
@@ -52524,6 +52629,21 @@
       "maintainer_notes": null
     }
   ],
+  "37fc71c950cb5f4deb2fbb4242bb1de554503f2b6abba3c0a83205cbaa974045": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.4.8/storii-v0.4.8-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2060,
+      "version_name": "0.4.8",
+      "tag": "v0.4.8",
+      "commit": "66410755b3b8826604e6438630f2ce78e6b3643b",
+      "timestamp": 1782915921,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -55365,6 +55485,21 @@
       "tag": "v1.5.0",
       "commit": "cac815c4694a11b05dddfda4ce43a197f3aeb679",
       "timestamp": 1782657632,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ad21b29782050258a92d1ee6eb4956f0aa99b07d2b83132a5c2f22d29eaf8e8e": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v1.5.1/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 54,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "2a2e8ecd5740b85642e4736664537395419a7a4e",
+      "timestamp": 1782930836,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65401,6 +65536,21 @@
       "maintainer_notes": null
     }
   ],
+  "f5f93e47c05a3f0903cf72d199730cae5b775bd13332056b2bd5427e9ecbdaf7": [
+    {
+      "repository": "https://github.com/PYU224/koremd.git",
+      "apk_url": "https://github.com/PYU224/koremd/releases/download/v1.1.9/koremd-v1.1.9.apk",
+      "appid": "com.pyu.koremd",
+      "version_code": 18,
+      "version_name": "1.1.9",
+      "tag": "v1.1.9",
+      "commit": "a9a5c9d4f36f5b1c927e2cec52c1d5a2c95c56d1",
+      "timestamp": 1782916563,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7f9979dca06b4a236b86ea55aa5c4c58a275d8b928b1591609dbcd4b067cf512": [
     {
       "repository": "https://github.com/Rouneant/Qm-Authenticator-for-Android.git",
@@ -70349,6 +70499,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "upstream APK includes uncommitted changelog file"
+    }
+  ],
+  "8d900a5fb7f437a37bf3aa64738c6f85cf0d2b8531e2c4b85670e23efd66e8a6": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.3.1/app-foss-release.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10301,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "eb6beabd84231eda430807535b62395e2b775cc8",
+      "timestamp": 1782932384,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
@@ -90930,6 +91095,21 @@
       "maintainer_notes": null
     }
   ],
+  "0f391d512e441e9e9e6e28495d2b2e9be6ffb77ddfcc2853c9ac67cacfa941db": [
+    {
+      "repository": "https://codeberg.org/bg443/Octo.git",
+      "apk_url": "https://codeberg.org/bg443/Octo/releases/download/v1.2.1/Octo-universal-release.apk",
+      "appid": "dev.bg.octo",
+      "version_code": 4,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "23920dad81032968649f920e00a79348a861c2df",
+      "timestamp": 1782926648,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8bdb2a9929390304f6d6a99a75de554bedccf91cf378389b9f515d3395811158": [
     {
       "repository": "https://codeberg.org/bg443/rbtlui.git",
@@ -91345,6 +91525,21 @@
       "tag": "v1.4.1",
       "commit": "29a3ddb1801738b167398fce86bd4d2196ae5bf9",
       "timestamp": 1781982782,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ad9dd5bb2e59a0f7de9481876cab6ad154308d5d94f3aaed57902738d82228e": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.4.2/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 9,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "4ab4c56a5b1421da70797b790ceadbd4024405e8",
+      "timestamp": 1782917327,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -93790,6 +93985,21 @@
       "tag": "3.0.2",
       "commit": "e53e2cf64666fc4d02128e3c1580f8872a2bbdf8",
       "timestamp": 1781897618,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6dcb35efe6935535e2dcfb54783d8c42324a94f527ba6cdf48a52c5f6660deaf": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.1.0/photok-3.1.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 63,
+      "version_name": "3.1.0",
+      "tag": "3.1.0",
+      "commit": "ec09d645fd43aa0349ef117912e30b13b31a4d6b",
+      "timestamp": 1782917478,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98451,6 +98661,21 @@
       "tag": "v1.0.4-rc0",
       "commit": "72f400be2dce47bc6f280d455b3ff46d617f89ee",
       "timestamp": 1778942667,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "20c03e066815083f1ed4217b1235365fc1aea7ee5f1a5f599bfe57cae09a695a": [
+    {
+      "repository": "https://github.com/d4rken-org/octi.git",
+      "apk_url": "https://github.com/d4rken-org/octi/releases/download/v1.1.0-rc0/eu.darken.octi-v1.1.0-rc0-10100000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.octi",
+      "version_code": 10100000,
+      "version_name": "1.1.0-rc0",
+      "tag": "v1.1.0-rc0",
+      "commit": "bb25ec92a1d10c802263bfd0b9e30126440d2f45",
+      "timestamp": 1782932967,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105937,6 +106162,21 @@
       "maintainer_notes": null
     }
   ],
+  "9e1328d269d2d57d0621821f747665452ea158b7a56fd76bde8428868013c512": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.25.3%2B168/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2168,
+      "version_name": "1.25.3",
+      "tag": "v1.25.3+168",
+      "commit": "dcce0e759e0c5c1a8bdc39c0e22e13047a8a1300",
+      "timestamp": 1782917661,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e47c9af46258cdd401555158f6a57503770564d87de7ef08b373c8a381444ec6": [
     {
       "repository": "https://github.com/Giuig/auraninja.git",
@@ -106747,6 +106987,21 @@
       "maintainer_notes": null
     }
   ],
+  "09fe5a43a918836128007c980cec5088343bc36a9f7f89918510fcd12bd6da75": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.7.1/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90701,
+      "version_name": "9.7.1",
+      "tag": "v9.7.1",
+      "commit": "a54bb79429dcf51a32677d1fb33ede294d5acb78",
+      "timestamp": 1782938265,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8ccc05da19cafcaf3eace9ef4576892d1ccb281ec7286d0db3b10c085ce4b320": [
     {
       "repository": "https://github.com/Legandy/EnigmaBridge.git",
@@ -107057,6 +107312,21 @@
       "tag": "v1.6.4",
       "commit": "186662a0e277d8e1c5971723db1ff56671f59b7a",
       "timestamp": 1779996646,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1ae4d725fafd718fc6ab410381b5e100c76f12003d91330286d5d144c3caa3ae": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.7.0/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 43,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "a99aff7d777d3fab8256efffdf60f8b7748230e1",
+      "timestamp": 1782918423,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -107612,6 +107882,36 @@
       "tag": "v0.1.66",
       "commit": "19fb93c8424e50710b62a0bb6a26192363f22010",
       "timestamp": 1782833221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bd4322906caa668dc293212f74c303eaede3f61e9e5a1ba70328d72d96df5cfc": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.68/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1068,
+      "version_name": "0.1.68",
+      "tag": "v0.1.68",
+      "commit": "3f36194b33c55eb00c9199c5d7021eb59d91f089",
+      "timestamp": 1782918587,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9dad22f0357e9f6b6e74a47ca6c08c3d6d6e77badd13178d5ac6636f9a245c74": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.69/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1069,
+      "version_name": "0.1.69",
+      "tag": "v0.1.69",
+      "commit": "cb82e590dc4e782f2b938cc0b62b1b9df62b68c4",
+      "timestamp": 1782934972,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111965,6 +112265,21 @@
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp82oza5a2/outputs:/outputs', '--volume', '/tmp/tmp82oza5a2/scripts:/scripts:ro', '--volume', '/tmp/tmp82oza5a2/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/knighthat/Kreate.git', '--env', 'APP_TAG=v2.2.1', '--env', 'APP_COMMIT=37fb5467b57f5908fe7ba2e5c5b70ca86cc7e1b1', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=20.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH=/rbtlog_cache/cmdline_tools', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": "build fails due to sdkmanager bug with android-37"
+    }
+  ],
+  "e8a10ff3d9391e4017c0df842a25fe4d4d4261b0d7bf48f0650f510afccac4bb": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.2.2/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 140,
+      "version_name": "2.2.2-izzy",
+      "tag": "v2.2.2",
+      "commit": "a86f667aef210258c785dc012d310a8d96f7ecc0",
+      "timestamp": 1782918937,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [

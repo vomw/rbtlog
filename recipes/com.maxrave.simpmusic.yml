@@ -1025,3 +1025,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.5.1
+    apks:
+      - apk_pattern: SimpMusic.*foss-arm64-v8a-release\.apk
+        apk_url: https://github.com/maxrave-dev/SimpMusic/releases/download/v1.5.1/SimpMusic-foss-arm64-v8a-release.apk
+        build:
+          - chmod +x gradlew
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - echo -e "\nisFullBuild=false" >> ./gradle.properties
+          - ./gradlew androidApp:assembleRelease
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/release/androidApp-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
