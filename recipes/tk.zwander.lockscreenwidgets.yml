@@ -1229,3 +1229,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 4.2.0
+    apks:
+      - apk_pattern: LockscreenWidgets.*\.apk
+        apk_url: https://github.com/zacharee/LockscreenWidgets/releases/download/4.2.0/LockscreenWidgets_4.2.0-release.apk
+        build:
+          - git checkout cd59bb130281564491152253ef6bd00783419658
+          - mkdir -p ${ANDROID_HOME}/platforms/android-37.0
+          - wget https://github.com/Reginer/aosp-android-jar/raw/refs/heads/main/android-37/android-jdk21.jar -qO "${ANDROID_HOME}"/platforms/android-37.0/android.jar
+          - sed -r 's/compileSdk = 37/compileSdk { version = release(37) { minorApiLevel = 0 } }/' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - git clone -b v0.3.0 https://github.com/obfusk/reproducible-apk-tools.git
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/LockscreenWidgets/LockscreenWidgets
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform: android-37.0
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

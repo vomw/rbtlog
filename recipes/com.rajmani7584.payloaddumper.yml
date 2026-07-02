@@ -59,3 +59,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.1
+    apks:
+      - apk_pattern: PayloadDumper.*\.apk
+        apk_url: https://github.com/rajmani7584/Payload-Dumper-Android/releases/download/v5.1/PayloadDumper-v5.1.apk
+        build:
+          - RUSTUP="1.29.0"
+          - RUST_TOOLCHAIN="1.95.0"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install cargo-ndk
+          - pushd lib/payload-dumper-android-rs
+          - ./build.sh
+          - popd
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/rajmani
+        build_repo_dir: /home/rajmani/Payload-Dumper-Android
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - build-essential
+            - protobuf-compiler
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 30.0.14904198
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
