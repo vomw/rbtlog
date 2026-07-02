@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/AmrDeveloper/Turtle.git
-updates: disabled
-notes:
-  - RB failed the 3rd time in a row, with ever growing differences. Updates disabled in our repo now as well, see https://github.com/AmrDeveloper/Turtle/issues/6#issuecomment-4845588301
+updates: releases
 versions:
   - tag: 2.0.7
     apks:
@@ -30,6 +28,37 @@ versions:
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.0.11
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/AmrDeveloper/Turtle/releases/download/2.0.11/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
           ndk:
           platform:
           platform_tools:
