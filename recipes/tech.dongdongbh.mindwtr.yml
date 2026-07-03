@@ -3,6 +3,7 @@ repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
 notes:
   - 'FIXME: remove the versionCode sed with the next release again, see https://github.com/dongdongbh/Mindwtr/issues/206#issuecomment-4837765639 '
+  - 'FIXME: with 1.1.0, also remove the sedo part, see https://github.com/dongdongbh/Mindwtr/issues/206#issuecomment-4870734999 (and add Tracking AF in the repo)'
 labels:
   - expo
   - react-native
