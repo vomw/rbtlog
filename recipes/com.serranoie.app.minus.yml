@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/isaacsa51/Minus.git
-updates: releases
+updates: disabled
+notes:
+  - 2026-07-03 1.3.0, 1.3.1, and now 1.3.2 fail, author pushes new releases without completing the checks, so no sense to verify them here. see https://github.com/isaacsa51/Minus/issues/47#issuecomment-4878939744
 versions:
   - tag: v1.1.1
     apks:
