@@ -189,7 +189,7 @@ def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern:
                         "sha256": cached_tool["sha256"]
                     })
                     if verbose:
-                        print(f"Migrated {cached_tool["name"]} to cached_tools.", file=sys.stderr)
+                        print(f"Migrated {cached_tool['name']} to cached_tools.", file=sys.stderr)
                 if not no_migrate and (cached_tool := migrate_repro_apk(apk)):
                     modified = True
                     if not "cached_tools" in apk["provisioning"]:
@@ -204,7 +204,7 @@ def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern:
                         "sha256": cached_tool["sha256"]
                     })
                     if verbose:
-                        print(f"Migrated {cached_tool["name"]} to cached_tools and updated to {cached_tool["version"]}.", file=sys.stderr)
+                        print(f"Migrated {cached_tool['name']} to cached_tools and updated to {cached_tool['version']}.", file=sys.stderr)
                 if "no-update-nodejs-lts" not in labels and (vsn := update_nodejs_lts(apk)):
                     modified = True
                     if verbose:
