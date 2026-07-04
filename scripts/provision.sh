@@ -20,11 +20,11 @@ retry() {
 
 mkdir -p "${ANDROID_HOME}"/cmdline-tools
 
-sha256sum -c <<< "${PROVISIONING_CMDLINE_TOOLS_SHA256}  ${PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH}/tools.zip"
-unzip -q -d "${ANDROID_HOME}"/cmdline-tools "${PROVISIONING_CMDLINE_TOOLS_RO_CACHE_PATH}/tools.zip"
-mv "${ANDROID_HOME}"/cmdline-tools/{cmdline-tools,"${PROVISIONING_CMDLINE_TOOLS_VERSION}"}
+sha256sum -c <<< "${PROVISIONING_CACHE_CMDLINE_TOOLS_SHA256}  ${PROVISIONING_CACHE_CMDLINE_TOOLS_PATH}"
+unzip -q -d "${ANDROID_HOME}"/cmdline-tools "${PROVISIONING_CACHE_CMDLINE_TOOLS_PATH}"
+mv "${ANDROID_HOME}"/cmdline-tools/{cmdline-tools,"${PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION}"}
 
-export PATH="${PATH}:${ANDROID_HOME}/cmdline-tools/${PROVISIONING_CMDLINE_TOOLS_VERSION}/bin"
+export PATH="${PATH}:${ANDROID_HOME}/cmdline-tools/${PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION}/bin"
 ( yes || true ) | sdkmanager --sdk_root="${ANDROID_HOME}" --licenses > /dev/null
 
 if [ -n "${PROVISIONING_BUILD_TOOLS}" ]; then

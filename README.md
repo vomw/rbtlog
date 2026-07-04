@@ -303,7 +303,11 @@ Unfortunately, some recipes require modifications to `build:` steps, which is
 what `update-hashes.py` tries to automate by downloading the upstream APK and
 making required modifications to the `build:` steps.  It currently supports 2
 specific things: embedded commit hashes and `.dex`/`.prof`/`.profm` hashes for
-flaky builds.
+flaky builds. `update_hashes.py` will also update entries in `cached_tools`.
+To ensure the minimum amount of changes needed to `build:` steps, recognized
+tools will be migrated to the newer `cached_tools` system where possible. If
+you do not want this, you can use the `--no-migrate` flag to opt out of this
+migration.
 
 The script can be called directly, but is mostly intended to be used via
 `update-recipes.py`, which calls it automatically: with `--update-hashes` it is
@@ -326,6 +330,7 @@ positional arguments:
 options:
   -h, --help     show this help message and exit
   -v, --verbose
+  --no-migrate   don't try to automatically convert to new cached_tools system
 ```
 
 </details>
@@ -581,6 +586,7 @@ versions:
         provisioning:
           android_home: /opt/sdk
           build_tools:
+          cached_tools: []
           cmake:
           cmdline_tools:
             version: '12.0'
@@ -607,6 +613,45 @@ capturing group (`$$TAG:1$$` for the first group) as a placeholder in `apk_url`.
 
 For releases with multiple per-ABI APKs, use multiple build recipes under
 `apks:`.
+
+### Cached tools
+
+Recipes allow you to specify one or more tools to cache under
+cached_tools under provisioning. These tools will be downloaded and
+saved in the cache dir, to be reused in multiple recipes. For
+security, these tools are mounted read-only inside the container and
+the checksum is checked before starting the build.
+
+To create a cached_tool, add an entry as such:
+```
+cached_tools:
+  - name: repro-apk
+    file_name: repro-apk.tar.gz
+    version: v0.3.0
+    url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+    sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+```
+
+Each cached tool will be made available in the recipe using a
+read-only volume with details available in environment variables
+starting with "PROVISIONING_CACHE_", following by the name in full
+upper case with all non-alphanumeric characters (a-zA-Z0-9) replaced
+with underscores (_), and ended with more info.
+
+In the above example, a cached_tool named "repro-apk" will be made
+available with the following environment variables:
+- PROVISIONING_CACHE_REPRO_APK_PATH: The full path to the downloaded
+  file inside the container.
+- PROVISIONING_CACHE_REPRO_APK_VERSION: The value of `version`.
+- PROVISIONING_CACHE_REPRO_APK_SHA256: The value of `sha256`.
+
+If the name used in cached_tools is known to `update-hashes.py`, it
+will also update the cached_tool. Currently, the names known are
+`nodejs-lts` and `repro-apk`.
+
+To cache as efficiently as possible, make sure to always use the exact
+same `name` value for a tool and to **never** use the same `name` value
+for more than one tool.
 
 ## Rebuild Logs
 

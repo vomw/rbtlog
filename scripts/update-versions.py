@@ -108,8 +108,15 @@ def latest_repro_apk(current: Dict[Any, Any]) -> Optional[Dict[Any, Any]]:
     headers = dict(Authorization=f"token {GITHUB_TOKEN}") if GITHUB_TOKEN else {}
     with requests.get(REPRO_APK_LATEST, headers=headers, timeout=60) as response:
         response.raise_for_status()
+        response_data = response.json()
         tag = response.json()["tag_name"]
-        return {"tag": tag} if tag != current["tag"] else None
+        if response_data["tag_name"] == current["tag"] and all(key in current for key in ["version", "url", "sha256"]):  # if we only have tag, we need to save the other fields this time
+            return None
+        with tempfile.TemporaryDirectory() as tmpdir:
+            repro_apk_tgz = os.path.join(tmpdir, "repro-apk.tar.gz")
+            sha256 = download_file_with_retries(response.json()["tarball_url"], repro_apk_tgz)
+        # FIXME: Legacy: Remove tag when the migration code in update-hashes is fully removed
+        return {"tag": response_data["tag_name"], "version": response_data["tag_name"], "url": response_data["tarball_url"], "sha256": sha256}
 
 
 def download_file(url: str, output: str) -> str:

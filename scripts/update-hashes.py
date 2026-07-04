@@ -15,6 +15,7 @@ import tempfile
 import time
 import zipfile
 
+from copy import copy
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
@@ -145,7 +146,7 @@ def tag_to_commit(repository: str, tag: str) -> str:
 
 # FIXME: more no-update-* labels?!
 def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern: Optional[str],
-                         *, verbose: bool = False) -> bool:
+                         *, verbose: bool = False, no_migrate: bool = False) -> bool:
     """Update recipe hashes."""
     labels = data.get("labels", [])
     modified = False
@@ -174,6 +175,36 @@ def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern:
                     modified = True
                     if verbose:
                         print(f"Recipe cmdline_tools updated to {vsn}.", file=sys.stderr)
+                if not no_migrate and (cached_tool := migrate_nodejs_lts(apk)):
+                    modified = True
+                    if not "cached_tools" in apk["provisioning"]:
+                        apk["provisioning"]["cached_tools"] = []
+                        # Ensure we don't break alphabetical ordering
+                        apk["provisioning"] = {key: apk["provisioning"][key] for key in sorted(apk["provisioning"])}
+                    apk["provisioning"]["cached_tools"].append({
+                        "name": cached_tool["name"],
+                        "file_name": cached_tool["file_name"],
+                        "version": cached_tool["version"],
+                        "url": cached_tool["url"],
+                        "sha256": cached_tool["sha256"]
+                    })
+                    if verbose:
+                        print(f"Migrated {cached_tool['name']} to cached_tools.", file=sys.stderr)
+                if not no_migrate and (cached_tool := migrate_repro_apk(apk)):
+                    modified = True
+                    if not "cached_tools" in apk["provisioning"]:
+                        apk["provisioning"]["cached_tools"] = []
+                        # Ensure we don't break alphabetical ordering
+                        apk["provisioning"] = {key: apk["provisioning"][key] for key in sorted(apk["provisioning"])}
+                    apk["provisioning"]["cached_tools"].append({
+                        "name": cached_tool["name"],
+                        "file_name": cached_tool["file_name"],
+                        "version": cached_tool["version"],
+                        "url": cached_tool["url"],
+                        "sha256": cached_tool["sha256"]
+                    })
+                    if verbose:
+                        print(f"Migrated {cached_tool['name']} to cached_tools and updated to {cached_tool['version']}.", file=sys.stderr)
                 if "no-update-nodejs-lts" not in labels and (vsn := update_nodejs_lts(apk)):
                     modified = True
                     if verbose:
@@ -182,6 +213,11 @@ def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern:
                     modified = True
                     if verbose:
                         print(f"Recipe repro-apk updated to {vsn}.", file=sys.stderr)
+                if "cached_tools" in apk["provisioning"] and (vsn := update_cached_tools(apk, labels)):
+                    modified = True
+                    if verbose:
+                        for name, version in vsn.items():
+                            print(f"Recipe cached_tool {name} updated to {version}.", file=sys.stderr)
     return modified
 
 
@@ -245,6 +281,7 @@ def update_cmdline_tools(apk: Dict[Any, Any]) -> Optional[str]:
     return None
 
 
+# FIXME: Legacy, remove when no longer neede
 def update_nodejs_lts(apk: Dict[Any, Any]) -> Optional[str]:
     """Update node.js LTS download to use latest version."""
     lts_zip_txz = re.compile(r"nodejs-lts\.(zip|tar\.xz|txz)")  # .zip by mistake
@@ -265,6 +302,48 @@ def update_nodejs_lts(apk: Dict[Any, Any]) -> Optional[str]:
     return nodejs["version"] if nodejs else None
 
 
+# FIXME: To migrate legacy, remove when no longer needed
+# Note that migrate will always update to the latest version
+def migrate_nodejs_lts(apk: Dict[Any, Any]) -> Optional[str]:
+    """Migrate node.js LTS download to cached_tools."""
+    lts_zip_txz = re.compile(r"nodejs-lts\.(zip|tar\.xz|txz)")  # .zip by mistake
+    lines_to_delete = []
+    nodejs = {"name": "nodejs-lts", "file_name": "nodejs-lts.tar.xz"}
+    for i in range(len(apk["build"])):
+        line = apk["build"][i]
+        if line.startswith("wget") and lts_zip_txz.search(line):
+            search = re.search(r"https://nodejs\.org/\S*\.tar\.xz", line)
+            if search is None:
+                continue
+            nodejs["url"] = search.group(0)
+            lines_to_delete.append(i)
+        if line.startswith("sha256sum") and lts_zip_txz.search(line):
+            search = re.search(r"[0-9a-f]{64}", line)
+            if search is None:
+                continue
+            nodejs["sha256"] = search.group(0)
+            lines_to_delete.append(i)
+        if line.startswith("tar xf") and lts_zip_txz.search(line) and line.endswith("-C /opt"):
+            apk["build"][i] = 'tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt'
+        if line.startswith("export") and "PATH=" in line:
+            search = re.search(r"node-(v[\d.]+)-linux-x64/bin", line)
+            if search is None or search.group(1) is None:
+                continue
+            nodejs["version"] = search.group(1)
+            # The export must not be deleted but replaced
+            apk["build"][i] = re.sub(
+                r"/opt/node-v[\d.]+-linux-x64/bin",
+                "/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin", line)
+    if not all(key in nodejs for key in ["name", "file_name", "url", "version", "sha256"]):
+        if len(lines_to_delete) > 0:
+            print("Failed to migrate nodejs-lts from recipe", file=sys.stderr)
+        return None
+    for line_number in reversed(lines_to_delete):  # delete last line first
+        apk["build"].pop(line_number)
+    return nodejs
+
+
+# FIXME: Legacy, remove when no longer needed
 def update_repro_apk(apk: Dict[Any, Any]) -> Optional[str]:
     """Update 'git clone -b vX.Y.Z REPRO_APK_URL' to use latest version."""
     for i in range(len(apk["build"])):
@@ -276,13 +355,62 @@ def update_repro_apk(apk: Dict[Any, Any]) -> Optional[str]:
     return None
 
 
-def update_hashes(recipe_file: str, tag: str, *, verbose: bool = False) -> bool:
+# FIXME: To migrate legacy, remove when no longer needed
+# Note that migrate for repro_apk will always update to the latest version, as there is not enough info otherwise
+def migrate_repro_apk(apk: Dict[Any, Any]) -> Optional[str]:
+    """Migrate 'git clone -b vX.Y.Z REPRO_APK_URL' to cached_tools."""
+    repro_apk = load_versions()["repro-apk"]
+    if not all(key in repro_apk for key in ["version", "url", "sha256"]):
+        print("Cannot migrate repro-apk as versions.json is not up-to-date", file=sys.stderr)
+    repro_apk["name"] = "repro-apk"
+    repro_apk["file_name"] = "repro-apk.tar.gz"
+    lines_to_delete = []
+    for i in range(len(apk["build"])):
+        line = apk["build"][i]
+        if line.startswith("git clone") and REPRO_APK_URL in line:
+            lines_to_delete.append(i)
+    if len(lines_to_delete) == 0:
+        return None
+    for line_number in reversed(lines_to_delete):  # delete last line first
+        apk["build"].pop(line_number)
+        # Extract right after the deleted line because we switched from git clone to tar (reverse order)
+        apk["build"].insert(line_number, 'tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/')
+        apk["build"].insert(line_number, 'mkdir reproducible-apk-tools')
+    return repro_apk
+
+
+def update_cached_tools(apk: Dict[Any, Any], labels: Optional[list[str]]) -> dict[str, str]:
+    updated = {}
+    for name, data in load_versions().items():
+        # Ensure tool is not being skipped
+        if labels and f"no-update-{name}" in labels:
+            continue
+
+        # Ensure tool has all required fields
+        if not all(key in data for key in ["url", "version", "sha256"]):
+            continue
+
+        # Update all hashes
+        for i in range(len(apk["provisioning"]["cached_tools"])):
+            if apk["provisioning"]["cached_tools"][i]["name"] == name:
+                old = copy(apk["provisioning"]["cached_tools"][i])
+                apk["provisioning"]["cached_tools"][i]["version"] = data["version"]
+                apk["provisioning"]["cached_tools"][i]["url"] = data["url"]
+                apk["provisioning"]["cached_tools"][i]["sha256"] = data["sha256"]
+                if old != apk["provisioning"]["cached_tools"][i]:
+                    updated[name] = data["version"]
+
+    # Return updated entries
+    return updated
+
+
+def update_hashes(recipe_file: str, tag: str, *, verbose: bool = False, no_migrate: bool = False) -> bool:
     """Update hashes in build recipe."""
     recipe = load_recipe(recipe_file)
     updates = recipe["updates"]
     tag_pattern = updates.replace("tags:", "", 1) if updates.startswith("tags:") else None
     try:
-        if update_recipe_hashes(recipe, recipe["repository"], tag, tag_pattern, verbose=verbose):
+        if update_recipe_hashes(recipe, recipe["repository"], tag, tag_pattern, verbose=verbose, no_migrate=no_migrate):
             save_recipe(recipe_file, recipe)
     except (subprocess.CalledProcessError, requests.RequestException, Error) as e:
         print(f"Error: {e}", file=sys.stderr)
@@ -293,10 +421,11 @@ def update_hashes(recipe_file: str, tag: str, *, verbose: bool = False) -> bool:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="update hashes")
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("--no-migrate", action="store_true", help="don't try to automatically convert to new cached_tools system")
     parser.add_argument("recipe", metavar="RECIPE")
     parser.add_argument("tag", metavar="TAG")
     args = parser.parse_args()
-    if not update_hashes(args.recipe, args.tag, verbose=args.verbose):
+    if not update_hashes(args.recipe, args.tag, verbose=args.verbose, no_migrate=args.no_migrate):
         sys.exit(1)
 
 # vim: set tw=80 sw=4 sts=4 et fdm=marker :
