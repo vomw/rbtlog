@@ -14067,6 +14067,21 @@
       "maintainer_notes": null
     }
   ],
+  "031ddec4664dbbafb7f83f4ed87016dc8f123f0a4f125670068796c75c07a3f0": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.2.422.1105-stable/Rhythm-5.2.422.1105-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 524221105,
+      "version_name": "5.2.422.1105-fdroid",
+      "tag": "v5.2.422.1105-stable",
+      "commit": "bcee32f75cd5cdf8409d397496cd6bfab6301016",
+      "timestamp": 1783173564,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -14467,6 +14482,21 @@
       "tag": "1.4.1",
       "commit": "30bf6d9ac37ec4b1273cdbd25a37be123bf79976",
       "timestamp": 1773064835,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "283a1a3a5f5514bff58890919a0f34a1afbbfbb764650fe4e471a6992177821a": [
+    {
+      "repository": "https://github.com/acszo/Redomi.git",
+      "apk_url": "https://github.com/acszo/Redomi/releases/download/1.4.2/redomi-release-no-updater.apk",
+      "appid": "com.acszo.redomi.repo",
+      "version_code": 10402,
+      "version_name": "1.4.2",
+      "tag": "1.4.2",
+      "commit": "1a206aee6f51fe71030776fb9af87550637bed68",
+      "timestamp": 1783174331,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -19295,6 +19325,21 @@
       "tag": "v18.0",
       "commit": "a4e5839108a44657465adc1827163c5ffe48088a",
       "timestamp": 1775225296,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "789b002940339eb61e785f5d0086a0c1b25e7ae6606919b7f338a596dac3cbd2": [
+    {
+      "repository": "https://github.com/you-apps/TranslateYou.git",
+      "apk_url": "https://github.com/you-apps/TranslateYou/releases/download/v19.0/app-release.apk",
+      "appid": "com.bnyro.translate",
+      "version_code": 56,
+      "version_name": "19.0",
+      "tag": "v19.0",
+      "commit": "49e2a8b64a1629a0d32be3f283d45b45c54bf28f",
+      "timestamp": 1783179375,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31266,6 +31311,21 @@
       "maintainer_notes": null
     }
   ],
+  "b995ebc370cc03276803cff25c0a620243b6ce174236cfa3936b1acfb8dfdbfe": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.11/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 181,
+      "version_name": "5.1.11",
+      "tag": "5.1.11",
+      "commit": "6e8eb918f951ac9e31e41f834b935d657d670891",
+      "timestamp": 1783189545,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3aade96e9cf1544130045d65fab2f099550eed4f0fc5834907f3ed602873f02f": [
     {
       "repository": "https://github.com/devshield-tech/botox-android.git",
@@ -36752,6 +36812,21 @@
       "maintainer_notes": null
     }
   ],
+  "7af79f246ec07032f52ab702d3a6b281b717b8862e586e8879cdf24046da746b": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.7.1/FixupXer-v1.7.1-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 32,
+      "version_name": "1.7.1",
+      "tag": "v1.7.1",
+      "commit": "1c022a3e2abf7aa78caf48186ebbd02c11f4390c",
+      "timestamp": 1783174926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -37172,6 +37247,21 @@
       "maintainer_notes": null
     }
   ],
+  "ba52ad2d7a0db46de171bf6d32db1469935cf4e5d638ec76734fcb11d6f007ed": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.1/PrivateDnsQS-v2.1-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 51,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "59735d9bbf1f9d46881c40020ad3f0276cd81bce",
+      "timestamp": 1783175363,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -37227,6 +37317,21 @@
       "tag": "v2.0",
       "commit": "fd00670ed2ad2e8c54836b9ef2ebcf8db93f12c8",
       "timestamp": 1783086803,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0144f5e9eab3afa4cddf0c8ef14c839a3bace1623263eb058db801e1e2e10e94": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.1/PrivateDnsQS-v2.1-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 51,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "59735d9bbf1f9d46881c40020ad3f0276cd81bce",
+      "timestamp": 1783175104,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -50814,6 +50919,21 @@
       "maintainer_notes": null
     }
   ],
+  "e799559bad9d8ffd9e37ab214eca1512545d04c0a2acf698b2f527b458dfa4fc": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.3/kelani-sbd-tracker-v1.3.3.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 66,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "658cff4f63a5d3c2834154b966030acf29936ac1",
+      "timestamp": 1783175609,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -52879,6 +52999,21 @@
       "tag": "v0.4.8",
       "commit": "66410755b3b8826604e6438630f2ce78e6b3643b",
       "timestamp": 1782915921,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "eb7140fc3fafb88277de024209c26af053b194a207b9579ea623cd08130cc457": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.5.0/storii-v0.5.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2061,
+      "version_name": "0.5.0",
+      "tag": "v0.5.0",
+      "commit": "0d7aa858b11d3b31664d7a1c5d134db5a9f3f2ef",
+      "timestamp": 1783190013,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62986,6 +63121,21 @@
       "maintainer_notes": null
     }
   ],
+  "f9edabece46e2e906b7e9a17c56f36b80dfce4fe02d75bf0baab7d1b7fb59637": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.21.1/orgzly-revived-fdroid-1.21.1.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 286,
+      "version_name": "1.21.1",
+      "tag": "v1.21.1",
+      "commit": "78717a70aa2be61b1e3d5a236fb251bfde2168b2",
+      "timestamp": 1783190699,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8e8f7186a907c353b488af1b78d961ac89fd834c3e7082df91cbecd2290f810e": [
     {
       "repository": "https://github.com/kerero/airdots-double-tap.git",
@@ -72232,6 +72382,21 @@
       "tag": "6.0.3",
       "commit": "0a5ae35995bdf62b8fbf193fd8d3fb29e0c30cdf",
       "timestamp": 1782139111,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4e1bbf5a96d98855f9f9851f373b4ee5843e69ec983ac0f91007172ce1357211": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/6.0.4/androidApp-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 6040,
+      "version_name": "6.0.4",
+      "tag": "6.0.4",
+      "commit": "bfd8942240a5994ba7873b389c8f58ce694aa922",
+      "timestamp": 1783175831,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90285,6 +90450,21 @@
       "maintainer_notes": null
     }
   ],
+  "5f9dcdb1d6d6817970ff0db1016efc3cbea324b6bf28cd4244e4b87b26aa4cb9": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/2.1.9/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 151,
+      "version_name": "2.1.9",
+      "tag": "2.1.9",
+      "commit": "db6e6e8ed3164600c9cc379b52a1a150f4bfdb9d",
+      "timestamp": 1783176503,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "452e321ee5f48030331edd5e55ca936ddd2b20488ced726ad96d467fc04ca5e5": [
     {
       "repository": "https://github.com/nfcgate/nfcgate.git",
@@ -91365,6 +91545,21 @@
       "maintainer_notes": null
     }
   ],
+  "bfe7e02aa27eb953c6a1abb668763ee46ed926ed148b239ea58794bdc06fd2d8": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.3/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 461,
+      "version_name": "1.8.3",
+      "tag": "v1.8.3",
+      "commit": "32350d518ca2c17120eb0fea988e8ad49fc0e618",
+      "timestamp": 1783176863,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -91540,6 +91735,21 @@
       "tag": "v1.0.6",
       "commit": "f4087c766d6a662d95d9479071a0bf5e63e841ba",
       "timestamp": 1782056804,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b250d04fd063f3fc18e1db4efe1a7e9949f1653a28905c5ebb22025c09ea7b6b": [
+    {
+      "repository": "https://codeberg.org/bg443/Skylib.git",
+      "apk_url": "https://codeberg.org/bg443/Skylib/releases/download/v1.0.7/Skylib-release.apk",
+      "appid": "dev.bg.skylib",
+      "version_code": 8,
+      "version_name": "1.0.7",
+      "tag": "v1.0.7",
+      "commit": "69a3ef00b4870cb2cfb2c5ecec5e687be24527ba",
+      "timestamp": 1783192107,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -100916,6 +101126,21 @@
       "maintainer_notes": null
     }
   ],
+  "c64913207481dcd5af83f01d58995238da566dd6211cdcae9feb5159d56cd200": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2325/FairEmail-v1.2325a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2325,
+      "version_name": "1.2325",
+      "tag": "1.2325",
+      "commit": "b3ce6f4782eed614995996a064d7c92621279889",
+      "timestamp": 1783192489,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -108302,6 +108527,21 @@
       "tag": "v0.1.69",
       "commit": "cb82e590dc4e782f2b938cc0b62b1b9df62b68c4",
       "timestamp": 1782934972,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "58f8df074e984edd01ee83e6cd7cb99e67ef8d58685ddd6c5be64a3ff061f1da": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.70/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1070,
+      "version_name": "0.1.70",
+      "tag": "v0.1.70",
+      "commit": "62532f98abd59122ee5443b06c30b0bddd1043b8",
+      "timestamp": 1783193062,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
