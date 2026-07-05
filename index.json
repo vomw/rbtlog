@@ -7032,6 +7032,21 @@
       "maintainer_notes": null
     }
   ],
+  "20cb34051c285bb47b478972192a71b81d526757c352500d4cd9d48a6fc7601e": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v6.7.1/Olauncher-v6.7.1.apk",
+      "appid": "app.olauncher",
+      "version_code": 109,
+      "version_name": "v6.7.1",
+      "tag": "v6.7.1",
+      "commit": "3dc9370c4ea3319f027bcb6be137c000c523d497",
+      "timestamp": 1783275948,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -14097,6 +14112,21 @@
       "maintainer_notes": null
     }
   ],
+  "057a6787e3fa6d7e05a3d66d87c9f47702ffa7830b93afac8bea39c9599c47ca": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.2.423.1109-stable/Rhythm-5.2.423.1109-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 524231109,
+      "version_name": "5.2.423.1109-fdroid",
+      "tag": "v5.2.423.1109-stable",
+      "commit": "9eabbae2fc287e9d1e29be6e9ccbab5c92be6b44",
+      "timestamp": 1783276166,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -14437,6 +14467,21 @@
       "tag": "release-apk-2.3.6-1",
       "commit": "3f21959510044dc47e21149c570a2c9ad7a5ec34",
       "timestamp": 1749848555,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6f37599d72488356acd7f0ee73643acf1bd53835d17699b2193506a72d89cf27": [
+    {
+      "repository": "https://github.com/achunt2143/W-Launcher.git",
+      "apk_url": "https://github.com/achunt2143/W-Launcher/releases/download/release-apk-3.0.0/w-launcher-3.0_SIGNED.apk",
+      "appid": "com.achunt.weboslauncher",
+      "version_code": 36,
+      "version_name": "3.0.0",
+      "tag": "release-apk-3.0.0",
+      "commit": "3d0efe56bd64733d70122d39001d67bfca76737a",
+      "timestamp": 1783263169,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -36227,6 +36272,21 @@
       "maintainer_notes": null
     }
   ],
+  "34618daee908e6c7e004ddc70848df40a5147927d334efbe3d71a3312347006f": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.44.3/com.fibelatti.photowidget-v1.44.3-1440300-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1440300,
+      "version_name": "1.44.3",
+      "tag": "v1.44.3",
+      "commit": "3af4942dd15943fdae3765d0761b3dafb952e71d",
+      "timestamp": 1783276910,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -36897,6 +36957,21 @@
       "tag": "v1.7.1",
       "commit": "1c022a3e2abf7aa78caf48186ebbd02c11f4390c",
       "timestamp": 1783174926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f85cba9f7e99582ed97305c03cf8ace33291e58784028186df0d4ad0863a6826": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v1.7.2/FixupXer-v1.7.2-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 33,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "01fb17864e1cba071cfdc46507da022389e9cd0e",
+      "timestamp": 1783259512,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -38942,6 +39017,21 @@
       "maintainer_notes": null
     }
   ],
+  "e5181ca76a328ff39c7ebd4c20339221f60b78a80f63a45ac1410f391fcfe41a": [
+    {
+      "repository": "https://github.com/pintargasper/SmokingTracker.git",
+      "apk_url": "https://github.com/pintargasper/SmokingTracker/releases/download/v1.7.0/smoking-tracker.v1.7.0.apk",
+      "appid": "com.gasperpintar.smokingtracker",
+      "version_code": 13,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "fd457606bf4773f101b37d11efeaaf1bd29fc270",
+      "timestamp": 1783259650,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3bbeb57c879ba98aa34905f6fca2bfe8773af73df3dffa98604851db26bacd00": [
     {
       "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
@@ -40482,6 +40572,36 @@
       "tag": "3.0.1",
       "commit": "0819bbceeb152115c3cabcbee9fce4bd59de96f5",
       "timestamp": 1782742790,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e0e10919dcf23cbd704ad2d3bbda1ebeb5e1563859611aace781196f413ce607": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/3.0.2/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2923123,
+      "version_name": "3.0.2-Anchovy-oss",
+      "tag": "3.0.2",
+      "commit": "00ccf419062a180de92a45471dacb78aa2946505",
+      "timestamp": 1783259803,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bdec4b7a63caf2b72b08c730fdb9218ff631817453b49b2448de74499ac15808": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/3.0.3/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2923261,
+      "version_name": "3.0.3-Anchovy-oss",
+      "tag": "3.0.3",
+      "commit": "0d9cae7d81df03839f910222e33cacbb232c0bf5",
+      "timestamp": 1783277396,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -51009,6 +51129,21 @@
       "maintainer_notes": null
     }
   ],
+  "b10fde0f6c2c1f5007034d6658490920ca4acc9888bdbbf124806435b7399cf9": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.6/kelani-sbd-tracker-v1.3.6.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 69,
+      "version_name": "1.3.6",
+      "tag": "v1.3.6",
+      "commit": "78d6b80b1909101ec0a7a22e2212d3e65b2d93f7",
+      "timestamp": 1783277586,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -53104,6 +53239,21 @@
       "tag": "v0.5.1",
       "commit": "86864df6e9fad47e35aef85fd7f342c731d96d1d",
       "timestamp": 1783254121,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1c2b73974d611f4ad2c365de9fcd45f735687495bf492845ef1abb55e8e84f36": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.5.2/storii-v0.5.2-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 2063,
+      "version_name": "0.5.2",
+      "tag": "v0.5.2",
+      "commit": "31a40ed93d71d9f493766b7b403e090c8f94cb63",
+      "timestamp": 1783281241,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82045,6 +82195,21 @@
       "maintainer_notes": null
     }
   ],
+  "af394333903fccfbc247896d422f1a4feda3aae806c7b38658e5d05c2d0e88e5": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v6.0.4/izzydroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 73,
+      "version_name": "6.0.4",
+      "tag": "v6.0.4",
+      "commit": "32111b861b51913fb879433d32fe83074eb4f5f9",
+      "timestamp": 1783191128,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "huge difference in DEX"
+    }
+  ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
     {
       "repository": "https://github.com/vladislav805/RFM-Radio.git",
@@ -93505,6 +93670,21 @@
       "tag": "v2.2.1",
       "commit": "08681c7d74751d3e95462af8e6b15f5d8c92d401",
       "timestamp": 1775313443,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "45bceb5e1d5d5aee015e67f7a88a0be65fe09c45406fd600b6f8666d9862aa4f": [
+    {
+      "repository": "https://github.com/Fabi019/hid-barcode-scanner.git",
+      "apk_url": "https://github.com/Fabi019/hid-barcode-scanner/releases/download/v2.3.0/app-universal-release.apk",
+      "appid": "dev.fabik.bluetoothhid",
+      "version_code": 58,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "50ceb1db08eb0ccaa708170b5ad3fc4d81a37b91",
+      "timestamp": 1783282873,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114502,6 +114682,21 @@
       "maintainer_notes": null
     }
   ],
+  "411a7e89a21ad9a8a7e8758c26907e599cbe900f3087b7f1685e2fc8b9e5bd72": [
+    {
+      "repository": "https://github.com/helcel-net/beans.git",
+      "apk_url": "https://github.com/helcel-net/beans/releases/download/1.4/app-signedRelease.apk",
+      "appid": "net.helcel.beans",
+      "version_code": 930,
+      "version_name": "1.4",
+      "tag": "1.4",
+      "commit": "a8c4529ee8070c776479f6ed9aabab109217da0f",
+      "timestamp": 1783260484,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "563bcb9e4265e0896a904c84988c11df1833c7e57353590830d5111afca0f6dd": [
     {
       "repository": "https://github.com/helcel-net/cowspent.git",
@@ -114542,6 +114737,21 @@
       "tag": "1.2.0",
       "commit": "56968dbe3b4763804130828624a042f1618674f0",
       "timestamp": 1783089537,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2e5d595ba9df1f923a1d0147028086600dbac878d704fb48c7208ac961680d6f": [
+    {
+      "repository": "https://github.com/helcel-net/cowspent.git",
+      "apk_url": "https://github.com/helcel-net/cowspent/releases/download/1.3/app-signedRelease.apk",
+      "appid": "net.helcel.cowspent",
+      "version_code": 32,
+      "version_name": "1.3",
+      "tag": "1.3",
+      "commit": "47d0471b48909aa7ec1057431353ce9b96f29bb0",
+      "timestamp": 1783260632,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -121892,6 +122102,21 @@
       "tag": "v1.7.0",
       "commit": "4f37ef4558195e62509bee89903238e3629b3ac5",
       "timestamp": 1776527290,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "86baa77ceb4eded1800ce85bd50436b5a57bb7e33a7c9b51f7d0db244d810548": [
+    {
+      "repository": "https://codeberg.org/Gonbei774/PocketCheck.git",
+      "apk_url": "https://codeberg.org/Gonbei774/PocketCheck/releases/download/v1.8.0/app-release.apk",
+      "appid": "org.gonbei774.pocketcheck",
+      "version_code": 18,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "27810fe9d011bc65da7ccb0a969448d43656d246",
+      "timestamp": 1783280409,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

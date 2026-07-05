@@ -33,3 +33,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: release-apk-3.0.0
+    apks:
+      - apk_pattern: w.launcher.*\.apk
+        apk_url: https://github.com/achunt2143/W-Launcher/releases/download/release-apk-3.0.0/w-launcher-3.0_SIGNED.apk
+        build:
+          - git reset --soft 7345ac73ff3e6c3db2e57d47673f8a65a8a02816
+          - sed -r 's/compileSdk 37/compileSdk { version = release(37) { minorApiLevel = 0 } }/' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
