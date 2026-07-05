@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/roozbehzarei/filester.git
-updates: releases
+updates: disabled
+notes:
+  - updates disabled in our repo as well now, see https://github.com/roozbehzarei/filester/issues/50#issuecomment-4884337306
 versions:
   - tag: v2.3.3
     apks:
