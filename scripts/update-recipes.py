@@ -325,7 +325,7 @@ def update_recipes(*recipes: str, continue_on_errors: bool = False, always_updat
                 apk_patterns = [apk["apk_pattern"] for apk in recipe["versions"][-1]["apks"]]
                 allow_prereleases = recipe.get("allow_prereleases", False)
                 if verbose:
-                    print(f"Allowing pre-releases: {allow_prereleases!r}.")
+                    print(f"Allowing pre-releases: {allow_prereleases!r}.", file=sys.stderr)
                 tag, apk_urls = latest_release(repository, forge_type,
                                                release_pattern, apk_patterns,
                                                allow_prereleases, verbose=verbose)
