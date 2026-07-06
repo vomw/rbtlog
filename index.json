@@ -6822,6 +6822,21 @@
       "maintainer_notes": null
     }
   ],
+  "9d0f09d31eed07b5374be3d5ec9af628f6afcbb82001211b40f66d86e16c9bcf": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.1.0/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10100,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "b45945db7c12e210c03081ccc11fc19c4127dce9",
+      "timestamp": 1783345957,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -10567,6 +10582,21 @@
       "tag": "v4.5.15-ose",
       "commit": "eb67d59f0609a4005bc033fc91638257d2318100",
       "timestamp": 1782050113,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a0254a627e7667eaa7d0058c4eb7e12555fdf6a6a9a929af7060539b1d0f5f76": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.16-ose/davx5-405160002-4.5.16-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405160002,
+      "version_name": "4.5.16-ose",
+      "tag": "v4.5.16-ose",
+      "commit": "eed467c605ef64ef32c21218dcda94e8de0c986a",
+      "timestamp": 1783346437,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26346,6 +26376,21 @@
       "maintainer_notes": null
     }
   ],
+  "926ca1c1439e7e8a8ec250e8ef9dbc371c767a83b5e339d7c6c097762d9e8603": [
+    {
+      "repository": "https://github.com/DaKlok/BibleLockScreen.git",
+      "apk_url": "https://github.com/DaKlok/BibleLockScreen/releases/download/2.1/app-release.apk",
+      "appid": "com.daklok.biblelockscreen",
+      "version_code": 12,
+      "version_name": "2.1",
+      "tag": "2.1",
+      "commit": "450d78300ba30889b7abdb514a887b4b2975bbb4",
+      "timestamp": 1783346858,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0e0c3826304c057129407e3157e0b2b28317ff8032975444ab6139f373c070d1": [
     {
       "repository": "https://github.com/drmfinlay/tts-util-app.git",
@@ -32399,6 +32444,21 @@
       "tag": "v1.6.0",
       "commit": "a7800fc0054242efec8ce71fea937c34d924f39f",
       "timestamp": 1783103778,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "973d9a5d5a2707ad7c3098e113e938462500eb22b616cc7e66a71b35789ec991": [
+    {
+      "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
+      "apk_url": "https://github.com/DresOperatingSystems/DresSecureComms/releases/download/v1.6.1/DresSecureComms.apk",
+      "appid": "com.dresos.dressecurecomms",
+      "version_code": 7,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "f7f041e7453433fa2119e19d6a9f490f8dfc197a",
+      "timestamp": 1783347134,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58620,6 +58680,21 @@
       "tag": "v1.30.0",
       "commit": "eb3ef4fa1881a9bf60fe7d7f1040e58dcb089b48",
       "timestamp": 1782658435,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dc5f3ccd79d4398d4e17b2e729b0eb80f4f1b8c238bb296be48a18b31e68b473": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.31.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 121,
+      "version_name": "1.31.0",
+      "tag": "v1.31.0",
+      "commit": "76ba253430f421e0c814fb1ead49a786281791f8",
+      "timestamp": 1783362395,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92970,6 +93045,21 @@
       "maintainer_notes": null
     }
   ],
+  "9aeb05fbba392130734b6a958626ad1ce4a07e016611eb82c713f32c80649bfc": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.11.0/simple-notes-sync-v2.11.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 44,
+      "version_name": "2.11.0",
+      "tag": "v2.11.0",
+      "commit": "947f0dde592c5842b3c165e1ecc7878b192704d6",
+      "timestamp": 1783363479,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -97033,6 +97123,21 @@
       "maintainer_notes": null
     }
   ],
+  "4a57cf5c041ec41d0ebcdef0a7f7dd01af61134a153c0a79cfbc71115d05fd15": [
+    {
+      "repository": "https://github.com/robinsrk/privacify.git",
+      "apk_url": "https://github.com/robinsrk/privacify/releases/download/v2.4/Privacify.apk",
+      "appid": "dev.robin.privacify",
+      "version_code": 24,
+      "version_name": "2.4",
+      "tag": "v2.4",
+      "commit": "2127d3a6f3aca48bba1ea38b31feb48fa4cd8dca",
+      "timestamp": 1783363883,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -97701,6 +97806,21 @@
       "tag": "v3.0.6",
       "commit": "280e7ed370bd4c51a176f21bcad5f6cb5b238ce3",
       "timestamp": 1776207241,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7a8674e554569b6a59fbc4bf04efc40b1b7b45d2b84dc56285cfe6880e8b95c0": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v3.1.1/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2065,
+      "version_name": "3.1.1",
+      "tag": "v3.1.1",
+      "commit": "69951e573a04a5821a6f7b2109b4d91ebc455e6f",
+      "timestamp": 1783348013,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -108877,6 +108997,21 @@
       "maintainer_notes": null
     }
   ],
+  "034914d2451c44c5d919529154bbd5df94a7968f81b998851c8345407c3bec55": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.72/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1072,
+      "version_name": "0.1.72",
+      "tag": "v0.1.72",
+      "commit": "4d54d4edf08a5d12e04ef142459b6199d5c4b859",
+      "timestamp": 1783334705,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d17810e01e7011f1530b7f65689ab6d4a7f9623f6bd0cef1fc9b82a2bf65345b": [
     {
       "repository": "https://github.com/samolego/Canta.git",
@@ -109577,6 +109712,21 @@
       "tag": "0.5.0",
       "commit": "e7039330e0669cc7ce23fd76a645d6725b37af78",
       "timestamp": 1746810178,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "185d242ec2f35aa41e45620c85a4aca2fbd0ede1b529fcebf25fb391ad5c4b68": [
+    {
+      "repository": "https://github.com/SoundRemote/client-android.git",
+      "apk_url": "https://github.com/SoundRemote/client-android/releases/download/0.6.0/SoundRemote_0.6.0.apk",
+      "appid": "io.github.soundremote",
+      "version_code": 13,
+      "version_name": "0.6.0",
+      "tag": "0.6.0",
+      "commit": "f159e580ac6a19cc5cc2ec7e64ca3f44e68a1de9",
+      "timestamp": 1783356658,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111197,6 +111347,21 @@
       "tag": "v0.7.84",
       "commit": "fee68716e5f6ae6ea9b028fdbec13caa83268491",
       "timestamp": 1781463716,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f9b7a4325a7a6013704e7aa47eb6181226f684cf6266db7943ef5af213fdd10a": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.85/RiPlay-foss-release-0.7.85.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 86,
+      "version_name": "0.7.85",
+      "tag": "v0.7.85",
+      "commit": "47ff00bfc8562c5c5d51dd0c8541be5eb24083f0",
+      "timestamp": 1783364172,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114602,6 +114767,21 @@
       "tag": "1.8.3",
       "commit": "505e0c1ef2485c3b2c21a46ee537ac404e9aa354",
       "timestamp": 1780262105,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "51f10bea28383569923ed038c4f58bbc3fdd757d4ac0d61d9dee54c3b0d414f8": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.8.4/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 252,
+      "version_name": "1.8.4",
+      "tag": "1.8.4",
+      "commit": "bfb32421c48f64cdb179d454773ee14e07e89708",
+      "timestamp": 1783349601,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -126037,6 +126217,36 @@
       "maintainer_notes": null
     }
   ],
+  "96152faeb5a37a5ac81b81f9edfbcc6440e5d67bef73a8207969fd49c771eb4b": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.07.05/KashCal-2026.07.05-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 637,
+      "version_name": "2026.07.05",
+      "tag": "v2026.07.05",
+      "commit": "eddded42d6e1a1549ea6e5581867901cd26b8f75",
+      "timestamp": 1783350374,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2c5951c214136b84e564c365c58668ecce27857c6d5270318153f354e0e33109": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.07.06/KashCal-2026.07.06-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 641,
+      "version_name": "2026.07.06",
+      "tag": "v2026.07.06",
+      "commit": "a951e91ff4766eec80a6c582a1cccfa4669ebecf",
+      "timestamp": 1783364851,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -131705,6 +131915,21 @@
       "maintainer_notes": null
     }
   ],
+  "3d9a6e584eeaab1f1cf8009697aa4984dd451566df6454b589baa79e821b6910": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/4.1.0/image-toolbox-4.1.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 251,
+      "version_name": "4.1.0-foss",
+      "tag": "4.1.0",
+      "commit": "cb01ae81b29769f10e332925c76757fe252f2647",
+      "timestamp": 1783350929,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8edbbc20a8dcaceaa3fe4117b11466f522d2130a6b47c61ad10de92cc09af32e": [
     {
       "repository": "https://github.com/Wohlstand/ADLMIDI-Player-Java.git",
@@ -132315,6 +132540,21 @@
       "tag": "1.7.2",
       "commit": "c273d9ff3218271c0add141620924b0520169128",
       "timestamp": 1781968973,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b0ce2ce97f4a9bd87393073836b6aac7131828a2cca8c9ccc5999385e68e6967": [
+    {
+      "repository": "https://github.com/shub39/Momentum.git",
+      "apk_url": "https://github.com/shub39/Momentum/releases/download/1.8.1/app-foss-arm64-v8a-release.apk",
+      "appid": "shub39.momentum",
+      "version_code": 1810,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "76c790edb720dd586dfcd1ec896bf72349feeb3a",
+      "timestamp": 1783351864,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -134520,6 +134760,21 @@
       "tag": "4.2.2",
       "commit": "30a52ca32ecc6ce14ba31c55f571cfc3e5b38233",
       "timestamp": 1783256177,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "72082987ac837a2b465c4fcad6fcdd77282c34dddbd7a732927440c9fb556896": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.2.3/LockscreenWidgets_4.2.3-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 200,
+      "version_name": "4.2.3",
+      "tag": "4.2.3",
+      "commit": "6cfa606af82efeb8a380a28ae1572a9c05c4dfb8",
+      "timestamp": 1783365546,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
