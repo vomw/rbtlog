@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/isaacsa51/Minus.git
-updates: disabled
-notes:
-  - 2026-07-03 1.3.0, 1.3.1, and now 1.3.2 fail, author pushes new releases without completing the checks, so no sense to verify them here. see https://github.com/isaacsa51/Minus/issues/47#issuecomment-4878939744
+updates: releases
 versions:
   - tag: v1.1.1
     apks:
@@ -286,6 +284,37 @@ versions:
           - ./gradlew assembleFossRelease
           - find . -name '*.apk'
           - mv app/build/outputs/apk/foss/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - openjdk-17-jdk-headless
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.3.4
+    apks:
+      - apk_pattern: Minus-v.*\.apk
+        apk_url: https://github.com/isaacsa51/Minus/releases/download/v1.3.4/Minus-v1.3.4.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/Minus-v*.apk /outputs/unsigned.apk
         build_cpus:
         build_home_dir: /build
         build_repo_dir: /build/repo
