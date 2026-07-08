@@ -34294,6 +34294,21 @@
       "maintainer_notes": null
     }
   ],
+  "299b05e4d898e8a56b46cb822e302c445c6a45d7e2c583a1e363eee9a555dc4e": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v1.4.1/dns_toggle_v1.4.1.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 12,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "642c7f64807a81594e621452e7069bb8abd6e798",
+      "timestamp": 1783508057,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f3d0cb431733820f74c7310b3225e4231e0568791159a5ef313e29378a2ac5a7": [
     {
       "repository": "https://github.com/1372Slash/Zenith.git",
@@ -69641,6 +69656,21 @@
       "tag": "v2.3.4",
       "commit": "5c5349023bc9bd7b62834842ead68a9e0ebf039b",
       "timestamp": 1745071961,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bcfadb14e92acc10717dd24100f9cb5f9c6f0a14ecdef7bb3783d72255c8933c": [
+    {
+      "repository": "https://github.com/roozbehzarei/filester.git",
+      "apk_url": "https://github.com/roozbehzarei/filester/releases/download/v3.0.3/filester-foss-universal.apk",
+      "appid": "com.roozbehzarei.filester",
+      "version_code": 19,
+      "version_name": "3.0.3-foss",
+      "tag": "v3.0.3",
+      "commit": "cc9e3e89df6639ac0c8dfd32fb077bf6642245ad",
+      "timestamp": 1783474924,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
