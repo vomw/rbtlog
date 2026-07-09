@@ -173,3 +173,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v12.8.2
+    apks:
+      - apk_pattern: Telegram\.Monet\..*\.apk
+        apk_url: https://github.com/mi-g-alex/Telegram-Monet/releases/download/v12.8.2/Telegram.Monet.12.8.2.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i app/build.gradle.kts
+          - sed -r 's/compileSdk = 37/compileSdk { version = release(37) { minorApiLevel = 0 } }/' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

@@ -1532,3 +1532,54 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.1.2
+    apks:
+      - apk_pattern: clip_share_client\.apk
+        apk_url: https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.2/clip_share_client.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -PRELEASE_STORE_FILE=/dev/null -PRELEASE_STORE_PASSWORD=pass -PRELEASE_KEY_ALIAS=alias -PRELEASE_KEY_PASSWORD=pass
+          - mv app/build/outputs/apk/latest/release/app-latest-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools: &id015
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+      - apk_pattern: clip_share_client-legacy\.apk
+        apk_url: https://github.com/thevindu-w/clip_share_client/releases/download/v4.1.2/clip_share_client-legacy.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i app/build.gradle
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -PRELEASE_STORE_FILE=/dev/null -PRELEASE_STORE_PASSWORD=pass -PRELEASE_KEY_ALIAS=alias -PRELEASE_KEY_PASSWORD=pass
+          - mv app/build/outputs/apk/legacy/release/app-legacy-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools: *id015
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
