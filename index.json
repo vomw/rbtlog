@@ -10632,6 +10632,21 @@
       "maintainer_notes": null
     }
   ],
+  "511bd4ba93bc54394abd29fc265e7fb857e845dfbbdd4bcbfaf91fe4012c565a": [
+    {
+      "repository": "https://github.com/bitfireAT/davx5-ose.git",
+      "apk_url": "https://github.com/bitfireAT/davx5-ose/releases/download/v4.5.17.1-ose/davx5-405170100-4.5.17.1-ose-release.apk",
+      "appid": "at.bitfire.davdroid",
+      "version_code": 405170100,
+      "version_name": "4.5.17.1-ose",
+      "tag": "v4.5.17.1-ose",
+      "commit": "6c66734cecaee79c9bafd46dad54a2ef670bae96",
+      "timestamp": 1783691508,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "68b3e667c805b1379010c5ea22a13aa73e26a658e6f440e2a025ee01fc3d4173": [
     {
       "repository": "https://github.com/OMGSoundboard/android-app.git",
@@ -63661,6 +63676,21 @@
       "maintainer_notes": null
     }
   ],
+  "cb8211b4bb32c7a27a4cb585baf1ee2dd82a1d336fe88dd5ce0338f1113793dd": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.10.1/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1026,
+      "version_name": "2.10.1",
+      "tag": "v2.10.1",
+      "commit": "d8634ab9c14aafa3ae16b16387551acbe47f7b99",
+      "timestamp": 1783691818,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -71836,6 +71866,21 @@
       "maintainer_notes": null
     }
   ],
+  "cac55c6f13251ba5574e3e52a474c8a547cf9af73944932cf1020c64e44db104": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.3.5/Minus-v1.3.5.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10305,
+      "version_name": "1.3.5",
+      "tag": "v1.3.5",
+      "commit": "719bbb8eccf1efd0dca31a921ac87b9a8c41b780",
+      "timestamp": 1783692172,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -74772,6 +74817,21 @@
       "maintainer_notes": null
     }
   ],
+  "5272db448a9bf8485c7f328fab1bbce503e7f7e0cb4158d367e89a622fb4da34": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V1.0.10/app-arm64-v8a-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 2011,
+      "version_name": "1.0.10",
+      "tag": "V1.0.10",
+      "commit": "9a95d1d7384abc84d83ed72abb689c704070e8c5",
+      "timestamp": 1783692386,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "Flutter issue (embedded build id in libdartjni)"
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -77435,6 +77495,21 @@
       "tag": "v1.0.35",
       "commit": "be2b97d98bf3db411fa72a0fd6c844de92b791ee",
       "timestamp": 1783607289,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "da6e985c2d347c56ac007b28985f8feddeed7f869d8439fca8dccd1de445e1e2": [
+    {
+      "repository": "https://github.com/steel101/Wear-Sync-for-Breezy.git",
+      "apk_url": "https://github.com/steel101/Wear-Sync-for-Breezy/releases/download/v1.0.36/app-release-unsigned-signed.apk",
+      "appid": "com.steel101.wearsyncforbreezy",
+      "version_code": 1,
+      "version_name": "1.0.36",
+      "tag": "v1.0.36",
+      "commit": "51db3c1fdeab2d0dd14351eb79f20f8fff21d5e6",
+      "timestamp": 1783692913,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -95790,6 +95865,21 @@
       "maintainer_notes": null
     }
   ],
+  "e4ec1a2f13b0a8a87477f9bdbb4cecc852d53f5f2830b3e371a8d02c3ce85981": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.1.2/photok-3.1.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 65,
+      "version_name": "3.1.2",
+      "tag": "3.1.2",
+      "commit": "ba673a2fe5f8b61fa0252f51703207c656ff5e50",
+      "timestamp": 1783702537,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7a48b61e61b63cb8a18e5235df3a31cca0831da01421c1b3ea92a8e6abbbb2df": [
     {
       "repository": "https://github.com/mariinkys/OpenPillReminder.git",
@@ -96550,6 +96640,21 @@
       "tag": "v1.11.0",
       "commit": "034578ea00f66d4013febdd2448e6d65e57f5a26",
       "timestamp": 1783437511,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ec0c9fc53fb1114efb2c4ac7cd9b9863c0025ad951b5ec3803582ac6ed83e5f0": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.11.1/Musicaxs-1.11.1.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 27,
+      "version_name": "1.11.1",
+      "tag": "v1.11.1",
+      "commit": "0156833df7c9c46bfa2bad456d3692020e0e29e3",
+      "timestamp": 1783693254,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -104966,6 +105071,21 @@
       "maintainer_notes": null
     }
   ],
+  "8565efad70adb296c50555eded868274e607bc910165b3a4255d6709af9a887d": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/HeliBorg/HeliBoard/releases/download/v4.0/HeliBoard_4.0-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 4005,
+      "version_name": "4.0",
+      "tag": "v4.0",
+      "commit": "bd48798b99cccc99704eebf2a9259c02dbd684d5",
+      "timestamp": 1783703689,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ea62905803e60c5723c9f2d4ab6368f894b3f50f06f456935185306ee4eb67e7": [
     {
       "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
@@ -108152,6 +108272,21 @@
       "tag": "v1.25.3+168",
       "commit": "dcce0e759e0c5c1a8bdc39c0e22e13047a8a1300",
       "timestamp": 1782917661,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c5a03ec7a2d2194171c852cd0fa10ca4a004ccc1e17b7b6e17e9bf982e27244e": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.25.7%2B172/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2172,
+      "version_name": "1.25.7",
+      "tag": "v1.25.7+172",
+      "commit": "c9f557d2a2b827ac9eecc098e00a5b26eb0b7b08",
+      "timestamp": 1783693744,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -115852,6 +115987,21 @@
       "maintainer_notes": null
     }
   ],
+  "fb32a0f45fa1f46e612eb423d2457ae384412ba848ee879ba0534673fc87b0a9": [
+    {
+      "repository": "https://github.com/helcel-net/beans.git",
+      "apk_url": "https://github.com/helcel-net/beans/releases/download/1.5/app-signedRelease.apk",
+      "appid": "net.helcel.beans",
+      "version_code": 945,
+      "version_name": "1.5",
+      "tag": "1.5",
+      "commit": "cf9b1cc6e24235f0feacbb2cd880f92085b35067",
+      "timestamp": 1783694432,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "563bcb9e4265e0896a904c84988c11df1833c7e57353590830d5111afca0f6dd": [
     {
       "repository": "https://github.com/helcel-net/cowspent.git",
@@ -121862,6 +122012,21 @@
       "tag": "1.8.0",
       "commit": "3258aa98e3dd6ceba8a92e44af6faba4fa0a7cdd",
       "timestamp": 1769988537,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "474b4d961bd02e4afad3daa90f75bfad55ed227bccfbd0256c40d94e3ba5e54f": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.8.1/messages-21-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 21,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "a4d593d0eb0d7b34c000b7f58c870ce250e9dbf3",
+      "timestamp": 1783694616,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -137280,6 +137445,21 @@
       "tag": "v0.26.15",
       "commit": "b40be0137f2287781ad57d6c17528056c75d594c",
       "timestamp": 1782487009,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3b8f9f3eec27ed815a9b52daa2180c4446d8b038b29d7fba82f1dae780d3d34c": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.16/WebviewKiosk_v0.26.16.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 130,
+      "version_name": "0.26.16",
+      "tag": "v0.26.16",
+      "commit": "1995c88c7f6339f3a0509514ed7bb04978648e8a",
+      "timestamp": 1783694819,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
