@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/frknkrc44/HMA-OSS.git
-updates: releases
+updates: disabled
+notes:
+  - Android app (Xposed module) is being discontinued, dev switched to Magisk; see https://codeberg.org/IzzyOnDroid/repodata/issues/304
 versions:
   - tag: oss-137
     apks:

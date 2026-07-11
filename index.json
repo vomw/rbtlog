@@ -16227,6 +16227,21 @@
       "maintainer_notes": null
     }
   ],
+  "2e78bd8b2e839a62712b9b686ef242d1b2623a6541f342cec285dca0e0da2084": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/v2.7.3/notifications-recovery-2.7.3.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 51,
+      "version_name": "2.7.3",
+      "tag": "v2.7.3",
+      "commit": "4ed699464abd1daa433bc4a34d9dbe23c3af432c",
+      "timestamp": 1783777933,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a167ecfa2e4181b6bba459829746dc03d5540b67eb076287bb7d80853cf10f53": [
     {
       "repository": "https://github.com/Ammar64/Files-Center.git",
@@ -31626,6 +31641,21 @@
       "maintainer_notes": null
     }
   ],
+  "31ea2dda2f03da0a1a02980ed52a40c5f67db4e1850057ad0cf2a41b8e84da97": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.12/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 182,
+      "version_name": "5.1.12",
+      "tag": "5.1.12",
+      "commit": "9a8aa1967a9fad4f702c0c15573a280ffd3c9046",
+      "timestamp": 1783715166,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3aade96e9cf1544130045d65fab2f099550eed4f0fc5834907f3ed602873f02f": [
     {
       "repository": "https://github.com/devshield-tech/botox-android.git",
@@ -34514,6 +34544,21 @@
       "tag": "v1.4.2",
       "commit": "2c117c17a97e5498235071b62fc6e1b2ec7ab642",
       "timestamp": 1783606133,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dfa175a224d14dc3a168b2701eff642e8f3625e5448e1d7614f634e2d2cd93e7": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v1.5.0/dns_toggle_v1.5.0.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 14,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "618c8c1eaf4f3b1fd4885018c1f8f8d05dcc2605",
+      "timestamp": 1783794308,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49149,6 +49194,21 @@
       "maintainer_notes": null
     }
   ],
+  "edc1513a70bd3433f8e6ad063a2101ddbaa226529995f787b8d86b2a3eb33579": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v2.0.2/PassVault-v2.0.2-b40-universal-release.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 40,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "c8735d7cbd19b8b125a0bde61e94e37a3b756f0b",
+      "timestamp": 1783778203,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "248f6a630341cd8148db91b1e858780a9a82e210bf2abef48abb235fdeb89e64": [
     {
       "repository": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git",
@@ -51594,6 +51654,36 @@
       "maintainer_notes": null
     }
   ],
+  "ca2aee3af30e48b57a02935a594c645a82fac6757e3269e25309f0043837c0b5": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.10/kelani-sbd-tracker-v1.3.10.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 73,
+      "version_name": "1.3.10",
+      "tag": "v1.3.10",
+      "commit": "73862263b4176d0e174d082341ab2d1bec8d4738",
+      "timestamp": 1783715677,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "75ce82267172ca2fd9258a2f8d78b1c8bee8e78177bb6e75c98bfc1f793d4070": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.11/kelani-sbd-tracker-v1.3.11.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 74,
+      "version_name": "1.3.11",
+      "tag": "v1.3.11",
+      "commit": "973c3ef6324afb5463524cb6b98a6e61e0bcd2b8",
+      "timestamp": 1783794498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -53254,6 +53344,21 @@
       "tag": "v2026.06.21",
       "commit": "2880efa608690f61436527c90e45511c21b51f84",
       "timestamp": 1782239576,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8e6c971cc9e319d4b6f7c28a56b9d8e8f93213a6b717098e14177134e0ae26d0": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/LeanBitLab/LtvLauncher/releases/download/v2026.07.10/LTvLauncher-arm64-v8a-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8105,
+      "version_name": "2026.07.10",
+      "tag": "v2026.07.10",
+      "commit": "2b3f9be7a3fdad55a16a8f450ebac079329ad02c",
+      "timestamp": 1783787651,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55470,6 +55575,21 @@
       "tag": "v2.2.0",
       "commit": "de18cb81fc854d8da0467e969862bdfb87095eaf",
       "timestamp": 1783634272,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "28028325b8dc82e0606266eb2f507a61f3fcd73b4181a604b2feb644ce45a0e3": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.2.1/localmaterialnotes_arm64-v8a_v2.2.1.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 372,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "2b9d09fa2b9eac52260b077f362779584a76cf4a",
+      "timestamp": 1783778967,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62876,6 +62996,21 @@
       "tag": "v2.2.0",
       "commit": "a6defbcf5b0682faa75899bdf09e6ecb6ae08410",
       "timestamp": 1777558065,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "02c7b1fc370219d0df2c4b89f40f874168619bfb2923b4191f9f6b5bc676551a": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Jotter.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Jotter/releases/download/v2.3.0/app-release.apk",
+      "appid": "com.openappslabs.jotter",
+      "version_code": 11,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "73d2fd1ce1e5189ae128246a6027aba5d588548a",
+      "timestamp": 1783794725,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77515,6 +77650,21 @@
       "maintainer_notes": null
     }
   ],
+  "24576f2bccb4b16022cb3ac860c5c8eb35893c7aa6a7b4f092190c051151488e": [
+    {
+      "repository": "https://github.com/steel101/Wear-Sync-for-Breezy.git",
+      "apk_url": "https://github.com/steel101/Wear-Sync-for-Breezy/releases/download/v1.0.37/app-release-unsigned-signed.apk",
+      "appid": "com.steel101.wearsyncforbreezy",
+      "version_code": 2,
+      "version_name": "1.0.37",
+      "tag": "v1.0.37",
+      "commit": "f0f3b043bb63dabc28e609f8de8f59479f5bf642",
+      "timestamp": 1783779658,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4d5ddac73de505e650b681f05e6c4045e33763e84ef34894677a6112d6bc83e1": [
     {
       "repository": "https://github.com/sunilpaulmathew/De-Bloater.git",
@@ -80710,6 +80860,36 @@
       "maintainer_notes": null
     }
   ],
+  "11e8feabdcc6aa462d2a82b90a5664512c917d14e65d0226e7253f7968585b52": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.5/app-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 150,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "5bffc5b4e5b857d9d01caf7c07f2df0206b8b2f5",
+      "timestamp": 1783779752,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9030e5c2d4e48af2ba1ebeb32f5c89670bb5048e8537c71886dde61e814e8107": [
+    {
+      "repository": "https://github.com/umutcamliyurt/IrisChat.git",
+      "apk_url": "https://github.com/umutcamliyurt/IrisChat/releases/download/v1.5.1/app-release.apk",
+      "appid": "com.umut.irischat",
+      "version_code": 151,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "fbd4ef7a7f820a3243fc6e7174c292e81202a75a",
+      "timestamp": 1783795085,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c4774a4334d88775960716dc6b36f602db5bbbd1805a0c7f42a7238e5479255a": [
     {
       "repository": "https://github.com/UrAvgCode/Chooser.git",
@@ -81170,6 +81350,21 @@
       "tag": "v1.82.3",
       "commit": "7d7cde3b55255ba3c798207583e27652c58db0c7",
       "timestamp": 1782328045,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4a11ab3a9d0e454fbf00051fa1b6ec883d5cb4ffad450255f87520b1d6c21d68": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.92.0/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1920,
+      "version_name": "1.92.0-foss",
+      "tag": "v1.92.0",
+      "commit": "69282edf9a37a4865a9bfd62bda64122538cadca",
+      "timestamp": 1783779844,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90304,6 +90499,21 @@
       "maintainer_notes": null
     }
   ],
+  "f155a32bedca33c71b93f16912134129c047a803259798e3ec5c3cca8e0cd17f": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.4.1/GlucoDataHandler_2.4.1.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1195,
+      "version_name": "2.4.1",
+      "tag": "2.4.1",
+      "commit": "f26c270adb57cd7b75c511c538109cb67db30656",
+      "timestamp": 1783787288,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -91675,6 +91885,21 @@
       "tag": "2.1.9",
       "commit": "db6e6e8ed3164600c9cc379b52a1a150f4bfdb9d",
       "timestamp": 1783176503,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8c553c8e53122f318151478a33e78d0ddbca5ff105a3583287762abb37d9fd80": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/2.1.10/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 152,
+      "version_name": "2.1.10",
+      "tag": "2.1.10",
+      "commit": "b7d3934a17f2f1504067ac6217351d8e4d867bba",
+      "timestamp": 1783780289,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -95125,6 +95350,21 @@
       "tag": "v1.5.2",
       "commit": "7707ec6d472a3140e3ea5e2f376805c6bb4036e5",
       "timestamp": 1782331245,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7c1bc04c9af9bf90870973fdcd5601306ee664c7a45db282e7c61908e5fb15a2": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.6.2/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23413,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "50082d826f8bb09e364bf410dd27e0a55faa2d86",
+      "timestamp": 1783715750,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -109462,6 +109702,21 @@
       "maintainer_notes": null
     }
   ],
+  "39cfac7047b2a691f425fb31473275701a870d521ee720ee151239eebbf7ff04": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.8.0/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 45,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "5ff2f6bf146ec6051e1cea49d29f50fcbd767f9d",
+      "timestamp": 1783795350,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -110087,6 +110342,21 @@
       "tag": "v0.1.72",
       "commit": "4d54d4edf08a5d12e04ef142459b6199d5c4b859",
       "timestamp": 1783334705,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f1b4ee3b3848a72e54bdce35b6acc9d592b69bef6350b2af67fb03ed012f3614": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.74/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1074,
+      "version_name": "0.1.74",
+      "tag": "v0.1.74",
+      "commit": "7a2ec943bf8d45305318fb3469612d2290458cb1",
+      "timestamp": 1783781162,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116627,6 +116897,21 @@
       "tag": "0.92.1",
       "commit": "54278096b630e359dcfd9a307e678c2d14708130",
       "timestamp": 1783438329,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3aafe8fc69ff4d1e45b61fb80a8c9976deb16d156ecfb4bae13cb8d6391b3003": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Gadgetbridge.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/download/0.92.2/gadgetbridge-0.92.2.apk",
+      "appid": "nodomain.freeyourgadget.gadgetbridge",
+      "version_code": 251,
+      "version_name": "0.92.2",
+      "tag": "0.92.2",
+      "commit": "a221d9ab2c0a823bddc6edd18bde8a8f317f75be",
+      "timestamp": 1783781466,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
