@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/naive-HA/subrosa.git
 updates: releases
-notes:
-  - 'FIXME: remove the inplace-fix.py after 2.0.0'
 versions:
   - tag: 1.0.6
     apks:
@@ -186,6 +184,37 @@ versions:
               version: v0.3.0
               url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
               sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.1.0
+    apks:
+      - apk_pattern: subrosa.*\.apk
+        apk_url: https://github.com/naive-HA/subrosa/releases/download/2.1.0/subrosa.2.1.0.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py -v assembleRelease
+          - find . -name '*.apk'
+          - mv AndroidDemo/build/outputs/apk/release/subrosa*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
           cmake:
           cmdline_tools:
             version: '20.0'
