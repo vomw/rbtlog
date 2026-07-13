@@ -1,9 +1,6 @@
 ---
 repository: https://github.com/dongdongbh/Mindwtr.git
 updates: releases
-notes:
-  - 'FIXME: remove the versionCode sed with the next release again, see https://github.com/dongdongbh/Mindwtr/issues/206#issuecomment-4837765639 '
-  - 'FIXME: with 1.1.0, also remove the sedo part, see https://github.com/dongdongbh/Mindwtr/issues/206#issuecomment-4870734999 (and add Tracking AF in the repo)'
 labels:
   - expo
   - react-native
@@ -1544,6 +1541,58 @@ versions:
         provisioning:
           android_home: /usr/local/lib/android/sdk
           build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.1.0
+    apks:
+      - apk_pattern: mindwtr-.*-foss\.apk
+        apk_url: https://github.com/dongdongbh/Mindwtr/releases/download/v1.1.0/mindwtr-1.1.0-foss.apk
+        build:
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin"
+          - set +x
+          - export $(base64 -d <<< RFJPUEJPWF9BUFBfS0VZPTdvYjgyemcwbHgwYXJrcAo=)
+          - set -x
+          - bash scripts/ci/install_core_dependencies.sh
+          - bash apps/mobile/scripts/fdroid_prep.sh
+          - bash scripts/ci/install_mobile_dependencies.sh
+          - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace apps/mobile/build/mindwtr-*-arm64-v8a-foss.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Mindwtr/Mindwtr
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.18.0
+              url: https://nodejs.org/dist/v24.18.0/node-v24.18.0-linux-x64.tar.xz
+              sha256: 55aa7153f9d88f28d765fcdad5ae6945b5c0f98a36881703817e4c450fa76742
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
           cmake:
           cmdline_tools:
             version: '20.0'
