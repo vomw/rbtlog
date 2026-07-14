@@ -11967,6 +11967,21 @@
       "maintainer_notes": null
     }
   ],
+  "644cd415957ec5a689d90ff29d82f1041687af8f9335aa87b774ed318d9e338d": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.41.2/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3041002,
+      "version_name": "3.41.2",
+      "tag": "3.41.2",
+      "commit": "f9eed266f01fdd7141bfbc5ddea094ab22db9243",
+      "timestamp": 1784058836,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c42bd4fbe5938808d5b7b733167d11ddb04983406b59c6ab8272ffcea364e5e2": [
     {
       "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
@@ -32899,6 +32914,21 @@
       "maintainer_notes": null
     }
   ],
+  "5a7125c5dfb430994fc4c333dc84234db25ae552bfd808246530fdd0f8ad3637": [
+    {
+      "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
+      "apk_url": "https://github.com/DresOperatingSystems/DresSecureComms/releases/download/v1.7.0/DresSecureComms.apk",
+      "appid": "com.dresos.dressecurecomms",
+      "version_code": 10,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "c80774404a0d20802a7d02615105e06a8f7e8b62",
+      "timestamp": 1784037109,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b11696eed3a0e2bd1cf525d86db46d5007b960a7fd7a13f9db982420e1eaf623": [
     {
       "repository": "https://github.com/andriydruk/BonjourBrowser.git",
@@ -34639,6 +34669,21 @@
       "maintainer_notes": null
     }
   ],
+  "c0f9fdb04cfcad5bcfa0372753e8bdc797f5e73211eed25b982aaf243bcfcf56": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.21.3/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 35,
+      "version_name": "4.21.3",
+      "tag": "v4.21.3",
+      "commit": "3d52df175725e740e2c2a88cd8693b70cbb194dc",
+      "timestamp": 1784037193,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -34769,6 +34814,21 @@
       "tag": "v1.5.0",
       "commit": "618c8c1eaf4f3b1fd4885018c1f8f8d05dcc2605",
       "timestamp": 1783794308,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "774d33c794736af0e90033846569c139c587841ee63d35652f4a8d6c4b72554e": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v1.5.1/dns_toggle_v1.5.1.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 15,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "cb87d7f065b6e28283732eb9e78792fe67755e02",
+      "timestamp": 1784037293,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35294,6 +35354,21 @@
       "tag": "v2.0.0-beta2",
       "commit": "5c492543772e53992001bf48b23ecad4e37fde94",
       "timestamp": 1782326118,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d18451fe560fe054eaaea87043f19dbe682b92c184f81ac6d78e73207b4b892e": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.0.0-beta3/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 10,
+      "version_name": "2.0.0-beta3",
+      "tag": "v2.0.0-beta3",
+      "commit": "fd4954802c9158ba29e4c7052d160abe96e52a18",
+      "timestamp": 1784060195,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -38027,6 +38102,21 @@
       "maintainer_notes": null
     }
   ],
+  "f0bca377979efee2e7ad130f07829b3bed6b913b702a1a23b7cd55026eab70bc": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.2/PrivateDnsQS-v2.2-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 52,
+      "version_name": "2.2",
+      "tag": "v2.2",
+      "commit": "ac9f986c98bddb3b0ab394af9e9988303c153eea",
+      "timestamp": 1784037478,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -38097,6 +38187,21 @@
       "tag": "v2.1",
       "commit": "59735d9bbf1f9d46881c40020ad3f0276cd81bce",
       "timestamp": 1783175104,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df9bfe5f202ed8716a781f42dacbb5276ae7c70157294b7089c8ab474b6be7b7": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.2/PrivateDnsQS-v2.2-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 52,
+      "version_name": "2.2",
+      "tag": "v2.2",
+      "commit": "ac9f986c98bddb3b0ab394af9e9988303c153eea",
+      "timestamp": 1784037360,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -50409,6 +50514,21 @@
       "maintainer_notes": null
     }
   ],
+  "0fe5e473ee8247df4a335bd4846c843138a64f246861e8efccbe89ed9093b8cd": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v2.0.6/photos_signed_release_arm64-v8a.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 206,
+      "version_name": "v2.0.6",
+      "tag": "v2.0.6",
+      "commit": "470bdb5f0a29ecb5a4bbfc351670b2fd81fb5788",
+      "timestamp": 1784053950,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "55c8981c8c02f7e6ae5fac79e6590b6cf935ff9d6fec3eaab0f6bf9a498fea01": [
     {
       "repository": "https://github.com/greykaizen/khushu.git",
@@ -52009,6 +52129,21 @@
       "tag": "v1.3.13",
       "commit": "23aeb6321ccccee15efd815fb4e672104eeaea15",
       "timestamp": 1783968044,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ecaae1316d8e121fd3089317b6da7cbde78ae0a44c64443b4553f42624c81a5a": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.14/kelani-sbd-tracker-v1.3.14.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 77,
+      "version_name": "1.3.14",
+      "tag": "v1.3.14",
+      "commit": "6eaf86a19dd68c66203a9d529e4d0aef54e74c75",
+      "timestamp": 1784037594,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55955,6 +56090,21 @@
       "maintainer_notes": null
     }
   ],
+  "34e5996629093185d7cd14c87b0441caf9cc0796a2af30557f1532719d8ee684": [
+    {
+      "repository": "https://github.com/maelchiotti/LocalMaterialNotes.git",
+      "apk_url": "https://github.com/maelchiotti/LocalMaterialNotes/releases/download/v2.2.2/localmaterialnotes_arm64-v8a_v2.2.2.apk",
+      "appid": "com.maelchiotti.localmaterialnotes",
+      "version_code": 382,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "6ef294e49ebe34d90ecd54ba3113cd0bd575d7c3",
+      "timestamp": 1784058878,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dd263c85b615876d0694c113e91ee901e030cd4b710ade124481f6e3277aef65": [
     {
       "repository": "https://github.com/Malopieds/InnerTune.git",
@@ -58715,6 +58865,21 @@
       "maintainer_notes": null
     }
   ],
+  "eaf08272830fd9ede7e928d3c86c4fdefa09024895cea1391697ee420e3342fa": [
+    {
+      "repository": "https://github.com/mitchib1440/SpeakThat.git",
+      "apk_url": "https://github.com/mitchib1440/SpeakThat/releases/download/v1.8.8/SpeakThat-NoUpdater-v1.8.8.apk",
+      "appid": "com.micoyc.speakthat",
+      "version_code": 60,
+      "version_name": "1.8.8",
+      "tag": "v1.8.8",
+      "commit": "346c164ed2e0fafaeaf5a874ebfd6f099cbec0ea",
+      "timestamp": 1784037679,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d97f0eca97e6c426f0b66ba2e0f7c3e691d502b220b4b958460a0665d25f0045": [
     {
       "repository": "https://github.com/m-i-n-a-r/birday.git",
@@ -59640,6 +59805,21 @@
       "tag": "v1.31.0",
       "commit": "76ba253430f421e0c814fb1ead49a786281791f8",
       "timestamp": 1783362395,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6874ef9e1fe721910eee4961003af5188132382aa5c0bcc8164b5fc5b1914e2b": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.32.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 125,
+      "version_name": "1.32.0",
+      "tag": "v1.32.0",
+      "commit": "6187e24c34966fd27dca1f6a065a4358747a4527",
+      "timestamp": 1784057475,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -66301,6 +66481,21 @@
       "maintainer_notes": null
     }
   ],
+  "d72f05533d431ee8f4c8c46a52b2e32e83273f3a7dfd73ba8f1f377f004bf0d4": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v4.1.0/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2023,
+      "version_name": "4.1.0",
+      "tag": "v4.1.0",
+      "commit": "8ca75327da3228da14a8152d759cda258f261db4",
+      "timestamp": 1784037809,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "da4ad5504e424cea84b91f672513b7417d07dd8a0087cd78f2d3d2db88b3f610": [
     {
       "repository": "https://gitlab.com/narektor/batt.git",
@@ -71531,6 +71726,21 @@
       "tag": "2.2",
       "commit": "6c51ce9d79197720e25aa1300cce52809c1d0eae",
       "timestamp": 1783543451,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d211d65ba897d18d2684cbcc0d10ab483cb83308c3c9b8c87a25c014d51049b3": [
+    {
+      "repository": "https://github.com/Sav22999/sav-pdf-viewer-pro.git",
+      "apk_url": "https://github.com/Sav22999/sav-pdf-viewer-pro/releases/download/2.2.2/Sav-PDF-Viewer-2.2.2-arm64-v8a-release.apk",
+      "appid": "com.saverio.pdfviewer",
+      "version_code": 753,
+      "version_name": "2.2.2",
+      "tag": "2.2.2",
+      "commit": "63de24bae8faff7249c9e9f8c6a038ab5935de91",
+      "timestamp": 1784037971,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78050,6 +78260,36 @@
       "tag": "v1.0.37",
       "commit": "f0f3b043bb63dabc28e609f8de8f59479f5bf642",
       "timestamp": 1783779658,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c255dd48d2e376675d9f7b3e06af0858b1f2e9d0154fbe845cc881d72dae7ad": [
+    {
+      "repository": "https://github.com/steel101/Wear-Sync-for-Breezy.git",
+      "apk_url": "https://github.com/steel101/Wear-Sync-for-Breezy/releases/download/Release-Build-v1.0.57/floss-phone.apk",
+      "appid": "com.steel101.wearsyncforbreezy",
+      "version_code": 21,
+      "version_name": "1.0.57",
+      "tag": "Release-Build-v1.0.57",
+      "commit": "b79fd1b4e48c4e99f7a60c3b0874864d00d38d79",
+      "timestamp": 1784020668,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "320c922c0690f612a874dae5e0257236afeb38e2f1937315872eb742b80280b1": [
+    {
+      "repository": "https://github.com/steel101/Wear-Sync-for-Breezy.git",
+      "apk_url": "https://github.com/steel101/Wear-Sync-for-Breezy/releases/download/Release-Build-v1.0.60/floss-phone.apk",
+      "appid": "com.steel101.wearsyncforbreezy",
+      "version_code": 24,
+      "version_name": "1.0.60",
+      "tag": "Release-Build-v1.0.60",
+      "commit": "f4baea5a8a3ce23b20b3b6b8bdde048db213fb5a",
+      "timestamp": 1784057866,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
