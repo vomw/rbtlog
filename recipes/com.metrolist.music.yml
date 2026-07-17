@@ -1329,3 +1329,47 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v13.6.1
+    apks:
+      - apk_pattern: Metrolist-izzy\.apk
+        apk_url: https://github.com/MetrolistGroup/Metrolist/releases/download/v13.6.1/Metrolist-izzy.apk
+        build:
+          - base64 -d > sedo <<< ZXhwb3J0IExBU1RGTV9BUElfS0VZPSJiY2VmMjBiZTgwZTRkYTUzZmE2ZjY4YjU2MTI1YTdhMSIgTEFTVEZNX1NFQ1JFVD0iNDgzOTk0OTQ4N2Q1ZGE1ZDY5OTA1ZTliNjNjNDRhZGEiCg==
+          - source sedo
+          - pushd app
+          - bash generate_proto.sh
+          - popd
+          - ./gradlew clean assembleIzzyRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/izzy/release/app-izzy-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Metrolist/Metrolist
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - protobuf-compiler
+            - python3
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

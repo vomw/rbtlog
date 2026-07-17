@@ -1053,3 +1053,40 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v2.26.2
+    apks:
+      - apk_pattern: daily-you-arm64-v8a-.*\.apk
+        apk_url: https://github.com/Demizo/Daily_You/releases/download/v2.26.2/daily-you-arm64-v8a-v2.26.2.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i android/app/build.gradle
+          - echo -e "keyAlias=keyAlias\nkeyPassword=keyPassword\nstorePassword=storePassword\nstoreFile=/dev/null" > key.properties
+          - touch local.properties
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - submodules/flutter/bin/flutter config --no-analytics
+          - submodules/flutter/bin/flutter pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' $PUB_CACHE/hosted/pub.dev/jni-*/src/CMakeLists.txt
+          - submodules/flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64 --flavor fdroid
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/fdroid/release/app-fdroid-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/demizo
+        build_repo_dir: /home/demizo/Documents/Repos/Daily_You
+        build_timeout:
+        build_user: demizo
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
