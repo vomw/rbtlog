@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/polymorphicshade/Tubular.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo was archived 2026-07-07
 versions:
   - tag: v0.27.2
     apks:

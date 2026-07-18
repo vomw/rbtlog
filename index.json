@@ -71866,6 +71866,21 @@
       "maintainer_notes": "resource linking failed"
     }
   ],
+  "0fda7b7d5dab55a5617a33f331d05321bc0cb87342e5aeda3836aa5e46d2e200": [
+    {
+      "repository": "https://github.com/SamAmco/track-and-graph.git",
+      "apk_url": "https://github.com/SamAmco/track-and-graph/releases/download/v10.2.2/app-foss-release.apk",
+      "appid": "com.samco.trackandgraph",
+      "version_code": 800026,
+      "version_name": "10.2.2",
+      "tag": "v10.2.2",
+      "commit": "6b7537e0f443561d4ae6a7352fb9b3dc5630a456",
+      "timestamp": 1784388974,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77d62bdf25411d58bf2a019d3bcd73960daffff58aad1f999dc7426c1bc869df": [
     {
       "repository": "https://github.com/SamLeatherdale/OpenLinkWith.git",
@@ -78710,6 +78725,21 @@
       "tag": "v5.0.0",
       "commit": "37357a102703e529b16766a5305c2f9845872624",
       "timestamp": 1779633458,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "352b127d09f1a975e151cbc2051343503442633c9491d1325fe3639c08bd0a55": [
+    {
+      "repository": "https://github.com/steel101/music-player-.git",
+      "apk_url": "https://github.com/steel101/music-player-/releases/download/v1.0.8/app-release-unsigned-signed.apk",
+      "appid": "com.steel101.musicplayer",
+      "version_code": 8,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "cdfe8b3ea57cbe6110d29f21ff78f26e2e97ace7",
+      "timestamp": 1784383254,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
