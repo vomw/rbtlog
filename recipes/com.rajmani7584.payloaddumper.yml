@@ -99,3 +99,61 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.2
+    apks:
+      - apk_pattern: PayloadDumper.*\.apk
+        apk_url: https://github.com/rajmani7584/Payload-Dumper-Android/releases/download/v5.2/PayloadDumper-v5.2.apk
+        build:
+          - export RUSTUP_HOME=/tmp/rustup-home
+          - export CARGO_HOME=/tmp/cargo-home
+          - VC_TOML=tools.versions.toml
+          - RUST_TOOLCHAIN="$(tomlq -r '.versions.rustToolchain' $VC_TOML)"
+          - mkdir rustup
+          - tar xf "${PROVISIONING_CACHE_RUSTUP_PATH}" --strip-components=1 -C rustup
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android
+          - source $CARGO_HOME/env
+          - cargo install cargo-ndk --version $(tomlq -r '.versions.cargoNdk' $VC_TOML)
+          - pushd lib/payload-dumper-android-rs
+          - ./build.sh
+          - popd
+          - ./gradlew assembleRelease
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/rajmani
+        build_repo_dir: /home/rajmani/Payload-Dumper-Android
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: rustup
+              file_name: rustup.tar.gz
+              version: "1.29.0"
+              url: https://api.github.com/repos/rust-lang/rustup/tarball/1.29.0
+              sha256: b933c6f1860a0b295037149b09d4d494ea4e14d4bd732f54cc028987edaafb50
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: "20.0"
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - build-essential
+            - protobuf-compiler
+            - python3
+            - yq
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 30.0.15729638
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

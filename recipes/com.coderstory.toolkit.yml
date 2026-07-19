@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/LSPosed/CorePatch.git
-updates: releases
+updates: disabled
+notes:
+  - package name changed to org.lsposed.corepatch, see https://github.com/LSPosed/CorePatch/issues/155
 versions:
   - tag: '4.5'
     apks:
