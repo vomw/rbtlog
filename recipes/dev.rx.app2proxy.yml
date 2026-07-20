@@ -40,7 +40,7 @@ versions:
       - apk_pattern: app-release\.apk
         apk_url: https://github.com/RiddlerXenon/app2proxy/releases/download/v1.0.2/app-release.apk
         build:
-          - git reset --soft 91731bef0ffc9e59a09d06286ed43d8f567ed71a
+          - git reset --soft 3f5da8afa3f5f8046a0a8b84e05a2fcbd4bfc302
           - sed -r '/signingConfigs.release/d' -i app/build.gradle
           - git clone https://codeberg.org/IzzyOnDroid/gradlew.py.git
           - gradlew.py/gradlew.py -v assembleRelease
