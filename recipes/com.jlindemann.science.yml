@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/JLindemann42/Atomic-Periodic-Table.Android.git
-updates: releases
+updates: disabled
+notes:
+  - loads of proprietary dependencies meanwhile, updates disabled in our repo as well; see https://github.com/JLindemann42/Atomic-Periodic-Table.Android/issues/138
 versions:
   - tag: v4.0.1m-build150
     apks:
