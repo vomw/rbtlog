@@ -342,6 +342,7 @@ def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[s
     If cache_dir is None, this cache has the same lifecycle as tmpdir. However, if cache_dir is defined, data will be persisted in cache_dir.
 
     """
+    # General cache logic
     cached_tools = provisioning.cached_tools
     cached_tools.append(
         CachedTool(
@@ -357,8 +358,8 @@ def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[s
         cache_dir = tempfile.TemporaryDirectory().name
     cached_tools_with_cache_dir = {}
     for cached_tool in cached_tools:
-        if cached_tool.name.lower() in cached_tools_with_cache_dir.keys():
-            raise Error(f"Cached tool name {cached_tool.name} is not unique. Cached tool names must be unique.", file=sys.stderr)
+        if cached_tool.name.lower() in cached_tools_with_cache_dir.keys() or cached_tool.name.lower() == "gradle_wrapper_verify":
+            raise Error(f"Cached tool name {cached_tool.name} is not unique or reserved. Cached tool names must be unique and not reserved.", file=sys.stderr)
         cache_dir_tool = os.path.join(cache_dir, cached_tool.name)
         cache_dir_tool_version = os.path.join(cache_dir_tool, cached_tool.version)
         if not os.path.exists(cache_dir_tool_version):
@@ -385,9 +386,33 @@ def prepare_cache(provisioning: Provisioning, tmpdir: str, cache_dir: Optional[s
                 raise Error(f"Expected {cached_tool.name!r} to have {cached_tool.sha256!r} as sha256, but got {sha256}")
         # copy to tmpdir to not leak host path during the build
         shutil.copytree(cache_dir_tool_version, os.path.join(tmpdir, cached_tool.name))
-        if not keep_cache:
-            shutil.rmtree(cache_dir)
         cached_tools_with_cache_dir[cached_tool.name.lower()] = CachedToolWithCacheDir(cache_dir=os.path.join(tmpdir, cached_tool.name), cached_tool=cached_tool)
+    # Special case for verify_gradle_wrapper
+    if provisioning.verify_gradle_wrapper:
+        gradle_wrapper_verify_cache_dir = os.path.join(cache_dir, "gradle_wrapper_verify")
+        if not os.path.exists(gradle_wrapper_verify_cache_dir):
+            run_command("git", "clone", "https://codeberg.org/IzzyOnDroid/gradle-wrapper-verify/", gradle_wrapper_verify_cache_dir, verbose=verbose)
+            os.chmod(gradle_wrapper_verify_cache_dir, 0o755)    # allow reading from within container
+        else:
+            try:
+                run_command("git", "-C", gradle_wrapper_verify_cache_dir, "pull", verbose=verbose)
+            except subprocess.CalledProcessError as e:
+                if verbose:
+                    print(f"Failed to update gradle-wrapper-verify, using older cache: {e}", file=sys.stderr)
+        # copy gradle-wrapper-verify script to tmpdir to not leak host path during the build
+        shutil.copytree(gradle_wrapper_verify_cache_dir, os.path.join(tmpdir, "gradle_wrapper_verify"))
+        cached_tools_with_cache_dir["gradle_wrapper_verify"] = CachedToolWithCacheDir(
+            cache_dir=os.path.join(tmpdir, "gradle_wrapper_verify"),
+            cached_tool=CachedTool(
+                name="gradle_wrapper_verify",
+                file_name="gradle-wrapper-verify",
+                version="main",
+                url="https://codeberg.org/IzzyOnDroid/gradle-wrapper-verify/",
+                sha256=sha256_file(os.path.join(tmpdir, "gradle_wrapper_verify", "gradle-wrapper-verify"))
+            )
+        )
+    if not keep_cache:
+        shutil.rmtree(cache_dir)
     return cached_tools_with_cache_dir
 
 

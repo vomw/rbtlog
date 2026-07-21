@@ -78,8 +78,8 @@ if [ -e .gitmodules ]; then
 fi
 
 if [ "${VERIFY_GRADLE_WRAPPER}" = yes ]; then
-  retry 5 git clone https://codeberg.org/IzzyOnDroid/gradle-wrapper-verify /opt/gradle-wrapper-verify
-  ( shopt -s globstar; /opt/gradle-wrapper-verify/gradle-wrapper-verify ./**/gradle-wrapper.jar )
+  sha256sum -c <<< "${PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_SHA256}  ${PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_PATH}"
+  ( shopt -s globstar; "${PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_PATH}" ./**/gradle-wrapper.jar )
 fi
 
 # FIXME: do more than just list these
