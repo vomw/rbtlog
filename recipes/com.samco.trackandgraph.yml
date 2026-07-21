@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/SamAmco/track-and-graph.git
 updates: releases
+notes:
+  - 'FIXME: release following 10.2.2 will have stripping disabled, so we can remove NDK 28.2 again'
 versions:
   - tag: v4.0.3
     apks:

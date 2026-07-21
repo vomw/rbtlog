@@ -20335,6 +20335,21 @@
       "maintainer_notes": null
     }
   ],
+  "c25bc14081e84d86f8269fc0d393b2c7e915cf5299db1ed684c2fdd2b2e330ab": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.6.9/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 25,
+      "version_name": "1.6.9",
+      "tag": "v1.6.9",
+      "commit": "fd2723983bbca3f3b2d96fc33f3699073dd4bcec",
+      "timestamp": 1784641908,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
     {
       "repository": "https://github.com/BKK31/budgetlens.git",
@@ -27601,6 +27616,21 @@
       "tag": "v3.6.1",
       "commit": "8c04d9f28a1020d7b66760446d7aac74a4f415b6",
       "timestamp": 1783951616,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0fb8540c8e35fe851df57fbd2c9af6c345a853b53bdb28c64754df94ea273ea6": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.7.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 307000000,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "a432599c6995454f37a7b736acd6b1b7a5885c13",
+      "timestamp": 1784658364,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35700,6 +35730,21 @@
       "commit": "fd4954802c9158ba29e4c7052d160abe96e52a18",
       "timestamp": 1784060195,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3bdaca2700a7731cc3ad753ae50c754058d3a98b5ba0f7de694eb002a0bf1ffc": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.0.0-beta3.1/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 11,
+      "version_name": "2.0.0-beta3.1",
+      "tag": "v2.0.0-beta3.1",
+      "commit": "790bf3a040afcf801449d1e6f5ec69833b47b3f3",
+      "timestamp": 1784651582,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -49299,6 +49344,21 @@
       "maintainer_notes": null
     }
   ],
+  "736b9b85ad8e889d56df34af4c11a39e32966f56645a97a646d602e37378def9": [
+    {
+      "repository": "https://github.com/LemmyNet/jerboa.git",
+      "apk_url": "https://github.com/LemmyNet/jerboa/releases/download/0.0.88/jerboa-fdroid-0.0.88.apk",
+      "appid": "com.jerboa",
+      "version_code": 88,
+      "version_name": "0.0.88-fdroid",
+      "tag": "0.0.88",
+      "commit": "a73eca0dfc84e4dc2d03d716f9a838ad383f7f5b",
+      "timestamp": 1784642695,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24ba071e74890f7b51efc8a91fa15d8f9659952625442e47dd09e5752df134b4": [
     {
       "repository": "https://github.com/j-hc/VolumeTile.git",
@@ -52839,6 +52899,21 @@
       "maintainer_notes": null
     }
   ],
+  "7742ed8d0fba060e3c3eb27bc5478e6782c24db52be5f1f6dd39dad41f5ff511": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.3.22/kelani-sbd-tracker-v1.3.22.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 85,
+      "version_name": "1.3.22",
+      "tag": "v1.3.22",
+      "commit": "f273d2d2c1caaf853d8b3e9df424dc65dda9a5c3",
+      "timestamp": 1784659286,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -55099,6 +55174,21 @@
       "tag": "v0.5.9",
       "commit": "437731a03e315a8bae4de6cf494efcaa86212a25",
       "timestamp": 1784387203,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "260b34e38f97dda2718133df959c615d5304275ed74ffd0aafcb5feef710095b": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.5.10/storii-v0.5.10-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5002,
+      "version_name": "0.5.10",
+      "tag": "v0.5.10",
+      "commit": "be4de9cb680d9ff15737ee6f79152c554b0703db",
+      "timestamp": 1784643568,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -73606,6 +73696,21 @@
       "maintainer_notes": null
     }
   ],
+  "fa73c2be4d35f90a7d6be8d07671799357827601b46a251fcec441e3acc0c099": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.3.8/Minus-v1.3.8.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10308,
+      "version_name": "1.3.8",
+      "tag": "v1.3.8",
+      "commit": "a9a6f49546954488d8d3a1bcb1d464256e15d491",
+      "timestamp": 1784644654,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -75087,6 +75192,21 @@
       "maintainer_notes": null
     }
   ],
+  "f993b731fce92b4625bb9260bf4b3d72581e996a9c352f49c31299b211d9e437": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/6.0.5/androidApp-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 6050,
+      "version_name": "6.0.5",
+      "tag": "6.0.5",
+      "commit": "84190e9f34ba910a02b357f8708da3d9e4baadd8",
+      "timestamp": 1784645042,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -76417,6 +76537,21 @@
       "tag": "6.5.0",
       "commit": "dfb4939b0a7dc70bcedb958c835d3c4d9d7725c1",
       "timestamp": 1784126473,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8ba74193937672298f90dce60b50d79ee648c16639129465b08f0ce8585ff56e": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.5.1/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6510,
+      "version_name": "6.5.1",
+      "tag": "6.5.1",
+      "commit": "b9d26d15b16f1780d23d29c17f155ab14cf5be6f",
+      "timestamp": 1784645403,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -88999,6 +89134,21 @@
       "maintainer_notes": null
     }
   ],
+  "5d7264b193f7607e384b496c55e297bf69c383e62990d95d8afb15db14603979": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.71/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 71,
+      "version_name": "0.1.71",
+      "tag": "0.1.71",
+      "commit": "3b30c9faa98b133956c921a30809d4a1883317a3",
+      "timestamp": 1784659530,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
     {
       "repository": "https://github.com/heddxh/NeoDB-You.git",
@@ -89264,6 +89414,21 @@
       "tag": "16.4.0",
       "commit": "5a9bd6edd834682eabdbd69d8f53f556bde68f69",
       "timestamp": 1769373597,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b44d2c66f2096f23267790e893908e5f669aa489209a2333f333cd707c66b0ca": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.5.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.5.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 98,
+      "version_name": "16.5.0",
+      "tag": "16.5.0",
+      "commit": "18b5eb0b1df915a36293a971213a0f6584ee0d94",
+      "timestamp": 1784652498,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92414,6 +92579,21 @@
       "tag": "2.4.1",
       "commit": "f26c270adb57cd7b75c511c538109cb67db30656",
       "timestamp": 1783787288,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "95dc39686e56b103494069ab2031c27d2a08a45f5564741977ea55412a3a5086": [
+    {
+      "repository": "https://github.com/pachi81/GlucoDataHandler.git",
+      "apk_url": "https://github.com/pachi81/GlucoDataHandler/releases/download/2.4.2/GlucoDataHandler_2.4.2.apk",
+      "appid": "de.michelinside.glucodatahandler",
+      "version_code": 1196,
+      "version_name": "2.4.2",
+      "tag": "2.4.2",
+      "commit": "114460bc29973c78580095e2e9b0f212eed9df20",
+      "timestamp": 1784646518,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -100588,6 +100768,21 @@
       "maintainer_notes": null
     }
   ],
+  "35700803855f002e213f3ce6708beb035ddc48675cec01655c9c1eeebfb219d4": [
+    {
+      "repository": "https://github.com/robinsrk/privacify.git",
+      "apk_url": "https://github.com/robinsrk/privacify/releases/download/v2.5/Privacify.apk",
+      "appid": "dev.robin.privacify",
+      "version_code": 25,
+      "version_name": "2.5",
+      "tag": "v2.5",
+      "commit": "7993d163fbac906d7548060ad7478dae27bfdc9d",
+      "timestamp": 1784659941,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "08bb4cf271630330284fd1eac6fb2ee3881c3f5676aadf231377772783b890d4": [
     {
       "repository": "https://github.com/RiddlerXenon/app2proxy.git",
@@ -105081,6 +105276,21 @@
       "tag": "1.2325",
       "commit": "b3ce6f4782eed614995996a064d7c92621279889",
       "timestamp": 1783192489,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d64aa13f9752c754f23d23e496ac165245e0f32bf404b9f3ff545113a437b4ec": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2326/FairEmail-v1.2326a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2326,
+      "version_name": "1.2326",
+      "tag": "1.2326",
+      "commit": "6831956be48584beac9d6e9eb77d81ac306300fa",
+      "timestamp": 1784646906,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114467,6 +114677,21 @@
       "tag": "v1.4.0",
       "commit": "1bd194fae04a41a4ce0382659b0c2f5a7c06fc75",
       "timestamp": 1783438213,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "63bd6a76ae499155bc05741c90705e18f1d64c2deac220207f83c3be45369b36": [
+    {
+      "repository": "https://github.com/nodelook/android.git",
+      "apk_url": "https://github.com/nodelook/android/releases/download/v1.5.0/ir.ammari.nodelook_6.apk",
+      "appid": "ir.ammari.nodelook",
+      "version_code": 6,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "6c0d9f8f35b355b7b81f040249d5a21b507a91b1",
+      "timestamp": 1784647823,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
