@@ -630,3 +630,46 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.6.1
+    apks:
+      - apk_pattern: FixupXer.*release\.apk
+        apk_url: https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.6.1/FixupXer-v2.6.1-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - sed -i -e '/org.gradle.java.home/d' gradle.properties
+          - sed -i -e '/jetbrains/d' settings.gradle.kts
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/*unsigned.apk
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/inplace-fix.py --zipalign fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '20.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
+            sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
