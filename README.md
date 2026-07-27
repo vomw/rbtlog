@@ -1,34 +1,28 @@
 <!-- SPDX-FileCopyrightText: 2025 FC (Fay) Stegerman <flx@obfusk.net> -->
-<!-- SPDX-FileCopyrightText: 2024 Andreas Itzchak (Izzy) Rehberg <izzy@qumran.org> -->
+<!-- SPDX-FileCopyrightText: 2025,2026 Andreas Itzchak (Izzy) Rehberg <izzy@qumran.org> -->
+<!-- SPDX-FileCopyrightText: 2025,2026 Sylvia van Os <sylvia@hackerchick.me> -->
 <!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
 
 # IzzyOnDroid Reproducible Builds Transparency Log (rbtlog)
 Here you find the recipes and logs from the rbtlog builder run by Izzy. It covers mostly apps hosted at the [IzzyOnDroid repo](https://apt.izzysoft.de/fdroid).
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://codeberg.org/IzzyOnDroid/.profile/src/branch/master/CODE_OF_CONDUCT.md)
-
-Below is its original Readme:
-
-----
-
-[![CI](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml/badge.svg)](https://github.com/obfusk/rbtlog/actions/workflows/ci.yml)
-[![podman](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/podman.yml)
-[![docker](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml/badge.svg?branch=master)](https://github.com/obfusk/rbtlog/actions/workflows/docker.yml)
-[![update log](https://github.com/obfusk/rbtlog/actions/workflows/update-log.yml/badge.svg)](https://github.com/obfusk/rbtlog/actions/workflows/update-log.yml)
-[![update recipes](https://github.com/obfusk/rbtlog/actions/workflows/update-recipes.yml/badge.svg)](https://github.com/obfusk/rbtlog/actions/workflows/update-recipes.yml)
 [![AGPLv3+](https://img.shields.io/badge/license-AGPLv3+-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
 
 # Reproducible Builds Transparency Log (rbtlog)
 
 `rbtlog` is a [Reproducible Builds](https://reproducible-builds.org/)
-transparency log for Android APKs.  Its `git` repository contains:
+transparency log for Android APKs, originally developed by [Fay Stegerman](https://codeberg.org/obfusk).  Its `git` repository contains:
 
 - [Scripts](#scripts) forming a rebuilder framework.
 - [Recipes](#recipes) to build various apps.
 - [Rebuild Logs](#rebuild-logs) forming a transparency log of reproduction attempts.
 - [GitHub Actions workflows](#github-actions-workflows) to automate everything.
 
+rbtlog code is maintained in the `code` branch (so that is where you'd start your own builder from), while recipes and logs are held in the `izzy/logs` branch (which you'd substitute by your own log branch, for your builder). Help with debugging failed RBs can be found in the IzzyOnDroid documentation: [Debug failed RBs](https://izzyondroid.org/docs/reproducibleBuilds/DebugFailedRBs/).
+
 ## Announcing Android Reproducible Builds at IzzyOnDroid with rbtlog
+Original announcement by Fay:
 
 <details>
 
@@ -757,10 +751,10 @@ in `schemas/`.
 Everything but the dependencies is contained in the `git` repository.
 
 ```bash
-$ git clone https://github.com/obfusk/rbtlog.git    # main repository @ github.com
-$ git clone https://gitlab.com/obfusk/rbtlog.git    # mirror @ gitlab.com
-$ git clone https://codeberg.org/obfusk/rbtlog.git  # mirror @ codeberg.org
+$ git clone https://codeberg.org/IzzyOnDroid/rbtlog.git
 ```
+
+For a more automated setup of a local builder, also see the [rbuilder_setup](https://codeberg.org/IzzyOnDroid/rbuilder_setup) repository.
 
 ## Dependencies
 
