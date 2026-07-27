@@ -18595,6 +18595,21 @@
       "maintainer_notes": null
     }
   ],
+  "8a1ed9aa09631290da91cb793e0517b0f20dc70239ac94ae6682cd94f91a4bad": [
+    {
+      "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
+      "apk_url": "https://gitlab.com/-/project/6922885/uploads/245eec8867a47057cbc54535f73b32ee/AuroraStore-4.8.4.apk",
+      "appid": "com.aurora.store",
+      "version_code": 76,
+      "version_name": "4.8.4",
+      "tag": "4.8.4",
+      "commit": "ad3d349edce82e119ba239f3a07b3afe028abd19",
+      "timestamp": 1785176945,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "23e986e47d9062c2e0709cb3cf1ddbef8367118bf9654994a02e7b0412fb7ed5": [
     {
       "repository": "https://github.com/beemdevelopment/Aegis.git",
@@ -49599,6 +49614,21 @@
       "maintainer_notes": null
     }
   ],
+  "9e3f9482bf5e34562dbb8b9100c8f3afeeefd10654355e0496f86cb87039bf52": [
+    {
+      "repository": "https://codeberg.org/dryerlint/dejpeg.git",
+      "apk_url": "https://codeberg.org/dryerlint/dejpeg/releases/download/release-4.1.0/dejpeg-arm64-v8a.apk",
+      "appid": "com.je.dejpeg",
+      "version_code": 410,
+      "version_name": "4.1.0",
+      "tag": "release-4.1.0",
+      "commit": "83a5057e35728f675512e17e3678cfa025ed86a1",
+      "timestamp": 1785165401,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0074947d77b5e7e2a2835ab6c2fdb2175b0c9f0d8fb73071bb293730a388bf30": [
     {
       "repository": "https://github.com/jeeneo/fonts.git",
@@ -50674,6 +50704,21 @@
       "tag": "v2.1.0",
       "commit": "b0b64bdc31bc4298da6af0900758ee413632f1ee",
       "timestamp": 1784125134,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6b7a06d65a5888f3a679a44fd3da7f2d7f02232535ae15716f0d4683dc2417c3": [
+    {
+      "repository": "https://github.com/jksalcedo/PassVault.git",
+      "apk_url": "https://github.com/jksalcedo/PassVault/releases/download/v2.2.0/PassVault-v2.2.0-b42-universal-release-signed.apk",
+      "appid": "com.jksalcedo.passvault",
+      "version_code": 42,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "2b3113a407c6a906b174fa92987f0bd2174354f3",
+      "timestamp": 1785179931,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -53439,6 +53484,21 @@
       "maintainer_notes": null
     }
   ],
+  "1ce023715d3fe64b5b4fbadd12cf467219933d5bdf2fd889e41d8a0473407f3a": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.5.0/kelani-sbd-tracker-v1.5.0.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 91,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "21dd16da71a6a2998192deab175043eaf075c16f",
+      "timestamp": 1785160652,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -55744,6 +55804,21 @@
       "tag": "v0.5.12",
       "commit": "0dda4c9f16c9ee0b50db25eed58f2985551a0b48",
       "timestamp": 1785007265,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "df5fe9c870b704c15ee4433c2471bc430f7718d2f664d321ae8a69deb5bf2a69": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.5.13/storii-v0.5.13-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5032,
+      "version_name": "0.5.13",
+      "tag": "v0.5.13",
+      "commit": "6889f3721b527ddbaed1e7c1341b1a8ee5ae680f",
+      "timestamp": 1785160808,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58890,6 +58965,21 @@
       "tag": "v2.0",
       "commit": "e29d11edaa5600dcb7ca736f90d6afff4a2a01a7",
       "timestamp": 1743347816,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cc31407cfc53689a4396ddc8071c74a459374e1bb88ab507bea4ec697c74f46c": [
+    {
+      "repository": "https://github.com/EmmaTellblom/Mensinator.git",
+      "apk_url": "https://github.com/EmmaTellblom/Mensinator/releases/download/v2.1/app-release.apk",
+      "appid": "com.mensinator.app",
+      "version_code": 25,
+      "version_name": "2.1",
+      "tag": "v2.1",
+      "commit": "b0834806e6f20f880ff68bf7257a8c4d5a142fe1",
+      "timestamp": 1785167396,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -68696,6 +68786,21 @@
       "tag": "1.5.7",
       "commit": "9bd341d88f7f61856b71df6e5c17935cdd0979a2",
       "timestamp": 1782055179,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0d34845003afa10b5862c4597764be7b4b0f57985d5049290183f2bac3d53d62": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.6.0/Compressor-1.6.0.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 23,
+      "version_name": "1.6.0",
+      "tag": "1.6.0",
+      "commit": "72c2cec7dead05fc78e4f3ea5a40e1eb6c351932",
+      "timestamp": 1785168291,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -83470,6 +83575,21 @@
       "maintainer_notes": null
     }
   ],
+  "ae798354a67f8e0744a122c75e5115839dc378ab3d312624c606ea2a285a7e9f": [
+    {
+      "repository": "https://github.com/tymwitko/Recents.git",
+      "apk_url": "https://github.com/tymwitko/Recents/releases/download/v1.7.0/app-release.apk",
+      "appid": "com.tymwitko.recents",
+      "version_code": 30,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "a23e3f3390c101797dcc4088ac9ec668af198173",
+      "timestamp": 1785162128,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "42e0f6ef6247b64343f572266b110a5996eb204fa1114386b9da817dad25c0a0": [
     {
       "repository": "https://github.com/ohuc/CaffeineHealth.git",
@@ -85340,6 +85460,21 @@
       "tag": "v4.9.4",
       "commit": "ab48ca74a3a67d99d6199e839d35454931d1cb45",
       "timestamp": 1784817612,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4ac60ce6e272e8cd52931d84ab9541391bacc44e1a99e28ef218d036366d343c": [
+    {
+      "repository": "https://github.com/vishaltelangre/NerdCalci.git",
+      "apk_url": "https://github.com/vishaltelangre/NerdCalci/releases/download/v4.9.5/NerdCalci-v4.9.5.apk",
+      "appid": "com.vishaltelangre.nerdcalci",
+      "version_code": 495,
+      "version_name": "4.9.5",
+      "tag": "v4.9.5",
+      "commit": "7c7be84ec9666f022cf7987274c21ced8191c075",
+      "timestamp": 1785162482,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -96765,6 +96900,21 @@
       "maintainer_notes": null
     }
   ],
+  "2345aefbc5bfccf19422fa0a273a023ffed86a89226a4e5eaf0b7f8e0c569260": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v1.5.1/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 12,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "850a2caa4a7b42be80ced4d9565bfc687bed1e39",
+      "timestamp": 1785162768,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3d6d616414e059086255a61c7ff5e1805e6d2136916d5434e14925b5453f165c": [
     {
       "repository": "https://github.com/inventory69/simple-notes-sync.git",
@@ -102381,6 +102531,21 @@
       "tag": "v9.0.3",
       "commit": "f7d86f7b0fca7aafd22cbebaeb13e0124caf4b7a",
       "timestamp": 1743873587,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "614cc540fbfdfb21f8b6557c5a164d9f273bff7ee6adfa01ed256ba9aeab67c5": [
+    {
+      "repository": "https://github.com/spieglt/FlyingCarpet.git",
+      "apk_url": "https://github.com/spieglt/FlyingCarpet/releases/download/v10.0.0/android_FlyingCarpet_10.0.0.apk",
+      "appid": "dev.spiegl.flyingcarpet",
+      "version_code": 22,
+      "version_name": "10.0.0",
+      "tag": "v10.0.0",
+      "commit": "026497fde58ac6695db8aa069786b4069189caa1",
+      "timestamp": 1785168940,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114017,6 +114182,21 @@
       "tag": "v0.1.80",
       "commit": "dc38f20b918564f855425e0d06e2d3ebfca69cce",
       "timestamp": 1784388688,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6c15e0d115c0a93fc566b7c24e6ff26baece3fd62359df92c679aa9115916ad5": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.81/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1081,
+      "version_name": "0.1.81",
+      "tag": "v0.1.81",
+      "commit": "c159a84051e26a28cdebceae854f9c1a8eb02669",
+      "timestamp": 1785163021,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -131752,6 +131932,21 @@
       "maintainer_notes": null
     }
   ],
+  "1bd20daef2da4dadba64cfa4711960d4acfc97d5106ec3a828b219f3edafad2b": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.07.26/KashCal-2026.07.26-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 692,
+      "version_name": "2026.07.26",
+      "tag": "v2026.07.26",
+      "commit": "3c6fde032be5dd75a357c30128ef8c943d010d78",
+      "timestamp": 1785163399,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -134115,6 +134310,21 @@
       "tag": "v1.0.0",
       "commit": "6997b4ff78d57d2aed44ae3708910ed95fc1d740",
       "timestamp": 1784924672,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e7889acde6388195815cd425b951559043d3641d2a44777f2f7e3646027e40ac": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.1.0/wizestream_v1.1.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1001000,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "9768ae199bfc58659e99888ac60eda1e75a962a6",
+      "timestamp": 1785178089,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -143460,6 +143670,21 @@
       "tag": "v1.50.0",
       "commit": "dbdfe2d512caceb110b091a8ebabea80f7499595",
       "timestamp": 1781130258,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8cc8c74394902bc81d8d9cf2980964b5010565db11d88e6ebd5f1c13e095fd8a": [
+    {
+      "repository": "https://github.com/tberghuis/FloatingCountdownTimer.git",
+      "apk_url": "https://github.com/tberghuis/FloatingCountdownTimer/releases/download/v1.51.0/app-release.apk",
+      "appid": "xyz.tberghuis.floatingtimer",
+      "version_code": 91,
+      "version_name": "1.51.0",
+      "tag": "v1.51.0",
+      "commit": "f7d3ef35cd5e0a543e545fb655432ad76b5fc41b",
+      "timestamp": 1785170146,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
