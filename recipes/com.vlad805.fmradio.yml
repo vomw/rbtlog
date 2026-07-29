@@ -65,3 +65,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v0.9.0
+    apks:
+      - apk_pattern: com.vlad805.fmradio.*\.apk
+        apk_url: https://github.com/vladislav805/RFM-Radio/releases/download/v0.9.0/com.vlad805.fmradio-0.9.0.apk
+        build:
+          - sdkmanager --sdk_root=/usr/local/lib/android/sdk "platform-tools" "platforms;android-36"
+          - export ANDROID_NDK_HOME="/usr/local/lib/android/sdk/ndk/${PROVISIONING_NDK}"
+          - export PATH=${PATH}:/usr/local/lib/android/sdk/cmake/3.22.1/bin
+          - ./gradlew --no-daemon :app:assembleRelease
+          - mv app/build/outputs/apk/release/com.vlad805.fmradio-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/RFM-Radio/RFM-Radio
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools: 34.0.0
+          cmake: 3.22.1
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - build-essential
+          image: ubuntu:noble
+          jdk: openjdk-17-jdk-headless
+          ndk: 27.3.13750724
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

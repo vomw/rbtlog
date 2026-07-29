@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/timer-machine/timer-machine-android.git
 updates: releases
+notes:
+  - 'FIXME: remove the left-over repro-apk clone command'
 versions:
   - tag: 7.6.0
     apks:

@@ -351,3 +351,42 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.2.1
+    apks:
+      - apk_pattern: qbitcontroller-.*\.apk
+        apk_url: https://github.com/Bartuzen/qBitController/releases/download/v2.2.1/qbitcontroller-2.2.1-android.apk
+        build:
+          - sed -r '/create\("release"\) \{/,/^        \}/d' -i composeApp/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=composeApp/build/intermediates/binary_art_profile/freeRelease/compileFreeReleaseArtProfile/baseline.prof
+          - PROF_SHA1=4558d5f3e499de90c788ea63fc1fdc9d7b35d556
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFreeRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv composeApp/build/outputs/apk/free/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
