@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/cworld1/notie.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo was archived 2025-07-29
 versions:
   - tag: 2.1.0
     apks:
