@@ -64801,6 +64801,21 @@
       "maintainer_notes": null
     }
   ],
+  "aa3e13d31713e3899bfcaf0292f438a20ac839932ffcf93ee26841ff569e77f6": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.0.3/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 4,
+      "version_name": "1.0.3",
+      "tag": "1.0.3",
+      "commit": "0698455de8538a6987c1a1f65a4d020d17adb0fe",
+      "timestamp": 1785363301,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -94154,6 +94169,21 @@
       "tag": "2.4.2",
       "commit": "114460bc29973c78580095e2e9b0f212eed9df20",
       "timestamp": 1784646518,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "085c089a30fe255c809a78c0f2fc5bc44340b9a20693421baa7d91f9579b7054": [
+    {
+      "repository": "https://codeberg.org/Cameo007/kueaplan-android.git",
+      "apk_url": "https://codeberg.org/Cameo007/kueaplan-android/releases/download/1.0.0/app-release.apk",
+      "appid": "de.mintux.kueaplan",
+      "version_code": 1,
+      "version_name": "1.0",
+      "tag": "1.0.0",
+      "commit": "c914d61782432449d3846070b17cfba223686055",
+      "timestamp": 1785377974,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
