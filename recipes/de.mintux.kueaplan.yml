@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/Cameo007/kueaplan-android.git
 updates: releases
+notes:
+  - 'FIXME: Foojay has been removed after 1.0.0, and compileSDK been adjusted upstream, see https://codeberg.org/IzzyOnDroid/repodata/issues/416#issuecomment-20294890 '
 versions:
   - tag: 1.0.0
     apks:
