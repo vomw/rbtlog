@@ -1,8 +1,6 @@
 ---
 repository: https://codeberg.org/Cameo007/kueaplan-android.git
 updates: releases
-notes:
-  - 'FIXME: Foojay has been removed after 1.0.0, and compileSDK been adjusted upstream, see https://codeberg.org/IzzyOnDroid/repodata/issues/416#issuecomment-20294890 '
 versions:
   - tag: 1.0.0
     apks:
@@ -11,6 +9,36 @@ versions:
         build:
           - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
           - sed -ri 's/(version = release\(37\))/\1 { minorApiLevel = 0 }/' app/build.gradle.kts
+          - sed -ri '/signingConfigs.getByName/d ; /signingConfigs \{/,/^\t\}/d' app/build.gradle.kts
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 1.1.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://codeberg.org/Cameo007/kueaplan-android/releases/download/1.1.0/app-release.apk
+        build:
           - sed -ri '/signingConfigs.getByName/d ; /signingConfigs \{/,/^\t\}/d' app/build.gradle.kts
           - ./gradlew assembleRelease
           - find . -name '*.apk'
