@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/isaacsa51/Minus.git
 updates: releases
+notes:
+  - dirty sed hack needed to get v1.4.1 RB, see https://github.com/isaacsa51/Minus/issues/170
 versions:
   - tag: v1.1.1
     apks:
@@ -466,6 +468,39 @@ versions:
       - apk_pattern: Minus-v.*\.apk
         apk_url: https://github.com/isaacsa51/Minus/releases/download/v1.4.0/Minus-v1.4.0.apk
         build:
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/Minus-v*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - openjdk-17-jdk-headless
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.4.1
+    apks:
+      - apk_pattern: Minus-v.*\.apk
+        apk_url: https://github.com/isaacsa51/Minus/releases/download/v1.4.1/Minus-v1.4.1.apk
+        build:
+          - git reset --soft b47334b06f045fb886a2c976323cd446e93e5a23
+          - sed -ri "s/(val appVersionName =) releaseVersionName\(\)/\1 \"${APP_TAG#v}\"/" app/build.gradle.kts
           - chmod +x gradlew
           - ./gradlew assembleFossRelease
           - find . -name '*.apk'

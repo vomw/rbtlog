@@ -5142,6 +5142,21 @@
       "maintainer_notes": null
     }
   ],
+  "082805dfda3e436dcee3ca45c03e5b39859589ea726613c33a8a0b0b742582b4": [
+    {
+      "repository": "https://github.com/mlm-games/flicky.git",
+      "apk_url": "https://github.com/mlm-games/flicky/releases/download/4.5.2/flicky-4.5.2-universal.apk",
+      "appid": "app.flicky",
+      "version_code": 971,
+      "version_name": "4.5.2",
+      "tag": "4.5.2",
+      "commit": "bd6e446cd416a2719792314c3c73ff7e6b85fd56",
+      "timestamp": 1785592247,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9719ebc4ed5d95f798f06ca40fd25045e10791a1de4be7bd62a606a6938503a9": [
     {
       "repository": "https://github.com/mlm-games/Fluffy.git",
@@ -5617,6 +5632,21 @@
       "tag": "4.2.2",
       "commit": "b80b6d99d09855869cea8428a15d6a3c6170a669",
       "timestamp": 1781461515,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "92ecb6b0699fa69130a114069dd24952b21312f3e9732fbdf95d7fc94fb2c525": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.2.5/fluffy-4.2.5-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 801,
+      "version_name": "4.2.5",
+      "tag": "4.2.5",
+      "commit": "8a01e28e17badda2399620d184d230d94d620a9d",
+      "timestamp": 1785592492,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -12172,6 +12202,21 @@
       "tag": "3.43.0",
       "commit": "45af271be704a0964868db95b7d1c7a710da14dc",
       "timestamp": 1785419847,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "72bdda7b8b78424672d9980e21fb16015336f001813a6c4a540fc91878fbe4fb": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.43.1/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3043001,
+      "version_name": "3.43.1",
+      "tag": "3.43.1",
+      "commit": "4fee619372f130ce99cbc6f712f96258fdd0226e",
+      "timestamp": 1785592734,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -39512,6 +39557,21 @@
       "maintainer_notes": null
     }
   ],
+  "bf198e63e0c481269981e8e8415011692c74ffe191251c45a621df282cd5637a": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.2.0/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 17,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "f8c009d44a07b5360ba827838b04069574dd2ead",
+      "timestamp": 1785613077,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a0f87f05598821a4276339d0b729a6674d3678bdb5a481a3103c17bfea1db481": [
     {
       "repository": "https://github.com/Futsch1/medTimer.git",
@@ -41817,6 +41877,21 @@
       "tag": "v2.7.14",
       "commit": "cf68c86af556cfd44d83064a1a03df6f63707014",
       "timestamp": 1780603921,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "41a56de1b1e2eece84929254f4ee0977bc409d1e221a8a315062b8a528a78444": [
+    {
+      "repository": "https://github.com/meshtastic/Meshtastic-Android.git",
+      "apk_url": "https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.8.0/androidApp-fdroid-arm64-v8a-release.apk",
+      "appid": "com.geeksville.mesh",
+      "version_code": 29321705,
+      "version_name": "2.8.0 (29321705) fdroid",
+      "tag": "v2.8.0",
+      "commit": "5a3b555b99612d8d34cb89c57bcf9aa54d9b84c9",
+      "timestamp": 1785609165,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49329,6 +49404,21 @@
       "maintainer_notes": null
     }
   ],
+  "9ba3c7f398eb6186cd9e2963dcaf8433b2d335abff98fa527561bf0086b9b139": [
+    {
+      "repository": "https://github.com/StellarSand/IYPS.git",
+      "apk_url": "https://github.com/StellarSand/IYPS/releases/download/v1.6.1/IYPS_v1.6.1.apk",
+      "appid": "com.iyps",
+      "version_code": 161,
+      "version_name": "1.6.1",
+      "tag": "v1.6.1",
+      "commit": "88750e5e017d618fd2854df93e213bc21756aeaa",
+      "timestamp": 1785596625,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "81a48bd3332d924b7e877166ec3a11d494bb9d2b71635e10db252485c79c5b4a": [
     {
       "repository": "https://github.com/jabstone/JABtalk.git",
@@ -53919,6 +54009,21 @@
       "maintainer_notes": null
     }
   ],
+  "b938e69c66eda0d2154351b6d3b2aafcd644bc9139599187fd1fad2c7d6abe08": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.5.4/kelani-sbd-tracker-v1.5.4.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 95,
+      "version_name": "1.5.4",
+      "tag": "v1.5.4",
+      "commit": "537a9d29a226ed3cd95b40252e2d1d0140d94999",
+      "timestamp": 1785593135,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -54184,6 +54289,21 @@
       "tag": "v1.2.0",
       "commit": "529b894e528cba02cc3e716a16e2f710dbd58642",
       "timestamp": 1785408136,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7566ce8b65f084bede18a58161ab96f503d665eb08642a1704863d3b5f1ee4ac": [
+    {
+      "repository": "https://github.com/kitsumed/ShizuCallRecorder.git",
+      "apk_url": "https://github.com/kitsumed/ShizuCallRecorder/releases/download/v1.3.1/ShizuCallRecorder-1.3.1.apk",
+      "appid": "com.kitsumed.shizucallrecorder",
+      "version_code": 17,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "231d2ea90dafb7b5345182f520e749243b24692a",
+      "timestamp": 1785593267,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56284,6 +56404,21 @@
       "tag": "v0.5.13",
       "commit": "6889f3721b527ddbaed1e7c1341b1a8ee5ae680f",
       "timestamp": 1785160808,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f29ca330d8491ac230118de3f3ea36eda735c44d9fa73f5d3c1a8d82f29302a9": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.5.14/storii-v0.5.14-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5042,
+      "version_name": "0.5.14",
+      "tag": "v0.5.14",
+      "commit": "a48442d08eb31c62e31f3bd8a2a8dc469161890c",
+      "timestamp": 1785593406,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65051,6 +65186,21 @@
       "tag": "1.0.5",
       "commit": "737177bd61a6f296f10b843dbfbf70afd81a94f8",
       "timestamp": 1785523257,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "151e4ad2276a2e824944d2f0f258965a8359657065496a134375dca697b40032": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.0.5-1/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 7,
+      "version_name": "1.0.5-1",
+      "tag": "1.0.5-1",
+      "commit": "83c8ad3b1ea7851e32f09a6c4c33e63ddb809b7f",
+      "timestamp": 1785593951,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -75041,6 +75191,21 @@
       "tag": "v1.4.0",
       "commit": "606c46fdc47a2c495b836b259b54a2a4f449b7b7",
       "timestamp": 1785247599,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1c779d7420a174219d25f9c5d634b9a648c6af0b91dbe09921e2064faa98b634": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.4.1/Minus-v1.4.1.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10401,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "59698a8b8c1479f02cd426ffbdc8c857642a8ffe",
+      "timestamp": 1785598873,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -91249,6 +91414,21 @@
       "maintainer_notes": null
     }
   ],
+  "3810f6814f5f0d158467da6ebb2ca5e1b07bfcd50168e5ffe465450745c8b600": [
+    {
+      "repository": "https://codeberg.org/RailwayStations/RSAndroidApp.git",
+      "apk_url": "https://codeberg.org/RailwayStations/RSAndroidApp/releases/download/16.6.0/de.bahnhoefe.deutschlands.bahnhofsfotos_16.6.0.apk",
+      "appid": "de.bahnhoefe.deutschlands.bahnhofsfotos",
+      "version_code": 99,
+      "version_name": "16.6.0",
+      "tag": "16.6.0",
+      "commit": "acad2477e5d1f8f1e7ba10377bc8942a0ac960ad",
+      "timestamp": 1785594344,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "bed04be4f5b48727a31f5700d8019cbd11bd3cf781cb4335e9e74ef5813add74": [
     {
       "repository": "https://github.com/buttercookie42/DisableTargetAPIBlock.git",
@@ -95174,6 +95354,21 @@
       "tag": "3.1.0",
       "commit": "436ad5f4a9464d5f86a1eeef0bedf8a5be94a307",
       "timestamp": 1784305019,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ca0f0ea526b0b92664dcabf73f31af8128738ca409bd11439cb77bd1bd5987ea": [
+    {
+      "repository": "https://codeberg.org/qwerty287/ftpclient.git",
+      "apk_url": "https://codeberg.org/qwerty287/ftpclient/releases/download/3.1.1/release.apk",
+      "appid": "de.qwerty287.ftpclient",
+      "version_code": 29,
+      "version_name": "3.1.1",
+      "tag": "3.1.1",
+      "commit": "9d84a39fea70175de1adeae96f39c57dec93acb3",
+      "timestamp": 1785594521,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116227,6 +116422,21 @@
       "maintainer_notes": null
     }
   ],
+  "9fe993418b88aa518042ce7919d50be480687978ada51485b627f75fa97ee25e": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.15/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 16,
+      "version_name": "1.15",
+      "tag": "v1.15",
+      "commit": "da2c4a2cf645a1446800e0621a9d1bfc30cb6f44",
+      "timestamp": 1785609988,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fef05226b5e6810a14ae571104d5c153053667ee9f19f784700621c10fb23168": [
     {
       "repository": "https://github.com/wiiznokes/gitnote.git",
@@ -117782,6 +117992,21 @@
       "tag": "v1.1.1",
       "commit": "0171b24dc0ab802747103d6da28b0233eea8ff96",
       "timestamp": 1784460519,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f4cf0ee760bfbf7a16a1cbf33de124e133476b73f0c1b560452a132e6e344852": [
+    {
+      "repository": "https://github.com/k4ustu3h/monocons-android.git",
+      "apk_url": "https://github.com/k4ustu3h/monocons-android/releases/download/v1.2.0/Monocons.1.2.0.release.Izzy.apk",
+      "appid": "k4ustu3h.monocons.izzy",
+      "version_code": 9,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "b1ebb96ca69ab13021fe1d9cac002dbc41d9a318",
+      "timestamp": 1785594677,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122542,6 +122767,21 @@
       "maintainer_notes": null
     }
   ],
+  "e51278f56ff27548cc84baded98d5dbc974f5aa96624dbac6714e86355b2313d": [
+    {
+      "repository": "https://github.com/mlm-games/geotag-video-camera.git",
+      "apk_url": "https://github.com/mlm-games/geotag-video-camera/releases/download/2.5.2/geotag_camera-2.5.2-arm64-v8a.apk",
+      "appid": "org.app.geotagvideocamera",
+      "version_code": 400,
+      "version_name": "2.5.2",
+      "tag": "2.5.2",
+      "commit": "bdd7be4284d12b0d0b21b1aff97a04c8788d51b6",
+      "timestamp": 1785594915,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "acd1ed73609741d16bb29ece214c863694502cce15794760cba5b0ba17c1e0d7": [
     {
       "repository": "https://github.com/pewaru-333/ShikiApp.git",
@@ -123137,6 +123377,21 @@
       "tag": "alpha-0.7.5",
       "commit": "963a7a646713f86c959f6a5c2722edeaf9e18f3e",
       "timestamp": 1785351850,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "be52174bd82efcc1fa2df20d7955f4cb05e260b2f90296ea974b952e4897c93b": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.7.6/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 54,
+      "version_name": "alpha-0.7.6",
+      "tag": "alpha-0.7.6",
+      "commit": "5e37b8bbda7628adfca5cb27171618869a1dfc4a",
+      "timestamp": 1785595088,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -129622,6 +129877,21 @@
       "maintainer_notes": null
     }
   ],
+  "1ade5ad7a9bca951efc08c9b9d20d7a2b8f37d846ffa44a68f6517efbf2b0488": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/6.0.4/Autu-Mandu_6.0.4.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 604,
+      "version_name": "6.0.4",
+      "tag": "6.0.4",
+      "commit": "c45ced9fa40ef39a4463b1d61f3924b911bda921",
+      "timestamp": 1785610393,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ca954d55488756a0c38e0faa77a5a9d99cf7b6ad1709524a57f3ab7a4f29df19": [
     {
       "repository": "https://github.com/juanro49/FeedTV.git",
@@ -133052,6 +133322,21 @@
       "tag": "v2026.07.29",
       "commit": "7efdcebbaacd91789b9e7d3b70e2721d2e7744a4",
       "timestamp": 1785423567,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ab7629290665a030114a64c6a95f7a2c18eabd217ce021958df7dc5b1488bef": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.07.31/KashCal-2026.07.31-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 702,
+      "version_name": "2026.07.31",
+      "tag": "v2026.07.31",
+      "commit": "f51499cfeab1f73711e2747e3a39bc27baf8c892",
+      "timestamp": 1785595382,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -138135,6 +138420,21 @@
       "tag": "1.0.1",
       "commit": "643cdd4e3fb772ae1b18aca6c9dc101f983c4eff",
       "timestamp": 1741341506,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3087e0e035e1a915b9fc6f78c4544d44d38cec531bb92039a18cf143c9c4dc93": [
+    {
+      "repository": "https://github.com/v1tzor/TimePlanner.git",
+      "apk_url": "https://github.com/v1tzor/TimePlanner/releases/download/2.0.0/2.0.0-timeplanner-release.apk",
+      "appid": "ru.aleshin.timeplanner",
+      "version_code": 33,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "fd061e7e76a7d652cdacabf87e33f9368cf2979d",
+      "timestamp": 1785617034,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
