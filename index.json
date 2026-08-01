@@ -126352,6 +126352,21 @@
       "maintainer_notes": null
     }
   ],
+  "5ebd41a295b028467d4e3486938496fefa401f0b74c4f580fd89b98feda022ea": [
+    {
+      "repository": "https://github.com/FossifyOrg/Documents.git",
+      "apk_url": "https://github.com/FossifyOrg/Documents/releases/download/1.0.1/documents-6-foss-release.apk",
+      "appid": "org.fossify.documents",
+      "version_code": 6,
+      "version_name": "1.0.1",
+      "tag": "1.0.1",
+      "commit": "7eafe6722d6d9f1c2c3ee346994aad5e05a257e7",
+      "timestamp": 1785623381,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -139815,6 +139830,21 @@
       "tag": "v0.3.1",
       "commit": "12ad6c2cdd3fb50ccda05c972fe161258f7845e4",
       "timestamp": 1719349666,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1106679ba342fa8818460218c32e70c591560cf74252eafc23e8b279bf0ef91d": [
+    {
+      "repository": "https://codeberg.org/Iamlooker/plainer.git",
+      "apk_url": "https://codeberg.org/Iamlooker/plainer/releases/download/v0.3.0/app-release.apk",
+      "appid": "sh.looker.plainer",
+      "version_code": 3,
+      "version_name": "0.3.0",
+      "tag": "v0.3.0",
+      "commit": "e95fd731e20ecf940c71ce8d0844fa2a2cece953",
+      "timestamp": 1785626245,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
