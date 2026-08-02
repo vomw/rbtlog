@@ -2,7 +2,7 @@
 repository: https://github.com/vladislav805/RFM-Radio.git
 updates: releases
 notes:
-  - for the release following v0.8.0, replace NDK 27.3 by 29.0.14033849
+  - for the release following v0.8.0, remove NDK 27.3 from provisioning, gradle takes care for NDK now.
 versions:
   - tag: v0.6.3
     apks:
