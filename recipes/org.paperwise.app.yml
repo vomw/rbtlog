@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/prateek54353/PaperWise.git
-updates: releases
+updates: disabled
+notes:
+  - RBs fail due to missing code, for v2.1.0 and v2.4.0 as well
 versions:
   - tag: v1.0.0
     apks:
