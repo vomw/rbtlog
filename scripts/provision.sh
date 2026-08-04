@@ -72,9 +72,11 @@ else
   test "$( git rev-parse HEAD )" = "${APP_COMMIT}"
 fi
 
-if [ -e .gitmodules ]; then
-  sed -r 's!url = git@([a-z.]+):!url = https://\1/!' -i .gitmodules
-  retry 5 git submodule update --init --recursive
+if [ "${RECURSE_GIT_SUBMODULES}" = yes ]; then
+  if [ -e .gitmodules ]; then
+    sed -r 's!url = git@([a-z.]+):!url = https://\1/!' -i .gitmodules
+    retry 5 git submodule update --init --recursive
+  fi
 fi
 
 if [ "${VERIFY_GRADLE_WRAPPER}" = yes ]; then
