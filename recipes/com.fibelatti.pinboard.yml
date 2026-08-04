@@ -1282,3 +1282,38 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.18.1
+    apks:
+      - apk_pattern: com.fibelatti.pinboard-.*-release\.apk
+        apk_url: https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.18.1/com.fibelatti.pinboard-v3.18.1-3180100-release.apk
+        build:
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=3e82c2d6a497de5d4201e47d4dc0ba7d99df4c5f
+          - for _ in {1..1}; do
+          - ./gradlew clean assemble --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "${PROF_FILE}"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/release/com.fibelatti.pinboard*release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

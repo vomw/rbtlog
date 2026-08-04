@@ -20663,6 +20663,19 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    },
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/1.7.0/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 27,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "e8c0f9a83d088119e8ac4e240fc9bab8d1a03540",
+      "timestamp": 1785851483,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
@@ -26166,6 +26179,21 @@
       "maintainer_notes": null
     }
   ],
+  "cc8cfd7d53fdc5dc3f1a21a9380797cb8543409ae810447b1e3e23dfce0e4504": [
+    {
+      "repository": "https://github.com/phsycologicalFudge/SafeHaven-Store.git",
+      "apk_url": "https://github.com/phsycologicalFudge/SafeHaven-Store/releases/download/v2.0.8/safehaven-store.apk",
+      "appid": "com.colourswift.safehaven",
+      "version_code": 2015,
+      "version_name": "2.0.8",
+      "tag": "v2.0.8",
+      "commit": "d29b07a05f1f096fdbf21278ef96a67afbc1cdc2",
+      "timestamp": 1785851662,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -26761,6 +26789,21 @@
       "tag": "v1.56",
       "commit": "4fa0ea2000884488142e82efd57c5c0e8f5e76b8",
       "timestamp": 1783103487,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c54c605daf6bf9e9c7cc676205d97f30da59de5ee51875e82f496dd1c29dac2d": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.57/networksurvey-1.57-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 116002,
+      "version_name": "1.57",
+      "tag": "v1.57",
+      "commit": "8dd30840f1ec1637704931ccd6d6797b6fb47569",
+      "timestamp": 1785852497,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -29026,6 +29069,21 @@
       "tag": "v5.3.0",
       "commit": "94529c795164146b76feb499c09c10d1a00666ec",
       "timestamp": 1784123481,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f4f7327e9bb29cd5d132681c108477045b9e1e5d508019bea6b0afacb6e25c7f": [
+    {
+      "repository": "https://github.com/hushenghao/AndroidEasterEggs.git",
+      "apk_url": "https://github.com/hushenghao/AndroidEasterEggs/releases/download/v5.4.0/easter_eggs_5.4.0_80-foss-product-release.apk",
+      "appid": "com.dede.android_eggs",
+      "version_code": 80,
+      "version_name": "5.4.0",
+      "tag": "v5.4.0",
+      "commit": "f349370e62698269523b5d04a24518e7752a229b",
+      "timestamp": 1785852708,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -33019,6 +33077,21 @@
       "maintainer_notes": null
     }
   ],
+  "9d4b0cb0ddf0f4612e409f9885b69c41a87ccc378b35e481277665581e97b16d": [
+    {
+      "repository": "https://github.com/Dhangofa/NetToggle.git",
+      "apk_url": "https://github.com/Dhangofa/NetToggle/releases/download/v1.0.32/NetToggle.apk",
+      "appid": "com.dhangofa.networktoggle",
+      "version_code": 32,
+      "version_name": "1.0.32",
+      "tag": "v1.0.32",
+      "commit": "ee3963588fbc5882396ba52f8bad10b6f6b7d5a4",
+      "timestamp": 1785853174,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d11b3697d530801ac022f41ef134c38af06f0f6a369e48ac5ab5bc16e2a19ec6": [
     {
       "repository": "https://github.com/dimrnhhh/moneytopia.git",
@@ -35774,6 +35847,21 @@
       "tag": "v4.23.1",
       "commit": "1bad660371fe904dd5102052432246248dbbd980",
       "timestamp": 1785765698,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "34da2fc78d71ad9733a80f0c4a398521cf9a0baa153679b09cca108261a8cb95": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.23.2/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 41,
+      "version_name": "4.23.2",
+      "tag": "v4.23.2",
+      "commit": "a3e6a661e5d12f271322be1bd1f6f6f3eaf1ac50",
+      "timestamp": 1785867938,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -38732,6 +38820,21 @@
       "maintainer_notes": null
     }
   ],
+  "cdecfe5b4db01358a87aeda47e52fc27ddd3bab97323185e3cd6fbd58264a6cf": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.18.1/com.fibelatti.pinboard-v3.18.1-3180100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3180100,
+      "version_name": "3.18.1",
+      "tag": "v3.18.1",
+      "commit": "2003a9f1e1d26032627f697c071e10db5e0a4fc9",
+      "timestamp": 1785853223,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b5e4c373e2ef37f84ac655635f57f2c29fb586ac4ee4a6de8b4a05208a9f4461": [
     {
       "repository": "https://github.com/senpl/Fit-workout-fast.git",
@@ -41112,6 +41215,21 @@
       "tag": "v1.24.6",
       "commit": "c790024491971e9f711808a5aa8d73a206d16e4d",
       "timestamp": 1785333474,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "537398865ad2c7ab01e94f65f95e7ede225fc29068fd73580e2d5df83cf82a22": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.24.7/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 182,
+      "version_name": "1.24.7",
+      "tag": "v1.24.7",
+      "commit": "a454e7b2396a37db5064939b4f17b6d9dd02854e",
+      "timestamp": 1785853610,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -51894,6 +52012,21 @@
       "maintainer_notes": null
     }
   ],
+  "9610eb1c98def9e48181e71333172455d6596ec8049cc3ff19f20f7ba1a12f46": [
+    {
+      "repository": "https://github.com/jvde-github/AIS-catcher-for-Android.git",
+      "apk_url": "https://github.com/jvde-github/AIS-catcher-for-Android/releases/download/v2026.08.04-abf25a6/app-release-signed.apk",
+      "appid": "com.jvdegithub.aiscatcher",
+      "version_code": 115,
+      "version_name": "1.15",
+      "tag": "v2026.08.04-abf25a6",
+      "commit": "abf25a69fec1e9d6b2ca6dca6151c966489d004d",
+      "timestamp": 1785854198,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7685a15df71280f709d0c35368a2e04ca7b5822c6074695d71bed408cdccb5ef": [
     {
       "repository": "https://github.com/kaajjo/LibreSudoku.git",
@@ -54279,6 +54412,21 @@
       "maintainer_notes": null
     }
   ],
+  "ba66ee02c5fedafebc83527459c901b7c406091c85b567774d4169db0eefc781": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v1.5.7/kelani-sbd-tracker-v1.5.7.apk",
+      "appid": "com.kel.powerlifting",
+      "version_code": 98,
+      "version_name": "1.5.7",
+      "tag": "v1.5.7",
+      "commit": "329d04547655d8e6c46e4e6b62dc012ba88efc3a",
+      "timestamp": 1785854650,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": [
     {
       "repository": "https://github.com/99keshav99/CaptureSposed.git",
@@ -54559,6 +54707,21 @@
       "tag": "v1.3.1",
       "commit": "231d2ea90dafb7b5345182f520e749243b24692a",
       "timestamp": 1785593267,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cca79cf8a9e42669330c1fe9fdd110baf7ae801a814af1462d916de015262dc3": [
+    {
+      "repository": "https://github.com/kitsumed/ShizuCallRecorder.git",
+      "apk_url": "https://github.com/kitsumed/ShizuCallRecorder/releases/download/v1.3.2/ShizuCallRecorder-1.3.2.apk",
+      "appid": "com.kitsumed.shizucallrecorder",
+      "version_code": 18,
+      "version_name": "1.3.2",
+      "tag": "v1.3.2",
+      "commit": "ecea1057d45b3daa4453b15605c04a885cf72f6c",
+      "timestamp": 1785854767,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -57319,6 +57482,21 @@
       "tag": "v2.10.0",
       "commit": "1f18bea6f752db122086f89283e22cebfbd2417a",
       "timestamp": 1785430186,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8bf1353354a46aee8d0aa64f8ab2406aa3f65a0655d2003c76f799bf27cb4bef": [
+    {
+      "repository": "https://github.com/lorenzovngl/FoodExpirationDates.git",
+      "apk_url": "https://github.com/lorenzovngl/FoodExpirationDates/releases/download/v2.11/FoodExpirationDates-2.11-foss.apk",
+      "appid": "com.lorenzovainigli.foodexpirationdates.foss",
+      "version_code": 61,
+      "version_name": "2.11-foss",
+      "tag": "v2.11",
+      "commit": "c70414c7a39477475781a74e4a5b8c222310cc13",
+      "timestamp": 1785854871,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -66956,6 +67134,21 @@
       "tag": "v2.10.1",
       "commit": "d8634ab9c14aafa3ae16b16387551acbe47f7b99",
       "timestamp": 1783691818,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "018d430ad7aca05ab7eb3c2899b78e4e716120e07afa1da492aa9c34fe95d52f": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.11.0/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1027,
+      "version_name": "2.11.0",
+      "tag": "v2.11.0",
+      "commit": "95b47201980b82d6f94adcd919ed097296c52e1c",
+      "timestamp": 1785855127,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90786,6 +90979,21 @@
       "maintainer_notes": null
     }
   ],
+  "72253fb0637c533db87f4f06d042147d334be1225ee8597185f116062e0a47e9": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.8/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 82,
+      "version_name": "1.0.8-foss",
+      "tag": "v1.0.8",
+      "commit": "abdd202c022a3a59511a9f38ae003a3806fb2691",
+      "timestamp": 1785858166,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
     {
       "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
@@ -101980,6 +102188,21 @@
       "tag": "v1.12.1",
       "commit": "10458b28db0ee95c9230ab4dfd35f71d558a962a",
       "timestamp": 1785336615,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "662a6cad9cd720cfd0e61afa4f58d951b54c9d9d14e747048d0d6d691fbc77f4": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.12.2/Musicaxs-1.12.2.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 31,
+      "version_name": "1.12.2",
+      "tag": "v1.12.2",
+      "commit": "00c7fa779b132521fa824c9fe7db8e279f4be1c9",
+      "timestamp": 1785868309,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -133837,6 +134060,21 @@
       "maintainer_notes": null
     }
   ],
+  "e2989e0e9fffc3e8312ed4d3a7474c34ffa342e48d4475042f8a4df4dfae1a78": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.08.03/KashCal-2026.08.03-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 704,
+      "version_name": "2026.08.03",
+      "tag": "v2026.08.03",
+      "commit": "2b83ba05747cfb17d4201085d325686199ca040b",
+      "timestamp": 1785857481,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -136265,6 +136503,21 @@
       "maintainer_notes": null
     }
   ],
+  "864961c9b638954e19196135505210bb2da236388fc0354c37c2800726854b73": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.4.0/wizestream_v1.4.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1004000,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "1eec2cc4fa978d195cd03f18562c93d13bdadec7",
+      "timestamp": 1785872199,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
     {
       "repository": "https://github.com/woheller69/exifedit.git",
@@ -138305,6 +138558,21 @@
       "maintainer_notes": null
     }
   ],
+  "dc9fadfbe6c738f7be88c4bb37bd2adbde756de2d753df0de17a1440040f2d2d": [
+    {
+      "repository": "https://github.com/AdamGuidarini/MediTrak.git",
+      "apk_url": "https://github.com/AdamGuidarini/MediTrak/releases/download/v0.17.9/meditrak.apk",
+      "appid": "projects.medicationtracker",
+      "version_code": 57,
+      "version_name": "0.17.9",
+      "tag": "v0.17.9",
+      "commit": "15adb327ac9fbbeadf0bdb3bb9c9f93e1837c57a",
+      "timestamp": 1785856008,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c29c3b7fce2d8343740ce7d48b1316a4f8214ee2f4bb2577bd8e56fa2283eb17": [
     {
       "repository": "https://github.com/iamrasel/crushr.git",
@@ -139350,6 +139618,21 @@
       "tag": "1.9.10",
       "commit": "dabf30f8bfb23732630cb23440295a04341bcc79",
       "timestamp": 1785766838,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "32e5ccef320cc45522c7826511c175b5f7ee75034ba71794c38b2bf75894c69a": [
+    {
+      "repository": "https://github.com/pewaru-333/HomeMedkit-App.git",
+      "apk_url": "https://github.com/pewaru-333/HomeMedkit-App/releases/download/1.9.11/HomeMedkit.apk",
+      "appid": "ru.application.homemedkit",
+      "version_code": 76,
+      "version_name": "1.9.11",
+      "tag": "1.9.11",
+      "commit": "e0e2039965a80d376fc9c99bf38c73757ff43ea7",
+      "timestamp": 1785856136,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
