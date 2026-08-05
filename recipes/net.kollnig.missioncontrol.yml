@@ -58,3 +58,59 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '2026080501'
+    apks:
+      - apk_pattern: TrackerControl-githubRelease-latest\.apk
+        apk_url: https://github.com/TrackerControl/tracker-control-android/releases/download/2026080501/TrackerControl-githubRelease-latest.apk
+        build:
+          - sed -r '/signingConfigs \{/,/^    \}/d' -i app/build.gradle
+          - RUST_TOOLCHAIN=$(sed -rn 's/channel\s*=\s*"(.+)\".*/\1/p' rust-toolchain.toml)
+          - RUST_PROFILE=$(sed -rn 's/profile\s*=\s*"(.+)\".*/\1/p' rust-toolchain.toml)
+          - CARGO_NDK_VERSION=$(sed -rn 's/CARGO_NDK_VERSION=(\S+)/\1/p' scripts/setup_rust_android.sh)
+          - mkdir rustup
+          - tar xf "${PROVISIONING_CACHE_RUSTUP_PATH}" --strip-components=1 -C rustup/
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --profile $RUST_PROFILE --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install "cargo-ndk@${CARGO_NDK_VERSION}" --locked
+          - cargo fetch --manifest-path "${BUILD_REPO_DIR}/wgbridge-rs/Cargo.toml" --locked
+          - chmod +x gradlew
+          - ./gradlew assembleGithubRelease
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace app/build/outputs/apk/github/release/TrackerControl*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /Users/konrad
+        build_repo_dir: /Users/konrad/StudioProjects/tracker-control-android
+        build_timeout: 30
+        build_user: konrad
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+            - name: rustup
+              file_name: rustup.tar.gz
+              version: 1.29.0
+              url: https://api.github.com/repos/rust-lang/rustup/tarball/1.29.0
+              sha256: b933c6f1860a0b295037149b09d4d494ea4e14d4bd732f54cc028987edaafb50
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - build-essential
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 27.2.12479018
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

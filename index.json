@@ -12252,6 +12252,21 @@
       "maintainer_notes": null
     }
   ],
+  "daa659b62d4b8b37667d49458743b54ffae131390810753b519ccfef4b157078": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.43.2/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3043002,
+      "version_name": "3.43.2",
+      "tag": "3.43.2",
+      "commit": "ffd752c20fa280bcdf8e703706245e18089ee0e6",
+      "timestamp": 1785937886,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c42bd4fbe5938808d5b7b733167d11ddb04983406b59c6ab8272ffcea364e5e2": [
     {
       "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
@@ -13703,6 +13718,21 @@
       "commit": "b04015c2c8f4c07be6127a64a22866cba0408ef2",
       "timestamp": 1784304682,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "249648e4b6155f1493b4b356921075290b1673ab4de8fe6a07f2a38ea261784a": [
+    {
+      "repository": "https://github.com/yjeanrenaud/yj_nearbyglasses.git",
+      "apk_url": "https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.9/yj_nearbyglasses_1.0.9.apk",
+      "appid": "ch.pocketpc.nearbyglasses",
+      "version_code": 10,
+      "version_name": "1.0.9",
+      "tag": "v1.0.9",
+      "commit": "e471f095e9466da0a68ce9b5099cda39346018f5",
+      "timestamp": 1785943776,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -26149,6 +26179,21 @@
       "maintainer_notes": null
     }
   ],
+  "2d62eab221a416627aebc8784c2e09e1c72bb836bf3c665925d6b46b115e33bb": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.12.2/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 43,
+      "version_name": "1.12.2",
+      "tag": "v1.12.2",
+      "commit": "26fd3330499faefec1027ea8210132f5e99fbc92",
+      "timestamp": 1785954340,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5adb70d875f12cfe93c06c5cc0b1121d208f256ded161792b254173466bee3d": [
     {
       "repository": "https://github.com/phsycologicalFudge/SafeHaven-Store.git",
@@ -28169,6 +28214,21 @@
       "tag": "v3.7.2",
       "commit": "c8f7d92bf3de87eea950c20ec98c947f504263de",
       "timestamp": 1785247213,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9ac0511893079024e15fd8aef2f1fb59af0a7260ff800bd4acb4f9d083907dc0": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.8.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 308000000,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "545cebd996e6f9b3a435af475382e3c5290990d7",
+      "timestamp": 1785951452,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35282,6 +35342,21 @@
       "maintainer_notes": null
     }
   ],
+  "db6d29da73a65accbd5bab0d2209f2a86bbd06e126d44a56dadf9a4cbb7e81a3": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.8.9-alpha/YagniLauncher-v0.8.9-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 89,
+      "version_name": "0.8.9-alpha",
+      "tag": "v0.8.9-alpha",
+      "commit": "ac253e8930b804b3dae977cb381afd8908cd5ac8",
+      "timestamp": 1785938160,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -38260,6 +38335,21 @@
       "tag": "v1.44.3",
       "commit": "3af4942dd15943fdae3765d0761b3dafb952e71d",
       "timestamp": 1783276910,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "469baa26a8ee4aa5c5ba3ba5dfe77dc976865c095b26dc7efde36278482524aa": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.45.0/com.fibelatti.photowidget-v1.45-1450000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1450000,
+      "version_name": "1.45",
+      "tag": "v1.45.0",
+      "commit": "b8d31d63e822df8b7d4d97ae385c004292fcf6e6",
+      "timestamp": 1785938362,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -47989,6 +48079,21 @@
       "tag": "10.1.1",
       "commit": "b732e3de113e14540bca692c116d3558bc625c45",
       "timestamp": 1784385849,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "982623d9953be1832faae5a4d015fc6c0e213d01e182424e7677c91bb925194a": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.2.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2177,
+      "version_name": "10.2.0",
+      "tag": "10.2.0",
+      "commit": "25d10f996172003746eb394c17b623df10cd50c0",
+      "timestamp": 1785938683,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65714,6 +65819,21 @@
       "maintainer_notes": null
     }
   ],
+  "63ad7d33fd3087d63bca21fcfdbfa63697fc656c2e8171de8170ed1c190f48b0": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.1.0/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 9,
+      "version_name": "1.1.0",
+      "tag": "1.1.0",
+      "commit": "75b2be2c96323e99576d32638454f61a4d820eb5",
+      "timestamp": 1785953653,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -69759,6 +69879,21 @@
       "tag": "v3.7.0",
       "commit": "5af3405efa95bf80e03f40f5042dd952bb495828",
       "timestamp": 1784477424,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "da26b8468d659cf954b81c2dc4eb7c76323ab9819fd65667e8e48260fbf4480e": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.8.0/WeatherMaster.v3.8.0.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 58,
+      "version_name": "3.8.0",
+      "tag": "v3.8.0",
+      "commit": "5aa163f9198bc254dd751b211ce7af16407fb564",
+      "timestamp": 1785950341,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -85688,6 +85823,21 @@
       "maintainer_notes": null
     }
   ],
+  "cae2764f074dbc3cd2da24f7cfefebccc7d9bc41ba6d3f364476f54f7f607749": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.94.0/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1940,
+      "version_name": "1.94.0-foss",
+      "tag": "v1.94.0",
+      "commit": "f9e823c177a17361a5dcda28d3157cede558075d",
+      "timestamp": 1785939617,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9e4298023b2128524e379198ca77dedabf22e0ab05381c5af54fd4d280a35c08": [
     {
       "repository": "https://github.com/Vauth/salty-app.git",
@@ -91004,6 +91154,21 @@
       "tag": "v1.0.8",
       "commit": "abdd202c022a3a59511a9f38ae003a3806fb2691",
       "timestamp": 1785858166,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8cd8ac06a42ab26e54a04d8b4efe5f714189b943bac2861d6ee0ea5a9e5eebfe": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.9/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 83,
+      "version_name": "1.0.9-foss",
+      "tag": "v1.0.9",
+      "commit": "040f1fedca377af133bdead60ed59f19ee2ef93b",
+      "timestamp": 1785955230,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98173,6 +98338,21 @@
       "maintainer_notes": null
     }
   ],
+  "4c9788f192dd62cd575e33deb851aa1b38f4117681d2ac6567a1c189bcc3a57e": [
+    {
+      "repository": "https://codeberg.org/bg443/Skylib.git",
+      "apk_url": "https://codeberg.org/bg443/Skylib/releases/download/v1.1.0/Skylib-release.apk",
+      "appid": "dev.bg.skylib",
+      "version_code": 9,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "9ee57948cbe826126393deb0571febc4c6f69b07",
+      "timestamp": 1785939819,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4d1fef25c34d8783de0bf3090151e5e01f0150337ccb9c114ee3d432fb0ad826": [
     {
       "repository": "https://github.com/minburg/outspoke.git",
@@ -105289,6 +105469,21 @@
       "tag": "v0.8.1-rc0",
       "commit": "da63c2df3ca36da26d36b20f33d852568ea7b808",
       "timestamp": 1780169723,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a18504556ef6ad8758c2ac6168bcdcb3ae135b0038689a3314aa6aa7c6ea787c": [
+    {
+      "repository": "https://github.com/d4rken/airplanes-live-app.git",
+      "apk_url": "https://github.com/d4rken-org/airplanes-live-app/releases/download/v0.8.2-rc0/eu.darken.apl-v0.8.2-rc0-802000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.apl",
+      "version_code": 802000,
+      "version_name": "0.8.2-rc0",
+      "tag": "v0.8.2-rc0",
+      "commit": "daec8a3eb52ef1c98e44f6d275585e7ae334110b",
+      "timestamp": 1785939997,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116945,6 +117140,21 @@
       "maintainer_notes": null
     }
   ],
+  "21f25e3e59e072c8653c7060486f87b99a9f15559f945cf30a03e22afe9aae21": [
+    {
+      "repository": "https://github.com/Tommy-Geenexus/usb-dongle-control.git",
+      "apk_url": "https://github.com/Tommy-Geenexus/usb-dongle-control/releases/download/v3.3.0/app-release.apk",
+      "appid": "io.github.tommygeenexus.usbdonglecontrol",
+      "version_code": 9,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "805aa3ad8db65af918b472dd36cdc85fc9d2fd6f",
+      "timestamp": 1785944660,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "91cc0db77f4c805e0b1b10df7f966816e73a6e29b5263f4050272f49c685729a": [
     {
       "repository": "https://github.com/Turtlepaw/BlueskyRedirect.git",
@@ -117300,6 +117510,21 @@
       "tag": "26.05.1",
       "commit": "8e2249f24b33996ebd952fc0dbba018956042a63",
       "timestamp": 1778510392,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "44302b500cfc55476448c2cebec7906d95d14fefe84c625f534507b58f66ce57": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.08.1/gitnote-release-26.08.1.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 20,
+      "version_name": "26.08.1",
+      "tag": "26.08.1",
+      "commit": "ea9376675c12f365b7357cd1fd1db6cf980b4d55",
+      "timestamp": 1785940247,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122490,6 +122715,21 @@
       "tag": "2026072702",
       "commit": "1053cab6d58800a54e0b447a19499f6040186418",
       "timestamp": 1785250110,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4ed6d4179e49e76fb059068fce73c52cc03553a6ccb008efbe45e73171ef63c5": [
+    {
+      "repository": "https://github.com/TrackerControl/tracker-control-android.git",
+      "apk_url": "https://github.com/TrackerControl/tracker-control-android/releases/download/2026080501/TrackerControl-githubRelease-latest.apk",
+      "appid": "net.kollnig.missioncontrol",
+      "version_code": 2026080501,
+      "version_name": "2026.08.05",
+      "tag": "2026080501",
+      "commit": "9504d41b9f6fa1509d784e5503c084d4b428307d",
+      "timestamp": 1785940482,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -136533,6 +136773,21 @@
       "maintainer_notes": null
     }
   ],
+  "d7d0140fd6142c15156e6ec23c02557cbf13edb526c84a7bce96f99f246aad96": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.4.1/wizestream_v1.4.1.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1004001,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "5eef6de3407e69cb5c0e898b28f04ba50d385b22",
+      "timestamp": 1785940696,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
     {
       "repository": "https://github.com/woheller69/exifedit.git",
@@ -137008,6 +137263,21 @@
       "tag": "v4.3.7",
       "commit": "54e00bbaa8d285c4534a564724f2567e1f11ec44",
       "timestamp": 1782315103,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0da25e444928017e05db61853a0c86988cfeb7aa910b93dacc9ed4157fdd7e3e": [
+    {
+      "repository": "https://codeberg.org/y20k/transistor.git",
+      "apk_url": "https://codeberg.org/y20k/transistor/releases/download/v4.3.8/transistor-app-release-4.3.8.apk",
+      "appid": "org.y20k.transistor",
+      "version_code": 115,
+      "version_name": "4.3.8",
+      "tag": "v4.3.8",
+      "commit": "5445cde1a7874aeef016a6e002093455d68515b7",
+      "timestamp": 1785955650,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -140833,6 +141103,21 @@
       "tag": "v1.45",
       "commit": "324ebd78fd060693bc0267ea0ac22495f09dfe74",
       "timestamp": 1781706255,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "58b7dd326bc8f6b4d2af4dc316c2cd57c83bfb32e879363a8fc034f067ffae71": [
+    {
+      "repository": "https://github.com/Coffee-Viking/sms-shield.git",
+      "apk_url": "https://github.com/Coffee-Viking/sms-shield/releases/download/v1.46/sms-shield_1.46.apk",
+      "appid": "ski.wischnew.shield",
+      "version_code": 146,
+      "version_name": "1.46",
+      "tag": "v1.46",
+      "commit": "81bf7d277348627c19d2f4fca6e94fe4fd183419",
+      "timestamp": 1785941051,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -106,3 +106,51 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.3.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/Tommy-Geenexus/usb-dongle-control/releases/download/v3.3.0/app-release.apk
+        build:
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - sed -r '/signingConfigs.findByName/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=f14ce8e4fca7a5a1f43421579c2ff55f86354ea5
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
