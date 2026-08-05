@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/mburgosfr-star/kelani-sbd-tracker.git
-updates: releases
+updates: disabled
+notes:
+  - app rebranded to com.kelani.sbdtracker
 versions:
   - tag: v0.6.4
     apks:
