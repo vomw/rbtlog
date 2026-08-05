@@ -240,6 +240,12 @@
                         "null"
                       ]
                     },
+                    "recurse_git_submodules": {
+                      "description": "whether to recursively clone all git submodules (not required, older logs don't have this)",
+                      "type": [
+                        "boolean"
+                      ]
+                    },
                     "tools": {
                       "description": "optional Android SDK tools version",
                       "type": [

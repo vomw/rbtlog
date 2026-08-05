@@ -91,6 +91,7 @@ class Provisioning:
     ndk: Optional[str]
     platform: Optional[str]
     platform_tools: Optional[str]
+    recurse_git_submodules: Optional[bool]
     tools: Optional[str]
     verify_git: bool
     verify_gradle_wrapper: bool
@@ -102,8 +103,9 @@ class Provisioning:
             cached_tools=[cached_tool.for_json() for cached_tool in self.cached_tools],
             cmake=self.cmake, cmdline_tools=self.cmdline_tools.for_json(), extra_packages=self.extra_packages,
             image=self.image, jdk=self.jdk, ndk=self.ndk, platform=self.platform,
-            platform_tools=self.platform_tools, tools=self.tools, verify_git=self.verify_git,
-            verify_gradle_wrapper=self.verify_gradle_wrapper, windows_like=self.windows_like)
+            platform_tools=self.platform_tools, recurse_git_submodules=self.recurse_git_submodules,
+            tools=self.tools, verify_git=self.verify_git, verify_gradle_wrapper=self.verify_gradle_wrapper,
+            windows_like=self.windows_like)
 
 
 @dataclass(frozen=True)
@@ -160,7 +162,7 @@ def parse_yaml(recipe_file: str, *, validate: bool = True) -> AppRecipe:
     >>> data.updates
     'releases'
     >>> data.versions[0]
-    BuildRecipe(repository='https://github.com/CatimaLoyalty/Android.git', tag='v2.27.0', apk_pattern='app-release\\.apk', apk_url='https://github.com/CatimaLoyalty/Android/releases/download/v2.27.0/app-release.apk', build='./gradlew assembleRelease\nmv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk\n', build_cpus=None, build_dirs=(), build_home_dir='/build', build_repo_dir='/build/repo', build_timeout=None, build_user='build', provisioning=Provisioning(android_home='/opt/sdk', build_tools=None, cmake=None, cmdline_tools=Download(version='12.0', url='https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', sha256='2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258'), extra_packages=(), image='debian:bookworm-slim', jdk='openjdk-17-jdk-headless', ndk=None, platform=None, platform_tools=None, tools=None, verify_git=True, verify_gradle_wrapper=True, windows_like=False))
+    BuildRecipe(repository='https://github.com/CatimaLoyalty/Android.git', tag='v2.27.0', apk_pattern='app-release\\.apk', apk_url='https://github.com/CatimaLoyalty/Android/releases/download/v2.27.0/app-release.apk', build='./gradlew assembleRelease\nmv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk\n', build_cpus=None, build_dirs=(), build_home_dir='/build', build_repo_dir='/build/repo', build_timeout=None, build_user='build', provisioning=Provisioning(android_home='/opt/sdk', build_tools=None, cmake=None, cmdline_tools=Download(version='12.0', url='https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip', sha256='2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258'), extra_packages=(), image='debian:bookworm-slim', jdk='openjdk-17-jdk-headless', ndk=None, platform=None, platform_tools=None, recurse_git_submodules=None, tools=None, verify_git=True, verify_gradle_wrapper=True, windows_like=False))
 
     """
     with open(recipe_file, encoding="utf-8") as fh:
@@ -214,6 +216,7 @@ def parse_yaml(recipe_file: str, *, validate: bool = True) -> AppRecipe:
                         ndk=prov["ndk"],
                         platform=prov["platform"],
                         platform_tools=prov["platform_tools"],
+                        recurse_git_submodules=prov.get("recurse_git_submodules", True),
                         tools=prov["tools"],
                         verify_git=prov.get("verify_git", True),
                         verify_gradle_wrapper=prov["verify_gradle_wrapper"],
@@ -491,6 +494,7 @@ def podman_docker_cmd(recipe: BuildRecipe, backend: BuildBackend, cached_tools_w
 
 def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
     """Create build env from recipe."""
+    recurse_git_submodules = "yes" if recipe.provisioning.recurse_git_submodules else "no"
     verify_git = "yes" if recipe.provisioning.verify_git else "no"
     verify_gradle_wrapper = "yes" if recipe.provisioning.verify_gradle_wrapper else "no"
     windows_like = "yes" if recipe.provisioning.windows_like else "no"
@@ -510,6 +514,7 @@ def build_env(recipe: BuildRecipe, commit: str) -> Dict[str, str]:
         PROVISIONING_NDK=recipe.provisioning.ndk or "",
         PROVISIONING_PLATFORM=recipe.provisioning.platform or "",
         PROVISIONING_PLATFORM_TOOLS=recipe.provisioning.platform_tools or "",
+        RECURSE_GIT_SUBMODULES=recurse_git_submodules,
         PROVISIONING_TOOLS=recipe.provisioning.tools or "",
         VERIFY_GIT=verify_git,
         VERIFY_GRADLE_WRAPPER=verify_gradle_wrapper,
