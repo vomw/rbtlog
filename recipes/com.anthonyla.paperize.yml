@@ -624,3 +624,52 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v4.0.3
+    apks:
+      - apk_pattern: paperize-.*\.apk
+        apk_url: https://github.com/Anthonyy232/Paperize/releases/download/v4.0.3/paperize-v4.0.3.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=9cc1aa2b35366bcbfa187abcbc1d48bb12555ad3
+          - for _ in {1..10}; do
+          - gradlew.py/gradlew.py -v clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_timeout: 50
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 26.3.11579264
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
