@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/ahmadrezagh671/Pixabay_Android_App.git
-updates: releases
+updates: disabled
+notes:
+  - no longer builds due to proprietary dependencies (Firebase Analytics, GMS etc), see https://github.com/ahmadrezagh671/Pixabay_Android_App/issues/3
 versions:
   - tag: v1.2
     apks:

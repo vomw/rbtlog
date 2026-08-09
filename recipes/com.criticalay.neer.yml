@@ -4,7 +4,7 @@ updates: releases
 versions:
   - tag: v2.01.00
     apks:
-      - apk_pattern: app-release\.apk
+      - apk_pattern: neer-.*\.apk
         apk_url: https://github.com/criticalAY/Neer/releases/download/v2.01.00/neer-2.01.00.apk
         build:
           - sed -r 's/signingConfigs.getByName\(.debug.\)/null/' -i app/build.gradle.kts

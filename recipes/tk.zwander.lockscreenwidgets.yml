@@ -1506,3 +1506,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 4.4.1
+    apks:
+      - apk_pattern: WidgetsAnywhere.*\.apk
+        apk_url: https://github.com/zacharee/LockscreenWidgets/releases/download/4.4.1/WidgetsAnywhere_4.4.1-release.apk
+        build:
+          - mkdir -p ${ANDROID_HOME}/platforms/android-37.0
+          - wget https://github.com/Reginer/aosp-android-jar/raw/refs/heads/main/android-37/android-jdk21.jar -qO "${ANDROID_HOME}"/platforms/android-37.0/android.jar
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/LockscreenWidgets/LockscreenWidgets
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform: android-37.0
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

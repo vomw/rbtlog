@@ -1414,3 +1414,45 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.33.0
+    apks:
+      - apk_pattern: app-foss-release\.apk
+        apk_url: https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.33.0/app-foss-release.apk
+        build:
+          - git reset --soft d710abfc1255f77eab659d681aebb26ebf088a53
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/fossRelease/compileFossReleaseArtProfile/baseline.prof
+          - PROF_SHA1=5fbfff381b186d7bee802d8c89f00159b7b14018
+          - for _ in {1..10}; do
+          - ./gradlew clean assembleFossRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/app-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

@@ -8367,6 +8367,21 @@
       "maintainer_notes": null
     }
   ],
+  "8d386e3871d92d58ce4a2060751eadc2729c4c7fb0a8d44524b186071eaaec89": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.9.12/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 32,
+      "version_name": "1.9.12",
+      "tag": "v1.9.12",
+      "commit": "b3b24bd3a9351f6ea6fc3090023a10cb7de1be53",
+      "timestamp": 1786302573,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -11152,6 +11167,21 @@
       "tag": "v1.2.2",
       "commit": "a154944775e461926f9046a2639fd1cd92768dec",
       "timestamp": 1781547901,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a77480679507edde0b6f7729d08851bfd90d76ad616fd11b44f673e8f8215a58": [
+    {
+      "repository": "https://github.com/FrankHJCuypers/gaai.git",
+      "apk_url": "https://github.com/FrankHJCuypers/gaai/releases/download/v1.3.0/Gaai-v103000-1.3.0-10-gc72253b-release.apk",
+      "appid": "be.cuypers_ghys.gaai",
+      "version_code": 103000,
+      "version_name": "1.3.0-10-gc72253b",
+      "tag": "v1.3.0",
+      "commit": "c72253b24195e1f976b36c35a7ee6ebb2499a359",
+      "timestamp": 1786283567,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -28324,6 +28354,21 @@
       "maintainer_notes": null
     }
   ],
+  "99dd582d1a39e1a0c30cbe89aeffb06274ce51451f1041218e1f4f78cee9c5a4": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.8.1/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 308010000,
+      "version_name": "3.8.1",
+      "tag": "v3.8.1",
+      "commit": "0b56612f8e983568f17cf926b929d3ff71d4b63b",
+      "timestamp": 1786283800,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -40150,6 +40195,21 @@
       "tag": "v3.2.0",
       "commit": "f8c009d44a07b5360ba827838b04069574dd2ead",
       "timestamp": 1785613077,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e569595f21d779e800837a6aa3f58a00020c53dae17dbd29cd50e3d7696e32c": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.2.1/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 18,
+      "version_name": "3.2.1",
+      "tag": "v3.2.1",
+      "commit": "f1daffdbd332cecfd0eec74a420cb00b893f7d7a",
+      "timestamp": 1786284128,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -52342,6 +52402,21 @@
       "maintainer_notes": null
     }
   ],
+  "fea6c836d2dfb2958a05a85d441975365152de7fec71213c2553198b7731bbde": [
+    {
+      "repository": "https://github.com/jvde-github/AIS-catcher-for-Android.git",
+      "apk_url": "https://github.com/jvde-github/AIS-catcher-for-Android/releases/download/v2026.08.09-d7a71a1/app-release-signed.apk",
+      "appid": "com.jvdegithub.aiscatcher",
+      "version_code": 118,
+      "version_name": "1.18",
+      "tag": "v2026.08.09-d7a71a1",
+      "commit": "d7a71a168f2bd7e5c7646ee0fa9858a57831015e",
+      "timestamp": 1786284291,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7685a15df71280f709d0c35368a2e04ca7b5822c6074695d71bed408cdccb5ef": [
     {
       "repository": "https://github.com/kaajjo/LibreSudoku.git",
@@ -53747,6 +53822,21 @@
       "tag": "v2.0.7",
       "commit": "c20779fededc95cb3012199eb584cd67bdb30647",
       "timestamp": 1786197184,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "04efcd19d538eaf648e7d15bd53ad89bca7ccd28ed1993889e66730b8df98c5d": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.8/kelani-sbd-tracker-v2.0.8.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 108,
+      "version_name": "2.0.8",
+      "tag": "v2.0.8",
+      "commit": "2debf713f0d84dbce93a4e06b4f4cccec702d83d",
+      "timestamp": 1786284562,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62908,6 +62998,21 @@
       "tag": "v1.32.0",
       "commit": "6187e24c34966fd27dca1f6a065a4358747a4527",
       "timestamp": 1784057475,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2ec4339087c35840407bc26852c2917dd94458647960320eb1ab68997c2d3d3b": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.33.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 134,
+      "version_name": "1.33.0",
+      "tag": "v1.33.0",
+      "commit": "88c7c719e12e8497ee0b0076bd1706f3d5defe56",
+      "timestamp": 1786284643,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -74219,6 +74324,21 @@
       "maintainer_notes": null
     }
   ],
+  "6273d87f11572196dd34666b57e0436b6f18da3f29014fd2da03fc3ddebb7f2f": [
+    {
+      "repository": "https://github.com/roozbehzarei/filester.git",
+      "apk_url": "https://github.com/roozbehzarei/filester/releases/download/v3.1.1/filester-foss-universal.apk",
+      "appid": "com.roozbehzarei.filester",
+      "version_code": 21,
+      "version_name": "3.1.1-foss",
+      "tag": "v3.1.1",
+      "commit": "f9eee2e5403c478d11bbb6bf73927db64c591ce9",
+      "timestamp": 1786284789,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07ed957a9178e32b7cc9643812881775721f9e27b1ab42a6773171e30ed98bd1": [
     {
       "repository": "https://github.com/iamr0s/Dhizuku.git",
@@ -76284,6 +76404,21 @@
       "tag": "v1.4",
       "commit": "8e94c093506d3e419b43a9718effae7540c80ab6",
       "timestamp": 1768750549,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "56d603143a03446b935d4b75a9c20a33d3faf6c04425bada88c9f77678897327": [
+    {
+      "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
+      "apk_url": "https://github.com/shalenMathew/MovieFlix_App/releases/download/v1.5/MovieFlix-v1.5.apk",
+      "appid": "com.shalenmathew.movieflix",
+      "version_code": 6,
+      "version_name": "1.5",
+      "tag": "v1.5",
+      "commit": "a8e571a14adcae10c61349e8e574b79f2c9dfe07",
+      "timestamp": 1786303129,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -79115,6 +79250,21 @@
       "tag": "6.5.1",
       "commit": "b9d26d15b16f1780d23d29c17f155ab14cf5be6f",
       "timestamp": 1784645403,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "32222948389550f5482fc600cfddd530a2a4ecc8056470ab48fbd188b961c943": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.5.2/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6520,
+      "version_name": "6.5.2",
+      "tag": "6.5.2",
+      "commit": "fee86e65a7100cd4bc641998c1096db40fc44002",
+      "timestamp": 1786284926,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -97763,6 +97913,21 @@
       "tag": "v0.17.4",
       "commit": "2ce6c4ab665bfc415cda3ff918ed87070c30bfe8",
       "timestamp": 1785009118,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6940213f27a59ffac0c664b8a09f5bb6d8419220e7dea67eec0bd08146c2b5d8": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.17.5/nextplayer-v0.17.5-arm64-v8a.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 72,
+      "version_name": "0.17.5",
+      "tag": "v0.17.5",
+      "commit": "44c99f60be456b75ac2b7ef61208691f97e6a1cc",
+      "timestamp": 1786285428,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116420,6 +116585,21 @@
       "maintainer_notes": null
     }
   ],
+  "123c8c4111c985ec642b3476271128bd8f103464057206a5f72aba9afb91742f": [
+    {
+      "repository": "https://github.com/ronynn/karui.git",
+      "apk_url": "https://github.com/ronynn/karui/releases/download/1.7/karui-release.apk",
+      "appid": "io.github.ronynn.karui",
+      "version_code": 7,
+      "version_name": "1.7",
+      "tag": "1.7",
+      "commit": "0bb3e1c0b0c4a4c385343c09eecf92891e3736d9",
+      "timestamp": 1786301230,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7d0669c5341a389211426bbd21999cd2cefbf369647e4854444a1169ac010e7b": [
     {
       "repository": "https://github.com/sak96/read_later.git",
@@ -135050,6 +135230,21 @@
       "maintainer_notes": null
     }
   ],
+  "2704c3184670d430dad96cdc14302be8bc9b51c3166a69e32ec4d6c5c935b081": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.08.08/KashCal-2026.08.08-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 716,
+      "version_name": "2026.08.08",
+      "tag": "v2026.08.08",
+      "commit": "03c0a32002abd268d7913170d5c4638686bfd533",
+      "timestamp": 1786286243,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -144163,6 +144358,21 @@
       "tag": "4.4.0",
       "commit": "315fc49983e49598c215d7c04d5bedd018ef9a68",
       "timestamp": 1786025194,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e69e6f6dc200032daa81e8ee9f32c61e1374cd0963ca554458bbaa71f5fa1d2b": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.4.1/WidgetsAnywhere_4.4.1-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 212,
+      "version_name": "4.4.1",
+      "tag": "4.4.1",
+      "commit": "a6109248d29ab307d6fe352df48580ef13a3965f",
+      "timestamp": 1786301343,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
