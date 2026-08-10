@@ -148,3 +148,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.2.0
+    apks:
+      - apk_pattern: gfroerli-android-.*arm64-v8a\.apk
+        apk_url: https://github.com/gfroerli/app-android/releases/download/v1.2.0/gfroerli-android-1.2.0-arm64-v8a.apk
+        build:
+          - base64 -d > app/secrets.properties <<< Z2Zyb2VybGlfYXBpX2tleV9wdWJsaWM9dWFtZWxIcWJjeUxNcmxnMWlFUmZ0OVp4UkFTVEtLNkdxYkxUVjFJZzRpN0l5bEt4Z2pydVRvT0ZwUVBnM0FKUgptYXBib3hfYWNjZXNzX3Rva2VuPXBrLmV5SjFJam9pWTI5eVpXUjFiWEJqYUNJc0ltRWlPaUpqYVc5emRqRmhZell3TURJM2RubHRNalZzWXpkeFpHaHRJbjAuZU9mUFNrSnlXTXoxZEh6SlpySHVWdwo=
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-arm64-v8a*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
