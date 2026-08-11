@@ -66449,6 +66449,21 @@
       "maintainer_notes": null
     }
   ],
+  "7a858dab7bbb16f72c38b7afe5b2e2b35b61bbfac8024078429ad992b055f832": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.1.2/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 12,
+      "version_name": "1.1.2",
+      "tag": "1.1.2",
+      "commit": "1d3b58b8a39e64028ffec10fd17e3379c4fd5fd9",
+      "timestamp": 1786402256,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": "Android Studio messup (ZIP ordering differences only)"
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
