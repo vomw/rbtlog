@@ -28384,6 +28384,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca874e1a13a845793c5295b8d7136b860333db8664608e347b6e235191c8d15d": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.8.2/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 308020000,
+      "version_name": "3.8.2",
+      "tag": "v3.8.2",
+      "commit": "be4f32d859609a39ec171b68d46c777509b888e8",
+      "timestamp": 1786456353,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -35562,6 +35577,21 @@
       "tag": "v0.8.9-alpha",
       "commit": "ac253e8930b804b3dae977cb381afd8908cd5ac8",
       "timestamp": 1785938160,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e62a1f6484c2b0ccfa3093406eacd6a570ba6af42b04a213c81745308d239ef0": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.9.0-alpha/YagniLauncher-v0.9.0-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 90,
+      "version_name": "0.9.0-alpha",
+      "tag": "v0.9.0-alpha",
+      "commit": "fb9c0852cde81af1fdba649637d3b7841727624d",
+      "timestamp": 1786456816,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54007,6 +54037,21 @@
       "maintainer_notes": null
     }
   ],
+  "7d131e1742814e4bdc0c84d196fefad6712e8b8d961aed67a332aa7e07a625af": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.10/kelani-sbd-tracker-v2.0.10.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 110,
+      "version_name": "2.0.10",
+      "tag": "v2.0.10",
+      "commit": "9e17f98ebf058b31a5d0bfad7c464eea4ae691d3",
+      "timestamp": 1786457069,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -66464,6 +66509,21 @@
       "maintainer_notes": "Android Studio messup (ZIP ordering differences only)"
     }
   ],
+  "54856eb7e8d75b71cd85e3431f35d482f7fe426675c7e66af0396c0406d973a5": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.1.2-1/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 13,
+      "version_name": "1.1.2-1",
+      "tag": "1.1.2-1",
+      "commit": "1da4135a8d557b8579dd5de8049b8459d9db9f4f",
+      "timestamp": 1786473067,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -76629,6 +76689,21 @@
       "tag": "v1.5",
       "commit": "a8e571a14adcae10c61349e8e574b79f2c9dfe07",
       "timestamp": 1786303129,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "efb93f341f9534df536b45e9fece1cdfd73a46119244781f0a81e710bbe4ca50": [
+    {
+      "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
+      "apk_url": "https://github.com/shalenMathew/MovieFlix_App/releases/download/v2.0/MovieFlix-v2.0.apk",
+      "appid": "com.shalenmathew.movieflix",
+      "version_code": 7,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "38bf34800db29b4f21fc127c3badb0d754f111c4",
+      "timestamp": 1786457181,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -90784,6 +90859,21 @@
       "maintainer_notes": null
     }
   ],
+  "1f8d1872976bf78b655d4c1364d1f8eed9928d75f6d0109e127d0c10c7d8f86d": [
+    {
+      "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
+      "apk_url": "https://codeberg.org/ItsZariep/OpenNavBar/releases/download/0.0.6/opennavbar-0.0.6.apk",
+      "appid": "com.zariep.opennavbar",
+      "version_code": 6,
+      "version_name": "0.0.6",
+      "tag": "0.0.6",
+      "commit": "1ea7dcd77ffab146ffe1ae53985666654c4241ac",
+      "timestamp": 1786473369,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "002184560de26989736ee8379af777bb945c2b8a0df907f9feac0d623d37c909": [
     {
       "repository": "https://github.com/zaved707/Yet-Another-Habit-Tracker.git",
@@ -92697,6 +92787,21 @@
       "tag": "0.1.71",
       "commit": "3b30c9faa98b133956c921a30809d4a1883317a3",
       "timestamp": 1784659530,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a970aa1c280157bdf776eb34b1402976b7ba995861a4b45ec7bda611cb6729d": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.72/app-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 72,
+      "version_name": "0.1.72",
+      "tag": "0.1.72",
+      "commit": "c0d7d387237fd84d9e5d58481d9a61bec928abaa",
+      "timestamp": 1786457419,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101636,6 +101741,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "650becd8894ce331ce489657ac622a1694bab2dfc47a96de6907be28d38221a0": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.6.11/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23503,
+      "version_name": "1.6.11",
+      "tag": "v1.6.11",
+      "commit": "afecbbcce60265e4f135d4899eb6e4151a3a2e48",
+      "timestamp": 1786300767,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmplyzf2lay/outputs:/outputs', '--volume', '/tmp/tmplyzf2lay/scripts:/scripts:ro', '--volume', '/tmp/tmplyzf2lay/cache/repro-apk:/rbtlog_cache/repro-apk:ro', '--volume', '/tmp/tmplyzf2lay/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/ImranR98/Obtainium.git', '--env', 'APP_TAG=v1.6.11', '--env', 'APP_COMMIT=afecbbcce60265e4f135d4899eb6e4151a3a2e48', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/Obtainium/Obtainium', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl,python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'RECURSE_GIT_SUBMODULES=yes', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CACHE_REPRO_APK_PATH=/rbtlog_cache/repro-apk/repro-apk.tar.gz', '--env', 'PROVISIONING_CACHE_REPRO_APK_VERSION=v0.3.0', '--env', 'PROVISIONING_CACHE_REPRO_APK_SHA256=b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_PATH=/rbtlog_cache/cmdline_tools/tools.zip', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION=22.0', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_SHA256=4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/Obtainium/Obtainium && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": "build fails"
     }
   ],
   "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
@@ -116570,6 +116690,21 @@
       "maintainer_notes": null
     }
   ],
+  "6f7ced73937dabc64ca9657c00f02c70407c5debe5caaa2aa89ba46e43b0e70d": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.9.0/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 46,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "34a60a1a897e274652e4649801e62ae1b1794a57",
+      "timestamp": 1786474100,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -124205,6 +124340,21 @@
       "maintainer_notes": null
     }
   ],
+  "d36075e999d07087aeb4d1c5d635b422aacf6e8df771e7f196ff6d2573d6a8b4": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Gadgetbridge.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/download/0.93.0/gadgetbridge-0.93.0.apk",
+      "appid": "nodomain.freeyourgadget.gadgetbridge",
+      "version_code": 252,
+      "version_name": "0.93.0",
+      "tag": "0.93.0",
+      "commit": "a09e037374d0013ffc31978fc1d1ada2943280e4",
+      "timestamp": 1786462522,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2028fcb49f68e6855c6ff62bad99a15448840d448915a94a2dfb86ec5de8f047": [
     {
       "repository": "https://codeberg.org/Freeyourgadget/Internethelper.git",
@@ -131760,6 +131910,21 @@
       "tag": "v2.7.0",
       "commit": "c5e1b418fc4f8320e62d329d9ebccce2785a51ec",
       "timestamp": 1785686896,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "777d49ecf08ef81dfad4ae7e3c1aabefc8245787a25241c3a37a42e4a151e23a": [
+    {
+      "repository": "https://github.com/jellyfin/jellyfin-android.git",
+      "apk_url": "https://github.com/jellyfin/jellyfin-android/releases/download/v2.7.1/jellyfin-android-v2.7.1-libre-release.apk",
+      "appid": "org.jellyfin.mobile",
+      "version_code": 2070199,
+      "version_name": "2.7.1",
+      "tag": "v2.7.1",
+      "commit": "13abdff1cf2c157d8354b02f8e1f7d35e923260e",
+      "timestamp": 1786474481,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -147223,6 +147388,21 @@
       "tag": "2.3.6",
       "commit": "23abd559d5c308e176e4994c73dc91c487858ee6",
       "timestamp": 1783019628,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cad7c7b528412358367deeb32542a895d8d4d5ad771b758e38b16ad8cc3449fa": [
+    {
+      "repository": "https://github.com/mjaakko/NeoStumbler.git",
+      "apk_url": "https://github.com/mjaakko/NeoStumbler/releases/download/2.4.0/app-fdroid-default-release.apk",
+      "appid": "xyz.malkki.neostumbler.fdroid",
+      "version_code": 68,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "5db6a4104ea5bc98dc494db62085f3a3da1ca4b6",
+      "timestamp": 1786461537,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
