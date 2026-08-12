@@ -8742,6 +8742,21 @@
       "maintainer_notes": null
     }
   ],
+  "c25311867573b280c2ee6d6603c2bc7417f78f298302f33b5f828c6cc9712f29": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build107.2.1/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10721,
+      "version_name": "build107.2.1",
+      "tag": "build107.2.1",
+      "commit": "463f1434a4943c5f67d710041da5d9bae415a0b1",
+      "timestamp": 1786559234,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "40bd212f49bb11c0d242adaa0b0cb6bf6e1162210be3c4cc0da495ae02c7b02e": [
     {
       "repository": "https://github.com/Hamza417/Peristyle.git",
@@ -24289,6 +24304,21 @@
       "maintainer_notes": null
     }
   ],
+  "0fa659ace30e475c96698a018d91c639e5ba76a6d49900853c04a0d08d9b599e": [
+    {
+      "repository": "https://github.com/catpuppyapp/HahaNote-Release.git",
+      "apk_url": "https://github.com/catpuppyapp/HahaNote-Release/releases/download/v1.0.8/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.hahanote",
+      "version_code": 2009,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "7f3b9bfe9ee8c32528d39fce9aa0cd2328607d79",
+      "timestamp": 1786542767,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -26309,6 +26339,21 @@
       "tag": "v1.12.2",
       "commit": "26fd3330499faefec1027ea8210132f5e99fbc92",
       "timestamp": 1785954340,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3441cc9ade023752fff439080ab0ed8e94c3ab2d17efa26cfe7e543c058aa7d4": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.13.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 44,
+      "version_name": "1.13.0",
+      "tag": "v1.13.0",
+      "commit": "a9f4f9469a42dd6c2ef40cfa1391c0c6846d5edf",
+      "timestamp": 1786543311,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -34262,6 +34307,21 @@
       "maintainer_notes": null
     }
   ],
+  "bf18da7ea13a868708affa0ea19d6a6d967771944200c6364f3ef1172ff72118": [
+    {
+      "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
+      "apk_url": "https://github.com/DresOperatingSystems/DresSecureComms/releases/download/v1.8.4/DresSecureComms.apk",
+      "appid": "com.dresos.dressecurecomms",
+      "version_code": 15,
+      "version_name": "1.8.4",
+      "tag": "v1.8.4",
+      "commit": "7370c59fab3bc4b68c82edbc4149493118a30dae",
+      "timestamp": 1786543657,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b11696eed3a0e2bd1cf525d86db46d5007b960a7fd7a13f9db982420e1eaf623": [
     {
       "repository": "https://github.com/andriydruk/BonjourBrowser.git",
@@ -39960,6 +40020,21 @@
       "maintainer_notes": null
     }
   ],
+  "878d46e316a712f6c08d5a86de0a183889d083f26c26c5264295b1c8714139aa": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.4/PrivateDnsQS-v2.4-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 54,
+      "version_name": "2.4",
+      "tag": "v2.4",
+      "commit": "a8215771ad50f50f8d2f2bf9973cb2ec182705e3",
+      "timestamp": 1786543883,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -40060,6 +40135,21 @@
       "tag": "v2.3",
       "commit": "cc1b829b4fa777113d709f04957045243e82fe6c",
       "timestamp": 1784297342,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2ce6716cc2d9362e68d216c2fa1b7b2617b20a71155713594b0da532c537269b": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.4/PrivateDnsQS-v2.4-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 54,
+      "version_name": "2.4",
+      "tag": "v2.4",
+      "commit": "a8215771ad50f50f8d2f2bf9973cb2ec182705e3",
+      "timestamp": 1786543752,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -40315,6 +40405,21 @@
       "tag": "v3.2.1",
       "commit": "f1daffdbd332cecfd0eec74a420cb00b893f7d7a",
       "timestamp": 1786284128,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "005f05acc66138053ff209ed6d43f6225599145415a5077f9575f06a62dfe2a7": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.2.2/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 19,
+      "version_name": "3.2.2",
+      "tag": "v3.2.2",
+      "commit": "fb2f05492b3cb1ffd1cc1153bef82f7d1f85068a",
+      "timestamp": 1786559770,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54052,6 +54157,21 @@
       "maintainer_notes": null
     }
   ],
+  "7c5cfd8e9e4756407630c1c0ed809bc0b60c6c48d3c8963e597b9f9f0329b502": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.11/kelani-sbd-tracker-v2.0.11.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 111,
+      "version_name": "2.0.11",
+      "tag": "v2.0.11",
+      "commit": "65ccbbf888787b5bb808b568ff2ad274a8223541",
+      "timestamp": 1786544017,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -55412,6 +55532,21 @@
       "tag": "v1.3.2",
       "commit": "ecea1057d45b3daa4453b15605c04a885cf72f6c",
       "timestamp": 1785854767,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "55d4dcbb453f0050617fad5a41f5fbccb667350e3af34809ae40ec6a97285f7e": [
+    {
+      "repository": "https://github.com/kitsumed/ShizuCallRecorder.git",
+      "apk_url": "https://github.com/kitsumed/ShizuCallRecorder/releases/download/v1.3.3/ShizuCallRecorder-1.3.3.apk",
+      "appid": "com.kitsumed.shizucallrecorder",
+      "version_code": 19,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "dd940fe2caa8aa1b4c7143ad5123c9923b343abd",
+      "timestamp": 1786544111,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -74954,6 +75089,21 @@
       "maintainer_notes": null
     }
   ],
+  "8ff84495eeb293a1f4a5fb66c2f1b94bb1349c166137ed4826f3934b02fdc3b8": [
+    {
+      "repository": "https://github.com/Rve27/RvSystem-Monitor.git",
+      "apk_url": "https://github.com/Rve27/RvSystem-Monitor/releases/download/0.9-beta/app-fdroid-release.apk",
+      "appid": "com.rve.systemmonitor",
+      "version_code": 9,
+      "version_name": "0.9-beta",
+      "tag": "0.9-beta",
+      "commit": "bcb75f870495b0a67dcc5861a4f2356932c19eb5",
+      "timestamp": 1786560205,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c13727b2e85e94e32ab7f1f4e50ab5fe26640ba0dc508fd89614cfb996441ac9": [
     {
       "repository": "https://github.com/s4nj1th/pocket-dhamma.git",
@@ -76644,6 +76794,21 @@
       "tag": "v1.5.0",
       "commit": "a22bddca0b9bfc8e2a92b1222325aeb1fcaa2e9d",
       "timestamp": 1786197776,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fa712a1f875babe3aa0ad60f959d7873e7f7153eacb0f9f209c274b877cd1953": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.5.1/Minus-v1.5.1.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10501,
+      "version_name": "1.5.1",
+      "tag": "v1.5.1",
+      "commit": "4bd4fc795d6165251c145875a5413fa1c70d0240",
+      "timestamp": 1786544231,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86033,6 +86198,21 @@
       "maintainer_notes": null
     }
   ],
+  "76c245f94c8ff3c199c4137970dcc5493c01c050ceba2a79888b9930fdeed7b8": [
+    {
+      "repository": "https://github.com/tymwitko/Recents.git",
+      "apk_url": "https://github.com/tymwitko/Recents/releases/download/v1.7.3/app-release.apk",
+      "appid": "com.tymwitko.recents",
+      "version_code": 33,
+      "version_name": "1.7.3",
+      "tag": "v1.7.3",
+      "commit": "f83621f586a577c25d7179b4863e1d460b9c5256",
+      "timestamp": 1786560641,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "42e0f6ef6247b64343f572266b110a5996eb204fa1114386b9da817dad25c0a0": [
     {
       "repository": "https://github.com/ohuc/CaffeineHealth.git",
@@ -91879,6 +92059,21 @@
       "maintainer_notes": null
     }
   ],
+  "0d756d56491cd6f558550a2fd3c3825d5149a488853ef834fc6d3c108e28e0dc": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v2.1.2/PublicArtExplorer-2.1.2.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 64,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "3358a94e7a4210b47f15631011af18d04c862622",
+      "timestamp": 1786544435,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -96362,6 +96557,21 @@
       "maintainer_notes": null
     }
   ],
+  "8963f74a53e6ff80bc021ec69f917964960747c0af1466e17851cb7a6086b492": [
+    {
+      "repository": "https://codeberg.org/Cameo007/kueaplan-android.git",
+      "apk_url": "https://codeberg.org/Cameo007/kueaplan-android/releases/download/1.2.0/app-release.apk",
+      "appid": "de.mintux.kueaplan",
+      "version_code": 4,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "7d43d4d78a753284c9d66a376209d746621c8dda",
+      "timestamp": 1786544862,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1b690547503a83a2c7f4e8d26a513ae76922300c4ba3367c1caf1eee930aea11": [
     {
       "repository": "https://codeberg.org/monocles/monocles_browser.git",
@@ -99113,6 +99323,21 @@
       "tag": "v1.8.6",
       "commit": "e833486c4059abbd999c9902ca556a7ba2b1a9c7",
       "timestamp": 1786128786,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f7720c08875b07199363fc9db68adc0d8d801d4b8beaf96413fb81dd4096dc62": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.7/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 501,
+      "version_name": "1.8.7",
+      "tag": "v1.8.7",
+      "commit": "96fe3ef2171e1ca5f32d20a8b9b953a0e08c55fb",
+      "timestamp": 1786560919,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116705,6 +116930,21 @@
       "maintainer_notes": null
     }
   ],
+  "f79f66865d093f39fa4dbda20a4757875aad528dfc536d259b952587e22d3ff6": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.9.1/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 47,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "c14f34bd55e4d44259565a703bee351341579cbb",
+      "timestamp": 1786545007,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -120005,6 +120245,21 @@
       "maintainer_notes": null
     }
   ],
+  "82cb0492f282ba0bd83b0d0b62f74d9dc19edb9043ec0bd39a1a5c7bfe8d57e4": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.87/RiPlay-foss-release-0.7.87.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 88,
+      "version_name": "0.7.87",
+      "tag": "v0.7.87",
+      "commit": "b26641447dbbb9b5f8a4a9f8a59fb8e02ee76acd",
+      "timestamp": 1786545161,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -121485,6 +121740,21 @@
       "tag": "v2.44.0",
       "commit": "731833d9be1b30004dccf582b2274acf1953eda4",
       "timestamp": 1785267088,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4f01f40d06d82fc5b8cfbbc5eccd083151a86564fbd4fa420eb54aaebf668b71": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.45.0/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 1002,
+      "version_name": "2.45.0",
+      "tag": "v2.45.0",
+      "commit": "22193b1872ee0df6efa6111972b90b59a0253c4d",
+      "timestamp": 1786561507,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
