@@ -41760,6 +41760,21 @@
       "maintainer_notes": null
     }
   ],
+  "5038d6338634c2cc1fb727761bf14398a7db74dcb944562c54da6947f71984e6": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.25.1/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 184,
+      "version_name": "1.25.1",
+      "tag": "v1.25.1",
+      "commit": "f592ffdf8af94b74790cf9105efabf382e03e8f4",
+      "timestamp": 1786646259,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -48564,6 +48579,21 @@
       "maintainer_notes": null
     }
   ],
+  "5bd0c8fc777c1f78170a3172cb937c739edff74e44ef4694655f25567431b13a": [
+    {
+      "repository": "https://github.com/D-e-vGoodify/MatrixTinz.git",
+      "apk_url": "https://github.com/D-e-vGoodify/MatrixTinz/releases/download/v1.0.3/matrixtinz-release.apk",
+      "appid": "com.goodify.matrixtinz.app",
+      "version_code": 2,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "c6b99d42da7524cbd62e18fc97fcb430c5cdedde",
+      "timestamp": 1786646654,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8b6b1331eadbbd705c6dddc71c90b5c807207b5eb2e6e274500964f4aa51b008": [
     {
       "repository": "https://github.com/lukaspieper/Gcam-Services-Provider.git",
@@ -49397,6 +49427,21 @@
       "tag": "v1.13.0",
       "commit": "4cf2f06262297165e7db2fbde582bcc866a3a6a7",
       "timestamp": 1786375729,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7047c78907d3a0e4cf20df38c1ea0a9928a2398171eb38299c9a8d6d1a9a649c": [
+    {
+      "repository": "https://github.com/tfonteyn/Sshd4a.git",
+      "apk_url": "https://github.com/tfonteyn/Sshd4a/releases/download/v1.13.1/Sshd4a-1.13.1.apk",
+      "appid": "com.hardbacknutter.sshd",
+      "version_code": 22,
+      "version_name": "1.13.1",
+      "tag": "v1.13.1",
+      "commit": "ee2bfc01334e634a6fc1b93e803884dd32f2acfc",
+      "timestamp": 1786646900,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54172,6 +54217,21 @@
       "maintainer_notes": null
     }
   ],
+  "49f13b786446f7a73fd1f37e3b335018fcf4ba49b9ec763fd9747cf8019c7dc3": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.12/kelani-sbd-tracker-v2.0.12.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 112,
+      "version_name": "2.0.12",
+      "tag": "v2.0.12",
+      "commit": "c550092480973598001177d740a26cc059d92b33",
+      "timestamp": 1786647145,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -57692,6 +57752,21 @@
       "tag": "v0.5.14",
       "commit": "a48442d08eb31c62e31f3bd8a2a8dc469161890c",
       "timestamp": 1785593406,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bfbcf7e95943ac4d922ca10c96f0de038fc8c2f40a6e7d9d5b5dee2e2a24a33f": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.6.0/storii-v0.6.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5052,
+      "version_name": "0.6.0",
+      "tag": "v0.6.0",
+      "commit": "fa3fb6f22c474366633d5fe7e17108e3118c21ad",
+      "timestamp": 1786647347,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -67169,6 +67244,21 @@
       "maintainer_notes": null
     }
   ],
+  "341711b0357998bf7808fc2999798000b50dfbfb3d981ae74758749c5f32dd11": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/5G.git",
+      "apk_url": "https://github.com/OpenAppsLabs/5G/releases/download/v1.4.0/app-release.apk",
+      "appid": "com.openappslabs.fiveg",
+      "version_code": 6,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "2ed4a78cde16be5ed83a77cb293a00fa6f13d142",
+      "timestamp": 1786648027,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "81f2bb6ce251753b6bc2c70b696dbc30db0d041b8f86fc74722994252b4d5bf2": [
     {
       "repository": "https://github.com/OpenAppsLabs/Jotter.git",
@@ -68394,6 +68484,21 @@
       "tag": "v1.22.0",
       "commit": "a512e97b956f5c6e2b6a6548baeaa239830e0855",
       "timestamp": 1783520335,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "50c9d74ad453427524318c3cbe4edf8f54f15d8e2f04301f1c5ae01285fade1e": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.23.0/orgzly-revived-fdroid-1.23.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 292,
+      "version_name": "1.23.0",
+      "tag": "v1.23.0",
+      "commit": "2b56fe4c1a0c9426a1bb1313b4c757a8e66a48d0",
+      "timestamp": 1786648246,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70329,6 +70434,21 @@
       "tag": "v4.1.2",
       "commit": "f8ccdea5eb99d75d285295dc016ff367489b9b66",
       "timestamp": 1784400792,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c242649027135469329f6678d5732d98312671427d89c589eec0665366876684": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v4.1.3/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2026,
+      "version_name": "4.1.3",
+      "tag": "v4.1.3",
+      "commit": "f1fee439e987d88ba0ee058f7149c029086c1d6b",
+      "timestamp": 1786648633,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94682,6 +94802,21 @@
       "maintainer_notes": null
     }
   ],
+  "b1e871258a2d565a3a99ad0e649de25c01a2568b1df2478b265374059f8862bd": [
+    {
+      "repository": "https://github.com/hauke96/GeoNotes.git",
+      "apk_url": "https://github.com/hauke96/GeoNotes/releases/download/v1.8.0/geonotes-1.8.0.apk",
+      "appid": "de.hauke_stieler.geonotes",
+      "version_code": 1008000,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "8d751fa389beec1f7c5632e722123b05971e318e",
+      "timestamp": 1786649007,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11889eca675d73d055ca325f30545f47c8d0910f7a2e2fe8d88be0f3860998e7": [
     {
       "repository": "https://github.com/Traewelldroid/traewelldroid.git",
@@ -116960,6 +117095,21 @@
       "maintainer_notes": null
     }
   ],
+  "f00ae013024cdca7e7f6ae308b528a5b6446871197d69e5d870e0c077302b341": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.9.2/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 48,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "d21bff25351633ae5effa1517521872627a61d59",
+      "timestamp": 1786649192,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -118395,6 +118545,21 @@
       "tag": "v1.1.32",
       "commit": "4f8cbec53b6c1a55e080c05d644a52967236f406",
       "timestamp": 1785081817,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cbb24cf0a622cd10d9c26e4fdc13061d400582e088e68cc05b3731a914851d2e": [
+    {
+      "repository": "https://github.com/SMS2Email/SMS2Email.git",
+      "apk_url": "https://github.com/SMS2Email/SMS2Email/releases/download/v1.1.33/SMS2Email-v1.1.33-release.apk",
+      "appid": "io.github.sms2email.sms2email",
+      "version_code": 46,
+      "version_name": "1.1.33",
+      "tag": "v1.1.33",
+      "commit": "24136d6ce4170df85a5ce999f1442c9eddc5a7f9",
+      "timestamp": 1786649559,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
