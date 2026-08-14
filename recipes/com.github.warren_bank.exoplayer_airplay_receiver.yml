@@ -735,3 +735,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v3.14.8
+    apks:
+      - apk_pattern: .*withAllLanguageTranslations-noDecoderExtensions-release\.apk
+        apk_url: https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.14.8/ExoPlayer-AirPlay-Receiver-003.14.08-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk
+        build:
+          - cd android-studio-project
+          - GRADLE_VERSION="$(sed -r -n 's/distributionUrl.*gradle-([0-9.]+)-.*/\1/p' gradle/wrapper/gradle-wrapper.properties)"
+          - git clone https://github.com/obfusk/gradlew.py.git
+          - gradlew.py/gradlew.py --version $GRADLE_VERSION -v assembleWithAllLanguageTranslationsNoDecoderExtensionsRelease
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - OUT=ExoPlayer-AirPlay-Receiver/build/outputs/apk/withAllLanguageTranslationsNoDecoderExtensions/release/ExoPlayer-AirPlay-Receiver-*-withAllLanguageTranslations-noDecoderExtensions-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
