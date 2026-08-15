@@ -36272,6 +36272,21 @@
       "maintainer_notes": null
     }
   ],
+  "d2c5b584d30035e19c3ac8ccd6c5344cb5ae99f05fd87731ebbcd80f78177b72": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.24.0/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 42,
+      "version_name": "4.24.0",
+      "tag": "v4.24.0",
+      "commit": "4184c31fce863073e10116ed334c85d55e279e4e",
+      "timestamp": 1786818449,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -36357,6 +36372,21 @@
       "tag": "v1.0.2",
       "commit": "df9c97a9537fd76450d362e1a275fad4ee5efb71",
       "timestamp": 1775225926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "525540b36da20cfc790fda4f63597ff8272687edefdc6db357da3c9619150aaa": [
+    {
+      "repository": "https://github.com/eliasbuenosdias/GeoGas.git",
+      "apk_url": "https://github.com/eliasbuenosdias/GeoGas/releases/download/v1.0.3/GeoGas-1.0.3.apk",
+      "appid": "com.eliasbuenosdias.geogas",
+      "version_code": 6,
+      "version_name": "1.0.3",
+      "tag": "v1.0.3",
+      "commit": "a365008859f4a823f883da6c6ceccf2b25568567",
+      "timestamp": 1786801984,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -41820,6 +41850,21 @@
       "maintainer_notes": null
     }
   ],
+  "18a6ac7f5c1ed640d2e1778aa04634bb9cff96a543aa4719e32e56b28ef4b67e": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.25.2/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 185,
+      "version_name": "1.25.2",
+      "tag": "v1.25.2",
+      "commit": "7b7512e7fb6439d7e6c73c21265139c99cbc9b4b",
+      "timestamp": 1786802138,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c14f225e52b606ad28eb92cd80440df025815c44a6e10c51fcbc34910a86243f": [
     {
       "repository": "https://codeberg.org/gardockt/termux-terminal-widget.git",
@@ -43585,6 +43630,21 @@
       "tag": "3.0.3",
       "commit": "0d9cae7d81df03839f910222e33cacbb232c0bf5",
       "timestamp": 1783277396,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5474c061f08c936c91baf071019a3f5dfec681815e5e99a853451669a2f418da": [
+    {
+      "repository": "https://github.com/frimtec/pikett-assist.git",
+      "apk_url": "https://github.com/frimtec/pikett-assist/releases/download/3.0.4/app-release.apk",
+      "appid": "com.github.frimtec.android.pikettassist",
+      "version_code": 2982107,
+      "version_name": "3.0.4-Anchovy-oss",
+      "tag": "3.0.4",
+      "commit": "aa0fec9114b0547c5f148f86b0a4fc8547ee18e1",
+      "timestamp": 1786802931,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77399,6 +77459,21 @@
       "maintainer_notes": null
     }
   ],
+  "073d2db099f44e570d048618aa7b8688932fc75105f6b98d3f6240478540afb8": [
+    {
+      "repository": "https://github.com/shalenMathew/Quotes-app.git",
+      "apk_url": "https://github.com/shalenMathew/Quotes-app/releases/download/v5.5/Quotes-app-v5.5.apk",
+      "appid": "com.shalenmathew.quotesapp",
+      "version_code": 45,
+      "version_name": "5.5",
+      "tag": "v5.5",
+      "commit": "edcdf89a3a18780de7e788814484e67c3093d5d9",
+      "timestamp": 1786803081,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d63f5f50a5e435bc8cb506d42cf9c2d53761f9e73721ad8c7fae51e2732665a2": [
     {
       "repository": "https://github.com/shynoiddev/FireWall-Blocks.git",
@@ -91369,6 +91444,21 @@
       "maintainer_notes": null
     }
   ],
+  "39b6f85111b7d3f3c738e5acae1bbc998309892904769b207f704bc4733663da": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.3.1/wgtunnel-fdroid-v5.3.1-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50301,
+      "version_name": "5.3.1",
+      "tag": "5.3.1",
+      "commit": "1bedaba32b460048708d34105142ea04d55e7a8e",
+      "timestamp": 1786803519,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -99728,6 +99818,21 @@
       "tag": "v1.8.7",
       "commit": "96fe3ef2171e1ca5f32d20a8b9b953a0e08c55fb",
       "timestamp": 1786560919,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "72fee8cc7a4c619430ed3ace75efcb6f24b189afcdf9863c6c35a932d9bfc766": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.8/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 511,
+      "version_name": "1.8.8",
+      "tag": "v1.8.8",
+      "commit": "ae4450d6d641762683410e8f4a55bc569e63b9af",
+      "timestamp": 1786803885,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -110514,6 +110619,21 @@
       "maintainer_notes": null
     }
   ],
+  "21bfcea2817758450959ac79efa1f253b4779ad5b56087e8a83d229f6bbd5f33": [
+    {
+      "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
+      "apk_url": "https://github.com/FliegendeWurst/TriliumDroid/releases/download/v0.104.1-alpha18/app-release.apk",
+      "appid": "eu.fliegendewurst.triliumdroid",
+      "version_code": 23,
+      "version_name": "0.104.1-alpha18",
+      "tag": "v0.104.1-alpha18",
+      "commit": "6be2a4c7368de4aa5f4bccacf9cd6c8c2ff1a7c5",
+      "timestamp": 1786806954,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b6cb3e9a43f78f46501a0ae9bbf416a95e7c214d9b7bd90a53515d15c0f14381": [
     {
       "repository": "https://github.com/full-disclosure/android-luks.git",
@@ -112937,6 +113057,21 @@
       "tag": "v4.2.1",
       "commit": "43b451f27128dc7dda16f45e5385dac591e5b216",
       "timestamp": 1729437249,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a9e4ce5bedcce176a0c89ebd3cb043c2389ae0a8ef3dc02eb0dedcfb26652f7d": [
+    {
+      "repository": "https://github.com/WrichikBasu/ShakeAlarmClock.git",
+      "apk_url": "https://github.com/WrichikBasu/ShakeAlarmClock/releases/download/v5.0.0/ShakeAlarmClock_v5.0.0.apk",
+      "appid": "in.basulabs.shakealarmclock",
+      "version_code": 39,
+      "version_name": "5.0.0",
+      "tag": "v5.0.0",
+      "commit": "1fad9e0190625b37fd4a2d92c150db861b89fb5d",
+      "timestamp": 1786818762,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -124545,6 +124680,21 @@
       "tag": "v1.4",
       "commit": "82ae728320e73fb6a7bac1c744e923ad979d8c1a",
       "timestamp": 1786800739,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "40ef3c9f46266bad240bb71041313f534ef461cd83b873145fa922c3440a4aa2": [
+    {
+      "repository": "https://github.com/seht/volumenotification.git",
+      "apk_url": "https://github.com/seht/volumenotification/releases/download/v1.4.1/app-release.apk",
+      "appid": "net.hyx.app.volumenotification",
+      "version_code": 14100,
+      "version_name": "1.4.1",
+      "tag": "v1.4.1",
+      "commit": "39ee722aaa8561b2555c6d97ddb561e48d462fb4",
+      "timestamp": 1786818965,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -144423,6 +144573,21 @@
       "maintainer_notes": null
     }
   ],
+  "2953bd780a8b7ad3deb6c86a9937da99544338f66f7eadecf2141f22974fbae7": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.2.0/mindwtr-1.2.0-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 122,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "0452c57ae0feceb6a8353f5397ba227b81f65941",
+      "timestamp": 1786805293,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -145588,6 +145753,21 @@
       "tag": "4.4.1",
       "commit": "a6109248d29ab307d6fe352df48580ef13a3965f",
       "timestamp": 1786301343,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cc46cdffc4de25ffccafa27070585cf2f07017edd679542e4c6e9ea733411dff": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.4.2/WidgetsAnywhere_4.4.2-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 213,
+      "version_name": "4.4.2",
+      "tag": "4.4.2",
+      "commit": "07c6a76e6a55eef7fa547ef1291894cf626c90d3",
+      "timestamp": 1786806169,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
