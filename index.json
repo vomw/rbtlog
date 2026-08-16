@@ -20858,6 +20858,21 @@
       "maintainer_notes": null
     }
   ],
+  "8bd13dffa0f58bff8ad1256e70c355605ee2b2affc396cddf796c71bbfea4d0c": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.7.2/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 30,
+      "version_name": "1.7.2",
+      "tag": "v1.7.2",
+      "commit": "a5dda7d93b87933ee7d32b126b323cb2d0d718cd",
+      "timestamp": 1786894564,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "210e06770be8e5245deadfba3b02c581d8b63f4546392d486862079d45886eb8": [
     {
       "repository": "https://github.com/BKK31/budgetlens.git",
@@ -30079,6 +30094,21 @@
       "maintainer_notes": null
     }
   ],
+  "557efb3169ccefbcc31a44c09f4b2a2d5cd76bf56c8aa2611489af802d1a9635": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v3.2.0/daily-you-arm64-v8a-v3.2.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 30020002,
+      "version_name": "3.2.0",
+      "tag": "v3.2.0",
+      "commit": "ca531cbc1332ae57cfd21c0330f4b5a846573124",
+      "timestamp": 1786894998,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -36557,6 +36587,21 @@
       "maintainer_notes": null
     }
   ],
+  "9ac6578e36977c4f36ff083772b35b217bde6efaeddab7c1e92e70f55d8a96bc": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v2.1.1/dns_toggle_v2.1.1.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 24,
+      "version_name": "2.1.1",
+      "tag": "v2.1.1",
+      "commit": "7a470eb280e50faa7b7023a4b4e82fb5115f3e4f",
+      "timestamp": 1786904766,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f3d0cb431733820f74c7310b3225e4231e0568791159a5ef313e29378a2ac5a7": [
     {
       "repository": "https://github.com/1372Slash/Zenith.git",
@@ -37185,6 +37230,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "upstream built from dirty tree"
+    }
+  ],
+  "86f7117a4901434422ec8483375e4bf16f5c5f4f39e3933c8ab42e6fda04630d": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.1.0/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 16,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "0e839b393ff988a3189a38130708c1e8293e5ce7",
+      "timestamp": 1786909647,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "e825497ee0ed33b0b7acf59b627f1d17e148182b83149abc0c3268f5e1b356b4": [
@@ -44035,6 +44095,21 @@
       "tag": "3.8.0",
       "commit": "3e7d566f8a8d792c9048424a16695f16cc1650f2",
       "timestamp": 1781893498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "316f4ca8712bf3abd95ea83c015b329220e20189dc3f4bfa08e1da1c5a352411": [
+    {
+      "repository": "https://github.com/frimtec/secure-sms-proxy.git",
+      "apk_url": "https://github.com/frimtec/secure-sms-proxy/releases/download/3.8.1/app-release.apk",
+      "appid": "com.github.frimtec.android.securesmsproxy",
+      "version_code": 2974639,
+      "version_name": "3.8.1",
+      "tag": "3.8.1",
+      "commit": "79e0d13d0486ea13da1a6d67481811e0023ce3c5",
+      "timestamp": 1786889206,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58342,6 +58417,21 @@
       "maintainer_notes": null
     }
   ],
+  "910d7bb3bd5dd174185dddca744ca5fcce597b7656971c4c2d87ceeb19bba189": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.7.5/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 750,
+      "version_name": "0.7.5",
+      "tag": "v0.7.5",
+      "commit": "1de7d180f36f1762e8172bb506e25b5ca5e5ed29",
+      "timestamp": 1786889336,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "73b0076b9005341778eb2b27cb4b31a47e4d13b498aa2a3a2bf560f6fdc4794d": [
     {
       "repository": "https://github.com/Iamlooker/Kenko.git",
@@ -66914,6 +67004,21 @@
       "maintainer_notes": null
     }
   ],
+  "0260a231c0b6edb39b6cea0fc32aaa9675a983ca4d38bc8a40c86dc1dae1bcc2": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.1.3-1/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 15,
+      "version_name": "1.1.3-1",
+      "tag": "1.1.3-1",
+      "commit": "23ec175b651960cc7eed9051f2268e1c427904c5",
+      "timestamp": 1786895079,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -71049,6 +71154,21 @@
       "tag": "v3.8.0",
       "commit": "5aa163f9198bc254dd751b211ce7af16407fb564",
       "timestamp": 1785950341,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8655867178ce038c34eb5f8f39d35de24e39f4c2e84a53e9db2d95ced907ff53": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.9.1/WeatherMaster.v3.9.1.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 60,
+      "version_name": "3.9.1",
+      "tag": "v3.9.1",
+      "commit": "c57cf0839551af76750aab88ae5105fdf70288e3",
+      "timestamp": 1786896106,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -76034,6 +76154,21 @@
       "maintainer_notes": null
     }
   ],
+  "268b7e808bad5f2e4949902cdce7fb7c0d364195c83412b1a86b4d96a7976360": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.21/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 22,
+      "version_name": "1.0.21",
+      "tag": "v1.0.21",
+      "commit": "8a82bef219af5818eaad4a3986627451ce6a0f67",
+      "timestamp": 1786905344,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7ab9bcdb63a2af3f3166191fe56fb79a28b7d2ba268ca5ffe3b0a7770333c3c3": [
     {
       "repository": "https://github.com/NeoApplications/Neo-Feed.git",
@@ -80090,6 +80225,21 @@
       "tag": "6.5.2",
       "commit": "fee86e65a7100cd4bc641998c1096db40fc44002",
       "timestamp": 1786284926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ee7d4bd4e66b6ee6fb9754d83051c0a99e91f8dd3372a0844225ed50e37c824": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.5.3/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6530,
+      "version_name": "6.5.3",
+      "tag": "6.5.3",
+      "commit": "b012f086970d0c9dc12b8c45e1530617bdc8dcfb",
+      "timestamp": 1786890607,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -107649,6 +107799,21 @@
       "maintainer_notes": null
     }
   ],
+  "8ff04c0cdc16e3d0ab191235b3c30c644684bb240db287ebb3d8dafdef169eb0": [
+    {
+      "repository": "https://github.com/d4rken-org/bluemusic.git",
+      "apk_url": "https://github.com/d4rken-org/bluemusic/releases/download/v3.4.5-rc0/eu.darken.bluemusic-v3.4.5-rc0-30405000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.bluemusic",
+      "version_code": 30405000,
+      "version_name": "3.4.5-rc0",
+      "tag": "v3.4.5-rc0",
+      "commit": "095f4dfe9e91d06e018cf1595cb9d7231a55d2bf",
+      "timestamp": 1786905665,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "decb90f200b2f146f545095616267a9194c1511d40ffeeb36e7d93f86829bad8": [
     {
       "repository": "https://github.com/d4rken-org/capod.git",
@@ -108319,6 +108484,21 @@
       "tag": "v2.2.1-rc0",
       "commit": "5002cbb770831bce1dd1b9ff25f7bd7420c004cb",
       "timestamp": 1786198840,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "91cc80de3e60be932e3ff7733302e609948ea35bce1476b10c38916b22b6c660": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.2.2-rc0/eu.darken.myperm-v2.2.2-rc0-20202000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20202000,
+      "version_name": "2.2.2-rc0",
+      "tag": "v2.2.2-rc0",
+      "commit": "37dd2d09998af075cbee13909b0f8e809e14a33c",
+      "timestamp": 1786906239,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -111154,6 +111334,21 @@
       "tag": "v2.7.0",
       "commit": "f8a719fd85357684b5459811fa4d61d34a1f6be1",
       "timestamp": 1786737000,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c250445acb03c1ce3de9a78a0d9d47ff7223801657dc13a4f2633a6ee41d307c": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.8.0/phdp-v2.8.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 28000,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "1ba4ac18d4e47c61c9bef5d1dfe904e6b9f91cb6",
+      "timestamp": 1786891717,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -117110,6 +117305,21 @@
       "maintainer_notes": null
     }
   ],
+  "5fe3c7911731a051d4ee8da0bdc077cf68da0c6c10e30f7348cb94ca318d766a": [
+    {
+      "repository": "https://github.com/AppFuton/Futon.git",
+      "apk_url": "https://github.com/AppFuton/Futon/releases/download/v9.8.1/app-release.apk",
+      "appid": "io.github.landwarderer.futon",
+      "version_code": 90801,
+      "version_name": "9.8.1",
+      "tag": "v9.8.1",
+      "commit": "05f11b2e6d46993677eec4e7eb66fde2c76e5a4b",
+      "timestamp": 1786906776,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8ccc05da19cafcaf3eace9ef4576892d1ccb281ec7286d0db3b10c085ce4b320": [
     {
       "repository": "https://github.com/Legandy/EnigmaBridge.git",
@@ -121550,6 +121760,21 @@
       "maintainer_notes": null
     }
   ],
+  "70b40b06e80e0184442b02eaedbe9b9f0cd9f155ba107beaaf70bb639ffb954d": [
+    {
+      "repository": "https://github.com/Arian04/android-hid-client.git",
+      "apk_url": "https://github.com/Arian04/android-hid-client/releases/download/v3.1.0/android-hid-client-v3.1.0.apk",
+      "appid": "me.arianb.usb_hid_client",
+      "version_code": 310,
+      "version_name": "v3.1.0",
+      "tag": "v3.1.0",
+      "commit": "e57fffe4c19df723518e3beb822e95acc7328471",
+      "timestamp": 1786907459,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2e0ada9aaa2a3c6dd4c6694ef0cade977a6caf97bb98e0021e0da38117d48db7": [
     {
       "repository": "https://github.com/biplobsd/running_services_monitor.git",
@@ -124715,6 +124940,21 @@
       "maintainer_notes": null
     }
   ],
+  "f36a9166c96a986b2ef1f6cd9c224439e5aa3ecb870ed00bf07b81e2c02872dc": [
+    {
+      "repository": "https://github.com/seht/volumenotification.git",
+      "apk_url": "https://github.com/seht/volumenotification/releases/download/v1.4.1.1/app-release.apk",
+      "appid": "net.hyx.app.volumenotification",
+      "version_code": 14110,
+      "version_name": "1.4.1.1",
+      "tag": "v1.4.1.1",
+      "commit": "68174a11823dd70164c22b9c331eab10c1c4561a",
+      "timestamp": 1786891948,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4dff152a2fd8817db9da6a99ceedc65d2b9f4f08b8c14fb5c46ec8a8ded67af7": [
     {
       "repository": "https://github.com/kasnder/GreaseMilkyway.git",
@@ -126510,6 +126750,21 @@
       "tag": "alpha-0.7.7",
       "commit": "358450f7f31e16997b2cbb328c38a850a3168082",
       "timestamp": 1786113710,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c415d7bb93a686446d41c7b2e519c3e36675387483625da6a76069ea07426c88": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.7.8/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 56,
+      "version_name": "alpha-0.7.8",
+      "tag": "alpha-0.7.8",
+      "commit": "14fa950279a80adedfd81a638dffca7c9693ec3a",
+      "timestamp": 1786892061,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -128565,6 +128820,21 @@
       "tag": "v3.2.2",
       "commit": "642e1cbb62e75db0e0b08f878ec3bafbe86d1133",
       "timestamp": 1780084744,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e89f7c4cb71a0f3f5e5ee320697114039576b0d72527cd60ba9eb747584b3d71": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/4.0.0/DragonLauncher-4.0.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 57,
+      "version_name": "4.0.0 (Caterpillar)",
+      "tag": "4.0.0",
+      "commit": "9ea290548875de4bc9eea4859cd182f3734b6366",
+      "timestamp": 1786910196,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -137943,6 +138213,21 @@
       "maintainer_notes": null
     }
   ],
+  "18447bfb1e06d113edc88df93f471827280de06f6f3d4dc42f56f28b9c1bab79": [
+    {
+      "repository": "https://github.com/TeamNewPipe/NewPipe.git",
+      "apk_url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.1/NewPipe_v0.29.1.apk",
+      "appid": "org.schabi.newpipe",
+      "version_code": 1015,
+      "version_name": "0.29.1",
+      "tag": "v0.29.1",
+      "commit": "00acf2f318b0af7ffacbd687bba011b642cc01d0",
+      "timestamp": 1786892581,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "bf2ae64719a8432bb1213f5ff277acbb379e84e4104720c047025d7536511520": [
     {
       "repository": "https://github.com/screenlite/web-kiosk.git",
@@ -139093,6 +139378,21 @@
       "tag": "v1.6.0",
       "commit": "718a84db30101d4c2ba3eec07197560c1204a63e",
       "timestamp": 1786738090,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "053ee68b894bf5cf79b3cb2b8ac9696764d4e8984370b2231c27d2f41cc1f1bf": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.7.0/wizestream_v1.7.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1007000,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "982c575e05b8c4b87bb35f8636a1bf5448ba7d7d",
+      "timestamp": 1786907781,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -144613,6 +144913,21 @@
       "tag": "v1.2.0",
       "commit": "0452c57ae0feceb6a8353f5397ba227b81f65941",
       "timestamp": 1786805293,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a0b2e01691197a327d44801cb24b334eb3e81d589058ff854890596832b4a9f2": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.2.1/mindwtr-1.2.1-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 124,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "3cccd51a58690269b39a017b02c398d9abf2d755",
+      "timestamp": 1786908527,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
