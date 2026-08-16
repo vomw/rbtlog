@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/prateek54353/PaperWise.git
-updates: disabled
-notes:
-  - RBs fail due to ~missing code~, for v2.1.0 and v2.4.0 as well => wrong Flutter version specified, correct one in .github/workflows/full-release.yml now (2.4.0 RB then with 3.32.8, but versionCode decreased)
+updates: releases
 versions:
   - tag: v1.0.0
     apks:
@@ -139,6 +137,42 @@ versions:
             version: '19.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip
             sha256: 7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v2.5.5
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/prateek54353/PaperWise/releases/download/v2.5.5/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/        \}/d' -i android/app/build.gradle.kts
+          - FLUTTER_VERSION="$(sed -rn 's/\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/PaperWise/PaperWise
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages:
             - curl
           image: debian:bookworm-slim

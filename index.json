@@ -101833,6 +101833,21 @@
       "maintainer_notes": null
     }
   ],
+  "84f298d1d2998de47214965723872c8c0b8c175863fdd1b73070e5f3f435e9f8": [
+    {
+      "repository": "https://github.com/Cris1099/entropy.git",
+      "apk_url": "https://github.com/Cris1099/entropy/releases/download/v1.0.1/app-release.apk",
+      "appid": "dev.entropy",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "e6d45edb1254a45e29a614c1b8d20324a023d6c6",
+      "timestamp": 1786876325,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9cd1617632e24b6802dec85275013fc5d15bb6af190d3088bd3b575fb85ee8e9": [
     {
       "repository": "https://github.com/Fabi019/hid-barcode-scanner.git",
@@ -136725,6 +136740,21 @@
       "timestamp": 1753901240,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpuseeornd/outputs:/outputs', '--volume', '/tmp/tmpuseeornd/scripts:/scripts:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/prateek54353/PaperWise.git', '--env', 'APP_TAG=v2.1.0', '--env', 'APP_COMMIT=47acbf45f3e3f90808025e97b3ada0d419169fb7', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/PaperWise/PaperWise', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_CMDLINE_TOOLS_VERSION=19.0', '--env', 'PROVISIONING_CMDLINE_TOOLS_URL=https://dl.google.com/android/repository/commandlinetools-linux-13114758_latest.zip', '--env', 'PROVISIONING_CMDLINE_TOOLS_SHA256=7ec965280a073311c339e571cd5de778b9975026cfcbe79f2b1cdcb1e15317ee', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/PaperWise/PaperWise && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": null
+    }
+  ],
+  "fcd0efe4eb357ab33a546f735519e964692333b37b0783d04bd1d90aa2d76e71": [
+    {
+      "repository": "https://github.com/prateek54353/PaperWise.git",
+      "apk_url": "https://github.com/prateek54353/PaperWise/releases/download/v2.5.5/app-arm64-v8a-release.apk",
+      "appid": "org.paperwise.app",
+      "version_code": 2009,
+      "version_name": "2.5.5",
+      "tag": "v2.5.5",
+      "commit": "3bce04492499f507f31ca82df7760110e8a72409",
+      "timestamp": 1786877959,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
