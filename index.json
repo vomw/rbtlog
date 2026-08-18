@@ -142233,6 +142233,21 @@
       "maintainer_notes": null
     }
   ],
+  "07d570bbd0b57af6c37d4b6ba147457d8edb121ce66030d1f0792c2031940464": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/147/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 147,
+      "version_name": "6.6",
+      "tag": "147",
+      "commit": "ae49483ce31fc030ac20a96c37f34aaef2f78957",
+      "timestamp": 1786908415,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "Android Studio messed up ZIP ordering"
+    }
+  ],
   "7b75ab79d472d67f5e8ee5e7d03c976d67c2f78c8b19a4dff512d4851fc15c5b": [
     {
       "repository": "https://github.com/rkkr/tiny-keyboard.git",
