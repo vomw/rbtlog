@@ -1121,3 +1121,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.1.1
+    apks:
+      - apk_pattern: android-release\.apk
+        apk_url: https://github.com/aimok04/kitshn/releases/download/v2.1.1/android-release.apk
+        build:
+          - sed -r '/signingConfigs\[/d' -i androidApp/build.gradle.kts
+          - export SIGNING_STORE_PASSWORD=SIGNING_STORE_PASSWORD SIGNING_KEY_ALIAS=SIGNING_KEY_ALIAS SIGNING_KEY_PASSWORD=SIGNING_KEY_PASSWORD
+          - touch androidApp/keystore.jks
+          - ./gradlew assembleRelease
+          - mv androidApp/build/outputs/apk/release/androidApp-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
