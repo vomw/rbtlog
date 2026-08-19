@@ -4,6 +4,7 @@ updates: releases
 notes:
   - 2.2.2 not RB due to Missing classes detected while running R8
   - 2.2.3 the same, 'Missing classes detected while running R8.'
+  - 'FIXME: remove the sed command after v3.2.0, see https://github.com/Lennoard/SysctlGUI/issues/83#issuecomment-5336211963 '
 versions:
   - tag: 2.2.1
     apks:
