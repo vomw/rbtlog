@@ -402,3 +402,42 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.1.0
+    apks:
+      - apk_pattern: Myne-.*\.apk
+        apk_url: https://github.com/Pool-Of-Tears/Myne/releases/download/v5.1.0/Myne-v5.1.0.apk
+        build:
+          - base64 -d > local.properties <<< R09PR0xFX0FQSV9LRVk9IkFJemFTeUE0alB3dS00RFZONzNLbk9TZFN0b0NSeUxPdE54bkxnWSIK
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - ./gradlew assembleRelease
+          - OUT=app/build/outputs/apk/release/Myne-*.apk
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
