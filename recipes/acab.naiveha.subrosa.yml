@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/naive-HA/subrosa.git
-updates: releases
+updates: disabled
+notes:
+  - packageName was changed, see https://github.com/naive-HA/subrosa/issues/5
 versions:
   - tag: 1.0.6
     apks:
