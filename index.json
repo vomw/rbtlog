@@ -14847,6 +14847,21 @@
       "maintainer_notes": null
     }
   ],
+  "87dde36eceaf2d42bb0a2603c5c3ee24fb26b2d5f5f293bcd3cb58622bdaad45": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.4.462.1216-stable/Rhythm-5.4.462.1216-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 544621216,
+      "version_name": "5.4.462.1216-fdroid",
+      "tag": "v5.4.462.1216-stable",
+      "commit": "4dbd42f4a99a4c2517d3e1fcba2e81412af0dd05",
+      "timestamp": 1787493065,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -27514,6 +27529,21 @@
       "maintainer_notes": null
     }
   ],
+  "610234d1976c012bce349e8bceed4320be80eea7eea7d21c063ff82e06cb4a3e": [
+    {
+      "repository": "https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git",
+      "apk_url": "https://github.com/marcomorosi06/WiFiAudioStreaming-Android/releases/download/v1.2/wifi-audio-streaming-v1.2.apk",
+      "appid": "com.cuscus.wifiaudiostreaming",
+      "version_code": 10,
+      "version_name": "1.2",
+      "tag": "v1.2",
+      "commit": "bc63b6bb42cef0de31ceb083d1f7b85f71c73fd3",
+      "timestamp": 1787337279,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "Conflict with Android Studio Quail / Jetbrains causing different results"
+    }
+  ],
   "91593d060b428dfd34424b3d2a164870ac262af06e19080962691b5becab335a": [
     {
       "repository": "https://github.com/cworld1/notie.git",
@@ -28654,6 +28684,21 @@
       "maintainer_notes": null
     }
   ],
+  "b0ea28bf19876088f297d102da2836895257009d5ac498255ab40a46c92d9732": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.4%2Bgoogle-play%2Bfdroid/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 309040000,
+      "version_name": "3.9.4",
+      "tag": "v3.9.4+google-play+fdroid",
+      "commit": "19d5f7362788bb94087b99c5d9f3a53decbcdbea",
+      "timestamp": 1787494002,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -29789,6 +29834,21 @@
       "tag": "v1.18.0",
       "commit": "6da2a020ec80641c954999c636afc01de3c1208c",
       "timestamp": 1786991449,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a912a224f03104d91be3bd6714e0bdb00e8c96a0496dc2f2c8a9ff4ceb273a7a": [
+    {
+      "repository": "https://github.com/mona-hrt/mona.git",
+      "apk_url": "https://github.com/mona-hrt/mona/releases/download/v1.19.0/mona-store-arm64-v8a.apk",
+      "appid": "com.deliacheminot.mona",
+      "version_code": 2022,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "b1120f6a4faee1e35c9ae55ff0ced99786907709",
+      "timestamp": 1787494712,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -40930,6 +40990,21 @@
       "tag": "v3.2.2",
       "commit": "fb2f05492b3cb1ffd1cc1153bef82f7d1f85068a",
       "timestamp": 1786559770,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2eeabc8f8ad2b472c49c108c3e2bf9d7fdfc82bab88e288eaa7126665b3ca94a": [
+    {
+      "repository": "https://github.com/chindaronit/Flux.git",
+      "apk_url": "https://github.com/chindaronit/Flux/releases/download/v3.2.3/Flux.apk",
+      "appid": "com.flux",
+      "version_code": 20,
+      "version_name": "3.2.3",
+      "tag": "v3.2.3",
+      "commit": "f6586cffd9fff3d7f7781ea73468ba1b68743e0c",
+      "timestamp": 1787496436,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -53977,6 +54052,21 @@
       "maintainer_notes": null
     }
   ],
+  "845354fa0a2e6ab1dbc5c81ddd6d017481cce26ae601d6f5dc997978b3aaae63": [
+    {
+      "repository": "https://github.com/kaii-lb/LavenderPhotos.git",
+      "apk_url": "https://github.com/kaii-lb/LavenderPhotos/releases/download/v2.1.3/photos_signed_release_arm64-v8a.apk",
+      "appid": "com.kaii.photos",
+      "version_code": 213,
+      "version_name": "v2.1.3",
+      "tag": "v2.1.3",
+      "commit": "e7cd6b434f3b5b0efd9376d2c67a400c32d983bf",
+      "timestamp": 1787496762,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "55c8981c8c02f7e6ae5fac79e6590b6cf935ff9d6fec3eaab0f6bf9a498fea01": [
     {
       "repository": "https://github.com/greykaizen/khushu.git",
@@ -55067,6 +55157,21 @@
       "tag": "v2.0.17",
       "commit": "56a333bade0a025b15ed19055ed94ffbcbdeceb2",
       "timestamp": 1787407583,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b557a75b5faa37577109b08faff36e9b1799f0e7f867152acbbc7ba06f8a5f37": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.18/kelani-sbd-tracker-v2.0.18.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 118,
+      "version_name": "2.0.18",
+      "tag": "v2.0.18",
+      "commit": "f1e07db568ec0855edb5891e5020c7e7c889cbbd",
+      "timestamp": 1787509775,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58637,6 +58742,21 @@
       "tag": "v0.6.1",
       "commit": "8107b0180f52e5aea27fe50ccbf842e31ba29bb5",
       "timestamp": 1787347566,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a9dd9089a70f917cba340790681144d9c3ee835cf3f7ad5b3cde35bb5cfd57b": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.6.3/storii-v0.6.3-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5082,
+      "version_name": "0.6.3",
+      "tag": "v0.6.3",
+      "commit": "4907f23fdd7f9d49d85013a1ee847f77ce46279a",
+      "timestamp": 1787509994,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -64368,6 +64488,21 @@
       "maintainer_notes": null
     }
   ],
+  "808de41c1a4b6da8e696ed466aa53fe4e5a0ed934d5c1acb2257d03b6f54790d": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.34.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 137,
+      "version_name": "1.34.0",
+      "tag": "v1.34.0",
+      "commit": "e998546aeba5e7ee912ba93aae821ca896557730",
+      "timestamp": 1787498586,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9b9aa9e57a865e1c0f15cbadd74a4a49baf972d0b828426fae097f3b6124e9c2": [
     {
       "repository": "https://github.com/mirfatif/MyLocation.git",
@@ -64751,6 +64886,21 @@
       "tag": "v1.1.17",
       "commit": "0f91527f8f6a68157d05021613adf73f2c425629",
       "timestamp": 1784478286,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0170819bba40e28414daaaca9f1efa04098fcdebfe929a179bbf82453d586ccd": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.18/MBCompass_v1.1.18_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 19,
+      "version_name": "1.1.18",
+      "tag": "v1.1.18",
+      "commit": "f0f93efa0683f6c57a9972e8171ac66d23e2bfd8",
+      "timestamp": 1787498918,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -71424,6 +71574,21 @@
       "tag": "v4.1.3",
       "commit": "f1fee439e987d88ba0ee058f7149c029086c1d6b",
       "timestamp": 1786648633,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "32e3d00287291a95986be0940279cc37d9c943fa401f8221d6230adf7d3a2ec1": [
+    {
+      "repository": "https://github.com/BKK31/pixel-gallery.git",
+      "apk_url": "https://github.com/BKK31/pixel-gallery/releases/download/v4.1.4/app-arm64-v8a-release.apk",
+      "appid": "com.pixel.gallery",
+      "version_code": 2027,
+      "version_name": "4.1.4",
+      "tag": "v4.1.4",
+      "commit": "d0d863b6de98631d6ab7a211e67d5bef9e06bcea",
+      "timestamp": 1787499222,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -81085,6 +81250,21 @@
       "maintainer_notes": null
     }
   ],
+  "29d0884d5cb7a731a53b1c7692309d0950f259d01870ec03b3c42f5a321b3c61": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/6.6.0/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 6600,
+      "version_name": "6.6.0",
+      "tag": "6.6.0",
+      "commit": "5d5a4df2be8b05760a38f28ee2464224dc83f1b7",
+      "timestamp": 1787510661,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -88398,6 +88578,21 @@
       "tag": "v1.94.0",
       "commit": "f9e823c177a17361a5dcda28d3157cede558075d",
       "timestamp": 1785939617,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a2e8cf0a96327679392267e363e99ed09cedf8a7d9502704ff6dee028b901b1": [
+    {
+      "repository": "https://github.com/trinadhthatakula/Thor.git",
+      "apk_url": "https://github.com/trinadhthatakula/Thor/releases/download/v1.95.1/foss-release.apk",
+      "appid": "com.valhalla.thor",
+      "version_code": 1951,
+      "version_name": "1.95.1",
+      "tag": "v1.95.1",
+      "commit": "616a8caf01e252ad01eff745ff909da2fbbd68f8",
+      "timestamp": 1787500176,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98897,6 +99092,21 @@
       "maintainer_notes": null
     }
   ],
+  "87a43e71c0e660ebe77847a1fb67e81660e0c496d0212984a77715a3393fedd3": [
+    {
+      "repository": "https://codeberg.org/qwerty287/ftpclient.git",
+      "apk_url": "https://codeberg.org/qwerty287/ftpclient/releases/download/3.2.0/release.apk",
+      "appid": "de.qwerty287.ftpclient",
+      "version_code": 30,
+      "version_name": "3.2.0",
+      "tag": "3.2.0",
+      "commit": "1a516ff4906944886b0a9bbe04d88db7754cc083",
+      "timestamp": 1787511146,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "184b21d376211337a70bc2755b9310d97b16e838cd232f920f4f3c07f5b6d8aa": [
     {
       "repository": "https://github.com/jensomato/ReadeckApp.git",
@@ -99653,6 +99863,21 @@
       "tag": "2.1.12",
       "commit": "893562796a21f6e6f0dfd04d9e78891385f96138",
       "timestamp": 1786736659,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c876c3f230f94f4527b104092971f4478fd65d99f63e6c15a46b9fd58ca678b0": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/2.1.13/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 155,
+      "version_name": "2.1.13",
+      "tag": "2.1.13",
+      "commit": "d7b49ae4b521beb150fea72e0b9095ce8ef4dcf5",
+      "timestamp": 1787500657,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -120020,6 +120245,21 @@
       "maintainer_notes": null
     }
   ],
+  "a7934ac26b9cc832746c4ccb2c47be73b56febb3a1fcec03fde614af5f57b1f5": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.13/play-on-dlna-1.13.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 14,
+      "version_name": "1.13",
+      "tag": "1.13",
+      "commit": "f6396611b6144be0bf8473e4368f7dc6e92d877d",
+      "timestamp": 1787501072,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0d4ee776c3bdae0d3c328d53a0717409c30498719d393a5e924a821d247683e8": [
     {
       "repository": "https://github.com/SMS2Email/SMS2Email.git",
@@ -122340,6 +122580,21 @@
       "tag": "v0.7.88",
       "commit": "143f734e4f3c88a8592c9f39b8a0b3d612780a0e",
       "timestamp": 1787426409,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "802a9c52f38a44c2cb6d52a9155f71def05b524ca26d6ce2817efb23101413f7": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.89/RiPlay-foss-release-0.7.89.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 90,
+      "version_name": "0.7.89",
+      "tag": "v0.7.89",
+      "commit": "15f42a2b4515682a5f8cc9fb38c291131766bf48",
+      "timestamp": 1787511434,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -128730,6 +128985,21 @@
       "tag": "v6.2.1",
       "commit": "26e0b13da5da22c25867583f969ff2fa2154c748",
       "timestamp": 1780866395,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "20a33a588e884257ab9329fee794d30a9d15ea067f64302c70c69c9adc3c6309": [
+    {
+      "repository": "https://github.com/breezy-weather/breezy-weather.git",
+      "apk_url": "https://github.com/breezy-weather/breezy-weather/releases/download/v6.2.2/breezy-weather-v6.2.2_standard.apk",
+      "appid": "org.breezyweather",
+      "version_code": 60202,
+      "version_name": "6.2.2",
+      "tag": "v6.2.2",
+      "commit": "17fd71dd00e0668368c9c7844433f79f09ad9e93",
+      "timestamp": 1787512271,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -138290,6 +138560,21 @@
       "maintainer_notes": null
     }
   ],
+  "91b48ee9c6ecbaf1bd3db64e68af7ddf97a2daefbc995990adc3202c127f296f": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.08.22/KashCal-2026.08.22-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 732,
+      "version_name": "2026.08.22",
+      "tag": "v2026.08.22",
+      "commit": "73ece01b0518e7a855e820fedcfff3e1c00537c3",
+      "timestamp": 1787502332,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -140883,6 +141168,21 @@
       "maintainer_notes": null
     }
   ],
+  "87e4a0fe8ec4b98b6fd0eea01f31c061d29f010161d6223b2ca2a51fec4bb7bf": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.9.1/wizestream_v1.9.1.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1009001,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "450ad7e15383f3aead4a7e106ebad8e825da0152",
+      "timestamp": 1787503285,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
     {
       "repository": "https://github.com/woheller69/exifedit.git",
@@ -142138,6 +142438,21 @@
       "tag": "v6.6.0",
       "commit": "b0f2a19915c8babfa2516445a2c0b7cc51dd039e",
       "timestamp": 1786738723,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "856d778abe5740a9079765886397906c7951dd19a0dc7ee7263c4d6ad86a17b8": [
+    {
+      "repository": "https://github.com/jakubvalenta/geoshare.git",
+      "apk_url": "https://github.com/jakubvalenta/geoshare/releases/download/v6.7.0/page.ooooo.geoshare.apk",
+      "appid": "page.ooooo.geoshare",
+      "version_code": 47,
+      "version_name": "6.7.0",
+      "tag": "v6.7.0",
+      "commit": "d26539b4ce894b5e8ff013c39981e9fcf925c622",
+      "timestamp": 1787503914,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
