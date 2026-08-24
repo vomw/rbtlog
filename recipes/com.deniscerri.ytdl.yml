@@ -3,6 +3,7 @@ repository: https://github.com/deniscerri/ytdlnis.git
 updates: releases
 notes:
   - RB when we build all ABIs and just pick one; not RB when we try to just build the ABI we want
+  - 'FIXME: release after 1.8.9.1 will use YTDLnis-.*-izzy-arm64-v8a-release\.apk as apk_pattern and assembleIzzyRelease for the gradle build, see https://github.com/deniscerri/ytdlnis/issues/539#issuecomment-5394869887 '
 versions:
   - tag: v1.7.9.2
     apks:
