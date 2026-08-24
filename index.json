@@ -18160,6 +18160,21 @@
       "maintainer_notes": null
     }
   ],
+  "8272cd3e8687a806ae7e66e5c9d99de505c23e8042afb9c4d14d2111d150f082": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.6/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1386,
+      "version_name": "4.6.6",
+      "tag": "v4.6.6",
+      "commit": "1e7f58507c629fb9cdd2b4032360570e99481234",
+      "timestamp": 1787596321,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "de9e046ea2dfafb80a2c7064b675c5a5915fcf37f3eee46c999c49d860edaa97": [
     {
       "repository": "https://github.com/3slam11/noted.git",
@@ -36677,6 +36692,21 @@
       "maintainer_notes": null
     }
   ],
+  "bfa5cdff976ca5e48706df0086ba1edb7738af0bdb9091be8a3b18f912652268": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.25.5/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 44,
+      "version_name": "4.25.5",
+      "tag": "v4.25.5",
+      "commit": "be3c9208542c2608671ac1cf16e1273239ea9503",
+      "timestamp": 1787579633,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -37647,6 +37677,21 @@
       "tag": "v2.1.1",
       "commit": "bc92c585eb983669d1c3a822349af52514e804ff",
       "timestamp": 1787147500,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1395b20ac157132887453c9bd884cb8c4d734f2b2abb174f48f950da1b03747f": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.1.2/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 18,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "ed76cf811446fe900c838f89a7623150913e36d9",
+      "timestamp": 1787596541,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55192,6 +55237,21 @@
       "maintainer_notes": null
     }
   ],
+  "bf9ad5ac13f46e8b6158532c5488ccbb5df74bd7b563866477ed937f7de77a5a": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.19/kelani-sbd-tracker-v2.0.19.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 119,
+      "version_name": "2.0.19",
+      "tag": "v2.0.19",
+      "commit": "cc8c1409229bfc835d4ca666b4f8c95a04a68769",
+      "timestamp": 1787579776,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -71339,6 +71399,21 @@
       "maintainer_notes": null
     }
   ],
+  "980d4bc46ce8e38847aa1b84bca5f1ad05ea13f46e0b68e5507b920e1a6a4419": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.2.0/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2031,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "e2c359da5dfebb300a1952dc9bbafd468d508bf1",
+      "timestamp": 1787579882,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1eae44c4e4a2d523a771c873f8ae7f5cb7481b21ed4845807ff7dfd52dbb6bf8": [
     {
       "repository": "https://github.com/phstudio2/FreeTV.git",
@@ -76109,6 +76184,21 @@
       "maintainer_notes": null
     }
   ],
+  "c0152c2834f52fa4334fa680e9f29d193170ab16fcd0c2975a3004eac5cbaf7d": [
+    {
+      "repository": "https://github.com/roozbehzarei/filester.git",
+      "apk_url": "https://github.com/roozbehzarei/filester/releases/download/v3.2.0/filester-foss-universal.apk",
+      "appid": "com.roozbehzarei.filester",
+      "version_code": 22,
+      "version_name": "3.2.0-foss",
+      "tag": "v3.2.0",
+      "commit": "bc6fff8645a42fdb017d78b5d5aa7d9571f9e627",
+      "timestamp": 1787596889,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07ed957a9178e32b7cc9643812881775721f9e27b1ab42a6773171e30ed98bd1": [
     {
       "repository": "https://github.com/iamr0s/Dhizuku.git",
@@ -78309,6 +78399,21 @@
       "tag": "v1.5.6",
       "commit": "6df44cab4d9ac42231440fdf5da8b46e148d5832",
       "timestamp": 1787321920,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c10313558017c89147e03372b630d00562b7dea9c20c02fa8be0b1bcee62c14c": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.5.7/Minus-v1.5.7.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10507,
+      "version_name": "1.5.7",
+      "tag": "v1.5.7",
+      "commit": "cd993b5d49f69c3b486d9a4c2ea5692676379104",
+      "timestamp": 1787581108,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92764,6 +92869,21 @@
       "maintainer_notes": null
     }
   ],
+  "bab0caf4fb3a6c5596705e438969851525423278fbc843d7523bb332f266074e": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.5.0/wgtunnel-fdroid-v5.5.0-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50500,
+      "version_name": "5.5.0",
+      "tag": "5.5.0",
+      "commit": "661a6ed0b5be9dbbfde6d54f024fc75495280c7b",
+      "timestamp": 1787581376,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -103258,6 +103378,21 @@
       "maintainer_notes": null
     }
   ],
+  "c3a99c69b73d5074743fa8bdc4e81c86205bba936848c53f207389166ad19f80": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.15.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10150012,
+      "version_name": "1.15.1",
+      "tag": "v1.15.1",
+      "commit": "6881899b49fbcef9c313696882ebee891b714d1e",
+      "timestamp": 1787581621,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -103946,6 +104081,21 @@
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmplyzf2lay/outputs:/outputs', '--volume', '/tmp/tmplyzf2lay/scripts:/scripts:ro', '--volume', '/tmp/tmplyzf2lay/cache/repro-apk:/rbtlog_cache/repro-apk:ro', '--volume', '/tmp/tmplyzf2lay/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/ImranR98/Obtainium.git', '--env', 'APP_TAG=v1.6.11', '--env', 'APP_COMMIT=afecbbcce60265e4f135d4899eb6e4151a3a2e48', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/home/runner', '--env', 'BUILD_REPO_DIR=/home/runner/work/Obtainium/Obtainium', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_EXTRA_PACKAGES=curl,python3', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'RECURSE_GIT_SUBMODULES=yes', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=no', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CACHE_REPRO_APK_PATH=/rbtlog_cache/repro-apk/repro-apk.tar.gz', '--env', 'PROVISIONING_CACHE_REPRO_APK_VERSION=v0.3.0', '--env', 'PROVISIONING_CACHE_REPRO_APK_SHA256=b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_PATH=/rbtlog_cache/cmdline_tools/tools.zip', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION=22.0', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_SHA256=4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /home/runner && timeout 10m su build /scripts/provision.sh && cd /home/runner/work/Obtainium/Obtainium && timeout 30m su build /scripts/build.sh')' returned non-zero exit status 1.",
       "maintainer_notes": "build fails"
+    }
+  ],
+  "c7d1a385635eda9f137db89ad839bbfa63cfdf4ecce92367d15cc4c1d40e1403": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.6.13/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23523,
+      "version_name": "1.6.13",
+      "tag": "v1.6.13",
+      "commit": "587d832779093492fc831b313f2e9ae12bfbe400",
+      "timestamp": 1787606458,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
@@ -111964,6 +112114,21 @@
       "tag": "1.2331",
       "commit": "e23dd9df8002bc43e64594843ce69b52b9ad15e1",
       "timestamp": 1787425900,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1ff2bf1a565c6f3cc6450d206e128acef9099597a5e8cef452dbde540c063148": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2332/FairEmail-v1.2332a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2332,
+      "version_name": "1.2332",
+      "tag": "1.2332",
+      "commit": "8c34bf2662e0fa45323f49226b85ad892563ef73",
+      "timestamp": 1787597721,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -121130,6 +121295,21 @@
       "maintainer_notes": null
     }
   ],
+  "a827856da8893d2e5a1b9da79dfcbaf454c63140a8cbe14234002a93d251dc71": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.17/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 18,
+      "version_name": "1.17",
+      "tag": "v1.17",
+      "commit": "696da5eb6ad5c34150675dc9547387ef0824061e",
+      "timestamp": 1787598244,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fef05226b5e6810a14ae571104d5c153053667ee9f19f784700621c10fb23168": [
     {
       "repository": "https://github.com/wiiznokes/gitnote.git",
@@ -125045,6 +125225,21 @@
       "maintainer_notes": null
     }
   ],
+  "192773dc07626f9c8f1865c1304cbc4ace65339de8d57c848c58888fd08e0307": [
+    {
+      "repository": "https://github.com/SankethBK/diaryvault.git",
+      "apk_url": "https://github.com/SankethBK/diaryvault/releases/download/2.3.7/diaryvault-arm64-v8a-2.3.7.apk",
+      "appid": "me.sankethbk.dairyapp",
+      "version_code": 2031,
+      "version_name": "2.3.7",
+      "tag": "2.3.7",
+      "commit": "06cad3c2bddb7e3b02a4db4701f4553b80d574f0",
+      "timestamp": 1787602196,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d119626e586009918d3f5dfeb1b7103111e21e78d6f7e9216088fda8a2ac9dc5": [
     {
       "repository": "https://github.com/TangoBeee/Weathernaut.git",
@@ -128355,6 +128550,21 @@
       "tag": "alpha-0.7.8",
       "commit": "14fa950279a80adedfd81a638dffca7c9693ec3a",
       "timestamp": 1786892061,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dbff6729362e5a6c2a06ba7d8957935629c8fbca3f98d6302c16777febd606aa": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.8.0/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 57,
+      "version_name": "alpha-0.8.0",
+      "tag": "alpha-0.8.0",
+      "commit": "402b7888d3082b9bbb7a7feebc25f6ed3eb46ec3",
+      "timestamp": 1787595114,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -141208,6 +141418,21 @@
       "tag": "v1.9.1",
       "commit": "450ad7e15383f3aead4a7e106ebad8e825da0152",
       "timestamp": 1787503285,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7a3b06c2ee9fbe1162d46007d5b45e88ee21f12b375d49fe021f3dbe75130e0e": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.10.0/wizestream_v1.10.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1010000,
+      "version_name": "1.10.0",
+      "tag": "v1.10.0",
+      "commit": "8057e945e19babd817101b311c436bf03e22f941",
+      "timestamp": 1787599136,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
