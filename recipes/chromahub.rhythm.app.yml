@@ -1960,3 +1960,33 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.4.466.1229-stable
+    apks:
+      - apk_pattern: Rhythm-.*-fdroidRelease\.apk
+        apk_url: https://github.com/cromaguy/Rhythm/releases/download/v5.4.466.1229-stable/Rhythm-5.4.466.1229-fdroidRelease.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleFdroidRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/fdroid/release/Rhythm-*-fdroidRelease.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
