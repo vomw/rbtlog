@@ -5682,6 +5682,21 @@
       "maintainer_notes": null
     }
   ],
+  "59902daad827a4c3652a927fc3549f52d56da69b113c73f36c7bbd3875705b14": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.4.0/fluffy-4.4.0-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 841,
+      "version_name": "4.4.0",
+      "tag": "4.4.0",
+      "commit": "73e21131a46411b8efe64e22e12dd7ece0530797",
+      "timestamp": 1787925078,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -14962,6 +14977,21 @@
       "tag": "v5.4.466.1229-stable",
       "commit": "3b3382927bb5a29dac51ebb432d10675061ad119",
       "timestamp": 1787855969,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7db77fa544343ce74ac92cb9f22b2723aab932a4c045ba9da48eb2ed4f025848": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.4.468.1233-stable/Rhythm-5.4.468.1233-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 544681233,
+      "version_name": "5.4.468.1233-fdroid",
+      "tag": "v5.4.468.1233-stable",
+      "commit": "bbae682629c53b483cb3d8a63936ed78797b7368",
+      "timestamp": 1787942225,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31129,6 +31159,21 @@
       "maintainer_notes": null
     }
   ],
+  "6c1e59fec91f3224991e1723b9b57fac015fb8067b87348e3cdc51d82f4a8616": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.52.01/Shiori.v1.52.01.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 56,
+      "version_name": "1.52.01",
+      "tag": "v1.52.01",
+      "commit": "de486d66ebbb2b8a6bdb6c4d39616dbbe5b7f2e0",
+      "timestamp": 1787942886,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2d779c2a261cf5ecd1bb74905eb76724a60811213e4175026e2727b66e67bee8": [
     {
       "repository": "https://github.com/dessalines/habit-maker.git",
@@ -36267,6 +36312,21 @@
       "tag": "v0.9.3-alpha",
       "commit": "d13c77358776002c295d5b199edc68db70b391a9",
       "timestamp": 1787320809,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "78365cde4f6ce39446e3dc59c859d230234f127f878aebdea7a760b1769a1530": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/JackEblan/YagniLauncher/releases/download/v0.9.4-alpha/YagniLauncher-v0.9.4-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 94,
+      "version_name": "0.9.4-alpha",
+      "tag": "v0.9.4-alpha",
+      "commit": "ebbf808487b5a5dfa1be7f05f6dd71e420d186c3",
+      "timestamp": 1787925238,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -48484,6 +48544,21 @@
       "tag": "v1.6.1",
       "commit": "cde38344c826249c99d79ecc0d8291e4dd2ff27b",
       "timestamp": 1786387786,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "26cfc117c8bf8c5a63d2cb63b8913ce7109dc17c916fafd3a0744f926beb6e5a": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.7.0/Crystalpad-v1.7.0-release.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 12,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "10d46eb954377b370add9f1e286c453be7e3dfeb",
+      "timestamp": 1787925455,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -62223,6 +62298,21 @@
       "maintainer_notes": null
     }
   ],
+  "7badfe418ce0d3642daf493d6c23faae2d25110c358d6c95af183b63e2d15786": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.0.0/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 57,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "ec674de1e80566c8958f6c05815924f1090d486a",
+      "timestamp": 1787943245,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
     {
       "repository": "https://github.com/meenbeese/Chronos.git",
@@ -73464,6 +73554,21 @@
       "tag": "1.3",
       "commit": "33ae5df03b1f12012b72fae78e2a1f9473ddd92c",
       "timestamp": 1751742418,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0f9a9b4ab3dc600abaa6c6769e6dfe0f270222b53526c413826c2ce40b6d48f0": [
+    {
+      "repository": "https://github.com/r57zone/EasyNotes.git",
+      "apk_url": "https://github.com/r57zone/EasyNotes/releases/download/1.4/EasyNotes.1.4.apk",
+      "appid": "com.r57zone.easynotes",
+      "version_code": 24,
+      "version_name": "1.4.0",
+      "tag": "1.4",
+      "commit": "23e17781893f869467641d24dd09f4832d153660",
+      "timestamp": 1787951172,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116827,6 +116932,21 @@
       "maintainer_notes": null
     }
   ],
+  "2e70e8df44a0975e39f1fd3959926578b2b92c604b714b97e5e0b6d7ef69eaeb": [
+    {
+      "repository": "https://github.com/A-EDev/Flow.git",
+      "apk_url": "https://github.com/A-EDev/Flow/releases/download/v2.2.1/flow-foss-arm64-v8a.apk",
+      "appid": "io.github.aedev.flow",
+      "version_code": 18,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "c27d33e22ea3f0e469f594a8a7cfba2ace24572e",
+      "timestamp": 1787935947,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c6c92a117e3a0a5737ccfc093f67a5dcbfe8578d01e1e85bfbec2cf650092ca0": [
     {
       "repository": "https://github.com/auag0/DisableAudioFocus.git",
@@ -123545,6 +123665,21 @@
       "maintainer_notes": null
     }
   ],
+  "1fe707e3b4d9625f57defb0a504822ea7484c48395fdecf1b0d07d3ff981384b": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.7.91/RiPlay-foss-release-0.7.91.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 92,
+      "version_name": "0.7.91",
+      "tag": "v0.7.91",
+      "commit": "8a059a7a051805b9cfb4c2c3b65fde6b3c5a2c63",
+      "timestamp": 1787936196,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -127803,6 +127938,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "bf3914cd2b2b232d28c66b29b453260c1ae04cce6dde2d7d009bb622d1bb5c2a": [
+    {
+      "repository": "https://github.com/sun-jiao/flut-renamer.git",
+      "apk_url": "https://github.com/sun-jiao/flut-renamer/releases/download/v1.6.2/app-arm64-v8a-release.apk",
+      "appid": "net.sunjiao.renamer",
+      "version_code": 2017,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "1e757f90f83bd8f388b773437410d22fb2d8bcb8",
+      "timestamp": 1787952492,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "embedded build id in libdartjni.so (known Flutter issue)"
     }
   ],
   "58a8d9d06d232675bfaa4619facd9047d2ba9507638a60200e306ba4ccab9860": [
