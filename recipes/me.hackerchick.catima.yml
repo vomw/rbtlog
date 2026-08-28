@@ -1,6 +1,6 @@
 ---
 repository: https://github.com/CatimaLoyalty/Android.git
-updates: releases
+updates: releases:v[0-9.]*(?!-wearos)
 versions:
   - tag: v2.31.0
     apks:
