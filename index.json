@@ -17352,6 +17352,21 @@
       "maintainer_notes": null
     }
   ],
+  "897b91fe6a1ea0c3a7f6e2b041d5ace0d582941f67cf454fb7778f031d89ce41": [
+    {
+      "repository": "https://github.com/barbeau/gpstest.git",
+      "apk_url": "https://github.com/barbeau/gpstest/releases/download/v3.10.6/osmdroidRelease-v3.10.6.apk",
+      "appid": "com.android.gpstest.osmdroid",
+      "version_code": 24100,
+      "version_name": "3.10.6",
+      "tag": "v3.10.6",
+      "commit": "ffcf2a974e3c6b34cc3aac1c7086f467d24b8439",
+      "timestamp": 1788137300,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7663dcf3924139df06c9182fe40c8addacdc9c7fcb59216db3f729317762a6e1": [
     {
       "repository": "https://github.com/Lennoard/SysctlGUI.git",
@@ -143071,6 +143086,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "nondeterministic R8/D8 output (optimizer messed up)"
+    }
+  ],
+  "16c5865fbecdd7d5b4d6d0d0a20f52f097e2c6f4a9b9c612b2446ce3f35f73c3": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.11.5/wizestream_v1.11.5.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1011005,
+      "version_name": "1.11.5",
+      "tag": "v1.11.5",
+      "commit": "5418ef662701047f04a7a1bc91375145d7c50859",
+      "timestamp": 1788128145,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
