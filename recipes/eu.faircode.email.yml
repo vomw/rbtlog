@@ -2438,3 +2438,30 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '1.2333'
+    apks:
+      - apk_pattern: FairEmail-.*-github-release\.apk
+        apk_url: https://github.com/M66B/FairEmail/releases/download/1.2333/FairEmail-v1.2333a-github-release.apk
+        build:
+          - sed -r '/release \{/,/}/ { /signingConfig/d }' -i app/build.gradle
+          - ./gradlew assembleGithubRelease
+          - mv app/build/outputs/apk/github/release/FairEmail-*-github-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
