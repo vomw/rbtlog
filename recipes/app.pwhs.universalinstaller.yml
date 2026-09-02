@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/pass-with-high-score/universal-installer.git
 updates: releases
+notes:
+  - 'FIXME: minorApiLevel should be fixed with the release following 1.11.0, and libraryStripping disabled'
 versions:
   - tag: v1.2.0
     apks:

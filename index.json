@@ -5712,6 +5712,21 @@
       "maintainer_notes": null
     }
   ],
+  "b831558676f384c6080b433ebc3ab2839a3fe1242335ed014f12c211f5030852": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.4.4/fluffy-4.4.4-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 881,
+      "version_name": "4.4.4",
+      "tag": "4.4.4",
+      "commit": "991d6ba2299f3a359791f60d456284a94be45aa0",
+      "timestamp": 1788357247,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -20350,6 +20365,21 @@
       "maintainer_notes": null
     }
   ],
+  "3f9be47be031b7b5728f7f465a787c54cc8c4a48c230c9f848cbae5460e28f26": [
+    {
+      "repository": "https://github.com/blankdotdev/sidestep.git",
+      "apk_url": "https://github.com/blankdotdev/sidestep/releases/download/v1.2.7/app-release.apk",
+      "appid": "com.blankdev.sidestep",
+      "version_code": 19,
+      "version_name": "1.2.7",
+      "tag": "v1.2.7",
+      "commit": "88497adfa778c86a5db2c03854f2ab1c394e4d80",
+      "timestamp": 1788357414,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "48ffaa45bf01da3d59002de05022706398518324f63624aeb069368f6061a79e": [
     {
       "repository": "https://github.com/you-apps/ClockYou.git",
@@ -29179,6 +29209,21 @@
       "maintainer_notes": null
     }
   ],
+  "7604aab351a936ba1de2b09038760e2b20e87651c239155b679679b5a539905d": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.5%2Bmac-app-store/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 309050000,
+      "version_name": "3.9.5",
+      "tag": "v3.9.5+mac-app-store",
+      "commit": "e5acd83d8dde1f7340dacb426c9bd3f8a6488e36",
+      "timestamp": 1788357544,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -37262,6 +37307,36 @@
       "maintainer_notes": null
     }
   ],
+  "015daa3f0e16e901f2a81b92cf85bde8641e68d799e279ef5abcd0ef23b79476": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.26.0/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 45,
+      "version_name": "4.26.0",
+      "tag": "v4.26.0",
+      "commit": "d24e089d13802753965156eb661103112fa6b204",
+      "timestamp": 1788357926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e85dc9aabf685a0d4a2aa1f3e162f2171f356e2a44ac39c5ac8b41225d3fc8c": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.26.1/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 46,
+      "version_name": "4.26.1",
+      "tag": "v4.26.1",
+      "commit": "29e0a0251111c4a2110e129acd66dad9017288b8",
+      "timestamp": 1788374127,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5cf2eb80e46ed65b312e3cb12fc70f033493562e560c34488d471d42b0c5663": [
     {
       "repository": "https://github.com/eipna/Centsation.git",
@@ -37572,6 +37647,21 @@
       "tag": "v2.1.3",
       "commit": "ccc33988993e8f66f882c5e4731ac11dc161089a",
       "timestamp": 1787321085,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6f3309196e9b7a94adafd091111c957ea81c4dae17ad2599e25a3fbb09d02940": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v2.2.0/dns_toggle_v2.2.0.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 27,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "8cf0036b62516eff4a3bd71f0957600f8a6d4975",
+      "timestamp": 1788358081,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -68489,6 +68579,21 @@
       "maintainer_notes": null
     }
   ],
+  "9723b63a112244801e77eb3a513ecf83e77d0f662064ebad8180373497f1a323": [
+    {
+      "repository": "https://github.com/OksigeniaSL/oksigenia-sos.git",
+      "apk_url": "https://github.com/OksigeniaSL/oksigenia-sos/releases/download/v4.3.0/app-arm64-v8a-release.apk",
+      "appid": "com.oksigenia.oksigenia_sos",
+      "version_code": 430002,
+      "version_name": "4.3.0",
+      "tag": "v4.3.0",
+      "commit": "0de3ffda9bf72c05fc3f6433968f0668f5f41ea0",
+      "timestamp": 1788374781,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3796bdc2136c6c29db58f6585d7bff5a7f985327cd74b1ddf507ac46aec8be47": [
     {
       "repository": "https://github.com/om1cael/Hidroly.git",
@@ -70404,6 +70509,21 @@
       "tag": "v2.11.0",
       "commit": "95b47201980b82d6f94adcd919ed097296c52e1c",
       "timestamp": 1785855127,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3feeb27a62e841e54318fd0dbaa4690b8156a9b3e3671c89b973359f5ae2ce25": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.12.0/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1028,
+      "version_name": "2.12.0",
+      "tag": "v2.12.0",
+      "commit": "3c77383affa3b3cf1b899df94f0b9d2ed14a031b",
+      "timestamp": 1788358312,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -79524,6 +79644,21 @@
       "tag": "v1.5.7",
       "commit": "cd993b5d49f69c3b486d9a4c2ea5692676379104",
       "timestamp": 1787581108,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3729e4b6cbf7da1e16658cca90e8e3d3eb2d49c9847ad70a1eb8034eb8362549": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.6.0/Minus-v1.6.0.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10600,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "73ebebec27a726e6daaaf4ce9e96964dd92b0c6b",
+      "timestamp": 1788358742,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92796,6 +92931,21 @@
       "maintainer_notes": null
     }
   ],
+  "58e1f799f14297d4971478d3248542b891d7427a8ae309b8fcaac2b151faaea4": [
+    {
+      "repository": "https://github.com/watea/RadioUpnp.git",
+      "apk_url": "https://github.com/watea/RadioUpnp/releases/download/V3.02.018/app-open-release.apk",
+      "appid": "com.watea.radio_upnp",
+      "version_code": 302018,
+      "version_name": "3.02.018",
+      "tag": "V3.02.018",
+      "commit": "cb50541ae5a6334223a26715ca4c4c9e1c1fdfd7",
+      "timestamp": 1788375789,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d7106963bf18667bd503c957cea75d6334be31306d583e89d8ea4ea9354d0348": [
     {
       "repository": "https://github.com/mrwm/QRshare.git",
@@ -98427,6 +98577,21 @@
       "tag": "v2.26.4",
       "commit": "a9363acbb50f937b378e7236e848272e84038255",
       "timestamp": 1787062679,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f9442678344ceba9207fc2487a27de0edb3d5994ffab21944b306c885e6c2121": [
+    {
+      "repository": "https://codeberg.org/traewelldroid/traewelldroid.git",
+      "apk_url": "https://codeberg.org/traewelldroid/traewelldroid/releases/download/v2.26.5/app-foss-release.apk",
+      "appid": "de.hbch.traewelling",
+      "version_code": 229,
+      "version_name": "2.26.5",
+      "tag": "v2.26.5",
+      "commit": "d3e5b991b18df1bbcbaa9f355d38be37fa3e26e4",
+      "timestamp": 1788359634,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -104873,6 +105038,21 @@
       "tag": "v1.15.1",
       "commit": "6881899b49fbcef9c313696882ebee891b714d1e",
       "timestamp": 1787581621,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d8a661cda6de2fcf8a7bcf3b1db42b21340baf3f1fd06a86f478373179471a29": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.16.1/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10160012,
+      "version_name": "1.16.1",
+      "tag": "v1.16.1",
+      "commit": "8d6917c2e4d5e21e07600cd500e2d9517c61d019",
+      "timestamp": 1788383394,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -114954,6 +115134,21 @@
       "maintainer_notes": null
     }
   ],
+  "75e2f96952742aeef8fb9f18fd0bd635a9f070a0ec7557e9f85b2a0d8d6e2e82": [
+    {
+      "repository": "https://github.com/rafareborn/biometric-bypass.git",
+      "apk_url": "https://github.com/hxreborn/biometric-bypass/releases/download/v2.0.2/app-release.apk",
+      "appid": "eu.rafareborn.biometricbypass",
+      "version_code": 202,
+      "version_name": "2.0.2",
+      "tag": "v2.0.2",
+      "commit": "7c653032c35fa046b8e959cffcd28101a2604927",
+      "timestamp": 1788359860,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6e133ba4589ff9f831c13fa889b8c56e0eb14570fb0cc19b7c1e6dd796fb28e3": [
     {
       "repository": "https://github.com/EXALAB/AnLinux-Adfree.git",
@@ -118830,6 +119025,21 @@
       "tag": "v2.7.1",
       "commit": "3327a8d86b9049ae774ac2a19e67a2a313ee07d3",
       "timestamp": 1788028956,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f93c1af1c2289fb8685ab4f8f1d4f4d7b5b0bbdd20cc631cdf07e58bb899c034": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.7.2/de1984-v2.7.2.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 43,
+      "version_name": "2.7.2",
+      "tag": "v2.7.2",
+      "commit": "e0ce3118c1a8e4093643abda7b5e899eb47ea31c",
+      "timestamp": 1788360085,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -137430,6 +137640,21 @@
       "tag": "0.8.0",
       "commit": "8928470ddca4b1703ce0c8ad1f541c44b0e11edd",
       "timestamp": 1767383383,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3b8fe047eb32e46a08e1f7a323356b89540b0fd16a0a1fb8f594b4cea1deab90": [
+    {
+      "repository": "https://github.com/CDrummond/squeezelite.git",
+      "apk_url": "https://github.com/CDrummond/squeezelite/releases/download/0.9.0/squeezelite-0.9.0.apk",
+      "appid": "org.lyrion.squeezelite",
+      "version_code": 900,
+      "version_name": "0.9.0",
+      "tag": "0.9.0",
+      "commit": "3512b6fd857aa936f3118ad4fbea6fff1d0ac445",
+      "timestamp": 1788378587,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

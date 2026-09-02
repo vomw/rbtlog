@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/wafrn/wafrn-rn.git
 updates: releases
+notes:
+  - 'WARN: too heavy for muckie'
 labels:
   - expo
 versions:
@@ -1955,6 +1957,60 @@ versions:
               version: v24.19.0
               url: https://nodejs.org/dist/v24.19.0/node-v24.19.0-linux-x64.tar.xz
               sha256: 14b342e71204f811bde6153be8e04b62aef63c236fef92b55f9c83154b409647
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - xz-utils
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.16.1
+    apks:
+      - apk_pattern: app-arm64-v8a-.*\.apk
+        apk_url: https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.16.1/app-arm64-v8a-foss.apk
+        build:
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin:${HOME}/.node/bin"
+          - export GRADLE_USER_HOME=/opt/gradle
+          - export UNSIGNED_APK=1
+          - export NODE_OPTIONS="--openssl-legacy-provider --max_old_space_size=4096"
+          - npm install --global corepack@latest
+          - corepack enable pnpm
+          - pnpm install --frozen-lockfile
+          - pnpm rebuild lightningcss
+          - sed -ri 's/ armeabi-v7a//' scripts/android_build.sh
+          - bash ./scripts/android_build.sh prod-foss
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace android/app/build/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /woodpecker/src
+        build_repo_dir: /woodpecker/src/codeberg.org/wafrn/wafrn-rn
+        build_timeout: 40
+        build_user: build
+        provisioning:
+          android_home: /opt/android
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.20.0
+              url: https://nodejs.org/dist/v24.20.0/node-v24.20.0-linux-x64.tar.xz
+              sha256: 2f2c0da162318f0de47665410c7c8c2ed3d36c8f3105de4bbc61176c70a7cbf2
             - name: repro-apk
               file_name: repro-apk.tar.gz
               version: v0.3.0
