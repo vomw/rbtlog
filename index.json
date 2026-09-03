@@ -8502,6 +8502,21 @@
       "maintainer_notes": null
     }
   ],
+  "3399ff302362ad20a1b35cfc5955a5257112f16fb484961838ef13e38efab4b5": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.12.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 35,
+      "version_name": "1.12.0",
+      "tag": "v1.12.0",
+      "commit": "34a810682b682290c38ab5ae51d9c89c8787a4a1",
+      "timestamp": 1788464005,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -8872,6 +8887,21 @@
       "tag": "build107.2.1",
       "commit": "463f1434a4943c5f67d710041da5d9bae415a0b1",
       "timestamp": 1786559234,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f617f77975d79e4827de015179e844eb81b6891b704a2f2b7b77a7bb2395ebea": [
+    {
+      "repository": "https://github.com/Hamza417/Inure.git",
+      "apk_url": "https://github.com/Hamza417/Inure/releases/download/build107.2.2/app-github-release.apk",
+      "appid": "app.simple.inure",
+      "version_code": 10722,
+      "version_name": "build107.2.2",
+      "tag": "build107.2.2",
+      "commit": "acb07d04e1f12dc09c8a6cf5cc6425a23d25816d",
+      "timestamp": 1788443445,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26944,6 +26974,21 @@
       "maintainer_notes": null
     }
   ],
+  "be7073e311fe80e9cc2538d3f5aca9e3198682b2d05295f871f92e99c1e79c4d": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.16.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 48,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "d43870680b5f075eeddcee494f09cf3a604eda81",
+      "timestamp": 1788460697,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5adb70d875f12cfe93c06c5cc0b1121d208f256ded161792b254173466bee3d": [
     {
       "repository": "https://github.com/phsycologicalFudge/SafeHaven-Store.git",
@@ -27614,6 +27659,21 @@
       "tag": "v1.57",
       "commit": "8dd30840f1ec1637704931ccd6d6797b6fb47569",
       "timestamp": 1785852497,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "15dba22f83ff0aec14d397dfcb559cbf004970bc0c496a363076e3edec377aed": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v1.58/networksurvey-1.58-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 117002,
+      "version_name": "1.58",
+      "tag": "v1.58",
+      "commit": "23be1873cf05cbfb3e60c1ea06e7127be7266b6f",
+      "timestamp": 1788443669,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -39945,6 +40005,21 @@
       "maintainer_notes": null
     }
   ],
+  "c50e0bd95f8093e01646cadf9696ca2af604afbd4b9364f69c4e4703db2bd96a": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.46.0/com.fibelatti.photowidget-v1.46-1460000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1460000,
+      "version_name": "1.46",
+      "tag": "v1.46.0",
+      "commit": "abad57a78601846f19b1a1683ce34d84877961ef",
+      "timestamp": 1788443853,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -45816,6 +45891,21 @@
       "tag": "v1.8.0",
       "commit": "f47034e115361fd2a6f1072dddb2a7d2fb4b9ce3",
       "timestamp": 1787169850,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c973409a056426b398b1f0ed60fec04ff567baddd2ac85d7e91019c18f2f44a3": [
+    {
+      "repository": "https://github.com/LivingWithHippos/unchained-android.git",
+      "apk_url": "https://github.com/LivingWithHippos/unchained-android/releases/download/v1.8.1/unchained-release-v1.8.1.apk",
+      "appid": "com.github.livingwithhippos.unchained",
+      "version_code": 62,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "04104e2c332a2b869844bc9a7b4013e39cc1f4be",
+      "timestamp": 1788444130,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56117,6 +56207,21 @@
       "tag": "v2.0.24",
       "commit": "2f3be7e02a88f8924b0a5732b92dba571890f474",
       "timestamp": 1788271392,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2fcb216e4685ca78e2ebf84037e94090bf113ecb62dc425b62d9613d1ecc257d": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.25/kelani-sbd-tracker-v2.0.25.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 125,
+      "version_name": "2.0.25",
+      "tag": "v2.0.25",
+      "commit": "05b023533c509133c53e25b6747feed8c8fec5cc",
+      "timestamp": 1788444308,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86993,6 +87098,21 @@
       "maintainer_notes": null
     }
   ],
+  "5255c938e7fc467c9f47baa447f208e6465a15f8d7b5587174932b21a7664a76": [
+    {
+      "repository": "https://github.com/neoblackxt/AnyWebView.git",
+      "apk_url": "https://github.com/neoblackxt/AnyWebView/releases/download/v1.4.3/AnyWebView-v1.4.3.apk",
+      "appid": "com.thinkdifferent.anywebview",
+      "version_code": 8,
+      "version_name": "1.4.3",
+      "tag": "v1.4.3",
+      "commit": "42fc81167c41fec7373e2630a47a27d47d631b46",
+      "timestamp": 1788444436,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2fdb22c1c5cf62a849c16dd9f973f7792c65ba834fdd1ec4880faebd59ca28a0": [
     {
       "repository": "https://github.com/nulldio/32steps.git",
@@ -101042,6 +101162,21 @@
       "maintainer_notes": null
     }
   ],
+  "9024fa2778281837fe257d32bbad817f0752fc8bc4e4ca33a73a20670a435726": [
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v1.12.0/ReadeckApp-0.12.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 1200,
+      "version_name": "0.12.0",
+      "tag": "v1.12.0",
+      "commit": "f04ebb08b3867e489f5d989790986b32238256df",
+      "timestamp": 1788444482,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
     {
       "repository": "https://github.com/sal0max/currencies.git",
@@ -111609,6 +111744,21 @@
       "maintainer_notes": null
     }
   ],
+  "4f2a9f127e14fa7315b6ee3a5be4bbd3d1a42d7188bb3e4b8ef9ddf1c91bd998": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.2.5-rc0/eu.darken.capod-v5.2.5-rc0-50205000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50205000,
+      "version_name": "5.2.5-rc0",
+      "tag": "v5.2.5-rc0",
+      "commit": "a41bef21b5d0b1a37b87c6c3b4326c535d577ed0",
+      "timestamp": 1788444634,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -111754,6 +111904,21 @@
       "tag": "v2.2.2-rc0",
       "commit": "37dd2d09998af075cbee13909b0f8e809e14a33c",
       "timestamp": 1786906239,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8f6e2b90583058f35ef4857f4ea1626309dba999b076fcab57534af3901e6033": [
+    {
+      "repository": "https://github.com/d4rken-org/permission-pilot.git",
+      "apk_url": "https://github.com/d4rken-org/permission-pilot/releases/download/v2.2.3-rc0/eu.darken.myperm-v2.2.3-rc0-20203000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.myperm",
+      "version_code": 20203000,
+      "version_name": "2.2.3-rc0",
+      "tag": "v2.2.3-rc0",
+      "commit": "377276773cd640d255cbe41a351ed5c105120fb2",
+      "timestamp": 1788444883,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -119070,6 +119235,21 @@
       "tag": "v2.7.2",
       "commit": "e0ce3118c1a8e4093643abda7b5e899eb47ea31c",
       "timestamp": 1788360085,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6ef417679d9f48b2ba4dcbe31fde35b680d78782265e4c14805d1dc60a44ca40": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.7.3/de1984-v2.7.3.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 44,
+      "version_name": "2.7.3",
+      "tag": "v2.7.3",
+      "commit": "5f481d730e54cdc95bd811577a43f8dcf6bca152",
+      "timestamp": 1788453504,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -143778,6 +143958,21 @@
       "maintainer_notes": null
     }
   ],
+  "af278736e81760ddb9b8de5dcb4f61cbec460a8419060e8f90ec355444e8c762": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.13.0/wizestream_v1.13.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1013000,
+      "version_name": "1.13.0",
+      "tag": "v1.13.0",
+      "commit": "850662e307e3b334d7f96134f76e5e680a7620ec",
+      "timestamp": 1788461597,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
     {
       "repository": "https://github.com/woheller69/exifedit.git",
@@ -149488,6 +149683,21 @@
       "tag": "v1.2.6",
       "commit": "f0e2671f5a41fa849b045535d5ff0c77814902c6",
       "timestamp": 1788273136,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4c3d5829b0d7c9bd096c75675c3b6cd1bb7ef0d46550d02894154874c3bb82d5": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.2.7/mindwtr-1.2.7-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 136,
+      "version_name": "1.2.7",
+      "tag": "v1.2.7",
+      "commit": "1c81907c5454c4b3da0b6ccac750739b104216ee",
+      "timestamp": 1788445422,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

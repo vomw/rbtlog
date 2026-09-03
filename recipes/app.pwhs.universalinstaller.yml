@@ -2,7 +2,7 @@
 repository: https://github.com/pass-with-high-score/universal-installer.git
 updates: releases
 notes:
-  - 'FIXME: minorApiLevel should be fixed with the release following 1.11.0, and libraryStripping disabled'
+  - 'FIXME: updates in repo temp-disabled because of Wear, GMS; https://github.com/pass-with-high-score/universal-installer/issues/122 '
 versions:
   - tag: v1.2.0
     apks:
@@ -671,6 +671,35 @@ versions:
               version: 28.2.13676358
               url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
               sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.12.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/pass-with-high-score/universal-installer/releases/download/v1.12.0/app-release.apk
+        build:
+          - ./gradlew assembleOpensourceRelease -Dorg.gradle.jvmargs=-Xmx3072m
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/opensource/release/app-opensource-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
           cmake:
           cmdline_tools:
             version: '22.0'
