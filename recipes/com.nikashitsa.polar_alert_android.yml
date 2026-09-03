@@ -3,6 +3,7 @@ repository: https://github.com/nikashitsa/polar-alert-android.git
 updates: disabled
 notes:
   - updates are disabled in our repo due to proprietary dependencies, see https://github.com/nikashitsa/heart-alert-android/issues/3
+  - app removed from IoD 2026-09-03, see https://github.com/nikashitsa/heart-alert-android/issues/6
 versions:
   - tag: v1.0.3
     apks:

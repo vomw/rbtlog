@@ -30169,6 +30169,21 @@
       "maintainer_notes": null
     }
   ],
+  "85eace312f3ec83c5d0b1ebc5d400c276d4f484dfa7f846a5893a318e2ec80a1": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.5/EliteMemoPro-v1.0.5.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 5,
+      "version_name": "1.0.5",
+      "tag": "v1.0.5",
+      "commit": "17f183b471058019c24730c3124ef3940cea10c6",
+      "timestamp": 1788396388,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "215d538d285efac2bd934e06574e08421af1fe5565dc240ee481c070cc266ae9": [
     {
       "repository": "https://github.com/mona-hrt/mona.git",
@@ -86466,6 +86481,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "8c5f06e1a856f659f877c2c5c27cdde732f4af2c94fb7bbfab8c4002f25e3080": [
+    {
+      "repository": "https://github.com/Sztorm/NoteCalendar.git",
+      "apk_url": "https://github.com/Sztorm/NoteCalendar/releases/download/2.0.0/com.sztorm.notecalendar-2.0.0.apk",
+      "appid": "com.sztorm.notecalendar",
+      "version_code": 13,
+      "version_name": "2.0.0",
+      "tag": "2.0.0",
+      "commit": "4441f1a5162d7590805f6284ca0a89b64eb42de0",
+      "timestamp": 1788375435,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "dirty build"
     }
   ],
   "0e8548505175c75e8091971d78f85a775e70f86891318a27c29e651fdd5431c8": [
