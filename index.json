@@ -8517,6 +8517,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca6eeb0f2e2f50e3fb350034dedb108f6ba970ed17251a284472f59aa9e46269": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.13.1/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 37,
+      "version_name": "1.13.1",
+      "tag": "v1.13.1",
+      "commit": "aabafb377f743ec8d077962eba8b1c30deb503c7",
+      "timestamp": 1788521906,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -57482,6 +57497,21 @@
       "tag": "v2.7.0",
       "commit": "8118c63ff5dab270d894285b66d8885129328eb4",
       "timestamp": 1787432387,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "68945387cc27c4c1a89c53bdbc50ca4702510ac6cb642a4b1985bb1184e692c1": [
+    {
+      "repository": "https://github.com/ki-bun/Pioneer.git",
+      "apk_url": "https://github.com/ki-bun/Pioneer/releases/download/v2.8.0/Pioneer-2.8.0.apk",
+      "appid": "com.ki_bun.pioneer",
+      "version_code": 15,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "72a8dfceb2727a554d96719aa046fe2daacf76b2",
+      "timestamp": 1788523154,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
