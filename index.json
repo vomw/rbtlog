@@ -7092,6 +7092,36 @@
       "maintainer_notes": null
     }
   ],
+  "5d89bfed5f2447becb99884e329d0faf783b3562bb9791b6d4de57500dd101c6": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.2.1/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10201,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "ca431408333ac69d52b5f44ca90944f8f1c1237b",
+      "timestamp": 1788616393,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "018a164e7f863862dd576d3cd6666fdd609688971686239b9b35c829b6a3c695": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.2.2/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10202,
+      "version_name": "1.2.2",
+      "tag": "v1.2.2",
+      "commit": "b7df9fd7b4067d66684debb630b8545c858461c9",
+      "timestamp": 1788637091,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -8547,6 +8577,21 @@
       "maintainer_notes": null
     }
   ],
+  "09a0d295eecb2c1ecc8391f360090cab8874933fe01e03f8b72af53918ee0fb8": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.14.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 38,
+      "version_name": "1.14.0",
+      "tag": "v1.14.0",
+      "commit": "f965681c7b589c28b4f0e3257d1edb63946fd21a",
+      "timestamp": 1788633123,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -9907,6 +9952,21 @@
       "tag": "v9.7.6",
       "commit": "62cbe98ee257ff7a0f52ed3b050986dbb80b7d6b",
       "timestamp": 1787855610,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b80ab48544981ba3e728d0b46919a1e02d3f4d762d61465b7f53ae173dc7beea": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.7.7/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 977,
+      "version_name": "v9.7.7",
+      "tag": "v9.7.7",
+      "commit": "32df998f289149cb01efa20fd40b4f47e7712f06",
+      "timestamp": 1788630589,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -29344,6 +29404,21 @@
       "maintainer_notes": null
     }
   ],
+  "3ee34a4737d10b0a85ab1b82205918beec6dd85a5b897ecd5927167ca99f1ca8": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.7%2Bios-app-store/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 309070000,
+      "version_name": "3.9.7",
+      "tag": "v3.9.7+ios-app-store",
+      "commit": "d6d3bc9131e4d4f9bdf1586f42bc47a2d835ca5f",
+      "timestamp": 1788617234,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -31049,6 +31124,21 @@
       "tag": "v3.2.1",
       "commit": "e8e100963258a111d0dc67e65493b4dbc6e78f7d",
       "timestamp": 1787665841,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f4f49b81e5be134607c84fe15b187b5d6574def9d356bf3656ae18aafe350a84": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v3.3.0/daily-you-arm64-v8a-v3.3.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 30030002,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "39483e2e75aa39f9e829a6683f02b9af2fa1e492",
+      "timestamp": 1788617829,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -40990,6 +41080,21 @@
       "tag": "v2.6.3",
       "commit": "d431ce0d1a0b79a607169ecd9d148746e286c19c",
       "timestamp": 1787235377,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "064b8aaa8af5b4e715b813f652b4528854ce038006b3df43d24469562cd3ebf1": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.6.4/FixupXer-v2.6.4-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 46,
+      "version_name": "2.6.4",
+      "tag": "v2.6.4",
+      "commit": "c203634d16cfd0c21f93c52f5ae212b6501ac6ed",
+      "timestamp": 1788618770,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56332,6 +56437,21 @@
       "maintainer_notes": null
     }
   ],
+  "471a9bdd9fdf570718ecec6e8909f7428b0e888654811d8c94c3fec000fccc22": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.26/kelani-sbd-tracker-v2.0.26.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 126,
+      "version_name": "2.0.26",
+      "tag": "v2.0.26",
+      "commit": "3bfe8a6a9e6d964b18d860ab080db1e5554447d2",
+      "timestamp": 1788618973,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -58507,6 +58627,21 @@
       "maintainer_notes": null
     }
   ],
+  "77db147a821ef619caaff6ecedfa2a6c311897df3c08d90b1889a72b954e7f00": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.3/KeePassDX-4.5.3-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 45300,
+      "version_name": "4.5.3",
+      "tag": "4.5.3",
+      "commit": "b5f9578599c496b293d0b53e4e9441f6b905cdc0",
+      "timestamp": 1788619164,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -58862,6 +58997,21 @@
       "tag": "4.5.2",
       "commit": "94e5a14559f74dd309ce8cc42b1fbfb56f1fde33",
       "timestamp": 1788184682,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c86dee97c80da0659c475bb071c22dd8a89406817b147bcf1be46785c1c37727": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.3/KeePassDX-4.5.3-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 45300,
+      "version_name": "4.5.3",
+      "tag": "4.5.3",
+      "commit": "b5f9578599c496b293d0b53e4e9441f6b905cdc0",
+      "timestamp": 1788619625,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -60527,6 +60677,21 @@
       "tag": "v0.7.6",
       "commit": "39c045632965f2ae499aa0bd11ce70278064f30e",
       "timestamp": 1787407824,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "19b892989b2fa8196f69535dd117e1424d6b9d46a860ee9c3e14af0cc65986cf": [
+    {
+      "repository": "https://github.com/Droid-ify/client.git",
+      "apk_url": "https://github.com/Droid-ify/client/releases/download/v0.7.7/app-release.apk",
+      "appid": "com.looker.droidify",
+      "version_code": 770,
+      "version_name": "0.7.7",
+      "tag": "v0.7.7",
+      "commit": "3d3deb0f1b3bef79c684d8e6b304ffe291157f1f",
+      "timestamp": 1788620083,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65848,6 +66013,21 @@
       "tag": "v1.34.0",
       "commit": "e998546aeba5e7ee912ba93aae821ca896557730",
       "timestamp": 1787498586,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "851f4b380785944f7c9620f7099205792f204af182f8200d93b3b800d8c7239b": [
+    {
+      "repository": "https://github.com/VaibhavLakhera/minimo.git",
+      "apk_url": "https://github.com/VaibhavLakhera/minimo-launcher/releases/download/v1.35.0/app-foss-release.apk",
+      "appid": "com.minimo.launcher",
+      "version_code": 144,
+      "version_name": "1.35.0",
+      "tag": "v1.35.0",
+      "commit": "fb2d351a0b276dd0e1af74602f8695a7e8f3ebed",
+      "timestamp": 1788633780,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94684,6 +94864,21 @@
       "maintainer_notes": null
     }
   ],
+  "a93c9b3e8da4f89d4335c1189de4d4bf4e06f7eadc8b318fafddf905ed6bbc24": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.7.0/wgtunnel-fdroid-v5.7.0-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50700,
+      "version_name": "5.7.0",
+      "tag": "5.7.0",
+      "commit": "1c4fa40c04b40a8354fbe16b6d4362109de72bb2",
+      "timestamp": 1788620616,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -95954,6 +96149,21 @@
       "tag": "v1.0.9",
       "commit": "040f1fedca377af133bdead60ed59f19ee2ef93b",
       "timestamp": 1785955230,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "65cbe6c4ae0c82acf1166094ebcbc545cc3ba9704c062a6806397a0250689edf": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.10/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 84,
+      "version_name": "1.0.10-foss",
+      "tag": "v1.0.10",
+      "commit": "acbf71eaac183f966e348f421e41012003b565d1",
+      "timestamp": 1788620977,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -103288,6 +103498,21 @@
       "maintainer_notes": null
     }
   ],
+  "9f0fd9797f58e1fe82d3a5a3a76bfa71646be68e5234d3ca32c94d55256cbb1a": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.10/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 531,
+      "version_name": "1.8.10",
+      "tag": "v1.8.10",
+      "commit": "57ae2b9c6968c9bb34c19021cab5f6a3acbfba11",
+      "timestamp": 1788621341,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -107858,6 +108083,21 @@
       "tag": "v1.13.1",
       "commit": "9347ff5f06359afe277c06f31bc14f8291569ab6",
       "timestamp": 1788535083,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "733dd040dc9e9ffb659d818cf9a163080ba6fb8fedbdefc5d3c65e5a175f40b2": [
+    {
+      "repository": "https://github.com/PGAxis/MusicPlayer.git",
+      "apk_url": "https://github.com/PGAxis/MusicPlayer/releases/download/v1.13.2/Musicaxs-1.13.2.apk",
+      "appid": "dev.pgaxis.musicaxs",
+      "version_code": 35,
+      "version_name": "1.13.2",
+      "tag": "v1.13.2",
+      "commit": "5dc950574efeeb3f8e9a8a53aaf7c0e70af687e9",
+      "timestamp": 1788634118,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122015,6 +122255,21 @@
       "maintainer_notes": null
     }
   ],
+  "cb62a879fd2553f755c61178230e00e74300e31faf0124229c1db068a6f59763": [
+    {
+      "repository": "https://github.com/ronynn/karui.git",
+      "apk_url": "https://github.com/ronynn/karui/releases/download/1.8/karui-release.apk",
+      "appid": "io.github.ronynn.karui",
+      "version_code": 8,
+      "version_name": "1.8",
+      "tag": "1.8",
+      "commit": "6f2d19e398d3ad5d05d52b5dcce49b17a098abb7",
+      "timestamp": 1788622410,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7d0669c5341a389211426bbd21999cd2cefbf369647e4854444a1169ac010e7b": [
     {
       "repository": "https://github.com/sak96/read_later.git",
@@ -122540,6 +122795,21 @@
       "maintainer_notes": null
     }
   ],
+  "ab894da1b28ad0153a6c1b0ec2ca478e697758a6ca37e53cc1707df5e3bb4497": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.85-beta.1/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1085,
+      "version_name": "0.1.85-beta.1",
+      "tag": "v0.1.85-beta.1",
+      "commit": "bea2cc383375296008b37ed91e2c400d8be7c909",
+      "timestamp": 1788634629,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d17810e01e7011f1530b7f65689ab6d4a7f9623f6bd0cef1fc9b82a2bf65345b": [
     {
       "repository": "https://github.com/samolego/Canta.git",
@@ -122835,6 +123105,21 @@
       "tag": "1.14",
       "commit": "0605777d817465bcb06ba4fba62cada227a8eefd",
       "timestamp": 1788023515,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f656cab0956c6e037d9ed1721f39d62c2ef71e95c8d7dce1480490dc3216b06f": [
+    {
+      "repository": "https://github.com/scovillo/playondlna.git",
+      "apk_url": "https://github.com/scovillo/playondlna/releases/download/1.15/play-on-dlna-1.15.apk",
+      "appid": "io.github.scovillo.playondlna",
+      "version_code": 16,
+      "version_name": "1.15",
+      "tag": "1.15",
+      "commit": "d608b8dcdb61cadc0daf3eaf3126a6f2246ac67e",
+      "timestamp": 1788622480,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -127665,6 +127950,21 @@
       "tag": "2.10.0",
       "commit": "c8af8b2fb151d46967798cba07647efef4e82df8",
       "timestamp": 1761489228,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2c8dd6d43e19b44771d45009832c4c3526fe25f3a5b8aae2d94db66483f2b7f8": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/3.0.0/EasyWatermark-3.0.0-30000-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 30000,
+      "version_name": "3.0.0",
+      "tag": "3.0.0",
+      "commit": "eb4b240f554837a6607099ef9a3815a55c7b6090",
+      "timestamp": 1788696282,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -141485,6 +141785,21 @@
       "maintainer_notes": null
     }
   ],
+  "0186f223c2ac9e786c330d45ac4555733ee30a8aa0063dfcbcb89d219d4ab0f4": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.09.05/KashCal-2026.09.05-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 748,
+      "version_name": "2026.09.05",
+      "tag": "v2026.09.05",
+      "commit": "54177ac6141b133beb5e55cd2dab30fc81e9a55f",
+      "timestamp": 1788623872,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -147958,6 +148273,21 @@
       "tag": "4.1.0",
       "commit": "cb01ae81b29769f10e332925c76757fe252f2647",
       "timestamp": 1783350929,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7df1317a461dd46fba91225b098e4fb24b69118e3bedd641f8072e26aecd3c30": [
+    {
+      "repository": "https://github.com/T8RIN/ImageResizer.git",
+      "apk_url": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-foss-arm64-v8a.apk",
+      "appid": "ru.tech.imageresizershrinker",
+      "version_code": 267,
+      "version_name": "4.2.0-foss",
+      "tag": "4.2.0",
+      "commit": "4e0c2133e44fb298323fe6b21c723b3fff1c7505",
+      "timestamp": 1788624731,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
