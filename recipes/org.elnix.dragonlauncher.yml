@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Elnix90/Dragon-Launcher.git
-updates: releases
+updates: disabled
+notes:
+  - temporarily disabled in our repo as well, see https://github.com/Elnix90/Dragon-Launcher/issues/416
 versions:
   - tag: v1.2.2
     apks:

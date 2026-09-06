@@ -1975,3 +1975,56 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.2.8
+    apks:
+      - apk_pattern: mindwtr-.*-foss\.apk
+        apk_url: https://github.com/dongdongbh/Mindwtr/releases/download/v1.2.8/mindwtr-1.2.8-foss.apk
+        build:
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin"
+          - set +x
+          - export $(base64 -d <<< RFJPUEJPWF9BUFBfS0VZPTdvYjgyemcwbHgwYXJrcAo=)
+          - set -x
+          - bash scripts/ci/install_core_dependencies.sh
+          - bash apps/mobile/scripts/fdroid_prep.sh
+          - bash scripts/ci/install_mobile_dependencies.sh
+          - FOSS_BUILD=1 SKIP_FDROID_PREP=1 ARCHS=arm64-v8a bash apps/mobile/scripts/android_build.sh
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace apps/mobile/build/mindwtr-*-arm64-v8a-foss.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Mindwtr/Mindwtr
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.20.0
+              url: https://nodejs.org/dist/v24.20.0/node-v24.20.0-linux-x64.tar.xz
+              sha256: 2f2c0da162318f0de47665410c7c8c2ed3d36c8f3105de4bbc61176c70a7cbf2
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.0
+              url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+              sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - xz-utils
+            - build-essential
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
