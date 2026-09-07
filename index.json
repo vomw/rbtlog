@@ -75641,7 +75641,7 @@
       "timestamp": 1788732819,
       "reproducible": false,
       "error": null,
-      "maintainer_notes": null
+      "maintainer_notes": "locale sorting differs"
     }
   ],
   "31af470e93b3fa9f8c673305ce58d80fd62532b2eee479cc656c055f319ec08f": [
@@ -146188,6 +146188,21 @@
       "tag": "v6.7.1",
       "commit": "16ad4b9e0d2a553593c96904be8fe9490fd0611f",
       "timestamp": 1787755002,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f948759d30241d5e42e1263e4533ba713ea0593ace367505d2c22590666a2f64": [
+    {
+      "repository": "https://github.com/ssalggnikool/Navic.git",
+      "apk_url": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha51/Navic.apk",
+      "appid": "paige.navic",
+      "version_code": 51,
+      "version_name": "v1.0.0-alpha51",
+      "tag": "v1.0.0-alpha51",
+      "commit": "e8e4324ec2400e449839c1a55694967679ae83b4",
+      "timestamp": 1788742209,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
