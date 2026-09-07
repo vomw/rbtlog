@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/apk-editor/APK-Explorer-Editor.git
-updates: releases
+updates: disabled
+notes:
+  - v0.36 failed with huge diff; updates disabled also in our repo, see https://github.com/apk-editor/APK-Explorer-Editor/issues/199#issuecomment-5575296524
 versions:
   - tag: v0.29
     apks:

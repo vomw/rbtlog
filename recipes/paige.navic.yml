@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/ssalggnikool/Navic.git
 updates: releases
+notes:
+  - 'FIXME: foojay and pinned toolchainVendor will be removed with the next release'
 versions:
   - tag: v1.0.0-alpha51
     apks:

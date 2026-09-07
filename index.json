@@ -13227,6 +13227,21 @@
       "maintainer_notes": null
     }
   ],
+  "20ae85f78227a7574c416aa76e5677be0d4505d60581a4c3a320d1e36eca463c": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.14.0/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11400,
+      "version_name": "1.14.0-store",
+      "tag": "v1.14.0",
+      "commit": "03f1530c8c619bd787bce71a315b0a1ac0a8ff42",
+      "timestamp": 1788789196,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "99e27283edaff5676f299e8267996ea66f2d189090c2ecbcd38230ec1cb45ae0": [
     {
       "repository": "https://github.com/mvmike/min-cal-widget.git",
@@ -19613,6 +19628,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "fa091c91912c0d56ec3553394fac4158f9a9d178e93bcbb35419601d788cb528": [
+    {
+      "repository": "https://github.com/beemdevelopment/Aegis.git",
+      "apk_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.3/aegis-v3.4.3.apk",
+      "appid": "com.beemdevelopment.aegis",
+      "version_code": 82,
+      "version_name": "3.4.3",
+      "tag": "v3.4.3",
+      "commit": "d6f4e5925a97e4e91593f1542085eae03432a759",
+      "timestamp": 1788719136,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "R8 optimizer shenanigans"
     }
   ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
@@ -48159,6 +48189,21 @@
       "maintainer_notes": null
     }
   ],
+  "3ba44532c3f165c5c9973d27ccc2a7729adda7c9ece1925a98f739570f88edcc": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.03/Mock-my-GPS-002.05.03-04API-withAllLanguageTranslations-withAospLocationProviders-noBackupRestore-release.apk",
+      "appid": "com.github.warren_bank.mock_location",
+      "version_code": 2050304,
+      "version_name": "002.05.03-04API",
+      "tag": "service/v02.05.03",
+      "commit": "142eb1b0262a3a17a34bc8266ca306c317e853b0",
+      "timestamp": 1788794675,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ec2ca27af800fe0884127607eea29ce3f6c41da8d00b2e90aa6fb96b3a73c2ce": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -48264,6 +48309,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca93d6a8ef5d7755dd5a0339c14aa544e8a2d7d32764b9b0460424c53956d0bb": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.03/Mock-my-GPS-UnifiedNlp-Backend-002.05.03-09API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.service.microg_nlp_backend",
+      "version_code": 2050309,
+      "version_name": "002.05.03-09API",
+      "tag": "service/v02.05.03",
+      "commit": "142eb1b0262a3a17a34bc8266ca306c317e853b0",
+      "timestamp": 1788789631,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ab507fa9df43122570c58db362831e9c30049495bca56c07d7d1b88f5b1d017c": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -48364,6 +48424,21 @@
       "tag": "service/v02.05.02",
       "commit": "133f05083e23bde5db469f1bb9a63fbaa1f7024e",
       "timestamp": 1775916727,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d694482b359e21fad956d61f2b6e8cfad64679e7121a90b0c5f698dab710fc93": [
+    {
+      "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
+      "apk_url": "https://github.com/warren-bank/Android-Mock-Location/releases/download/service/v02.05.03/Mock-Silently-002.05.03-01API-withAllLanguageTranslations-release.apk",
+      "appid": "com.github.warren_bank.mock_location.silently",
+      "version_code": 2050301,
+      "version_name": "002.05.03-01API",
+      "tag": "service/v02.05.03",
+      "commit": "142eb1b0262a3a17a34bc8266ca306c317e853b0",
+      "timestamp": 1788794444,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56587,6 +56662,21 @@
       "maintainer_notes": null
     }
   ],
+  "e92cdf833e9d2e56ba3c6b3dc81dadfeb27ea352e024db4cbc37e000f3b14135": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.27/kelani-sbd-tracker-v2.0.27.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 127,
+      "version_name": "2.0.27",
+      "tag": "v2.0.27",
+      "commit": "65603c92226ba580839e2a882aa808bf7703257e",
+      "timestamp": 1788789745,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -63498,6 +63588,21 @@
       "maintainer_notes": null
     }
   ],
+  "820aa1ba18a1d1b67d83fc2c1f887f649280e8ee98ae9b74b42b3429ba2f9b27": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.1.0/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 58,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0",
+      "commit": "f26622bdf48be734cbfb65c360124cfeed8907c5",
+      "timestamp": 1788806062,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "480735d2a7a2d624011c1ed8bbff08910c53ffb5fe8436914156b698b1bfae65": [
     {
       "repository": "https://github.com/meenbeese/Chronos.git",
@@ -67346,6 +67451,21 @@
       "tag": "v12.6.4",
       "commit": "8ee321c47f42cf5e6434a98de62cd8f90053b82f",
       "timestamp": 1763823397,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9091b4238a44fe8337576f42d7efa7cc8043f791b33d4fd380b4425c3346bc11": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.0/nfc_alarm_clock_v12.7.0-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 608,
+      "version_name": "12.7.0",
+      "tag": "v12.7.0",
+      "commit": "fa239d090f476aa55902a8b0dc1e75ad2b2dda2e",
+      "timestamp": 1788807349,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -75564,6 +75684,21 @@
       "tag": "v1.4.2",
       "commit": "192d9924f20453c6eab69d1bdad241beae15354f",
       "timestamp": 1787408628,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d782b53b6524371f1aed6f464323716d176d8a65949c590f24323790d2949093": [
+    {
+      "repository": "https://github.com/RBN-Apps/Quick-Tile-Settings.git",
+      "apk_url": "https://github.com/RBN-Apps/Quick-Tile-Settings/releases/download/v1.5.0/quick-tile-settings-1.5.0.apk",
+      "appid": "com.rbn.qtsettings",
+      "version_code": 12,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "14dbc19fa892e5f3b0f28cb3b96ee80c2c776d9d",
+      "timestamp": 1788807681,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101805,6 +101940,19 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    },
+    {
+      "repository": "https://github.com/jensomato/ReadeckApp.git",
+      "apk_url": "https://github.com/jensomato/ReadeckApp/releases/download/v0.12.0/ReadeckApp-0.12.0.apk",
+      "appid": "de.readeckapp",
+      "version_code": 1200,
+      "version_name": "0.12.0",
+      "tag": "v0.12.0",
+      "commit": "f04ebb08b3867e489f5d989790986b32238256df",
+      "timestamp": 1788789877,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "ef4b8f037c581426027d43526aecd71666ef5f2afccea7780e031759e7d7edec": [
@@ -104308,6 +104456,21 @@
       "maintainer_notes": null
     }
   ],
+  "023a36c6c38b6bfd2574ec505493a93342c637b21dec36e3426e4bafebc317a1": [
+    {
+      "repository": "https://github.com/chukfinley/Better-Bahn.git",
+      "apk_url": "https://github.com/chuk-development/Besser-Bahn/releases/download/2.5.0/BesserBahn-2.5.0-arm64-v8a.apk",
+      "appid": "dev.chuk.betterbahn",
+      "version_code": 22500,
+      "version_name": "2.5.0",
+      "tag": "2.5.0",
+      "commit": "5d2996a99cc641a16451c06a2357aabff8eaf400",
+      "timestamp": 1788807927,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "97e7c20f05418d0a9deaa6ac9b6968d8db27808e326bc1601d551a30d30339ed": [
     {
       "repository": "https://github.com/CipherApps/cipher-notes.git",
@@ -104528,6 +104691,21 @@
       "tag": "v2.1.0",
       "commit": "3a0d10e2b73ef615afd4fb730766ffdc89238cf0",
       "timestamp": 1787252061,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "534f95f169e6a2d9b27f1a874bef91daddfa7e4cdb73585ed94d52f26afe40a4": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v2.2.0/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 17,
+      "version_name": "2.2.0",
+      "tag": "v2.2.0",
+      "commit": "982c214abe724c91506e5615353b04b94de28c0c",
+      "timestamp": 1788808496,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -106613,6 +106791,21 @@
       "tag": "v1.6.14",
       "commit": "00d545b36ea9c2ff74f97a2a73d345771839bf00",
       "timestamp": 1788028252,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "011e8e05bd4b2e48df6c749f8bb0f8a3f2e8a01e6edc07e49fd2c9dbad3e8095": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.6.15/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23543,
+      "version_name": "1.6.15",
+      "tag": "v1.6.15",
+      "commit": "330be52d3b78130482eb44db28fdb0f29e715bf0",
+      "timestamp": 1788799772,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -113464,6 +113657,21 @@
       "tag": "v2.0.4-rc0",
       "commit": "2b16451147733b497091e920bf05ef5abfabfe95",
       "timestamp": 1787753604,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "abeae5a7c8fc80a31cd1eccb72dad2bcaee431e2bf66fbe80dea6238e665ce0a": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v2.1.0-rc0/eu.darken.sdmse-v2.1.0-rc0-20100000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 20100000,
+      "version_name": "2.1.0-rc0",
+      "tag": "v2.1.0-rc0",
+      "commit": "192edb3e097d928ee08268c069409ca8060b20d2",
+      "timestamp": 1788790681,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -120980,6 +121188,21 @@
       "maintainer_notes": null
     }
   ],
+  "75871d7eaf689160a38a9e12e0ff6424a119f58a92bc955249fa7a396aa5f9f1": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.6%2B195/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2195,
+      "version_name": "1.27.6",
+      "tag": "v1.27.6+195",
+      "commit": "5b1b38e8528a7a95bfcf693575af35fda7352f24",
+      "timestamp": 1788795539,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e47c9af46258cdd401555158f6a57503770564d87de7ef08b373c8a381444ec6": [
     {
       "repository": "https://github.com/Giuig/auraninja.git",
@@ -123105,6 +123328,21 @@
       "tag": "v0.1.85-beta.1",
       "commit": "bea2cc383375296008b37ed91e2c400d8be7c909",
       "timestamp": 1788634629,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0dbd34cdad76540b907a4f328791033c6b71e8d37bd0718fae503adf3230fe50": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.86/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1086,
+      "version_name": "0.1.86",
+      "tag": "v0.1.86",
+      "commit": "d958e11cb6fd01543cb951c13ac0aecd4105afbe",
+      "timestamp": 1788791350,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
