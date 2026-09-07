@@ -451,7 +451,10 @@ Updates `versions.json`, which looks like:
     "sha256": "4543670b589593f8fa5f106111fd5139081da42bb165a9239f05195e405f240a"
   },
   "repro-apk": {
-    "tag": "v0.3.0"
+    "tag": "v0.3.0",
+    "version": "v0.3.0",
+    "url": "https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0",
+    "sha256": "b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185"
   }
 }
 ```
@@ -469,7 +472,7 @@ options:
 $ scripts/update-versions.py -v
 Recipe cmdline_tools updated to 12.0.
 Recipe node.js LTS updated to v20.18.0.
-Recipe repro-apk updated to v0.3.0.
+Recipe repro-apk updated to v0.3.2.
 ```
 
 </details>
@@ -621,9 +624,9 @@ To create a cached_tool, add an entry as such:
 cached_tools:
   - name: repro-apk
     file_name: repro-apk.tar.gz
-    version: v0.3.0
-    url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
-    sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+    version: v0.3.2
+    url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+    sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
 ```
 
 Each cached tool will be made available in the recipe using a

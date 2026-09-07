@@ -14,11 +14,12 @@ import time
 import zipfile
 
 from typing import Any, Dict, Optional
+from urllib.parse import quote
 
 import requests
 
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or None
+GITLAB_TOKEN = os.environ.get("GITLAB_TOKEN") or None
 
 CMDLINE_TOOLS_PAGE = "https://developer.android.com/studio"
 CMDLINE_TOOLS_RX = re.compile(r"https://dl\.google\.com/android/repository/commandlinetools-linux-\d+_latest\.zip")
@@ -28,9 +29,9 @@ NODEJS_LTS_RX = re.compile(r"https://nodejs\.org/dist/(v[\d.]+)/node-(\1).tar.gz
 NODEJS_LTS_LINUX_X64_XZ = "https://nodejs.org/dist/{0}/node-{0}-linux-x64.tar.xz"
 NODEJS_SHA256SUMS = "https://nodejs.org/dist/{}/SHASUMS256.txt"
 
-REPRO_APK = "obfusk/reproducible-apk-tools"
-REPRO_APK_URL = f"https://github.com/{REPRO_APK}.git"
-REPRO_APK_LATEST = f"https://api.github.com/repos/{REPRO_APK}/releases/latest"
+REPRO_APK = "fdroid/reproducible-apk-tools"
+REPRO_APK_URL = f"https://gitlab.com/{REPRO_APK}.git"
+REPRO_APK_LATEST = f"https://gitlab.com/api/v4/projects/{quote(REPRO_APK, safe='')}/releases/permalink/latest"
 
 
 class Error(Exception):
@@ -104,8 +105,8 @@ def _nodejs_check_sha256(version: str, url: str, sha256: str) -> None:
 
 
 def latest_repro_apk(current: Dict[Any, Any]) -> Optional[Dict[Any, Any]]:
-    """Get latest repro-apk release from GitHub API."""
-    headers = dict(Authorization=f"token {GITHUB_TOKEN}") if GITHUB_TOKEN else {}
+    """Get latest repro-apk release from GitLab API."""
+    headers = dict(Authorization=f"Bearer {GITLAB_TOKEN}") if GITLAB_TOKEN else {}
     with requests.get(REPRO_APK_LATEST, headers=headers, timeout=60) as response:
         response.raise_for_status()
         response_data = response.json()
@@ -114,9 +115,15 @@ def latest_repro_apk(current: Dict[Any, Any]) -> Optional[Dict[Any, Any]]:
             return None
         with tempfile.TemporaryDirectory() as tmpdir:
             repro_apk_tgz = os.path.join(tmpdir, "repro-apk.tar.gz")
-            sha256 = download_file_with_retries(response.json()["tarball_url"], repro_apk_tgz)
+            # Find .tar.gz URL
+            for source in response.json()["assets"]["sources"]:
+                if source["format"] == "tar.gz":
+                    sha256 = download_file_with_retries(source["url"], repro_apk_tgz)
+                    break
+            else:
+                raise Error("Failed to find .tar.gz download source for repro_apk")
         # FIXME: Legacy: Remove tag when the migration code in update-hashes is fully removed
-        return {"tag": response_data["tag_name"], "version": response_data["tag_name"], "url": response_data["tarball_url"], "sha256": sha256}
+        return {"tag": response_data["tag_name"], "version": response_data["tag_name"], "url": source["url"], "sha256": sha256}
 
 
 def download_file(url: str, output: str) -> str:

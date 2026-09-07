@@ -31,6 +31,8 @@ FILES = {
 VCSINFO_FILE = "META-INF/version-control-info.textproto"
 VCSINFO_REGEX = re.compile(r'revision: "([0-9a-f]{40})"')
 
+# These are purposefully the old URLs, as the newer cached_tools format doesn't
+# require regular expression matching
 REPRO_APK = "obfusk/reproducible-apk-tools"
 REPRO_APK_URL = f"https://github.com/{REPRO_APK}.git"
 
