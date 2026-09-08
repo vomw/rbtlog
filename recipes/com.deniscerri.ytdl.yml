@@ -3,7 +3,6 @@ repository: https://github.com/deniscerri/ytdlnis.git
 updates: releases
 notes:
   - RB when we build all ABIs and just pick one; not RB when we try to just build the ABI we want
-  - 'FIXME: release after 1.8.9.1 will use YTDLnis-.*-izzy-arm64-v8a-release\.apk as apk_pattern and assembleIzzyRelease for the gradle build, see https://github.com/deniscerri/ytdlnis/issues/539#issuecomment-5394869887 '
 versions:
   - tag: v1.7.9.2
     apks:
@@ -490,6 +489,36 @@ versions:
             version: '20.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
             sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.9.0
+    apks:
+      - apk_pattern: YTDLnis-.*-izzy-arm64-v8a-release\.apk
+        apk_url: https://github.com/deniscerri/ytdlnis/releases/download/v1.9.0/YTDLnis-1.9.0-izzy-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.debug/d' -i app/build.gradle
+          - chmod +x gradlew
+          - touch local.properties
+          - ./gradlew assembleIzzyRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/izzy/release/YTDLnis-*-izzy-arm64-v8a-release*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless

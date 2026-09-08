@@ -2,10 +2,10 @@
 repository: https://github.com/yjeanrenaud/yj_nearbyglasses.git
 updates: releases
 notes:
-  - 'FIXED: v.1.0.5 had its build.gradle accidentally replaced by app/build.gradle. Need to remove the initial checkout before the next release; see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/44 '
+  - v.1.0.5 had its build.gradle accidentally replaced by app/build.gradle. Need to remove the initial checkout before the next release; see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/44
   - v1.0.6 was built 16 commits after the tag /o\
-  - 'FIXME: v1.0.8 needed sed for versioning'
-  - 'FIXME: v1.0.9 combines all 3 above errors, and we cannot even find a proper commit, see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/65 '
+  - v1.0.8 needed sed for versioning
+  - v1.0.9 combines all 3 above errors, and we cannot even find a proper commit, see https://github.com/yjeanrenaud/yj_nearbyglasses/issues/65
 versions:
   - tag: v1.0.4
     apks:
@@ -183,6 +183,39 @@ versions:
           - rm -rf .git
           - cd Android
           - sed -ri 's/versionCode 9/versionCode 10/ ; s/versionName "1.0.8"/versionName "1.0.9"/' app/build.gradle
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py -v assembleIzziFdroid
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/izziFdroid/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v1.0.10
+    apks:
+      - apk_pattern: yj_nearbyglasses.*\d\.apk
+        apk_url: https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.10/yj_nearbyglasses_1.0.10.apk
+        build:
+          - rm -rf .git
+          - cd Android
           - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
           - gradlew.py/gradlew.py -v assembleIzziFdroid
           - find . -name '*.apk'
