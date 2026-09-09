@@ -11607,6 +11607,21 @@
       "maintainer_notes": null
     }
   ],
+  "b115187045cbf5b2c0415cbef0c44452b407a3e3779470625ddf583396103cc6": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v18.2.4%2B46/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 2046,
+      "version_name": "18.2.4",
+      "tag": "v18.2.4+46",
+      "commit": "6310ffb85c97aac0b0e332c435cba9ee2d93d680",
+      "timestamp": 1788961947,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -41850,6 +41865,21 @@
       "maintainer_notes": null
     }
   ],
+  "f892e4de0a4727673b4abb77cd821245b835014f8fbcdf0f06324ba2af887fb4": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.7/PrivateDnsQS-v2.7-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 57,
+      "version_name": "2.7",
+      "tag": "v2.7",
+      "commit": "e3aa2aa60073961887e54b5a44026b5835d419c4",
+      "timestamp": 1788962742,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -41995,6 +42025,21 @@
       "tag": "v2.6",
       "commit": "c0bc90b6b5579d814ef96f5de4eb1157a32e2be1",
       "timestamp": 1788548320,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b7505ea4f1af6e43c55ccf9440b585cd7d4347745d0826b42bf707cf4c78c07a": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v2.7/PrivateDnsQS-v2.7-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 57,
+      "version_name": "2.7",
+      "tag": "v2.7",
+      "commit": "e3aa2aa60073961887e54b5a44026b5835d419c4",
+      "timestamp": 1788962562,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56797,6 +56842,21 @@
       "maintainer_notes": null
     }
   ],
+  "9d9595a03ab5cd0ca31dc9b4bcf3920e3ff2995eb3df4ecbdf541a15656fdf6b": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.29/kelani-sbd-tracker-v2.0.29.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 129,
+      "version_name": "2.0.29",
+      "tag": "v2.0.29",
+      "commit": "a420fcdd1e91f6f5f851c472a2c1b864ee11a106",
+      "timestamp": 1788962932,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -62713,6 +62773,21 @@
       "tag": "v1.3.0",
       "commit": "fb9734b0cfb5dda1077883007ca29c09e3d28024",
       "timestamp": 1777823681,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a828de648f7b8d7b159b9f86f911a3215a8542b07d5baa1b8cfa8a2578135b87": [
+    {
+      "repository": "https://github.com/mardous/BoomingMusic.git",
+      "apk_url": "https://github.com/mardous/BoomingMusic/releases/download/v1.4.0/BoomingMusic-1.4.0-fdroid-arm64-v8a.apk",
+      "appid": "com.mardous.booming",
+      "version_code": 1400300,
+      "version_name": "1.4.0",
+      "tag": "v1.4.0",
+      "commit": "7c274bd95d674992fe220dbbb38ebceba52854bb",
+      "timestamp": 1788963023,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -69909,6 +69984,21 @@
       "tag": "1.3.0-1",
       "commit": "95c9e1f9b6c1d6b6dd92e05ae43f7b7a1fb5342b",
       "timestamp": 1788719854,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9f5110eecae9f3f519f76d8e5792359dd7c38cb933e5c99b3198d46f956fec4f": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.3.1/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 23,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "9e3f26812318b11aea7fe3742d0af79ce8e8c758",
+      "timestamp": 1788978866,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -87368,6 +87458,36 @@
       "maintainer_notes": null
     }
   ],
+  "1b97dba4c745f27ab9807dc5c8ed443fa0e254f687ddac0867e72d56baa7821d": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v66/androidApp-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 287,
+      "version_name": "66",
+      "tag": "v66",
+      "commit": "fdb192d58974b5f5de91134da7302d5115a59145",
+      "timestamp": 1788970456,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cfd065a08a6e99db4be1becf60671f7a7e2cf64a51af70036a21221ac8bcc8c9": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v67/androidApp-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 288,
+      "version_name": "67",
+      "tag": "v67",
+      "commit": "44016c52e87be69602b15223b6f32130f373c370",
+      "timestamp": 1788979149,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "da3424dcd774e5cdf7cd8a96d0b3ce55e56a0150b70815163b6b6046f4998778": [
     {
       "repository": "https://github.com/prathameshkhade/SysAdmin.git",
@@ -98867,6 +98987,21 @@
       "maintainer_notes": null
     }
   ],
+  "67b08d3bcd7587e2cac5e0af179f06cc1b6299d213c3010eb1a982ce2ebcccec": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.7.4/worldclockv2_v1.7.4_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 26,
+      "version_name": "1.7.4",
+      "tag": "v1.7.4",
+      "commit": "3a87a436cc43f047e95af39700de544293545d8c",
+      "timestamp": 1788980172,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a3e340b77ebb0f2bd1a25aa9015d06bd0cd57c6bb1917714209cbe33041f9b": [
     {
       "repository": "https://github.com/Joinsider/dhbw.git",
@@ -100722,6 +100857,21 @@
       "tag": "v2.1.1",
       "commit": "377de45c792b9d6a9bcc33a981d9b0ea7eb78774",
       "timestamp": 1787062905,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "32a65260eedba2b66f437115494e5a869d666cc5c67ba94a4fc6da2b57297216": [
+    {
+      "repository": "https://github.com/aimok04/kitshn.git",
+      "apk_url": "https://github.com/aimok04/kitshn/releases/download/v2.1.3/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20103,
+      "version_name": "2.1.3",
+      "tag": "v2.1.3",
+      "commit": "95085a98aea7b6f318b71d843a61a4e4b8103f4e",
+      "timestamp": 1788982763,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -104901,6 +105051,21 @@
       "tag": "v2.2.0",
       "commit": "982c214abe724c91506e5615353b04b94de28c0c",
       "timestamp": 1788808496,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3028925e6eef7fe4069b63b0abef73506b978dc048edf8c86f8a2daf948e22f4": [
+    {
+      "repository": "https://github.com/CipherApps/cipher-notes.git",
+      "apk_url": "https://github.com/CipherApps/cipher-notes/releases/download/v2.2.1/CipherNotes-release.apk",
+      "appid": "dev.cipher.notes",
+      "version_code": 18,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "12256bf30ae0422c0ccec311919efe08be61e6a7",
+      "timestamp": 1788980759,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -120798,6 +120963,21 @@
       "maintainer_notes": null
     }
   ],
+  "3d2531fbb3abe5c6941fe9124f2881743917f2deef9cd24f6faad42aa5e930e4": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.1.3/PrivacyFlip-v2.1.3-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 24,
+      "version_name": "2.1.3",
+      "tag": "v2.1.3",
+      "commit": "ebc2b5b0c52699994a0246ca1d43476943705b84",
+      "timestamp": 1788981068,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -130443,6 +130623,21 @@
       "maintainer_notes": null
     }
   ],
+  "1ca2b38076e3c123bf72c600ecbe30d1ad8e3e11a85e40f4b024ca447188c4c9": [
+    {
+      "repository": "https://github.com/kasnder/GreaseMilkyway.git",
+      "apk_url": "https://github.com/kasnder/dh-focus-android/releases/download/26090801/app-standard-release.apk",
+      "appid": "net.kollnig.greasemilkyway",
+      "version_code": 26090801,
+      "version_name": "1.0.0",
+      "tag": "26090801",
+      "commit": "f65bfad5d339b5a1ecde5fb359d8cbc95c5320cb",
+      "timestamp": 1788963252,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a6a90cabe1b3ec99280818a262542e9171171c1d29a2577a42025a2e8f2371c6": [
     {
       "repository": "https://github.com/TrackerControl/tracker-control-android.git",
@@ -132178,6 +132373,21 @@
       "tag": "alpha-0.8.0",
       "commit": "402b7888d3082b9bbb7a7feebc25f6ed3eb46ec3",
       "timestamp": 1787595114,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3c8c52fd4d19ea7209866e94a62b132f479d3c9298853d75cb67089e5221c988": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.8.1/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 58,
+      "version_name": "alpha-0.8.1",
+      "tag": "alpha-0.8.1",
+      "commit": "e71962113a7af6d2e155e199c73d73b31d0d19a7",
+      "timestamp": 1788981311,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -145436,6 +145646,21 @@
       "tag": "v1.16.0",
       "commit": "8e13f372dad4fc86c438490390c59642c11bb799",
       "timestamp": 1788879512,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e6bd012f7328f852231132e553c01ddd51f89c25467316e33c214eec00f6f172": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.16.1/wizestream_v1.16.1.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1016001,
+      "version_name": "1.16.1",
+      "tag": "v1.16.1",
+      "commit": "86fe46972469c0f23644de46a4a08ada41c41e65",
+      "timestamp": 1788981634,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -1,8 +1,9 @@
 ---
 repository: https://github.com/TheLastProject/ShareToInputStick.git
-updates: releases
+updates: disabled
 notes:
   - RB with 6, 8, 16 cores – but not with e.g. 4 or 2
+  - 2026-09-09 disabled on dev request (in our repo as well)
 versions:
   - tag: v3.6.1
     apks:
