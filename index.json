@@ -6117,6 +6117,21 @@
       "maintainer_notes": null
     }
   ],
+  "bc30e503f30dbb9e22757a7c42b556bdf18396e74a0690b5b1d1facf69f25bca": [
+    {
+      "repository": "https://git.lonecloud.dev/lone-cloud/prism-android.git",
+      "apk_url": "https://git.lonecloud.dev/lone-cloud/prism-android/releases/download/v1.3.3/prism.apk",
+      "appid": "app.lonecloud.prism",
+      "version_code": 10303,
+      "version_name": "1.3.3",
+      "tag": "v1.3.3",
+      "commit": "37c92105b51af18a920f78c27a2e7976a202f5f0",
+      "timestamp": 1789048287,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4adbf7d76db699e647709a7f5ecde2725a5b16219ef9895ad786dc05f435f392": [
     {
       "repository": "https://github.com/marlboro-advance/mpvEx.git",
@@ -8617,6 +8632,21 @@
       "tag": "v1.16.0",
       "commit": "1b8041245d2bd4979d122e53e1a1509a1bd37b60",
       "timestamp": 1788892412,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d0d31c5d29dd4ef64583242fe807ef000c55b36e75a6162d5505df4f2ceb4895": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.17.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 41,
+      "version_name": "1.17.0",
+      "tag": "v1.17.0",
+      "commit": "248533130f15ccd043162cc5a4be9c5987350bd1",
+      "timestamp": 1789048458,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -41355,6 +41385,21 @@
       "maintainer_notes": null
     }
   ],
+  "eb1ebf363044de1bb0ea1bd3b028a09d909e12b8c40557e1664d6c396393ff5c": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.6.6/FixupXer-v2.6.6-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 48,
+      "version_name": "2.6.6",
+      "tag": "v2.6.6",
+      "commit": "5e69292548335ef7f3f776a3b1b5e4d966f76a13",
+      "timestamp": 1789048763,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "308d6b0313e593e91bd3033b8a9f3c371cf6efad6e7639fd413d86d7aaafbc3d": [
     {
       "repository": "https://github.com/Johboh/hassalarm.git",
@@ -56857,6 +56902,21 @@
       "maintainer_notes": null
     }
   ],
+  "9ccf9bf61137ad2099bb96845f52427ab685cc078f510b0e20c2328e9db03ab0": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.30/kelani-sbd-tracker-v2.0.30.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 130,
+      "version_name": "2.0.30",
+      "tag": "v2.0.30",
+      "commit": "adc5247465b771cf12e2417f4eecd58364a4c4eb",
+      "timestamp": 1789048918,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -60647,6 +60707,21 @@
       "tag": "v0.8.1",
       "commit": "641ad79c7c94da0920a34b8059dae09e2da5d2ed",
       "timestamp": 1788893489,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "03d6b942df67525d049d0597c84dfa6608480b3eaeb7d39357f73c788eeb9961": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.9.0/storii-v0.9.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5152,
+      "version_name": "0.9.0",
+      "tag": "v0.9.0",
+      "commit": "9f636c8dc7bf22bb1682e76ea7254b234e0117df",
+      "timestamp": 1789065177,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -67691,6 +67766,21 @@
       "tag": "v12.7.0",
       "commit": "fa239d090f476aa55902a8b0dc1e75ad2b2dda2e",
       "timestamp": 1788807349,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9d6f7aae28ab6e81cd58f01856cef3ba8ba1cd1fdf976dad34d2932789a36615": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.1/nfc_alarm_clock_v12.7.1-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 613,
+      "version_name": "12.7.1",
+      "tag": "v12.7.1",
+      "commit": "26e8356c5ee3303ad8971c7f631fa71d5deb127b",
+      "timestamp": 1789049058,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105791,6 +105881,21 @@
       "maintainer_notes": null
     }
   ],
+  "37f3c9da80e6f1ede55ba629c181be901f3d328f084ca200ad31a7dacf9a8baf": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.16.1/simple-notes-sync-v2.16.1-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 58,
+      "version_name": "2.16.1",
+      "tag": "v2.16.1",
+      "commit": "1f2ed29fbf3246a93421dbb72a9d46f8ca0a5d5e",
+      "timestamp": 1789049706,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -121003,6 +121108,21 @@
       "tag": "v2.1.3",
       "commit": "ebc2b5b0c52699994a0246ca1d43476943705b84",
       "timestamp": 1788981068,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1f5a526b30a4e42afd5a30f2096b741f8108692bc0b06476b1cf6dfab18d54e2": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.1.6/PrivacyFlip-v2.1.6-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 27,
+      "version_name": "2.1.6",
+      "tag": "v2.1.6",
+      "commit": "00fb15a1a2f82c98ad2f712bf11d5cc51fedcacb",
+      "timestamp": 1789049926,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -154241,6 +154361,21 @@
       "tag": "v0.26.18",
       "commit": "206d9bf56eb163c4904712f851321900da18be4d",
       "timestamp": 1784733949,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "dc5f7e1286ea99cef6e1d989505c2e5fd0e41f9b5c271f50461de83536f3ca87": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.19/WebviewKiosk_v0.26.19.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 133,
+      "version_name": "0.26.19",
+      "tag": "v0.26.19",
+      "commit": "f1c7cfa860f8b98e6c55a5262cf4bbedca0e5870",
+      "timestamp": 1789050054,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
