@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/LeanBitLab/LtvLauncher.git
 updates: releases
+notes:
+  - 'FIXME: switch to universal build after v2026.08.10, see https://github.com/leanbitlab-org/LtvLauncher/issues/135 '
 versions:
   - tag: v3.2.1
     apks:
