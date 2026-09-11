@@ -725,3 +725,32 @@ versions:
           tools:
           verify_git: false
           verify_gradle_wrapper: true
+  - tag: 4.5.4
+    apks:
+      - apk_pattern: KeePassDX-.*-free\.apk
+        apk_url: https://github.com/Kunzisoft/KeePassDX/releases/download/$$TAG$$/KeePassDX-$$TAG$$-free.apk
+        build:
+          - git reset --soft 9d1b1bb4d0da5099608f351e7ae2f77cd7235039
+          - chmod +x gradlew
+          - ./gradlew assembleFreeRelease
+          - mv app/build/outputs/apk/free/release/app-free-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /home/joker
+        build_repo_dir: /home/joker/Projects/KeePassDX
+        build_user: build
+        provisioning:
+          android_home: /home/joker/Softwares/android-sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk: 21.4.7075529
+          platform:
+          platform_tools:
+          tools:
+          verify_git: false
+          verify_gradle_wrapper: true

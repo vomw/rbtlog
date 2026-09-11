@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/Tre_brock/OpenStreetMap-wiki-app.git
-updates: releases
+updates: disabled
+notes:
+  - upstream repo disappaered around 2026-08-31 and did not come back (last check 2026-09-11)
 versions:
   - tag: '1.0'
     apks:

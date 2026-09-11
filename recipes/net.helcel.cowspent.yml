@@ -239,3 +239,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '1.6'
+    apks:
+      - apk_pattern: app-signedRelease\.apk
+        apk_url: https://github.com/helcel-net/cowspent/releases/download/1.6/app-signedRelease.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - VERSION_CODE=$(git rev-list --count HEAD)
+          - VERSION_NAME=$(git describe --tags --always)
+          - ./gradlew assembleSignedRelease -PVERSION_CODE=$VERSION_CODE -PVERSION_NAME=$VERSION_NAME
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/signedRelease/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/cowspent/cowspent
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
