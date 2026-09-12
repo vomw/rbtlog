@@ -560,3 +560,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.7.4
+    apks:
+      - apk_pattern: notifications-recovery.*\.apk
+        apk_url: https://github.com/Alfio010/notification-listener-android/releases/download/v2.7.4/notifications-recovery-2.7.4.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

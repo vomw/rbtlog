@@ -4557,6 +4557,21 @@
       "maintainer_notes": null
     }
   ],
+  "aedb78216822d5c8924eb125529f2dfa9140e4841b87ed309eca8f12f38956eb": [
+    {
+      "repository": "https://github.com/mlm-games/CLauncher.git",
+      "apk_url": "https://github.com/mlm-games/CLauncher/releases/download/v5.3.0/clauncher-v5.3.0-arm64-v8a.apk",
+      "appid": "app.clauncher",
+      "version_code": 480,
+      "version_name": "v5.3.0",
+      "tag": "v5.3.0",
+      "commit": "6b11e2c4820cb3f1036c5fe96e06ea97db437c7d",
+      "timestamp": 1789221039,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "bd5c7766398cce76072e6233ed782ca6b17272e414616ba14cc7963792e82206": [
     {
       "repository": "https://github.com/CodeWorksCreativeHub/EasyLauncher.git",
@@ -5722,6 +5737,21 @@
       "tag": "4.4.4",
       "commit": "991d6ba2299f3a359791f60d456284a94be45aa0",
       "timestamp": 1788357247,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ab4a7836fa1836a6208213d67d4f3cef9fc10873c880b3c6058ac4a8060d6b0c": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.4.5/fluffy-4.4.5-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 891,
+      "version_name": "4.4.5",
+      "tag": "4.4.5",
+      "commit": "bd890a33ff388bd56d6db05c2b9078e3c9a15e36",
+      "timestamp": 1789221112,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -16062,6 +16092,21 @@
       "maintainer_notes": null
     }
   ],
+  "e86c00697265c436af1cf725e4b64d48a5544a467695148bf482297892f04d6d": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.10/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 34,
+      "version_name": "2.5.10",
+      "tag": "2.5.10",
+      "commit": "ddebd6f4296a0e574a44406145b88d87e1ce68a3",
+      "timestamp": 1789228992,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "54683fa56bc660faf56cec42d6585846f504c5fe9167598bec0db803161ffc94": [
     {
       "repository": "https://github.com/afaneca/myfin-android.git",
@@ -17467,6 +17512,21 @@
       "tag": "v2.7.3",
       "commit": "4ed699464abd1daa433bc4a34d9dbe23c3af432c",
       "timestamp": 1783777933,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "718760332d396eebe950ab8223d2cf90d21c6981ea706b58dfeb49f9e145b008": [
+    {
+      "repository": "https://github.com/Alfio010/notification-listener-android.git",
+      "apk_url": "https://github.com/Alfio010/notification-listener-android/releases/download/v2.7.4/notifications-recovery-2.7.4.apk",
+      "appid": "com.alftendev.notlistener",
+      "version_code": 51,
+      "version_name": "2.7.4",
+      "tag": "v2.7.4",
+      "commit": "7b3f56be7c473aec7ec9e458f470562722d1942c",
+      "timestamp": 1789221316,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -27319,6 +27379,21 @@
       "maintainer_notes": null
     }
   ],
+  "fb25a08e3dd78f09d87b6adb83023a68ee3a6c31517512a45adb2e40917121e8": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.17.0/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 49,
+      "version_name": "1.17.0",
+      "tag": "v1.17.0",
+      "commit": "410bc9c392ff725be608e47586628f89b4766373",
+      "timestamp": 1789221422,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f5adb70d875f12cfe93c06c5cc0b1121d208f256ded161792b254173466bee3d": [
     {
       "repository": "https://github.com/phsycologicalFudge/SafeHaven-Store.git",
@@ -28231,6 +28306,21 @@
       "timestamp": 1788209283,
       "reproducible": null,
       "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmp3gzech43/outputs:/outputs', '--volume', '/tmp/tmp3gzech43/scripts:/scripts:ro', '--volume', '/tmp/tmp3gzech43/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--volume', '/tmp/tmp3gzech43/cache/gradle_wrapper_verify:/rbtlog_cache/gradle_wrapper_verify:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git', '--env', 'APP_TAG=v2026.08.31', '--env', 'APP_COMMIT=96851862169370e906877e80b1fe19734745ebc2', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-17-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'RECURSE_GIT_SUBMODULES=yes', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_PATH=/rbtlog_cache/cmdline_tools/tools.zip', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION=22.0', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_SHA256=4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_PATH=/rbtlog_cache/gradle_wrapper_verify/gradle-wrapper-verify', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_VERSION=main', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_SHA256=b2df6daec10a834d621038d226475f79491cc59fe8de675d6fab4c250c6c3843', '--', 'debian:bookworm-slim', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": null
+    }
+  ],
+  "7b9937142f47850cc39baa6d1eec5c178e3ff5dc32113aea21152098f9f30b33": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.09.11/simplequizfr-release-v2026.09.11.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 17,
+      "version_name": "2026.09.11",
+      "tag": "v2026.09.11",
+      "commit": "45bd8a6317ec2a303f138435983428222af65e0a",
+      "timestamp": 1789221964,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
@@ -29639,6 +29729,21 @@
       "tag": "v3.9.7+ios-app-store",
       "commit": "d6d3bc9131e4d4f9bdf1586f42bc47a2d835ca5f",
       "timestamp": 1788617234,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9c33740ca52a78c420c9bb9c1c1a719c4aabe7a0ccb8b23a5e3c86fbd617cea4": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.8%2Bios-app-store/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 309080000,
+      "version_name": "3.9.8",
+      "tag": "v3.9.8+ios-app-store",
+      "commit": "c4efb9810099858e96acd495814a311e49d6309c",
+      "timestamp": 1789222074,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31394,6 +31499,21 @@
       "tag": "v3.3.0",
       "commit": "39483e2e75aa39f9e829a6683f02b9af2fa1e492",
       "timestamp": 1788617829,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5a8da94c7ee20fe126ca314442e25b6d4abb55865f9757efd49b7f4a46c7f93c": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v3.4.0/daily-you-arm64-v8a-v3.4.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 30040002,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "2074f2db5e76392f5577f0f56df3ea7e2cad4d2c",
+      "timestamp": 1789237495,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35342,6 +35462,21 @@
       "maintainer_notes": null
     }
   ],
+  "e1375dd3b45916d6089af0efbdbc3f725be9c21544356ef38b3fd23020d291b5": [
+    {
+      "repository": "https://github.com/DMouayad/my_quran.git",
+      "apk_url": "https://github.com/DMouayad/my_quran/releases/download/v1.8.1/MyQuran-v1.8.1-arm64-v8a-253-release.apk",
+      "appid": "com.dmouayad.my_quran",
+      "version_code": 253,
+      "version_name": "1.8.1",
+      "tag": "v1.8.1",
+      "commit": "77f932c1ffb0d45071b14cedc7228fc09477aba2",
+      "timestamp": 1789222440,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "538fe9d652d832f80ed7830af8de7aa35506ec1fe2c3c1927e3d1938e00ad3c6": [
     {
       "repository": "https://github.com/dn0ne/lotus.git",
@@ -38912,6 +39047,21 @@
       "maintainer_notes": null
     }
   ],
+  "99b6decd105962ad0fcd37ff3837fadf258e232ec41470141bc3fdf9b5ae8323": [
+    {
+      "repository": "https://github.com/eyalm2000/adns.git",
+      "apk_url": "https://github.com/eyalm2000/adns/releases/download/v2.1.5/app-foss-release.apk",
+      "appid": "com.eyalm.adns",
+      "version_code": 19,
+      "version_name": "2.1.5",
+      "tag": "v2.1.5",
+      "commit": "c62b5d1ed7b404afa8759d335f5a518f24039d04",
+      "timestamp": 1789223556,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e825497ee0ed33b0b7acf59b627f1d17e148182b83149abc0c3268f5e1b356b4": [
     {
       "repository": "https://github.com/F0x1d/LogFox.git",
@@ -40515,6 +40665,21 @@
       "maintainer_notes": null
     }
   ],
+  "b8e546912a366b28c77dbb8806ca8a3c6da48c7e1aebbf0858ef919b96c9ad20": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.46.1/com.fibelatti.photowidget-v1.46.1-1460100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1460100,
+      "version_name": "1.46.1",
+      "tag": "v1.46.1",
+      "commit": "1ae98445e13f355aa60dd726d5227e2a2a5c60f3",
+      "timestamp": 1789223678,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -41110,6 +41275,21 @@
       "tag": "v3.19.0",
       "commit": "4f5df0cac330a30389543a739d15f35d6bae58c0",
       "timestamp": 1788201985,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1b52bad02d12caa74ed9502b6aa7d3f30efe8179c915facf79c2ba1f5b3ebfe5": [
+    {
+      "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
+      "apk_url": "https://github.com/fibelatti/pinboard-kotlin/releases/download/v3.19.1/com.fibelatti.pinboard-v3.19.1-3190100-release.apk",
+      "appid": "com.fibelatti.pinboard",
+      "version_code": 3190100,
+      "version_name": "3.19.1",
+      "tag": "v3.19.1",
+      "commit": "087130126dda1f2762430e139c91fe33376752d6",
+      "timestamp": 1789223906,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -60067,6 +60247,21 @@
       "maintainer_notes": null
     }
   ],
+  "33315bf818a4b64e2a40265086405ffd38615cad84e338ed0106568f15026fd5": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/leanbitlab-org/LtvLauncher/releases/download/v2026.09.12/LTvLauncher-universal-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8110,
+      "version_name": "2026.09.12",
+      "tag": "v2026.09.12",
+      "commit": "37281f4c985a8b532e48d034fe4ffe54850add3e",
+      "timestamp": 1789200163,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8131c0529cc5c1e6b66e3badfcb9b3fe65d44e01af49ba6dba8be45fca8fdb15": [
     {
       "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
@@ -70209,6 +70404,21 @@
       "tag": "1.3.1",
       "commit": "9e3f26812318b11aea7fe3742d0af79ce8e8c758",
       "timestamp": 1788978866,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "38b87339e986f66580cb7d2ee372528fb9200710753a8341db0fa1f51cd45bc8": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.3.2/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 24,
+      "version_name": "1.3.2",
+      "tag": "1.3.2",
+      "commit": "a56d4bb13e9f1f44ed14dc3e87853e90e3fdfb27",
+      "timestamp": 1789238188,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -83920,6 +84130,21 @@
       "maintainer_notes": null
     }
   ],
+  "4ecdbb858b642c936ba4d55b28fa86a81ab87ddc72143ff700577fe83b2a5b8f": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/7.0.2/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 7020,
+      "version_name": "7.0.2",
+      "tag": "7.0.2",
+      "commit": "562a18e8b9e66b5a8c849fafdce1ad813e88bafd",
+      "timestamp": 1789228353,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -93183,6 +93408,21 @@
       "tag": "v1.14.0",
       "commit": "e1ba25df556e7c84b6ce5a08ecb9671323a4a962",
       "timestamp": 1787424902,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "45d978a8aac655d914c4f8aa4c3df6f5b9ca5d41a4f8906648460989236b6b39": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.15.2/amethyst-fdroid-arm64-v8a-v1.15.2.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 460,
+      "version_name": "1.15.2",
+      "tag": "v1.15.2",
+      "commit": "0629b23b1aef76da088cfa20f840d6cf3beca95c",
+      "timestamp": 1789228877,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -108341,6 +108581,21 @@
       "maintainer_notes": null
     }
   ],
+  "5489fcbd159aea5769525c7462d0643a617db7289bb7b0ba40a5917960e08f25": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.2.2/photok-3.2.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 70,
+      "version_name": "3.2.2",
+      "tag": "3.2.2",
+      "commit": "0d22b81e328f51a200b73cf870c6a02d8809bc44",
+      "timestamp": 1789229313,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7a48b61e61b63cb8a18e5235df3a31cca0831da01421c1b3ea92a8e6abbbb2df": [
     {
       "repository": "https://github.com/mariinkys/OpenPillReminder.git",
@@ -111287,6 +111542,21 @@
       "tag": "v2.0.2",
       "commit": "50173bc5227cddc40468dfc99bd6bd643cc45f84",
       "timestamp": 1778339058,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e78d6f3ff7ea5db391b1e9eb7caddb87abc683f14f608bdf3569315c8e30683c": [
+    {
+      "repository": "https://github.com/Binondi/Calculator-Hide-Files.git",
+      "apk_url": "https://github.com/Binondi/Calculator-Hide-Files/releases/download/v2.0.3/app-release.apk",
+      "appid": "devs.org.calculator",
+      "version_code": 14,
+      "version_name": "2.0.3",
+      "tag": "v2.0.3",
+      "commit": "5d9f64c9c5b9a0c8e8f7f08a4c3ad6f98cca173f",
+      "timestamp": 1789238470,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -119297,6 +119567,21 @@
       "timestamp": 1785422795,
       "reproducible": true,
       "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1a09be44bddf425e97f59d89b4096d59250d9e5b0083e25d8a56b02237e61064": [
+    {
+      "repository": "https://gitlab.com/sunilpaulmathew/ashell.git",
+      "apk_url": "https://gitlab.com/-/project/41295637/uploads/da4dc3c1d4381f98c1f919d0c8842c80/app-release.apk",
+      "appid": "in.sunilpaulmathew.ashell",
+      "version_code": 29,
+      "version_name": "v0.29",
+      "tag": "v0.29",
+      "commit": "39514e3b0ace07d490136e8c1546d9c4db331668",
+      "timestamp": 1789154212,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset",
       "maintainer_notes": null
     }
   ],
@@ -129333,6 +129618,21 @@
       "maintainer_notes": null
     }
   ],
+  "507eab27fc1aa88a06b1c211c15331b18f6dc527daf7b96b2cee26b654bbba78": [
+    {
+      "repository": "https://github.com/rosuH/EasyWatermark.git",
+      "apk_url": "https://github.com/rosuH/EasyWatermark/releases/download/3.0.1/EasyWatermark-3.0.1-30001-signed.apk",
+      "appid": "me.rosuh.easywatermark",
+      "version_code": 30001,
+      "version_name": "3.0.1",
+      "tag": "3.0.1",
+      "commit": "0ffa32bd8676d16b76ef52f2d8562949aa4a1fd1",
+      "timestamp": 1789242437,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "08d979d22f059d58f5fd9fd930eb39c4b1a2300f4723382fcc656d18e040d347": [
     {
       "repository": "https://github.com/sanao1006/Mint.git",
@@ -130678,6 +130978,21 @@
       "tag": "1.5",
       "commit": "cf9b1cc6e24235f0feacbb2cd880f92085b35067",
       "timestamp": 1783694432,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9962b9cbe8d4f5055ba4309a19025797f75d0530d6a597ec3240cd1f3ed7f91e": [
+    {
+      "repository": "https://github.com/helcel-net/beans.git",
+      "apk_url": "https://github.com/helcel-net/beans/releases/download/1.6/app-signedRelease.apk",
+      "appid": "net.helcel.beans",
+      "version_code": 1080,
+      "version_name": "1.6",
+      "tag": "1.6",
+      "commit": "264f70319320271e25f8f3973b43ad39316674d6",
+      "timestamp": 1789229886,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -139548,6 +139863,21 @@
       "maintainer_notes": null
     }
   ],
+  "734fd240b2f026007fc4f4434f2c75207456f5d2934d49930947eb4c0246418c": [
+    {
+      "repository": "https://github.com/juanro49/autu-mandu.git",
+      "apk_url": "https://github.com/juanro49/autu-mandu/releases/download/6.1.0/Autu-Mandu_6.1.0.apk",
+      "appid": "org.juanro.autumandu",
+      "version_code": 610,
+      "version_name": "6.1.0",
+      "tag": "6.1.0",
+      "commit": "b2ebefd8d189049ecdd75194a69e0b5d4953aae7",
+      "timestamp": 1789238871,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ca954d55488756a0c38e0faa77a5a9d99cf7b6ad1709524a57f3ab7a4f29df19": [
     {
       "repository": "https://github.com/juanro49/FeedTV.git",
@@ -143233,6 +143563,21 @@
       "tag": "v2026.09.05",
       "commit": "54177ac6141b133beb5e55cd2dab30fc81e9a55f",
       "timestamp": 1788623872,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6301a83e7bc526258201dca50cd613a5b99ebd64f5f786ac8393038f0e37ec67": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.09.12/KashCal-2026.09.12-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 750,
+      "version_name": "2026.09.12",
+      "tag": "v2026.09.12",
+      "commit": "084e4e0a115775bf82647c50fa2266e9ec632ba8",
+      "timestamp": 1789225641,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -147431,6 +147776,21 @@
       "tag": "v1.0.0-alpha52",
       "commit": "4b6b2e0a80307e9977a4151f49cc6f62116ef2b4",
       "timestamp": 1789144235,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d51d3a77de03d8d601d2f8f6f157ed597af24107e45b5ab4a5f0e0ad0b94664c": [
+    {
+      "repository": "https://github.com/ssalggnikool/Navic.git",
+      "apk_url": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha54/Navic.fdroid.apk",
+      "appid": "paige.navic",
+      "version_code": 54,
+      "version_name": "v1.0.0-alpha54",
+      "tag": "v1.0.0-alpha54",
+      "commit": "05c9e43169362039988c7766081e304cf351638a",
+      "timestamp": 1789226924,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
