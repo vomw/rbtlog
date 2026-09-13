@@ -968,3 +968,50 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 0.25.3.1
+    apks:
+      - apk_pattern: freetube-.*-Android\.apk
+        apk_url: https://github.com/MarmadileManteater/FreeTubeAndroid/releases/download/$$TAG$$/freetube-$$TAG$$-Android.apk
+        build:
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin:${HOME}/.node/bin"
+          - npm config set prefix "${HOME}/.node"
+          - npm install --global corepack@latest
+          - corepack enable pnpm
+          - sed -r '/version/ { s/"[0-9.]+"/"'"${APP_TAG}"'"/ }' -i package.json
+          - yarn ci
+          - yarn pack:botGuardScript:android
+          - yarn pack:android
+          - cd android
+          - sed -r '/release \{/,/}/ { /signingConfig/d }' -i app/build.gradle.kts
+          - sed -r 's/"FreeTube Android"/"FreeTube"/' -i settings.gradle.kts
+          - sed -r 's/FreeTube Android/FreeTube/' -i app/src/main/res/values/strings.xml
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.20.0
+              url: https://nodejs.org/dist/v24.20.0/node-v24.20.0-linux-x64.tar.xz
+              sha256: 2f2c0da162318f0de47665410c7c8c2ed3d36c8f3105de4bbc61176c70a7cbf2
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

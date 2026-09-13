@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/om1cael/Hidroly.git
 updates: releases
+notes:
+  - 'FIXME: next release needs "-P force-version-code-ignoring-abi=true" passed to "flutter build", see https://github.com/om1cael/Hidroly/issues/211#issuecomment-5647314593 '
 versions:
   - tag: v1.1.0
     apks:
