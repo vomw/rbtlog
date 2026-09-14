@@ -5757,6 +5757,21 @@
       "maintainer_notes": null
     }
   ],
+  "f3761b2eb73f609405b91008b622bf25acd72709599de831a4cedce0f05c7d9d": [
+    {
+      "repository": "https://github.com/mlm-games/Fluffy.git",
+      "apk_url": "https://github.com/mlm-games/Fluffy/releases/download/4.4.7/fluffy-4.4.7-universal.apk",
+      "appid": "app.fluffy",
+      "version_code": 911,
+      "version_name": "4.4.7",
+      "tag": "4.4.7",
+      "commit": "3849f03869fb27885757cbe1a3df45c214726b37",
+      "timestamp": 1789393910,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "64a3cd323ba484640cb0ba6d6d4ad1855048f0460ad852ef1f610439fa6445f8": [
     {
       "repository": "https://github.com/gezimos/inkOS.git",
@@ -10072,6 +10087,21 @@
       "tag": "v9.7.7",
       "commit": "32df998f289149cb01efa20fd40b4f47e7712f06",
       "timestamp": 1788630589,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e9bc895eca50af2fc6281b03495eae99e609c1d72a1219a2f5fca6896cb7f96": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.8.0/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 980,
+      "version_name": "v9.8.0",
+      "tag": "v9.8.0",
+      "commit": "53ef4c99c23e675c3c324bd86b2d3e50d526af2b",
+      "timestamp": 1789410963,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -28369,6 +28399,21 @@
       "maintainer_notes": null
     }
   ],
+  "e58d32cd68be18d06a76f86b969c4592603a5d4270bfaa9585b15c8e411f1bb6": [
+    {
+      "repository": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr.git",
+      "apk_url": "https://codeberg.org/Crazy_Unicorn/simple_quiz_fr/releases/download/v2026.09.14/simplequizfr-release-v2026.09.14.apk",
+      "appid": "com.crazyunicorn.simplequizfr",
+      "version_code": 18,
+      "version_name": "2026.09.14",
+      "tag": "v2026.09.14",
+      "commit": "7abce40b1fb8d974541775b0c49e347721390421",
+      "timestamp": 1789394211,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7427a2c917cd8e1109b5c530b31a6f7af8276c77092045c98350be7d85b2ed25": [
     {
       "repository": "https://github.com/criticalAY/Neer.git",
@@ -31019,6 +31064,21 @@
       "tag": "v1.21.0",
       "commit": "677660d1582c9545e3975b29eb0d04d0aeada39c",
       "timestamp": 1789323987,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ec394d57b7a52a096f38f5c71e46ce9b3955456148cab278bc28af03b2a192d7": [
+    {
+      "repository": "https://github.com/mona-hrt/mona.git",
+      "apk_url": "https://github.com/mona-hrt/mona/releases/download/v1.21.1/mona-store-arm64-v8a.apk",
+      "appid": "com.deliacheminot.mona",
+      "version_code": 2027,
+      "version_name": "1.21.1",
+      "tag": "v1.21.1",
+      "commit": "eb75d5c779f00431cfd056ad9ae1681b7c7c62ae",
+      "timestamp": 1789394322,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -41710,6 +41770,36 @@
       "tag": "v2.6.7",
       "commit": "136c22d87c3719525e1e453164432735fa1783e5",
       "timestamp": 1789135577,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4f525c780c573131c74e63e9ad2295478a20569a1c5ff8137b819cd2d22f8154": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.7.0/FixupXer-v2.7.0-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 50,
+      "version_name": "2.7.0",
+      "tag": "v2.7.0",
+      "commit": "a6dbc9493542059109050b5da5d4f75767738104",
+      "timestamp": 1789396037,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b50f276e4f2eee256a7081351d4160adf5a1d1c4016a8399a6aad6c4868ff2a2": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.8.0/FixupXer-v2.8.0-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 51,
+      "version_name": "2.8.0",
+      "tag": "v2.8.0",
+      "commit": "e7738545e9fbde121df6606240b1ea05d0347ebf",
+      "timestamp": 1789411361,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -69464,6 +69554,21 @@
       "maintainer_notes": null
     }
   ],
+  "a96c65ffd3194941a803c287aeefca3daabb1f0e4a185e907835e05ab0dc3b37": [
+    {
+      "repository": "https://github.com/nvllz/piggsy.git",
+      "apk_url": "https://github.com/nvllz/piggsy/releases/download/1.12.1/app-release.apk",
+      "appid": "com.nvllz.piggsy",
+      "version_code": 7,
+      "version_name": "1.12.1",
+      "tag": "1.12.1",
+      "commit": "a2ab82b55cefe38f5f6e2afa3674ba06dafcc2dd",
+      "timestamp": 1789411704,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4f7d2314080a1f020ef9314ad934569c6055917c6847a3d839cff3e054ca8535": [
     {
       "repository": "https://github.com/nvllz/stepsy.git",
@@ -78504,6 +78609,21 @@
       "tag": "v3.3.4",
       "commit": "d0f33b344b8cd79ed73518a9476159bcfbbc5ca5",
       "timestamp": 1782647348,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "83a2a33efb2fb91d5e4c625c895c3d50dce7ebecda240421ba5935e594e8e14c": [
+    {
+      "repository": "https://github.com/Xed-Editor/Xed-Editor.git",
+      "apk_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.4.5/xed-editor-v3.4.5.apk",
+      "appid": "com.rk.xededitor",
+      "version_code": 107,
+      "version_name": "3.4.5",
+      "tag": "v3.4.5",
+      "commit": "da060d38667bad4345ec6f0393c2f3e6e94a861f",
+      "timestamp": 1789396196,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -91158,6 +91278,21 @@
       "tag": "v2.3.1",
       "commit": "4d93a4dbac3ae6b7b65848b5b7d1b0fa41161c38",
       "timestamp": 1783520550,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "86a846358c2d49fc5de277a17f7d13b7cb5152244b03ddb0edeb3bd6d65db254": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.3.2/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 12,
+      "version_name": "2.3.2",
+      "tag": "v2.3.2",
+      "commit": "c493db31c41d6ac8d293fe0830fae7e106928e34",
+      "timestamp": 1789411913,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -104036,6 +104171,21 @@
       "maintainer_notes": null
     }
   ],
+  "717ab28053af129f79442aed269843bc3f2009b132c9d955342ddc3117dfd044": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.18.0/nextplayer-v0.18.0-arm64-v8a.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 74,
+      "version_name": "0.18.0",
+      "tag": "v0.18.0",
+      "commit": "70f775318e3d20731617d548b8a1686780c9073a",
+      "timestamp": 1789396597,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3181a37e07ce7a18caf8117192666a150add16da2129d39e0aa1d03d4ec06929": [
     {
       "repository": "https://github.com/Animesh-Varma/Sigil.git",
@@ -108791,6 +108941,21 @@
       "maintainer_notes": null
     }
   ],
+  "6595abe231e735e64acb2b2609ca01a6ddd90d88512d22496ea309d5d3dd193a": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.4.0/photok-3.4.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 72,
+      "version_name": "3.4.0",
+      "tag": "3.4.0",
+      "commit": "a5664f52c2e1b9a8e0ea958742f49a1b93fa64ce",
+      "timestamp": 1789412318,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7a48b61e61b63cb8a18e5235df3a31cca0831da01421c1b3ea92a8e6abbbb2df": [
     {
       "repository": "https://github.com/mariinkys/OpenPillReminder.git",
@@ -112007,6 +112172,21 @@
       "tag": "v4.0.0",
       "commit": "d97bad0afddf5b7206954c421ae20659685d3c2f",
       "timestamp": 1789315125,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b68a26d472de11cbfa1426447a7764db886a178948aa8da024bed14693e42091": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.0.1/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2069,
+      "version_name": "4.0.1",
+      "tag": "v4.0.1",
+      "commit": "ee7d78357a28c7f06e523113cae2c8e72851d0f4",
+      "timestamp": 1789399079,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122683,6 +122863,21 @@
       "tag": "1.6.15",
       "commit": "913b0549355f2c1257660603043381f9dbc6eabc",
       "timestamp": 1785336813,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c16381b4bd71663d6398fbdccb00bded54ad3cd14df93ab9ee0c1eb744a5e03a": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.7.0/auraninja-1.7.0-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12700,
+      "version_name": "1.7.0",
+      "tag": "1.7.0",
+      "commit": "9f3601b8c003bd96f46c4e000bc5fffc73f661b4",
+      "timestamp": 1789412829,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -139908,6 +140103,21 @@
       "maintainer_notes": null
     }
   ],
+  "f9f4b3ab46cc9434df811194c2d4351417f4db83a4c1a0facd0a662d69533f7f": [
+    {
+      "repository": "https://github.com/jellyfin/jellyfin-android.git",
+      "apk_url": "https://github.com/jellyfin/jellyfin-android/releases/download/v2.7.3/jellyfin-android-v2.7.3-libre-release.apk",
+      "appid": "org.jellyfin.mobile",
+      "version_code": 2070399,
+      "version_name": "2.7.3",
+      "tag": "v2.7.3",
+      "commit": "9a5f9be6a76da47ca07733b982a12dbd0f75539b",
+      "timestamp": 1789413522,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f6a3a2ee367a386eb71fedb553c7c2750fc99d11c3e2a350065532abfc942cef": [
     {
       "repository": "https://github.com/LucasGGamerM/moshidon.git",
@@ -149101,6 +149311,21 @@
       "maintainer_notes": "clang was built with different compile options (comments in native libraries)"
     }
   ],
+  "e85eba075153135f2a0ba96307be3aeddaa5a1f484311ceedf6bc49795bdbdfa": [
+    {
+      "repository": "https://github.com/rRemix/APlayer.git",
+      "apk_url": "https://github.com/rRemix/APlayer/releases/download/v2.1.2.1/2-APlayer-v2.1.2.1-foss-release.apk",
+      "appid": "remix.myplayer",
+      "version_code": 21201,
+      "version_name": "2.1.2.1",
+      "tag": "v2.1.2.1",
+      "commit": "166bb536e3a3df60d8120339b52940862cb51df4",
+      "timestamp": 1789394803,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "27e1087a7acd8bd67881ea9132a9c77450f81385dfc91003044122055b76dc7a": [
     {
       "repository": "https://github.com/rkkr/simple-keyboard.git",
@@ -149459,6 +149684,34 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "Android Studio messed up ZIP ordering"
+    },
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/147/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 147,
+      "version_name": "6.6",
+      "tag": "147",
+      "commit": "ae49483ce31fc030ac20a96c37f34aaef2f78957",
+      "timestamp": 1789382337,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b0a81d62e5229a28d90ff2c7a25a7dc434c56f23e4304158e1adb61192b9978a": [
+    {
+      "repository": "https://github.com/rkkr/simple-keyboard.git",
+      "apk_url": "https://github.com/rkkr/simple-keyboard/releases/download/148/app-release.apk",
+      "appid": "rkr.simplekeyboard.inputmethod",
+      "version_code": 148,
+      "version_name": "6.7",
+      "tag": "148",
+      "commit": "bcea41ca7006350fc5d8ca7c25996b4da1283247",
+      "timestamp": 1789382825,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "7b75ab79d472d67f5e8ee5e7d03c976d67c2f78c8b19a4dff512d4851fc15c5b": [
@@ -152561,6 +152814,21 @@
       "tag": "v1.2.8",
       "commit": "9f94211faecc2d1463403b7458069391f5c9d99c",
       "timestamp": 1788708270,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ef2e015f574930017c1c16700b76b31db410704ffb6ff6a82b3c243d238f708e": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.3.0/mindwtr-1.3.0-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 146,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "e58d0d02bfc072ed44634bd629010e98d986ea6a",
+      "timestamp": 1789397932,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
