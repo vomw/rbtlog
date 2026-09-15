@@ -7422,6 +7422,21 @@
       "maintainer_notes": null
     }
   ],
+  "a94bfb1d38bf98feb91a2787b92473fd57497f1152385c07daf03f4b5042ddda": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v6.9.1/Olauncher-v6.9.1.apk",
+      "appid": "app.olauncher",
+      "version_code": 112,
+      "version_name": "v6.9.1",
+      "tag": "v6.9.1",
+      "commit": "1d438f8040e924e729643ace8933ad2b35b2e55f",
+      "timestamp": 1789410783,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -11727,6 +11742,21 @@
       "maintainer_notes": null
     }
   ],
+  "65dc43322b29f9c7d2b22afb2d90df7d1583fd328221bbb1f5ff69304cbfdff7": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.9.15%2B20260915/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20262915,
+      "version_name": "2026.9.15",
+      "tag": "v2026.9.15+20260915",
+      "commit": "2535bb48bf1780ece25b2f333d172c187c14570e",
+      "timestamp": 1789497290,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -13372,6 +13402,21 @@
       "tag": "v1.14.0",
       "commit": "03f1530c8c619bd787bce71a315b0a1ac0a8ff42",
       "timestamp": 1788789196,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "47c72ffe2ce771c8fba03f2a991489c90ef2035e159bb83eaf6d19c4d514b3a2": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.14.1/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11401,
+      "version_name": "1.14.1-store",
+      "tag": "v1.14.1",
+      "commit": "2b17b2c9d19910fa4e85b7d877bfb61781827f57",
+      "timestamp": 1789497876,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -16572,6 +16617,21 @@
       "maintainer_notes": null
     }
   ],
+  "0ca772def301ee423dc38728b79936e66c33733fd2e5d9aabc40c7cb9773f421": [
+    {
+      "repository": "https://github.com/aicodix/assempix.git",
+      "apk_url": "https://github.com/aicodix/assempix/releases/download/v1.19/app-release.apk",
+      "appid": "com.aicodix.assempix",
+      "version_code": 20,
+      "version_name": "1.19",
+      "tag": "v1.19",
+      "commit": "e9b2d4ae3c2d85fd366365dfce21a7b6c1f75c5b",
+      "timestamp": 1789509050,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5c88f24bd54d87817705b3038499d35cb6234ad78c9306ea6c625023bd4d0942": [
     {
       "repository": "https://github.com/aicodix/rattlegram.git",
@@ -16617,6 +16677,21 @@
       "maintainer_notes": null
     }
   ],
+  "3098114e035aec1df480f6fc2220a415cfee50f604f17c4374cb4b46d2fe9928": [
+    {
+      "repository": "https://github.com/aicodix/rattlegram.git",
+      "apk_url": "https://github.com/aicodix/rattlegram/releases/download/v1.19/app-release.apk",
+      "appid": "com.aicodix.rattlegram",
+      "version_code": 20,
+      "version_name": "1.19",
+      "tag": "v1.19",
+      "commit": "4df0f3af3c6da63f0d70512392e80c7a31b72099",
+      "timestamp": 1789509285,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "54cc27b7d7c85a3959671d01ae182e7e2377214bb6056ae8c0810af8f56a95e1": [
     {
       "repository": "https://github.com/aicodix/shredpix.git",
@@ -16657,6 +16732,21 @@
       "tag": "v1.21",
       "commit": "3e6f78e1ff19a749f2e151e40855c63f153fbfbb",
       "timestamp": 1763045517,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6a63f24e2d8001d86828f990064a262bbe411325bf22fde059742425a204ad57": [
+    {
+      "repository": "https://github.com/aicodix/shredpix.git",
+      "apk_url": "https://github.com/aicodix/shredpix/releases/download/v1.22/app-release.apk",
+      "appid": "com.aicodix.shredpix",
+      "version_code": 23,
+      "version_name": "1.22",
+      "tag": "v1.22",
+      "commit": "a0ced8f111e00515f3a4e4cdb4916293435e662a",
+      "timestamp": 1789509508,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -19540,6 +19630,21 @@
       "maintainer_notes": null
     }
   ],
+  "4d0364cf14e1595ffdfd04051d84c02aabcf204fc26e3ebe9dda096e5310bb48": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/444/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 444,
+      "version_name": "4.44 GH",
+      "tag": "444",
+      "commit": "890934dfd2f1ee5d9fc9cc0ca1e16d1c6168e3c0",
+      "timestamp": 1789498955,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f6b7d34a7d8f6d49640be56e96a00cfbc9c12d695e005567fa27e9fa5a586b77": [
     {
       "repository": "https://github.com/AsyJAIZ/Notification-Shade-Transparency.git",
@@ -20270,6 +20375,21 @@
       "tag": "2.31",
       "commit": "ad39e6a50d3869319ec298fa058ef444e79a7630",
       "timestamp": 1782741394,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "15bc990a7ccfb2b085335c7d699f8a22bf9e788d24bc0620dd1b738f525a4519": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.32/Clock_2.32-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2036,
+      "version_name": "2.32",
+      "tag": "2.32",
+      "commit": "481d794f4505ed715a3d79622bca79c5053a73e6",
+      "timestamp": 1789499592,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -25324,6 +25444,21 @@
       "maintainer_notes": null
     }
   ],
+  "f52372704784d05c339e6366cf4ef2d19ed6d596bb55c1f832667682cdbe08e1": [
+    {
+      "repository": "https://github.com/catpuppyapp/HahaNote-Release.git",
+      "apk_url": "https://github.com/catpuppyapp/HahaNote-Release/releases/download/v1.0.13/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.hahanote",
+      "version_code": 2014,
+      "version_name": "1.0.13",
+      "tag": "v1.0.13",
+      "commit": "2bfb1d37877e82e5cd893a43b354faee07c23134",
+      "timestamp": 1789499792,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -26414,6 +26549,21 @@
       "tag": "1.1.5.6v132",
       "commit": "9deb4abf09fd917770da2e8276b4214d91fee0b1",
       "timestamp": 1787856613,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c0964cde89f0b123addf82a46f144f4940b2fe68884a86d42dda87874722374e": [
+    {
+      "repository": "https://github.com/catpuppyapp/PuppyGit.git",
+      "apk_url": "https://github.com/catpuppyapp/PuppyGit/releases/download/1.1.5.7v133/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.puppygit.play.pro",
+      "version_code": 133,
+      "version_name": "1.1.5.7",
+      "tag": "1.1.5.7v133",
+      "commit": "461a5265825d39e23f67d22383f3d0b0d8b1ed8f",
+      "timestamp": 1789500427,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -32224,6 +32374,21 @@
       "maintainer_notes": null
     }
   ],
+  "22bf6bbacf411b7ed8ece28497cdf545fc5379ed0e3ef79f46ede599ed77d39b": [
+    {
+      "repository": "https://github.com/DesarrolloAntonio/Shiori-Android-Client.git",
+      "apk_url": "https://github.com/DesarrolloAntonio/Shiori-Android-Client/releases/download/v1.52.02/Shiori.v1.52.02.apk",
+      "appid": "com.desarrollodroide.pagekeeper",
+      "version_code": 57,
+      "version_name": "1.52.02",
+      "tag": "v1.52.02",
+      "commit": "44a8b2d336e183515d1a8820ef85af347e6bde4a",
+      "timestamp": 1789501600,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2d779c2a261cf5ecd1bb74905eb76724a60811213e4175026e2727b66e67bee8": [
     {
       "repository": "https://github.com/dessalines/habit-maker.git",
@@ -35052,6 +35217,21 @@
       "tag": "v1.1.0",
       "commit": "feb630caa428c3b040fe155523805af1df223393",
       "timestamp": 1787242826,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "45a8cdf438f3a47dbff3b262dfc106b090ec882ff9aab734d5864bce0d106819": [
+    {
+      "repository": "https://github.com/Dhangofa/NetToggle.git",
+      "apk_url": "https://github.com/Dhangofa/NetToggle/releases/download/v1.2.0/NetToggle.apk",
+      "appid": "com.dhangofa.networktoggle",
+      "version_code": 34,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "f0f53b008f2ba86cf5c6fc6e3b3915f37b1c411b",
+      "timestamp": 1789501923,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -60427,6 +60607,21 @@
       "maintainer_notes": null
     }
   ],
+  "d6e2b1c62153187c8dd8dfa618d2a08ba2f683063e2e6a2bd9f9528c8f1bd1ab": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/leanbitlab-org/LtvLauncher/releases/download/v2026.09.15/LTvLauncher-universal-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8111,
+      "version_name": "2026.09.15",
+      "tag": "v2026.09.15",
+      "commit": "69aee668ecc5e4ab9d16e563e529dabc2042418a",
+      "timestamp": 1789502056,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8131c0529cc5c1e6b66e3badfcb9b3fe65d44e01af49ba6dba8be45fca8fdb15": [
     {
       "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
@@ -70344,6 +70539,21 @@
       "tag": "v2.1.1",
       "commit": "e896262bf2f31ebcf55c6bb8a6f32b69599e5e88",
       "timestamp": 1780767037,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b39bda929ba3a6ee91062dfd6a538b7f83f1abd8d715d79d6f9f8853d4924228": [
+    {
+      "repository": "https://github.com/om1cael/Hidroly.git",
+      "apk_url": "https://github.com/om1cael/Hidroly/releases/download/v2.3.0/app-arm64-v8a-default-release.apk",
+      "appid": "com.om1cael.hidroly",
+      "version_code": 30213,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "aed2fb34986e511d8dda065736d18f7cbe285213",
+      "timestamp": 1789509736,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84400,6 +84610,21 @@
       "maintainer_notes": null
     }
   ],
+  "7b1a78b36c5521767b2468da56de1a215e37766aa60e423a6eeea70f7b0f5201": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/7.0.4/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 7040,
+      "version_name": "7.0.4",
+      "tag": "7.0.4",
+      "commit": "368e36a319525e05949d1874692fb549d01a4bb1",
+      "timestamp": 1789502531,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -89193,6 +89418,21 @@
       "tag": "0.3.9",
       "commit": "8b109b7b4798b1624cba8d36e1c0f0c8854b96b6",
       "timestamp": 1776953712,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "09a146dcefb380026c1286acdc2b9753ecfd85b1d9834127293e8a1b28652fd2": [
+    {
+      "repository": "https://github.com/Thiru-Malai/CallLimiter.git",
+      "apk_url": "https://github.com/Thiru-Malai/CallLimiter/releases/download/0.3.10/call-limiter-0.3.10.apk",
+      "appid": "com.thirumalai.calllimiter",
+      "version_code": 11,
+      "version_name": "0.3.10",
+      "tag": "0.3.10",
+      "commit": "c11d5976b6843ae50e3b84c4a0eb5b1c06544d1f",
+      "timestamp": 1789502927,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -116962,6 +117202,21 @@
       "maintainer_notes": null
     }
   ],
+  "8926631fdb8aec45a139b5ab4f6d4e555e4f8d49004abb13e3862639e86575f5": [
+    {
+      "repository": "https://github.com/hxreborn/cleanshare.git",
+      "apk_url": "https://github.com/hxreborn/cleanshare/releases/download/v3.3.0/app-release.apk",
+      "appid": "eu.hxreborn.cleanshare",
+      "version_code": 330,
+      "version_name": "3.3.0",
+      "tag": "v3.3.0",
+      "commit": "998ff22863dadab8d0931df1b887c6a5162acdf7",
+      "timestamp": 1789503097,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ead5832723cc440963c6bc494e7deb3dfda8226515ddd077fab059f474b5ba5": [
     {
       "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
@@ -123738,6 +123993,21 @@
       "maintainer_notes": null
     }
   ],
+  "ec98819b087eb1af57f0da9d5ed08d67de6b52369c709c651077d0bcdd7c5556": [
+    {
+      "repository": "https://github.com/Leonidius20/RecordingStudio.git",
+      "apk_url": "https://github.com/Leonidius20/RecordingStudio/releases/download/v0.2.1/lite.apk",
+      "appid": "io.github.leonidius20.recorder.lite",
+      "version_code": 8,
+      "version_name": "0.2.1",
+      "tag": "v0.2.1",
+      "commit": "6989cc09b553d2e393fa2762c2d35335f5ddfe9f",
+      "timestamp": 1789503352,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "18da8c6bd6ec0d62f6db8e179b07a7d69e2d7bf8b2b34b48cdf9b484ff6071e3": [
     {
       "repository": "https://github.com/luantak/FokusLauncher.git",
@@ -124303,6 +124573,21 @@
       "tag": "1.8",
       "commit": "6f2d19e398d3ad5d05d52b5dcce49b17a098abb7",
       "timestamp": 1788622410,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8c84df82e4fa22391314d714f80387eefea5c5b730b6f7155eb587287a6e6f54": [
+    {
+      "repository": "https://github.com/ronynn/karui.git",
+      "apk_url": "https://github.com/ronynn/karui/releases/download/1.9/karui-release.apk",
+      "appid": "io.github.ronynn.karui",
+      "version_code": 9,
+      "version_name": "1.9",
+      "tag": "1.9",
+      "commit": "dc3191f60800483c4136805266e1f1f2e675a83a",
+      "timestamp": 1789503757,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -132253,6 +132538,21 @@
       "tag": "0.93.0",
       "commit": "a09e037374d0013ffc31978fc1d1ada2943280e4",
       "timestamp": 1786462522,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "38b7666166f6fd0268b598ad0b40435744833f26b8cb7b13eb724ca61894a66b": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Gadgetbridge.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/download/0.94.0/gadgetbridge-0.94.0.apk",
+      "appid": "nodomain.freeyourgadget.gadgetbridge",
+      "version_code": 253,
+      "version_name": "0.94.0",
+      "tag": "0.94.0",
+      "commit": "2ee6b3002f250e24328ac91b948bce0b2243a0db",
+      "timestamp": 1789503851,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -144211,6 +144511,21 @@
       "maintainer_notes": null
     }
   ],
+  "9cdda9f84d7357e35f68da5a8582bf308c0ba136437eb5f3e55def794d577e8a": [
+    {
+      "repository": "https://github.com/prateek54353/PaperWise.git",
+      "apk_url": "https://github.com/prateek54353/PaperWise/releases/download/v2.5.9/app-arm64-v8a-release.apk",
+      "appid": "org.paperwise.app",
+      "version_code": 2011,
+      "version_name": "2.5.9",
+      "tag": "v2.5.9",
+      "commit": "1dc14a77c1651d53dde3aab7c6cdd6bd074aabb8",
+      "timestamp": 1789507798,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ac98212690cbfa3a2455204330482869cb7c0064c4ddbefea671cb40864f900f": [
     {
       "repository": "https://github.com/polymorphicshade/Tubular.git",
@@ -146951,6 +147266,21 @@
       "tag": "v1.18.0",
       "commit": "f92965dac6ace7cdbc0e8ec757f59c0606338c11",
       "timestamp": 1789330845,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ff588418bfee19af06c8d7df1d5208537af245e1cc5222a2de9e40171475d1ff": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.19.0/wizestream_v1.19.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1019000,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "5fa2810c72b92be48bdd2626da3ad5ef96738f46",
+      "timestamp": 1789504621,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

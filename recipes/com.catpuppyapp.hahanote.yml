@@ -373,3 +373,56 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.0.13
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/catpuppyapp/HahaNote-Release/releases/download/v1.0.13/app-arm64-v8a-release.apk
+        build:
+          - RUSTUP="1.29.0"
+          - pushd haha_note_src
+          - source build_script/versions.sh
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/haha_note_src/rustup/rustup-init.sh -y --default-toolchain $RUSTUP_TOOLCHAIN --target armv7-linux-androideabi --target aarch64-linux-android --target i686-linux-android --target x86_64-linux-android
+          - source $HOME/.cargo/env
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter:\s*\^?([0-9.]*)/\1/p' pubspec.yaml | head -n 1)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache NO_SIGNING=true
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' ${PUB_CACHE}/hosted/*/jni-*/src/CMakeLists.txt
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64"
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace build/app/outputs/apk/release/app-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/HahaNote-Release/HahaNote-Release
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+            - build-essential
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-17-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
