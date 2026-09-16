@@ -7197,6 +7197,21 @@
       "maintainer_notes": null
     }
   ],
+  "9bb1f35a4fe73f9f9f8df8eefcacba641bb552294cb59c380c0425678e7e0614": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.2.3/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10203,
+      "version_name": "1.2.3",
+      "tag": "v1.2.3",
+      "commit": "10ea49884acbb1972b050904e226d7b29a2124bd",
+      "timestamp": 1789514192,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "25936ad4834d7855606f457d1dcbfc2ca5c04ae20b8cca3e0ffbce9b407ec5b8": [
     {
       "repository": "https://github.com/matthiasemde/musikus-android.git",
@@ -18980,6 +18995,21 @@
       "tag": "v4.6.7",
       "commit": "d8834e190fedb52d87c186d3f138d77ed21cabd4",
       "timestamp": 1788703240,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d609e7dd6e9c2b5bec7c8009d6b9980bbade52dd46a981b04f5b467582fb77ea": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.8/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1388,
+      "version_name": "4.6.8",
+      "tag": "v4.6.8",
+      "commit": "8a27ade0a8347d2f7fa95bc22ccd9d74d7ecdd11",
+      "timestamp": 1789518901,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
