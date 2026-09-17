@@ -20063,6 +20063,19 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "R8 optimizer shenanigans"
+    },
+    {
+      "repository": "https://github.com/beemdevelopment/Aegis.git",
+      "apk_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.3/aegis-v3.4.3.apk",
+      "appid": "com.beemdevelopment.aegis",
+      "version_code": 82,
+      "version_name": "3.4.3",
+      "tag": "v3.4.3",
+      "commit": "d6f4e5925a97e4e91593f1542085eae03432a759",
+      "timestamp": 1789681944,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "f6709131a1d1c95a55cd1e5622a2b08bad8dd2998b27f22e93d9f9e7ba42ed12": [
@@ -46840,6 +46853,21 @@
       "tag": "v1.5-32",
       "commit": "756708a44e32d4098c24bc744ea1490b03da15ad",
       "timestamp": 1789639279,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "21aa0b46870173577e4d3b66b0a19e009ed94b129cc423ad19bb368e83a9c6f5": [
+    {
+      "repository": "https://github.com/Helltar/ANPASIDE.git",
+      "apk_url": "https://github.com/Helltar/ANPASIDE/releases/download/2.3.6/app-release.apk",
+      "appid": "com.github.helltar.anpaside",
+      "version_code": 44,
+      "version_name": "2.3.6",
+      "tag": "2.3.6",
+      "commit": "70fd63431bb0f4599d836acfcb662f5fb2118870",
+      "timestamp": 1789686824,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/Helltar/ANPASIDE.git
-updates: disabled
-notes:
-  - upstream repo was archived 2023-07-19. Unarchived later, but newer APKs are 5 times the original size.
+updates: releases
 versions:
   - tag: v1.5-30
     apks:
@@ -52,6 +50,34 @@ versions:
             version: '12.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.3.6
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/Helltar/ANPASIDE/releases/download/2.3.6/app-release.apk
+        build:
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/release/*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages: []
           image: ubuntu:noble
           jdk: openjdk-21-jdk-headless
