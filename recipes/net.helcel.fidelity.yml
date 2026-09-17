@@ -4,7 +4,7 @@ updates: releases
 notes:
   - 1.3c+ use KeePassDX as submodule, hence verify_git=false; further, the crypto module needs NDK 25.2.9519653 to build, while the rest needs 28.2.13676358 to strip (1 MB) of debug info from native libs
   - starting with v1.4, NDK for the crypto module will be defined in the app itself. We still need NDK 28.2 to match GH runners for library stripping.
-  - 'FIXME: v1.4 needed sed to correct versionName, remove with the next release'
+  - 'FIXME: v1.4 needed sed to correct versionName, remove with the next release – eek, OK, and add -PVERSION_NAME=${APP_TAG} to the gradle call, see GHA'
 versions:
   - tag: 1.2d
     apks:
