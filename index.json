@@ -7452,6 +7452,21 @@
       "maintainer_notes": null
     }
   ],
+  "bc72df3b8162f68a7bfed886fa21eb62ee1d53eadb9526498606b8f0aae5aa19": [
+    {
+      "repository": "https://github.com/tanujnotes/Olauncher.git",
+      "apk_url": "https://github.com/tanujnotes/Olauncher/releases/download/v6.9.17/Olauncher-v6.9.17.apk",
+      "appid": "app.olauncher",
+      "version_code": 113,
+      "version_name": "v6.9.17",
+      "tag": "v6.9.17",
+      "commit": "66712f74de4030dc364d573708bea51d24823b40",
+      "timestamp": 1789653085,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e59fb2e2d9dd72e4109d6ea81aa824c04c2579008757b30866863e247c16d315": [
     {
       "repository": "https://github.com/pachli/pachli-android.git",
@@ -11802,6 +11817,21 @@
       "maintainer_notes": null
     }
   ],
+  "6cc0cace0f217cf6b6644766c4d19cdd1733513b67b72c9aa84dcaf317a2d00b": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.9.17%2B20260917/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20262917,
+      "version_name": "2026.9.17",
+      "tag": "v2026.9.17+20260917",
+      "commit": "e9abb71e583ad744301ae6984519031aa8697556",
+      "timestamp": 1789669926,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -15487,6 +15517,21 @@
       "tag": "v5.5.480.1260-stable",
       "commit": "b7a072864a9b848e4be3d6b55d64ec4d2cd48ce0",
       "timestamp": 1788702845,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8bf60230f9a80d85e2c1b6c234fb595e00c0430aa42b6fe4315156920e2c0a30": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.5.485.1270-stable/Rhythm-5.5.485.1270-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 554851270,
+      "version_name": "5.5.485.1270-fdroid",
+      "tag": "v5.5.485.1270-stable",
+      "commit": "bc9c3a11340831d5de7e5c84d4860e8b76f56d38",
+      "timestamp": 1789670490,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -21948,6 +21993,21 @@
       "tag": "v1.7.4",
       "commit": "0ce0d232c38dcf11993198b0e92ca176162ed386",
       "timestamp": 1788703458,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "230997ca368e2c597c85c1bf079b8d8f8e59e555dc7d74883d770dada9b7353b": [
+    {
+      "repository": "https://github.com/boxlabss/HexDroid.git",
+      "apk_url": "https://github.com/boxlabss/HexDroid/releases/download/v1.7.5/app-release.apk",
+      "appid": "com.boxlabs.hexdroid",
+      "version_code": 33,
+      "version_name": "1.7.5",
+      "tag": "v1.7.5",
+      "commit": "2e015957945d5981ab9197f4d4b91d1c04dfc10d",
+      "timestamp": 1789653167,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31049,6 +31109,21 @@
       "tag": "v1.0.7",
       "commit": "49d1c02a623286d2404c447dc3e8680447aa0240",
       "timestamp": 1789584640,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0907c619b0bed4033c6f08d826ab474a49f2bdd0cd2a184a6641ee02a4ecff4e": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.8/Elite.Memo.Pro.v1.0.8.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 8,
+      "version_name": "1.0.8",
+      "tag": "v1.0.8",
+      "commit": "d3551f3f2c2eaee5470f921cd0c185d6e251712d",
+      "timestamp": 1789653398,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -61567,6 +61642,21 @@
       "maintainer_notes": null
     }
   ],
+  "998bd3f215efb6301989a14d2bf294061c95d306c7a7c050d8a121075fdbea94": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.9.2/storii-v0.9.2-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5172,
+      "version_name": "0.9.2",
+      "tag": "v0.9.2",
+      "commit": "0fcc77183444616665a88404270a82ad4ba0f071",
+      "timestamp": 1789653471,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -71339,6 +71429,21 @@
       "maintainer_notes": null
     }
   ],
+  "5af66584acbb9231883bf051d44d3a69f5626fc85826d8b1de6bbc59cacf5f25": [
+    {
+      "repository": "https://github.com/stud0709/OneMoreSecret.git",
+      "apk_url": "https://github.com/stud0709/OneMoreSecret/releases/download/v1.0/app-foss-release.apk",
+      "appid": "com.onemoresecret",
+      "version_code": 44,
+      "version_name": "1.0",
+      "tag": "v1.0",
+      "commit": "f3974e744f498aa820c0c6ecff98ef835c37f24d",
+      "timestamp": 1789654702,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0d3ab906530200cb5c2407f2a51629485217f79cc3bb233b732cc8db257b9654": [
     {
       "repository": "https://github.com/calin-darie/gentle-glow-onyx-boox.git",
@@ -74514,6 +74619,21 @@
       "tag": "v1.2.0",
       "commit": "e2c359da5dfebb300a1952dc9bbafd468d508bf1",
       "timestamp": 1787579882,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ba0dedfcddb81c94e80aeb76dc5cc5a18ac8ff7d74c94fb09f3bca9935f6f16": [
+    {
+      "repository": "https://github.com/PhoebeSoftware/xrooster.git",
+      "apk_url": "https://github.com/PhoebeSoftware/xrooster/releases/download/v1.2.1/app-arm64-v8a-release.apk",
+      "appid": "com.phoebesoftware.xrooster",
+      "version_code": 2032,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "c68ebf84c0baa09e46b9e5ae92d67dee16212c23",
+      "timestamp": 1789666569,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -81774,6 +81894,21 @@
       "tag": "v1.7.0",
       "commit": "64aa11f81c72482890ea7a6c6e50447b42b2fda7",
       "timestamp": 1788878111,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e6ffceeeed14eb0e0e10a672cd661108136d33ff0adcc127f213a917ff9d0eb2": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.8.0/Minus-v1.8.0.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10800,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "bbd180c9bf87d8f00d43bbe134f0293264d6bdb4",
+      "timestamp": 1789656148,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94193,6 +94328,21 @@
       "maintainer_notes": null
     }
   ],
+  "d9838e8c84b62368b4098320544878414035ce27864b339fc0b05e5e0d277d79": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.16.0/amethyst-fdroid-arm64-v8a-v1.16.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 461,
+      "version_name": "1.16.0",
+      "tag": "v1.16.0",
+      "commit": "1a9902eee0a3e230a4dfbd52c434cbeca324cf47",
+      "timestamp": 1789671151,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9c16cbfceb948a869b30940a74c97d2de8647fbdb5c803d94a6ef09dc2e6c082": [
     {
       "repository": "https://github.com/vivizzz007/vivi-music.git",
@@ -100307,6 +100457,21 @@
       "maintainer_notes": null
     }
   ],
+  "895c7eb6aabdc8e7844f0cda036a7690d12bed12a8730ce4b28f1d250f098d06": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.7.6/worldclockv2_v1.7.6_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 28,
+      "version_name": "1.7.6",
+      "tag": "v1.7.6",
+      "commit": "364dd72c3060258d2076dc6a57ff6c2b0074e2cb",
+      "timestamp": 1789667152,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a3e340b77ebb0f2bd1a25aa9015d06bd0cd57c6bb1917714209cbe33041f9b": [
     {
       "repository": "https://github.com/Joinsider/dhbw.git",
@@ -102177,6 +102342,21 @@
       "tag": "v2.1.3",
       "commit": "95085a98aea7b6f318b71d843a61a4e4b8103f4e",
       "timestamp": 1788982763,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "78798759fa401d42d396aa3914e2d27a72eb49765ef0f0ba879b134f384ac82e": [
+    {
+      "repository": "https://github.com/kitshn-app/kitshn.git",
+      "apk_url": "https://github.com/kitshn-app/kitshn/releases/download/v2.1.4/android-release.apk",
+      "appid": "de.kitshn.android",
+      "version_code": 20104,
+      "version_name": "2.1.4",
+      "tag": "v2.1.4",
+      "commit": "3134818e7f0ef945f7922d253abb28b5bb032db2",
+      "timestamp": 1789657744,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -112702,6 +112882,21 @@
       "maintainer_notes": null
     }
   ],
+  "1c3f52bc6e180b26f915fd0859a587c2646f3e9dabc6b6b3368b52655cf8e9d0": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.0.2/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2070,
+      "version_name": "4.0.2",
+      "tag": "v4.0.2",
+      "commit": "a4c29e28a49e85b215db0ddc61bc8cf2abf49d5e",
+      "timestamp": 1789658316,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
     {
       "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
@@ -116992,6 +117187,21 @@
       "maintainer_notes": null
     }
   ],
+  "e8337c82f9829f2c2ad89c04a27af62d74daa3be141558845bd6ee0ddd8c79c8": [
+    {
+      "repository": "https://github.com/M66B/FairEmail.git",
+      "apk_url": "https://github.com/M66B/FairEmail/releases/download/1.2337/FairEmail-v1.2337a-github-release.apk",
+      "appid": "eu.faircode.email",
+      "version_code": 2337,
+      "version_name": "1.2337",
+      "tag": "1.2337",
+      "commit": "bbc70fa3bb22a6da5287faa9d2e73b190450dd14",
+      "timestamp": 1789672292,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": "R8 (optimizer) shenanigans"
+    }
+  ],
   "9a48425095f0b613860de2f03a3cda5b4325dff8e411346eba4c95d881da65e5": [
     {
       "repository": "https://github.com/FliegendeWurst/TriliumDroid.git",
@@ -118367,6 +118577,21 @@
       "tag": "v6.76",
       "commit": "f9d5d2ceaef3878251f2f8ff436a2ead7f513d59",
       "timestamp": 1788101128,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "628b17c0c16dceb30e321613e7975518c0c4202f5c3c97cd315e98f5e705216d": [
+    {
+      "repository": "https://github.com/EXALAB/AnLinux-Adfree.git",
+      "apk_url": "https://github.com/EXALAB/AnLinux-Adfree/releases/download/v6.77/app-release.apk",
+      "appid": "exa.lnx.a",
+      "version_code": 677,
+      "version_name": "6.77 Stable",
+      "tag": "v6.77",
+      "commit": "b9cf3c559930988cd1fc942f96bbb562b58bb221",
+      "timestamp": 1789659117,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -123453,6 +123678,21 @@
       "maintainer_notes": null
     }
   ],
+  "aa0d30a7966cb23ab33eedfac72691658edbb1ad6b1e8f864e1ced1c0e422ad1": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.7.2/auraninja-1.7.2-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12702,
+      "version_name": "1.7.2",
+      "tag": "1.7.2",
+      "commit": "4be841a80cfb0ef2b14fa9d4fb4e0413ff5921d2",
+      "timestamp": 1789667781,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b20666978f7936f1511cd6bffe2966390a13e145387212261d45b6ff0759e554": [
     {
       "repository": "https://github.com/Giuig/decisioninja.git",
@@ -125473,6 +125713,21 @@
       "tag": "v0.1.87",
       "commit": "139fc7d086967a0348fe7f8f31826922edd84319",
       "timestamp": 1789569111,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2a89bd395091f800816ac5cc9679a3a468973bac6372de692b2f7aa24f7a2565": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.88/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1088,
+      "version_name": "0.1.88",
+      "tag": "v0.1.88",
+      "commit": "fb7308d29557d41f1de9d9538d947f04eaf7488d",
+      "timestamp": 1789661176,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -132193,6 +132448,21 @@
       "tag": "1.3c",
       "commit": "f71399f6fa672a8cec4d377bc81b795ee8057760",
       "timestamp": 1779577231,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f1ad2749adb2ee05ce1549a4848bff1a6b455161a1d36fc0f6b4ae45d4f5c318": [
+    {
+      "repository": "https://github.com/helcel-net/keepass-fidelity.git",
+      "apk_url": "https://github.com/helcel-net/keepass-fidelity/releases/download/1.4/app-signedRelease.apk",
+      "appid": "net.helcel.fidelity",
+      "version_code": 581,
+      "version_name": "1.4",
+      "tag": "1.4",
+      "commit": "5a76638f27bab01288d312e4a705a167b22e6987",
+      "timestamp": 1789669001,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -141633,6 +141903,21 @@
       "maintainer_notes": null
     }
   ],
+  "d962345574c4ed58f04b162ccb2549ca5b02b83786f3e7dd056d10d2894b2bce": [
+    {
+      "repository": "https://codeberg.org/gitnex/GitNex.git",
+      "apk_url": "https://codeberg.org/gitnex/GitNex/releases/download/15.0.0/15.0.0.apk",
+      "appid": "org.mian.gitnex",
+      "version_code": 1500,
+      "version_name": "15.0.0",
+      "tag": "15.0.0",
+      "commit": "408726a0ab61369152071c3eeb070630064f68e3",
+      "timestamp": 1789672822,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "325256801b1cc3c7308ea3cb408b11dfb584e2392a66b8053c3cc416bb55c894": [
     {
       "repository": "https://github.com/NessunoZero/speedy_launcher.git",
@@ -149006,6 +149291,21 @@
       "tag": "v1.0.0-alpha55",
       "commit": "49ad7ba5fdc66110edc3a8612f019c8b894809ea",
       "timestamp": 1789312908,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "73a885c97ae5aed16b83f20b6b4d53eb3a13e84f6902c95b3626e20ff793f54e": [
+    {
+      "repository": "https://github.com/ssalggnikool/Navic.git",
+      "apk_url": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha56/Navic.fdroid.apk",
+      "appid": "paige.navic",
+      "version_code": 56,
+      "version_name": "v1.0.0-alpha56",
+      "tag": "v1.0.0-alpha56",
+      "commit": "3e058db4c04af942783deb7bd2a186feb4526dab",
+      "timestamp": 1789673082,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

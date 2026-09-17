@@ -3,7 +3,8 @@ repository: https://github.com/helcel-net/keepass-fidelity.git
 updates: releases
 notes:
   - 1.3c+ use KeePassDX as submodule, hence verify_git=false; further, the crypto module needs NDK 25.2.9519653 to build, while the rest needs 28.2.13676358 to strip (1 MB) of debug info from native libs
-  - 'FIXME: with the release following 1.3c, NDK 25.2.9519653 will be defined in the app itself, so we can drop the sdkmanager call from the recipe again (just keeping NDK 28.2 to match GH runners for library stripping)'
+  - starting with v1.4, NDK for the crypto module will be defined in the app itself. We still need NDK 28.2 to match GH runners for library stripping.
+  - 'FIXME: v1.4 needed sed to correct versionName, remove with the next release'
 versions:
   - tag: 1.2d
     apks:
@@ -70,6 +71,52 @@ versions:
           image: debian:trixie-slim
           jdk: openjdk-21-jdk-headless
           ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_git: false
+          verify_gradle_wrapper: true
+  - tag: '1.4'
+    apks:
+      - apk_pattern: app-.*elease\.apk
+        apk_url: https://github.com/helcel-net/keepass-fidelity/releases/download/1.4/app-signedRelease.apk
+        build:
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - sed -ri '/signingConfigs.getByName/d' app/build.gradle
+          - sed -ri 's/"1.3c"/"1.4"/' app/build.gradle
+          - echo -e "keyAlias=alias\nkeyPassword=keypass\nstorePassword=storepass\nstoreFile=keystore.properties" > app/keystore.properties
+          - bash patch_submodule.sh
+          - VERSION_CODE=$(git rev-list --count HEAD)
+          - chmod +x gradlew
+          - ./gradlew assembleRelease -PVERSION_CODE=$VERSION_CODE
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/keepass-fidelity/keepass-fidelity
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
           platform:
           platform_tools:
           tools:
