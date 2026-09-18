@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/XilinJia/Podcini.X.git
-updates: releases
+updates: disabled
+notes:
+  - continued as ac.mdiq.Podcini.A
 versions:
   - tag: 8.0.2
     apks:
