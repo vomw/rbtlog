@@ -1943,3 +1943,56 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v0.1.89
+    apks:
+      - apk_pattern: app-arm64-release\.apk
+        apk_url: https://github.com/sak96/read_later/releases/download/v0.1.89/app-arm64-release.apk
+        build:
+          - rm src-tauri/gen/android/keystore.properties
+          - RUSTUP="$(sed -rn 's/rustup\s+(.+)/\1/p' .build-tool-versions)"
+          - RUST_TOOLCHAIN="$(sed -rn 's/rust\s+(.+)/\1/p' .build-tool-versions)"
+          - NODE="$(sed -rn 's/node\s+(.+)/\1/p' .build-tool-versions)"
+          - TAURICLI="$(sed -rn 's/tauricli\s+(.+)/\1/p' .build-tool-versions)"
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin:${HOME}/.node/bin"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - export NDK_HOME=$ANDROID_NDK
+          - export RUSTFLAGS="--remap-path-prefix $PWD=. -C metadata=deadbeef --emit=llvm-bc"
+          - export CARGOFLAGS="--locked"
+          - export SOURCE_DATE_EPOCH=1700000000
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target aarch64-linux-android
+          - source $HOME/.cargo/env
+          - cargo install tauri-cli@${TAURICLI}
+          - npm ci
+          - cargo tauri android build --split-per-abi --target aarch64
+          - find . -name '*.apk'
+          - mv src-tauri/gen/android/app/build/outputs/apk/arm64/release/app-arm64-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/read_later/read_later
+        build_timeout: 60
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.20.0
+              url: https://nodejs.org/dist/v24.20.0/node-v24.20.0-linux-x64.tar.xz
+              sha256: 2f2c0da162318f0de47665410c7c8c2ed3d36c8f3105de4bbc61176c70a7cbf2
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - build-essential
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.0.13004108
+          platform: android-36
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
