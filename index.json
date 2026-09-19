@@ -101265,6 +101265,21 @@
       "maintainer_notes": null
     }
   ],
+  "e3f668bfa1ab15fecafa70cd1714303fccff3536b902594a939d8bb09ee3700b": [
+    {
+      "repository": "https://github.com/schorschii/CustomerDB-Android.git",
+      "apk_url": "https://github.com/schorschii/CustomerDB-Android/releases/download/v3.12.0/customerdb.apk",
+      "appid": "de.georgsieber.customerdb",
+      "version_code": 100,
+      "version_name": "3.12.0",
+      "tag": "v3.12.0",
+      "commit": "169a38d5ea551477e48ba53f3f0d94f888445bb4",
+      "timestamp": 1789861016,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9ab4fef53be0cae470f4a8d1bf63ea3c76a8b05c1e7a2540fdb77714a9f6059f": [
     {
       "repository": "https://github.com/hauke96/GeoNotes.git",
@@ -110119,6 +110134,21 @@
       "tag": "3.4.1",
       "commit": "d9cf448ea2c94b450fffb856d89476de89bcb57c",
       "timestamp": 1789568218,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "87223ddac902b38e5a78ce06390143b25a51eba992bdf690cb67f2c559a9a00c": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.4.2/photok-3.4.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 74,
+      "version_name": "3.4.2",
+      "tag": "3.4.2",
+      "commit": "9c5937ff384af651c98a58cd59ed0b515d4a3086",
+      "timestamp": 1789859026,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
