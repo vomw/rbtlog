@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/XilinJia/Podcini.A.git
 updates: releases
+notes:
+  - 'FIXME: move to Podcini.A-free-legacy-arm64-v8a-.*\.apk and assembleFreeLegacyRelease with next release'
 versions:
   - tag: v12.11.1
     apks:
