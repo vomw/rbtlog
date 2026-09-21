@@ -386,3 +386,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.9
+    apks:
+      - apk_pattern: PrivateDnsQS.*nolauncher-release\.apk
+        apk_url: https://github.com/flashsphere/private-dns-qs/releases/download/v2.9/PrivateDnsQS-v2.9-nolauncher-release.apk
+        build:
+          - sed -r '/signingConfigs\[/d ; /signingConfigs \{/,/^    \}/d' -i app/build.gradle.kts
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - ./gradlew assembleNolauncherRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/nolauncher/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.2.13676358
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
