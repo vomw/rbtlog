@@ -2,7 +2,7 @@
 repository: https://github.com/yuroyami/syncplay-mobile.git
 updates: releases
 notes:
-  - 'FIXME: add missing -i to foojay seds'
+  - 'FIXME: the base64 call can be removed with 0.25+ according to the dev'
 versions:
   - tag: v0.21.10
     apks:
@@ -162,6 +162,41 @@ versions:
           - ./gradlew assembleExoOnlyRelease -PexoOnly=true --max-workers=4
           - find . -name '*.apk'
           - mv androidApp/build/outputs/apk/exoOnly/release/syn?play-*-exo-only.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - autoconf
+            - pkg-config
+            - libtool
+            - ninja-build
+            - bzip2
+            - xz-utils
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.25.0
+    apks:
+      - apk_pattern: syncplay-.*-exo-only\.apk
+        apk_url: https://github.com/yuroyami/syncplay-mobile/releases/download/v0.25.0/syncplay-0.25.0-exo-only.apk
+        build:
+          - sed -ri 's/const val exoOnly = false/const val exoOnly = true/' buildSrc/src/main/kotlin/AppConfig.kt
+          - base64 -d > local.properties <<< eXVyb3lhbWkua2V5S2xpcHlBcGk9TTVCakxadEhKdFg4cFNNN2Jrd0w5QTF1VFJJaVdQY2VMUmZiN1RBN1FITTlkRFZtSVhhUUxTWGs2VVlnbUk3MAp5dXJveWFtaS5rZXlPcGVuU3Vic0FwaT1pZXNGakd4VmNYdEJNbkVieE1SWXlXYlUzTTFVRWFhTAo=
+          - ./gradlew assembleExoOnlyRelease -PexoOnly=true --max-workers=4 -PunsignedRelease=true
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/exoOnly/release/syncplay-*-exo-only*.apk /outputs/unsigned.apk
         build_home_dir: /build
         build_repo_dir: /build/repo
         build_user: build

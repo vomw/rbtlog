@@ -3,6 +3,7 @@ repository: https://github.com/nextcloud/passman-android.git
 updates: releases
 notes:
   - NDK ver in openssl.conf.example and app/build.gradle - but already needed before gradle starts (by build-openssl.sh)
+  - 'FIXME: releases after v1.6.1 will have conditional signing active, so the sed can be dropped here'
 versions:
   - tag: v1.6.1
     apks:
