@@ -89841,6 +89841,21 @@
       "maintainer_notes": null
     }
   ],
+  "c691af237a80f23ee88d0a7fec157f9b4b6577f6feec021d75349b4956977399": [
+    {
+      "repository": "https://github.com/teslor/sms-telebot.git",
+      "apk_url": "https://github.com/teslor/sms-telebot/releases/download/v0.8.3/sms-telebot-0.8.3-arm64.apk",
+      "appid": "com.teslor.sms_telebot",
+      "version_code": 30,
+      "version_name": "0.8.3",
+      "tag": "v0.8.3",
+      "commit": "42f8aefb870919684232ffcc6c32f8d15be736b1",
+      "timestamp": 1790121165,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ece6da9cab3c2266ed0665d79e0349265dff25701c7b870ab38d9e0bae97d439": [
     {
       "repository": "https://github.com/tharunbirla/FetchIt.git",
@@ -134559,6 +134574,21 @@
       "tag": "v0.7.0",
       "commit": "39146911333e23284ba72e93ca518f7ad1228556",
       "timestamp": 1790099421,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fcb3201753f7aa7b69dbe53f56135386ca93768abf754bc28678422e0d83daac": [
+    {
+      "repository": "https://codeberg.org/neonbranch/treasurehunt.git",
+      "apk_url": "https://codeberg.org/neonbranch/treasurehunt/releases/download/v0.7.1/treasurehunt-0.7.1.apk",
+      "appid": "nodomain.neonbranch.treasurehunt",
+      "version_code": 82,
+      "version_name": "0.7.1",
+      "tag": "v0.7.1",
+      "commit": "4166825977f33e9c6ced9b98e26e2101719ff705",
+      "timestamp": 1790112939,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
