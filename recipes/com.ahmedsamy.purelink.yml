@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/ahmedthebest31/PureLink-Android.git
 updates: releases
+notes:
+  - 'FIXME: v4.0.0 needed repro-apk to fix vcsInfo (APK was built between commits); this needs to be removed again with the next release'
 versions:
   - tag: v1.0.1
     apks:
@@ -88,6 +90,47 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
             sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
           extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v4.0.0
+    apks:
+      - apk_pattern: .ure[Ll]ink.*\.apk
+        apk_url: https://github.com/ahmedthebest31/PureLink-Android/releases/download/v4.0.0/purelink-v4.0.0.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - OUT="app/build/outputs/apk/release/*apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-files $OUT 'sed s/755cfe89deff3280ada9769da0084e8f0b021e38/36fdb95bb0e89f0f7cc13681b7ccd96b62f6cf09/' 'META-INF/version-control-info.textproto'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
           image: debian:trixie-slim
           jdk: openjdk-21-jdk-headless
           ndk:

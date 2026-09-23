@@ -1,6 +1,6 @@
 ---
 repository: https://github.com/achunt2143/W-Launcher.git
-updates: releases
+updates: releases:release-apk-.*
 versions:
   - tag: release-apk-2.3.6-1
     apks:
