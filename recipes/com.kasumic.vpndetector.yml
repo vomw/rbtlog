@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Kasumicic/vpn-inspector.git
-updates: releases
+updates: disabled
+notes:
+  - Github repo and account disappeared on 2026-09-24
 versions:
   - tag: v1.6.2
     apks:
