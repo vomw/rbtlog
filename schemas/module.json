@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codeberg.org/IzzyOnDroid/rbtlog/raw/branch/izzy/log/schemas/module.json",
+  "title": "rbtlog module",
+  "description": "rbtlog module",
+  "type": "object",
+  "properties": {
+    "version": {
+      "description": "version of the rbtlog_module specification",
+      "type": "integer"
+    },
+    "steps": {
+      "description": "list of actions to apply step-by-step to the recipe",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "description": "YAML path, dot-separated",
+            "type": "string"
+          },
+          "action": {
+            "description": "How to affect the path",
+            "type": "string",
+            "pattern": "^replace|prepend|append$"
+          },
+          "value": {
+            "description": "The value to <action> the path with"
+          }
+        },
+        "required": [
+          "path",
+          "action",
+          "value"
+        ]
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "version",
+    "steps"
+  ],
+  "additionalProperties": false
+}

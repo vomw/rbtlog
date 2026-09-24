@@ -1,0 +1,31 @@
+{
+  "android-ndk": {
+    "repository": "https://codeberg.org/IzzyOnDroid/rbtlog_modules",
+    "branch": "main",
+    "commit": "b1a0f2c58acd070f7d9afaa2c948ef99a272cc47",
+    "name": "android-ndk",
+    "version": "28.2.13676358",
+    "skip_update_hashes": true
+  },
+  "nodejs-lts": {
+    "repository": "https://codeberg.org/IzzyOnDroid/rbtlog_modules",
+    "branch": "main",
+    "commit": "b1a0f2c58acd070f7d9afaa2c948ef99a272cc47",
+    "name": "nodejs-lts",
+    "version": "v24.21.0"
+  },
+  "repro-apk": {
+    "repository": "https://codeberg.org/IzzyOnDroid/rbtlog_modules",
+    "branch": "main",
+    "commit": "b1a0f2c58acd070f7d9afaa2c948ef99a272cc47",
+    "name": "repro-apk",
+    "version": "v0.3.2"
+  },
+  "rustup": {
+    "repository": "https://codeberg.org/IzzyOnDroid/rbtlog_modules",
+    "branch": "main",
+    "commit": "b1a0f2c58acd070f7d9afaa2c948ef99a272cc47",
+    "name": "rustup",
+    "version": "1.29.0"
+  }
+}
