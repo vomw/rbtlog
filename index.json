@@ -22383,6 +22383,21 @@
       "timestamp": 1764526752,
       "reproducible": true,
       "error": null,
+      "maintainer_notes": "git history has been rewritten since this build was done, see https://github.com/by-architect/Operator/issues/1"
+    }
+  ],
+  "09d4bccca6aeb3efc4011c36b7433c721465185c60f764a127c9ea4648e8b0ac": [
+    {
+      "repository": "https://github.com/by-architect/Operator.git",
+      "apk_url": "https://github.com/by-architect/Operator/releases/download/v1.0.1/Operator-v1.0.1.apk",
+      "appid": "com.byarchitect.operator",
+      "version_code": 2,
+      "version_name": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "51860480eec2796d261fe9cec1794bc12eda8d68",
+      "timestamp": 1790250498,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
