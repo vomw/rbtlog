@@ -6492,6 +6492,21 @@
       "maintainer_notes": null
     }
   ],
+  "ddc117b94f19e8c545fe69121ed2d952006fa47385814f7db2ed413cf4fbcad0": [
+    {
+      "repository": "https://github.com/marlboro-advance/mpvEx.git",
+      "apk_url": "https://github.com/marlboro-advance/mpvEx/releases/download/v1.3.1/mpvEx-fdroid-v1.3.1.apk",
+      "appid": "app.marlboroadvance.mpvex",
+      "version_code": 1312,
+      "version_name": "1.3.1-fdroid",
+      "tag": "v1.3.1",
+      "commit": "2afbe2fd039bd68eb2001849bc09247dedb05893",
+      "timestamp": 1790358539,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7a79c292ad92af2a3694bfd55bb14c461cf5fdfdee11389a12266f834c9633f0": [
     {
       "repository": "https://github.com/DroidWorksStudio/mLauncher.git",
@@ -7312,6 +7327,21 @@
       "tag": "v1.2.3",
       "commit": "10ea49884acbb1972b050904e226d7b29a2124bd",
       "timestamp": 1789514192,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2f1896367f9665673b7d98dd572171cbf5928c7c23b86115b595c1cea9c09ae0": [
+    {
+      "repository": "https://github.com/alesimula/Murine-launcher.git",
+      "apk_url": "https://github.com/alesimula/Murine-launcher/releases/download/v1.2.4/Murine-launcher.apk",
+      "appid": "app.murinelauncher",
+      "version_code": 10204,
+      "version_name": "1.2.4",
+      "tag": "v1.2.4",
+      "commit": "b5fca5dbce8e54c6c0e42555c12d7d69e387e7f0",
+      "timestamp": 1790361645,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -13677,6 +13707,21 @@
       "maintainer_notes": null
     }
   ],
+  "0d4d66310bfbe07fef202a3a54c7d004dbb1a4d7045f26a8aa58c9c1c99997b4": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.15.0/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11500,
+      "version_name": "1.15.0-store",
+      "tag": "v1.15.0",
+      "commit": "fcc708ca1d18fec2666fd59df5591ae16004ef83",
+      "timestamp": 1790346175,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "99e27283edaff5676f299e8267996ea66f2d189090c2ecbcd38230ec1cb45ae0": [
     {
       "repository": "https://github.com/mvmike/min-cal-widget.git",
@@ -14515,6 +14560,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "ef9a7549cb520e7f16ef44a46481a1f4e4be51243b17a1b476fe79060d452986": [
+    {
+      "repository": "https://github.com/fflopsi/mensa-zh.git",
+      "apk_url": "https://github.com/fflopsi/mensa-zh/releases/download/v2.2.2/app-release.apk",
+      "appid": "ch.famoser.mensa",
+      "version_code": 72,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "9603bee401dd062de69b25d0ecc733163d078c56",
+      "timestamp": 1790275056,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "compression mess-up by Android Studio"
     }
   ],
   "00e485bbea3399a0609e05f9b4d406169791534f45e5b7bf7ffdacf7773681a2": [
@@ -20813,6 +20873,21 @@
       "maintainer_notes": null
     }
   ],
+  "8ba618e7be68b30aea4f2b38e2dacb9fd7c7be52870fef1b644ee8e9807cff1c": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.33/Clock_2.33-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2037,
+      "version_name": "2.33",
+      "tag": "2.33",
+      "commit": "1be6c26fa1a478474626201c8d72783ace031645",
+      "timestamp": 1790362539,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "804b274128bacd121533730c557e7e8a60660f0a2e3628d6a9bfb9592bd913c2": [
     {
       "repository": "https://github.com/BHznJNs/MotionEaseTune.git",
@@ -22411,6 +22486,21 @@
       "tag": "v1.0.1",
       "commit": "51860480eec2796d261fe9cec1794bc12eda8d68",
       "timestamp": 1790250498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bdb930b4617c929e199c89e35fefa37257c9793067c3b2579734a1d7fb3c1902": [
+    {
+      "repository": "https://github.com/by-architect/Operator.git",
+      "apk_url": "https://github.com/by-architect/Operator/releases/download/v2.0/Operator-v2.0.apk",
+      "appid": "com.byarchitect.operator",
+      "version_code": 4,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "6d3e8abf67bf5276e66dc33c434da2b7ce227167",
+      "timestamp": 1790362740,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -30527,6 +30617,21 @@
       "maintainer_notes": null
     }
   ],
+  "b982087f30f7947ebcda04c300b70613f63e1c4fce0087dbe36e043818ba39f0": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.11.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 311000000,
+      "version_name": "3.11.0",
+      "tag": "v3.11.0",
+      "commit": "cdfcd57f9e2a6d27876bd9b184a90fdf6d9609f1",
+      "timestamp": 1790347230,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -38320,6 +38425,21 @@
       "tag": "v0.9.9-alpha",
       "commit": "9e79b87a05fd0981747b181c52c235a78556debb",
       "timestamp": 1790259383,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6326f37cb6556ca9cd4c4496268ef9746c08fe6197e54ce81cc246a6ab511517": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/T31n/YagniLauncher/releases/download/v1.0.0-alpha/YagniLauncher-v1.0.0-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 100,
+      "version_name": "1.0.0-alpha",
+      "tag": "v1.0.0-alpha",
+      "commit": "5a7c7044117a55ebe8100b70448bf8b1edcacb15",
+      "timestamp": 1790347909,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -58610,6 +58730,21 @@
       "maintainer_notes": null
     }
   ],
+  "0bb4a8832e50f8c04d6d8899f8c0e77396b3e5ecdf2271b496195752b53a0c9f": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.42/kelani-sbd-tracker-v2.0.42.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 142,
+      "version_name": "2.0.42",
+      "tag": "v2.0.42",
+      "commit": "4b947feaea3c95060ab510c921341acfb79ba170",
+      "timestamp": 1790348261,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -60815,6 +60950,21 @@
       "maintainer_notes": null
     }
   ],
+  "cb5365081044852bfdfe37f5157b0fba015c4495d72071cf4c1bee9fa0a1cff2": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.5/KeePassDX-4.5.5-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 45500,
+      "version_name": "4.5.5",
+      "tag": "4.5.5",
+      "commit": "2db52c5fd016aad50352ba60383f6aefd29100c4",
+      "timestamp": 1790348482,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -61200,6 +61350,21 @@
       "tag": "4.5.4",
       "commit": "a11dc13b4850ede5a8d70ab56f963abc80f7bdb6",
       "timestamp": 1789136065,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "99dccd0c350be4a97dc7b90ccd3c83dfa41f8179f5db1a7c071c17cc0278cc3a": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.5/KeePassDX-4.5.5-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 45500,
+      "version_name": "4.5.5",
+      "tag": "4.5.5",
+      "commit": "2db52c5fd016aad50352ba60383f6aefd29100c4",
+      "timestamp": 1790349129,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -69749,6 +69914,21 @@
       "maintainer_notes": null
     }
   ],
+  "3df4c4066c5cdc205871c1847e5c4b33fa6b231f1de3eddaea1babbebb1a4696": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.2/nfc_alarm_clock_v12.7.2-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 644,
+      "version_name": "12.7.2",
+      "tag": "v12.7.2",
+      "commit": "673b32587df4e7bed897b83ac7f29d6e2dd9dd0e",
+      "timestamp": 1790349760,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b45e6a23a49d94b71dc38b24c8a4b27ffc914e02ad25197bcee330106edc025e": [
     {
       "repository": "https://github.com/nikashitsa/polar-alert-android.git",
@@ -77393,6 +77573,21 @@
       "commit": "439058329f05ea79d649047b0ba73cbcf3b9bec1",
       "timestamp": 1778956633,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e052b1ca6df2da6223979550df8622d32d15efa93afa9619f4c6d4f7d67702be": [
+    {
+      "repository": "https://github.com/AlfaazPlus/QuranApp.git",
+      "apk_url": "https://github.com/AlfaazPlus/QuranApp/releases/download/2026.09.07.1/2026.09.07.1-release.apk",
+      "appid": "com.quranapp.android",
+      "version_code": 231111143,
+      "version_name": "2026.09.07.1",
+      "tag": "2026.09.07.1",
+      "commit": "ef091a3edb0d29eff070a14f7a4a9b5bde7d7a8a",
+      "timestamp": 1790190938,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
@@ -92676,6 +92871,36 @@
       "maintainer_notes": null
     }
   ],
+  "ed3ab50732237494390099cf046bfce49805b960c74f889e274107f6e9f199bd": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.2.0/clip_share_client.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40200,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "79cc30bcfaa9b16d995b1d9b0fd4eb53f3c61d72",
+      "timestamp": 1790350624,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b6715937835373f01a96efd16bcd3bb6e85d1d0f4959cfac3634ecd11da3620c": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.2.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40200,
+      "version_name": "4.2.0",
+      "tag": "v4.2.0",
+      "commit": "79cc30bcfaa9b16d995b1d9b0fd4eb53f3c61d72",
+      "timestamp": 1790350756,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1b2fe1a02fc07f2e615fec1ddb083e8a37a1691f4164b55db3db7d3ca08793a8": [
     {
       "repository": "https://github.com/tymwitko/Recents.git",
@@ -95989,6 +96214,21 @@
       "reproducible": false,
       "error": null,
       "maintainer_notes": "shenanigans with secrets"
+    }
+  ],
+  "042f4bb4f3587a224451d7ab143cb4e86b7a74c8065703fc2f1a86729e66d09c": [
+    {
+      "repository": "https://github.com/vivizzz007/vivi-music.git",
+      "apk_url": "https://github.com/vivizzz007/vivi-music/releases/download/v6.0.8/izzydroid-universal-foss-release.apk",
+      "appid": "com.vivi.vivimusic",
+      "version_code": 77,
+      "version_name": "6.0.8",
+      "tag": "v6.0.8",
+      "commit": "206e7ae04a6ff4ef04ab7d4522c71e15d3e6f400",
+      "timestamp": 1790350894,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
     }
   ],
   "a54323f4ad70289243e4b411e97915fd41aef6c30ba22aa4579e749ed8d34e50": [
@@ -99377,6 +99617,21 @@
       "maintainer_notes": null
     }
   ],
+  "55e5a00c69070bdb2f72bdae42f7d51e1832e6e3cb80d22829aac2a093ee9b83": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v2.2.2/PublicArtExplorer-2.2.2.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 68,
+      "version_name": "2.2.2",
+      "tag": "v2.2.2",
+      "commit": "35da903456c7ce2636a0c653d26b30f4c33703a0",
+      "timestamp": 1790363584,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -100333,6 +100588,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "d5bc8928f0621a7760d791ec86731dda9347edacb7d54141fdfb6cca961443cb": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.74/app-arm64-v8a-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 74,
+      "version_name": "0.1.74",
+      "tag": "0.1.74",
+      "commit": "8e0b132ece32be8f6db772859ee86e7a62c1d7fc",
+      "timestamp": 1790368751,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": "BuildID embedded to native lib"
     }
   ],
   "cfb5c4ad387fb958dec7ec75c37d5882e46a53084cdc77193d9a6a162a030047": [
@@ -101800,6 +102070,21 @@
       "tag": "v1.8.0",
       "commit": "e80f34af805c5e34243e4da413325706ee0671fc",
       "timestamp": 1789750915,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "add931048b26a96aee309fabc3cf744e2206ed0ef5cf963d290bd1fadf448ce1": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.9.0/worldclockv2_v1.9.0_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 30,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "ea888c4c2c74ba1766308f1cacf90d6821374cde",
+      "timestamp": 1790359288,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -125339,6 +125624,21 @@
       "maintainer_notes": null
     }
   ],
+  "7ac067a3323947a71934ee714ad085dc2152cc97f80cc379eeffcf82a22c329e": [
+    {
+      "repository": "https://github.com/Giuig/auraninja.git",
+      "apk_url": "https://github.com/Giuig/auraninja/releases/download/1.7.8/auraninja-1.7.8-arm64-v8a.apk",
+      "appid": "io.github.giuig.auraninja",
+      "version_code": 12708,
+      "version_name": "1.7.8",
+      "tag": "1.7.8",
+      "commit": "9743fa2c46305a5c4a924ceb4ad2348e14487037",
+      "timestamp": 1790363918,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b20666978f7936f1511cd6bffe2966390a13e145387212261d45b6ff0759e554": [
     {
       "repository": "https://github.com/Giuig/decisioninja.git",
@@ -127449,6 +127749,21 @@
       "tag": "v0.1.93",
       "commit": "ac5ee11cb4b4991bd96e918304c27888524ec398",
       "timestamp": 1790087864,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6bd1b64c9eb05d171d90941020987b4de174de14128616067365af29f21bf819": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.94/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1094,
+      "version_name": "0.1.94",
+      "tag": "v0.1.94",
+      "commit": "2f866d64cd1fce1165e9124ebf049d9c261263eb",
+      "timestamp": 1790364629,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -149992,6 +150307,36 @@
       "tag": "v1.22.0",
       "commit": "44b1967361615623522a635b7d77be2389079b15",
       "timestamp": 1790262759,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6b62e77c21cbbad88069913bce165693397a26f0f82bcbb2f5e6435970ce6285": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.22.1/wizestream_v1.22.1.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1022001,
+      "version_name": "1.22.1",
+      "tag": "v1.22.1",
+      "commit": "048911aea29c938110fca0184a20950adf332302",
+      "timestamp": 1790354613,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8da1f52b41b1157f72ae6c5913b561258650c60ee92e583d31c2557f040ad409": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.22.2/wizestream_v1.22.2.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1022002,
+      "version_name": "1.22.2",
+      "tag": "v1.22.2",
+      "commit": "f4f7b70db1d162d5205abf65dbbf277d6f43885f",
+      "timestamp": 1790365597,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
