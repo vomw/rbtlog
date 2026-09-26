@@ -6,7 +6,6 @@ notes:
   - 2.5.16, 2.6.24 flaky
   - 2.7.0 + 2.7.1 fail, see https://github.com/meshtastic/Meshtastic-Android/issues/3231
   - 'FIXED: v2.7.9 has a build-time depending ID in assets/datadog.buildId (https://github.com/meshtastic/Meshtastic-Android/issues/3231#issuecomment-3648147411)'
-  - NDK only needed for library stripping
 versions:
   - tag: 2.3.11
     apks:
@@ -1544,6 +1543,34 @@ versions:
         build:
           - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i androidApp/build.gradle.kts
           - ./gradlew clean assembleFdroidRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/fdroid/release/androidApp-fdroid-arm64-v8a-release*.apk /outputs/unsigned.apk
+        build_home_dir: /home/builder
+        build_repo_dir: /home/builder/work/Meshtastic-Android/Meshtastic-Android
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.8.2
+    apks:
+      - apk_pattern: androidApp-fdroid-arm64-v8a-release.*\.apk
+        apk_url: https://github.com/meshtastic/Meshtastic-Android/releases/download/v2.8.2/androidApp-fdroid-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.named/d ; /create\("release"\) \{/,/        \}/d' -i androidApp/build.gradle.kts
+          - ./gradlew clean assembleFdroidRelease --no-build-cache --no-daemon
           - find . -name '*.apk'
           - mv androidApp/build/outputs/apk/fdroid/release/androidApp-fdroid-arm64-v8a-release*.apk /outputs/unsigned.apk
         build_home_dir: /home/builder
