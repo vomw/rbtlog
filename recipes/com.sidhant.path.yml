@@ -419,3 +419,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: V2.0.1
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/sidhant947/Path/releases/download/V2.0.1/app-release.apk
+        build:
+          - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -ri '/signingConfigs.findByName/d' app/build.gradle.kts
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Path/Path
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+          image: ubuntu:noble
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
