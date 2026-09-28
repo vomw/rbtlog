@@ -1,8 +1,6 @@
 ---
 repository: https://github.com/vitamin-caig/zxtune.git
-updates: disabled
-notes
-  - temporarily disabled, see https://github.com/vitamin-caig/zxtune/issues/2296#issuecomment-5859581964
+updates: releases
 versions:
   - tag: r5101
     apks:
