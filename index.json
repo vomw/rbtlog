@@ -299,6 +299,21 @@
       "maintainer_notes": null
     }
   ],
+  "a26447435278c4429225fcdca9c46ac18d6ce93f0cd4a22f0af6f5468e6b3d38": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.13.3/Podcini.A-free-legacy-arm64-v8a-12.13.3.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 130,
+      "version_name": "12.13.3",
+      "tag": "v12.13.3",
+      "commit": "5f03602dad79572b3ca1a029c8ce8d30cfd01df7",
+      "timestamp": 1790615249,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -17577,6 +17592,21 @@
       "maintainer_notes": null
     }
   ],
+  "a3e771e0dbf4c8669c7d7db292756de7a54824ac087e241c3576f30a58958c08": [
+    {
+      "repository": "https://github.com/Akylas/OSS-Dict.git",
+      "apk_url": "https://github.com/Akylas/OSS-Dict/releases/download/v2.1.0/80/OSS-Dict-release.apk",
+      "appid": "com.akylas.aard2",
+      "version_code": 80,
+      "version_name": "2.1.0",
+      "tag": "v2.1.0/80",
+      "commit": "34912b96d1b15979bafdf17570b90ee223a08ffe",
+      "timestamp": 1790615785,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "68402d9c3e3261a0bfe1d09727a323349ecd03fcd86b7392811c50d381cce237": [
     {
       "repository": "https://github.com/farfromrefug/EnforceDoze.git",
@@ -26177,6 +26207,21 @@
       "maintainer_notes": null
     }
   ],
+  "34dd885b0af2628a56bc123d34c72fc6e64211b0bd2dd52eac83f44914bbbbd3": [
+    {
+      "repository": "https://github.com/catpuppyapp/HahaNote-Release.git",
+      "apk_url": "https://github.com/catpuppyapp/HahaNote-Release/releases/download/v1.0.14/app-arm64-v8a-release.apk",
+      "appid": "com.catpuppyapp.hahanote",
+      "version_code": 2015,
+      "version_name": "1.0.14",
+      "tag": "v1.0.14",
+      "commit": "f2dceb1d3e29485906d58491499080c76bcecb75",
+      "timestamp": 1790615879,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a9eda817e605fccd756567382902912480e729f2421c627261bf96249a2b155e": [
     {
       "repository": "https://github.com/catpuppyapp/PuppyGit.git",
@@ -27987,6 +28032,21 @@
       "tag": "v1.2.1",
       "commit": "cc215a5ce0069ebe214be663b7fdc0a4bb8448ca",
       "timestamp": 1787569522,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0bb1f8d1998c5e955b7051fc0d69cee81ebef072e602589f0a5e0528efbcaadb": [
+    {
+      "repository": "https://github.com/cogwheel0/luci-mobile.git",
+      "apk_url": "https://github.com/cogwheel0/luci-mobile/releases/download/v2.0.0/app-arm64-v8a-release.apk",
+      "appid": "com.cogwheel.LuCIMobile",
+      "version_code": 2014,
+      "version_name": "2.0.0",
+      "tag": "v2.0.0",
+      "commit": "b617fca502033558624896636028d77161bb25af",
+      "timestamp": 1790620484,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -48484,6 +48544,21 @@
       "tag": "v4.0.0",
       "commit": "ae709a7536ed20015e926f151b0a846fde85a24b",
       "timestamp": 1788897620,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6d3a2d0e5f0fe7936f461f7e7366d9fe9576ed5f10f060b4d853e4fbb624d33e": [
+    {
+      "repository": "https://github.com/mkalmousli/FloatingMute.git",
+      "apk_url": "https://github.com/mkalmousli/FloatingMute/releases/download/v4.0.1/FloatingMute.github.v4.0.1.apk",
+      "appid": "com.github.mkalmousli.floating_mute",
+      "version_code": 5,
+      "version_name": "4.0.1",
+      "tag": "v4.0.1",
+      "commit": "fe33e24a0788d29ed6a66a06183437668cf0e7e2",
+      "timestamp": 1790621035,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82992,6 +83067,21 @@
       "maintainer_notes": null
     }
   ],
+  "6bd841e9f1fc8782549f2a661273d7c2e8ae0a641ede504759d53056308b7992": [
+    {
+      "repository": "https://github.com/SchweGELBin/OpenBible2.git",
+      "apk_url": "https://github.com/SchweGELBin/OpenBible2/releases/download/v3.4.0/openbible-android.apk",
+      "appid": "com.schwegelbin.openbible",
+      "version_code": 48,
+      "version_name": "3.4.0",
+      "tag": "v3.4.0",
+      "commit": "f8a452560aa68e1f8b3fc1a34b8de21ff3c18623",
+      "timestamp": 1790626723,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c95f8ca470b565fc3fff2249006ca4e70afbffa987140cf68ce22199afba8280": [
     {
       "repository": "https://github.com/SebiAi/GlyphPort.git",
@@ -83557,6 +83647,21 @@
       "tag": "v1.8.1",
       "commit": "90474dca74fc1df3b98e4c005f981d4d53476484",
       "timestamp": 1789912952,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9bf94fd36c38a47c4469ff78f036a5d2a76c6464a1769f5089d5ae6987f16b5b": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.9.0/Minus-v1.9.0.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10900,
+      "version_name": "1.9.0",
+      "tag": "v1.9.0",
+      "commit": "dceeff25c0528ca8d3f5b5c0b29231c529f09545",
+      "timestamp": 1790616783,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -102795,6 +102900,21 @@
       "maintainer_notes": null
     }
   ],
+  "5d5aa7b27f3c7499387a603044cd7ff6275a387a0d2bd3c6a838dd6ef09504d4": [
+    {
+      "repository": "https://github.com/Joinsider/dhbw.git",
+      "apk_url": "https://github.com/Joinsider/dhbw/releases/download/v3.0.3/dhbw-student-app-release-v3.0.3.apk",
+      "appid": "de.fampopprol.dhbwhorb",
+      "version_code": 29,
+      "version_name": "v3.0.3",
+      "tag": "v3.0.3",
+      "commit": "880a3bd6f07c5bb861a4f53b737b36b2725dc459",
+      "timestamp": 1790617023,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2bf3bafe3f0bd3904e016b655129438fac8412e7e49acfedd661b6f8a0b7ee0d": [
     {
       "repository": "https://github.com/newhinton/Round-Sync.git",
@@ -110214,6 +110334,21 @@
       "maintainer_notes": null
     }
   ],
+  "623de681c9720d5b1df8c8b720f525e3c317a94ad631b5d7483c3638d93907f1": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.17.2/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10170022,
+      "version_name": "1.17.2",
+      "tag": "v1.17.2",
+      "commit": "2c0dd3c4570397a54be9a0880ecde023da981825",
+      "timestamp": 1790617379,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -115140,6 +115275,21 @@
       "tag": "v4.2.0",
       "commit": "4f3691bead9951da899ac639504a31f1011c34ab",
       "timestamp": 1790519822,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a3ebe7c773b63d78a583c14c74bbfc2a22313760552f23384812944ad3216f90": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.2.1/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2075,
+      "version_name": "4.2.1",
+      "tag": "v4.2.1",
+      "commit": "b330a925110932fdd153da35f17c9f48cc91efd9",
+      "timestamp": 1790621637,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -128294,6 +128444,21 @@
       "maintainer_notes": null
     }
   ],
+  "47fe6d0bb96ee341f34a32469e9d0d2169304614b0fb446fcb646e1c6202570a": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.97/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1097,
+      "version_name": "0.1.97",
+      "tag": "v0.1.97",
+      "commit": "f769f23daf94b3715f0369bcf8924035b137b61a",
+      "timestamp": 1790617782,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d17810e01e7011f1530b7f65689ab6d4a7f9623f6bd0cef1fc9b82a2bf65345b": [
     {
       "repository": "https://github.com/samolego/Canta.git",
@@ -139484,6 +139649,21 @@
       "maintainer_notes": null
     }
   ],
+  "50d24b99171f0285be0fa10edfb910823c69011538072fdc64b0bd0ef004daf7": [
+    {
+      "repository": "https://github.com/Elnix90/Dragon-Launcher.git",
+      "apk_url": "https://github.com/Elnix90/Dragon-Launcher/releases/download/4.3.0/DragonLauncher-4.3.0.apk",
+      "appid": "org.elnix.dragonlauncher",
+      "version_code": 67,
+      "version_name": "4.3.0 (Nounou)",
+      "tag": "4.3.0",
+      "commit": "a68eac7c63722e40daa3f740402798a076b973d8",
+      "timestamp": 1790618205,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb": [
     {
       "repository": "https://github.com/Exodus-Privacy/exodus-android-app.git",
@@ -147884,6 +148064,21 @@
       "maintainer_notes": null
     }
   ],
+  "7251134a99580d2d11dc68b7b8f6d8eec8b032d989cc2fb1e996e216cfc7eaad": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.09.27/KashCal-2026.09.27-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 762,
+      "version_name": "2026.09.27",
+      "tag": "v2026.09.27",
+      "commit": "438a268642ed061337c89b87cda2bf45fda9916f",
+      "timestamp": 1790618732,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -148102,6 +148297,21 @@
       "tag": "v2.6.4",
       "commit": "5fe8be98512e1ba071a04e2a15a0071923da5dc5",
       "timestamp": 1790520711,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "86199fd7e09c09d0e36ee60fac31294746f36e520464a1455ff58d86fddeeded": [
+    {
+      "repository": "https://github.com/prateek54353/PaperWise.git",
+      "apk_url": "https://github.com/prateek54353/PaperWise/releases/download/v2.6.5/app-arm64-v8a-release.apk",
+      "appid": "org.paperwise.app",
+      "version_code": 2017,
+      "version_name": "2.6.5",
+      "tag": "v2.6.5",
+      "commit": "756400feed6873c75dde4363c113120b582ceef0",
+      "timestamp": 1790622058,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
