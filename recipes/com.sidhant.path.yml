@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/sidhant947/Path.git
 updates: releases
+notes:
+  - 'FIXME: release after v2.0.1 will have foojay & debug signing removed, so sed commands can be cleaned up'
 versions:
   - tag: V1.0.0
     apks:
