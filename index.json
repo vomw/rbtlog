@@ -8082,6 +8082,21 @@
       "maintainer_notes": null
     }
   ],
+  "ed38a2743552b6d6edac1325f8c4318017fdf0fc0da76b714fb6b37006c7e6d4": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.9.0/Pachli_3.9.0_55_472814ce_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 55,
+      "version_name": "3.9.0",
+      "tag": "v3.9.0",
+      "commit": "472814ce95b62863dd31a0029b37804b133cc2f3",
+      "timestamp": 1790793094,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8d8633ea354a92687fe3af94c1c2cc4ec5c50d4e7c5509d8f32e16b5b7e990cc": [
     {
       "repository": "https://github.com/msbelaid/PlugBrain.git",
@@ -12712,6 +12727,21 @@
       "tag": "v0.8.0",
       "commit": "40c2719d3a35fd1df2b36d04876c2f252b22fd59",
       "timestamp": 1768072960,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3729020966638bfff13ec7f1f76046195c53c096d3bfce93b17e4e6558fde201": [
+    {
+      "repository": "https://github.com/aghontpi/ad-silence.git",
+      "apk_url": "https://github.com/aghontpi/ad-silence/releases/download/v0.8.1/Ad-silence-v0.8.1.apk",
+      "appid": "bluepie.ad_silence",
+      "version_code": 56,
+      "version_name": "v0.8.1-prod",
+      "tag": "v0.8.1",
+      "commit": "3b412bce8c685e7d59f8f866f061f3ff797374fb",
+      "timestamp": 1790776301,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -27717,6 +27747,21 @@
       "tag": "v20.0",
       "commit": "6a37a3f480585ee62eb3c0cc573b542c8a44e866",
       "timestamp": 1784814784,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b99d58fea48f493c5c71ea7463de7258f44abec842ffd19ce136190565fbf3ad": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v21.0/pill_time_v21.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 21,
+      "version_name": "21.0",
+      "tag": "v21.0",
+      "commit": "76080b6d1aff11d0d65aba001e7b592fe32d4557",
+      "timestamp": 1790794093,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -43813,6 +43858,21 @@
       "maintainer_notes": null
     }
   ],
+  "f2b7c5e1c40fa5d194cc03335027e01a76bd26a4e483a0c324cb18e21b27ac22": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.0/PrivateDnsQS-v3.0-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 60,
+      "version_name": "3.0",
+      "tag": "v3.0",
+      "commit": "9ecd8816a010e3bb5b32f046af1ed52abcb0d010",
+      "timestamp": 1790776543,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -44003,6 +44063,21 @@
       "tag": "v2.9",
       "commit": "00bc38dc61e1f57dfde1aea7cd587521aff6cd76",
       "timestamp": 1790017655,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "03da727d52daddb4139f8acb3f66bfe6f23bfb978433e9fbb0690bf178984915": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.0/PrivateDnsQS-v3.0-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 60,
+      "version_name": "3.0",
+      "tag": "v3.0",
+      "commit": "9ecd8816a010e3bb5b32f046af1ed52abcb0d010",
+      "timestamp": 1790776420,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -52877,6 +52952,21 @@
       "tag": "10.4.0",
       "commit": "0285d0b63398317faa41c12d74388d204b1955a2",
       "timestamp": 1788270911,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "44f559816ff6998fc6863c1d2ae37df99c432aa6bb5900480f1ac9a320859db0": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.5.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2182,
+      "version_name": "10.5.0",
+      "tag": "10.5.0",
+      "commit": "c2bea973c858d411e3b8e57bab32e646656d4982",
+      "timestamp": 1790776672,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -63170,6 +63260,21 @@
       "maintainer_notes": null
     }
   ],
+  "06588df37e5b4409139981f68deb9e01a4b1733e0990e243c13ac16268922e6a": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.11.0/storii-v0.11.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5222,
+      "version_name": "0.11.0",
+      "tag": "v0.11.0",
+      "commit": "0b19e05475dc9930902cfd02548a163e1f20030d",
+      "timestamp": 1790794281,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -64858,6 +64963,21 @@
       "tag": "1.3.0",
       "commit": "0b8522918dc0466c57a1c3c27783432fad736382",
       "timestamp": 1790026144,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c80398e389f3dc36f53e8d49ca1b0f9f2d455edb22445dbfff26728554937748": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.3.1/Neo_Store_1.3.1_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1302,
+      "version_name": "1.3.1",
+      "tag": "1.3.1",
+      "commit": "d470ab9ac4f1cb3a1e16af3af6985e15df2b8052",
+      "timestamp": 1790786292,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -67646,6 +67766,21 @@
       "tag": "3.60.0",
       "commit": "e7d7c502b5b40121ebf1c26573399099e58af04a",
       "timestamp": 1790690622,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2e8bfac8552cb95a33cb518d81f3eba2162d3c914386adf5fc6d8f910381d19e": [
+    {
+      "repository": "https://github.com/michaldrabik/showly-2.0.git",
+      "apk_url": "https://github.com/trakt/showly/releases/download/3.61.0/app-release.apk",
+      "appid": "com.michaldrabik.showly2",
+      "version_code": 926,
+      "version_name": "3.61.0",
+      "tag": "3.61.0",
+      "commit": "e08cb90ba0205ed9401a11265b912b0302f253b5",
+      "timestamp": 1790794978,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -83862,6 +83997,21 @@
       "maintainer_notes": null
     }
   ],
+  "6bc18350759ebdb306aba436312aea2e94c76c8e59b55165e163702da17f208a": [
+    {
+      "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
+      "apk_url": "https://github.com/shalenMathew/MovieFlix_App/releases/download/v2.2/MovieFlix-v2.2.apk",
+      "appid": "com.shalenmathew.movieflix",
+      "version_code": 9,
+      "version_name": "2.2",
+      "tag": "v2.2",
+      "commit": "58c60cf97b73d5b25e4c98a6161c64d6346022c3",
+      "timestamp": 1790795411,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d686478cbf732e3849adddeb60d2eb90adf9592bb86b741205454b3399023a4c": [
     {
       "repository": "https://github.com/shalenMathew/Quotes-app.git",
@@ -90031,6 +90181,21 @@
       "tag": "v1.0.13",
       "commit": "c44945ce4be8d6596a02697834fd53b9c344d2a6",
       "timestamp": 1784817012,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2bbc71b435b5a1341260e768031c6b51a01af884edb5a8bc3cf1f40e52909098": [
+    {
+      "repository": "https://github.com/steel101/music-player-.git",
+      "apk_url": "https://github.com/steel101/music-player-/releases/download/v1.0.17/app-release-unsigned-signed.apk",
+      "appid": "com.steel101.musicplayer",
+      "version_code": 17,
+      "version_name": "1.0.17",
+      "tag": "v1.0.17",
+      "commit": "09f373644c53b4cbceb8e04962993e5d02ae9df2",
+      "timestamp": 1790778401,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -109764,6 +109929,21 @@
       "maintainer_notes": null
     }
   ],
+  "2992aa9b66bc05ce26c7d9d20f04589a2daa8277a1e73224013f90da018388f5": [
+    {
+      "repository": "https://github.com/inventory69/simple-notes-sync.git",
+      "apk_url": "https://github.com/inventory69/simple-notes-sync/releases/download/v2.19.0/simple-notes-sync-v2.19.0-fdroid.apk",
+      "appid": "dev.dettmer.simplenotes",
+      "version_code": 64,
+      "version_name": "2.19.0",
+      "tag": "v2.19.0",
+      "commit": "6120a0a3e5ebb3a40ac7ab3d20b15b9d10e5b429",
+      "timestamp": 1790778563,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "71e0ead3ae1f24f7dd65138ffd8e40dbf3a489563db6f249c11cb2549b843b3c": [
     {
       "repository": "https://github.com/juandjara/wafrn-rn.git",
@@ -112144,6 +112324,21 @@
       "tag": "3.4.3",
       "commit": "3ff1f858221d06f6043407c127371e1a82c6663d",
       "timestamp": 1790028195,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "49818a4b08b399192b241c2e74faf15da7d02e08858a506f409c37571634bc27": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.5.0/photok-3.5.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 76,
+      "version_name": "3.5.0",
+      "tag": "3.5.0",
+      "commit": "360b5105522beeb080746f75088813874298f256",
+      "timestamp": 1790778720,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -118395,6 +118590,21 @@
       "tag": "v2.1.0-rc0",
       "commit": "192edb3e097d928ee08268c069409ca8060b20d2",
       "timestamp": 1788790681,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "24ed4e38a71761a3af87136bec42afb63cfb6322005a26cb67741256d0c0c765": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v2.2.0-rc0/eu.darken.sdmse-v2.2.0-rc0-20200000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 20200000,
+      "version_name": "2.2.0-rc0",
+      "tag": "v2.2.0-rc0",
+      "commit": "261b1ce6e7781e417985f5314c41d99c10394d7e",
+      "timestamp": 1790778925,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -125549,6 +125759,21 @@
       "maintainer_notes": null
     }
   ],
+  "ddf13f51a937c60a12548b04e22591ff3ba57967825c0b598aa5a59d66cb0dba": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.2.1/PrivacyFlip-v2.2.1-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 32,
+      "version_name": "2.2.1",
+      "tag": "v2.2.1",
+      "commit": "52d027693d0c1bef15c1e36d5712c9968b46db14",
+      "timestamp": 1790779515,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -127659,6 +127884,21 @@
       "tag": "v1.9.5",
       "commit": "848c96746ebd979c534b07ca48d869f61f97be74",
       "timestamp": 1790691209,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "39fcb9e57a45b38b25cea44e255990a169c163343e099addb0112c7b74a1d388": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.9.6/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 52,
+      "version_name": "1.9.6",
+      "tag": "v1.9.6",
+      "commit": "9760bce453c7c57d4b8e0fdd0af96fc40a1c9039",
+      "timestamp": 1790779610,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -134054,6 +134294,21 @@
       "maintainer_notes": null
     }
   ],
+  "aa467dfe17fdadb659182225e1007daae5ec82f387431a95073856f775d19f32": [
+    {
+      "repository": "https://github.com/SankethBK/diaryvault.git",
+      "apk_url": "https://github.com/SankethBK/diaryvault/releases/download/2.4.0/diaryvault-arm64-v8a-2.4.0.apk",
+      "appid": "me.sankethbk.dairyapp",
+      "version_code": 2033,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "5edf17b201ac5cd80242763a8982a6b679186fa3",
+      "timestamp": 1790795799,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d119626e586009918d3f5dfeb1b7103111e21e78d6f7e9216088fda8a2ac9dc5": [
     {
       "repository": "https://github.com/TangoBeee/Weathernaut.git",
@@ -135219,6 +135474,21 @@
       "tag": "1.8.4",
       "commit": "bfb32421c48f64cdb179d454773ee14e07e89708",
       "timestamp": 1783349601,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0a5a99a7715dc490d13af31fcf13dd12c6d9397d34b489fefe63be742a585aea": [
+    {
+      "repository": "https://github.com/gmag11/Paperless_ngx_uploader.git",
+      "apk_url": "https://github.com/gmag11/Paperless_ngx_uploader/releases/download/1.8.5/app-arm64-v8a-release.apk",
+      "appid": "net.gmartin.paperlessngx_uploader",
+      "version_code": 2032,
+      "version_name": "1.8.5",
+      "tag": "1.8.5",
+      "commit": "67c07b95fe4a62252cd82fa6a0d686cb9a1d1c8b",
+      "timestamp": 1790787426,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -151432,6 +151702,21 @@
       "tag": "v1.24.0",
       "commit": "22b7606b70c92d191d54a8b5a99aa32fccab2e37",
       "timestamp": 1790692677,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5a6432e67bd84ab7faeecb70abfe0e8e4a4eac2868339176d886d09c19f702e3": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.25.0/wizestream_v1.25.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1025000,
+      "version_name": "1.25.0",
+      "tag": "v1.25.0",
+      "commit": "4a2c27d8bdc9580f421aa4fd656390fb3ae38a8a",
+      "timestamp": 1790781001,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
