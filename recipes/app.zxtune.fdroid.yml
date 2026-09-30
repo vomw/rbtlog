@@ -49,3 +49,49 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: r5111
+    apks:
+      - apk_pattern: zxtune.*fdroid_arm64-v8a\.apk
+        apk_url: https://github.com/vitamin-caig/zxtune/releases/download/r5111/zxtune_r5111-fdroid_arm64-v8a.apk
+        build:
+          - echo -e "android.ndk=/build/android-sdk/ndk/23.2.8568313\nprebuilt.dir=.\ntools.python=python3\njumbo.enabled=1" > variables.mak
+          - sed -r "s/versionName computeVersionName.*/versionName '${APP_TAG}'/" -i make/android/android.gradle
+          - pushd apps/zxtune-android
+          - base64 -d > local.properties <<< a2V5Lm1vZGFyY2hpdmU9YWI0bmZnem0tbzZia3BhazQtcmZldzdiNm8td2k0dTc0bzgKY2RuLnJvb3Q9aHR0cHM6Ly9zdG9yYWdlLnp4dHVuZS5ydQphcGkucm9vdD1odHRwczovL2FwaS56eHR1bmUucnUKcHJveHkucm9vdD1odHRwczovL3Byb3h5Lnp4dHVuZS5ydQo=
+          - echo -e "flavors.splitted.abifilters=arm64-v8a" >> local.properties
+          - echo -e "sdk.dir=/build/android-sdk\nndk.version=23.2.8568313" >> local.properties
+          - echo -e "\nbuild.jni.output=error" >> local.properties
+          - ./gradlew -q assembleFdroid
+          - popd
+          - find . -name '*.apk'
+          - mv pkg/zxtune/outputs/apk/fdroidMinsdk16/release/zxtune-fdroid-minsdk16-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/zxtune
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /build/android-sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - make
+            - cmake
+            - g++
+            - gcc
+            - ccache
+            - python3
+            - xz-utils
+            - bzip2
+            - zip
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 23.2.8568313
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
