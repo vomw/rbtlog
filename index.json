@@ -329,6 +329,21 @@
       "maintainer_notes": null
     }
   ],
+  "00b3c045aa1e9beb345ba12e70a653aa4a89f7e15fd8bfe91b9049b8834ab05f": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.14.1/Podcini.A-free-legacy-arm64-v8a-12.14.1.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 132,
+      "version_name": "12.14.1",
+      "tag": "v12.14.1",
+      "commit": "6b039fe82591b6940092b0093a9ac35b0a4d236d",
+      "timestamp": 1790891124,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -12187,6 +12202,21 @@
       "tag": "v2026.9.21+20260921",
       "commit": "1f495b124d3e658561216ad95712fc8c7b739da3",
       "timestamp": 1790016212,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2e6423055adeceb35815e0df77b30f4e898362351b635194e28752a59a835633": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.10.1%2B20261001/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20263001,
+      "version_name": "2026.10.1",
+      "tag": "v2026.10.1+20261001",
+      "commit": "a5f57c519b1b51f9289161b27800e635cc24dc54",
+      "timestamp": 1790879832,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -50422,6 +50452,21 @@
       "maintainer_notes": null
     }
   ],
+  "103db8de814e0a9e71b39aa7bb7448e15ee23dd5c0d79ac08a6e3897fb3420a5": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.15.2/ExoPlayer-AirPlay-Receiver-003.15.02-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3150223,
+      "version_name": "003.15.02-23API",
+      "tag": "v3.15.2",
+      "commit": "abca394b1657780bec834e93b4b19b38da2e4fe8",
+      "timestamp": 1790880882,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e16f0a10ac6fe6a1fa1415370e4584f1ba0762bcd69bbe7e845e5c3a72176773": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -69734,6 +69779,21 @@
       "maintainer_notes": null
     }
   ],
+  "95ad7a3ec211fe6c48dd09b2e03555c2562eed4884cf402ce250cb142e17c8cb": [
+    {
+      "repository": "https://github.com/MubarakNative/MBCompass.git",
+      "apk_url": "https://github.com/CompassMB/MBCompass/releases/download/v1.1.19/MBCompass_v1.1.19_signed_release.apk",
+      "appid": "com.mubarak.mbcompass",
+      "version_code": 20,
+      "version_name": "1.1.19",
+      "tag": "v1.1.19",
+      "commit": "5f812dc32c77585d64f9a28f2d7ec9d6af429382",
+      "timestamp": 1790881183,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0d91819a73163e9616760245faf476bd223a8ae12d90a13f24e3712ea66391ef": [
     {
       "repository": "https://github.com/dead8309/Kizzy.git",
@@ -70554,6 +70614,21 @@
       "tag": "v12.7.2",
       "commit": "673b32587df4e7bed897b83ac7f29d6e2dd9dd0e",
       "timestamp": 1790349760,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6313b9c2c70ff3d6341406bb74977f0f391c15bc530e2ee96011df876004b6e8": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.3/nfc_alarm_clock_v12.7.3-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 650,
+      "version_name": "12.7.3",
+      "tag": "v12.7.3",
+      "commit": "d9c1f0848877086c20a28edaa3dd3945f43e0890",
+      "timestamp": 1790881505,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -73872,6 +73947,21 @@
       "maintainer_notes": null
     }
   ],
+  "760a06cce88a1da588715b09ef5407937fc91e8191e50f8612f23b29be1c3180": [
+    {
+      "repository": "https://github.com/Fandroid745/Open-notes.git",
+      "apk_url": "https://github.com/Fandroid745/Open-notes/releases/download/v1.4.2/app-release.apk",
+      "appid": "com.opennotes",
+      "version_code": 16,
+      "version_name": "1.4.2",
+      "tag": "v1.4.2",
+      "commit": "4bbc3e4d414eabb99e368ea221452a231556f607",
+      "timestamp": 1790881845,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6d5de420b3247c3ab31df2977b92153497ca9303e9b8f200914bb3a6cdb5cdfb": [
     {
       "repository": "https://github.com/UpAllNite-Software/simple-song-collector.git",
@@ -74977,6 +75067,21 @@
       "tag": "v1.0.9",
       "commit": "4fc51c51ba5df035baa22ca07b0c7419120e9fbf",
       "timestamp": 1771695653,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e1418425ea52ea20770c092363e818bfda18b6ce9ad90062df09a81511817aad": [
+    {
+      "repository": "https://github.com/potatameister/PaperKnife.git",
+      "apk_url": "https://github.com/potatameister/PaperKnife/releases/download/v1.1.0/paperknife-lite-v1.1.0.apk",
+      "appid": "com.paperknife.app",
+      "version_code": 10100,
+      "version_name": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "596f55d28acfd62d11dad85c090d3971f5f687ee",
+      "timestamp": 1790888557,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -87053,6 +87158,21 @@
       "maintainer_notes": null
     }
   ],
+  "3ed3754f462429252facf55b91ae2a1241413dbc3303a1f1dc7287d39ea9758f": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/7.1.0/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 7100,
+      "version_name": "7.1.0",
+      "tag": "7.1.0",
+      "commit": "fb2c7683088d886858442e95143158adfb778165",
+      "timestamp": 1790882631,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a7844ead282bceffe015fa946aca61b30d201457aa759cf2cef4e90f5c9c659": [
     {
       "repository": "https://github.com/sidhant947/Path.git",
@@ -89641,6 +89761,21 @@
       "tag": "v4.4.3",
       "commit": "085681d0ee6d2f85aafb31d12d808c89be17b8d8",
       "timestamp": 1790538317,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e3a24fe051bb4079e845e531b95d6c703f78e30103ba953a819d24cf8ef330e8": [
+    {
+      "repository": "https://github.com/sosauce/Chocola.git",
+      "apk_url": "https://github.com/sosauce/Chocola/releases/download/v4.4.4/Chocola_4.4.4.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 50012,
+      "version_name": "4.4.4",
+      "tag": "v4.4.4",
+      "commit": "07287de98fa5f7bb4997950a0cbe53d45b2c7f8e",
+      "timestamp": 1790883133,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101455,6 +101590,21 @@
       "tag": "0.1.78",
       "commit": "00e8321a3c0cd4c15a1ee57d250e625a80c57ae4",
       "timestamp": 1790458942,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e9ea4debbedb8abc0e66c69a7c64e18eab520d0890ec7bef3509667d83ab671a": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.80/app-arm64-v8a-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 80,
+      "version_name": "0.1.80",
+      "tag": "0.1.80",
+      "commit": "94db4013f3213b367fc8dd9b0697e3100eb02a8d",
+      "timestamp": 1790883578,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -125774,6 +125924,21 @@
       "maintainer_notes": null
     }
   ],
+  "b0e086325101b57c4156f4e77d57a7fc22ddddd401783599cc37cadaac5fcd26": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.2.3/PrivacyFlip-v2.2.3-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 34,
+      "version_name": "2.2.3",
+      "tag": "v2.2.3",
+      "commit": "1e504c6d5795a4b0d91ae65b200a77f7b2fef6d3",
+      "timestamp": 1790884069,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3db6eeb5b81c310ba7b1081ea394964f6b57d9b7fcdd018ee1af35ec1d5da7bb": [
     {
       "repository": "https://github.com/FriesI23/mhabit.git",
@@ -131924,6 +132089,21 @@
       "maintainer_notes": null
     }
   ],
+  "d722b23de8bca3e8ee78414516e6d083d62a611ebf222acd5bc37790987a1b4d": [
+    {
+      "repository": "https://github.com/k4ustu3h/monocons-android.git",
+      "apk_url": "https://github.com/k4ustu3h/monocons-android/releases/download/v1.2.1/Monocons.1.2.1.release.Izzy.apk",
+      "appid": "k4ustu3h.monocons.izzy",
+      "version_code": 10,
+      "version_name": "1.2.1",
+      "tag": "v1.2.1",
+      "commit": "bfea88678969ab08baac6136c596b5f9953010c6",
+      "timestamp": 1790884315,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "22f40a3f5f6737e4f0aeb7986b5bda546bae3d5c77d225466f557118bcaa5f1e": [
     {
       "repository": "https://github.com/kittoku/Open-SSTP-Client.git",
@@ -135744,6 +135924,21 @@
       "tag": "1.6",
       "commit": "c21a2b05efcf80dc792acb9307f544ba9785944b",
       "timestamp": 1789138353,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c62a8af63d5fb8df43fbd4588f95a3195fb23f53a2babb6a3b45ad501cfe4652": [
+    {
+      "repository": "https://github.com/helcel-net/cowspent.git",
+      "apk_url": "https://github.com/helcel-net/cowspent/releases/download/1.7/app-signedRelease.apk",
+      "appid": "net.helcel.cowspent",
+      "version_code": 117,
+      "version_name": "1.7",
+      "tag": "1.7",
+      "commit": "6800fc6c416f0b1a877689c9fc3ff89a9fcda465",
+      "timestamp": 1790884653,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -154132,6 +154327,21 @@
       "tag": "v1.1.2",
       "commit": "395bc385ad1e19f0a2d5b198439b174a792ea5d0",
       "timestamp": 1790693221,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e2de5bcd9e0382b5a418053eec16cf23f2313e6473151538792bbb34a6f7f728": [
+    {
+      "repository": "https://github.com/RazerTexz/aninspector.git",
+      "apk_url": "https://github.com/RazerTexz/aninspector/releases/download/v1.2.0/AnInspector-1.2.0.apk",
+      "appid": "razertexz.aninspector",
+      "version_code": 120,
+      "version_name": "1.2.0",
+      "tag": "v1.2.0",
+      "commit": "c3a3217bbe869b33ce769274c674e8fb66ec3297",
+      "timestamp": 1790885025,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
