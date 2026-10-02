@@ -1,0 +1,52 @@
+---
+repository: https://github.com/xpavle00/Habo.git
+updates: releases:v.*-foss
+versions:
+  - tag: v4.0.0-foss
+    apks:
+      - apk_pattern: app-arm64-v8a-release.*\.apk
+        apk_url: https://github.com/xpavle00/Habo/releases/download/v4.0.0-foss/app-arm64-v8a-release_signed.apk
+        build:
+          - cp .env.rb .env
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ .([0-9\.]*).*?/\1/p' .github/workflows/ci.yml | head -n 1)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - export PATH="${PATH}:${PWD}/flutter/bin"
+          - flutter config --no-analytics
+          - flutter pub get
+          - dart run flutter_iconpicker:generate_packs --packs fontAwesomeIcons
+          - flutter build apk --release --split-per-abi --no-tree-shake-icons
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - OUT="build/app/outputs/flutter-apk/app-arm64-v8a-release*.apk"
+          - reproducible-apk-tools/zipalign.py --page-align --pad-like-apksigner --replace $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Habo/Habo
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
