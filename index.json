@@ -134834,6 +134834,21 @@
       "maintainer_notes": "build ID embedded with a native library"
     }
   ],
+  "425cb1f625e1e23c45cebf08221980a37d667d1c8bf92247347e9eb112528bb7": [
+    {
+      "repository": "https://github.com/SableClient/Sable.git",
+      "apk_url": "https://github.com/SableClient/Sable/releases/download/v1.22.11/Sable-1.22.11-android-arm64-foss.apk",
+      "appid": "moe.sable.client",
+      "version_code": 1022011,
+      "version_name": "1.22.11",
+      "tag": "v1.22.11",
+      "commit": "98416a99282b6b0c28efdeb55c873fd9a1801904",
+      "timestamp": 1790901027,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3e9f80ab4a8177d78249f45fbefaf36fb6dd34425098a71c450e127579cfb38b": [
     {
       "repository": "https://github.com/nanihadesuka/NovelDokusha.git",

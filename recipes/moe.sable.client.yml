@@ -1,0 +1,61 @@
+---
+repository: https://github.com/SableClient/Sable.git
+updates: releases
+notes:
+  - NDK version in flake.nix; uses rust-toolchain.toml
+versions:
+  - tag: v1.22.11
+    apks:
+      - apk_pattern: Sable-.*-android-arm64-foss\.apk
+        apk_url: https://github.com/SableClient/Sable/releases/download/v1.22.11/Sable-1.22.11-android-arm64-foss.apk
+        build:
+          - sed -ri '/signingConfigs.getBy/d' src-tauri/gen/android/app/build.gradle.kts
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin"
+          - export NDK_HOME="$ANDROID_HOME/ndk/${PROVISIONING_NDK}"
+          - npm install --global corepack@latest
+          - corepack enable pnpm
+          - pnpm install --frozen-lockfile
+          - rustup target add aarch64-linux-android
+          - export SABLE_FOSS=1
+          - export VITE_APP_VERSION=${APP_TAG#v}
+          - export VITE_IS_RELEASE_TAG=true
+          - PROJECT_ROOT="$PWD"
+          - CARGO_HOME="${CARGO_HOME:-$HOME/.cargo}"
+          - RUSTUP_HOME="${RUSTUP_HOME:-$HOME/.rustup}"
+          - export RUSTFLAGS="${RUSTFLAGS:+$RUSTFLAGS} --remap-path-prefix=$PROJECT_ROOT=/usr/src/sable --remap-path-prefix=$CARGO_HOME=/usr/local/cargo --remap-path-prefix=$RUSTUP_HOME=/usr/local/rustup"
+          - node .github/scripts/set-tauri-version.mjs "$VITE_APP_VERSION"
+          - rm src-tauri/capabilities/geolocation.json
+          - pnpm tauri android build --apk --split-per-abi --target aarch64 -- --no-default-features --features wry,matrix-crypto
+          - find . -name '*.apk'
+          - mv src-tauri/gen/android/app/build/outputs/apk/arm64/release/app-arm64-release*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/Sable/Sable
+        build_timeout: 50
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.21.0
+              url: https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-x64.tar.xz
+              sha256: fd8e59d5a511510f6a298afb548f18c7d2b1be404d8b4a27d94fbe49f56cb2d6
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - build-essential
+            - rustup
+            - xz-utils
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
