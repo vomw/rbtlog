@@ -78417,6 +78417,21 @@
       "maintainer_notes": null
     }
   ],
+  "93a94503b5f5005c5b3d4d30cde4769038b9eb1033f093afcf0dda4aee9d1741": [
+    {
+      "repository": "https://github.com/PYU224/koremd.git",
+      "apk_url": "https://github.com/PYU224/koremd/releases/download/v1.1.10/koremd-v1.1.10.apk",
+      "appid": "com.pyu.koremd",
+      "version_code": 19,
+      "version_name": "1.1.10",
+      "tag": "v1.1.10",
+      "commit": "dbce8ca256b67c64839bcfbbda55809152d606bd",
+      "timestamp": 1791038694,
+      "reproducible": false,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7f9979dca06b4a236b86ea55aa5c4c58a275d8b928b1591609dbcd4b067cf512": [
     {
       "repository": "https://github.com/Rouneant/Qm-Authenticator-for-Android.git",
@@ -79583,6 +79598,21 @@
       "commit": "dda03b8986b08feeafaf8671a4009cf9982401c7",
       "timestamp": 1790105643,
       "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "737ad8d09f30b340a6af670a1efde88516500d58a979fc1c054be41c3857d3f4": [
+    {
+      "repository": "https://github.com/yuroyami/syncplay-mobile.git",
+      "apk_url": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/syncplay-0.26.0-exo-only.apk",
+      "appid": "com.reddnek.syncplay",
+      "version_code": 1000026001,
+      "version_name": "0.26.0",
+      "tag": "v0.26.0",
+      "commit": "c4449e5c9a0a9cba3804ddb9c3e38e9a653505d6",
+      "timestamp": 1791113424,
+      "reproducible": false,
       "error": null,
       "maintainer_notes": null
     }
