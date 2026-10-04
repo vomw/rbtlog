@@ -797,3 +797,50 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.8.2
+    apks:
+      - apk_pattern: MyQuran-.*arm64-v8a.*-release\.apk
+        apk_url: https://github.com/DMouayad/my_quran/releases/download/v1.8.2/MyQuran-v1.8.2-arm64-v8a-263-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i android/app/build.gradle.kts
+          - FLUTTER_VERSION="$(sed -rn 's/\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - BUILD_NUMBER=$(grep '^version:' pubspec.yaml | sed 's/.*+//')
+          - BUILD_NUMBER=$((BUILD_NUMBER * 10 + 3))
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform="android-arm64" --dart-define=APP_VERSION=${APP_TAG} --dart-define=APP_BUILD=${BUILD_NUMBER}
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace build/app/outputs/apk/release/MyQuran-*-arm64-v8a-*-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/my_quran/my_quran
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
