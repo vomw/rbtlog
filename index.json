@@ -404,6 +404,21 @@
       "maintainer_notes": null
     }
   ],
+  "ed0e6b60d507ef401f07f6b7ab417e067fbd9ff0de84a1c9fcbec99e595c15dd": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.14.5/Podcini.A-free-legacy-arm64-v8a-12.14.5.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 136,
+      "version_name": "12.14.5",
+      "tag": "v12.14.5",
+      "commit": "0782178e492ba0863d7c52e76072430132fbeb7b",
+      "timestamp": 1791311930,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -8682,6 +8697,21 @@
       "maintainer_notes": null
     }
   ],
+  "662957a335128ffa2e7d48d55fc68d6a8e42867e884532280b286a52f85896b4": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v6.9.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 55,
+      "version_name": "6.9.0",
+      "tag": "v6.9.0",
+      "commit": "898b9f116aa2b32c97e59f99772f5642585eee54",
+      "timestamp": 1791313016,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a30d9c36a1faf3ee55a370ff12bf6767df6d8fa5a1864db731d844c50c2530f8": [
     {
       "repository": "https://github.com/pass-with-high-score/universal-installer.git",
@@ -12367,6 +12397,21 @@
       "tag": "v2026.10.2+20261002",
       "commit": "138b1d06decec987ec84d80888fb1cf044874321",
       "timestamp": 1790967520,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "34dc481f595cf1a847f9689648136b4d059513c0fd8319e697bd79e65495999e": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.10.6%2B20261006/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20263006,
+      "version_name": "2026.10.6",
+      "tag": "v2026.10.6+20261006",
+      "commit": "972350dda00653a68490f7aed9c873efcb6703aa",
+      "timestamp": 1791313505,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -20540,6 +20585,21 @@
       "tag": "446",
       "commit": "36e4efa5badded99494b6550d61c092f048a67c9",
       "timestamp": 1790517959,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cacdb229f7fecb9309f5d9e48ef80a73a2f97df87a3ea597db3b7ba77a2a076d": [
+    {
+      "repository": "https://github.com/kawaiiDango/pano-scrobbler.git",
+      "apk_url": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/447/pano-scrobbler-android-universal.apk",
+      "appid": "com.arn.scrobble",
+      "version_code": 447,
+      "version_name": "4.47 GH",
+      "tag": "447",
+      "commit": "990154031e761b8e5460a0585fc834b43c9e2d71",
+      "timestamp": 1791314083,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -31247,6 +31307,21 @@
       "maintainer_notes": null
     }
   ],
+  "ce9962f63ba2ba0fcb54882f39b702e151ad486f7d13f8d358d81eefdf0c02c2": [
+    {
+      "repository": "https://github.com/Wavesonics/hammer-editor.git",
+      "apk_url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.12.0/hammer.apk",
+      "appid": "com.darkrockstudios.apps.hammer.android",
+      "version_code": 312000000,
+      "version_name": "3.12.0",
+      "tag": "v3.12.0",
+      "commit": "cb873c40d0077d962b44c59b7150361944429b1b",
+      "timestamp": 1791315016,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c15065c49fe0a7349a58eafff836127d9fd22a59098139aecb6dbeda618cc5f2": [
     {
       "repository": "https://github.com/darusc/Mousedroid.git",
@@ -35012,6 +35087,21 @@
       "maintainer_notes": null
     }
   ],
+  "16ec0870b35adefc6869ad57d1474d2764f399b1f22824f7fc316d60b7e0fdea": [
+    {
+      "repository": "https://github.com/dessalines/rank-my-favs.git",
+      "apk_url": "https://github.com/dessalines/rank-my-favs/releases/download/0.6.22/app-release.apk",
+      "appid": "com.dessalines.rankmyfavs",
+      "version_code": 45,
+      "version_name": "0.6.22",
+      "tag": "0.6.22",
+      "commit": "fd33ac9f5b476c77c6e556ecaf4a83a6b12096d8",
+      "timestamp": 1791315776,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d1572645ecb58cdb00b46521f3fb9e29eefec1bd0ea36745d0afb1bc53beb278": [
     {
       "repository": "https://github.com/dessalines/thumb-key.git",
@@ -36312,6 +36402,21 @@
       "tag": "5.1.17",
       "commit": "bca9ceb1d98a8d99ff8df2fb5903932ca6de912a",
       "timestamp": 1788893027,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "40cc6b1e47a2a97267d8f6c4327c9d44d70af44fff592f9cf51c22c2ed5ebba9": [
+    {
+      "repository": "https://github.com/dessalines/thumb-key.git",
+      "apk_url": "https://github.com/dessalines/thumb-key/releases/download/5.1.18/app-release.apk",
+      "appid": "com.dessalines.thumbkey",
+      "version_code": 188,
+      "version_name": "5.1.18",
+      "tag": "5.1.18",
+      "commit": "8391e0653793e55e0da477ba37a82fd2b66e196d",
+      "timestamp": 1791316060,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -53692,6 +53797,21 @@
       "maintainer_notes": null
     }
   ],
+  "951bfd7e2cb5964d30e4c0b7019b290a7d524b9a05c354c107480f1bfc6ca8dd": [
+    {
+      "repository": "https://github.com/googol-apps/OnePlayer.git",
+      "apk_url": "https://github.com/googol-apps/OnePlayer/releases/download/v1.7.3/app-community-release-unsigned-signed.apk",
+      "appid": "com.googol.android.apps.oneplayer",
+      "version_code": 43,
+      "version_name": "1.7.3-foss",
+      "tag": "v1.7.3",
+      "commit": "9ea00b0a6dcd54e95e8c1b8ca18bd312a109b20d",
+      "timestamp": 1791316458,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ae7fda0141d70e2559e6c6f05e8897719618077f7614271ac40ed311518c8e1": [
     {
       "repository": "https://github.com/madeofpendletonwool/PinePods.git",
@@ -59780,6 +59900,21 @@
       "maintainer_notes": null
     }
   ],
+  "1c3790ee2843e15f73b9924d93e754d74679c338c9305a8209a07f3fdb85d788": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.47/kelani-sbd-tracker-v2.0.47.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 147,
+      "version_name": "2.0.47",
+      "tag": "v2.0.47",
+      "commit": "0e8d6abec15042228c11cb439ad9ed5911b7845e",
+      "timestamp": 1791316895,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -63045,6 +63180,21 @@
       "tag": "1.7.1",
       "commit": "4c9ff5232bd76f9e29db9512e3d1dc6ffcfb81cc",
       "timestamp": 1790275666,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d818737aa92a9156848eb753253f5fdf33963b74de8f500b760ff54504a023cc": [
+    {
+      "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
+      "apk_url": "https://github.com/leohearts/AlternativeUnlockXposed/releases/download/1.8/app-release-signed.apk",
+      "appid": "com.leohearts.alternativeUnlockHook",
+      "version_code": 11,
+      "version_name": "1.8",
+      "tag": "1.8",
+      "commit": "e00e3f4383ddba75730e4dadb9dec313f00c28c6",
+      "timestamp": 1791317099,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84702,6 +84852,21 @@
       "maintainer_notes": null
     }
   ],
+  "2ebb0c9bcef427ca32a09a436108b0fe901499fa4a538878af766d2f03a3a739": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.9.2/Minus-v1.9.2.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10902,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "f697abd41bbf4a70ac9dfc02701f9c3cf96f6639",
+      "timestamp": 1791317674,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -97416,6 +97581,21 @@
       "maintainer_notes": null
     }
   ],
+  "ed5dda0ded333b7af1fb214fdb64d50a84ddd6ccf14a0335818fe22ee2dca55c": [
+    {
+      "repository": "https://github.com/vitorpamplona/amethyst.git",
+      "apk_url": "https://github.com/vitorpamplona/amethyst/releases/download/v1.17.0/amethyst-fdroid-arm64-v8a-v1.17.0.apk",
+      "appid": "com.vitorpamplona.amethyst",
+      "version_code": 462,
+      "version_name": "1.17.0",
+      "tag": "v1.17.0",
+      "commit": "917ec124590eb92ab104e83d9b94350b09713686",
+      "timestamp": 1791318149,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9c16cbfceb948a869b30940a74c97d2de8647fbdb5c803d94a6ef09dc2e6c082": [
     {
       "repository": "https://github.com/vivizzz007/vivi-music.git",
@@ -100932,6 +101112,21 @@
       "tag": "v3.8.1",
       "commit": "36a44d69afc5bffd5a6e8b5bbd8e4c01f011fbd5",
       "timestamp": 1789838565,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "09c719de42b00750da2d1d4c58ab7e9563821ec400155bca61822a3f3a0a86db": [
+    {
+      "repository": "https://codeberg.org/toz/MediLog.git",
+      "apk_url": "https://codeberg.org/toz/MediLog/releases/download/v3.8.2/MediLog-3.8.2.apk",
+      "appid": "com.zell_mbc.medilog",
+      "version_code": 5534,
+      "version_name": "3.8.2",
+      "tag": "v3.8.2",
+      "commit": "e7b8135a86a3db748edddaa9bbd51db1cc7851e0",
+      "timestamp": 1791319455,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -137654,6 +137849,21 @@
       "maintainer_notes": null
     }
   ],
+  "6a96829364c2c1afe3ee947a4ede51b3b3d680ae07b274c9a4ea768e8b15e668": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Internethelper.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Internethelper/releases/download/0.9/internethelper-0.9.apk",
+      "appid": "nodomain.freeyourgadget.internethelper",
+      "version_code": 9,
+      "version_name": "0.9",
+      "tag": "0.9",
+      "commit": "7b82c3f3a3b4e1937d8a5ce06fe4b2a699073af3",
+      "timestamp": 1791319893,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "138d2ff8b355c36b950c58b451b8fed2d0923d806c534c269c46f13d7f86c752": [
     {
       "repository": "https://gitlab.com/neonbranch/schatzsuche.git",
@@ -162590,6 +162800,21 @@
       "tag": "v1.3.0",
       "commit": "fa491b51bdc22251c12595733b8fcf7a16afaf37",
       "timestamp": 1791131092,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "313ac62f40378932cd39bb1d41311b38e157424354ef4255ccabca0efc0cea08": [
+    {
+      "repository": "https://github.com/sverrejb/bru.git",
+      "apk_url": "https://github.com/sverrejb/bru/releases/download/v1.3.1/works.bru-arm64-v8a.apk",
+      "appid": "works.bru",
+      "version_code": 602,
+      "version_name": "1.3.1",
+      "tag": "v1.3.1",
+      "commit": "fe595a6932e23af2d257054ca46d2906234bc326",
+      "timestamp": 1791320138,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
