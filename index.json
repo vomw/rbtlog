@@ -13527,6 +13527,21 @@
       "maintainer_notes": null
     }
   ],
+  "1bd23fc6b68ce5a63407371c093449e62f3a847d401fb2f1be8d98f7c8aa94fd": [
+    {
+      "repository": "https://github.com/LeoColman/Petals.git",
+      "apk_url": "https://github.com/LeoColman/Petals/releases/download/3.46.0/app-github-release.apk",
+      "appid": "br.com.colman.petals",
+      "version_code": 3046000,
+      "version_name": "3.46.0",
+      "tag": "3.46.0",
+      "commit": "27359ca87b70b56f8d3f159f34ad80a20c9c4b97",
+      "timestamp": 1791226654,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c42bd4fbe5938808d5b7b733167d11ddb04983406b59c6ab8272ffcea364e5e2": [
     {
       "repository": "https://github.com/weslley75/AudioOutputSwitcher.git",
@@ -22443,6 +22458,21 @@
       "tag": "v16.0",
       "commit": "74319620101b690654c23d74c14c297c979c6108",
       "timestamp": 1785003965,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "29849b284d8394e629e7e7a450aacda537f4d8e54e5216a22622d9c853bf7afb": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v17.0/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 42,
+      "version_name": "17.0",
+      "tag": "v17.0",
+      "commit": "0802ff504b261fce079ea7fdda9336c533653524",
+      "timestamp": 1791227180,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -46318,6 +46348,21 @@
       "maintainer_notes": null
     }
   ],
+  "eae9127f6e81a7c116732e944a4cf3fc54a8170fe7c1b66ca40c5ea28040a0df": [
+    {
+      "repository": "https://github.com/pintargasper/SmokingTracker.git",
+      "apk_url": "https://github.com/pintargasper/SmokingTracker/releases/download/v1.9.1/smoking-tracker.v1.9.1.apk",
+      "appid": "com.gasperpintar.smokingtracker",
+      "version_code": 16,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "7764c2ab4ebcf67a95c1a656dc9d477eab952c7d",
+      "timestamp": 1791227774,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3bbeb57c879ba98aa34905f6fca2bfe8773af73df3dffa98604851db26bacd00": [
     {
       "repository": "https://github.com/More-Than-Solitaire/Tabs-Lite.git",
@@ -59715,6 +59760,21 @@
       "tag": "v2.0.44",
       "commit": "1909f8a7e892ab7f3b5600f4e83563dbcce940d9",
       "timestamp": 1791037281,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ca07922adc0a9e4840af1ca6228ff428cf552bfd454bc169f02a2054f4b19fe7": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.45/kelani-sbd-tracker-v2.0.45.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 145,
+      "version_name": "2.0.45",
+      "tag": "v2.0.45",
+      "commit": "893928fc93966f03427e1ff8af8ddc55cd1f82c6",
+      "timestamp": 1791228040,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -78237,6 +78297,21 @@
       "maintainer_notes": null
     }
   ],
+  "e7e528bb5a6cb09484c6a3d991cd9cd823d233efce65e01d3a24c0b44ca0bc97": [
+    {
+      "repository": "https://github.com/JoshAtticus/Compressor.git",
+      "apk_url": "https://github.com/JoshAtticus/Compressor/releases/download/1.6.5/Compressor-1.6.5.apk",
+      "appid": "compress.joshattic.us",
+      "version_code": 28,
+      "version_name": "1.6.5",
+      "tag": "1.6.5",
+      "commit": "6ce750fd2d3d7a548ba6f3461b379a9c98e6012d",
+      "timestamp": 1791228611,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6f4069cd31db7669dd6657c126d76a0fa758826056e3f2f2bdfdbe735ab99134": [
     {
       "repository": "https://github.com/RoBoT095/printnotes.git",
@@ -84607,6 +84682,21 @@
       "tag": "v1.9.0",
       "commit": "dceeff25c0528ca8d3f5b5c0b29231c529f09545",
       "timestamp": 1790616783,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "80bc95295c6cd8cd069480c97bfa35fde628e7e56dc72b9309640f893a5bd16c": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.9.1/Minus-v1.9.1.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 10901,
+      "version_name": "1.9.1",
+      "tag": "v1.9.1",
+      "commit": "2ef9d2e4a4b3948519fb090fcf677eab6e37c94e",
+      "timestamp": 1791228905,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -101217,6 +101307,21 @@
       "tag": "v2.2.2",
       "commit": "35da903456c7ce2636a0c653d26b30f4c33703a0",
       "timestamp": 1790363584,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "38f307f404bcd24d5284edba45311a0bbc5eac886f26771a0be9a0dfc385e9a9": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v2.3.0/PublicArtExplorer-2.3.0.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 70,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "b25191360da30a26ce73ee1092466bb476993ff7",
+      "timestamp": 1791229372,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -152832,6 +152937,21 @@
       "maintainer_notes": null
     }
   ],
+  "ff4032e858a5aea178a1a4c47721084c38b8cec9ec00e1adfc4549050a638870": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.29.0/wizestream_v1.29.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1029000,
+      "version_name": "1.29.0",
+      "tag": "v1.29.0",
+      "commit": "a360909cef1cc599faba8aa2a84aa41449d0114a",
+      "timestamp": 1791229712,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4fae38e1a7750468695d5aa8092a20926af7e4390d40f577af28c028c62521a7": [
     {
       "repository": "https://github.com/woheller69/exifedit.git",
@@ -158990,6 +159110,21 @@
       "tag": "v1.3.3",
       "commit": "3bfdc276b39afb49b1314a2281e7b6647943db08",
       "timestamp": 1790693321,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "33d8955a11de85322b842254b1295135d4b9809285975aa3c005fed8de6c65c8": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.3.4/mindwtr-1.3.4-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 154,
+      "version_name": "1.3.4",
+      "tag": "v1.3.4",
+      "commit": "f5f29da1f938482647406412db7d0f038a9c596d",
+      "timestamp": 1791230646,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
