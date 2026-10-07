@@ -419,6 +419,21 @@
       "maintainer_notes": null
     }
   ],
+  "59755dd3d00c881ccd9c5ce8853b14c681a2a18f990e6c48f86f0b16a663c80e": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.14.6/Podcini.A-free-legacy-arm64-v8a-12.14.6.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 137,
+      "version_name": "12.14.6",
+      "tag": "v12.14.6",
+      "commit": "9ee8f40b65c55d21574aea556b54ac039168b017",
+      "timestamp": 1791398550,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -20695,6 +20710,21 @@
       "maintainer_notes": null
     }
   ],
+  "ddc219124db4a804693d673273d7b08682af87fbaa12396c83d3e23e4098732b": [
+    {
+      "repository": "https://codeberg.org/CalibratedMind/Jaliscope.git",
+      "apk_url": "https://codeberg.org/CalibratedMind/Jaliscope/releases/download/release-1.0.6v/Jaliscope.apk",
+      "appid": "com.audiosoftware.jaliscope",
+      "version_code": 7,
+      "version_name": "1.0.6",
+      "tag": "release-1.0.6v",
+      "commit": "86c13e4ee460d7ab24f53b4aab5f9b222c111151",
+      "timestamp": 1791399054,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7533eae6cf951f0da9f32ab33e653fa229352006b6217ab8aa443df270ea1bae": [
     {
       "repository": "https://gitlab.com/AuroraOSS/AuroraStore.git",
@@ -37785,6 +37815,21 @@
       "maintainer_notes": null
     }
   ],
+  "5b6520ea07961ee4e57dafa36fa7eb56f61ccc0f78b3b6f6c2c25431527b6c18": [
+    {
+      "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
+      "apk_url": "https://github.com/The-DresOS-Foundation/DresSecureComms/releases/download/v1.9.2/DresSecureComms.apk",
+      "appid": "com.dresos.dressecurecomms",
+      "version_code": 21,
+      "version_name": "1.9.2",
+      "tag": "v1.9.2",
+      "commit": "6097b0ac64f7e66a98641d96c39fbd8a28df7f1a",
+      "timestamp": 1791400063,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b11696eed3a0e2bd1cf525d86db46d5007b960a7fd7a13f9db982420e1eaf623": [
     {
       "repository": "https://github.com/andriydruk/BonjourBrowser.git",
@@ -40345,6 +40390,21 @@
       "tag": "v3.0.2",
       "commit": "8c62471df18bf3089de21a3e55bd52dd0c54fbe8",
       "timestamp": 1790275413,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "52959ff205f14bc2d36bb8ff2fa201c7aff769d508d842dcbfe0901d45bab721": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v3.0.4/dns_toggle_v3.0.4.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 32,
+      "version_name": "3.0.4",
+      "tag": "v3.0.4",
+      "commit": "bfd57eff7f145133ab4fa0aa8a51194da31f1dc7",
+      "timestamp": 1791400286,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -51007,6 +51067,21 @@
       "maintainer_notes": null
     }
   ],
+  "2564f8f33c39ca1d479309ebd67475c110457ec8dbb96a3cd5c2576f5e7868b3": [
+    {
+      "repository": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git",
+      "apk_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver/releases/download/v3.15.3/ExoPlayer-AirPlay-Receiver-003.15.03-23API-withAllLanguageTranslations-noDecoderExtensions-release.apk",
+      "appid": "com.github.warren_bank.exoplayer_airplay_receiver",
+      "version_code": 3150323,
+      "version_name": "003.15.03-23API",
+      "tag": "v3.15.3",
+      "commit": "a530ae9b9c1d77d0dc8551fdf8169f1a733cd1a9",
+      "timestamp": 1791400555,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e16f0a10ac6fe6a1fa1415370e4584f1ba0762bcd69bbe7e845e5c3a72176773": [
     {
       "repository": "https://github.com/warren-bank/Android-Mock-Location.git",
@@ -59915,6 +59990,21 @@
       "maintainer_notes": null
     }
   ],
+  "e153da52ab60d543b09212d6eaf5c2b87ae9c7b305f8ef6a0d78bcc0a015a561": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.48/kelani-sbd-tracker-v2.0.48.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 148,
+      "version_name": "2.0.48",
+      "tag": "v2.0.48",
+      "commit": "cdd1bbe219a4939865e86297d959dee52095639f",
+      "timestamp": 1791400770,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -63195,6 +63285,21 @@
       "tag": "1.8",
       "commit": "e00e3f4383ddba75730e4dadb9dec313f00c28c6",
       "timestamp": 1791317099,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f02918eb929f4ae247dec5816ba7d40b682c8cba4db8e032da8ed2fc749c265c": [
+    {
+      "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
+      "apk_url": "https://github.com/leohearts/AlternativeUnlockXposed/releases/download/1.8.1/app-release-signed.apk",
+      "appid": "com.leohearts.alternativeUnlockHook",
+      "version_code": 12,
+      "version_name": "1.8.1",
+      "tag": "1.8.1",
+      "commit": "29898f16ad61ef438c2cddef39c13aa14279931a",
+      "timestamp": 1791401031,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -71339,6 +71444,21 @@
       "maintainer_notes": null
     }
   ],
+  "d8a1b1938a1b8cdac58e9aaa4ae1f43393d918fa89742ab3783f3f068cadc469": [
+    {
+      "repository": "https://github.com/gabeg805/NFC-Alarm-Clock.git",
+      "apk_url": "https://github.com/gabeg805/NFC-Alarm-Clock/releases/download/v12.7.4/nfc_alarm_clock_v12.7.4-foss-release.apk",
+      "appid": "com.nfcalarmclock",
+      "version_code": 653,
+      "version_name": "12.7.4",
+      "tag": "v12.7.4",
+      "commit": "e28d1b987f102323cafba7ff195a1ea098c35b3e",
+      "timestamp": 1791401286,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b45e6a23a49d94b71dc38b24c8a4b27ffc914e02ad25197bcee330106edc025e": [
     {
       "repository": "https://github.com/nikashitsa/polar-alert-android.git",
@@ -74152,6 +74272,21 @@
       "tag": "v1.4.0",
       "commit": "0bf38f88da2e16cea80e61b7643ec511275977b7",
       "timestamp": 1785091952,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "db2568442f1d19bb6bb0f10bc9646c54ca9c4c1cceb818cd592419c8ad6735f5": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Coffee.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Coffee/releases/download/v1.5.0/app-release.apk",
+      "appid": "com.openappslabs.coffee",
+      "version_code": 6,
+      "version_name": "1.5.0",
+      "tag": "v1.5.0",
+      "commit": "b9f3a9847a0fc6f62067d6cc208963ccd619462a",
+      "timestamp": 1791401607,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -92596,6 +92731,21 @@
       "tag": "v1.4.3",
       "commit": "42fc81167c41fec7373e2630a47a27d47d631b46",
       "timestamp": 1788444436,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9b6c8c06842149d7ee75599c77f514402784c44dd6efad2a2cef2518015f7e38": [
+    {
+      "repository": "https://github.com/neoblackxt/AnyWebView.git",
+      "apk_url": "https://github.com/neoblackxt/AnyWebView/releases/download/v1.4.4/AnyWebView-v1.4.4.apk",
+      "appid": "com.thinkdifferent.anywebview",
+      "version_code": 9,
+      "version_name": "1.4.4",
+      "tag": "v1.4.4",
+      "commit": "c8722af5c0ea1bd6a7d26f5181bc02eb8f2eecf2",
+      "timestamp": 1791402350,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -118760,6 +118910,21 @@
       "maintainer_notes": null
     }
   ],
+  "c7f389a63a536525b397197f57e93978c0baaf261b251adc36026c934e03547a": [
+    {
+      "repository": "https://github.com/d4rken-org/capod.git",
+      "apk_url": "https://github.com/d4rken-org/capod/releases/download/v5.5.0-rc0/eu.darken.capod-v5.5.0-rc0-50500000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.capod",
+      "version_code": 50500000,
+      "version_name": "5.5.0-rc0",
+      "tag": "v5.5.0-rc0",
+      "commit": "738ad32fc64053ffb6f0541540a59d07925a21e7",
+      "timestamp": 1791403130,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f4bd0a9a95b36bbd9c1c3397e7cee998e59a56b4cb0b9569735e91a7eaec6f88": [
     {
       "repository": "https://github.com/d4rken-org/permission-pilot.git",
@@ -122158,6 +122323,21 @@
       "tag": "v3.0.0",
       "commit": "df217274040f5b3aebe2f364dade13ba07b13051",
       "timestamp": 1773856413,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0da04976f2ea77a7f27c9dcfb8a6db3fd347d1f970c42948f030af8503b25c25": [
+    {
+      "repository": "https://github.com/hxreborn/remember-my-sort.git",
+      "apk_url": "https://github.com/hxreborn/remember-my-sort/releases/download/v3.1.0/app-release.apk",
+      "appid": "eu.hxreborn.remembermysort",
+      "version_code": 310,
+      "version_name": "3.1.0",
+      "tag": "v3.1.0",
+      "commit": "159e798b931ea6c176c72ef8af6098fc43d447d5",
+      "timestamp": 1791403715,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -139244,6 +139424,21 @@
       "maintainer_notes": null
     }
   ],
+  "094e5de8246d81b1317768466816130b2d8c4a1c578be2ed6f17dfc6838cbe43": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.8.4/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 61,
+      "version_name": "alpha-0.8.4",
+      "tag": "alpha-0.8.4",
+      "commit": "fbe014d78882e37d2d74bbb67e0d2b919b50bcc1",
+      "timestamp": 1791403902,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dc6d6f23f071a50a32025ced691500547380cf0b27755eff324de754be7dac1d": [
     {
       "repository": "https://github.com/cmeng-git/xmail.git",
@@ -153157,6 +153352,21 @@
       "tag": "v1.29.0",
       "commit": "a360909cef1cc599faba8aa2a84aa41449d0114a",
       "timestamp": 1791229712,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "92f34815eb3461652c6dd6278cddd492a67db7bf03dd618a6c761e1fe5458f45": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.31.0/wizestream_v1.31.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1031000,
+      "version_name": "1.31.0",
+      "tag": "v1.31.0",
+      "commit": "0072324ba60540a121ecc0fcf5d9aff07af9c981",
+      "timestamp": 1791404941,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
