@@ -35,3 +35,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '76'
+    apks:
+      - apk_pattern: tetherfusenet-fdroid\.apk
+        apk_url: https://github.com/pyamsoft/tetherfusenet/releases/download/76/tetherfusenet-fdroid.apk
+        build:
+          - git reset --soft d1cfb48eb3f7441716fbf8f361cb0ece24a0d04d
+          - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -ri '/foojay/d ; /toolchainVendor/d' gradle/gradle-daemon-jvm.properties
+          - sed -ri '/signingConfigs.getByName/d ; /signingConfigs \{/,/^  \}/d' app/build.gradle.kts
+          - export JAVA_HOME=/usr/lib/jvm/java-25-openjdk-amd64
+          - ./gradlew assembleFdroidRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/fdroid/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
