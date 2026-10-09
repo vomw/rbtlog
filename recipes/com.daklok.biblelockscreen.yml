@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/DaKlok/BibleLockScreen.git
-updates: releases
+updates: disabled
+notes:
+  - 2.3 was quite obviously not built from the indicated source, rolled back and disabled in our repo as well
 versions:
   - tag: '1.2'
     apks:

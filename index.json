@@ -434,6 +434,21 @@
       "maintainer_notes": null
     }
   ],
+  "48dbeef8cadce0fbc0f7b1930bfdf0cafbbebc80231b5fcefe1487fc4638f93b": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.15.0/Podcini.A-free-legacy-arm64-v8a-12.15.0.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 138,
+      "version_name": "12.15.0",
+      "tag": "v12.15.0",
+      "commit": "85d28975b69efa0c373fab0e2d4727ec1a218767",
+      "timestamp": 1791554038,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -12492,6 +12507,21 @@
       "maintainer_notes": null
     }
   ],
+  "923072c0b0461a89c1901054ea569cc1d557672ef9086bc23ba3d1e162dceb2d": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.10.8%2B20261008/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20263008,
+      "version_name": "2026.10.8",
+      "tag": "v2026.10.8+20261008",
+      "commit": "f37505b31bcf1bec5bf2d72056a189b7d7c9ecc2",
+      "timestamp": 1791554369,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -14227,6 +14257,21 @@
       "tag": "v1.15.0",
       "commit": "fcc708ca1d18fec2666fd59df5591ae16004ef83",
       "timestamp": 1790346175,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9e9328883731f3dfaa2eaf82298bc1367b9e0b0b34b92ec62c1be24c8a992d53": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.16.0/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11600,
+      "version_name": "1.16.0-store",
+      "tag": "v1.16.0",
+      "commit": "55c3152bf3eec87787fed25bea234c2c3a871847",
+      "timestamp": 1791555162,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -16582,6 +16627,21 @@
       "tag": "v4.15.0",
       "commit": "49d1e3ac831b993b4fa3e7c4a724eda671c01217",
       "timestamp": 1789864571,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ea01ff231ba4daac84463f1a516523f4b3d29ddc00d9ce3343433acb7553af1": [
+    {
+      "repository": "https://github.com/BURG3R5/NotiFilter.git",
+      "apk_url": "https://github.com/BURG3R5/NotiFilter/releases/download/v4.15.1/NotiFilter_v4.15.1.apk",
+      "appid": "co.adityarajput.notifilter",
+      "version_code": 37,
+      "version_name": "4.15.1",
+      "tag": "v4.15.1",
+      "commit": "dd444a629d65c76fa50ce78b451f2f7b637dd8fd",
+      "timestamp": 1791555531,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -23191,6 +23251,21 @@
       "tag": "v2.0",
       "commit": "6d3e8abf67bf5276e66dc33c434da2b7ce227167",
       "timestamp": 1790362740,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8696e72cbb91d01d6f33d6d08c593d482ff0d06654e376f15d83543cbe6b98d8": [
+    {
+      "repository": "https://github.com/by-architect/Operator.git",
+      "apk_url": "https://github.com/by-architect/Operator/releases/download/v2.3/operator-v2.3.apk",
+      "appid": "com.byarchitect.operator",
+      "version_code": 7,
+      "version_name": "2.3",
+      "tag": "v2.3",
+      "commit": "8b5f97c7d7cb1f5cf350efc2436b48e5480d812d",
+      "timestamp": 1791579109,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -33422,6 +33497,21 @@
       "maintainer_notes": null
     }
   ],
+  "d15f0ac5e66f59771ef501688594da364f068612957efca609741727e2dc64af": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v3.6.1/daily-you-arm64-v8a-v3.6.1.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 30060012,
+      "version_name": "3.6.1",
+      "tag": "v3.6.1",
+      "commit": "9283e412beedd96c2c112792f1b62dec343c65bc",
+      "timestamp": 1791556027,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -39450,6 +39540,21 @@
       "maintainer_notes": null
     }
   ],
+  "96e64d9d0f56418dae1dc2348c67ae0e433302e63be764e462749530b9c1e761": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/T31n/YagniLauncher/releases/download/v1.0.2-alpha/YagniLauncher-v1.0.2-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 102,
+      "version_name": "1.0.2-alpha",
+      "tag": "v1.0.2-alpha",
+      "commit": "069cafc4a9bf1b89220b90b6d1b4ec05d9cc8ac3",
+      "timestamp": 1791557112,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -40150,6 +40255,21 @@
       "tag": "v4.28.0",
       "commit": "687d97fdde38f231f2168e8fd47755a9b9092684",
       "timestamp": 1790950498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1f6332d7c163c629115e0386378fbb51c5561b04e7efc2010e0301bec9f6c89d": [
+    {
+      "repository": "https://github.com/eddyizm/tempus.git",
+      "apk_url": "https://github.com/eddyizm/tempus/releases/download/v4.29.0/app-degoogled-release.apk",
+      "appid": "com.eddyizm.degoogled.tempus",
+      "version_code": 50,
+      "version_name": "4.29.0",
+      "tag": "v4.29.0",
+      "commit": "136f3854e6fc85fe37046c2c1e40ccb77b84a00f",
+      "timestamp": 1791557376,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -44003,6 +44123,21 @@
       "tag": "v2.9.0",
       "commit": "494e43958b8816daa4f0c311a101df85e380d7c9",
       "timestamp": 1791125722,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ef0a73741cac5d246e64cb5800c29ab186e347467395cefc6b2a37afbfb7c3c1": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.9.2/FixupXer-v2.9.2-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 57,
+      "version_name": "2.9.2",
+      "tag": "v2.9.2",
+      "commit": "61bc6db911b8431ac504da7cac4e737fbc9fb5c7",
+      "timestamp": 1791557587,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -53792,6 +53927,21 @@
       "tag": "10.5.2",
       "commit": "6dc4fdef092737d8c18840914d4e87c6c0e2f0da",
       "timestamp": 1791125956,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d0ed7e8712231b9a8e0a55a864430f8981a7cba607be0a2407a894b573adde6f": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.5.3/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2185,
+      "version_name": "10.5.3",
+      "tag": "10.5.3",
+      "commit": "a5edc73c501aea5428b419ec14eaa46bc2fef83e",
+      "timestamp": 1791570673,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -84027,6 +84177,21 @@
       "maintainer_notes": null
     }
   ],
+  "8df92830f17f0d159605b1767d57be25f154448eab9380a591a1f05a6584881b": [
+    {
+      "repository": "https://github.com/Sav22999/sav-pdf-viewer-pro.git",
+      "apk_url": "https://github.com/Sav22999/sav-pdf-viewer-pro/releases/download/2.5/app-arm64-v8a-release.apk",
+      "appid": "com.saverio.pdfviewer",
+      "version_code": 813,
+      "version_name": "2.5",
+      "tag": "2.5",
+      "commit": "3218e2f20b52a8ba6b3d1dbad5ad810036ce4971",
+      "timestamp": 1791557777,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4ca54004c9a10953730c8a71c297a8175a1696a0a1b576fceeca5e1225f2675b": [
     {
       "repository": "https://github.com/SchweGELBin/OpenBible2.git",
@@ -95481,6 +95646,21 @@
       "maintainer_notes": null
     }
   ],
+  "b7b69678efa9a1494c5ca8715a5daafb695594f836dacb991ecc8bf4e09fef4b": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.4.1/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 15,
+      "version_name": "2.4.1",
+      "tag": "v2.4.1",
+      "commit": "7607cdfd455dc93c499c9892553b9e8b448f6d7d",
+      "timestamp": 1791558281,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "074ee55640e3863e8967c3bce125dbfc51bb19291a6dace2d7c75b0a9385ecdb": [
     {
       "repository": "https://github.com/umutcamliyurt/IrisChat.git",
@@ -98744,6 +98924,21 @@
       "tag": "1.8.1",
       "commit": "707595f4dfac5e0cfb38b618b65c6e58c36568ae",
       "timestamp": 1774966980,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "60a028d2af7f6c2aa0ca72dd6d34e20c1678f9acb4cafd7aa20c90aef8bedbe9": [
+    {
+      "repository": "https://github.com/w2sv/WiFi-Widget.git",
+      "apk_url": "https://github.com/w2sv/WiFi-Widget/releases/download/1.8.2/1.8.2.apk",
+      "appid": "com.w2sv.wifiwidget",
+      "version_code": 72,
+      "version_name": "1.8.2",
+      "tag": "1.8.2",
+      "commit": "7e5cff002431a67e66db24a6bd72cad47af147ed",
+      "timestamp": 1791560743,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -108939,6 +109134,21 @@
       "maintainer_notes": null
     }
   ],
+  "1912899f4d520e676f059584a69c778db4409c9e09de3180ae56f8348b818748": [
+    {
+      "repository": "https://github.com/anilbeesetti/nextplayer.git",
+      "apk_url": "https://github.com/anilbeesetti/nextplayer/releases/download/v0.19.0/nextplayer-v0.19.0-arm64-v8a.apk",
+      "appid": "dev.anilbeesetti.nextplayer",
+      "version_code": 75,
+      "version_name": "0.19.0",
+      "tag": "v0.19.0",
+      "commit": "896154b5a23ec32eb124dfebc367a050a87bb2f9",
+      "timestamp": 1791576981,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3181a37e07ce7a18caf8117192666a150add16da2129d39e0aa1d03d4ec06929": [
     {
       "repository": "https://github.com/Animesh-Varma/Sigil.git",
@@ -112254,6 +112464,21 @@
       "maintainer_notes": null
     }
   ],
+  "c0bc8faf7e7c00e592f240f5d82518c00f6dc9d7e0b2c6f746e2906692e08ea1": [
+    {
+      "repository": "https://codeberg.org/wafrn/wafrn-rn.git",
+      "apk_url": "https://codeberg.org/wafrn/wafrn-rn/releases/download/v1.17.3/app-arm64-v8a-foss.apk",
+      "appid": "dev.djara.wafrn_rn",
+      "version_code": 10170032,
+      "version_name": "1.17.3",
+      "tag": "v1.17.3",
+      "commit": "46462609fd81a070c8590df4f46c40eaf510b4d1",
+      "timestamp": 1791577779,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "eb713e8dd5bf6380d41d97d21b506667c35800d98fbd5fd7552c8cc2fdc8fa49": [
     {
       "repository": "https://github.com/Elbullazul/LinkGuardian.git",
@@ -113914,6 +114139,21 @@
       "tag": "3.5.0",
       "commit": "360b5105522beeb080746f75088813874298f256",
       "timestamp": 1790778720,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "23bfc057388aad9832051d7f931dc8b8baf4e622671fed58e281df7c711378b0": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.6.0/photok-3.6.0-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 77,
+      "version_name": "3.6.0",
+      "tag": "3.6.0",
+      "commit": "91ade4ad4619a3b7d64cbf88fdd2eaaffbf994d2",
+      "timestamp": 1791571754,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -138299,6 +138539,21 @@
       "maintainer_notes": null
     }
   ],
+  "187ce6606ad5fc8372e3f6da14686f6b3500dbab81a503f7be5afbda876e4050": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Gadgetbridge.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Gadgetbridge/releases/download/0.95.1/gadgetbridge-0.95.1.apk",
+      "appid": "nodomain.freeyourgadget.gadgetbridge",
+      "version_code": 255,
+      "version_name": "0.95.1",
+      "tag": "0.95.1",
+      "commit": "97d03b7809f8efe8be4dac9f37e7c70b3e3ef44b",
+      "timestamp": 1791559076,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "2028fcb49f68e6855c6ff62bad99a15448840d448915a94a2dfb86ec5de8f047": [
     {
       "repository": "https://codeberg.org/Freeyourgadget/Internethelper.git",
@@ -153712,6 +153967,21 @@
       "tag": "v1.31.1",
       "commit": "1d71e5954e8c7ed623d29abd05c94fe98520e1a6",
       "timestamp": 1791472903,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3918249166c8098a6569c997f1bcd2dab174e9e1159c4e0f787d8d6a82e3e716": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.31.2/wizestream_v1.31.2.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1031002,
+      "version_name": "1.31.2",
+      "tag": "v1.31.2",
+      "commit": "bf7ea07afb47fd422ca544aad7ce7325315d1a48",
+      "timestamp": 1791561045,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
