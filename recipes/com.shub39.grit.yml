@@ -1826,3 +1826,31 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 6.1.1
+    apks:
+      - apk_pattern: androidApp-foss-release\.apk
+        apk_url: https://github.com/shub39/Grit/releases/download/6.1.1/androidApp-foss-release.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/foss/release/androidApp-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
