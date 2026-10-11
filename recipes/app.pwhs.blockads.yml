@@ -1,6 +1,6 @@
 ---
 repository: https://github.com/pass-with-high-score/blockads-android.git
-updates: releases
+updates: releases:v.*
 versions:
   - tag: v4.5.0
     apks:
