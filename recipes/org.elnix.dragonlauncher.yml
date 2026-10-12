@@ -1627,3 +1627,48 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 4.5.1
+    apks:
+      - apk_pattern: DragonLauncher-v?[\d\.]*\.apk
+        apk_url: https://github.com/Elnix90/Dragon-Launcher/releases/download/4.5.1/DragonLauncher-4.5.1.apk
+        build:
+          - git reset --soft 6d5b22b1241b60d30e35597d7cdbbd3f12005ea1
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - export FDROID_BUILD=1
+          - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -ri '/foojay/d ; /toolchainVendor/d' gradle/gradle-daemon-jvm.properties
+          - export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-release-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
