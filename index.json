@@ -16392,6 +16392,21 @@
       "maintainer_notes": null
     }
   ],
+  "860e8adedf833b2719a9ad65b1bc1586a644380f8e0b41e47b7604337ee5af69": [
+    {
+      "repository": "https://github.com/cromaguy/Rhythm.git",
+      "apk_url": "https://github.com/cromaguy/Rhythm/releases/download/v5.5.499.1302-stable/Rhythm-5.5.499.1302-fdroidRelease.apk",
+      "appid": "chromahub.rhythm.app",
+      "version_code": 554991302,
+      "version_name": "5.5.499.1302-fdroid",
+      "tag": "v5.5.499.1302-stable",
+      "commit": "6f26f963b82ed592ec28f05824bb7f12b65b82ea",
+      "timestamp": 1791916108,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "a710a793077fa5cae595f9600133561608bb83178b01bf9b97710d12e6acc34d": [
     {
       "repository": "https://github.com/VirtCode/SmartMouse.git",
@@ -19357,6 +19372,21 @@
       "tag": "v4.2.0",
       "commit": "ca28dcd3ca62868a68a2fa9dbfb113f4fac8806c",
       "timestamp": 1790448859,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "90159bd894415fe6f453242b3055c9a2a980e4860ed70e09a709468f91ab4814": [
+    {
+      "repository": "https://github.com/Anthonyy232/Paperize.git",
+      "apk_url": "https://github.com/Anthonyy232/Paperize/releases/download/v4.2.1/paperize-v4.2.1.apk",
+      "appid": "com.anthonyla.paperize",
+      "version_code": 58,
+      "version_name": "4.2.1",
+      "tag": "v4.2.1",
+      "commit": "66766c7926e0ff95dbe42dc734050d4483c98429",
+      "timestamp": 1791923282,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -87368,6 +87398,21 @@
       "maintainer_notes": null
     }
   ],
+  "37528aff4b4b70823ed798aab309033738dfdd182f9a2fe0d30461dd489ba922": [
+    {
+      "repository": "https://github.com/shub39/Grit.git",
+      "apk_url": "https://github.com/shub39/Grit/releases/download/6.2.0/androidApp-foss-release.apk",
+      "appid": "com.shub39.grit",
+      "version_code": 6200,
+      "version_name": "6.2.0",
+      "tag": "6.2.0",
+      "commit": "a8f698754c9e3c5bdab1d91ae76c71f923c9067f",
+      "timestamp": 1791908675,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4a76f90abcd361aab07ee4199e26a4c44d2394e7b14c5ef1e8942a71322c1706": [
     {
       "repository": "https://github.com/shub39/Rush.git",
@@ -88863,6 +88908,21 @@
       "tag": "7.1.0",
       "commit": "fb2c7683088d886858442e95143158adfb778165",
       "timestamp": 1790882631,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7aca981d906597981fef2bea4070dca5d566b725737e52cbbb1083714ef69363": [
+    {
+      "repository": "https://github.com/shub39/Rush.git",
+      "apk_url": "https://github.com/shub39/Rush/releases/download/7.1.1/androidApp-foss-release.apk",
+      "appid": "com.shub39.rush",
+      "version_code": 7110,
+      "version_name": "7.1.1",
+      "tag": "7.1.1",
+      "commit": "53becb21acffd41e44ed60b10fbb6c0ab1d8caf6",
+      "timestamp": 1791909986,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -99231,6 +99291,21 @@
       "maintainer_notes": null
     }
   ],
+  "b847df86635b84d175d372de275a38e20da57882965569802215e9f77fdb4a53": [
+    {
+      "repository": "https://github.com/w2sv/FileNavigator.git",
+      "apk_url": "https://github.com/w2sv/FileNavigator/releases/download/0.3.6/0.3.6.apk",
+      "appid": "com.w2sv.filenavigator",
+      "version_code": 22,
+      "version_name": "0.3.6",
+      "tag": "0.3.6",
+      "commit": "6177bbea1e43855d51cdd09e505bef2b23a4adeb",
+      "timestamp": 1791924657,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e6fe6966c0798355f24a97f4d82d55b35dc17411f2dc3460ee6d6b9d8f20b8bb": [
     {
       "repository": "https://github.com/w2sv/WiFi-Widget.git",
@@ -103570,6 +103645,21 @@
       "tag": "0.1.83",
       "commit": "b490f284f3f745879d81e58f94238b82c0745cab",
       "timestamp": 1791729831,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1ff115f66c68b69e5b2c04530bb9931409553399691cee6a9d5405428a833c2d": [
+    {
+      "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
+      "apk_url": "https://github.com/ZTFtrue/MonsterMusic/releases/download/0.1.84/app-arm64-v8a-release.apk",
+      "appid": "com.ztftrue.music",
+      "version_code": 84,
+      "version_name": "0.1.84",
+      "tag": "0.1.84",
+      "commit": "655ec0ec1d0f1616cc3e7350d01a3a9d273711b2",
+      "timestamp": 1791917901,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -109974,6 +110064,21 @@
       "maintainer_notes": null
     }
   ],
+  "977da789055dcb4dc49f139f0f1ce6c8c7bf1f2aed22e11d2040224363ebbf40": [
+    {
+      "repository": "https://codeberg.org/bg443/BikeBridge.git",
+      "apk_url": "https://codeberg.org/bg443/BikeBridge/releases/download/v0.3.1/BikeBridge-universal-release.apk",
+      "appid": "dev.bg.bikebridge",
+      "version_code": 13,
+      "version_name": "0.3.1",
+      "tag": "v0.3.1",
+      "commit": "9517b2ff7e257dfad0a4764b2e45cb23d8f09c5a",
+      "timestamp": 1791910451,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6ffa58ebc0c4c9a88c5abaf4c59f6da4125a279e9c9c30d4b581f4e1bf91c20d": [
     {
       "repository": "https://codeberg.org/bg443/JetBird.git",
@@ -114649,6 +114754,21 @@
       "tag": "3.6.1",
       "commit": "e3292489efd3d155b9b979a6c592b30e2ff764af",
       "timestamp": 1791730758,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "42b5af89ff5b188d73d8a116d1e637dfe9a99793f0a127131d0102ae105263c9": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.6.2/photok-3.6.2-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 79,
+      "version_name": "3.6.2",
+      "tag": "3.6.2",
+      "commit": "6ef98bc4fd7171834772dc516e1de6fb307dd3b4",
+      "timestamp": 1791911239,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -125193,6 +125313,21 @@
       "maintainer_notes": null
     }
   ],
+  "69b2b2fb349934371b1ed2d3569541cc0bda987f8aaf5eb5f5b157961f76de86": [
+    {
+      "repository": "https://github.com/Helium314/HeliBoard.git",
+      "apk_url": "https://github.com/HeliBorg/HeliBoard/releases/download/v4.2/HeliBoard_4.2-release.apk",
+      "appid": "helium314.keyboard",
+      "version_code": 4201,
+      "version_name": "4.2",
+      "tag": "v4.2",
+      "commit": "0c60dffb03a4e2e7a37cb82210f5299f93c03979",
+      "timestamp": 1791911817,
+      "reproducible": false,
+      "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": "minor ordering differences in classes.dex"
+    }
+  ],
   "ea62905803e60c5723c9f2d4ab6368f894b3f50f06f456935185306ee4eb67e7": [
     {
       "repository": "https://github.com/Helium314/Local-NLP-Backend.git",
@@ -127799,6 +127934,21 @@
       "maintainer_notes": null
     }
   ],
+  "1af7cadaa5bb6dab3dcde9c29bd4d18e2ec4087fbba7d5a3f748d40fc1be9396": [
+    {
+      "repository": "https://github.com/dorumrr/de1984.git",
+      "apk_url": "https://github.com/dorumrr/de1984/releases/download/v2.7.9/de1984-v2.7.9.apk",
+      "appid": "io.github.dorumrr.de1984",
+      "version_code": 49,
+      "version_name": "2.7.9",
+      "tag": "v2.7.9",
+      "commit": "ac8525070b32f38a916b6e4e1b4a2f69d7ab3316",
+      "timestamp": 1791912648,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0c72f2a38ea211431706b1d2316bd7fd01f859529ab196dcb371fb9b040f8889": [
     {
       "repository": "https://github.com/dorumrr/happytaxes.git",
@@ -128259,6 +128409,21 @@
       "tag": "v2.2.3",
       "commit": "1e504c6d5795a4b0d91ae65b200a77f7b2fef6d3",
       "timestamp": 1790884069,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cdf2cbb527af55796fd575d905222f7703f852dba180cd8fe6ccb1cbeaf5d8f8": [
+    {
+      "repository": "https://github.com/dorumrr/privacyFlip.git",
+      "apk_url": "https://github.com/dorumrr/privacyFlip/releases/download/v2.3.0/PrivacyFlip-v2.3.0-release.apk",
+      "appid": "io.github.dorumrr.privacyflip",
+      "version_code": 35,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "331f0802582cdf197e09f0742782918a731946c1",
+      "timestamp": 1791913063,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -131439,6 +131604,21 @@
       "tag": "v0.1.99",
       "commit": "00341a79adaaa88dbc916093925ccb53e73787e3",
       "timestamp": 1791040227,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "23cf5b7126b3022c71f6aff542fe9c931c5431bee61c0fe35dbfc34aa79674aa": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.100/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1100,
+      "version_name": "0.1.100",
+      "tag": "v0.1.100",
+      "commit": "ad44bb8ff753d2fe927ed3dd62d80274b6978013",
+      "timestamp": 1791918368,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -161110,6 +161290,21 @@
       "maintainer_notes": null
     }
   ],
+  "8fb88a9d51f67175c8c16eb7c81348b8d959324850f00a537113df308021ae68": [
+    {
+      "repository": "https://github.com/dongdongbh/Mindwtr.git",
+      "apk_url": "https://github.com/dongdongbh/Mindwtr/releases/download/v1.3.6/mindwtr-1.3.6-foss.apk",
+      "appid": "tech.dongdongbh.mindwtr",
+      "version_code": 156,
+      "version_name": "1.3.6",
+      "tag": "v1.3.6",
+      "commit": "7880a9c283bd167ef4bf82d0412adc6cff900c38",
+      "timestamp": 1791923405,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "624bf48c16d43e9b86c23fb9de5274bb54ac2ad8ed4f626012612ee26c08e1a0": [
     {
       "repository": "https://github.com/techlore/Plexus-app.git",
@@ -162380,6 +162575,21 @@
       "tag": "4.7.2",
       "commit": "eecc98006f89bc875126929ced5aaffec76c01d3",
       "timestamp": 1791833386,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f31652df60cf7edfd3d2fd8e9dd880bb2785b855c5e3d3eb16710dd5bf870935": [
+    {
+      "repository": "https://github.com/zacharee/LockscreenWidgets.git",
+      "apk_url": "https://github.com/zacharee/LockscreenWidgets/releases/download/4.7.3/WidgetsAnywhere_4.7.3-release.apk",
+      "appid": "tk.zwander.lockscreenwidgets",
+      "version_code": 220,
+      "version_name": "4.7.3",
+      "tag": "4.7.3",
+      "commit": "7a493d247a9f772c7bc585fed034fff289de262c",
+      "timestamp": 1791914102,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -163955,6 +164165,21 @@
       "tag": "v0.26.21",
       "commit": "aa7ceca9ae1149436bb99025eb150f514d4d9410",
       "timestamp": 1790178290,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a2392ee3a133e33e654d3c5d051e59065f3989cc89bc04a8a695455f9859f418": [
+    {
+      "repository": "https://github.com/nktnet1/webview-kiosk.git",
+      "apk_url": "https://github.com/nktnet1/webview-kiosk/releases/download/v0.26.22/WebviewKiosk_v0.26.22.apk",
+      "appid": "uk.nktnet.webviewkiosk",
+      "version_code": 136,
+      "version_name": "0.26.22",
+      "tag": "v0.26.22",
+      "commit": "1edcacf9b5a4d1cd13281d5a8934fef58afcdd14",
+      "timestamp": 1791922000,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
