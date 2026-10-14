@@ -91,3 +91,51 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: '10023001'
+    apks:
+      - apk_pattern: twofactorauthenticator-standard-vc.*\.apk
+        apk_url: https://codeberg.org/979/2fa/releases/download/10023001/twofactorauthenticator-standard-vc-10023001.apk
+        build:
+          - RUSTUP="$(sed -rn 's/rustup\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - RUST_TOOLCHAIN="$(sed -rn 's/rustc\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - NDKVER="$(sed -rn 's/ndk\s*=\s*"(.+)\".*/\1/p' android/gradle/libs.versions.toml)"
+          - sdkmanager --sdk_root=/opt/sdk "ndk;${NDKVER}"
+          - git clone https://github.com/rust-lang/rustup.git -b $RUSTUP
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - ${BUILD_REPO_DIR}/rustup/rustup-init.sh -y --default-toolchain $RUST_TOOLCHAIN --target aarch64-linux-android
+          - source $HOME/.cargo/env
+          - ./build_appcore.sh
+          - ./build_android.sh standard apk
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/zipalign.py --page-size 16 --pad-like-apksigner --replace android/app/build/outputs/apk/standard/release/app-standard-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /Users/macbook
+        build_repo_dir: /Users/macbook/2fa
+        build_timeout:
+        build_user: macbook
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - build-essential
+            - python3
+          image: debian:trixie-slim
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform: android-36
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
