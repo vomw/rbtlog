@@ -1,6 +1,8 @@
 ---
 repository: https://gitlab.com/marcomorosi.dev/wifiaudiostreaming-android.git
 updates: releases
+notes:
+  - upstream build recipe at https://github.com/marcomorosi06/WiFiAudioStreaming-Android/blob/master/.github/workflows/reproducible-apk.yml
 versions:
   - tag: v0.1.0-beta
     apks:

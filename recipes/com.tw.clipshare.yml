@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/thevindu-w/clip_share_client.git
 updates: releases
+notes:
+  - 'FIXME: drop the non-legacy as we do not ship it'
 versions:
   - tag: v3.1.1
     apks:
