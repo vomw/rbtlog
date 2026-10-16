@@ -479,6 +479,21 @@
       "maintainer_notes": null
     }
   ],
+  "c63728a7c8177269890371f3203c4226e5062050edeac6d5b274a8aff9aadebb": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.16.2/Podcini.A-free-legacy-arm64-v8a-12.16.2.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 141,
+      "version_name": "12.16.2",
+      "tag": "v12.16.2",
+      "commit": "19bf0c614268e0cb57bcb0a390cd39dd6a0e411f",
+      "timestamp": 1792179185,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -10747,6 +10762,21 @@
       "tag": "v9.8.2",
       "commit": "77a16b85d526a1ee0d0b67ed00561f74afd20a83",
       "timestamp": 1791490140,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "78e04d5811464f2b9d8276820b00e82b29571361c07671721c78e09f1a41ebc2": [
+    {
+      "repository": "https://github.com/Hamza417/Peristyle.git",
+      "apk_url": "https://github.com/Hamza417/Peristyle/releases/download/v9.8.3/app-prod-release.apk",
+      "appid": "app.simple.peri",
+      "version_code": 983,
+      "version_name": "v9.8.3",
+      "tag": "v9.8.3",
+      "commit": "3cc07750f2f7f39f4bc7ce5093fca67f7a056b07",
+      "timestamp": 1792170703,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -21728,6 +21758,21 @@
       "maintainer_notes": null
     }
   ],
+  "8435e91bf3c8df8f6cb850df332592101c8d8596e7852f2336a22296b34b5760": [
+    {
+      "repository": "https://github.com/BlackyHawky/Clock.git",
+      "apk_url": "https://github.com/BlackyHawky/Clock/releases/download/2.34/Clock_2.34-release.apk",
+      "appid": "com.best.deskclock",
+      "version_code": 2038,
+      "version_name": "2.34",
+      "tag": "2.34",
+      "commit": "ace4546da2ca39683582787255ede49479af3524",
+      "timestamp": 1792159523,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "804b274128bacd121533730c557e7e8a60660f0a2e3628d6a9bfb9592bd913c2": [
     {
       "repository": "https://github.com/BHznJNs/MotionEaseTune.git",
@@ -31907,6 +31952,36 @@
       "maintainer_notes": null
     }
   ],
+  "a52b7f432afb76dd52516f7f43ea66635d8118c8fc30fcd97221d7755beddae9": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.9.1/bura-1.9.1.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 20,
+      "version_name": "1.9.1",
+      "tag": "1.9.1",
+      "commit": "07c71382bb3e1db6bd3f5f1875067cabc653213b",
+      "timestamp": 1792159838,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cc7f72ccbfc014f1074c0aa923cd8b0291473a339be9bf62978e38c416a8923f": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.9.2/bura-1.9.2.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 21,
+      "version_name": "1.9.2",
+      "tag": "1.9.2",
+      "commit": "665efb0b88be1c89489b00b05368e42c0a48e8d7",
+      "timestamp": 1792175130,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6cc7bbabe6c54194ff934936fab5427acba671c0163946236288dfca0f6d8038": [
     {
       "repository": "https://github.com/DD3Boh/OuterTune.git",
@@ -32877,6 +32952,21 @@
       "tag": "v1.0.19",
       "commit": "7982a5ea985db6aa1383131b11ec06bb28860e83",
       "timestamp": 1792088833,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e096f9185f47ecda5843d184810c4bcbc71c1c53254751c34f05af11a0904954": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.20/EliteMemoPro-v1.0.20-20-universal.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 20,
+      "version_name": "1.0.20",
+      "tag": "v1.0.20",
+      "commit": "e5d4c7c86f5ed582d42155463bd91d70d6192e34",
+      "timestamp": 1792175359,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -39885,6 +39975,21 @@
       "maintainer_notes": null
     }
   ],
+  "a39c00076ca6e6d31d67ee0a188316ad8ca13fb41243b6664ab8a4cb359f05bf": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/T31n/YagniLauncher/releases/download/v1.0.5-alpha/YagniLauncher-v1.0.5-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 105,
+      "version_name": "1.0.5-alpha",
+      "tag": "v1.0.5-alpha",
+      "commit": "9c4357eb01c4c258b22e7a23ea6f2eafddab2139",
+      "timestamp": 1792160019,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "be6d5ef2fdbb10b1647be3a0fa277e04b7778762017db6b68196095df1efed9e": [
     {
       "repository": "https://github.com/eddyizm/tempus.git",
@@ -41050,6 +41155,21 @@
       "tag": "v1.5.8",
       "commit": "d9f21ec10e86b8a92f1f9a51b460f2a70fb73735",
       "timestamp": 1784210128,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ab8696bbfa8a8bd5a6b03dad5485a0c6db72bab1b729765adf25c3feb9ad08e3": [
+    {
+      "repository": "https://github.com/1372Slash/Zenith.git",
+      "apk_url": "https://github.com/1372Slash/Zenith/releases/download/v1.6/Zenith-store-1.6.apk",
+      "appid": "com.etrisad.zenith",
+      "version_code": 13,
+      "version_name": "1.6",
+      "tag": "v1.6",
+      "commit": "6e9ba2577331458a8241431f6dc87b2ea713a3d9",
+      "timestamp": 1792175658,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65135,6 +65255,21 @@
       "maintainer_notes": null
     }
   ],
+  "ebba61f90f2aa26091bfd1491d841b7435c289aa02d3179c3628162b3ce318c1": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/1.1.3/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 114,
+      "version_name": "1.1.3",
+      "tag": "1.1.3",
+      "commit": "c84e89b7307bbc2beafeae551ccc769b3a28378b",
+      "timestamp": 1792169528,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ff7b4871bfa9a283f6c65ae4bad65a85bd26875da374ae06cae019c91644fe5": [
     {
       "repository": "https://github.com/Sanmeet007/logger.git",
@@ -74632,6 +74767,21 @@
       "tag": "1.3.3",
       "commit": "dd1f428f7e3a52ea49543d7dd629ad28885ff6ad",
       "timestamp": 1791038573,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b4d1e6844246679c7c53cf8eb1458e251831e74524bf7919870ca766da23b0b5": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.3.4/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 26,
+      "version_name": "1.3.4",
+      "tag": "1.3.4",
+      "commit": "4769ec81559a3fdb97691009ceafa89c1b8a8bd7",
+      "timestamp": 1792160828,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -89348,6 +89498,21 @@
       "maintainer_notes": null
     }
   ],
+  "a6a834ef5678039b4087f5c646243d7b687f30617994d6b0195de1b7ace779bd": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V2.0.3/app-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 3015,
+      "version_name": "2.0.3",
+      "tag": "V2.0.3",
+      "commit": "11c245ada11b2c66942aec888bbfd3896d3ecea8",
+      "timestamp": 1792161674,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "41034107f4912db8a111ed5c562d446034aef5dd7953838e88e58edc5801b682": [
     {
       "repository": "https://github.com/sidhant947/Wallet.git",
@@ -91801,6 +91966,21 @@
       "tag": "v4.4.4",
       "commit": "07287de98fa5f7bb4997950a0cbe53d45b2c7f8e",
       "timestamp": 1790883133,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d1bcb8e8e3b52576f854a478336432dc76ab2d99996f44b176f64a9b839fc281": [
+    {
+      "repository": "https://github.com/sosauce/Chocola.git",
+      "apk_url": "https://github.com/sosauce/Chocola/releases/download/v4.4.6/Chocola_4.4.6.apk",
+      "appid": "com.sosauce.cutemusic",
+      "version_code": 50014,
+      "version_name": "4.4.6",
+      "tag": "v4.4.6",
+      "commit": "011eb871208ea3f183512e484aff29d4725549fc",
+      "timestamp": 1792170175,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -96316,6 +96496,21 @@
       "tag": "v2.4.1",
       "commit": "7607cdfd455dc93c499c9892553b9e8b448f6d7d",
       "timestamp": 1791558281,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "25ee6807e963e45c52fbcb3cd4843e74e06cd6d536d378bfd9f5f969a09c61aa": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.5.0/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 16,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "2d899cb4e82d03d0ce8142b04607b26faf5a8f86",
+      "timestamp": 1792162201,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -104460,6 +104655,21 @@
       "maintainer_notes": null
     }
   ],
+  "8dc3ea4047ae59e79088d15ce8f2b4909139ff0ee1ff4898a0e897c2a4ebf970": [
+    {
+      "repository": "https://github.com/deckerst/aves.git",
+      "apk_url": "https://github.com/deckerst/aves/releases/download/v1.15.6/app-izzy-arm64-v8a-release.apk",
+      "appid": "deckers.thibault.aves",
+      "version_code": 18002,
+      "version_name": "1.15.6",
+      "tag": "v1.15.6",
+      "commit": "5bf958307f24505c7ca30cc02f69a89231f6c7b0",
+      "timestamp": 1792168934,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5532fba3e7b799fed742d013ceb4c717e5c3774ecedbe5b8e7bd46937391c039": [
     {
       "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
@@ -110979,6 +111189,21 @@
       "maintainer_notes": null
     }
   ],
+  "093caeeb958eeee4738ca0b9ea78151780a79aff88c02e30958dc43e7dfbee91": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.13/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 561,
+      "version_name": "1.8.13",
+      "tag": "v1.8.13",
+      "commit": "5e4f516753ae12299509ab90ae010030e3eed46a",
+      "timestamp": 1792163121,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -115054,6 +115279,21 @@
       "tag": "3.6.2",
       "commit": "6ef98bc4fd7171834772dc516e1de6fb307dd3b4",
       "timestamp": 1791911239,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c897f21e961cb8137688b94806d9e8ef648acbe2a968a42e05eec75b750a0cb8": [
+    {
+      "repository": "https://github.com/leonlatsch/Photok.git",
+      "apk_url": "https://github.com/leonlatsch/Photok/releases/download/3.6.3/photok-3.6.3-foss.apk",
+      "appid": "dev.leonlatsch.photok",
+      "version_code": 80,
+      "version_name": "3.6.3",
+      "tag": "3.6.3",
+      "commit": "ddd7d5410478291313b93c76312c51c26cc1cd4b",
+      "timestamp": 1792176390,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -130874,6 +131114,21 @@
       "maintainer_notes": null
     }
   ],
+  "a431c7884a0eb847424500ff2f71a133a039c4d48beed86daf3975ded386f20a": [
+    {
+      "repository": "https://github.com/luantak/FokusLauncher.git",
+      "apk_url": "https://github.com/luantak/FokusLauncher/releases/download/v1.9.7/app-release.apk",
+      "appid": "io.github.luantak.fokuslauncher",
+      "version_code": 53,
+      "version_name": "1.9.7",
+      "tag": "v1.9.7",
+      "commit": "286673965a320f543911abad3fe10e9d3e4876a3",
+      "timestamp": 1792176890,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "77cc93d32a3e6b6117b9c202ff5be69082ea5711087c23e6877cef5ac4a471b4": [
     {
       "repository": "https://github.com/mkckr0/audio-share.git",
@@ -133449,6 +133704,21 @@
       "tag": "26.10",
       "commit": "378317a184f15cc45fbd66bf0b45fb758d78ea9e",
       "timestamp": 1792074476,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "41ed4f56a4a567848a4247e9ad04af12881bc73f099238562269df9d34e6ca27": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.10.1/gitnote-release-26.10.1.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 22,
+      "version_name": "26.10.1",
+      "tag": "26.10.1",
+      "commit": "a48d76ddc9b84c4c804bae413799a658473acbc7",
+      "timestamp": 1792171070,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -152114,6 +152384,21 @@
       "maintainer_notes": null
     }
   ],
+  "cce6d41cd2561040dbeb4d685b8909c301d9b5dae58c89b0304283e4edd7d84e": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.10.15/KashCal-2026.10.15-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 785,
+      "version_name": "2026.10.15",
+      "tag": "v2026.10.15",
+      "commit": "2148cb543389a0a2271f1fcbd482b95654abbd9d",
+      "timestamp": 1792164240,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -152782,6 +153067,21 @@
       "tag": "v0.0.16",
       "commit": "29d37ca1b330fd14af07a87e99345555db087d19",
       "timestamp": 1790692563,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "720de4cd98809fc162477d1880d6a603b56a123ee90323d62fc44149a6f6a2dc": [
+    {
+      "repository": "https://github.com/ranobe-org/ranobe.git",
+      "apk_url": "https://github.com/ranobe-org/ranobe/releases/download/v0.0.17/ranobe.apk",
+      "appid": "org.ranobe.ranobe",
+      "version_code": 17,
+      "version_name": "v0.0.17",
+      "tag": "v0.0.17",
+      "commit": "bd397667176c84c7c03abaa448e8bf42ded135a9",
+      "timestamp": 1792169259,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

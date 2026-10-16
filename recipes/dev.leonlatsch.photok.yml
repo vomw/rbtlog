@@ -1294,3 +1294,35 @@ versions:
           recurse_git_submodules: false
           tools:
           verify_gradle_wrapper: true
+  - tag: 3.6.3
+    apks:
+      - apk_pattern: .hotok.*(tandalone|FOSS|foss).*\.apk
+        apk_url: https://github.com/leonlatsch/Photok/releases/download/3.6.3/photok-3.6.3-foss.apk
+        build:
+          - export $(base64 -d <<< VEVMRU1FVFJZX0RFQ0tfQVBQX0lEPUU1N0Y1RkQ5LTBBMjQtNDYyMC04MkYxLTZDNzE1QjMxNjI5Ngo=)
+          - base64 -d >> gradle.properties <<< dGVsZW1ldHJ5RGVja0FwcElkPUU1N0Y1RkQ5LTBBMjQtNDYyMC04MkYxLTZDNzE1QjMxNjI5Ngo=
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/photok-*-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          recurse_git_submodules: false
+          tools:
+          verify_gradle_wrapper: true

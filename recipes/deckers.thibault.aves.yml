@@ -152,3 +152,53 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.15.6
+    apks:
+      - apk_pattern: app-izzy-arm64-v8a-release\.apk
+        apk_url: https://github.com/deckerst/aves/releases/download/v1.15.6/app-izzy-arm64-v8a-release.apk
+        build:
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK_home=${ANDROID_NDK} ANDROID_NDK_ROOT=${ANDROID_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle.kts
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - export AVES_GOOGLE_API_KEY=AIzaSyC8j4nTi9XVyX2styL6ljfXM8N1Qc0jcXI
+          - ./flutterw config --no-analytics
+          - ./flutterw pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' ${PUB_CACHE}/hosted/*/jni-*/src/CMakeLists.txt
+          - ./flutterw gen-l10n
+          - scripts/apply_flavor_izzy.sh
+          - ./flutterw build apk -t lib/main_izzy.dart --flavor izzy --split-per-abi
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/izzy/release/app-izzy-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/aves/aves
+        build_timeout: 40
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
+          cmake: 3.31.6
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
