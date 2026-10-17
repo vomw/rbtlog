@@ -1,9 +1,10 @@
 ---
 repository: https://github.com/T8RIN/ImageResizer.git
-updates: releases
+updates: disabled
 notes:
   - 'WARN: since v3.1.1, uses ~25 GB RAM on build'
   - 3.3.0 always runs into timeout; 4 builds, all identical, but with an off-by-one in baseline.prof
+  - updates in our repo are disabled, as APK size now exceeds 100MB
 versions:
   - tag: 2.9.0
     apks:

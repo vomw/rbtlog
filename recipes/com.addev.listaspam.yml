@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/adamff-dev/spam-call-blocker-app.git
 updates: releases
+notes:
+  - 'FIXME: 2.5.11 was built from non-existing commit. Remove repro-apk again with next release.'
 versions:
   - tag: 2.1.0
     apks:
@@ -575,6 +577,49 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
             sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: 2.5.11
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.11/app-release.apk
+        build:
+          - touch local.properties
+          - sed -ri '/signingConfigs.getBy/d ; /signingConfigs \{/,/^    \}/d' app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - OUT="app/build/outputs/apk/release/app-release-unsigned.apk"
+          - reproducible-apk-tools/inplace-fix.py --internal --zipalign fix-files $OUT 'sed s/f677a45e8508cad04ab32c74628effa760ca78a4/83088fb0204785c6056df0991280beeddb2081f0/' 'META-INF/version-control-info.textproto'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless
           ndk:

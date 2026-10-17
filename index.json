@@ -494,6 +494,21 @@
       "maintainer_notes": null
     }
   ],
+  "b03125ef694d433d0d6fc79c1c78e7e504cd2b6f6038d53e273ef9cfcfb2cfe0": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.16.3/Podcini.A-free-legacy-arm64-v8a-12.16.3.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 142,
+      "version_name": "12.16.3",
+      "tag": "v12.16.3",
+      "commit": "97ac5dcf8b5fefdddf83d8ee5fb06904173efb4b",
+      "timestamp": 1792261498,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -6382,6 +6397,21 @@
       "tag": "v2.18.0",
       "commit": "74b428b747004046686cbe5e24218e958afe2eb9",
       "timestamp": 1781720753,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "5ed67a0338c207bd0f8c44392dedbae8d0449fef5c8d773a202451d42bbd8cdd": [
+    {
+      "repository": "https://github.com/LawnchairLauncher/lawnicons.git",
+      "apk_url": "https://github.com/LawnchairLauncher/lawnicons/releases/download/v2.19.0/Lawnicons.2.19.0.apk",
+      "appid": "app.lawnchair.lawnicons",
+      "version_code": 27,
+      "version_name": "2.19.0",
+      "tag": "v2.19.0",
+      "commit": "6caee04a1f45fbe7950bc1b98f966c48141a55ef",
+      "timestamp": 1792261925,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -12357,6 +12387,21 @@
       "maintainer_notes": null
     }
   ],
+  "a456fb139855c9aa721ba7e6440695442b0f01b1a385e36e75bf577820e6771e": [
+    {
+      "repository": "https://github.com/FrankHJCuypers/gaai.git",
+      "apk_url": "https://github.com/FrankHJCuypers/gaai/releases/download/v1.4.0/Gaai-v104000-1.4.0-26-gd7e925c-release.apk",
+      "appid": "be.cuypers_ghys.gaai",
+      "version_code": 104000,
+      "version_name": "1.4.0-26-gd7e925c",
+      "tag": "v1.4.0",
+      "commit": "d7e925c0772cd5071402667762977c2137a22d34",
+      "timestamp": 1792245206,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "34f8a8a7c235abb7d84c5612f2bb3bcbdf828e870ec6b96e49f221cb1a25b221": [
     {
       "repository": "https://github.com/RobinJ1995/DistroHopper.git",
@@ -17317,6 +17362,21 @@
       "tag": "2.5.10",
       "commit": "ddebd6f4296a0e574a44406145b88d87e1ce68a3",
       "timestamp": 1789228992,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "119ce3d518085663064c515b4e4ef3eca616deabe55595fb094aa69de44a0025": [
+    {
+      "repository": "https://github.com/adamff-dev/spam-call-blocker-app.git",
+      "apk_url": "https://github.com/adamff-dev/spam-call-blocker-app/releases/download/2.5.11/app-release.apk",
+      "appid": "com.addev.listaspam",
+      "version_code": 35,
+      "version_name": "2.5.11",
+      "tag": "2.5.11",
+      "commit": "f677a45e8508cad04ab32c74628effa760ca78a4",
+      "timestamp": 1792267434,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -28487,6 +28547,21 @@
       "maintainer_notes": null
     }
   ],
+  "a9be7cb0d99dbcd4e8369ed34a1e6d88518495047445905b1b22594b92434398": [
+    {
+      "repository": "https://github.com/cliambrown/PillTime.git",
+      "apk_url": "https://github.com/cliambrown/PillTime/releases/download/v22.0/pill_time_v22.0.apk",
+      "appid": "com.cliambrown.pilltime",
+      "version_code": 22,
+      "version_name": "22.0",
+      "tag": "v22.0",
+      "commit": "2b8e337850864b6249f67c4ce37e070347e167ce",
+      "timestamp": 1792262294,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "82d5ff3b76adc1ca65cda98402ae0d01c7f185db3a56f57bdbeae927dc0fa6d0": [
     {
       "repository": "https://github.com/ClusterM/usb-serial-telnet-server.git",
@@ -32972,6 +33047,21 @@
       "maintainer_notes": null
     }
   ],
+  "f2e1b904992becc451d69fbc1def4b945c495e102304fe4fabc57bea7c3919e1": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.21/EliteMemoPro-v1.0.21-21-universal.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 21,
+      "version_name": "1.0.21",
+      "tag": "v1.0.21",
+      "commit": "fe99e21edee00786b6f3a05fd7481e6ed48b83ad",
+      "timestamp": 1792262444,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "215d538d285efac2bd934e06574e08421af1fe5565dc240ee481c070cc266ae9": [
     {
       "repository": "https://github.com/mona-hrt/mona.git",
@@ -33297,6 +33387,21 @@
       "tag": "v1.24.1",
       "commit": "6b20995c47801a53f3b3a59acc3d96d1a3c651de",
       "timestamp": 1791657564,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1652d08db649da5657c086a46307dd36ef77f672514dc0129d972cbf4e58331c": [
+    {
+      "repository": "https://github.com/mona-hrt/mona.git",
+      "apk_url": "https://github.com/mona-hrt/mona/releases/download/v1.24.2/mona-store-arm64-v8a.apk",
+      "appid": "com.deliacheminot.mona",
+      "version_code": 2032,
+      "version_name": "1.24.2",
+      "tag": "v1.24.2",
+      "commit": "cd68cca7788aae6b0bbdc72fdd3796613e92ec98",
+      "timestamp": 1792262746,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -35202,6 +35307,21 @@
       "tag": "0.0.57",
       "commit": "e34de7d120afc64d29f6bae848ac889868c356d1",
       "timestamp": 1791497236,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7bbb2c0a1fddaf2b4a135b7c730be4234e8c6652900b14a86f1a8bf2b1905661": [
+    {
+      "repository": "https://github.com/dessalines/habit-maker.git",
+      "apk_url": "https://github.com/dessalines/habit-maker/releases/download/0.0.58/habit-maker-fdroid-0.0.58.apk",
+      "appid": "com.dessalines.habitmaker",
+      "version_code": 5801,
+      "version_name": "0.0.58-fdroid",
+      "tag": "0.0.58",
+      "commit": "9d590e5f57a216cf6b42607ff39c9d8263b03024",
+      "timestamp": 1792253703,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -43513,6 +43633,21 @@
       "maintainer_notes": null
     }
   ],
+  "07300f7fe6a9ef3736936f9144b29cb67cfa19a16e637360943c9cfebff7256b": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.48.0/com.fibelatti.photowidget-v1.48-1480000-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1480000,
+      "version_name": "1.48",
+      "tag": "v1.48.0",
+      "commit": "c5bbd23514f420c3e50b9669615fc4b46c566bc3",
+      "timestamp": 1792263461,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "557d5f35de0c1a494f4c1d721ce2303852206ae8eb14279200396526bbcd94df": [
     {
       "repository": "https://github.com/fibelatti/pinboard-kotlin.git",
@@ -45178,6 +45313,21 @@
       "maintainer_notes": null
     }
   ],
+  "82d366c21e376c8d4c0b6261378633c6901c26a647c07752b0f14057973e60ef": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.1/PrivateDnsQS-v3.1-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 61,
+      "version_name": "3.1",
+      "tag": "v3.1",
+      "commit": "4ceba23fe9a625a1178b998255d72d2b8d090064",
+      "timestamp": 1792254219,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -45388,6 +45538,21 @@
       "maintainer_notes": null
     }
   ],
+  "e6cd4f63a7d22ba68b67e74cfa6025805203dad934baa37faa0f659381051157": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.1/PrivateDnsQS-v3.1-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 61,
+      "version_name": "3.1",
+      "tag": "v3.1",
+      "commit": "4ceba23fe9a625a1178b998255d72d2b8d090064",
+      "timestamp": 1792254879,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "4c386782d0783fde8c7ac2f5f1be7b72dc7a98539841ba5baa946ab734023e4c": [
     {
       "repository": "https://codeberg.org/epinez/Compete.git",
@@ -45488,6 +45653,21 @@
       "tag": "v0.14.0",
       "commit": "097d388095371c75872155efd9720869cdb51546",
       "timestamp": 1788119123,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8fcd10ad8f8a5af63cb2d8b542c78dd9d46f1b59d777f8ac6c7b937c58d02dd5": [
+    {
+      "repository": "https://codeberg.org/epinez/Energize.git",
+      "apk_url": "https://codeberg.org/epinez/Energize/releases/download/v0.15.0/app-arm64-v8a-release.apk",
+      "appid": "com.flasskamp.energize",
+      "version_code": 372,
+      "version_name": "0.15.0",
+      "tag": "v0.15.0",
+      "commit": "12f4a8691bb4b32d1b8a69835902698ea5648ad7",
+      "timestamp": 1792254034,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55355,6 +55535,21 @@
       "maintainer_notes": null
     }
   ],
+  "b7e034a42704ed3538202544760c471bf6c8c443cae0df42cff2dfb0bfe11660": [
+    {
+      "repository": "https://github.com/tfonteyn/NeverTooManyBooks.git",
+      "apk_url": "https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v8.1.0/NeverTooManyBooks-8.1.0.apk",
+      "appid": "com.hardbacknutter.nevertoomanybooks",
+      "version_code": 130,
+      "version_name": "8.1.0",
+      "tag": "v8.1.0",
+      "commit": "5f64607998b85538c657dfc374f7155d671ac893",
+      "timestamp": 1792268770,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f7cf6f10b51f36cf8e253c468c3cdd328ea57b0750e3cb17e7249eff06b9c009": [
     {
       "repository": "https://github.com/tfonteyn/Sshd4a.git",
@@ -60845,6 +61040,21 @@
       "maintainer_notes": null
     }
   ],
+  "e190c824abdd204d63ef07942d4f83be63c4f4eb4667d22eaef4fe751956eb98": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.59/kelani-sbd-tracker-v2.0.59.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 159,
+      "version_name": "2.0.59",
+      "tag": "v2.0.59",
+      "commit": "701f330a25fcabfedc7dd43f37a05886da77b17a",
+      "timestamp": 1792246505,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -65265,6 +65475,21 @@
       "tag": "1.1.3",
       "commit": "c84e89b7307bbc2beafeae551ccc769b3a28378b",
       "timestamp": 1792169528,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "71c752e33eb82055409282343cd680dace87ff3c4c8f0e76f6403092ba2bff3b": [
+    {
+      "repository": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica.git",
+      "apk_url": "https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases/download/1.1.4/RaccoonForFriendica-arm64-v8a-release.apk",
+      "appid": "com.livefast.eattrash.raccoonforfriendica",
+      "version_code": 115,
+      "version_name": "1.1.4",
+      "tag": "1.1.4",
+      "commit": "0bd6a4837382b98ffb623f83a179afafeaa4b026",
+      "timestamp": 1792269932,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -71221,6 +71446,21 @@
       "maintainer_notes": null
     }
   ],
+  "5ddf94bd0e36e87ff8dd6c769d2c931694e68f38190dd261a5cf28b86b0b4c75": [
+    {
+      "repository": "https://github.com/monuk7735/nope-remote.git",
+      "apk_url": "https://github.com/monuk7735/nope-remote/releases/download/v2.5/NopeRemote-v2.5.apk",
+      "appid": "com.monuk7735.nope.remote",
+      "version_code": 25,
+      "version_name": "2.5",
+      "tag": "v2.5",
+      "commit": "246e0fc0702c87ce43377344ba26271cc2720fa1",
+      "timestamp": 1792246649,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "66ae7610512bcbd9692c5e7f7c2740f8a14b12598d9fadbc3122c1b67d463de0": [
     {
       "repository": "https://github.com/wardellbagby/sensor-disabler.git",
@@ -76362,6 +76602,21 @@
       "maintainer_notes": null
     }
   ],
+  "55b0b02acc654678f46c7b3e8b7f73bfd93d94aa1e2f45e5cd54835c8623fe6f": [
+    {
+      "repository": "https://github.com/Oppzippy/OpenSCQ30.git",
+      "apk_url": "https://github.com/Oppzippy/OpenSCQ30/releases/download/v2.13.0/openscq30-android-arm64-v8a.apk",
+      "appid": "com.oppzippy.openscq30",
+      "version_code": 1029,
+      "version_name": "2.13.0",
+      "tag": "v2.13.0",
+      "commit": "c730b832f8d409b215fcd7f59c07c8a624dea9aa",
+      "timestamp": 1792255261,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "9701284772fe24a72e1ee380d9ba154bd042ae90685254701fafda7e1d2a5230": [
     {
       "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
@@ -76642,6 +76897,21 @@
       "tag": "v1.23.1",
       "commit": "556140f640ad5abb21c9fc80d92a78a8bb8c7eb7",
       "timestamp": 1791492538,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "75aae739a9f5f1493af4fb15031431cbb8d064fc8aa2daee7d4a359203c6f79e": [
+    {
+      "repository": "https://github.com/orgzly-revived/orgzly-android-revived.git",
+      "apk_url": "https://github.com/orgzly-revived/orgzly-android-revived/releases/download/v1.24.0/orgzly-revived-fdroid-1.24.0.apk",
+      "appid": "com.orgzlyrevived",
+      "version_code": 295,
+      "version_name": "1.24.0",
+      "tag": "v1.24.0",
+      "commit": "7c6ccb7ac4b01e71008e3c6df817afe9c404eb92",
+      "timestamp": 1792268214,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -79297,6 +79567,21 @@
       "tag": "v3.10.6",
       "commit": "f78a580bf83f4082ebd7ccf76ff64ba4be958e1a",
       "timestamp": 1789585348,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3204f52f558200e6a185b732f136aee56e434dc14658a33023c1353fa5174329": [
+    {
+      "repository": "https://github.com/PranshulGG/WeatherMaster.git",
+      "apk_url": "https://github.com/PranshulGG/WeatherMaster/releases/download/v3.11.0/WeatherMaster.v3.11.0.apk",
+      "appid": "com.pranshulgg.weather_master_app",
+      "version_code": 68,
+      "version_name": "3.11.0",
+      "tag": "v3.11.0",
+      "commit": "206a8ab23a49a426c17fb7256b684db97d7c2d94",
+      "timestamp": 1792254967,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -89508,6 +89793,21 @@
       "tag": "V2.0.3",
       "commit": "11c245ada11b2c66942aec888bbfd3896d3ecea8",
       "timestamp": 1792161674,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "25d64cd4705f116d24057ce584b5afa935c694c4de5ea455c2a845af3c933577": [
+    {
+      "repository": "https://github.com/sidhant947/Path.git",
+      "apk_url": "https://github.com/sidhant947/Path/releases/download/V2.0.4/app-release.apk",
+      "appid": "com.sidhant.path",
+      "version_code": 3016,
+      "version_name": "2.0.4",
+      "tag": "V2.0.4",
+      "commit": "2a16aa023c7290d45aea3a273643b5f9ef10d7b1",
+      "timestamp": 1792265250,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -105675,6 +105975,21 @@
       "maintainer_notes": null
     }
   ],
+  "2abeee5e140ad931a00fe44794a0b638394456804bed35c0ec067903251522d8": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.11.1/worldclockv2_v1.11.1_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 33,
+      "version_name": "1.11.1",
+      "tag": "v1.11.1",
+      "commit": "5dc2cb0ce636e5ab64c87e729e795c46a813b238",
+      "timestamp": 1792255489,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a3e340b77ebb0f2bd1a25aa9015d06bd0cd57c6bb1917714209cbe33041f9b": [
     {
       "repository": "https://github.com/Joinsider/dhbw.git",
@@ -111204,6 +111519,21 @@
       "maintainer_notes": null
     }
   ],
+  "4e12fcd7c21d812b7f9a60200e601eb0c66671ccf05827a30b15b4820e5d71cc": [
+    {
+      "repository": "https://codeberg.org/bg443/JetBird.git",
+      "apk_url": "https://codeberg.org/bg443/JetBird/releases/download/v1.8.15/JetBird-armeabi-v7a-release.apk",
+      "appid": "dev.bg.jetbird",
+      "version_code": 581,
+      "version_name": "1.8.15",
+      "tag": "v1.8.15",
+      "commit": "3d2a91077a8bfecc9b4e5ec667a86be7ae3602f9",
+      "timestamp": 1792249829,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "24c5f01414c9da9c46f927bba0a4bb61f8e2ee8b11304c5fbcbbbfe290c0c930": [
     {
       "repository": "https://codeberg.org/bg443/Octo.git",
@@ -114334,6 +114664,21 @@
       "tag": "v1.6.17",
       "commit": "031f18ef6636ee97a7d1ce25cb5e19bfb9b3833c",
       "timestamp": 1789325573,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "418e478a2b332750a5ee015ec622963f689475f1e28b1149097856b7b368ad38": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.0/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23583,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "dbb9c0da9772f5d4bb8d18ef4013ff3b82b22fca",
+      "timestamp": 1792256004,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -123958,6 +124303,21 @@
       "tag": "v2.9.0",
       "commit": "97849d640e717cba99e4b0012338571aeb3d925e",
       "timestamp": 1790175810,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8a122da30f2a6a9324cb96593ae2598bbbf3c2128dd7df6f9734b5e6ef148989": [
+    {
+      "repository": "https://github.com/hxreborn/punch-hole-download-progress.git",
+      "apk_url": "https://github.com/hxreborn/punch-hole-download-progress/releases/download/v2.10.0/phdp-v2.10.0-release.apk",
+      "appid": "eu.hxreborn.phdp",
+      "version_code": 210000,
+      "version_name": "2.10.0",
+      "tag": "v2.10.0",
+      "commit": "e708e0b63405514b56ed74c0b51c62f45cee98a7",
+      "timestamp": 1792255818,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -152399,6 +152759,21 @@
       "maintainer_notes": null
     }
   ],
+  "274828ac9d2a067344cffc22e061558ea39d9891e5d4ffd64b44e5fcfcd6b381": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.10.16/KashCal-2026.10.16-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 788,
+      "version_name": "2026.10.16",
+      "tag": "v2026.10.16",
+      "commit": "d637d8fa99608e02b46cdd729ca26c3ba36184df",
+      "timestamp": 1792256756,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -159545,6 +159920,21 @@
       "tag": "v2.2.1",
       "commit": "f54920f898db49c5056217fb9ee85fb7410b2b7f",
       "timestamp": 1760187896,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "af2d19090dc5e2d3071de94391fcee1c5b3e946eb6536424ca5ca7bf573d9d0f": [
+    {
+      "repository": "https://github.com/atomofiron/android-wifi-seeker.git",
+      "apk_url": "https://github.com/atomofiron/android-wifi-seeker/releases/download/v2.3.0/wifi_seeker_v2.3.0.apk",
+      "appid": "ru.raslav.wirelessscan",
+      "version_code": 21,
+      "version_name": "2.3.0",
+      "tag": "v2.3.0",
+      "commit": "933f1bcfc5c31981765e99087e746b1e0d6d53e3",
+      "timestamp": 1792271071,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
