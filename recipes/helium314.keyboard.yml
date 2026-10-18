@@ -388,8 +388,8 @@ versions:
             url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
             sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages: []
-          image: debian:bookworm-slim
-          jdk: openjdk-17-jdk-headless
+          image: ubuntu:noble
+          jdk: openjdk-25-jdk-headless
           ndk:
           platform:
           platform_tools:
