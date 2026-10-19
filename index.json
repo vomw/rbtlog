@@ -9372,6 +9372,21 @@
       "maintainer_notes": null
     }
   ],
+  "880c85548c075601279d6aea83f23d707029338c38cd71c99755092324edfd4b": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.19.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 43,
+      "version_name": "1.19.0",
+      "tag": "v1.19.0",
+      "commit": "f0a41f441c3d656ccb75dcd685449ffe50fbd557",
+      "timestamp": 1792417999,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "313cdbb45f82d8d8f14f0fd1c9d012adb42b97d1c4da94633519f898ff69c75c": [
     {
       "repository": "https://github.com/Hamza417/Inure.git",
@@ -21325,6 +21340,21 @@
       "maintainer_notes": null
     }
   ],
+  "73351f9a7e0811e636dd7f839c6f4418e9b5723e2e5909420ae918bc71bd6516": [
+    {
+      "repository": "https://github.com/axiel7/MoeListKMP.git",
+      "apk_url": "https://github.com/axiel7/MoeListKMP/releases/download/4.1.2/moelist-4.1.2-universal-release.apk",
+      "appid": "com.axiel7.moelist",
+      "version_code": 408,
+      "version_name": "4.1.2",
+      "tag": "4.1.2",
+      "commit": "dbd6d6ee7d1b36b1712919b4e9bdae385929185f",
+      "timestamp": 1792429885,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "23e986e47d9062c2e0709cb3cf1ddbef8367118bf9654994a02e7b0412fb7ed5": [
     {
       "repository": "https://github.com/beemdevelopment/Aegis.git",
@@ -23686,6 +23716,21 @@
       "tag": "v12.8.2",
       "commit": "89d7729903066c9001463182b45448f7d54218af",
       "timestamp": 1783627583,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6de68123d8c62cddca84b870d53b3a25a1672d66e234746232cba957262fd49b": [
+    {
+      "repository": "https://github.com/mi-g-alex/Telegram-Monet.git",
+      "apk_url": "https://github.com/mi-g-alex/Telegram-Monet/releases/download/v13.0.2/Telegram.Monet.13.0.2.apk",
+      "appid": "com.c3r5b8.telegram_monet",
+      "version_code": 26101801,
+      "version_name": "13.0.2",
+      "tag": "v13.0.2",
+      "commit": "1f0524ee92b817c44d72c54b6b1b2d71c4f17b2a",
+      "timestamp": 1792441651,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -26577,6 +26622,21 @@
       "tag": "2026.07.1212",
       "commit": "5bcbdc811bed5513a00771688ba397acaa4c9005",
       "timestamp": 1784383997,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "aeed7b38ddca27217182d14b61d1c36d119bb91ed346a4bbcf276975dade090f": [
+    {
+      "repository": "https://github.com/jocmp/capyreader.git",
+      "apk_url": "https://github.com/jocmp/capyreader/releases/download/2026.10.1213/app-free-release.apk",
+      "appid": "com.capyreader.app",
+      "version_code": 1213,
+      "version_name": "2026.10.1213",
+      "tag": "2026.10.1213",
+      "commit": "1ecfa2a7917a10800b347d2b815cbd59846e8b9b",
+      "timestamp": 1792418518,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -34052,6 +34112,21 @@
       "maintainer_notes": null
     }
   ],
+  "20401185ac52b4fe5dd4458b9b1221f31425c14b9ef1b5ebcee61696d928e0bd": [
+    {
+      "repository": "https://github.com/Demizo/Daily_You.git",
+      "apk_url": "https://github.com/Demizo/Daily_You/releases/download/v3.7.0/daily-you-arm64-v8a-v3.7.0.apk",
+      "appid": "com.demizo.daily_you",
+      "version_code": 30070002,
+      "version_name": "3.7.0",
+      "tag": "v3.7.0",
+      "commit": "d9615d8b9bdb8c4074ba5c50043d9c3ea93dd16a",
+      "timestamp": 1792430466,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "16c0fed43897315e948fa71aabcc25176a456fe8544802e0d26e644a0a44902b": [
     {
       "repository": "https://github.com/deniscerri/ytdlnis.git",
@@ -34332,6 +34407,21 @@
       "tag": "v1.9.1",
       "commit": "5f77690fab5386ea9037c1ede2ff893a23df83a4",
       "timestamp": 1792353697,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6758d147f4d29d3a56d354d8a6d71f98d0b0530d46b67af4a5b961c0424195a5": [
+    {
+      "repository": "https://github.com/deniscerri/ytdlnis.git",
+      "apk_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.9.1.1/YTDLnis-1.9.1.1-izzy-arm64-v8a-release.apk",
+      "appid": "com.deniscerri.ytdl",
+      "version_code": 109010104,
+      "version_name": "1.9.1.1",
+      "tag": "v1.9.1.1",
+      "commit": "2bec7edf34801c4a633223023a229c2ad591776d",
+      "timestamp": 1792435192,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -40165,6 +40255,21 @@
       "tag": "v1.0.5-alpha",
       "commit": "9c4357eb01c4c258b22e7a23ea6f2eafddab2139",
       "timestamp": 1792160019,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "64ba9d2f416ec59dfbb1d22fed75c80dc7ae0e33a6e4af157c59041ab3d64b5a": [
+    {
+      "repository": "https://github.com/JackEblan/YagniLauncher.git",
+      "apk_url": "https://github.com/T31n/YagniLauncher/releases/download/v1.0.6-alpha/YagniLauncher-v1.0.6-alpha.apk",
+      "appid": "com.eblan.launcher",
+      "version_code": 106,
+      "version_name": "1.0.6-alpha",
+      "tag": "v1.0.6-alpha",
+      "commit": "cc44d37e9a5c26858b72c84afbf3362c21858241",
+      "timestamp": 1792420746,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -49853,6 +49958,21 @@
       "tag": "2.5.2",
       "commit": "3812299b5010f21c13fa646a05dc0c0c4787bf31",
       "timestamp": 1792350014,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "93d5e4c7d2e2fff1b791de15ea9fa699e73c73b0437bd2c476007119ac34848a": [
+    {
+      "repository": "https://github.com/Helltar/ANPASIDE.git",
+      "apk_url": "https://github.com/Helltar/ANPASIDE/releases/download/2.5.3/app-release.apk",
+      "appid": "com.github.helltar.anpaside",
+      "version_code": 50,
+      "version_name": "2.5.3",
+      "tag": "2.5.3",
+      "commit": "5e4a5af92fa526002b42c9e675869d96fd82848a",
+      "timestamp": 1792420989,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -67951,6 +68071,21 @@
       "maintainer_notes": null
     }
   ],
+  "ae589b881977b98991689e86199a6eaf9ce56b9669fd358bf7b27464ef4b9841": [
+    {
+      "repository": "https://github.com/Masterisk-F/StationAccessSupporter.git",
+      "apk_url": "https://github.com/Masterisk-F/StationAccessSupporter/releases/download/v0.2.1-v20260930/app-arm64-v8a-release.apk",
+      "appid": "com.masterisk_f.accesssupporter",
+      "version_code": 12,
+      "version_name": "0.2.1-v20260930",
+      "tag": "v0.2.1-v20260930",
+      "commit": "8e0726d59be9a2f23e6e49b1a5b22147499cff46",
+      "timestamp": 1792435738,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "99454b7afd2e0aa74e6eecafdba29fc8fa3e625a53acf6e988593962c8de5ba5": [
     {
       "repository": "https://github.com/matan-h/Transfer.git",
@@ -75702,6 +75837,21 @@
       "maintainer_notes": null
     }
   ],
+  "325cba53bc17ff52995969d48aee97f8f3b373f2b5bb9360b3131ff2ae8ce76f": [
+    {
+      "repository": "https://github.com/OpenAppsLabs/Coffee.git",
+      "apk_url": "https://github.com/OpenAppsLabs/Coffee/releases/download/v1.6.0/app-release.apk",
+      "appid": "com.openappslabs.coffee",
+      "version_code": 8,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "4642d478f45715ff59bc1b3ad7e2dadbdbc88c15",
+      "timestamp": 1792421134,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6c2e9237cbdfaccb7b0f8bee2e492a4152f3e1bae194097ce50d57fe472fee61": [
     {
       "repository": "https://github.com/OpenAppsLabs/5G.git",
@@ -77152,6 +77302,21 @@
       "tag": "v3.3",
       "commit": "d1a03d8e7e73f9c53455ca8330e13599b1e54433",
       "timestamp": 1721603336,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f2f28ff99e9ce935956e4ffb6173a45b3d07db309b4fcc4af611da3e47a3b83d": [
+    {
+      "repository": "https://github.com/Ounzy/OpenBl.git",
+      "apk_url": "https://github.com/Ounzy/OpenBl/releases/download/v4.0/app-release.apk",
+      "appid": "com.Ounzy.OpenBl",
+      "version_code": 12,
+      "version_name": "4.0",
+      "tag": "v4.0",
+      "commit": "4b58d41bd4a8ad98383965537cf3f91f7c6d04ae",
+      "timestamp": 1792440035,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -86592,6 +86757,21 @@
       "maintainer_notes": null
     }
   ],
+  "82b67d2cfb45c1d1b5c9ea371fb931afb33a7d46d53f8b3867f28c008a6105fe": [
+    {
+      "repository": "https://github.com/isaacsa51/Minus.git",
+      "apk_url": "https://github.com/isaacsa51/Minus/releases/download/v1.10.1/Minus-v1.10.1.apk",
+      "appid": "com.serranoie.app.minus",
+      "version_code": 11001,
+      "version_name": "1.10.1",
+      "tag": "v1.10.1",
+      "commit": "474492c1885434dbc2999996731c869b508ec917",
+      "timestamp": 1792421859,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f801534465ed5d1ad98343db6e48b1c610ead80c990ae3c767709293f614e27a": [
     {
       "repository": "https://github.com/shalenMathew/MovieFlix_App.git",
@@ -87290,6 +87470,21 @@
       "tag": "4.0.0",
       "commit": "ca0da417ba793c74aa246dbadaba88554a8c0aa4",
       "timestamp": 1792354839,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e3d818f362b29ecc8c14d99ab96878dd29a46f411ca2c1ae676a3d017b9b551c": [
+    {
+      "repository": "https://github.com/shub39/Dharmik.git",
+      "apk_url": "https://github.com/shub39/Dharmik/releases/download/4.1.1/androidApp-release.apk",
+      "appid": "com.shub39.dharmik.online",
+      "version_code": 4110,
+      "version_name": "4.1.1",
+      "tag": "4.1.1",
+      "commit": "ca9b691b7b7b0b13e1802783df421c2aeeb58b2b",
+      "timestamp": 1792431364,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -96606,6 +96801,21 @@
       "maintainer_notes": null
     }
   ],
+  "716fd4797b2ba726e01b9dc4377ea11a93b9e6ebf3b6a92617f2aeabfc083d45": [
+    {
+      "repository": "https://github.com/thevindu-w/clip_share_client.git",
+      "apk_url": "https://github.com/thevindu-w/clip_share_client/releases/download/v4.3.0/clip_share_client-legacy.apk",
+      "appid": "com.tw.clipshare",
+      "version_code": 40300,
+      "version_name": "4.3.0",
+      "tag": "v4.3.0",
+      "commit": "bb2b5a75dd152dcd43ec4202f8a74ba0cac41b8b",
+      "timestamp": 1792442169,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1b2fe1a02fc07f2e615fec1ddb083e8a37a1691f4164b55db3db7d3ca08793a8": [
     {
       "repository": "https://github.com/tymwitko/Recents.git",
@@ -102452,6 +102662,21 @@
       "maintainer_notes": null
     }
   ],
+  "0920451ed36f64cad9afd3f41d4677799c3e69401b4575a549238258f8a654a2": [
+    {
+      "repository": "https://github.com/wgtunnel/wgtunnel.git",
+      "apk_url": "https://github.com/wgtunnel/android/releases/download/5.8.2/wgtunnel-fdroid-v5.8.2-arm64.apk",
+      "appid": "com.zaneschepke.wireguardautotunnel",
+      "version_code": 50802,
+      "version_name": "5.8.2",
+      "tag": "5.8.2",
+      "commit": "db07ccd45f49608f48b9ae86ff0a366c195da15b",
+      "timestamp": 1792423789,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "264704e5c46bc5a1b79087d81a1a0b0738ec87a8d8436eacfd2be660f1ac5fa9": [
     {
       "repository": "https://codeberg.org/ItsZariep/OpenNavBar.git",
@@ -105255,6 +105480,21 @@
       "maintainer_notes": null
     }
   ],
+  "ba28b8778c334768fd861aa541dcb5040058ea67eab7384d138e48bbdc02bcc7": [
+    {
+      "repository": "https://github.com/deckerst/aves.git",
+      "apk_url": "https://github.com/deckerst/aves/releases/download/v1.15.7/app-izzy-arm64-v8a-release.apk",
+      "appid": "deckers.thibault.aves",
+      "version_code": 18102,
+      "version_name": "1.15.7",
+      "tag": "v1.15.7",
+      "commit": "44172adfd9dca89a7f0a1edde8318da5755601fe",
+      "timestamp": 1792432474,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5532fba3e7b799fed742d013ceb4c717e5c3774ecedbe5b8e7bd46937391c039": [
     {
       "repository": "https://github.com/DennisBauer/RecurringExpenseTracker.git",
@@ -106285,6 +106525,21 @@
       "tag": "v1.12.0",
       "commit": "44779f56f39d448cdf9227b3d521309bfc29fcf5",
       "timestamp": 1792333755,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0653763e6c64be2c0e9aa5336dc1ca87e547585aa6351e5808a415609b92099d": [
+    {
+      "repository": "https://github.com/EricZeller/flutter-world-clock-v2.git",
+      "apk_url": "https://github.com/EricZeller/flutter-world-clock-v2/releases/download/v1.12.2/worldclockv2_v1.12.2_android_arm64.apk",
+      "appid": "de.ericz.worldclockv2",
+      "version_code": 36,
+      "version_name": "1.12.2",
+      "tag": "v1.12.2",
+      "commit": "02852f582c9429cb8535b2c50cf485723e6040f1",
+      "timestamp": 1792431862,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -112414,6 +112669,21 @@
       "tag": "2.5.0",
       "commit": "5d2996a99cc641a16451c06a2357aabff8eaf400",
       "timestamp": 1788807927,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "0ec5335d77802764e541b0b03f5b77366faaac1a0f9c087457793707f0d0b4b1": [
+    {
+      "repository": "https://github.com/chukfinley/Better-Bahn.git",
+      "apk_url": "https://github.com/chuk-development/Besser-Bahn/releases/download/2.6.0/BesserBahn-2.6.0-arm64-v8a.apk",
+      "appid": "dev.chuk.betterbahn",
+      "version_code": 22600,
+      "version_name": "2.6.0",
+      "tag": "2.6.0",
+      "commit": "e33195123ac566c994a76ad847f6c0f6ae62bfa7",
+      "timestamp": 1792437122,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122330,6 +122600,21 @@
       "maintainer_notes": null
     }
   ],
+  "11b5b9084c27ab3b30db47c92f403129244c178e81e07c0bb0ffbb64a9bb1bb6": [
+    {
+      "repository": "https://github.com/d4rken-org/sdmaid-se.git",
+      "apk_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v2.2.2-rc0/eu.darken.sdmse-v2.2.2-rc0-20202000-FOSS-RELEASE.apk",
+      "appid": "eu.darken.sdmse",
+      "version_code": 20202000,
+      "version_name": "2.2.2-rc0",
+      "tag": "v2.2.2-rc0",
+      "commit": "2d39c79bf2107a942ab813f5d2a5da862e191544",
+      "timestamp": 1792437735,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "7db8ec76a506e20112d256ec9003bfbc6e2cd231e767ca01e5528f9e3632c22b": [
     {
       "repository": "https://github.com/M66B/FairEmail.git",
@@ -130317,6 +130602,21 @@
       "maintainer_notes": null
     }
   ],
+  "3b5fe60d3ca9c8631e75652c19cb1e91748cdb043ab7bc64f428e6188041148b": [
+    {
+      "repository": "https://github.com/FriesI23/mhabit.git",
+      "apk_url": "https://github.com/FriesI23/mhabit/releases/download/v1.27.15%2B204/app-arm64-v8a-release.apk",
+      "appid": "io.github.friesi23.mhabit",
+      "version_code": 2204,
+      "version_name": "1.27.15",
+      "tag": "v1.27.15+204",
+      "commit": "fa192de1340fc87fbe4eca88b700e4c1a5033f6f",
+      "timestamp": 1792438423,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "e47c9af46258cdd401555158f6a57503770564d87de7ef08b373c8a381444ec6": [
     {
       "repository": "https://github.com/Giuig/auraninja.git",
@@ -134437,6 +134737,21 @@
       "tag": "26.10.1",
       "commit": "a48d76ddc9b84c4c804bae413799a658473acbc7",
       "timestamp": 1792171070,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "908c7042de7bd4fb1dba51d1e1d44a1131486979a4a69f7c5824e59a99fcd9ad": [
+    {
+      "repository": "https://github.com/wiiznokes/gitnote.git",
+      "apk_url": "https://github.com/wiiznokes/gitnote/releases/download/26.10.2/gitnote-release-26.10.2.apk",
+      "appid": "io.github.wiiznokes.gitnote",
+      "version_code": 23,
+      "version_name": "26.10.2",
+      "tag": "26.10.2",
+      "commit": "e17fe16335a82667704b12bb5ae25e5a10f99520",
+      "timestamp": 1792427747,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -161463,6 +161778,21 @@
       "tag": "1.3.8",
       "commit": "88251a672e42c36c373addbc6f46a5de570c6d1e",
       "timestamp": 1792336689,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4dddb61cbbb063cf784885973560ddc28d55a8fd516b94e14c58bee06e7bfee4": [
+    {
+      "repository": "https://gitlab.com/derp-si/slovenijaRT.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/55942970/packages/generic/android/1.3.9/brezavta-1.3.9.apk",
+      "appid": "si.brezavta.mobile",
+      "version_code": 1003009,
+      "version_name": "1.3.9",
+      "tag": "1.3.9",
+      "commit": "ca4b2143f53fc99d2b690028681863b301175121",
+      "timestamp": 1792427996,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

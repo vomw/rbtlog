@@ -3925,3 +3925,44 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.0.6-alpha
+    apks:
+      - apk_pattern: YagniLauncher-v.*\.apk
+        apk_url: https://github.com/T31n/YagniLauncher/releases/download/v1.0.6-alpha/YagniLauncher-v1.0.6-alpha.apk
+        build:
+          - mkdir -p ~/.gradle
+          - cp .github/ci-gradle.properties ~/.gradle/gradle.properties
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=14acb5c514749de7d660284c38995f8cd9750c91
+          - for _ in {1..1}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon
+          - find . -name 'baseline.prof'
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus: 4
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/YagniLauncher/YagniLauncher
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:jammy
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
