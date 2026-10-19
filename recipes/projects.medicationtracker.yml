@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/AdamGuidarini/MediTrak.git
 updates: releases
+notes:
+  - after v0.17.14, output APK seems to be app/build/outputs/apk/release/meditrak-release-unsigned.apk
 versions:
   - tag: v0.13.0
     apks:
