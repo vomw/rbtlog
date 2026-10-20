@@ -269,6 +269,21 @@
       "maintainer_notes": null
     }
   ],
+  "50a908ae75de950439de0cdf6d9f9fc30d541b4515259e8ff8f0619687bdd793": [
+    {
+      "repository": "https://github.com/naive-HA/UpnpKino.git",
+      "apk_url": "https://github.com/naive-HA/UpnpKino/releases/download/4.0.3/UPnP.Kino.v4.0.3-arm64-v8a.apk",
+      "appid": "acab.naiveha.upnpkino",
+      "version_code": 2014,
+      "version_name": "4.0.3",
+      "tag": "4.0.3",
+      "commit": "57a5333b0f6188819be0e25954b0d20662d5ad63",
+      "timestamp": 1792487157,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8e3bf0bef57c950bf07f6e230c6281327cb0dc0aa67a9af8c1018b533b33a439": [
     {
       "repository": "https://github.com/XilinJia/Podcini.A.git",
@@ -137767,6 +137782,21 @@
       "tag": "v2.45.1",
       "commit": "0527d3141a2b8415ece974c30050f18938128edb",
       "timestamp": 1790535649,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "46b034d3052dc10ff6e1b4024ab5b9b2795dcb1bb3acf4ecad33cbce3f22219c": [
+    {
+      "repository": "https://github.com/CatimaLoyalty/Android.git",
+      "apk_url": "https://github.com/CatimaLoyalty/Android/releases/download/v2.45.2/app-foss-release.apk",
+      "appid": "me.hackerchick.catima",
+      "version_code": 1006,
+      "version_name": "2.45.2",
+      "tag": "v2.45.2",
+      "commit": "504801c721c56e712faea87fad0b43796578b31f",
+      "timestamp": 1792443922,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

@@ -3,6 +3,7 @@ repository: https://github.com/deniscerri/ytdlnis.git
 updates: releases
 notes:
   - RB when we build all ABIs and just pick one; not RB when we try to just build the ABI we want
+  - 'FIXME: v1.9.1.1 needed translators patch, remove again with the next release – see https://github.com/deniscerri/ytdlnis/issues/1430#issuecomment-6269077376 '
 versions:
   - tag: v1.7.9.2
     apks:
