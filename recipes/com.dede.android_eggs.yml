@@ -846,3 +846,34 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v5.6.0
+    apks:
+      - apk_pattern: easter_eggs_.*-release\.apk
+        apk_url: https://github.com/hushenghao/AndroidEasterEggs/releases/download/v5.6.0/easter_eggs_5.6.0_82-foss-product-release.apk
+        build:
+          - sed -r '/signingConfig = config/d' -i build-logic/convention/src/main/kotlin/com/dede/android_eggs/plugins/EasterEggsApp.kt
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_NDK}
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - chmod +x gradlew
+          - ./gradlew assembleFossProductRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/fossProduct/release/easter_eggs_*-foss-product-release*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

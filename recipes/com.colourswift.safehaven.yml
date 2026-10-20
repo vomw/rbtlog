@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/phsycologicalFudge/SafeHaven-Store.git
 updates: releases
+notes:
+  - 'FIXME: 2026-10-19 needs recipe update, waiting for com.colourswift.safehaven.yml '
 versions:
   - tag: v2.0.5
     apks:

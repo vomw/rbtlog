@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/Sav22999/sav-pdf-viewer-pro.git
 updates: releases
+notes:
+  - 'FIXME: 2026-10-13 has wrong APK attached, is absent until end of month; https://github.com/Sav22999/sav-pdf-viewer-pro/issues/78 '
 versions:
   - tag: '2.0'
     apks:
