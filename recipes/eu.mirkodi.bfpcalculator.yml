@@ -1,6 +1,8 @@
 ---
 repository: https://codeberg.org/mirk0dex/BFP-Calculator.git
 updates: releases
+notes:
+  - 'FIXME: ignore v1.2.2-b as it is not intended for pickup, but dev keeps the release up'
 versions:
   - tag: v1.1
     apks:

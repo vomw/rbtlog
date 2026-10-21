@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/bitscoper/bitscoper_cyberkit.git
 updates: releases
+notes:
+  - pre-caching NDK 28.2 to speed up Flutter build
 versions:
   - tag: v18.1.3+37
     apks:
@@ -602,6 +604,53 @@ versions:
         provisioning:
           android_home: /usr/local/lib/android/sdk
           build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+          image: debian:trixie-slim
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v2026.10.21+20261021
+    apks:
+      - apk_pattern: Bitscoper_CyberKit-ARM64_V8A-Signed\.apk
+        apk_url: https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.10.21%2B20261021/Bitscoper_CyberKit-ARM64_V8A-Signed.apk
+        build:
+          - mkdir -p ${ANDROID_HOME}/ndk
+          - unzip -q "${PROVISIONING_CACHE_ANDROID_NDK_PATH}" -d ${ANDROID_HOME}/ndk
+          - mv ${ANDROID_HOME}/ndk/android-ndk-r${PROVISIONING_CACHE_ANDROID_NDK_VERSION:0:2}? ${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - export ANDROID_NDK=${ANDROID_HOME}/ndk/${PROVISIONING_CACHE_ANDROID_NDK_VERSION}
+          - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle.kts
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ \D?([0-9\.]*).*?/\1/p' .github/workflows/"Build, Release, and Deploy.yaml" | head -n 1)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' ${PUB_CACHE}/hosted/*/jni-*/src/CMakeLists.txt
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/*arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/bitscoper_cyberkit/bitscoper_cyberkit
+        build_timeout: 30
+        build_user: runner
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cached_tools:
+            - name: android-ndk
+              file_name: android-ndk.zip
+              version: 28.2.13676358
+              url: https://dl.google.com/android/repository/android-ndk-r28c-linux.zip
+              sha256: dfb20d396df28ca02a8c708314b814a4d961dc9074f9a161932746f815aa552f
           cmake:
           cmdline_tools:
             version: '22.0'
