@@ -107,6 +107,34 @@
                   "description": "build user name",
                   "type": "string"
                 },
+                "modules": {
+                  "description": "optional extra modules",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "description": "name of the module in modules.json",
+                        "type": "string"
+                      },
+                      "commit": {
+                        "description": "Git commit SHA used of the repository referred to in modules.json",
+                        "type": "string",
+                        "pattern": "^[0-9a-f]{40}$"
+                      },
+                      "version": {
+                        "description": "module version",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "commit",
+                      "version"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "provision_root_timeout": {
                   "description": "provision root timeout in minutes (not required, default: null)",
                   "type": [

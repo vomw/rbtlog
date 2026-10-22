@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codeberg.org/IzzyOnDroid/rbtlog/raw/branch/izzy/log/schemas/modules.json",
+  "title": "rbtlog modules.json",
+  "description": "rbtlog modules.json list of modules",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "repository": {
+        "description": "git repository storing this module's data",
+        "type": "string"
+      },
+      "branch": {
+        "description": "git branch storing this module's info, used by update-versions.py to update the known latest commit",
+        "type": "string"
+      },
+      "name": {
+        "description": "name of the module directory in the git repository",
+        "type": "string"
+      },
+      "version": {
+        "description": "name of the latest version, used by update-hashes.py to update recipes to the latest version of the module",
+        "type": "string"
+      },
+      "commit": {
+        "description": "exact commit to use for this module",
+        "type": "string",
+        "pattern": "^[0-9a-f]{40}$"
+      },
+      "skip_update_hashes": {
+        "description": "skip this module in update-hashes",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "repository",
+      "branch",
+      "name",
+      "version",
+      "commit"
+    ]
+  }
+}

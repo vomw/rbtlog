@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # encoding: utf-8
 # SPDX-FileCopyrightText: 2024 FC (Fay) Stegerman <flx@obfusk.net>
+# SPDX-FileCopyrightText: 2026 Sylvia van Os <sylvia@hackerchick.me>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 import argparse
@@ -39,6 +40,13 @@ REPRO_APK_URL = f"https://github.com/{REPRO_APK}.git"
 
 class Error(Exception):
     """Base class for errors."""
+
+
+@functools.lru_cache(maxsize=None)
+def load_modules() -> Dict[Any, Any]:
+    """Load modules.json."""
+    with open("modules.json", encoding="utf-8") as fh:
+        return json.load(fh)        # type: ignore[no-any-return]
 
 
 @functools.lru_cache(maxsize=None)
@@ -173,6 +181,11 @@ def update_recipe_hashes(data: Dict[Any, Any], repo: str, tag: str, tag_pattern:
                             print(f"Recipe git reset: {apk_commit!r}, tag: {tag_commit!r}.", file=sys.stderr)
                         else:
                             print("Recipe git reset removed (no embedded commit hash).", file=sys.stderr)
+                if "no-update-modules" not in labels and (vsn := update_modules(apk, labels)):
+                    modified = True
+                    if verbose:
+                        for name, version in vsn.items():
+                            print(f"Recipe module {name} updated to {version['version']} (commit {version['commit']}).", file=sys.stderr)
                 if "no-update-cmdline-tools" not in labels and (vsn := update_cmdline_tools(apk)):
                     modified = True
                     if verbose:
@@ -379,6 +392,39 @@ def migrate_repro_apk(apk: Dict[Any, Any]) -> Optional[str]:
         apk["build"].insert(line_number, 'tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/')
         apk["build"].insert(line_number, 'mkdir reproducible-apk-tools')
     return repro_apk
+
+
+def update_modules(apk: Dict[Any, Any], labels: Optional[list[str]]) -> dict[str, dict[str, str]]:
+    updated = {}
+
+    if not "modules" in apk:
+        return updated
+
+    for name, data in load_modules().items():
+        # Ensure module is not being skipped
+        if labels and f"no-update-{name}" in labels:
+            continue
+
+        # Ensure module has all required fields
+        if not all(key in data for key in ["commit", "version"]):
+            continue
+
+        # Skip by default unless explicit update label is set
+        if data.get("skip_update_hashes", False) == True:
+            if not labels or not f"update-{name}" in labels:
+                continue
+
+        # Update all hashes
+        for i in range(len(apk["modules"])):
+            if apk["modules"][i]["name"] == name:
+                old = copy(apk["modules"][i])
+                apk["modules"][i]["commit"] = data["commit"]
+                apk["modules"][i]["version"] = data["version"]
+                if old != apk["modules"][i]:
+                    updated[name] = {"commit": data["commit"], "version": data["version"]}
+
+    # Return updated entries
+    return updated
 
 
 def update_cached_tools(apk: Dict[Any, Any], labels: Optional[list[str]]) -> dict[str, str]:

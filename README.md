@@ -309,6 +309,16 @@ called for all recipes that don't opt-out by using the `no-update-hashes` label,
 otherwise it is called for all recipes that opt-in by using the `update-hashes`
 label.
 
+You can explicitly opt out of updating a specific module or
+cached_tool by adding a `no-update-` label. For example, to not update
+repro-apk, add a `no-update-repro-apk` label.
+
+For modules disabled by default in modules.json using
+`skip_update_hashes`, you can explicitly opt in to updates by setting
+an `update-` label. For example, if `android-ndk` has
+`skip_update_hashesh`, you can update it anyway by supplying a
+`update-android-ndk` label.
+
 <details>
 
 ```bash
@@ -408,6 +418,73 @@ the SHA-1 hash of the file from the upstream APK and update the `DEX_SHA1=`,
 ```
 
 </details>
+
+#### Module updates: modules.json
+
+The following will be updated to use the latest release as specified in
+`modules.json` (which can itself be updated using `update-modules.py`):
+
+The `modules:` in recipies.
+
+### update-modules.py (& modules.json)
+
+Updates `modules.json`, which looks like:
+
+<details>
+
+```json
+{
+  "android-ndk": {
+    "repository": "https://codeberg.org/TheLastProject/rbtlog_modules",
+    "branch": "main",
+    "commit": "d2dfe64bd1bae00e851d7cc05b15cdadf8c580ae",
+    "name": "android-ndk",
+    "version": "28.2.13676358",
+    "skip_update_hashes": true
+  },
+  "nodejs-lts": {
+    "repository": "https://codeberg.org/TheLastProject/rbtlog_modules",
+    "branch": "main",
+    "commit": "d2dfe64bd1bae00e851d7cc05b15cdadf8c580ae",
+    "name": "nodejs-lts",
+    "version": "v24.20.0"
+  },
+  "repro-apk": {
+    "repository": "https://codeberg.org/TheLastProject/rbtlog_modules",
+    "branch": "main",
+    "commit": "d2dfe64bd1bae00e851d7cc05b15cdadf8c580ae",
+    "name": "repro-apk",
+    "version": "v0.3.0"
+  },
+  "rustup": {
+    "repository": "https://codeberg.org/TheLastProject/rbtlog_modules",
+    "branch": "main",
+    "commit": "d2dfe64bd1bae00e851d7cc05b15cdadf8c580ae",
+    "name": "rustup",
+    "version": "1.29.0"
+  }
+}
+```
+
+```bash
+$ scripts/update-modules.py --help
+usage: update-modules.py [-h] [-v]
+
+update modules.json
+
+options:
+  -h, --help     show this help message and exit
+  -v, --verbose
+
+$ scripts/update-modules.py -v
+Module android-ndk updated to version 28.2.13676358 and commit da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc.
+Module nodejs-lts updated to version v24.20.0 and commit da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc.
+Module repro-apk updated to version v0.3.2 and commit da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc.
+Module rustup updated to version 1.29.0 and commit da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc.
+```
+
+</details>
+
 
 #### Version updates: versions.json
 
@@ -615,9 +692,9 @@ For releases with multiple per-ABI APKs, use multiple build recipes under
 
 Recipes allow you to specify one or more tools to cache under
 cached_tools under provisioning. These tools will be downloaded and
-saved in the cache dir, to be reused in multiple recipes. For
-security, these tools are mounted read-only inside the container and
-the checksum is checked before starting the build.
+saved in the container part of the cache dir, to be reused in multiple
+recipes. For security, these tools are mounted read-only inside the container
+and the checksum is checked before starting the build.
 
 To create a cached_tool, add an entry as such:
 ```
@@ -649,6 +726,85 @@ will also update the cached_tool. Currently, the names known are
 To cache as efficiently as possible, make sure to always use the exact
 same `name` value for a tool and to **never** use the same `name` value
 for more than one tool.
+
+### Modules
+
+Recipes allow you to specify one or more modules under modules. These
+modules will be  downloaded and saved in the host part of the cache
+dir and applied to the recipe.
+
+A module consists of a list of steps to apply to a recipe, for easier
+reuse of common build configuration. These modules are hosted in an
+external git repository, to facilitate reuse between multiple
+builders.
+
+As an example, a module definition in a recipe could look as such:
+```
+modules:
+  - name: repro-apk
+    commit: da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc
+    version: v0.3.0
+```
+
+When a build is started, rbtlog will check the `modules.json` file to
+find a relevant entry like such:
+```
+{
+  "repro-apk": {
+    "repository": "https://codeberg.org/IzzyOnDroid/rbtlog_modules",
+    "branch": "main",
+    "commit": "da6fc7d99ed2d5512bd3f26aca5436ae41a2cffc",
+    "name": "repro-apk",
+    "version": "v0.3.2"
+  }
+}
+```
+
+Combining the information in `modules.json` and the recipe, rbtlog
+will in order:
+1. Clone the repository defined in `modules.json` for `repro-apk`
+   (`name` in the recipe)
+2. Check out the commit specified in the recipe
+3. Go to the repro-apk directory (`name` in `modules.json`)
+4. Parse the `v0.3.0.yml` file (`version` in the recipe)
+
+An example module file looks as such:
+```
+version: 1
+steps:
+  - path: build
+    action: prepend
+    value:
+      - mkdir reproducible-apk-tools
+      - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+  - path: provisioning.cached_tools
+    action: append
+    value:
+      - name: repro-apk
+        file_name: repro-apk.tar.gz
+        version: v0.3.0
+        url: https://api.github.com/repos/obfusk/reproducible-apk-tools/tarball/v0.3.0
+        sha256: b9b595358cae8ed0a5124d452b7902a8434c4105937ba4e5284f6a2d6160b185
+```
+
+Taking this module as example, rbtlog will verify the version is
+compatible (`version` being a known and supported version) and then
+apply each steps in order. In this case: prepend 2 lines to the
+`build` field of the recipe and append one entry to the `cached_tools`
+field of `provisioning` in the recipe. A module can modify or create
+any field in the recipe, as long as the recipe remains valid and
+passes schema. Supported actions are `prepend`, `append` and
+`replace`.
+
+All modules are applied in order of definition in the recipe, and all
+steps are applied in order of definition in the module .yml file,
+making the result of using multiple modules predictable.
+
+Internally, modules are applied to the recipe before it is parsed, and
+thus the resulting log files only show the result of the applied
+module, not the modules itself. The recipe is validated to match
+schema both before and after all modules are applied, to ensure
+predictable behaviour.
 
 ## Rebuild Logs
 
