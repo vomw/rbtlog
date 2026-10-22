@@ -2,8 +2,7 @@
 repository: https://github.com/enteraname74/SoulSearching.git
 updates: releases
 notes:
-  - v0.12.0 failes due to compression mismatch, see https://github.com/enteraname74/SoulSearching/issues/31#issuecomment-2707021906
-  - 'FIXME: v0.16.0 needed adjustments for compileSdk; that sed can be removed with the next release, see https://github.com/enteraname74/SoulSearching/issues/98 '
+  - v0.12.0 fails due to compression mismatch, see https://github.com/enteraname74/SoulSearching/issues/31#issuecomment-2707021906
 versions:
   - tag: v0.9.1
     apks:
@@ -341,6 +340,35 @@ versions:
         apk_url: https://github.com/enteraname74/SoulSearching/releases/download/v0.16.0/com.github.enteraname74.soulsearching_0.16.0.apk
         build:
           - sed -ri 's/compileSdk = 37/compileSdk { version = release(37) { minorApiLevel = 0 } }/' build-logic/convention/src/main/kotlin/soulsearching.kmp.base.gradle.kts build-logic/convention/src/main/kotlin/soulsearching.android.application.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv androidApp/build/outputs/apk/release/androidApp-release*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v0.17.0
+    apks:
+      - apk_pattern: com.github.enteraname74.soulsearching_.*\.apk
+        apk_url: https://github.com/enteraname74/SoulSearching/releases/download/v0.17.0/com.github.enteraname74.soulsearching_0.17.0.apk
+        build:
           - chmod +x gradlew
           - ./gradlew assembleRelease
           - find . -name '*.apk'

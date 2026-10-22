@@ -1464,3 +1464,52 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v8.1.1
+    apks:
+      - apk_pattern: NeverTooManyBooks-.*\.apk
+        apk_url: https://github.com/tfonteyn/NeverTooManyBooks/releases/download/v8.1.1/NeverTooManyBooks-8.1.1.apk
+        build:
+          - sed -r '/signingConfigs.release|props.*sign/d' -i app/build.gradle
+          - base64 -d >> gradle.properties <<< QVBJX1RPS0VOX0dPT0dMRV9CT09LUz1BSXphU3lDQ1UwNXVzcEtGaGZISjM3Y01JUGIzOG41aGxaYmZ3RWsKQVBJX1RPS0VOX0xJQlJBUllfVEhJTkc9ZDkyYTA0MWNkM2EyMjU5MTQ2YTdlY2IxMjYwM2IyOTYK
+          - chmod +x gradlew
+          - PROF_FILE=app/build/intermediates/binary_art_profile/release/compileReleaseArtProfile/baseline.prof
+          - PROF_SHA1=8e18fefc37c02e7c2e7baa2ed1be243f4aa1e23e
+          - for _ in {1..1}; do
+          - ./gradlew clean assembleRelease --no-build-cache --no-configuration-cache --no-daemon -Dorg.gradle.jvmargs=-Xmx2048m -D"-XX:MaxMetaspaceSize=1024m"
+          - test -f "$PROF_FILE"
+          - if [ "$( sha1sum "$PROF_FILE" | cut -d' ' -f1 )" = "$PROF_SHA1" ]; then
+          - break
+          - fi
+          - done
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/NeverTooManyBooks-*.apk
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines $OUT 'assets/katalog.dnb.de*.pem'
+          - mv $OUT /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: ubuntu:jammy
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
