@@ -2,7 +2,7 @@
 repository: https://github.com/phsycologicalFudge/SafeHaven-Store.git
 updates: releases
 notes:
-  - 'FIXME: after v2.1.1, cargo ndk and ndk can be taken from engine/Cargo.toml (steps already prepared), so remove the explicit versions'
+  - 'FIXME: after v2.1.1, cargo ndk and ndk can be taken from engine/Cargo.toml (steps already prepared), so remove the explicit versions. sdkmanager call to install NDK can be skipped then entirely, as NDKs will be aligned'
 versions:
   - tag: v2.0.5
     apks:

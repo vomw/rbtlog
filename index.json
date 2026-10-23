@@ -8607,6 +8607,21 @@
       "maintainer_notes": null
     }
   ],
+  "bc18dec74a2254db9cf0c006fe10e6de62de96faf4a61fc672a744b77095f164": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.6.0/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 160,
+      "version_name": "1.6.0",
+      "tag": "v1.6.0",
+      "commit": "378eb699847c16dbd5ac24a8823a03807b17c459",
+      "timestamp": 1792780161,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "91098e08efb8f06944af946c9767f7b471e7a6f719118dcf43b53d1309f996d9": [
     {
       "repository": "https://github.com/pass-with-high-score/blockads-android.git",
@@ -14577,6 +14592,21 @@
       "maintainer_notes": null
     }
   ],
+  "2a2f9760eece03fdc350e6e807f3ab70be29191128d2bd98b27ef64b466e9185": [
+    {
+      "repository": "https://github.com/ilianoKokoro/umihi-music.git",
+      "apk_url": "https://github.com/ilianoKokoro/umihi-music/releases/download/v1.16.1/UmihiMusic-store.apk",
+      "appid": "ca.ilianokokoro.umihi.music",
+      "version_code": 11610,
+      "version_name": "1.16.1-store",
+      "tag": "v1.16.1",
+      "commit": "345dc2b658808c8a6088b1d49b54039946b96381",
+      "timestamp": 1792759983,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "99e27283edaff5676f299e8267996ea66f2d189090c2ecbcd38230ec1cb45ae0": [
     {
       "repository": "https://github.com/mvmike/min-cal-widget.git",
@@ -20450,6 +20480,21 @@
       "tag": "v4.6.8",
       "commit": "8a27ade0a8347d2f7fa95bc22ccd9d74d7ecdd11",
       "timestamp": 1789518901,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "cfeffe0c357bc8b472d015d7a4d06ed1b66223f02e9db9245d89243d10edc99f": [
+    {
+      "repository": "https://github.com/appml/neutrinote.git",
+      "apk_url": "https://github.com/appml/neutrinote/releases/download/v4.6.9/app-release.apk",
+      "appid": "com.appmindlab.nano",
+      "version_code": 1389,
+      "version_name": "4.6.9",
+      "tag": "v4.6.9",
+      "commit": "4563bf95683686929703d5dbd4519b0fd4c5dd86",
+      "timestamp": 1792783605,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -33402,6 +33447,21 @@
       "tag": "v1.0.22",
       "commit": "a8a0b129d51672e9e6af902811e68d4c44208c0f",
       "timestamp": 1792588948,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7394b3e503bc3b9b75a8566f403b6116b652456c645cc0982c79450e392ac66d": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.24/EliteMemoPro-v1.0.24-24-universal.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 24,
+      "version_name": "1.0.24",
+      "tag": "v1.0.24",
+      "commit": "3fe0c11e4f3fb8915f7746204602e77cb40d0859",
+      "timestamp": 1792760524,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -55207,6 +55267,21 @@
       "maintainer_notes": null
     }
   ],
+  "0e0ef9314bdea7e42a6feda5e08d1dfe0af9de652eb332748e6b145c6efb54ea": [
+    {
+      "repository": "https://github.com/gokadzev/Musify.git",
+      "apk_url": "https://github.com/gokadzev/Musify/releases/download/10.6.0/Musify-arm64-v8a.apk",
+      "appid": "com.gokadzev.musify",
+      "version_code": 2186,
+      "version_name": "10.6.0",
+      "tag": "10.6.0",
+      "commit": "ea37bd7663f6f6c4878d74cb7cf65cbab87950ab",
+      "timestamp": 1792769767,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "3ae07c6be9b0b715aa2938b2e38be8fbf0f853cddf709b138dec4b4916e8fbd2": [
     {
       "repository": "https://github.com/D-e-vGoodify/MatrixTinz.git",
@@ -55427,6 +55502,21 @@
       "tag": "v1.7.3",
       "commit": "9ea00b0a6dcd54e95e8c1b8ca18bd312a109b20d",
       "timestamp": 1791316458,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "10330ba278e854c17dc01e53571b68ac0bca47faeb68025a1c524c46662b4a7c": [
+    {
+      "repository": "https://github.com/googol-apps/OnePlayer.git",
+      "apk_url": "https://github.com/googol-apps/OnePlayer/releases/download/v1.7.4/app-community-release-unsigned-signed.apk",
+      "appid": "com.googol.android.apps.oneplayer",
+      "version_code": 44,
+      "version_name": "1.7.4-foss",
+      "tag": "v1.7.4",
+      "commit": "c06fce210f8e1213351ccb82ffb668ae1e8329e4",
+      "timestamp": 1792762037,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -61685,6 +61775,21 @@
       "maintainer_notes": null
     }
   ],
+  "3490ff5358fe5698af7f3742e0a65a648d147edcb7ce2d1140265c214b114baf": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.60/kelani-sbd-tracker-v2.0.60.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 160,
+      "version_name": "2.0.60",
+      "tag": "v2.0.60",
+      "commit": "ecb82a9193b47b32ba66ae59bf4b372c1596e4d4",
+      "timestamp": 1792762363,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "83a11afcdc3a15763de521fbf6123f2afa5cfe5b72355595979bed52ade1a4f0": [
     {
       "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
@@ -65825,6 +65930,21 @@
       "maintainer_notes": null
     }
   ],
+  "ba99271b58c31f48432a4b1c2d6b7c08ce9c01e6e429d97bddae45308006ad25": [
+    {
+      "repository": "https://github.com/likhithpraveenk/storii.git",
+      "apk_url": "https://github.com/likhithpraveenk/storii/releases/download/v0.13.0/storii-v0.13.0-arm64.apk",
+      "appid": "com.likhithpraveenk.storii",
+      "version_code": 5262,
+      "version_name": "0.13.0",
+      "tag": "v0.13.0",
+      "commit": "5576ab7dffb151c4ac644c916527b04cbb410a43",
+      "timestamp": 1792762555,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "11b3de0a98ee4a5b7897a54d6e468b52898ef7f391257e605263421c3758289d": [
     {
       "repository": "https://github.com/LimoDerEchte/NoteCompanion.git",
@@ -67603,6 +67723,21 @@
       "tag": "1.3.2",
       "commit": "e74839c85e868bdbb83d7587ae46b9ab86ace29d",
       "timestamp": 1790953952,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4bcdf96667fdc89c357ab4a3a3aea6fb22181e69783427982a2be0707dd347bf": [
+    {
+      "repository": "https://codeberg.org/NeoApplications/Neo-Store.git",
+      "apk_url": "https://codeberg.org/NeoApplications/Neo-Store/releases/download/1.3.3/Neo_Store_1.3.3_release.apk",
+      "appid": "com.machiav3lli.fdroid",
+      "version_code": 1304,
+      "version_name": "1.3.3",
+      "tag": "1.3.3",
+      "commit": "37f8ee314be6d1def7af11b0af5b85a10680645c",
+      "timestamp": 1792770406,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -94621,6 +94756,21 @@
       "tag": "2.0.1",
       "commit": "38664f3f8332bc789b580499607e6adac9fe8daa",
       "timestamp": 1788705600,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "851b075b3e79474611c234817e17c7c58bdd5cbf327b8e12800b0af7324ac0aa": [
+    {
+      "repository": "https://github.com/Sztorm/NoteCalendar.git",
+      "apk_url": "https://github.com/Sztorm/NoteCalendar/releases/download/2.1.0/com.sztorm.notecalendar-2.1.0.apk",
+      "appid": "com.sztorm.notecalendar",
+      "version_code": 15,
+      "version_name": "2.1.0",
+      "tag": "2.1.0",
+      "commit": "b7bcddc00d41dfb401c7b7cf618872ce6acf1c8b",
+      "timestamp": 1792764924,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -141837,6 +141987,21 @@
       "maintainer_notes": null
     }
   ],
+  "8f766c6d60b2e2975e5e5bb0f110a487f03ab28f3e16dca794419e94ffde767c": [
+    {
+      "repository": "https://codeberg.org/Freeyourgadget/Internethelper.git",
+      "apk_url": "https://codeberg.org/Freeyourgadget/Internethelper/releases/download/2026.10.0/internethelper-2026.10.0.apk",
+      "appid": "nodomain.freeyourgadget.internethelper",
+      "version_code": 10,
+      "version_name": "2026.10.0",
+      "tag": "2026.10.0",
+      "commit": "b025d4d5c422ab620dcc5012824dc82a33bf45d8",
+      "timestamp": 1792765139,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "138d2ff8b355c36b950c58b451b8fed2d0923d806c534c269c46f13d7f86c752": [
     {
       "repository": "https://gitlab.com/neonbranch/schatzsuche.git",
@@ -143227,6 +143392,21 @@
       "tag": "alpha-0.8.4",
       "commit": "fbe014d78882e37d2d74bbb67e0d2b919b50bcc1",
       "timestamp": 1791403902,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "41afa7a86b3d7820371013588628625c0b50b01c0ba9e416702f026dc83aaff3": [
+    {
+      "repository": "https://github.com/pewaru-333/ShikiApp.git",
+      "apk_url": "https://github.com/pewaru-333/ShikiApp/releases/download/alpha-0.8.5/ShikiApp.apk",
+      "appid": "org.application.shikiapp",
+      "version_code": 62,
+      "version_name": "alpha-0.8.5",
+      "tag": "alpha-0.8.5",
+      "commit": "6f502320a39aa01d9494494ca7f0645c21f9d756",
+      "timestamp": 1792771095,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -149967,6 +150147,21 @@
       "maintainer_notes": null
     }
   ],
+  "6ad15debc83d86b67cdc0bf4ca8b1925298930af728dd0aa4879b78184f5d8ab": [
+    {
+      "repository": "https://github.com/floccusaddon/floccus.git",
+      "apk_url": "https://github.com/floccusaddon/floccus/releases/download/v5.12.0/floccus-build-v5.12.0.apk",
+      "appid": "org.handmadeideas.floccus",
+      "version_code": 5012000,
+      "version_name": "5.12.0",
+      "tag": "v5.12.0",
+      "commit": "1b713bb1c902374505dbdf5c26f5c2d281a8b791",
+      "timestamp": 1792765958,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "140eb89c6c316dd831037beb1025a333e9816c3141d77f6e0d8a618fcfcbf50c": [
     {
       "repository": "https://github.com/jellyfin/jellyfin-android.git",
@@ -150757,6 +150952,21 @@
       "tag": "v3.9.0",
       "commit": "a144b4466c0d5138010aaa370d6d4c5be6a1f26d",
       "timestamp": 1792593569,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "81838fe385cca6337d0bfaa9669c3755ccacdd0449ac17fe59b2f8c7026c87ca": [
+    {
+      "repository": "https://github.com/JingMatrix/ChromeXt.git",
+      "apk_url": "https://github.com/JingMatrix/ChromeXt/releases/download/v3.9.1/ChromeXt-signed.apk",
+      "appid": "org.matrix.chromext",
+      "version_code": 18,
+      "version_name": "3.9.1",
+      "tag": "v3.9.1",
+      "commit": "80d244c86c06a9a45b23937fd5f9ebab825453b6",
+      "timestamp": 1792766256,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -154302,6 +154512,21 @@
       "maintainer_notes": null
     }
   ],
+  "eac053e2761a82e0584fa9e79331b8133ad5b9911a27e6f05482c72e35077623": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.10.23/KashCal-2026.10.23-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 796,
+      "version_name": "2026.10.23",
+      "tag": "v2026.10.23",
+      "commit": "af9e98e06eff4f43e03c36a58dabec81beea396c",
+      "timestamp": 1792781415,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ae1870ac8c47274435f26f6e4fe5e54613dc1b4d6c65de600675906d8cc3b084": [
     {
       "repository": "https://github.com/otr-community/android.git",
@@ -157700,6 +157925,21 @@
       "tag": "v1.31.9",
       "commit": "81b23949ea84b62b448f998d024b9335d81efd81",
       "timestamp": 1792008303,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "fe9ba459de87c5378ae8b752a1b2a3cae27d4f18bf38cf71ad960ae0c5efaed7": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.32.0/wizestream_v1.32.0.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1032000,
+      "version_name": "1.32.0",
+      "tag": "v1.32.0",
+      "commit": "8b43f2dd9375fa67969ffdf5c214e9a20663d031",
+      "timestamp": 1792766390,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -167673,6 +167913,21 @@
       "tag": "v2.6.2",
       "commit": "ae2465fea5f951628b706da8ae950ae243a4703f",
       "timestamp": 1792525219,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "bd56fdd9ab8441b6a317e01c7b192f748a2d27140505efe68358f02d202deac0": [
+    {
+      "repository": "https://github.com/AbdeltwabMF/loc.git",
+      "apk_url": "https://github.com/AbdeltwabMF/loc/releases/download/v2.6.3/Loc-v2.6.3-arm64-v8a.apk",
+      "appid": "xyz.abdeltwab.loc",
+      "version_code": 2117,
+      "version_name": "2.6.3",
+      "tag": "v2.6.3",
+      "commit": "afbe59aaeeeb27de6167f183a1b29b6ca40d040c",
+      "timestamp": 1792772285,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
