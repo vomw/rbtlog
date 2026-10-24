@@ -636,3 +636,37 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 2.6.4
+    apks:
+      - apk_pattern: aucards.*\.apk
+        apk_url: https://github.com/vadimerenkov/Aucards/releases/download/2.6.4/aucards-2.6.4.apk
+        build:
+          - sed -ri '/foojay/d ; /toolchainVendor/d' gradle/gradle-daemon-jvm.properties
+          - mkdir -p app/src/main/assets
+          - base64 -d > app/src/main/assets/adi-registration.properties <<< REo3T1FHNVRRM1hLUUFBQUFBQUFBQUFBQUE=
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - gradlew.py/gradlew.py --version 9.6.0 -v assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
