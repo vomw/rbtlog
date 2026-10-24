@@ -29777,6 +29777,21 @@
       "maintainer_notes": null
     }
   ],
+  "6b6bdfcdffb7e5b1b3d35f44399e6c073db80d5585ae19345a4ffef8f3611219": [
+    {
+      "repository": "https://github.com/phsycologicalFudge/SafeHaven-Store.git",
+      "apk_url": "https://github.com/phsycologicalFudge/SafeHaven-Store/releases/download/v2.1.2/safehaven-store.apk",
+      "appid": "com.colourswift.safehaven",
+      "version_code": 2020,
+      "version_name": "2.1.2",
+      "tag": "v2.1.2",
+      "commit": "1cd923d613574b5c6f94bfcaf64b96e32d507a1c",
+      "timestamp": 1792879768,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "f8f012d6ee8e5053f3e7707297aba5a6e0fdd360ec4905a56548d6a8ee0f8f93": [
     {
       "repository": "https://github.com/CominAtYou/BatteryTile.git",
@@ -44183,6 +44198,21 @@
       "tag": "v1.48.0",
       "commit": "c5bbd23514f420c3e50b9669615fc4b46c566bc3",
       "timestamp": 1792263461,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c13b69f3ef78e1e032e98abf6819211fbeb4ab9d56474fef3766aec49ee75d31": [
+    {
+      "repository": "https://github.com/fibelatti/photo-widget.git",
+      "apk_url": "https://github.com/fibelatti/photo-widget/releases/download/v1.48.1/com.fibelatti.photowidget-v1.48.1-1480100-release.apk",
+      "appid": "com.fibelatti.photowidget",
+      "version_code": 1480100,
+      "version_name": "1.48.1",
+      "tag": "v1.48.1",
+      "commit": "68ca1e1059e3005ba7511311dbec9f7ebe4cf632",
+      "timestamp": 1792866325,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -82012,6 +82042,21 @@
       "tag": "1.22.1",
       "commit": "00cb6a4f25d4c0035eab63843433bb7f44944138",
       "timestamp": 1785334931,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3a1029b3cfd0cce26141e48361a8b1975feaffa03be69684f25d4b0b1ede6b43": [
+    {
+      "repository": "https://gitlab.com/ravenfeld/baba.git",
+      "apk_url": "https://gitlab.com/api/v4/projects/64819359/packages/generic/my_package/1.22.2/baba_1.22.2_arm64-v8a_release.apk",
+      "appid": "com.ravenfeld.panoramax.baba",
+      "version_code": 2025032158,
+      "version_name": "1.22.2",
+      "tag": "1.22.2",
+      "commit": "4a4f89726d796144aa3c0ca71d2a44818215ae63",
+      "timestamp": 1792866745,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -146382,6 +146427,21 @@
       "maintainer_notes": null
     }
   ],
+  "dae815ce83285facf9fd8648b8c4f039700d95126325db124521eba479b270ba": [
+    {
+      "repository": "https://github.com/FossifyOrg/Calendar.git",
+      "apk_url": "https://github.com/FossifyOrg/Calendar/releases/download/1.12.1/calendar-24-foss-release.apk",
+      "appid": "org.fossify.calendar",
+      "version_code": 24,
+      "version_name": "1.12.1",
+      "tag": "1.12.1",
+      "commit": "724d300274b7bc5240e5ccf8f6296fa05a3408a2",
+      "timestamp": 1792867513,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "183e94b4d4dda98f3b4f71698987d1870389f26a273e168f1393f8fe4c9b73da": [
     {
       "repository": "https://github.com/FossifyOrg/Camera.git",
@@ -146892,6 +146952,21 @@
       "maintainer_notes": null
     }
   ],
+  "8a230310b700f74b731a92e300353650357ff0b6166c929be1633acf82915caa": [
+    {
+      "repository": "https://github.com/FossifyOrg/Documents.git",
+      "apk_url": "https://github.com/FossifyOrg/Documents/releases/download/1.2.0/documents-10-foss-release.apk",
+      "appid": "org.fossify.documents",
+      "version_code": 10,
+      "version_name": "1.2.0",
+      "tag": "1.2.0",
+      "commit": "361b274f0a80ac9b2e6848934e7deb5245cd1344",
+      "timestamp": 1792867912,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "b302b388370227cae14cc95925a38bf23df602e10996cb5cfc94e695af43b92f": [
     {
       "repository": "https://github.com/FossifyOrg/File-Manager.git",
@@ -147067,6 +147142,21 @@
       "tag": "1.6.2",
       "commit": "82b3c98c9a7b90d8af2c2ff0c39c87f5917e1b08",
       "timestamp": 1791659620,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9ba65c2ab8ca612fd90d8eba5320572ed1e1f99f2c6139244c7e05ef9a377d36": [
+    {
+      "repository": "https://github.com/FossifyOrg/File-Manager.git",
+      "apk_url": "https://github.com/FossifyOrg/File-Manager/releases/download/1.6.3/file-manager-15-foss-release.apk",
+      "appid": "org.fossify.filemanager",
+      "version_code": 15,
+      "version_name": "1.6.3",
+      "tag": "1.6.3",
+      "commit": "9ae4b70ae6b2303028433950d36af959f1fdf7e7",
+      "timestamp": 1792868216,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -147397,6 +147487,21 @@
       "tag": "1.14.0",
       "commit": "f5d52cde20d9f05d225722bbebaa4f680ca0962e",
       "timestamp": 1791665494,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9a9f2e06882abfdae6f4c86aeaa83ae8102b2e081591df0eb2134a6f629657c7": [
+    {
+      "repository": "https://github.com/FossifyOrg/Gallery.git",
+      "apk_url": "https://github.com/FossifyOrg/Gallery/releases/download/1.14.1/gallery-30-foss-release.apk",
+      "appid": "org.fossify.gallery",
+      "version_code": 30,
+      "version_name": "1.14.1",
+      "tag": "1.14.1",
+      "commit": "e9812299b9d444b57072313cd2c3efd59c790f98",
+      "timestamp": 1792868539,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -148302,6 +148407,21 @@
       "maintainer_notes": null
     }
   ],
+  "7077dae6613d7a9d775841c4c10be16e255f8af8d5152bc84a5e6984740b56e1": [
+    {
+      "repository": "https://github.com/FossifyOrg/Messages.git",
+      "apk_url": "https://github.com/FossifyOrg/Messages/releases/download/1.10.2/messages-26-foss-release.apk",
+      "appid": "org.fossify.messages",
+      "version_code": 26,
+      "version_name": "1.10.2",
+      "tag": "1.10.2",
+      "commit": "194fc3a117dca658389e0719ae83cdeb8145b542",
+      "timestamp": 1792868987,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "57b6aa6655d6b981cdf48075cbdbc4b7718bbf00244ea186171a17eb9d18836e": [
     {
       "repository": "https://github.com/FossifyOrg/Music-Player.git",
@@ -148537,6 +148657,21 @@
       "tag": "1.8.4",
       "commit": "55298be90300145ea0757addd36bf4008bfc8265",
       "timestamp": 1791732315,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "61fdf0bb71cb3a809960e59a5872030f16c799a0c0f285115a6f40f7fa5012c0": [
+    {
+      "repository": "https://github.com/FossifyOrg/Music-Player.git",
+      "apk_url": "https://github.com/FossifyOrg/Music-Player/releases/download/1.8.5/musicplayer-18-foss-release.apk",
+      "appid": "org.fossify.musicplayer",
+      "version_code": 18,
+      "version_name": "1.8.5",
+      "tag": "1.8.5",
+      "commit": "218203eb2d0a66aebd2a07d31dd2ba367359be1e",
+      "timestamp": 1792869309,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -149217,6 +149352,21 @@
       "maintainer_notes": null
     }
   ],
+  "43fa1d5e96ee85abfd5b294861151510dd698a57ecc677f0583c85b097b0b6f7": [
+    {
+      "repository": "https://github.com/FossifyOrg/Thank-You.git",
+      "apk_url": "https://github.com/FossifyOrg/Thank-You/releases/download/1.4.1/thankyou-12-foss-release.apk",
+      "appid": "org.fossify.thankyou",
+      "version_code": 12,
+      "version_name": "1.4.1",
+      "tag": "1.4.1",
+      "commit": "5a4408299143d5b6c27e91f335af23b843de3bd5",
+      "timestamp": 1792870088,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dae66a6a266fd94ad4beb013ee81a70f09b5361cc78bd8296c7d33c5fd7192d3": [
     {
       "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
@@ -149452,6 +149602,21 @@
       "tag": "1.7.3",
       "commit": "fca742d5dee533a32aee54c4a20e4cfa2d41fc18",
       "timestamp": 1791732604,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1b3efb263bd152299aada8bb6ed3cca4a340425cd755472f7d799c9e0e024cc8": [
+    {
+      "repository": "https://github.com/FossifyOrg/Voice-Recorder.git",
+      "apk_url": "https://github.com/FossifyOrg/Voice-Recorder/releases/download/1.7.4/voicerecorder-21-foss-release.apk",
+      "appid": "org.fossify.voicerecorder",
+      "version_code": 21,
+      "version_name": "1.7.4",
+      "tag": "1.7.4",
+      "commit": "15f7b319ae9aa9416545c103b92630185decb7ba",
+      "timestamp": 1792874259,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -158150,6 +158315,21 @@
       "tag": "v1.32.0",
       "commit": "8b43f2dd9375fa67969ffdf5c214e9a20663d031",
       "timestamp": 1792766390,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1a19f0e3e73e65ba4e6740dc6c450ab528a913aaf36532aba7fdb35523d2d3dd": [
+    {
+      "repository": "https://github.com/wizdom13/WizeStream.git",
+      "apk_url": "https://github.com/wizdom13/WizeStream/releases/download/v1.32.1/wizestream_v1.32.1.apk",
+      "appid": "org.wisso.newpipematerial",
+      "version_code": 1032001,
+      "version_name": "1.32.1",
+      "tag": "v1.32.1",
+      "commit": "3abcd88521f0a6fac28f82f5b9e8446697dbe7f8",
+      "timestamp": 1792871325,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

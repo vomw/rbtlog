@@ -314,3 +314,29 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 1.6.3
+    apks:
+      - apk_pattern: file-manager-\d+-foss-release\.apk
+        apk_url: https://github.com/FossifyOrg/File-Manager/releases/download/1.6.3/file-manager-15-foss-release.apk
+        build:
+          - ./gradlew assembleRelease
+          - mv app/build/outputs/apk/foss/release/file-manager-*-foss-release-unsigned.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
