@@ -3,6 +3,7 @@ repository: https://github.com/phsycologicalFudge/SafeHaven-Store.git
 updates: releases
 notes:
   - 'FIXME: after v2.1.2, can we replace the sed for cargo ndk with yq? See https://github.com/phsycologicalFudge/SafeHaven-Store/issues/29#issuecomment-6390378800 '
+  - 'use tomlq instead, see https://github.com/phsycologicalFudge/SafeHaven-Store/issues/29#issuecomment-6390602988 '
 versions:
   - tag: v2.0.5
     apks:
