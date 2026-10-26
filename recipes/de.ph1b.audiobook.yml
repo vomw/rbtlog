@@ -764,3 +764,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: 26.10.6-5410006
+    apks:
+      - apk_pattern: app-free-release\.apk
+        apk_url: https://github.com/PaulWoitaschek/Voice/releases/download/26.10.6-5410006/app-free-release.apk
+        build:
+          - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -ri '/(foojay|toolchainVendor)/d' -i gradle/gradle-daemon-jvm.properties
+          - APP_VERSION=($(echo ${APP_TAG} | tr '-' ' '))
+          - ./gradlew clean :app:assembleFreeRelease -Pvoice.versionName=${APP_VERSION[0]} -Pvoice.versionCode=${APP_VERSION[1]} -Dorg.gradle.jvmargs=-Xmx2048m -D"-XX:MaxMetaspaceSize=1024m"
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/free/release/app-free-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout: 30
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-25-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

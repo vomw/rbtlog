@@ -263,3 +263,32 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.2.0
+    apks:
+      - apk_pattern: findroid-.*-libre-armeabi-v7a\.apk
+        apk_url: https://github.com/jarnedemeulemeester/findroid/releases/download/v1.2.0/findroid-v1.2.0-libre-armeabi-v7a.apk
+        build:
+          - sed -r '/abi \{/,/}/ { s/include\(.*\)/include("armeabi-v7a")/ }' -i app/phone/build.gradle.kts
+          - ./gradlew :app:phone:assembleLibreRelease
+          - find . -name '*.apk'
+          - mv app/phone/build/outputs/apk/libre/release/*libre-armeabi-v7a*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools: &id005
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - openjdk-17-jdk-headless
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
