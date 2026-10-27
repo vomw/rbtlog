@@ -164,6 +164,21 @@
       "maintainer_notes": null
     }
   ],
+  "15e88d581f6d9dda85a9b16f5cc2e90ef6b0b7a81c6cad68c782b003b9097c49": [
+    {
+      "repository": "https://github.com/naive-HA/subrosa.git",
+      "apk_url": "https://github.com/naive-HA/subrosa/releases/download/2.4.0/subrosa.2.4.0-arm64-v8a.apk",
+      "appid": "acab.naiveha.subrosa",
+      "version_code": 2015,
+      "version_name": "2.4.0",
+      "tag": "2.4.0",
+      "commit": "a2c65ef6d30991a66b994d1b72fd64e9c9d97e53",
+      "timestamp": 1793106373,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "99424835225eed0e49c6a9656de066fa3f3b52b9dab6dd3230bcdda167a8e7cf": [
     {
       "repository": "https://github.com/naive-HA/UpnpKino.git",
@@ -92506,6 +92521,21 @@
       "tag": "v1.3",
       "commit": "bb04298b9f8eebf70492142ea9c546338d2a06a6",
       "timestamp": 1741910972,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "919bc458a66f681815d3058902d7d8966cba0e7cca33854588482b1eff6f3524": [
+    {
+      "repository": "https://github.com/jerryhcooke/smouldering_durtles.git",
+      "apk_url": "https://github.com/jerryhcooke/smouldering_durtles/releases/download/v1.2.8/smouldering_durtles_1.2.8_arm64_signed.apk",
+      "appid": "com.smouldering_durtles.wk",
+      "version_code": 89,
+      "version_name": "1.2.8",
+      "tag": "v1.2.8",
+      "commit": "c11758c006623e8540afc006a31fde16bb605ae2",
+      "timestamp": 1793104738,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
