@@ -924,3 +924,36 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: V1.4.23-Castlevania
+    apks:
+      - apk_pattern: NowiVault\.apk
+        apk_url: https://github.com/cuadratico/NowiVault/releases/download/V1.4.23-Castlevania/NowiVault.apk
+        build:
+          - git reset --soft 887f31954ecbb117df8c6c4b9c616096a620ad58
+          - sed -ri '/org.gradle.toolchains.foojay-resolver-convention/d' settings.gradle.kts
+          - sed -ri '/vendor\.set\(JvmVendorSpec/d' app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
