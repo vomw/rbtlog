@@ -65315,6 +65315,21 @@
       "maintainer_notes": null
     }
   ],
+  "34b225989cde125e4eec597d5ddd9f21f0efdb642f962d72b80f4964c1cf2a71": [
+    {
+      "repository": "https://github.com/LeanBitLab/LtvLauncher.git",
+      "apk_url": "https://github.com/leanbitlab-org/LtvLauncher/releases/download/v2026.10.27/LTvLauncher-universal-release.apk",
+      "appid": "com.leanbitlab.ltvL",
+      "version_code": 8114,
+      "version_name": "2026.10.27",
+      "tag": "v2026.10.27",
+      "commit": "545136ba0cb98fc4279567012be56143fc3f6d0f",
+      "timestamp": 1793097738,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "8131c0529cc5c1e6b66e3badfcb9b3fe65d44e01af49ba6dba8be45fca8fdb15": [
     {
       "repository": "https://github.com/leohearts/AlternativeUnlockXposed.git",
@@ -140275,6 +140290,21 @@
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
+    }
+  ],
+  "6fc6c44652e07b5636b15c5e5b35fe14e6231def7faa0f67117b299981bb87fc": [
+    {
+      "repository": "https://github.com/knighthat/Kreate.git",
+      "apk_url": "https://github.com/knighthat/Kreate/releases/download/v2.2.4/Kreate-izzy.apk",
+      "appid": "me.knighthat.kreate",
+      "version_code": 142,
+      "version_name": "2.2.4-izzy",
+      "tag": "v2.2.4",
+      "commit": "5846e369df736c3cf4aabce78267b12a6f723320",
+      "timestamp": 1792867336,
+      "reproducible": null,
+      "error": "subprocess failed: Command '('podman', 'run', '--rm', '--volume', '/tmp/tmpsz6t1232/outputs:/outputs', '--volume', '/tmp/tmpsz6t1232/scripts:/scripts:ro', '--volume', '/tmp/tmpsz6t1232/cache/cmdline_tools:/rbtlog_cache/cmdline_tools:ro', '--volume', '/tmp/tmpsz6t1232/cache/gradle_wrapper_verify:/rbtlog_cache/gradle_wrapper_verify:ro', '--env', 'ANDROID_HOME=/opt/sdk', '--env', 'APP_REPOSITORY=https://github.com/knighthat/Kreate.git', '--env', 'APP_TAG=v2.2.4', '--env', 'APP_COMMIT=5846e369df736c3cf4aabce78267b12a6f723320', '--env', 'BUILD_USER=build', '--env', 'BUILD_HOME_DIR=/build', '--env', 'BUILD_REPO_DIR=/build/repo', '--env', 'BUILD_DIRS=', '--env', 'PROVISIONING_BUILD_TOOLS=', '--env', 'PROVISIONING_CMAKE=', '--env', 'PROVISIONING_EXTRA_PACKAGES=', '--env', 'PROVISIONING_JDK=openjdk-21-jdk-headless', '--env', 'PROVISIONING_NDK=', '--env', 'PROVISIONING_PLATFORM=', '--env', 'PROVISIONING_PLATFORM_TOOLS=', '--env', 'RECURSE_GIT_SUBMODULES=yes', '--env', 'PROVISIONING_TOOLS=', '--env', 'VERIFY_GIT=yes', '--env', 'VERIFY_GRADLE_WRAPPER=yes', '--env', 'WINDOWS_LIKE=no', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_PATH=/rbtlog_cache/cmdline_tools/tools.zip', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_VERSION=22.0', '--env', 'PROVISIONING_CACHE_CMDLINE_TOOLS_SHA256=4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_PATH=/rbtlog_cache/gradle_wrapper_verify/gradle-wrapper-verify', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_VERSION=main', '--env', 'PROVISIONING_CACHE_GRADLE_WRAPPER_VERIFY_SHA256=3a412b7c358b3b438c47aedd3b7ab0c03ed2abd458537aa02606d339c6ba2bd6', '--', 'ubuntu:jammy', 'bash', '-c', 'timeout 10m /scripts/provision-root.sh && cd /build && timeout 10m su build /scripts/provision.sh && cd /build/repo && timeout 20m su build /scripts/build.sh')' returned non-zero exit status 1.",
+      "maintainer_notes": "fails to build"
     }
   ],
   "b31e0319c6e3e67937aea0eb3a6f86dc6eb86d7ddf3451fc8a89053bcd849052": [
