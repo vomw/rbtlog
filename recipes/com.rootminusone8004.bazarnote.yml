@@ -1,5 +1,5 @@
 ---
-repository: https://codeberg.org/rootminusone8004/Bazarnote.git
+repository: https://github.com/rootminusone8004/Bazarnote.git
 updates: releases
 notes:
   - 'FIXED: v0.4.2 was not built from the tag, needed manual adjustment of the commit'
@@ -314,6 +314,34 @@ versions:
             version: '12.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
             sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: v0.10.0
+    apks:
+      - apk_pattern: (?i:bazarnote).*\.apk
+        apk_url: https://github.com/rootminusone8004/Bazarnote/releases/download/v0.10.0/Bazarnote-latest.apk
+        build:
+          - chmod +x gradlew
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/app-release*.apk /outputs/unsigned.apk
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages: []
           image: debian:bookworm-slim
           jdk: openjdk-17-jdk-headless

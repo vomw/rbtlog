@@ -1,0 +1,64 @@
+---
+repository: https://github.com/SuhasDissa/MemerizeApp.git
+updates: releases
+notes:
+  - upstream repo was archived 2024-08-11
+versions:
+  - tag: v2.4
+    apks:
+      - apk_pattern: Memerize-.*\.apk
+        apk_url: https://github.com/SuhasDissa/MemerizeApp/releases/download/v2.4/Memerize-v2.4.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - ./gradlew assembleReleaseGithub
+          - mv app/build/outputs/apk/releaseGithub/app-releaseGithub-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '12.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+            sha256: 2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v2.5
+    apks:
+      - apk_pattern: Memerize-.*\.apk
+        apk_url: https://github.com/SuhasDissa/MemerizeApp/releases/download/v2.5/Memerize-v2.5.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - ./gradlew assembleReleaseGithub
+          - mv app/build/outputs/apk/releaseGithub/app-releaseGithub-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
