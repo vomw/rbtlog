@@ -1275,3 +1275,46 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.9.4
+    apks:
+      - apk_pattern: FixupXer.*release\.apk
+        apk_url: https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.9.4/FixupXer-v2.9.4-release.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d ; /create\("release"\) \{/,/^        \}/d' -i app/build.gradle.kts
+          - sed -i -e '/org.gradle.java.home/d' gradle.properties
+          - sed -i -e '/jetbrains/d' settings.gradle.kts
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/release/*unsigned.apk
+          - mkdir reproducible-apk-tools
+          - tar xf "${PROVISIONING_CACHE_REPRO_APK_PATH}" --strip-components=1 -C reproducible-apk-tools/
+          - reproducible-apk-tools/inplace-fix.py --zipalign fix-newlines $OUT 'META-INF/services/*'
+          - mv $OUT /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: repro-apk
+              file_name: repro-apk.tar.gz
+              version: v0.3.2
+              url: https://gitlab.com/fdroid/reproducible-apk-tools/-/archive/v0.3.2/reproducible-apk-tools-v0.3.2.tar.gz
+              sha256: e71566c1d5233d9ee6f87c107c5c04aaf1afd69f0a4166b0e93c907151405c2f
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
