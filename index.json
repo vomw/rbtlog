@@ -51367,6 +51367,21 @@
       "maintainer_notes": null
     }
   ],
+  "c219dfda4bcc462e1f28d546aee5723bb08a1d930da098640375189b9cd20430": [
+    {
+      "repository": "https://github.com/stsaz/phiola.git",
+      "apk_url": "https://github.com/stsaz/phiola/releases/download/v2.13.1/phiola-2.13.1-android-arm64.apk",
+      "appid": "com.github.stsaz.phiola",
+      "version_code": 21301,
+      "version_name": "2.13.1",
+      "tag": "v2.13.1",
+      "commit": "16aa7beca58bc7d66b910d3b4a4498780b29ee3d",
+      "timestamp": 1793196910,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "dc16b2ee5cd08f8a38b4a9a2ac677e3e2a2086858ac46a5daf6ed6c6e7433425": [
     {
       "repository": "https://github.com/tmo1/sms-ie.git",
@@ -95386,6 +95401,21 @@
       "tag": "v72.0.0",
       "commit": "7ebf45f3f37110d803115997a0f828ddecfe0330",
       "timestamp": 1793110161,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "19561cbc9848ff879b315565e88bb5225b378f618b5ea05f3624a1f76cefeee6": [
+    {
+      "repository": "https://github.com/sweakpl/qralarm-android.git",
+      "apk_url": "https://github.com/sweakpl/qralarm-android/releases/download/2.11.4/qralarm-2.11.4.apk",
+      "appid": "com.sweak.qralarm",
+      "version_code": 93,
+      "version_name": "2.11.4",
+      "tag": "2.11.4",
+      "commit": "3493e0298045ebde9313bbd3e8e50f1b14f304c0",
+      "timestamp": 1793193801,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

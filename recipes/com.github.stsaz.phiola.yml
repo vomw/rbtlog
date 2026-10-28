@@ -1,0 +1,53 @@
+---
+repository: https://github.com/stsaz/phiola.git
+updates: releases
+versions:
+  - tag: v2.13.1
+    apks:
+      - apk_pattern: phiola-.*-android-arm64\.apk
+        apk_url: https://github.com/stsaz/phiola/releases/download/v2.13.1/phiola-2.13.1-android-arm64.apk
+        build:
+          - git clone https://codeberg.org/IzzyOnDroid/gradlew.py
+          - sed -ri 's/GRADLE=gradle/GRADLE=\/build\/repo\/gradlew.py\/gradlew.py/' builder/build-fdroid.sh
+          - builder/prebuild-fdroid.sh
+          - ANDROID_NDK_ROOT=${ANDROID_HOME}/ndk/${PROVISIONING_NDK} bash builder/build-fdroid.sh
+          - find . -name '*.apk'
+          - mv _android/gradle/outputs/apk/release/phiola-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - autoconf
+            - automake
+            - bzip2
+            - cmake
+            - curl
+            - dos2unix
+            - gettext
+            - make
+            - libtool-bin
+            - patch
+            - perl
+            - pkg-config
+            - unzip
+            - xz-utils
+            - zip
+            - zstd
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
