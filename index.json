@@ -629,6 +629,21 @@
       "maintainer_notes": null
     }
   ],
+  "3d4999b6e8e359369f574d889e001ad4041be626d1d2d680703f1011beb795a7": [
+    {
+      "repository": "https://github.com/XilinJia/Podcini.A.git",
+      "apk_url": "https://github.com/XilinJia/Podcini.A/releases/download/v12.17.4/Podcini.A-free-legacy-arm64-v8a-12.17.4.apk",
+      "appid": "ac.mdiq.Podcini.A",
+      "version_code": 148,
+      "version_name": "12.17.4",
+      "tag": "v12.17.4",
+      "commit": "145f0312243071846cba960a806b08bbc6bf49a6",
+      "timestamp": 1793305503,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fa462ff018a97d572f2b18042611b596f90dda2678b8366dc59c9413b11c30ec": [
     {
       "repository": "https://github.com/XilinJia/Podcini.git",
@@ -8542,6 +8557,21 @@
       "tag": "v3.9.1",
       "commit": "87e2059936d969ccbb9003bbd81fa78ec6fb6ee8",
       "timestamp": 1791483016,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "80c2b48e29113cb9bfd2380bd9258ca336161f089967b4871844aa95dfeb42cd": [
+    {
+      "repository": "https://github.com/pachli/pachli-android.git",
+      "apk_url": "https://github.com/pachli/pachli-android/releases/download/v3.10.0/Pachli_3.10.0_57_35a731ab_blueGithub_release-signed.apk",
+      "appid": "app.pachli",
+      "version_code": 57,
+      "version_name": "3.10.0",
+      "tag": "v3.10.0",
+      "commit": "35a731abfea85211d6c15a23e719d4ea1c238577",
+      "timestamp": 1793284507,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -23348,6 +23378,21 @@
       "maintainer_notes": null
     }
   ],
+  "b9d7bbb8f5ec60a5668779b29c24665232518b09bbed28ddeecb259a5f7f9453": [
+    {
+      "repository": "https://github.com/you-apps/WallYou.git",
+      "apk_url": "https://github.com/you-apps/WallYou/releases/download/v17.1/app-release.apk",
+      "appid": "com.bnyro.wallpaper",
+      "version_code": 43,
+      "version_name": "17.1",
+      "tag": "v17.1",
+      "commit": "a83be6b92bd0656ac1456ef0f2454201de35739a",
+      "timestamp": 1793306092,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c0c47b0143a06d9bd653dbb8962bf8d6356880001699689223a7f07a55a441a0": [
     {
       "repository": "https://github.com/bojko108/mobile-tile-server.git",
@@ -29892,6 +29937,21 @@
       "tag": "v1.21.0",
       "commit": "4af72118edfb8a9a0221e722961489545d143be4",
       "timestamp": 1792674010,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "2d3e65ddfdc2355d76c4f285c8d87813c2f0394a887874ce3d3ae4b1c886a5ad": [
+    {
+      "repository": "https://github.com/dietrichmax/colota.git",
+      "apk_url": "https://github.com/dietrichmax/colota/releases/download/v1.21.1/app-foss-arm64-v8a-release.apk",
+      "appid": "com.Colota",
+      "version_code": 54,
+      "version_name": "1.21.1",
+      "tag": "v1.21.1",
+      "commit": "5427d3565d8a030872070378f5f7c08436a5ccde",
+      "timestamp": 1793278458,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -39060,6 +39120,21 @@
       "maintainer_notes": null
     }
   ],
+  "4e4a51de915114edaaa34a28e3e0cd639cb4700d65cf4ad8ece3d41ea4b01660": [
+    {
+      "repository": "https://github.com/Mahmud0808/ColorBlendr.git",
+      "apk_url": "https://github.com/Mahmud0808/ColorBlendr/releases/download/v3.1/ColorBlendr.v3.1.apk",
+      "appid": "com.drdisagree.colorblendr",
+      "version_code": 43,
+      "version_name": "v3.1",
+      "tag": "v3.1",
+      "commit": "8b290b7cfdfa377103b6936faa8f28e82d9b6b8f",
+      "timestamp": 1793309608,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0f39a18ff07bee0dbcb37ce90f5293fc65605ceeaffec7732686a1947ab5efa8": [
     {
       "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
@@ -42055,6 +42130,21 @@
       "tag": "v3.0.6",
       "commit": "4be8f12490886e7ed7e76246d20a5c0df0af314e",
       "timestamp": 1792957639,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "b32f3517621ae2d959cbe846de7bb29e59122ca72954dba650bc7020713b52e8": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v3.0.7/dns_toggle_v3.0.7.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 35,
+      "version_name": "3.0.7",
+      "tag": "v3.0.7",
+      "commit": "2825759bc7eecec53015840f4d8962524f18ba28",
+      "timestamp": 1793278889,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -48278,6 +48368,21 @@
       "tag": "v1.26.3",
       "commit": "fd31b3b316d9cef015d4e5c9a97d4111bed80203",
       "timestamp": 1793042654,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9c93b6b3c90f505a4f6d16269a222655ed89cf838091fc0b47818de9b8eeb72d": [
+    {
+      "repository": "https://github.com/Futsch1/medTimer.git",
+      "apk_url": "https://github.com/Futsch1/medTimer/releases/download/v1.26.4/MedTimer-foss-release-signed.apk",
+      "appid": "com.futsch1.medtimer",
+      "version_code": 191,
+      "version_name": "1.26.4",
+      "tag": "v1.26.4",
+      "commit": "9ed6f961ca4b5a056cc8e9efd3ff6f603dbb2774",
+      "timestamp": 1793307347,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56012,6 +56117,21 @@
       "tag": "v1.7.4",
       "commit": "c06fce210f8e1213351ccb82ffb668ae1e8329e4",
       "timestamp": 1792762037,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "eef12fc2b56f0de4b0ac8f61e8064d874bd96ef7d94c3dabebea142b3b6ed308": [
+    {
+      "repository": "https://github.com/googol-apps/OnePlayer.git",
+      "apk_url": "https://github.com/googol-apps/OnePlayer/releases/download/v1.7.6/app-community-release-unsigned-signed.apk",
+      "appid": "com.googol.android.apps.oneplayer",
+      "version_code": 46,
+      "version_name": "1.7.6-foss",
+      "tag": "v1.7.6",
+      "commit": "c5849b9d6c27a4b0c6839b8256b9360c5b716c0c",
+      "timestamp": 1793307782,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -85677,6 +85797,21 @@
       "maintainer_notes": null
     }
   ],
+  "ddb79bf520136d00be5f5cef9ba5858fa58899c39f04d4e2774fb608dad23645": [
+    {
+      "repository": "https://github.com/roozbehzarei/filester.git",
+      "apk_url": "https://github.com/roozbehzarei/filester/releases/download/v3.4.0/filester-foss-universal.apk",
+      "appid": "com.roozbehzarei.filester",
+      "version_code": 25,
+      "version_name": "3.4.0-foss",
+      "tag": "v3.4.0",
+      "commit": "d3953ff3aa6c78ece9e63a4d2affcf30ed470819",
+      "timestamp": 1793285557,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "07ed957a9178e32b7cc9643812881775721f9e27b1ab42a6773171e30ed98bd1": [
     {
       "repository": "https://github.com/iamr0s/Dhizuku.git",
@@ -86722,6 +86857,21 @@
       "tag": "v1.0.21",
       "commit": "8a82bef219af5818eaad4a3986627451ce6a0f67",
       "timestamp": 1786905344,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a6b725914ea99d87b3a8cdf5b6db7e786dfb369b9f107a586018e1a7778919fe": [
+    {
+      "repository": "https://github.com/samyak2403/RepoStore.git",
+      "apk_url": "https://github.com/samyak2403/RepoStore/releases/download/v1.0.22/app-release.apk",
+      "appid": "com.samyak.repostore",
+      "version_code": 23,
+      "version_name": "1.0.22",
+      "tag": "v1.0.22",
+      "commit": "f61252762e427e3a2cf8eeb9d337e0b1ed6225e0",
+      "timestamp": 1793308252,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -98886,6 +99036,21 @@
       "maintainer_notes": null
     }
   ],
+  "89e5079247a9de7beb530cb47e59803c3df8b91c0c075d85c0b3ae958c52cd9d": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.5.2/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 17,
+      "version_name": "2.5.2",
+      "tag": "v2.5.2",
+      "commit": "0467493ecd33db712b0d22798e8f18d57ee57705",
+      "timestamp": 1793279156,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "074ee55640e3863e8967c3bce125dbfc51bb19291a6dace2d7c75b0a9385ecdb": [
     {
       "repository": "https://github.com/umutcamliyurt/IrisChat.git",
@@ -105722,6 +105887,21 @@
       "maintainer_notes": null
     }
   ],
+  "ca1b454b1b3fb93b330e58d239a1a9a87161d04f2ce2285a88fbc2cfab92027b": [
+    {
+      "repository": "https://github.com/iZakirSheikh/Gallery.git",
+      "apk_url": "https://github.com/googol-apps/Gallery/releases/download/v1.0.11/app-community-release-unsigned-signed.apk",
+      "appid": "com.zs.android.apps.photos",
+      "version_code": 85,
+      "version_name": "1.0.11-foss",
+      "tag": "v1.0.11",
+      "commit": "fb6adec12ae74cb6b202848eba767a95ab79bba4",
+      "timestamp": 1793279331,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ac35150b71afbb1b64488c5344079c8a26e3be18a5fb5d55ee972f89dc8ef8f6": [
     {
       "repository": "https://github.com/ZTFtrue/MonsterMusic.git",
@@ -111385,6 +111565,21 @@
       "tag": "26.10.6-5410006",
       "commit": "fcb69a66b9c8927fb32ca36d292739102c6d058c",
       "timestamp": 1793029322,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "48bd26c32b3e33ebf7edb079aee1b2aab7061957f9cc4faaca32f528d553346a": [
+    {
+      "repository": "https://github.com/VoiceAudiobook/Voice.git",
+      "apk_url": "https://github.com/PaulWoitaschek/Voice/releases/download/26.10.7-5410007/app-free-release.apk",
+      "appid": "de.ph1b.audiobook",
+      "version_code": 5410007,
+      "version_name": "26.10.7",
+      "tag": "26.10.7-5410007",
+      "commit": "884515369b506add16c8d2be320e9aabdd85e339",
+      "timestamp": 1793308568,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -121560,6 +121755,21 @@
       "tag": "v4.3.0",
       "commit": "fa46c07d5c178e3d78323c369077d21df58f61fa",
       "timestamp": 1792591454,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "e5f3ccea5819713b59562feaed7d147c8d85766178b1ab4100e50e9b58003023": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.3.1/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2077,
+      "version_name": "4.3.1",
+      "tag": "v4.3.1",
+      "commit": "68da63efec4e27d2c30c280a6edb953a8f65d2f7",
+      "timestamp": 1793279565,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -136762,6 +136972,21 @@
       "tag": "v1.20",
       "commit": "c23d9aa83fdce20df3b6c368ccc126c7b10d5a42",
       "timestamp": 1792004552,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "502afb67e9bc44ae0f998008413ffab35a4fe54f88f73abba0850b2a8b25cde4": [
+    {
+      "repository": "https://github.com/Khh-vu/wifi-password-manager.git",
+      "apk_url": "https://github.com/Khh-vu/wifi-password-manager/releases/download/v1.21/app-release.apk",
+      "appid": "io.github.wifi_password_manager",
+      "version_code": 22,
+      "version_name": "1.21",
+      "tag": "v1.21",
+      "commit": "49b8934428ff0d29acf97ffa243e1f3c34ae93bb",
+      "timestamp": 1793308992,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -161120,6 +161345,21 @@
       "tag": "v1.0.0-alpha59",
       "commit": "e762963d487b5aa09c79d88ba55dee9cc6e27658",
       "timestamp": 1790024728,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d4f39066300df775c79fb534c673f2fc2990b8dd8d88231051126871be50a90c": [
+    {
+      "repository": "https://github.com/ssalggnikool/Navic.git",
+      "apk_url": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-beta01/Navic.fdroid.apk",
+      "appid": "paige.navic",
+      "version_code": 60,
+      "version_name": "v1.0.0-beta01",
+      "tag": "v1.0.0-beta01",
+      "commit": "c756e484f29f2e70a3b3f57ed2f51b63a40c2f51",
+      "timestamp": 1793289845,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

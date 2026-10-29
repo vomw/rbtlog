@@ -995,3 +995,48 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v1.21.1
+    apks:
+      - apk_pattern: app-foss-arm64-v8a-release\.apk
+        apk_url: https://github.com/dietrichmax/colota/releases/download/v1.21.1/app-foss-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i apps/mobile/android/app/build.gradle
+          - tar xf "${PROVISIONING_CACHE_NODEJS_LTS_PATH}" -C /opt
+          - export PATH="${PATH}:/opt/node-${PROVISIONING_CACHE_NODEJS_LTS_VERSION}-linux-x64/bin:${HOME}/.node/bin"
+          - npm ci
+          - npm run build -w @colota/shared
+          - sed -i 's/getHostIpAddress(),/project.properties["reactNativeDevServerIp"]?.toString() ?:\ "localhost",/' node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/kotlin/com/facebook/react/utils/AgpConfiguratorUtils.kt
+          - sed -i '/^project(rnscreens)/a add_link_options(-Wl,--build-id=none)' node_modules/react-native-screens/android/CMakeLists.txt
+          - pushd apps/mobile/android
+          - chmod +x gradlew
+          - ./gradlew clean assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/app-foss-arm64-v8a-*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/colota/colota
+        build_timeout:
+        build_user: runner
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cached_tools:
+            - name: nodejs-lts
+              file_name: nodejs-lts.tar.xz
+              version: v24.21.0
+              url: https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-x64.tar.xz
+              sha256: fd8e59d5a511510f6a298afb548f18c7d2b1be404d8b4a27d94fbe49f56cb2d6
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - xz-utils
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
