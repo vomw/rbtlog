@@ -8727,6 +8727,21 @@
       "maintainer_notes": null
     }
   ],
+  "4513bc2a23c60adb758173c757ce9a69abbf2935a069316c4a593bfd64516029": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.6.2/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 162,
+      "version_name": "1.6.2",
+      "tag": "v1.6.2",
+      "commit": "26c0bf2e7bbab4fa4c6a1689175f77a9912f6416",
+      "timestamp": 1793388194,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "91098e08efb8f06944af946c9767f7b471e7a6f719118dcf43b53d1309f996d9": [
     {
       "repository": "https://github.com/pass-with-high-score/blockads-android.git",
@@ -30707,6 +30722,21 @@
       "maintainer_notes": null
     }
   ],
+  "2c4218eef1bfb7258578d01d2e76c1fd84373bdf7c581b6a20d6e31d9a343340": [
+    {
+      "repository": "https://github.com/christianrowlands/android-network-survey.git",
+      "apk_url": "https://github.com/christianrowlands/android-network-survey/releases/download/v2.0/networksurvey-2.0-cdr-arm64-v8a-release.apk",
+      "appid": "com.craxiom.networksurvey",
+      "version_code": 120002,
+      "version_name": "2.0",
+      "tag": "v2.0",
+      "commit": "f407b82e11e944228a5eadb268301edf2a68f52f",
+      "timestamp": 1793364735,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "c7fb65dd18f6dce8fa3bba95056796e302290d99246c27cc2d657caa2656ede8": [
     {
       "repository": "https://github.com/christianrowlands/android-network-survey-rooted.git",
@@ -46363,6 +46393,21 @@
       "maintainer_notes": null
     }
   ],
+  "38caf1e00728dd62068fa838107108e3473078f19b88df1ec505075f2817e61a": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.3/PrivateDnsQS-v3.3-launcher-release.apk",
+      "appid": "com.flashsphere.privatednsqs",
+      "version_code": 63,
+      "version_name": "3.3",
+      "tag": "v3.3",
+      "commit": "0bbcb7ff1920389d972e6e943be8a7e09ef895df",
+      "timestamp": 1793365785,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "ce35604d65d5c1412de6728fba290b39bff97cb3f447fc1621e3607aa39cfd5d": [
     {
       "repository": "https://github.com/flashsphere/private-dns-qs.git",
@@ -46598,6 +46643,21 @@
       "tag": "v3.2",
       "commit": "7a04cfa56866fd6bb4ded94676eb709324034bc9",
       "timestamp": 1793109513,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7b9f3dc480237e356ecca7490323505550d08ab72665deeb40a6b20743e1d602": [
+    {
+      "repository": "https://github.com/flashsphere/private-dns-qs.git",
+      "apk_url": "https://github.com/flashsphere/private-dns-qs/releases/download/v3.3/PrivateDnsQS-v3.3-nolauncher-release.apk",
+      "appid": "com.flashsphere.privatednsqs.nolauncher",
+      "version_code": 63,
+      "version_name": "3.3",
+      "tag": "v3.3",
+      "commit": "0bbcb7ff1920389d972e6e943be8a7e09ef895df",
+      "timestamp": 1793365569,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -54682,6 +54742,21 @@
       "maintainer_notes": null
     }
   ],
+  "ab8531fb190f9b0e77a1b7043adb18e1e40e7e0f1e09a0e202e3e1789ca8a4c6": [
+    {
+      "repository": "https://github.com/itdolan31/crystalpad.git",
+      "apk_url": "https://github.com/itdolan31/crystalpad/releases/download/v1.8.0/Crystalpad-v1.8.0-release.apk",
+      "appid": "com.git.itdolan31.crystalpad",
+      "version_code": 13,
+      "version_name": "1.8.0",
+      "tag": "v1.8.0",
+      "commit": "c562492938687d9dadebb2d7648e2d9aea4694cb",
+      "timestamp": 1793391646,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "1355e1af5723a4084912dae2d1e2e40c9ae90f6a4c2d8c9764a47bb3c34d740b": [
     {
       "repository": "https://github.com/gohj99/Telewatch.git",
@@ -62475,6 +62550,21 @@
       "tag": "v2.0.61",
       "commit": "7effe3a5bb3d01b04a8892b5654c2c45a260ab49",
       "timestamp": 1793043086,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1f5dc065b358b5417990fb5b55be43aa78ecb7d9500bcf11472e248e032a5ca2": [
+    {
+      "repository": "https://github.com/mburgosfr-star/kelani-sbd-tracker.git",
+      "apk_url": "https://github.com/mburgosfr-star/kelani-sbd-tracker/releases/download/v2.0.62/kelani-sbd-tracker-v2.0.62.apk",
+      "appid": "com.kelani.sbdtracker",
+      "version_code": 162,
+      "version_name": "2.0.62",
+      "tag": "v2.0.62",
+      "commit": "765cc900a4e6b1fc8b042d17c0d2a7e5388382f3",
+      "timestamp": 1793389682,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -85944,6 +86034,21 @@
       "timestamp": 1782327284,
       "reproducible": false,
       "error": "signature copying failed: APK Signing Block offset < central directory offset",
+      "maintainer_notes": null
+    }
+  ],
+  "18e4250660f8a7fdcb658404b3e7ff5da43a0777ebf938b0998de62aa2e22226": [
+    {
+      "repository": "https://github.com/iamr0s/Dhizuku.git",
+      "apk_url": "https://github.com/iamr0s/Dhizuku/releases/download/v2.13.0/Dhizuku-v2.13.0.apk",
+      "appid": "com.rosan.dhizuku",
+      "version_code": 20,
+      "version_name": "2.13.0",
+      "tag": "v2.13.0",
+      "commit": "d388b18cfc0fd9993e15ed1890d02f8da3bad6c2",
+      "timestamp": 1793392173,
+      "reproducible": true,
+      "error": null,
       "maintainer_notes": null
     }
   ],
@@ -121835,6 +121940,21 @@
       "maintainer_notes": null
     }
   ],
+  "f760ce98e87f6a3dfbcebc541fbb4275bc1d7304b0910c97045d9ade8b92ecf9": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.3.2/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2078,
+      "version_name": "4.3.2",
+      "tag": "v4.3.2",
+      "commit": "47b745fa2d4acbc02d8b8382a1291a977bf242bf",
+      "timestamp": 1793366663,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
     {
       "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
@@ -135712,6 +135832,21 @@
       "tag": "v0.1.101",
       "commit": "c490a09943e06ba89d9cf566979a2d2ed31b0523",
       "timestamp": 1792937995,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "1a141f0cf47e3d7c5e07abcf1884ccde01647f05c50fe8cd0e2e41cb71cc3c83": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.102/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1102,
+      "version_name": "0.1.102",
+      "tag": "v0.1.102",
+      "commit": "ed525089464576e98d5d9794c1b49aaae4f75b07",
+      "timestamp": 1793367020,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -156412,6 +156547,21 @@
       "tag": "v2026.10.26",
       "commit": "0164dad0a20db37fea5c7e32206d8a859bebf26d",
       "timestamp": 1793036725,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "863bd5bdfd12878f8a5d5c368f09567657a4b0a6c41b49ba743dab0a8c2d87da": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.10.30/KashCal-2026.10.30-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 811,
+      "version_name": "2026.10.30",
+      "tag": "v2026.10.30",
+      "commit": "7960b57f2efe15e7e899c2c4fee0f1b5e476ae35",
+      "timestamp": 1793389966,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
