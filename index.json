@@ -112644,6 +112644,21 @@
       "maintainer_notes": null
     }
   ],
+  "24f3327406f62e67a7c0a57a030252fb636624561a90e0e46c3e9ae2f41f8b6b": [
+    {
+      "repository": "https://codeberg.org/tkuenneth/benice.git",
+      "apk_url": "https://codeberg.org/tkuenneth/benice/releases/download/2.4.2/app-release.apk",
+      "appid": "de.thomaskuenneth.benice",
+      "version_code": 177,
+      "version_name": "2.4.2",
+      "tag": "2.4.2",
+      "commit": "67c9615586a7fe9f855812e73824a17cb44d2aee",
+      "timestamp": 1793371974,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "452e321ee5f48030331edd5e55ca936ddd2b20488ced726ad96d467fc04ca5e5": [
     {
       "repository": "https://github.com/nfcgate/nfcgate.git",
@@ -128398,6 +128413,21 @@
       "tag": "v1.7",
       "commit": "ad5a1e688009d5b5ae54c3481c3f7eab97ef808f",
       "timestamp": 1725785700,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "d6a69a16fed347579ff40e945321feba91f8dd1925426fd7324b192578a446d4": [
+    {
+      "repository": "https://codeberg.org/s1m/bubble-share.git",
+      "apk_url": "https://codeberg.org/s1m/bubble-share/releases/download/0.2.0/bubbleshare.apk",
+      "appid": "fr.s1m.share",
+      "version_code": 4,
+      "version_name": "0.2.0",
+      "tag": "0.2.0",
+      "commit": "8b1261b7760eee7faf99f73d6dd0237d006b81a6",
+      "timestamp": 1793358061,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
