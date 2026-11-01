@@ -3,12 +3,47 @@ repository: https://github.com/nextcloud/passman-android.git
 updates: releases
 notes:
   - NDK ver in openssl.conf.example and app/build.gradle - but already needed before gradle starts (by build-openssl.sh)
-  - 'FIXME: releases after v1.6.1 will have conditional signing active, so the sed can be dropped here'
+  - 'FIXME: releases after v1.6.1 will have conditional signing active, so the sed can be dropped here. Also switch to app-universal-release for apk_pattern and resulting APK'
 versions:
   - tag: v1.6.1
     apks:
       - apk_pattern: app-arm64-v8a-release\.apk
         apk_url: https://github.com/nextcloud/passman-android/releases/download/v1.6.1/app-arm64-v8a-release.apk
+        build:
+          - sed -r '/signingConfigs.(alpha|release)/d ; /signingConfigs \{/,/^    \}/d' -i app/build.gradle
+          - mv gradle.properties.example gradle.properties
+          - ./build-openssl.sh >/dev/null
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/release/*arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /builds/binsky
+        build_repo_dir: /builds/binsky/passman-android-deploy-pipeline/passman-android
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - gcc
+            - cmake
+            - make
+          image: debian:trixie-slim
+          jdk: openjdk-21-jdk-headless
+          ndk: 28.1.13356709
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
+  - tag: v1.7.0
+    apks:
+      - apk_pattern: app-arm64-v8a-release\.apk
+        apk_url: https://github.com/nextcloud/passman-android/releases/download/v1.7.0/app-arm64-v8a-release.apk
         build:
           - sed -r '/signingConfigs.(alpha|release)/d ; /signingConfigs \{/,/^    \}/d' -i app/build.gradle
           - mv gradle.properties.example gradle.properties

@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/stsaz/phiola.git
 updates: releases
+notes:
+  - 'FIXME: export VERBOSE=low before the build to keep logging size at bay, see https://github.com/stsaz/phiola/issues/132#issuecomment-6541655166 '
 versions:
   - tag: v2.13.1
     apks:

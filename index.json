@@ -42390,6 +42390,21 @@
       "maintainer_notes": null
     }
   ],
+  "65e624ee38ab021f48692e4648f572dc83b328039d142bc36e612aa5715bb701": [
+    {
+      "repository": "https://github.com/1372Slash/Zenith.git",
+      "apk_url": "https://github.com/1372Slash/Zenith/releases/download/v1.6.3.1/Zenith-store-1.6.3.1.apk",
+      "appid": "com.etrisad.zenith",
+      "version_code": 17,
+      "version_name": "1.6.3.1",
+      "tag": "v1.6.3.1",
+      "commit": "96ad72f0846a13721f771ce3d2ef344c716227b2",
+      "timestamp": 1793534058,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "90adcbe73cd1d44e81dfef1de8240955b45cffa97a00175f0cca03354f93484f": [
     {
       "repository": "https://github.com/Ethanscharlie/Cash-On-Track.git",
@@ -122865,6 +122880,21 @@
       "tag": "v1.6.1",
       "commit": "d9f6a8cb0cc8e44f926b71c4272301fe36922a99",
       "timestamp": 1789853838,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "7d30b97796b74bc5fa8b237a63ed1df1fc1b068352f287ca3c59fb2c833a9789": [
+    {
+      "repository": "https://github.com/nextcloud/passman-android.git",
+      "apk_url": "https://github.com/nextcloud/passman-android/releases/download/v1.7.0/app-arm64-v8a-release.apk",
+      "appid": "es.wolfi.app.passman",
+      "version_code": 22,
+      "version_name": "1.7.0",
+      "tag": "v1.7.0",
+      "commit": "1aedfa871b6dd363f836f91b7f66c51e6b4076fb",
+      "timestamp": 1793530436,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
