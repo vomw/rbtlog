@@ -836,3 +836,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.3.2
+    apks:
+      - apk_pattern: PublicArtExplorer.*\.apk
+        apk_url: https://codeberg.org/toz/PublicArtExplorer/releases/download/v2.3.2/PublicArtExplorer-2.3.2.apk
+        build:
+          - sed -r '/signingConfigs.getByName/d' -i app/build.gradle.kts
+          - base64 -d > secrets.properties <<< TUFQSUxMQVJZX0FDQ0VTU19UT0tFTj1NTFl8OTQ2ODE4OTQ2OTk1OTI1NXwwNmMwM2M4YWNjZmJiZTE3YTQ0ZjU3NTBhMTQ2ZmNjNAo=
+          - chmod +x gradlew
+          - ./gradlew assembleFossRelease
+          - find . -name '*.apk'
+          - mv app/build/outputs/apk/foss/release/*unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/thomas
+        build_repo_dir: /home/thomas/Dev/StudioProjects/PublicArtExplorer
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

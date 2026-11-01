@@ -8757,6 +8757,21 @@
       "maintainer_notes": null
     }
   ],
+  "7e9e150a221606411eda7755455c7923607ad3d34a80114ebcc3b2e34e2ca733": [
+    {
+      "repository": "https://github.com/msbelaid/PlugBrain.git",
+      "apk_url": "https://github.com/msbelaid/PlugBrain/releases/download/v1.6.3/app-release.apk",
+      "appid": "app.plugbrain.android",
+      "version_code": 163,
+      "version_name": "1.6.3",
+      "tag": "v1.6.3",
+      "commit": "7bfc569fb7af474e73b93dda91da2be980e301e0",
+      "timestamp": 1793560994,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "91098e08efb8f06944af946c9767f7b471e7a6f719118dcf43b53d1309f996d9": [
     {
       "repository": "https://github.com/pass-with-high-score/blockads-android.git",
@@ -9127,6 +9142,21 @@
       "tag": "v7.0.0",
       "commit": "55b6b0f25e5ec14a6176dbd92260ee90f4dd297e",
       "timestamp": 1792008463,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "6e54c62566d7d9460da6fbb80cf8735cd14b28b66ed786a5769172edb7fff42b": [
+    {
+      "repository": "https://github.com/pass-with-high-score/blockads-android.git",
+      "apk_url": "https://github.com/pass-with-high-score/blockads-android/releases/download/v7.1.0/app-arm64-v8a-release.apk",
+      "appid": "app.pwhs.blockads",
+      "version_code": 57,
+      "version_name": "7.1.0",
+      "tag": "v7.1.0",
+      "commit": "0f157bc033c3dec098bb47fb9478fd3debe06802",
+      "timestamp": 1793541936,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -9607,6 +9637,21 @@
       "tag": "v1.20.0",
       "commit": "e0c73fb08da878443863156d5b01b2232f6ac089",
       "timestamp": 1792956416,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "172ae8d1d84fee46cb0993257a950657c5ddadb2e9a8a2e0410aabf349c42a07": [
+    {
+      "repository": "https://github.com/pass-with-high-score/universal-installer.git",
+      "apk_url": "https://github.com/pass-with-high-score/universal-installer/releases/download/v1.21.0/app-release.apk",
+      "appid": "app.pwhs.universalinstaller",
+      "version_code": 45,
+      "version_name": "1.21.0",
+      "tag": "v1.21.0",
+      "commit": "b3d8906a82dab56137e561352c94bb7d9c22dc45",
+      "timestamp": 1793541905,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -14922,6 +14967,21 @@
       "maintainer_notes": null
     }
   ],
+  "123e24af3cd8f729500cd28c1a24bf937322a85a1dab10038fa7ed5ceaaf51d7": [
+    {
+      "repository": "https://github.com/mvmike/min-cal-widget.git",
+      "apk_url": "https://github.com/mvmike/min-cal-widget/releases/download/v2.21.0/min-cal-widget-v2.21.0.apk",
+      "appid": "cat.mvmike.minimalcalendarwidget",
+      "version_code": 95,
+      "version_name": "2.21.0",
+      "tag": "v2.21.0",
+      "commit": "38558d76659196fd06718d4c9ad0c3c60094a290",
+      "timestamp": 1793542704,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "aeeb1cafd6228c7b758b87475ea2601c2c82ee54bea671b7cf12f15ae9b9ae03": [
     {
       "repository": "https://github.com/TaylorKunZhang/SubTune.git",
@@ -15847,6 +15907,21 @@
       "tag": "v1.0.11",
       "commit": "e2e50f46543d390b2b125a1ec5fc78802c8a45ed",
       "timestamp": 1790172318,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "c398fef906d6f55ae876f26e304ca9c79907b6ab5f38c2fbbc6aedc252e6dda1": [
+    {
+      "repository": "https://github.com/yjeanrenaud/yj_nearbyglasses.git",
+      "apk_url": "https://github.com/yjeanrenaud/yj_nearbyglasses/releases/download/v1.0.12/yj_nearbyglasses_1.0.12.apk",
+      "appid": "ch.pocketpc.nearbyglasses",
+      "version_code": 13,
+      "version_name": "1.0.12",
+      "tag": "v1.0.12",
+      "commit": "f9137745010432af43463af49a4ee514e1b204b7",
+      "timestamp": 1793542410,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -33917,6 +33992,21 @@
       "maintainer_notes": null
     }
   ],
+  "b9c33d4d815222893ba3eb4ea4df6b9dd4e67b20bb5270fe0e182b3e606a5aa6": [
+    {
+      "repository": "https://github.com/deepanjanxyz/notepad.git",
+      "apk_url": "https://github.com/deepanjanxyz/notepad/releases/download/v1.0.27/EliteMemoPro-v1.0.27-27-universal.apk",
+      "appid": "com.deepanjanxyz.notepad",
+      "version_code": 27,
+      "version_name": "1.0.27",
+      "tag": "v1.0.27",
+      "commit": "bf8437b2563a1b8918af1c7186f976938a80d125",
+      "timestamp": 1793542939,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "215d538d285efac2bd934e06574e08421af1fe5565dc240ee481c070cc266ae9": [
     {
       "repository": "https://github.com/mona-hrt/mona.git",
@@ -39270,6 +39360,21 @@
       "maintainer_notes": null
     }
   ],
+  "37bee43eb98ceed4b574f46de5628909c3059f7d0a232bf74ad78353ac2880bc": [
+    {
+      "repository": "https://github.com/Mahmud0808/ColorBlendr.git",
+      "apk_url": "https://github.com/Mahmud0808/ColorBlendr/releases/download/v3.1.2/ColorBlendr.v3.1.2.apk",
+      "appid": "com.drdisagree.colorblendr",
+      "version_code": 45,
+      "version_name": "v3.1.2",
+      "tag": "v3.1.2",
+      "commit": "bb532925aeaba23b3c8c2d3787dbe77171edf832",
+      "timestamp": 1793542682,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "0f39a18ff07bee0dbcb37ce90f5293fc65605ceeaffec7732686a1947ab5efa8": [
     {
       "repository": "https://github.com/DresOperatingSystems/DresSecureComms.git",
@@ -42295,6 +42400,21 @@
       "tag": "v3.0.7",
       "commit": "2825759bc7eecec53015840f4d8962524f18ba28",
       "timestamp": 1793278889,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a3020c3690d2615534d9928073b6d8d856f154618d04c397c0f6ce7f542db2fb": [
+    {
+      "repository": "https://github.com/ELowry/DNSToggle.git",
+      "apk_url": "https://github.com/ELowry/DNSToggle/releases/download/v3.0.8/dns_toggle_v3.0.8.apk",
+      "appid": "com.ericlowry.dnstoggle",
+      "version_code": 36,
+      "version_name": "3.0.8",
+      "tag": "v3.0.8",
+      "commit": "89b6b0864e4a8131a2d89c148fb44cc32d68ef51",
+      "timestamp": 1793543005,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -65015,6 +65135,21 @@
       "maintainer_notes": null
     }
   ],
+  "621718e55af8fd2aad6884df180bf7889c5de008fadc5dd26c726ebcb575bebb": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.8/KeePassDX-4.5.8-free.apk",
+      "appid": "com.kunzisoft.keepass.free",
+      "version_code": 45800,
+      "version_name": "4.5.8",
+      "tag": "4.5.8",
+      "commit": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554",
+      "timestamp": 1793543355,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "fb2c700f7c516f2ecf546a1a5a338ccb69d4ec88f0443fea74c059c57ba417f9": [
     {
       "repository": "https://github.com/Kunzisoft/KeePassDX.git",
@@ -65445,6 +65580,21 @@
       "tag": "4.5.7",
       "commit": "52d2dc9e08fd3080a6bb874ced76e53a2f5a0eff",
       "timestamp": 1793453347,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74": [
+    {
+      "repository": "https://github.com/Kunzisoft/KeePassDX.git",
+      "apk_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.8/KeePassDX-4.5.8-libre.apk",
+      "appid": "com.kunzisoft.keepass.libre",
+      "version_code": 45800,
+      "version_name": "4.5.8",
+      "tag": "4.5.8",
+      "commit": "77ecfa8654a5bd0d79d512f8fa71c0af8a29b554",
+      "timestamp": 1793543825,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -70421,6 +70571,21 @@
       "tag": "v2.4.0",
       "commit": "068d74435f0cf0e8552af3da07879eafd328fea7",
       "timestamp": 1792960636,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "45ede665cc1b0ee8787dbc020a05183e72c2d3d963c62b05005d41a37e25d76b": [
+    {
+      "repository": "https://github.com/maxrave-dev/SimpMusic.git",
+      "apk_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.5.0/SimpMusic-foss-arm64-v8a-release.apk",
+      "appid": "com.maxrave.simpmusic",
+      "version_code": 62,
+      "version_name": "2.5.0",
+      "tag": "v2.5.0",
+      "commit": "b5cff20a32f8b8bfaa720a83a81320b4c988dba3",
+      "timestamp": 1793550178,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -106052,6 +106217,21 @@
       "maintainer_notes": null
     }
   ],
+  "d78e45da3d40d2dddaa0804b6aeb756c906b4a8a816bd73cf67a11a5828e01e3": [
+    {
+      "repository": "https://codeberg.org/toz/PublicArtExplorer.git",
+      "apk_url": "https://codeberg.org/toz/PublicArtExplorer/releases/download/v2.3.2/PublicArtExplorer-2.3.2.apk",
+      "appid": "com.zell_mbc.publicartexplorer.foss",
+      "version_code": 72,
+      "version_name": "2.3.2",
+      "tag": "v2.3.2",
+      "commit": "24e75674bc248aabe56c85b9b9c607ce89401de8",
+      "timestamp": 1793544894,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "06216a336286fc6625b57d3e88d46d92e58957d2bdbc0a1378d07d019f643e08": [
     {
       "repository": "https://github.com/z-huang/InnerTune.git",
@@ -117864,6 +118044,21 @@
       "maintainer_notes": null
     }
   ],
+  "f9216f721a7713b75929e0806bc18586f8fcf7328fbbff99b6aef1debb9eef80": [
+    {
+      "repository": "https://github.com/ImranR98/Obtainium.git",
+      "apk_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-release.apk",
+      "appid": "dev.imranr.obtainium",
+      "version_code": 23623,
+      "version_name": "1.7.4",
+      "tag": "v1.7.4",
+      "commit": "35c3e7fea4f341a716eca4bb3fc625319ce965ab",
+      "timestamp": 1793551238,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "61fcac6254d8c08ec4ccac34eee5c739fe3c5278f97d20f3738c5633d889d929": [
     {
       "repository": "https://github.com/itsvic-dev/parcel.git",
@@ -129393,6 +129588,21 @@
       "maintainer_notes": null
     }
   ],
+  "d1401d5d1922fa2ab1ae3d329cf36bfdcefd6406df289ffed5e7198067ab9b5f": [
+    {
+      "repository": "https://github.com/paroj/DSub2000.git",
+      "apk_url": "https://github.com/paroj/DSub2000/releases/download/5.8.0/DSub2000_5.8.0-floss-release.apk",
+      "appid": "github.paroj.dsub2000",
+      "version_code": 221,
+      "version_name": "5.8.0",
+      "tag": "5.8.0",
+      "commit": "1f1dc250e3f46f07728519f0bb0222f1b28d129c",
+      "timestamp": 1793561896,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "15f8a0ca4b6ec0af765878239a0b5b1d5acfff16a677b432d39f6d710e51fe43": [
     {
       "repository": "https://github.com/green-green-avk/AnotherTerm.git",
@@ -136197,6 +136407,21 @@
       "maintainer_notes": null
     }
   ],
+  "0a688ac1900327f0e5c49118a1e984d47962e8cc51ca5bc4800717157b472627": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.103/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1103,
+      "version_name": "0.1.103",
+      "tag": "v0.1.103",
+      "commit": "16f92e8d75fd68068daa27aaddf9829ed6a0fc42",
+      "timestamp": 1793562120,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d17810e01e7011f1530b7f65689ab6d4a7f9623f6bd0cef1fc9b82a2bf65345b": [
     {
       "repository": "https://github.com/samolego/Canta.git",
@@ -139287,6 +139512,21 @@
       "maintainer_notes": null
     }
   ],
+  "1d7f385d38c22537809323da0a8c84506424bb8c9a2431bbd4c180f76274175a": [
+    {
+      "repository": "https://github.com/fast4x/RiPlay.git",
+      "apk_url": "https://github.com/fast4x/RiPlay/releases/download/v0.8.3/RiPlay-v0.8.3-Android-foss.apk",
+      "appid": "it.fast4x.riplay",
+      "version_code": 104,
+      "version_name": "0.8.3",
+      "tag": "v0.8.3",
+      "commit": "3633fcf240b11563046b41441ee6fae1be2ad61e",
+      "timestamp": 1793552210,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "803efd11eba2e3241370e45951cd4a1ef2535cc323d73041e2452ac997f12b0c": [
     {
       "repository": "https://github.com/Crazyphil/digitales-amt-liberator.git",
@@ -139447,6 +139687,21 @@
       "tag": "v1.2.1",
       "commit": "bfea88678969ab08baac6136c596b5f9953010c6",
       "timestamp": 1790884315,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "a12a82be3a90dab7a1f2812fa1185acca9acc531395c7e6abc1d25a280d33e0c": [
+    {
+      "repository": "https://github.com/k4ustu3h/monocons-android.git",
+      "apk_url": "https://github.com/k4ustu3h/monocons-android/releases/download/v1.3.0/Monocons.1.3.0.release.Izzy.apk",
+      "appid": "k4ustu3h.monocons.izzy",
+      "version_code": 11,
+      "version_name": "1.3.0",
+      "tag": "v1.3.0",
+      "commit": "b7ca32919c27887082af028eac81a726fea6e227",
+      "timestamp": 1793563077,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -143712,6 +143967,21 @@
       "maintainer_notes": null
     }
   ],
+  "e12262fb1a60c5658ea8c39ca71fa8969a94768e44e981a76b65312fe636a239": [
+    {
+      "repository": "https://github.com/TrackerControl/tracker-control-android.git",
+      "apk_url": "https://github.com/TrackerControl/tracker-control-android/releases/download/2026110101/TrackerControl-githubRelease-latest.apk",
+      "appid": "net.kollnig.missioncontrol",
+      "version_code": 2026110101,
+      "version_name": "2026.11.01",
+      "tag": "2026110101",
+      "commit": "5881be5ae5696d1d5a92d4526faa0fd853626265",
+      "timestamp": 1793563403,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "60ac1dd606f1f0c51d317c57cf9611a9b03d8b82207de2f9e56a6e4913e0c601": [
     {
       "repository": "https://github.com/ohmae/dms-explorer.git",
@@ -143797,6 +144067,21 @@
       "tag": "v1.2.25",
       "commit": "79bc9641d15f971f0b05e7bb7218653ef71c19a8",
       "timestamp": 1772826917,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "3ce1235b9a9d6235df1a53f935a1a62fe562b327034abe531a8a0ed0220ef438": [
+    {
+      "repository": "https://github.com/nhirokinet/bluelineconsole.git",
+      "apk_url": "https://github.com/nhirokinet/bluelineconsole/releases/download/v1.2.26/bluelineconsole-1.2.26.apk",
+      "appid": "net.nhiroki.bluelineconsole",
+      "version_code": 45,
+      "version_name": "1.2.26",
+      "tag": "v1.2.26",
+      "commit": "cce537636648c054cf8bc7627c8f553399260aa2",
+      "timestamp": 1793546976,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -156907,6 +157192,21 @@
       "tag": "v2026.10.30",
       "commit": "7960b57f2efe15e7e899c2c4fee0f1b5e476ae35",
       "timestamp": 1793389966,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "176300b06069c7afc87b045606003896cd57fcc4620a3b88a5b89384a6881f8a": [
+    {
+      "repository": "https://github.com/KashCal/KashCal.git",
+      "apk_url": "https://github.com/KashCal/KashCal/releases/download/v2026.11.01/KashCal-2026.11.01-release.apk",
+      "appid": "org.onekash.kashcal",
+      "version_code": 815,
+      "version_name": "2026.11.01",
+      "tag": "v2026.11.01",
+      "commit": "fe58d81da570a957ce2b7bf3daebe0397bdd0717",
+      "timestamp": 1793564116,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
