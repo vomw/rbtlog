@@ -1,6 +1,8 @@
 ---
 repository: https://github.com/yume-chan/VolumeManager.git
 updates: releases
+notes:
+  - 'FIXME: RB fails, no response from dev yet; update blocked in our repo as well due to added AccessibilityService; see https://github.com/yume-chan/VolumeManager/issues/76 '
 versions:
   - tag: v0.2
     apks:
