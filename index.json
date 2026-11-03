@@ -56632,6 +56632,21 @@
       "maintainer_notes": null
     }
   ],
+  "3758d8120012dad8847200663ac038bbf29693969390e674c7ef90af2993a1af": [
+    {
+      "repository": "https://github.com/googol-apps/OnePlayer.git",
+      "apk_url": "https://github.com/googol-apps/OnePlayer/releases/download/v1.7.8/app-community-release-unsigned-signed.apk",
+      "appid": "com.googol.android.apps.oneplayer",
+      "version_code": 48,
+      "version_name": "1.7.8-foss",
+      "tag": "v1.7.8",
+      "commit": "c058fee51e4a3cc936b7111bf4ad57f5dcb7c6cf",
+      "timestamp": 1793710698,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "5ae7fda0141d70e2559e6c6f05e8897719618077f7614271ac40ed311518c8e1": [
     {
       "repository": "https://github.com/madeofpendletonwool/PinePods.git",
@@ -87772,6 +87787,21 @@
       "tag": "2.5",
       "commit": "3218e2f20b52a8ba6b3d1dbad5ad810036ce4971",
       "timestamp": 1791557777,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "f7681a3695b33b9758cf49caa2a54e7242f13112633fa5e9aa04030152f518b1": [
+    {
+      "repository": "https://github.com/Sav22999/sav-pdf-viewer-pro.git",
+      "apk_url": "https://github.com/Sav22999/sav-pdf-viewer-pro/releases/download/2.5.2/app-arm64-v8a-release.apk",
+      "appid": "com.saverio.pdfviewer",
+      "version_code": 833,
+      "version_name": "2.5.2",
+      "tag": "2.5.2",
+      "commit": "620f98878ae809b7daa08a2dc0fa2776030ced83",
+      "timestamp": 1793658137,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
