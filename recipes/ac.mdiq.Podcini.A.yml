@@ -802,3 +802,35 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v12.18.0
+    apks:
+      - apk_pattern: Podcini.A-free-legacy-arm64-v8a-.*\.apk
+        apk_url: https://github.com/XilinJia/Podcini.A/releases/download/v12.18.0/Podcini.A-free-legacy-arm64-v8a-12.18.0.apk
+        build:
+          - sed -ri '/foojay/d ; /toolchainVendor/d' gradle/gradle-daemon-jvm.properties
+          - sed -r '/signingConfigs\["releaseConfig"\]/d ; /create\("releaseConfig"\) \{/,/^        \}/d ; /wearable/d' -i app/build.gradle.kts
+          - chmod +x gradlew
+          - ./gradlew assembleFreeLegacyRelease
+          - find . -name '*.apk'
+          - mv app/build/exported-apks/freeLegacyRelease/Podcini.A-free-legacy-arm64-v8a*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages: []
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk: 29.0.14206865
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true

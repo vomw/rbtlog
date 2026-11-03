@@ -1967,3 +1967,43 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v0.13.1
+    apks:
+      - apk_pattern: storii-.*-arm64\.apk
+        apk_url: https://github.com/likhithpraveenk/storii/releases/download/v0.13.1/storii-v0.13.1-arm64.apk
+        build:
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter:\s\^?([0-9.]+)\s*$/\1/p' pubspec.yaml)"
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' ${PUB_CACHE}/hosted/*/jni-*/src/CMakeLists.txt
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/*arm64*.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/storii/storii
+        build_timeout: 30
+        build_user: runner
+        modules:
+          - name: android-ndk
+            commit: b1a0f2c58acd070f7d9afaa2c948ef99a272cc47
+            version: 28.2.13676358
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false

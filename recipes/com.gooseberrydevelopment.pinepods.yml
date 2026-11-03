@@ -1,6 +1,9 @@
 ---
 repository: https://github.com/madeofpendletonwool/PinePods.git
 updates: releases
+notes:
+  - NDK 28.2 pre-cached as Flutter uses it
+  - starting with 0.9.1, flutter build needs to be run twice due to android-37 and AGP 8.11.1
 versions:
   - tag: 0.8.0
     apks:
@@ -145,6 +148,48 @@ versions:
             version: '20.0'
             url: https://dl.google.com/android/repository/commandlinetools-linux-14742923_latest.zip
             sha256: 04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7
+          extra_packages:
+            - curl
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
+  - tag: 0.9.1
+    apks:
+      - apk_pattern: pinepods-arm64.*\.apk
+        apk_url: https://github.com/madeofpendletonwool/PinePods/releases/download/0.9.1/pinepods-arm64-0.9.1.apk
+        build:
+          - sed -r '/signingConfigs.release/d' -i mobile/android/app/build.gradle
+          - FLUTTER_VERSION="$(sed -rn 's/^\s*flutter-version:\ .([0-9\.]*).*?/\1/p' .github/workflows/build-android-flutter.yml | head -n 1)"
+          - cd mobile
+          - echo -e "keyAlias=keyAlias\nkeyPassword=keyPassword\nstorePassword=storePassword" > android/key.properties
+          - git clone -b $FLUTTER_VERSION https://github.com/flutter/flutter
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - flutter/bin/flutter config --no-analytics
+          - flutter/bin/flutter pub get
+          - flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64 || flutter/bin/flutter build apk --release --split-per-abi --target-platform=android-arm64
+          - find . -name '*.apk'
+          - mv build/app/outputs/flutter-apk/app-arm64-v8a-release.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/PinePods/PinePods
+        build_timeout:
+        build_user: build
+        modules:
+          - name: android-ndk
+            commit: b1a0f2c58acd070f7d9afaa2c948ef99a272cc47
+            version: 28.2.13676358
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
           extra_packages:
             - curl
           image: debian:bookworm-slim
