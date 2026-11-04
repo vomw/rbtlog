@@ -13137,6 +13137,21 @@
       "maintainer_notes": null
     }
   ],
+  "7d32ec2ad23777f352d2d1463b616d368ba12e99cc1097ce0f2f43e0ad6f7a22": [
+    {
+      "repository": "https://github.com/bitscoper/bitscoper_cyberkit.git",
+      "apk_url": "https://github.com/bitscoper/bitscoper_cyberkit/releases/download/v2026.11.3%2B20261103/Bitscoper_CyberKit-ARM64_V8A-Signed.apk",
+      "appid": "bitscoper.bitscoper_cyberkit",
+      "version_code": 20263103,
+      "version_name": "2026.11.3",
+      "tag": "v2026.11.3+20261103",
+      "commit": "249dcead287d4dd1c915c56ec13ebba238726791",
+      "timestamp": 1793800453,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "cf17b260fb6d20b0bd64b0eb57eb2092fbd789729d20aec13c594f41eacc12b8": [
     {
       "repository": "https://github.com/vbresan/HealthyBatteryCharging.git",
@@ -33092,6 +33107,21 @@
       "maintainer_notes": null
     }
   ],
+  "fc471368c390895cbb782acefc6ad70b7bb1b14260ceb7cc4e9208d1a5040a2c": [
+    {
+      "repository": "https://github.com/davidtakac/bura.git",
+      "apk_url": "https://github.com/davidtakac/bura/releases/download/1.9.3/bura-1.9.3.apk",
+      "appid": "com.davidtakac.bura",
+      "version_code": 22,
+      "version_name": "1.9.3",
+      "tag": "1.9.3",
+      "commit": "5812bb2ff9df72a406b734756c21263179f4447c",
+      "timestamp": 1793801299,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "6cc7bbabe6c54194ff934936fab5427acba671c0163946236288dfca0f6d8038": [
     {
       "repository": "https://github.com/DD3Boh/OuterTune.git",
@@ -38575,6 +38605,21 @@
       "tag": "v1.4.1",
       "commit": "525c8653e62e5d40641a1136b94be71926a12b6c",
       "timestamp": 1785247531,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "4909d3b62be9fd3592209fd1ff260e97e7dba94e420c64b863fe9da5a40c57d1": [
+    {
+      "repository": "https://github.com/Baltasarq/nadamillas.git",
+      "apk_url": "https://github.com/Baltasarq/nadamillas/releases/download/v1.4.1.20261104/nadamillas-1.4.1.20261104.apk",
+      "appid": "com.devbaltasarq.nadamillas",
+      "version_code": 39,
+      "version_name": "1.4.1.20261104",
+      "tag": "v1.4.1.20261104",
+      "commit": "99bde6d2999d3c4c462c2232cf6d03b9e191968a",
+      "timestamp": 1793801420,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -46283,6 +46328,21 @@
       "tag": "v2.9.5",
       "commit": "8e997b3c31d52cdee4643a6eb7a12ef551b1dee8",
       "timestamp": 1793310764,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "9510139412b113a1b4673de2ae7e9c8896db2af03a19459bdbf0f917360e2028": [
+    {
+      "repository": "https://github.com/NeatCode-Labs/fixupxer.git",
+      "apk_url": "https://github.com/NeatCode-Labs/fixupxer/releases/download/v2.10.0/FixupXer-v2.10.0-release.apk",
+      "appid": "com.fixupxer",
+      "version_code": 61,
+      "version_name": "2.10.0",
+      "tag": "v2.10.0",
+      "commit": "0763b35d518ab175d761a6f957b18fc83ddd8db1",
+      "timestamp": 1793820225,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -56747,6 +56807,21 @@
       "tag": "v1.7.8",
       "commit": "c058fee51e4a3cc936b7111bf4ad57f5dcb7c6cf",
       "timestamp": 1793710698,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "37abe43394a3cfcbd6a0581e39570dfb64a618398c5b7d97fb95ba764df7ad57": [
+    {
+      "repository": "https://github.com/googol-apps/OnePlayer.git",
+      "apk_url": "https://github.com/googol-apps/OnePlayer/releases/download/v1.7.9/app-community-release-unsigned-signed.apk",
+      "appid": "com.googol.android.apps.oneplayer",
+      "version_code": 49,
+      "version_name": "1.7.9-foss",
+      "tag": "v1.7.9",
+      "commit": "577588dceb15e0605cf95d95782d7e6d1c5ecd09",
+      "timestamp": 1793820647,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -77502,6 +77577,21 @@
       "maintainer_notes": null
     }
   ],
+  "dc412c88e5ab2b65267b13f2fd9995872c5bd4ae93d00927cda1a26494422cbc": [
+    {
+      "repository": "https://github.com/omaawr/tuisku.git",
+      "apk_url": "https://github.com/omaawr/tuisku/releases/download/1.4.0-1/app-release.apk",
+      "appid": "com.omaawr.tuisku",
+      "version_code": 28,
+      "version_name": "1.4.0-1",
+      "tag": "1.4.0-1",
+      "commit": "b7b2bbae01faf8fca953e51585eeda5f55eb083c",
+      "timestamp": 1793801510,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "602083b61cc762231215f14d370bbfd2c8ff07edd63023fd026f60617b67eaa6": [
     {
       "repository": "https://github.com/omardotdev/lumi.git",
@@ -96651,6 +96741,21 @@
       "maintainer_notes": null
     }
   ],
+  "df346681d89fd0dad7971d3b2cc2e5b05d0d2da849609ea9f5033b19bc9cd2a5": [
+    {
+      "repository": "https://github.com/leon-cleaning-services/leon.git",
+      "apk_url": "https://github.com/leon-cleaning-services/leon/releases/download/v73.0.0/androidApp-release.apk",
+      "appid": "com.svenjacobs.app.leon",
+      "version_code": 294,
+      "version_name": "73",
+      "tag": "v73.0.0",
+      "commit": "ee8df9b6b7f9d0e086b78c6cda1440e4cb605b65",
+      "timestamp": 1793801666,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "19561cbc9848ff879b315565e88bb5225b378f618b5ea05f3624a1f76cefeee6": [
     {
       "repository": "https://github.com/sweakpl/qralarm-android.git",
@@ -100006,6 +100111,21 @@
       "tag": "v2.5.2",
       "commit": "0467493ecd33db712b0d22798e8f18d57ee57705",
       "timestamp": 1793279156,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "ccde93a8fcd201a98c133ecba4a17937fc8f5bdaefa5160d3599bf62988b22a8": [
+    {
+      "repository": "https://github.com/ohuc/CaffeineHealth.git",
+      "apk_url": "https://github.com/ohuc/CaffeineHealth/releases/download/v2.6.0/app-release.apk",
+      "appid": "com.uc.caffeine",
+      "version_code": 18,
+      "version_name": "2.6.0",
+      "tag": "v2.6.0",
+      "commit": "2f7e3e5eb0138da75c397d6aa35723756f29a582",
+      "timestamp": 1793802593,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null
@@ -122930,6 +123050,21 @@
       "maintainer_notes": null
     }
   ],
+  "93ddf230d23c0f32b02a0c529729e1f4d0b16b802f63293229fea0605d390c91": [
+    {
+      "repository": "https://github.com/uintdev/qrserv.git",
+      "apk_url": "https://github.com/uintdev/qrserv/releases/download/v4.4.0/app-release.apk",
+      "appid": "dev.uint.qrserv",
+      "version_code": 2079,
+      "version_name": "4.4.0",
+      "tag": "v4.4.0",
+      "commit": "13593a9c9020db3e6f52443ee962dd7ab232f317",
+      "timestamp": 1793802126,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
   "d94fd3a7997a4290ad6f2c47b4b55121836185d04138258a18d6146cf6011d92": [
     {
       "repository": "https://gitlab.com/yaky/android-usb-cam-viewer.git",
@@ -136942,6 +137077,21 @@
       "tag": "v0.1.103",
       "commit": "16f92e8d75fd68068daa27aaddf9829ed6a0fc42",
       "timestamp": 1793562120,
+      "reproducible": true,
+      "error": null,
+      "maintainer_notes": null
+    }
+  ],
+  "aa03c2ee742a02045cfa64305cb15e0cbaf1004e2f11c8275529a7f42dfa5b67": [
+    {
+      "repository": "https://github.com/sak96/read_later.git",
+      "apk_url": "https://github.com/sak96/read_later/releases/download/v0.1.104/app-arm64-release.apk",
+      "appid": "io.github.sak.read.it.later",
+      "version_code": 1104,
+      "version_name": "0.1.104",
+      "tag": "v0.1.104",
+      "commit": "982d73136261971da1895dd89f664ce6f57781fb",
+      "timestamp": 1793821156,
       "reproducible": true,
       "error": null,
       "maintainer_notes": null

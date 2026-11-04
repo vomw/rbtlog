@@ -347,3 +347,39 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: true
+  - tag: v2.6.0
+    apks:
+      - apk_pattern: app-release\.apk
+        apk_url: https://github.com/ohuc/CaffeineHealth/releases/download/v2.6.0/app-release.apk
+        build:
+          - ./gradlew assembleRelease
+          - find . -name '*.apk'
+          - OUT=app/build/outputs/apk/foss/release/app-foss-release-unsigned.apk
+          - reproducible-apk-tools/inplace-fix.py --internal --page-size 16 fix-newlines "$OUT" 'assets/consumable_items.json'
+          - mv "$OUT" /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /build
+        build_repo_dir: /build/repo
+        build_timeout:
+        build_user: build
+        modules:
+          - name: repro-apk
+            commit: b1a0f2c58acd070f7d9afaa2c948ef99a272cc47
+            version: v0.3.2
+        provisioning:
+          android_home: /opt/sdk
+          build_tools:
+          cmake:
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - python3
+          image: debian:bookworm-slim
+          jdk: openjdk-17-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: true
