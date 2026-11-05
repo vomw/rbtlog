@@ -302,3 +302,46 @@ versions:
           platform_tools:
           tools:
           verify_gradle_wrapper: false
+  - tag: v1.15.9
+    apks:
+      - apk_pattern: app-izzy-arm64-v8a-release\.apk
+        apk_url: https://github.com/deckerst/aves/releases/download/v1.15.9/app-izzy-arm64-v8a-release.apk
+        build:
+          - echo "ndk.dir=${ANDROID_NDK}" >> local.properties
+          - sed -r '/signingConfigs.getByName/d ; /signingConfigs \{/,/^    \}/d' -i android/app/build.gradle.kts
+          - export PUB_CACHE=$(pwd)/.pub-cache
+          - export AVES_GOOGLE_API_KEY=AIzaSyC8j4nTi9XVyX2styL6ljfXM8N1Qc0jcXI
+          - ./flutterw config --no-analytics
+          - ./flutterw pub get
+          - sed -i -e 's/-Wl,/-Wl,--build-id=none,/' ${PUB_CACHE}/hosted/*/jni-*/src/CMakeLists.txt
+          - ./flutterw gen-l10n
+          - scripts/apply_flavor_izzy.sh
+          - ./flutterw build apk -t lib/main_izzy.dart --flavor izzy --split-per-abi
+          - find . -name '*.apk'
+          - mv build/app/outputs/apk/izzy/release/app-izzy-arm64-v8a-release-unsigned.apk /outputs/unsigned.apk
+        build_cpus:
+        build_home_dir: /home/runner
+        build_repo_dir: /home/runner/work/aves/aves
+        build_timeout: 40
+        build_user: runner
+        modules:
+          - name: android-ndk
+            commit: b1a0f2c58acd070f7d9afaa2c948ef99a272cc47
+            version: 28.2.13676358
+        provisioning:
+          android_home: /usr/local/lib/android/sdk
+          build_tools:
+          cmake: 3.31.6
+          cmdline_tools:
+            version: '22.0'
+            url: https://dl.google.com/android/repository/commandlinetools-linux-15859902_latest.zip
+            sha256: 4e4c464f145a7512b57d088ac6c278c03c9eea610886b35a5e0804e74eedf583
+          extra_packages:
+            - curl
+          image: ubuntu:noble
+          jdk: openjdk-21-jdk-headless
+          ndk:
+          platform:
+          platform_tools:
+          tools:
+          verify_gradle_wrapper: false
